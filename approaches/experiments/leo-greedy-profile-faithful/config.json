@@ -1,0 +1,22 @@
+{
+  "name": "Leo: profile-faithful relevance expanded greedily to every clause on each relevant page, with exactly one output requirement per clause",
+  "source": "clauses",
+  "select": {
+    "method": "combined"
+  },
+  "filter": {
+    "method": "llm",
+    "effort": "medium",
+    "candidates": "shall+implicit",
+    "exclude_labels": ["Table", "Figure", "Appendix"]
+  },
+  "n": 0,
+  "write": {
+    "effort": "medium",
+    "prompt": "greedy-faithful-one-per-clause"
+  },
+  "profile": true,
+  "expand_relevant_pages": true,
+  "llm_cache_dir": "approaches/experiments/leo-greedy-profile-faithful/.cache-sonnet-5-5",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Context-aware clause selection with structured applicability and non-shall recovery",
+  "models": {
+    "product": "claude-sonnet-5-5",
+    "classification": "claude-sonnet-5-5",
+    "strict_writer": "claude-sonnet-5-5",
+    "soft_ranker": "claude-sonnet-5-5"
+  },
+  "pricing_usd_per_million_tokens": {
+    "input": 2.0,
+    "output": 10.0,
+    "cache_write": 2.5,
+    "cache_read": 0.1,
+    "source": "https://www.anthropic.com/claude-sonnet-5-5",
+    "verified": "2026-10-24"
+  },
+  "regulation_selection": {
+    "method": "combined"
+  },
+  "context": {
+    "ancestor_depth": 3,
+    "nearby_before": 1,
+    "nearby_after": 1,
+    "resolve_cross_references": true,
+    "max_references": 8,
+    "max_context_chars": 12000
+  },
+  "classification": {
+    "batch_size": 6,
+    "workers": 6,
+    "effort": "medium",
+    "retain": ["APPLICABLE", "CONDITIONAL", "UNCERTAIN"]
+  },
+  "recovery": {
+    "enabled": true,
+    "include_quantitative": true,
+    "include_cross_references": true,
+    "include_tables": true
+  },
+  "writer": {
+    "prompt": "strict",
+    "effort": "medium"
+  },
+  "ranker": {
+    "mode": "rank",
+    "drop_at_or_below": 1,
+    "effort": "medium"
+  },
+  "baseline": "../devansh-llm-clause-filter-writer-ranked/outputs",
+  "team_id": "regulation-tl"
+}

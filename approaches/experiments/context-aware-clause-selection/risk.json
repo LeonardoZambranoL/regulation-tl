@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits the regulation-selection rules, strict writer, and rating criteria from devansh-llm-clause-filter-writer-ranked",
+    "the contextual decision categories and non-shall pattern families were motivated by aggregate development error counts, not individual gold requirements"
+  ],
+  "notes": "Inference never reads expected.json. Conditional and uncertain obligations are retained for recall. The non-shall branch scans every clause in the fixed selected regulations using generic normative patterns and document structure, without a semantic top-k. Holdout ACPE has broader administrative answer scope, so its result is supporting evidence only."
+}
