@@ -1,0 +1,1549 @@
+{
+  "regulation": "UN R26",
+  "version": "4.0.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R26 (version 4.0.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope and purpose"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. This Regulation applies to external projections of category M1 vehicles.1 It does not apply to exterior devices\r\nfor indirect vision or to the ball of towing devices.\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.2, para. 2. -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. The purpose of this Regulation is to reduce the risk or seriousness of bodily injury to a person hit by the\r\nbodywork or brushing against it in the event of a collision. This is valid both when the vehicle is stationary and in\r\nmotion."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Approval of a vehicle\" means the approval of a vehicle type with regard to its external projections;"
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Vehicle type\" means a category of motor vehicles which do not differ in such essential respects as, shape or\r\nmaterials of the external surface;"
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"External surface\" means the outside of the vehicle including the bonnet, the lid of the luggage compartment,\r\nthe doors, the wings, the roof, the lighting and light-signalling devices and the visible strengthening components."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4 \"Floor line\" means the line determined as follows:\r\nSuccessively position round a laden vehicle a cone with a vertical axis the height of which is not defined, and with\r\na half angle of 30° in such a way that it contacts, constantly and as low as possible, the external surface of the\r\nvehicle. The floor line is the geometric trace of these points of contact. In determining the floor line, the jacking\r\npoints, exhaust pipes or wheels shall not be taken into consideration. The gaps of the wheel arches are assumed to\r\nbe filled in by an imaginary surface forming a smooth continuation of the surrounding external surface. At both\r\nends of the vehicle the bumper shall be taken into consideration when establishing the floor line. Dependent upon\r\nthe particular vehicle the floor line trace may occur at the bumper section extremity or at the body panel below the\r\nbumper. Where two or more points of contact occur simultaneously, the lower point of contact shall be used to\r\ndetermine the floor line;",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Radius of curvature\" means the radius of the arc of a circle which comes closest to the rounded form of the\r\ncomponent under consideration;"
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Laden vehicle\" means the vehicle laden to the maximum permitted technical mass. Vehicles equipped with\r\nhydropneumatic, hydraulic or pneumatic suspension or a device for automatic levelling according to load shall be\r\ntested with the vehicle in the most adverse normal running condition specified by the manufacturer;"
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Extreme outer edge\" of the vehicle means, in relation to the sides of the vehicle, the plane parallel to the\r\nmedian longitudinal plane of the vehicle coinciding with its outer lateral edge, and, in relation to the front and rear\r\nends, the perpendicular transverse plane of the vehicle coinciding with its outer front and rear edges, account not\r\nbeing taken of the projection:"
+    },
+    {
+      "paragraph": "2.7.1",
+      "pages": [
+        1
+      ],
+      "text": "2.7.1. Of tyres near their point of contact with the ground, and connections for tyre pressure gauges;"
+    },
+    {
+      "paragraph": "2.7.2",
+      "pages": [
+        1
+      ],
+      "text": "2.7.2. Of any anti-skid devices which may be mounted on the wheels;"
+    },
+    {
+      "paragraph": "2.7.3",
+      "pages": [
+        2
+      ],
+      "text": "2.7.3. Of devices for indirect vision;"
+    },
+    {
+      "paragraph": "2.7.4",
+      "pages": [
+        2
+      ],
+      "text": "2.7.4. Of side direction indicator lamps, end outline marker lamps, front and rear position (side) lamps and\r\nparking lamps;"
+    },
+    {
+      "paragraph": "2.7.5",
+      "pages": [
+        2
+      ],
+      "text": "2.7.5. In relation to the front and rear ends, of parts mounted on the bumpers, of towing devices and of exhaust\r\npipes;"
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"The dimension of the projection\" of a component mounted on a panel means the dimension determined by\r\nthe method described in paragraph 2. of Annex 3 to this Regulation;"
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"The nominal line of a panel\" means the line passing through the two points represented by the position of the\r\ncentre of a sphere when its surface makes its first and last contact with a component during the measuring\r\nprocedure described in paragraph 2.2. of Annex 3 to this Regulation;"
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Aerial\" means any device used for transmitting and/or receiving electromagnetic signals;"
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Bumper\" means the front or rear, lower, outer structure of a vehicle. It includes all structures that are\r\nintended to give protection to a vehicle when involved in a low speed frontal or rear collision and also any\r\nattachments to this structure;"
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Bumper cover\" means the non-rigid outer surface of a bumper, generally extending across the full width of\r\nthe front or rear of a vehicle."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. Application for approval of a vehicle type with regard to its external projections"
+    },
+    {
+      "paragraph": "3.1.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1.1. The application for approval of a vehicle type with regard to its external projections shall be submitted by\r\nthe vehicle manufacturer or by his duly accredited representative."
+    },
+    {
+      "paragraph": "3.1.2",
+      "pages": [
+        2
+      ],
+      "text": "3.1.2. It shall be accompanied by the following documents in triplicate:"
+    },
+    {
+      "paragraph": "3.1.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1.2.1. Photographs of the front, rear, and side parts of the vehicle taken at an angle of 30° to 45° to the vertical\r\nlongitudinal median plane of the vehicle;"
+    },
+    {
+      "paragraph": "3.1.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.1.2.2. Drawings with dimensions of the bumpers and, where appropriate,"
+    },
+    {
+      "paragraph": "3.1.2.3",
+      "pages": [
+        2
+      ],
+      "text": "3.1.2.3. Drawings of certain external projections and if applicable drawings of certain sections of the external\r\nsurface referred to in 6.9.1."
+    },
+    {
+      "paragraph": "3.1.3",
+      "pages": [
+        2
+      ],
+      "text": "3.1.3. A vehicle representative of the type of vehicle to be approved shall be submitted to the Technical Service\r\nresponsible for conducting the approval tests. At the request of the aforesaid Technical Service, certain\r\ncomponents and certain samples of the material used shall likewise be submitted."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. Application for type approval with regard to luggage racks, ski racks or radio receiving or transmitting aerials\r\nconsidered to be separate technical units"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1. Application for type approval with regard to luggage racks, ski racks or radio receiving or transmitting\r\naerials considered to be separate technical units shall be submitted by the vehicle manufacturer or the\r\nmanufacturer of the aforementioned separate technical units, or by their duly accredited representative;"
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2. For every type of any one of the devices referred to in paragraph 3.2.1. above, the application shall be\r\naccompanied by the following:"
+    },
+    {
+      "paragraph": "3.2.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2.1. Triplicate copies of documents specifying the technical characteristics of the separate technical unit and\r\nthe assembly instructions to be supplied with every separate technical unit sold;"
+    },
+    {
+      "paragraph": "3.2.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2.2. A specimen of the type of separate technical unit. Should the responsible authority consider it necessary, it\r\nmay request a further specimen."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. Approval of a vehicle type with regard to its external projections"
+    },
+    {
+      "paragraph": "4.1.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1.1. If the vehicle type submitted for approval pursuant to this Regulation meets the requirements of paragraphs\r\n5. and 6. below, approval of that vehicle type shall be granted.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.1.2",
+      "pages": [
+        3
+      ],
+      "text": "4.1.2. An approval number shall be assigned to each vehicle type approved. Its first two digits (at present 03,\r\ncorresponding to the 03 series of amendments) shall indicate the series of amendments incorporating the most\r\nrecent major technical amendments made to the Regulation at the time of issue of the approval. The same\r\nContracting Party may not assign the same number to another vehicle type."
+    },
+    {
+      "paragraph": "4.1.3",
+      "pages": [
+        3
+      ],
+      "text": "4.1.3. Notice of approval or of extension or refusal or withdrawal of approval or production definitively\r\ndiscontinued of a vehicle type pursuant to this Regulation shall be communicated to the Parties to the 1958\r\nAgreement applying this Regulation by means of a communication form conforming to the model in Annex 1 to\r\nthis Regulation."
+    },
+    {
+      "paragraph": "4.1.4",
+      "pages": [
+        3
+      ],
+      "text": "4.1.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:\r\n4.1.4.1.. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has\r\ngranted approval;2\r\n\r\n\r\n2The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.2/Amend.3 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "4.1.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.1.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.1.4.1. above."
+    },
+    {
+      "paragraph": "4.1.5",
+      "pages": [
+        3
+      ],
+      "text": "4.1.5. If the vehicle conforms to a vehicle type approved, under one or more other Regulations annexed to the\r\nAgreement, in the country which has granted approval under this Regulation the symbol prescribed in paragraph\r\n4.1.4.1. need not be repeated; in such a case the additional numbers and symbols of all the Regulations under\r\nwhich approval has been granted in the country which has granted approval under this Regulation shall be placed\r\nin vertical columns to the right of the symbol prescribed in paragraph 4.1.4.l.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.1.6",
+      "pages": [
+        3
+      ],
+      "text": "4.1.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.1.7",
+      "pages": [
+        3
+      ],
+      "text": "4.1.7. The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "4.1.8",
+      "pages": [
+        3
+      ],
+      "text": "4.1.8. Annex 2 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "4.1.9",
+      "pages": [
+        3
+      ],
+      "text": "4.1.9. The Type Approval Authority shall verify the existence of satisfactory arrangements for ensuring effective\r\ncontrol of the conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. Approval with regard to luggage racks, ski racks or radio receiving or transmitting aerials considered to be\r\nseparate technical units"
+    },
+    {
+      "paragraph": "4.2.1",
+      "pages": [
+        3
+      ],
+      "text": "4.2.1. If the type of separate technical unit submitted for approval pursuant to this Regulation meets the\r\nrequirements of paragraphs 6.16., 6.17. and 6.18. below, approval of that type of separate technical unit shall be\r\ngranted."
+    },
+    {
+      "paragraph": "4.2.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2. An approval number shall be assigned to each type of separate technical unit approved. Its first two digits\r\n(at present 03 corresponding to the 03 series of amendments which entered into force on 23 June 2005) shall\r\nindicate the series of amendments incorporating the most recent major technical amendments made to the\r\nRegulation at the time of issue of the approval. The same Contracting Party may not assign the same number to\r\nanother type of separate technical unit."
+    },
+    {
+      "paragraph": "4.2.3",
+      "pages": [
+        4
+      ],
+      "text": "4.2.3. Notice of approval, or of extension or refusal or withdrawal of approval or production definitively\r\ndiscontinued, of a type of separate technical unit pursuant to this Regulation shall be communicated to the Parties\r\nto the 1958 Agreement applying this Regulation by means of a communication form conforming to the model in\r\nAnnex 4 to this Regulation."
+    },
+    {
+      "paragraph": "4.2.4",
+      "pages": [
+        4
+      ],
+      "text": "4.2.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery separate technical unit conforming to a type approved under this Regulation, an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.2.4.1",
+      "pages": [
+        4
+      ],
+      "text": "4.2.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has\r\ngranted approval;2"
+    },
+    {
+      "paragraph": "4.2.4.2",
+      "pages": [
+        4
+      ],
+      "text": "4.2.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.2.4.1."
+    },
+    {
+      "paragraph": "4.2.5",
+      "pages": [
+        4
+      ],
+      "text": "4.2.5. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.2.6",
+      "pages": [
+        4
+      ],
+      "text": "4.2.6. The approval mark shall be placed close to or on the separate technical unit data plate affixed by the\r\nmanufacturer."
+    },
+    {
+      "paragraph": "4.2.7",
+      "pages": [
+        4
+      ],
+      "text": "4.2.7. Annex 2 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "4.2.8",
+      "pages": [
+        4
+      ],
+      "text": "4.2.8. The Type Approval Authority shall verify the existence of satisfactory arrangements for ensuring effective\r\ncontrol of conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. General speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle\r\nin the laden condition, with all doors, windows and access lids etc., in the closed position, are either:"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.1. At a height of more than 2 metres, or"
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2. Below the floor line, or"
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.3. So located that, in their static condition as well as when in operation, they cannot be contacted by a sphere\r\n100 mm in diameter.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2. The external surface of vehicles shall not exhibit, directed outwards, any pointed or sharp parts or any\r\nprojections of such shape, dimensions, direction or hardness as to be likely to increase the risk or seriousness of\r\nbodily injury to a person hit by the external surface or brushing against it in the event of a collision."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        4
+      ],
+      "text": "5.3. The external surface of vehicles shall not exhibit, directed outwards, any part likely to catch on pedestrians,\r\ncyclists or motor cyclists."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        4
+      ],
+      "text": "5.4. No protruding part of the external surface shall have a radius of curvature less than 2.5 mm. This requirement\r\nshall not apply to parts of the external surface which protrude less than 5 mm, but the outward facing angles of\r\nsuch parts shall be blunted, save where such parts protrude less than 1.5 mm."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        4
+      ],
+      "text": "5.5. Protruding parts of the external surface, made of a material of hardness not exceeding 60 shore A, may have a\r\nradius of curvature less than 2.5 mm.\r\nThe hardness measurement shall be taken with the component as installed on the vehicle. Where it is impossible\r\nto carry out a hardness measurement by the Shore A procedure, comparable measurements shall be used for\r\nevaluation."
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        4
+      ],
+      "text": "5.6. The provisions of the above paragraphs 5.1. to 5.5. shall apply in addition to the particular specifications of\r\nthe following paragraph 6., except where these particular specifications expressly provide otherwise."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        5
+      ],
+      "text": "6. Particular speciﬁcations"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        5
+      ],
+      "text": "6.1. Ornaments"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        5
+      ],
+      "text": "6.1.1. Added ornaments which project more than 10 mm from their support shall retract, become detached or bend\r\nover under a force of 10 daN exerted at their most salient point in any direction in a plane approximately parallel\r\nto the surface on which they are mounted. These provisions shall not apply to ornaments on radiator grilles, to\r\nwhich only the general requirements of paragraph 5. shall apply.\r\nTo apply the 10 daN force a flat-ended ram of not more than 50 mm diameter shall be used. Where this is not\r\npossible, an equivalent method shall be used. After the ornaments are retracted, detached or bent over, the\r\nremaining projections shall not project more than 10 mm. These projections shall in any case satisfy the\r\nprovisions of paragraph 5.2. If the ornament is mounted on a base, this base is regarded as belonging to the\r\nornament and not to the supporting surface."
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        5
+      ],
+      "text": "6.1.2. Protective strips or shielding on the external surface shall not be subject to the requirements of paragraph\r\n6.1.1. above; however, they shall be firmly secured to the vehicle.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2. Headlights"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        5
+      ],
+      "text": "6.2.1. Projecting visors and rims shall be permitted on headlights, provided that their projection, as measured in\r\nrelation to the external transparent surface of the headlight does not exceed 30 mm and their radius of curvature is\r\nat least 2.5 mm throughout.\r\nIn the case of a headlamp mounted behind an additional transparent surface, the projection shall be measured from\r\nthe outermost transparent surface. The projections shall be determined according to the method described in\r\nparagraph 3. of Annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2.2. Retracting headlights shall meet the provisions of paragraph 6.2.1. above in both the operative and retracted\r\npositions."
+    },
+    {
+      "paragraph": "6.2.3",
+      "pages": [
+        5
+      ],
+      "text": "6.2.3. The provisions of paragraph 6.2.1. above do not apply to headlamps which are sunk into the bodywork or\r\nwhich are \"overhung\" by the bodywork, if the latter complies with the requirements of paragraph 6.9.1. below."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        5
+      ],
+      "text": "6.3. Grilles and gaps"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        5
+      ],
+      "text": "6.3.1. The requirements of paragraph 5.4. above shall not apply to gaps between fixed or movable elements,\r\nincluding those forming part of air intake or outlet grilles and radiator grilles, provided that the distance between\r\nconsecutive elements does not exceed 40 mm and provided that the grilles and gaps have a functional purpose.\r\nFor gaps of between 40 mm and 25 mm the radii of curvature shall be 1 mm or more. However, if the distance\r\nbetween two consecutive elements is equal to or less than 25 mm, the radii of curvature of external faces of the\r\nelements shall not be less than 0.5 mm. The distance between two consecutive elements of grilles and gaps shall\r\nbe determined according to the method described in paragraph 4. of Annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        5
+      ],
+      "text": "6.3.2. The junction of the front with the side faces of each element forming a grille or gap shall be blunted."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        5
+      ],
+      "text": "6.4. Windscreen wipers"
+    },
+    {
+      "paragraph": "6.4.1",
+      "pages": [
+        5
+      ],
+      "text": "6.4.1. The windscreen wiper fittings shall be such that the wiper shaft (number 1 in Figure 0) is furnished with a\r\nprotective casing (number 1.1 in Figure 0) which has a radius of curvature meeting the requirements of paragraph\r\n5.4. above and an end surface area of not less than 150 mm². The holder (head and main part, i.e. numbers 2, 2.1\r\nin Figure 0) are designed with a radius of curvature meeting the requirements of paragraph 5.4. above. In the case\r\nof rounded covers, these shall have a minimum projected area of 150 mm² when measured not more than 6.5 mm\r\nfrom the point projecting furthest. These requirements shall also be met by rear window wipers and headlamp\r\nwipers.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.4.2",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "6.4.2. Paragraph 5.4. shall not apply to the wiper blades (number 4 in Figure 0), supporting members (number 3 in\r\nFigure 0) if present, to second holder (number 2.2 in Figure 0) if present, to the functional hinge between the\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nholder head and the holder (number 5 in Figure 0) if present, or to the junction between the main and the second\r\nholder (number 6 in Figure 0) if present. However, these units shall be so made as to have no sharp angles or\r\npointed or cutting parts."
+    },
+    {
+      "paragraph": "Figure 0",
+      "pages": [
+        6
+      ],
+      "text": "Figure 0: Example of parts distribution\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nLegend:\r\n1 Wiper shaft\r\n1.1 Protective casing\r\n2 Holder head\r\n2.1 Main holder\r\n2.2 Second holder\r\n3 Supporting members\r\n4 Wiper blades\r\n5 Functional hinge\r\n6 Junction between the main and second holder\"",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.4.3",
+      "pages": [
+        6
+      ],
+      "text": "6.4.3. Compliance with the provisions in paragraphs 6.4.1 and 6.4.2 shall be verified with the wipers in parked\r\nposition."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        6
+      ],
+      "text": "6.5. Bumpers"
+    },
+    {
+      "paragraph": "6.5.1",
+      "pages": [
+        6
+      ],
+      "text": "6.5.1. The ends of the bumpers shall be turned in towards the external surface in order to minimize the risk of\r\nfouling. This requirement is considered to be satisfied if either the bumper is recessed or integrated within the\r\nbodywork or the end of the bumper is turned in so that it is not contactable by a 100 mm sphere and the gap\r\nbetween the bumper end and the surrounding bodywork does not exceed 20 mm."
+    },
+    {
+      "paragraph": "6.5.2",
+      "pages": [
+        6
+      ],
+      "text": "6.5.2. If the line of the bumper which corresponds to the outline contour of the car vertical projection is on a rigid\r\nsurface, that surface shall have a minimum radius of curvature of 5 mm at all its points lying from the contour line\r\nto 20 mm inward, and a minimum radius of curvature of 2.5 mm in all other cases. This provision applies to that\r\npart of the zone lying from the contour line to 20 mm inward which is situated between and in front (or rear in\r\ncase of the rear bumper) of tangential points with the contour line of two vertical planes each forming with the\r\nlongitudinal plane of symmetry of the vehicle an angle of 15° (see Fig. 1).\r\nFigure 1"
+    },
+    {
+      "paragraph": "6.5.3",
+      "pages": [
+        7
+      ],
+      "text": "6.5.3. The requirement of paragraph 6.5.2. above shall not apply to parts on or of the bumper or to bumper insets\r\nwhich have a projection of less than 5 mm, with special reference to joint covers and jets for headlamp washers;\r\nbut the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm."
+    },
+    {
+      "paragraph": "6.5.4",
+      "pages": [
+        7
+      ],
+      "text": "6.5.4. The requirement of paragraph 6.5.2. above does not apply to the bumper cover. The provisions of paragraph\r\n5. of this Regulation remain applicable.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        7
+      ],
+      "text": "6.6. Handles, hinges and push-buttons of doors, luggage compartments and bonnets; fuel tank filler caps and\r\ncovers"
+    },
+    {
+      "paragraph": "6.6.1",
+      "pages": [
+        7
+      ],
+      "text": "6.6.1. The projection shall not exceed 40 mm in the case of door or luggage compartment handles and 30 mm in\r\nall other cases."
+    },
+    {
+      "paragraph": "6.6.2",
+      "pages": [
+        7
+      ],
+      "text": "6.6.2. If lateral door handles rotate to operate, they shall meet one or other of the following requirements:"
+    },
+    {
+      "paragraph": "6.6.2.1",
+      "pages": [
+        7
+      ],
+      "text": "6.6.2.1. In the case of handles which rotate parallel to the plane of the door, the open end of handles must be\r\ndirected towards the rear. The end of such handles shall be turned back towards the plane of the door and fitted\r\ninto a protective surround or be recessed."
+    },
+    {
+      "paragraph": "6.6.2.2",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "6.6.2.2. Handles which pivot outwards in any direction which is not parallel to the plane of the door shall, when in\r\nthe closed position, be enclosed in a protective surround or be recessed. The open end shall face either rearwards\r\nor downwards.\r\nNevertheless, handles which do not comply with this last condition may be accepted if:\r\n(a) They have an independent return mechanism;\r\n(b) Should the return mechanism fail, they cannot project more than 15 mm;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(c) They comply, in such opened position, with the provisions of paragraph 5.4.; and\r\n(d) Their end surface area, when measured not more than 6.5 mm from the point projecting furthest, is not less\r\nthan 150 mm2."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        8
+      ],
+      "text": "6.7. Wheels, wheel nuts, hub caps and wheel discs"
+    },
+    {
+      "paragraph": "6.7.1",
+      "pages": [
+        8
+      ],
+      "text": "6.7.1. The requirements of paragraph 5.4. above shall not apply."
+    },
+    {
+      "paragraph": "6.7.2",
+      "pages": [
+        8
+      ],
+      "text": "6.7.2. The wheels, wheel nuts, hub caps and wheel discs shall not exhibit any pointed or sharp projections that\r\nextend beyond the external plane of the wheel rim. Wing nuts shall not be allowed."
+    },
+    {
+      "paragraph": "6.7.3",
+      "pages": [
+        8
+      ],
+      "text": "6.7.3. When the vehicle is travelling in a straight line, no part of the wheels other than the tyres, situated above the\r\nhorizontal plane passing through their axis of rotation shall project beyond the vertical projection, in a horizontal\r\nplane of the external surface or structure. However, if functional requirements so warrant, wheel discs which\r\ncover wheel and hub nuts may project beyond the vertical projection of the external surface or structure on\r\ncondition that the radius of curvature of the surface of the projecting part is not less than 30 mm and that the\r\nprojection beyond the vertical projection of the external surface or structure in no case exceeds 30 mm."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        8
+      ],
+      "text": "6.8. Sheet-metal edges"
+    },
+    {
+      "paragraph": "6.8.1",
+      "pages": [
+        8
+      ],
+      "text": "6.8.1. Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are\r\nfolded back or are fitted with a shield meeting the requirements of this Regulation which are applicable to it.\r\nAn unprotected edge shall be considered to be folded back either if it is folded back by approximately 180º, or if it\r\nis folded towards the bodywork in such a manner that it cannot be contacted by a sphere having a diameter of 100\r\nmm.\r\nThe requirements of paragraph 5.4. above shall not apply to the following sheet metal edges: rear edge of bonnet\r\nand front edge of rear luggage boot.\r\nThe rear edge of the bonnet includes the extrapolation of this edge to the left and right (e.g. as upper edge of the\r\nfender or as edge of the a-pillar). This extrapolation is limited laterally by the outermost lateral point of the\r\nwindscreen glass."
+    },
+    {
+      "paragraph": "6.9",
+      "pages": [
+        8
+      ],
+      "text": "6.9. Body-panels"
+    },
+    {
+      "paragraph": "6.9.1",
+      "pages": [
+        8
+      ],
+      "text": "6.9.1. Folds in body panels may have a radius of curvature of less than 2.5 mm provided that it is not less than\r\none-tenth of the height \"H\" of the projection, measured in accordance with the method described in paragraph 1.\r\nof Annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "6.10",
+      "pages": [
+        8
+      ],
+      "text": "6.10. Lateral air or rain deflectors"
+    },
+    {
+      "paragraph": "6.10.1",
+      "pages": [
+        8
+      ],
+      "text": "6.10.1. Lateral deflectors shall have a radius of curvature of at least 1 mm on edges capable of being directed\r\noutwards."
+    },
+    {
+      "paragraph": "6.11",
+      "pages": [
+        8
+      ],
+      "text": "6.11. Jacking brackets and exhaust pipes"
+    },
+    {
+      "paragraph": "6.11.1",
+      "pages": [
+        8
+      ],
+      "text": "6.11.1. The jacking brackets and exhaust pipe(s) shall not project more than 10 mm beyond the vertical projection\r\nof the floor line lying vertically above them. As an exception to this requirement an exhaust pipe may project\r\nmore than 10 mm beyond the vertical projection of the floor line, so long as it terminates in rounded edges, the\r\nminimum radius of curvature being 2.5 mm."
+    },
+    {
+      "paragraph": "6.12",
+      "pages": [
+        8
+      ],
+      "text": "6.12. Air intake and outlet flaps"
+    },
+    {
+      "paragraph": "6.12.1",
+      "pages": [
+        8
+      ],
+      "text": "6.12.1. Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. above in all\r\npositions of use."
+    },
+    {
+      "paragraph": "6.13",
+      "pages": [
+        8
+      ],
+      "text": "6.13. Roof"
+    },
+    {
+      "paragraph": "6.13.1",
+      "pages": [
+        8
+      ],
+      "text": "6.13.1. Opening roofs shall be considered only in the closed position."
+    },
+    {
+      "paragraph": "6.13.2",
+      "pages": [
+        9
+      ],
+      "text": "6.13.2. Convertible vehicles shall be examined with the hood in both the raised and lowered positions."
+    },
+    {
+      "paragraph": "6.13.2.1",
+      "pages": [
+        9
+      ],
+      "text": "6.13.2.1. With the hood lowered, no examination shall be made of the vehicle inside an imaginary surface formed\r\nby the hood when in the raised position."
+    },
+    {
+      "paragraph": "6.13.2.2",
+      "pages": [
+        9
+      ],
+      "text": "6.13.2.2. Where a cover for the linkage of the hood when folded is provided as standard equipment, the\r\nexamination shall be made with the cover in position."
+    },
+    {
+      "paragraph": "6.14",
+      "pages": [
+        9
+      ],
+      "text": "6.14. Windows"
+    },
+    {
+      "paragraph": "6.14.1",
+      "pages": [
+        9
+      ],
+      "text": "6.14.1. Windows which move outwards from the external surface of the vehicle shall comply with the following\r\nprovisions in all positions of use:"
+    },
+    {
+      "paragraph": "6.14.1.1",
+      "pages": [
+        9
+      ],
+      "text": "6.14.1.1. No exposed edge shall face forwards;"
+    },
+    {
+      "paragraph": "6.14.1.2",
+      "pages": [
+        9
+      ],
+      "text": "6.14.1.2. No part of the window shall project beyond the extreme outer edge of the vehicle."
+    },
+    {
+      "paragraph": "6.15",
+      "pages": [
+        9
+      ],
+      "text": "6.15. Registration plate brackets"
+    },
+    {
+      "paragraph": "6.15.1",
+      "pages": [
+        9
+      ],
+      "text": "6.15.1. Supporting brackets provided by the vehicle manufacturer for registration plates shall comply with the\r\nrequirements of paragraph 5.4. of this Regulation if they are contactable by a 100 mm diameter sphere when a\r\nregistration plate is fitted in accordance with the vehicle manufacturer's recommendation."
+    },
+    {
+      "paragraph": "6.16",
+      "pages": [
+        9
+      ],
+      "text": "6.16. Luggage racks and ski racks"
+    },
+    {
+      "paragraph": "6.16.1",
+      "pages": [
+        9
+      ],
+      "text": "6.16.1. Luggage racks and ski racks shall be so attached to the vehicle that positive locking exists in at least one\r\ndirection and that horizontal, longitudinal and transverse forces can be transmitted which are at least equal to the\r\nvertical load-bearing capacity of the rack as specified by its manufacturer. For the test of the luggage rack or ski\r\nrack fixed to the vehicle according to the manufacturer's instructions, the test loads shall not be applied at one\r\npoint only."
+    },
+    {
+      "paragraph": "6.16.2",
+      "pages": [
+        9
+      ],
+      "text": "6.16.2. Surfaces which, after installation of the rack, can be contacted by a sphere of 165 mm diameter shall not\r\nhave parts with a radius of curvature less than 2.5 mm, unless the provisions of paragraph 6.3. can be applied."
+    },
+    {
+      "paragraph": "6.16.3",
+      "pages": [
+        9
+      ],
+      "text": "6.16.3. Fastening elements such as bolts that are tightened or loosened without tools shall not project more than 40\r\nmm beyond the surfaces referred to in paragraph 6.16.2. above, the projection being determined according to the\r\nmethod prescribed in paragraph 2. of Annex 3 to this Regulation, but using a sphere of 165 mm diameter in those\r\ncases where the method prescribed in paragraph 2.2. of this annex is employed."
+    },
+    {
+      "paragraph": "6.17",
+      "pages": [
+        9
+      ],
+      "text": "6.17. Aerials"
+    },
+    {
+      "paragraph": "6.17.1",
+      "pages": [
+        9
+      ],
+      "text": "6.17.1. Radio receiving and transmitting aerials shall be fitted to the vehicle in such a way that if their unattached\r\nend is less than 2 m from the road surface in any position of use specified by the manufacturer of the aerial, it\r\nshall be inside the zone bounded by the vertical planes which are 10 cm inside the extreme outer edge of the\r\nvehicle as defined in paragraph 2.7. of this Regulation."
+    },
+    {
+      "paragraph": "6.17.2",
+      "pages": [
+        9
+      ],
+      "text": "6.17.2. Furthermore, aerials shall be so fitted to the vehicle, and if necessary their unattached ends so restricted,\r\nthat no part of the aerials protrude beyond the extreme outer edge of the vehicle as defined in paragraph 2.7. of\r\nthis Regulation."
+    },
+    {
+      "paragraph": "6.17.3",
+      "pages": [
+        9
+      ],
+      "text": "6.17.3. Shafts of aerials may have radii of curvature of less than 2.5 mm. However, the unattached ends shall be\r\nfitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm."
+    },
+    {
+      "paragraph": "6.17.4",
+      "pages": [
+        9
+      ],
+      "text": "6.17.4. The bases of aerials shall not project more than 40 mm when determined according to the procedure of\r\nparagraph 2. of Annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "6.17.4.1",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "6.17.4.1. In cases where by the absence of a flexible shaft or part it is not possible to identify what the base is of\r\nan aerial this requirement is deemed to be met if, after a horizontal force of not more than 50 daN in forward and\r\nrearward direction is applied by a flat-ended ram of not more than 50 mm diameter at the most salient part of the\r\naerial:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) The aerial bends towards the support and does not project more than 40 mm, or\r\n(b) The aerial breaks off and the remaining part of the aerial does not show any sharp or dangerous part that can\r\nbe contacted by the 100 mm sphere and does not project more than 40 mm."
+    },
+    {
+      "paragraph": "6.17.4.2",
+      "pages": [
+        10
+      ],
+      "text": "6.17.4.2. Paragraphs 6.17.4. and 6.17.4.1. above shall not apply to aerials located behind the vertical transversal\r\nplane passing through the \"R\" point of the driver, provided that the maximum projection of the aerial including its\r\nhousing does not exceed 70 mm when determined according to the procedure of paragraph 2. of Annex 3 to this\r\nRegulation.\r\nIf the aerial is located behind that vertical plane but projects more than 70 mm, paragraph 6.17.4.1. above shall\r\napply using a projection limit of 70 mm instead of 40 mm."
+    },
+    {
+      "paragraph": "6.18",
+      "pages": [
+        10
+      ],
+      "text": "6.18. Assembly instructions"
+    },
+    {
+      "paragraph": "6.18.1",
+      "pages": [
+        10
+      ],
+      "text": "6.18.1. Luggage racks, ski racks and radio receiving or transmitting aerials that have been approved as separate\r\ntechnical units may not be offered for sale, sold or purchased unless accompanied by assembly instructions. The\r\nassembly instructions shall contain sufficient information to enable the approved components to be mounted on\r\nthe vehicle in a manner that complies with the relevant provisions of paragraphs 5. and 6. of this Regulation. In\r\nparticular, the positions of use must be indicated for telescopic aerials."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        10
+      ],
+      "text": "7. Modiﬁcation of a vehicle type"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        10
+      ],
+      "text": "7.1. Every modification to an existing vehicle type shall be notified to the Type Approval Authority which\r\napproved the vehicle type. The Type Approval Authority shall then either:\r\n(a) Decide, in consultation with the manufacturer, that a new type-approval is to be granted, or\r\n(b) Apply the procedure contained in paragraph 7.1.1. (Revision) and, if applicable, the procedure contained in\r\nparagraph 7.1.2. (Extension)."
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        10
+      ],
+      "text": "7.1.1. Revision\r\nWhen particulars recorded in the information folder have changed and the Type Approval Authority considers that\r\nthe modifications made are unlikely to have an appreciable adverse effect and that in any case the vehicle still\r\ncomplies with the requirements, the modification shall be designated a \"revision\".\r\nIn such a case, the Type Approval Authority shall issue the revised pages of the information folder as necessary,\r\nmarking each revised page to show clearly the nature of the modification and the date of re-issue. A consolidated\r\nupdated version of the information folder, accompanied by a detailed description of the modification, shall be\r\ndeemed to meet this requirement."
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        10
+      ],
+      "text": "7.1.2. Extension\r\nThe modification shall be designated an \"extension\" if, in addition to the change of the particulars recorded in the\r\ninformation folder,\r\n(a) Further inspections or tests are required, or\r\n(b) Any information on the communication document (with the exception of its attachments) has changed, or\r\n(c) Approval to a later series of amendments is requested after its entry into force."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        10
+      ],
+      "text": "7.2. Confirmation or refusal of approval, specifying the alterations shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Parties to the Agreement which apply this Regulation. In addition, the\r\nindex to the information package, attached to the communication document, shall be amended accordingly to\r\nshow the date of the most recent revision or extension."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        11
+      ],
+      "text": "8. Conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        11
+      ],
+      "text": "8.1. Vehicle (separate technical unit) approved under this Regulation shall be so manufactured as to conform to\r\nthe type approved by meeting the requirements set forth in paragraphs 5. and 6. above."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        11
+      ],
+      "text": "8.2. In order to verify that the requirements of paragraph 8.1. above are met, suitable controls of the production\r\nshall be carried out."
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        11
+      ],
+      "text": "8.3. The holder of the approval shall in particular:"
+    },
+    {
+      "paragraph": "8.3.1",
+      "pages": [
+        11
+      ],
+      "text": "8.3.1. Ensure the existence of procedures for the effective control of the quality of products;"
+    },
+    {
+      "paragraph": "8.3.2",
+      "pages": [
+        11
+      ],
+      "text": "8.3.2. Have access to the control equipment necessary for checking the conformity to each approved type;"
+    },
+    {
+      "paragraph": "8.3.3",
+      "pages": [
+        11
+      ],
+      "text": "8.3.3. Ensure that data of test results are recorded and that related documents shall remain available for a period to\r\nbe determined in accordance with the Type Approval Authority;"
+    },
+    {
+      "paragraph": "8.3.4",
+      "pages": [
+        11
+      ],
+      "text": "8.3.4. Analyze the results of each type of test in order to verify and ensure the stability of the product\r\ncharacteristics making allowance for variation of an industrial production;"
+    },
+    {
+      "paragraph": "8.3.5",
+      "pages": [
+        11
+      ],
+      "text": "8.3.5. Ensure that for each type of product at least the tests prescribed in Annex 3 to this Regulation are carried\r\nout;"
+    },
+    {
+      "paragraph": "8.3.6",
+      "pages": [
+        11
+      ],
+      "text": "8.3.6. Ensure that any sampling of samples or test pieces giving evidence of non-conformity with the type of test\r\nconsidered shall give rise to another sampling and another test. All the necessary steps shall be taken to re-\r\nestablish the conformity of the corresponding production."
+    },
+    {
+      "paragraph": "8.4",
+      "pages": [
+        11
+      ],
+      "text": "8.4. The Type Approval Authority which has granted type approval may at any time verify the conformity control\r\nmethods applicable to each production unit."
+    },
+    {
+      "paragraph": "8.4.1",
+      "pages": [
+        11
+      ],
+      "text": "8.4.1. In every inspection, the test books and production survey records shall be presented to the visiting inspector."
+    },
+    {
+      "paragraph": "8.4.2",
+      "pages": [
+        11
+      ],
+      "text": "8.4.2. The inspector may take samples at random to be tested in the manufacturer's laboratory. The minimum\r\nnumber of samples may be determined according to the results of the manufacturer's own verification."
+    },
+    {
+      "paragraph": "8.4.3",
+      "pages": [
+        11
+      ],
+      "text": "8.4.3. When the quality level appears unsatisfactory or when it seems necessary to verify the validity of the tests\r\ncarried out in the application of paragraph 8.4.2. above, the inspector shall select samples to be sent to the\r\nTechnical Service which has conducted the type approval tests."
+    },
+    {
+      "paragraph": "8.4.4",
+      "pages": [
+        11
+      ],
+      "text": "8.4.4. The Type Approval Authority may carry out any test prescribed in this Regulation."
+    },
+    {
+      "paragraph": "8.4.5",
+      "pages": [
+        11
+      ],
+      "text": "8.4.5. The normal frequency of inspections authorized by the Type Approval Authority shall be one per two years.\r\nIn the case where negative results are recorded during one of these visits, the Type Approval Authority shall\r\nensure that all necessary steps are taken to re-establish the conformity of production as rapidly as possible."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        11
+      ],
+      "text": "9. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        11
+      ],
+      "text": "9.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirement laid down in paragraph 8.1. above is not complied with."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        11
+      ],
+      "text": "9.2. If a Party to the Agreement applying this Regulation withdraws an approval it has previously granted, it shall\r\nforthwith notify the other Contracting Parties applying this Regulation by means of a communication form\r\nconforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        11
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture the type approved in accordance with this\r\nRegulation, he shall so inform the Type Approval Authority which granted the approval. Upon receiving the\r\nrelevant communication that authority shall inform thereof the other Parties to the 1958 Agreement which apply\r\nthis Regulation by means of a communication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        12
+      ],
+      "text": "11. Names and addresses of Technical Services conducting approval tests\r\nand of Type Approval Authorities\r\nThe Parties to the Agreement applying this Regulation shall communicate to the United Nations Secretary-\r\nGeneral the names and addresses of the Technical Services conducting approval tests and of the Type Approval\r\nAuthorities, which grant approval and to which forms certifying approval or refusal or withdrawal of approval,\r\nissued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        12
+      ],
+      "text": "12. Transitional provisions"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        12
+      ],
+      "text": "12.1. As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant type approvals under this Regulation as amended by the 02 series of\r\namendments."
+    },
+    {
+      "paragraph": "12.2",
+      "pages": [
+        12
+      ],
+      "text": "12.2. As from 24 months after the date of entry into force of the 02 series of amendments, Contracting Parties\r\napplying this Regulation shall grant type approval only if the vehicle type to be approved complies with the\r\nrequirements of this Regulation as amended by the 02 series of amendments."
+    },
+    {
+      "paragraph": "12.3",
+      "pages": [
+        12
+      ],
+      "text": "12.3. As from 36 months after the date of entry into force of the 02 series of amendments, existing approvals to\r\nthis Regulation shall cease to be valid, except in the case of vehicle types which comply with the requirements of\r\nthis Regulation as amended by the 02 series of amendments."
+    },
+    {
+      "paragraph": "12.4",
+      "pages": [
+        12
+      ],
+      "text": "12.4. As from the official date of entry into force of the 03 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant approval under this Regulation as amended by the 03 series of amendments."
+    },
+    {
+      "paragraph": "12.5",
+      "pages": [
+        12
+      ],
+      "text": "12.5. As from 24 months after the date of entry into force of the 03 series of amendments, Contracting Parties\r\napplying this Regulation shall grant approvals only if the vehicle type to be approved meets the requirements of\r\nthis Regulation as amended by the 03 series of amendments."
+    },
+    {
+      "paragraph": "12.6",
+      "pages": [
+        12
+      ],
+      "text": "12.6. Until 48 months after the date of entry into force the 03 series of amendments to this Regulation, no\r\nContracting Party applying this Regulation shall refuse national type approval of a vehicle type approved to the\r\npreceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "12.7",
+      "pages": [
+        12
+      ],
+      "text": "12.7. Starting 48 months after the entry into force to the 03 series of amendments to this Regulation, Contracting\r\nParties applying this Regulation may refuse first national registration (first entry into service) of a vehicle which\r\ndoes not meet the requirements of the 03 series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "12.8",
+      "pages": [
+        12
+      ],
+      "text": "12.8. As from the official date of entry into force of the 04 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant approval under this Regulation as amended by the 04 series of amendments."
+    },
+    {
+      "paragraph": "12.9",
+      "pages": [
+        12
+      ],
+      "text": "12.9. As from 1 September 2022, Contracting Parties applying this Regulation shall not be obliged to accept type\r\napprovals to the preceding series of amendments, first issued after 1 September 2022."
+    },
+    {
+      "paragraph": "12.10",
+      "pages": [
+        12
+      ],
+      "text": "12.10. Contracting Parties applying this Regulation shall continue to accept type approvals issued according to the\r\npreceding series of amendments to this Regulation first issued before 1 September 2022."
+    },
+    {
+      "paragraph": "12.11",
+      "pages": [
+        12
+      ],
+      "text": "12.11. Contracting Parties applying this Regulation shall not refuse to grant type approvals according to any\r\npreceding series of amendments to this Regulation or extensions thereof."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        12,
+        13
+      ],
+      "text": "Annex 1 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n…………………………………\r\n…………………………………\r\n…………………………………\r\nconcerning2: Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a vehicle type with regard to its external projections, pursuant to Regulation No. 26\r\nApproval No................................…. Extension No......................................….\r\n\r\n1Distinguishing number of the country which has granted/refused/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n\r\n2Strike out which does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        13
+      ],
+      "text": "1. Trade name or mark of the device ......................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        13
+      ],
+      "text": "2. Vehicle type...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        13
+      ],
+      "text": "3. Manufacturer's name and address ......................................"
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        13
+      ],
+      "text": "4. If applicable, name and address of manufacturer's representative..................\r\n........................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        13
+      ],
+      "text": "5. Vehicle submitted for approval on ....................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        13
+      ],
+      "text": "6. Technical Service responsible for conducting approval tests\r\n........................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        13
+      ],
+      "text": "7. Date of report issued by that Service...................................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        13
+      ],
+      "text": "8. Number of report issued by that Service.................................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        13
+      ],
+      "text": "9. Approval granted/refused/extended/withdrawn2\r\n\r\n\r\n2Strike out which does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        13
+      ],
+      "text": "10. Reason(s) for the extension of approval (if applicable):........................"
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        13
+      ],
+      "text": "11. Position of approval mark on the vehicle.................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        13
+      ],
+      "text": "12. Place ........................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        13
+      ],
+      "text": "13. Date ........................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        13
+      ],
+      "text": "14. Signature......................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        13
+      ],
+      "text": "15. The list of documents filed with the administration service which has granted approval and available on\r\nrequest is attached to this communication."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        14
+      ],
+      "text": "Annex 2 Arrangements of the approval marks\r\nModel A\r\n(See paragraphs 4.1.4. and 4.2.4. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na= 8 mm min\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in the\r\nNetherlands (E 4) pursuant to UN Regulation No. 26 and under approval number 032439. The first two digits of\r\nthe approval number indicate that UN Regulation No. 26 already included the 04 series of amendments when the\r\napproval was granted.\r\nModel B\r\n(See paragraph 4.1.5. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na= 8 mm min\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in the\r\nNetherlands (E 4) pursuant to UN Regulation No. 26 and UN Regulation No. 24.1 The first two digits of the\r\napproval numbers indicate that, at the dates when the respective approvals were given, UN Regulation No. 26\r\nincluded the 04 series of amendments, while UN Regulation No. 24 already included the 03 series of\r\namendments.\r\n\r\n1The second Regulation number is given merely as an example; the corrected absorption coefficient is 1.30 m-1."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        14
+      ],
+      "text": "Annex 3 Methods of determining the dimensions of projections and gaps"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        14
+      ],
+      "text": "1. Method of determining the height of the projection of folds in body panels"
+    },
+    {
+      "paragraph": "Annex 3 / 1.1",
+      "pages": [
+        14
+      ],
+      "text": "1.1. The height H of a projection is determined graphically by reference to the circumference of a 165 mm\r\ndiameter circle, internally tangential to the external outline of the external surface at the section to be checked."
+    },
+    {
+      "paragraph": "Annex 3 / 1.2",
+      "pages": [
+        14
+      ],
+      "text": "1.2. H is the maximum value of the distance, measured along a straight line passing through the centre of the 165\r\nmm diameter circle between the circumference of the aforesaid circle and the external contour of the projection\r\n(see Fig.1)."
+    },
+    {
+      "paragraph": "Annex 3 / 1.3",
+      "pages": [
+        14
+      ],
+      "text": "1.3. In cases where it is not possible for a 100 mm diameter circle to contact externally part of the external outline\r\nof the external surface at the section under consideration, the surface outline in this area will be assumed to be that\r\nformed by the circumference of the 100 mm diameter circle between its tangent points with the external outline\r\n(see Fig.2)."
+    },
+    {
+      "paragraph": "Annex 3 / 1.4",
+      "pages": [
+        14
+      ],
+      "text": "1.4. Drawings of the necessary sections through the external surface shall be provided by the manufacturer to\r\nallow the height of the projections referred to above to be measured."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        14
+      ],
+      "text": "2. Method of determining the dimension of the projection of a component mounted on the external surface"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        15
+      ],
+      "text": "2.1. The dimension of the projection of a component which is mounted on a convex surface may be determined\r\neither directly or by reference to a drawing of an appropriate section of this component in its installed condition."
+    },
+    {
+      "paragraph": "Annex 3 / 2.2",
+      "pages": [
+        15
+      ],
+      "text": "2.2. If the dimension of the projection of a component which is mounted on a surface other than convex cannot be\r\ndetermined by simple measurement, it shall be determined by the maximum variation of the distance of the centre\r\nof a 100 mm diameter sphere from the nominal line of the panel when the sphere is moved over and is in constant\r\ncontact with that component. Figure 3 shows an example of the use of this procedure."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. Method of determining the projection of headlamp visors and rims"
+    },
+    {
+      "paragraph": "Annex 3 / 3.1",
+      "pages": [
+        15
+      ],
+      "text": "3.1. The projection from the external surface of the headlamp shall be measured horizontally from the point of\r\ncontact of a 100 mm diameter sphere as shown in Figure 4."
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        15
+      ],
+      "text": "4. Method of determining the dimension of a gap or the space between elements of a grille"
+    },
+    {
+      "paragraph": "Annex 3 / 4.1",
+      "pages": [
+        15
+      ],
+      "text": "4.1. The dimension of a gap or space between elements of a grille shall be determined by the distance between\r\ntwo planes passing through the points of contact of the sphere and perpendicular to the line joining those points of\r\ncontact. Figures 5 and 6 show examples of the use of this procedure."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        16,
+        17
+      ],
+      "text": "Annex 4 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n…………………………………\r\n…………………………………\r\n…………………………………\r\nconcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a separate technical unit type of luggage rack, ski rack or radio receiving or transmitting aerial2\r\n\r\nApproval No................................…. Extension No......................................….\r\n\r\n1Distinguishing number of the country which has granted/refused/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n\r\n2Strike out which does not apply."
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        17
+      ],
+      "text": "1. Trade name or mark:..............................................."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        17
+      ],
+      "text": "2. Type: ........................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 3",
+      "pages": [
+        17
+      ],
+      "text": "3. Manufacturer's name and address:......................................\r\n........................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 4",
+      "pages": [
+        17
+      ],
+      "text": "4. If applicable, name and address of manufacturer's representative:..................\r\n........................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 5",
+      "pages": [
+        17
+      ],
+      "text": "5. Characteristics of the separate technical unit:..............................."
+    },
+    {
+      "paragraph": "Annex 4 / 6",
+      "pages": [
+        17
+      ],
+      "text": "6. Limitations of use, if any, and assembly instructions:........................."
+    },
+    {
+      "paragraph": "Annex 4 / 7",
+      "pages": [
+        17
+      ],
+      "text": "7. Specimen required for approval of a separate technical unit submitted on:............"
+    },
+    {
+      "paragraph": "Annex 4 / 8",
+      "pages": [
+        17
+      ],
+      "text": "8. Technical Service conducting approval test:................................"
+    },
+    {
+      "paragraph": "Annex 4 / 9",
+      "pages": [
+        17
+      ],
+      "text": "9. Date of report issued by that Service:...................................."
+    },
+    {
+      "paragraph": "Annex 4 / 10",
+      "pages": [
+        17
+      ],
+      "text": "10. Number of report issued by that Service:.................................."
+    },
+    {
+      "paragraph": "Annex 4 / 11",
+      "pages": [
+        17
+      ],
+      "text": "11. Approval for separate technical unit has been granted/refused/extended/withdrawn2 in respect of luggage\r\nrack(s), ski rack(s), radio receiving or transmitting aerial(s)2\r\n\r\n\r\n2Strike out which does not apply."
+    },
+    {
+      "paragraph": "Annex 4 / 12",
+      "pages": [
+        17
+      ],
+      "text": "12. Place: ........................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 13",
+      "pages": [
+        17
+      ],
+      "text": "13. Date: ........................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 14",
+      "pages": [
+        17
+      ],
+      "text": "14. Signature:......................................................"
+    },
+    {
+      "paragraph": "Annex 4 / 15",
+      "pages": [
+        17
+      ],
+      "text": "15. The list of documents filed with the Type Approval Authority which has granted approval and available on\r\nrequest is attached to this communication."
+    }
+  ]
+}

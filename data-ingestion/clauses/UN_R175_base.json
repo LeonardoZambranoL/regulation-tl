@@ -1,0 +1,1373 @@
+{
+  "regulation": "UN R175",
+  "version": "0.1.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R175 (version 0.1.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "0",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "0. Introduction\r\nCollisions caused by unintended acceleration resulting from a driver applying the accelerator pedal instead of the\r\nbrake pedal have been seen to increase in recent years. The issue is particularly prevalent in vehicles with\r\nautomatic transmission, including electric and hybrid vehicles, and is a more notable occurrence for the elderly.\r\nThis Regulation provides internationally harmonised technical provisions for Accelerator Control for Pedal Error\r\nsystems (ACPE), which aim to mitigate the consequences of such incidents.\r\nACPE limits the effect of an accelerator pedal application by the driver, and therefore it is important that systems\r\nonly intervene in cases of genuine error. It is challenging to determine from accident data when misapplication of\r\nthe accelerator pedal has occurred and therefore to define the characteristics of such incidents. Therefore, this\r\ninitial phase of the Regulation has focused on those scenarios where it is most unambiguous that an error has\r\noccurred (i.e. when the vehicle is stationary and there is a clear obstruction present in the driving direction) and is\r\nclosely aligned to the Japan New Car Assessment Program (JNCAP) protocol already established for assessing\r\nsuch systems.\r\nThe ACPE system must also be designed to accommodate any potential conflict with other systems, including\r\nAdvanced Emergency Braking Systems (AEBS) - as regulated under UN Regulation No.152, whose purpose is to\r\nbrake the vehicle when an imminent forward collision is detected. AEBS must provide a means for the driver to\r\ninterrupt the system, for example by kick-down of the accelerator control. ACPE could misinterpret such a kick-\r\ndown as a pedal confusion, resulting in a conflict between the two systems. This potential regulatory conflict is\r\navoided in this initial phase of the Regulation by only considering the scenario of a stationary subject vehicle.\r\nSome vehicle designs intended for very specific uses may jeopardise the functioning robustness of ACPE, for\r\ninstance when some necessary equipment or design prevents the fitment of sensors in the required location. An\r\nexample of such configuration is a vehicle adapted at the rear for wheelchair access. Where justified, and to the\r\nextent necessary, the Type Approval Authority may exempt such vehicles from some or all of the requirements,\r\ne.g. exemption from compliance with requirements in the rearward direction.\r\nStatistics have shown that majority of pedal error incidents occur in M1 category vehicles, so in the initial phase\r\nof the Regulation the development of requirements has focussed on these vehicles. However, incidents are also\r\nseen to occur in other categories of vehicle, and the technology as regulated here may also be beneficial for those\r\nvehicles. For that reason, it is permitted to approve vehicles other than Category M1 at a manufacturer’s request.\r\nAs ACPE is a driver assistance system, it is appropriate to provide a means of deactivation for those drivers who\r\ndo not wish to use the system, or for situations where the vehicle is operated in a manner or environment likely to\r\ncause improper intervention of ACPE. A novel concept has been introduced in this regulation whereby long-term\r\ndeactivation is permitted without continuous warning, but the vehicle user must be periodically informed that the\r\nsystem is available and deactivated. This is to reaffirm the choice of the driver or to ensure that other users of the\r\nvehicle (for example when it is changes ownership or if it is used by multiple drivers) are made aware of the status\r\nof the ACPE.\r\nThe accident data shows that pedal misapplication scenarios can vary widely from those which have been\r\nincluded for testing ACPE under this version of the Regulation. Therefore, a second phase is looking to expand\r\nthe situations where ACPE can provide benefit. These considerations will cover requirements and test procedures\r\nto address ‘moving-off’ and moving vehicle scenarios (including addressing vehicles which ‘creep’ when the\r\nbrake control is released), pedestrian scenarios, and the inclusion of Category N1 vehicles.\r\n\r\n\r\n\r\n\r\n\r\n\r\nEqually, the regulation could be updated in a subsequent phase to accommodate secondary collisions and higher\r\nspeed, both when technical feasibility is confirmed."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        2
+      ],
+      "text": "1. Scope"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        2
+      ],
+      "text": "1.1. This UN Regulation applies to the type approval of vehicles of Category M11 equipped with automatic\r\n\r\ntransmission with regard to their Acceleration Control for Pedal Error systems (ACPE).\r\n\r\n1 As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 -\r\n\r\nhttps://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        2
+      ],
+      "text": "1.2. At the request of the manufacturer, vehicles of other categories may be approved under this Regulation."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        2
+      ],
+      "text": "1.3. Vehicles where installation of means of forward and/or rear detection is incompatible with their on-road use\r\nmay be exempted from the relevant requirements (forward and/or rear direction) of this Regulation, subject to the\r\ndecision of the Type Approval Authority."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        2
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        2
+      ],
+      "text": "2.1. “Acceleration Control for Pedal Error (ACPE)” means a system to detect misapplication of the accelerator\r\ncontrol by the driver and to control unintended acceleration."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2. \"Vehicle Type with Regard to its ACPE\" means a category of vehicles which do not differ in such essential\r\naspects as:\r\n(a) Vehicle features which significantly influence the performances of ACPE;\r\n(b) The type and design of ACPE."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.3. \"Common space\" means an area on which two or more information functions (e.g. symbol) may be displayed\r\nbut not simultaneously."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. \"Dry road affording good adhesion\" means a road with a sufficient nominal Peak Braking Coefficient (PBC)\r\nthat would permit:\r\n(a) A mean fully developed deceleration of at least 9 m/s2; or\r\n\r\n(b) The design maximum deceleration of the relevant vehicle;\r\nwhichever is lower."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Sufficient nominal Peak Braking Coefficient (PBC)\" means a road surface friction coefficient of:\r\n(a) 0.9, when measured using the American Society for Testing and Materials (ASTM) of E1136-19 standard\r\nreference test tyre in accordance with ASTM Method E1337-19 at a speed of 40 mph;\r\n(b) 1.017, when measured using either:\r\n(i) The American Society for Testing and Materials (ASTM) of F2493-20 standard reference test tyre in\r\naccordance with ASTM Method E1337-19 at a speed of 40 mph; or\r\n(ii) The k-test method specified in Appendix 2 to Annex 6 of UN Regulation No. 13-H.\r\n(c) The required value to permit the design maximum deceleration of the relevant vehicle, when measured using\r\nthe k-test method in Appendix 2 to Annex 13 of UN Regulation No. 13."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Self-check\" means an integrated function that checks for a system failure on a continuous basis at least while\r\nthe system is active."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Obstacle\" means either a vehicle, or a wall-like structure."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        3
+      ],
+      "text": "2.8. “Automatic Transmission” means any transmission which does not require the use of a clutch control by the\r\ndriver in order to shift gears (automatic transmissions include e.g. single gear transmissions, continuously-variable\r\ntransmissions, transmissions with an automated clutch)."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        3
+      ],
+      "text": "2.9. \"Mass of a vehicle in running order\" means the mass of an unladen vehicle with bodywork, including coolant,\r\noils, at least 90 per cent of fuel, 100 per cent of other liquids, driver (75 kg) but except used waters, tools, spare\r\nwheel."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        3
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        3
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to the ACPE shall be submitted by the vehicle\r\nmanufacturer or by his authorized representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        3
+      ],
+      "text": "3.2. It shall be accompanied by the documents mentioned below in triplicate:"
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        3
+      ],
+      "text": "3.3. A description of the vehicle type with regard to the items mentioned in paragraph 2.2., together with a\r\ndocumentation package which gives access to the basic design of the ACPE and the means by which it is linked to\r\nother vehicle systems or by which it directly controls output variables. The numbers and/or symbols identifying\r\nthe vehicle type shall be specified."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        3
+      ],
+      "text": "3.4. A vehicle representative of the vehicle type to be approved shall be submitted to the Technical Service\r\nconducting the approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. If the vehicle type submitted for approval pursuant to this Regulation meets the requirements of paragraph 5.\r\nbelow, approval of that vehicle type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. An approval number shall be assigned to each vehicle type approved; its first two digits (00 for the Regulation\r\nin its initial form) shall indicate the series of amendments incorporating the most recent major technical\r\namendments made to the Regulation at the time of issue of the approval. The same Contracting Party shall not\r\nassign the same number to the same vehicle type equipped with another type of ACPE, or to another vehicle type."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Notice of approval or of refusal or withdrawal of approval pursuant to this Regulation shall be communicated\r\nto the Parties to the Agreement applying this Regulation by means of a form conforming to the model in Annex 1\r\nand photographs and/or plans supplied by the applicant being in a format not exceeding A4 (210 x 297 mm), or\r\nfolded to that format, and on an appropriate scale."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation, an international approval mark\r\nconforming to the model described in Annex2, consisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval2;\r\n\r\n\r\n2 The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6, Annex 3 -\r\nhttps://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.4.1. above."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved under one or more other Regulations annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. above need not be repeated; in such a case, the Regulation and approval numbers and the additional\r\nsymbols shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        4
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        4
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. Speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. Performance Requirements\r\nThe following performance requirements shall apply to a vehicle with no trailer coupled, with a mass between\r\nmaximum mass and mass in running order, and whose powertrain management system is properly operational."
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.1. The ACPE shall be able to limit unintended acceleration of the vehicle when an accelerator control\r\nmisapplication by the driver has been detected at least:\r\n(a) When an obstacle exists in front of the vehicle when the driving direction is selected to be forward, and\r\n(b) When an obstacle exists behind the vehicle when the driving direction is selected to be rearwards."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2. An accelerator control application having a velocity of at least 400 per cent per second over a travel\r\ndistance of at least 70 per cent of the total travel distance of the accelerator control, and reaching a maximum\r\nposition of the accelerator control of at least 90 per cent with that velocity shall be regarded as an accelerator\r\ncontrol misapplication in the context of the paragraph 5.1.1."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.3. Notwithstanding paragraph 5.1.2., in the case of systems that implement force-based triggering of the\r\nACPE, an accelerator control force greater than the triggering threshold shall be considered as accelerator control\r\nmisapplication. The manufacturer shall justify the triggering threshold to the satisfaction of the Type Approval\r\nAuthority."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4. The ACPE shall control acceleration when the vehicle is accelerated from standstill."
+    },
+    {
+      "paragraph": "5.1.4.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4.1. If ACPE is not ready to perform an intervention 6 seconds after the initiation of the vehicle powertrain,\r\ninformation of this status shall be indicated to the driver. This information shall exist until the system has been\r\nsuccessfully initialised."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.1.5. The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located\r\nbetween 1.0 m and 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the accelerator control is\r\napplied, provided:\r\n(a) Vehicle external influences allow for the required acceleration inhibition, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C);\r\n(b) The vehicle state itself allows for the required acceleration inhibition, e.g.:\r\n(i) The tyres are in an appropriate state and properly inflated;\r\n(ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(v) The vehicle’s powertrain management system is properly operational\r\n(c) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly radar-reflective environment);\r\n(ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g.\r\nbelow fifth percentile of RCS of all M1 vehicles)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iv) There are no overhead obstructions close to the vehicle;\r\n(d) The situation is unambiguous, i.e.:\r\n(i) The obstacle is stationary, unobstructed, clearly separated from other objects in the driving direction;\r\n(ii) The lateral offset between the centreline of the obstacle and the centreline of the vehicle is not more than 0.2\r\nm\r\n(iii) The direction of travel is straight with no curve, and the vehicle is not turning at an intersection and following\r\nits lane.\r\n(iv) The obstacle is a vehicle of category M1, or a wall like structure with a width of at least 2.0 m and a height of\r\nat least 1.0 m.\r\nWhen conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the\r\ncontrol strategy. This shall be demonstrated by the manufacturer in accordance with Annex 3 of this Regulation\r\nand, if deemed justified, may be followed by testing by the Technical Service in conditions deviating from those\r\nlisted above or those in paragraph 6. The rationale for and the results of this verification testing shall be appended\r\nto the test report."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        5
+      ],
+      "text": "5.1.6. In the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than\r\nthe vehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.\r\nIn addition, the collision speed shall not be greater than 70% of that speed the vehicle would have had in the same\r\nposition and under the same circumstances but without any ACPE intervention."
+    },
+    {
+      "paragraph": "5.1.6.1",
+      "pages": [
+        5
+      ],
+      "text": "5.1.6.1. In the case of vehicles that do not exceed 8 km/h without ACPE in the test scenarios but for which a speed\r\nreduction of 30 per cent cannot be achieved due to a low engine power to test mass ratio, the speed reduction shall\r\nbe of at least 15 per cent."
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        5
+      ],
+      "text": "5.1.7. During any intervention, the vehicle acceleration shall continue to be limited by the ACPE. The intervention\r\nmay be ended when the obstacle is no longer detected, or the driver has interrupted the function. The\r\nManufacturer shall declare the ACPE continuation conditions to the technical service."
+    },
+    {
+      "paragraph": "5.1.8",
+      "pages": [
+        5
+      ],
+      "text": "5.1.8. The effectiveness of ACPE shall not be adversely affected by magnetic or electrical fields. This shall be\r\ndemonstrated by fulfilling the technical requirements and respecting the transitional provisions of the 06 or later\r\nseries of amendments to UN Regulation No. 10."
+    },
+    {
+      "paragraph": "5.1.9",
+      "pages": [
+        5
+      ],
+      "text": "5.1.9. Conformity with the safety aspects of electronic control systems shall be shown by meeting the\r\nrequirements of Annex 3."
+    },
+    {
+      "paragraph": "5.1.10",
+      "pages": [
+        5
+      ],
+      "text": "5.1.10. The ACPE shall inform the driver of its intervention in accordance with paragraph 5.4.2."
+    },
+    {
+      "paragraph": "5.1.11",
+      "pages": [
+        5
+      ],
+      "text": "5.1.11. Interruption of ACPE by driver"
+    },
+    {
+      "paragraph": "5.1.11.1",
+      "pages": [
+        5
+      ],
+      "text": "5.1.11.1. The ACPE shall provide a means for the driver to interrupt its intervention. This interruption shall be\r\nstarted by any intentional action which indicates that the driver has recognised the situation."
+    },
+    {
+      "paragraph": "5.1.11.2",
+      "pages": [
+        5
+      ],
+      "text": "5.1.11.2. In the case of interruption by maintaining the accelerator control application, there shall be no rapid\r\nincrease of acceleration."
+    },
+    {
+      "paragraph": "5.1.11.3",
+      "pages": [
+        5
+      ],
+      "text": "5.1.11.3. The fulfilment of these requirements shall be documented and demonstrated by the manufacturer to the\r\nApproval Authority during the inspection of the safety concept as part of the assessment to Annex 3."
+    },
+    {
+      "paragraph": "5.1.12",
+      "pages": [
+        5
+      ],
+      "text": "5.1.12. The performance requirements shall be verified using the test procedure as described in section 6."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2. Deactivation"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "5.2.1. Short term deactivation\r\n\r\n\r\n\r\n\r\n\r\nWhen a vehicle is equipped with a means to manually deactivate the ACPE, the ACPE shall be automatically\r\nreinstated at the initiation of any new engine start (or run cycle, as relevant).\r\nThis requirement does not apply when a new engine start (or run cycle, as relevant) is performed automatically,\r\ne.g., the operation of a stop/start system.\r\nA deactivation warning shall be given at least at the time of deactivation."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2. Long term deactivation\r\nNotwithstanding paragraph 5.2.1., a vehicle may be equipped with a long term deactivation means to manually\r\ndeactivate the ACPE, in that case, the system is not required to be reinstated at the initiation of each engine start\r\n(or run cycle, as relevant). However, the system shall provide information to the driver by either (a), (b) or (c):\r\n(a) A constant optical warning signal shall inform the driver that the ACPE has been deactivated. The yellow\r\nwarning signal specified in paragraph 5.4.3. may be used for this purpose;\r\n(b) The driver shall be periodically informed that the ACPE has been deactivated. In this case this information\r\nshall be given for a minimum of 10 seconds or until driver confirmation.\r\nThis information shall be given at least either every 7 days or every 10 engine starts (or run cycles, as relevant),\r\nnot counting when a new engine start (or run cycle, as relevant) is performed automatically, e.g. the operation of a\r\nstop/start system. This information shall be distinct from the failure warning signal specified in paragraph 5.4.3.;\r\nor\r\n(c) If deactivation is only for one direction of operation (forward or rearwards), as an alternative to (a) or (b), a\r\nconstant optical warning shall be given when the corresponding driving direction is selected for the first time\r\nfollowing each initiation of the powertrain. The warning shall remain at least until the driving direction is\r\nchanged.\r\nThe long-term deactivation process shall be designed in such a way that deactivation shall not be possible with\r\nless than two deliberate actions."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3. Automatic deactivation"
+    },
+    {
+      "paragraph": "5.2.3.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1. When the vehicle is equipped with a means to automatically deactivate the ACPE, for instance in\r\nsituations such as carrying a bicycle rack or towing a trailer, the following conditions shall apply as appropriate:"
+    },
+    {
+      "paragraph": "5.2.3.1.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1.1. The vehicle manufacturer shall provide a list of situations and corresponding criteria where the ACPE is\r\nautomatically deactivated to the technical service at the time of type-approval and it shall be annexed to the test\r\nreport."
+    },
+    {
+      "paragraph": "5.2.3.1.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1.2. The ACPE shall be automatically reactivated as soon as the conditions that led to the automatic\r\ndeactivation are not present anymore."
+    },
+    {
+      "paragraph": "5.2.3.1.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1.3. A deactivation warning shall be given at least at the time of deactivation unless a failure warning is\r\ngiven as per paragraph 5.3.3."
+    },
+    {
+      "paragraph": "5.2.3.1.3.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1.3.1. While an Automated Driving System is in control of the vehicle (e.g. ALKS), the ACPE may be\r\nsuspended or its control strategies adapted without indication to the driver, as long as the risks associated with a\r\npedal misapplication remain mitigated to the same degree as provided by ACPE. The suspension of the ACPE or\r\nthe adapted control strategies shall be documented and demonstrated by the manufacturer to the Approval\r\nAuthority during the inspection of the safety concept as part of the assessment to Annex 3."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        6
+      ],
+      "text": "5.3. Failure detection / self-check"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        6
+      ],
+      "text": "5.3.1. A failure warning shall be given to the driver when there is a failure in the ACPE that prevents the\r\nrequirements of this Regulation being met. The warning shall be as specified in paragraph 5.4.3."
+    },
+    {
+      "paragraph": "5.3.1.1",
+      "pages": [
+        7
+      ],
+      "text": "5.3.1.1. It is not required to provide the driver with a failure warning signal to indicate that the ACPE is\r\ntemporarily not available, for example due to inclement weather conditions."
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        7
+      ],
+      "text": "5.3.2. There shall not be an appreciable time interval between each ACPE self-check, and subsequently there shall\r\nnot be a delay in illuminating the warning signal, in the case of an electrically detectable failure. However, if the\r\nvehicle speed is greater than 10 km/h at the time a failure is detected, the warning signal may be suppressed until\r\nthe next time the vehicle speed is below 10 km/h."
+    },
+    {
+      "paragraph": "5.3.3",
+      "pages": [
+        7
+      ],
+      "text": "5.3.3. A failure warning shall also be given to the driver in the case of a detected non-electrical failure condition\r\n(e.g. sensor blindness or sensor misalignment) unless a deactivation warning is given as per paragraph 5.2.3.1.3."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        7
+      ],
+      "text": "5.4. Warning signals"
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        7
+      ],
+      "text": "5.4.1. General"
+    },
+    {
+      "paragraph": "5.4.1.1",
+      "pages": [
+        7
+      ],
+      "text": "5.4.1.1. The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals\r\nmust be easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "paragraph": "5.4.1.2",
+      "pages": [
+        7
+      ],
+      "text": "5.4.1.2. Each ACPE optical warning signal shall be activated either when the engine start (or run, as relevant)\r\nswitch is turned to the \"on\" (run) position or when the engine start (or run, as relevant) switch is in a position\r\nbetween the \"on\" (run) and \"start\" position that is designated by the manufacturer as a check position (initial\r\nsystem (power-on)). This requirement does not apply to warning signals shown in a common space."
+    },
+    {
+      "paragraph": "5.4.2",
+      "pages": [
+        7
+      ],
+      "text": "5.4.2. Intervention warning signal\r\nAn intervention warning shall be given by an optical signal. In addition, a haptic or acoustic signal shall be\r\nprovided to the driver, unless such a signal is already being provided by another vehicle system comprising an\r\nobject detection capability (e.g. parking distance warning).\r\nThe optical warning signal may be the flashing of the failure warning signal.\r\nA description of the warning indication presented to the driver shall be provided by the vehicle manufacturer at\r\nthe time of type-approval and recorded in the test report."
+    },
+    {
+      "paragraph": "5.4.3",
+      "pages": [
+        7
+      ],
+      "text": "5.4.3. Failure warning signal\r\nThe failure warning shall be given by a constant yellow optical signal."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        7
+      ],
+      "text": "5.5. Provisions for the Periodic Technical Inspection"
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        7
+      ],
+      "text": "5.5.1. At a Periodic Technical Inspection, it shall be possible to confirm the correct operational status of the ACPE\r\nby a visible observation of the failure warning signal status. Following a “power-ON” and any bulb check, the\r\nfailure warning signal shall remain illuminated if any failure was present at the end of the previous engine start (or\r\nrun, as relevant) cycle, unless this failure is detected to be no longer present.\r\nIn the case of the failure warning signal being in a common space, the common space must be observed to be\r\nfunctional prior to the failure warning signal status check."
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        7
+      ],
+      "text": "5.5.2. At the time of type approval, the means to protect against simple unauthorised modification of the operation\r\nof the failure warning signal chosen by the manufacturer shall be confidentially outlined.\r\nAlternatively, this protection requirement is fulfilled when a secondary means of checking the correct operational\r\nstatus of the ACPE is available."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        7
+      ],
+      "text": "6. Test procedure"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1. Test surface and environment conditions"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1.1. The test shall be performed on a flat, dry, concrete or asphalt road affording good adhesion."
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        7
+      ],
+      "text": "6.1.2. The test surface has a consistent slope between level and 1 per cent."
+    },
+    {
+      "paragraph": "6.1.3",
+      "pages": [
+        7
+      ],
+      "text": "6.1.3. The ambient temperature shall be between 0°C and 45°C."
+    },
+    {
+      "paragraph": "6.1.4",
+      "pages": [
+        8
+      ],
+      "text": "6.1.4. The horizontal visibility range shall allow the target to be observed throughout the test."
+    },
+    {
+      "paragraph": "6.1.5",
+      "pages": [
+        8
+      ],
+      "text": "6.1.5. The tests shall be performed when there is no wind liable to affect the results."
+    },
+    {
+      "paragraph": "6.1.6",
+      "pages": [
+        8
+      ],
+      "text": "6.1.6. Natural ambient illumination must be homogeneous in the test area and in excess of 1000 lux. It should be\r\nensured that testing is not performed whilst driving towards, or away from the sun at a low angle."
+    },
+    {
+      "paragraph": "6.1.7",
+      "pages": [
+        8
+      ],
+      "text": "6.1.7. At the request of the manufacturer and with the agreement of the Technical Service tests may be conducted\r\nunder deviating test conditions (suboptimal conditions, e.g. on a not dry surface; below the specified minimum\r\nambient temperature), whilst the performance requirements are still to be met."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2. Instrumentation"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1. The speed of the vehicle shall be measured with an accuracy of +/- 0.1 km/h."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2.2. The position of the vehicle shall be measured with an accuracy of +/- 0.03 m."
+    },
+    {
+      "paragraph": "6.2.3",
+      "pages": [
+        8
+      ],
+      "text": "6.2.3. The accelerator control force (if applicable) shall be measured with an accuracy of +/- 1 N."
+    },
+    {
+      "paragraph": "6.2.4",
+      "pages": [
+        8
+      ],
+      "text": "6.2.4. The accelerator control position shall be measured with an accuracy of +/- 1%. Alternatively, at the choice\r\nof the manufacturer. this measurement may be taken from the vehicle’s own position sensor."
+    },
+    {
+      "paragraph": "6.2.5",
+      "pages": [
+        8
+      ],
+      "text": "6.2.5. Measurements shall be recorded at a frequency of at least 100 Hz."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        8
+      ],
+      "text": "6.3. Test Vehicle"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        8
+      ],
+      "text": "6.3.1. Pre-Test Conditioning\r\nIf requested by the vehicle manufacturer:\r\n(a) The vehicle can be driven a maximum of 100 km on a mixture of urban and rural roads with other traffic and\r\nroadside furniture to initialise the sensor system.\r\n(b) The vehicle can undergo a sequence of brake activations in order to ensure the service brake system is bedded\r\nin prior to the test.\r\nDetails of the pre-test condition strategy requested by the vehicle manufacturer shall be identified and recorded in\r\nthe vehicle type approval documentation."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        8
+      ],
+      "text": "6.3.2. Prior to any testing, it shall be ensured that the ACPE is switched on and ready to function."
+    },
+    {
+      "paragraph": "6.3.3",
+      "pages": [
+        8
+      ],
+      "text": "6.3.3. Test mass\r\nThe vehicle shall be tested:\r\n(a) At the minimum mass (mass in running order with an additional mass of maximum 125 kg);\r\n(b) If this is deemed justified, the technical service may test at any other mass up to the technically permissible\r\nmaximum laden mass as defined by the manufacturer. No alteration shall be made once the test procedure has\r\nbegun."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        8
+      ],
+      "text": "6.4. Test Targets"
+    },
+    {
+      "paragraph": "6.4.1",
+      "pages": [
+        8
+      ],
+      "text": "6.4.1. The target used for the vehicle detection tests shall be a regular high-volume series production passenger car\r\nof Category M1 or alternatively a \"soft target\" representative of a passenger vehicle in terms of its identification\r\ncharacteristics applicable to the sensor system of the ACPE under test according to either ISO 19206-1:2018 or\r\nISO 19206-3:2021 at the choice of the manufacturer."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "6.5. Accelerator control misapplication test\r\nThe lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and\r\n0.2 m.\r\nThe test procedure shall be as follows:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe test procedure shall be performed with and without an expected ACPE intervention both in a forward and\r\nrearward direction and at least with the vehicle situated 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance)\r\nfrom the target position at the start of the test (as detailed in Table 1).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Table 1",
+      "pages": [
+        9
+      ],
+      "text": "Table 1 Test conditions\r\n\r\n Driving            Distance to target /            Tolerance on the                    Tolerance on the lateral            Presence of\r\n direction          Distance to speed               longitudinal distance               (offset) distance                   target\r\n                    measuring point                 (m)                                 (m)\r\n                    (m)\r\n\r\n Forward            1.0                             + 0.1                               +/-0.2                              Yes\r\n\r\n Forward            1.0                             + 0.1                               N/A                                 No *\r\n\r\n Forward            1.5                             -0.1                                +/-0.2                              Yes\r\n\r\n Forward            1.5                             -0.1                                N/A                                 No *\r\n\r\n Rearward           1.0                             + 0.1                               +/-0.2                              Yes\r\n\r\n Rearward           1.0                             + 0.1                               N/A                                 No **\r\n\r\n Rearward           1.5                             -0.1                                +/-0.2                              Yes\r\n\r\n Rearward           1.5                             -0.1                                N/A                                 No **\r\n\r\nPresence of target:\r\nYes : with ACPE intervention\r\nNo : without ACPE intervention or with ACPE deactivation\r\n* These tests may be combined\r\n** These tests may be combined\r\nThe procedure for each test shall be as follows:\r\n(a) Position the vehicle at a distance to the target or speed measurement point as defined in Table 1.\r\n(b) Hold the vehicle stationary and select the corresponding driving direction.\r\n(c) Accelerate the vehicle, whilst maintaining the steering control in the neutral position, by operating the\r\naccelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) before\r\nthe vehicle reaches a speed of 0.5 km/h.\r\n(d) Record the speed at the collision point (if applicable) or the speed at the respective speed measurement point.\r\nBefore any test is started the vehicle may be driven in the direction of the target for a distance of up to 20 m to the\r\nstart position and/or the engine may be switched “off” and “on”, if requested by the manufacturer.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        9
+      ],
+      "text": "6.6. If this is deemed justified, the Technical Service may test in any test condition within the conditions specified\r\nin paragraph 5.1. during the tests as described in paragraph 6.5."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        9
+      ],
+      "text": "7. Modiﬁcation of vehicle type and extension of approval"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        9
+      ],
+      "text": "7.1. Every modification of the vehicle type as defined in paragraph 2.2. above shall be notified to the Type\r\nApproval Authority which approved the vehicle type. The Type Approval Authority may then either:"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        9
+      ],
+      "text": "7.1.1. Consider that the modifications made do not have an adverse effect on the conditions of the granting of the\r\napproval and grant an extension of approval;"
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        10
+      ],
+      "text": "7.1.2. Consider that the modifications made affect the conditions of the granting of the approval and require\r\nfurther tests or additional checks before granting an extension of approval."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        10
+      ],
+      "text": "7.2. Confirmation or refusal of approval. specifying the alterations. shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        10
+      ],
+      "text": "7.3. The Type Approval Authority shall inform the other Contracting Parties of the extension by means of the\r\ncommunication form which appears in Annex 1 to this Regulation. It shall assign a serial number to each\r\nextension to be known as the extension number."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        10
+      ],
+      "text": "8. Conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        10
+      ],
+      "text": "8.1. Procedures concerning conformity of production shall comply with those set out in the 1958 Agreement,\r\nSchedule 1 (E/ECE/TRANS/505/Rev.3) and meet the following requirements:"
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        10
+      ],
+      "text": "8.2. A vehicle approved pursuant to this Regulation shall be so manufactured as to conform to the type approved\r\nby meeting the requirements of paragraph 5. above;"
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        10
+      ],
+      "text": "8.3. The Type Approval Authority which has granted approval may at any time verify the conformity of control\r\nmethods applicable to each production unit. The normal frequency of such inspections shall be once every two\r\nyears."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        10
+      ],
+      "text": "9. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        10
+      ],
+      "text": "9.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 8, above are not complied with."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        10
+      ],
+      "text": "9.2. If a Contracting Party withdraws an approval it had previously granted, it shall forthwith so notify the other\r\nContracting Parties applying this Regulation by sending them a communication form conforming to the model in\r\nAnnex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        10
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance with this\r\nRegulation, he shall so inform the Type Approval Authority which granted the approval, which in turn shall\r\nforthwith inform the other Contracting Parties to the Agreement applying this Regulation by means of a\r\ncommunication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        10
+      ],
+      "text": "11. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat3 the names and addresses of the Technical Services responsible for conducting approval tests and of\r\nthe Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval are to be sent.\r\n\r\n3 The UNECE secretariats provides the online platform (\"/343 Application\") for exchange of such information with the secretariat:\r\nhttps://www.unece.org/trans/main/wp29/datasharing.html",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "Annex 1 Communication\r\n(Maximum format: A4 (210 x 297 mm)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by : (Name of administration)\r\n......................................\r\n......................................\r\n......................................\r\n1Concerning: 2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of vehicle with regard to its Acceleration Control for Pedal Error pursuant to UN Regulation No. [17X]\r\nApproval No.:.............."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        11
+      ],
+      "text": "1 Distinguishing number of the country which has granted/extended/refused/withdrawn an approval (see approval provisions in the\r\nRegulation).",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        11
+      ],
+      "text": "2 Strike out what does not apply.\r\n\r\n1. Trademark: .................\r\n2. Type and trade name(s): .................",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        11
+      ],
+      "text": "3. Name and address of manufacturer: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        11
+      ],
+      "text": "4. If applicable. name and address of manufacturer’s representative: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        11
+      ],
+      "text": "5. Brief description of vehicle type: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        11
+      ],
+      "text": "6. Vehicle is equipped with ACPE which has been exempted from the relevant requirements (forward and/or rear\r\ndirection) of this Regulation: yes/no"
+    },
+    {
+      "paragraph": "Annex 1 / 6.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1. If yes, details:"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        11
+      ],
+      "text": "7. Date of submission of vehicle for approval: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        11
+      ],
+      "text": "8. Technical Service performing the approval tests: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        11
+      ],
+      "text": "9. Date of report issued by that Service: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        11
+      ],
+      "text": "10. Number of report issued by that Service: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        11
+      ],
+      "text": "11. Approval granted/refused/extended/withdrawn:2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        12
+      ],
+      "text": "12. Place: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        12
+      ],
+      "text": "13. Date: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        12
+      ],
+      "text": "14. Signature: ................."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        12
+      ],
+      "text": "15. Annexed to this communication are the following documents. bearing the approval number indicated above:\r\n................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        12
+      ],
+      "text": "16. Any remarks: ................."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        12
+      ],
+      "text": "Annex 2 Arrangements of approval marks\r\n(see paragraphs 4.4. to 4.4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in\r\nBelgium (E 6) with regard to the Acceleration Control for Pedal Error (ACPE) pursuant to UN Regulation No.\r\n[17X]. The first two digits of the approval number indicate that the approval was granted in accordance with the\r\nrequirements of UN Regulation No. [17X] in its original form."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        12
+      ],
+      "text": "Annex 3 Special requirements to be applied to the safety aspects of\r\nelectronic control systems"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1. General\r\nThis annex defines the special requirements for documentation, fault strategy and verification with respect to the\r\nsafety aspects of Complex Electronic Vehicle Control Systems (paragraph 2.4. below) as far as this Regulation is\r\nconcerned.\r\nThis annex shall also apply to safety related functions identified in this Regulation which are controlled by\r\nelectronic system(s) (paragraph 2.3.) as far as this Regulation is concerned.\r\nThis annex does not specify the performance criteria for \"The System\" but covers the methodology applied to the\r\ndesign process and the information which must be disclosed to the Technical Service, for type approval purposes.\r\nThis information shall show that \"The System\" respects, under non-fault and fault conditions, all the appropriate\r\nperformance requirements specified elsewhere in this Regulation and that it is designed to operate in such a way\r\nthat it does not induce safety critical risks."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        12
+      ],
+      "text": "2. Definitions\r\nFor the purposes of this annex,"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        12
+      ],
+      "text": "2.1. The System\" means an electronic control system or complex electronic control system that provides or forms\r\npart of the control transmission of a function to which this Regulation applies. This also includes any other system\r\ncovered in the scope of this Regulation, as well as transmission links to or from other systems that are outside the\r\nscope of this Regulation, that acts on a function to which this Regulation applies.\""
+    },
+    {
+      "paragraph": "Annex 3 / 2.2",
+      "pages": [
+        13
+      ],
+      "text": "2.2. \"Safety Concept\" is a description of the measures designed into the system, for example within the electronic\r\nunits, so as to address system integrity and thereby ensure safe operation under fault and non-fault conditions,\r\nincluding in the event of an electrical failure. The possibility of a fall-back to partial operation or even to a back-\r\nup system for vital vehicle functions may be a part of the safety concept."
+    },
+    {
+      "paragraph": "Annex 3 / 2.3",
+      "pages": [
+        13
+      ],
+      "text": "2.3. \"Electronic Control System\" means a combination of units, designed to co-operate in the production of the\r\nstated vehicle control function by electronic data processing. Such systems, often controlled by software, are built\r\nfrom discrete functional components such as sensors, electronic control units and actuators and connected by\r\ntransmission links. They may include mechanical, electro-pneumatic or electro-hydraulic elements."
+    },
+    {
+      "paragraph": "Annex 3 / 2.4",
+      "pages": [
+        13
+      ],
+      "text": "2.4. \"Complex Electronic Vehicle Control Systems\" are those electronic control systems in which a function\r\ncontrolled by an electronic system or the driver may be over-ridden by a higher level electronic control\r\nsystem/function. A function which is over-ridden become part of the complex system, as well as any overriding\r\nsystem/function within the scope of this Regulation. The transmission links to and from overriding\r\nsystems/function outside of the scope of this Regulation shall also be included."
+    },
+    {
+      "paragraph": "Annex 3 / 2.5",
+      "pages": [
+        13
+      ],
+      "text": "2.5. \"Higher-Level Electronic Control\" systems/functions are those which employ additional processing and/or\r\nsensing provisions to modify vehicle behaviour by commanding variations in the function(s) of the vehicle control\r\nsystem. This allows complex systems to automatically change their objectives with a priority which depends on\r\nthe sensed circumstances."
+    },
+    {
+      "paragraph": "Annex 3 / 2.6",
+      "pages": [
+        13
+      ],
+      "text": "2.6. \"Units\" are the smallest divisions of system components which will be considered in this annex, since these\r\ncombinations of components will be treated as single entities for purposes of identification, analysis or\r\nreplacement."
+    },
+    {
+      "paragraph": "Annex 3 / 2.7",
+      "pages": [
+        13
+      ],
+      "text": "2.7. \"Transmission links\" are the means used for inter-connecting distributed units for the purpose of conveying\r\nsignals, operating data or an energy supply. This equipment is generally electrical but may, in some part, be\r\nmechanical, pneumatic or hydraulic."
+    },
+    {
+      "paragraph": "Annex 3 / 2.8",
+      "pages": [
+        13
+      ],
+      "text": "2.8. \"Range of control\" refers to an output variable and defines the range over which the system is likely to\r\nexercise control."
+    },
+    {
+      "paragraph": "Annex 3 / 2.9",
+      "pages": [
+        13
+      ],
+      "text": "2.9. \"Boundary of functional operation\" defines the boundaries of the external physical limits within which the\r\nsystem is able to maintain control."
+    },
+    {
+      "paragraph": "Annex 3 / 2.10",
+      "pages": [
+        13
+      ],
+      "text": "2.10. \"Safety Related Function\" means a function of \"The System\" that is capable of changing the dynamic\r\nbehaviour of the vehicle. \"The System\" may be capable of performing more than one safety related function."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        13
+      ],
+      "text": "3. Documentation"
+    },
+    {
+      "paragraph": "Annex 3 / 3.1",
+      "pages": [
+        13
+      ],
+      "text": "3.1. Requirements\r\nThe manufacturer shall provide a documentation package which gives access to the basic design of \"The System\"\r\nand the means by which it is linked to other vehicle systems or by which it directly controls output variables. The\r\nfunction(s) of \"The System\" and the safety concept, as laid down by the manufacturer, shall be explained.\r\nDocumentation shall be brief, yet provide evidence that the design and development has had the benefit of\r\nexpertise from all the system fields which are involved. For periodic technical inspections, the documentation\r\nshall describe how the current operational status of \"The System\" can be checked.\r\nThe Technical Service shall assess the documentation package to show that \"The System\":\r\n(a) Is designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical\r\nrisks;\r\n(b) Respects, under non-fault and fault conditions, all the appropriate performance requirements specified\r\nelsewhere in this Regulation; and,\r\n(c) Was developed according to the development process/method declared by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 3 / 3.1.1",
+      "pages": [
+        14
+      ],
+      "text": "3.1.1. Documentation shall be made available in two parts:\r\n(a) The formal documentation package for the approval, containing the material listed in paragraph 3. (with the\r\nexception of that of paragraph 3.4.4.) which shall be supplied to the Technical Service at the time of submission of\r\nthe type approval application. This documentation package shall be used by the Technical Service as the basic\r\nreference for the verification process set out in paragraph 4. of this annex. The Technical Service shall ensure that\r\nthis documentation package remains available for a period determined in agreement with the Approval Authority.\r\nThis period shall be at least 10 years counted from the time when production of the vehicle is definitely\r\ndiscontinued.\r\n(b) Additional material and analysis data of paragraph 3.4.4. which shall be retained by the manufacturer, but\r\nmade open for inspection at the time of type approval. The manufacturer shall ensure that this material and\r\nanalysis data remains available for a period of 10 years counted from the time when production of the vehicle is\r\ndefinitely discontinued.\""
+    },
+    {
+      "paragraph": "Annex 3 / 3.2",
+      "pages": [
+        14
+      ],
+      "text": "3.2. Description of the functions of \"The System\"\r\nA description shall be provided which gives a simple explanation of all the control functions of \"The System\" and\r\nthe methods employed to achieve the objectives, including a statement of the mechanism(s) by which control is\r\nexercised.\r\nAny described function that can be over-ridden shall be identified and a further description of the changed\r\nrationale of the function’s operation provided."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.1",
+      "pages": [
+        14
+      ],
+      "text": "3.2.1. A list of all input and sensed variables shall be provided and the working range of these defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.2",
+      "pages": [
+        14
+      ],
+      "text": "3.2.2. A list of all output variables which are controlled by \"The System\" shall be provided and an indication\r\ngiven, in each case, of whether the control is direct or via another vehicle system. The range of control (paragraph\r\n2.8.) exercised on each such variable shall be defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.3",
+      "pages": [
+        14
+      ],
+      "text": "3.2.3. Limits defining the boundaries of functional operation (paragraph 2.9.) shall be stated where appropriate to\r\nsystem performance."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3",
+      "pages": [
+        14
+      ],
+      "text": "3.3. System layout and schematics"
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.1",
+      "pages": [
+        14
+      ],
+      "text": "3.3.1. Inventory of components.\r\nA list shall be provided, collating all the units of \"The System\" and mentioning the other vehicle systems which\r\nare needed to achieve the control function in question.\r\nAn outline schematic showing these units in combination, shall be provided with both the equipment distribution\r\nand the interconnections made clear."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.2",
+      "pages": [
+        14
+      ],
+      "text": "3.3.2. Functions of the units\r\nThe function of each unit of \"The System\" shall be outlined and the signals linking it with other units or with\r\nother vehicle systems shall be shown. This may be provided by a labelled block diagram or other schematic, or by\r\na description aided by such a diagram."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.3",
+      "pages": [
+        14
+      ],
+      "text": "3.3.3. Interconnections\r\nInterconnections within \"The System\" shall be shown by a circuit diagram for the electric transmission links, by a\r\npiping diagram for pneumatic or hydraulic transmission equipment and by a simplified diagrammatic layout for\r\nmechanical linkages. The transmission links both to and from other systems shall also be shown"
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.4",
+      "pages": [
+        14
+      ],
+      "text": "3.3.4. Signal flow, operating data and priorities\r\nThere shall be a clear correspondence between these transmission links and the signals and/or operating data\r\ncarried between units. Priorities of signals and/or operating data on multiplexed data paths shall be stated\r\nwherever priority may be an issue affecting performance or safety as far as this Regulation is concerned."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.5",
+      "pages": [
+        15
+      ],
+      "text": "3.3.5. Identification of units\r\nEach unit shall be clearly and unambiguously identifiable (e.g. by marking for hardware and marking or software\r\noutput for software content) to provide corresponding hardware and documentation association.\r\nWhere functions are combined within a single unit or indeed within a single computer, but shown in multiple\r\nblocks in the block diagram for clarity and ease of explanation, only a single hardware identification marking\r\nshall be used. The manufacturer shall, by the use of this identification, affirm that the equipment supplied\r\nconforms to the corresponding document."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.5.1",
+      "pages": [
+        15
+      ],
+      "text": "3.3.5.1. The identification defines the hardware and software version and, where the latter changes such as to alter\r\nthe function of the unit as far as this Regulation is concerned, this identification shall also be changed."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4",
+      "pages": [
+        15
+      ],
+      "text": "3.4. Safety concept of the manufacturer"
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.1",
+      "pages": [
+        15
+      ],
+      "text": "3.4.1. The Manufacturer shall provide a statement which affirms that the strategy chosen to achieve \"The System\"\r\nobjectives will not, under non-fault conditions, prejudice the safe operation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.2",
+      "pages": [
+        15
+      ],
+      "text": "3.4.2. In respect of software employed in \"The System\", the outline architecture shall be explained and the design\r\nmethods and tools used shall be identified. The manufacturer shall show evidence of the means by which they\r\ndetermined the realisation of the system logic, during the design and development process."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3",
+      "pages": [
+        15
+      ],
+      "text": "3.4.3. The Manufacturer shall provide the Technical Service with an explanation of the design provisions built into\r\n\"The System\" so as to generate safe operation under fault conditions. Possible design provisions for failure in\r\n\"The System\" are for example:\r\n(a) Fall-back to operation using a partial system.\r\n(b) Change-over to a separate back-up system.\r\n(c) Removal of the high level function.\r\nIn case of a failure, the driver shall be warned for example by warning signal or message display. When the\r\nsystem is not deactivated by the driver, e.g. by turning the ignition (run) switch to \"off\", or by switching off that\r\nparticular function if a special switch is provided for that purpose, the warning shall be present as long as the fault\r\ncondition persists."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.1",
+      "pages": [
+        15
+      ],
+      "text": "3.4.3.1. If the chosen provision selects a partial performance mode of operation under certain fault conditions,\r\nthen these conditions shall be stated and the resulting limits of effectiveness defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.2",
+      "pages": [
+        15
+      ],
+      "text": "3.4.3.2. If the chosen provision selects a second (back-up) means to realise the vehicle control system objective,\r\nthe principles of the change-over mechanism, the logic and level of redundancy and any built in back-up checking\r\nfeatures shall be explained and the resulting limits of back-up effectiveness defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.3",
+      "pages": [
+        15
+      ],
+      "text": "3.4.3.3. If the chosen provision selects the removal of the Higher Level Function, all the corresponding output\r\ncontrol signals associated with this function shall be inhibited, and in such a manner as to limit the transition\r\ndisturbance."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4",
+      "pages": [
+        15,
+        16
+      ],
+      "text": "3.4.4. The documentation shall be supported, by an analysis which shows, in overall terms, how the system will\r\nbehave on the occurrence of any individual hazard or fault which will have a bearing on vehicle control\r\nperformance or safety.\r\nThe chosen analytical approach(es) shall be established and maintained by the Manufacturer and shall be made\r\nopen for inspection by the Technical Service at the time of the type approval.\r\nThe Technical Service shall perform an assessment of the application of the analytical approach(es). The audit\r\nshall include:\r\n(a) Inspection of the safety approach at the concept (vehicle) level with confirmation that it includes consideration\r\nof interactions with other vehicle systems. This approach shall be based on a Hazard / Risk analysis appropriate to\r\nsystem safety.\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Inspection of the safety approach at the system level. This approach shall be based on a Failure Mode and\r\nEffect Analysis (FMEA), a Fault Tree Analysis (FTA) or any similar process appropriate to system safety.\r\n(c) Inspection of the validation plans and results. This validation shall use, for example, Hardware in the Loop\r\n(HIL) testing, vehicle on–road operational testing, or any means appropriate for validation.\r\nThe assessment shall consist of checks of hazards and faults chosen by the Technical Service to establish that the\r\nmanufacturer’s explanation of the safety concept is understandable, logical and that the validation plans are\r\nsuitable and have been completed.\r\nThe Technical Service may perform or may require to perform tests as specified in paragraph 4. to verify the\r\nsafety concept."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4.1",
+      "pages": [
+        16
+      ],
+      "text": "3.4.4.1. This documentation shall itemize the parameters being monitored and shall set out, for each fault\r\ncondition of the type defined in paragraph 3.4.4. of this annex, the warning signal to be given to the driver and/or\r\nto service/technical inspection personnel."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4.2",
+      "pages": [
+        16
+      ],
+      "text": "3.4.4.2. This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice\r\nthe safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions\r\ne.g. climatic, temperature, dust ingress, water ingress, ice packing."
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        16
+      ],
+      "text": "4. Verification and test"
+    },
+    {
+      "paragraph": "Annex 3 / 4.1",
+      "pages": [
+        16
+      ],
+      "text": "4.1. The functional operation of \"The System\", as laid out in the documents required in paragraph 3., shall be\r\ntested as follows:"
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.1",
+      "pages": [
+        16
+      ],
+      "text": "4.1.1. Verification of the function of \"The System\"\r\nThe Technical Service shall verify \"The System\" under non-fault conditions by testing a number of selected\r\nfunctions from those declared by the manufacturer in paragraph 3.2. above.\r\nFor complex electronic systems, these tests shall include scenarios whereby a declared function is overridden."
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.2",
+      "pages": [
+        16
+      ],
+      "text": "4.1.2. Verification of the safety concept of paragraph 3.4.\r\nThe reaction of \"The System\" shall be checked under the influence of a failure in any individual unit by applying\r\ncorresponding output signals to electrical units or mechanical elements in order to simulate the effects of internal\r\nfaults within the unit. The Technical Service shall conduct this check for at least one individual unit, but shall not\r\ncheck the reaction of \"The System\" to multiple simultaneous failures of individual units.\r\nThe Technical Service shall verify that these tests include aspects that may have an impact on vehicle\r\ncontrollability and user information (HMI aspects).\""
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.2.1",
+      "pages": [
+        16
+      ],
+      "text": "4.1.2.1. The verification results shall correspond with the documented summary of the failure analysis, to a level\r\nof overall effect such that the safety concept and execution are confirmed as being adequate."
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        16
+      ],
+      "text": "5. Reporting by Technical Service\r\nReporting of the assessment by the Technical Service shall be performed in such a manner that allows traceability,\r\ne.g. versions of documents inspected are coded and listed in the records of the Technical Service.\r\nAn example of a possible layout for the assessment form from the Technical Service to the Type Approval\r\nAuthority is given in Appendix 1 to this Annex.\r\n\r\nAnnex 3 - Appendix 1 Model assessment form for electronic systems\r\nTest report No: ...............\r\n1. Identification",
+      "review_flags": [
+        "ambiguous_annex_heading",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 1.1",
+      "pages": [
+        16
+      ],
+      "text": "1.1. Vehicle make: ...............",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 1.2",
+      "pages": [
+        16
+      ],
+      "text": "1.2. Type: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 1.3",
+      "pages": [
+        17
+      ],
+      "text": "1.3. Means of identification of type if marked on the vehicle: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 1.4",
+      "pages": [
+        17
+      ],
+      "text": "1.4. Location of that marking: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 1.5",
+      "pages": [
+        17
+      ],
+      "text": "1.5. Manufacturer’s name and address: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 1.6",
+      "pages": [
+        17
+      ],
+      "text": "1.6. If applicable, name and address of manufacturer’s representative: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 1.7",
+      "pages": [
+        17
+      ],
+      "text": "1.7. Manufacturer’s formal documentation package:\r\nDocumentation reference No: ...............\r\nDate of original issue: ...............\r\nDate of latest update: ...............\r\n2. Test vehicle(s)/system(s) description\r\n2.1. General description: ...............\r\n2.2. Description of all the control functions of \"The System\", and methods of operation: ...............\r\n2.3. Description of the components and diagrams of the interconnections within \"The System\": ...............\r\n3. Manufacturer’s safety concept\r\n3.1. Description of signal flow and operating data and their priorities: ...............\r\n3.2. Manufacturer’s declaration:\r\nThe manufacturer(s) ............................................................. affirm(s) that the strategy chosen to achieve \"The\r\nSystem\", objectives will not, under non-fault conditions, prejudice the safe operation of the vehicle.\r\n3.3. Software outline architecture and the design methods and tools used: ...............\r\n3.4. Explanation of design provisions built into \"The System\" under fault conditions: ...............",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 3.5",
+      "pages": [
+        17
+      ],
+      "text": "3.5. Documented analyses of the behaviour of \"The System\" under individual hazard or fault conditions: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.6",
+      "pages": [
+        17
+      ],
+      "text": "3.6. Description of the measures in place for environmental conditions: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.7",
+      "pages": [
+        17
+      ],
+      "text": "3.7. Provisions for the periodic technical inspection of \"The System\": ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.8",
+      "pages": [
+        17
+      ],
+      "text": "3.8. Results of \"The System\" verification test, as per para. 4.1.1. of Annex 3 to UN Regulation No. [17X]:\r\n..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.9",
+      "pages": [
+        17
+      ],
+      "text": "3.9. Results of safety concept verification test, as per para. 4.1.2. of Annex 3 to UN Regulation No. [17X]:\r\n..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.10",
+      "pages": [
+        17
+      ],
+      "text": "3.10. Date of test: ..............."
+    },
+    {
+      "paragraph": "Annex 3 / 3.11",
+      "pages": [
+        17
+      ],
+      "text": "3.11. This test has been carried out and the results reported in accordance with ….. to UN Regulation No. [17X] as\r\nlast amended by the ..... series of amendments.\r\nSigned: ....................................... Date: ........................................"
+    },
+    {
+      "paragraph": "Annex 3 / 3.13",
+      "pages": [
+        17
+      ],
+      "text": "3.13. Comments: ..............."
+    }
+  ]
+}

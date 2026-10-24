@@ -1,0 +1,802 @@
+{
+  "regulation": "UN R164",
+  "version": "0.0.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R164 (version 0.0.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. This Regulation applies to new studded pneumatic tyres1 of Classes C1, C2 and C3 with regard to their snow\r\nperformance.\r\nIt does not, however, apply to:\r\n\r\n1For the purpose of this Regulation “tyres” means “pneumatic tyres”"
+    },
+    {
+      "paragraph": "1.1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1.1. Tyres of category of use \"temporary use tyres\" as declared in UN Regulation No. 30 for Class C1 tyres;"
+    },
+    {
+      "paragraph": "1.1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.1.2. Tyres having a nominal rim diameter code ≤ 10 (or ≤ 254 mm) or ≥ 25 (or ≥ 635 mm);"
+    },
+    {
+      "paragraph": "1.1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.1.3. Tyres designed for competitions;"
+    },
+    {
+      "paragraph": "1.1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.1.4. Tyres intended to be fitted to road vehicles of categories other than M, N and O;2\r\n\r\n\r\n2As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3)."
+    },
+    {
+      "paragraph": "1.1.5",
+      "pages": [
+        1
+      ],
+      "text": "1.1.5. Tyres with a speed rating less than 80 km/h (speed symbol F);"
+    },
+    {
+      "paragraph": "1.1.6",
+      "pages": [
+        1
+      ],
+      "text": "1.1.6. Tyres designed only to be fitted to vehicles registered for the first time before 1 October 1990;"
+    },
+    {
+      "paragraph": "1.1.7",
+      "pages": [
+        1
+      ],
+      "text": "1.1.7. Tyres of category of use \"Normal\" as declared in UN Regulation No. 30 for Class C1 tyres or in UN\r\nRegulation No. 54 for Class C2 or C3 tyres;"
+    },
+    {
+      "paragraph": "1.1.8",
+      "pages": [
+        1
+      ],
+      "text": "1.1.8. Studdable tyres."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. Notwithstanding the provisions of this Regulation a Contracting Party may permanently, temporarily or\r\nconditionally prohibit the use of, or impose additional requirements for, studded tyres."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purpose of this Regulation, in addition to the definitions contained in UN Regulations Nos. 30, 54 and,\r\nwith respect to the snow performance, in UN Regulation No. 117, the following definitions apply."
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Type of studded tyre\" means tyres which do not differ in such essential characteristics as:\r\n(a) The manufacturer's name;\r\n(b) The tyre class;\r\n(c) The tyre structure;\r\n(d) The category of use: snow or special;\r\n(e) The tread pattern (see section 3.2.1. of this Regulation);\r\n(f) The list of stud models.3\r\n\r\n\r\n3Changing the list of stud models can be made as an extension of the type approval certificate."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Tyre class\" means one of the following groupings:"
+    },
+    {
+      "paragraph": "2.2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1. Class C1 tyres: Tyres approved according to UN Regulation No. 30;"
+    },
+    {
+      "paragraph": "2.2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2.2. Class C2 tyres: Tyres approved according to UN Regulation No. 54 and identified by a load capacity index\r\nin single formation lower or equal to 121 and a speed category symbol higher or equal to \"N\";"
+    },
+    {
+      "paragraph": "2.2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.2.3. Class C3 tyres: Tyres approved according to UN Regulation No. 54 and identified by:\r\n(a) A load capacity index in single formation higher or equal to 122; or\r\n(b) A load capacity index in single formation lower or equal to 121 and a speed category symbol lower or equal to\r\n\"M\"."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.3. \"Tyres designed for competition\" means tyres intended to be fitted to vehicles involved in motor sport\r\ncompetition and not intended for non-competitive on-road use."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. \"Tyre for use in severe snow conditions\" means a tyre whose tread pattern, tread compound or structure is\r\nspecifically designed to be used in severe snow conditions and that fulfils the requirements of paragraph 6.1. of\r\nthis Regulation."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Studded tyre\" means a tyre that is designed to be equipped and always used with studs to improve traction\r\nproperties on ice surfaces."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Studdable tyre\" means a tyre that is designed to be able to be equipped with studs and to be used with or\r\nwithout studs."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. “Stud” means an additional device(s) inserted into or onto the tyre tread to improve traction properties on ice\r\nsurfaces."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Stud model\" means studs that do not differ in their shape, main dimensions and mass."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"Main dimensions of stud\" means the maximum height of the stud, maximum width of the stud body and\r\nmaximum width of the stud bottom flange."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a type of studded tyre with regard to this Regulation shall be submitted by the\r\ntyre manufacturer or by his duly accredited representative. It shall specify:"
+    },
+    {
+      "paragraph": "3.1.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1.1. The performance characteristics to be assessed for the type of studded tyre; \"snow performance level\";"
+    },
+    {
+      "paragraph": "3.1.2",
+      "pages": [
+        2
+      ],
+      "text": "3.1.2. Manufacturer’s name and address;"
+    },
+    {
+      "paragraph": "3.1.3",
+      "pages": [
+        2
+      ],
+      "text": "3.1.3. If applicable, name and address of manufacturer's representative;"
+    },
+    {
+      "paragraph": "3.1.4",
+      "pages": [
+        2
+      ],
+      "text": "3.1.4. Tyre class (Class C1, C2 or C3);"
+    },
+    {
+      "paragraph": "3.1.5",
+      "pages": [
+        2
+      ],
+      "text": "3.1.5. Category of use (snow or special);"
+    },
+    {
+      "paragraph": "3.1.6",
+      "pages": [
+        2
+      ],
+      "text": "3.1.6. Tyre structure;"
+    },
+    {
+      "paragraph": "3.1.7",
+      "pages": [
+        2
+      ],
+      "text": "3.1.7. Brand name(s)/trademark(s), trade description(s)/commercial name(s);"
+    },
+    {
+      "paragraph": "3.1.8",
+      "pages": [
+        2
+      ],
+      "text": "3.1.8. A list of tyre size designations covered by this application and specifying for each brand name/trademark\r\nand/or each trade description/commercial name the applicable tyre size designations and service descriptions,\r\nadding in case of Class C1 tyres whether \"reinforced\" (or \"extra load\") or not."
+    },
+    {
+      "paragraph": "3.1.9",
+      "pages": [
+        2
+      ],
+      "text": "3.1.9. The list of stud models."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. The application for approval shall be accompanied by:"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1. Details of the major features, with respect to the effects on the snow performance of the tyres, including the\r\ntread pattern, included in the designated range of tyre sizes. This may be by means of descriptions supplemented\r\nby technical data, drawings, photographs and Computer Tomography (CT), and must be sufficient to allow the\r\nType Approval Authority or Technical Service to determine whether any subsequent changes to the major features\r\nwill adversely affect the tyre performance. The effects of changes to minor details of tyre construction on tyre\r\nperformances will be evident and determined during checks on conformity of production;"
+    },
+    {
+      "paragraph": "3.2.1.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1.1. Drawings of the stud models."
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        3
+      ],
+      "text": "3.2.2. Drawings or photographs of the tyre side wall, showing the information given in paragraph 3.1.8. above and\r\nthe approval marking referred to in paragraph 4., shall be submitted once the production has been established, but\r\nno later than one year after the date of granting of type approval."
+    },
+    {
+      "paragraph": "3.2.3",
+      "pages": [
+        3
+      ],
+      "text": "3.2.3. In the case of applications relating to special use tyres, a copy of the mould drawing of the tread pattern\r\nshall be supplied in order to allow verification of the void-to-fill ratio."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        3
+      ],
+      "text": "3.3. At the request of the Type Approval Authority, the applicant shall submit samples of tyres for the test or\r\ncopies of test reports from the Technical Services, communicated as given in paragraph 11. of this Regulation."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        3
+      ],
+      "text": "3.4. With regard to the application, testing may be confined to a representative tyre size of the type of studded\r\ntyre, at the discretion of the Type Approval Authority."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Markings"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. All tyres constituting the type of studded tyre shall be marked as prescribed by either UN Regulation No. 30\r\nor 54, as applicable."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. In particular tyres meeting the requirements of paragraph 6.1. below, shall bear:4\r\n\r\n\r\n4Some of these requirements may be specified separately in UN Regulation No. 30 or 54."
+    },
+    {
+      "paragraph": "4.2.1",
+      "pages": [
+        3
+      ],
+      "text": "4.2.1. The Snow Grip Marking for Studded Tyres as defined below."
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        3
+      ],
+      "text": "Figure 1:\r\nPictogram definition of \"Snow Grip Marking for Studded Tyres\"\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nMinimum 16 mm base and 15 mm height.\r\nAbove drawing not to scale.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Tyres shall provide adequate space for the approval mark as shown in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "4.3.1",
+      "pages": [
+        3
+      ],
+      "text": "4.3.1. In case the approval of a type of studded tyre pursuant to this Regulation has been granted by the same Type\r\nApproval Authority than that granting the approval pursuant to UN Regulations Nos. 30 or 54, the approval marks\r\ncan be combined using sign “+” which indicates that its approval is complemented by an approval pursuant to this\r\nRegulation, as described in Annex 2, Appendix 2 of this Regulation."
+    },
+    {
+      "paragraph": "4.3.2",
+      "pages": [
+        3
+      ],
+      "text": "4.3.2. Studded tyres approved according to this Regulation shall also bear the word “STUDDED” at least 4 mm in\r\nheight."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. The markings referred to in paragraph 4.3.2. and the approval mark prescribed in paragraph 5.4 of this\r\nRegulation shall be clearly legible, indelible and raised above or sunk below the tyre surface."
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.4.1. The marking referred to in paragraph 4.3.2. and the approval mark shall be situated in the lower area of the\r\ntyre on at least one of its side walls. However, in the case of tyres identified by the tyre to rim fitment\r\nconfiguration symbol \"A\" or \"U\", the marking may be located anywhere on the outside side wall of the tyre."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. Approval"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. If the representative tyre size of the type of studded tyre submitted for approval pursuant to this Regulation\r\nmeets the requirements of paragraphs 6. and 7. below, approval of that type of studded tyre shall be granted."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2. An approval number according to Schedule 4 to the Revision 3 of the 1958 Agreement shall be assigned to\r\nthe type of studded tyre approved. The same Contracting Party may not assign the same number to another type of\r\nstudded tyre."
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1. Instead of granting the original type approval number pursuant to UN Regulation No. [164], upon the\r\nrequest of the manufacturer, the Type Approval Authority may grant the type approval number, which had been\r\ngranted before to that type of studded tyre pursuant to UN Regulations Nos. 30 or 54 with the subsequent\r\nextension number."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        4
+      ],
+      "text": "5.3. Notice of approval or extension of approval or refusal of approval of a type of studded tyre pursuant to this\r\nRegulation shall be communicated to the Parties to the Agreement, which apply this Regulation by means of a\r\nform conforming to the model in Annex 1 to the Regulation."
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        4
+      ],
+      "text": "5.3.1. With reference to paragraph 5.2.1. above, tyre manufacturers are entitled to submit an application for\r\nextension of type approval to the requirements of other Regulations relevant to the tyre type. In that case, a copy\r\nof the relevant type approval communication(s), as issued by the relevant Type Approval Authority, shall be\r\nattached to the application for extension of approval. All applications for extension of approval(s) shall only be\r\ngranted by the Type Approval Authority which issued the original approval for the tyre."
+    },
+    {
+      "paragraph": "5.3.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.3.1.1. When extension of approval is granted to incorporate into the communication form (see Annex 1 to this\r\nRegulation) certification(s) of conformity to other Regulations, (all) the specific type approval number(s) and the\r\nRegulation itself shall be added to item 9. of Annex 1 \"Communication form\"."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        4
+      ],
+      "text": "5.4. In the space referred to in paragraph 4.3. and in accordance with the requirements of paragraph 4.4. above\r\nthere shall be affixed to every tyre size, conforming to the type of studded tyre approved under this Regulation, an\r\ninternational approval mark consisting of:"
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        4
+      ],
+      "text": "5.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval;5 and\r\n\r\n\r\n5The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3) (ECE/TRANS/WP.29/78/Rev.6)"
+    },
+    {
+      "paragraph": "5.4.2",
+      "pages": [
+        4
+      ],
+      "text": "5.4.2. The part of the approval number specified in paragraph 3, Section 3 of Schedule 4 to the Revision 3 of the"
+    },
+    {
+      "paragraph": "1958",
+      "pages": [
+        4
+      ],
+      "text": "1958 Agreement, which shall be placed close to the circle prescribed in paragraph 5.4.1. above either above or\r\nbelow the \"E\" or to the left or right of that letter.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        4
+      ],
+      "text": "5.5. If the tyre conforms to type approvals under one or more other Regulations annexed to the Agreement in the\r\ncountry which has granted approval under this Regulation, the symbol prescribed in paragraph 5.4.1. above need\r\nnot be repeated. In such a case the additional numbers and symbols of all the Regulations under which approval\r\nhas been granted in the country which has granted approval under this Regulation shall be placed adjacent to the\r\nsymbol prescribed in paragraph 5.4.1. above.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        4
+      ],
+      "text": "5.6. Annex 2 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        4
+      ],
+      "text": "6. Speciﬁcations"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "6.1. Snow performance of studded tyres, when tested according to Annex 7 to UN Regulation No. 117 and\r\nparagraph 6.2. to this Regulation.\r\nThe studded tyre shall meet the minimum snow grip index value compared with the respective Standard\r\nReference Test Tyre (SRTT) as follows:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nClass     Snow grip index                     Snow grip index                 Snow grip index\r\n of tyre   (brake on snow method) (a)          (spin traction method) (b)      (acceleration method) (c)\r\n\r\n\r\n           Ref.s =                Ref. =       Ref. =                          Ref.s = SRTT19.5, SRTT22.5\r\n           SRTT14, SRTT16         SRTT16C      SRTT14, SRTT16\r\n\r\n C1        1.07                   No           1.10                            No\r\n\r\n C2        No                     1.02         1.10                            No\r\n\r\n C3        No                     No           No                              1.25\r\n\r\n(a) See paragraph 3. of Annex 7 to UN Regulation No. 117\r\n\r\n(b) See paragraph 2. of Annex 7 to UN Regulation No. 117\r\n\r\n(c) See paragraph 4. of Annex 7 to UN Regulation No. 117"
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2. The snow performance of studded tyres approved according to this Regulation shall be tested in studded\r\nform."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        5
+      ],
+      "text": "7. Modiﬁcations of the type of studded tyre and extension of approval"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        5
+      ],
+      "text": "7.1. Every modification of the type of studded tyre, which may influence the performance characteristics\r\napproved in accordance with this Regulation, shall be notified to the Type Approval Authority which approved the\r\ntype of studded tyre. That Authority may either:"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        5
+      ],
+      "text": "7.1.1. Consider that the modifications are unlikely to have any appreciable adverse effect on the performance\r\ncharacteristics approved and that the tyre will comply with the requirements of this Regulation; or"
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        5
+      ],
+      "text": "7.1.2. Require further samples to be submitted for test or further test reports from the designated Technical\r\nService."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        5
+      ],
+      "text": "7.2. Confirmation or refusal of approval, specifying the modifications, shall be communicated by the procedure\r\ngiven in paragraph 5.3. of this Regulation to the Parties to the Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        5
+      ],
+      "text": "7.3. The Type Approval Authority granting the extension of approval shall assign a series number for such an\r\nextension which shall be shown on the communication form."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        5
+      ],
+      "text": "8. Conformity of production\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Schedule 1\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.3) with the following requirements:"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        5
+      ],
+      "text": "8.1. Any studded tyre approved under this Regulation shall be so manufactured as to conform to the performance\r\ncharacteristics of the type of studded tyre approved and satisfy the requirements of paragraph 6. above;"
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        5
+      ],
+      "text": "8.2. The authority which has granted type approval may at any time verify the conformity control methods applied\r\nby the manufacturer. In general, the conformity control methods should take into consideration the production\r\nvolumes of the type of studded tyre at each manufacturing facility. The normal frequency of these verifications\r\nshall be at least once every two years."
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        5
+      ],
+      "text": "8.3. Verification tests shall be carried out on random samples of tyres bearing the approval mark required by this\r\nRegulation taken from the series production. The Type Approval Authority shall satisfy itself that all tyres falling\r\nwithin an approved type comply with the approval requirement."
+    },
+    {
+      "paragraph": "8.3.1",
+      "pages": [
+        5
+      ],
+      "text": "8.3.1. In the case of verification tests with regard to approvals in accordance with paragraph 6. of this Regulation,\r\nthese shall be carried out using the same testing method (see Annex 7 of UN Regulation No. 117) as that adopted\r\nfor original approval as declared in item 8 of the communication form."
+    },
+    {
+      "paragraph": "8.4",
+      "pages": [
+        6
+      ],
+      "text": "8.4. Production shall be deemed to conform to the requirements of this Regulation if the levels measured comply\r\nwith the limits prescribed in paragraph 6. of this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        6
+      ],
+      "text": "9. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        6
+      ],
+      "text": "9.1. The approval granted in respect of a type of studded tyre pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 8. above are not complied with, or if any studded tyre of the type of studded\r\ntyre does not meet the limits given in paragraph 8.4. above."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        6
+      ],
+      "text": "9.2. If a Party to the Agreement, which applies this Regulation, withdraws an approval, it has previously granted,\r\nit shall forthwith notify the other Contracting Parties applying this Regulation by means of a copy of the approval\r\nform conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        6
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of an approval completely ceases to manufacture a type of studded tyre approved in accordance with\r\nthis Regulation, he shall so inform the Type Approval Authority, which granted the approval. Upon receiving the\r\nrelevant communication that Authority shall inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        6
+      ],
+      "text": "11. Names and addresses of Technical Services responsible for conducting\r\napproval tests of Type Approval Authorities"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        6
+      ],
+      "text": "11.1. The Contracting Parties to the 1958 Agreement which apply this Regulation shall communicate to the United\r\nNations Secretariat, the names and addresses of the Technical Services responsible for conducting approval tests\r\nand, where applicable, of the approved test laboratories and of the Type Approval Authorities which grant\r\napproval and to which forms certifying approval or extension of approval or refusal of approval or withdrawal of\r\napproval, or production definitively discontinued, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        6
+      ],
+      "text": "11.2. The Contracting Parties to the 1958 Agreement which apply this Regulation may designate laboratories of\r\ntyre manufacturers as approved test laboratories."
+    },
+    {
+      "paragraph": "11.3",
+      "pages": [
+        6
+      ],
+      "text": "11.3. Where a Contracting Party to the 1958 Agreement applies paragraph 11.2. above, it may, if it so desires, be\r\nrepresented at the tests by one or more persons of its choice."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "Annex 1 Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIssued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of studded tyre pursuant to UN Regulation No. [164]\r\nApproval No.3.................................\r\n\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n\r\n2Strike out what does not apply.\r\n\r\n\r\n3According to Schedule 4 to Revision 3 of the 1958 Agreement."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        7
+      ],
+      "text": "1. Manufacturer's name and address: ................................."
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        7
+      ],
+      "text": "2. If applicable, name and address of manufacturer's representative: ............"
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        7
+      ],
+      "text": "3. \"Tyre class\" of the type of studded tyre: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        7
+      ],
+      "text": "4. \"Category of use\" of the type of studded tyre: ........................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        7
+      ],
+      "text": "5. Tyre structure: .............................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        7
+      ],
+      "text": "6. Tyre type designation:"
+    },
+    {
+      "paragraph": "Annex 1 / 6.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1. Brand name(s)/trademark(s) of the type of studded tyre"
+    },
+    {
+      "paragraph": "Annex 1 / 6.2",
+      "pages": [
+        7
+      ],
+      "text": "6.2. Trade description(s)/Commercial name(s) of the type of studded tyre:"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        7
+      ],
+      "text": "7. Technical Service and, where applicable, test laboratory approved for purposes of approval or of verification of\r\nconformity tests:"
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        7
+      ],
+      "text": "8. Snow grip level of the representative tyre size, as per item 7. of the test report in the appendix 2 or 3, as\r\napplicable, to Annex 7 of the UN Regulation No. 117:………………. (Snow grip index) using the brake on snow\r\nmethod2, spin traction method2 or acceleration method2 to confirm the classification as tyre for use in severe\r\nsnow conditions.\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        7
+      ],
+      "text": "9. Number of report issued by the Technical Service: ..........................."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        7
+      ],
+      "text": "10. Date of report issued by that Service: ...................................."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        7
+      ],
+      "text": "11. Reason(s) of extension (if applicable): ..................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        7
+      ],
+      "text": "12. Any remarks:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        7
+      ],
+      "text": "13. Place:"
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        7
+      ],
+      "text": "14. Date:"
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        7
+      ],
+      "text": "15. Signature: ....................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        7
+      ],
+      "text": "16. Annexed to this communication are: ...................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16.1",
+      "pages": [
+        7
+      ],
+      "text": "16.1. A list of documents in the approval file deposited at the Type Approval Authorities having delivered the\r\napproval and which can be obtained upon request."
+    },
+    {
+      "paragraph": "Annex 1 / 16.2",
+      "pages": [
+        7
+      ],
+      "text": "16.2. A list of tyre size designations: Specify for each brand name/trademark and/or each trade\r\ndescription/Commercial name the list of tyre size designations and service descriptions, adding in case of Class\r\nC1 tyres whether \"reinforced\" (or \"extra load\") or not."
+    },
+    {
+      "paragraph": "Annex 1 / 16.3",
+      "pages": [
+        7
+      ],
+      "text": "16.3. A list of stud models."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "Annex 2 Arrangements of the approval mark\r\n(See paragraphs 5.4. and 5.5. of this Regulation)\r\nApproval pursuant to UN Regulation No. [164]\r\nExample 1\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark, affixed to a tyre shows that a tyre concerned has been approved in the Netherlands (E4)\r\npursuant to UN Regulation No. [164], under approval number 0012345. The first two digits of the approval\r\nnumber (00) indicate that the approval was granted according to the requirements 00 series of amendments to this\r\nRegulation.\r\nExample 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark (according to paragraph 5.5. of this Regulation) shows that the tyre concerned has been\r\napproved in the Netherlands (E4) pursuant to UN Regulations Nos. 30 and [164]. The first two digits of the\r\napproval numbers indicate that, at the dates when the respective approvals were granted, UN Regulation No. 30\r\nincluded the 02 series of amendments while UN Regulation No. [164] was in its original form.\r\nExample 3\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample 4\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above examples of the approval mark show that the tyre concerned has been initially approved in the\r\nNetherlands (E 4) pursuant to UN Regulation No. 30 under approval number 0236378. It is also marked by \"+\r\n164R-00\", which indicates that its approval is complemented by an approval pursuant to UN Regulation No. [164]\r\nin its original form. The first two digits (02) of the approval number pursuant to UN Regulation No. 30 indicate\r\nthat the approval was granted pursuant to the 02 series of amendments of this Regulation. The addition (+) sign\r\nindicates that the approval granted pursuant to UN Regulation No. 30 has been complemented by an approval\r\ngranted pursuant to UN Regulation No. [164]."
+    }
+  ]
+}

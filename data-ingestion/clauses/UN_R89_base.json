@@ -1,0 +1,2961 @@
+{
+  "regulation": "UN R89",
+  "version": "0.3.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R89 (version 0.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. SCOPE"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. This regulation applies to:"
+    },
+    {
+      "paragraph": "1.1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1.1. Part I: Vehicles of categories 1/ M2, M3, N2 and N3 2/ equipped with an SLD and to vehicles of categories\r\nM and N equipped with an adjustable speed limitation device ASLD which have not been separately approved\r\naccording to Part III of this Regulation, or to vehicles so designed and/or equipped that their component parts can\r\nbe regarded as totally or partially fulfilling the function of an SLD or ASLD, as appropriate.\r\n\r\n1/ As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3) (TRANS/SC1/WP29/78 and Amend.l).\r\n\r\n2/ It is recommended to apply this Regulation with respect to SLDs to vehicles over 10 tonnes for which the limitation speed is less than the\r\ngeneral speed limitation."
+    },
+    {
+      "paragraph": "1.1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.1.2. Part II: The installation on vehicles of categories M2, M3, N2 and N3 of SLDs and installation on vehicles\r\nof categories M and N of ASLD which have been type approved to Part III of this Regulation.”"
+    },
+    {
+      "paragraph": "1.1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.1.3. Part III: SLDs which are intended to be fitted to vehicles of categories M2, M3, N2 and N3 and ASLD which\r\nare intended to be fitted to vehicles of categories M and N."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. Purpose\r\nThe purpose of this Regulation is to limit the road speed of vehicles by means of a vehicle system which has the\r\nprimary function of controlling the fuel feed to the engine or via the engine management."
+    },
+    {
+      "paragraph": "1.2.1",
+      "pages": [
+        1
+      ],
+      "text": "1.2.1. A speed limitation device (SLD) or function (SLF) shall limit the maximum speed of vehicles of categories\r\nM2, M3, N2 and N3.”"
+    },
+    {
+      "paragraph": "1.2.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2.2. When fitted, the adjustable speed limitation device (ASLD) or function (ASLF) shall limit the speed of\r\nvehicles of categories M and N to a speed voluntarily set by the driver when it is activated."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. DEFINITIONS"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. For the purpose of this Regulation:"
+    },
+    {
+      "paragraph": "2.1.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1.1. \"Limitation speed V\" means the maximum speed of the vehicle such that its design or equipment does not\r\npermit a response after a positive action on the accelerator control;"
+    },
+    {
+      "paragraph": "2.1.2",
+      "pages": [
+        1
+      ],
+      "text": "2.1.2. \"Set speed Vset\" means the intended mean vehicle speed when operating in a stabilized condition;"
+    },
+    {
+      "paragraph": "2.1.3",
+      "pages": [
+        1
+      ],
+      "text": "2.1.3. \"Stabilized speed Vstab\" means the mean vehicle speed specified in paragraph 1.1.4.2.3.3. of Annex 5 and\r\nin paragraph 1.5.4.1.2.3 of Annex 6 to this Regulation;"
+    },
+    {
+      "paragraph": "2.1.4",
+      "pages": [
+        1
+      ],
+      "text": "2.1.4. \"Maximum speed Vmax\" is the maximum speed reached by the vehicle in the first half period of the\r\nresponse curve as defined in the figure of annex 5 (para. 1.1.4.2.4.)."
+    },
+    {
+      "paragraph": "2.1.5",
+      "pages": [
+        1
+      ],
+      "text": "2.1.5. “Adjustable limit speed Vadj” means the speed voluntarily set by the driver."
+    },
+    {
+      "paragraph": "2.1.6",
+      "pages": [
+        1
+      ],
+      "text": "2.1.6. “Adjustable speed limitation function ASLF”, means a function which allows the driver to set a vehicle\r\nspeed Vadj, and when activated limits the vehicle automatically to that speed."
+    },
+    {
+      "paragraph": "2.1.7",
+      "pages": [
+        1
+      ],
+      "text": "2.1.7. “Speed limitation function”, means a function to control the fuel feed of the vehicle or engine management\r\nin order to limit the vehicle speed to a fixed maximum value."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2. For the purpose of Part I of this Regulation:"
+    },
+    {
+      "paragraph": "2.2.1",
+      "pages": [
+        2
+      ],
+      "text": "2.2.1. \"Approval of a vehicle\" means the approval of a vehicle type with regard to speed limitation;"
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.3 For the purpose of Part II of this Regulation:",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "2.3.1",
+      "pages": [
+        2
+      ],
+      "text": "2.3.1 \"Approval of a vehicle\" means the approval of a vehicle type with regard to the installation of an SLD of a\r\ntype approved in accordance with Part III of this Regulation,",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. For the purpose of Part I and Part II of this Regulation:"
+    },
+    {
+      "paragraph": "2.4.1",
+      "pages": [
+        2
+      ],
+      "text": "2.4.1. \"Vehicle type\" means vehicles which do not differ in such essential respects as:"
+    },
+    {
+      "paragraph": "2.4.1.1",
+      "pages": [
+        2
+      ],
+      "text": "2.4.1.1. The make and type of the SLD, if any,"
+    },
+    {
+      "paragraph": "2.4.1.2",
+      "pages": [
+        2
+      ],
+      "text": "2.4.1.2. The range of speeds at which the limitation may be set within the range established for the tested vehicle,"
+    },
+    {
+      "paragraph": "2.4.1.3",
+      "pages": [
+        2
+      ],
+      "text": "2.4.1.3. The ratio of maximum engine power/unladen mass, less than or equal to that of the tested vehicle, and"
+    },
+    {
+      "paragraph": "2.4.1.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4.1.4. The highest ratio of engine speed/vehicle speed in top gear, less than or equal to that of the tested vehicle;"
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Unladen mass\" means the mass of the vehicle in running order without crew, passengers or load, but with the\r\nfuel tank full and the usual set of tools and spare wheel on board, where applicable;"
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. For the purpose of Part III of this Regulation:"
+    },
+    {
+      "paragraph": "2.6.1",
+      "pages": [
+        2
+      ],
+      "text": "2.6.1 \"Speed limitation device (SLD)\" means a device whose primary function is to control the fuel feed to the\r\nengine in order to limit the vehicle speed to the specified value;",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "2.6.2",
+      "pages": [
+        2
+      ],
+      "text": "2.6.2 \"Approval of an SLD\" means the approval of a type of SLD with respect to the requirements laid down in\r\nparagraph 21 below,",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "2.6.3",
+      "pages": [
+        2
+      ],
+      "text": "2.6.3. \"Type of an SLD\" means SLDs which do not differ with respect to the essential characteristics such as:\r\nThe make and type of the device,\r\nThe range of speed values at which the SLD may be set, The method used to control the fuel feed of the engine.\r\n\r\nPART I APPROVAL OF VEHICLES WITH REGARD TO LIMITATION OF THEIR\r\nMAXIMUM SPEED"
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. APPLICATION FOR APPROVAL"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to speed limitation shall be submitted by the\r\nvehicle manufacturer or by his duly accredited representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by the under-mentioned documents in triplicate and by the following particulars:"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1 A detailed description of the vehicle type and of vehicle parts related to the speed limitation, comprising the\r\nparticulars and documents referred to in annex 1 to this Regulation,",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2. A vehicle representative of the type to be approved shall be submitted to the technical service responsible\r\nfor conducting the approval tests;"
+    },
+    {
+      "paragraph": "3.2.3",
+      "pages": [
+        2
+      ],
+      "text": "3.2.3. A vehicle not comprising all the components proper to the type may be accepted for test provided that it can\r\nbe shown by the applicant to the satisfaction of the competent authority that the absence of the components\r\nomitted has no effect on the results of the verifications, so far as the requirements of this Regulation are\r\nconcerned."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3 The competent authority shall verify the existence of satisfactory arrangements for ensuring effective checks\r\non conformity of production before type approval is granted.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. APPROVAL"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. If the vehicle submitted for approval pursuant to this Regulation meets the requirements of paragraph 5\r\nbelow, approval of that vehicle type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (00 for the Regulation in its\r\npresent form) shall indicate the series of amendments incorporating the most recent major technical amendments\r\nmade to the Regulation at the time of issue of the approval. The same Contracting Party may not assign the same\r\nnumber to another vehicle type."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Notice of approval or of extension or refusal or withdrawal of approval or production definitely discontinued\r\nof a vehicle type pursuant to this Regulation shall be communicated to the Parties to the Agreement which apply\r\nthis Regulation by means of a form conforming to the model in annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval; 3/\r\n\r\n3/ 1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for Belgium, 7 for Hungary, 8 for the Czech Republic, 9 for\r\nSpain, 10 for Yugoslavia, 11 for the United Kingdom,12 for Austria, 13 for Luxembourg, 14 for Switzerland, lS (vacant), 16 for Norway, 17\r\nfor Finland, 18 for Denmark, 19 for Romania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece, 24 for Ireland, 25\r\nfor Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for Estonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32 for Latvia, 33\r\n(vacant), 34 for Bulgaria, 35- 36 (vacant), 37 for Turkey, 38-39 (vacant), 40 for The former Yugoslav Republic of Macedonia, 41 (vacant), 42\r\nfor the European Community (Approvals are granted by its Member States using their respective ECE symbol), 43 for Japan, 44 (vacant), 45\r\nfor Australia and 46 for Ukraine. Subsequent numbers shall be assigned to other countries in the chronological order in which they ratify or\r\naccede to the Agreement concerning the Adoption of Uniform Conditions of Approval and Reciprocal Recognition of Approval for Motor\r\nVehicle Equipment and Parts, and the numbers thus assigned shall be communicated by the Secretary-General of the United Nations to the\r\nContracting Parties to the Agreement."
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.4.1.;"
+    },
+    {
+      "paragraph": "4.4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.4.3 The following additional symbol: a rectangle surrounding a figure, (or number of figures), expressing the set\r\nspeed, (or range of set speeds) in km/h (and mile/h if requested by the applicant).",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved, under one or more other Regulations annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. need not be repeated, in such a case the Regulation and approval numbers and the additional symbols of all\r\nthe Regulations under which approval has been granted in the country which has granted approval under this\r\nRegulation shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        3
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        3
+      ],
+      "text": "4.7. The approval mark shall be p1aced close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        3
+      ],
+      "text": "4.8. Models B and C of annex 4 to this Regulation give examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "4.9",
+      "pages": [
+        3
+      ],
+      "text": "4.9. In addition to the marking requirements of paragraph 4.4. above Contracting Parties to this Regulation may\r\nrequire the vehicle to be equipped with a plate which is in a conspicuous and readily accessible position within the\r\ndriving compartment and which shows clearly and indelibly:"
+    },
+    {
+      "paragraph": "4.9.1",
+      "pages": [
+        3
+      ],
+      "text": "4.9.1. The words \"SPEED LIMITER FITTED\" (or other words to similar effect),"
+    },
+    {
+      "paragraph": "4.9.2",
+      "pages": [
+        3
+      ],
+      "text": "4.9.2. The name or trade mark of the SLD calibrator (if applicable),"
+    },
+    {
+      "paragraph": "4.9.3",
+      "pages": [
+        3
+      ],
+      "text": "4.9.3. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval and the number of this Regulation, followed by the letter \"R\", and"
+    },
+    {
+      "paragraph": "4.9.4",
+      "pages": [
+        4
+      ],
+      "text": "4.9.4. The set speed in km/h (and mile/h if requested) at which the vehicle is calibrated."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. REQUIREMENTS"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. Requirements for vehicles of categories M2, M3, N2 and N3 equipped with SLF"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.1. The speed limitation must be such that the vehicle in normal use, despite the vibrations to which it may be\r\nsubjected, complies with the provisions of Part I of this Regulation."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2. In particular, the vehicle's SLD must be so designed, constructed and assembled as to resist corrosion and\r\nageing phenomena to which it may be exposed and to resist tempering in accordance with paragraph 5.1.6. below."
+    },
+    {
+      "paragraph": "5.1.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2.1. The limitation threshold must not, in any case, be capable of being increased or removed temporarily or\r\npermanently on vehicles in use. The inviolability shall be demonstrated to the technical service with\r\ndocumentation analysing the failure mode in which the system will be globally examined. The analysis shall\r\nshow, taking into account the different states taken by the system, the consequences of a modification of the input\r\nor output states on the functioning, the possibilities to obtain these modifications by failures or by voluntary\r\nviolation and the possibility of their occurrence. The analysis level will be always to the first failure."
+    },
+    {
+      "paragraph": "5.1.2.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2.2. The speed limitation function and the connections necessary for its operation, except those essential for\r\nthe running of the vehicle, shall be capable of being protected from any unauthorized adjustments or the\r\ninterruption of its energy supply by the attachment of sealing devices and/or the need to use special tools."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.3. The speed limitation function shall not actuate the vehicle's service braking system. A permanent brake (e.g.\r\nretarder) may be incorporated only if it operates after the speed limitation function has restricted the fuel feed to\r\nthe minimum fuel position."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4. The speed limitation function must be such that it does not affect the vehicle's road speed if a positive action\r\non the accelerator is applied when the vehicle is running at its set speed."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        4
+      ],
+      "text": "5.1.5. The speed limitation function may allow normal accelerator control for the purposes of gear changing."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        4
+      ],
+      "text": "5.1.6. No malfunction or unauthorized interference shall result in an increase in engine power above that\r\ndemanded by the position of the driver's accelerator."
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        4
+      ],
+      "text": "5.1.7. The speed limitation function shall be obtained regardless of the accelerator control used if there is more\r\nthan one such control which may be reached from the driver’s seating position."
+    },
+    {
+      "paragraph": "5.1.8",
+      "pages": [
+        4
+      ],
+      "text": "5.1.8. The speed limitation function shall operate satisfactorily in its electromagnetic environment without\r\nunacceptable electromagnetic disturbance for anything in this environment."
+    },
+    {
+      "paragraph": "5.1.9",
+      "pages": [
+        4
+      ],
+      "text": "5.1.9. The applicant for approval shall provide documentation describing checking and calibration procedures. It\r\nshall be possible to check the functioning of the speed limitation function whilst the vehicle is stationary, (e.g. for\r\nconformity of production or periodic inspection)."
+    },
+    {
+      "paragraph": "5.1.10",
+      "pages": [
+        4
+      ],
+      "text": "5.1.10. All components necessary for the full function of the speed limitation function shall be energized\r\nwhenever the vehicle is being driven."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2. Requirements for vehicles equipped with ASLF"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1. The ASLF must be such that the vehicle in normal use, despite the vibrations to which it may be subjected,\r\ncomplies with the provisions of Part I of this Regulation."
+    },
+    {
+      "paragraph": "5.2.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1.1. In particular, the device and all components supporting the ASLF must be so designed, constructed and\r\nassembled as to resist corrosion and ageing phenomena to which it may be exposed."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.2.2. The effectiveness of the ASLF shall not be adversely affected by magnetic or electric fields. This shall be\r\ndemonstrated by fulfilling the technical requirements and respecting the transitional provisions of UN Regulation\r\nNo. 10 by applying:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) The 03 series of amendments for vehicles without a coupling system for charging the rechargeable energy\r\nstorage system (traction batteries).\r\n(b) The 04 series of amendments for vehicles with a coupling system for charging the rechargeable energy storage\r\nsystem (traction batteries)."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.3. No malfunction or unauthorized interference with the system shall result in an increase in engine power\r\nabove that demanded by the position of the driver's accelerator."
+    },
+    {
+      "paragraph": "5.2.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.4. The Vadj value shall be permanently indicated to the driver and visible from the driver seat. This does not\r\npreclude temporary interruption of the indication for safety reasons or driver’s demand."
+    },
+    {
+      "paragraph": "5.2.5",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5. The ASLF must satisfy the following requirements:"
+    },
+    {
+      "paragraph": "5.2.5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.1. The ASLF shall not actuate the vehicle's service braking system except for vehicles of categories M1 and\r\nN1, where the vehicle's service braking system may be actuated."
+    },
+    {
+      "paragraph": "5.2.5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.2. The ASLF must be effective whichever the engine type or transmission is used."
+    },
+    {
+      "paragraph": "5.2.5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.3. The vehicle speed shall be limited to Vadj."
+    },
+    {
+      "paragraph": "5.2.5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.4. It shall still be possible to exceed Vadj when tested in accordance with paragraph 5.3."
+    },
+    {
+      "paragraph": "5.2.5.4.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.4.1. To exceed Vadj a positive action will be required. */\r\n\r\n*/ e.g. kickdown”"
+    },
+    {
+      "paragraph": "5.2.5.4.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.4.2. Whenever the vehicle speed is exceeding Vadj the driver must be informed by means of a suitable\r\nwarning signal other than the speedometer."
+    },
+    {
+      "paragraph": "5.2.5.4.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.4.3. Compliance with paragraph 5.2.5.4.2. shall be demonstrated by conducting the tests according to\r\nparagraph 5.3."
+    },
+    {
+      "paragraph": "5.2.6",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6. Setting of Vadj:"
+    },
+    {
+      "paragraph": "5.2.6.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6.1. It shall be possible to set Vadj value by steps not greater than 10 km/h between 30 km/h and the maximum\r\ndesign speed of the vehicle."
+    },
+    {
+      "paragraph": "5.2.6.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6.2. In the case of vehicles manufactured for sale in any country where imperial units are used, it shall be\r\npossible to set Vadj value by steps not greater than 5 mph between 20 mph and the maximum design speed of the\r\nvehicle."
+    },
+    {
+      "paragraph": "5.2.6.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6.3. This shall be achieved by a control device operated directly by the driver."
+    },
+    {
+      "paragraph": "5.2.7",
+      "pages": [
+        5
+      ],
+      "text": "5.2.7. Activation / de-activation:"
+    },
+    {
+      "paragraph": "5.2.7.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.7.1. The ASLF must be capable of being activated/de-activated at any time."
+    },
+    {
+      "paragraph": "5.2.7.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.7.2. The ASLF must be de-activated each time the engine is stopped by a deliberate action of the driver."
+    },
+    {
+      "paragraph": "5.2.7.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.7.3. When the ASLF is activated the initial setting of Vadj shall not be less than the current vehicle speed."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.3. Tests"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        5
+      ],
+      "text": "5.3.1. The speed limitation tests (retain former paragraph of the current regulation for SLD)"
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        5
+      ],
+      "text": "5.3.2. The adjustable speed limitation tests to which the vehicle presented for approval are submitted are described\r\nin annex 6 of this Regulation."
+    },
+    {
+      "paragraph": "5.3.2.1",
+      "pages": [
+        5
+      ],
+      "text": "5.3.2.1. Three different speeds will be chosen for the tests at the discretion of the technical service."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        6
+      ],
+      "text": "6. MODIFICATIONS OF VEHICLE TYPE AND EXTENSION OF APPROVAL"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1. Every modification of the vehicle type shall be notified to the administrative department which approved the\r\nvehicle type. The department may then either:"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1.1. Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe vehicle still complies with the requirements, or"
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        6
+      ],
+      "text": "6.1.2. Require a further test report from the technical service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Parties to the 1958 Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        6
+      ],
+      "text": "6.3. The competent authority issuing an extension of approval shall assign a series number to each communication\r\nform drawn up for such an extension and inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. Every vehicle approved under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements set out in paragraph 5 above."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2. In order to verify that the requirements of paragraph 7.1. are met, suitable checks of the production shall be\r\ncarried out."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        6
+      ],
+      "text": "7.3. The holder of the approval shall, in particular:"
+    },
+    {
+      "paragraph": "7.3.1",
+      "pages": [
+        6
+      ],
+      "text": "7.3.1. Ensure existence of procedures for effective quality control of the vehicle,"
+    },
+    {
+      "paragraph": "7.3.2",
+      "pages": [
+        6
+      ],
+      "text": "7.3.2. Have access to the testing equipment necessary for checking conformity to each approved type;"
+    },
+    {
+      "paragraph": "7.3.3",
+      "pages": [
+        6
+      ],
+      "text": "7.3.3. Ensure that test result data are recorded and that the annexed documents remain available for a period to be\r\ndetermined in agreement with the administrative department,"
+    },
+    {
+      "paragraph": "7.3.4",
+      "pages": [
+        6
+      ],
+      "text": "7.3.4. Analyse the results of each type of test, in order to verify and ensure the consistency of characteristics of the\r\nvehicle, making allowance for permissible variations in industrial production;"
+    },
+    {
+      "paragraph": "7.3.5",
+      "pages": [
+        6
+      ],
+      "text": "7.3.5. Ensure that for each type of vehicle sufficient checks and tests are carried out in accordance with the\r\nprocedures approved with the competent authority,"
+    },
+    {
+      "paragraph": "7.3.6",
+      "pages": [
+        6
+      ],
+      "text": "7.3.6. Ensure that any set of samples or test components giving evidence of non-conformity in the type of test in\r\nquestion shall give rise to a further sampling and test. All necessary steps shall be taken to restore conformity of\r\nthe corresponding production."
+    },
+    {
+      "paragraph": "7.4",
+      "pages": [
+        6
+      ],
+      "text": "7.4. The competent authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production unit."
+    },
+    {
+      "paragraph": "7.4.1",
+      "pages": [
+        6
+      ],
+      "text": "7.4.1. At every inspection, the test records and production records shall be presented to the visiting inspector."
+    },
+    {
+      "paragraph": "7.4.2",
+      "pages": [
+        6
+      ],
+      "text": "7.4.2. The inspector may select samples at random to be tested in the manufacturer’s laboratory. The minimum\r\nnumber of samples may be determined according to the results of the manufacturer’s own checks."
+    },
+    {
+      "paragraph": "7.4.3",
+      "pages": [
+        6
+      ],
+      "text": "7.4.3. Where the quality level appears unsatisfactory or it seems necessary to verify the validity of the tests carried\r\nout in application of paragraph 7.4.2., the inspector shall select samples to be sent to the technical service which\r\nconducted the type approval tests."
+    },
+    {
+      "paragraph": "7.4.4",
+      "pages": [
+        6
+      ],
+      "text": "7.4.4. The competent authority may carry out any test prescribed in this Regulation. The normal frequency of\r\ninspections authorized by the competent authority shall be one every two years. In cases where unsatisfactory\r\nresults are found during one of these inspections, the competent authority shall ensure that all necessary steps are\r\ntaken to restore conformity of production as rapidly as possible."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        7
+      ],
+      "text": "8. PENALTIES FOR NO CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        7
+      ],
+      "text": "8.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 5 above are not complied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        7
+      ],
+      "text": "8.2. If a Contracting Party to the 1958 Agreement applying this Regulation withdraws an approval it has\r\npreviously granted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of\r\na communication form conforming to the model in annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. PRODUCTION DEFINITELY DISCONTINUED"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        7
+      ],
+      "text": "9.1. If the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance with\r\nthis Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication, that authority shall inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. NAMES AND ADDRESSES OF TECHNICAL SERVICES RESPONSIBLE FOR\r\nCONDUCTING APPROVAL TESTS AND OF ADMINISTRATIVE DEPARTMENTS"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1. The Contracting Parties to the 1958 Agreement applying this Regulation shall communicate to the United\r\nNations secretariat the names and addresses of the technical services responsible for conducting approval tests and\r\nof the administrative departments which grant approval and to which forms certifying approval or extension, or\r\nrefusal or withdrawal of approval or production definitely discontinued, issued in other countries, are to be sent.\r\n\r\nPART II APPROVAL OF VEHICLES WITH REGARD TO THE INSTALLATION OF\r\nA SPEED LIMITATION DEVICE (SLD) OF AN APPROVED TYPE"
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        7
+      ],
+      "text": "11. APPLICATION FOR APPROVAL"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        7
+      ],
+      "text": "11.1. The application for approval of a vehicle type with regard to the installation of an SLD of an approved type\r\nshall be submitted by the vehicle manufacturer or by his duly accredited representative."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        7
+      ],
+      "text": "11.2. It shall be accompanied by the under-mentioned documents in triplicate and by the following particulars:"
+    },
+    {
+      "paragraph": "11.2.1",
+      "pages": [
+        7
+      ],
+      "text": "11.2.1. A detailed description of the vehicle type and of vehicle parts related to the speed limitation, comprising\r\nthe particulars and documentation referred to in annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "11.2.2",
+      "pages": [
+        7
+      ],
+      "text": "11.2.2. At the request of the competent authority the type approval communication form (i.e. annex 3 of this\r\nRegulation) of each type of SLD shall also be supplied."
+    },
+    {
+      "paragraph": "11.2.3",
+      "pages": [
+        7
+      ],
+      "text": "11.2.3. A vehicle representative of the type to be approved and fitted with a type approved SLD shall be submitted\r\nto the technical service,"
+    },
+    {
+      "paragraph": "11.2.3.1",
+      "pages": [
+        7
+      ],
+      "text": "11.2.3.1. A vehicle not comprising all the components proper to the type may be accepted provided that it can be\r\nshown by the applicant to the satisfaction of the competent authority that the absence of the components omitted\r\nhas no effect on the results of the verifications, so far as the requirements of this Regulation are concerned."
+    },
+    {
+      "paragraph": "11.3",
+      "pages": [
+        7
+      ],
+      "text": "11.3. The competent authority shall verify the existence of satisfactory arrangements for ensuring effective checks\r\non conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        7
+      ],
+      "text": "12. APPROVAL"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        7
+      ],
+      "text": "12.1. If the vehicle submitted for approval pursuant to this Regulation is provided with an approved SLD and\r\nmeets the requirements of paragraph 13 below, approval of that vehicle type shall be granted."
+    },
+    {
+      "paragraph": "12.2",
+      "pages": [
+        8
+      ],
+      "text": "12.2. An approval number shall be assigned to each type approved. Its first two digits (00 for the Regulation in its\r\npresent form) shall indicate the series of amendments incorporating the most recent major technical amendments\r\nmade to the Regulation at the time of issue of the approval. The same Contracting Party may not assign the same\r\nnumber to another vehicle type."
+    },
+    {
+      "paragraph": "12.3",
+      "pages": [
+        8
+      ],
+      "text": "12.3. Notice of approval or of extension or refusal or withdrawal of approval or production definitely discontinued\r\nof a vehicle type pursuant to this Regulation shall be communicated to the Parties to the Agreement which apply\r\nthis Regulation by means of a form conforming to the model in annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "12.4",
+      "pages": [
+        8
+      ],
+      "text": "12.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "12.4.1",
+      "pages": [
+        8
+      ],
+      "text": "12.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval, 3/\r\n\r\n3/ 1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for Belgium, 7 for Hungary, 8 for the Czech Republic, 9 for\r\nSpain, 10 for Yugoslavia, 11 for the United Kingdom,12 for Austria, 13 for Luxembourg, 14 for Switzerland, lS (vacant), 16 for Norway, 17\r\nfor Finland, 18 for Denmark, 19 for Romania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece, 24 for Ireland, 25\r\nfor Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for Estonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32 for Latvia, 33\r\n(vacant), 34 for Bulgaria, 35- 36 (vacant), 37 for Turkey, 38-39 (vacant), 40 for The former Yugoslav Republic of Macedonia, 41 (vacant), 42\r\nfor the European Community (Approvals are granted by its Member States using their respective ECE symbol), 43 for Japan, 44 (vacant), 45\r\nfor Australia and 46 for Ukraine. Subsequent numbers shall be assigned to other countries in the chronological order in which they ratify or\r\naccede to the Agreement concerning the Adoption of Uniform Conditions of Approval and Reciprocal Recognition of Approval for Motor\r\nVehicle Equipment and Parts, and the numbers thus assigned shall be communicated by the Secretary-General of the United Nations to the\r\nContracting Parties to the Agreement."
+    },
+    {
+      "paragraph": "12.4.2",
+      "pages": [
+        8
+      ],
+      "text": "12.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 12.4.1."
+    },
+    {
+      "paragraph": "12.4.3",
+      "pages": [
+        8
+      ],
+      "text": "12.4.3. The following additional symbol: a rectangle surrounding a number of figures corresponding to the range\r\nof vehicle speeds for which the SLD may be set, expressed in km/h (and mile/h if requested by the applicant)."
+    },
+    {
+      "paragraph": "12.5",
+      "pages": [
+        8
+      ],
+      "text": "12.5. If the vehicle conforms to a vehicle type approved, under one or more other Regulations annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n12.4.1 need not be repeated; in such a case the Regulation and approval numbers and the additional symbols of all\r\nthe Regulations under which approval has been granted in the country which has granted approval under this\r\nRegulation shall be placed in vertical columns to the right of the symbol prescribed in paragraph 12.4.1.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "12.6",
+      "pages": [
+        8
+      ],
+      "text": "12.6. The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "12.7",
+      "pages": [
+        8
+      ],
+      "text": "12.7. The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "12.8",
+      "pages": [
+        8
+      ],
+      "text": "12.8. Models B and C of annex 4 to this Regulation give examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "12.9",
+      "pages": [
+        8
+      ],
+      "text": "12.9. In addition to the marking requirements of paragraph 12.4. above, Contracting Parties to this Regulation\r\nmay require the vehicle to be equipped with a plate which is in a conspicuous and readily accessible position\r\nwithin the driving compartment and which shows clearly and indelibly:"
+    },
+    {
+      "paragraph": "12.9.1",
+      "pages": [
+        8
+      ],
+      "text": "12.9.1. The words \"SPEED LIMITER FITTED\" (or other words to similar effect),"
+    },
+    {
+      "paragraph": "12.9.2",
+      "pages": [
+        8
+      ],
+      "text": "12.9.2. The name or trade mark of the SLD calibrator (if applicable),"
+    },
+    {
+      "paragraph": "12.9.3",
+      "pages": [
+        8
+      ],
+      "text": "12.9.3. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval and the number of this regulation, followed by the letter \"R\", and"
+    },
+    {
+      "paragraph": "12.9.4",
+      "pages": [
+        8
+      ],
+      "text": "12.9.4. The set speed in km/h (and mile/h if requested) at which the vehicle is calibrated."
+    },
+    {
+      "paragraph": "13",
+      "pages": [
+        8
+      ],
+      "text": "13. REQUIREMENTS"
+    },
+    {
+      "paragraph": "13.1",
+      "pages": [
+        8
+      ],
+      "text": "13.1. Requirements concerning the installation of an approved SLD."
+    },
+    {
+      "paragraph": "13.1.1",
+      "pages": [
+        9
+      ],
+      "text": "13.1.1. The SLD shall be so installed as to enable the vehicle in normal use, despite the vibrations to which it may\r\nbe subjected, to comply with the provisions of Part II of this Regulation."
+    },
+    {
+      "paragraph": "13.1.2",
+      "pages": [
+        9
+      ],
+      "text": "13.1.2. The information document shall indicate how inviolability of the SLD is assured. The analysis level will\r\nbe always to the first failure."
+    },
+    {
+      "paragraph": "13.1.3",
+      "pages": [
+        9
+      ],
+      "text": "13.1.3. The speed limitation function shall be obtained regardless of the accelerator control used if there is more\r\nthan one such control which may be reached from the driver’s seating position."
+    },
+    {
+      "paragraph": "13.1.4",
+      "pages": [
+        9
+      ],
+      "text": "13.1.4. The applicant for approval shall provide documentation describing checking and calibration procedures. It\r\nshall be possible to check the functioning of the speed limitation function whilst the vehicle is stationary, (e.g. for\r\nconformity of production or periodic inspection)."
+    },
+    {
+      "paragraph": "13.1.5",
+      "pages": [
+        9
+      ],
+      "text": "13.1.5. All components necessary for the full function of the SLD shall be energized whenever the vehicle is being\r\ndriven."
+    },
+    {
+      "paragraph": "13.1.6",
+      "pages": [
+        9
+      ],
+      "text": "13.1.6. The speed limitation function shall not actuate the vehicle’s service braking system. A permanent brake\r\n(e.g. retarder) may be incorporated only if it operates after the speed limitation function has restricted the fuel feed\r\nto the minimum fuel position."
+    },
+    {
+      "paragraph": "13.2",
+      "pages": [
+        9
+      ],
+      "text": "13.2. Requirements concerning the installation of an approved ASLD."
+    },
+    {
+      "paragraph": "13.2.1",
+      "pages": [
+        9
+      ],
+      "text": "13.2.1. The vehicle on which the approved ASLD has been installed shall meet all requirements of paragraphs\r\n5.2.2., 5.2.4., 5.2.5.4., 5.2.6. and 5.2.7."
+    },
+    {
+      "paragraph": "14",
+      "pages": [
+        9
+      ],
+      "text": "14. MODIFICATIONS OF VEHICLE TYPE AND EXTENSION OF APPROVAL"
+    },
+    {
+      "paragraph": "14.1",
+      "pages": [
+        9
+      ],
+      "text": "14.1. Every modification of the vehicle type shall be notified to the administrative department which approved the\r\nvehicle type. The department may then either:"
+    },
+    {
+      "paragraph": "14.1.1",
+      "pages": [
+        9
+      ],
+      "text": "14.1.1. Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any\r\ncase the vehicle still complies with the requirements, or"
+    },
+    {
+      "paragraph": "14.1.2",
+      "pages": [
+        9
+      ],
+      "text": "14.1.2. Require a further report from the technical service."
+    },
+    {
+      "paragraph": "14.2",
+      "pages": [
+        9
+      ],
+      "text": "14.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 12.3. above to the Parties to the 1958 Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "14.3",
+      "pages": [
+        9
+      ],
+      "text": "14.3. The competent authority issuing the extension of approval shall assign a series number to each\r\ncommunication form drawn up for such an extension and inform thereof the other Parties to the 1958 Agreement\r\napplying this Regulation by means of a communication form conforming to the model in annex 2 to this\r\nRegulation."
+    },
+    {
+      "paragraph": "15",
+      "pages": [
+        9
+      ],
+      "text": "15. CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "15.1",
+      "pages": [
+        9
+      ],
+      "text": "15.1. Every vehicle approved pursuant to this Regulation shall be so manufactured as to conform to the type\r\napproved by meeting the requirements set out in paragraph 13 above."
+    },
+    {
+      "paragraph": "15.2",
+      "pages": [
+        9
+      ],
+      "text": "15.2. In order to verify that the requirements of paragraph 15.1 above are met, appropriate checks on production\r\nshall be carried out."
+    },
+    {
+      "paragraph": "15.3",
+      "pages": [
+        9
+      ],
+      "text": "15.3. The holder of the approval shall in particular:"
+    },
+    {
+      "paragraph": "15.3.1",
+      "pages": [
+        9
+      ],
+      "text": "15.3.1. Ensure existence of procedures for effective quality control of the vehicles as regards all aspects relevant\r\nto compliance with the requirements set out in paragraph 13 above;"
+    },
+    {
+      "paragraph": "15.3.2",
+      "pages": [
+        9
+      ],
+      "text": "15.3.2. Ensure that for every approved vehicle sufficient checks are carried out regarding the installation of a type\r\napproved SLD, in such a way that all vehicles in production comply with the specifications of the vehicles\r\nsubmitted for type approval;"
+    },
+    {
+      "paragraph": "15.3.3",
+      "pages": [
+        10
+      ],
+      "text": "15.3.3. Ensure that, if the checks carried out pursuant to\r\nparagraph 15.3.2. above give evidence of non-conformity of one or more vehicles with the requirements set out in\r\nparagraph 13 above, all necessary steps are taken to restore conformity of the corresponding production."
+    },
+    {
+      "paragraph": "15.4",
+      "pages": [
+        10
+      ],
+      "text": "15.4. The competent authority which granted type approval may at any time verify the conformity control\r\nmethods applied for each production unit. The authority may also carry out random checks on serially\r\nmanufactured vehicles in respect to the requirements set out in paragraph 13 above."
+    },
+    {
+      "paragraph": "15.5",
+      "pages": [
+        10
+      ],
+      "text": "15.5. Where unsatisfactory results are found during verifications and checks pursuant to paragraph 15.4. above,\r\nthe competent authority shall ensure that all necessary steps are taken to restore conformity of production as\r\nrapidly as possible."
+    },
+    {
+      "paragraph": "15.6",
+      "pages": [
+        10
+      ],
+      "text": "15.6. The normal frequency of inspections authorized by the competent authority shall be one every two years. In\r\ncases where unsatisfactory results are found during one of these inspections, the competent authority shall ensure\r\nthat all necessary steps are taken to restore conformity of production as rapidly as possible."
+    },
+    {
+      "paragraph": "16",
+      "pages": [
+        10
+      ],
+      "text": "16. PENALTIES FOR NON-CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "16.1",
+      "pages": [
+        10
+      ],
+      "text": "16.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 13 above are not complied with."
+    },
+    {
+      "paragraph": "16.2",
+      "pages": [
+        10
+      ],
+      "text": "16.2. If a Contracting Party to the 1958 Agreement applying this Regulation withdraws an approval it has\r\npreviously granted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of\r\na communication form conforming to the model in annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "17",
+      "pages": [
+        10
+      ],
+      "text": "17. PRODUCTION DEFINITELY DISCONTINUED"
+    },
+    {
+      "paragraph": "17.1",
+      "pages": [
+        10
+      ],
+      "text": "17.1. If the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance\r\nwith this Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication, that authority shall inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "18",
+      "pages": [
+        10
+      ],
+      "text": "18. NAMES AND ADDRESSES OF TECHNICAL SERVICES RESPONSIBLE FOR\r\nCONDUCTING APPROVAL TESTS AND OF ADMINISTRATIVE DEPARTMENTS"
+    },
+    {
+      "paragraph": "18.1",
+      "pages": [
+        10
+      ],
+      "text": "18.1. The Contracting Parties to the 1958 Agreement applying this Regulation shall communicate to the United\r\nNations secretariat the names and addresses of the technical services responsible for conducting approval tests and\r\nof the administrative departments which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval or production definitely discontinued issued in other countries, are to be sent.\r\n\r\nPART III APPROVAL OF SPEED LIMITATION DEVICES (SLD)"
+    },
+    {
+      "paragraph": "19",
+      "pages": [
+        10
+      ],
+      "text": "19. APPLICATION FOR APPROVAL OF AN SLD"
+    },
+    {
+      "paragraph": "19.1",
+      "pages": [
+        10
+      ],
+      "text": "19.1. The application for approval of an SLD must be submitted by the manufacturer of the SLD or by his duly\r\naccredited representative."
+    },
+    {
+      "paragraph": "19.2",
+      "pages": [
+        10
+      ],
+      "text": "19.2. For each type of SLD the application must be accompanied by:"
+    },
+    {
+      "paragraph": "19.2.1",
+      "pages": [
+        10
+      ],
+      "text": "19.2.1. Documentation in triplicate giving a description of the technical characteristics of the SLD and the method\r\nof its installation on each make and type of vehicle for which the SLD is intended to be installed;"
+    },
+    {
+      "paragraph": "19.2.2",
+      "pages": [
+        10
+      ],
+      "text": "19.2.2. Five samples of the type of SLD: the samples must be clearly and indelibly marked with the applicant's\r\ntrade name or mark and the type designation;"
+    },
+    {
+      "paragraph": "19.2.3",
+      "pages": [
+        11
+      ],
+      "text": "19.2.3. A vehicle or an engine (in the case of testing on an engine bench) fitted with the SLD to be type approved,\r\nchosen by the applicant in agreement with the technical service responsible for conducting approval tests."
+    },
+    {
+      "paragraph": "19.3",
+      "pages": [
+        11
+      ],
+      "text": "19.3. The competent authority shall verify the existence of satisfactory arrangements for ensuring effective control\r\nof the conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "20",
+      "pages": [
+        11
+      ],
+      "text": "20. APPROVAL"
+    },
+    {
+      "paragraph": "20.1",
+      "pages": [
+        11
+      ],
+      "text": "20.1. If the SLD submitted for approval pursuant to this Regulation meets the requirements of paragraph 21\r\nbelow, approval of that type of SLD shall be granted."
+    },
+    {
+      "paragraph": "20.2",
+      "pages": [
+        11
+      ],
+      "text": "20.2. An approval number shall be assigned to each type approved. Its first two digits (00 for the Regulation in its\r\npresent form) shall indicate the series of amendments incorporating the most recent major technical amendments\r\nmade to the Regulation at the time of issue of the approval. The same Contracting Party may not assign the same\r\nnumber to another type of SLD."
+    },
+    {
+      "paragraph": "20.3",
+      "pages": [
+        11
+      ],
+      "text": "20.3. Notice of approval, or of extension or refusal or withdrawal of approval or production definitely\r\ndiscontinued, of a type of SLD pursuant to this Regulation shall be communicated to the Parties to the Agreement\r\nwhich apply this Regulation by means of a form conforming to the model in annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "20.4",
+      "pages": [
+        11
+      ],
+      "text": "20.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery SLD conforming to a type of SLD approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "20.4.1",
+      "pages": [
+        11
+      ],
+      "text": "20.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval; 3/\r\n\r\n3/ 1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for Belgium, 7 for Hungary, 8 for the Czech Republic, 9 for\r\nSpain, 10 for Yugoslavia, 11 for the United Kingdom,12 for Austria, 13 for Luxembourg, 14 for Switzerland, lS (vacant), 16 for Norway, 17\r\nfor Finland, 18 for Denmark, 19 for Romania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece, 24 for Ireland, 25\r\nfor Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for Estonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32 for Latvia, 33\r\n(vacant), 34 for Bulgaria, 35- 36 (vacant), 37 for Turkey, 38-39 (vacant), 40 for The former Yugoslav Republic of Macedonia, 41 (vacant), 42\r\nfor the European Community (Approvals are granted by its Member States using their respective ECE symbol), 43 for Japan, 44 (vacant), 45\r\nfor Australia and 46 for Ukraine. Subsequent numbers shall be assigned to other countries in the chronological order in which they ratify or\r\naccede to the Agreement concerning the Adoption of Uniform Conditions of Approval and Reciprocal Recognition of Approval for Motor\r\nVehicle Equipment and Parts, and the numbers thus assigned shall be communicated by the Secretary-General of the United Nations to the\r\nContracting Parties to the Agreement."
+    },
+    {
+      "paragraph": "20.4.2",
+      "pages": [
+        11
+      ],
+      "text": "20.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 20.4.1."
+    },
+    {
+      "paragraph": "20.5",
+      "pages": [
+        11
+      ],
+      "text": "20.5. The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "20.6",
+      "pages": [
+        11
+      ],
+      "text": "20.6. Model A of annex 4 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "21",
+      "pages": [
+        11
+      ],
+      "text": "21. REQUIREMENTS"
+    },
+    {
+      "paragraph": "21.1",
+      "pages": [
+        11
+      ],
+      "text": "21.1. General"
+    },
+    {
+      "paragraph": "21.1.1",
+      "pages": [
+        11
+      ],
+      "text": "21.1.1. The SLD shall be so designed, constructed and assembled as to enable the vehicle in normal use, fitted\r\nwith the SLD, to comply with the provisions of Part III of this Regulation."
+    },
+    {
+      "paragraph": "21.1.2",
+      "pages": [
+        11
+      ],
+      "text": "21.1.2. In particular, the SLD must be so designed, constructed and assembled as to resist corrosion and ageing\r\nphenomena to which it may be exposed and to resist tampering in accordance with paragraph 21.1.6."
+    },
+    {
+      "paragraph": "21.1.2.1",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "21.1.2.1. The set speed Vset must not, in any case, be capable of being increased or removed temporarily or\r\npermanently on vehicles in use. The inviolability shall be demonstrated to the technical service with\r\ndocumentation analysing the failure mode in which the system will be globally examined. The analysis shall\r\nshow, taking into account the different states taken by the system, the consequences of a modification of the input\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nor output states on the functioning, the possibilities to obtain these modifications by failures or by voluntary\r\nviolation and the possibility of their occurrence. The analysis level will be always to the first failure."
+    },
+    {
+      "paragraph": "21.1.2.2",
+      "pages": [
+        12
+      ],
+      "text": "21.1.2.2. The SLD and the connections necessary for its operation, except those essential for the running of the\r\nvehicle, shall be capable of being protected from any unauthorized adjustments or the interruption of its energy\r\nsupply by the attachment of seals and/or the need to use special tools."
+    },
+    {
+      "paragraph": "21.1.3",
+      "pages": [
+        12
+      ],
+      "text": "21.1.3. The SLD shall not actuate the vehicle's service braking system. A permanent brake {e.g. retarder) may be\r\nactuated only if it operates after the speed limitation device has restricted the fuel feed to the minimum fuel\r\nposition."
+    },
+    {
+      "paragraph": "21.1.4",
+      "pages": [
+        12
+      ],
+      "text": "21.1.4. The SLD must be such that it does not affect the vehicle’s road speed if a positive action on the accelerator\r\nis applied when the vehicle is running at its set speed."
+    },
+    {
+      "paragraph": "21.1.5",
+      "pages": [
+        12
+      ],
+      "text": "21.1.5. The SLD may allow normal accelerator control for the purposes of gear changing."
+    },
+    {
+      "paragraph": "21.1.6",
+      "pages": [
+        12
+      ],
+      "text": "21.1.6. No malfunction or unauthorized interference shall result in an increase in engine power above that\r\ndemanded by the position of the driver’s accelerator."
+    },
+    {
+      "paragraph": "21.1.7",
+      "pages": [
+        12
+      ],
+      "text": "21.1.7. The SLD shall operate satisfactorily in its electromagnetic environment without unacceptable\r\nelectromagnetic disturbance for anything in this environment."
+    },
+    {
+      "paragraph": "21.2",
+      "pages": [
+        12
+      ],
+      "text": "21.2. Requirements for ASLDs"
+    },
+    {
+      "paragraph": "21.2.1",
+      "pages": [
+        12
+      ],
+      "text": "21.2.1. The adjustable speed limitation device ASLD must be such that the vehicle in normal use, despite the\r\nvibrations to which it may be subjected, complies with the provisions of Part III of this Regulation."
+    },
+    {
+      "paragraph": "21.2.1.1",
+      "pages": [
+        12
+      ],
+      "text": "21.2.1.1. In particular, the ASLF must be so designed, constructed and assembled as to resist corrosion and ageing\r\nphenomena to which it may be exposed."
+    },
+    {
+      "paragraph": "21.2.2",
+      "pages": [
+        12
+      ],
+      "text": "21.2.2. The effectiveness of the speed limitation function shall not be adversely affected by magnetic or electric\r\nfields. This shall be demonstrated by fulfilling the technical requirements and respecting the transitional\r\nprovisions of UN Regulation No. 10, by applying:\r\n(a) The 03 series of amendments for vehicles without a coupling system for charging the rechargeable energy\r\nstorage system (traction batteries).\r\n(b) The 04 series of amendments for vehicles with a coupling system for charging the rechargeable energy storage\r\nsystem (traction batteries)."
+    },
+    {
+      "paragraph": "21.2.3",
+      "pages": [
+        12
+      ],
+      "text": "21.2.3. No malfunction or unauthorized interference shall result in an increase in engine power above that\r\ndemanded by the position of the driver's accelerator."
+    },
+    {
+      "paragraph": "21.2.4",
+      "pages": [
+        12
+      ],
+      "text": "21.2.4. The Vadj value shall be permanently indicated to the driver by a visual display. This does not preclude\r\ntemporary interruption of the display for safety reasons."
+    },
+    {
+      "paragraph": "21.2.5",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5. The ASLD must respect the following requirements:"
+    },
+    {
+      "paragraph": "21.2.5.1",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5.1. The adjustable speed limitation device shall not actuate the vehicle's braking system except for vehicles\r\nof categories M1 and N1, where the vehicle's service braking system may be actuated."
+    },
+    {
+      "paragraph": "21.2.5.2",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5.2. The method used to limit speed when reaching Vadj must be possible whichever transmission type\r\n(automatic or manual) of the vehicle."
+    },
+    {
+      "paragraph": "21.2.5.3",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5.3. The vehicle speed shall be limited to Vadj."
+    },
+    {
+      "paragraph": "21.2.5.4",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5.4. It shall still be possible to exceed speed Vadj."
+    },
+    {
+      "paragraph": "21.2.5.4.1",
+      "pages": [
+        12
+      ],
+      "text": "21.2.5.4.1. To exceed Vadj a positive action will be required. */\r\n\r\n*/ e.g. kickdown”"
+    },
+    {
+      "paragraph": "21.2.5.4.2",
+      "pages": [
+        13
+      ],
+      "text": "21.2.5.4.2. Whenever the vehicle speed exceeds Vadj the driver must be informed by means of a suitable warning\r\nsignal other than the speedometer."
+    },
+    {
+      "paragraph": "21.2.5.4.3",
+      "pages": [
+        13
+      ],
+      "text": "21.2.5.4.3. Compliance with paragraph 21.2.5.4.2. shall be demonstrated with paragraph 21.3."
+    },
+    {
+      "paragraph": "21.2.5.5",
+      "pages": [
+        13
+      ],
+      "text": "21.2.5.5. The speed limitation function shall permit a normal use of the accelerator control for gear selection."
+    },
+    {
+      "paragraph": "21.2.6",
+      "pages": [
+        13
+      ],
+      "text": "21.2.6. Setting of Vadj:"
+    },
+    {
+      "paragraph": "21.2.6.1",
+      "pages": [
+        13
+      ],
+      "text": "21.2.6.1. It shall be possible to set Vadj value by steps no greater than 10 km/h (5 mph) between 30 km/h (20 mph)\r\nand the maximum design max speed of the vehicle."
+    },
+    {
+      "paragraph": "21.2.6.2",
+      "pages": [
+        13
+      ],
+      "text": "21.2.6.2. In the case of vehicles manufactured for sale in any country where imperial units are used, it shall be\r\npossible to set Vadj value by steps not greater than 5 mph between 20 mph and the maximum design speed of the\r\nvehicle."
+    },
+    {
+      "paragraph": "21.2.6.3",
+      "pages": [
+        13
+      ],
+      "text": "21.2.6.3. This shall be achieved by a control device operated by the driver."
+    },
+    {
+      "paragraph": "21.2.7",
+      "pages": [
+        13
+      ],
+      "text": "21.2.7. Activation / de-activation"
+    },
+    {
+      "paragraph": "21.2.7.1",
+      "pages": [
+        13
+      ],
+      "text": "21.2.7.1. When Vadj is set by the driver it shall not capable of being modified by any means other than the\r\ndesignated control device."
+    },
+    {
+      "paragraph": "21.2.7.2",
+      "pages": [
+        13
+      ],
+      "text": "21.2.7.2. The ASLD must be capable to be activated / de-activated at any time."
+    },
+    {
+      "paragraph": "21.2.7.3",
+      "pages": [
+        13
+      ],
+      "text": "21.2.7.3. The ASLD must be de-activated at each engine stop and the key removed."
+    },
+    {
+      "paragraph": "21.3",
+      "pages": [
+        13
+      ],
+      "text": "21.3. Tests"
+    },
+    {
+      "paragraph": "21.3.1",
+      "pages": [
+        13
+      ],
+      "text": "21.3.1. The speed limitation tests to which the SLD presented for approval is submitted as well as the\r\nperformances required are described in annex 5 to this Regulation."
+    },
+    {
+      "paragraph": "21.3.2",
+      "pages": [
+        13
+      ],
+      "text": "21.3.2. The adjustable speed limitation tests to which the ASLD presented for approval are submitted are\r\ndescribed in annex 6 of this Regulation."
+    },
+    {
+      "paragraph": "21.3.2.1",
+      "pages": [
+        13
+      ],
+      "text": "21.3.2.1. Three different speeds will be chosen for the tests at the discretion of the technical service."
+    },
+    {
+      "paragraph": "22",
+      "pages": [
+        13
+      ],
+      "text": "22. MODIFICATION OF THE SLD TYPE AND EXTENSION OF APPROVAL"
+    },
+    {
+      "paragraph": "22.1",
+      "pages": [
+        13
+      ],
+      "text": "22.1. Every modification of the SLD type shall be notified to the administrative department which approved this\r\ntype of SLD. The department may then either:"
+    },
+    {
+      "paragraph": "22.1.1",
+      "pages": [
+        13
+      ],
+      "text": "22.1.1. Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any\r\ncase the SLD still complies with the requirements, or"
+    },
+    {
+      "paragraph": "22.1.2",
+      "pages": [
+        13
+      ],
+      "text": "22.1.2. Require a further test report for some or all the tests described in annex 5 to this Regulation from the\r\ntechnical service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "22.2",
+      "pages": [
+        13
+      ],
+      "text": "22.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 20.3. above to the Parties to the 1958 Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "22.3",
+      "pages": [
+        13
+      ],
+      "text": "22.3. The competent authority issuing the extension of approval shall assign a series number to each\r\ncommunication form drawn up for such an extension and inform thereof the other Parties to the 1958 Agreement\r\napplying this Regulation by means of a communication form conforming to the model in annex 3 to this\r\nRegulation."
+    },
+    {
+      "paragraph": "23",
+      "pages": [
+        13
+      ],
+      "text": "23. CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "23.1",
+      "pages": [
+        13
+      ],
+      "text": "23.1. Every SLD approved under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements set out in paragraph 21 above."
+    },
+    {
+      "paragraph": "23.2",
+      "pages": [
+        14
+      ],
+      "text": "23.2. In order to verify that the requirements of paragraph 23.1 are met, suitable checks of the production shall be\r\ncarried out."
+    },
+    {
+      "paragraph": "23.3",
+      "pages": [
+        14
+      ],
+      "text": "23.3. The holder of the approval shall, in particular:"
+    },
+    {
+      "paragraph": "23.3.1",
+      "pages": [
+        14
+      ],
+      "text": "23.3.1. Ensure existence of procedures for effective quality control of the SLD;"
+    },
+    {
+      "paragraph": "23.3.2",
+      "pages": [
+        14
+      ],
+      "text": "23.3.2. Have access to the testing equipment necessary for checking conformity of each approved type;"
+    },
+    {
+      "paragraph": "23.3.3",
+      "pages": [
+        14
+      ],
+      "text": "23.3.3. Ensure that test result data are recorded and that the annexed documents remain available for a period to\r\nbe determined in agreement with the administrative service;"
+    },
+    {
+      "paragraph": "23.3.4",
+      "pages": [
+        14
+      ],
+      "text": "23.3.4. Analyse the results of each type of test, in order to verify and ensure the consistency of the SLD\r\ncharacteristics, making allowance for permissible variations in industrial production;"
+    },
+    {
+      "paragraph": "23.3.5",
+      "pages": [
+        14
+      ],
+      "text": "23.3.5. Ensure that for each type of SLD at least the constituent materials and the method of assembly correspond\r\nto the SLD approved. If necessary the tests prescribed in paragraph 1 of annex 5 to this Regulation shall be carried\r\nout;"
+    },
+    {
+      "paragraph": "23.3.6",
+      "pages": [
+        14
+      ],
+      "text": "23.3.6. Ensure that any set of samples or test components giving evidence of non-conformity in the type of test in\r\nquestion shall give rise to a further sampling and test. All necessary steps shall be taken to restore conformity of\r\nthe corresponding production."
+    },
+    {
+      "paragraph": "23.4",
+      "pages": [
+        14
+      ],
+      "text": "23.4. The competent authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production unit."
+    },
+    {
+      "paragraph": "23.4.1",
+      "pages": [
+        14
+      ],
+      "text": "23.4.1. At every inspection, the test records and production records shall be presented to the visiting inspector."
+    },
+    {
+      "paragraph": "23.4.2",
+      "pages": [
+        14
+      ],
+      "text": "23.4.2. The inspector may select samples at random to be tested in the manufacturer's laboratory. The minimum\r\nnumber of samples may be determined according to the results of the manufacturer's own checks."
+    },
+    {
+      "paragraph": "23.4.3",
+      "pages": [
+        14
+      ],
+      "text": "23.4.3. Where the quality level appears unsatisfactory or it seems necessary to verify the validity of the tests\r\ncarried out in application of paragraph 23.4.2. the inspector shall select samples to be sent to the technical service\r\nwhich conducted the type-approval tests."
+    },
+    {
+      "paragraph": "23.4.4",
+      "pages": [
+        14
+      ],
+      "text": "23.4.4. The competent authority may carry out any test prescribed in this Regulation. The normal frequency of\r\ninspections authorized by the competent authority shall be one every two years. In cases where unsatisfactory\r\nresults are found during one of these inspections, the competent authority shall ensure that all necessary steps are\r\ntaken to restore conformity of production as rapidly as possible."
+    },
+    {
+      "paragraph": "24",
+      "pages": [
+        14
+      ],
+      "text": "24. PENALTIES FOR NON-CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "24.1",
+      "pages": [
+        14
+      ],
+      "text": "24.1. The approval granted in respect of a type of SLD pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 21 above are not complied with."
+    },
+    {
+      "paragraph": "24.2",
+      "pages": [
+        14
+      ],
+      "text": "24.2. If a Contracting Party to the 1958 Agreement applying this Regulation withdraws an approval it has\r\npreviously granted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of\r\na communication form conforming to the model in annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "25",
+      "pages": [
+        14
+      ],
+      "text": "25. PRODUCTION DEFINITELY DISCONTINUED"
+    },
+    {
+      "paragraph": "25.1",
+      "pages": [
+        14
+      ],
+      "text": "25.1. If the holder of the approval completely ceases to manufacture a type of SLD approved in accordance with\r\nthis Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication, that authority shall inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "26",
+      "pages": [
+        15
+      ],
+      "text": "26. NAMES AND ADDRESSES OF TECHNICAL SERVICES RESPONSIBLE FOR\r\nCONDUCTING APPROVAL TESTS AND OF ADMINISTRATIVE DEPARTMENTS"
+    },
+    {
+      "paragraph": "26.1",
+      "pages": [
+        15
+      ],
+      "text": "26.1. The Contracting Parties to the 1958 Agreement applying this Regulation shall communicate to the United\r\nNations secretariat the names and addresses of the technical services responsible for conducting approval tests and\r\nof the administrative departments which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval or production definitely discontinued issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        15
+      ],
+      "text": "Annex 1 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n………………………………………..\r\n………………………………………..\r\n………………………………………..\r\nConcerning: 2/\r\nAPPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a vehicle type with regard to the maximum speed limitation by the vehicle's speed limiting function / adjustable\r\nspeed limitation function pursuant to Part I of Regulation No. 89.\r\nApproval No............ Extension No. ............\r\n\r\n1/Distinguishing number of the country which has granted/extended/ refused/withdrawn approval (see approval provisions in the\r\nRegulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        15
+      ],
+      "text": "1. Trade name or mark of the vehicle ......................................."
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. Vehicle type ............................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. Manufacturer's name and address ........................................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        15
+      ],
+      "text": "4. If applicable name and address of manufacturer's representative ........."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        15
+      ],
+      "text": "5. Brief description of the speed limiting function / adjustable speed limitation function of the vehicle ........."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        15
+      ],
+      "text": "6. Speed or range of speeds at which the limitation may be set ............ .V= …………km/h\r\n............................................"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        16
+      ],
+      "text": "7. Ratio of maximum engine power/unladen mass of the vehicle type"
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        16
+      ],
+      "text": "8. Highest ratio of engine speed/vehicle speed in top gear of the vehicle type ................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        16
+      ],
+      "text": "9. Vehicle submitted for approval on"
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        16
+      ],
+      "text": "10. Technical service responsible for conducting the approval tests ........."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        16
+      ],
+      "text": "11. Date of report issued by that service ..................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        16
+      ],
+      "text": "12. Number of report issued by that service ................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        16
+      ],
+      "text": "13. Approval granted/extended/refused/withdrawn 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        16
+      ],
+      "text": "14. Position of approval mark on the vehicle ......................."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        16
+      ],
+      "text": "15. Place ..................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        16
+      ],
+      "text": "16. Date ...................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 17",
+      "pages": [
+        16
+      ],
+      "text": "17. Signature ..............................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 18",
+      "pages": [
+        16
+      ],
+      "text": "18. The list of documents filed with the administrative service which has granted approval and available on\r\nrequest is annexed to this communication."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        16,
+        17
+      ],
+      "text": "Annex 2 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n………………………………….\r\n………………………………….\r\n………………………………….\r\nConcerning:2/\r\nAPPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a vehicle type with regard to the installation of a \"speed limitation device / adjustable speed limitation device\r\n(SLD/ASLD) of an approved type pursuant to Part II of Regulation No. 89.\r\nApproval No............ Extension No.............\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1/Distinguishing number of the country which has granted/extended/ refused/withdrawn approval (see approval provisions in the\r\nRegulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        17
+      ],
+      "text": "1. Trade name or mark of the vehicle ......................................."
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        17
+      ],
+      "text": "2. Vehicle type ............................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        17
+      ],
+      "text": "3. Manufacturer's name and address ........................................."
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        17
+      ],
+      "text": "4. If applicable name and address of manufacturer's representative ........."
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        17
+      ],
+      "text": "5. Brief description of the vehicle type as regards its \"speed limitation device / adjustable speed limitation device\r\n(SLD/ASLD) ............................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        17
+      ],
+      "text": "6. Trade name or mark of the SLD/ASLD(s) and its/their approval number(s)"
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        17
+      ],
+      "text": "7. Speed or range of speeds at which the limitation may be set ............"
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        17
+      ],
+      "text": "8. Ratio of maximum engine power/unladen mass of the vehicle type"
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        17
+      ],
+      "text": "9. Highest ratio of engine speed/vehicle speed in top gear of the vehicle type ........................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 10",
+      "pages": [
+        17
+      ],
+      "text": "10. Vehicle submitted for approval on"
+    },
+    {
+      "paragraph": "Annex 2 / 11",
+      "pages": [
+        17
+      ],
+      "text": "11. Technical service responsible for conducting approval ..........."
+    },
+    {
+      "paragraph": "Annex 2 / 12",
+      "pages": [
+        17
+      ],
+      "text": "12. Date of report issued by that service ..................................."
+    },
+    {
+      "paragraph": "Annex 2 / 13",
+      "pages": [
+        17
+      ],
+      "text": "13. Number of report issued by that service ........................"
+    },
+    {
+      "paragraph": "Annex 2 / 14",
+      "pages": [
+        17
+      ],
+      "text": "14. Approval granted/refused/extended/withdrawn 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 15",
+      "pages": [
+        17
+      ],
+      "text": "15. Position of approval mark on the vehicle ................................"
+    },
+    {
+      "paragraph": "Annex 2 / 16",
+      "pages": [
+        17
+      ],
+      "text": "16. Place ..................................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 17",
+      "pages": [
+        17
+      ],
+      "text": "17. Date ...................................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 18",
+      "pages": [
+        17
+      ],
+      "text": "18. Signature ..............................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 19",
+      "pages": [
+        17
+      ],
+      "text": "19. The list of documents filed with the administration service which1has granted approval and available on\r\nrequest is annexed to this communication."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        17,
+        18
+      ],
+      "text": "Annex 3 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n………………………………….\r\n………………………………….\r\n………………………………….\r\n\r\n\r\n\r\n\r\n\r\nconcerning: 2/\r\nAPPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nwith regard to a type of speed limitation device / adjustable speed limitation device (SLD/ASLD) pursuant to Part\r\nIII of Regulation No. 89.\r\nApproval No............ Extension No. ............\r\n\r\n1/ Distinguishing number of the country which has granted/extended/ refused/withdrawn approval (see approval provisions in the\r\nRegulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        18
+      ],
+      "text": "1. Trade name or mark of the SLD/ASLD ..........................................."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        18
+      ],
+      "text": "2. Type of device .........................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        18
+      ],
+      "text": "3. Name and address of manufacturer ........................................"
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        18
+      ],
+      "text": "4. If applicable name and address of manufacturer's representative ........."
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        18
+      ],
+      "text": "5. Brief description of the SLD/ASLD"
+    },
+    {
+      "paragraph": "Annex 3 / 6",
+      "pages": [
+        18
+      ],
+      "text": "6. Type of vehicle on which the SLD/ASLD has been tested ........................"
+    },
+    {
+      "paragraph": "Annex 3 / 7",
+      "pages": [
+        18
+      ],
+      "text": "7. Speed or range of speeds at which the SLD/ASLD may be set within the range established for the test vehicle\r\n..........."
+    },
+    {
+      "paragraph": "Annex 3 / 8",
+      "pages": [
+        18
+      ],
+      "text": "8. Ratio of maximum engine power/unladen mass of the test vehicle"
+    },
+    {
+      "paragraph": "Annex 3 / 9",
+      "pages": [
+        18
+      ],
+      "text": "9. Highest ratio of engine speed/vehicle speed in top gear of the test vehicle ...................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 10",
+      "pages": [
+        18
+      ],
+      "text": "10. Type(s) of vehicle(s) on which the device may be installed ............. ."
+    },
+    {
+      "paragraph": "Annex 3 / 11",
+      "pages": [
+        18
+      ],
+      "text": "11. Speed or range of speeds at which the limiter may be set within the range established for the vehicle(s) on\r\nwhich the device may be installed ....."
+    },
+    {
+      "paragraph": "Annex 3 / 12",
+      "pages": [
+        18
+      ],
+      "text": "12. Ratio of maximum engine power/unladen mass of the vehicle type(s) on which the device may be installed .."
+    },
+    {
+      "paragraph": "Annex 3 / 13",
+      "pages": [
+        18
+      ],
+      "text": "13. Highest ratio of engine speed/vehicle speed in top gear of the vehicle type(s) on which the device may be\r\ninstalled"
+    },
+    {
+      "paragraph": "Annex 3 / 14",
+      "pages": [
+        18
+      ],
+      "text": "14. Device submitted for approval on ........................................"
+    },
+    {
+      "paragraph": "Annex 3 / 15",
+      "pages": [
+        18
+      ],
+      "text": "15. Technical service responsible for conducting approval tests ......,....... ."
+    },
+    {
+      "paragraph": "Annex 3 / 16",
+      "pages": [
+        18
+      ],
+      "text": "16. Date of report issued by that service ..........................."
+    },
+    {
+      "paragraph": "Annex 3 / 17",
+      "pages": [
+        18
+      ],
+      "text": "17. Number of report issued by that service ....................."
+    },
+    {
+      "paragraph": "Annex 3 / 18",
+      "pages": [
+        18
+      ],
+      "text": "18. Approval has been granted/refused/extended/withdrawn in respect of the SLD/ASLD 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 3 / 19",
+      "pages": [
+        18
+      ],
+      "text": "19. Position of approval mark on device ....................................."
+    },
+    {
+      "paragraph": "Annex 3 / 20",
+      "pages": [
+        18
+      ],
+      "text": "20. Place"
+    },
+    {
+      "paragraph": "Annex 3 / 21",
+      "pages": [
+        18
+      ],
+      "text": "21. Date ...................................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 22",
+      "pages": [
+        18
+      ],
+      "text": "22. Signature ..............................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 23",
+      "pages": [
+        19
+      ],
+      "text": "23. The list of documents filed with the administration service which has granted approval and available on\r\nrequest is annexed to this communication."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        19,
+        20
+      ],
+      "text": "Annex 4 EXAMPLES OF ARRANGEMENTS OF APPROVAL MARKS\r\n\r\n MODEL A\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark affixed to an SLD shows that the SLD has been approved in the Netherlands (E4),\r\npursuant to Regulation No. 89 under ap roval number 002439. The first two digits of the approval number indicate\r\nthat the approval was granted in accordance with the requirements of Regulation No. 89 in its original form.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark affixed to a vehicle shows that the vehicle has been approved in the Netherlands (E4),\r\npursuant to Regulation No. 89 under approval number 002439. The first two digits of the approval number\r\nindicate that the approval was granted in accordance with the requirements of Regulation No. 89 in its original\r\nform. The figure and range of figures, expressed in km/h, surrounded by a rectangle, show the set speed to which\r\nthe vehicle is limited, 1/ and the range of set speeds within which the vehicle may be limited.\r\n\r\n MODEL C\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark affixed to a vehicle shows that the vehicle has been approved in the Netherlands (E4),\r\npursuant to Regulations Nos. 89 and 31. 2/ The first two digits of the approval number indicate that, at the dates\r\nwhen the respective approvals were given, Regulation No. 31 already included the 01 series of amendments, and\r\nRegulation No. 89 was in its original form. The figure and range of figures, expressed in km/h, surrounded by a\r\nrectangle, show the set speed to which the vehicle is limited, 1/ and the range of set speeds within which the\r\nvehicle may be limited.\r\n\r\n1/ This figure may be inserted after application of the rest of the mark, when it is known where the individual vehicle will be registered.\r\nVariations of this part of the mark shall not be considered as changes in the vehicle type.\r\n\r\n2/ The latter number is given as an example only."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        20
+      ],
+      "text": "Annex 5 TESTS AND PERFORMANCE REQUIREMENTS"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        20
+      ],
+      "text": "1. TESTS OF SPEED LIMITATION\r\nAt the request of the applicant for approval, tests shall be made in accordance with either paragraphs 1.1., 1.2. or\r\n1.3. below.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1. MEASUREMENT ON TEST TRACK"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.1. Preparation of the vehicle"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.1.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.1.1. A vehicle representative of the vehicle type to be approved or an SLD representative of the type of SLD,\r\nas appropriate, shall be submitted to the technical service;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.1.2",
+      "pages": [
+        20
+      ],
+      "text": "1.1.1.2. The settings of the engine of the test vehicle, particularly the fuel feed (carburettor or injection system),\r\nshall conform to the specifications of the vehicle manufacturer,"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.1.3",
+      "pages": [
+        20
+      ],
+      "text": "1.1.1.3. The tyres shall be bedded and the pressure shall be as specified by the manufacturer for the vehicle;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.1.4",
+      "pages": [
+        20
+      ],
+      "text": "1.1.1.4. The vehicle mass shall be the unladen mass as declared by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.2",
+      "pages": [
+        20
+      ],
+      "text": "1.1.2. Characteristics of the test track"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.2.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.2.1. The test surface shall be suitable to enable stabilized speed to be maintained and shall be free from uneven\r\npatches. Gradients shall not exceed 2% and shall not vary by more than 1% extluding camber effects."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.2.2",
+      "pages": [
+        20
+      ],
+      "text": "1.1.2.2. The test surface shall be free from standing water, snow or ice."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.3",
+      "pages": [
+        20
+      ],
+      "text": "1.1.3. Ambient weather conditions"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.3.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.3.1. The mean wind speed measured at a height at least 1 m above the ground shall be less than 6 m/s with\r\ngusts not exceeding 10 m/s."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4",
+      "pages": [
+        20
+      ],
+      "text": "1.1.4. Acceleration test method: (see the figure below)"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.4.1. The vehicle running at a speed which is 10 km/h below the set speed shall be accelerated as much as\r\npossible using a fully positive action on the accelerator control. This action shall be maintained at least 30 seconds\r\nafter the vehicle speed has been stabilized. The instantaneous vehicle speed shall be recorded during the test in\r\norder to establish the curve of the speed versus the time and during the operation of the speed limiting function or\r\nof the SLD as appropriate. The accuracy of the speed measurement shall be ± 1%. The accuracy of the time\r\nmeasurement shall be less than 0.1 s."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2",
+      "pages": [
+        20
+      ],
+      "text": "1.1.4.2. The test shall be considered satisfactory if the following conditions are met:"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.1",
+      "pages": [
+        20
+      ],
+      "text": "1.1.4.2.1. The stabilized speed reached by the vehicle shall not exceed the set speed (Vstab ≤ Vset). However, a\r\ntolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.2",
+      "pages": [
+        20
+      ],
+      "text": "1.1.4.2.2. After the stabilized speed is reached for the first time:"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.2.1",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "1.1.4.2.2.1. Vmax shall not exceed Vstab by more than 5%;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1.1.4.2.2.2 the rate of change of speed shall not exceed 0.5 m/s2 when measured on a period greater than 0.1 s;\r\n\r\n1.1.4.2.2.3. the stabilized speed conditions specified in paragraph 1.1.4.2.3. shall be attained within 10 s of first\r\nreaching Vstab;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.3",
+      "pages": [
+        21
+      ],
+      "text": "1.1.4.2.3. When stable speed control has been achieved:\r\n1.1.4.2.3.1. speed shall not vary by more than 4% of Vstab or 2 km/h whichever is greater;\r\n1.1.4.2.3.2. the rate of change of speed shall not exceed 0.2 m/s2 when measured on a period greater than 0.1 s;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.3.3",
+      "pages": [
+        21
+      ],
+      "text": "1.1.4.2.3.3. Vstab is the average speed calculated for a minimum time interval of 20 seconds beginning 10\r\nseconds after first reaching Vstab;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.4.2.4",
+      "pages": [
+        21
+      ],
+      "text": "1.1.4.2.4. Tests in acceleration shall be carried out and the acceptance criteria verified for each gear ratio allowing\r\nin theory the set speed to be exceeded.\r\nFigure\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nVmax is the maximum speed reached by the vehicle in the first half period of the response curve."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5",
+      "pages": [
+        21
+      ],
+      "text": "1.1.5. Test method at steady speed"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5.1",
+      "pages": [
+        21
+      ],
+      "text": "1.1.5.1. The vehicle shall be driven at full acceleration up to the steady speed, then shall be maintained at this\r\nspeed without any modification on the test basis of at least 400 metres. The vehicle’s average speed shall be\r\nmeasured on this test basis. The average speed measurement shall then be repeated on the same test basis, but run\r\nin the opposite direction, and under the same procedures. The stabilization speed for the whole tdst previously\r\nconsidered is the mean of the two average speeds measured for both test runs. The whole test including the\r\ncalculation of the stabilization speed shall be carried out five times. The speed measurements shall be carried out\r\nwith an accuracy of ± 1%, the time measurements with an accuracy of 0.1 s."
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5.2",
+      "pages": [
+        21
+      ],
+      "text": "1.1.5.2. The tests shall be considered satisfactory if the following conditions are met:"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5.2.1",
+      "pages": [
+        21
+      ],
+      "text": "1.1.5.2.1. On each test run Vstab shall not exceed Vset. However, a tolerance of 5% of the Vset value, or 5 km/h,\r\nwhichever is the greater, is acceptable;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5.2.2",
+      "pages": [
+        21
+      ],
+      "text": "1.1.5.2.2. The difference between the stabilization speeds obtained during each test run shall be equal to or less\r\nthan 3 km/h;"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1.5.2.3",
+      "pages": [
+        22
+      ],
+      "text": "1.1.5.2.3. Tests in steady speed shall be carried out and the acceptance criteria verified for each gear ratio allowing\r\nin theory the set speed to be exceeded."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2",
+      "pages": [
+        22
+      ],
+      "text": "1.2. TESTS ON CHASSIS DYNAMOMETER"
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.1",
+      "pages": [
+        22
+      ],
+      "text": "1.2.1. Characteristics of the chassis dynamometer\r\nThe equivalent inertia of the vehicle mass shall be reproduced on the chassis dynamometer with an accuracy of ±\r\n10%. The speed of the vehicle shall be measured with an accuracy of ± 1%. The time shall be measured with an\r\naccuracy of 0.1 s."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.2",
+      "pages": [
+        22
+      ],
+      "text": "1.2.2. Acceleration test method"
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.2.1",
+      "pages": [
+        22
+      ],
+      "text": "1.2.2.1. The power absorbed by the brake during the test shall be set to correspond with the vehicle’s resistance to\r\nprogress at the tested speed(s). This power may be established by calculation and shall be set to an accuracy of ±\r\n10%. At the request of the applicant, and with the agreement of the competent authority, the power absorbed may\r\nalternatively be set at 0.4 Pmax (Pmax is the maximum power of the engine). The vehicle running at a speed\r\nwhich is 10 km/h below the set speed Vset shall be accelerated at the maximum possibilities of the engine by\r\nusing a fully positive action on the acceleration control. This action shall be maintained at least 20 seconds after\r\nthe vehicle speed has been stabilized. The instantaneous vehicle speed shall be recorded during the test in order to\r\ndraw the curve of the speed versus time during the operation of the speed limiting function or of the SLD as\r\nappropriate."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.2.2",
+      "pages": [
+        22
+      ],
+      "text": "1.2.2.2. The test shall be considered satisfactory if the provisions of the preceding paragraph 1.1.4.2. and its\r\nsubparagraphs are satisfied."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.3",
+      "pages": [
+        22
+      ],
+      "text": "1.2.3. Test method for steady speed test"
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.3.1",
+      "pages": [
+        22
+      ],
+      "text": "1.2.3.1. The vehicle shall be installed on the chassis dynamometer. The following acceptance criteria should be\r\nmet for power absorbed by the chassis dynamometer varying progressively from the maximum power Pmax to a\r\nvalue equal to 0.2 Pmax. The speed of the vehicle shall be recorded in the full range of power defined above. The\r\nmaximum speed of the vehicle shall be determined on this range. Test and record defined above should be made\r\nfive times."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.3.2",
+      "pages": [
+        22
+      ],
+      "text": "1.2.3.2. The tests shall be considered satisfactory if the provisions of the preceding paragraph 1.1.5.2. and its\r\nsubparagraphs are satisfied."
+    },
+    {
+      "paragraph": "Annex 5 / 1.3",
+      "pages": [
+        22
+      ],
+      "text": "1.3. TEST ON ENGINE TEST BENCH\r\nThis test procedure can be used only when the applicant can demonstrate to the satisfaction of the technical\r\nservices that this method is equivalent to the measurement on a test track."
+    },
+    {
+      "paragraph": "Annex 5 / 2",
+      "pages": [
+        22
+      ],
+      "text": "2. TEST OF ENDURANCE\r\nThe speed limiting function or the SLD, as appropriate, shall be submitted to the durability test prescribed below.\r\nHowever, this may be omitted if the applicant demonstrates resistance to those effects."
+    },
+    {
+      "paragraph": "Annex 5 / 2.1",
+      "pages": [
+        22
+      ],
+      "text": "2.1. The device is cycled on a bench simulating the attitude and the movement which the SLD would experience\r\non the vehicle."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2",
+      "pages": [
+        22,
+        23
+      ],
+      "text": "2.2. A functioning cycle is maintained by means of a control system supplied by the manufacturer The diagram of\r\nthe cycle is given below:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nFive conditionings are defined hereafter. The SLD samples of the type presented for approval shall be submitted\r\nto the conditionings according to the table below:\r\n\r\n                    First SLD     Second SLD      Third SLD      Fourth SLD\r\n\r\n Conditioning 1     X\r\n\r\n Conditioning 2                   X\r\n\r\n Conditioning 3                   X\r\n\r\n Conditioning 4                                   X\r\n\r\n Conditioning 5                                                  X"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.1",
+      "pages": [
+        23
+      ],
+      "text": "2.2.1. Conditioning 1: tests at ambient temperature (20° C ± 2° C) Number of cycles: 50,000"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.2",
+      "pages": [
+        23
+      ],
+      "text": "2.2.2. Conditioning 2: tests at high temperatures"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.2.1",
+      "pages": [
+        23
+      ],
+      "text": "2.2.2.1. Electronic components\r\nThe components shall be cycled in a climatic chamber A temperature of 65° C ± 5° C is maintained during the\r\nwhole functioning.\r\nNumber of cycles: 12,500."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.2.2",
+      "pages": [
+        23
+      ],
+      "text": "2.2.2.2. Mechanical components\r\nThe components shall be cycled in a climatic chamber. A temperature of 100° C ± 5° C is maintained during the\r\nwhole functioning.\r\nNumber of cycles: 12,500."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.3",
+      "pages": [
+        23,
+        24
+      ],
+      "text": "2.2.3. Conditioning 3: tests at low temperatures\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn the climatic chamber used for conditioning 2, a temperature of -20° C ± 5° C is maintained during the whole\r\nfunctioning.\r\nNumber of cycles: 12,500."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.4",
+      "pages": [
+        24
+      ],
+      "text": "2.2.4. Conditioning 4: tests in a salted atmosphere. (Only for components exposed to the ambient road\r\nenvironment.)\r\nThe device shall be cycled in a salted atmosphere chamber. The concentration of sodium chloride is of 5% and\r\ninternal temperature of the climatic chamber is of 35° C ± 2° C.\r\nNumber of cycles: 12,500."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.5",
+      "pages": [
+        24
+      ],
+      "text": "2.2.5. Conditioning 5: vibration test"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.5.1",
+      "pages": [
+        24
+      ],
+      "text": "2.2.5.1. The SLD is mounted in a similar way to its mounting on the vehicle."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.5.2",
+      "pages": [
+        24
+      ],
+      "text": "2.2.5.2. Sinusoidal vibrations shall be applied in all three planes. Logarithmic sweep shall be 1 octave per minute;"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.5.2.1",
+      "pages": [
+        24
+      ],
+      "text": "2.2.5.2.1. First test: frequency range 10-24 Hz, amplitude ± 2 mm;"
+    },
+    {
+      "paragraph": "Annex 5 / 2.2.5.2.2",
+      "pages": [
+        24
+      ],
+      "text": "2.2.5.2.2. Second test: frequency range 24-1,000 Hz for chassis and cab-mounted components, input 2.5 g. For\r\nengine-mounted components, input 5 g."
+    },
+    {
+      "paragraph": "Annex 5 / 2.3",
+      "pages": [
+        24
+      ],
+      "text": "2.3. Acceptance criteria of the endurance tests"
+    },
+    {
+      "paragraph": "Annex 5 / 2.3.1",
+      "pages": [
+        24
+      ],
+      "text": "2.3.1. At the end of the endurance tests, no modification of the device’s performances shall be observed regarding\r\nthe set speed;"
+    },
+    {
+      "paragraph": "Annex 5 / 2.3.2",
+      "pages": [
+        24
+      ],
+      "text": "2.3.2. However, if any breaking down of the device occurs during one of the endurance tests, a second device can\r\nbe submitted to the considered endurance tests at the manufacturer’s request."
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        24
+      ],
+      "text": "Annex 6 TESTS AND PERFORMANCE REQUIREMENTS FOR ASLD"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        24
+      ],
+      "text": "1. TESTS OF ADJUSTABLE SPEED LIMITATION SYSTEM"
+    },
+    {
+      "paragraph": "Annex 6 / 1.1",
+      "pages": [
+        24
+      ],
+      "text": "1.1. Preparation of the vehicle"
+    },
+    {
+      "paragraph": "Annex 6 / 1.1.1",
+      "pages": [
+        24
+      ],
+      "text": "1.1.1. A vehicle representative of the vehicle type to be approved or an ASLD representative of the type of ASLD,\r\nas appropriate, shall be submitted to the technical service."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1.1.1",
+      "pages": [
+        24
+      ],
+      "text": "1.1.1.1. Where an ASLD is to be approved it shall be fitted by the manufacturer to a vehicle which is\r\nrepresentative of the type for which the device is intended."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1.2",
+      "pages": [
+        24
+      ],
+      "text": "1.1.2. The settings of the engine of the test vehicle, particularly the fuel feed (carburettor or injection system),\r\nshall conform to the specifications of the vehicle manufacturer."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1.3",
+      "pages": [
+        24
+      ],
+      "text": "1.1.3. The tyres shall be bedded and the pressure shall be as specified by the manufacturer for the vehicle."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1.4",
+      "pages": [
+        24
+      ],
+      "text": "1.1.4. The vehicle mass shall be the minimum kerb weight declared by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2",
+      "pages": [
+        24
+      ],
+      "text": "1.2. Characteristics of the test track"
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.1",
+      "pages": [
+        24
+      ],
+      "text": "1.2.1. The test surface shall be suitable for enabling stabilised speed to be maintained and shall be free from\r\nuneven patches. Gradients shall not exceed 2 per cent."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.2",
+      "pages": [
+        24
+      ],
+      "text": "1.2.2. The test surface shall be free from standing water, snow or ice."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3",
+      "pages": [
+        24
+      ],
+      "text": "1.3. Ambient weather conditions"
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.1",
+      "pages": [
+        24
+      ],
+      "text": "1.3.1. The mean wind speed measured at a height of at least 1 m above the ground shall be less than 6 m/s with\r\ngusts not exceeding 10 m/s."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4",
+      "pages": [
+        24
+      ],
+      "text": "1.4. Test for the driver being informed that Vadj is being exceeded"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.1",
+      "pages": [
+        25
+      ],
+      "text": "1.4.1. The positive action (as referred to in paragraphs 5.2.5.4.1. and 21.2.5.4.1) required to enable Vadj to be\r\nexceeded shall be applied when the vehicle is running at a speed 10 km/h below Vadj."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.2",
+      "pages": [
+        25
+      ],
+      "text": "1.4.2. The vehicle shall be accelerated up to a speed at least 10 km/h greater than Vadj."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3",
+      "pages": [
+        25
+      ],
+      "text": "1.4.3. This speed shall be maintained for at least 30 seconds."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.4",
+      "pages": [
+        25
+      ],
+      "text": "1.4.4. Instantaneous vehicle speed shall be recorded during the test and measured with an accuracy of ± 1 per cent."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.5",
+      "pages": [
+        25
+      ],
+      "text": "1.4.5. The test shall be considered satisfactory if the following conditions are met:"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.5.1",
+      "pages": [
+        25
+      ],
+      "text": "1.4.5.1. The driver is informed by a warning signal when the actual speed of the vehicle is exceeding Vadj by more\r\nthan 3 km/h."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.5.2",
+      "pages": [
+        25
+      ],
+      "text": "1.4.5.2. The driver continues to be informed for the duration of the time that Vadj is exceeded by more than 3\r\nkm/h."
+    },
+    {
+      "paragraph": "Annex 6 / 1.5",
+      "pages": [
+        25
+      ],
+      "text": "1.5. Test of the adjustable speed limitation function/device."
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.1",
+      "pages": [
+        25
+      ],
+      "text": "1.5.1. With the ASLF/D deactivated, for each gear ratio selected for the chosen test speed Vadj, the technical\r\nservice shall:\r\n(a) Either measure the forces required on the accelerator control;\r\n(b) Or measure the accelerator control position; To maintain Vadj and a speed (Vadj*) which is 20% or 20 km/h\r\n(whichever is the greater) faster than Vadj."
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.2",
+      "pages": [
+        25
+      ],
+      "text": "1.5.2. With the ASLF/D activated and set at Vadj, the vehicle shall be run at a speed of 10km/h below Vadj. The\r\nvehicle shall then be accelerated by either increasing the force on the accelerator control or adjusting the\r\naccelerator control position over a period of 1s ± 0.2s to that required to maintain Vadj*. This force or position\r\nshall then be maintained for a period of at least 30 seconds after the vehicle speed has stabilised."
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.3",
+      "pages": [
+        25
+      ],
+      "text": "1.5.3. The instantaneous vehicle speed shall be recorded during the test in order to establish the curve of the speed\r\nversus the time and during the operation of the ASLF/D as appropriate. The accuracy of the speed measurement\r\nshall be ± 1 per cent. The accuracy of the time measurement shall be less than 0.1 s."
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4. The test shall be considered satisfactory if the following conditions are met:"
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1. The stabilized speed (Vstab) reached by the vehicle shall not exceed Vadj by more than 3 km/h"
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1.1",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1.1. After Vstab is reached for the first time:"
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1.1.1",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1.1.1. Vmax shall not exceed Vstab by more than 5 per cent;\r\n1.5.4.1.1.2. the rate of change of speed shall not exceed 0.5 m/s2 when measured over a period greater than 0.1 s;\r\n\r\n1.5.4.1.1.3. the stabilized speed conditions specified in paragraph 1.5.4.1.2. shall be attained within 10 s of first\r\nreaching Vstab;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1.2",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1.2. When stable speed control has been achieved:\r\n1.5.4.1.2.1. speed shall not vary by more than 3 km/h of Vstab;\r\n1.5.4.1.2.2. the rate of change of speed shall not exceed 0.2 m/s2 when measured over a period greater than 0.1 s;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1.2.3",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1.2.3. Vstab is the average speed calculated for a minimum time interval of 20 seconds beginning 10 seconds\r\nafter first reaching Vstab;"
+    },
+    {
+      "paragraph": "Annex 6 / 1.5.4.1.3",
+      "pages": [
+        25
+      ],
+      "text": "1.5.4.1.3. Tests in acceleration shall be carried out and the acceptance criteria verified for each gear ratio allowing\r\nin theory Vadj* to be achieved."
+    }
+  ]
+}

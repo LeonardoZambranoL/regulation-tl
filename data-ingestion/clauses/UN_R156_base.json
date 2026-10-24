@@ -1,0 +1,1052 @@
+{
+  "regulation": "UN R156",
+  "version": "0.1.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R156 (version 0.1.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. This Regulation applies to vehicles of Categories1 M, N, O, R, S and T that permit software updates.\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Vehicle type\" means vehicles which do not differ in at least the following:\r\n(a) The manufacturer’s designation of the vehicle type;\r\n(b) Essential aspects of the design of the vehicle type with respect to software update processes."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"RX Software Identification Number (RXSWIN)\" means a dedicated identifier, defined by the vehicle\r\nmanufacturer, representing information about the type approval relevant software of the Electronic Control\r\nSystem contributing to the Regulation N° X type approval relevant characteristics of the vehicle."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Software update\" means a package used to upgrade software to a new version including a change of the\r\nconfiguration parameters."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Execution\" means the process of installing and activating an update that has been downloaded."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Software Update Management System (SUMS)\" means a systematic approach defining organizational\r\nprocesses and procedures to comply with the requirements for delivery of software updates according to this\r\nRegulation."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Vehicle user\" means a person operating or driving the vehicle, a vehicle owner, an authorised representative\r\nor employee of a fleet manager, an authorised representative or employee of the vehicle manufacturer, or an\r\nauthorized technician."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Safe state\" means an operating mode in case of a failure of an item without an unreasonable level of risk."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        1
+      ],
+      "text": "2.8. \"Software\" means the part of an Electronic Control System that consists of digital data and instruction."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        1
+      ],
+      "text": "2.9. \"Over-the-Air (OTA) update\" means any method of making data transfers wirelessly instead of using a cable\r\nor other local connection."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        1
+      ],
+      "text": "2.10. \"System\" means a set of components and/or sub-systems that implement a function of functions."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        1
+      ],
+      "text": "2.11. \"Integrity validation data\" means a representation of digital data, against which comparisons can be made to\r\ndetect errors or changes in the data. This may include checksums and hash values."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        1
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        1
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to software update processes shall be submitted by\r\nthe vehicle manufacturer or by their duly accredited representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        1
+      ],
+      "text": "3.2. It shall be accompanied by the undermentioned documents in triplicate, and by the following particulars:"
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        1
+      ],
+      "text": "3.3. A description of the vehicle type with regard to the items specified in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "3.4. In cases where information is shown to be covered by intellectual property rights or to constitute specific\r\nknow-how of the manufacturer or of their suppliers, the manufacturer or their suppliers shall make available\r\n\r\n\r\n\r\n\r\n\r\n\r\nsufficient information to enable the checks referred to in this Regulation to be made properly. Such information\r\nshall be treated on a confidential basis."
+    },
+    {
+      "paragraph": "3.5",
+      "pages": [
+        2
+      ],
+      "text": "3.5. The Certificate of Compliance for Software Update Management System according to paragraph 6. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "3.6",
+      "pages": [
+        2
+      ],
+      "text": "3.6. A vehicle representative of the vehicle type to be approved shall be submitted to the Technical Service\r\nresponsible for conducting approval tests."
+    },
+    {
+      "paragraph": "3.7",
+      "pages": [
+        2
+      ],
+      "text": "3.7. Documentation shall be made available in two parts:\r\n(a) The formal documentation package for the approval, containing the material specified in Annex 1 which shall\r\nbe supplied to the Approval Authority or its Technical Service at the time of submission of the type approval\r\napplication. This documentation package shall be used by the Approval Authority or its Technical Service as the\r\nbasic reference for the approval process. The Approval Authority or its Technical Service shall ensure that this\r\ndocumentation package remains available for at least 10 years counted from the time when production of the\r\nvehicle type is definitely discontinued.\r\n(b) Additional material relevant to the requirements of this regulation may be retained by the manufacturer but\r\nmade open for inspection at the time of type approval. The manufacturer shall ensure that any material made open\r\nfor inspection at the time of type approval remains available for at least a period of 10 years counted from the time\r\nwhen production of the vehicle type is definitely discontinued."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Marking"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.1.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1.1. A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval. 2\r\n\r\n\r\n2The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6."
+    },
+    {
+      "paragraph": "4.1.2",
+      "pages": [
+        2
+      ],
+      "text": "4.1.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle described in paragraph 4.1.1. above."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2
+      ],
+      "text": "4.2. If the vehicle conforms to a vehicle type approved under one or more other Regulations annexed to the\r\nAgreement in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.1.1. above need not be repeated; in this case the Regulation and approval numbers and the additional symbols of\r\nall the Regulations under which approval has been granted in the country which has granted approval under this\r\nRegulation shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.1.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        2
+      ],
+      "text": "4.3. The approval mark shall be clearly legible and shall be indelible."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        2
+      ],
+      "text": "4.4. The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        2
+      ],
+      "text": "4.5. Annex 3 to this Regulation gives examples of the arrangements of the approval mark."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        2
+      ],
+      "text": "5. Approval"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        2
+      ],
+      "text": "5.1. Approval Authorities shall grant, as appropriate, type approval with regard to software update procedures and\r\nprocesses, only to such vehicle types that satisfy the requirements of this Regulation."
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        2
+      ],
+      "text": "5.1.1. The Approval Authority or the Technical Service shall verify by testing a vehicle of the vehicle type that the\r\nvehicle manufacturer has implemented the measures they have documented. Tests shall be performed by approval\r\nauthority or the technical service itself or in collaboration with the vehicle manufacturer by sampling."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        3
+      ],
+      "text": "5.2. Notice of approval or of extension or refusal of approval of a vehicle type pursuant to this Regulation shall be\r\ncommunicated to the Parties to the 1958 Agreement which apply this Regulation, by means of a form conforming\r\nto the model in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        3
+      ],
+      "text": "5.3. Approval Authorities shall not grant any type approval without ensuring that the manufacturer has put in place\r\nsatisfactory arrangements and procedures to manage properly the software update processes aspects as covered by\r\nthis regulation."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        3
+      ],
+      "text": "6. Certiﬁcate of Compliance for Software Update Management System"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        3
+      ],
+      "text": "6.1. Contracting Parties shall appoint an Approval Authority to carry out the assessment of the manufacturer and\r\nto issue a Certificate of Compliance for Software Update Management System."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        3
+      ],
+      "text": "6.2. An application for a Certificate of Compliance for Software Update Management System shall be submitted\r\nby the vehicle manufacturer or by their duly accredited representative."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        3
+      ],
+      "text": "6.3. It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        3
+      ],
+      "text": "6.3.1. Documents describing the Software Update Management System."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        3
+      ],
+      "text": "6.3.2. A signed declaration using the model as defined in Appendix 1 to Annex 1."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        3
+      ],
+      "text": "6.4. In the context of the assessment, the manufacturer shall declare using the model as defined in Appendix 1 to\r\nAnnex 1 and demonstrate to the satisfaction of the Approval Authority or its Technical Service that they have the\r\nnecessary processes to comply with all the requirements for software updates according to this Regulation."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        3
+      ],
+      "text": "6.5. When this assessment has been satisfactorily completed and in receipt of a signed declaration from the\r\nmanufacturer according to the model as defined in Appendix 1 to Annex 1, a certificate named Certificate of\r\nCompliance for SUMS as described in Annex 4 to this Regulation (hereinafter the Certificate of Compliance for\r\nSUMS) shall be granted to the manufacturer."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        3
+      ],
+      "text": "6.6. The Certificate of Compliance for SUMS shall remain valid for a maximum of three years from the date of\r\ndeliverance of the certificate unless it is withdrawn."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        3
+      ],
+      "text": "6.7. The Approval Authority which has granted the Certificate of Compliance for Software Update Management\r\nSystem may at any time verify its continued compliance. The Certificate of Compliance for Software Update\r\nManagement System may be withdrawn if the requirements laid down in this Regulation are no longer met."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        3
+      ],
+      "text": "6.8. The manufacturer shall inform the Approval Authority or its Technical Service of any change that will affect\r\nthe relevance of the Certificate of Compliance for Software Update Management System. After consultation with\r\nthe manufacturer, the Approval Authority or its Technical Service shall decide whether new checks are necessary."
+    },
+    {
+      "paragraph": "6.9",
+      "pages": [
+        3
+      ],
+      "text": "6.9. At the end of the period of validity of the Certificate of Compliance for Software Update Management\r\nSystem, the Approval Authority shall, after a positive assessment, issue a new Certificate of Compliance for\r\nSoftware Update Management System or extends its validity for a further period of three years. The Approval\r\nAuthority shall issue a new certificate in cases where changes have been brought to the attention of the Approval\r\nAuthority or its Technical Service and the changes have been positively re-assessed."
+    },
+    {
+      "paragraph": "6.10",
+      "pages": [
+        3
+      ],
+      "text": "6.10. Existing vehicle type approvals shall not lose their validity due to the expiration of the manufacturer’s\r\nCertificate of Compliance for Software Update Management System."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        3
+      ],
+      "text": "7. General speciﬁcations"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        3
+      ],
+      "text": "7.1. Requirements for the Software Update Management System of the vehicle manufacturer"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        3
+      ],
+      "text": "7.1.1. Processes to be verified at initial assessment"
+    },
+    {
+      "paragraph": "7.1.1.1",
+      "pages": [
+        3
+      ],
+      "text": "7.1.1.1. A process whereby information relevant to this Regulation is documented and securely held at the vehicle\r\nmanufacturer and can be made available to an Approval Authority or its Technical Service upon request;"
+    },
+    {
+      "paragraph": "7.1.1.2",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.2. A process whereby information regarding all initial and updated software versions, including integrity\r\nvalidation data, and relevant hardware components of a type approved system can be uniquely identified;"
+    },
+    {
+      "paragraph": "7.1.1.3",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.3. A process whereby, for a vehicle type that has an RXSWIN, information regarding the RXSWIN of the\r\nvehicle type before and after an update can be accessed and updated. This shall include the ability to update\r\ninformation regarding the software versions and their integrity validation data of all relevant software for each\r\nRXSWIN;"
+    },
+    {
+      "paragraph": "7.1.1.4",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.4. A process whereby, for a vehicle type that has an RXSWIN, the vehicle manufacturer can verify that the\r\nsoftware version(s) present on a component of a type approved system are consistent with those defined by the\r\nrelevant RXSWIN;"
+    },
+    {
+      "paragraph": "7.1.1.5",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.5. A process whereby any interdependencies of the updated system with other systems can be identified;"
+    },
+    {
+      "paragraph": "7.1.1.6",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.6. A process whereby the vehicle manufacturer is able to identify target vehicles for a software update;"
+    },
+    {
+      "paragraph": "7.1.1.7",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.7. A process to confirm the compatibility of a software update with the target vehicle(s) configuration before\r\nit is issued. This shall include an assessment of the last known software/hardware configuration of the target\r\nvehicle(s) for compatibility with the update before it is issued;"
+    },
+    {
+      "paragraph": "7.1.1.8",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.8. A process to assess, identify and record whether a software update will affect any type approved systems.\r\nThis shall consider whether the update will impact or alter any of the parameters used to define the systems the\r\nupdate may affect or whether it may change any of the parameters used to type approve those system (as defined\r\nin the relevant legislation);"
+    },
+    {
+      "paragraph": "7.1.1.9",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.9. A process to assess, identify and record whether a software update will add, alter or enable any functions\r\nthat were not present, or enabled, when the vehicle was type approved or alter or disable any other parameters or\r\nfunctions that are defined within legislation. The assessment shall include consideration of whether:\r\n(a) Entries in the information package will need to be modified;\r\n(b) Test results no longer cover the vehicle after modification;\r\n(c) Any modification to functions on the vehicle will affect the vehicle’s type approval."
+    },
+    {
+      "paragraph": "7.1.1.10",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.10. A process to assess, identify and record if a software update will affect any other system required for the\r\nsafe and continued operation of the vehicle or if the update will add or alter functionality of the vehicle compared\r\nto when it was registered;"
+    },
+    {
+      "paragraph": "7.1.1.11",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.11. A process whereby the vehicle user is able to be informed about updates;"
+    },
+    {
+      "paragraph": "7.1.1.12",
+      "pages": [
+        4
+      ],
+      "text": "7.1.1.12. A process whereby the vehicle manufacturer shall be able to make the information according to\r\nparagraph 7.1.2.3. and 7.1.2.4. available to responsible Authorities or the Technical Services. This may be for the\r\npurpose of type approval, conformity of production, market surveillance, recalls and Periodic Technical Inspection\r\n(PTI)."
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        4
+      ],
+      "text": "7.1.2. The vehicle manufacturer shall record, and store, the following information for each update applied to a\r\ngiven vehicle type:"
+    },
+    {
+      "paragraph": "7.1.2.1",
+      "pages": [
+        4
+      ],
+      "text": "7.1.2.1. Documentation describing the processes used by the vehicle manufacturer for software updates and any\r\nrelevant standards used to demonstrate their compliance;"
+    },
+    {
+      "paragraph": "7.1.2.2",
+      "pages": [
+        4
+      ],
+      "text": "7.1.2.2. Documentation describing the configuration of any relevant type approved systems before and after an\r\nupdate, this shall include unique identification for the type approved system’s hardware and software (including\r\nsoftware versions) and any relevant vehicle or system parameters;"
+    },
+    {
+      "paragraph": "7.1.2.3",
+      "pages": [
+        4
+      ],
+      "text": "7.1.2.3. For every RXSWIN, there shall be an auditable register describing all the software relevant to the\r\nRXSWIN of the vehicle type before and after an update. This shall include information of the software versions\r\nand their integrity validation data for all relevant software for each RXSWIN."
+    },
+    {
+      "paragraph": "7.1.2.4",
+      "pages": [
+        5
+      ],
+      "text": "7.1.2.4. Documentation listing target vehicles for the update and confirmation of the compatibility of the last\r\nknown configuration of those vehicles with the update."
+    },
+    {
+      "paragraph": "7.1.2.5",
+      "pages": [
+        5
+      ],
+      "text": "7.1.2.5. Documentation for all software updates for that vehicle type describing:\r\n(a) The purpose of the update;\r\n(b) What systems or functions of the vehicle the update may affect;\r\n(c) Which of these are type approved (if any);\r\n(d) If applicable, whether the software update affects the fulfilment of any of the relevant requirements of those\r\ntype approved system;\r\n(e) Whether the software update affects any system type approval parameter;\r\n(f) Whether an approval for the update was sought from an approval body;\r\n(g) How the update may be executed and under what conditions;\r\n(h) Confirmation that the software update will be conducted safely and securely;\r\n(i) Confirmation that the software update has undergone and successfully passed verification and validation\r\nprocedures."
+    },
+    {
+      "paragraph": "7.1.3",
+      "pages": [
+        5
+      ],
+      "text": "7.1.3. Security - the vehicle manufacturer shall demonstrate:"
+    },
+    {
+      "paragraph": "7.1.3.1",
+      "pages": [
+        5
+      ],
+      "text": "7.1.3.1. The process they will use to ensure that software updates will be protected to reasonably prevent\r\nmanipulation before the update process is initiated.;"
+    },
+    {
+      "paragraph": "7.1.3.2",
+      "pages": [
+        5
+      ],
+      "text": "7.1.3.2. The update processes used are protected to reasonably prevent them being compromised, including\r\ndevelopment of the update delivery system;"
+    },
+    {
+      "paragraph": "7.1.3.3",
+      "pages": [
+        5
+      ],
+      "text": "7.1.3.3. The processes used to verify and validate software functionality and code for the software used in the\r\nvehicle are appropriate."
+    },
+    {
+      "paragraph": "7.1.4",
+      "pages": [
+        5
+      ],
+      "text": "7.1.4. Additional requirements for software updates over the air"
+    },
+    {
+      "paragraph": "7.1.4.1",
+      "pages": [
+        5
+      ],
+      "text": "7.1.4.1. The vehicle manufacturer shall demonstrate the processes and procedures they will use to assess that over\r\nthe air updates will not impact safety, if conducted during driving."
+    },
+    {
+      "paragraph": "7.1.4.2",
+      "pages": [
+        5
+      ],
+      "text": "7.1.4.2. The vehicle manufacturer shall demonstrate the processes and procedures they will use to ensure that,\r\nwhen an over the air update requires a specific skilled or complex action, for example recalibrate a sensor post-\r\nprogramming, in order to complete the update process, the update can only proceed when a person skilled to do\r\nthat action is present or is in control of the process."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        5
+      ],
+      "text": "7.2. Requirements for the Vehicle Type"
+    },
+    {
+      "paragraph": "7.2.1",
+      "pages": [
+        5
+      ],
+      "text": "7.2.1. Requirements for Software updates"
+    },
+    {
+      "paragraph": "7.2.1.1",
+      "pages": [
+        5
+      ],
+      "text": "7.2.1.1. The authenticity and integrity of software updates shall be protected to reasonably prevent their\r\ncompromise and reasonably prevent invalid updates."
+    },
+    {
+      "paragraph": "7.2.1.2",
+      "pages": [
+        5
+      ],
+      "text": "7.2.1.2. Where a vehicle type uses RXSWIN:"
+    },
+    {
+      "paragraph": "7.2.1.2.1",
+      "pages": [
+        5
+      ],
+      "text": "7.2.1.2.1. Each RXSWIN shall be uniquely identifiable. When type approval relevant software is modified by the\r\nvehicle manufacturer, the RXSWIN shall be updated if it leads to a type approval extension or to a new type\r\napproval."
+    },
+    {
+      "paragraph": "7.2.1.2.2",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "7.2.1.2.2. Each RXSWIN shall be easily readable in a standardized way via the use of an electronic\r\ncommunication interface, at least by the standard interface (OBD port).\r\nIf RXSWINs are not held on the vehicle, the manufacturer shall declare the software version(s) of the vehicle or\r\nsingle ECUs with the connection to the relevant type approvals to the Approval Authority. This declaration shall\r\nbe updated each time the declared software version(s) is updated. In this case, the software version(s) shall be\r\n\r\n\r\n\r\n\r\n\r\n\r\neasily readable in a standardized way via the use of an electronic communication interface, at least by the standard\r\ninterface (OBD port)."
+    },
+    {
+      "paragraph": "7.2.1.2.3",
+      "pages": [
+        6
+      ],
+      "text": "7.2.1.2.3. The vehicle manufacturer shall protect the RXSWINs and/or software version(s) on a vehicle against\r\nunauthorised modification. At the time of Type Approval, the means implemented to protect against unauthorized\r\nmodification of the RXSWIN and/or software version(s) chosen by the vehicle manufacturer shall be\r\nconfidentially provided."
+    },
+    {
+      "paragraph": "7.2.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2. Additional Requirements for over the air updates"
+    },
+    {
+      "paragraph": "7.2.2.1",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.1. The vehicle shall have the following functionality with regards to software updates:"
+    },
+    {
+      "paragraph": "7.2.2.1.1",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.1.1. The vehicle manufacturer shall ensure that the vehicle is able to restore systems to their previous version\r\nin case of a failed or interrupted update or that the vehicle can be placed into a safe state after a failed or\r\ninterrupted update."
+    },
+    {
+      "paragraph": "7.2.2.1.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.1.2. The vehicle manufacturer shall ensure that software updates can only be executed when the vehicle has\r\nenough power to complete the update process (including that needed for a possible recovery to the previous\r\nversion or for the vehicle to be placed into a safe state)."
+    },
+    {
+      "paragraph": "7.2.2.1.3",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.1.3. When the execution of an update may affect the safety of the vehicle, the vehicle manufacturer shall\r\ndemonstrate how the update will be executed safely. This shall be achieved through technical means that ensures\r\nthe vehicle is in a state where the update can be executed safely."
+    },
+    {
+      "paragraph": "7.2.2.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.2. The vehicle manufacturer shall demonstrate that the vehicle user is able to be informed about an update\r\nbefore the update is executed. The information made available shall contain:\r\n(a) The purpose of the update. This could include the criticality of the update and if the update is for recall, safety\r\nand/or security purposes;\r\n(b) Any changes implemented by the update on vehicle functions;\r\n(c) The expected time to complete execution of the update;\r\n(d) Any vehicle functionalities which may not be available during the execution of the update;\r\n(e) Any instructions that may help the vehicle user safely execute the update;\r\nIn case of groups of updates with a similar content one information may cover a group."
+    },
+    {
+      "paragraph": "7.2.2.3",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.3. In the situation where the execution of an update whilst driving may not be safe, the vehicle manufacturer\r\nshall demonstrate how they will:\r\n(a) Ensure the vehicle cannot be driven during the execution of the update;\r\n(b) Ensure that the driver is not able to use any functionality of the vehicle that would affect the safety of the\r\nvehicle or the successful execution of the update."
+    },
+    {
+      "paragraph": "7.2.2.4",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.4. After the execution of an update the vehicle manufacturer shall demonstrate how the following will be\r\nimplemented:\r\n(a) The vehicle user is able to be informed of the success (or failure) of the update;\r\n(b) The vehicle user is able to be informed about the changes implemented and any related updates to the user\r\nmanual (if applicable)."
+    },
+    {
+      "paragraph": "7.2.2.5",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.5. The vehicle shall ensure that preconditions have to be met before the software update is executed."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        6
+      ],
+      "text": "8. Modiﬁcation and extension of the vehicle type"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        6
+      ],
+      "text": "8.1. Every modification of the vehicle type which affects its technical performance and/or documentation required\r\nin this Regulation shall be notified to the approval authority which granted the approval. The approval authority\r\nmay then either:"
+    },
+    {
+      "paragraph": "8.1.1",
+      "pages": [
+        7
+      ],
+      "text": "8.1.1. Consider that the modifications made still comply with the requirements and documentation of prior type\r\napproval; or"
+    },
+    {
+      "paragraph": "8.1.2",
+      "pages": [
+        7
+      ],
+      "text": "8.1.2. Require a further test report from the Technical Service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "8.1.3",
+      "pages": [
+        7
+      ],
+      "text": "8.1.3. Confirmation or extension or refusal of approval, specifying the alterations, shall be communicated by\r\nmeans of a communication form conforming to the model in Annex 2 to this Regulation. The approval authority\r\nissuing the extension of approval shall assign a series number for such an extension and inform there of the other\r\nParties to the 1958 Agreement applying this Regulation by means of a communication form conforming to the\r\nmodel in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. Conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        7
+      ],
+      "text": "9.1. The Conformity of Production Procedures shall comply with those set out in the 1958 Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3) with the following requirements:"
+    },
+    {
+      "paragraph": "9.1.1",
+      "pages": [
+        7
+      ],
+      "text": "9.1.1. The holder of the approval shall ensure that results of the conformity of production tests are recorded and\r\nthat the annexed documents remain available for a period determined in agreement with the Approval Authority or\r\nits Technical Service. This period shall not exceed 10 years counted from the time when production is definitively\r\ndiscontinued;"
+    },
+    {
+      "paragraph": "9.1.2",
+      "pages": [
+        7
+      ],
+      "text": "9.1.2. The Approval Authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production facility. The normal frequency of these verifications shall be once every three\r\nyears."
+    },
+    {
+      "paragraph": "9.1.3",
+      "pages": [
+        7
+      ],
+      "text": "9.1.3. The Approval Authority or its Technical Service shall periodically validate that the processes used and\r\ndecisions made by the vehicle manufacturer are compliant, particularly for instances where the vehicle\r\nmanufacturer chose not to notify the Approval Authority or its Technical Service about an update. This may be\r\nachieved on a sampling basis."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirement laid down in this Regulation are not complied with or if sample vehicles fail to comply with the\r\nrequirements of this Regulation."
+    },
+    {
+      "paragraph": "10.2",
+      "pages": [
+        7
+      ],
+      "text": "10.2. If an Approval Authority withdraws an approval it has previously granted, it shall forthwith so notify the\r\nContracting Parties applying this Regulation, by means of a communication form conforming to the model in\r\nAnnex 2 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        7
+      ],
+      "text": "11. Production deﬁnitively discontinued"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        7
+      ],
+      "text": "11.1. If the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance\r\nwith this Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication that authority shall inform thereof the other Contracting Parties to the Agreement applying this\r\nRegulation by means of a copy of the approval form bearing at the end, in large letters, the signed and dated\r\nannotation \"PRODUCTION DISCONTINUED\"."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        7
+      ],
+      "text": "12. Names and addresses of Technical Services responsible for conducting\r\napproval test, and of Type Approval Authorities"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        7
+      ],
+      "text": "12.1. The Contracting Parties to the Agreement which apply this Regulation shall communicate to the United\r\nNations Secretariat the names and addresses of the Technical Services responsible for conducting approval tests\r\nand of the Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        8
+      ],
+      "text": "Annex 1 Information document\r\nThe following information, if applicable, shall be supplied in triplicate and include a list of contents. Any\r\ndrawings shall be supplied in appropriate scale and in sufficient detail on size A4 or on a folder of A4 format.\r\nPhotographs, if any, shall show sufficient detail."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        8
+      ],
+      "text": "1. Make (trade name of manufacturer): ............................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        8
+      ],
+      "text": "2. Type and general commercial description(s): ......................................\r\n(Type is the type to be approved, commercial description refers to the product in which the approved type is used)"
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        8
+      ],
+      "text": "3. Means of identification of type, if marked on the vehicle: .............................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        8
+      ],
+      "text": "4. Location of that marking: ..................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        8
+      ],
+      "text": "5. Category(ies) of vehicle: ...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        8
+      ],
+      "text": "6. Name and address of manufacturer/ manufacturer's representative: ........................"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        8
+      ],
+      "text": "7. Name(s) and Address(es) of assembly plant(s): ....................................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        8
+      ],
+      "text": "8. Photograph(s) and/or drawing(s) of a representative vehicle:............................"
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        8
+      ],
+      "text": "9. Software Updates"
+    },
+    {
+      "paragraph": "Annex 1 / 9.1",
+      "pages": [
+        8
+      ],
+      "text": "9.1. General construction characteristics of the vehicle type:.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 9.2",
+      "pages": [
+        8
+      ],
+      "text": "9.2. The number of the Certificate of Compliance for Software Update Management System:........"
+    },
+    {
+      "paragraph": "Annex 1 / 9.3",
+      "pages": [
+        8
+      ],
+      "text": "9.3. Security measures."
+    },
+    {
+      "paragraph": "Annex 1 / 9.3.1",
+      "pages": [
+        8
+      ],
+      "text": "9.3.1. Documents for the vehicle type to be approved describing that the update process will be performed\r\nsecurely"
+    },
+    {
+      "paragraph": "Annex 1 / 9.3.2",
+      "pages": [
+        8
+      ],
+      "text": "9.3.2. Documents for the vehicle type to be approved describing that the RXSWINs on a vehicle are protected\r\nagainst unauthorized manipulation"
+    },
+    {
+      "paragraph": "Annex 1 / 9.4",
+      "pages": [
+        8
+      ],
+      "text": "9.4. Software updates over the air"
+    },
+    {
+      "paragraph": "Annex 1 / 9.4.1",
+      "pages": [
+        8
+      ],
+      "text": "9.4.1. Documents for the vehicle type to be approved describing that the update process will be performed safely"
+    },
+    {
+      "paragraph": "Annex 1 / 9.4.2",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "9.4.2. How a vehicle user is able to be informed about an update before and after its execution.\r\n\r\nAnnex 1 - Appendix 1 Model of declaration of compliance for Software Update\r\nManagement System Manufacturer’s declaration of compliance with the\r\nrequirements for Software Update Management System\r\nUN Regulation No. 156 series of amendments number: ..............................................................\r\nManufacturer Name: ............................................................................................................................\r\nManufacturer Address: .........................................................................................................................\r\n………………(Manufacturer Name) attests that the necessary processes to comply with the requirements for the\r\nSoftware Update Management System laid down in paragraph 7.1. of UN Regulation No. 156 are installed and\r\nwill be maintained.\r\nDone at: ……………………(place)\r\nDate: ....................................................\r\nName of the signatory: ........................................................................................................................\r\nFunction of the signatory: ....................................................................................................................\r\n.................................................................\r\n\r\n\r\n\r\n\r\n\r\n\r\n(Stamp and signature of the manufacturer’s representative)",
+      "review_flags": [
+        "ambiguous_annex_heading"
+      ]
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        9
+      ],
+      "text": "Annex 2 Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2\r\n\r\nApproval granted\r\nApproval extended\r\nApproval withdrawn with effect from dd/mm/yyyy\r\nApproval refused\r\nProduction definitively discontinued\r\nof a vehicle type, pursuant to UN Regulation No. [this Regulation]\r\nApproval No.: ............................................................\r\nExtension No.: ............................................................\r\nReason for extension: .......................................................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see marking provisions (footnote) in this\r\nRegulation).\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1. Make (trade name of manufacturer): ............................................"
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2. Type and general commercial description(s) ......................................."
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        9
+      ],
+      "text": "3. Means of identification of type, if marked on the vehicle: .............................."
+    },
+    {
+      "paragraph": "Annex 2 / 3.1",
+      "pages": [
+        9
+      ],
+      "text": "3.1. Location of that marking: .................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        9
+      ],
+      "text": "4. Category(ies) of vehicle: ...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        9
+      ],
+      "text": "5. Name and address of manufacturer / manufacturer’s representative: ......................."
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        9
+      ],
+      "text": "6. Name(s) and Address(es) of the production plant(s) .................................."
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        9
+      ],
+      "text": "7. Number of the certificate of compliance for software update management system: .............."
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        9
+      ],
+      "text": "8. Software updates over the air included (Yes/no): ...................................."
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        9
+      ],
+      "text": "9. Technical Service responsible for carrying out the tests: ..............................."
+    },
+    {
+      "paragraph": "Annex 2 / 10",
+      "pages": [
+        9
+      ],
+      "text": "10. Date of test report: ......................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 11",
+      "pages": [
+        10
+      ],
+      "text": "11. Number of test report: ...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 12",
+      "pages": [
+        10
+      ],
+      "text": "12. Remarks: (if any). ......................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 13",
+      "pages": [
+        10
+      ],
+      "text": "13. Place: ..............................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 14",
+      "pages": [
+        10
+      ],
+      "text": "14. Date: ................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 15",
+      "pages": [
+        10
+      ],
+      "text": "15. Signature: ............................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 16",
+      "pages": [
+        10
+      ],
+      "text": "16. The index to the information package lodged with the Approval Authority, which may be obtained on request\r\nis attached."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        10
+      ],
+      "text": "Annex 3 Arrangement of approval mark\r\nModel  A\r\n(See paragraph 4.2 of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min.\r\nThe above approval mark affixed to a vehicle shows that the road vehicle type concerned has been approved in the\r\nNetherlands (E 4), pursuant to Regulation No. [xxx], and under the approval number 001234. The first two digits\r\nof the approval number indicate that the approval was granted in accordance with the requirements of this\r\nRegulation in its original form (00)."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "Annex 4 Model of Certiﬁcate of Compliance for Software Update Management\r\nSystem\r\nCERTIFICATE OF  COMPLIANCE FOR\r\nSOFTWARE UPDATE MANAGEMENT  SYSTEM\r\nWith the original version of UN Regulation No.156\r\nCertificate Number [Reference number]\r\n[……. Approval Authority]\r\nCertifies that\r\nManufacturer: .......................................................................................................................................\r\nAddress of the manufacturer: ............................................................................................................\r\nComplies with the provisions of the original version of Regulation No. 156\r\nVerifications have been performed on: ............................................................................................\r\nby (name and address of the Approval Authority): ........................................................................\r\nNumber of report: ..................................................................................................................................\r\nThe certificate is valid until: […..Date]\r\nDone at: [……Place]\r\nOn: […….Date]\r\n\r\n\r\n\r\n\r\n\r\n[………….Signature]"
+    }
+  ]
+}

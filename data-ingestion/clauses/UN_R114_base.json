@@ -1,0 +1,1702 @@
+{
+  "regulation": "UN R114",
+  "version": "0.0.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R114 (version 0.0.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. SCOPE\r\nThis Regulation applies to the following aftermarket equipment:\r\n1.1. to airbag modules for replacement airbag systems intended to be installed on motor vehicles;\r\n1.2. to replacement steering wheels for vehicles of categories M1 and N1, equipped with an airbag module of an\r\napproved type and intended to be installed as an additional restraint system beside safety-belts and other restraint\r\nsystems in power-driven vehicles, i.e. a system which, in the event of a severe impact, automatically deploys a\r\nflexible structure intended to reduce the severity of injuries of the occupants;\r\n1.3. to replacement airbag systems other than those installed in steering wheels and equipped with airbag modules\r\nof an approved type as an additional restraint system beside safety-belts and other restraint systems in power-\r\ndriven vehicles of categories M1 and N1, i.e. a system which, in the event of a severe impact, automatically\r\ndeploys a flexible structure intended to reduce the severity of injuries of the occupants.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. DEFINITIONS"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Airbag system\" means a group of components which, once installed in vehicle(s), perform all functions\r\nprovided for by the manufacturer. This system comprises as a minimum a release unit activating one or more\r\nairbag modules and the electrical wiring harness, if present."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Airbag\" means a flexible material, forming an enclosed volume that receives the gas from the inflator and\r\nrestrains the occupant."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Airbag module\" means the smallest sub-assembly comprising the energy source for its deployment and the\r\nairbag involved in the deployment."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Replacement steering wheel\" (equipped with an airbag module) means an aftermarket steering wheel which\r\nis supplied to modify a motor vehicle and which may vary in its functional dimensions, form and/or material from\r\nthe original steering wheel provided by the vehicle manufacturer."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Replacement airbag system\" means an aftermarket airbag system which is supplied to modify a motor\r\nvehicle, and which may vary in its functional dimensions, form, materials or operation from any original airbag\r\nsystem provided by the vehicle manufacturer for that motor vehicle."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. Categories of airbag modules for replacement airbag systems:"
+    },
+    {
+      "paragraph": "2.6.1",
+      "pages": [
+        1
+      ],
+      "text": "2.6.1. Category A: Device intended to protect the driver of a vehicle in the event of a frontal collision."
+    },
+    {
+      "paragraph": "2.6.2",
+      "pages": [
+        1
+      ],
+      "text": "2.6.2. Category B: Device intended to protect front seat passenger(s) other than the driver in the event of a frontal\r\ncollision."
+    },
+    {
+      "paragraph": "2.6.3",
+      "pages": [
+        1
+      ],
+      "text": "2.6.3. Category C:Device intended to protect the passenger(s) in seats other than the front seats in the event of a\r\nfrontal collision."
+    },
+    {
+      "paragraph": "2.6.4",
+      "pages": [
+        1
+      ],
+      "text": "2.6.4. Category D: Device intended to protect the front seat occupant(s) in the event of a lateral collision."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Instant of release\" means the moment at which, in the event of an impact causing airbag deployment, the\r\ncomponents producing that deployment are irreversibly actuated."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Control unit or release unit\" means the sub-assembly comprising all components permitting the collision to\r\nbe detected and producing release."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"Wiring harness\" means all the electrical conductors and connections linking the various parts of the complete\r\nairbag system to each other and possibly to the vehicle."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Unladen kerb mass\" means the mass of the vehicle in running order, unoccupied and unladen but complete\r\nwith fuel, coolant, lubricant, tools and spare wheel (if these are provided as a standard equipment by the vehicle\r\nmanufacturer)."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Type of an airbag module for a replacement airbag system\" comprises airbag modules which do not differ\r\nin such essential aspects as:\r\n(a) the category of an airbag module,\r\n(b) the geometry of the airbag,\r\n(c) the material of the airbag,\r\n(d) the vents or equivalent devices,\r\n(e) the gas generator,\r\n(f) the envelope principle,\r\n(g) the material, structure and dimension of the cover,\r\n(h) the composition of the propellant,\r\n(i) the method of fixation of the module."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Type of a replacement steering wheel equipped with an airbag module\" means aftermarket steering wheels,\r\nwhich do not differ in such essential aspects as:\r\n(a) the presence of an airbag,\r\n(b) the dimension and diameter of the steering wheel,\r\n(c) the form, in so far as the safety performance and the strength performance is influenced,\r\n(d) the material,\r\n(e) the type definition of an airbag module for a replacement airbag system according to paragraph 2.11. above."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        2
+      ],
+      "text": "2.13. \"Type of a replacement airbag system other than that installed in a steering wheel\" comprises replacement\r\nairbag systems, which do not differ in such essential respects as:\r\n(a) the category of airbag module,\r\n(b) the geometry of the airbag,\r\n(c) the material of the airbag,\r\n(d) the vents or equivalent devices,\r\n(e) the gas generator,\r\n(f) the envelope principle,\r\n(g) the material, structure and dimension of the cover,\r\n(h) the composition of the propellant,\r\n(i) the method of fixation of the module."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "2.14. \"Vehicle type\" means a category of power-driven vehicles, which do not differ in such essential respects in\r\nso far as they have an effect on the results of the impact tests prescribed in this Regulation for:\r\n(a) the structure, dimension, body version and materials of the vehicle,\r\n(b) the unladen kerb mass, as defined in paragraph 2.10. above,\r\n\r\n\r\n\r\n\r\n\r\n(c) the steering control, the seat and the safety-belt system and other restraint systems,\r\n(d) the siting and orientation of the engine,\r\n(e) the parts and optional arrangements or fittings of the vehicle which influence the performance of the airbag."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        3
+      ],
+      "text": "3. APPLICATION FOR APPROVAL"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        3
+      ],
+      "text": "3.1. Application for approval of an airbag module for a replacement airbag system"
+    },
+    {
+      "paragraph": "3.1.1",
+      "pages": [
+        3
+      ],
+      "text": "3.1.1. The application for approval of an airbag module shall be submitted by the holder of the trade mark of the\r\nairbag module manufacturer, the component manufacturer or by their duly accredited representatives."
+    },
+    {
+      "paragraph": "3.1.2",
+      "pages": [
+        3
+      ],
+      "text": "3.1.2. For each category of an airbag module for a replacement airbag system, the application shall be\r\naccompanied by the following documents in triplicate and the following particulars:"
+    },
+    {
+      "paragraph": "3.1.2.1",
+      "pages": [
+        3
+      ],
+      "text": "3.1.2.1. A technical description, including mounting instructions and specifying the type(s) of vehicle for which\r\nthe airbag module is intended,"
+    },
+    {
+      "paragraph": "3.1.2.2",
+      "pages": [
+        3
+      ],
+      "text": "3.1.2.2. Sufficiently detailed drawings to permit the verification of the positions intended for the approval mark as\r\nrequired under paragraph 4.1.4. below."
+    },
+    {
+      "paragraph": "3.1.2.3",
+      "pages": [
+        3
+      ],
+      "text": "3.1.2.3. A sufficient number of airbag modules shall be submitted to the technical service responsible for the tests\r\nand verification of the conformity with the relevant paragraphs 5. and 6. of this Regulation."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        3
+      ],
+      "text": "3.2. Application for approval of a replacement steering wheel equipped with an airbag module of an approved\r\ntype"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        3
+      ],
+      "text": "3.2.1. The application for approval of a replacement steering wheel equipped with an airbag module shall be\r\nsubmitted by the holder of the trademark of the replacement steering wheel or by the manufacturer, or by their\r\nduly accredited representative."
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        3
+      ],
+      "text": "3.2.2. For each type of a replacement steering wheel equipped with an airbag module, the application shall be\r\naccompanied by the following documents in triplicate and the following particulars:\r\n3.2.2.1. a technical description, including mounting instructions,\r\n3.2.2.2. sufficiently detailed drawings,\r\n3.2.2.3. drawings showing the position of the airbag module(s) and its (their) attachment(s) on the steering wheel,\r\n3.2.2.4. the position intended for the approval mark and required under paragraph 4.2.4. below,\r\n3.2.2.5. a sufficient number of replacement steering wheels equipped with airbag modules and vehicles\r\nrepresentative of the types for which the replacement steering wheel shall be approved for shall be submitted to\r\nthe technical service responsible for conducting the approval tests so as to verify conformity with the relevant\r\nparagraphs 5. and 6. of this Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        3
+      ],
+      "text": "3.3. Application for approval of a replacement airbag system other than that installed in a steering wheel"
+    },
+    {
+      "paragraph": "3.3.1",
+      "pages": [
+        3
+      ],
+      "text": "3.3.1. The application for approval of a replacement airbag system other than that installed in a steering wheel\r\nshall be submitted by the holder of the trade mark of the replacement airbag system or by the manufacturer, or by\r\ntheir duly accredited representatives."
+    },
+    {
+      "paragraph": "3.3.2",
+      "pages": [
+        3,
+        4
+      ],
+      "text": "3.3.2. For each type of a replacement airbag system, the application shall be accompanied by the following\r\ndocuments in triplicate and the following particulars:\r\n3.3.2.1. a technical description, including mounting instructions,\r\n3.3.2.2. sufficiently detailed drawings,\r\n3.3.2.3. drawings showing the position of the airbag system(s) and its (their) attachment(s) on the vehicle,\r\n3.3.2.4. the position intended for the approval mark and required under paragraph 4.3.4. below,\r\n\r\n\r\n\r\n\r\n\r\n\r\n3.3.2.5. a sufficient number of replacement airbag systems and vehicles representative of the types for which the\r\nreplacement system shall be approved for, shall be submitted to the technical service responsible for conducting\r\nthe approval tests so as to verify conformity with the relevant paragraphs 5. and 6. of this Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        4
+      ],
+      "text": "4. APPROVAL"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        4
+      ],
+      "text": "4.1. Approval of an airbag module for a replacement airbag system"
+    },
+    {
+      "paragraph": "4.1.1",
+      "pages": [
+        4
+      ],
+      "text": "4.1.1. If the samples of the airbag module submitted for approval meet the requirements of the relevant paragraphs\r\n5. and 6. below, approval for this type of airbag module for a replacement airbag system shall be granted.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.1.2",
+      "pages": [
+        4
+      ],
+      "text": "4.1.2. An approval number shall be assigned to each type approved. Its first two digits (00 at present) shall\r\nindicate the series of amendments incorporating the most recent major technical amendments made to the\r\nRegulation at the time of issue of the approval. The same Contracting Party may not assign the same number to\r\nanother type of airbag module for a replacement airbag system."
+    },
+    {
+      "paragraph": "4.1.3",
+      "pages": [
+        4
+      ],
+      "text": "4.1.3. Notice of approval or of refusal or extension or withdrawal of approval or of definite discontinuation of\r\nproduction of a type of airbag module for a replacement airbag system, pursuant to this Regulation, shall be\r\ncommunicated to the Parties to the Agreement applying this Regulation, by means of a form conforming to the\r\nmodel in annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "4.1.4",
+      "pages": [
+        4
+      ],
+      "text": "4.1.4. The samples of airbag modules for a replacement airbag system shall be clearly and indelibly marked with\r\nthe manufacturer's trade name or mark and an approval mark consisting of:\r\n4.1.4.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval, 1/\r\n\r\n1/ 1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for Belgium, 7 for Hungary, 8 for the Czech Republic, 9 for\r\nSpain, 10 for Serbia and Montenegro, 11 for the United Kingdom, 12 for Austria, 13 for Luxembourg, 14 for Switzerland, 15 (vacant), 16 for\r\nNorway, 17 for Finland, 18 for Denmark, 19 for Romania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece, 24\r\nfor Ireland, 25 for Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for Estonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32\r\nfor Latvia, 33 (vacant), 34 for Bulgaria, 35 (vacant), 36 for Lithuania, 37 for Turkey, 38 (vacant), 39 for Azerbaijan, 40 for The former\r\nYugoslav Republic of Macedonia, 41 (vacant), 42 for the European Community (Approvals are granted by its Member States using their\r\nrespective ECE symbol), 43 for Japan, 44 (vacant), 45 for Australia, 46 for Ukraine, 47 for South Africa and 48 for New Zealand.\r\nSubsequent numbers shall be assigned to other countries in the chronological order in which they ratify or accede to the Agreement\r\nConcerning the Adoption of Uniform Technical Prescriptions for Wheeled Vehicles, Equipment and Parts which can be Fitted and/or be Used\r\non Wheeled Vehicles and the Conditions for Reciprocal Recognition of Approvals Granted on the Basis of these Prescriptions, and the\r\nnumbers thus assigned shall be communicated by the Secretary-General of the United Nations to the Contracting Parties to the Agreement.\r\n4.1.4.2. an approval number,\r\n4.1.4.3. an additional symbol, indicating the airbag module category (see paragraph 2.6. above).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.1.5",
+      "pages": [
+        4
+      ],
+      "text": "4.1.5. The approval mark and the additional symbol shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "4.1.6",
+      "pages": [
+        4
+      ],
+      "text": "4.1.6. Annex 4 to this Regulation gives an example of the approval mark and the additional symbol mentioned\r\nabove."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        4
+      ],
+      "text": "4.2. Approval of a replacement steering wheel equipped with an airbag module of an approved type"
+    },
+    {
+      "paragraph": "4.2.1",
+      "pages": [
+        4
+      ],
+      "text": "4.2.1. If a replacement steering wheel type equipped with an airbag module of an approved type submitted for\r\napproval meets the requirements of the relevant paragraphs 5. and 6. below, approval of that type of replacement\r\nsteering wheel equipped with an airbag module of an approved type shall be granted."
+    },
+    {
+      "paragraph": "4.2.2",
+      "pages": [
+        4
+      ],
+      "text": "4.2.2. An approval number shall be assigned to each type approved. Its first two digits (00 at present) shall\r\nindicate the series of amendments incorporating the most recent major technical amendments made to the\r\nRegulation at the time of issue of the approval. The same Contracting Party may not assign the same number to\r\nanother type of replacement steering wheel."
+    },
+    {
+      "paragraph": "4.2.3",
+      "pages": [
+        5
+      ],
+      "text": "4.2.3. Notice of approval or refusal or extension or withdrawal of approval or of definite discontinuation of\r\nproduction of a type of replacement steering wheel equipped with an airbag module of an approved type pursuant\r\nto this Regulation shall be communicated to the Parties to the Agreement applying this Regulation, by means of a\r\nform conforming to the model in annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "4.2.4",
+      "pages": [
+        5
+      ],
+      "text": "4.2.4. The samples of the replacement airbag steering wheel and the hub (adapters) shall be clearly and indelibly\r\nmarked with the manufacturer's trade name or mark and an approval mark consisting of:\r\n4.2.4.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval, 2/\r\n\r\n2/ See footnote No. 1/\r\n4.2.4.2. an approval number,\r\n4.2.4.3. an additional symbol, indicating the airbag module category (see paragraph. 2.6. above).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.2.5",
+      "pages": [
+        5
+      ],
+      "text": "4.2.5. The approval mark and the additional symbol shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "4.2.6",
+      "pages": [
+        5
+      ],
+      "text": "4.2.6. The approval mark shall be placed on the replacement steering wheel and on the hub (adapter). If the\r\nreplacement steering wheel and hub are in one piece, one approval mark and one mark with the manufacturer's\r\ntrade name or mark is sufficient."
+    },
+    {
+      "paragraph": "4.2.7",
+      "pages": [
+        5
+      ],
+      "text": "4.2.7. Annex 5 to this Regulation gives an example of the approval mark and the additional symbol mentioned\r\nabove."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        5
+      ],
+      "text": "4.3. Approval of a replacement airbag system other than that installed in a steering wheel"
+    },
+    {
+      "paragraph": "4.3.1",
+      "pages": [
+        5
+      ],
+      "text": "4.3.1. If a replacement airbag system other than that installed in a steering wheel submitted for approval meets the\r\nrequirements of the relevant paragraphs 5. and 6. below, approval of that type of replacement airbag system shall\r\nbe granted."
+    },
+    {
+      "paragraph": "4.3.2",
+      "pages": [
+        5
+      ],
+      "text": "4.3.2. An approval number shall be assigned to each type approved. Its first two digits (00 at present) shall\r\nindicate the series of amendments incorporating the most recent major technical amendments made to the\r\nRegulation at the time of issue of the approval. The same Contracting Party may not assign the same number to\r\nanother type of replacement airbag system."
+    },
+    {
+      "paragraph": "4.3.3",
+      "pages": [
+        5
+      ],
+      "text": "4.3.3. Notice of approval or refusal or extension or withdrawal of approval or of definite discontinuation of\r\nproduction of a replacement airbag system pursuant to this Regulation shall be communicated to the Parties to the\r\nAgreement applying this Regulation, by means of a form conforming to the model in annex 3 to this Regulation."
+    },
+    {
+      "paragraph": "4.3.4",
+      "pages": [
+        5
+      ],
+      "text": "4.3.4. The samples of the replacement airbag system shall be clearly and indelibly marked with the manufacturer's\r\ntrade name or mark and an approval mark consisting of:\r\n4.3.4.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval, 3/\r\n\r\n3/ See footnote No. 1/\r\n4.3.4.2. an approval number,\r\n4.3.4.3. an additional symbol, indicating the airbag module category (see paragraph. 2.6. above).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.3.5",
+      "pages": [
+        5
+      ],
+      "text": "4.3.5. The approval mark and the additional symbol shall be clearly legible and indelible."
+    },
+    {
+      "paragraph": "4.3.6",
+      "pages": [
+        5
+      ],
+      "text": "4.3.6. Annex 6 to this Regulation gives an example of the approval mark and the additional symbol mentioned\r\nabove."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        5
+      ],
+      "text": "5. REQUIREMENTS"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "5.1. General requirements for the approval of an airbag module for a replacement airbag system, a replacement\r\nsteering wheel equipped with an airbag module of an approved type, or a replacement airbag system other than\r\n\r\n\r\n\r\n\r\n\r\nthat installed in a steering wheel."
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        6
+      ],
+      "text": "5.1.1. Before type approval is granted according to paragraphs 4.1., 4.2. and/or 4.3., the competent authority shall\r\nverify the existence of satisfactory arrangements for ensuring:\r\n5.1.1.1. installation, maintenance, repair and dismantling of the system by trained technicians only according to a\r\nmanual, which shall be prepared by the applicant of the approval.\r\n5.1.1.2. substitution of a part or the complete system after guaranteed lifetime,\r\n5.1.1.3. labelling and notices for rescue persons, labelling and information for the use of child restraint systems.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        6
+      ],
+      "text": "5.1.2. Interference from magnetic fields shall not disrupt the operation of the airbag system."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        6
+      ],
+      "text": "5.1.3. A complete system shall comprise a device alerting the user if the airbag system is not in working order as\r\ndesigned."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        6
+      ],
+      "text": "5.1.4. Airbag modules for replacement airbag system of category A shall be so designed that, when they are\r\nsubmitted to a test in accordance with the requirements of paragraph 5.2.2.7., static deployment test, the airbag\r\nmay be pushed aside manually after full deployment."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        6
+      ],
+      "text": "5.1.5. Toxicity and burns\r\nA certificate shall be presented stating that the nature, concentration and temperature of the gases and solid\r\nparticles released on deployment of an airbag are not such as to be liable to injure seriously the occupants of the\r\nvehicle. The authorities responsible for issuing the approval shall reserve the right to verify the accuracy of the\r\nstatement."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2. Requirements for the approval of an airbag module for a replacement airbag system"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.1. Each airbag module shall comply with the requirements of the \"International Standard ISO 12097-2 ROAD\r\nVEHICLES-AIRBAG COMPONENT TESTING-PART 2: Testing of Airbag Modules\" version: 1996-08-00, to\r\nguarantee the operating safety of the airbag modules.\r\nAirbag modules designed for front seats equipped with side airbag systems shall comply, as far as possible, with\r\nthe requirements of the above-mentioned ISO Standard (for example tests according to paragraph 5.2.2.).\r\nThe module manufacturer shall state that the above-mentioned tests were carried out with positive test results. In\r\ncase of doubts the approval authority responsible for issuing the approval shall reserve the right to verify the\r\naccuracy of this statement."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2. Instead of paragraph 5.2.1., a reduced test programme is permitted which shows as a minimum the\r\nfollowing test elements:"
+    },
+    {
+      "paragraph": "5.2.2.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.1. Drop test"
+    },
+    {
+      "paragraph": "5.2.2.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.2. Mechanical impact test"
+    },
+    {
+      "paragraph": "5.2.2.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.3. Simultaneous vibration temperature test"
+    },
+    {
+      "paragraph": "5.2.2.4",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.4. Thermal humidity cycling test"
+    },
+    {
+      "paragraph": "5.2.2.5",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.5. Solar radiation simulation test"
+    },
+    {
+      "paragraph": "5.2.2.6",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.6. Temperature shock test"
+    },
+    {
+      "paragraph": "5.2.2.7",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.7. Static deployment test"
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        6
+      ],
+      "text": "5.3. Requirements for the approval of a replacement steering wheel equipped with an airbag module of an\r\napproved type"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "5.3.1. Before type approval is granted according to paragraph 4.2., the competent authority shall verify the\r\nexistence of satisfactory arrangements for carrying out:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5.3.1.1. a heat test of the replacement steering wheel (all parts except the airbag module), as described in\r\nparagraph 6.2.1.1., to guarantee a cohesion of all materials.\r\n5.3.1.2. a bending test, as described in paragraph 6.2.1.2., to guarantee a minimum deformation of the steering\r\nwheel rim,\r\n5.3.1.3. a torque test, as described in paragraph 6.2.1.3., to guarantee a sufficient stiffness when the replacement\r\nsteering wheel is loaded tangentially to the steering wheel rim,\r\n5.3.1.4. a fatigue test, as described in paragraph 6.2.1.4., to guarantee a sufficient lifetime.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        7
+      ],
+      "text": "5.3.2. For the replacement steering wheel, it must be guaranteed that the effective diameter is not substantially\r\nsmaller than the effective diameter of the steering wheel installed by the manufacturer of the vehicle. This\r\nrequirement is deemed fulfilled when the effective diameter of the replacement steering wheel is not less than 0.9\r\ntimes the effective diameter of the steering wheel used by the vehicle manufacturer."
+    },
+    {
+      "paragraph": "5.3.3",
+      "pages": [
+        7
+      ],
+      "text": "5.3.3. The size and fitting of the replacement steering wheel to the steering column must be within the dimensions\r\nand tolerances specified by the vehicle manufacturer. Otherwise the replacement manufacturer shall demonstrate\r\nto the Technical Service the proper function of any other chosen fixing method."
+    },
+    {
+      "paragraph": "5.3.4",
+      "pages": [
+        7
+      ],
+      "text": "5.3.4. The replacement steering wheel shall allow the drivers a direct view to all important instruments and\r\nindicators such as\r\n(a) the speedometer and\r\n(b) the tell tale signs for:\r\ndirection indicator\r\nmain beam\r\nrear fog lamp\r\nhazard warning signal\r\nautomatic antilock system\r\nbrake system malfunctions\r\nairbag function indicator\r\nThe tests shall be carried out according to the prescription laid down in paragraph 6.2.2."
+    },
+    {
+      "paragraph": "5.3.5",
+      "pages": [
+        7
+      ],
+      "text": "5.3.5. Replacement steering wheels equipped with airbag modules of an approved type shall be such that, when\r\ninstalled in a vehicle, this vehicle fulfils the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4. and\r\n5.2.1.5. of Regulation No. 94, 01 series of amendments.\r\nIn case of doubt, when verifying the conformity of the replacement steering wheel equipped with an airbag\r\nmodule of an approved type to the requirements of this Regulation, account shall be taken of any data or test\r\nresults provided by the applicant for approval, and these can be taken into consideration in validating the approval\r\ntest carried out by the technical service.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        7
+      ],
+      "text": "5.4. Requirements for the approval of a replacement airbag system other than that installed in a steering wheel"
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        7
+      ],
+      "text": "5.4.1. Replacement airbag systems shall be equipped with an approved airbag module or it shall be demonstrated\r\nto the satisfaction of the technical service, responsible for this test, that the system used complies with the\r\nrequirements prescribed in paragraphs 5.1. and 5.2. above."
+    },
+    {
+      "paragraph": "5.4.2",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "5.4.2. Replacement airbag systems other than those installed in steering wheels shall be such that, when installed\r\nin a vehicle, this vehicle fulfils in case of an airbag system of:\r\n5.4.2.1. category B, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4., and 5.2.1.5. of Regulation\r\nNo. 94, 01 series of amendments;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5.4.2.2. category C, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4., and 5.2.1.5. of Regulation\r\nNo. 94, 01 series of amendments; in addition instrumented dummies shall be used for the verification of the\r\nperformance of the airbag system;\r\n5.4.2.3. category D, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4., and 5.2.1.5. of Regulation\r\nNo. 95, 01 series of amendments; in this case the side impact dummy shall be used for the test.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        8
+      ],
+      "text": "6. TESTS"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        8
+      ],
+      "text": "6.1. Tests of an airbag module for a replacement airbag system\r\nThe tests shall be carried out according to ISO 12097-Part 2, version 1996-08-00."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2. Tests of a replacement steering wheel equipped with an airbag module of an approved type"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1. Strength tests:"
+    },
+    {
+      "paragraph": "6.2.1.1",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1.1. Heat test\r\nThe replacement steering wheel (except the airbag module) is exposed to the following temperature carried out in\r\none circle:\r\n\r\n - 16 hours at       - 15°C ± 2°C\r\n\r\n - 30 minutes at     + 22°C ± 2°C\r\n\r\n - 3 hours at        + 80°C ± 2°C\r\n\r\n - 30 minutes at     - 22°C ± 2°C\r\n\r\nThis test must leave no permanent deformation over and above the design tolerances, or any cracks or fractures."
+    },
+    {
+      "paragraph": "6.2.1.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1.2. Bending test\r\nThe replacement steering wheel is exposed to a temperature of at least - 15°C ± 2°C for 16 hours. The\r\nreplacement steering wheel is then mounted with its hub on a rigid shaft and the steering wheel rim is subjected to\r\na static loading of 70 daN ± 0.5 daN acting perpendicular to the plane of the rim. The test loading must be applied\r\non the rim and between two spokes that confine the greatest angle.\r\nThis test may not leave any permanent deformation on the rim of the replacement steering wheel that would be\r\ngreater than 8 per cent of the steering wheel diameter. There must be no signs of any cracks or fractures, which\r\nwill affect the operational safety of the steering wheel."
+    },
+    {
+      "paragraph": "6.2.1.3",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1.3. Torque test\r\nThe replacement steering wheel is mounted with its hub on a rigid shaft and subjected statically to a test load of\r\n70 daN ± 0.5 daN applied tangentially to the steering wheel rim. The permanent deformation resulting from this\r\ntest may not exceed 1 degree in the direction of rotation. The test may not leave any signs of cracks or fractures,\r\nwhich might affect the operational safety of the steering wheel. The steering wheel rim is then subjected to a\r\ntangential load corresponding to a torque or 22 daNm ± 0.5 daNm. This must not affect the steering wheel's\r\noperational safety even if the permanent deformation is greater than 1 degree in the direction of rotation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.2.1.4",
+      "pages": [
+        8
+      ],
+      "text": "6.2.1.4. Fatigue test\r\nThe replacement steering wheel is mounted with its rim in a test jig, as shown in annex 7, figure of an example of\r\na fatigue test device, and subjected to a approximate sinusoidal endurance load cycle test with a torque of 14\r\ndaNm ± 0.5 daNm at a frequency of 1.5 Hz ± 0.25 Hz.\r\nThe replacement steering wheel must withstand at least 1 x 105 load cycles without showing any signs of cracks\r\nor fractures which might affect its operational safety."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2.2. Installation requirement tests and driver's view to the instrument panel"
+    },
+    {
+      "paragraph": "6.2.2.1",
+      "pages": [
+        9
+      ],
+      "text": "6.2.2.1. The driver's view to:\r\n(a) the speedometer\r\n(b) the tell tales for:\r\ndirection indicator\r\nmain beam\r\nrear fog lamp\r\nhazard warning signal\r\nautomatic antilock system\r\nbrake system malfunctions\r\nairbag function indicator\r\nshall be guaranteed. The visibility is assessed by means of a comparative evaluation of photographs taken of the\r\ninstrument panel of the vehicle under test equipped with a replacement steering wheel. The H points are measured\r\nafter the vehicle has been aligned on the three dimensional measuring device.\r\nThe relation between vehicle and coordinate system is established through reference points of the body.\r\nIf the coordinates of the R point are not known, the H point is determined using a 50 percentile manikin. The\r\ndriver's seat is adjusted as follows:\r\n(a) seat in rearmost position of the device for longitudinal adjustment;\r\n(b) backrest inclined corresponding to 25° back angle of the manikin;\r\n(c) other adjusting devices in central position.\r\nA 35 mm camera inclined by 15° towards the horizontal plane is used to simulate binocular viewing and photos\r\nare taken from each of the eye points.\r\nPosition of the eye points related to the R or H point in the coordinate system in accordance with ISO 4130\r\n(dimensions in mm):\r\n\r\n x   y       z             x   y        z\r\n\r\n 0   -32.5   +635.0        0   +32.5    +635.0\r\n\r\nFor the camera the eye points are determined 35 mm in front of the plane of representation (normally the film\r\nplane) and on the centre axis of the optical system.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.2.2.2",
+      "pages": [
+        9
+      ],
+      "text": "6.2.2.2. Operation of control elements\r\nAn examination is made to find out whether the minimum and maximum distances indicated below between the\r\ncontrol elements for instance for direction indicator and headlamp flasher and the steering wheel rim are\r\nmaintained. Thus, satisfactory operation of the control elements and satisfactory handling of the replacement\r\nsteering wheel are to be ensured:\r\n(a) the measure \"a\" with a limitation of a minimum 30 mm refers to the control element with the smallest distance\r\nto the replacement steering wheel. It denotes the shortest distance between the control element and the rearplane\r\nof the steering wheel rim facing the instrument panel.\r\n(b) The measure \"b\" with a limitation of a maximum value of 130 mm denotes the distance from the centre of the\r\ndirection indicator control element and the front plane of the steering wheel rim facing the driver."
+    },
+    {
+      "paragraph": "6.2.2.3",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "6.2.2.3. Testing of installation\r\nThe conditions of installation, the diameter of the replacement steering wheel as compared with the original\r\nversion of the vehicle manufacturer, the repositioning of direction indicator control, the function of the audible\r\nwarning device and the function of the airbag tell tale are considered in the examination. Also the function of\r\n\r\n\r\n\r\n\r\n\r\nsensors monitoring the driver's seat or the passenger seat(s) and providing a deployment status to the airbag\r\ncontroller shall be examined, if available."
+    },
+    {
+      "paragraph": "6.2.2.4",
+      "pages": [
+        10
+      ],
+      "text": "6.2.2.4. Testing of adapters\r\nThe fitting dimensions (e.g. toothing of the steering shaft) are compared with the dimensions as provided by the\r\nmanufacturer using a profile projector.\r\nThe strength of the replacement adapters is checked by tightening the fixing nut/screw applying twice the\r\ntightening torque specified by the vehicle manufacturer but not more than 85 Nm.\r\nAdequate examinations are made to verify that the adapters for vehicle types with anti-theft systems integrated\r\ninto the steering wheel conform to the corresponding features of the steering wheel produced by the vehicle\r\nmanufacture in terms of strength, dimensions and the materials and function, or tests of the anti-theft system in\r\naccordance with Regulation No. 18 shall be carried out to demonstrate that he replacement steering wheel system\r\nfulfils the above-mentioned Regulation."
+    },
+    {
+      "paragraph": "6.2.3",
+      "pages": [
+        10
+      ],
+      "text": "6.2.3. Frontal impact test(s) with vehicle(s) for replacement steering wheel(s) equipped with an airbag module of\r\nan approved type.\r\nReplacement steering wheels equipped with airbag modules of an approved type shall be such that, when installed\r\nin a vehicle, this vehicle fulfils the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4. and 5.2.1.5. of\r\nRegulation No. 94, 01 series of amendments.\r\nIn case of doubt, when verifying the conformity of the replacement steering wheel equipped with an airbag\r\nmodule of an approved type to the requirements of this Regulation, account shall be taken of any data or test\r\nresults provided by the applicant for approval, and these can be taken in consideration in validating the approval\r\ntest carried out by the technical service."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        10
+      ],
+      "text": "6.3. Tests of a replacement airbag system other than that installed in a steering wheel"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        10
+      ],
+      "text": "6.3.1. Tests of an airbag module for a replacement airbag system\r\nThe replacement airbag system shall be equipped with an approved airbag module or the manufacturer of the\r\nreplacement airbag system shall demonstrate to the satisfaction of the technical service, responsible for this test,\r\nthat the system fulfils the requirements as prescribed in paragraphs 5.1. and 5.2. above."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        10
+      ],
+      "text": "6.3.2. Replacement airbag systems other than those installed in steering wheels shall be such that when installed\r\nin a vehicle, this vehicle fulfils:\r\n6.3.2.1. in case of an airbag system of category B, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3.,\r\n5.2.1.4., and 5.2.1.5. of Regulation No. 94, 01 series of amendments;\r\n6.3.2.2. in case of an airbag system of category C, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3.,\r\n5.2.1.4., and 5.2.1.5. of Regulation No. 94, 01 series of amendments; in addition instrumented dummies shall be\r\nused for the verification of the performance of the airbag system;\r\n6.3.2.3. in case of an airbag system of category D, the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3.,\r\n5.2.1.4., and 5.2.1.5. of Regulation No. 95, 01 series of amendments; in this case the side impact dummy shall be\r\nused for the test.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        10
+      ],
+      "text": "7. INSTRUCTIONS FOR USERS"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        10
+      ],
+      "text": "7.1. The manufacturer of the replacement airbag systems shall include in the operating instructions any\r\nrecommendations or precautions to be taken during the use, maintenance or destruction of the system or of any of\r\nits components."
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        10
+      ],
+      "text": "7.1.1. In particular:"
+    },
+    {
+      "paragraph": "7.1.1.1",
+      "pages": [
+        11
+      ],
+      "text": "7.1.1.1. If the system is fitted with a monitoring device intended to inform the user of its operating condition, it\r\nshall be clearly indicated how messages delivered by the system, of whatever kind, are to be interpreted. An\r\nindication shall be given of measures to be taken in the event of a message warning of malfunctioning, together\r\nwith a description of any risk involved in using the vehicle in such a condition;"
+    },
+    {
+      "paragraph": "7.1.1.2",
+      "pages": [
+        11
+      ],
+      "text": "7.1.1.2. It shall be indicated whether maintenance or repair work is to be performed exclusively by specially\r\ntrained personnel, and whether any risks are involved in disassembling the system;"
+    },
+    {
+      "paragraph": "7.1.1.3",
+      "pages": [
+        11
+      ],
+      "text": "7.1.1.3. The procedure to be followed in the event of deployment shall be explained. In particular, details shall be\r\ngiven of any precautions to be taken as regards products generated by deployment, in the form of gases, liquids or\r\nsolids. Similarly, if there is any danger from the components of the system as a result of deployment, such as\r\ndangerous roughness or sharp edges, temperature, corrosion, etc., these dangers shall be described, as well as the\r\nways of avoiding them;"
+    },
+    {
+      "paragraph": "7.1.1.4",
+      "pages": [
+        11
+      ],
+      "text": "7.1.1.4. If the scrapping of the replacement airbag system(s) can lead to situations which are dangerous either\r\ndirectly to humans or to the environment, an appropriate procedure for avoiding them shall be indicated. This may\r\nconsist in a method for deliberately releasing the airbag if its released state does not lead to a dangerous situation,\r\nin an obligation to return the system or part of it to the constructor or manufacturer, or in any other appropriate\r\nmeasure."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "7.2 The replacement airbag system shall carry labelling and information for the use of child restraint systems\r\naccording to Regu                             lation No. 94.\r\nAirbag systems with airbag modules of category A, B, C or D shall carry the inscription \"AIRBAG\" located in the\r\ninterior of the circumference of the replacement steering wheel or on the cover of the airbag module; this\r\ninscription shall be durably affixed and easily visible.\r\nIn addition, in the case of a frontal protection airbag system intended for use in any passenger seating position, the\r\nfollowing label shall be permanently attached to the visible surface of the cover of the airbag module (the text\r\ninformation shown is a minimum).\r\nThis label shall be provided in the language(s) of the country where the device is sold.\r\nLabel minimum size: 60 x 120 mm.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n* delete as appropriate",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        12
+      ],
+      "text": "8. CONFORMITY OF PRODUCTION\r\nThe conformity of production procedures shall comply with those set out in the Agreement, appendix 2\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.2) with the following requirements:"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        12
+      ],
+      "text": "8.1. The authority which has granted type approval may at any time verify the conformity control methods applied\r\nin each production facility. The normal frequency of these verifications shall be once every two years. Where\r\nnegative results are recorded during one of these verifications, their frequency may be increased."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        12
+      ],
+      "text": "8.2. Conformity of production of an airbag module for a replacement airbag system\r\nAirbag modules approved under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements set forth in paragraphs 5.1. and 5.2. above."
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        12
+      ],
+      "text": "8.3. Conformity of production of replacement steering wheel equipped with an airbag module of an approved\r\ntype.\r\nReplacement steering wheels equipped with an airbag module of an approved type and approved under this\r\nRegulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in\r\nparagraphs 5.1. and 5.3. above."
+    },
+    {
+      "paragraph": "8.4",
+      "pages": [
+        12
+      ],
+      "text": "8.4. Conformity of production of a replacement airbag system other than that installed in a steering wheel\r\nReplacement airbag systems other than those installed in steering wheels approved under this Regulation shall be\r\nso manufactured as to conform to the type approved by meeting the requirements set forth in paragraphs 5.1. and\r\n5.4. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        13
+      ],
+      "text": "9. PENALTIES FOR NON-CONFORMITY OF PRODUCTION\r\nThe approval granted for a type of airbag module for a replacement airbag system, a type of replacement steering\r\nwheel equipped with an airbag of an approved type, or a type of replacement airbag system other than that\r\ninstalled in a steering wheel, pursuant to this Regulation, may be withdrawn if the requirements laid down in\r\nparagraph 8. above are not complied with."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        13
+      ],
+      "text": "10. MODIFICATIONS OF THE TYPE OF AIRBAG MODULE FOR A\r\nREPLACEMENT AIRBAG SYSTEM OR THE TYPE OF REPLACEMENT\r\nSTEERING WHEEL WITH AN AIRBAG MODULE OF AN APPROVED TYPE OR\r\nTHE TYPE OF REPLACEMENT AIRBAG SYSTEM, OTHER THAN THAT\r\nINSTALLED IN A STEERING WHEEL"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        13
+      ],
+      "text": "10.1. Every modification of the type of the above-mentioned system shall be notified to the administrative\r\ndepartment which approved the type. The department may then either:\r\n10.1.1. decide that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe module or the system or the replacement steering wheel still meets the requirements,\r\n10.1.2. require a further test report from the technical service responsible for conducting the tests.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "10.2",
+      "pages": [
+        13
+      ],
+      "text": "10.2. Confirmation or refusal of approval, specifying the alterations, shall be communicated by the procedure\r\nspecified in paragraphs 4.1. to 4.3. above to the other Parties to the Agreement applying this Regulation."
+    },
+    {
+      "paragraph": "10.3",
+      "pages": [
+        13
+      ],
+      "text": "10.3. The competent authority which has issued the extension of approval shall assign a series number to that\r\nextension and so inform the other Parties to the 1958 Agreement applying this Regulation, by means of a\r\ncommunication form conforming to the models in annexes 1, 2 and 3 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        13
+      ],
+      "text": "11. PRODUCTION DEFINITELY DISCONTINUED\r\nIf the holder of the approval ceases completely to manufacture a type of airbag module for a replacement airbag\r\nsystem or a type of replacement steering wheel equipped with an airbag of an approved type or a type of\r\nreplacement airbag system other than that installed in a steering wheel under this Regulation, he shall inform the\r\nauthority which granted the approval. Upon receiving the relevant communication, that authority shall inform\r\nthereof the other Parties to the 1958 Agreement applying this Regulation, by means of a communication form\r\nconforming to the models in annexes 1, 2 and 3 to this Regulation."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        13
+      ],
+      "text": "12. NAMES AND ADDRESSES OF TECHNICAL SERVICES RESPONSIBLE FOR\r\nAPPROVAL TESTS, AND OF ADMINISTRATIVE DEPARTMENTS\r\nThe Parties to the 1958 Agreement applying this Regulation shall communicate to the United Nations secretariat\r\nthe names and addresses of the technical services responsible for conducting approval tests and of the\r\nadministrative departments which grant approval and to which forms certifying approval or extension, or refusal\r\nor withdrawal of approval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "Annex 1 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n.....................................\r\n.....................................\r\n.....................................\r\nconcerning: 2/ APPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a type of airbag module for a replacement airbag system pursuant to Regulation No. 114\r\nApproval No: ............ Extension No..........\r\n\r\n1/ Distinguishing number of the country, which has granted/extended/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        14
+      ],
+      "text": "1. Replacement airbag module of categories A, B, C, D:................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        14
+      ],
+      "text": "2. Trade name or mark:.........................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        14
+      ],
+      "text": "3. Description of the type of airbag module for a replacement airbag system given by the manufacturer:"
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        14
+      ],
+      "text": "4. Manufacturer's name:........................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        14
+      ],
+      "text": "5. If applicable, name and address of manufacturer's representative:......................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        14
+      ],
+      "text": "6. Airbag module for a replacement airbag system submitted for approval on:.............."
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        14
+      ],
+      "text": "7. Technical service responsible for conducting approval tests:..........................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        14
+      ],
+      "text": "8. Date of test report issued by this service:.........................................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        14
+      ],
+      "text": "9. Number of test report issued by this service:........................................"
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        14
+      ],
+      "text": "10. Approval granted/refused/extended/withdrawn for general use/for use in a specific vehicle or in specific types\r\nof vehicles 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        14
+      ],
+      "text": "11. If applicable, reasons for extension of approval: ...................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        14
+      ],
+      "text": "12. Position of the approval mark: ..................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        14
+      ],
+      "text": "13. Place: ....................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        14
+      ],
+      "text": "14. Date:......................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        14
+      ],
+      "text": "15. Signature:..............................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        14
+      ],
+      "text": "16. The list of documents deposited with the administrative service, which has granted approval is annexed to this\r\ncommunication and may be obtained on request."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        15
+      ],
+      "text": "Annex 2 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n.....................................\r\n.....................................\r\n.....................................\r\nconcerning: 2/ APPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a type of replacement steering wheel equipped with an airbag module of an approved type pursuant to\r\nRegulation No. 114\r\nApproval No.: ......... Extension No..........\r\n\r\n1/ Distinguishing number of the country, which has granted/extended/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        15
+      ],
+      "text": "1. Trade name or mark of the replacement steering wheel:..............................."
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. Manufacturer's name and address:................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. If applicable, name and address of manufacturer's representative:......................."
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        15
+      ],
+      "text": "4. Trade name and mark of the type of the airbag module and approval No.:................"
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        15
+      ],
+      "text": "5. Extension of approval of the type of replacement steering wheel:......................."
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        15
+      ],
+      "text": "6. List of vehicles, where the replacement steering wheel can be installed (name of vehicle\r\nmanufacturer/commercial name/vehicle code/replacement steering wheel type/adapter type and number):"
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        15
+      ],
+      "text": "7. Technical service responsible for conducting approval tests:..........................."
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        15
+      ],
+      "text": "8. Date of test report issued by this service:.........................................."
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        15
+      ],
+      "text": "9. Number of test report issued by this service:........................................"
+    },
+    {
+      "paragraph": "Annex 2 / 10",
+      "pages": [
+        15
+      ],
+      "text": "10. Approval granted/refused/extended/withdrawn for general use/for use in a specific vehicle or in specific types\r\nof vehicles 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 11",
+      "pages": [
+        15
+      ],
+      "text": "11. If applicable, reasons for extension of approval:....................................."
+    },
+    {
+      "paragraph": "Annex 2 / 12",
+      "pages": [
+        15
+      ],
+      "text": "12. Position of the approval mark:..................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 13",
+      "pages": [
+        15
+      ],
+      "text": "13. Place:......................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 14",
+      "pages": [
+        15
+      ],
+      "text": "14. Date: ......................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 15",
+      "pages": [
+        16
+      ],
+      "text": "15. Signature:..................................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 16",
+      "pages": [
+        16
+      ],
+      "text": "16. The list of documents deposited with the administrative service, which has granted approval is annexed to this\r\ncommunication and may be obtained on request."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        16
+      ],
+      "text": "Annex 3 COMMUNICATION\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n.....................................\r\n.....................................\r\n.....................................\r\nconcerning: 2/ APPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a type of replacement airbag system other than that installed in a replacement steering wheel pursuant to\r\nRegulation No. 114\r\nApproval No.: .......... Extension No..............\r\n\r\n1/ Distinguishing number of the country, which has granted/extended/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        16
+      ],
+      "text": "1. Trade name or mark of the replacement airbag system:..............................."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        16
+      ],
+      "text": "2. Category of the airbag system and approval No. of the airbag module: ..................."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        16
+      ],
+      "text": "3. Manufacturer's name and address:................................................"
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        16
+      ],
+      "text": "4. If applicable, name and address of manufacturer's representative:......................."
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        16
+      ],
+      "text": "5. Replacement airbag system and vehicles submitted for approval on:....................."
+    },
+    {
+      "paragraph": "Annex 3 / 6",
+      "pages": [
+        16
+      ],
+      "text": "6. Extension of approval of the type of replacement airbag system:........................"
+    },
+    {
+      "paragraph": "Annex 3 / 7",
+      "pages": [
+        16
+      ],
+      "text": "7. List of vehicles, where the replacement airbag system can be installed:..................."
+    },
+    {
+      "paragraph": "Annex 3 / 8",
+      "pages": [
+        16
+      ],
+      "text": "8. Technical service responsible for conducting approval tests:..........................."
+    },
+    {
+      "paragraph": "Annex 3 / 9",
+      "pages": [
+        16
+      ],
+      "text": "9. Date of test report issued by this service:.........................................."
+    },
+    {
+      "paragraph": "Annex 3 / 10",
+      "pages": [
+        16
+      ],
+      "text": "10. Number of test report issued by this service:........................................"
+    },
+    {
+      "paragraph": "Annex 3 / 11",
+      "pages": [
+        16
+      ],
+      "text": "11. Approval granted/refused/extended/withdrawn for general use/for use in a specific vehicle or in specific types\r\nof vehicles 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 3 / 12",
+      "pages": [
+        16
+      ],
+      "text": "12. If applicable, reasons for extension of approval:....................................."
+    },
+    {
+      "paragraph": "Annex 3 / 13",
+      "pages": [
+        17
+      ],
+      "text": "13. Position of the approval mark:..................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 14",
+      "pages": [
+        17
+      ],
+      "text": "14. Place:......................................................................"
+    },
+    {
+      "paragraph": "Annex 3 / 15",
+      "pages": [
+        17
+      ],
+      "text": "15. Date: ......................................................................"
+    },
+    {
+      "paragraph": "Annex 3 / 16",
+      "pages": [
+        17
+      ],
+      "text": "16. Signature:..................................................................."
+    },
+    {
+      "paragraph": "Annex 3 / 17",
+      "pages": [
+        17
+      ],
+      "text": "17. The list of documents deposited with the administrative service, which has granted approval is annexed to this\r\ncommunication and may be obtained on request."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        17
+      ],
+      "text": "Annex 4 EXAMPLE OF AN APPROVAL MARK FOR AN AIRBAG MODULE FOR\r\nA REPLACEMENT AIRBAG SYSTEM\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 5 mm min.\r\nThe airbag module bearing the above approval mark is a category A airbag module approved in France (E2) under\r\nthe number 002439. The first two digits of the approval number indicate that the approval was granted in\r\naccordance with the requirements of the Regulation in its original form.\r\nNote:\r\nThe approval number and additional symbol(s) must be placed close to the circle and either above or below the\r\n\"E\" or to the left or right of that letter.\r\nThe digits of the approval number must be on the same side of the \"E\" and oriented in the same direction. The\r\nadditional symbol(s) must be diametrically opposite the approval number. The use of Roman numerals as\r\napproval numbers should be avoided so as to prevent any confusion with the other symbols."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        17,
+        18
+      ],
+      "text": "Annex 5 EXAMPLE OF AN APPROVAL MARK FOR A REPLACEMENT\r\nSTEERING WHEEL EQUIPPED WITH AN AIRBAG MODULE OF AN APPROVED\r\nTYPE\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 5 mm min.\r\nThe replacement steering wheel bearing the above approval mark is a steering wheel with an airbag module of\r\ncategory A and approved in France (E2) under the number 002439. The first two digits of the approval number\r\nindicate that the approval was granted in accordance with the requirements of the Regulation in its original form.\r\nNote:\r\nThe approval number and additional symbol(s) must be placed close to the circle and either above or below the\r\n\"E\" or to the left or right of that letter.\r\nThe digits of the approval number must be on the same side of the \"E\" and oriented in the same direction. The\r\nadditional symbol(s) must be diametrically opposite the approval number. The use of Roman numerals as\r\napproval numbers should be avoided so as to prevent any confusion with the other symbols."
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        18,
+        19
+      ],
+      "text": "Annex 6 EXAMPLE OF AN APPROVAL MARK FOR A REPLACEMENT AIRBAG\r\nSYSTEM OTHER THAN THAT INSTALLED IN A STEERING WHEEL\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8mm min.\r\nThe replacement airbag system bearing the above approval mark is a category B airbag system approved in France\r\n(E2) under the number 002439. The first two digits of the approval number indicate that the approval was granted\r\nin accordance with the requirements of the Regulation in its original form.\r\nNote:\r\nThe approval number and additional symbol(s) must be placed close to the circle and either above or below the\r\n\"E\" or to the left or right of that letter.\r\nThe digits of the approval number must be on the same side of the \"E\" and oriented in the same direction. The\r\nadditional symbol(s) must be diametrically opposite the approval number. The use of Roman numerals as\r\n\r\n\r\n\r\n\r\n\r\n\r\napproval numbers should be avoided so as to prevent any confusion with the other symbols."
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        19
+      ],
+      "text": "Annex 7 FATIGUE TEST DEVICE\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample of a fatigue test device"
+    },
+    {
+      "paragraph": "Annex 8",
+      "pages": [
+        19
+      ],
+      "text": "Annex 8 PROCEDURE FOR DETERMINING THE \"H\" POINT AND THE ACTUAL\r\nTORSO ANGLE FOR SEATING POSITIONS IN MOTOR VEHICLES"
+    },
+    {
+      "paragraph": "Annex 8 / 1",
+      "pages": [
+        19
+      ],
+      "text": "1. PURPOSE\r\nThe procedure described in this annex is used to establish the \"H\" point location and the actual torso angle for one\r\nor several seating positions in a motor vehicle and to verify the relationship of measured data to design\r\nspecifications given by the vehicle manufacturer. 1/\r\n\r\n1/ In any seating position other than front seats where the \"H\" point cannot be determined using the \"Three-dimensional 'H' point machine\"\r\nor procedures, the \"R\" point indicated by the manufacturer may be taken as a reference at the discretion of the competent authority."
+    },
+    {
+      "paragraph": "Annex 8 / 2",
+      "pages": [
+        19,
+        20
+      ],
+      "text": "2. DEFINITIONS\r\n\r\n\r\n\r\n\r\n\r\n\r\nFor the purposes of this annex:"
+    },
+    {
+      "paragraph": "Annex 8 / 2.1",
+      "pages": [
+        20
+      ],
+      "text": "2.1. \"Reference data\" means one or several of the following characteristics of a seating position:\r\n2.1.1. the \"H\" point and the \"R\" point and their relationship,\r\n2.1.2. the actual torso angle and the design torso angle and their relationship.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 2.2",
+      "pages": [
+        20
+      ],
+      "text": "2.2. \"Three-dimensional 'H' point machine\" (3-D H machine) means the device used for the determination of \"H\"\r\npoints and actual torso angles. This device is described in appendix 1 to this annex;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.3",
+      "pages": [
+        20
+      ],
+      "text": "2.3. \"H point\" means the pivot centre of the torso and the thigh of the 3-D H machine installed in the vehicle seat\r\nin accordance with paragraph 4 below. The \"H\" point is located in the centre of the centreline of the device, which\r\nis between the \"H\" point sight buttons on either side of the 3-D H machine. The \"H\" point corresponds\r\ntheoretically to the \"R\" point (for tolerances see paragraph 3.2.2. below). Once determined in accordance with the\r\nprocedure described in paragraph 4, the \"H\" point is considered fixed in relation to the seat-cushion structure and\r\nto move with it when the seat is adjusted;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.4",
+      "pages": [
+        20
+      ],
+      "text": "2.4. \"R point\" or \"seating reference point\" means a design point defined by the vehicle manufacturer for each\r\nseating position and established with respect to the three-dimensional reference system;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.5",
+      "pages": [
+        20
+      ],
+      "text": "2.5. \"Torso-line\" means the centreline of the probe of the 3-D H machine with the probe in the fully rearward\r\nposition;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.6",
+      "pages": [
+        20
+      ],
+      "text": "2.6. \"Actual torso angle\" means the angle measured between a vertical line through the \"H\" point and the torso\r\nline using the back angle quadrant on the 3-D H machine. The actual torso angle corresponds theoretically to the\r\ndesign torso angle (for tolerances see paragraph 3.2.2. below):"
+    },
+    {
+      "paragraph": "Annex 8 / 2.7",
+      "pages": [
+        20
+      ],
+      "text": "2.7. \"Design torso angle\" means the angle measures between a vertical line through the \"R\" point and the torso\r\nline in a position which corresponds to the design position of the seat-back established by the vehicle\r\nmanufacturer;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.8",
+      "pages": [
+        20
+      ],
+      "text": "2.8. \"Centreplane of occupant\" (C/LO) means the median plane of the 3-D H machine positioned in each\r\ndesignated seating position; it is represented by the co-ordinate of the \"H\" point on the \"Y\" axis. For individual\r\nseats, the centreplane of the seat coincides with the centreplane of the occupant. For other seats, the centreplane of\r\nthe occupant is specified by the manufacturer;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.9",
+      "pages": [
+        20
+      ],
+      "text": "2.9. \"Three-dimensional reference system\" means a system as described in appendix 2 to this annex;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.10",
+      "pages": [
+        20
+      ],
+      "text": "2.10. \"Fiducial marks\" are physical points (holes, surfaces, marks or indentations) on the vehicle body as defined\r\nby the manufacturer;"
+    },
+    {
+      "paragraph": "Annex 8 / 2.11",
+      "pages": [
+        20
+      ],
+      "text": "2.11. \"Vehicle measuring attitude\" means the position of the vehicle as defined by the co-ordinates of fiducial\r\nmarks in the three-dimensional reference system."
+    },
+    {
+      "paragraph": "Annex 8 / 3",
+      "pages": [
+        20
+      ],
+      "text": "3. REQUIREMENTS"
+    },
+    {
+      "paragraph": "Annex 8 / 3.1",
+      "pages": [
+        20
+      ],
+      "text": "3.1. Data presentation\r\nFor each seating position where reference data are required in order to demonstrate compliance with the\r\nprovisions of the present Regulation, all or an appropriate selection of the following data shall be presented in the\r\nform indicated in appendix 3 to this annex:\r\n3.1.1. the co-ordinates of the \"R\" point relative to the three-dimensional reference system;\r\n3.1.2. the design torso angle;\r\n3.1.3. all indications necessary to adjust the seat (if it is adjustable) to the measuring position set out in paragraph\r\n4.3. below.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 3.2",
+      "pages": [
+        20
+      ],
+      "text": "3.2. Relationship between measured data and design specifications"
+    },
+    {
+      "paragraph": "Annex 8 / 3.2.1",
+      "pages": [
+        21
+      ],
+      "text": "3.2.1. The co-ordinates of the \"H\" point and the value of the actual torso angle obtained by the procedure set out\r\nin paragraph 4. below shall be compared, respectively, with the coordinates of the \"R\" point and the value of the\r\ndesign torso angle indicated by the vehicle manufacturer."
+    },
+    {
+      "paragraph": "Annex 8 / 3.2.2",
+      "pages": [
+        21
+      ],
+      "text": "3.2.2. The relative positions of the \"R\" point and the \"H\" point and the relationship between the design torso angle\r\nand the actual torso angle shall be considered satisfactory for the seating position in question if the \"H\" point, as\r\ndefined by its co-ordinates, lies within a square of 50 mm side length with horizontal and vertical sides whose\r\ndiagonals intersect at the \"R\" point, and if the actual torso angle is within 5° of the design torso angle."
+    },
+    {
+      "paragraph": "Annex 8 / 3.2.3",
+      "pages": [
+        21
+      ],
+      "text": "3.2.3. If these conditions are met, the \"R\" point and the design torso angle, shall be used to demonstrate\r\ncompliance with the provisions of this Regulation."
+    },
+    {
+      "paragraph": "Annex 8 / 3.2.4",
+      "pages": [
+        21
+      ],
+      "text": "3.2.4. If the \"H\" point or the actual torso angle does not satisfy the requirements of paragraph 3.2.2. above, the\r\n\"H\" point and the actual torso angle shall be determined twice more (three times in all). If the results of two of\r\nthese three operations satisfy the requirements, the conditions of paragraph 3.2.3. above shall apply."
+    },
+    {
+      "paragraph": "Annex 8 / 3.2.5",
+      "pages": [
+        21
+      ],
+      "text": "3.2.5. If the results of at least two of the three operations described in paragraph 3.2.4. above do not satisfy the\r\nrequirements of paragraph 3.2.2. above, or if the verification cannot take place because the vehicle manufacturer\r\nhas failed to supply information regarding the position of the \"R\" point or regarding the design torso angle, the\r\ncentroid of the three measured points or the average of the three measured angles shall be used and be regarded as\r\napplicable in all cases where the \"R\" point or the design torso angle is referred to in this Regulation."
+    },
+    {
+      "paragraph": "Annex 8 / 4",
+      "pages": [
+        21
+      ],
+      "text": "4. PROCEDURE FOR \"H\" POINT AND ACTUAL TORSO ANGLE DETERMINATION"
+    },
+    {
+      "paragraph": "Annex 8 / 4.1",
+      "pages": [
+        21
+      ],
+      "text": "4.1. The vehicle shall be preconditioned at the manufacturer's discretion, at a temperature\r\nof 20°C ± 10°C to ensure that the seat material reached room temperature. If the seat to be checked has never been\r\nsat upon, a 70 to 80 kg person or device shall sit on the seat twice for one minute to flex the cushion and back. At\r\nthe manufacturer's request, all seat assemblies shall remain unloaded for a minimum period of 30 min prior to\r\ninstallation of the 3-D H machine."
+    },
+    {
+      "paragraph": "Annex 8 / 4.2",
+      "pages": [
+        21
+      ],
+      "text": "4.2. The vehicle shall be at the measuring attitude defined in paragraph 2.11. above."
+    },
+    {
+      "paragraph": "Annex 8 / 4.3",
+      "pages": [
+        21
+      ],
+      "text": "4.3. The seat, if it is adjustable, shall be adjusted first to the rearmost normal driving or riding position, as\r\nindicated by the vehicle manufacturer, taking into consideration only the longitudinal adjustment of the seat,\r\nexcluding seat travel used for purposes other than normal driving or riding positions. Where other modes of seat\r\nadjustment exist (vertical, angular, seat-back, etc.) these will then be adjusted to the position specified by the\r\nvehicle manufacturer. For suspension seats, the vertical position shall be rigidly fixed corresponding to a normal\r\ndriving position as specified by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 8 / 4.4",
+      "pages": [
+        21
+      ],
+      "text": "4.4. The area of the seating position contacted by the 3-D H machine shall be covered by a muslin cotton, of\r\nsufficient size and appropriate texture, described as a plain cotton fabric having 18.9 threads per cm5 and\r\nweighing 0.228 kg/m2 or knitted or non-woven fabric having equivalent characteristics. If the test is run on a seat\r\noutside the vehicle, the floor on which the seat is placed shall have the same essential characteristics 2/ as the\r\nfloor of the vehicle in which the seat is intended to be used.\r\n\r\n2/Tilt angle, height difference with a seat mounting, surface texture, etc."
+    },
+    {
+      "paragraph": "Annex 8 / 4.5",
+      "pages": [
+        21
+      ],
+      "text": "4.5. Place the seat and back assembly of the 3-D H machine so that the centreplane of the occupant (C/LO)\r\ncoincides with the centreplane of the 3-D H machine. At the manufacturer's request, the 3-D H machine may be\r\nmoved inboard with respect to the C/LO if the 3-D H machine is located so far outboard that the seat edge will not\r\npermit levelling of the 3-D H machine."
+    },
+    {
+      "paragraph": "Annex 8 / 4.6",
+      "pages": [
+        21
+      ],
+      "text": "4.6. Attach the foot and lower leg assemblies to the seat pan assembly, either individually or by using the T-bar\r\nand lower leg assembly. A line through the \"H\" point sight buttons shall be parallel to the ground and\r\nperpendicular to the longitudinal Centreplane of the seat."
+    },
+    {
+      "paragraph": "Annex 8 / 4.7",
+      "pages": [
+        21
+      ],
+      "text": "4.7. Adjust the feet and leg positions of the 3-D H machine as follows:"
+    },
+    {
+      "paragraph": "Annex 8 / 4.7.1",
+      "pages": [
+        22
+      ],
+      "text": "4.7.1. Designated seating position: driver and outside front passenger"
+    },
+    {
+      "paragraph": "Annex 8 / 4.7.1.1",
+      "pages": [
+        22
+      ],
+      "text": "4.7.1.1. Both feet and leg assemblies shall be moved forward in such a way that the feet take up natural positions\r\non the floor, between the operating pedals if necessary. Where possible the left foot shall be located approximately\r\nthe same distance to the left of the centreplane of the 3-D H machine as the right foot is to the right. The spirit\r\nlevel verifying the transverse orientation of the 3-D H machine is brought to the horizontal by readjustment of the\r\nseat pan if necessary, or by adjusting the leg and foot assemblies towards the rear. The line passing through the\r\n\"H\" point right buttons shall be maintained perpendicular to the longitudinal centreplane of the seat."
+    },
+    {
+      "paragraph": "Annex 8 / 4.7.1.2",
+      "pages": [
+        22
+      ],
+      "text": "4.7.1.2 If the left leg cannot be kept parallel to the right leg and the left foot cannot be supported by the structure,\r\nmove the left foot until it is supported. The alignment of the sight buttons shall be maintained.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 4.7.2",
+      "pages": [
+        22
+      ],
+      "text": "4.7.2 Designated seating position: outboard rear\r\nFor rear seats or auxiliary seats, the legs are located as specified by the manufacturer. If the feet then rest on parts\r\nof the floor, which are at different levels, the foot, which first comes into contact with the front seat shall serve as\r\na reference and the other foot shall be so arranged that the spirit level giving the transverse orientation of the seat\r\nof the device indicates the horizontal.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 4.8",
+      "pages": [
+        22
+      ],
+      "text": "4.8 Apply lower leg and thigh weights and level the 3-D H machine.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 4.9",
+      "pages": [
+        22
+      ],
+      "text": "4.9. Tilt the back pan forward against the forward stop and draw the 3-D H machine away from the seat-back\r\nusing the T-bar. Reposition the 3-D H machine on the seat by one of the following methods:"
+    },
+    {
+      "paragraph": "Annex 8 / 4.9.1",
+      "pages": [
+        22
+      ],
+      "text": "4.9.1. If the 3-D H machine tends to slide rearward, use the following procedure. Allow the\r\n3-D H machine to slide rearward until a forward horizontal restraining load on the T-bar is no longer required i.e.\r\nuntil the seat pan contacts the seat-back. If necessary, reposition the lower leg."
+    },
+    {
+      "paragraph": "Annex 8 / 4.9.2",
+      "pages": [
+        22
+      ],
+      "text": "4.9.2. If the 3-D H machine does not tend to slide rearward, use the following procedure. Slide the 3-D H machine\r\nrearwards by applying a horizontal rearward load to the T-bar until the seat pan contacts the seat-back (see figure\r\n2 of appendix 1 to this annex).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 4.10",
+      "pages": [
+        22
+      ],
+      "text": "4.10. Apply a 100N ± 10N load to the back and pan assembly of the 3-D H machine at the intersection of the hip\r\nangle quadrant and the T-bar housing. The direction of load application shall be maintained along a line passing\r\nby the above intersection to a point just above the thigh bar housing (see figure 2 of appendix 1 to this annex).\r\nThen carefully return the back pan to the seat-back. Care must be exercised throughout the remainder of the\r\nprocedure to prevent the 3-D H machine from sliding forward."
+    },
+    {
+      "paragraph": "Annex 8 / 4.11",
+      "pages": [
+        22
+      ],
+      "text": "4.11. Install the right and left buttock weights and then, alternately, the eight torso weights. Maintain the 3-D H\r\nmachine level."
+    },
+    {
+      "paragraph": "Annex 8 / 4.12",
+      "pages": [
+        22,
+        23
+      ],
+      "text": "4.12. Tilt the back pan forward to release the tension on the seat-back. Rock the 3-D H machine from side to side\r\nthrough a 10° arc (5° to each side of the vertical centreplane)\r\nfor three complete cycles to release any accumulated friction between the 3-D H machine and the seat.\r\nDuring the rocking action, the T-bar of the 3-D H machine may tend to diverge from the specified horizontal and\r\nvertical alignment. The T-bar must therefore be restrained by applying an appropriate lateral load during the\r\nrocking motions. Care shall be exercised in holding the T-bar and rocking the 3-D H machine to ensure that no\r\ninadvertent exterior loads are applied in a vertical or fore and aft direction.\r\nThe feet of the 3-D H machine are not to be restrained or held during this step. If the feet change position, they\r\nshould be allowed to remain in that attitude for the moment.\r\nCarefully return the back pan to the seat-back and check the two spirits levels for zero position. If any movement\r\nof the feet has occurred during the rocking operation of the 3-D H machine, they must be repositioned as follows:\r\nAlternately, lift each foot off the floor the minimum necessary amount until no additional foot movement is\r\nobtained. During this lifting, the feet are to be free to rotate; and no forward or lateral loads are to be free to rotate;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nand no forward or lateral loads are to be applied. When each foot is placed back in the down position, the heel is\r\nto be in contact with the structure designed for this.\r\nCheck the lateral spirit level for zero position; if necessary apply a lateral load to the top of the back pan sufficient\r\nto level the 3-D H machine's seta pan on the seat."
+    },
+    {
+      "paragraph": "Annex 8 / 4.13",
+      "pages": [
+        23
+      ],
+      "text": "4.13. Holding the T-bar to prevent the 3-D H machine from sliding forward on the seat cushion, proceed as\r\nfollows:\r\n(a) return the back pan to the seat-back;\r\n(b) alternately apply and release a horizontal rearward load, not to exceed 25 N, to the back angle bar at a height\r\napproximately at the centre of the torso weights until the hip angle quadrant indicates that a stable position has\r\nbeen reached after load release. Care shall be exercised to ensure that no exterior downward or lateral loads are\r\napplied to the 3-D H machine. If another level adjustment of the 3-D H machine is necessary, rotate the back pan\r\nforward, re-level, and repeat the procedure from paragraph 4.12."
+    },
+    {
+      "paragraph": "Annex 8 / 4.14",
+      "pages": [
+        23
+      ],
+      "text": "4.14. Take all measurements:"
+    },
+    {
+      "paragraph": "Annex 8 / 4.14.1",
+      "pages": [
+        23
+      ],
+      "text": "4.14.1. The co-ordinates of the \"H\" point are measured with respect to the three-dimensional reference system."
+    },
+    {
+      "paragraph": "Annex 8 / 4.14.2",
+      "pages": [
+        23
+      ],
+      "text": "4.14.2. The actual torso angle is read at the back angle quadrant of the 3-D H machine with the probe in its fully\r\nrearward position."
+    },
+    {
+      "paragraph": "Annex 8 / 4.15",
+      "pages": [
+        23
+      ],
+      "text": "4.15. If a re-run of the installation of the 3-D H machine is desired, the seat assembly should remain unloaded for\r\na minimum period of 30 min prior to the re-run. The 3-D H machine should not be left loaded on the seat\r\nassembly longer than the time required to perform the test."
+    },
+    {
+      "paragraph": "Annex 8 / 4.16",
+      "pages": [
+        23
+      ],
+      "text": "4.16. If the seats in the same row can be regarded as similar (bench seat, identical seats, etc.) only one \"H\" point\r\nand one \"actual torso angle\" shall be determined for each row of seats, the 3-D H machine described in appendix 1\r\nto this annex being seated in a place regarded as representative for the row. This place shall be\r\nin the case of:\r\n4.16.1. the front row, the driver's seat;\r\n4.16.2. the rear row or rows, an outer seat.\r\n\r\nAnnex 8 - Appendix 1 DESCRIPTION OF THE THREE-DIMENSIONAL \"H\"\r\nPOINT MACHINE */ (3-D H machine)\r\n\r\n*/ For details of the construction of the 3-D H machine refer to Society of Automobile Engineers (SAE), 400 Commonwealth Drive,\r\nWarrendale, Pennsylvania 15096, United States of America.\r\nThe machine corresponds to that described in ISO Standard 6549-1980.\r\n1. Back and seat pans\r\nThe back and seat pans are constructed of reinforced plastic and metal; they simulate the human torso and thigh\r\nand are mechanically hinged at the \"H\" point. A quadrant is fastened to the probe hinged at the \"H\" point to\r\nmeasure the actual torso angle. An adjustable thigh bar, attached to the seat pan, establishes the thigh centreline\r\nand serves as a baseline for the hip angle quadrant.\r\n2. Body and leg elements\r\nLower leg segments are connected to the seat pan assembly at the T-bar joining the knees, which is a lateral\r\nextension of the adjustable thigh bar. Quadrants are incorporated in the lower leg segments to measure knee\r\nangles. Shoe and foot assemblies are calibrated to measure the foot angle. Two spirit levels orient the device in\r\nspace. Body element weights are placed at the corresponding centres of gravity to provide seat penetration\r\nequivalent to a 76 kg male. All joints of the 3-D H machine should be checked for free movement without\r\nencountering noticeable friction.",
+      "review_flags": [
+        "ambiguous_annex_heading",
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        24
+      ],
+      "text": "Figure 1 - 3-D H machine elements designation",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        24,
+        25,
+        26
+      ],
+      "text": "Figure 2 - Dimensions of the 3-D H machine elements and load distribution\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnnex 8 - Appendix 2 THREE-DIMENSIONAL REFERENCE SYSTEM\r\n1. The three-dimensional reference system is defined by three orthogonal planes established by the vehicle\r\nmanufacturer (see figure). */\r\n\r\n*/ The reference system corresponds to ISO 4130 :1978.\r\n2. The vehicle-measuring attitude is established by positioning the vehicle on the supporting surface such that the\r\nco-ordinates of the fiducial marks correspond to the values indicated by the manufacturer.\r\n3. The co-ordinates of the \"R\" point and the \"H\" point are established in relation to the fiducial marks defined by\r\nthe vehicle manufacturer.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nFigure - Three-dimensional reference system.\r\n\r\nAnnex 8 - Appendix 3 REFERENCE DATA CONCERNING SEATING POSITIONS\r\n1. Coding of reference data\r\nReference data are listed consecutively for each seating position. Seating positions are identified by a two-digit\r\ncode. The first digit is an Arabic numeral and designates the row of seats, counting from the front to the rear of the\r\nvehicle. The second digit is a capital letter, which designates the location of the seating position in a row, as\r\nviewed in the direction of forward motion of the vehicle; the following letters shall be used:\r\nL = left\r\nC = centre\r\nR = right\r\n2. Description of vehicle measuring attitude\r\n2.1. Co-ordinates of fiducial marks\r\nX ..........................\r\nY ..........................\r\nZ ..........................\r\n3. List of reference data\r\n3.1. Seating position: ....................",
+      "review_flags": [
+        "ambiguous_annex_heading",
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 3.1.1",
+      "pages": [
+        26
+      ],
+      "text": "3.1.1. Co-ordinates of \"R\" point\r\nX ..........................\r\nY ..........................\r\nZ ..........................",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 3.1.2",
+      "pages": [
+        26
+      ],
+      "text": "3.1.2. Design torso angle: ......................................."
+    },
+    {
+      "paragraph": "Annex 8 / 3.1.3",
+      "pages": [
+        27
+      ],
+      "text": "3.1.3. Specifications for seat adjustment */\r\nhorizontal: ................\r\nvertical: ................\r\nangular: ................\r\ntorso angle:\r\nNote: List reference data for further seating positions under 3.2., 3.3., etc.\r\n\r\n*/ Strike out what does not apply"
+    }
+  ]
+}

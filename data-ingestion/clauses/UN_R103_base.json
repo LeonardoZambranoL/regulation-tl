@@ -1,0 +1,973 @@
+{
+  "regulation": "UN R103",
+  "version": "0.3.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R103 (version 0.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to the type-approval, as separate technical units, of pollution control device to be fitted in\r\none or more types of motor vehicles of categories covered by the scope of the related version of Regulation No.\r\n83 as replacement parts.\r\nCatalytic converters and particulate filters shall be considered to be pollution control devices for the purposes of\r\nthis Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purpose of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Original pollution control device\" means a pollution control device or an assembly of such devices covered\r\nby the type approval delivered for the vehicle and whose types are indicated in the documents related to Annex 2\r\nof Regulation No. 831.\r\n\r\n\r\n1 Annex 2 of Regulation No. 83, 06 series of amendments, shall be corrected consequently – paragraph 4.2.11.2.1. of Annex 1 of Regulation\r\nNo. 83, 05 series of amendments.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Replacement pollution control device\" means a pollution control device or an assembly of such devices for\r\nwhich approval can be obtained according to this Regulation, other than those defined in paragraph 2.1. above."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Original replacement pollution control device\" means a pollution control device or an assembly of such\r\ndevices whose types are indicated in the documents related to Annex 2 of Regulation No. 831, but are offered in\r\nthe market as separate technical units by the holder of the vehicle type-approval.\r\n\r\n1 Annex 2 of Regulation No. 83, 06 series of amendments, shall be corrected consequently – paragraph 4.2.11.2.1. of Annex 1 of Regulation\r\nNo. 83, 05 series of amendments.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Type of pollution control device\" means catalytic converters and particulate filters which do not differ in any\r\nof the following essential aspects:\r\n(a) number of substrates, structure and material,\r\n(b) type of activity of each substrate,\r\n(c) volume, ratio of frontal area and substrate length,\r\n(d) catalyst material content,\r\n(e) catalyst material ratio,\r\n(f) cell density,\r\n(g) dimensions and shape,\r\n(h) thermal protection."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Vehicle type\"\r\nSee paragraph 2.3. of Regulation No. 83."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "2.6. \"Approval of a replacement pollution control device\" means the approval of a pollution control device\r\nintended to be fitted as a replacement part on one or more specific types of vehicles with regard to the limitation\r\n\r\n\r\n\r\n\r\n\r\n\r\nof pollutant emissions, noise level and effect on vehicle performance and, where applicable, on the on-board\r\ndiagnostic (OBD)."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Deteriorated replacement pollution control device\" means a pollution control device that has aged or has\r\nbeen artificially deteriorated to such an extend that it fulfils the requirements laid out in paragraph 1. of                                                                                                                                                               Appendix\r\n1 to Annex 11 of Regulation No. 83.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Periodically regenerating system\" means catalytic converters, particulate filters or other pollution control\r\ndevices that require a periodical regeneration process in less than 4,000 km of normal vehicle operation."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a type of replacement pollution control device shall be submitted by its\r\nmanufacturer or by his authorized representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. For each type of replacement pollution control device for which type approval is requested, the application\r\nfor approval shall be accompanied by the following documents in triplicate."
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1. Drawings of the replacement pollution control device identifying in particular all the characteristics referred\r\nto in paragraph 2.3. of this Regulation."
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2. Description of the vehicle type or types for which the replacement pollution control device is intended. The\r\nnumber and/or symbols characterizing the engine and vehicle type(s) shall be indicated."
+    },
+    {
+      "paragraph": "3.2.3",
+      "pages": [
+        2
+      ],
+      "text": "3.2.3. Description and drawings showing the position of the replacement pollution control device relative to the\r\nengine exhaust manifold(s)."
+    },
+    {
+      "paragraph": "3.2.4",
+      "pages": [
+        2
+      ],
+      "text": "3.2.4. Drawings indicating the intended location of the approval mark."
+    },
+    {
+      "paragraph": "3.2.5",
+      "pages": [
+        2
+      ],
+      "text": "3.2.5. Indication if the replacement pollution control device is intended to be compatible with OBD requirements."
+    },
+    {
+      "paragraph": "3.2.6",
+      "pages": [
+        2
+      ],
+      "text": "3.2.6. A model for the information document is given in Appendix 1."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. The applicant for approval shall provide the technical service responsible for approval tests with:"
+    },
+    {
+      "paragraph": "3.3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.3.1. Vehicle(s) of a type approved in accordance with Regulation No. 83 equipped with a new original pollution\r\ncontrol device. This (these) vehicle(s) shall be selected by the applicant with the agreement of the technical\r\nservice. It (they) shall comply with the requirements of paragraph 3.1. of Annex 4 or paragraph 3.2. of                                     Annex 4a\r\nof Regulation No. 83, whichever was in force at the time of the approval of the vehicle.\r\nThe test vehicle(s) shall have no emission control system defects; any excessively worn out or malfunctioning\r\nemission related original part shall be repaired or replaced. The test vehicle(s) shall be tuned properly and set to\r\nthe manufacturer’s specification prior to emission testing."
+    },
+    {
+      "paragraph": "3.3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.3.2. One sample of the type of the replacement pollution control device. This sample shall be clearly and\r\nindelibly marked with the applicant’s trade name or mark and its commercial designation."
+    },
+    {
+      "paragraph": "3.3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3.3. An additional sample of the type of the replacement pollution control device, in the case of a replacement\r\npollution control device intended to be fitted to a vehicle equipped with an OBD system. This sample shall be\r\nclearly and indelibly marked with the applicant’s trade name or mark and its commercial designation. It shall have\r\nbeen deteriorated as defined in paragraph 2.7. above."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "4.1. If the replacement pollution control device submitted for approval pursuant to this Regulation meets the\r\nrequirements of paragraph 5. below                                           , approval of that type of replacement pollution control device shall be granted.\r\n4.2. Original replacement pollution control device, which indicated in Annex 2 of Regulation No. 83                             1 and are\r\nintended for fitment to a vehicle to which the relevant type-approval document refers, do not need to be approved\r\naccording to this Regulation provided they fulfil the requirements of paragraphs 4.2.1. and 4.2.2.\r\n\r\n\r\n\r\n\r\n\r\n1 Annex 2 of Regulation No. 83, 06 series of amendments, shall be corrected consequently – paragraph 4.2.11.2.1. of Annex 1 of Regulation\r\nNo. 83, 05 series of amendments.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.2.1",
+      "pages": [
+        3
+      ],
+      "text": "4.2.1. Marking\r\nOriginal replacement pollution control devices shall bear at least the following identifications:",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "4.2.1.1",
+      "pages": [
+        3
+      ],
+      "text": "4.2.1.1. The vehicle manufacturer’s name or trademark."
+    },
+    {
+      "paragraph": "4.2.1.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2.1.2. The make and identifying part number of the original replacement pollution control device as recorded in\r\nthe information mentioned in paragraph 4.2.3."
+    },
+    {
+      "paragraph": "4.2.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2. Documentation\r\nOriginal replacement pollution control devices shall be accompanied by the following information:",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "4.2.2.1",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2.1. The vehicle manufacturer’s name or trade mark."
+    },
+    {
+      "paragraph": "4.2.2.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2.2. Make and identifying part number of the original replacement pollution control device as recorded in the\r\ninformation mentioned in paragraph 4.2.3."
+    },
+    {
+      "paragraph": "4.2.2.3",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2.3. The vehicles for which the original replacement pollution control device is of a type indicated in Annex 2\r\nof Regulation No. 832, including, where applicable, a marking to identify if the original replacement pollution\r\ncontrol device is suitable for fitting to a vehicle that is equipped with an on-board diagnostic (OBD) system.\r\n\r\n2 The distinguish numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to Consolidated Resolution on the\r\nConstruction of Vehicles (R.E.3),\r\ndocument TRANS/WP.29/78/Rev.2.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.2.2.4",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2.4. Installation instructions, where necessary."
+    },
+    {
+      "paragraph": "4.2.2.5",
+      "pages": [
+        3
+      ],
+      "text": "4.2.2.5. This information shall be provided either:\r\n(a) As a leaflet accompanying the original replacement pollution control device, or\r\n(b) On the packaging in which the original replacement pollution control device is sold, or\r\n(c) By any other applicable means.\r\nIn any case, the information shall be available in the product catalogue distributed to points of sale by the vehicle\r\nmanufacturer."
+    },
+    {
+      "paragraph": "4.2.3",
+      "pages": [
+        3
+      ],
+      "text": "4.2.3. The vehicle manufacturer shall provide to the technical service and/or approval authority the necessary\r\ninformation in electronic format which makes the link between the relevant part numbers and the type approval\r\ndocumentation.\r\nThis information shall contain:\r\n(a) make(s) and type(s) of vehicle,\r\n(b) make(s) and type(s) of original replacement pollution control device,\r\n(c) part number(s) of original replacement pollution control device,\r\n(d) type-approval number of the relevant vehicle type(s).",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. An approval number shall be assigned to each replacement pollution control device type approved. Its first\r\ntwo digits (00 for the Regulation in its present form) shall indicate the series of amendments incorporating the\r\nmost recent major technical amendments made to the Regulation at the time of issue of the approval. The same\r\nContracting Party may not assign the same number to another type of replacement pollution control device. The\r\nsame approval number may cover the use of that replacement pollution control device type on a number of\r\ndifferent vehicle types."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3,
+        4
+      ],
+      "text": "4.4. When the applicant for type-approval can demonstrate to the type-approval authority or technical service that\r\nthe replacement pollution control device is of a type indicated in Annex 2 to the 05 or later series of amendments\r\n\r\n\r\n\r\n\r\n\r\n\r\nto Regulation No. 83, the granting of a type approval certificate shall not be dependent on the requirements\r\nspecified in paragraph 5. having to be verified."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        4
+      ],
+      "text": "4.5. Notice of approval or of extension or of refusal of approval of a type of replacement pollution control device\r\npursuant to this Regulation shall be communicated to the Contracting Parties to the Agreement applying this\r\nRegulation by means of a form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        4
+      ],
+      "text": "4.6. There shall be affixed, conspicuously and in a place specified on the approval form, to the replacement\r\npollution control device conforming to a type of replacement pollution control device approved under this\r\nRegulation, an international approval mark consisting of:"
+    },
+    {
+      "paragraph": "4.6.1",
+      "pages": [
+        4
+      ],
+      "text": "4.6.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval;2\r\n\r\n\r\n2 The distinguish numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to Consolidated Resolution on the\r\n\r\nConstruction of Vehicles (R.E.3),\r\ndocument TRANS/WP.29/78/Rev.2.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6.2",
+      "pages": [
+        4
+      ],
+      "text": "4.6.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number in the vicinity of\r\nthe circle prescribed in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        4
+      ],
+      "text": "4.7. If the replacement pollution control device conforms to a pollution control device type approved under one or\r\nmore other Regulations annexed to the Agreement in the country which has granted approval under this\r\nRegulation, the symbol prescribed in paragraph 4.4.1. need not be repeated; in such a case, the Regulation and\r\napproval numbers and the additional symbols of all the Regulations under which approval has been granted in the\r\ncountry which has granted approval under this Regulation shall be placed in vertical columns to the right of the\r\nsymbol prescribed in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        4
+      ],
+      "text": "4.8. The approval mark shall be indelible and clearly legible when the replacement pollution control device is\r\nmounted under the vehicle."
+    },
+    {
+      "paragraph": "4.9",
+      "pages": [
+        4
+      ],
+      "text": "4.9. Annex 2 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. Requirements"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. General requirements"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.1. The replacement pollution control device shall be designed, constructed and capable of being mounted so as\r\nto enable the vehicle to comply with the provisions of those Regulations which it was originally in compliance\r\nwith and that pollutant emissions are effectively limited throughout the normal life of the vehicle under normal\r\nconditions of use."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2. The installation of the replacement pollution control device shall be at the exact position of the original\r\npollution control device, and the position on the exhaust line of the oxygen probe(s) and other sensors, if\r\napplicable, shall not be modified."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.3. If the original equipment pollution control device includes thermal protections, the replacement pollution\r\ncontrol device shall include equivalent protections."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4. The replacement pollution control device shall be durable, that is designed, constructed and capable of\r\nbeing mounted so that reasonable resistance to the corrosion and oxidation phenomena to which it is exposed is\r\nobtained, having regard to the conditions of use of the vehicle."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.2. Requirements regarding emissions\r\nThe vehicle(s) indicated in paragraph 3.3.1. of this Regulation, equipped with a replacement pollution control\r\ndevice of the type for which approval is requested, shall be subjected to a type I test under the conditions\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ndescribed in the corresponding annexes of Regulation No. 83 in order to compare its performance with the\r\noriginal pollution control device according to the procedure described below."
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1. Determination of the basis for comparison\r\nThe vehicle(s) shall be fitted with a new original pollution control device (see paragraph 3.3.1.) which shall be run\r\nin with 12 extra urban cycles (test type I, part 2). After this preconditioning, the vehicle(s) shall be kept in a room\r\nin which the temperature remains relatively constant between 293 and 303 K (20 and 30 °C).                                                                                                                         This conditioning\r\nshall be carried out for at least six hours and continue until the engine oil temperature and coolant, if any, are\r\nwithin ±2 K of the temperature of the room. Subsequently three exhaust gas tests type I shall be made."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2. Exhaust gas test with replacement pollution control device\r\nThe original pollution control device of the test vehicle(s) shall be replaced by the replacement pollution control\r\ndevice (see paragraph 3.3.2.) which shall be run in with 12 extra urban cycles (test type I part 2). After this\r\npreconditioning, the vehicle(s) shall be kept in a room in which the temperature remains relatively constant\r\nbetween 293 and 303 K (20 and 30 °C).                                                          This conditioning shall be carried out for at least six hours and continue\r\nuntil the engine oil temperature and coolant, if any, are within ±2 K of the temperature of the room. Subsequently\r\nthree exhaust gas tests type I shall be made."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.3. Evaluation of the emission of pollutants of vehicles equipped with replacement pollution control devices.\r\nThe test vehicle(s) with the original pollution control device shall comply with the limit values according to the\r\ntype approval of the vehicle(s) including – if applicable – the deterioration factors applied during the type\r\napproval of the vehicle(s).\r\nThe requirements regarding emissions of the vehicle(s) equipped with the replacement pollution control device\r\nshall be deemed to be fulfilled if the results meet for each regulated pollutant (CO, HC, NOx particulates and\r\nparticles) the following conditions:\r\n(1) M ≤ 0.85S + 0.4G\r\n(2) M ≤ G\r\nwhere :\r\nM: mean value of the emissions of one pollutant (CO, HC, NOx particulates and particles) or the sum of two\r\npollutants (HC + NOx) obtained from the three type I tests with the replacement pollution control device.\r\n\r\nS: mean value of the emissions of one pollutant (CO, HC, NOx particulates and particles) or the sum of two\r\npollutants (HC + NOx) obtained from the three type I tests with the original pollution control device.\r\nG: limit value of the emissions of one pollutant (CO, HC, NOx, particulates and particles) or the sum of two\r\npollutants (HC + NOx) according to the type approval of the vehicle(s):\r\n\r\n(i) divided by the multiplicative or\r\n(ii) minus the additive\r\n— if applicable — deterioration factors determined in accordance with paragraph 5.4. below                                                                                                                                   .\r\nWhere approval is applied for different types of vehicles from the same car manufacturer, and provided that these\r\ndifferent types of vehicles are fitted with the same type of original equipment pollution control device, the type I\r\ntesting may be limited to at least two vehicles selected after agreement with the technical service responsible for\r\napproval."
+    },
+    {
+      "paragraph": "5.2.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.4. For pollution control devices intended to be fitted to vehicles type approved to the 06 series of amendments\r\nto Regulation No. 83, the regulated pollutants referred to throughout paragraph 5.2.3. of this Regulation shall be\r\nunderstood to be all pollutants specified in paragraph 5.3.1.4. of the 06 series of amendments to Regulation No.\r\n83."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        6
+      ],
+      "text": "5.3. Requirements regarding noise and vehicle performance\r\nThe replacement pollution control device shall satisfy the technical requirements of Regulation No. 59. As an\r\nalternative to the measurement of back-pressure as specified in Regulation No. 59, the verification of the vehicle\r\nperformance can be performed by measuring on a chassis dynamometer the maximum absorbed power at a speed\r\ncorresponding to the engine maximum power. The value determined under reference atmospheric conditions as\r\nspecified in Regulation No. 85 with the replacement control device shall not be lower by more than 5 per cent\r\nthan that determined with the original equipment pollution control device."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        6
+      ],
+      "text": "5.4. Requirements regarding durability\r\nThe replacement pollution control device shall comply with the requirements of paragraph 5.3.6. of Regulation\r\nNo. 83 i.e. type V test or deterioration factors from the following table for the results of the type I tests.\r\n\r\n Engine Category                              Deterioration factors\r\n\r\n                                              CO          HC (1)           NOx(1)            HC+NOx                 Particulates\r\n\r\n Positive-ignition                            1.2         1.2              1.2               1.2(2)                 -\r\n\r\n Compression ignition                         1.1         -                1.0               1.0                    1.2\r\n\r\n (1) Applicable only to vehicles approved according to the 05 series of amendments to Regulation No. 83.\r\n\r\n\r\n (2) Applicable only to positive-ignition engined vehicles approved according to earlier than 05 series of amendments to\r\n Regulation No. 83."
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        6
+      ],
+      "text": "5.4.1. For replacement pollution control devices intended to be fitted to vehicles type approved to the 06 series of\r\namendments to Regulation No. 83., the durability requirements and associated deterioration factors specified in\r\nparagraph 5.3.6. of the 06 series of amendments to Regulation No. 83. shall be used."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        6
+      ],
+      "text": "5.5. Requirements regarding OBD compatibility (applicable only to replacement pollution control devices\r\nintended to be fitted to vehicles equipped with an OBD system)\r\nOBD compatibility demonstration is required only when the original pollution control device was monitored in\r\nthe original configuration."
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        6
+      ],
+      "text": "5.5.1. The compatibility of the replacement pollution control device with the OBD system shall be demonstrated\r\nby using the procedures described in the 05 or 063 series of amendments to Regulation No. 83, Annex 11,\r\nAppendix 1.\r\n\r\n3 Whichever was in force at the time of the approval of the vehicle.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        6
+      ],
+      "text": "5.5.2. The provisions in the 05 or 065 series of amendments to Regulation No. 83, Annex 11, Appendix 1\r\napplicable to components other than the pollution control device shall not be applied.\r\n\r\n3 Whichever was in force at the time of the approval of the vehicle.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.5.3",
+      "pages": [
+        6
+      ],
+      "text": "5.5.3. The aftermarket manufacturer may use the same preconditioning and test procedure as used during the\r\noriginal type approval. In this case, the Type Approval Authorities shall provide, on request and on a non-\r\ndiscriminatory basis, Appendix 1 to the type approval communication which contains the number and type of\r\npreconditioning cycles and the type of test cycle used by the original equipment manufacturer for OBD testing of\r\nthe pollution control device."
+    },
+    {
+      "paragraph": "5.5.4",
+      "pages": [
+        6
+      ],
+      "text": "5.5.4. In order to verify the correct installation and functioning of all other components monitored by the OBD\r\nsystem, the OBD system shall indicate no malfunction and have no stored fault codes prior to the installation of\r\nany of the replacement pollution control devices. An evaluation of the status of the OBD system at the end of the\r\ntests described in paragraph 5.2.1. may be used for this purpose."
+    },
+    {
+      "paragraph": "5.5.5",
+      "pages": [
+        7
+      ],
+      "text": "5.5.5. The malfunction indicator (MI: see reference paragraph 2.5. of Annex 11 to the 05 or later series of\r\namendments to Regulation No. 83) shall not activate during vehicle operation required by paragraph 5.2.2."
+    },
+    {
+      "paragraph": "5.5.6",
+      "pages": [
+        7
+      ],
+      "text": "5.5.6. For vehicles with positive-ignition engines, if the THC and NMHC emissions measured during the\r\ndemonstration test of a new original equipment catalytic converter, under paragraph 5.2.1. of this Regulation are\r\nhigher than the values measured during the type-approval of the vehicle, the difference shall be added to the OBD\r\nthreshold limits. The OBD threshold limits are specified in paragraph 3.3.2. of Annex 11 to Regulation No. 83."
+    },
+    {
+      "paragraph": "5.5.7",
+      "pages": [
+        7
+      ],
+      "text": "5.5.7. The revised OBD threshold limits will apply during the tests of OBD compatibility set out in paragraphs\r\n5.5. to 5.5.5. of this Regulation. In particular, when the exceedance allowed in paragraph 1. of Appendix 1 to\r\nAnnex 11 to Regulation No. 83 is applied.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        7
+      ],
+      "text": "5.6. Requirements for replacement periodically regenerating systems"
+    },
+    {
+      "paragraph": "5.6.1",
+      "pages": [
+        7
+      ],
+      "text": "5.6.1. Requirements regarding emissions"
+    },
+    {
+      "paragraph": "5.6.1.1",
+      "pages": [
+        7
+      ],
+      "text": "5.6.1.1. The vehicle(s) indicated in paragraph 3.3.1. of this Regulation, equipped with a replacement periodically\r\nregenerating system of the type for which approval is requested, shall be subject to the tests described in\r\nparagraph 3. of Annex 13 to Regulation No. 83, in order to compare its performance with the same vehicle\r\nequipped with the original periodically regenerating system."
+    },
+    {
+      "paragraph": "5.6.2",
+      "pages": [
+        7
+      ],
+      "text": "5.6.2. Determination of the basis for comparison"
+    },
+    {
+      "paragraph": "5.6.2.1",
+      "pages": [
+        7
+      ],
+      "text": "5.6.2.1. The vehicle shall be fitted with a new original periodically regenerating system. The emissions\r\nperformance of this system shall be determined following the test procedure set out in paragraph 3. of Annex 13\r\nof Regulation No. 83."
+    },
+    {
+      "paragraph": "5.6.2.2",
+      "pages": [
+        7
+      ],
+      "text": "5.6.2.2. Upon request of the applicant for the approval of the replacement component, the approval authority shall\r\nmake available on a non-discriminatory basis, the information referred to in items 3.2.12.2.1.11.1 and\r\n3.2.12.2.6.4.1 of the information document contained in Annex I to Regulation No. 83 for each vehicle tested.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.6.3",
+      "pages": [
+        7
+      ],
+      "text": "5.6.3. Exhaust gas test with a replacement periodically regeneration system"
+    },
+    {
+      "paragraph": "5.6.3.1",
+      "pages": [
+        7
+      ],
+      "text": "5.6.3.1. The original equipment periodically regenerating system of the test vehicle(s) shall be replaced by the\r\nreplacement periodically regenerating system. The emissions performance of this system shall be determined\r\nfollowing the test procedure set out in paragraph 3. of Annex 13 to Regulation No. 83."
+    },
+    {
+      "paragraph": "5.6.3.2",
+      "pages": [
+        7
+      ],
+      "text": "5.6.3.2. To determine the D-factor of the replacement periodically regenerating system, any of the engine bench\r\nmethods referred to in paragraph 3. of Annex 13 to Regulation No. 83 may be used."
+    },
+    {
+      "paragraph": "5.6.4",
+      "pages": [
+        7
+      ],
+      "text": "5.6.4. Other requirements\r\nThe requirements of paragraphs 5.2.3., 5.3., 5.4. and 5.5. of this Regulation shall apply to replacement\r\nperiodically regenerating systems. In these paragraphs the words \"catalytic converter\" shall be understood to mean\r\n\"periodically regenerating system\"."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "6. Modiﬁcation of the replacement pollution control device type and\r\nextension of approval\r\nEvery modification of the replacement pollution control device type shall be notified to the Type Approval\r\nAuthority which approved this type of replacement pollution control device.\r\nThe Authority may then either:\r\n(a) Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe replacement pollution control device still complies with the requirements, or\r\n(b) Require a further test report for some or all the tests described in paragraph 5. of this Regulation from the\r\ntechnical service responsible for conducting the tests.\r\n\r\n\r\n\r\n\r\n\r\nConfirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure specified\r\nin paragraph 4.3. above to the Parties to the Agreement applying this Regulation.\r\nThe competent authority issuing the extension of approval shall assign a serial number to each communication\r\nform drawn up for such an extension."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        8
+      ],
+      "text": "7. Conformity of production\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Appendix 2\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.2), with the following requirements."
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        8
+      ],
+      "text": "7.1. The replacement pollution control devices approved under this Regulation shall be so manufactured as to\r\nconform to the type approved in the characteristics as defined under paragraph 2.3. of this Regulation. They shall\r\nmeet the requirements set forth in paragraph 5. and, where applicable, fulfil the requirements of the tests specified\r\nin this Regulation."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2. The approval authority may carry out any check or test prescribed in this Regulation. In particular, the tests\r\ndescribed in paragraph 5.2. of this Regulation (requirements regarding emissions) may be carried out. In this case,\r\nthe holder of the approval may ask, as an alternative, to use as a basis for comparison not the original equipment\r\npollution control device, but the replacement pollution control device which was used during the type approval\r\ntests (or another sample that has been proven to conform to the approved type). Emissions’ values measured with\r\nthe sample under verification shall then on average not exceed by more than 15 per cent the mean values\r\nmeasured with the sample used for reference."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        8
+      ],
+      "text": "8. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        8
+      ],
+      "text": "8.1. The approval granted in respect of a type of replacement pollution control device pursuant to this Regulation\r\nmay be withdrawn if the requirements laid down in paragraph 7. above are not complied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        8
+      ],
+      "text": "8.2. If a Party to the Agreement which applies this Regulation withdraws an approval it has previously granted, it\r\nshall forthwith so notify the other Contracting Parties applying this Regulation, by means of a form conforming to\r\nthe model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        8
+      ],
+      "text": "9. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of replacement pollution control device\r\napproved in accordance with this Regulation, he shall so inform the authority which granted the approval. Upon\r\nreceiving the relevant communication, that authority shall inform thereof the other Parties to the Agreement\r\napplying this Regulation by means of a form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        8
+      ],
+      "text": "10. Names and addresses of Technical Services responsible for conducting\r\napproval tests, and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat the names and addresses of the technical services responsible for conducting approval tests and of the\r\nType Approval Authorities which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval issued in other countries are to be sent."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        8
+      ],
+      "text": "11. Documentation"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        8
+      ],
+      "text": "11.1. Each new replacement pollution control device shall be indelibly marked with the manufacturer’s name or\r\ntrade mark and accompanied by the following information:"
+    },
+    {
+      "paragraph": "11.1.1",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "11.1.1. The vehicles (including year of manufacture) for which the replacement pollution control device is\r\napproved, including, where applicable, a marking to identify if the replacement pollution control device is suitable\r\n\r\n\r\n\r\n\r\n\r\n\r\nfor fitting to a vehicle that is equipped with an on-board diagnostic (OBD) system."
+    },
+    {
+      "paragraph": "11.1.2",
+      "pages": [
+        9
+      ],
+      "text": "11.1.2. Installation instructions, where necessary."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        9
+      ],
+      "text": "11.2. This information shall be provided either:\r\n(a) As a leaflet accompanying the replacement pollution control device; or\r\n(b) On the packaging in which the replacement pollution control device is sold; or\r\n(c) By any other applicable means.\r\nIn any case, the information shall be available in the product catalogue distributed to points of sale by the\r\nmanufacturer of replacement pollution control device."
+    },
+    {
+      "paragraph": "Appendix 1",
+      "pages": [
+        9
+      ],
+      "text": "Appendix 1 Information document No. … relating to the type approval of\r\nreplacement pollution control devices\r\nAny drawings shall be supplied in appropriate scale and sufficient detail on size A4 or on a folder of A4 format.\r\nPhotographs, if any, shall show sufficient detail.\r\nIf the system, components or separate technical units have electronic controls, information concerning their\r\nperformance shall be supplied.",
+      "review_flags": [
+        "check_section_boundary"
+      ]
+    },
+    {
+      "paragraph": "Appendix 1 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1. General"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.1",
+      "pages": [
+        9
+      ],
+      "text": "1.1. Make (trade name of manufacturer):"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.2",
+      "pages": [
+        9
+      ],
+      "text": "1.2. Type:"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.2.1",
+      "pages": [
+        9
+      ],
+      "text": "1.2.1. Commercial name(s), if available:"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.5",
+      "pages": [
+        9
+      ],
+      "text": "1.5. Name and address of manufacturer:"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.7",
+      "pages": [
+        9
+      ],
+      "text": "1.7. In the case of components and separate technical units, location and method of affixing of the ECE approval\r\nmark:"
+    },
+    {
+      "paragraph": "Appendix 1 / 1.8",
+      "pages": [
+        9
+      ],
+      "text": "1.8. Address(es) of assembly plant(s):"
+    },
+    {
+      "paragraph": "Appendix 1 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2. Description of the device"
+    },
+    {
+      "paragraph": "Appendix 1 / 2.1",
+      "pages": [
+        9
+      ],
+      "text": "2.1. Make and type of the replacement pollution control device:"
+    },
+    {
+      "paragraph": "Appendix 1 / 2.2",
+      "pages": [
+        9
+      ],
+      "text": "2.2. Drawings of the replacement pollution control device, identifying in particular all the characteristics referred\r\nto in items 2.3. to 2.3.2. of this appendix:"
+    },
+    {
+      "paragraph": "Appendix 1 / 2.3",
+      "pages": [
+        9
+      ],
+      "text": "2.3. Description of the vehicle type or types for which the replacement pollution control device is intended:"
+    },
+    {
+      "paragraph": "Appendix 1 / 2.3.1",
+      "pages": [
+        9
+      ],
+      "text": "2.3.1. Number(s) and/or symbol(s) characterising the engine and vehicle type(s):"
+    },
+    {
+      "paragraph": "Appendix 1 / 2.3.2",
+      "pages": [
+        9
+      ],
+      "text": "2.3.2. Is the replacement pollution control device intended to be compatible with OBD requirements: Yes / No\r\n(Strike out what does not apply).\r\nDescription and drawings showing the position of the replacement pollution control device relative to the engine\r\nexhaust manifold(s):"
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "Annex 1 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n.........................................\r\n..........................................\r\n.........................................\r\nconcerning2: APPROVAL GRANTED\r\n\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITIVELY DISCONTINUED\r\nof a replacement pollution control device pursuant to Regulation No. 103\r\nApproval No. .... Extension No. ....\r\nReason for extension:"
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        10
+      ],
+      "text": "1 Distinguishing number of the country which has granted/extended/refused/withdrawn approval (seeapproval provisions in the Regulation).",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        10
+      ],
+      "text": "2 Strike out what does not apply.\r\n\r\n1. Applicant’s name and address: . . . . . . . . . . . . .\r\n2. Manufacturer’s name and address: . . . . . . . . . . . . .",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        11
+      ],
+      "text": "3. Manufacturer’s trade name or mark: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        11
+      ],
+      "text": "4. Type and commercial designation of the replacement pollution control device: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        11
+      ],
+      "text": "5. Means of identification of type, if marked: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 5.1",
+      "pages": [
+        11
+      ],
+      "text": "5.1. Location of that marking: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        11
+      ],
+      "text": "6. Vehicles type(s) for which the pollution control device type qualifies as replacement pollution control device: . .\r\n. . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        11
+      ],
+      "text": "7. Type(s) of vehicle(s) on which the replacement pollution control device has been tested: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 7.1",
+      "pages": [
+        11
+      ],
+      "text": "7.1. Has the replacement pollution control device demonstrated compatibility with OBD requirements: Yes / No2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        11
+      ],
+      "text": "8. Location and method of affixing of the approval mark: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        11
+      ],
+      "text": "9. Submitted for approval on: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        11
+      ],
+      "text": "10. Technical Service responsible for approval tests: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 10.1",
+      "pages": [
+        11
+      ],
+      "text": "10.1. Date of test report: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 10.2",
+      "pages": [
+        11
+      ],
+      "text": "10.2. Number of test report: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        11
+      ],
+      "text": "11. Approval granted / extended / refused / withdrawn 2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        11
+      ],
+      "text": "12. Place: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        11
+      ],
+      "text": "13. Date: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        11
+      ],
+      "text": "14. Signature: . . . . . . . . . . . . ."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        11
+      ],
+      "text": "15. Annexed to this communication is a list of documents in the approval file deposited at the administrative\r\nservices having delivered the approval and which can be obtained upon request."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        11
+      ],
+      "text": "Annex 2 Examples of arrangements of approval marks\r\nModel A\r\n(See paragraph 4.6. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a component of a replacement pollution control device shows that the type\r\nconcerned has been approved in the Netherlands (E 4), pursuant to Regulation No. 103 under approval No."
+    },
+    {
+      "paragraph": "Annex 2 / 001234",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "001234. The first two digits of the approval number indicate that the approval was granted in accordance with the\r\nrequirements of Regulation No. 103 in its original form.\r\nModel B\r\n(See paragraph 4.7. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a component of replacement pollution control device shows that the type\r\nconcerned has been approved in the Netherlands (E 4) pursuant to Regulations Nos. 103 and 591.\r\n\r\nThe first two digits of the approval numbers indicate that, on the date on which these approvals were granted,\r\nRegulations Nos. 103 and 59 were in their original form."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1 The second number is given merely as an example.",
+      "review_flags": [
+        "heading_without_terminal_dot",
+        "numbering_moves_backwards"
+      ]
+    }
+  ]
+}

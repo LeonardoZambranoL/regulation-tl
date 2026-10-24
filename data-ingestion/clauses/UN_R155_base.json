@@ -1,0 +1,1343 @@
+{
+  "regulation": "UN R155",
+  "version": "0.2.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R155 (version 0.2.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. This Regulation applies to vehicles, with regard to cyber security, of the Categories M and N.\r\nThis Regulation also applies to vehicles of Category O if fitted with at least one electronic control unit."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. This Regulation also applies to vehicles of the Categories L6 and L7 if equipped with automated driving\r\nfunctionalities from level 3 onwards, as defined in the reference document with definitions of Automated Driving\r\nunder WP.29 and the General Principles for developing a UN Regulation on automated vehicles\r\n(ECE/TRANS/WP.29/1140)."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3. This Regulation is without prejudice to other UN Regulations, regional or national legislations governing the\r\naccess by authorized parties to the vehicle, its data, functions and resources, and conditions of such access. It is\r\nalso without prejudice to the application of national and regional legislation on privacy and the protection of\r\nnatural persons with regard to the processing of their personal data."
+    },
+    {
+      "paragraph": "1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.4. This Regulation is without prejudice to other UN Regulations, national or regional legislation governing the\r\ndevelopment and installation/system integration of replacement parts and components, physical and digital, with\r\nregards to cybersecurity."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purpose of this Regulation the following definitions shall apply:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Vehicle type\" means vehicles which do not differ in at least the following essential respects:\r\n(a) The manufacturer’s designation of the vehicle type;\r\n(b) Essential aspects of the electric/electronic architecture and external interfaces with respect to cyber security."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Cyber security\" means the condition in which road vehicles and their functions are protected from cyber\r\nthreats to electrical or electronic components."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Cyber Security Management System (CSMS)\" means a systematic risk-based approach defining\r\norganisational processes, responsibilities and governance to treat risk associated with cyber threats to vehicles and\r\nprotect them from cyber-attacks."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"System\" means a set of components and/or sub-systems that implements a function or functions."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Development phase\" means the period before a vehicle type is type approved."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Production phase\" refers to the duration of production of a vehicle type."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Post-production phase\" refers to the period in which a vehicle type is no longer produced until the end-of-\r\nlife of all vehicles under the vehicle type. Vehicles incorporating a specific vehicle type will be operational during\r\nthis phase but will no longer be produced. The phase ends when there are no longer any operational vehicles of a\r\nspecific vehicle type."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        1
+      ],
+      "text": "2.8. \"Mitigation\" means a measure that is reducing risk."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        1
+      ],
+      "text": "2.9. \"Risk\" means the potential that a given threat will exploit vulnerabilities of a vehicle and thereby cause harm\r\nto the organization or to an individual."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Risk Assessment\" means the overall process of finding, recognizing and describing risks (risk\r\nidentification), to comprehend the nature of risk and to determine the level of risk (risk analysis), and of\r\ncomparing the results of risk analysis with risk criteria to determine whether the risk and/or its magnitude is\r\nacceptable or tolerable (risk evaluation)."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Risk Management\" means coordinated activities to direct and control an organization with regard to risk."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Threat\" means a potential cause of an unwanted incident, which may result in harm to a system,\r\norganization or individual."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        2
+      ],
+      "text": "2.13. \"Vulnerability\" means a weakness of an asset or mitigation that can be exploited by one or more threats."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to cyber security shall be submitted by the vehicle\r\nmanufacturer or by their duly accredited representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by the undermentioned documents in triplicate, and by the following particulars:"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1. A description of the vehicle type with regard to the items specified in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2.2. In cases where information is shown to be covered by intellectual property rights or to constitute specific\r\nknow-how of the manufacturer or of their suppliers, the manufacturer or their suppliers shall make available\r\nsufficient information to enable the checks referred to in this Regulation to be made properly. Such information\r\nshall be treated on a confidential basis."
+    },
+    {
+      "paragraph": "3.2.3",
+      "pages": [
+        2
+      ],
+      "text": "3.2.3. The Certificate of Compliance for CSMS according to paragraph 6 of this Regulation."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. Documentation shall be made available in two parts:\r\n(a) The formal documentation package for the approval, containing the material specified in Annex 1 which shall\r\nbe supplied to the Approval Authority or its Technical Service at the time of submission of the type approval\r\napplication. This documentation package shall be used by the Approval Authority or its Technical Service as the\r\nbasic reference for the approval process. The Approval Authority or its Technical Service shall ensure that this\r\ndocumentation package remains available for at least 10 years counted from the time when production of the\r\nvehicle type is definitively discontinued.\r\n(b) Additional material relevant to the requirements of this regulation may be retained by the manufacturer, but\r\nmade open for inspection at the time of type approval. The manufacturer shall ensure that any material made open\r\nfor inspection at the time of type approval remains available for at least a period of 10 years counted from the time\r\nwhen production of the vehicle type is definitively discontinued."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Marking"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.1.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1.1. A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval."
+    },
+    {
+      "paragraph": "4.1.2",
+      "pages": [
+        2
+      ],
+      "text": "4.1.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle described in paragraph 4.1.1. above."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "4.2. If the vehicle conforms to a vehicle type approved under one or more other Regulations annexed to the\r\nAgreement in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.1.1. above need not be repeated; in this case the Regulation and approval numbers and the additional symbols of\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nall the Regulations under which approval has been granted in the country which has granted approval under this\r\nRegulation shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.1.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. The approval mark shall be clearly legible and shall be indelible."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. Annex 3 to this Regulation gives examples of the arrangements of the approval mark."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        3
+      ],
+      "text": "5. Approval"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. Approval Authorities shall grant, as appropriate, type approval with regard to cyber security, only to such\r\nvehicle types that satisfy the requirements of this Regulation."
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1.1. The Approval Authority or the Technical Service shall verify by means of document checks that the vehicle\r\nmanufacturer has taken the necessary measures relevant for the vehicle type to:\r\n(a) Collect and verify the information required under this Regulation through the supply chain so as to\r\ndemonstrate that supplier-related risks are identified and are managed;\r\n(b) Document risks assessment (conducted during development phase or retrospectively), test results and\r\nmitigations applied to the vehicle type, including design information supporting the risk assessment;\r\n(c) Implement appropriate cyber security measures in the design of the vehicle type;\r\n(d) Detect and respond to possible cyber security attacks;\r\n(e) Log data to support the detection of cyber-attacks and provide data forensic capability to enable analysis of\r\nattempted or successful cyber-attacks."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        3
+      ],
+      "text": "5.1.2. The Approval Authority or the Technical Service shall verify by testing of a vehicle of the vehicle type that\r\nthe vehicle manufacturer has implemented the cyber security measures they have documented. Tests shall be\r\nperformed by the Approval Authority or the Technical Service itself or in collaboration with the vehicle\r\nmanufacturer by sampling. Sampling shall be focused but not limited to risks that are assessed as high during the\r\nrisk assessment."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        3
+      ],
+      "text": "5.1.3. The Approval Authority or Technical Service shall refuse to grant the type approval with regard to cyber\r\nsecurity where the vehicle manufacturer has not fulfilled one or more of the requirements referred to in paragraph\r\n7.3., notably:\r\n(a) The vehicle manufacturer did not perform the exhaustive risk assessment referred to in paragraph 7.3.3.;\r\nincluding where the manufacturer did not consider all the risks related to threats referred to in Annex 5, Part A;\r\n(b) The vehicle manufacturer did not protect the vehicle type against risks identified in the vehicle manufacturer’s\r\nrisk assessment or proportionate mitigations were not implemented as required by paragraph 7.;\r\n(c) The vehicle manufacturer did not put in place appropriate and proportionate measures to secure dedicated\r\nenvironments on the vehicle type (if provided) for the storage and execution of aftermarket software, services,\r\napplications or data;\r\n(d) The vehicle manufacturer did not perform, prior to the approval, appropriate and sufficient testing to verify the\r\neffectiveness of the security measures implemented."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        3
+      ],
+      "text": "5.1.4 The assessing Approval Authority shall also refuse to grant the type approval with regard to cyber security\r\nwhere the Approval Authority or Technical Service has not received sufficient information from the vehicle\r\nmanufacturer to assess the cyber security of the vehicle type.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        3
+      ],
+      "text": "5.2. Notice of approval or of extension or refusal of approval of a vehicle type pursuant to this Regulation shall be\r\ncommunicated to the Parties to the 1958 Agreement which apply this Regulation, by means of a form conforming\r\nto the model in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        4
+      ],
+      "text": "5.3. Approval Authorities shall not grant any type approval without verifying that the manufacturer has put in\r\nplace satisfactory arrangements and procedures to manage properly the cyber security aspects as covered by this\r\nRegulation."
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        4
+      ],
+      "text": "5.3.1. The Approval Authority and its Technical Services shall ensure, in addition to the criteria laid down in\r\nSchedule 2 of the 1958 Agreement that they have:\r\n(a) Competent personnel with appropriate cyber security skills and specific automotive risk assessments\r\nknowledge;1\r\n\r\n(b) Implemented procedures for the uniform evaluation according to this Regulation.\r\n\r\n1E.g. ISO 26262-2018, ISO/PAS 21448, ISO/SAE 21434"
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        4
+      ],
+      "text": "5.3.2. Each Contracting Party applying this Regulation shall notify and inform by its Approval Authority other\r\nApproval Authorities of the Contracting Parties applying this UN Regulation about the method and criteria taken\r\nas a basis by the notifying Authority to assess the appropriateness of the measures taken in accordance with this\r\nregulation and in particular with paragraphs 5.1., 7.2. and 7.3.\r\nThis information shall be shared (a) only before granting an approval according to this Regulation for the first\r\ntime and (b) each time the method or criteria for assessment is updated.\r\nThis information is intended to be shared for the purposes of collection and analysis of the best practices and in\r\nview of ensuring the convergent application of this Regulation by all Approval Authorities applying this\r\nRegulation."
+    },
+    {
+      "paragraph": "5.3.3",
+      "pages": [
+        4
+      ],
+      "text": "5.3.3. The information referred to in paragraph 5.3.2 shall be uploaded in English language to the secure internet\r\ndatabase \"DETA\",2 established by the United Nations Economic Commission for Europe, in due time and no later\r\nthan 14 days before an approval is granted for the first time under the methods and criteria of assessment\r\nconcerned. The information shall be sufficient to understand what minimum performance levels the Approval\r\nAuthority adopted for each specific requirement referred to in paragraph 5.3.2 as well as the processes and\r\nmeasures it applies to verify that these minimum performance levels are met. 3\r\n\r\n\r\n2https://www.unece.org/trans/main/wp29/datasharing.html\r\n\r\n\r\n3Guidance for the detailed information (e.g. method, criteria, performance level) to be uploaded and the format shall be given in the\r\ninterpretation document which is under preparation by the Task Force on Cyber Security and Over-the-Air issues for the seventh session of\r\nGRVA."
+    },
+    {
+      "paragraph": "5.3.4",
+      "pages": [
+        4
+      ],
+      "text": "5.3.4. Approval Authorities receiving the information referred to in paragraph 5.3.2 may submit comments to the\r\nnotifying Approval Authority by uploading them to DETA within 14 days after the day of notification."
+    },
+    {
+      "paragraph": "5.3.5",
+      "pages": [
+        4
+      ],
+      "text": "5.3.5. If it is not possible for the granting Approval Authority to take into account the comments received in\r\naccordance with paragraph 5.3.4., the Approval Authorities having sent comments and the granting Approval\r\nAuthority shall seek further clarification in accordance with Schedule 6 to the 1958 Agreement. The relevant\r\nsubsidiary Working Party4 of the World Forum for Harmonization of Vehicle Regulations (WP.29) for this\r\nRegulation shall agree on a common interpretation of methods and criteria of assessment.5 That common\r\ninterpretation shall be implemented and all Approval Authorities shall issue type approvals under this Regulation\r\naccordingly.\r\n\r\n4The Working Party on Automated/Autonomous and Connected Vehicles (GRVA)\r\n\r\n\r\n5This interpretation shall be reflected in the interpretation document referred to in the footnote to paragraph 5.3.3."
+    },
+    {
+      "paragraph": "5.3.6",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.3.6. Each Approval Authority granting a type approval pursuant to this Regulation shall notify other Approval\r\nAuthorities of the approval granted. The type approval together with the supplementing documentation shall be\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nuploaded in English language by the Approval Authority within 14 days after the day of granting the approval to\r\nDETA.6\r\n\r\n\r\n6Further information on the minimum requirements for the documentation package will be developed by GRVA during its seven session."
+    },
+    {
+      "paragraph": "5.3.7",
+      "pages": [
+        5
+      ],
+      "text": "5.3.7. The Contracting Parties may study the approvals granted based on the information uploaded according to\r\nparagraph 5.3.6. In case of any diverging views between Contracting Parties this shall be settled in accordance\r\nwith Article 10 and Schedule 6 of the 1958 Agreement. The Contracting Parties shall also inform the relevant\r\nsubsidiary Working Party of the World Forum for Harmonization of Vehicle Regulations (WP.29) of the diverging\r\ninterpretations within the meaning of Schedule 6 to the 1958 Agreement. The relevant Working Party shall support\r\nthe settlement of the diverging views and may consult with WP.29 on this if needed."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.4. For the purpose of paragraph 7.2. of this Regulation, the manufacturer shall ensure that the cyber security\r\naspects covered by this Regulation are implemented."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        5
+      ],
+      "text": "6. Certiﬁcate of Compliance for Cyber Security Management System"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        5
+      ],
+      "text": "6.1. Contracting Parties shall appoint an Approval Authority to carry out the assessment of the manufacturer and\r\nto issue a Certificate of Compliance for CSMS."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2. An application for a Certificate of Compliance for Cyber Security Management System shall be submitted by\r\nthe vehicle manufacturer or by their duly accredited representative."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        5
+      ],
+      "text": "6.3. It shall be accompanied by the undermentioned documents in triplicate, and by the following particular:"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        5
+      ],
+      "text": "6.3.1. Documents describing the Cyber Security Management System."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        5
+      ],
+      "text": "6.3.2. A signed declaration using the model as defined in Appendix 1 to Annex 1."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        5
+      ],
+      "text": "6.4. In the context of the assessment, the manufacturer shall declare using the model as defined in Appendix 1 to\r\nAnnex 1 and demonstrate to the satisfaction of the Approval Authority or its Technical Service that they have the\r\nnecessary processes to comply with all the requirements for cyber security according to this Regulation."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        5
+      ],
+      "text": "6.5. When this assessment has been satisfactorily completed and in receipt of a signed declaration from the\r\nmanufacturer according to the model as defined in Appendix 1 to Annex 1, a certificate named Certificate of\r\nCompliance for CSMS as described in Annex 4 to this Regulation (hereinafter the Certificate of Compliance for\r\nCSMS) shall be granted to the manufacturer."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        5
+      ],
+      "text": "6.6. The Approval Authority or its Technical Service shall use the model set out in Annex 4 to this Regulation for\r\nthe Certificate of Compliance for CSMS."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        5
+      ],
+      "text": "6.7. The Certificate of Compliance for CSMS shall remain valid for a maximum of three years from the date of\r\ndeliverance of the certificate unless it is withdrawn."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        5
+      ],
+      "text": "6.8. The Approval Authority which has granted the Certificate of Compliance for CSMS may at any time verify\r\nthat the requirements for it continue to be met. The Approval Authority shall withdraw the Certificate of\r\nCompliance for CSMS if the requirements laid down in this Regulation are no longer met."
+    },
+    {
+      "paragraph": "6.9",
+      "pages": [
+        5
+      ],
+      "text": "6.9. The manufacturer shall inform the Approval Authority or its Technical Service of any change that will affect\r\nthe relevance of the Certificate of Compliance for CSMS. After consultation with the manufacturer, the Approval\r\nAuthority or its Technical Service shall decide whether new checks are necessary."
+    },
+    {
+      "paragraph": "6.10",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "6.10. In due time, permitting the Approval Authority to complete its assessment before the end of the period of\r\nvalidity of the Certificate of Compliance for CSMS, the manufacturer shall apply for a new or for the extension of\r\nthe existing Certificate of Compliance for CSMS. The Approval Authority shall, subject to a positive assessment,\r\nissue a new Certificate of Compliance for CSMS or extend its validity for a further period of three years. The\r\nApproval Authority shall verify that the CSMS continue to comply with the requirements of this Regulation. The\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nApproval Authority shall issue a new certificate in cases where changes have been brought to the attention of the\r\nApproval Authority or its Technical Service and the changes have been positively re-assessed."
+    },
+    {
+      "paragraph": "6.11",
+      "pages": [
+        6
+      ],
+      "text": "6.11. The expiry or withdrawal of the manufacturer’s Certificate of Compliance for CSMS shall be considered,\r\nwith regard to the vehicle types to which the CSMS concerned was relevant, as modification of approval, as\r\nreferred to in paragraph 8, which may include the withdrawal of the approval if the conditions for granting the\r\napproval are not met anymore."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. Speciﬁcations"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. General specifications"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1.1. The requirements of this Regulation shall not restrict provisions or requirements of other UN Regulations."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2. Requirements for the Cyber Security Management System"
+    },
+    {
+      "paragraph": "7.2.1",
+      "pages": [
+        6
+      ],
+      "text": "7.2.1. For the assessment the Approval Authority or its Technical Service shall verify that the vehicle\r\nmanufacturer has a Cyber Security Management System in place and shall verify its compliance with this\r\nRegulation."
+    },
+    {
+      "paragraph": "7.2.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2. The Cyber Security Management System shall cover the following aspects:"
+    },
+    {
+      "paragraph": "7.2.2.1",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.1. The vehicle manufacturer shall demonstrate to an Approval Authority or Technical Service that their\r\nCyber Security Management System applies to the following phases:\r\n(a) Development phase;\r\n(b) Production phase;\r\n(c) Post-production phase."
+    },
+    {
+      "paragraph": "7.2.2.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.2. The vehicle manufacturer shall demonstrate that the processes used within their Cyber Security\r\nManagement System ensure security is adequately considered, including risks and mitigations listed in Annex 5.\r\nThis shall include:\r\n(a) The processes used within the manufacturer’s organization to manage cyber security;\r\n(b) The processes used for the identification of risks to vehicle types. Within these processes, the threats in Annex\r\n5, Part A, and other relevant threats shall be considered;\r\n(c) The processes used for the assessment, categorization and treatment of the risks identified;\r\n(d) The processes in place to verify that the risks identified are appropriately managed;\r\n(e) The processes used for testing the cyber security of a vehicle type;\r\n(f) The processes used for ensuring that the risk assessment is kept current;\r\n(g) The processes used to monitor for, detect and respond to cyber-attacks, cyber threats and vulnerabilities on\r\nvehicle types and the processes used to assess whether the cyber security measures implemented are still effective\r\nin the light of new cyber threats and vulnerabilities that have been identified.\r\n(h) The processes used to provide relevant data to support analysis of attempted or successful cyber-attacks."
+    },
+    {
+      "paragraph": "7.2.2.3",
+      "pages": [
+        6
+      ],
+      "text": "7.2.2.3. The vehicle manufacturer shall demonstrate that the processes used within their Cyber Security\r\nManagement System will ensure that, based on categorization referred to in paragraph 7.2.2.2 (c) and 7.2.2.2 (g),\r\ncyber threats and vulnerabilities which require a response from the vehicle manufacturer shall be mitigated within\r\na reasonable timeframe."
+    },
+    {
+      "paragraph": "7.2.2.4",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "7.2.2.4. The vehicle manufacturer shall demonstrate that the processes used within their Cyber Security\r\nManagement System will ensure that the monitoring referred to in paragraph 7.2.2.2 (g) shall be continual. This\r\nshall:\r\n(a) Include vehicles after first registration in the monitoring;\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Include the capability to analyse and detect cyber threats, vulnerabilities and cyber-attacks from vehicle data\r\nand vehicle logs. This capability shall respect paragraph 1.3. and the privacy rights of car owners or drivers,\r\nparticularly with respect to consent."
+    },
+    {
+      "paragraph": "7.2.2.5",
+      "pages": [
+        7
+      ],
+      "text": "7.2.2.5. The vehicle manufacturer shall be required to demonstrate how their Cyber Security Management System\r\nwill manage dependencies that may exist with contracted suppliers, service providers or manufacturer’s sub-\r\norganizations in regards of the requirements of paragraph 7.2.2.2."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        7
+      ],
+      "text": "7.3. Requirements for vehicle types"
+    },
+    {
+      "paragraph": "7.3.1",
+      "pages": [
+        7
+      ],
+      "text": "7.3.1. The manufacturer shall have a valid Certificate of Compliance for the Cyber Security Management System\r\nrelevant to the vehicle type being approved.\r\nHowever, for type approvals first issued before 1 July 2024 and for each extension thereof, if the vehicle\r\nmanufacturer can demonstrate that the vehicle type could not be developed in compliance with the CSMS, then\r\nthe vehicle manufacturer shall demonstrate that cyber security was adequately considered during the development\r\nphase of the vehicle type concerned."
+    },
+    {
+      "paragraph": "7.3.2",
+      "pages": [
+        7
+      ],
+      "text": "7.3.2. The vehicle manufacturer shall identify and manage, for the vehicle type being approved, supplier-related\r\nrisks."
+    },
+    {
+      "paragraph": "7.3.3",
+      "pages": [
+        7
+      ],
+      "text": "7.3.3. The vehicle manufacturer shall identify the critical elements of the vehicle type and perform an exhaustive\r\nrisk assessment for the vehicle type and shall treat/manage the identified risks appropriately. The risk assessment\r\nshall consider the individual elements of the vehicle type and their interactions. The risk assessment shall further\r\nconsider interactions with any external systems. While assessing the risks, the vehicle manufacturer shall consider\r\nthe risks related to all the threats referred to in Annex 5, Part A, as well as any other relevant risk."
+    },
+    {
+      "paragraph": "7.3.4",
+      "pages": [
+        7
+      ],
+      "text": "7.3.4. The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s\r\nrisk assessment. Proportionate mitigations shall be implemented to protect the vehicle type. The mitigations\r\nimplemented shall include all mitigations referred to in Annex 5, Part B and C which are relevant for the risks\r\nidentified. However, if a mitigation referred to in Annex 5, Part B or C, is not relevant or not sufficient for the risk\r\nidentified, the vehicle manufacturer shall ensure that another appropriate mitigation is implemented.\r\nIn particular, for type approvals first issued before 1 July 2024 and for each extension thereof, the vehicle\r\nmanufacturer shall ensure that another appropriate mitigation is implemented if a mitigation measure referred to in\r\nAnnex 5, Part B or C is technically not feasible. The respective assessment of the technical feasibility shall be\r\nprovided by the manufacturer to the approval authority."
+    },
+    {
+      "paragraph": "7.3.5",
+      "pages": [
+        7
+      ],
+      "text": "7.3.5. The vehicle manufacturer shall put in place appropriate and proportionate measures to secure dedicated\r\nenvironments on the vehicle type (if provided) for the storage and execution of aftermarket software, services,\r\napplications or data."
+    },
+    {
+      "paragraph": "7.3.6",
+      "pages": [
+        7
+      ],
+      "text": "7.3.6. The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify\r\nthe effectiveness of the security measures implemented."
+    },
+    {
+      "paragraph": "7.3.7",
+      "pages": [
+        7
+      ],
+      "text": "7.3.7. The vehicle manufacturer shall implement measures for the vehicle type to:\r\n(a) Detect and prevent cyber-attacks against vehicles of the vehicle type;\r\n(b) Support the monitoring capability of the vehicle manufacturer with regards to detecting threats, vulnerabilities\r\nand cyber-attacks relevant to the vehicle type;\r\n(c) Provide data forensic capability to enable analysis of attempted or successful cyber-attacks."
+    },
+    {
+      "paragraph": "7.3.8",
+      "pages": [
+        7
+      ],
+      "text": "7.3.8. Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards. If\r\nthe cryptographic modules used are not in line with consensus standards, then the vehicle manufacturer shall\r\njustify their use."
+    },
+    {
+      "paragraph": "7.4",
+      "pages": [
+        7
+      ],
+      "text": "7.4. Reporting provisions"
+    },
+    {
+      "paragraph": "7.4.1",
+      "pages": [
+        8
+      ],
+      "text": "7.4.1. The vehicle manufacturer shall report at least once a year, or more frequently if relevant, to the Approval\r\nAuthority or the Technical Service the outcome of their monitoring activities, as defined in paragraph 7.2.2.2.(g)),\r\nthis shall include relevant information on new cyber-attacks. The vehicle manufacturer shall also report and\r\nconfirm to the Approval Authority or the Technical Service that the cyber security mitigations implemented for\r\ntheir vehicle types are still effective and any additional actions taken."
+    },
+    {
+      "paragraph": "7.4.2",
+      "pages": [
+        8
+      ],
+      "text": "7.4.2 The Approval Authority or the Technical Service shall verify the provided information and, if necessary,\r\nrequire the vehicle manufacturer to remedy any detected ineffectiveness.\r\nIf the reporting or response is not sufficient the Approval Authority may decide to withdraw the CSMS in\r\ncompliance with paragraph 6.8.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        8
+      ],
+      "text": "8. Modiﬁcation and extension of the vehicle type"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        8
+      ],
+      "text": "8.1. Every modification of the vehicle type which affects its technical performance with respect to cybersecurity\r\nand/or documentation required in this Regulation shall be notified to the approval authority which approved the\r\nvehicle type. The Approval Authority may then either:"
+    },
+    {
+      "paragraph": "8.1.1",
+      "pages": [
+        8
+      ],
+      "text": "8.1.1. Consider that the modifications made still comply with the requirements and documentation of existing type\r\napproval; or"
+    },
+    {
+      "paragraph": "8.1.2",
+      "pages": [
+        8
+      ],
+      "text": "8.1.2. Proceed to necessary complementary assessment pursuant to paragraph 5, and require, where relevant, a\r\nfurther test report from the Technical Service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "8.1.3",
+      "pages": [
+        8
+      ],
+      "text": "8.1.3. Confirmation or extension or refusal of approval, specifying the alterations, shall be communicated by\r\nmeans of a communication form conforming to the model in Annex 2 to this Regulation. The Approval Authority\r\nissuing the extension of approval shall assign a series number for such an extension and inform there of the other\r\nParties to the 1958 Agreement applying this Regulation by means of a communication form conforming to the\r\nmodel in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        8
+      ],
+      "text": "9. Co n formity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        8
+      ],
+      "text": "9.1. The Conformity of Production Procedures shall comply with those set out in the 1958 Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3) with the following requirements:"
+    },
+    {
+      "paragraph": "9.1.1",
+      "pages": [
+        8
+      ],
+      "text": "9.1.1. The holder of the approval shall ensure that results of the conformity of production tests are recorded and\r\nthat the annexed documents remain available for a period determined in agreement with the Approval Authority or\r\nits Technical Service. This period shall not exceed 10 years counted from the time when production is definitively\r\ndiscontinued;"
+    },
+    {
+      "paragraph": "9.1.2",
+      "pages": [
+        8
+      ],
+      "text": "9.1.2. The Approval Authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production facility. The normal frequency of these verifications shall be once every three\r\nyears."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        8
+      ],
+      "text": "10. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        8
+      ],
+      "text": "10.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in this Regulation are not complied with or if sample vehicles fail to comply with the\r\nrequirements of this Regulation."
+    },
+    {
+      "paragraph": "10.2",
+      "pages": [
+        8
+      ],
+      "text": "10.2. If an Approval Authority withdraws an approval it has previously granted, it shall forthwith so notify the\r\nContracting Parties applying this Regulation, by means of a communication form conforming to the model in\r\nAnnex 2 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        9
+      ],
+      "text": "11. Production deﬁnitively discontinued"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        9
+      ],
+      "text": "11.1. If the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance\r\nwith this Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication that authority shall inform thereof the other Contracting Parties to the Agreement applying this\r\nRegulation by means of a copy of the approval form bearing at the end, in large letters, the signed and dated\r\nannotation \"PRODUCTION DISCONTINUED\"."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        9
+      ],
+      "text": "12. Names and addresses of Technical Services responsible for conducting\r\napproval test, and of Type Approval Authorities"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        9
+      ],
+      "text": "12.1. The Contracting Parties to the Agreement which apply this Regulation shall communicate to the United\r\nNations Secretariat the names and addresses of the Technical Services responsible for conducting approval tests\r\nand of the Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        9
+      ],
+      "text": "Annex 1 Information document\r\nThe following information, if applicable, shall be supplied in triplicate and include a list of contents. Any\r\ndrawings shall be supplied in appropriate scale and in sufficient detail on size A4 or on a folder of A4 format.\r\nPhotographs, if any, shall show sufficient detail."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1. Make (trade name of manufacturer): ............................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2. Type and general commercial description(s):......................................."
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        9
+      ],
+      "text": "3. Means of identification of type, if marked on the vehicle:.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        9
+      ],
+      "text": "4. Location of that marking:..................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        9
+      ],
+      "text": "5. Category(ies) of vehicle:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        9
+      ],
+      "text": "6. Name and address of manufacturer/ manufacturer's representative:........................"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        9
+      ],
+      "text": "7. Name(s) and Address(es) of assembly plant(s):....................................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        9
+      ],
+      "text": "8. Photograph(s) and/or drawing(s) of a representative vehicle:............................"
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        9
+      ],
+      "text": "9. Cyber Security"
+    },
+    {
+      "paragraph": "Annex 1 / 9.1",
+      "pages": [
+        9
+      ],
+      "text": "9.1. General construction characteristics of the vehicle type, including:\r\n(a) The vehicle systems which are relevant to the cyber security of the vehicle type;\r\n(b) The components of those systems that are relevant to cyber security;\r\n(c) The interactions of those systems with other systems within the vehicle type and external interfaces."
+    },
+    {
+      "paragraph": "Annex 1 / 9.2",
+      "pages": [
+        9
+      ],
+      "text": "9.2. Schematic representation of the vehicle type"
+    },
+    {
+      "paragraph": "Annex 1 / 9.3",
+      "pages": [
+        9
+      ],
+      "text": "9.3. The number of the Certificate of Compliance for CSMS:.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 9.4",
+      "pages": [
+        9
+      ],
+      "text": "9.4. Documents for the vehicle type to be approved describing the outcome of its risk assessment and the\r\nidentified risks:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.5",
+      "pages": [
+        9
+      ],
+      "text": "9.5 Documents for the vehicle type to be approved describing the mitigations that have been implemented on the\r\nsystems listed, or to the vehicle type, and how they address the stated risks:",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.6",
+      "pages": [
+        9
+      ],
+      "text": "9.6. Documents for the vehicle type to be approved describing protection of dedicated environments for\r\naftermarket software, services, applications or data:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.7",
+      "pages": [
+        9
+      ],
+      "text": "9.7. Documents for the vehicle type to be approved describing what tests have been used to verify the cyber\r\nsecurity of the vehicle type and its systems and the outcome of those tests:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.8",
+      "pages": [
+        10
+      ],
+      "text": "9.8. Description of the consideration of the supply chain with respect to cyber security:............\r\n\r\nAnnex 1 - Appendix 1 Model of Manufacturer’s Declaration of Compliance for\r\nCSMS\r\nManufacturer’s declaration of compliance with the requirements for the Cyber Security Management\r\nSystem\r\nManufacturer Name:........................................................\r\nManufacturer Address:.......................................................\r\n…………………..(Manufacturer Name) attests that the necessary processes to comply with the requirements for\r\nthe Cyber Security Management System laid down in paragraph 7.2 of UN Regulation [15X] are installed and will\r\nbe maintained.\r\nDone at: …………………… (place)\r\nDate: ..................................................................\r\nName of the signatory: ......................................................\r\nFunction of the signatory:.....................................................\r\n(Stamp and signature of the manufacturer’s representative)",
+      "review_flags": [
+        "ambiguous_annex_heading"
+      ]
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        10
+      ],
+      "text": "Annex 2 Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval withdrawn with effect from dd/mm/yyyy\r\nApproval refused\r\nProduction definitively discontinued\r\nof a vehicle type, pursuant to UN Regulation No. [15X]\r\nApproval No.: ............................................................\r\nExtension No.: ............................................................\r\nReason for extension: .......................................................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulation).\r\n\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        11
+      ],
+      "text": "1. Make (trade name of manufacturer): ............................................"
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        11
+      ],
+      "text": "2. Type and general commercial description(s) ......................................."
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        11
+      ],
+      "text": "3. Means of identification of type, if marked on the vehicle:.............................."
+    },
+    {
+      "paragraph": "Annex 2 / 3.1",
+      "pages": [
+        11
+      ],
+      "text": "3.1. Location of that marking: .................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        11
+      ],
+      "text": "4. Category(ies) of vehicle:...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        11
+      ],
+      "text": "5. Name and address of manufacturer / manufacturer’s representative: ......................."
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        11
+      ],
+      "text": "6. Name(s) and Address(es) of the production plant(s) .................................."
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        11
+      ],
+      "text": "7. Number of the certificate of compliance for cyber security management system: ..............."
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        11
+      ],
+      "text": "8. Technical Service responsible for carrying out the tests: ..............................."
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        11
+      ],
+      "text": "9. Date of test report: ........................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 10",
+      "pages": [
+        11
+      ],
+      "text": "10. Number of test report: ...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 11",
+      "pages": [
+        11
+      ],
+      "text": "11. Remarks: (if any). ......................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 12",
+      "pages": [
+        11
+      ],
+      "text": "12. Place:................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 13",
+      "pages": [
+        11
+      ],
+      "text": "13. Date: ................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 14",
+      "pages": [
+        11
+      ],
+      "text": "14. Signature: ............................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 15",
+      "pages": [
+        11
+      ],
+      "text": "15. The index to the information package lodged with the Approval Authority, which may be obtained on request\r\nis attached:"
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        11
+      ],
+      "text": "Annex 3 Arrangement of approval mark\r\nModel A\r\n(See paragraph 4.2 of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min.\r\nThe above approval mark affixed to a vehicle shows that the road vehicle type concerned has been approved in the\r\nNetherlands (E 4), pursuant to Regulation No. [15X], and under the approval number 001234. The first two digits\r\nof the approval number indicate that the approval was granted in accordance with the requirements of this\r\nRegulation in its original form (00)."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "Annex 4 Model of Certiﬁcate of Compliance for CSMS\r\nCertificate of compliance for cyber security management system\r\nWith UN Regulation No. [This Regulation]\r\nCertificate Number [Reference number]\r\n[……. Approval Authority]\r\nCertifies that\r\nManufacturer: ............................................................\r\n\r\n\r\n\r\n\r\n\r\n\r\nAddress of the manufacturer: ..................................................\r\ncomplies with the provisions of paragraph 7.2 of Regulation No. [15X]\r\nChecks have been performed on:................................................\r\nby (name and address of the Approval Authority or Technical Service):.......................\r\nNumber of report:................\r\nThe certificate is valid until […..Date]\r\nDone at [……Place]\r\nOn […….Date]\r\n[………….Signature]\r\nAttachments: description of the Cyber Security Management System by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        12
+      ],
+      "text": "Annex 5 List of threats and corresponding mitigations"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1. This annex consists of three parts. Part A of this annex describes the baseline for threats, vulnerabilities and\r\nattack methods. Part B of this annex describes mitigations to the threats which are intended for vehicle types. Part\r\nC describes mitigations to the threats which are intended for areas outside of vehicles, e.g. on IT backends."
+    },
+    {
+      "paragraph": "Annex 5 / 2",
+      "pages": [
+        12
+      ],
+      "text": "2. Part A, Part B, and Part C shall be considered for risk assessment and mitigations to be implemented by vehicle\r\nmanufacturers."
+    },
+    {
+      "paragraph": "Annex 5 / 3",
+      "pages": [
+        12
+      ],
+      "text": "3. The high-level vulnerability and its corresponding examples have been indexed in Part A. The same indexing\r\nhas been referenced in the tables in Parts B and C to link each of the attack/vulnerability with a list of\r\ncorresponding mitigation measures."
+    },
+    {
+      "paragraph": "Annex 5 / 4",
+      "pages": [
+        12
+      ],
+      "text": "4. The threat analysis shall also consider possible attack impacts. These may help ascertain the severity of a risk\r\nand identify additional risks. Possible attack impacts may include:\r\n(a) Safe operation of vehicle affected;\r\n(b) Vehicle functions stop working;\r\n(c) Software modified, performance altered;\r\n(d) Software altered but no operational effects;\r\n(e) Data integrity breach;\r\n(f) Data confidentiality breach;\r\n(g) Loss of data availability;\r\n(h) Other, including criminality.\r\nPart A. Vulnerability or attack method related to the threats\r\n1. High level descriptions of threats and relating vulnerability or attack method are listed in Table A1.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "text": "Table A1 List of vulnerability or attack method related to the threats\r\n\r\n High level and sub-level descriptions of vulnerability/ threat                Example of vulnerability or attack method\r\n\r\n 4.3.1 Threats               1     Back-end servers used as a means            1.1    Abuse of privileges by staff (insider attack)\r\n regarding back-end                to attack a vehicle or extract data         1.2    Unauthorized internet access to the server\r\n servers related to                                                                   (enabled for example by backdoors, unpatched\r\n vehicles in the field                                                                system software vulnerabilities, SQL attacks or\r\n\r\n                                                                                      other means)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHigh level and sub-level descriptions of vulnerability/ threat                  Example of vulnerability or attack method\r\n\r\n                                                                                1.3     Unauthorized physical access to the server\r\n                                                                                        (conducted by for example USB sticks or other\r\n                                                                                        media connecting to the server)\r\n\r\n                             2     Services from back-end server                2.1     Attack on back-end server stops it functioning,\r\n                                   being disrupted, affecting the                       for example it prevents it from interacting with\r\n                                   operation of a vehicle                               vehicles and providing services they rely on\r\n\r\n                             3     Vehicle related data held on back-           3.1     Abuse of privileges by staff (insider attack)\r\n                                   end servers being lost or                    3.2     Loss of information in the cloud. Sensitive data\r\n                                   compromised (\"data breach\")                          may be lost due to attacks or accidents when data\r\n\r\n                                                                                        is stored by third-party cloud service providers\r\n\r\n                                                                                3.3     Unauthorized internet access to the server\r\n                                                                                        (enabled for example by backdoors, unpatched\r\n                                                                                        system software vulnerabilities, SQL attacks or\r\n                                                                                        other means)\r\n\r\n                                                                                3.4     Unauthorized physical access to the server\r\n                                                                                        (conducted for example by USB sticks or other\r\n                                                                                        media connecting to the server)\r\n\r\n                                                                                3.5     Information breach by unintended sharing of\r\n                                                                                        data (e.g. admin errors)\r\n\r\n4.3.2 Threats to             4     Spoofing of messages or data                 4.1     Spoofing of messages by impersonation (e.g.\r\nvehicles regarding                 received by the vehicle                              V2X cooperative awareness or manoeuvre\r\ntheir communication                                                                     coordination messages, GNSS messages, etc.)\r\nchannels                                                                        4.2     Sybil attack (in order to spoof other vehicles as if\r\n\r\n                                                                                        there are many vehicles on the road)\r\n\r\n                             5     Communication channels used to               5.1     Communications channels permit code injection,\r\n                                   conduct unauthorized                                 for example tampered software binary might be\r\n                                   manipulation, deletion or other                      injected into the communication stream\r\n                                   amendments to vehicle held                   5.2     Communications channels permit manipulate of\r\n                                   code/data                                            vehicle held data/code\r\n\r\n\r\n                                                                                5.3     Communications channels permit overwrite of\r\n                                                                                        vehicle held data/code\r\n\r\n                                                                                5.4     Communications channels permit erasure of\r\n                                                                                        vehicle held data/code\r\n\r\n                                                                                5.5     Communications channels permit introduction of\r\n                                                                                        data/code to the vehicle (write data code)\r\n\r\n                             6     Communication channels permit                6.1     Accepting information from an unreliable or\r\n                                   untrusted/unreliable messages to                     untrusted source\r\n                                   be accepted or are vulnerable to             6.2     Man in the middle attack/ session hijacking\r\n                                   session hijacking/replay attacks\r\n                                                                                6.3     Replay attack, for example an attack against a\r\n                                                                                        communication gateway allows the attacker to\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHigh level and sub-level descriptions of vulnerability/ threat                  Example of vulnerability or attack method\r\n\r\n                                                                                        downgrade software of an ECU or firmware of the\r\n                                                                                        gateway\r\n\r\n                             7     Information can be readily                   7.1     Interception of information / interfering\r\n                                   disclosed. For example, through                      radiations / monitoring communications\r\n                                   eavesdropping on communications\r\n                                   or through allowing unauthorized             7.2     Gaining unauthorized access to files or data\r\n                                   access to sensitive files or folders\r\n\r\n                             8     Denial of service attacks via                8.1     Sending a large number of garbage data to\r\n                                   communication channels to disrupt                    vehicle information system, so that it is unable\r\n                                   vehicle functions                                    to provide services in the normal manner\r\n\r\n                                                                                8.2     Black hole attack, in order to disrupt\r\n                                                                                        communication between vehicles the attacker is\r\n                                                                                        able to block messages between the vehicles\r\n\r\n                             9     An unprivileged user is able to              9.1     An unprivileged user is able to gain privileged\r\n                                   gain privileged access to vehicle                    access, for example root access\r\n                                   systems\r\n\r\n                             10    Viruses embedded in                          10.1    Virus embedded in communication media infects\r\n                                   communication media are able to                      vehicle systems\r\n                                   infect vehicle systems\r\n\r\n                             11    Messages received by the vehicle             11.1    Malicious internal (e.g. CAN) messages\r\n                                   (for example X2V or diagnostic               11.2    Malicious V2X messages, e.g. infrastructure to\r\n                                   messages), or transmitted within it,                 vehicle or vehicle-vehicle messages (e.g. CAM,\r\n                                   contain malicious content                            DENM)\r\n\r\n\r\n                                                                                11.3    Malicious diagnostic messages\r\n\r\n                                                                                11.4    Malicious proprietary messages (e.g. those\r\n                                                                                        normally sent from OEM or\r\n                                                                                        component/system/function supplier)\r\n\r\n4.3.3. Threats to            12    Misuse or compromise of update               12.1    Compromise of over the air software update\r\nvehicles regarding                 procedures                                           procedures. This includes fabricating the system\r\ntheir update                                                                            update program or firmware\r\nprocedures                                                                      12.2    Compromise of local/physical software update\r\n\r\n                                                                                        procedures. This includes fabricating the system\r\n                                                                                        update program or firmware\r\n\r\n                                                                                12.3    The software is manipulated before the update\r\n                                                                                        process (and is therefore corrupted), although the\r\n                                                                                        update process is intact\r\n\r\n                                                                                12.4    Compromise of cryptographic keys of the\r\n                                                                                        software provider to allow invalid update\r\n\r\n                             13    It is possible to deny legitimate            13.1    Denial of Service attack against update server or\r\n                                   updates                                              network to prevent rollout of critical software\r\n                                                                                        updates and/or unlock of customer specific\r\n                                                                                        features\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHigh level and sub-level descriptions of vulnerability/ threat                   Example of vulnerability or attack method\r\n\r\n4.3.4 Threats to             15    Legitimate actors are able to take            15.1    Innocent victim (e.g. owner, operator or\r\nvehicles regarding                 actions that would unwittingly                        maintenance engineer) being tricked into taking\r\nunintended human                   facilitate a cyber-attack                             an action to unintentionally load malware or\r\nactions facilitating a                                                                   enable an attack\r\ncyber attack                                                                     15.2    Defined security procedures are not followed\r\n\r\n\r\n4.3.5 Threats to             16    Manipulation of the connectivity              16.1    Manipulation of functions designed to remotely\r\nvehicles regarding                 of vehicle functions enables a                        operate systems, such as remote key,\r\ntheir external                     cyber-attack, this can include                        immobilizer, and charging pile\r\nconnectivity and                   telematics; systems that permit               16.2    Manipulation of vehicle telematics (e.g.\r\nconnections                        remote operations; and systems                        manipulate temperature measurement of sensitive\r\n                                   using short range wireless                            goods, remotely unlock cargo doors)\r\n                                   communications\r\n                                                                                 16.3    Interference with short range wireless systems\r\n                                                                                         or sensors\r\n\r\n                             17    Hosted 3rd party software, e.g.               17.1    Corrupted applications, or those with poor\r\n                                   entertainment applications, used as                   software security, used as a method to attack\r\n                                   a means to attack vehicle systems                     vehicle systems\r\n\r\n                             18    Devices connected to external                 18.1    External interfaces such as USB or other ports\r\n                                   interfaces e.g. USB ports, OBD                        used as a point of attack, for example through\r\n                                   port, used as a means to attack                       code injection\r\n                                   vehicle systems                               18.2    Media infected with a virus connected to a\r\n\r\n                                                                                         vehicle system\r\n\r\n                                                                                 18.3    Diagnostic access (e.g. dongles in OBD port)\r\n                                                                                         used to facilitate an attack, e.g. manipulate vehicle\r\n                                                                                         parameters (directly or indirectly)\r\n\r\n4.3.6 Threats to             19    Extraction of vehicle data/code               19.1    Extraction of copyright or proprietary software\r\nvehicle data/code                                                                        from vehicle systems (product piracy)\r\n\r\n                                                                                 19.2    Unauthorized access to the owner’s privacy\r\n                                                                                         information such as personal identity, payment\r\n                                                                                         account information, address book information,\r\n                                                                                         location information, vehicle’s electronic ID, etc.\r\n\r\n                                                                                 19.3    Extraction of cryptographic keys\r\n\r\n                             20    Manipulation of vehicle data/code             20.1    Illegal/unauthorized changes to vehicle’s\r\n                                                                                         electronic ID\r\n\r\n                                                                                 20.2    Identity fraud. For example, if a user wants to\r\n                                                                                         display another identity when communicating\r\n                                                                                         with toll systems, manufacturer backend\r\n\r\n                                                                                 20.3    Action to circumvent monitoring systems (e.g.\r\n                                                                                         hacking/ tampering/ blocking of messages such as\r\n                                                                                         ODR Tracker data, or number of runs)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHigh level and sub-level descriptions of vulnerability/ threat                   Example of vulnerability or attack method\r\n\r\n                                                                                 20.4    Data manipulation to falsify vehicle’s driving\r\n                                                                                         data (e.g. mileage, driving speed, driving\r\n                                                                                         directions, etc.)\r\n\r\n                                                                                 20.5    Unauthorized changes to system diagnostic data\r\n\r\n                             21    Erasure of data/code                          21.1    Unauthorized deletion/manipulation of system\r\n                                                                                         event logs\r\n\r\n                             22    Introduction of malware                       22.2    Introduce malicious software or malicious\r\n                                                                                         software activity\r\n\r\n                             23    Introduction of new software or               23.1    Fabrication of software of the vehicle control\r\n                                   overwrite existing software                           system or information system\r\n\r\n                             24    Disruption of systems or                      24.1    Denial of service, for example this may be\r\n                                   operations                                            triggered on the internal network by flooding a\r\n                                                                                         CAN bus, or by provoking faults on an ECU via a\r\n                                                                                         high rate of messaging\r\n\r\n                             25    Manipulation of vehicle                       25.1    Unauthorized access of falsify the configuration\r\n                                   parameters                                            parameters of vehicle’s key functions, such as\r\n                                                                                         brake data, airbag deployed threshold, etc.\r\n\r\n                                                                                 25.2    Unauthorized access of falsify the charging\r\n                                                                                         parameters, such as charging voltage, charging\r\n                                                                                         power, battery temperature, etc.\r\n\r\n4.3.7 Potential              26    Cryptographic technologies can be             26.1    Combination of short encryption keys and long\r\nvulnerabilities that               compromised or are insufficiently                     period of validity enables attacker to break\r\ncould be exploited if              applied                                               encryption\r\nnot sufficiently                                                                 26.2    Insufficient use of cryptographic algorithms to\r\nprotected or hardened                                                                    protect sensitive systems\r\n\r\n\r\n                                                                                 26.3    Using already or soon to be deprecated\r\n                                                                                         cryptographic algorithms\r\n\r\n                             27    Parts or supplies could be                    27.1    Hardware or software, engineered to enable an\r\n                                   compromised to permit vehicles to                     attack or fails to meet design criteria to stop an\r\n                                   be attacked                                           attack\r\n\r\n                             28    Software or hardware development              28.1    Software bugs. The presence of software bugs\r\n                                   permits vulnerabilities                               can be a basis for potential exploitable\r\n                                                                                         vulnerabilities. This is particularly true if software\r\n                                                                                         has not been tested to verify that known bad\r\n                                                                                         code/bugs is not present and reduce the risk of\r\n                                                                                         unknown bad code/bugs being present\r\n\r\n                                                                                 28.2    Using remainders from development (e.g. debug\r\n                                                                                         ports, JTAG ports, microprocessors, development\r\n                                                                                         certificates, developer passwords, …) can permit\r\n                                                                                         access to ECUs or permit attackers to gain higher\r\n                                                                                         privileges\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHigh level and sub-level descriptions of vulnerability/ threat                  Example of vulnerability or attack method\r\n\r\n                              29    Network design introduces                    29.1    Superfluous internet ports left open, providing\r\n                                    vulnerabilities                                      access to network systems\r\n\r\n                                                                                 29.2    Circumvent network separation to gain control.\r\n                                                                                         Specific example is the use of unprotected\r\n                                                                                         gateways, or access points (such as truck-trailer\r\n                                                                                         gateways), to circumvent protections and gain\r\n                                                                                         access to other network segments to perform\r\n                                                                                         malicious acts, such as sending arbitrary CAN bus\r\n                                                                                         messages\r\n\r\n                              31    Unintended transfer of data can              31.1    Information breach. Personal data may be leaked\r\n                                    occur                                                when the car changes user (e.g. is sold or is used\r\n                                                                                         as hire vehicle with new hirers)\r\n\r\n                              32    Physical manipulation of systems             32.1    Manipulation of electronic hardware, e.g.\r\n                                    can enable an attack                                 unauthorized electronic hardware added to a\r\n                                                                                         vehicle to enable \"man-in-the-middle\" attack\r\n                                                                                         Replacement of authorized electronic\r\n                                                                                         hardware (e.g., sensors) with unauthorized\r\n                                                                                         electronic hardware\r\n                                                                                         Manipulation of the information collected by a\r\n                                                                                         sensor (for example, using a magnet to tamper\r\n                                                                                         with the Hall effect sensor connected to the\r\n                                                                                         gearbox)\r\n\r\nPart B. Mitigations to the threats intended for vehicles\r\n1. Mitigations for \"Vehicle communication channels\"\r\nMitigations to the threats which are related to \"Vehicle communication channels\" are listed in Table B1.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B1",
+      "pages": [
+        17
+      ],
+      "text": "Table B1 Mitigation to the threats which are related to \"Vehicle communication channels\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        17
+      ],
+      "text": "Table A1        Threats to \"Vehicle communication channels\"                       Ref     Mitigation\r\n reference\r\n\r\n 4.1             Spoofing of messages (e.g. V2X cooperative                        M10     The vehicle shall verify the authenticity and\r\n                 awareness or manoeuvre coordination messages,                             integrity of messages it receives\r\n                 GNSS messages, etc.) by impersonation\r\n\r\n 4.2             Sybil attack (in order to spoof other vehicles as if              M11     Security controls shall be implemented for\r\n                 there are many vehicles on the road)                                      storing cryptographic keys (e.g., use of\r\n                                                                                           Hardware Security Modules)\r\n\r\n 5.1             Communication channels permit code injection into                 M10     The vehicle shall verify the authenticity and\r\n                 vehicle held data/code, for example tampered                      M6      integrity of messages it receives\r\n                 software binary might be injected into the                                Systems shall implement security by design to\r\n                 communication stream                                                      minimize risks\r\n\r\n 5.2             Communication channels permit manipulation of                     M7      Access control techniques and designs shall be\r\n                 vehicle held data/code                                                    applied to protect system data/code\r\n\r\n 5.3             Communication channels permit overwrite of\r\n                 vehicle held data/code",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        18
+      ],
+      "text": "Table A1        Threats to \"Vehicle communication channels\"                        Ref     Mitigation\r\n reference\r\n\r\n 5.4             Communication channels permit erasure of vehicle\r\n 21.1            held data/code\r\n\r\n 5.5             Communication channels permit introduction of\r\n                 data/code to vehicle systems (write data code)\r\n\r\n 6.1             Accepting information from an unreliable or                        M10     The vehicle shall verify the authenticity and\r\n                 untrusted source                                                           integrity of messages it receives\r\n\r\n 6.2             Man in the middle attack / session hijacking                       M10     The vehicle shall verify the authenticity and\r\n 6.3             Replay attack, for example an attack against a                             integrity of messages it receives\r\n\r\n                 communication gateway allows the attacker to\r\n                 downgrade software of an ECU or firmware of the\r\n                 gateway\r\n\r\n 7.1             Interception of information / interfering radiations /             M12     Confidential data transmitted to or from the\r\n                 monitoring communications                                                  vehicle shall be protected\r\n\r\n 7.2             Gaining unauthorized access to files or data                       M8      Through system design and access control it\r\n                                                                                            should not be possible for unauthorized\r\n                                                                                            personnel to access personal or system critical\r\n                                                                                            data. Example of Security Controls can be found\r\n                                                                                            in OWASP\r\n\r\n 8.1             Sending a large number of garbage data to vehicle                  M13     Measures to detect and recover from a denial of\r\n                 information system, so that it is unable to provide                        service attack shall be employed\r\n                 services in the normal manner\r\n\r\n 8.2             Black hole attack, disruption of communication                     M13     Measures to detect and recover from a denial of\r\n                 between vehicles by blocking the transfer of                               service attack shall be employed\r\n                 messages to other vehicles\r\n\r\n 9.1             An unprivileged user is able to gain privileged                    M9      Measures to prevent and detect unauthorized\r\n                 access, for example root access                                            access shall be employed\r\n\r\n 10.1            Virus embedded in communication media infects                      M14     Measures to protect systems against embedded\r\n                 vehicle systems                                                            viruses/malware should be considered\r\n\r\n 11.1            Malicious internal (e.g. CAN) messages                             M15     Measures to detect malicious internal messages\r\n                                                                                            or activity should be considered\r\n\r\n 11.2            Malicious V2X messages, e.g. infrastructure to                     M10     The vehicle shall verify the authenticity and\r\n                 vehicle or vehicle-vehicle messages (e.g. CAM,                             integrity of messages it receives\r\n                 DENM)\r\n\r\n 11.3            Malicious diagnostic messages\r\n\r\n 11.4            Malicious proprietary messages (e.g. those normally\r\n                 sent from OEM or component/system/function\r\n                 supplier)\r\n\r\n2. Mitigations for \"Update process\"\r\nMitigations to the threats which are related to \"Update process\" are listed in Table B2.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B2",
+      "pages": [
+        19
+      ],
+      "text": "Table B2 Mitigations to the threats which are related to \"Update process\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        19
+      ],
+      "text": "Table A1        Threats to \"Update process\"                          Ref     Mitigation\r\n reference\r\n\r\n 12.1            Compromise of over the air software                  M16     Secure software update procedures shall be employed\r\n                 update procedures. This includes\r\n                 fabricating the system update program or\r\n                 firmware\r\n\r\n 12.2            Compromise of local/physical software\r\n                 update procedures. This includes\r\n                 fabricating the system update program or\r\n                 firmware\r\n\r\n 12.3            The software is manipulated before the\r\n                 update process (and is therefore\r\n                 corrupted), although the update process is\r\n                 intact\r\n\r\n 12.4            Compromise of cryptographic keys of the              M11     Security controls shall be implemented for storing\r\n                 software provider to allow invalid update                    cryptographic keys\r\n\r\n 13.1            Denial of Service attack against update              M3      Security Controls shall be applied to back-end systems.\r\n                 server or network to prevent rollout of                      Where back-end servers are critical to the provision of\r\n                 critical software updates and/or unlock of                   services there are recovery measures in case of system\r\n                 customer specific features                                   outage. Example Security Controls can be found in\r\n                                                                              OWASP\r\n\r\n3. Mitigations for \"Unintended human actions facilitating a cyber attack\"\r\nMitigations to the threats which are related to \"Unintended human actions facilitating a cyber attack\" are listed in\r\nTable B3.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B3",
+      "pages": [
+        19
+      ],
+      "text": "Table B3 Mitigations to the threats which are related to \"Unintended human actions facilitating a cyber\r\nattack\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        19
+      ],
+      "text": "Table A1         Threats relating to \"Unintended human actions\"              Ref     Mitigation\r\n reference\r\n\r\n 15.1             Innocent victim (e.g. owner, operator or                    M18     Measures shall be implemented for defining and\r\n                  maintenance engineer) is tricked into taking an                     controlling user roles and access privileges, based\r\n                  action to unintentionally load malware or enable                    on the principle of least access privilege\r\n                  an attack\r\n\r\n 15.2             Defined security procedures are not followed                M19     Organizations shall ensure security procedures are\r\n                                                                                      defined and followed including logging of actions\r\n                                                                                      and access related to the management of the\r\n                                                                                      security functions\r\n\r\n4. Mitigations for \"External connectivity and connections\"\r\nMitigations to the threats which are related to \"external connectivity and connections\" are listed in Table B4.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B4",
+      "pages": [
+        19
+      ],
+      "text": "Table B4 Mitigation to the threats which are related to \"external connectivity and connections\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        20
+      ],
+      "text": "Table A1          Threats to \"External connectivity and                         Ref      Mitigation\r\n reference         connections\"\r\n\r\n 16.1              Manipulation of functions designed to remotely                M20      Security controls shall be applied to systems that\r\n                   operate vehicle systems, such as remote key,                           have remote access\r\n                   immobiliser, and charging pile\r\n\r\n 16.2              Manipulation of vehicle telematics (e.g.\r\n                   manipulate temperature measurement of\r\n                   sensitive goods, remotely unlock cargo doors)\r\n\r\n 16.3              Interference with short range wireless systems or\r\n                   sensors\r\n\r\n 17.1              Corrupted applications, or those with poor                    M21      Software shall be security assessed, authenticated\r\n                   software security, used as a method to attack                          and integrity protected.\r\n                   vehicle systems                                                        Security controls shall be applied to minimise the\r\n                                                                                          risk from third party software that is intended or\r\n                                                                                          foreseeable to be hosted on the vehicle\r\n\r\n 18.1              External interfaces such as USB or other ports                M22      Security controls shall be applied to external\r\n                   used as a point of attack, for example through                         interfaces\r\n                   code injection\r\n\r\n 18.2              Media infected with viruses connected to the\r\n                   vehicle\r\n\r\n 18.3              Diagnostic access (e.g. dongles in OBD port)                  M22      Security controls shall be applied to external\r\n                   used to facilitate an attack, e.g. manipulate                          interfaces\r\n                   vehicle parameters (directly or indirectly)\r\n\r\n5. Mitigations for \"Potential targets of, or motivations for, an attack \"\r\nMitigations to the threats which are related to \"Potential targets of, or motivations for, an attack \" are listed in\r\nTable B5.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B5",
+      "pages": [
+        20
+      ],
+      "text": "Table B5 Mitigations to the threats which are related to \"Potential targets of, or motivations for, an attack\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        20
+      ],
+      "text": "Table A1        Threats to \"Potential targets of, or motivations for,               Ref      Mitigation\r\n reference       an attack\"\r\n\r\n 19.1            Extraction of copyright or proprietary software from                M7       Access control techniques and designs shall be\r\n                 vehicle systems (product piracy / stolen software)                           applied to protect system data/code. Example\r\n                                                                                              Security Controls can be found in OWASP\r\n\r\n 19.2            Unauthorized access to the owner’s privacy                          M8       Through system design and access control it\r\n                 information such as personal identity, payment                               should not be possible for unauthorized\r\n                 account information, address book information,                               personnel to access personal or system critical\r\n                 location information, vehicle’s electronic ID, etc.                          data. Examples of Security Controls can be\r\n                                                                                              found in OWASP\r\n\r\n 19.3            Extraction of cryptographic keys                                    M11      Security controls shall be implemented for\r\n                                                                                              storing cryptographic keys e.g. Security\r\n                                                                                              Modules\r\n\r\n 20.1            Illegal/unauthorised changes to vehicle’s electronic                M7       Access control techniques and designs shall be\r\n                 ID                                                                           applied to protect system data/code. Example\r\n                                                                                              Security Controls can be found in OWASP",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        21
+      ],
+      "text": "Table A1        Threats to \"Potential targets of, or motivations for,               Ref     Mitigation\r\n reference       an attack\"\r\n\r\n 20.2            Identity fraud. For example, if a user wants to\r\n                 display another identity when communicating with\r\n                 toll systems, manufacturer backend\r\n\r\n 20.3            Action to circumvent monitoring systems (e.g.                       M7      Access control techniques and designs shall be\r\n                 hacking/ tampering/ blocking of messages such as                            applied to protect system data/code. Example\r\n                 ODR Tracker data, or number of runs)                                        Security Controls can be found in OWASP.\r\n 20.4            Data manipulation to falsify vehicle’s driving data                         Data manipulation attacks on sensors or\r\n                 (e.g. mileage, driving speed, driving directions, etc.)                     transmitted data could be mitigated by\r\n                                                                                             correlating the data from different sources of\r\n 20.5            Unauthorised changes to system diagnostic data                              information\r\n\r\n 21.1            Unauthorized deletion/manipulation of system event                  M7      Access control techniques and designs shall be\r\n                 logs                                                                        applied to protect system data/code. Example\r\n                                                                                             Security Controls can be found in OWASP.\r\n\r\n 22.2            Introduce malicious software or malicious software                  M7      Access control techniques and designs shall be\r\n                 activity                                                                    applied to protect system data/code. Example\r\n 23.1            Fabrication of software of the vehicle control system                       Security Controls can be found in OWASP.\r\n\r\n                 or information system\r\n\r\n 24.1            Denial of service, for example this may be triggered                M13     Measures to detect and recover from a denial of\r\n                 on the internal network by flooding a CAN bus, or                           service attack shall be employed\r\n                 by provoking faults on an ECU via a high rate of\r\n                 messaging\r\n\r\n 25.1            Unauthorized access to falsify configuration                        M7      Access control techniques and designs shall be\r\n                 parameters of vehicle’s key functions, such as brake                        applied to protect system data/code. Example\r\n                 data, airbag deployed threshold, etc.                                       Security Controls can be found in OWASP\r\n\r\n 25.2            Unauthorized access to falsify charging parameters,\r\n                 such as charging voltage, charging power, battery\r\n                 temperature, etc.\r\n\r\n6. Mitigations for \"Potential vulnerabilities that could be exploited if not sufficiently protected or hardened\"\r\nMitigations to the threats which are related to \"Potential vulnerabilities that could be exploited if not sufficiently\r\nprotected or hardened\" are listed in Table B6.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B6",
+      "pages": [
+        21
+      ],
+      "text": "Table B6 Mitigations to the threats which are related to \"Potential vulnerabilities that could be exploited if\r\nnot sufficiently protected or hardened\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        21
+      ],
+      "text": "Table A1        Threats to \"Potential vulnerabilities that could be exploited if not                       Ref     Mitigation\r\n reference       sufficiently protected or hardened\"\r\n\r\n 26.1            Combination of short encryption keys and long period of validity                           M23     Cybersecurity best practices\r\n                 enables attacker to break encryption                                                               for software and hardware\r\n 26.2            Insufficient use of cryptographic algorithms to protect sensitive systems                          development shall be\r\n                                                                                                                    followed\r\n 26.3            Using deprecated cryptographic algorithms\r\n\r\n 27.1            Hardware or software, engineered to enable an attack or fail to meet                       M23     Cybersecurity best practices\r\n                 design criteria to stop an attack                                                                  for software and hardware",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        22
+      ],
+      "text": "Table A1        Threats to \"Potential vulnerabilities that could be exploited if not                     Ref      Mitigation\r\n reference       sufficiently protected or hardened\"\r\n\r\n                                                                                                                   development shall be\r\n                                                                                                                   followed\r\n\r\n 28.1            The presence of software bugs can be a basis for potential exploitable                   M23      Cybersecurity best practices\r\n                 vulnerabilities. This is particularly true if software has not been tested to                     for software and hardware\r\n                 verify that known bad code/bugs is not present and reduce the risk of                             development shall be\r\n                 unknown bad code/bugs being present                                                               followed.\r\n 28.2            Using remainders from development (e.g. debug ports, JTAG ports,                                  Cybersecurity testing with\r\n                 microprocessors, development certificates, developer passwords, …)                                adequate coverage\r\n                 can permit an attacker to access ECUs or gain higher privileges\r\n\r\n 29.1            Superfluous internet ports left open, providing access to network\r\n                 systems\r\n\r\n 29.2            Circumvent network separation to gain control. Specific example is the                   M23      Cybersecurity best practices\r\n                 use of unprotected gateways, or access points (such as truck-trailer                              for software and hardware\r\n                 gateways), to circumvent protections and gain access to other network                             development shall be\r\n                 segments to perform malicious acts, such as sending arbitrary CAN bus                             followed.\r\n                 messages                                                                                          Cybersecurity best practices\r\n                                                                                                                   for system design and\r\n                                                                                                                   system integration shall be\r\n                                                                                                                   followed\r\n\r\n7. Mitigations for \"Data loss / data breach from vehicle\"\r\nMitigations to the threats which are related to \"Data loss / data breach from vehicle\" are listed in Table B7.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B7",
+      "pages": [
+        22
+      ],
+      "text": "Table B7 Mitigations to the threats which are related to \"Data loss / data breach from vehicle\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        22
+      ],
+      "text": "Table A1          Threats of \"Data loss / data breach from vehicle\"                Ref      Mitigation\r\n reference\r\n\r\n 31.1              Information breach. Personal data may be breached                M24      Best practices for the protection of data\r\n                   when the car changes user (e.g. is sold or is used as                     integrity and confidentiality shall be followed\r\n                   hire vehicle with new hirers)                                             for storing personal data.\r\n\r\n8. Mitigations for \"Physical manipulation of systems to enable an attack\"\r\nMitigation to the threats which are related to \"Physical manipulation of systems to enable an attack\" are listed in\r\nTable B8.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table B8",
+      "pages": [
+        22
+      ],
+      "text": "Table B8 Mitigations to the threats which are related to \"Physical manipulation of systems to enable an\r\nattack\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        22
+      ],
+      "text": "Table A1           Threats to \"Physical manipulation of systems to enable an                  Ref    Mitigation\r\n reference          attack\"\r\n\r\n 32.1               Manipulation of OEM hardware, e.g. unauthorised hardware                   M9     Measures to prevent and detect\r\n                    added to a vehicle to enable \"man-in-the-middle\" attack                           unauthorized access shall be employed\r\n\r\nPart C. Mitigations to the threats outside of vehicles\r\n1. Mitigations for \"Back-end servers\"\r\nMitigations to the threats which are related to \"Back-end servers\" are listed in Table C1.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table C1",
+      "pages": [
+        23
+      ],
+      "text": "Table C1 Mitigations to the threats which are related to \"Back-end servers\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        23
+      ],
+      "text": "Table A1        Threats to \"Back-end servers\"                           Ref    Mitigation\r\n reference\r\n\r\n 1.1 & 3.1       Abuse of privileges by staff (insider attack)           M1     Security Controls are applied to back-end systems to\r\n                                                                                minimise the risk of insider attack\r\n\r\n 1.2 & 3.3       Unauthorised internet access to the server              M2     Security Controls are applied to back-end systems to\r\n                 (enabled for example by backdoors,                             minimise unauthorised access. Example Security Controls\r\n                 unpatched system software vulnerabilities,                     can be found in OWASP\r\n                 SQL attacks or other means)\r\n\r\n 1.3 & 3.4       Unauthorised physical access to the server              M8     Through system design and access control it should not\r\n                 (conducted by for example USB sticks or                        be possible for unauthorised personnel to access personal\r\n                 other media connecting to the server)                          or system critical data\r\n\r\n 2.1             Attack on back-end server stops it                      M3     Security Controls are applied to back-end systems. Where\r\n                 functioning, for example it prevents it from                   back-end servers are critical to the provision of services\r\n                 interacting with vehicles and providing                        there are recovery measures in case of system outage.\r\n                 services they rely on                                          Example Security Controls can be found in OWASP\r\n\r\n 3.2             Loss of information in the cloud. Sensitive             M4     Security Controls are applied to minimise risks associated\r\n                 data may be lost due to attacks or accidents                   with cloud computing. Example Security Controls can be\r\n                 when data is stored by third-party cloud                       found in OWASP and NCSC cloud computing guidance\r\n                 service providers\r\n\r\n 3.5             Information breach by unintended sharing                M5     Security Controls are applied to back-end systems to\r\n                 of data (e.g. admin errors, storing data in                    prevent data breaches. Example Security Controls can be\r\n                 servers in garages)                                            found in OWASP\r\n\r\n2. Mitigations for \"Unintended human actions\"\r\nMitigations to the threats which are related to \"Unintended human actions\" are listed in Table C2.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table C2",
+      "pages": [
+        23
+      ],
+      "text": "Table C2 Mitigations to the threats which are related to \"Unintended human actions\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        23
+      ],
+      "text": "Table A1         Threats relating to \"Unintended human actions\"               Ref     Mitigation\r\n reference\r\n\r\n 15.1             Innocent victim (e.g. owner, operator or                     M18     Measures shall be implemented for defining and\r\n                  maintenance engineer) is tricked into taking an                      controlling user roles and access privileges, based\r\n                  action to unintentionally load malware or enable                     on the principle of least access privilege\r\n                  an attack\r\n\r\n 15.2             Defined security procedures are not followed                 M19     Organizations shall ensure security procedures are\r\n                                                                                       defined and followed including logging of actions\r\n                                                                                       and access related to the management of the\r\n                                                                                       security functions\r\n\r\n3. Mitigations for \"Physical loss of data\"\r\nMitigations to the threats which are related to \"Physical loss of data\" are listed in Table C3.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table C3",
+      "pages": [
+        23
+      ],
+      "text": "Table C3 Mitigations to the threats which are related to \"Physical loss of data loss\"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table A1",
+      "pages": [
+        23,
+        24
+      ],
+      "text": "Table A1         Threats of \"Physical loss of data\"                         Ref     Mitigation\r\n reference\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n30.1            Damage caused by a third party. Sensitive data                M24     Best practices for the protection of data integrity and\r\n                may be lost or compromised due to physical                            confidentiality shall be followed for storing personal\r\n                damages in cases of traffic accident or theft                         data. Example Security Controls can be found in\r\n30.2            Loss from DRM (digital right management)                              ISO/SC27/WG5\r\n\r\n                conflicts. User data may be deleted due to\r\n                DRM issues\r\n\r\n30.3            The (integrity of) sensitive data may be lost\r\n                due to IT components wear and tear, causing\r\n                potential cascading issues (in case of key\r\n                alteration, for example)",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    }
+  ]
+}

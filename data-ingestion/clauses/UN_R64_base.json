@@ -1,0 +1,1277 @@
+{
+  "regulation": "UN R64",
+  "version": "3.1.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R64 (version 3.1.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\n1. This Regulation applies to the approval of vehicles of category M1 and N1 when equipped with:\r\n(a) A temporary use spare unit; and/or\r\n(b) Run-flat tyres and/or a run-flat system; and/or\r\n(c) Extended mobility tyres.\r\nFor the purposes of this Regulation, spare wheel and tyre substitute units in the form of run-flat tyres or a run-flat\r\nsystem or extended mobility tyres in a totally deflated condition, are to be treated as being temporary-use spare\r\nunits as defined in paragraph 2.10. of this Regulation.\r\n\r\n1M1 and N1 categories of vehicles are defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document\r\nECE/TRANS/WP.29/78/Rev.4, para. 2.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Approval of a vehicle\" means the approval of a vehicle type with regard to its temporary-use spare wheel and\r\ntyre unit."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Vehicle type\" means a category of vehicles which do not differ significantly in such essential aspects as:"
+    },
+    {
+      "paragraph": "2.2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1. \"Vehicle type with regard to its temporary-use spare unit\":"
+    },
+    {
+      "paragraph": "2.2.1.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.1. The maximum axle loads of the vehicle, as defined in paragraph 2.10;"
+    },
+    {
+      "paragraph": "2.2.1.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.2. The characteristics of the temporary-use spare wheel and tyre unit;"
+    },
+    {
+      "paragraph": "2.2.1.3",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.3. The method of drive (front wheel, rear wheel, four wheels);"
+    },
+    {
+      "paragraph": "2.2.1.4",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.4. The suspension;"
+    },
+    {
+      "paragraph": "2.2.1.5",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.5. The braking system;"
+    },
+    {
+      "paragraph": "2.2.1.6",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.6. The wheel size/tyre size;"
+    },
+    {
+      "paragraph": "2.2.1.7",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1.7. The wheel offset."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Wheel\" means a complete wheel consisting of a rim and a wheel disc;"
+    },
+    {
+      "paragraph": "2.3.1",
+      "pages": [
+        1
+      ],
+      "text": "2.3.1. \"Wheel size designation\" means a designation comprising at least the nominal rim diameter, the nominal\r\nrim width and the rim profile;"
+    },
+    {
+      "paragraph": "2.3.2",
+      "pages": [
+        1
+      ],
+      "text": "2.3.2. \"Wheel offset\" means the distance from the hub abutment face to the centre line of the rim."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Tyre\" means a pneumatic tyre, being a reinforced flexible envelope that is provided with, or forms in\r\nconjunction with the wheel on which it is mounted, a continuous, essentially toroidal, closed chamber containing a\r\ngas (usually air) or a gas and liquid, that is intended normally to be used at a pressure greater than atmospheric\r\npressure. It may be a:"
+    },
+    {
+      "paragraph": "2.4.1",
+      "pages": [
+        1
+      ],
+      "text": "2.4.1. \"Normal tyre\" being a tyre that is suitable for all normal, on-road, conditions of use;"
+    },
+    {
+      "paragraph": "2.4.2",
+      "pages": [
+        1
+      ],
+      "text": "2.4.2. \"Temporary-use spare tyre\" being a tyre that is specifically designed to be different from a normal tyre and\r\nintended only for temporary-use under restricted driving conditions;"
+    },
+    {
+      "paragraph": "2.4.3",
+      "pages": [
+        2
+      ],
+      "text": "2.4.3. \"Run-flat tyre\" or \"Self supporting tyre\" describes a pneumatic tyre structure provided with any technical\r\nsolutions (for example, reinforced sidewalls, etc.) allowing the pneumatic tyre, mounted on the appropriate wheel\r\nand in the absence of any supplementary component, to supply the vehicle with the basic tyre functions, at least,\r\nat a speed of 80 km/h (50 mph) and a distance of 80 km when operating in flat tyre running mode;"
+    },
+    {
+      "paragraph": "2.4.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4.4. \"Run-flat system\" or \"Extended mobility system\" describes an assembly of specified functionally dependant\r\ncomponents, including a tyre, which together provide the specified performance granting the vehicle with the\r\nbasic tyre functions, at least, at a speed of 80 km/h (50 mph) and a distance of 80 km when operating in flat tyre\r\nrunning mode."
+    },
+    {
+      "paragraph": "2.4.5",
+      "pages": [
+        2
+      ],
+      "text": "2.4.5. \"Extended Mobility Tyre\" describes a pneumatic radial tyre designed to operate in an inflated mode and\r\nallowing the pneumatic tyre, mounted on the appropriate wheel and in the absence of any supplementary\r\ncomponent, to provide the vehicle with the basic tyre functions at a speed of 80 km/h (50 mph) and a distance of\r\n80 km when operating in flat tyre running mode.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Flat tyre running mode\" describes the state of tyre, essentially maintaining its structural integrity, while\r\noperating at an inflation pressure between 0 and 70 kPa."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Basic tyre function\" means the normal capability of an inflated tyre in supporting a given load up to a given\r\nspeed and transmitting the driving, the steering and the braking forces to the ground on which it runs."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Tyre size designation\" means a combination of figures that uniquely identify the geometric size of the tyre,\r\ncomprising the nominal section width, the nominal aspect ratio and the nominal diameter. Precise definitions of\r\nthese features may be found in Regulation No. 30."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Tyre structure\" means the technical characteristics of the tyre's carcass. This may be bias ply (diagonal or\r\ncross ply), bias-belted, radial ply or run-flat tyre as further defined in Regulation No. 30."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"Standard spare unit\" means an assembly of a wheel and tyre identical in terms of wheel and tyre size\r\ndesignations, wheel offset and tyre structure to that fitted in the same axle position and to the particular model or\r\nversion of the vehicle for normal operation. It includes the case of a wheel that is produced from a different\r\nmaterial, for example, steel instead of aluminium alloy, that may use different wheel fixing nut or bolt designs but\r\nwhich is otherwise identical to the wheel intended for normal operation."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Temporary-use spare unit\" means an assembly of any wheel and tyre that is not within that defined as a\r\n\"Standard spare unit\" in paragraph 2.9. Temporary-use spare units may be of the following types:"
+    },
+    {
+      "paragraph": "2.10.1",
+      "pages": [
+        2
+      ],
+      "text": "2.10.1. Type 1\r\nAn assembly in which the tyre is a temporary-use spare tyre as defined in paragraph 2.4.2.;"
+    },
+    {
+      "paragraph": "2.10.2",
+      "pages": [
+        2
+      ],
+      "text": "2.10.2. Type 2\r\nAn assembly in which the wheel has a different offset from that of the wheel fitted in the same axle position for\r\nnormal operation of the vehicle;"
+    },
+    {
+      "paragraph": "2.10.3",
+      "pages": [
+        2
+      ],
+      "text": "2.10.3. Type 3\r\nAn assembly in which the tyre is of a different structure from that fitted in the same axle position for normal\r\noperation of the vehicle;"
+    },
+    {
+      "paragraph": "2.10.4",
+      "pages": [
+        2
+      ],
+      "text": "2.10.4. Type 4\r\nAn assembly in which the tyre is a normal tyre as defined in paragraph 2.4.1. but where the size designation of the\r\nwheel or the tyre or both, differ from those of the wheel or tyre fitted in the same axle position for normal\r\noperation of the vehicle;"
+    },
+    {
+      "paragraph": "2.10.5",
+      "pages": [
+        2
+      ],
+      "text": "2.10.5. Type 5\r\nAn assembly in which a wheel and tyre unit as defined in paragraph 2.4.3. or 2.4.4. or 2.4.5. is fitted to the vehicle\r\nfor normal, long term road use, but used in an emergency in a totally deflated condition."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        3
+      ],
+      "text": "2.11. \"Maximum mass\" means the maximum value of the vehicle stated by the manufacturer to be technically\r\npermissible (this mass may be higher than the \"permissible maximum mass\" laid down by the national\r\nadministration)."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        3
+      ],
+      "text": "2.12. \"Maximum axle load\" means the maximum value, as indicated by the manufacturer, of the total vertical\r\nforce between the contact surfaces of the tyres or tracks of one axle and the ground and resulting from the part of\r\nthe vehicle mass supported by that axle; this load may be higher than the \"authorized axle load\" laid down by the\r\nnational administration. The sum of the axle loads may be greater than the value corresponding to the total mass\r\nof the vehicle."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        3
+      ],
+      "text": "2.13. \"Run-Flat Warning System\" describes a system which delivers information to the driver that a tyre is\r\noperating in the flat tyre running mode."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        3
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        3
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to its equipment with a temporary-use spare unit\r\n(including, where applicable, a run-flat warning system) shall be submitted by the vehicle manufacturer or by his\r\nduly accredited representative;"
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        3
+      ],
+      "text": "3.2. It shall be accompanied, in triplicate, by a description of the vehicle type with regard to the items specified in\r\nAnnex 1 to this Regulation:"
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        3
+      ],
+      "text": "3.3. A vehicle representative of the vehicle type to be approved shall be submitted to the type Approval Authority\r\nor the Technical Service responsible for conducting the approval tests."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        3
+      ],
+      "text": "3.4. The Type Approval Authority shall verify the existence of satisfactory arrangements for ensuring effective\r\ncontrol of the conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. If the vehicle submitted for approval pursuant to this Regulation meets all the requirements of paragraph 5.\r\nbelow, approval of that vehicle type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (at present 03 corresponding\r\nto the 03 series of amendments) shall indicate the series of amendments incorporating the most recent major\r\ntechnical amendments made to the Regulation at the time of issue of the approval. The same Contracting Party\r\nmay not assign the same number to another type of vehicle. However, variants of a model range which are in\r\nseparate categories with respect to the criteria of paragraph 2.2. may be covered by the same type approval,\r\nprovided that the results of the tests described in paragraphs 5.2. do not show major differences."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Notice of approval or of extension or of refusal of approval of a vehicle type pursuant to this Regulation shall\r\nbe communicated to the Parties to the Agreement which apply this Regulation by means of a form conforming to\r\nthe model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which granted\r\napproval2;\r\n\r\n\r\n2The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev. 4, Annex 3 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe markings prescribed in paragraphs 4.4.1."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        4
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved, under one or more Regulations annexed to the Agreement,\r\nin the country which granted approval under this Regulation, the symbol prescribed in paragraph 4.4.1. need not\r\nbe repeated; in such a case, the Regulation and approval numbers and the additional symbols for all the\r\nRegulations under which approval has been granted in the country which granted approval under this Regulation\r\nshall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        4
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        4
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        4
+      ],
+      "text": "4.8. Annex 2 to this Regulation gives examples of approval marks."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. Speciﬁcations and tests"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. General"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.1. Tyres intended for use as part of a temporary-use spare unit as defined in paragraph 2.10., shall be approved\r\nin accordance with Regulations Nos. 30 or 54."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.2. For vehicles having at least four wheels, the load capacity of the temporary-use spare unit shall be at least\r\nequal to one half of the highest of the maximum axle loads of the vehicle; if its use is restricted to a specific axle\r\nmentioned in the instructions in paragraph 6. below, its load capacity shall be at least equal to one half of the\r\nmaximum load of that axle."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.3. The design speed of the temporary-use spare unit shall be at least 120 km/h for types 1, 2 and 3."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4. The temporary-use spare unit shall exhibits the following characteristics:"
+    },
+    {
+      "paragraph": "5.1.4.1",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.1.4.1. An 80 km/h maximum speed warning symbol arranged in accordance with the diagram below shall be\r\npermanently displayed on the outer face of the wheel in a prominent position:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn the case of vehicles intended to be sold in countries using imperial units of measurement, an additional warning\r\nsymbol, identical to that described above, with the exception that the figure \"80\" shall be replaced by \"50\" and the\r\nwording \"km/h\" by \"mph\", shall be permanently displayed on the outer face of the wheel in a prominent position.\r\nNote: The Contracting Parties clarified, after consultation of the representatives of France and the Russian\r\nFederation, that the text and the symbols (e.g. \"MAX\") included in the circle in paragraph 5.1.4.1. and 5.1.4.1.1.\r\n\r\n\r\n\r\n\r\n\r\n\r\nshall not be translated in French or Russian.\r\nAlternatively a single warning symbol arranged in accordance with the diagram below, shall be permanently\r\ndisplayed on the outer face of the wheel in a prominent position.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nUpper case letters shall be at least 5 mm high and the numbers \"80\" and \"50\" shall be at least 20 mm high with the\r\nelements that make up each character of the number at least 3 mm line thickness. Lower case text shall at least\r\nhave a line height of 5 mm. All text shall be enclosed in a border and be on a background of contrasting colour.\r\nThe requirements of this paragraph shall apply to types 1, 2 and 3 temporary-use spare unit as defined in\r\nparagraphs 2.10.1., 2.10.2. and 2.10.3."
+    },
+    {
+      "paragraph": "5.1.4.1.1",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "5.1.4.1.1. An 120 km/h maximum speed warning symbol arranged in accordance with the diagram below shall be\r\npermanently displayed on the outer face of the wheel in a prominent position.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn the case of vehicles intended to be sold in countries using imperial units of measurement, an additional warning\r\nsymbol, identical to that described above, with the exception that the figure \"120\" shall be replaced by \"75\" and\r\nthe wording \"km/h\" by \"mph\", shall be permanently displayed on the outer face of the wheel in a prominent\r\nposition.\r\nAlternatively a single warning symbol arranged in accordance with the diagram below, shall be permanently\r\ndisplayed on the outer face of the wheel in a prominent position.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nUpper case letters shall be at least 5 mm high and the numbers \"120\" and \"75\" shall be at least 20 mm high with\r\nthe elements that make up each character of the number at least 3 mm line thickness. Lower case text shall at least\r\nhave a line height of 5 mm. All text shall be enclosed in a border and be on a background of contrasting colour.\r\nFor a type 4 temporary-use spare unit as defined in paragraph 2.10.4., either the requirements of this paragraph or\r\nthe requirements of paragraph 5.1.4.1. shall apply, at the request of the vehicle manufacturer."
+    },
+    {
+      "paragraph": "5.1.4.2",
+      "pages": [
+        6
+      ],
+      "text": "5.1.4.2. When mounted to the vehicle for temporary-use the outward facing surface of the wheel and/or tyre shall\r\nexhibit a distinctive colour or colour pattern which is quite clearly different from the colour(s) of the standard\r\nunits. If it is possible to attach a wheel cover to the temporary-use spare unit, the distinctive colour or colour\r\npattern shall not be obscured by this wheel cover."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        6
+      ],
+      "text": "5.1.5. Except in the case of a run-flat/self-supporting tyres or run-flat/extended mobility system or extended\r\nmobility tyres, it is permitted to supply only one temporary-use spare unit with the vehicle."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6. In the case of vehicles equipped with run-flat/self-supporting tyres or run-flat/extended mobility system or\r\nextended mobility tyres, the vehicle shall also be fitted with a Run-Flat Warning System (defined in paragraph\r\n2.13.) capable of operating within a speed range from 40 km/h to the maximum design speed of the vehicle and\r\nmeeting the requirements of paragraphs 5.1.6.1. to 5.1.6.6. However, if the vehicle is fitted with a Tyre Pressure\r\nMonitoring System meeting the requirements of UN Regulation No. 141, the additional fitment of a run-flat\r\nwarning system is not required."
+    },
+    {
+      "paragraph": "5.1.6.1",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.1. The warning indication shall be by means of an optical yellow warning signal."
+    },
+    {
+      "paragraph": "5.1.6.2",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.2. The warning signal shall be activated when the ignition (start) switch is in the \"on\" (run) position (bulb\r\ncheck)."
+    },
+    {
+      "paragraph": "5.1.6.3",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.3. A warning shall be indicated to the driver by the operation of the warning signal referred to in paragraph\r\n5.1.6.1. at the latest when one tyre is detected to be in the flat tyre running mode.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.6.4",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.4. Electrical failure or sensor anomaly that affects the Run-Flat Warning System, including failure of the\r\nelectrical source, supply or transmission of the output signal, shall be indicated to the driver by an optical yellow\r\nrun-flat malfunction signal. If the warning signal described in paragraph 5.1.6.1. is used to indicate both a tyre in\r\nthe run-flat mode and a malfunction in the Run-Flat Warning System, the following shall apply: with the ignition\r\n(start) switch in the \"on\" (run) position the warning signal shall flash to indicate a system failure. After a short\r\nperiod of time the warning signal shall remain continuously illuminated as long as the failure exists and the\r\nignition (start) switch is in the \"on\" (run) position. The flashing and illumination sequence shall be repeated each\r\ntime the ignition (start) switch is in the \"on\" (run) position until the failure has been corrected."
+    },
+    {
+      "paragraph": "5.1.6.5",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.5. When the system is being manually reset in accordance with the vehicle manufacturer's instructions the\r\nprovisions in paragraphs 5.1.6.3. and 5.1.6.4. may not apply."
+    },
+    {
+      "paragraph": "5.1.6.6",
+      "pages": [
+        6
+      ],
+      "text": "5.1.6.6. The operation of the warning signal specified in paragraphs 5.1.6.2. to 5.1.6.4. shall meet the\r\nrequirements in Annex 4."
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        7
+      ],
+      "text": "5.1.7. If the vehicle is equipped with a temporary-use spare unit stored in a deflated condition, a device must be\r\nprovided on the vehicle which permits the tyre to be inflated to the pressure specified for temporary-use within a\r\nmaximum of 10 minutes."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        7
+      ],
+      "text": "5.2. Braking test"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        7
+      ],
+      "text": "5.2.1. Vehicles intended to be equipped with temporary-use spare units shall meet the requirements of Annex 3 to\r\nthis Regulation."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        7
+      ],
+      "text": "6. Supplementary information"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1. If the vehicle is equipped with a temporary-use spare unit, the owner's manual of the vehicle shall contain at\r\nleast the following information:"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1.1. A statement of the risk resulting from non-compliance with the restrictions on the use of a temporary-use\r\nspare unit including, as appropriate, a statement relating to use restricted to a specific axle;"
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        7
+      ],
+      "text": "6.1.2. An instruction to drive with caution and at no more than the permitted maximum speed of 80 km/h (50\r\nmph) when a type 1, 2 or 3 temporary-use spare unit as defined in paragraphs 2.10.1., 2.10.2. or 2.10.3. is fitted,\r\nand to reinstall a standard unit as soon as possible. It shall be made clear that this instruction also applies to a type\r\n5 temporary-use spare unit as defined in paragraph 2.10.5. being used in the flat tyre running mode;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.1.2.1",
+      "pages": [
+        7
+      ],
+      "text": "6.1.2.1. An instruction to drive with caution and at no more than the permitted maximum speed of 120 km/h (75\r\nmph), when a type 4 spare unit as defined in paragraph 2.10.4. is fitted, and to reinstall a standard unit as soon as\r\npossible."
+    },
+    {
+      "paragraph": "6.1.3",
+      "pages": [
+        7
+      ],
+      "text": "6.1.3. A statement that operation of the vehicle is not permitted with more than one temporary-use spare unit fitted\r\nat the same time. This requirement shall only apply to a type 1, 2 and 3 temporary-use spare unit as defined in\r\nparagraphs 2.10.1., 2.10.2. and 2.10.3.;"
+    },
+    {
+      "paragraph": "6.1.4",
+      "pages": [
+        7
+      ],
+      "text": "6.1.4. A clear indication of the inflation pressure specified by the vehicle manufacturer for the tyre of the\r\ntemporary-use spare unit;"
+    },
+    {
+      "paragraph": "6.1.5",
+      "pages": [
+        7
+      ],
+      "text": "6.1.5. For vehicles equipped with a temporary-use spare unit stored in a deflated condition, a description of the\r\nprocedure for inflating the tyre to the pressure specified for temporary-use by means of the device referred to in\r\nparagraph 5.1.7. above."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        7
+      ],
+      "text": "6.2. If the vehicle is fitted with a Run-flat Warning System, the owner’s manual of the vehicle shall contain at\r\nleast the following information:"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        7
+      ],
+      "text": "6.2.1. A statement that the vehicle is equipped with such a system (and information how to reset the system, if the\r\nactual system includes such a feature)."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        7
+      ],
+      "text": "6.2.2. An image of the tell-tale symbol described in paragraph 5.1.6.1. (and an image of the malfunction tell-tale\r\nsymbol, if a dedicated tell-tale is used for this function)."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        7
+      ],
+      "text": "7. Modiﬁcations and extension of approval of the vehicle type"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        7
+      ],
+      "text": "7.1. Every modification of the vehicle type as defined in paragraph 2.2. of this Regulation shall be notified to the\r\nType Approval Authority which approved the vehicle type. The Type Approval Authority may then either:"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        7
+      ],
+      "text": "7.1.1. Consider that the modifications made do not have an adverse effect on the conditions of the granting of the\r\napproval and grant an extension of approval;"
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        7
+      ],
+      "text": "7.1.2. Consider that the modifications made affect the conditions of the granting of the approval and require\r\nfurther tests or additional checks before granting an extension of approval."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        7
+      ],
+      "text": "7.2. Confirmation or refusal of approval, specifying the alterations, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement applying this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        8
+      ],
+      "text": "7.3. The Type Approval Authority shall inform the other Contracting Parties of the extension by means of the\r\ncommunication form which appears in Annex 1 to this Regulation. It shall assign a serial number to each\r\nextension, to be known as the extension number."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        8
+      ],
+      "text": "8. Conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        8
+      ],
+      "text": "8.1. The Conformity of Production procedures shall comply with those set out in Appendix 2 of the Agreement\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.2), with the following requirements:"
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        8
+      ],
+      "text": "8.2. The Type Approval Authority which has granted type approval, may at any time verify the conformity of\r\nproduction in each production facility. The normal frequency of these verifications shall be at least once per year."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        8
+      ],
+      "text": "9. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        8
+      ],
+      "text": "9.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 8. are not complied with."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        8
+      ],
+      "text": "9.2. If a Party to the Agreement which applies this Regulation withdraws an approval it has previously granted, it\r\nshall forthwith so notify the other Contracting Parties applying this Regulation, by means of a copy of the\r\napproval form bearing at the end, in large letters, the signed and dated annotation \"APPROVAL WITHDRAWN\"."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        8
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance with this\r\nRegulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication that authority shall inform thereof the other Parties to the Agreement applying this Regulation by\r\nmeans of a copy of the approval form bearing at the end, in large letters, the signed and dated annotation\r\n\"PRODUCTION DISCONTINUED\"."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        8
+      ],
+      "text": "11. Names and addresses of Technical Services responsible for conducting\r\napproval tests, and of Type Approval Authorities\r\nThe Parties to the Agreement which apply this Regulation shall communicate to the United Nations Secretariat the\r\nnames and addresses of the Technical Services responsible for conducting approval tests and of the Type Approval\r\nAuthorities which grant approval and to which forms certifying approval or extension or refusal or withdrawal of\r\napproval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        8
+      ],
+      "text": "12. Transitional provisions"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        8
+      ],
+      "text": "12.1. As from 1 November 2012, Contracting Parties applying this Regulation may refuse to grant national or\r\nregional approval to a vehicle type of categories M1 up to a maximum mass of 3,500 kg and N1, in both cases\r\nwith all axles equipped with single tyres, if the vehicle type does not meet the requirements of the 02 series of\r\namendments to this Regulation."
+    },
+    {
+      "paragraph": "12.2",
+      "pages": [
+        8
+      ],
+      "text": "12.2. As from 1 November 2014, Contracting Parties applying this Regulation may refuse first national or regional\r\nregistration (first entry into service) of a vehicle in categories M1 up to a maximum mass of 3,500 kg and N1, in\r\nboth cases with all axles equipped with single tyres, if the vehicle type does not meet the requirements of the 02\r\nseries of amendments to this Regulation."
+    },
+    {
+      "paragraph": "12.3",
+      "pages": [
+        8
+      ],
+      "text": "12.3. As from 1 September 2018, no Contracting Party applying this UN Regulation shall refuse to grant or refuse\r\nto accept UN type approvals under this UN Regulation as amended by the 03 series of amendments."
+    },
+    {
+      "paragraph": "12.4",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "12.4. Even after 1 September 2018 Contracting Parties applying this regulation shall continue to accept type\r\napprovals granted to the 02 series of amendments to this regulation.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHowever, Contracting Parties applying this Regulation shall not be obliged to accept, for the purpose of national\r\nor regional type approval, Type Approvals to the 02 series of amendments to this regulation for vehicle types not\r\nfitted with Tyre Pressure Monitoring System."
+    },
+    {
+      "paragraph": "12.5",
+      "pages": [
+        9
+      ],
+      "text": "12.5. As from 1 September 2018, Contracting Parties applying this UN Regulation shall grant UN type approvals\r\nonly if the vehicle type to be approved meets the requirements of this UN Regulation as amended by the 03 series\r\nof amendments."
+    },
+    {
+      "paragraph": "12.6",
+      "pages": [
+        9
+      ],
+      "text": "12.6. Contracting Parties applying this Regulation shall not refuse to grant extensions of type approvals for\r\nexisting types, regardless of whether they are fitted with a Tyre Pressure Monitoring System or not, on the basis of\r\nthe provisions valid at the time of the original approval."
+    },
+    {
+      "paragraph": "12.7",
+      "pages": [
+        9
+      ],
+      "text": "12.7. Notwithstanding the transitional provisions above, Contracting Parties whose application of this Regulation\r\ncomes into force after the date of entry into force of the most recent series of amendments are not obliged to\r\naccept approvals which were granted in accordance with any of the preceding series of amendments to this\r\nRegulation."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        9
+      ],
+      "text": "Annex 1 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nconcerning:\r\nApproval\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a vehicle type with regard to their equipment which /may include: a temporary-use spare unit, run-flat tyres\r\nand/or a run-flat system and/or extended mobility tyres,2 pursuant to UN Regulation No. 64.\r\n\r\nApproval No.: ............................... Extension No.: ….................................................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulation)."
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2 Strike out what does not apply.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1. Trade name or mark of the vehicle:\r\n2. Vehicle type (if applicable, variants that are included):",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        9
+      ],
+      "text": "3. Manufacturer's name and address:"
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        10
+      ],
+      "text": "4. If applicable, name and address of the manufacturer's representative:"
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        10
+      ],
+      "text": "5. Vehicle submitted for approval on:"
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        10
+      ],
+      "text": "6. Technical Service responsible for conducting approval tests:"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        10
+      ],
+      "text": "7. Date of test report:"
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        10
+      ],
+      "text": "8. Number of test report:"
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        10
+      ],
+      "text": "9. Brief description of the vehicle type:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.1",
+      "pages": [
+        10
+      ],
+      "text": "9.1. Mass of the vehicle when tested:\r\nFront axle:\r\nRear axle:\r\nTotal:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.2",
+      "pages": [
+        10
+      ],
+      "text": "9.2. Marking and wheel size(s) of standard unit equipment:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.3",
+      "pages": [
+        10
+      ],
+      "text": "9.3. Details of temporary-use spare unit, including wheel and tyre size designations and marking, tyre load and\r\nspeed capability, run-flat tyre, extended mobility tyre including the maximum distance wheel offset (where\r\ndifferent from standard unit)."
+    },
+    {
+      "paragraph": "Annex 1 / 9.4",
+      "pages": [
+        10
+      ],
+      "text": "9.4. The vehicle is fitted with a run-flat warning system ......................yes/no2\r\n\r\nIf the answer to the above item is yes, the run-flat warning system meets the requirements of paragraphs 5.1.6. to\r\n5.1.6.6. or meets the requirements of Regulation No. [XXX]2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.5",
+      "pages": [
+        10
+      ],
+      "text": "9.5. Brief description of run-flat warning system, if applicable."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        10
+      ],
+      "text": "10. Position of approval mark:"
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        10
+      ],
+      "text": "11. Reason(s) of extension (if applicable):"
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        10
+      ],
+      "text": "12. Approval granted/refused/extended/withdrawn2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        10
+      ],
+      "text": "13. Place:"
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        10
+      ],
+      "text": "14. Date:"
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        10
+      ],
+      "text": "15. Signature:"
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        10
+      ],
+      "text": "16. The list of documents deposited with the Type Approval Authority which has granted approval is annexed to\r\nthis communication and can be obtained upon request."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "Annex 2 Arrangements of approval marks\r\n(See paragraph 4.4. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has, with regard to the\r\nequipment of temporary-use spare unit(s), been approved in the Netherlands (E 4), pursuant to Regulation No. 64\r\nunder approval number 032439. The approval number indicates that the approval was granted in accordance with\r\nthe requirements of Regulation No. 64, incorporating the 03 series of amendments."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        11
+      ],
+      "text": "Annex 3 Braking and deviation test for vehicles ﬁtted with temporary-use\r\nspare units"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        11
+      ],
+      "text": "1. General conditions"
+    },
+    {
+      "paragraph": "Annex 3 / 1.1",
+      "pages": [
+        11
+      ],
+      "text": "1.1. The test track shall be substantially level and have a surface affording good adhesion."
+    },
+    {
+      "paragraph": "Annex 3 / 1.2",
+      "pages": [
+        11
+      ],
+      "text": "1.2. The test shall be performed when there is no wind liable to affect the results."
+    },
+    {
+      "paragraph": "Annex 3 / 1.3",
+      "pages": [
+        11
+      ],
+      "text": "1.3. The vehicle shall be loaded to its maximum mass as defined in paragraph 2.9. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 3 / 1.4",
+      "pages": [
+        11
+      ],
+      "text": "1.4. The axle loads resulting from the loading condition in accordance with paragraph 1.3. of this annex shall be\r\nproportional to the maximum axle loads as defined in paragraph 2.10. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 3 / 1.5",
+      "pages": [
+        11
+      ],
+      "text": "1.5. Except in the case of a run-flat tyre or of an extended mobility tyre, the tyres shall be inflated to the pressures\r\nrecommended by the vehicle manufacturer for the vehicle type and loading condition. A run-flat tyre or an\r\nextended mobility tyre shall be tested in the fully deflated condition."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        11
+      ],
+      "text": "2. Braking and deviation test"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        11
+      ],
+      "text": "2.1. The test shall be carried out with the temporary-use spare unit fitted alternately in place of one front wheel\r\nand one rear wheel. However, if use of the temporary-use spare unit is restricted to a specific axle, the test shall be\r\ncarried out only with the temporary-use spare unit fitted to that axle."
+    },
+    {
+      "paragraph": "Annex 3 / 2.2",
+      "pages": [
+        11
+      ],
+      "text": "2.2. The test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine\r\ndisconnected."
+    },
+    {
+      "paragraph": "Annex 3 / 2.3",
+      "pages": [
+        11
+      ],
+      "text": "2.3. The braking performance shall correspond to the test procedure given in Regulation No. 13 or 13-H for\r\ncategories M1 and N1 vehicles for the Type O cold test with the engine disconnected, and is based on the stopping\r\ndistance and the mean fully developed deceleration. The performance of the vehicle shall be determined by\r\nmeasuring the stopping distance in relation to the prescribed speed of the vehicle and/or by measuring the mean\r\nfully developed deceleration during the test."
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "2.3.1. In the case of M1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5\r\ntemporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a\r\nprescribed speed of 80 km/h;\r\nThe stopping distance achieved using a maximum force of 500 N applied to the foot control shall not exceed 50.7\r\nm and;\r\nThe mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to\r\ndistance over the interval vb to ve, according to the following formula and shall be not less than 5.8 ms-2:\r\n\r\n\r\n\r\n\r\n\r\nwhere:\r\nvo = initial vehicle speed at beginning of braking in km/h,\r\n\r\nvb = vehicle speed at 0.8 vo in km/h,\r\n\r\nve = vehicle speed at 0.1 vo in km/h,\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nsb = distance travelled between vo and vb in metres,\r\nse = distance travelled between vo and ve in metres."
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1.1",
+      "pages": [
+        12
+      ],
+      "text": "2.3.1.1. In the case of N1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5\r\ntemporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a\r\nprescribed speed of 80 km/h;\r\nThe stopping distance achieved using a maximum force of 700 N applied to the foot control shall not exceed 61.2\r\nm and;\r\nThe mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to\r\ndistance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 5.0\r\nm/s-2"
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1.2",
+      "pages": [
+        12
+      ],
+      "text": "2.3.1.2. In the case of M1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined\r\nin paragraph 2.10.4. and tested using a prescribed speed of 120 km/h;\r\nThe stopping distance achieved using a maximum force of 500 N applied to the foot control, shall not exceed 108\r\nm and;\r\nThe mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to\r\ndistance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 5.8\r\nm/s-2"
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1.3",
+      "pages": [
+        12
+      ],
+      "text": "2.3.1.3. In the case of N1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined\r\nin paragraph 2.10.4. and tested using a prescribed speed of 120 km/h:\r\nThe stopping distance achieved using a maximum force of 700 N applied to the foot control, shall not exceed\r\n128.8 m and;\r\nThe mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to\r\ndistance over the interval vb to ve , according to the formula given in paragraph 2.3.1. and shall be not less than\r\n5.0 m/s-2.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1.4",
+      "pages": [
+        12
+      ],
+      "text": "2.3.1.4. In the case of M1 or N1 category vehicles approved to Regulation No. 13-H fitted with type(s) 1, 2, 3 and\r\n5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a\r\nprescribed speed of 80 km/h;\r\nThe stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control, shall not\r\nexceed 46.4 m and; The mean fully developed deceleration (dm) shall be calculated as the deceleration averaged\r\nwith respect to distance over the interval vb to ve , according to the formula given in paragraph 2.3.1. and shall be\r\nnot less than 6.43 m/s-2.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 2.3.1.5",
+      "pages": [
+        12
+      ],
+      "text": "2.3.1.5. In the case of M1 and N1 category vehicles approved to Regulation No. 13-H fitted with type 4\r\ntemporary-use spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h;\r\nThe stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control, shall not\r\nexceed 98.4 m and;\r\nThe mean fully developed (dm) shall be calculated as the deceleration averaged with respect to distance over the\r\ninterval vb to ve , according to the formula given in paragraph 2.3.1. and shall be not less than 6.43 m/s-2."
+    },
+    {
+      "paragraph": "Annex 3 / 2.4",
+      "pages": [
+        12
+      ],
+      "text": "2.4. Tests shall be carried out for each of the fitting conditions of temporary-use spare units specified in paragraph\r\n2.1. of this annex.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / 2.5",
+      "pages": [
+        13
+      ],
+      "text": "2.5. The prescribed braking performance shall be obtained without any wheel-locking, deviation of the vehicle\r\nfrom its intended course, abnormal vibration, abnormal wear of the tyre during the test or excessive steering\r\ncorrection."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        13
+      ],
+      "text": "Annex 4 Test requirements for Run-Flat Warning System (RFWS)"
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        13
+      ],
+      "text": "1. Test conditions"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        13
+      ],
+      "text": "1.1. Ambient temperature\r\nThe ambient temperature shall be between 0 °C and 40 °C."
+    },
+    {
+      "paragraph": "Annex 4 / 1.2",
+      "pages": [
+        13
+      ],
+      "text": "1.2. Test road surface\r\nThe test road surface shall be dry and smooth."
+    },
+    {
+      "paragraph": "Annex 4 / 1.3",
+      "pages": [
+        13
+      ],
+      "text": "1.3. Test location\r\nThe test location shall be other than an environment susceptible to radio wave interference such as a strong\r\nelectric field."
+    },
+    {
+      "paragraph": "Annex 4 / 1.4",
+      "pages": [
+        13
+      ],
+      "text": "1.4. Condition of the test vehicle in a stationary state\r\nThe vehicle's tyres shall be shaded from direct sun when the vehicle is parked."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        13
+      ],
+      "text": "2. Test method"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1. Test procedures for detection of a tyre in the flat tyre running mode. The requirements of either paragraph\r\n2.1.1. or 2.1.2. shall be met.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1. Test 1"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.1. The tyres are to be inflated to the pressure recommended by the vehicle manufacturer."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.2",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.2. With the vehicle stationary and the ignition (start) switch in the \"Lock\" or \"Off\" position, turn the ignition\r\n(start) switch to the \"On\" (\"Run\") position or, where applicable, the appropriate key position. Confirm the\r\nactivation of the warning signal."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.3",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.3. Turn off the ignition and reduce the inflation pressure of any one of the tyres until the adjusted tyre\r\ninflation pressure is 100 kPa below the recommended cold inflation pressure."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.4",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.4. Within 5 minutes after reducing the inflation pressure of the tyre, drive the vehicle normally between 40\r\nand 100 km/h."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.5",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.5. The test is completed when either:\r\n(a) The run-flat warning system as described in paragraph 5.1.6.1. has activated; or\r\n(b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test\r\nspeed has been reached. If the warning does not activate the test has failed.\r\nThe vehicle shall be brought to a halt and the ignition switched off."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.6",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.6. If the warning signal as required in paragraph 2.1.1.5. above has activated, wait 5 minutes before turning\r\nthe ignition on; the signal must reactivate and remain active as long as the ignition switch is in the \"on\" (\"run\")\r\nposition."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1.7",
+      "pages": [
+        13
+      ],
+      "text": "2.1.1.7. Repeat the process described in paragraphs 2.1.1.1. to 2.1.1.6., but with a test speed of 130 km/h or\r\nhigher. All the relevant requirements shall be met for both test speeds."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2",
+      "pages": [
+        13
+      ],
+      "text": "2.1.2. Test 2"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1.2.1. The tyres are to be inflated to the pressure recommended by the vehicle manufacturer."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2.2",
+      "pages": [
+        14
+      ],
+      "text": "2.1.2.2. With the vehicle stationary and the ignition (start) switch in the \"Lock\" or \"Off\" position, turn the ignition\r\n(start) switch to the \"On\" (\"Run\") position or, where applicable, the appropriate key position. Confirm the\r\nactivation of the warning signal. Turn off the ignition."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2.3",
+      "pages": [
+        14
+      ],
+      "text": "2.1.2.3. Produce on one tyre a gradual pressure loss of between 10 kPa/min and 20 kPa/min."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2.4",
+      "pages": [
+        14
+      ],
+      "text": "2.1.2.4. Drive the vehicle at any speed above 25 km/h."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.2.5",
+      "pages": [
+        14
+      ],
+      "text": "2.1.2.5. The test requirement is satisfied if the system delivers an alert by the time the pressure drop has reached\r\n100 kPa.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.2",
+      "pages": [
+        14
+      ],
+      "text": "2.2. Test procedures for detecting a failure of the Run-Flat Warning System."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.1",
+      "pages": [
+        14
+      ],
+      "text": "2.2.1. With the vehicle in the normal use condition, simulate a Run-Flat Warning System failure. This may be\r\nsimulated by, for example, disconnecting connectors for wiring related to the power supply from the power source\r\nor wiring related to the input/output to/from the warning system control."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.2",
+      "pages": [
+        14
+      ],
+      "text": "2.2.2. With a simulated fault introduced, drive the vehicle normally between 40 and 100 km/h."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.3",
+      "pages": [
+        14
+      ],
+      "text": "2.2.3. When:\r\n(a) The run-flat malfunction signal as described in paragraph 5.1.6.4. has activated or;\r\n(b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test\r\nspeed has been reached. If the warning does not activate the test has failed.\r\nThe vehicle shall be brought to a halt and the ignition switched off."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.4",
+      "pages": [
+        14
+      ],
+      "text": "2.2.4. If the warning signal as required in paragraph 2.2.3. above has activated, wait 5 minutes before turning the\r\nignition on; the signal must reactivate and remain active as long as the ignition switch is in the \"on\" (\"run\")\r\nposition."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3",
+      "pages": [
+        14
+      ],
+      "text": "2.3. Calculation of time duration\r\nThe time to be taken for determination of the requirements of paragraphs 2.1.1.5. and 2.2.3. shall be the total\r\nelapsed time while the vehicle is driven in the test speed range 40 km/h to 100 km/h.\r\nThe time shall be calculated over a continuous drive but it is not necessary that the vehicle maintains throughout\r\nthe test a speed within the test speed range. Where the vehicle speed falls outside the test speed range, any time\r\naccumulated during such events shall not be considered as part of the total test time duration.\r\nThe type Approval Authority shall satisfy itself that the run-flat warning system records the time within the test\r\nspeed range on a cumulative basis and does not restart the time calculation if the vehicle falls outside the test\r\nspeed range."
+    }
+  ]
+}

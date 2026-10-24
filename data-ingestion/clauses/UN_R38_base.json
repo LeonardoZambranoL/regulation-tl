@@ -1,0 +1,1353 @@
+{
+  "regulation": "UN R38",
+  "version": "0.19.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R38 (version 0.19.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nScope\r\nThis Regulation applies to rear fog lamps for vehicles of categories L3, L4, L5, L7, M, N, O, and T1.\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.2, para. 2. -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Deﬁnitions\r\nFor the purposes of this Regulation,"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. \"Rear fog lamp\" means a lamp used to make the vehicle more easily visible from the rear by giving a red\r\nsignal of greater intensity than the rear position (side) lamps;"
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. The definitions given in Regulation No. 48 and its series of amendments in force at the time of application for\r\ntype approval shall apply to this Regulation."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3. \"Rear fog lamps of different types\" means lamps which differ in such essential respects as:\r\n(a) The trade name or mark:\r\n(i) Lamps bearing the same trade name or mark but produced by different manufacturers shall be considered as\r\nbeing of different types;\r\n(ii) Lamps produced by the same manufacturer differing only by the trade name or mark shall be considered as\r\nbeing of the same type.\r\n(b) The characteristics of the optical system (levels of intensity, light distribution angles, category of light source,\r\nlight source module, etc.);\r\n(c) The variable intensity control, if any.\r\nA change of the colour of the light source or the colour of any filter does not constitute a change of type."
+    },
+    {
+      "paragraph": "1.3.1",
+      "pages": [
+        1
+      ],
+      "text": "1.3.1. The trade name or mark;"
+    },
+    {
+      "paragraph": "1.3.2",
+      "pages": [
+        1
+      ],
+      "text": "1.3.2. The characteristics of the optical system;"
+    },
+    {
+      "paragraph": "1.3.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3.3. The category of lamp."
+    },
+    {
+      "paragraph": "1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.4. References made in this Regulation to standard (étalon) filament lamp(s) and to Regulation No. 37 shall refer\r\nto Regulation No. 37 and its series of amendments in force at the time of application for type approval.\r\nReferences made in this Regulation to standard (étalon) LED light source(s) and to Regulation No. 128 shall refer\r\nto Regulation No. 128 and its series of amendments in force at the time of application for type approval."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Application for approval"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. The application for approval shall be submitted by the holder of the trade name or mark or by his duly\r\naccredited representative. It shall specify, whether the device produces steady luminous intensity or whether the\r\ndevice produces variable luminous intensity.\r\nAt the choice of the applicant, it will specify that the device may be installed on the vehicle with different\r\ninclinations of the reference axis in respect to the vehicle reference planes and to the ground or rotate around its\r\nreference axis; these different conditions of installation shall be indicated in the communication form."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2. For each type of rear fog lamp, the application shall be accompanied by:"
+    },
+    {
+      "paragraph": "2.2.1",
+      "pages": [
+        2
+      ],
+      "text": "2.2.1. Drawings (three copies) in sufficient detail to permit identification of the type of the rear fog lamp and\r\nshowing geometrically the position(s) in which the rear fog lamp may be fitted to the vehicle; the axis of\r\nobservation to be taken as the axis of reference in the tests (horizontal angle H = 0º; vertical angle V = 0º; and the\r\npoint to be taken as the centre of reference in the said tests;"
+    },
+    {
+      "paragraph": "2.2.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2.2. A brief technical description stating, in particular, with the exception of lamps with non-replaceable light\r\nsources:\r\n(a) The category or categories of filament lamp(s) prescribed; this filament lamp category shall be one of those\r\ncontained in Regulation No. 37 and its series of amendments in force at the time of application for type approval;\r\nand/or\r\n(b) The category or categories of LED light source(s) prescribed; this LED light source category shall be one of\r\nthose contained in Regulation No. 128 and its series of amendments in force at the time of application for type\r\napproval; and/or\r\n(c) The light source module specific identification code.\r\n(d) For a rear fog lamp of category F2, a concise description of the variable intensity control."
+    },
+    {
+      "paragraph": "2.2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.2.3. Two samples; if the rear fog lamp cannot be mounted indiscriminately on either side of the vehicle, the two\r\nsamples submitted may be identical and be suitable for mounting only on the right or only on the left side of the\r\nvehicle. For a rear fog lamp of category F2, the application shall also be accompanied by the variable intensity\r\ncontrol or a generator providing the same signal(s)."
+    },
+    {
+      "paragraph": "2.2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.2.4. In the case of a type of lamp differing only by the trade name or mark from a type that has already been\r\napproved it shall be sufficient to submit:"
+    },
+    {
+      "paragraph": "2.2.4.1",
+      "pages": [
+        2
+      ],
+      "text": "2.2.4.1. A declaration by the lamp manufacturer that the type submitted is identical (except in the trade name or\r\nmark) with and has been produced by the same manufacturer as, the type already approved, the latter being\r\nidentified by its approval code;"
+    },
+    {
+      "paragraph": "2.2.4.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2.4.2. Two samples bearing the new trade name or mark or equivalent documentation."
+    },
+    {
+      "paragraph": "2.2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.2.5. In the case of a non-replaceable filament lamp(s) or light source module(s) equipped with non-replaceable\r\nfilament lamp(s): the documents according to paragraph 5.6. of this Regulation."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Markings\r\nRear fog lamps submitted for approval shall:"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. Bear the trade name or mark of the applicant; this marking must be clearly legible and be indelible;"
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. With the exception of lamps with non-replaceable light sources bear a clearly legible and indelible marking\r\nindicating:\r\n(a) The category or categories of light source prescribed; and/or\r\n(b) The light source module specific identification code."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. Provide adequate space for the approval mark and for the additional symbols prescribed in paragraph 4.3.\r\nbelow; the said space shall be shown in the drawings referred to in paragraph 2.2.1. above."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        2
+      ],
+      "text": "3.4. In the case of lamps with an electronic light source control gear or a variable intensity control and/or non-\r\nreplaceable light sources and/or light source module(s), bear the marking of the rated voltage or range of voltage."
+    },
+    {
+      "paragraph": "3.5",
+      "pages": [
+        2
+      ],
+      "text": "3.5. In the case of lamps with light source module(s), the light source module(s) shall bear:"
+    },
+    {
+      "paragraph": "3.5.1",
+      "pages": [
+        2
+      ],
+      "text": "3.5.1. The trade name or mark of the applicant; this marking must be clearly legible and indelible;"
+    },
+    {
+      "paragraph": "3.5.2",
+      "pages": [
+        3
+      ],
+      "text": "3.5.2. The specific identification code of the module; this marking must be clearly legible and indelible. This\r\nspecific identification code shall comprise the starting letters \"MD\" for \"MODULE\" followed by the approval\r\nmarking without the circle as prescribed in paragraph 4.3.1.1. below and, in the case several non identical light\r\nsource modules are used, followed by additional symbols or characters; this specific identification code shall be\r\nshown in the drawings mentioned in paragraph 2.2.1. above.\r\nThe approval marking does not have to be the same as the one on the lamp in which the module is used, but both\r\nmarkings shall be from the same applicant."
+    },
+    {
+      "paragraph": "3.5.3",
+      "pages": [
+        3
+      ],
+      "text": "3.5.3. The marking of the rated voltage or range of voltage."
+    },
+    {
+      "paragraph": "3.6",
+      "pages": [
+        3
+      ],
+      "text": "3.6. An electronic light source control gear or a variable intensity control being part of the lamp but not included\r\ninto the lamp body shall bear the name of the manufacturer and its identification number."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. If the two samples of a type of rear fog lamp meet the requirements of this Regulation, approval shall be\r\ngranted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved; the number so assigned may not subsequently\r\nbe assigned by the same Contracting Party to another type of rear fog lamp covered by this Regulation. The first\r\ntwo digits of the approval number shall indicate the most recent series of amendments incorporated in the\r\nRegulation at the time of issue of the approval. Notice of approval or of refusal of approval of a type of rear fog\r\nlamp shall be communicated to the Parties to the Agreement which apply this Regulation by means of a form\r\nconforming to the model in Annex 1 to this Regulation and of an attached drawing, supplied by the applicant for\r\napproval, in a format not exceeding A4 (210 x 297 mm) and, if possible, on a scale of 1:1."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Every rear fog lamp conforming to a type approved under this Regulation shall bear in the space referred to in\r\nparagraph 3.3. above, in addition to the mark and the particulars prescribed in paragraphs 3.1. and 3.2. above:"
+    },
+    {
+      "paragraph": "4.3.1",
+      "pages": [
+        3
+      ],
+      "text": "4.3.1. An international approval mark consisting of:"
+    },
+    {
+      "paragraph": "4.3.1.1",
+      "pages": [
+        3
+      ],
+      "text": "4.3.1.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has\r\ngranted approval2;\r\n\r\n\r\n2The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.2/Amend.3 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "4.3.1.2",
+      "pages": [
+        3
+      ],
+      "text": "4.3.1.2. An approval number;"
+    },
+    {
+      "paragraph": "4.3.2",
+      "pages": [
+        3
+      ],
+      "text": "4.3.2. The additional symbol \"F\" followed by the Figure \"1\" when the device produces steady luminous intensity\r\nand by the Figure \"2\" when the device produces variable luminous intensity."
+    },
+    {
+      "paragraph": "4.3.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3.3. The first two digits of the approval number which indicate the most recent series of amendments to this\r\nRegulation may be placed in the vicinity of the additional symbol \"F\"."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. The mark and the symbol referred to in paragraphs 4.3.1. and 4.3.2.above shall be indelible and shall be\r\nclearly legible even when the rear fog lamp is fitted to the vehicle."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. Independent lamps\r\nIf different types of lamps complying with the requirements of several Regulations, uses the same outer lens\r\nhaving the same or different colour, a single international approval mark may be affixed, consisting of a circle\r\nsurrounding the letter \"E\" followed by the distinguishing number of the country which has granted the approval,\r\nand an approval number. This approval mark may be located anywhere on the lamp, provided that:"
+    },
+    {
+      "paragraph": "4.5.1",
+      "pages": [
+        3
+      ],
+      "text": "4.5.1. It is visible after their installation."
+    },
+    {
+      "paragraph": "4.5.2",
+      "pages": [
+        4
+      ],
+      "text": "4.5.2. The identification symbol for each lamp appropriate to each Regulation under which approval has been\r\ngranted, together with the corresponding series of amendments incorporating the most recent major technical\r\namendments to the Regulation at the time of issue of the approval and if necessary, the required arrow shall be\r\nmarked."
+    },
+    {
+      "paragraph": "4.5.3",
+      "pages": [
+        4
+      ],
+      "text": "4.5.3. The size of the components of a single approval mark shall not be less than the minimum size required for\r\nthe smallest of the individual marks under which approval has been granted."
+    },
+    {
+      "paragraph": "4.5.4",
+      "pages": [
+        4
+      ],
+      "text": "4.5.4. The main body of the lamp shall include the space described in paragraph 3.3. above and shall bear the\r\napproval mark of the actual function(s)."
+    },
+    {
+      "paragraph": "4.5.5",
+      "pages": [
+        4
+      ],
+      "text": "4.5.5. Model E in Annex 2 to this Regulation gives examples of an approval mark with the above-mentioned\r\nadditional symbols."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        4
+      ],
+      "text": "4.6. When two or more lamps are part of the same unit of grouped, combined or reciprocally incorporated lamps,\r\napproval is granted only if each of these lamps satisfies the requirements of this Regulation or of another\r\nRegulation. Lamps not satisfying any one of those Regulations shall not be part of such a unit of grouped,\r\ncombined or reciprocally incorporated lamps."
+    },
+    {
+      "paragraph": "4.6.1",
+      "pages": [
+        4
+      ],
+      "text": "4.6.1. Where grouped, combined or reciprocally incorporated lamps comply with the requirements of several\r\nRegulations, a single international approval mark may be applied, consisting of a circle surrounding the letter \"E\"\r\nfollowed by the distinguishing number of the country which has granted the approval, an approval number and, if\r\nnecessary, the required arrow. This approval mark may be placed anywhere on the grouped, combined or\r\nreciprocally incorporated lamps provided that:"
+    },
+    {
+      "paragraph": "4.6.1.1",
+      "pages": [
+        4
+      ],
+      "text": "4.6.1.1. It is visible after their installation;"
+    },
+    {
+      "paragraph": "4.6.1.2",
+      "pages": [
+        4
+      ],
+      "text": "4.6.1.2. No part of the grouped, combined or reciprocally incorporated lamps that transmits light can be removed\r\nwithout at the same time removing the approval mark."
+    },
+    {
+      "paragraph": "4.6.2",
+      "pages": [
+        4
+      ],
+      "text": "4.6.2. The identification symbol for each lamp appropriate to each Regulation under which approval has been\r\ngranted, together with the corresponding series of amendments incorporating the most recent major technical\r\namendments to the Regulation at the time of issue of the approval, shall be marked:"
+    },
+    {
+      "paragraph": "4.6.2.1",
+      "pages": [
+        4
+      ],
+      "text": "4.6.2.1. Either on the appropriate light-emitting surface;"
+    },
+    {
+      "paragraph": "4.6.2.2",
+      "pages": [
+        4
+      ],
+      "text": "4.6.2.2. Or in a group, in such a way that each lamp of the grouped, combined or reciprocally incorporated lamps\r\nmay be clearly identified (see three possible examples in Annex 2)."
+    },
+    {
+      "paragraph": "4.6.3",
+      "pages": [
+        4
+      ],
+      "text": "4.6.3. The size of the components of a single approval mark shall not be less than the minimum size required for\r\nthe smallest of the individual marks by a Regulation under which approval has been granted."
+    },
+    {
+      "paragraph": "4.6.4",
+      "pages": [
+        4
+      ],
+      "text": "4.6.4. An approval number shall be assigned to each type approved. The same Contracting Party may not assign\r\nthe same number to another type of grouped, combined or reciprocally incorporated lamps covered by this\r\nRegulation."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        4
+      ],
+      "text": "4.7. Annex 2 gives examples of arrangements of approval marks for a single lamp (Figure 1) and for grouped,\r\ncombined or reciprocally incorporated lamps (Figure 2) with all the additional symbols referred to above."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. General speciﬁcations\r\nThe requirements contained in sections 5. \"General specifications\" and 6. \"Individual specifications\" and in the\r\nAnnexes referenced in the said sections of Regulations Nos. 48, 53 or 86, and their series of amendments in\r\nECE/TRANS/WP.29/2017/26 3 force at the time of application for the lamp type approval shall apply to this\r\nRegulation. The requirements pertinent to each lamp and to the category/ies of vehicle on which the lamp is\r\nintended to be installed shall be applied, where its verification at the moment of lamp type approval is feasible."
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. Each sample shall conform to the specifications set forth in the paragraphs below."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2. Rear fog lamps shall be so designed and constructed that in normal use, despite the vibration to which they\r\nmay then be subjected, they continue to function satisfactorily and retain the characteristics prescribed by this\r\nRegulation."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.3. In the case of light source modules, it shall be checked that:"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        5
+      ],
+      "text": "5.3.1. The design of the light source module(s) shall be such as:\r\n(a) That each light source module can only be fitted in no other position than the designated and correct one and\r\ncan only be removed with the use of tool(s);\r\n(b) If there are more than one light source module used in the housing for a device, light source modules having\r\ndifferent characteristics cannot be interchanged within the same lamp housing."
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        5
+      ],
+      "text": "5.3.2. The light source module(s) shall be tamperproof."
+    },
+    {
+      "paragraph": "5.3.3",
+      "pages": [
+        5
+      ],
+      "text": "5.3.3. A light source module shall be so designed that regardless of the use of tool(s), it shall not be mechanically\r\ninterchangeable with any replaceable approved light source."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.4. In the case of failure of the variable intensity control regulating the variable luminous intensity of a rear fog\r\nlamp of category F2 emitting more than the maximum value of category F or F1, requirements of steady luminous\r\nintensity of category F or F1 shall be fulfilled automatically."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        5
+      ],
+      "text": "5.5. In the case of replaceable light sources:"
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.5.1. The rear fog lamp shall only be equipped with light source(s) approved according to Regulation No. 37\r\nand/or Regulation No. 128, provided that no restriction on the use is made in Regulation No. 37 and its series of\r\namendments in force at the time of application for type approval or in Regulation No. 128 and its series of\r\namendments in force at the time of application for type approval."
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2. The design of the device shall be such that the light source can be fixed in no other position but the correct\r\none."
+    },
+    {
+      "paragraph": "5.5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.5.3. The light source holder shall conform to the characteristics given in IEC Publication 60061. The holder data\r\nsheet relevant to the category of light source used, applies."
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        5
+      ],
+      "text": "5.6. In the case of non-replaceable filament lamp(s) or light source module(s) equipped with non-replaceable\r\nfilament lamp(s), the applicant shall annex to the type approval documentation a report (by the light source\r\nmanufacturer indicated in the type approval documentation), acceptable to the Authority responsible for type\r\napproval, that demonstrates compliance of these non-replaceable filament lamp(s) with the requirements as\r\nspecified in paragraph 4.11. of IEC 60809, Edition 3."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        5
+      ],
+      "text": "6. Intensity of light emitted"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        5
+      ],
+      "text": "6.1. The intensity of the light emitted by each of the two samples shall be not less than the minima and not greater\r\nthan the maxima specified below and shall be measured in relation to the axis of references in the directions\r\nshown below (expressed in degrees of angle with the axis of reference)."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2. The intensity along the H and V axes, between 10° to the left and 10° to the right and between 5° up and 5°\r\ndown, shall not be less than 150 cd."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        5
+      ],
+      "text": "6.3. The intensity of the light emitted in all directions in which the light(s) can be observed shall not exceed 300\r\ncd for a device with steady luminous intensity (F or F1) 840 cd for a device with variable luminous intensity (F2)."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        5
+      ],
+      "text": "6.4. In the case of a single lamp containing more than one light source when all light sources are illuminated the\r\nmaximum intensities shall not be exceeded."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        5
+      ],
+      "text": "6.5. Failure of a single lamp containing more than one light source:"
+    },
+    {
+      "paragraph": "6.5.1",
+      "pages": [
+        6
+      ],
+      "text": "6.5.1. In a single lamp containing more than one light source, a group of light sources, wired so that the failure of\r\nany one of them causes all of them to stop emitting light, shall be considered to be one light source."
+    },
+    {
+      "paragraph": "6.5.2",
+      "pages": [
+        6
+      ],
+      "text": "6.5.2. In case of failure of any one light source in a single lamp containing more than one light source, at least one\r\nof the following provisions shall apply:\r\n(a) The light intensity complies with the minimum intensity required in the table of standard light distribution in\r\nspace as shown in Annex 3, or\r\n(b) A signal for activation of a tell-tale indicating failure, as indicated in paragraph 6.11.8. of Regulation No. 48, is\r\nproduced, provided that the luminous intensity in the axis of reference is at least 50 per cent of the minimum\r\nintensity required. In this case, a note in the communication form states that the lamp is only for use on a vehicle\r\nfitted with a telltale indicating failure."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        6
+      ],
+      "text": "6.6. The variable intensity control shall not generate signals which cause luminous intensities:"
+    },
+    {
+      "paragraph": "6.6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.6.1. Outside the range specified in paragraphs 6.2. and 6.3. above and"
+    },
+    {
+      "paragraph": "6.6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.6.2. Exceeding the category F or F1 maximum specified in paragraph 6.3.:\r\n(a) For systems depending only on daytime and night time conditions: under night time conditions;\r\n(b) For other systems: under standard conditions3\r\n\r\n\r\n3Good visibility (meteorological optical range MOR > 2,000 m defined according to WMO, Guide to Meteorological Instruments and\r\nMethods of Observation, Sixth Edition, ISBN: 92-63-16008-2, pp .9.1/1.9.11, Geneva 1996.) and clean lens."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        6
+      ],
+      "text": "6.7. The apparent surface in the direction of the reference axis shall not exceed 140 cm2."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        6
+      ],
+      "text": "6.8. Annex 3 gives particulars of the measurement method to be used in case of doubt."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. Test procedures"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. All measurements, photometric and colorimetric, shall be made:"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1.1. In the case of a lamp with replaceable light source, if not supplied by an electronic light source control gear\r\nor a variable intensity control, with an uncolored or colored standard light source of the category prescribed for\r\nthe device, supplied with the voltage:\r\n(a) In the case of filament lamp(s), that is necessary to produce the reference luminous flux required for that\r\ncategory of filament lamp,\r\n(b) In the case of LED light sources of 6.75 V, 13.5 V or 28.0 V; the luminous flux value produced shall be\r\ncorrected. The correction factor is the ratio between the objective luminous flux and the mean value of the\r\nluminous flux found at the voltage applied."
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        6
+      ],
+      "text": "7.1.2. In the case of a lamp equipped with non-replaceable light sources (filament lamps and other), at 6.75 V,"
+    },
+    {
+      "paragraph": "13.5",
+      "pages": [
+        6
+      ],
+      "text": "13.5 V or 28.0 V respectively.",
+      "review_flags": [
+        "heading_without_terminal_dot",
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "7.1.3",
+      "pages": [
+        6
+      ],
+      "text": "7.1.3. In the case of a system that uses an electronic light source control gear or a variable intensity control, being\r\npart of the lamp4 applying at the input terminals of the lamp the voltage declared by the manufacturer or, if not\r\nindicated, 6.75 V, 13.5 V or 28.0 V respectively.\r\n\r\n4For the purpose of this Regulation \"being part of the lamp\" means to be physically included in the lamp body or to be external, separated or\r\nnot, from the lamp body but supplied by the lamp manufacturer as part of the lamp system.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "7.1.4",
+      "pages": [
+        6
+      ],
+      "text": "7.1.4. In the case of a system that uses an electronic light source control gear or a variable intensity control, not\r\nbeing part of the lamp the voltage declared by the manufacturer shall be applied to the input terminals of the lamp."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2. The test laboratory shall require from the manufacturer the light source control gear or a variable intensity\r\ncontrol needed to supply the light source and the applicable functions."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        7
+      ],
+      "text": "7.3. However in the case of a rear fog lamp of category F2 operated by a variable intensity control to obtain\r\nvariable luminous intensity, photometric measurements shall be performed according to the applicant’s\r\ndescription."
+    },
+    {
+      "paragraph": "7.4",
+      "pages": [
+        7
+      ],
+      "text": "7.4. The voltage to be applied to the lamp shall be noted in the communication for in Annex 1 of this Regulation."
+    },
+    {
+      "paragraph": "7.5",
+      "pages": [
+        7
+      ],
+      "text": "7.5. For any lamp except those equipped with filament lamps, the luminous intensities, measured after one minute\r\nand after 30 minutes of operation, shall comply with the minimum and maximum requirements. The luminous\r\nintensity distribution after one minute of operation can be calculated from the luminous intensity distribution after\r\n30 minutes of operation by applying at each test point the ratio of luminous intensities measured at HV after one\r\nminute and after 30 minutes of operation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "7.6",
+      "pages": [
+        7
+      ],
+      "text": "7.6. The limits of the apparent surface in the direction of the reference axis of a light- signalling device shall be\r\ndetermined."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        7
+      ],
+      "text": "8. Heat resistance test"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        7
+      ],
+      "text": "8.1. The lamp must be subjected to a one-hour test of continuous operation following a warm-up period of 20\r\nminutes. The ambient temperature shall be 23 ºC ± 5 ºC. The lamp used shall be a lamp of the category prescribed\r\nfor the lamp, and shall be supplied with a current at a voltage such that it gives the specified average power at the\r\ncorresponding test voltage."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        7
+      ],
+      "text": "8.2. Where only the maximum power is specified, the test shall be carried out by regulating the voltage to obtain a\r\npower equal to 90 per cent of the specified power. The specified average or maximum power referred to above\r\nshall in all cases be chosen from the voltage range of 6, 12 or 24 V at which it reaches the highest value."
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        7
+      ],
+      "text": "8.3. In the case of light sources operated by an electronic control gear to obtain variable luminous intensity, the\r\ntest shall be carried out under the conditions given at minimum 90 per cent of the higher luminous intensity."
+    },
+    {
+      "paragraph": "8.4",
+      "pages": [
+        7
+      ],
+      "text": "8.4 After the lamp has been stabilized at the ambient temperature, no distortion, deformation, cracking or colour\r\nmodification shall be perceptible.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. Colour of light emitted\r\nThe colour of the light emitted inside the field of the light distribution grid defined at paragraph 3. of Annex 3,\r\nwhich shall be measured under conditions described in paragraph 7. above, shall be red. Outside this field no\r\nsharp variation of colour shall be observed.\r\nThese requirements shall also apply within the range of variable luminous intensity produced by rear fog lamps of\r\ncategory F2.\r\nHowever, for lamps equipped with non-replaceable light sources (filament lamps and other), the colorimetric\r\ncharacteristics should be verified with the light sources present in the lamp, in accordance with relevant sub-\r\nparagraph of paragraph 7.1. of this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. Conformity of production\r\nThe conformity of production procedures shall comply with those set out in Appendix 2 of the Agreement\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.2) with the following requirements:"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1. Rear fog lamps shall be so manufactured as to conform to the type approved under this Regulation. The\r\ncompliance with the requirements set forth in paragraphs 6. and 9. above shall be verified as follows:"
+    },
+    {
+      "paragraph": "10.1.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1.1. The minimum requirements for conformity of production control procedures set forth in Annex 4 to this\r\nRegulation shall be complied with."
+    },
+    {
+      "paragraph": "10.1.2",
+      "pages": [
+        7
+      ],
+      "text": "10.1.2. The minimum requirements for sampling by an inspector set forth in Annex 5 to this Regulation shall be\r\ncomplied with."
+    },
+    {
+      "paragraph": "10.2",
+      "pages": [
+        8
+      ],
+      "text": "10.2. The Type Approval Authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production facility. The normal frequency of these verifications shall be once every two\r\nyears."
+    },
+    {
+      "paragraph": "10.3",
+      "pages": [
+        8
+      ],
+      "text": "10.3. In the case of non-replaceable filament lamp(s) or light source module(s) equipped with non-replaceable\r\nfilament lamps, a report (by the light source manufacturer indicated in the type approval documentation) shall\r\ndemonstrate compliance of these non-replaceable filament lamp(s) with lifetime requirements and, in the case of\r\ncolour coated filament lamps, also with colour endurance requirements, as specified in paragraph 4.11. of IEC\r\n60809, Edition 3."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        8
+      ],
+      "text": "11. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        8
+      ],
+      "text": "11.1. The approval granted for a type of rear fog lamp may be withdrawn if the foregoing requirements are not\r\ncomplied with or if a rear fog lamp bearing the mark referred to in paragraphs 4.3.1. and 4.3.2. does not conform\r\nto the type approved."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        8
+      ],
+      "text": "11.2. If a Contracting Party to the Agreement which applies this Regulation withdraws an approval it has\r\npreviously granted, it shall forthwith notify the other Contracting Parties which apply this Regulation by means of\r\na communication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        8
+      ],
+      "text": "12. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of rear fog lamp approved under this\r\nRegulation, he shall inform thereof the Type Approval Authority which granted the approval. Upon receiving the\r\nrelevant communication, that Authority shall inform the other Parties to the Agreement which apply this\r\nRegulation thereof, by means of a communication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "13",
+      "pages": [
+        8
+      ],
+      "text": "13. Names and addresses of Technical Services conducting approval tests,\r\nand of Type Approval Authorities\r\nThe Contracting Parties to the Agreement which apply this Regulation shall communicate to the secretariat of the\r\nUnited Nations the names and addresses of the Technical Services conducting approval tests and of the Type\r\nApproval Authorities which grant approval and to which the forms certifying approval or refusal or withdrawal of\r\napproval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "Annex 1 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n......................................\r\n......................................\r\n......................................\r\nconcerning2: Approval granted\r\n\r\nApproval refused\r\n\r\n\r\n\r\n\r\n\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of rear fog lamp for power-driven vehicles and their trailers pursuant to Regulation No. 38\r\nApproval No................................…. Extension No......................................…."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1 Distinguishing number of the country which has granted/refused/withdrawn approval (see approval provisions in the Regulation).",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2 Strike out what does not apply.\r\n\r\n2. Trade name or mark of the device: .................................\r\n2. Manufacturer's name for the type of device...........................",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        9
+      ],
+      "text": "3. Manufacturer's name and address ................................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        9
+      ],
+      "text": "4. If applicable, name and address of the manufacturer's representative..........."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        9
+      ],
+      "text": "5. Submitted for approval on ......................................"
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        9
+      ],
+      "text": "6. Technical Service responsible for conducting approval tests................"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        9
+      ],
+      "text": "7. Date of report issued by that Service................................"
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        9
+      ],
+      "text": "8. Number of reports issued by that Service............................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        9
+      ],
+      "text": "9. Concise description:\r\nNumber, category and kind of light source(s) ................................................................................\r\nVoltage and wattage: ...............................................................................................................\r\nLight source module specific identification code: ..........................................................................\r\nGeometrical conditions of installation and relating variations, if any: ................................................\r\nApplication of an electronic light source control gear/variable intensity control:\r\n(a) Being part of the lamp: yes/no2\r\n\r\n(b) Being not part of the lamp: yes/no2\r\n\r\nInput voltage(s) supplied by an electronic light source control gear/variable intensity control .................\r\nElectronic light source control gear/variable intensity control manufacturer and identification number (when the\r\nlight source control gear is part of the lamp but is not included into the lamp body):\r\n...............................................................................................\r\nVariable luminous intensity: yes/no2\r\n\r\nThe lamp is only for use on a vehicle fitted with a tell-tale indicating failure:\r\nyes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        9
+      ],
+      "text": "10. Position of the approval mark:...................................."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        9
+      ],
+      "text": "11. Reason(s) for extension (if applicable):.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        9
+      ],
+      "text": "12. Approval granted/extended/refused/withdrawn2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        9
+      ],
+      "text": "13. Place...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        9
+      ],
+      "text": "14. Date....................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        9
+      ],
+      "text": "15. Signature ................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        10
+      ],
+      "text": "16. The list of documents deposited with the Type Approval Authority which has granted approval is annexed to\r\nthis communication and may be obtained on request."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        10
+      ],
+      "text": "Annex 2 Arrangement of approval marks"
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        10
+      ],
+      "text": "Figure 1 (Marking for single lamps)\r\nModel A\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n                                               a = 5 mm min\r\nThe device bearing the approval mark shown above is a rear fog lamp with steady luminous intensity approved in\r\nthe Netherlands (E4) pursuant to Regulation No. 38 under approval number 2439. The approval number indicates\r\nthat the approval was granted in accordance with the requirements of Regulation No. 38 in its original version.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "text": "Figure 2 (Simplified marking for grouped, combined or reciprocally incorporated lamps)\r\n(The vertical and horizontal lines schematize the shape of the light-signalling device.\r\nThese are not part of the approval mark.)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNote: The three examples of approval marks, models B, C and D, represent three possible variants of the marking\r\nof a lighting device when two or more lamps are part of the same unit of grouped, combined or reciprocally\r\nincorporated lamps. This approval mark shows that the device was approved in the Netherlands (E4) under\r\napproval number 3333 and comprising:\r\nA rear direction indicator lamp producing variable luminous intensity (category 2b) approved in accordance with\r\nthe 01 series of amendments to Regulation No. 6,\r\nA red rear position (side) lamp producing variable luminous intensity (R2) approved in accordance with the 02\r\nseries of amendments to Regulation No. 7,\r\nA rear fog lamp producing variable luminous intensity (F2) approved in accordance with Regulation No. 38 in its\r\noriginal version,\r\nA reversing lamp (AR) approved in accordance with Regulation No. 23 in its original version,\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nA stop-lamp producing variable luminous intensity (S2) approved in accordance with the 02 series of amendments\r\nto Regulation No. 7.\r\nModel E Marking of independent lamps\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above example corresponds to the marking of a lens intended to be used in different types of lamps. The\r\napproval marks indicate that the device was approved in Spain (E9) under approval number 1432 and comprises:\r\nA rear fog lamp (F) approved in accordance with the Regulation No. 38 in its original version,\r\nA rear direction indicator lamp of category 2a approved in accordance with the 01 series of amendments to\r\nRegulation No. 6,\r\nA reversing lamp (AR) approved in accordance with Regulation No. 23 in its original version,\r\nA red rear position (side) lamp (R) approved in accordance with the 02 series of amendments to Regulation No. 7,\r\nA stop-lamp with one level of illumination (S1) approved in accordance with the 02 series of amendments to\r\nRegulation No. 7.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        12
+      ],
+      "text": "Figure 3 Light source modules\r\n\r\n\r\n\r\n\r\nThe light source module bearing the identification code shown above has been approved together with a lamp\r\napproved in Italy (E3) under approval number 17325.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        12
+      ],
+      "text": "Annex 3 Photometric measurements"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1. When photometric measurements are taken, stray reflexions shall be avoided by appropriate masking."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        12
+      ],
+      "text": "2. In the event that the results of measurements are challenged, measurements shall be taken in such a way as to\r\nmeet the following requirements:"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        12
+      ],
+      "text": "2.1. The distance of measurement shall be such that the law of the inverse of the square of the distance is\r\napplicable;"
+    },
+    {
+      "paragraph": "Annex 3 / 2.2",
+      "pages": [
+        12
+      ],
+      "text": "2.2. The measuring equipment shall be such that the angle subtended by the receiver from the reference centre of\r\nthe light is between 10' and 1°;"
+    },
+    {
+      "paragraph": "Annex 3 / 2.3",
+      "pages": [
+        12
+      ],
+      "text": "2.3. The intensity requirement for a particular direction of observation shall be satisfied if the required intensity is\r\nobtained in a direction deviating by not more than one-quarter of a degree from the direction of observation."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        12
+      ],
+      "text": "3. In the case where the device may be installed on the vehicle in more than one or in a field of different positions\r\nthe photometric measurements shall be repeated for each position or for the extreme positions of the field of the\r\nreference axis specified by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        12
+      ],
+      "text": "4. If visual examination of a light appears to reveal substantial local variations of intensity, a check shall be made\r\nto ensure that, outside the axes, no intensity measured within the rhombus defined by the extreme directions of\r\nmeasurement is below 75 cd (see diagram below)."
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        13
+      ],
+      "text": "5. Photometric measurement of lamps equipped with several light sources\r\nThe photometric performance shall be checked:"
+    },
+    {
+      "paragraph": "Annex 3 / 5.1",
+      "pages": [
+        13
+      ],
+      "text": "5.1. For non-replaceable light sources (filament lamps and other):\r\nWith the light sources present in the lamp, in accordance with paragraph 7.1. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 3 / 5.2",
+      "pages": [
+        13
+      ],
+      "text": "5.2. For replaceable light source(s):\r\nWhen equipped with light source(s) at 6.75 V, 13.5 V or 28.0 V, the luminous intensity values produced shall be\r\ncorrected. For filament lamps the correction factor is the ratio between the reference luminous flux and the mean\r\nvalue of the luminous flux found at the voltage applied (6.75 V, 13.5 V or 28.0 V). When equipped with LED light\r\nsource(s) at 6.75 V, 13.5 V or 28.0 V; the luminous flux value produced shall be corrected. The correction factor is\r\nthe ratio between the objective luminous flux and the value of the luminous flux found at the voltage applied.\r\nThe actual luminous fluxes of each light source used shall not deviate more than 5 per cent from the mean value.\r\nAlternatively and in case of filament lamps only, a standard filament lamp may be used in turn, in each of the\r\nindividual positions, operated at its reference flux, the individual measurements in each position being added\r\ntogether."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        13
+      ],
+      "text": "Annex 4 Minimum requirements for conformity of production control\r\nprocedures"
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        13
+      ],
+      "text": "1. General"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        13
+      ],
+      "text": "1.1. The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the\r\ndifferences do not exceed inevitable manufacturing deviations within the requirements of this Regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 1.2",
+      "pages": [
+        13
+      ],
+      "text": "1.2. With respect to photometric performances, the conformity of mass-produced lamps shall not be contested if,\r\nwhen testing according to paragraph 7. of this Regulation, the photometric performances as set forth in paragraph\r\n6. of this Regulation of any lamp chosen at random and equipped with a standard light source, or when the lamps\r\nare equipped with non-replaceable light sources (filament lamps or other), and when all measurements are made at",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 6.75",
+      "pages": [
+        13
+      ],
+      "text": "6.75 V, 13.5 V or 28.0 V respectively:",
+      "review_flags": [
+        "heading_without_terminal_dot",
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 1.2.1",
+      "pages": [
+        13
+      ],
+      "text": "1.2.1. No measured value deviates unfavourably by more than 20 per cent from the values prescribed in this\r\nRegulation.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 1.2.2",
+      "pages": [
+        13
+      ],
+      "text": "1.2.2. In the case of a direction indicator equipped with a replaceable light source, if results of the test described\r\nabove do not meet the requirements, tests shall be repeated using another standard light source."
+    },
+    {
+      "paragraph": "Annex 4 / 1.3",
+      "pages": [
+        13
+      ],
+      "text": "1.3. With respect to colorimetric performance, the requirements set out in paragraph 9. of this Regulation shall be\r\ncomplied with."
+    },
+    {
+      "paragraph": "Annex 4 / 1.4",
+      "pages": [
+        13
+      ],
+      "text": "1.4. In the case of non-replaceable filament lamp(s) or light source module(s) equipped with non-replaceable\r\nfilament lamps, at any conformity of production check:"
+    },
+    {
+      "paragraph": "Annex 4 / 1.4.1",
+      "pages": [
+        14
+      ],
+      "text": "1.4.1. The holder of the approval mark shall demonstrate the use in normal production and show the identification\r\nof the non-replaceable filament lamp(s) as indicated in the type approval documentation;"
+    },
+    {
+      "paragraph": "Annex 4 / 1.4.2",
+      "pages": [
+        14
+      ],
+      "text": "1.4.2. In the case where doubt exists in respect to compliance of the nonreplaceable filament lamp(s) with lifetime\r\nrequirements and/or, in the case of colour coated filament lamps, with colour endurance requirements, as specified\r\nin paragraph 4.11. of IEC 60809, Edition 3, conformity shall be checked (by the light source manufacturer\r\nindicated in the type approval documentation) as specified in paragraph 4.11. of IEC 60809, Edition 3."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        14
+      ],
+      "text": "2. Minimum requirements for verification of conformity by the manufacturer\r\nFor each type of lamp the holder of the approval mark shall carry out at least the following tests, at appropriate\r\nintervals. The tests shall be carried out in accordance with the provisions of this Regulation.\r\nIf any sampling shows non-conformity with regard to the type of test concerned, further samples shall be taken\r\nand tested. The manufacturer shall take steps to ensure the conformity of the production concerned."
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        14
+      ],
+      "text": "2.1. Nature of tests\r\nTests of conformity in this Regulation shall cover the photometric and colorimetric characteristics."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2",
+      "pages": [
+        14
+      ],
+      "text": "2.2. Methods used in tests"
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.1",
+      "pages": [
+        14
+      ],
+      "text": "2.2.1. Tests shall generally be carried out in accordance with the methods set out in this Regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.2",
+      "pages": [
+        14
+      ],
+      "text": "2.2.2. In any test of conformity carried out by the manufacturer, equivalent methods may be used with the consent\r\nof the Type Approval Authority responsible for approval tests. The manufacturer is responsible for proving that\r\nthe applied methods are equivalent to those laid down in this Regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.3",
+      "pages": [
+        14
+      ],
+      "text": "2.2.3. The application of paragraphs 2.2.1. and 2.2.2. requires regular calibration of test apparatus and its\r\ncorrelation with measurements made by a competent authority."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.4",
+      "pages": [
+        14
+      ],
+      "text": "2.2.4. In all cases the reference methods shall be those of this Regulation, particularly for the purpose of\r\nadministrative verification and sampling."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3",
+      "pages": [
+        14
+      ],
+      "text": "2.3. Nature of sampling\r\nSamples of lamps shall be selected at random from the production of a uniform batch. A uniform batch means a\r\nset of lamps of the same type, defined according to the production methods of the manufacturer.\r\nThe assessment shall in general cover series production from individual factories. However, a manufacturer may\r\ngroup together records concerning the same type from several factories, provided these operate under the same\r\nquality system and quality management."
+    },
+    {
+      "paragraph": "Annex 4 / 2.4",
+      "pages": [
+        14
+      ],
+      "text": "2.4. Measured and recorded photometric characteristics\r\nThe sampled lamp shall be subjected to photometric measurements for the minimum values at the points listed in\r\nAnnex 3 and for the required chromaticity coordinates."
+    },
+    {
+      "paragraph": "Annex 4 / 2.5",
+      "pages": [
+        14
+      ],
+      "text": "2.5. Criteria governing acceptability\r\nThe manufacturer is responsible for carrying out a statistical study of the test results and for defining, in\r\nagreement with the Type Approval Authority, criteria governing the acceptability of his products in order to meet\r\nthe specifications laid down for verification of conformity of products in paragraph 10.1. of this Regulation.\r\nThe criteria governing the acceptability shall be such that, with a confidence level of 95 per cent, the minimum\r\nprobability of passing a spot check in accordance with Annex 5 (first sampling) would be 0.95."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        14
+      ],
+      "text": "Annex 5 Minimum requirements for sampling by an inspector"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        14
+      ],
+      "text": "1. General"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        14,
+        15
+      ],
+      "text": "1.1. The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in\r\naccordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable\r\n\r\n\r\n\r\n\r\n\r\n\r\nmanufacturing deviations."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2",
+      "pages": [
+        15
+      ],
+      "text": "1.2. With respect to photometric performances, the conformity of mass-produced lamps shall not be contested if,\r\nwhen testing according to paragraph 7. of this Regulation, the photometric performances as set forth in paragraph\r\n6. to this Regulation of any lamp chosen at random and equipped with a standard light source, or when the lamps\r\nare equipped with non-replaceable light sources (filament lamps or other), and when all measurements are made at",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 6.75",
+      "pages": [
+        15
+      ],
+      "text": "6.75 V, 13.5 V or 28.0 V respectively:",
+      "review_flags": [
+        "heading_without_terminal_dot",
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.1",
+      "pages": [
+        15
+      ],
+      "text": "1.2.1. According to the requirements in paragraph 1.2.1. of Annex 4 to this Regulation are met.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.2",
+      "pages": [
+        15
+      ],
+      "text": "1.2.2. In the case of a lamp equipped with a replaceable light source, if results of the test described above do not\r\nmeet the requirements, tests on lamps shall be repeated using another standard light source."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.3",
+      "pages": [
+        15
+      ],
+      "text": "1.2.3. Lamps with apparent defects are disregarded."
+    },
+    {
+      "paragraph": "Annex 5 / 1.3",
+      "pages": [
+        15
+      ],
+      "text": "1.3. The chromaticity coordinates shall be complied with when tested under the conditions of paragraph 7. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "Annex 5 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. First sampling\r\nIn the first sampling four rear fog lamps are selected at random. The first sample of two is marked A, the second\r\nsample of two is marked B."
+    },
+    {
+      "paragraph": "Annex 5 / 2.1",
+      "pages": [
+        15
+      ],
+      "text": "2.1. The conformity of mass-produced rear fog lamps shall not be contested if the deviation of any specimen of\r\nsamples A and B (all four lamps) is not more than 20 per cent.\r\nIn the case, that the deviation of both lamps of sample A is not more than 0 per cent, the measurement can be\r\nclosed."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2",
+      "pages": [
+        15
+      ],
+      "text": "2.2. The conformity of mass-produced rear fog lamps shall be contested if the deviation of at least one specimen\r\nof sample A or B is more than 20 per cent.\r\nThe manufacturer shall be requested to bring his production in line with the requirements (alignment) and a\r\nrepeated sampling according to paragraph 3. below shall be carried out within two months' time after the\r\nnotification. The samples A and B shall be retained by the Technical Service until the entire Conformity of\r\nProduction process is finished."
+    },
+    {
+      "paragraph": "Annex 5 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. First repeated sampling\r\nA sample of four lamps is selected at random from stock manufactured after alignment.\r\nThe first sample of two is marked C, the second sample of two is marked D."
+    },
+    {
+      "paragraph": "Annex 5 / 3.1",
+      "pages": [
+        15
+      ],
+      "text": "3.1. The conformity of mass-produced rear fog lamps shall not be contested if the deviation of any specimen of\r\nsamples C and D (all four lamps) is not more than 20 per cent.\r\nIn the case, that the deviation of both lamps of sample C is not more than 0 per cent, the measurement can be\r\nclosed."
+    },
+    {
+      "paragraph": "Annex 5 / 3.2",
+      "pages": [
+        15
+      ],
+      "text": "3.2. The conformity of mass-produced rear fog lamps shall be contested if the deviation of at least:"
+    },
+    {
+      "paragraph": "Annex 5 / 3.2.1",
+      "pages": [
+        15
+      ],
+      "text": "3.2.1. One specimen of sample C or D is more than 20 per cent but the deviation of all specimen of these samples\r\nis not more than 30 per cent.\r\nThe manufacturer shall be requested again to bring his production in line with the requirements (alignment).\r\nA second repeated sampling according to paragraph 4. below shall be carried out within two months' time after the\r\nnotification. The samples C and D shall be retained by the Technical Service until the entire Conformity of\r\nProduction process is finished."
+    },
+    {
+      "paragraph": "Annex 5 / 3.2.2",
+      "pages": [
+        15
+      ],
+      "text": "3.2.2. One specimen of sample C or D is more than 30 per cent.\r\nIn this case the approval shall be withdrawn and paragraph 5. below shall be applied."
+    },
+    {
+      "paragraph": "Annex 5 / 4",
+      "pages": [
+        16
+      ],
+      "text": "4. Second repeated sampling\r\nA sample of four lamps is selected at random from stock manufactured after alignment.\r\nThe first sample of two is marked E, the second sample of two is marked F."
+    },
+    {
+      "paragraph": "Annex 5 / 4.1",
+      "pages": [
+        16
+      ],
+      "text": "4.1. The conformity of mass-produced rear fog lamps shall not be contested if the deviation of any specimen of\r\nsamples E and F (all four lamps) is not more than 20 per cent.\r\nIn the case, that the deviation of both lamps of sample E is not more than 0 per cent, the measurement can be\r\nclosed."
+    },
+    {
+      "paragraph": "Annex 5 / 4.2",
+      "pages": [
+        16
+      ],
+      "text": "4.2. The conformity of mass-produced rear fog lamps shall be contested if the deviation of at least one specimen\r\nof sample E or F is more than 20 per cent.\r\nIn this case the approval shall be withdrawn and paragraph 5. below shall be applied."
+    },
+    {
+      "paragraph": "Annex 5 / 5",
+      "pages": [
+        16
+      ],
+      "text": "5. Approval withdrawn\r\nApproval shall be withdrawn according to paragraph 11. of this Regulation."
+    }
+  ]
+}

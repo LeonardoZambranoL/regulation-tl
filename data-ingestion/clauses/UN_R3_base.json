@@ -1,0 +1,1498 @@
+{
+  "regulation": "UN R3",
+  "version": "2.17.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R3 (version 2.17.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. SCOPE\r\nThis Regulation applies to retro-reflecting devices 1/ for vehicles of categories L, M, N, O, and T 2/.\r\n\r\n1/Also called \"retro-reflector(s)\".\r\n\r\n2/ As defined in Annex 7 to the Consolidated Resolution on the Construction of Vehicles (R.E.3), (document\r\nTRANS/WP.29/78/Rev.1/Amend.2 as last amended by Amend.4)."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. DEFINITIONS 3/\r\n\r\n3/The definitions of the technical terms (excluding the ones in Regulation No. 48) are those adopted by the International Commission on\r\nIllumination (CIE).\r\nFor the purpose of this Regulation,"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. The definitions given in Regulation No. 48 and its series of amendments in force at the time of application for\r\ntype approval shall apply to this Regulation."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Retro-reflection\" means the reflection in which light is reflected in directions close to the direction from\r\nwhich it came. This property is maintained over wide variations of the illumination angle."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Retro-reflecting optical unit\" means a combination of optical components producing retro-reflection."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Retro-reflecting device\" 1/ means an assembly ready for use and comprising one or more retro-reflecting\r\noptical units.\r\n\r\n1/Also called \"retro-reflector(s)\"."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Angle of divergence\" means the angle between the straight lines connecting the centre of reference to the\r\ncentre of the receiver and to the centre of the source of illumination."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Illumination angle\" means the angle between the axis of reference and the straight line connecting the centre\r\nof reference to the centre of the source of illumination."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Angle of rotation\" means the angle through which the retro-reflecting device is rotated about its axis of\r\nreference starting from one given position."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        1
+      ],
+      "text": "2.8. \"Angular diameter of the retro-reflecting device\" means the angle subtended by the greatest dimension of the\r\nvisible area of the illuminating surface, either at the centre of the source of illumination or at the centre of the\r\nreceiver."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        1
+      ],
+      "text": "2.9. \"Illumination of the retro-reflecting device\" is the abbreviated expression used conventionally to designate\r\nthe illumination measured in a plane perpendicular to the incident rays and passing through the centre of\r\nreference."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        1
+      ],
+      "text": "2.10. \"Coefficient of luminous intensity (CIL)\" means the quotient of the luminous intensity reflected in the\r\ndirection considered, divided by the illumination of the retro-reflecting device for given angles of illumination,\r\ndivergence and rotation."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        1
+      ],
+      "text": "2.11. The symbols and units used in this Regulation are given in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "2.12. A type of \"retro-reflecting device\" is defined by the models and descriptive literature submitted with the\r\napplication for approval. Retro-reflecting devices can be considered as belonging to the same type if they have\r\none or more \"retro-reflecting optical units\" which are identical with those of the standard model, or if not identical\r\n\r\n\r\n\r\n\r\n\r\nare symmetrical and suitable for mounting one on the left and one on the right side of the vehicle, and if their\r\nother parts differ from those of the standard model only in ways not affecting the properties to which this\r\nRegulation applies."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        2
+      ],
+      "text": "2.13. Retro-reflecting devices are divided into three classes according to their photometric characteristics: Class\r\nIA or IB, Class IIIA or IIIB, and Class IVA."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        2
+      ],
+      "text": "2.14. Retro-reflecting devices of Class IB and IIIB are devices combined with other signal lamps which are not\r\nwatertight according to Annex 8, paragraph 1.1., and which are integrated into the body of a vehicle.\r\n2.15.    \"Colour of the reflected light of the device\" The definitions of the colour of the reflected light are given in\r\nparagraph 2.30. of Regulation No. 48.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. APPLICATION FOR APPROVAL"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval shall be submitted by the holder of the trade name or mark, or if necessary by his\r\nduly accredited representative.\r\nAt the choice of the applicant, it will specify that the device may be installed on a vehicle with different\r\ninclinations of the reference axis in respect to the vehicle reference planes and to the ground or, in the case of\r\nClass IA, IB and IVA retro-reflectors, rotate around its reference axis; these different conditions of installation\r\nshall be indicated in the communication form. It shall be accompanied by:\r\n3.1.1. drawings, in triplicate, in sufficient detail to permit identification of the type, showing geometrically the\r\nposition(s) in which the retro-reflecting device may be fitted to the vehicle, and in case of class IB or IIIB-retro-\r\nreflectors details of installation. The drawings must show the position intended for the approval number and class\r\nindicator in relation to the circle of the approval mark;\r\n3.1.2. a brief description giving the technical specifications of the materials of which the retro-reflecting optical\r\nunit is made;\r\n3.1.3. samples of the retro-reflecting device of a colour specified by the manufacturer and, if necessary, the means\r\nof fixation; the number of samples to be submitted is specified in Annex 4 to this Regulation;\r\n3.1.4. if necessary, two samples in other colour(s) for simultaneous or subsequent extension of the approval to\r\ndevices in other colour(s);\r\n3.1.5. in the case of devices of Class IVA: samples of the retro-reflecting device and, if necessary, the means of\r\nfixation; the number of samples to be submitted is specified in Annex 14 to this Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. MARKINGS"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. Every retro-reflecting device submitted for approval must bear:\r\n4.1.1. the trade name or mark of the applicant;\r\n4.1.2. the word \"TOP\" inscribed horizontally on the highest part of the illuminating surface, if such an indication\r\nis necessary to determine without ambiguity the angle or angles of rotation prescribed by the manufacturer.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.1.3",
+      "pages": [
+        2
+      ],
+      "text": "4.1.3. On devices with reduced light distribution, in conformity with paragraph 3.2. or 3.4. in Annex 7 to this\r\nRegulation, a vertical arrow starting from a horizontal segment and directed downwards."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2
+      ],
+      "text": "4.2. A space of sufficient size to accommodate the approval mark shall be provided on every device. This space\r\nshall be shown on the drawings referred to in paragraph 3.1.1. above."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        2
+      ],
+      "text": "4.3. The markings must be visible from the outside when the retro-reflecting device is fitted on the vehicle."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        2
+      ],
+      "text": "4.4. The markings must be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        3
+      ],
+      "text": "5. APPROVAL"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. If all the samples submitted meet the requirements of this Regulation, approval shall be granted."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        3
+      ],
+      "text": "5.2. If the approval granted in respect of a retro-reflecting device is extended to other such devices differing only\r\nin colour, the two samples in any other colour submitted in conformity with paragraph 3.1.4. of this Regulation\r\nshall be required to meet only the colorimetric and photometric specifications, the other tests no longer being\r\nrequired. This paragraph is not applicable to devices of Class IVA."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        3
+      ],
+      "text": "5.3. An approval number shall be assigned to each type approved. Its first two digits (at present 02, corresponding\r\nto the 02 series of amendments which entered into force on 1 July 1985) shall indicate the series of amendments\r\nincorporating the most recent major technical amendments made to the Regulation at the time of issue of the\r\napproval. The same Contracting Party shall not assign the same number to another type of retro-reflecting device\r\ncovered by this Regulation except in the case of an extension of the approval to a device differing only in colour."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        3
+      ],
+      "text": "5.4. Notice of approval or of extension or refusal of approval of a type of retro-reflecting device pursuant to this\r\nRegulation shall be communicated to the Parties to the Agreement which apply this Regulation, by means of a\r\nform conforming to the model in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        3
+      ],
+      "text": "5.5. There shall be affixed to every retro-reflecting device conforming to a type approved under this Regulation, in\r\nthe space referred to in paragraph 4.2. above and in addition to the markings prescribed in paragraph 4.1.\r\n5.5.1. an international approval mark consisting of:\r\n5.5.1.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval; 4/\r\n\r\n4/1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for Belgium, 7 for Hungary, 8 for the Czech Republic, 9 for\r\nSpain, 10 for Serbia and Montenegro, 11 for the United Kingdom, 12 for Austria, 13 for Luxembourg, 14 for Switzerland, 15 (vacant), 16 for\r\nNorway, 17 for Finland, 18 for Denmark, 19 for Romania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece, 24\r\nfor Ireland, 25 for Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for Estonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32\r\nfor Latvia, 33 (vacant), 34 for Bulgaria, 35 (vacant), 36 for Lithuania, 37 for Turkey, 38 (vacant), 39 for Azerbaijan, 40 for The former\r\nYugoslav Republic of Macedonia, 41 (vacant), 42 for the European Community (Approvals are granted by its Member States using their\r\nrespective ECE symbol), 43 for Japan, 44 (vacant), 45 for Australia, 46 for Ukraine, 47 for South Africa, 48 for New Zealand, 49 for Cyprus,\r\n50 for Malta and 51 for the Republic of Korea. Subsequent numbers shall be assigned to other countries in the chronological order in which\r\nthey ratify or accede to the Agreement Concerning the Adoption of Uniform Technical Prescriptions for Wheeled Vehicles, Equipment and\r\nParts which can be Fitted and/or be Used on Wheeled Vehicles and the Conditions for Reciprocal Recognition of Approvals Granted on the\r\nBasis of these Prescriptions, and the numbers thus assigned shall be communicated by the Secretary-General of the United Nations to the\r\nContracting Parties to the Agreement.\r\n5.5.1.2. an approval number;\r\n5.5.1.3. a group of symbols IA, IB, IIIA, IIIB or IVA showing the class of the approved retro-reflecting device.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        3
+      ],
+      "text": "5.6. When two or more lamps are part of the same unit of grouped, combined or reciprocally incorporated lamps\r\n(including a retro-reflector), approval is granted only if each of these lamps satisfies the requirements of this\r\nRegulation or of another Regulation. Lamps not satisfying any one of those Regulations shall not be part of such a\r\nunit of grouped, combined or reciprocally incorporated lamps."
+    },
+    {
+      "paragraph": "5.6.1",
+      "pages": [
+        3
+      ],
+      "text": "5.6.1. Where grouped, combined or reciprocally incorporated lamps comply with the requirements of several\r\nRegulations, a single international approval mark may be applied, consisting of a circle surrounding the letter \"E\"\r\nfollowed by the distinguishing number of the country which has granted the approval, an approval number and, if\r\nnecessary, the required arrow. This approval mark may be placed anywhere on the grouped, combined or\r\nreciprocally incorporated lamps provided that:"
+    },
+    {
+      "paragraph": "5.6.1.1",
+      "pages": [
+        3
+      ],
+      "text": "5.6.1.1. It is visible after their installation;"
+    },
+    {
+      "paragraph": "5.6.1.2",
+      "pages": [
+        3
+      ],
+      "text": "5.6.1.2. No part of the grouped, combined or reciprocally incorporated lamps that transmits light can be removed\r\nwithout at the same time removing the approval mark."
+    },
+    {
+      "paragraph": "5.6.2",
+      "pages": [
+        4
+      ],
+      "text": "5.6.2. The identification symbol for each lamp appropriate to each Regulation under which approval has been\r\ngranted, together with the corresponding series of amendments incorporating the most recent major technical\r\namendments to the Regulation at the time of issue of the approval, shall be marked;"
+    },
+    {
+      "paragraph": "5.6.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.6.2.1. Either on the appropriate light-emitting surface,"
+    },
+    {
+      "paragraph": "5.6.2.2",
+      "pages": [
+        4
+      ],
+      "text": "5.6.2.2. Or in a group, in such a way that each lamp of the grouped, combined or reciprocally incorporated lamps\r\nmay be clearly identified (see the possible examples shown in Annex 3)."
+    },
+    {
+      "paragraph": "5.6.3",
+      "pages": [
+        4
+      ],
+      "text": "5.6.3. The size of the components of a single approval mark shall not be less than the minimum size required for\r\nthe smallest of the individual marks by a Regulation under which approval has been granted."
+    },
+    {
+      "paragraph": "5.6.4",
+      "pages": [
+        4
+      ],
+      "text": "5.6.4. An approval number shall be assigned to each type approved. The same Contracting Party may not assign\r\nthe same number to another type of grouped, combined or reciprocally incorporated lamps covered by this\r\nRegulation."
+    },
+    {
+      "paragraph": "5.7",
+      "pages": [
+        4
+      ],
+      "text": "5.7. The approval mark must be clearly legible and indelible."
+    },
+    {
+      "paragraph": "5.8",
+      "pages": [
+        4
+      ],
+      "text": "5.8. Annex 3 to this Regulation gives examples of arrangements of approval marks for a single lamp (figure 1) and\r\nfor grouped, combined or reciprocally incorporated lamps (figure 2) with all the additional symbols referred to\r\nabove."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        4
+      ],
+      "text": "6. GENERAL SPECIFICATIONS\r\nThe requirements contained in sections 5. \"General specifications\" and 6. \"Individual specifications\" and in the\r\nAnnexes referenced in the said sections of Regulations Nos. 48, 53, 74 or 86, and their series of amendments in\r\nforce at the time of application for the retro-reflecting device type approval shall apply to this Regulation.\r\nThe requirements pertinent to each retro-reflecting device and to the category/ies of vehicle on which the retro-\r\nreflecting device is intended to be installed shall be applied, where its verification at the moment of retro-\r\nreflecting device type approval is feasible."
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        4
+      ],
+      "text": "6.1. Retro-reflecting devices must be so constructed that they function satisfactorily and will continue to do so in\r\nnormal use. In addition, they must not have any defect in design or manufacture that is detrimental to their\r\nefficient operation or to their maintenance in good condition."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        4
+      ],
+      "text": "6.2. The components of retro-reflecting devices must not be capable of being easily dismantled."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        4
+      ],
+      "text": "6.3. Retro-reflecting optical units may not be replaceable."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        4
+      ],
+      "text": "6.4. The outer surface of retro-reflecting devices must be easy to clean. Hence it must not be a rough surface; any\r\nprotuberances it may exhibit must not prevent easy cleaning."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        4
+      ],
+      "text": "6.5. For devices of Class IVA their means of fixation shall be such that they allow a stable and durable connection\r\nbetween the device and the vehicle."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        4
+      ],
+      "text": "6.6. There shall be no access to the inner surface of the retro-reflectors when in normal use."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        4
+      ],
+      "text": "7. SPECIAL SPECIFICATIONS (TESTS)"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        4
+      ],
+      "text": "7.1. Retro-reflecting devices must also satisfy the conditions as to dimensions and shape, and the colorimetric,\r\nphotometric, physical and mechanical requirements set forth in Annexes 5 to 11 and 13 to this Regulation. The\r\ntest procedures are described in Annex 4 (Class IA, IIIA), Annex 14 (Class IVA) and Annex 16 (Class IB, IIIB)."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        4
+      ],
+      "text": "7.2. Depending on the nature of the materials of which the retro-reflecting devices and, in particular, their optical\r\nunits, are made, the competent authorities may authorize laboratories to omit certain unnecessary tests, subject to\r\nthe express reservation that such omission must be mentioned under \"Remarks\" on the form notifying approval."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        5
+      ],
+      "text": "8. CONFORMITY OF PRODUCTION\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Appendix 2\r\n(E/ECE/324-E/ECE/TRANS/505/Rev.2), with the following requirements:"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        5
+      ],
+      "text": "8.1. Retro-reflectors shall be so manufactured as to conform to the type approved under this Regulation. The\r\ncompliance with the requirements set forth in paragraphs 6. and 7. above shall be verified as follows:"
+    },
+    {
+      "paragraph": "8.1.1",
+      "pages": [
+        5
+      ],
+      "text": "8.1.1. The minimum requirements for conformity of production control procedures set forth in Annex 17 to this\r\nRegulation shall be complied with."
+    },
+    {
+      "paragraph": "8.1.2",
+      "pages": [
+        5
+      ],
+      "text": "8.1.2. The minimum requirements for sampling by an inspector set forth in Annex 18 to this Regulation shall be\r\ncomplied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        5
+      ],
+      "text": "8.2. The authority which has granted type approval may at any time verify the conformity control methods applied\r\nin each production facility. The normal frequency of these verifications shall be once every two years."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        5
+      ],
+      "text": "9. PENALTIES FOR NON‑CONFORMITY OF PRODUCTION"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        5
+      ],
+      "text": "9.1. The approval granted for a type of retro-reflecting device may be withdrawn if the requirements are not\r\ncomplied with or if a retro-reflecting device bearing the approval mark does not conform to the type approved."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        5
+      ],
+      "text": "9.2. If a Contracting Party to the Agreement applying this Regulation withdraws an approval it has previously\r\ngranted, it shall forthwith so notify the other Contracting Parties applying this Regulation by means of a\r\ncommunication form conforming to the model in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        5
+      ],
+      "text": "10. PRODUCTION DEFINITELY DISCONTINUED\r\nIf the holder of the approval completely ceases to manufacture a type of retro-reflecting device approved in\r\naccordance with this Regulation, he shall so inform the authority which granted the approval. Upon receiving the\r\nrelevant communication, that authority shall inform thereof the other Parties to the 1958 Agreement applying this\r\nRegulation by means of a communication form conforming to the model in Annex 2 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        5
+      ],
+      "text": "11. NAMES AND ADDRESSES OF TECHNICAL SERVICES RESPONSIBLE FOR\r\nCONDUCTING APPROVAL TESTS, AND OF ADMINISTRATIVE DEPARTMENTS\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nsecretariat the names and addresses of the technical services responsible for conducting approval tests and of the\r\nadministrative departments which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        5
+      ],
+      "text": "12. TRANSITIONAL PROVISIONS\r\nThe Contracting Parties applying this Regulation:"
+    },
+    {
+      "paragraph": "12.1",
+      "pages": [
+        5
+      ],
+      "text": "12.1. Shall continue to recognize approvals issued for the former Classes I, II and III in respect of the fitting of\r\nretro-reflecting devices intended as replacement for vehicles in use;"
+    },
+    {
+      "paragraph": "12.2",
+      "pages": [
+        5
+      ],
+      "text": "12.2. May issue approvals for Classes I and II on the basis of the original Regulation (document E/ECE/324-\r\nE/ECE/TRANS/505/Add.2 of 23 September 1964) provided that the devices are intended as replacements for\r\nfitting to vehicles in use and that it would not be technically feasible for the devices in question to satisfy the\r\nphotometric requirements for Class IA;"
+    },
+    {
+      "paragraph": "12.3",
+      "pages": [
+        5
+      ],
+      "text": "12.3. May prohibit the fitting of retro-reflecting devices which do not meet the requirements of this Regulation:\r\n12.3.1. on vehicles for which type approval or individual approval was issued on or after 20 March 1984.\r\n12.3.2. on vehicles first brought into use on or after 20 March 1985.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "Annex 1 RETRO-REFLECTING DEVICES\r\nSymbols and units\r\nA = Area of the illuminating surface of the retro-reflecting device (cm2)\r\n\r\nC = Centre of reference\r\nNC = Axis of reference\r\nRr = Receiver, observer or measuring device\r\nCr = Centre of receiver\r\nØr = Diameter of receiver Rr if circular (cm)\r\nSe = Source of illumination\r\nCs = Centre of source of illumination\r\nØs = Diameter of source of illumination (cm)\r\nDe = Distance from centre Cs to centre C (m)\r\nD'e = Distance from centre Cr to centre C (m)\r\nNote: In general, De and D'e are very nearly the same and under normal conditions of observation it may be\r\nassumed that De = D'e.\r\nD = Observation distance from and from beyond which the illuminating surface appears to be continuous\r\nα = Angle of divergence\r\nβ = Illumination angle. With respect to the line CsC which is always considered to be horizontal, this angle is\r\nprefixed by the signs - (left), + (right), + (up) or - (down), according to the position of the source Se in relation to\r\nthe axis NC, as seen when looking towards the retro-reflecting device. For any direction defined by two angles,\r\nvertical and horizontal, the vertical angle is always given first.\r\nγ = Angular diameter of the measuring device Rr as seen from point C\r\nδ = Angular diameter of the source Se as seen from point C\r\nε = Angle of rotation. This angle is positive when the rotation is clockwise as seen when looking towards the\r\nilluminating surface. If the retro-reflecting device is marked \"TOP\", the position thus indicated is taken as the\r\norigin.\r\nE = Illumination of the retro-reflecting device (lux)\r\nCIL = Coefficient of luminous intensity (millicandelas/lux)\r\nAngles are expressed in degrees and minutes.\r\nRETRO-REFLECTORS\r\n\r\nSymbols\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nELEVATION"
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "Annex 2 COMMUNICATION\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by : Name of administration:\r\n......................................\r\n......................................\r\n......................................\r\nconcerning: 2/ APPROVAL GRANTED\r\nAPPROVAL EXTENDED\r\nAPPROVAL REFUSED\r\nAPPROVAL WITHDRAWN\r\nPRODUCTION DEFINITELY DISCONTINUED\r\nof a type of retro-reflecting device pursuant to Regulation No. 3.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nApproval No. ………. Extension No. ………..\r\n\r\n1/ Distinguishing number of the country which has granted/extended/ refused/withdrawn approval (see approval provisions in the\r\nRegulation).\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        8
+      ],
+      "text": "1. Trade name or mark of the device: ..............................................."
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        8
+      ],
+      "text": "2. Manufacturer's name for the type of device: ........................................."
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        8
+      ],
+      "text": "3. Manufacturer's name and address: ................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        8
+      ],
+      "text": "4. If applicable, name and address of the manufacturer's representative: ........................."
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        8
+      ],
+      "text": "5. Submitted for approval on: ...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        8
+      ],
+      "text": "6. Technical service responsible for conducting approval tests: ..............................."
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        8
+      ],
+      "text": "7. Date of test report: .........................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        8
+      ],
+      "text": "8. Number of test report: ........................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        8
+      ],
+      "text": "9. Concise description:\r\nIn isolation/part of an assembly of devices: 2………………………………..\r\nColour of light emitted: white/red/amber: 2…………………………………\r\nInstallation as an integral part of a lamp which is integrated into the body of a vehicle: yes/no2\r\n\r\nGeometric conditions of installation and relating variations, if any: …………\r\nOnly for limited mounting height of equal to or less than 750 mm above the ground: yes/no 2\r\n\r\n2/Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 10",
+      "pages": [
+        8
+      ],
+      "text": "10. Position of the approval mark: .................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 11",
+      "pages": [
+        8
+      ],
+      "text": "11. Reason(s) for extension (if applicable): ............................................"
+    },
+    {
+      "paragraph": "Annex 2 / 12",
+      "pages": [
+        8
+      ],
+      "text": "12. Approval granted/refused/extended/withdrawn: 2/\r\n\r\n2/ Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 2 / 13",
+      "pages": [
+        8
+      ],
+      "text": "13. Place: .................................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 14",
+      "pages": [
+        8
+      ],
+      "text": "14. Date: ..................................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 15",
+      "pages": [
+        8
+      ],
+      "text": "15. Signature: ................................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 16",
+      "pages": [
+        8
+      ],
+      "text": "16. The following documents, bearing the approval number shown above, are available on request:\r\n.............................................................................\r\n............................................................................."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        8
+      ],
+      "text": "Annex 3 EXAMPLES OF APPROVAL MARKS"
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        8,
+        10
+      ],
+      "text": "Figure 1 Marking for single lamps\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNote:\r\nThe above approval number shall be placed close to, but in any position in relation to, the circle surrounding the\r\nletter \"E\". The digits constituting the approval number shall face the same way as the \"E\". The group of symbols\r\nindicating the class shall be diametrically opposite the approval number.\r\nThe vertical arrow starting from a horizontal segment and directed downwards indicates a permissible mounting\r\nheight of equal to or less than 750 mm from the ground for this device and can be placed either above or below\r\nthe circle surrounding the letter \"E\" or at its side, close to the group of symbols indicating the class or the digits\r\nconstituting the approval number.\r\nThe competent authorities shall avoid using approval numbers IA, IB, IIIA, IIIB and IVA which might be\r\nconfused with the class symbols IA, IB, IIIA, IIIB and IVA.\r\nThese sketches show various possible arrangements and are given as examples only.\r\nThe above approval mark affixed to a retro-reflecting device shows that the type of device concerned has been\r\napproved in the Netherlands (E4) under approval number 02216. The approval number shows that approval was\r\ngranted in accordance with the requirements of the Regulation as modified by the 02 series of amendments.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "text": "Figure 2 (Simplified marking for grouped, combined\r\nor reciprocally incorporated lamps)\r\nModel D\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nModel E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nModel F\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNote: The three examples of approval marks, models D, E and F, represent three possible variants of the marking\r\nof a lighting device when two or more lamps are part of the same unit of grouped, combined or reciprocally\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nincorporated lamps. This approval mark shows that the device was approved in the Netherlands (E4) under\r\napproval number 3333 and comprising:\r\nA retro-reflector of Class IA approved in accordance with the 02 series of amendments to Regulation No. 3;\r\nA rear direction indicator of category 2a approved in accordance with Regulation No. 6 in its original form;\r\nA red rear position lamp (R) approved in accordance with the 01 series of amendments to Regulation No. 7;\r\nA rear fog lamp (F) approved in accordance with Regulation No. 38 in its original form;\r\nA reversing lamp (AR) approved in accordance with Regulation No. 23 in its original form;\r\nA stop lamp with two levels of illumination (S2) approved in accordance with the 01 series of amendments to\r\nRegulation No. 7.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        12
+      ],
+      "text": "Annex 4 TEST PROCEDURE - CLASS IA AND CLASS IIIA"
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1. The applicant shall submit for approval ten samples which shall be tested in the chronological order indicated in\r\nAnnex 12."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        12
+      ],
+      "text": "2. After verification of the general specifications (paragraph 6 of the Regulation) and the specifications of shape\r\nand dimensions (Annex 5), the ten samples shall be subjected to the heat resistance test described in Annex 10 to\r\nthis Regulation and at least one hour after this test examined as to their colorimetric characteristics and CIL\r\n(Annex 7) for an angle of divergence of 20' and an illumination angle V = H = 0° or if necessary, in the position\r\ndefined in Annex 7, paragraphs 4. and 4.1. The two retro-reflecting devices giving the minimum and maximum\r\nvalues shall then be fully tested as shown in Annex 7. These two samples shall be kept by the laboratories for any\r\nfurther checks which may be found necessary. The other eight samples shall be divided into four groups of two:\r\n\r\n First          The two samples shall be subjected successively to the water penetration test (Annex 8, paragraph 1.1.) and\r\n group:         then, if this test is satisfactory, to the tests for resistance to fuels and lubricants (Annex 8, paragraphs 3. and\r\n                4.).\r\n\r\n Second         The two samples shall, if necessary, be subjected to the corrosion test (Annex 8, paragraph 2.), and then to the\r\n group:         abrasive-strength test of the rear face of the retro-reflecting device (Annex 8, paragraph 5.).\r\n\r\n Third          The two samples shall be subjected to the test for stability in time of the optical properties of retro-reflecting\r\n group:         device (Annex 9).\r\n\r\n Fourth         The two samples shall be subjected to the colour-fastness test (Annex 11).\r\n group:"
+    },
+    {
+      "paragraph": "Annex 4 / 3",
+      "pages": [
+        12
+      ],
+      "text": "3. After undergoing the tests referred to in the above paragraph, the retro-reflecting devices in each group must\r\nhave:\r\n3.1. a colour which satisfies the conditions laid down in Annex 6. This shall be verified by a qualitative method\r\nand, in case of doubt, confirmed by a quantitative method.\r\n3.2. a CIL which satisfies the conditions laid down in Annex 7. The verification shall be performed only for an\r\nangle of divergence of 20' and an illumination angle of V = H = 0° or, if necessary, in the position specified in\r\nAnnex 7, paragraphs 4. and 4.1.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        12
+      ],
+      "text": "Annex 5 SPECIFICATIONS OF SHAPE AND DIMENSIONS"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        12
+      ],
+      "text": "1. Shape and dimensions of retro-reflecting devices in class IA or IB"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        12
+      ],
+      "text": "1.1. The shape of the illuminating surfaces shall not be easily confused with a triangle at normal observation\r\ndistances."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2",
+      "pages": [
+        13
+      ],
+      "text": "1.2. The preceding paragraph notwithstanding, a shape resembling the letters or digits of simple form O, I, U or 8\r\nis permissible."
+    },
+    {
+      "paragraph": "Annex 5 / 2",
+      "pages": [
+        13
+      ],
+      "text": "2. SHAPE AND DIMENSIONS OF RETRO-REFLECTING DEVICES IN CLASSES IIIA and IIIB (see\r\nappendix to this annex)"
+    },
+    {
+      "paragraph": "Annex 5 / 2.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1. The illuminating surfaces of retro-reflecting devices in Classes IIIA and IIIB must have the shape or an\r\nequilateral triangle. If the word \"TOP\" is inscribed in one corner, the apex of that corner must be directed\r\nupwards."
+    },
+    {
+      "paragraph": "Annex 5 / 2.2",
+      "pages": [
+        13
+      ],
+      "text": "2.2. The illuminating surface may or may not have at its centre a triangular, non-retro-reflecting area, with sides\r\nparallel to those of the outer triangle."
+    },
+    {
+      "paragraph": "Annex 5 / 2.3",
+      "pages": [
+        13
+      ],
+      "text": "2.3. The illuminating surface may or may not be continuous. In any case, the shortest distance between two\r\nadjacent retro-reflecting optical units must not exceed 15 mm."
+    },
+    {
+      "paragraph": "Annex 5 / 2.4",
+      "pages": [
+        13
+      ],
+      "text": "2.4. The illuminating surface of a retro-reflecting device shall be considered to be continuous if the edges of the\r\nilluminating surfaces of adjacent separate optical units are parallel and if the said optical units are evenly\r\ndistributed over the whole solid surface of the triangle."
+    },
+    {
+      "paragraph": "Annex 5 / 2.5",
+      "pages": [
+        13
+      ],
+      "text": "2.5. If the illuminated surface is not continuous, the number of separate retro-reflecting optical units including the\r\ncorner units shall not be less than four on each side of the triangle."
+    },
+    {
+      "paragraph": "Annex 5 / 2.5.1",
+      "pages": [
+        13
+      ],
+      "text": "2.5.1. The separate retro-reflecting optical units shall not be replaceable unless they consist of approved retro-\r\nreflecting devices in Class IA."
+    },
+    {
+      "paragraph": "Annex 5 / 2.6",
+      "pages": [
+        13
+      ],
+      "text": "2.6. The outside edges of the illuminating surfaces of triangular retro-reflecting devices in Classes IIIA and IIIB\r\nshall be between 150 and 200 mm long. In the case of devices of hollow-triangle type, the width of the sides,\r\nmeasured at right angles to the latter, shall be equal to at least 20 per cent of the effective length between the\r\nextremities of the illuminating surface."
+    },
+    {
+      "paragraph": "Annex 5 / 3",
+      "pages": [
+        13
+      ],
+      "text": "3. SHAPE AND DIMENSIONS OF RETRO-REFLECTING DEVICES IN CLASS IVA"
+    },
+    {
+      "paragraph": "Annex 5 / 3.1",
+      "pages": [
+        13
+      ],
+      "text": "3.1. The shape of the light emitting surfaces shall not be easily confused with a triangle at normal observation\r\ndistances."
+    },
+    {
+      "paragraph": "Annex 5 / 3.2",
+      "pages": [
+        13
+      ],
+      "text": "3.2. The light emitting surface of the retro-reflecting device must be at least 25 cm2."
+    },
+    {
+      "paragraph": "Annex 5 / 4",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "4. Compliance with the above specifications shall be verified by visual inspection.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnnex 5 - Appendix RETRO-REFLECTORS FOR TRAILERS - CLASSES IIIA\r\nAND IIIB\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNote: These sketches are for illustration purposes only.",
+      "review_flags": [
+        "ambiguous_annex_heading"
+      ]
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        14
+      ],
+      "text": "Annex 6 COLORIMETRIC SPECIFICATIONS"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        14
+      ],
+      "text": "1. These specifications shall apply only to clear, red or amber retro-reflecting devices."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1",
+      "pages": [
+        14
+      ],
+      "text": "1.1. Retro-reflecting devices may consist of a combined retro-reflecting optical unit and filter, which must be so\r\ndesigned that they cannot be separated under normal conditions of use."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2",
+      "pages": [
+        14
+      ],
+      "text": "1.2. The colouring of retro-reflecting optical units and filters by means of paint or varnish is not permitted."
+    },
+    {
+      "paragraph": "Annex 6 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. When the retro-reflecting device is illuminated by CIE standard illuminant A, with an angle of divergence of\r\n1/3 degrees and an illumination angle of V = H = 0 degrees, or, if this produces a colourless surface reflection, an\r\nangle V = +/- 5 degrees, H = 0 degrees, the trichromatic coordinates of the reflected luminous flux must be within\r\nthe limits according to paragraph 2.30. of Regulation No. 48."
+    },
+    {
+      "paragraph": "Annex 6 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. Clear retro-reflecting devices must not produce a selective reflection, that is to say, the trichromatic coordinates\r\n“x” and “y” of the standard illuminant “A” used to illuminate the retro-reflecting device must not undergo a\r\nchange of more than 0.01 after reflection by the retro-reflecting device."
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        15
+      ],
+      "text": "Annex 7 PHOTOMETRIC SPECIFICATIONS"
+    },
+    {
+      "paragraph": "Annex 7 / 1",
+      "pages": [
+        15
+      ],
+      "text": "1. When applying for approval, the applicant shall specify one or more or a range of axis of reference,\r\ncorresponding to the illumination angle V = H = 0° in the table of coefficients of luminous intensity (CIL).\r\nIn the case where more than one or a range of different axis of reference are specified by the manufacturer, the\r\nphotometric measurements shall be repeated making reference each time to a different axis of reference or to the\r\nextreme axis of reference of the range specified by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 7 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. For photometric measurements, only the illuminating surface defined by the planes contiguous to the outermost\r\nparts of the optical system of the retro-reflecting device as indicated by the manufacturer and contained within a\r\ncircle of 200 mm diameter for Class IA or IB shall be considered, and the illuminating surface itself shall be\r\nlimited to 100 cm2 though the surfaces of the retro-reflecting optical units need not necessarily attain this area.\r\nThe manufacturer shall specify the perimeter of the area to be used. In the case of Class IIIA, Class IIIB and Class\r\nIVA, the whole of the illuminating surfaces shall be considered without limitation as to size."
+    },
+    {
+      "paragraph": "Annex 7 / 3",
+      "pages": [
+        15
+      ],
+      "text": "3. CIL values"
+    },
+    {
+      "paragraph": "Annex 7 / 3.1",
+      "pages": [
+        15
+      ],
+      "text": "3.1. Class IA, Class IB, Class IIIA and Class IIIB"
+    },
+    {
+      "paragraph": "Annex 7 / 3.1.1",
+      "pages": [
+        15
+      ],
+      "text": "3.1.1. The CIL values for red retro-reflecting devices must be at least equal to those in the table below, expressed\r\nin millicandelas per lux, for the angles of divergence and illumination shown.\r\n\r\n Class         Angle of divergence      Illumination angles (in degrees)\r\n               α\r\n\r\n                                        Vertical V        0°     ∀ 10°    ∀ 5°\r\n                                        Horizontal H      0°     0°       ∀ 20°\r\n\r\n IA, IB        20'                                        300    200      100\r\n               1°30'                                      5      2.8      2.5\r\n\r\n IIIA, IIIB    20'                                        450    200      150\r\n               1°30'                                      12     8        8\r\n\r\nCIL values lower than those shown in the last two columns of the above table are not permissible within the solid\r\nangle having the reference centre as its apex and bounded by the planes intersecting along the following lines:\r\n(V = ∀ 10°, H = 0°) (V = ∀ 5°, H = ∀ 20°)."
+    },
+    {
+      "paragraph": "Annex 7 / 3.1.2",
+      "pages": [
+        15
+      ],
+      "text": "3.1.2. CIL values for amber retro-reflecting devices in Class IA or IB must be at least equal to those in the table of\r\nparagraph 3.1.1. above multiplied by the coefficient 2.5."
+    },
+    {
+      "paragraph": "Annex 7 / 3.1.3",
+      "pages": [
+        15
+      ],
+      "text": "3.1.3. CIL values for colourless retro-reflecting devices in Class IA or IB must be at least equal to those in the\r\ntable of paragraph 3.1.1. above multiplied by the coefficient 4."
+    },
+    {
+      "paragraph": "Annex 7 / 3.2",
+      "pages": [
+        15
+      ],
+      "text": "3.2. However, in the case where a retro-reflecting device of Class IA, Class IB, Class IIIA or Class IIIB is\r\nintended to be installed with its H plane at a mounting height less than 750 mm above the ground, the CIL values\r\nare verified only up to an angle of 5° downwards."
+    },
+    {
+      "paragraph": "Annex 7 / 3.3",
+      "pages": [
+        16
+      ],
+      "text": "3.3. For devices of Class IVA the CIL values must be at least equal to those in the table below, expressed in\r\nmillicandelas per lux, for the angles of divergence and illumination shown.\r\n\r\n Colour    Angle of divergence       Illumination angles (in degrees)\r\n           α\r\n\r\n                                     Vertical V       0        ∀ 10     0       0       0       0\r\n                                     Horizontal H     0        0        ∀ 20    ∀ 30    ∀ 40    ∀ 50\r\n\r\n White     20'                                        1,800    1,200    610     540     470     400\r\n           1°30'                                      34       24       15      15      15      15\r\n\r\n Amber     20'                                        1,125    750      380     335     290     250\r\n           1°30'                                      21       15       10      10      10      10\r\n\r\n Red       20'                                        450      300      150     135     115     100\r\n           1°30'                                      9        6        4       4       4       4"
+    },
+    {
+      "paragraph": "Annex 7 / 3.4",
+      "pages": [
+        16
+      ],
+      "text": "3.4. However, in the case where a retro-reflecting device of Class IVA is intended to be installed with its H plane\r\nat a mounting height less than 750 mm above the ground, the CIL values are verified only up to an angle of 5°\r\ndownwards."
+    },
+    {
+      "paragraph": "Annex 7 / 4",
+      "pages": [
+        16
+      ],
+      "text": "4. When the CIL of a retro-reflecting device is measured for an angle β of V = H = 0°, it shall be ascertained\r\nwhether any mirror effect is produced by slightly turning the device. If there is any such effect, a reading shall be\r\ntaken with an angle β\r\nof V = ∀ 5°, H = 0°. The position adopted shall be that corresponding to the minimum CIL for one of these\r\npositions."
+    },
+    {
+      "paragraph": "Annex 7 / 4.1",
+      "pages": [
+        16
+      ],
+      "text": "4.1. With an illumination angle β of V = H = 0°, or the angle specified in paragraph 4. above, and an angle of\r\ndivergence of 20', retro-reflecting devices which are not marked \"TOP\" shall be rotated about their axes of\r\nreference to the position of minimum CIL, which must conform to the value specified in paragraph 3. above.\r\nWhen the CIL is measured for the other angles of illumination and divergence, the retro-reflecting device shall be\r\nplaced in the position corresponding to this value of ε. If the specified values are not attained, the device may be\r\nrotated about its axis of reference ∀ 5° from that position."
+    },
+    {
+      "paragraph": "Annex 7 / 4.2",
+      "pages": [
+        16
+      ],
+      "text": "4.2. With an illumination angle β of V = H = 0°, or the angle specified in paragraph 4. above, and an angle of\r\ndivergence of 20', retro-reflecting devices marked \"TOP\" shall be rotated about their axes ∀ 5°. The CIL must not\r\nfall below the prescribed value in any position assumed by the device during this rotation."
+    },
+    {
+      "paragraph": "Annex 7 / 4.3",
+      "pages": [
+        16
+      ],
+      "text": "4.3. If for the direction V = H = 0°, and for ε = 0° the CIL exceeds the specified value by 50 per cent or more, all\r\nmeasurements for all angles of illumination and divergence shall be made for ε = 0°."
+    },
+    {
+      "paragraph": "Annex 8",
+      "pages": [
+        16
+      ],
+      "text": "Annex 8 RESISTANCE TO EXTERNAL AGENTS"
+    },
+    {
+      "paragraph": "Annex 8 / 1",
+      "pages": [
+        16
+      ],
+      "text": "1. Resistance to water and dirt penetration"
+    },
+    {
+      "paragraph": "Annex 8 / 1.1",
+      "pages": [
+        16
+      ],
+      "text": "1.1. Water submersion test"
+    },
+    {
+      "paragraph": "Annex 8 / 1.1.1",
+      "pages": [
+        16
+      ],
+      "text": "1.1.1. Retro-reflecting devices whether part of a lamp or not, shall be stripped of all removable parts and\r\nimmersed for 10 minutes in water at a temperature of 50 ± 5 °C, the highest point of the upper part of the\r\nilluminating surface being 20 mm below the surface of the water. This test shall be repeated after turning the retro-\r\nreflecting device through 180°, so that the illuminating surface is at the bottom and the rear face is covered by\r\nabout 20 mm of water. These optical units shall then be immediately immersed in the same conditions in water at\r\na temperature of 25 ± 5 °C."
+    },
+    {
+      "paragraph": "Annex 8 / 1.1.2",
+      "pages": [
+        17
+      ],
+      "text": "1.1.2. No water shall penetrate to the reflecting surface of the retro-reflecting optical unit. If visual inspection\r\nclearly reveals the presence of water, the device shall not be considered to have passed the test."
+    },
+    {
+      "paragraph": "Annex 8 / 1.1.3",
+      "pages": [
+        17
+      ],
+      "text": "1.1.3. If visual inspection does not reveal the presence of water or in case of doubt, the CIL shall be measured by\r\nthe method described in Annex 4, paragraph 3.2., or Annex 14, paragraph 4.2., the retro-reflecting device being\r\nfirst lightly shaken to remove excess water from the outside."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2",
+      "pages": [
+        17
+      ],
+      "text": "1.2. Alternative test procedure for Classes IB and IIIB devices\r\nAs an alternative, at the request of the manufacturer, the following test (moisture and dust test) shall be applied\r\ninstead of the submersion-test specified in paragraph 1.1. above."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1. Moisture test\r\nThe test evaluates the ability of the sample device to resist moisture penetration from a water spray and\r\ndetermines the drainage capability of those devices with drain holes or other exposed openings in the device."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.1",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.1. Water spray test equipment\r\nA water spray cabinet with the following characteristics shall be used:"
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.1.1",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.1.1. Cabinet\r\nThe cabinet shall be equipped with a nozzle(s) which provides a solid cone water spray of sufficient angle to\r\ncompletely cover the sample device. The centreline of the nozzle(s) shall be directed downward at an angle of 45°\r\n± 5° to the vertical axis of a rotating test platform."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.1.2",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.1.2. Rotating test platform\r\nThe rotating test platform shall have a minimum diameter of 140 mm and rotate about a vertical axis in the centre\r\nof the cabinet."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.1.3",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.1.3. Precipitation rate\r\nThe precipitation rate of the water spray at the device shall be 2.5 (+ 1.6/-0) mm/min as measured with a vertical\r\ncylindrical collector centred on the vertical axis of the rotating test platform. The height of the collector shall be\r\n100 mm and the inside diameter shall be a minimum of 140 mm.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2. Water spray test procedure\r\nA sample device mounted on a test fixture, with initial CIL measured and recorded shall be subjected to a water\r\nspray as follows:"
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.1",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2.1. Device openings\r\nAll drain holes and other openings shall remain open. Drain wicks, when used, shall be tested in the device."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.2",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2.2. Rotational speed\r\nThe device shall be rotated about its vertical axis at a rate of 4.0 ± 0.5 min -1."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.3",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2.3. If the retro-reflector is reciprocally incorporated or grouped with signalling or lighting functions, these\r\nfunctions shall be operated at design voltage according to a cycle of 5 min ON (in flashing mode, where\r\nappropriate), 55 min OFF."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.4",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2.4. Test duration\r\nThe water spray test shall last 12h (12 cycles of 5/55 min)."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.5",
+      "pages": [
+        17
+      ],
+      "text": "1.2.1.2.5. Drain period\r\nThe rotation and the water spray shall be turned OFF and the device allowed to drain for 1 h with the cabinet door\r\nclosed."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.1.2.6",
+      "pages": [
+        17,
+        18
+      ],
+      "text": "1.2.1.2.6. Sample evaluation\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nUpon completion of the drain period. The interior of the device shall be observed for moisture accumulation. No\r\nstanding pool of water shall be allowed to be formed, or which can be formed by tapping or tilting the device. The\r\nCIL shall be measured according to the method specified in Annex 4 paragraph 3.2. after having dried the exterior\r\nof the device with a dry cotton cloth."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2. Dust exposure test\r\nThis test evaluates the ability of the sample device to resist dust penetration which could significantly affect the\r\nphotometric output of the retro-reflector."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.1",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.1. Dust exposure test equipment\r\nThe following equipment shall be used to test for dust exposure:"
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.1.1",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.1.1. Dust exposure test chamber\r\nThe interior of the test chamber shall be cubical in shape in size 0.9 to 1.5 m per side. The bottom may be \"hopper\r\nshaped\" to aid in collecting the dust. The internal chamber volume, not including a \"hopper shaped\" bottom shall\r\nbe 2 m3 maximum and shall be charged with 3 to 5 kg of the test dust. The chamber shall have the capability of\r\nagitating the test dust by means of compressed air or blower fans in such a way that the dust is diffused\r\nthroughout the chamber."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.1.2",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.1.2. The dust\r\nThe test dust used shall be fine powdered cement in accordance with standard ASTM C 150-84. */\r\n\r\n*/American Society for Testing and Materials"
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.2",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.2. Dust exposure test procedure\r\nA sample device, mounted on a test fixture, with the initial CIL measured and recorded, shall be exposed to dust\r\nas follows:"
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.2.1",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.2.1. Device openings\r\nAll drain holes and other openings shall remain open. Drain wicks, when used, shall be tested in the device."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.2.2",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.2.2. Dust exposure\r\nThe mounted device shall be placed in the dust chamber no closer than 150 mm from a wall. Devices with a\r\nlength exceeding 600 mm shall be horizontally centred in the test chamber. The test dust shall be agitated as\r\ncompletely as possible by compressed air or blower(s) at intervals of 15 min for a period of 2 to 15 s for the\r\nduration of 5 hours. The dust shall be allowed to settle between the agitation periods."
+    },
+    {
+      "paragraph": "Annex 8 / 1.2.2.2.3",
+      "pages": [
+        18
+      ],
+      "text": "1.2.2.2.3. Measured sample evaluation\r\nUpon completion of the dust exposure test, the exterior of the device shall be cleaned and dried with a dry cotton\r\ncloth and the CIL measured according to the method specified in Annex 4, paragraph 3.2."
+    },
+    {
+      "paragraph": "Annex 8 / 2",
+      "pages": [
+        18
+      ],
+      "text": "2. RESISTANCE TO CORROSION"
+    },
+    {
+      "paragraph": "Annex 8 / 2.1",
+      "pages": [
+        18
+      ],
+      "text": "2.1. Retro-reflecting devices must be so designed that they retain the prescribed photometric and colorimetric\r\ncharacteristics despite the humidity and corrosive influences to which they are normally exposed. The resistance\r\nof the front surface to tarnishing and of the protection of the rear face to deterioration shall be checked,\r\nparticularly when an essential metal component seems liable to be attacked."
+    },
+    {
+      "paragraph": "Annex 8 / 2.2",
+      "pages": [
+        18
+      ],
+      "text": "2.2. The retro-reflecting device, or the lamp if the device is combined with a light, shall be stripped of all\r\nremovable parts and subjected to the action of a saline mist for a period of 50 hours, comprising two periods of\r\nexposure of 24 hours each, separated by an interval of two hours during which the sample is allowed to dry."
+    },
+    {
+      "paragraph": "Annex 8 / 2.3",
+      "pages": [
+        18
+      ],
+      "text": "2.3. The saline mist shall be produced by atomizing, at a temperature of 35° ∀ 2°C, a saline solution obtained by\r\ndissolving 20 ∀ 2 parts by weight of sodium chloride in 80 parts of distilled water containing not more than 0.02\r\nper cent of impurities."
+    },
+    {
+      "paragraph": "Annex 8 / 2.4",
+      "pages": [
+        19
+      ],
+      "text": "2.4. Immediately after completion of the test, the sample must not show signs of excessive corrosion liable to\r\nimpair the efficiency of the device."
+    },
+    {
+      "paragraph": "Annex 8 / 3",
+      "pages": [
+        19
+      ],
+      "text": "3. RESISTANCE TO FUELS\r\nThe outer surface of the retro-reflecting device and, in particular, of the illuminating surface, shall be lightly\r\nwiped with a cotton cloth soaked in a mixture of 70 vol. per cent of n-heptane and 30 vol. per cent of toluol. After\r\nabout five minutes, the surface shall be inspected visually. It must not show any apparent surface changes, except\r\nthat slight surface cracks will not be objected to."
+    },
+    {
+      "paragraph": "Annex 8 / 4",
+      "pages": [
+        19
+      ],
+      "text": "4. RESISTANCE TO LUBRICATING OILS\r\nThe outer surface of the retro-reflecting device and, in particular, the illuminating surface, shall be lightly wiped\r\nwith a cotton cloth soaked in a detergent lubricating oil. After about 5 minutes, the surface shall be cleaned. The\r\nCIL shall then be measured (Annex 4, paragraph 3.2. or Annex 14, paragraph 4.2.)."
+    },
+    {
+      "paragraph": "Annex 8 / 5",
+      "pages": [
+        19
+      ],
+      "text": "5. RESISTANCE OF THE ACCESSIBLE REAR FACE OF MIRROR-BACKED RETRO-REFLECTING\r\nDEVICES"
+    },
+    {
+      "paragraph": "Annex 8 / 5.1",
+      "pages": [
+        19
+      ],
+      "text": "5.1. After having brushed the rear face of the retro-reflecting device with a hard nylon brush, a cotton cloth soaked\r\nin the mixture, defined in paragraph 3 shall be applied to the said rear face for one minute. The cotton cloth is then\r\nremoved and the retro-reflecting device left to dry."
+    },
+    {
+      "paragraph": "Annex 8 / 5.2",
+      "pages": [
+        19
+      ],
+      "text": "5.2. As soon as evaporation is completed, an abrasion test shall be made by brushing the rear face with the same\r\nnylon brush as before."
+    },
+    {
+      "paragraph": "Annex 8 / 5.3",
+      "pages": [
+        19
+      ],
+      "text": "5.3. The CIL shall then be measured (Annex 4, paragraph 3.2. or Annex 14, paragraph 4.2.) after the whole\r\nsurface of the mirror-backed rear face has been covered with Indian ink."
+    },
+    {
+      "paragraph": "Annex 9",
+      "pages": [
+        19
+      ],
+      "text": "Annex 9 STABILITY IN TIME OF THE OPTICAL PROPERTIES 1 / OF RETRO-\r\nREFLECTING DEVICES\r\n\r\n1/Despite the importance of tests to check the stability in time of the optical properties of retro-reflecting devices, it is in the present state of\r\nthe art not yet possible to assess this stability by laboratory tests of limited duration."
+    },
+    {
+      "paragraph": "Annex 9 / 1",
+      "pages": [
+        19
+      ],
+      "text": "1. The authority which granted approval shall have the right to check the stability in time of the optical properties\r\nof a type of retro-reflecting device in service."
+    },
+    {
+      "paragraph": "Annex 9 / 2",
+      "pages": [
+        19
+      ],
+      "text": "2. The competent authorities of countries other than the country in which approval was granted may carry out\r\nsimilar checks in their territory. If a type of retro-reflector in use exhibits a systematic defect, the said authorities\r\nshall transmit any components removed for examination to the authority which granted approval, with a request\r\nfor its opinion."
+    },
+    {
+      "paragraph": "Annex 9 / 3",
+      "pages": [
+        19
+      ],
+      "text": "3. In the absence of other criteria, the concept of \"systematic defect\" of a type of retro-reflector in use shall be\r\ninterpreted in conformity with the intention of paragraph 6.1. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 10",
+      "pages": [
+        19
+      ],
+      "text": "Annex 10 RESISTANCE TO HEAT"
+    },
+    {
+      "paragraph": "Annex 10 / 1",
+      "pages": [
+        19
+      ],
+      "text": "1. The retro-reflecting device shall be kept for 48 consecutive hours in a dry atmosphere at a temperature of 65 ∀\r\n2°C."
+    },
+    {
+      "paragraph": "Annex 10 / 2",
+      "pages": [
+        19
+      ],
+      "text": "2. After this test, no cracking or appreciable distortion of the retro-reflecting device and, in particular, of its optical\r\ncomponent must be visible."
+    },
+    {
+      "paragraph": "Annex 11",
+      "pages": [
+        19
+      ],
+      "text": "Annex 11 COLOUR-FASTNESS 1 /\r\n\r\n1/Despite the importance of tests to check the colour-fastness of retro-reflecting devices, it is in the present state of the art not yet possible to\r\nassess colour-fastness by laboratory tests of limited duration."
+    },
+    {
+      "paragraph": "Annex 11 / 1",
+      "pages": [
+        20
+      ],
+      "text": "1. The authority which granted approval shall have the right to check the colour-fastness of a type of retro-\r\nreflecting device in service."
+    },
+    {
+      "paragraph": "Annex 11 / 2",
+      "pages": [
+        20
+      ],
+      "text": "2. The competent authorities of countries other than the country in which approval was granted may carry out\r\nsimilar checks in their territory. If a type of retro-reflector in use exhibits a systematic defect, the said authorities\r\nshall transmit any components removed for examination to the authority which granted approval, with a request\r\nfor its opinion."
+    },
+    {
+      "paragraph": "Annex 11 / 3",
+      "pages": [
+        20
+      ],
+      "text": "3. In the absence of other criteria, the concept \"systematic defect\" of a type of retro-reflector in use shall be\r\ninterpreted in conformity with the intention of paragraph 9.1. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 12",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "Annex 12 CHRONOLOGICAL ORDER OF TESTS\r\n\r\n Number of            Number of                TESTS                                                       SAMPLES\r\n annex                paragraph\r\n\r\n                                                                                                           a    b   c   d   e   f   g    h   i   j\r\n\r\n -                    6.*/                     General specifications: visual inspection                   x    x   x   x   x   x   x    x   x   x\r\n\r\n 5                    -                        Shapes and dimensions: visual inspection                    x    x   x   x   x   x   x    x   x   x\r\n\r\n 10                   -                        Heat: 48 h at 65° ∀ 2°C                                     x    x   x   x   x   x   x    x   x   x\r\n                                               Visual inspection for distortion                            x    x   x   x   x   x   x    x   x   x\r\n\r\n 6                    -                        Colorimetry: visual inspection                              x    x   x   x   x   x   x    x   x   x\r\n                                               Trichromatic coordinates in case of doubt                        x\r\n\r\n 7                    -                        Photometry: limited to 20' and V = H = 0°                   x    x   x   x   x   x   x    x   x   x\r\n\r\n 7                    3.                       Complete photometry                                                  x   x\r\n\r\n 8                    1.                       Water: 10 min. in normal position                                                    x    x\r\n                                               10 min. in inverted position                                                         x    x\r\n                                               visual inspection                                                                    x    x\r\n\r\n 4                    3.1.                     Colorimetry: visual inspection                                                       x    x\r\n                                               Trichromatic coordinates in case of doubt                                            x    x\r\n\r\n 4                    3.2.                     Photometry: limited to 20' and V = H = 0°                                            x    x\r\n\r\n 8                    3.                       Motor fuels: 5 min.                                                                  x    x\r\n                                               visual inspection                                                                    x    x\r\n\r\n 8                    4.                       Oils: 5 min.                                                                         x    x\r\n                                               visual inspection                                                                    x    x\r\n\r\n 4                    3.1.                     Colorimetry: visual inspection\r\n                                               Trichromatic coordinates in case of doubt                                            x    x\r\n\r\n 4                    3.2.                     Photometry: limited to 20' and V = H = 0°                                            x    x\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNumber of            Number of               TESTS                                                       SAMPLES\r\n annex                paragraph\r\n\r\n                                                                                                          a   b   c   d   e   f   g   h   i    j\r\n\r\n 8                    2.                      Corrosion: 24 hours                                                         x   x\r\n                                              2 hours interval                                                            x   x\r\n                                              24 hours                                                                    x   x\r\n                                              visual inspection                                                           x   x\r\n\r\n 8                    5.                      Rear face: 1 min.                                                           x   x\r\n                                              visual inspection                                                           x   x\r\n\r\n 4                    3.1.                    Colorimetry: visual inspection                                              x   x\r\n                                              Trichromatic coordinates in case of doubt                                   x   x\r\n\r\n 4                    3.2.                    Photometry: limited to 20' and V = H = 0°                                   x   x\r\n\r\n 9                    -                       Stability in time\r\n\r\n 4                    3.1.                    Colorimetry: Visual inspection or trichromatic\r\n                                              coordinates\r\n\r\n 4                    3.2.                    Photometry: limited to 20' and V = H = 0°\r\n\r\n 11                   -                       Colour-fastness\r\n\r\n 4                    3.1.                    Colorimetry: Visual inspection or trichromatic\r\n                                              coordinates\r\n\r\n 4                    3.2.                    Photometry: limited to 20' and V = H = 0°\r\n\r\n 4                    2.                      Deposit of samples with administration                              x   x\r\n\r\n\r\n*/ of the Regulation.\r\n\r\nAnnex 1 3 RESISTANCE TO IMPACT ‑ CLASS IVA",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 1",
+      "pages": [
+        21
+      ],
+      "text": "1. The retro-reflecting device shall be mounted in a manner similar to the way in which it is mounted on the\r\nvehicle, but with the lens faced horizontal and directed upwards."
+    },
+    {
+      "paragraph": "Annex 12 / 2",
+      "pages": [
+        21
+      ],
+      "text": "2. Drop a 13 mm diameter polished solid steel ball, once, vertically onto the central part of the lens from a height\r\nof 0.76 m. The ball may be guided but not restricted in free fall."
+    },
+    {
+      "paragraph": "Annex 12 / 3",
+      "pages": [
+        21,
+        22
+      ],
+      "text": "3. When a retro-reflecting device is tested at room temperature with this method, the lens shall not crack.\r\n\r\nAnnex 1 4 TEST PROCEDURE ‑ CLASS IVA\r\n1. The applicant shall submit for approval ten samples which shall be tested in the chronological order indicated in\r\nAnnex 15.\r\n2. After verification of the specifications in paragraphs 6.1. to 6.5. and the specifications of shape and dimensions\r\n(Annex 5), the ten samples shall be subjected to the heat resistance test (Annex 10) and one hour minimum after\r\nthis test examined as to their colorimetric characteristics and CIL (Annex 7) for an angle of divergence of 20' and\r\nan illumination angle V = H = 0° or, if necessary, in the positions defined in Annex 7. The two retro-reflecting\r\ndevices giving the minimum and maximum values shall then be fully tested as shown in Annex 7. These two\r\nsamples shall be kept by the laboratories for any further checks which may be found necessary.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3. Four samples out of the remaining eight samples shall be selected at random and divided into two groups of two\r\nin each group.\r\nFirst group:\r\nThe two samples shall be subjected successively to the water-penetration resistance test (Annex 8, paragraph 1.)\r\nand then, if this test is satisfactory, to the tests for resistance to fuels and lubricating oils (Annex 8, paragraphs 3.\r\nand 4.).\r\nSecond group:\r\nThe two samples shall, if relevant, be subjected to the corrosion test (Annex 8, paragraph 2.), and then to the\r\nabrasive-strength test of the rear face of the retro-reflecting device (Annex 8, paragraph 5.).                These two samples\r\nshall also be subjected to the impact test (Annex 13).",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 4",
+      "pages": [
+        22
+      ],
+      "text": "4. After undergoing the tests referred to in the above paragraph, the retro-reflecting devices in each group must\r\nhave:"
+    },
+    {
+      "paragraph": "Annex 12 / 4.1",
+      "pages": [
+        22
+      ],
+      "text": "4.1. A colour which satisfies the conditions laid down in Annex 6. This shall be verified by a qualitative method\r\nand, in case of doubt, confirmed by a quantitative method;"
+    },
+    {
+      "paragraph": "Annex 12 / 4.2",
+      "pages": [
+        22
+      ],
+      "text": "4.2. A CIL which satisfies the conditions laid down in Annex 7. Verification shall be performed only for an angle\r\nof divergence of 20' and an illumination angle of V = H = 0° or, if necessary, in the positions specified in Annex 7."
+    },
+    {
+      "paragraph": "Annex 12 / 5",
+      "pages": [
+        22,
+        23
+      ],
+      "text": "5. The four remaining samples can be utilized, if necessary, for any other purpose.\r\n\r\nAnnex 1 5 CHRONOLOGICAL ORDER OF TESTS FOR CLASS IVA\r\n\r\n Number       Number of      TESTS                                              SAMPLES\r\n of annex     paragraph                                                         a   b   c   d   e   f   g   h   i   j\r\n\r\n -            6.*/           General specifications: visual inspection          x   x   x   x   x   x   x   x   x   x\r\n\r\n 5            -              Shape and dimensions: visual inspection            x   x   x   x   x   x   x   x   x   x\r\n\r\n 10           -              Heat: 48 h at 65° ∀ 20°C                           x   x   x   x   x   x   x   x   x   x\r\n                             Visual inspection for distortion                   x   x   x   x   x   x   x   x   x   x\r\n\r\n 6            -              Colorimetry: visual inspection                     x   x   x   x   x   x   x   x   x   x\r\n                             Trichromatic coordinates in case of doubt              x\r\n\r\n 7            -              Photometry: limited to 20' and V = H = 0°          x   x   x   x   x   x   x   x   x   x\r\n\r\n 7            -              Complete photometry                                x   x\r\n\r\n 8            1.             Water: 10 min. in normal position                          x   x\r\n                             10 min. in inverted position                               x   x\r\n                             visual inspection                                          x   x\r\n\r\n 8            3.             Motor fuels: 5 min.                                        x   x\r\n                             visual inspection                                          x   x\r\n\r\n 8            4.             Oils: 5 min.                                               x   x\r\n                             visual inspection                                          x   x\r\n\r\n 6            -              Colorimetry: visual inspection                             x   x\r\n                             Trichromatic coordinates in case of doubt                  x   x\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNumber      Number of     TESTS                                           SAMPLES\r\n of annex    paragraph                                                     a   b  c   d   e   f   g   h  i   j\r\n\r\n 7           -             Photometry: limited to 20' and V = H = 0°              x   x\r\n\r\n 8           2.            Corrosion: 24 hours                                            x   x\r\n                           2 hours' interval                                              x   x\r\n                           24 hours                                                       x   x\r\n                           visual inspection                                              x   x\r\n\r\n 8           5.            Rear face: 1 min.                                              x   x\r\n                           visual inspection                                              x   x\r\n\r\n 13          -             Impact                                                         x   x\r\n                           visual inspection                                              x   x\r\n\r\n 6           -             Colorimetry: visual inspection                                 x   x\r\n                           Trichromatic coordinates in case of doubt                      x   x\r\n\r\n 7           -             Photometry: limited to 20' and V = H = 0°                      x   x\r\n\r\n 14          2.            Deposit of samples with administration          x   x\r\n\r\n\r\n*/of the Regulation.\r\n\r\nAnnex 1 6 TEST PROCEDURE FOR CLASSES IB AND IIIB DEVICES\r\nRetro-reflecting devices of Classes IB and IIIB shall be tested according to the test procedures specified in Annex\r\n4, following the chronological order of tests given in Annex 12, with the exception of the test according to Annex\r\n8, paragraph 1., which for Classes IB and IIIB devices may be replaced by the test specified in Annex 8,\r\nparagraph 1.2.\r\n\r\nAnnex 1 7 MINIMUM REQUIREMENTS FOR CONFORMITY OF PRODUCTION\r\nCONTROL PROCEDURES\r\n1. GENERAL",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 1.1",
+      "pages": [
+        23
+      ],
+      "text": "1.1. The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the\r\ndifferences do not exceed inevitable manufacturing deviations within the requirements of this Regulation.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 1.2",
+      "pages": [
+        23
+      ],
+      "text": "1.2. With respect to photometric performances, the conformity of mass-produced retro-reflectors shall not be\r\ncontested if, when testing photometric performances of any retro-reflector chosen at random no measured value\r\ndeviates unfavourably by more than 20 per cent from the minimum values prescribed in this Regulation."
+    },
+    {
+      "paragraph": "Annex 12 / 1.3",
+      "pages": [
+        23
+      ],
+      "text": "1.3. The chromaticity coordinates shall be complied with.\r\n2. MINIMUM REQUIREMENTS FOR VERIFICATION OF CONFORMITY BY THE MANUFACTURER\r\nFor each type of retro-reflector the holder of the approval mark shall carry out at least the following tests, at\r\nappropriate intervals. The tests shall be carried out in accordance with the provisions of this Regulation.\r\nIf any sampling shows non-conformity with regard to the type of test concerned, further samples shall be taken\r\nand tested. The manufacturer shall take steps to ensure the conformity of the production concerned.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 2.1",
+      "pages": [
+        23,
+        24
+      ],
+      "text": "2.1. Nature of tests\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTests of conformity in this Regulation shall cover the photometric and colorimetric characteristics and the\r\nresistance to penetration of water."
+    },
+    {
+      "paragraph": "Annex 12 / 2.2",
+      "pages": [
+        24
+      ],
+      "text": "2.2. Methods used in tests"
+    },
+    {
+      "paragraph": "Annex 12 / 2.2.1",
+      "pages": [
+        24
+      ],
+      "text": "2.2.1. Tests shall generally be carried out in accordance with the methods set out in this Regulation."
+    },
+    {
+      "paragraph": "Annex 12 / 2.2.2",
+      "pages": [
+        24
+      ],
+      "text": "2.2.2. In any test of conformity carried out by the manufacturer, equivalent methods may be used with the consent\r\nof the competent authority responsible for approval tests. The manufacturer is responsible for proving that the\r\napplied methods are equivalent to those laid down in this Regulation."
+    },
+    {
+      "paragraph": "Annex 12 / 2.2.3",
+      "pages": [
+        24
+      ],
+      "text": "2.2.3. The application of paragraphs 2.2.1. and 2.2.2. requires regular calibration of test apparatus and its\r\ncorrelation with measurements made by a competent authority."
+    },
+    {
+      "paragraph": "Annex 12 / 2.2.4",
+      "pages": [
+        24
+      ],
+      "text": "2.2.4. In all cases the reference methods shall be those of this Regulation, particularly for the purpose of\r\nadministrative verification and sampling."
+    },
+    {
+      "paragraph": "Annex 12 / 2.3",
+      "pages": [
+        24
+      ],
+      "text": "2.3. Nature of sampling\r\nSamples of retro-reflectors shall be selected at random from the production of a uniform batch. A uniform batch\r\nmeans a set of retro-reflectors of the same type, defined according to the production methods of the manufacturer.\r\nThe assessment shall in general cover series production from individual factories. However, a manufacturer may\r\ngroup together records concerning the same type from several factories, provided these operate under the same\r\nquality system and quality management."
+    },
+    {
+      "paragraph": "Annex 12 / 2.4",
+      "pages": [
+        24
+      ],
+      "text": "2.4. Measured and recorded photometric characteristics\r\nThe sampled retro-reflector shall be subjected to photometric measurements at the points and the chromaticity\r\ncoordinates provided for in the Regulation."
+    },
+    {
+      "paragraph": "Annex 12 / 2.5",
+      "pages": [
+        24
+      ],
+      "text": "2.5. Criteria governing acceptability\r\nThe manufacturer is responsible for carrying out a statistical study of the test results and for defining, in\r\nagreement with the competent authority, criteria governing the acceptability of his products in order to meet the\r\nspecifications laid down for the verification of conformity of products in paragraph 8.1. of this Regulation.\r\nThe criteria governing the acceptability shall be such that, with a confidence level of 95 per cent, the minimum\r\nprobability of passing a spot check in accordance with Annex 18 (first sampling) would be 0.95.\r\n\r\nAnnex 1 8 MINIMUM REQUIREMENTS FOR SAMPLING BY AN INSPECTOR\r\n1. GENERAL\r\n1.1. The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in\r\naccordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable\r\nmanufacturing deviations.\r\n1.2. With respect to photometric performance, the conformity of mass-produced retro-reflectors shall not be\r\ncontested if, when testing photometric performances of any retro-reflector chosen at random:\r\n1.2.1. no measured value deviates unfavourably by more than 20 per cent from the minimum values prescribed in\r\nthis Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 1.2.2",
+      "pages": [
+        24,
+        25
+      ],
+      "text": "1.2.2. Retro-reflectors with apparent defects are disregarded.\r\n1.3. The chromaticity coordinates shall be complied with.\r\n2. First sampling\r\nIn the first sampling four retro-reflectors are selected at random. The first sample of two is marked A, the second\r\nsample of two is marked B.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2.1. The conformity of mass-produced retro-reflectors shall not be contested if the deviation of any specimen of\r\nsamples A and B (all four retro-reflectors) is not more than 20 per cent.\r\nIn the case, that the deviation of both retro-reflectors of sample A is not more than 0 per cent, the measurement\r\ncan be closed.\r\n2.2. The conformity of mass-produced retro-reflectors shall be contested if the deviation of at least one specimen\r\nof samples A or B is more than 20 per cent.\r\nThe manufacturer shall be requested to bring his production in line with the requirements (alignment) and a\r\nrepeated sampling according to paragraph 3. below shall be carried out within two months' time after the\r\nnotification. The samples A and B shall be retained by the Technical Service until the entire CoP process is\r\nfinished.\r\n3. First repeated sampling\r\nA sample of four retro-reflectors is selected at random from stock manufactured after alignment.\r\nThe first sample of two is marked C, the second sample of two is marked D.",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 3.1",
+      "pages": [
+        25
+      ],
+      "text": "3.1. The conformity of mass-produced retro-reflectors shall not be contested if the deviation of any specimen of\r\nsamples C and D (all four retro-reflectors) is not more than 20 per cent.\r\nIn the case, that the deviation of both retro-reflectors of sample C is not more than 0 per cent, the measurement\r\ncan be closed."
+    },
+    {
+      "paragraph": "Annex 12 / 3.2",
+      "pages": [
+        25
+      ],
+      "text": "3.2. The conformity of mass-produced retro-reflectors shall be contested if the deviation of at least"
+    },
+    {
+      "paragraph": "Annex 12 / 3.2.1",
+      "pages": [
+        25
+      ],
+      "text": "3.2.1. One specimen of samples C or D is more than 20 per cent but the deviation of all specimen of these samples\r\nis not more than 30 per cent.\r\nThe manufacturer shall be requested again to bring his production in line with the requirements (alignment).\r\nA second repeated sampling according to paragraph 4. below shall be carried out within two months' time after the\r\nnotification. The samples C and D shall be retained by the Technical Service until the entire CoP process is\r\nfinished."
+    },
+    {
+      "paragraph": "Annex 12 / 3.2.2",
+      "pages": [
+        25
+      ],
+      "text": "3.2.2. One specimen of samples C and D is more than 30 per cent.\r\nIn this case the approval shall be withdrawn and paragraph 5. below shall be applied.\r\n4. Second repeated sampling\r\nA sample of four retro-reflectors is selected at random from stock manufactured after alignment.\r\nThe first sample of two is marked E, the second sample of two is marked F.\r\n4.1. The conformity of mass-produced retro-reflectors shall not be contested if the deviation of any specimen of\r\nsamples E and F (all four retro-reflectors) is not more than 20 per cent. In the case, that the deviation of both\r\nretro-reflectors of sample E is not more than 0 per cent the measurement can be closed.\r\n4.2. The conformity of mass-produced retro-reflectors shall be contested if the deviation of at least one specimen\r\nof samples E or F is more than 20 per cent.\r\nIn this case the approval shall be withdrawn and paragraph 5 below shall be applied.\r\n5. Approval withdrawn\r\nApproval shall be withdrawn according to paragraph 9. of this Regulation.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 12 / 6",
+      "pages": [
+        25,
+        26
+      ],
+      "text": "6. Resistance to penetration of water\r\nWith respect to the verification of the resistance to penetration of water, the following procedure shall be applied:\r\nOne of the retro-reflectors of sample A, after sampling procedure in Paragraph 2. of this Annex, shall be tested\r\naccording to the procedure described in paragraph 1. of Annex 8 respectively paragraph 3. of Annex 14 for class\r\n\r\n\r\n\r\n\r\n\r\n\r\nIVA reflectors.\r\nThe retro-reflectors shall be considered as acceptable if the test has been passed.\r\nHowever, if the test on sample A is not complied with, the two retro reflectors of sample B shall be subjected to\r\nthe same procedure and both shall pass the test."
+    }
+  ]
+}

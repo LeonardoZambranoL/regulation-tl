@@ -1,0 +1,1574 @@
+{
+  "regulation": "UN R161",
+  "version": "0.5.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R161 (version 0.5.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to:"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. Approval of a vehicle of category M1 and N11 with regard to its devices to prevent unauthorized use.\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6.\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html)."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. The fitting of devices to vehicles of other categories is optional but any such device fitted is required to\r\ncomply with all relevant provisions of this Regulation."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3. At the request of the manufacturer, Contracting Parties may grant approvals according to this Regulation to\r\nvehicles of other categories and devices for fitment to such vehicles."
+    },
+    {
+      "paragraph": "1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.4. This Regulation does not apply to radio transmission frequencies, whether or not related to the protection of\r\nvehicles against unauthorized use."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Component\" means a device subject to the requirements of this Regulation and intended to be part of a\r\nvehicle, which may be type-approved independently of a vehicle where this Regulation makes express provisions\r\nfor so doing."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Separate technical unit\" means a device subject to the requirements of this Regulation and intended to be\r\npart of a vehicle, which may be type-approved separately, but only in relation to one or more specified types of\r\nvehicle where this Regulation makes express provisions for so doing."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Manufacturer\" means the person or body who is responsible to the approval authority for all aspects of the\r\ntype approval process and for ensuring conformity of production. It is not essential that the person or body is\r\ndirectly involved in all stage of the construction of the vehicle, system, component or separate technical unit\r\nwhich is the subject of the approval process."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Vehicle type\" means a category of motor vehicles which do not differ in such essential respects as:"
+    },
+    {
+      "paragraph": "2.4.1",
+      "pages": [
+        1
+      ],
+      "text": "2.4.1. The manufacturer's type designation,"
+    },
+    {
+      "paragraph": "2.4.2",
+      "pages": [
+        1
+      ],
+      "text": "2.4.2. The arrangement and design of the vehicle component or components on which the device to prevent\r\nunauthorized use acts,"
+    },
+    {
+      "paragraph": "2.4.3",
+      "pages": [
+        1
+      ],
+      "text": "2.4.3. The type of device to prevent unauthorized use."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "2.5. \"Device to prevent unauthorized use\" means a locking system designed to prevent unauthorized normal\r\nactivation of the engine or other source of main engine power of the vehicle in combination with at least one\r\nsystem which:\r\n(a) locks the steering; or\r\n(b) locks the transmission; or\r\n(c) locks the gearshift control; or\r\n(d) locks brakes.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn the case of a system which locks brakes, deactivation of the device shall not automatically release the brakes\r\ncontrary to the driver's intention."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Steering\" means the steering control, the steering column and its accessory cladding, the steering shaft, the\r\nsteering gearbox and all other components which directly affect the effectiveness of the device to prevent\r\nunauthorized use."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Combination\" means one of the specifically developed and constructed variations of a locking system which,\r\nwhen properly activated, permits operation of the locking system."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Key\" means any mechanical and/or electronic solution designed and constructed to provide a method of\r\noperating a locking system which is designed and constructed to be operated by that mechanical and/or electronic\r\nsolution."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"Rolling code\" means an electronic code consisting of several elements the combination of which changes at\r\nrandom after each operation of the transmitting unit."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Primary user\" is a user who is able to authorize digital keys. There can be more than one primary users."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Digital key\" means a key designed to be transferred to multiple devices by the primary user(s) through\r\ndedicated processes."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Close proximity\" means a distance of less than 6 m."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle or component type with regard to this Regulation shall be submitted\r\nby the manufacturer."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by an information document established in accordance with the model shown in\r\nAnnex 1, and giving a description of the technical characteristics of the device to prevent unauthorized use and the\r\nmethod(s) of installation for each make and type of vehicle on which the protective device is intended to be\r\ninstalled."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. Vehicle(s) / component(s) representative of the type(s) to be approved shall be submitted to the technical\r\nservice responsible for conducting the approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. If the type submitted for approval to this Regulation meets the requirements of this Regulation, approval of\r\nthat type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (at present 00, corresponding\r\nto the Regulation in its original form) shall indicate the series of amendments incorporating the most recent major\r\ntechnical amendment made to the Regulation at the time of issue of the approval. The same Contracting Party\r\nshall not assign the same number to another type of vehicle or component as defined in this Regulation."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        2
+      ],
+      "text": "4.3. Notice of approval or of extension of approval of a type pursuant to this Regulation shall be communicated to\r\nthe Contracting Parties to the Agreement applying this Regulation by means of a form conforming to the model in\r\nAnnex 2 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle or component conforming to a type approved under this Regulation, an international approval mark\r\nconsisting of:\r\n4.4.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval ,2 and\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2As defined in Annex 3 to the Consolidated Resolution on the Construction of Vehicles (R.E.3) document ECE/TRANS/WP.29/78/Rev.6\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html).\r\n4.4.2. the number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of\r\nthe circle prescribed in paragraph 4.4.1.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If a type conforms to a type approved, under one or more other UN Regulations annexed to the Agreement, in\r\nthe country which has granted approval under this Regulation, the symbol prescribed in paragraph 4.4.1. need not\r\nbe repeated; in such a case, the Regulation under which approval has been granted in the country which has\r\ngranted approval under this Regulation shall be placed in vertical columns to the right of the symbol prescribed in\r\nparagraph 4.4.1."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        3
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        3
+      ],
+      "text": "4.7. In the case of a vehicle, the approval mark shall be placed close to or on the vehicle data plate affixed by the\r\nmanufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        3
+      ],
+      "text": "4.8. Annex 3 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        3
+      ],
+      "text": "5. Approval of a vehicle of category M 1 and N 1 with regard to its devices to\r\nprevent unauthorized use"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. General specifications"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1.1. The device to prevent unauthorized use shall be so designed that it is necessary to put it out of action in\r\norder to enable:\r\n5.1.1.1. the engine to be started by means of the normal control, and\r\n5.1.1.2. the vehicle to be steered, driven or moved forward under its own power.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.1.3",
+      "pages": [
+        3
+      ],
+      "text": "5.1.1.3. The requirement of paragraph 5.1.1. can be achieved at the same time as or before to the actions described\r\nat paragraphs 5.1.1.1. and 5.1.1.2."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        3
+      ],
+      "text": "5.1.2. The requirements of paragraph 5.1.1. shall be met by the application of a single key."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        3
+      ],
+      "text": "5.1.3. Except in the case provided for in paragraph 5.2.1.5., a system operated with a key inserted in a lock shall\r\nnot permit removal of the key before the device referred to in paragraph 5.1.1. has come into action or has been\r\nset to act."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        3
+      ],
+      "text": "5.1.4. The device to prevent unauthorized use referred to in paragraph 5.1.1. above, and the vehicle components\r\non which it operates, shall be so designed that it cannot rapidly and without attracting attention be opened,\r\nrendered ineffective or destroyed by, for example, the use of low-cost, easily concealed tools, equipment or\r\nfabrications readily available to the public at large."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        3
+      ],
+      "text": "5.1.5. The device to prevent unauthorized use shall be fitted to the vehicle as an item of original equipment (i.e.\r\nequipment installed by the vehicle manufacturer prior to first retail sale). It shall be fitted in such a way that even\r\nafter removal of its housing it cannot, when in the blocked condition, be dismantled other than with special tools.\r\nIf it is possible to render the device to prevent unauthorized use ineffective by the removal of screws, those screws\r\nshall, unless they are of the non-removable type, be covered by parts of the blocked protective device."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        3
+      ],
+      "text": "5.1.6. Mechanical locking systems shall provide at least 1,000 different key combinations or a number equal to the\r\ntotal number of vehicles manufactured annually if less than 1,000. In vehicles of one type the frequency of\r\noccurrence of each combination shall be roughly one per 1,000."
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        3
+      ],
+      "text": "5.1.7. Electrical/electronic locking systems, e.g. remote control, shall have at least 50,000 variants and shall\r\nincorporate a rolling code and/or have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24\r\nhours for 50,000 variants minimum."
+    },
+    {
+      "paragraph": "5.1.8",
+      "pages": [
+        4
+      ],
+      "text": "5.1.8. Regarding the nature of the device to prevent the unauthorized use, paragraph 5.1.6. or 5.1.7., shall be\r\napplied."
+    },
+    {
+      "paragraph": "5.1.9",
+      "pages": [
+        4
+      ],
+      "text": "5.1.9. The key and lock shall not be visibly coded."
+    },
+    {
+      "paragraph": "5.1.10",
+      "pages": [
+        4
+      ],
+      "text": "5.1.10. The lock shall be so designed, constructed and fitted that turning of the lock cylinder, when in the locked\r\nposition, with a torque of less than 2.45 Nm is not possible with any key other than the mating key, and"
+    },
+    {
+      "paragraph": "5.1.10.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.10.1. For lock cylinders with pin tumblers no more than two identical tumblers operating in the same direction\r\nshall be positioned adjacent to each other, and in a lock there shall not be more than 60 per cent identical\r\ntumblers;"
+    },
+    {
+      "paragraph": "5.1.10.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.10.2. For lock cylinders with disc tumblers no more than two identical tumblers operating in the same\r\ndirection shall be positioned adjacent to each other, and in a lock there shall not be more than 50 per cent identical\r\ntumblers."
+    },
+    {
+      "paragraph": "5.1.11",
+      "pages": [
+        4
+      ],
+      "text": "5.1.11. Devices to prevent unauthorized use shall be such as to exclude any risk of accidental operating failure\r\nwhile the engine is running, particularly in the case of blockage likely to compromise safety."
+    },
+    {
+      "paragraph": "5.1.11.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1.11.1. It shall not be possible to activate devices to prevent unauthorized use without first setting the engine\r\ncontrols to a stop condition and then performing an action which is not an uninterrupted continuation of stopping\r\nthe engine or without first setting the engine controls to a stop condition and when the vehicle is stationary with\r\nthe parking brake applied or the speed of the vehicle does not exceed 4 km/h."
+    },
+    {
+      "paragraph": "5.1.11.2",
+      "pages": [
+        4
+      ],
+      "text": "5.1.11.2. In the case of devices to prevent unauthorized use, if the action of key withdrawal activates the device it\r\nshall either necessitate a minimum movement of 2 mm before activation of the device or incorporate an override\r\nfacility to prevent accidental removal or partial withdrawal of the key."
+    },
+    {
+      "paragraph": "5.1.11.3",
+      "pages": [
+        4
+      ],
+      "text": "5.1.11.3. Paragraphs 5.1.10., 5.1.10.1. or 5.1.10.2., and 5.1.11.2. are only applicable to devices which include\r\nmechanical keys."
+    },
+    {
+      "paragraph": "5.1.12",
+      "pages": [
+        4
+      ],
+      "text": "5.1.12. Power assistance may be used only to activate the locking and/or unlocking action of the device to prevent\r\nunauthorized use. The device shall be kept in its operating position by any suitable means which does not need a\r\npower supply."
+    },
+    {
+      "paragraph": "5.1.13",
+      "pages": [
+        4
+      ],
+      "text": "5.1.13. It shall not be possible to activate the motive power of the vehicle by normal means until the device to\r\nprevent unauthorized use has been deactivated."
+    },
+    {
+      "paragraph": "5.1.14",
+      "pages": [
+        4
+      ],
+      "text": "5.1.14. Devices to prevent unauthorized use by preventing release of the brakes of the vehicle shall only be\r\npermitted when the working parts of the brakes are held in a locked position by a purely mechanical device. In\r\nthis case the prescriptions of paragraph 5.1.13. do not apply."
+    },
+    {
+      "paragraph": "5.1.15",
+      "pages": [
+        4
+      ],
+      "text": "5.1.15. If the device to prevent unauthorized use is equipped with a driver warning feature it shall be activated\r\nwhen the operator opens the driver's side door, unless the device has been activated and the key removed by the\r\noperator."
+    },
+    {
+      "paragraph": "5.1.16",
+      "pages": [
+        4
+      ],
+      "text": "5.1.16. In addition, digital keys shall comply with the provisions of Annex 9."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2. Particular specifications\r\nIn addition to the general specifications prescribed in paragraph 5.1., the device to prevent unauthorized use shall\r\nmeet the particular conditions prescribed below:"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1. Devices to prevent unauthorized use acting on the steering"
+    },
+    {
+      "paragraph": "5.2.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1.1. A device to prevent unauthorized use acting on the steering shall render the steering inoperative. Before\r\nthe engine as a motive power can be started, the normal steering operation must be restored."
+    },
+    {
+      "paragraph": "5.2.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1.2. When the device to prevent unauthorized use is set to act, it shall not be possible to prevent the device\r\nfrom functioning."
+    },
+    {
+      "paragraph": "5.2.1.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.3. The device to prevent unauthorized use shall continue to meet the requirements of paragraphs 5.1.11.,\r\n5.2.1.1., 5.2.1.2. and 5.2.1.4. after it has undergone 2,500 locking cycles in each direction of the wear producing\r\ntest specified in Part 1 of Annex 4 to this Regulation."
+    },
+    {
+      "paragraph": "5.2.1.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.4. The device to prevent unauthorized use shall, in its activated position, satisfy one of the following criteria:"
+    },
+    {
+      "paragraph": "5.2.1.4.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.4.1. It shall be strong enough to withstand, without damage to the steering mechanism likely to compromise\r\nsafety, the application of a torque of 300 Nm about the axis of the steering spindle in both directions under static\r\nconditions."
+    },
+    {
+      "paragraph": "5.2.1.4.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.4.2. It shall incorporate a mechanism designed to yield or slip, such that the system will withstand, either\r\ncontinuously or intermittently, the application of a torque of at least 100 Nm. The locking system shall still\r\nwithstand the application of this torque after the test specified in Part 2 of Annex 4 to this Regulation."
+    },
+    {
+      "paragraph": "5.2.1.4.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.4.3. It shall incorporate a mechanism designed to permit the steering wheel to rotate freely on the blocked\r\nsteering spindle. The blocking mechanism shall be strong enough to withstand the application of a torque of 200\r\nNm about the axis of the steering spindle in both directions under static conditions."
+    },
+    {
+      "paragraph": "5.2.1.5",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.5. If the device to prevent unauthorized use is such that the key can be removed in a position other than the\r\nposition in which the steering is inoperative, it shall be so designed that the manoeuvre required to reach that\r\nposition and remove the key cannot be effected inadvertently."
+    },
+    {
+      "paragraph": "5.2.1.6",
+      "pages": [
+        5
+      ],
+      "text": "5.2.1.6. If a component fails such that the torque requirements specified in paragraphs 5.2.1.4.1., 5.2.1.4.2. and\r\n5.2.1.4.3. cannot be easily applied, yet the steering system remains blocked, the system shall satisfy the\r\nrequirements.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2. Devices to prevent unauthorized use acting on the transmission or on brakes"
+    },
+    {
+      "paragraph": "5.2.2.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.1. A device to prevent unauthorized use acting on the transmission shall prevent the rotation of the vehicle's\r\ndriving wheels."
+    },
+    {
+      "paragraph": "5.2.2.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.2. A device to prevent unauthorized use by acting on brakes shall brake at least one wheel on each side of at\r\nleast one axle."
+    },
+    {
+      "paragraph": "5.2.2.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.3. When the device to prevent unauthorized use is set to act, it shall not be possible to prevent the device\r\nfrom functioning."
+    },
+    {
+      "paragraph": "5.2.2.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.4. It shall not be possible for the transmission or brakes to be blocked inadvertently when the key is in the\r\nlock of the device to prevent unauthorized use, even if the device preventing starting of the engine has come into\r\naction or been set to act. This does not apply wherever the requirements of paragraph 5.2.2. of this Regulation are\r\nmet by devices used for another purpose in addition and the lock under the conditions above is necessary for this\r\nadditional function (e.g. electrical parking brake)."
+    },
+    {
+      "paragraph": "5.2.2.5",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.5. The device to prevent unauthorized use shall be so designed and constructed that it remains fully effective\r\neven after some degree of wear as a result of 2,500 locking cycles in each direction. In the case of a protective\r\ndevice acting on brakes, each mechanical or electrical sub-part of the device is concerned."
+    },
+    {
+      "paragraph": "5.2.2.6",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.6. If the device to prevent unauthorized use is such that the key can be removed in a position other than the\r\nposition in which the transmission or brakes are locked, it shall be so designed that the manoeuvre required to\r\nreach that position and remove the key cannot be effected inadvertently."
+    },
+    {
+      "paragraph": "5.2.2.7",
+      "pages": [
+        5
+      ],
+      "text": "5.2.2.7. In the case when the protective device acting on the transmission is used, it shall be strong enough to\r\nwithstand, without damage likely to compromise safety, the application in both directions and in static conditions\r\nof a torque 50 per cent greater than the maximum torque that can normally be applied to the transmission. In\r\ndetermining the level of this testing torque account shall be taken not of the maximum engine torque, but of the\r\nmaximum torque that can be transmitted by the clutch or by the automatic transmission."
+    },
+    {
+      "paragraph": "5.2.2.8",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.8. In the case of a vehicle equipped with a protective device acting on brakes, the device shall be capable of\r\nholding the laden vehicle stationary on a 20 per cent up- or down-gradient."
+    },
+    {
+      "paragraph": "5.2.2.9",
+      "pages": [
+        6
+      ],
+      "text": "5.2.2.9. In the case of a vehicle equipped with a protective device acting on brakes, the requirements of this\r\nRegulation shall not be construed as a departure from the requirements of UN Regulation No. 13 or 13-H even in\r\nthe case of a failure."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3. Devices to prevent unauthorized use acting on the gearshift control"
+    },
+    {
+      "paragraph": "5.2.3.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.1. A device to prevent unauthorized use acting on the gearshift control shall be capable of preventing any\r\nchange of gear."
+    },
+    {
+      "paragraph": "5.2.3.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.2. In the case of manual gearboxes, it shall be possible to lock the gearshift lever in reverse only; in addition\r\nlocking in neutral shall be permitted."
+    },
+    {
+      "paragraph": "5.2.3.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.3. In the case of automatic gearboxes provided with a \"parking\" position it shall be possible to lock the\r\nmechanism in the parking position only; in addition, locking in neutral and/or reverse shall be permitted."
+    },
+    {
+      "paragraph": "5.2.3.4",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.4. In the case of automatic gearboxes not provided with a \"parking\" position it shall be possible to lock the\r\nmechanism in the following positions only: neutral and/or reverse."
+    },
+    {
+      "paragraph": "5.2.3.5",
+      "pages": [
+        6
+      ],
+      "text": "5.2.3.5. The device to prevent unauthorized use shall be so designed and constructed that it remains fully effective\r\neven after some degree of wear as a result of 2,500 locking cycles in each direction."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        6
+      ],
+      "text": "5.3. Electromechanical and electronic devices to prevent unauthorized use shall comply with the requirements of\r\nparagraphs 5.1. and 5.2. and shall be submitted to the tests described in Annex 6, mutatis mutandi.\r\nComponents that are not embedded in the vehicle (e.g. keys, which are used for activation/deactivation) need not\r\nto comply with the requirements described in Annex 6.\r\nIf the technology of the device is such that Paragraph 5. and Annex 6 are not applicable it shall be verified that\r\ncare has been taken to preserve safety of the vehicle. The functioning process of these devices shall incorporate\r\nsecure means to prevent any risk of blocking or accidental malfunctioning which could compromise the safety of\r\nthe vehicle."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        6
+      ],
+      "text": "6. Modiﬁcation of the type and extension of approval"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1. Every modification of a vehicle or component type with regard to this Regulation shall be notified to the\r\nadministrative department which approved the vehicle or component type. The department may then either:\r\n6.1.1. consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe component or the vehicle still complies with the requirements, or\r\n6.1.2. require a further report from the technical service responsible for conducting the tests.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement applying this Regulation."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        6
+      ],
+      "text": "6.3. The Type Approval Authority shall inform the other Contracting Parties of the extension by means of the\r\ncommunication form which appears in Annex 1 to this Regulation. It shall assign a serial number to each\r\nextension, to be known as the extension number."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. Conformity of production procedures\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3), with the following requirements:"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. Vehicles/components under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements of the relevant part(s) of this Regulation."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        7
+      ],
+      "text": "7.2. For each type of vehicle or component the tests prescribed in the relevant part(s) of this Regulation shall be\r\ncarried out on a statistically controlled and random basis, in accordance with one of the regular quality assurance\r\nprocedures."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        7
+      ],
+      "text": "7.3. The authority which has granted approval may at any time verify the conformity control methods applied in\r\neach production facility. The normal frequency of these verifications shall be one every two years."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        7
+      ],
+      "text": "8. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        7
+      ],
+      "text": "8.1. The approval granted in respect of a vehicle/component type pursuant to this Regulation may be withdrawn if\r\nthe requirements laid down in paragraph 7. above are not complied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        7
+      ],
+      "text": "8.2. If a Contracting Party to the Agreement applying this Regulation withdraws an approval it has previously\r\ngranted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of a form\r\nconforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. Production deﬁnitively discontinued"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        7
+      ],
+      "text": "9.1. If the holder of the approval completely ceases to manufacture a vehicle/component type approved in\r\naccordance with this Regulation, he shall so inform the authority which granted the approval. Upon receiving the\r\nrelevant communication, that authority shall inform thereof the other Contracting Parties to the Agreement\r\napplying this Regulation by means of a form conforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. Names and addresses of Technical Services responsible for conducting\r\napproval tests, and of the Type Approval Authorities"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1. The Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nsecretariat the names and addresses of the Technical Services responsible for conducting approval tests and of\r\nType Approval Authorities which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval, issued in other countries are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        7
+      ],
+      "text": "Annex 1 Information document\r\n(Maximum format: A4 (210 mm x 297 mm))\r\nIn accordance with UN Regulation No. [xxx] on uniform provisions concerning the protection of motor vehicles\r\nagainst unauthorized use and the approval of the device against unauthorized use (by mean of a locking system)"
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        7
+      ],
+      "text": "1. General"
+    },
+    {
+      "paragraph": "Annex 1 / 1.1",
+      "pages": [
+        7
+      ],
+      "text": "1.1. Make (trade name of manufacturer):.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 1.2",
+      "pages": [
+        7
+      ],
+      "text": "1.2. Type:.................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 1.3",
+      "pages": [
+        7
+      ],
+      "text": "1.3. Means of identification of type, if marked on the device:1................\r\n\r\n\r\n1If the means of identification of type contains characters not relevant to describe the vehicle, component or separate technical unit types\r\ncovered in this information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??)."
+    },
+    {
+      "paragraph": "Annex 1 / 1.3.1",
+      "pages": [
+        7
+      ],
+      "text": "1.3.1. Location of that marking:........................................."
+    },
+    {
+      "paragraph": "Annex 1 / 1.4",
+      "pages": [
+        7
+      ],
+      "text": "1.4. Category of vehicle:2.......................................\r\n\r\n\r\n2As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html)."
+    },
+    {
+      "paragraph": "Annex 1 / 1.5",
+      "pages": [
+        7
+      ],
+      "text": "1.5. Name and address of the manufacturer:............................"
+    },
+    {
+      "paragraph": "Annex 1 / 1.6",
+      "pages": [
+        7
+      ],
+      "text": "1.6. Location of the ECE approval mark:.............................."
+    },
+    {
+      "paragraph": "Annex 1 / 1.7",
+      "pages": [
+        8
+      ],
+      "text": "1.7. Address(es) of assembly plant(s):................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        8
+      ],
+      "text": "2. General construction characteristics of the vehicle"
+    },
+    {
+      "paragraph": "Annex 1 / 2.1",
+      "pages": [
+        8
+      ],
+      "text": "2.1. Photographs and/or drawings of a representative vehicle:................"
+    },
+    {
+      "paragraph": "Annex 1 / 2.2",
+      "pages": [
+        8
+      ],
+      "text": "2.2. Hand of drive: left / right3....................................\r\n\r\n\r\n3Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        8
+      ],
+      "text": "3. Miscellaneous"
+    },
+    {
+      "paragraph": "Annex 1 / 3.1",
+      "pages": [
+        8
+      ],
+      "text": "3.1. Devices to prevent unauthorized use of the vehicle"
+    },
+    {
+      "paragraph": "Annex 1 / 3.1.1",
+      "pages": [
+        8
+      ],
+      "text": "3.1.1. Protective device:"
+    },
+    {
+      "paragraph": "Annex 1 / 3.1.1.1",
+      "pages": [
+        8
+      ],
+      "text": "3.1.1.1. A detailed description of the vehicle type with regard to the arrangement and design of the control or of\r\nthe unit on which the protective device acts:"
+    },
+    {
+      "paragraph": "Annex 1 / 3.1.1.2",
+      "pages": [
+        8
+      ],
+      "text": "3.1.1.2. Drawings of the protective device and of its mounting on the vehicle:........"
+    },
+    {
+      "paragraph": "Annex 1 / 3.1.1.3",
+      "pages": [
+        8
+      ],
+      "text": "3.1.1.3. A technical description of the device:............................."
+    },
+    {
+      "paragraph": "Annex 1 / 3.1.1.4",
+      "pages": [
+        8
+      ],
+      "text": "3.1.1.4. Details of the lock combinations use:................................."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        8
+      ],
+      "text": "Annex 2 Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nconcerning:2\r\n\r\napproval granted\r\napproval extended\r\napproval refused\r\napproval withdrawn\r\nproduction definitely discontinued\r\nof a vehicle type with regard to its devices to prevent unauthorized use pursuant to UN Regulation No. [xxx]\r\nApproval No. .............. Extension No.\r\nReason for extension:\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/ withdrawn approval (see approval provisions in the Regulation).\r\n\r\n\r\n2Strike out what does not apply (there are cases where nothing needs to be deleted, when more than one entry is applicable).\r\n\r\nSection I"
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        9
+      ],
+      "text": "1. General"
+    },
+    {
+      "paragraph": "Annex 2 / 1.1",
+      "pages": [
+        9
+      ],
+      "text": "1.1. Make (trade name of manufacturer): ..............................."
+    },
+    {
+      "paragraph": "Annex 2 / 1.2",
+      "pages": [
+        9
+      ],
+      "text": "1.2. Type: ...................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 1.3",
+      "pages": [
+        9
+      ],
+      "text": "1.3. Means of identification of type, if marked on the vehicle/component/separate technical unit 2 3:\r\n\r\n\r\n2Strike out what does not apply (there are cases where nothing needs to be deleted, when more than one entry is applicable).\r\n\r\n\r\n3If the means of identification of type contains characters not relevant to describe the vehicle, component or separate technical unit types\r\ncovered in this information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??)."
+    },
+    {
+      "paragraph": "Annex 2 / 1.3.1",
+      "pages": [
+        9
+      ],
+      "text": "1.3.1. Location of that marking:......................................."
+    },
+    {
+      "paragraph": "Annex 2 / 1.4",
+      "pages": [
+        9
+      ],
+      "text": "1.4. Category of vehicle4:..........................................\r\n\r\n\r\n4As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3) document ECE/TRANS/WP.29/78/Rev.6\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html.)."
+    },
+    {
+      "paragraph": "Annex 2 / 1.5",
+      "pages": [
+        9
+      ],
+      "text": "1.5. Name and address of manufacturer:................................"
+    },
+    {
+      "paragraph": "Annex 2 / 1.6",
+      "pages": [
+        9
+      ],
+      "text": "1.6. Location of the ECE approval mark:................................"
+    },
+    {
+      "paragraph": "Annex 2 / 1.7",
+      "pages": [
+        9
+      ],
+      "text": "1.7. Address(es) of assembly plant(s):..................................\r\nSection II\r\n1. Additional information (where applicable): see addendum",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 2 / 2",
+      "pages": [
+        9
+      ],
+      "text": "2. Technical service responsible for carrying out the tests:"
+    },
+    {
+      "paragraph": "Annex 2 / 3",
+      "pages": [
+        9
+      ],
+      "text": "3. Date of test report:..................................................."
+    },
+    {
+      "paragraph": "Annex 2 / 4",
+      "pages": [
+        9
+      ],
+      "text": "4. Number of test report:................................................"
+    },
+    {
+      "paragraph": "Annex 2 / 5",
+      "pages": [
+        9
+      ],
+      "text": "5. Remarks (if any): see addendum"
+    },
+    {
+      "paragraph": "Annex 2 / 6",
+      "pages": [
+        9
+      ],
+      "text": "6. Place:"
+    },
+    {
+      "paragraph": "Annex 2 / 7",
+      "pages": [
+        9
+      ],
+      "text": "7. Date:"
+    },
+    {
+      "paragraph": "Annex 2 / 8",
+      "pages": [
+        9
+      ],
+      "text": "8. Signature:"
+    },
+    {
+      "paragraph": "Annex 2 / 9",
+      "pages": [
+        9
+      ],
+      "text": "9. The index to the information package lodged with the approval authority, which may be obtained on request, is\r\nattached.\r\nAddendum\r\nto UN type approval certificate No. ...\r\nconcerning the type approval of a vehicle with regard to UN Regulation No. [xxx]\r\n1. Additional information:..............................................\r\n1.1. Brief description of the device(s) against unauthorized use and the vehicle parts on which it (they) act(s):\r\n2. Remarks:",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "Annex 3 Arrangements of approval marks\r\n(see paragraphs 4.4. to 4.4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min.\r\nThe above approval mark affixed to a vehicle shows that the type concerned was approved in the Netherlands (E\r\n4) pursuant to UN Regulation No. XXX under approval No. 001234. The first two digits (00) of the approval\r\nnumber indicate that the approval was granted in accordance with the requirements of UN Regulation No. XXX in\r\nits original form."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        10
+      ],
+      "text": "Annex 4 - Part 1 Wear producing test procedure for devices to prevent\r\nunauthorized use acting on the steering"
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        10
+      ],
+      "text": "1. Test equipment\r\nThe test equipment shall consist of:"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        10
+      ],
+      "text": "1.1. A fixture suitable for mounting the sample steering complete with the device to prevent unauthorized use\r\nattached, as defined in paragraph 2.5. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 1.2",
+      "pages": [
+        10
+      ],
+      "text": "1.2. A means for activating and deactivating the device to prevent unauthorized use which shall include the use of\r\nthe key."
+    },
+    {
+      "paragraph": "Annex 4 / 1.3",
+      "pages": [
+        10
+      ],
+      "text": "1.3. A means for rotating the steering shaft relative to the device to prevent unauthorized use."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        10
+      ],
+      "text": "2. Test method"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        10
+      ],
+      "text": "2.1. A sample of the steering complete with the device to prevent unauthorized use is attached to the fixture\r\nreferred to in paragraph 1.1. above."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2",
+      "pages": [
+        10
+      ],
+      "text": "2.2. One cycle of the test procedure shall consist of the following operations:"
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.1",
+      "pages": [
+        10
+      ],
+      "text": "2.2.1. Start position. The device to prevent unauthorized use shall be deactivated and the steering shaft shall be\r\nrotated to a position which prevents engagement of the device to prevent unauthorized use, unless it is of the type\r\nwhich permits locking in any position of the steering."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.2",
+      "pages": [
+        10
+      ],
+      "text": "2.2.2. Set to activate. The device to prevent unauthorized use shall be moved from the deactivated to the activated\r\nposition, using the key.\r\n2.2.3. 1 Activated. The steering spindle shall be rotated such that the torque on it, at the instant of engagement of\r\nthe device to prevent unauthorized use, shall be 40 Nm ± 2 Nm.\r\n\r\n1If the device to prevent unauthorized use permits locking in any position of the steering, the procedures described in paragraphs 2.2.3. and\r\n2.2.5. shall be omitted.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.4",
+      "pages": [
+        10
+      ],
+      "text": "2.2.4. Deactivated. The device to prevent unauthorized use shall be deactivated by the normal means, the torque\r\nbeing reduced to zero to facilitate disengagement.\r\n2.2.5. 1 Return. The steering spindle shall be rotated to a position which prevents engagement of the device to\r\nprevent unauthorized use.\r\n\r\n1If the device to prevent unauthorized use permits locking in any position of the steering, the procedures described in paragraphs 2.2.3. and\r\n2.2.5. shall be omitted.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.6",
+      "pages": [
+        10
+      ],
+      "text": "2.2.6. Opposite rotation. Repeat procedures described in paragraphs 2.2.2., 2.2.3., 2.2.4. and 2.2.5, but in the\r\nopposite direction of rotation of the steering spindle."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.7",
+      "pages": [
+        11
+      ],
+      "text": "2.2.7. The time interval between two successive engagements of the device shall be at least 10 seconds."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3",
+      "pages": [
+        11
+      ],
+      "text": "2.3. The wear-producing cycle shall be repeated the number of times specified in paragraph 5.2.1.3. of this\r\nRegulation.\r\n\r\nAnnex 4 - Part 2 Test procedure for devices to prevent unauthorized use\r\nacting on the steering using a torque limiting device\r\n1. Test equipment\r\nThe test equipment shall consist of:\r\n1.1. A fixture suitable for holding the relevant parts of a steering system or, if the test is carried out on a complete\r\nvehicle, a jacking system capable of lifting all the steered wheels clear of the ground, and\r\n1.2. A device or devices capable of producing, and measuring, a torque applied to the steering control as\r\nprescribed in paragraph 2.3. The measurement precision shall be less than or equal to 2 per cent.\r\n2. Test procedure description\r\n2.1. If the test is carried out on a complete vehicle, the test shall be carried out with all the steered wheels of the\r\nvehicle held clear of the ground.\r\n2.2. The steering lock shall be activated such that the steering is blocked.\r\n2.3. A torque shall be applied to the steering control such that it rotates.",
+      "review_flags": [
+        "ambiguous_annex_heading",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.4",
+      "pages": [
+        11
+      ],
+      "text": "2.4. The test cycle includes a rotation of the steering control of 90° followed by a rotation in the opposite direction\r\nof 180°, and a new rotation of 90° in the original direction (see figure);\r\n1 cycle = +90° / -180° / +90° with a tolerance of ± 10 per cent.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5",
+      "pages": [
+        11
+      ],
+      "text": "2.5. A cycle duration is equal to 20 s ± 2 s."
+    },
+    {
+      "paragraph": "Annex 4 / 2.6",
+      "pages": [
+        11
+      ],
+      "text": "2.6. Five test cycles shall be carried out."
+    },
+    {
+      "paragraph": "Annex 4 / 2.7",
+      "pages": [
+        11
+      ],
+      "text": "2.7. During each of the test cycles the minimum recorded value of the torque shall be higher than that given in\r\nparagraph 5.2.1.4.2. of this Regulation.\r\n\r\nAnnex 5\r\n(reserved)"
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        11
+      ],
+      "text": "Annex 6 Operation parameters and test conditions for devices to prevent\r\nunauthorized used (by mean of a locking system)"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "1. Operation parameters\r\n\r\n\r\n\r\n\r\n\r\nThe requirements below do not apply to:\r\n(a) Those components that are fitted and tested as part of the vehicle, whether or not a locking system is fitted\r\n(e.g. lamps, alarm system, immobilizer); or\r\n(b) Those components that have previously been tested as part of the vehicle and documentary evidence has been\r\nprovided, or\r\n(c) Components that are not embedded in the vehicle, e.g. keys.\r\nAll components of the locking system shall operate without any failure under the following conditions"
+    },
+    {
+      "paragraph": "Annex 6 / 1.1",
+      "pages": [
+        12
+      ],
+      "text": "1.1. Climatic conditions\r\nTwo classes of environmental temperature are defined as follows:\r\n(a) -40°C to +85°C for parts to be fitted in the passenger or luggage compartment,\r\n(b) -40°C to +125°C for parts to be fitted in the engine compartment unless otherwise specified."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2",
+      "pages": [
+        12
+      ],
+      "text": "1.2. Degree of protection for installation\r\nThe following degrees of protection in accordance with IEC Publication 529 1989 shall be provided:\r\n(a) IP 40 for parts to be fitted in the passenger compartment,\r\n(b) IP 42 for parts to be fitted in the passenger compartment of roadsters/convertibles and cars with moveable\r\nroof-panels if the installation location requires a higher degree of protection than IP 40,\r\n(c) IP 54 for all other parts.\r\nThe locking system manufacturer shall specify in the installation instructions any restrictions on the positioning of\r\nany part of the installation with respect to dust, water and temperature."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3",
+      "pages": [
+        12
+      ],
+      "text": "1.3. Weatherability\r\nSeven days according to IEC 68-2-30-1980."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4",
+      "pages": [
+        12
+      ],
+      "text": "1.4. Electrical conditions\r\nRated supply voltage: 12 V\r\nOperation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 1.1.1\r\nTime allowance for excess voltages at 23°C:\r\nU = 18 V, max. 1 h\r\nU = 24 V, max. 1 min."
+    },
+    {
+      "paragraph": "Annex 6 / 2",
+      "pages": [
+        12
+      ],
+      "text": "2. Test conditions\r\nAll the tests shall be carried out in sequence on a single locking system. However, at the discretion of the test\r\nauthority, other samples may be used if this is not considered to affect the results of the other tests."
+    },
+    {
+      "paragraph": "Annex 6 / 2.1",
+      "pages": [
+        12
+      ],
+      "text": "2.1. Normal test conditions\r\nVoltage U = (12 ± 0.2) V\r\nTemperature T = (23 ± 5)°C"
+    },
+    {
+      "paragraph": "Annex 6 / 3",
+      "pages": [
+        12
+      ],
+      "text": "3. Operation test\r\nAll components of the locking system shall comply with prescriptions given in paragraphs 3.2. to 3.9."
+    },
+    {
+      "paragraph": "Annex 6 / 3.1",
+      "pages": [
+        12,
+        13
+      ],
+      "text": "3.1 Upon completion of all the tests specified below, the locking system shall be tested under the normal test\r\nconditions specified in paragraph 2.1. to check that it continues to function normally. Where necessary, fuses may\r\nbe replaced prior to the test.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIf some of the tests required in each of these paragraphs prior to the operation tests are performed in series on a\r\nsingle locking system, the operation test may be carried out one time only after the chosen tests are completed\r\ninstead of performing the operation tests required in the paragraphs after each of the chosen tests. Vehicle\r\nmanufacturers and suppliers have to guarantee satisfactory results only on non-accumulated procedures.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 3.2",
+      "pages": [
+        13
+      ],
+      "text": "3.2. Resistance to temperature and voltage changes\r\nCompliance with the specifications defined under paragraph 3.1. shall also be checked under the following\r\nconditions:"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.1",
+      "pages": [
+        13
+      ],
+      "text": "3.2.1. Test temperature T (-40 ± 2)°C\r\nTest voltage U = (9 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.2",
+      "pages": [
+        13
+      ],
+      "text": "3.2.2. For parts to be fitted in the passenger or luggage compartment:\r\nTest temperature T = (+85 ± 2)°C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.3",
+      "pages": [
+        13
+      ],
+      "text": "3.2.3. For parts to be fitted in the engine compartment unless otherwise specified:\r\nTest temperature T = (+125 ± 2)°C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.4",
+      "pages": [
+        13
+      ],
+      "text": "3.2.4. The locking system, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V\r\nfor 1 hour."
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.5",
+      "pages": [
+        13
+      ],
+      "text": "3.2.5. The locking system, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V\r\nfor 1 min."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "3.3. Safe operation after foreign body and water-tightness testing\r\nAfter the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in\r\nparagraph 1.1.2., the operation tests according to paragraph 3.1. shall be repeated.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of a locking system which is to be type approved as a separate technical unit\r\nIn this case, the manufacturer of the locking system shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1, Part 2), that the requirement of this paragraph was\r\nnot applied to the locking system (in accordance with paragraph 7. of this Regulation), and\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the locking system is intended\r\nto be fitted and the relevant installation conditions in item 4.2.\r\n(b) Type approval of a vehicle in respect of a locking system\r\nIn this case, the manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that the\r\nrequirement of this paragraph does not apply to the locking system due to the nature of installation conditions and\r\nthe vehicle manufacturer shall prove it by submitting related documents.\r\n(c) Type approval of a vehicle in respect of the installation of a locking system which is type approved as a\r\nseparate technical unit.\r\nIn this case, the vehicle manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that\r\nthe requirement of this paragraph does not apply to the installation of the locking system where the relevant\r\ninstallation conditions are met.\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis requirement does not apply in cases where the information required in item 3.1.3.1.1. of Annex 1a has\r\nalready been submitted for the approval of the separate technical unit."
+    },
+    {
+      "paragraph": "Annex 6 / 3.4",
+      "pages": [
+        14
+      ],
+      "text": "3.4. Safe operation after condensed water test\r\nAfter a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according\r\nto paragraph 3.1. shall be repeated."
+    },
+    {
+      "paragraph": "Annex 6 / 3.5",
+      "pages": [
+        14
+      ],
+      "text": "3.5. Test for safety against reversed polarity\r\nThe locking system and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.\r\nAfter this test the operation tests according to paragraph 3.1. shall be repeated with fuses changed, if necessary."
+    },
+    {
+      "paragraph": "Annex 6 / 3.6",
+      "pages": [
+        14
+      ],
+      "text": "3.6. Test for safety against short-circuits\r\nAll electrical connections of the locking system must be short-circuit proof against earth, max. 13 V and/or fused.\r\nAfter this test the operation tests according to paragraph 3.1. shall be repeated, with fuses changed if necessary."
+    },
+    {
+      "paragraph": "Annex 6 / 3.7",
+      "pages": [
+        14
+      ],
+      "text": "3.7. Energy consumption in the set condition\r\nThe energy consumption in set condition under the conditions given in paragraph 2.1. shall not exceed 20 mA on\r\naverage for the complete locking system including status display.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of a locking system which is to be type approved as a separate technical unit\r\nIn this case, the manufacturer of the locking system shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1, Part 2), that the requirement of this paragraph was\r\nnot applied to the locking system (in accordance with paragraph 7. of this regulation), and\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the locking system is intended\r\nto be fitted and the relevant installation conditions in item 4.2.\r\n(b) Type approval of a vehicle in respect of a locking system\r\nIn this case, the manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that the\r\nrequirement of this paragraph does not apply to the locking system due to the nature of installation conditions and\r\nthe vehicle manufacturer shall prove it by submitting related documents.\r\n(c) Type approval of a vehicle in respect of the installation of a locking system which is type approved as a\r\nseparate technical unit.\r\nIn this case, the vehicle manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that\r\nthe requirement of this paragraph does not apply to the installation of the locking system where the relevant\r\ninstallation conditions are met.\r\nThis requirement does not apply in cases where the information required in item 3.1.3.1.1. of Annex 1a has\r\nalready been submitted for the approval of the separate technical unit."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8",
+      "pages": [
+        14
+      ],
+      "text": "3.8. Safe operation after vibration test"
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.1",
+      "pages": [
+        14
+      ],
+      "text": "3.8.1. For this test, the components are subdivided into two types:\r\nType 1: components normally mounted on the vehicle,\r\nType 2: components intended for attachment to the engine."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2",
+      "pages": [
+        14
+      ],
+      "text": "3.8.2. The components/ locking system shall be submitted to a sinusoidal vibration mode whose characteristics are\r\nas follows:"
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.1",
+      "pages": [
+        14
+      ],
+      "text": "3.8.2.1. For Type 1\r\nThe frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum\r\nacceleration of 3 g (0-peak)."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.2",
+      "pages": [
+        15
+      ],
+      "text": "3.8.2.2. For Type 2\r\nThe frequency shall be variable from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum\r\nacceleration of 15 g (0-peak)."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.3",
+      "pages": [
+        15
+      ],
+      "text": "3.8.2.3. For both type 1 and type 2\r\nThe frequency variation is 1 octave/min.\r\nThe number of cycles is 10, the test shall be performed along each of the 3 axes.\r\nThe vibrations are applied at low frequencies at a maximum constant amplitude and at a maximum constant\r\nacceleration at high frequencies."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.3",
+      "pages": [
+        15
+      ],
+      "text": "3.8.3. During the test the locking system shall be electrically connected and the cable shall be supported after 200\r\nmm."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.4",
+      "pages": [
+        15
+      ],
+      "text": "3.8.4. After the vibration test the operation tests according to paragraph 3.1. shall be repeated."
+    },
+    {
+      "paragraph": "Annex 6 / 3.9",
+      "pages": [
+        15
+      ],
+      "text": "3.9. Electromagnetic compatibility\r\nThe locking system shall be submitted to the tests described in Annex 7"
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        15
+      ],
+      "text": "Annex 7 Electromagnetic compatibility"
+    },
+    {
+      "paragraph": "Annex 7 / 1",
+      "pages": [
+        15
+      ],
+      "text": "1. Immunity against disturbances conducted along supply lines\r\nTests shall be performed according to the technical prescriptions and transitional provisions of UN Regulation No.\r\n10, 06 series of amendments and according to the test methods described in Annex 10 for an Electrical/Electronic\r\nSub-Assembly (ESA).\r\nThe locking system shall be tested in unset state and in set state."
+    },
+    {
+      "paragraph": "Annex 7 / 2",
+      "pages": [
+        15
+      ],
+      "text": "2. Immunity against radiated high frequency disturbances\r\nTesting of the immunity of a locking system in a vehicle may be performed according to the technical\r\nprescriptions and transitional provisions of UN Regulation No. 10, 06 series of amendments and test methods\r\ndescribed in Annex 6 for the vehicles or Annex 9 for an Electrical/Electronic Sub-Assembly (ESA).\r\nThe locking system shall be tested with operating conditions and failure criteria as defined in table 1"
+    },
+    {
+      "paragraph": "Table 1",
+      "pages": [
+        15,
+        16
+      ],
+      "text": "Table 1 Operating conditions and failure criteria for the locking system\r\n\r\n Test type       Locking system operating conditions             Failure criteria\r\n\r\n\r\n Vehicle test    Locking system in unset state                   Unexpected activation of the locking system\r\n                 Key ON or Vehicle at 50 km/h (1)\r\n\r\n                 Locking system in set state                     Unexpected deactivation of the locking system\r\n                 Key OFF\r\n\r\n                 Locking system in set state                     Unexpected deactivation of the locking system\r\n                 Vehicle in charging mode (if applicable)\r\n\r\n ESA Test        Locking system in unset state                   Unexpected activation of the locking system\r\n\r\n                 Locking system in set state                     Unexpected deactivation of the locking system\r\n\r\n (1) This test can be covered by the UN Regulation No. 10, 50 km/h mode\r\n\r\n3. Electrical disturbance from electrostatic discharges\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nImmunity against electrical disturbances shall be tested in accordance with ISO 10605-2008 + corrigendum:2010\r\n+ AMD1:2014 using the test severity levels from table 2.\r\nESD tests shall be performed either at vehicle level or at Electrical/Electronic Sub-Assembly (ESA) level.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Table 2",
+      "pages": [
+        16
+      ],
+      "text": "Table 2 ESD Test levels\r\n\r\n Discharge       Discharge points             Locking system state                 Discharge        Test      Failure criteria\r\n type                                                                              network          Level\r\n\r\n\r\n Air             Points that can easily       Locking system in unset state        330 pF, 2        ± 6       Unexpected activation of the\r\n discharge       be accessed only from        (if test performed on vehicle        kΩ               kV        locking system\r\n                 the inside of the            then vehicle shall be Key ON\r\n                 vehicle                      or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       Locking system in set state          150 pF, 2        ± 15      Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle        kΩ               kV        the locking system without\r\n                 the outside of the           then vehicle shall be locked                                    reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                    each discharge\r\n\r\n Contact         Points that can easily       Locking system in unset state        330 pF, 2        ± 4       Unexpected activation of the\r\n discharge       be accessed only from        (if test performed on vehicle        kΩ               kV        locking system\r\n                 the inside of the            then vehicle shall be Key ON\r\n                 vehicle                      or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       Locking system in set state          150 pF, 2        ± 8       Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle        kΩ               kV        the locking system without\r\n                 the outside of the           then vehicle shall be locked                                    reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                    each discharge\r\n\r\n Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge\r\n\r\n4. Radiated emissions\r\nTests shall be performed according to the technical prescriptions and transitional provisions of UN Regulation No.\r\n10, 06 series of amendments prescriptions and according to the test methods described in Annexes 4 and 5 for\r\nvehicles or Annexes 7 and 8, for an Electrical/Electronic Sub-Assembly (ESA).\r\nThe locking system shall be in set state.\r\n\r\nAnnex 8 (reserved)",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 9",
+      "pages": [
+        16
+      ],
+      "text": "Annex 9 Safety provisions for digital keys"
+    },
+    {
+      "paragraph": "Annex 9 / 1",
+      "pages": [
+        16
+      ],
+      "text": "1. General\r\nThe purpose of this annex is to specify the requirements for documentation and verification for digital keys used\r\nto operate the ‘device to prevent unauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2",
+      "pages": [
+        16
+      ],
+      "text": "2. Definitions"
+    },
+    {
+      "paragraph": "Annex 9 / 2.1",
+      "pages": [
+        16
+      ],
+      "text": "2.1. \"Authorization process\" means any method to provide the digital key which can operate the ‘device to prevent\r\nunauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2.2",
+      "pages": [
+        16
+      ],
+      "text": "2.2. \"Revocation process\" means any method to prevent the digital key to operate the ‘device to prevent\r\nunauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2.3",
+      "pages": [
+        17
+      ],
+      "text": "2.3. \"Boundary of functional operation\" defines the boundaries of the external physical limits (e.g. distance)\r\nwithin which the digital key is able to operate the ‘device to prevent unauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 3",
+      "pages": [
+        17
+      ],
+      "text": "3. Documentation\r\nThe vehicle manufacturer shall provide the following documentation for type approval:"
+    },
+    {
+      "paragraph": "Annex 9 / 3.1",
+      "pages": [
+        17
+      ],
+      "text": "3.1. A description of the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.2",
+      "pages": [
+        17
+      ],
+      "text": "3.2. A description of the revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.3",
+      "pages": [
+        17
+      ],
+      "text": "3.3. A description of the boundary of functional operation."
+    },
+    {
+      "paragraph": "Annex 9 / 3.4",
+      "pages": [
+        17
+      ],
+      "text": "3.4. A description of the safety measures designed within the digital key revocation process to ensure safe\r\noperation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 4",
+      "pages": [
+        17
+      ],
+      "text": "4. Requirements for Safe Operation"
+    },
+    {
+      "paragraph": "Annex 9 / 4.1",
+      "pages": [
+        17
+      ],
+      "text": "4.1. A digital key shall only be transferred to a device via the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2",
+      "pages": [
+        17
+      ],
+      "text": "4.2. There shall be a revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.1",
+      "pages": [
+        17
+      ],
+      "text": "4.2.1. Revocation of a digital key shall not result in an unsafe condition.\r\nA risk reduction analysis using functional safety standard such as ISO 26262 and safety of the intended\r\nfunctionality standard such as ISO/PAS 21448, which documents the risk to vehicle occupants caused by\r\nrevocation of a digital key and documents the reduction of risk resulting from implementation of the identified\r\nrisk mitigation functions or characteristics."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.2",
+      "pages": [
+        17
+      ],
+      "text": "4.2.2. It shall be possible for the primary user(s) to identify the number of authorized registered digital keys."
+    },
+    {
+      "paragraph": "Annex 9 / 4.3",
+      "pages": [
+        17
+      ],
+      "text": "4.3. Boundary of functional operation for the device to prevent unauthorized use:"
+    },
+    {
+      "paragraph": "Annex 9 / 4.3.1",
+      "pages": [
+        17
+      ],
+      "text": "4.3.1. Unlocking of the device to prevent unauthorized use shall require that an authorized registered digital key is\r\ndetected in the interior of the vehicle, or in close proximity of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 4.3.2",
+      "pages": [
+        17
+      ],
+      "text": "4.3.2. The requirements in paragraph 4.3.1. shall not apply during a remote control manoeuvring and remote\r\ncontrol parking as defined in UN Regulation No. 79."
+    },
+    {
+      "paragraph": "Annex 9 / 4.4",
+      "pages": [
+        17
+      ],
+      "text": "4.4. Detailed information shall be contained in the owner's manual of the vehicle, or by any other communication\r\nmeans in the vehicle; as a minimum, this information shall include:\r\n(a) The method(s) for authorization of the digital key;\r\n(b) The method(s) for revocation of the digital key."
+    },
+    {
+      "paragraph": "Annex 9 / 5",
+      "pages": [
+        17
+      ],
+      "text": "5. The effectiveness of the system shall not be adversely affected by cyber-attacks, cyber threats and\r\nvulnerabilities. The effectiveness of the security measures shall be demonstrated by fulfilling the technical\r\nrequirements of UN Regulation No. 155."
+    },
+    {
+      "paragraph": "Annex 9 / 6",
+      "pages": [
+        17
+      ],
+      "text": "6. Verification\r\nVerification of the functionality of the digital key shall be conducted with support of manufacturer's\r\ndocumentation as specified in paragraph 3."
+    },
+    {
+      "paragraph": "Annex 9 / 7",
+      "pages": [
+        17
+      ],
+      "text": "7. Competence of the auditors/assessors\r\nThe assessments under this Annex shall only be conducted by auditors/assessors with the technical and\r\nadministrative knowledge necessary for such purposes. They shall in particular be competent as auditor/assessor\r\nfor ISO 26262-2018 (Functional Safety - Road Vehicles), and ISO/PAS 21448 (Safety of the Intended\r\nFunctionality of road vehicles); and shall be able to make the necessary link with cybersecurity aspects in\r\naccordance with UN Regulation No 155. and ISO/SAE 21434). This competence should be demonstrated by\r\nappropriate qualifications or other equivalent training records."
+    }
+  ]
+}

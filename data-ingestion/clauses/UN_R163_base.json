@@ -1,0 +1,2083 @@
+{
+  "regulation": "UN R163",
+  "version": "0.3.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R163 (version 0.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis UN Regulation applies to:"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. Approval of Vehicle Alarm Systems (VAS) which are intended to be permanently fitted to vehicles of any\r\ncategory. 1, 2\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6.\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html)\r\n\r\n2Only vehicles with 12 volts electrical systems are considered."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. Approval of vehicles of category M1 and those of category N1 with a maximum mass of not more than 2\r\ntonnes, with regard to their alarm system(s). 2\r\n\r\n\r\n2Only vehicles with 12 volts electrical systems are considered."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3. At the request of the manufacturer, Contracting Parties may grant approvals to vehicles of other categories\r\nwith regard to their alarm system(s)."
+    },
+    {
+      "paragraph": "1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.4. This UN Regulation does not apply to radio transmission frequencies, whether or not related to the protection\r\nof vehicles against unauthorized use."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Component\" means a device subject to the requirements of this Regulation and intended to be part of a\r\nvehicle, which may be type-approved independently of a vehicle where this Regulation makes express provisions\r\nfor so doing."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Separate technical unit\" means a device subject to the requirements of this Regulation and intended to be\r\npart of a vehicle, which may be type-approved separately, but only in relation to one or more specified types of\r\nvehicle where this Regulation makes express provisions for so doing."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Manufacturer\" means the person or body who is responsible to the approval authority for all aspects of the\r\ntype approval process and for ensuring conformity of production. It is not essential that the person or body is\r\ndirectly involved in all stage of the construction of the vehicle, system, component or separate technical unit\r\nwhich is the subject of the approval process."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Vehicle alarm system (VAS)\" means a system intended for installation on (a) type(s) of vehicle(s), designed\r\nto indicate intrusion into or interference with the vehicle; these systems may provide additional protection against\r\nunauthorized use of the vehicle."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Sensor\" means a device which senses a change which could be caused by intrusion into or interference with\r\na vehicle."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Warning device\" means a device indicating that intrusion into or interference has occurred."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Control equipment\" means equipment necessary for the setting, unsetting and testing of a VAS and for\r\nsending an alarm condition to warning devices."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        1
+      ],
+      "text": "2.8. \"Set\" means the state of a VAS in which an alarm condition can be transmitted to warning devices."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        1
+      ],
+      "text": "2.9. \"Unset\" means the state of a VAS in which an alarm condition cannot be transmitted to warning devices."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Key\" means any mechanical and/or electronic solution designed and constructed to provide a method of\r\noperating a locking system which is designed and constructed to be operated by that mechanical and/or electronic\r\nsolution."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Type of vehicle alarm system\" means systems which do not differ significantly in such essential aspects as:\r\n(a) The manufacturer's trade name or mark;\r\n(b) The kind of sensor;\r\n(c) The kind of warning device;\r\n(d) The kind of control equipment."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Approval of a vehicle alarm system\" means the approval of a type of VAS with respect to the requirements\r\nlaid down in paragraphs 5., 6., 7. below."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        2
+      ],
+      "text": "2.13. \"Immobilizer\" means a device which is intended to prevent the vehicle being driven away powered by its\r\nown engine."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        2
+      ],
+      "text": "2.14. \"Panic alarm\" means a device which enables a person to use an alarm, installed on the vehicle, to summon\r\nassistance in an emergency.\r\n2.14. \"Primary user\" is a user who is able to authorize digital keys. There can be more than one primary users.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.15",
+      "pages": [
+        2
+      ],
+      "text": "2.15. \"Digital key\" means a key designed to be transferred to multiple devices by the primary user(s) through\r\ndedicated processes."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle or component type with regard to this Regulation shall be submitted\r\nby the manufacturer."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by an information document in accordance with the model shown in Annex 1, and\r\ngiving a description of the technical characteristics of the VAS and the method(s) of installation for each make and\r\ntype of vehicle on which the VAS is intended to be installed."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. Vehicle(s) / component(s) representative of the type(s) to be approved shall be submitted to the technical\r\nservice responsible for conducting the approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. If the type submitted for approval to this Regulation meets the requirements of the relevant part(s) of this\r\nRegulation, approval of that type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (at present 00, corresponding\r\nto the Regulation in its original form) shall indicate the series of amendments incorporating the most recent major\r\ntechnical amendment made to the Regulation at the time of issue of the approval. The same Contracting Party\r\nshall not assign the same number to another type of vehicle or component as defined in this Regulation."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        2
+      ],
+      "text": "4.3. Notice of approval or of extension of approval of a type pursuant to this Regulation shall be communicated to\r\nthe Contracting Parties to the Agreement applying this Regulation by means of a form conforming to the model in\r\nAnnex 2 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        2
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle or component conforming to a type approved under this Regulation, an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval,3 and\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3As defined in Annex 3 to the Consolidated Resolution on the Construction of Vehicles (R.E.3) document ECE/TRANS/WP.29/78/Rev.6\r\n(www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html)."
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of\r\nthe circle prescribed in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If a type conforms to a type approved, under one or more other UN Regulations annexed to the Agreement, in\r\nthe country which has granted approval under this Regulation, the symbol prescribed in paragraph 4.4.1. need not\r\nbe repeated; in such a case, the Regulation under which approval has been granted in the country which has\r\ngranted approval under this Regulation shall be placed in vertical columns to the right of the symbol prescribed in\r\nparagraph 4.4.1."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        3
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        3
+      ],
+      "text": "4.7. In the case of a vehicle, the approval mark shall be placed close to or on the vehicle data plate affixed by the\r\nmanufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        3
+      ],
+      "text": "4.8. In the case of a component approved separately as an alarm system, the approval mark shall be affixed by the\r\nmanufacturer to the major element(s) of the device."
+    },
+    {
+      "paragraph": "4.9",
+      "pages": [
+        3
+      ],
+      "text": "4.9. Annex 3 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "4.10",
+      "pages": [
+        3
+      ],
+      "text": "4.10. As an alternative to the approval mark described in paragraph 4.4. above, a certificate of conformity shall be\r\nissued for every VAS offered for sale."
+    },
+    {
+      "paragraph": "4.10.1",
+      "pages": [
+        3
+      ],
+      "text": "4.10.1. Where a VAS manufacturer supplies an approved unmarked VAS approved to this Regulation to a vehicle\r\nmanufacturer, for fitment by that manufacturer as original equipment for a vehicle model or range of vehicle\r\nmodels, the VAS manufacturer shall supply a number of copies of the certificate of conformity to the vehicle\r\nmanufacturer, sufficient for that manufacturer to obtain the vehicle approval to this Regulation."
+    },
+    {
+      "paragraph": "4.10.2",
+      "pages": [
+        3
+      ],
+      "text": "4.10.2. If the VAS is made up of separate components, its main component(s) shall bear a reference mark and the\r\ncertificate of conformity shall provide a list of such reference marks."
+    },
+    {
+      "paragraph": "4.10.3",
+      "pages": [
+        3
+      ],
+      "text": "4.10.3. A model of the certificate of conformity is given in Annex 4 to this Regulation."
+    },
+    {
+      "paragraph": "Part I",
+      "pages": [
+        3
+      ],
+      "text": "Part I - Approval of vehicle alarm systems",
+      "review_flags": [
+        "check_section_boundary"
+      ]
+    },
+    {
+      "paragraph": "Part I / 5",
+      "pages": [
+        3
+      ],
+      "text": "5. General Speciﬁcations"
+    },
+    {
+      "paragraph": "Part I / 5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. VAS shall, in the event of intrusion into or interference with a vehicle, provide a warning signal. The warning\r\nsignal shall be audible and in addition may include optical warning devices, or be a radio alarm or any\r\ncombination of the above."
+    },
+    {
+      "paragraph": "Part I / 5.2",
+      "pages": [
+        3
+      ],
+      "text": "5.2. VASs shall be designed, constructed and installed in such a way that the vehicle when equipped shall continue\r\nto comply with the relevant technical requirements, especially with regard to electromagnetic compatibility\r\n(EMC)."
+    },
+    {
+      "paragraph": "Part I / 5.3",
+      "pages": [
+        3
+      ],
+      "text": "5.3. The installation of a VAS in a vehicle shall not be capable of influencing the vehicle's performance (in the\r\nunset state), or its safe operation."
+    },
+    {
+      "paragraph": "Part I / 5.4",
+      "pages": [
+        3
+      ],
+      "text": "5.4. The VAS and components thereof shall not activate inadvertently, particularly whilst the engine is in its\r\nrunning mode."
+    },
+    {
+      "paragraph": "Part I / 5.5",
+      "pages": [
+        3
+      ],
+      "text": "5.5. Failure of the VAS, or failure of its electrical supply shall not affect the safe operation of the vehicle."
+    },
+    {
+      "paragraph": "Part I / 5.6",
+      "pages": [
+        3
+      ],
+      "text": "5.6. The VAS, its components and the parts controlled by them shall be designed, built and installed in such a way\r\nas to minimize the risk for anyone to make them inoperable or to destroy them rapidly and without calling\r\nattention, e.g. using low-cost, easily-concealed tools, equipment or fabrications readily available to the public at\r\nlarge."
+    },
+    {
+      "paragraph": "Part I / 5.7",
+      "pages": [
+        4
+      ],
+      "text": "5.7. The means of setting and unsetting of the VAS shall be designed in such a way that it does not invalidate the\r\nrequirements of this Regulation. Electrical connections to components covered by Part II of this Regulation are\r\nallowed."
+    },
+    {
+      "paragraph": "Part I / 5.8",
+      "pages": [
+        4
+      ],
+      "text": "5.8. The system shall be so arranged that the shorting out of any warning signal circuit shall not render inoperative\r\nany aspects of the alarm system, other than the circuit which is shorted out."
+    },
+    {
+      "paragraph": "Part I / 5.9",
+      "pages": [
+        4
+      ],
+      "text": "5.9. VAS may include an immobilizer which shall comply with the requirements of UN Regulation No. [XXX]\r\n(Immobilizers) or UN Regulation No. 116, Supplement 7 to the original version, or UN Regulation No. 97\r\nSupplement 8 to the 01 series of amendments."
+    },
+    {
+      "paragraph": "Part I / 5.10",
+      "pages": [
+        4
+      ],
+      "text": "5.10. In addition, digital keys shall comply with the provisions of Annex 9."
+    },
+    {
+      "paragraph": "Part I / 6",
+      "pages": [
+        4
+      ],
+      "text": "6. Particular speciﬁcations"
+    },
+    {
+      "paragraph": "Part I / 6.1",
+      "pages": [
+        4
+      ],
+      "text": "6.1. Protection range"
+    },
+    {
+      "paragraph": "Part I / 6.1.1",
+      "pages": [
+        4
+      ],
+      "text": "6.1.1. Specific requirements\r\nThe VAS shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment.\r\nThe failure or switching off of light sources, e.g. passenger compartment light, shall not impair the control\r\noperation.\r\nAdditional efficient sensors for information/display, e.g:\r\n(a) Of intrusions into the vehicle, e.g. passenger compartment control, window glass control, breakage of any\r\nglazed area; or\r\n(b) Of attempted vehicle theft, e.g. inclination sensor\r\nare allowed, taking account of measures to prevent any unnecessary sounding of the alarm (= false alarm, see\r\nparagraph 6.1.2. below).\r\nInsofar as these additional sensors generate an alarm signal even after an intrusion has occurred (e.g. by breakage\r\nof a glazed area) or under external influences (e.g. wind), the alarm signal, activated by one of the above-\r\nmentioned sensors, shall be activated not more than 10 times within the same activation period of the VAS.\r\nIn this case the activation period shall be limited by the authorized unsetting of the system as a result of the\r\nvehicle user's action.\r\nSome kinds of additional sensors, e.g. passenger compartment control (ultrasonic, infrared) or inclination sensor,\r\netc., may be intentionally deactivated. In this case, separate deliberate action shall be taken each time before the\r\nVAS is set. It shall not be possible to deactivate the sensors while the alarm system is in a set state."
+    },
+    {
+      "paragraph": "Part I / 6.1.2",
+      "pages": [
+        4
+      ],
+      "text": "6.1.2. Safety against false alarm"
+    },
+    {
+      "paragraph": "Part I / 6.1.2.1",
+      "pages": [
+        4
+      ],
+      "text": "6.1.2.1. By adequate measures, e.g.\r\n(a) Mechanical design and design of the electrical circuit according to conditions specific to motor vehicles;\r\n(b) Selection and application of operation and control principles for the alarm system and components thereof;\r\nIt shall be ensured that the VAS both in set and unset conditions, cannot cause the alarm signal to sound\r\nunnecessarily, in the event of:\r\n(a) An impact on the vehicle: test specified in paragraph 7.2.13.;\r\n(b) Electromagnetic compatibility: tests specified in paragraph 7.2.12.;\r\n(c) Reduction of battery voltage by continuous discharge: test specified in paragraph 7.2.14.;\r\n(d) False alarm of the passenger compartment control: test specified in paragraph 7.2.15."
+    },
+    {
+      "paragraph": "Part I / 6.1.2.2",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "6.1.2.2. If the applicant for approval can demonstrate, e.g. by technical data, that safety against false alarm is\r\nsatisfactorily ensured, the technical service responsible for conducting approval tests may not require some of the\r\n\r\n\r\n\r\n\r\n\r\nabove tests."
+    },
+    {
+      "paragraph": "Part I / 6.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2. Audible alarm"
+    },
+    {
+      "paragraph": "Part I / 6.2.1",
+      "pages": [
+        5
+      ],
+      "text": "6.2.1. General\r\nThe warning signal shall be clearly audible and recognizable and shall differ significantly from the other audible\r\nsignals used in road traffic.\r\nIn addition to the original equipment audible warning device, a separate audible warning device may be fitted in\r\nthe area of the vehicle which is controlled by the VAS, where it shall be protected against easy, rapid access by\r\npersons.\r\nIf a separate audible warning device according to paragraph 6.2.3.1. below is used, the original equipment\r\nstandard audible warning device may additionally be actuated by the VAS, provided that any tampering with the\r\nstandard audible warning device (generally more easily accessible) does not affect the operation of the additional\r\naudible warning device."
+    },
+    {
+      "paragraph": "Part I / 6.2.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2.2. Duration of the audible signal\r\nMinimum:........................................................25 s\r\nMaximum:.......................................................... 30 s\r\nThe audible signal may sound again only after the next interference with the vehicle, i.e. after the above-\r\nmentioned time span (Restrictions: see paragraphs 6.1.1. and 6.1.2. above).\r\nUnsetting of the alarm system shall immediately cut the signal."
+    },
+    {
+      "paragraph": "Part I / 6.2.3",
+      "pages": [
+        5
+      ],
+      "text": "6.2.3. Specifications concerning the audible signal"
+    },
+    {
+      "paragraph": "Part I / 6.2.3.1",
+      "pages": [
+        5
+      ],
+      "text": "6.2.3.1. Constant tone signal device (constant frequency spectrum), e.g. horns: acoustical, etc., data according to\r\nUN Regulation No. 28, Part I.\r\nIntermittent signal (on/off):\r\nTrigger frequency ..............................................(2 ± 1) Hz\r\nOn time = off time ± 10 per cent"
+    },
+    {
+      "paragraph": "Part I / 6.2.3.2",
+      "pages": [
+        5
+      ],
+      "text": "6.2.3.2. Audible signal device with frequency modulation: acoustical, etc., data according to UN Regulation No.\r\n28, Part I but equal passage of a significant frequency range within the above-mentioned range (1,800 through\r\n3,550 Hz) in both directions.\r\nPassage frequency (2 ± 1) Hz"
+    },
+    {
+      "paragraph": "Part I / 6.2.3.3",
+      "pages": [
+        5
+      ],
+      "text": "6.2.3.3. Sound level\r\nThe sound source shall be:\r\n(a) Either an audible warning device approved under UN Regulation No. 28, Part I;\r\n(b) Or a device meeting the requirements of UN Regulation No. 28, Part I, paragraphs 6.1. and 6.2.\r\nHowever, in the case of a different sound source from the original equipment audible warning device, the\r\nminimum sound level may be reduced to 100 dB(A), measured under the conditions of UN Regulation No. 28,\r\nPart I."
+    },
+    {
+      "paragraph": "Part I / 6.3",
+      "pages": [
+        5
+      ],
+      "text": "6.3. Optical alarm - if fitted"
+    },
+    {
+      "paragraph": "Part I / 6.3.1",
+      "pages": [
+        5
+      ],
+      "text": "6.3.1. General\r\nIn the event of intrusion into or interference with the vehicle, the device shall activate an optical signal as\r\nspecified in paragraphs 6.3.2. and 6.3.3. below."
+    },
+    {
+      "paragraph": "Part I / 6.3.2",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "6.3.2. Duration of the optical signal\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated. The\r\nunsetting of the alarm system shall immediately stop the signal."
+    },
+    {
+      "paragraph": "Part I / 6.3.3",
+      "pages": [
+        6
+      ],
+      "text": "6.3.3. Type of optical signal\r\nFlashing of all direction indicators and/or passenger compartment light of the vehicle, including all lamps in the\r\nsame electrical circuit.\r\nTrigger frequency (2 ± 1) Hz\r\nIn relation to the audible signal, also asynchronous signals are allowed.\r\nOn time = off time ± 10 per cent"
+    },
+    {
+      "paragraph": "Part I / 6.4",
+      "pages": [
+        6
+      ],
+      "text": "6.4. Radio alarm (pager) - if fitted\r\nThe VAS may include a facility generating an alarm signal by radio transmission."
+    },
+    {
+      "paragraph": "Part I / 6.5",
+      "pages": [
+        6
+      ],
+      "text": "6.5. Alarm system setting lock"
+    },
+    {
+      "paragraph": "Part I / 6.5.1",
+      "pages": [
+        6
+      ],
+      "text": "6.5.1. When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be\r\nimpossible."
+    },
+    {
+      "paragraph": "Part I / 6.6",
+      "pages": [
+        6
+      ],
+      "text": "6.6. Setting and unsetting of the VAS"
+    },
+    {
+      "paragraph": "Part I / 6.6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.6.1. Setting\r\nAny suitable means of setting of the VAS is allowed, provided that such means does not inadvertently cause false\r\nalarms."
+    },
+    {
+      "paragraph": "Part I / 6.6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.6.2. Unsetting\r\nUnsetting of the VAS shall be achieved by one or a combination of the following devices. Other devices giving an\r\nequivalent performance are permitted."
+    },
+    {
+      "paragraph": "Part I / 6.6.2.1",
+      "pages": [
+        6
+      ],
+      "text": "6.6.2.1. A mechanical key (complying with the requirements of Annex 6 to this Regulation) which can be coupled\r\nwith a centralized vehicle locking system comprising at least 1,000 variants, operated from the outside."
+    },
+    {
+      "paragraph": "Part I / 6.6.2.2",
+      "pages": [
+        6
+      ],
+      "text": "6.6.2.2. Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate rolling\r\ncodes and/or have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000\r\nvariants minimum."
+    },
+    {
+      "paragraph": "Part I / 6.6.2.3",
+      "pages": [
+        6
+      ],
+      "text": "6.6.2.3. A mechanical key or an electrical/electronic device within the protected passenger compartment, with\r\ntimed exit/entry delay."
+    },
+    {
+      "paragraph": "Part I / 6.7",
+      "pages": [
+        6
+      ],
+      "text": "6.7. Exit delay\r\nIf the switching device for setting the VAS is fitted within the protected area, an exit delay shall be provided. It\r\nshall be possible for the exit delay to be set to between 15 seconds and 45 seconds after the switch has been\r\noperated. The delay period may be adjustable to suit individual operators' circumstances."
+    },
+    {
+      "paragraph": "Part I / 6.8",
+      "pages": [
+        6
+      ],
+      "text": "6.8. Entry delay\r\nIf the device for unsetting the VAS is fitted within the protected area, a delay of 5 seconds minimum and 15\r\nseconds maximum shall be allowed before the activation of the audible and optical signals. The delay period may\r\nbe adjustable to suit individual operators' circumstances."
+    },
+    {
+      "paragraph": "Part I / 6.9",
+      "pages": [
+        6
+      ],
+      "text": "6.9. Status display"
+    },
+    {
+      "paragraph": "Part I / 6.9.1",
+      "pages": [
+        6
+      ],
+      "text": "6.9.1. To provide information on the status of the VAS (set, unset, alarm setting period, alarm has been activated),\r\noptical displays inside and outside the passenger compartment are allowed. Any optical signal or any use of\r\nlighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of UN\r\nRegulation No. 48."
+    },
+    {
+      "paragraph": "Part I / 6.9.2",
+      "pages": [
+        7
+      ],
+      "text": "6.9.2. If an indication of short-term \"dynamic\" processes such as changes from \"set\" to \"unset\" and vice versa is\r\nprovided, it shall be optical, according to paragraph 6.9.1. Such optical indication may also be produced by the\r\nsimultaneous operation of the direction indicators and/or passenger compartment lamp(s), provided that the\r\nduration of the optical indication by the direction indicators does not exceed 3 seconds."
+    },
+    {
+      "paragraph": "Part I / 6.10",
+      "pages": [
+        7
+      ],
+      "text": "6.10. Power supply\r\nThe source of power for the VAS shall be either the vehicle battery or a rechargeable battery. Where provided, an\r\nadditional rechargeable or non-rechargeable battery may be used. These batteries shall by no means supply energy\r\nto other parts of the vehicle electrical system."
+    },
+    {
+      "paragraph": "Part I / 6.11",
+      "pages": [
+        7
+      ],
+      "text": "6.11. Specifications for optional functions"
+    },
+    {
+      "paragraph": "Part I / 6.11.1",
+      "pages": [
+        7
+      ],
+      "text": "6.11.1. Self-check, automatic failure indication\r\nOn setting the VAS, irregular situations, e.g. open doors, etc., can be detected by a self-check function\r\n(plausibility control), and this situation is indicated."
+    },
+    {
+      "paragraph": "Part I / 6.11.2",
+      "pages": [
+        7
+      ],
+      "text": "6.11.2. Panic alarm\r\nAn optical and/or audible and/or radio alarm is allowed independent of the state (set or unset) and/or function of\r\nthe VAS. Such an alarm shall be triggered from within the vehicle and shall not affect the state (set or unset) of the\r\nVAS. Also it shall be possible for the vehicle user to switch off the panic alarm. In the case of an audible alarm, its\r\nsounding duration per activation shall not be restricted. A panic alarm shall not immobilize the engine or stop it if\r\nit is running."
+    },
+    {
+      "paragraph": "Part I / 7",
+      "pages": [
+        7
+      ],
+      "text": "7. Operation parameters and test conditions\r\nLamps which are used as part of the optical warning devices and which are included in the standard car lighting\r\nsystem need not comply with the operation parameters in paragraph 7.1. and shall not be submitted to tests listed\r\nunder paragraph 7.2.\r\nComponents that are not embedded in the vehicle (e.g. keys which are used for activation/deactivation of VAS)\r\nneed not to comply with the operation parameters in paragraph 7.1. and are not required to be submitted to test\r\nlisted under paragraph 7.2."
+    },
+    {
+      "paragraph": "Part I / 7.1",
+      "pages": [
+        7
+      ],
+      "text": "7.1. Operation parameters\r\nAll components of the VAS shall operate without any failure under the following conditions."
+    },
+    {
+      "paragraph": "Part I / 7.1.1",
+      "pages": [
+        7
+      ],
+      "text": "7.1.1. Climatic conditions\r\nTwo classes of environmental temperature are defined as follows:\r\n(a) -40°C to +85°C for parts to be fitted in the passenger or luggage compartment;\r\n(b) -40°C to +125°C for parts to be fitted in the engine compartment unless otherwise specified."
+    },
+    {
+      "paragraph": "Part I / 7.1.2",
+      "pages": [
+        7
+      ],
+      "text": "7.1.2. Degree of protection for installation\r\nThe following degrees of protection in accordance with IEC Publication 529 1989 shall be provided:\r\n(a) IP 40 for parts to be fitted in the passenger compartment;\r\n(b) IP 42 for parts to be fitted in the passenger compartment of roadsters/convertibles and cars with moveable\r\nroof-panels if the installation location requires a higher degree of protection than IP 40;\r\n(c) IP 54 for all other parts.\r\nThe VAS manufacturer shall specify in the installation instructions any restrictions on the positioning of any part\r\nof the installation with respect to dust, water and temperature."
+    },
+    {
+      "paragraph": "Part I / 7.1.3",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "7.1.3. Weatherability\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7 days according to IEC 68-2-30-1980.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part I / 7.1.4",
+      "pages": [
+        8
+      ],
+      "text": "7.1.4. Electrical conditions\r\nRated supply voltage: 12 V\r\nOperation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 7.1.1.\r\nTime allowance for excess voltages at 23°C:\r\nU = 18 V, max. 1 hours\r\nU = 24 V, max. 1 minute"
+    },
+    {
+      "paragraph": "Part I / 7.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2. Test conditions"
+    },
+    {
+      "paragraph": "Part I / 7.2.1",
+      "pages": [
+        8
+      ],
+      "text": "7.2.1. Operation tests\r\nFor the operation tests required according to paragraphs 7.2.3., 7.2.4., 7.2.5., 7.2.6. and 7.2.8.4., if some of the\r\ntests required in each of these paragraphs prior to the operation tests are performed in series on a single VAS, the\r\noperation test may be carried out one time only after the chosen tests are completed instead of performing the\r\noperation tests required in the paragraphs after each of the chosen tests. Vehicle manufacturers and suppliers have\r\nto guarantee satisfactory results only on non-accumulated procedures."
+    },
+    {
+      "paragraph": "Part I / 7.2.1.1",
+      "pages": [
+        8
+      ],
+      "text": "7.2.1.1. Compliance of the VAS with the following specifications shall be checked:\r\nAlarm duration according to paragraphs 6.2.2. and 6.3.2;\r\nFrequency and on/off ratio according to paragraphs 6.3.3. and 6.2.3.1. or 6.2.3.2. respectively;\r\nNumber of alarm cycles according to paragraph 6.1.1., if applicable;\r\nAlarm system setting lock check according to paragraph 6.5."
+    },
+    {
+      "paragraph": "Part I / 7.2.1.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2.1.2. Normal test conditions\r\nVoltage U = U = (12 ± 0.2) V\r\nTemperature T = (23 ± 5)°C"
+    },
+    {
+      "paragraph": "Part I / 7.2.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2.2. Resistance to temperature and voltage changes\r\nCompliance with the specifications defined under paragraph 7.2.1.1. shall also be checked under the following\r\nconditions:"
+    },
+    {
+      "paragraph": "Part I / 7.2.2.1",
+      "pages": [
+        8
+      ],
+      "text": "7.2.2.1. Test temperature...............................T (-40 ± 2)°C\r\nTest voltage U = (9 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Part I / 7.2.2.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2.2.2. For parts to be fitted in the passenger or luggage compartment:\r\nTest temperature T = (+85 ± 2)°C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Part I / 7.2.2.3",
+      "pages": [
+        8
+      ],
+      "text": "7.2.2.3. For parts to be fitted in the engine compartment unless otherwise specified:\r\nTest temperature T = (+125 ± 2)°C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Part I / 7.2.2.4",
+      "pages": [
+        8
+      ],
+      "text": "7.2.2.4. The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1\r\nhour."
+    },
+    {
+      "paragraph": "Part I / 7.2.2.5",
+      "pages": [
+        9
+      ],
+      "text": "7.2.2.5. The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1\r\nminute."
+    },
+    {
+      "paragraph": "Part I / 7.2.3",
+      "pages": [
+        9
+      ],
+      "text": "7.2.3. Safe operation after foreign body and water-tightness testing\r\nAfter the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in\r\nparagraph 7.1.2., the operation tests according to paragraph 7.2.1. shall be repeated.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of a VAS which is to be type approved as a separate technical unit.\r\nIn this case, the manufacturer of the VAS shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1), that the requirement of this paragraph was not\r\napplied to the VAS (in accordance with paragraph 7. of this Regulation); and\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the VAS is intended to be fitted\r\nand the relevant installation conditions in item 4.2.\r\n(b) Type approval of a vehicle in respect of an AS\r\nIn this case, the manufacturer shall specify in item 4.5. of the information document (Annex 1), that the\r\nrequirement of this paragraph does not apply to the AS due to the nature of installation conditions and the vehicle\r\nmanufacturer shall prove it by submitting related documents;\r\n(c) Type approval of a vehicle in respect of the installation of a VAS which is type approved as a separate\r\ntechnical unit.\r\nIn this case, the vehicle manufacturer shall specify in item 4.5. of the information document (Annex 1), that the\r\nrequirement of this paragraph does not apply to the installation of the VAS where the relevant installation\r\nconditions are met.\r\nThis requirement does not apply in cases where the information required in item 4.5. of Annex 2 has already been\r\nsubmitted for the approval of the separate technical unit."
+    },
+    {
+      "paragraph": "Part I / 7.2.4",
+      "pages": [
+        9
+      ],
+      "text": "7.2.4. Safe operation after condensed water test\r\nAfter a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according\r\nto paragraph 7.2.1. shall be repeated."
+    },
+    {
+      "paragraph": "Part I / 7.2.5",
+      "pages": [
+        9
+      ],
+      "text": "7.2.5. Test for safety against reversed polarity\r\nThe VAS and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min. After this\r\ntest the operation tests according to paragraph 7.2.1. shall be repeated with fuses changed, if necessary."
+    },
+    {
+      "paragraph": "Part I / 7.2.6",
+      "pages": [
+        9
+      ],
+      "text": "7.2.6. Test for safety against short-circuits\r\nAll electrical connections of the VAS shall be short-circuit proof against earth, max. 13 V and/or fused. After this\r\ntest the operation tests according to paragraph 7.2.1. shall be repeated, with fuses changed if necessary."
+    },
+    {
+      "paragraph": "Part I / 7.2.7",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "7.2.7. Energy consumption in the set condition\r\nThe energy consumption in set condition under the conditions given in paragraph 7.2.1.2. shall not exceed 20 mA\r\non average for the complete alarm system including status display.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of a VAS which is to be type approved as a separate technical unit;\r\nIn this case, the manufacturer of the VAS shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1), that the requirement of this paragraph was not\r\napplied to the VAS (in accordance with paragraph 7. of this Regulation);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the VAS is intended to be fitted\r\nand the relevant installation conditions in item 4.2.; and\r\n(iii) Prove the energy consumption requirements are not exceeded by submitting related documents.\r\n(b) Type approval of a vehicle in respect of an AS\r\nIn this case, the manufacturer shall specify in item 4.3.1.1. of the information document (Annex 2), that the\r\nrequirement of this paragraph does not apply to the AS due to the nature of installation conditions and the vehicle\r\nmanufacturer shall prove it by submitting related documents;\r\n(c) Type approval of a vehicle in respect of the installation of a VAS which is type approved as a separate\r\ntechnical unit.\r\nIn this case, the vehicle manufacturer shall specify in item 4.3.1.1. of the information document (Annex 2), that\r\nthe requirement of this paragraph does not apply to the installation of the VAS where the relevant installation\r\nconditions are met.\r\nThis requirement does not apply in cases where the information required in item 4.3.1.1. of Annex 2 has already\r\nbeen submitted for the approval of a separate technical unit."
+    },
+    {
+      "paragraph": "Part I / 7.2.8",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8. Safe operation after vibration test"
+    },
+    {
+      "paragraph": "Part I / 7.2.8.1",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.1. For this test, the components are subdivided into two types:\r\nType 1: components normally mounted on the vehicle,\r\nType 2: components intended for attachment to the engine."
+    },
+    {
+      "paragraph": "Part I / 7.2.8.2",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.2. The components/VAS shall be submitted to a sinusoidal vibration mode whose characteristics are as\r\nfollows:"
+    },
+    {
+      "paragraph": "Part I / 7.2.8.2.1",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.2.1. For type 1\r\nThe frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum\r\nacceleration of 3 g (0-peak)."
+    },
+    {
+      "paragraph": "Part I / 7.2.8.2.2",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.2.2. For type 2\r\nThe frequency shall be variable from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum\r\nacceleration of 15 g (0-peak)."
+    },
+    {
+      "paragraph": "Part I / 7.2.8.2.3",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.2.3. For both type 1 and type 2\r\nThe frequency variation is 1 octave/min.\r\nThe number of cycles is 10, the test shall be performed along each of the 3 axes.\r\nThe vibrations are applied at low frequencies at a maximum constant amplitude and at a maximum constant\r\nacceleration at high frequencies."
+    },
+    {
+      "paragraph": "Part I / 7.2.8.3",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.3. During the test the VAS shall be electrically connected and the cable shall be supported after 200 mm."
+    },
+    {
+      "paragraph": "Part I / 7.2.8.4",
+      "pages": [
+        10
+      ],
+      "text": "7.2.8.4. After the vibration test the operation tests according to paragraph 7.2.1. shall be repeated."
+    },
+    {
+      "paragraph": "Part I / 7.2.9",
+      "pages": [
+        10
+      ],
+      "text": "7.2.9. Durability test\r\nUnder the test conditions specified in paragraph 7.2.1.2., triggering of 300 complete alarm cycles (audible and/or\r\noptical) with a rest time of the audible device of 5 min."
+    },
+    {
+      "paragraph": "Part I / 7.2.10",
+      "pages": [
+        10
+      ],
+      "text": "7.2.10. Tests for external key switch (installed on the outside of the vehicle)\r\nThe following tests shall only be performed if the locking cylinder of the original equipment door lock is not used."
+    },
+    {
+      "paragraph": "Part I / 7.2.10.1",
+      "pages": [
+        10
+      ],
+      "text": "7.2.10.1. The key switch shall be so designed and constructed that it remains fully effective even after 2,500\r\nset/unset cycles in each direction, followed by 96 hours minimum of exposure to salt spray test according to IEC\r\n68-2-11-1981, corrosion resistance test."
+    },
+    {
+      "paragraph": "Part I / 7.2.11",
+      "pages": [
+        11
+      ],
+      "text": "7.2.11. Test of systems for the protection of the passenger compartment\r\nThe alarm shall be activated, when a vertical panel of 0.2 x 0.15 m is inserted for 0.3 m (measured from the centre\r\nof the vertical plane) through an open front door window into the passenger compartment, towards the front and\r\nparallel to the road at a speed of 0.4 m/s and at an angle of 45° with the longitudinal median plane of the vehicle.\r\n(See drawings in Annex 8 to this Regulation)."
+    },
+    {
+      "paragraph": "Part I / 7.2.12",
+      "pages": [
+        11
+      ],
+      "text": "7.2.12. Electromagnetic compatibility\r\nThe VAS shall be submitted to the tests described in Annex 7.\r\nIn this case, a VAS which meets all the functional status of the tests in Annex 7 is deemed not to cause the alarm\r\nsignal to sound unnecessarily in association with the requirements in paragraph 6.1.2.1.\r\nWith regard to the conformity to the functional status in each test, a VAS, which is designed to sound the alarm in\r\nthe set state in some of the test conditions given in Annex 7 and sound the alarm signal in the tests, is deemed to\r\nfunction as designed in the tests and thus deemed to meet the functional status of the tests. In this case, the\r\nmanufacturer of the VAS shall prove it by submitting related documents."
+    },
+    {
+      "paragraph": "Part I / 7.2.13",
+      "pages": [
+        11
+      ],
+      "text": "7.2.13. Safety against false alarm in the event of an impact on the vehicle\r\nIt shall be verified that an impact of up to 4.5 Joules of a hemispherical body with 165 mm in diameter and 70 ±"
+    },
+    {
+      "paragraph": "Part I / 10",
+      "pages": [
+        11
+      ],
+      "text": "10 Shore A applied anywhere to the vehicle bodywork or glazing with its curved surface does not cause false\r\nalarms.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Part I / 7.2.14",
+      "pages": [
+        11
+      ],
+      "text": "7.2.14. Safety against false alarm in the event of a voltage reduction\r\nIt shall be verified that slow reduction of the main battery voltage by continuous discharge of 0.5 V per hour down\r\nto 3 V does not cause false alarms.\r\nTest conditions: see paragraph 7.2.1.2. above.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Part I / 7.2.15",
+      "pages": [
+        11
+      ],
+      "text": "7.2.15. Test for safety against false alarm of the passenger compartment control\r\nSystems intended for the protection of the passenger compartment according to paragraph 6.1.1. above shall be\r\ntested together with a vehicle under normal conditions (paragraph 7.2.1.2.).\r\nThe system, installed according to the manufacturer's instructions, shall not be triggered when subjected 5 times to\r\nthe test described in paragraph 7.2.13. above at intervals of 0.5 s.\r\nThe presence of a person touching or moving around the outside of the vehicle (windows closed) shall not cause\r\nany false alarm."
+    },
+    {
+      "paragraph": "Part I / 8",
+      "pages": [
+        11
+      ],
+      "text": "8. Instructions\r\nEach VAS shall be accompanied by:"
+    },
+    {
+      "paragraph": "Part I / 8.1",
+      "pages": [
+        11
+      ],
+      "text": "8.1. Instructions for installation:"
+    },
+    {
+      "paragraph": "Part I / 8.1.1",
+      "pages": [
+        11
+      ],
+      "text": "8.1.1. The list of vehicles and vehicle models for which the device is intended. This list may be specific or\r\ngeneric, e.g. \"all cars with petrol engines and 12 V negative earth batteries\"."
+    },
+    {
+      "paragraph": "Part I / 8.1.2",
+      "pages": [
+        11
+      ],
+      "text": "8.1.2. The method of installation illustrated by photographs and/or very clear drawings."
+    },
+    {
+      "paragraph": "Part I / 8.1.3",
+      "pages": [
+        11
+      ],
+      "text": "8.1.3. In the case of VAS which includes an immobilizer, additional instructions regarding compliance with the\r\nrequirements of UN Regulation No. XXX (immobilizer) or UN Regulation No. 116, Supplement 7 to the original\r\nversion, or UN Regulation No. 97, Supplement 8 to the 01 series of amendments."
+    },
+    {
+      "paragraph": "Part I / 8.2",
+      "pages": [
+        11
+      ],
+      "text": "8.2. A blank installation certificate, an example of which is given in Annex 5."
+    },
+    {
+      "paragraph": "Part I / 8.3",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "8.3. A general statement to the VAS purchaser calling his attention to the following points:\r\n(a) The VAS should be installed in accordance with the manufacturer's instructions;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) The selection of a good installer is recommended (the VAS manufacturer may be contacted to indicate\r\nappropriate installers);\r\n(c) The installation certificate supplied with the VAS should be completed by the installer."
+    },
+    {
+      "paragraph": "Part I / 8.4",
+      "pages": [
+        12
+      ],
+      "text": "8.4. Instruction for use"
+    },
+    {
+      "paragraph": "Part I / 8.5",
+      "pages": [
+        12
+      ],
+      "text": "8.5. Instruction for maintenance"
+    },
+    {
+      "paragraph": "Part I / 8.6",
+      "pages": [
+        12
+      ],
+      "text": "8.6. A general warning regarding the danger of making any alterations or additions to the system; such alterations\r\nor additions would automatically invalidate the certificate of installation referred to in paragraph 8.2. above."
+    },
+    {
+      "paragraph": "Part I / 8.7",
+      "pages": [
+        12
+      ],
+      "text": "8.7. Indication of the location(s) of the international approval mark mentioned in paragraph 4.4. of this Regulation\r\nand/or the international certificate of conformity mentioned in paragraph 4.10. of this Regulation."
+    },
+    {
+      "paragraph": "Part II",
+      "pages": [
+        12
+      ],
+      "text": "Part II - Approval of a vehicle with regard to its alarm system\r\nWhen a VAS approved to Part I of this Regulation or UN Regulation No. 116 Supplement 7 to the original\r\nversion, or UN Regulation No. 97 Supplement 8 to the 01 series of amendments is installed in a vehicle submitted\r\nfor approval to Part II of this Regulation, tests required to be passed by a VAS in order to obtain approval to Part I\r\nof this Regulation shall not be repeated.",
+      "review_flags": [
+        "check_section_boundary"
+      ]
+    },
+    {
+      "paragraph": "Part II / 9",
+      "pages": [
+        12
+      ],
+      "text": "9. Deﬁnitions\r\nFor the purpose of Part II of this Regulation,"
+    },
+    {
+      "paragraph": "Part II / 9.1",
+      "pages": [
+        12
+      ],
+      "text": "9.1. \"Alarm system(s)\" (AS) means an arrangement of components fitted as original equipment in a vehicle type,\r\ndesigned to indicate intrusion into or interference with the vehicle; these systems may provide additional\r\nprotection against unauthorized use of the vehicle."
+    },
+    {
+      "paragraph": "Part II / 9.2",
+      "pages": [
+        12
+      ],
+      "text": "9.2. \"Vehicle type with regard to its alarm system\" means vehicles which do not differ significantly in such\r\nessential aspects as:\r\n(a) The manufacturer's trade name or mark;\r\n(b) Vehicle features which significantly influence the performances of the AS;\r\n(c) The type and design of the AS or VAS."
+    },
+    {
+      "paragraph": "Part II / 9.3",
+      "pages": [
+        12
+      ],
+      "text": "9.3. \"Approval of a vehicle\" means the approval of a vehicle type with regard to the requirements laid down in\r\nparagraphs 10., 11. and 12. below."
+    },
+    {
+      "paragraph": "Part II / 9.4",
+      "pages": [
+        12
+      ],
+      "text": "9.4. Other definitions applicable to Part II are contained in paragraph 2. of this Regulation."
+    },
+    {
+      "paragraph": "Part II / 10",
+      "pages": [
+        12
+      ],
+      "text": "10. General speciﬁcations"
+    },
+    {
+      "paragraph": "Part II / 10.1",
+      "pages": [
+        12
+      ],
+      "text": "10.1. ASs shall be designed and built in such a way that they, in the event of intrusion into or interference with a\r\nvehicle, provide a warning signal, and may include an immobilizer.\r\nThe warning signal shall be audible and in addition may include optical warning devices, or be a radio alarm, or\r\nany combination of the above."
+    },
+    {
+      "paragraph": "Part II / 10.2",
+      "pages": [
+        12
+      ],
+      "text": "10.2. Vehicle which are equipped with alarm systems shall comply with the relevant technical requirements,\r\nespecially with regard to electromagnetic compatibility (EMC)."
+    },
+    {
+      "paragraph": "Part II / 10.3",
+      "pages": [
+        12
+      ],
+      "text": "10.3. The AS and components thereof shall not activate inadvertently, particularly whilst the engine is in its\r\nrunning mode."
+    },
+    {
+      "paragraph": "Part II / 10.4",
+      "pages": [
+        12
+      ],
+      "text": "10.4. Failure of the AS, or failure of its electrical supply shall not affect the safe operation of the vehicle."
+    },
+    {
+      "paragraph": "Part II / 10.5",
+      "pages": [
+        12,
+        13
+      ],
+      "text": "10.5. The alarm system, its components and the parts controlled by them shall be so installed as to minimize the\r\nrisk for anyone to make them inoperable or to destroy them rapidly and without calling attention, e.g. using low-\r\n\r\n\r\n\r\n\r\n\r\n\r\ncost, easily-concealed tools, equipment or fabrications readily available to the public at large."
+    },
+    {
+      "paragraph": "Part II / 10.6",
+      "pages": [
+        13
+      ],
+      "text": "10.6. The system shall be so arranged that the shorting out of any warning signal circuit shall not render\r\ninoperative any aspects of the alarm system, other than the circuit which is shorted out."
+    },
+    {
+      "paragraph": "Part II / 10.7",
+      "pages": [
+        13
+      ],
+      "text": "10.7. In addition, digital keys shall comply with the provisions of Annex 9."
+    },
+    {
+      "paragraph": "Part II / 11",
+      "pages": [
+        13
+      ],
+      "text": "11. Particular speciﬁcations"
+    },
+    {
+      "paragraph": "Part II / 11.1",
+      "pages": [
+        13
+      ],
+      "text": "11.1. Protection range"
+    },
+    {
+      "paragraph": "Part II / 11.1.1",
+      "pages": [
+        13
+      ],
+      "text": "11.1.1. Specific requirements\r\nThe AS shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment.\r\nThe failure or switching off of light sources, e.g. passenger compartment light, shall not impair the control\r\noperation.\r\nThe installation of additional efficient sensors for information/display, e.g.:\r\n(a) Of intrusion into the vehicle, e.g. passenger compartment control, window glass control breakage of any\r\nglazed area; or\r\n(b) Of attempted vehicle theft, e.g. inclination sensor;\r\nare allowed, taking account of measures to prevent any unnecessary sounding of the alarm (= false alarm, see\r\nparagraph 11.1.2. below).\r\nInsofar as these additional sensors generate an alarm signal even after an intrusion has occurred (e.g. by breakage\r\nof a glazed area) or under external influences (e.g. wind), the alarm signal, activated by one of the above-\r\nmentioned sensors, shall be activated not more than 10 times within the same activation period of the AS.\r\nIn this case the activation period shall be limited by the authorized unsetting of the system as a result of the\r\nvehicle user's action.\r\nSome kinds of additional sensors, e.g. passenger compartment control (ultrasonic, infrared) or inclination sensor,\r\netc., may be intentionally deactivated. In this case, separate deliberate action shall be taken each time before the\r\nAS is set. It shall not be possible to deactivate the sensors while the alarm system is in a set state."
+    },
+    {
+      "paragraph": "Part II / 11.1.2",
+      "pages": [
+        13
+      ],
+      "text": "11.1.2. Safety against false alarm"
+    },
+    {
+      "paragraph": "Part II / 11.1.2.1",
+      "pages": [
+        13
+      ],
+      "text": "11.1.2.1. It shall be ensured that the AS both in set and unset conditions, cannot cause the alarm signal to sound\r\nunnecessarily, in the event of:\r\n(a) An impact on the vehicle: test specified in paragraph 7.2.13.;\r\n(b) Electromagnetic compatibility: tests specified in paragraph 7.2.12.;\r\n(c) Reduction of battery voltage by continuous discharge: test specified in paragraph 7.2.14.;\r\n(d) False alarm of the passenger compartment control: test specified in paragraph 7.2.15."
+    },
+    {
+      "paragraph": "Part II / 11.1.2.2",
+      "pages": [
+        13
+      ],
+      "text": "11.1.2.2. If the applicant for approval can demonstrate, e.g. by technical data, that safety against false alarm is\r\nsatisfactorily ensured, the technical service responsible for conducting approval tests may not require some of the\r\nabove tests."
+    },
+    {
+      "paragraph": "Part II / 11.2",
+      "pages": [
+        13
+      ],
+      "text": "11.2. Audible alarm"
+    },
+    {
+      "paragraph": "Part II / 11.2.1",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "11.2.1. General\r\nThe warning signal shall be clearly audible and recognizable and shall differ significantly from the other audible\r\nsignals used in road traffic.\r\nIn addition to the original equipment audible warning device, a separate audible warning device may be fitted in\r\nthe area of the vehicle which is controlled by the AS, where it shall be protected against easy, rapid access by\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\npersons.\r\nIf a separate audible warning device according to paragraph 11.2.3.1. below is used, the original equipment\r\nstandard audible warning device may additionally be actuated by the AS, provided that any tampering with the\r\nstandard audible warning device (generally more accessible) does not affect the operation of the additional audible\r\nwarning device."
+    },
+    {
+      "paragraph": "Part II / 11.2.2",
+      "pages": [
+        14
+      ],
+      "text": "11.2.2. Duration of the audible signal\r\nMinimum: 25 s\r\nMaximum: 30 s\r\nThe audible signal may sound again only after the next interference with the vehicle, i.e. after the above-\r\nmentioned time span. (Restrictions: see paragraphs 11.1.1. and 11.1.2. above).\r\nUnsetting of the alarm system shall immediately cut the signal."
+    },
+    {
+      "paragraph": "Part II / 11.2.3",
+      "pages": [
+        14
+      ],
+      "text": "11.2.3. Specifications concerning the audible signal"
+    },
+    {
+      "paragraph": "Part II / 11.2.3.1",
+      "pages": [
+        14
+      ],
+      "text": "11.2.3.1. Constant tone signal device (constant frequency spectrum), e.g. horns: acoustical, etc., data according to\r\nUN Regulation No. 28, Part I.\r\nIntermittent signal (on/off):\r\nTrigger frequency (2 ± 1) Hz\r\nOn time = off time ± 10 per cent"
+    },
+    {
+      "paragraph": "Part II / 11.2.3.2",
+      "pages": [
+        14
+      ],
+      "text": "11.2.3.2. Audible signal device with frequency modulation: acoustical, etc., data according to UN Regulation No.\r\n28, Part I but equal passage of a significant frequency range within the above-mentioned range (1,800 through\r\n3,550 Hz) in both directions.\r\nPassage frequency (2 ± 1) Hz"
+    },
+    {
+      "paragraph": "Part II / 11.2.3.3",
+      "pages": [
+        14
+      ],
+      "text": "11.2.3.3. Sound level\r\nThe sound level shall be:\r\n(a) Either an audible warning device approved under UN Regulation No. 28, Part I;\r\n(b) Or a device meeting the requirements of UN Regulation No. 28, Part I, paragraph 6.1. and 6.2.\r\nHowever, in the case of a different sound source from the original equipment audible warning device, the\r\nminimum sound level may be reduced to 100 dB(A), measured under the conditions of UN Regulation No. 28,\r\nPart I."
+    },
+    {
+      "paragraph": "Part II / 11.3",
+      "pages": [
+        14
+      ],
+      "text": "11.3. Optical alarm - if fitted"
+    },
+    {
+      "paragraph": "Part II / 11.3.1",
+      "pages": [
+        14
+      ],
+      "text": "11.3.1. General\r\nIn the event of intrusion into or interference with the vehicle the device shall activate an optical signal as specified\r\nin paragraphs 11.3.2. and 11.3.3. below."
+    },
+    {
+      "paragraph": "Part II / 11.3.2",
+      "pages": [
+        14
+      ],
+      "text": "11.3.2. Duration of the optical signal\r\nThe optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated. The\r\nunsetting of the alarm system shall immediately stop the signal."
+    },
+    {
+      "paragraph": "Part II / 11.3.3",
+      "pages": [
+        14,
+        15
+      ],
+      "text": "11.3.3. Type of optical signal\r\nFlashing of all direction indicators and/or passenger compartment light of the vehicle, including all lamps in the\r\nsame electrical circuit.\r\nTrigger frequency (2 ± 1) Hz\r\nIn relation to the audible signal, also asynchronous signals are allowed.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nOn time = off time ± 10 per cent"
+    },
+    {
+      "paragraph": "Part II / 11.4",
+      "pages": [
+        15
+      ],
+      "text": "11.4. Radio alarm (pager) - if fitted\r\nThe AS may include a facility generating an alarm signal by radio transmission."
+    },
+    {
+      "paragraph": "Part II / 11.5",
+      "pages": [
+        15
+      ],
+      "text": "11.5. Alarm system setting lock"
+    },
+    {
+      "paragraph": "Part II / 11.5.1",
+      "pages": [
+        15
+      ],
+      "text": "11.5.1. When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be\r\nimpossible."
+    },
+    {
+      "paragraph": "Part II / 11.6",
+      "pages": [
+        15
+      ],
+      "text": "11.6. Setting and unsetting of the AS"
+    },
+    {
+      "paragraph": "Part II / 11.6.1",
+      "pages": [
+        15
+      ],
+      "text": "11.6.1. Setting\r\nAny suitable means of setting of the AS is allowed, provided that such means does not inadvertently cause false\r\nalarms."
+    },
+    {
+      "paragraph": "Part II / 11.6.2",
+      "pages": [
+        15
+      ],
+      "text": "11.6.2. Unsetting\r\nUnsetting of the AS shall be achieved by one or a combination of the following devices. Other devices giving\r\nequivalent performance are permitted."
+    },
+    {
+      "paragraph": "Part II / 11.6.2.1",
+      "pages": [
+        15
+      ],
+      "text": "11.6.2.1. A mechanical key (complying with requirements of Annex 6 to this Regulation) which can be coupled\r\nwith a centralized vehicle locking system comprising of at least 1,000 variants, operated from the outside."
+    },
+    {
+      "paragraph": "Part II / 11.6.2.2",
+      "pages": [
+        15
+      ],
+      "text": "11.6.2.2. Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate\r\nrolling codes and/or have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for\r\n50,000 variants minimum."
+    },
+    {
+      "paragraph": "Part II / 11.6.2.3",
+      "pages": [
+        15
+      ],
+      "text": "11.6.2.3. A mechanical key or an electrical/electronic device within the protected passenger compartment, with\r\ntimed exit/entry delay."
+    },
+    {
+      "paragraph": "Part II / 11.7",
+      "pages": [
+        15
+      ],
+      "text": "11.7. Exit delay\r\nIf the switching device for setting the AS is fitted within the protected area, an exit delay shall be provided. It shall\r\nbe possible for the exit delay to be set to between 15 seconds and 45 seconds after the switch has been operated.\r\nThe delay period may be adjustable to suit individual operators' circumstances."
+    },
+    {
+      "paragraph": "Part II / 11.8",
+      "pages": [
+        15
+      ],
+      "text": "11.8. Entry delay\r\nIf the device for unsetting the AS is fitted within the protected area, a delay of 5 seconds minimum and 15 seconds\r\nmaximum shall be allowed before the activation of the audible and optical signals. The delay period may be\r\nadjustable to suit individual operators' circumstances."
+    },
+    {
+      "paragraph": "Part II / 11.9",
+      "pages": [
+        15
+      ],
+      "text": "11.9. Status display"
+    },
+    {
+      "paragraph": "Part II / 11.9.1",
+      "pages": [
+        15
+      ],
+      "text": "11.9.1. To provide information on the status of the AS (set, unset, alarm setting period, alarm has been activated),\r\noptical displays inside and outside the passenger compartment are allowed. Any optical signal or any use of\r\nlighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of UN\r\nRegulation No. 48."
+    },
+    {
+      "paragraph": "Part II / 11.9.2",
+      "pages": [
+        15
+      ],
+      "text": "11.9.2. If an indication of short-term \"dynamic\" processes such as changes from \"set\" to \"unset\" and vice versa is\r\nprovided, it shall be optical according to paragraph 11.9.1. Such optical indication may also be produced by the\r\nsimultaneous operation of the direction indicators and/or passenger compartment lamp(s), provided that the\r\nduration of the optical indication by the direction indicators does not exceed 3 seconds."
+    },
+    {
+      "paragraph": "Part II / 11.10",
+      "pages": [
+        15
+      ],
+      "text": "11.10. Power supply\r\nThe source of power for the AS shall either be the vehicle battery or a rechargeable battery. Where provided, an\r\nadditional rechargeable or non-rechargeable battery may be used. These batteries shall by no means supply energy\r\nto other parts of the vehicle electrical system."
+    },
+    {
+      "paragraph": "Part II / 11.11",
+      "pages": [
+        16
+      ],
+      "text": "11.11. Specifications for optional functions"
+    },
+    {
+      "paragraph": "Part II / 11.11.1",
+      "pages": [
+        16
+      ],
+      "text": "11.11.1. Self-check, automatic failure indication\r\nOn setting the AS, irregular situations, e.g. open doors, etc., can be detected by a self-check function (plausibility\r\ncontrol), and this situation is indicated."
+    },
+    {
+      "paragraph": "Part II / 11.11.2",
+      "pages": [
+        16
+      ],
+      "text": "11.11.2. Panic alarm\r\nAn optical and/or audible and/or radio alarm is allowed independent of the state (set or unset) and/or function of\r\nthe AS. Such an alarm shall be triggered from within the vehicle and shall not affect the state (set or unset) of the\r\nAS. Also it shall be possible for the vehicle user to switch off the panic alarm. In the case of an audible alarm, its\r\nsounding duration per activation shall not be restricted. A panic alarm shall not immobilize the engine or stop it if\r\nit is running."
+    },
+    {
+      "paragraph": "Part II / 12",
+      "pages": [
+        16
+      ],
+      "text": "12. Test conditions\r\nAll components of the VAS or AS shall be tested in accordance with procedures described in paragraph 7.\r\nThis requirement does not apply to:"
+    },
+    {
+      "paragraph": "Part II / 12.1",
+      "pages": [
+        16
+      ],
+      "text": "12.1. Those components that are fitted and tested as part of the vehicle, whether or not a VAS/AS is fitted (e.g.\r\nlamps); or,"
+    },
+    {
+      "paragraph": "Part II / 12.2",
+      "pages": [
+        16
+      ],
+      "text": "12.2. Those components that have previously been tested as part of the vehicle and documentary evidence has\r\nbeen provided."
+    },
+    {
+      "paragraph": "Part II / 12.3",
+      "pages": [
+        16
+      ],
+      "text": "12.3. Components that are not embedded in the vehicle, e.g. keys."
+    },
+    {
+      "paragraph": "Part II / 13",
+      "pages": [
+        16
+      ],
+      "text": "13. Instructions\r\nEach vehicle shall be accompanied by:"
+    },
+    {
+      "paragraph": "Part II / 13.1",
+      "pages": [
+        16
+      ],
+      "text": "13.1. Instructions for use."
+    },
+    {
+      "paragraph": "Part II / 13.2",
+      "pages": [
+        16
+      ],
+      "text": "13.2. Instructions for maintenance."
+    },
+    {
+      "paragraph": "Part II / 13.3",
+      "pages": [
+        16
+      ],
+      "text": "13.3. A general warning regarding the danger of making any alterations or additions to the system."
+    },
+    {
+      "paragraph": "Part II / 14",
+      "pages": [
+        16
+      ],
+      "text": "14. Modiﬁcation of vehicle type and extension of approval"
+    },
+    {
+      "paragraph": "Part II / 14.1",
+      "pages": [
+        16
+      ],
+      "text": "14.1. Every modification of a vehicle or component type with regard to this UN Regulation shall be notified to the\r\ntype approval authority (TAA) which approved the vehicle or component type. The TAA may then either:\r\n14.1.1. consider that the modifications made are unlikely to have an appreciable adverse effect and that in any\r\ncase the component or the vehicle still complies with the requirements, or\r\n14.1.2. require a further report from the technical service responsible for conducting the tests.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 14.2",
+      "pages": [
+        16
+      ],
+      "text": "14.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement applying this UN Regulation."
+    },
+    {
+      "paragraph": "Part II / 14.3",
+      "pages": [
+        16
+      ],
+      "text": "14.3. The TAA issuing the extension of approval shall inform the other Contracting Parties of the extension by\r\nmeans of the communication form which appears in Annex 1 to this UN Regulation. It shall assign a serial\r\nnumber to each communication form drawn up for such an extension."
+    },
+    {
+      "paragraph": "Part II / 15",
+      "pages": [
+        16
+      ],
+      "text": "15. Conformity of production procedures\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3), with the following requirements:"
+    },
+    {
+      "paragraph": "Part II / 15.1",
+      "pages": [
+        17
+      ],
+      "text": "15.1. Vehicles/components under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements of the relevant part(s) of this Regulation."
+    },
+    {
+      "paragraph": "Part II / 15.2",
+      "pages": [
+        17
+      ],
+      "text": "15.2. For each type of vehicle or component the tests prescribed in the relevant part(s) of this Regulation shall be\r\ncarried out on a statistically controlled and random basis, in accordance with one of the regular quality assurance\r\nprocedures."
+    },
+    {
+      "paragraph": "Part II / 15.3",
+      "pages": [
+        17
+      ],
+      "text": "15.3. The authority which has granted approval may at any time verify the conformity control methods applied in\r\neach production facility. The normal frequency of these verifications shall be one every two years."
+    },
+    {
+      "paragraph": "Part II / 16",
+      "pages": [
+        17
+      ],
+      "text": "16. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "Part II / 16.1",
+      "pages": [
+        17
+      ],
+      "text": "16.1. The approval granted in respect of a vehicle/component type pursuant to this Regulation may be withdrawn\r\nif the requirements laid down in paragraph 15. above are not complied with."
+    },
+    {
+      "paragraph": "Part II / 16.2",
+      "pages": [
+        17
+      ],
+      "text": "16.2. If a Contracting Party to the Agreement applying this Regulation withdraws an approval it has previously\r\ngranted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of a form\r\nconforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "Part II / 17",
+      "pages": [
+        17
+      ],
+      "text": "17. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a vehicle/component type approved in accordance\r\nwith this Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication, that authority shall inform thereof the other Contracting Parties to the Agreement applying this\r\nRegulation by means of a form conforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "Part II / 18",
+      "pages": [
+        17
+      ],
+      "text": "18. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat the names and addresses of the Technical Services responsible for conducting approval tests and of the\r\nType Approval Authorities which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval are to be sent.\r\n\r\nAnnex 1a Information document\r\n(Maximum format: A4 (210 mm x 297 mm))\r\nIn accordance with paragraph 11. of this Regulation relating to system type approval of a vehicle type with regard\r\nto an alarm system"
+    },
+    {
+      "paragraph": "Part II / 1",
+      "pages": [
+        17
+      ],
+      "text": "1. General",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Part II / 1.1",
+      "pages": [
+        17
+      ],
+      "text": "1.1. Make (trade name of manufacturer):..........................."
+    },
+    {
+      "paragraph": "Part II / 1.2",
+      "pages": [
+        17
+      ],
+      "text": "1.2. Type:..............................................."
+    },
+    {
+      "paragraph": "Part II / 1.3",
+      "pages": [
+        17
+      ],
+      "text": "1.3. Means of identification of type, if marked on the device:.............."
+    },
+    {
+      "paragraph": "Part II / 1.3.1",
+      "pages": [
+        17
+      ],
+      "text": "1.3.1. Location of that marking:.................................."
+    },
+    {
+      "paragraph": "Part II / 1.4",
+      "pages": [
+        17
+      ],
+      "text": "1.4. Name and address of manufacturer:............................"
+    },
+    {
+      "paragraph": "Part II / 1.5",
+      "pages": [
+        17
+      ],
+      "text": "1.5. Location of the ECE approval mark:..........................."
+    },
+    {
+      "paragraph": "Part II / 1.6",
+      "pages": [
+        17
+      ],
+      "text": "1.6. Address(es) of assembly plant(s):............................."
+    },
+    {
+      "paragraph": "Part II / 2",
+      "pages": [
+        17
+      ],
+      "text": "2. General construction characteristics of the vehicle"
+    },
+    {
+      "paragraph": "Part II / 2.1",
+      "pages": [
+        17
+      ],
+      "text": "2.1. Photographs and/or drawings of a representative vehicle:"
+    },
+    {
+      "paragraph": "Part II / 2.2",
+      "pages": [
+        18
+      ],
+      "text": "2.2. Hand of drive: left / right (Strike out what does not apply)"
+    },
+    {
+      "paragraph": "Part II / 3",
+      "pages": [
+        18
+      ],
+      "text": "3. Miscellaneous"
+    },
+    {
+      "paragraph": "Part II / 3.1",
+      "pages": [
+        18
+      ],
+      "text": "3.1. Type approval number, if available:"
+    },
+    {
+      "paragraph": "Part II / 3.1.1",
+      "pages": [
+        18
+      ],
+      "text": "3.1.1. A detailed description of the vehicle type with regard to the arrangement of the installed vehicle alarm\r\nsystem illustrated by photographs and/or drawings (where the vehicle alarm system is already type approved as a\r\nseparate technical unit, reference may be made to the description in item 4.2. of the vehicle alarm system\r\nmanufacturer’s information document):"
+    },
+    {
+      "paragraph": "Part II / 3.2",
+      "pages": [
+        18
+      ],
+      "text": "3.2. For alarm systems not yet approved"
+    },
+    {
+      "paragraph": "Part II / 3.2.1",
+      "pages": [
+        18
+      ],
+      "text": "3.2.1. A detailed description of the alarm system and of the vehicle parts related to the alarm system installed:"
+    },
+    {
+      "paragraph": "Part II / 3.2.2",
+      "pages": [
+        18
+      ],
+      "text": "3.2.2. A list of the main components comprising the alarm system:\r\n\r\nAnnex 1b Information document\r\n(Maximum format: A4 (210 mm x 297 mm))\r\nIn accordance with paragraph 6. of this Regulation relating to ECE component or separate technical unit type\r\napproval of an alarm system\r\n1. General\r\n1.1. Make (trade name of manufacturer):...........................\r\n1.2. Type:...............................................\r\n1.3. Means of identification of type, if marked on the device:1.............\r\n\r\n\r\n1If the means of identification of type contains characters not relevant to describe the component or separate technical unit types covered in\r\nthis information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??).\r\n1.3.1. Location of that marking:..................................\r\n1.4. Name and address of manufacturer:............................\r\n1.5. Location of the ECE approval mark:...........................\r\n1.6. Address(es) of assembly plant(s):.............................\r\n2. Description of the device\r\n2.1. A detailed description of the alarm system and of the vehicle parts related to the alarm system installed:",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 2.1.1",
+      "pages": [
+        18
+      ],
+      "text": "2.1.1. A list of the main components comprising the alarm system:...........",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Part II / 2.1.2",
+      "pages": [
+        18
+      ],
+      "text": "2.1.2. The measures taken against false alarms:........................\r\n2.2. Range of protection offered by the device:.......................",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 2.3",
+      "pages": [
+        18
+      ],
+      "text": "2.3. Method of setting/unsetting the device:........................."
+    },
+    {
+      "paragraph": "Part II / 2.4",
+      "pages": [
+        18
+      ],
+      "text": "2.4. Number of effective interchangeable codes, if applicable:............."
+    },
+    {
+      "paragraph": "Part II / 2.5",
+      "pages": [
+        18
+      ],
+      "text": "2.5. List of main components comprising the device and, if applicable, their reference marks:\r\n3. Drawings\r\n3.1. Drawings of the main components of the device (the drawings shall show the intended space for UN type\r\napproval mark or reference mark, as applicable):",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4",
+      "pages": [
+        18
+      ],
+      "text": "4. Instructions"
+    },
+    {
+      "paragraph": "Part II / 4.1",
+      "pages": [
+        18
+      ],
+      "text": "4.1. List of vehicles to which the device is intended to be fitted:............"
+    },
+    {
+      "paragraph": "Part II / 4.2",
+      "pages": [
+        19
+      ],
+      "text": "4.2. Description of the method of installation illustrated by photographs and/or drawings:"
+    },
+    {
+      "paragraph": "Part II / 4.3",
+      "pages": [
+        19
+      ],
+      "text": "4.3. Instructions for use:......................................"
+    },
+    {
+      "paragraph": "Part II / 4.4",
+      "pages": [
+        19
+      ],
+      "text": "4.4. Instructions for maintenance, if any:..........................."
+    },
+    {
+      "paragraph": "Part II / 4.5",
+      "pages": [
+        19
+      ],
+      "text": "4.5. List of paragraphs of this Regulation which do not apply by virtue of the installation conditions for a VAS,\r\nwhich is to be installed in specified places in specified vehicles.\r\n\r\nAnnex 2a Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nconcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of vehicle with regard to its Vehicle Alarm System pursuant to UN Regulation No. [ZZZ]\r\nApproval No. .................. Extension No.................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn an approval (see approval provisions in the\r\nRegulation).\r\n\r\n2Strike out what does not apply.\r\n\r\n1. Trademark:......................................................\r\n2. Type and trade name(s):..............................................\r\n3. Name and address of manufacturer:......................................\r\n4. If applicable, name and address of manufacturer's representative: ...................\r\n4.1. Photographs and/or drawings of a representative vehicle:........................\r\n4.2. Hand of drive: left / right 2\r\n\r\n\r\n2Strike out what does not apply.\r\n\r\n4.3. Alarm system:....................................................",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4.3.1",
+      "pages": [
+        19
+      ],
+      "text": "4.3.1. Type approval number, if available:......................................",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4.3.1.1",
+      "pages": [
+        19,
+        20
+      ],
+      "text": "4.3.1.1. A detailed description of the vehicle type with regard to the arrangement of the installed VAS illustrated\r\nby photographs and/or drawings (where the VAS is already type approved as a separate technical unit, reference\r\n\r\n\r\n\r\n\r\n\r\nmay be made to the description in item 4.2. of the VAS manufacturer's information document):"
+    },
+    {
+      "paragraph": "Part II / 4.3.2",
+      "pages": [
+        20
+      ],
+      "text": "4.3.2. For alarm systems not yet approved"
+    },
+    {
+      "paragraph": "Part II / 4.3.2.1",
+      "pages": [
+        20
+      ],
+      "text": "4.3.2.1. A detailed description of the alarm system and of the vehicle parts related to the alarm system installed:"
+    },
+    {
+      "paragraph": "Part II / 4.3.2.2",
+      "pages": [
+        20
+      ],
+      "text": "4.3.2.2. A list of the main components comprising the alarm system:......................"
+    },
+    {
+      "paragraph": "Part II / 5",
+      "pages": [
+        20
+      ],
+      "text": "5. Brief description of vehicle:..........................................."
+    },
+    {
+      "paragraph": "Part II / 6",
+      "pages": [
+        20
+      ],
+      "text": "6. Date of submission of vehicle for approval: ................................."
+    },
+    {
+      "paragraph": "Part II / 7",
+      "pages": [
+        20
+      ],
+      "text": "7. Technical Service performing the approval tests: ............................."
+    },
+    {
+      "paragraph": "Part II / 8",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "8. Date of report issued by that Service:.....................................\r\n9. Number of report issued by that Service:...................................\r\n10. Approval granted/refused/extended/withdrawn:2\r\n\r\n\r\n2Strike out what does not apply.\r\n\r\n11. Place:..........................................................\r\n12. Date:..........................................................\r\n13. Signature:.......................................................\r\n14. Annexed to this communication are the following documents, bearing the approval number indicated above:\r\n15. Any remarks:.....................................................\r\n\r\nAnnex 2b Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning: 2\r\n\r\nApproval granted\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of component or separate technical unit as an alarm system pursuant to Regulation No. [ZZZ]\r\nApproval No. .................. Extension No.................\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn an approval (see approval provisions in the\r\nRegulation).\r\n\r\n2Strike out what does not apply.\r\n\r\n1. Trademark:......................................................\r\n2. Type and trade name(s):..............................................\r\n3. Name and address of manufacturer:......................................\r\n3.1. If applicable, name and address of manufacturer's representative: ...................\r\n3.2. Address(es) of assembly plant(s):........................................\r\n4. Alarm system:....................................................\r\n4.1. Means of identification of type, if marked on the device:",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4.1.1",
+      "pages": [
+        21
+      ],
+      "text": "4.1.1 Location of that marking:\r\n4.2. Description of the alarm system:",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4.2.1",
+      "pages": [
+        21
+      ],
+      "text": "4.2.1. A detailed description of the alarm system and of the vehicle parts related to the alarm system installed:"
+    },
+    {
+      "paragraph": "Part II / 4.2.2",
+      "pages": [
+        21
+      ],
+      "text": "4.2.2. A list of the main components comprising the alarm system:......................"
+    },
+    {
+      "paragraph": "Part II / 4.2.3",
+      "pages": [
+        21
+      ],
+      "text": "4.2.3 List of vehicles to which the alarm is intended to be fitted:",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Part II / 4.2.4",
+      "pages": [
+        21
+      ],
+      "text": "4.2.4 Types of vehicles on which the vehicle alarm system has been tested:\r\n5. Technical Service performing the approval tests: .............................\r\n6. Date of report issued by that Service:.....................................\r\n7. Number of report issued by that Service:...................................\r\n8. Approval granted/refused/extended/withdrawn:2\r\n\r\n\r\n2Strike out what does not apply.\r\n\r\n9. Place:..........................................................\r\n10. Date:..........................................................\r\n11. Signature:.......................................................\r\n12. Annexed to this communication are the following documents, bearing the approval number indicated above:\r\n13. Any remarks:",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        21
+      ],
+      "text": "Annex 3 Arrangements of approval marks\r\n(see paragraphs 4.4. to 4.4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min.\r\nThe above approval mark affixed to a vehicle shows that the type concerned was approved in Belgium (E 6)\r\npursuant to UN Regulation No. ZZZ. The first two digits (00) of the approval number indicate that the approval\r\nwas granted in accordance with the requirements of UN Regulation No. XXX in its original form."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        22
+      ],
+      "text": "Annex 4 Model of certiﬁcate of conformity\r\nI the undersigned\r\n(surname and name)\r\nTestify that the vehicle alarm system described below:\r\nMake:..................................................................\r\nType:..................................................................\r\nis in total conformity with the type approved\r\nat.................................. on..........................\r\n(place of approval) (date)\r\nas described in the communication form bearing approval No.\r\nIdentification of the main component(s):\r\nComponent: ................ Marking:......................\r\nDone at: ............... on:..........................\r\nManufacturer's full address and stamp:............................................\r\nSignature : ...............(please specify position)."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        22
+      ],
+      "text": "Annex 5 Model of installation certiﬁcate\r\nI the undersigned.........................................................\r\nprofessional installer, certify that the installation of the vehicle alarm system described below has been carried out\r\nby myself pursuant to the mounting instructions supplied by the manufacturer of the system.\r\nDescription of the vehicle\r\nMake:.................................................................\r\nType:.................................................................\r\nSerial number:...........................................................\r\nRegistration number:.......................................................\r\nDescription of the vehicle alarm system\r\nMake:.................................................................\r\nType:.................................................................\r\nApproval number:.........................................................\r\nDone at:........................ on:............................\r\nInstaller's full address and stamp:...............................................\r\nSignature: (please specify position)."
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        22
+      ],
+      "text": "Annex 6 Speciﬁcations for mechanical key switches"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        22
+      ],
+      "text": "1. The cylinder of the key switch shall not protrude by more than 1 mm from the cowling, and the protruding part\r\nshall be conical."
+    },
+    {
+      "paragraph": "Annex 6 / 2",
+      "pages": [
+        22
+      ],
+      "text": "2. The joint between the cylinder core and the cylinder casing shall be capable of withstanding a tensile force of"
+    },
+    {
+      "paragraph": "Annex 6 / 600",
+      "pages": [
+        22
+      ],
+      "text": "600 N and a torque of 25 Nm.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 3",
+      "pages": [
+        22
+      ],
+      "text": "3. The key switch shall be provided with a cylinder drill obstruction.",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 4",
+      "pages": [
+        23
+      ],
+      "text": "4. The key profile shall have at least 1,000 effective permutations."
+    },
+    {
+      "paragraph": "Annex 6 / 5",
+      "pages": [
+        23
+      ],
+      "text": "5. The key switch shall not be operable by a key which differs by only one permutation from the key matching the\r\nkey switch."
+    },
+    {
+      "paragraph": "Annex 6 / 6",
+      "pages": [
+        23
+      ],
+      "text": "6. The key aperture to an external key switch shall be shuttered or otherwise protected against the penetration of\r\ndirt and/or water."
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        23
+      ],
+      "text": "Annex 7 Electromagnetic compatibility"
+    },
+    {
+      "paragraph": "Annex 7 / 1",
+      "pages": [
+        23
+      ],
+      "text": "1. Immunity against disturbances conducted along supply lines\r\nTests shall be performed according to the technical prescriptions and transitional provisions of UN Regulation No.\r\n10.06 series of amendments and according to the test methods described in Annex 10 for an Electrical/Electronic\r\nSub-Assembly (ESA).\r\nThe VAS/AS shall be tested in unset state and in set state.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 7 / 2",
+      "pages": [
+        23
+      ],
+      "text": "2. Immunity against radiated high frequency disturbances\r\nTesting of the immunity of a VAS/AS in a vehicle may be performed according to the technical prescriptions and\r\ntransitional provisions of UN Regulation No. 10, 06 series of amendments and test methods described in Annex 6\r\nfor the vehicles or Annex 9 foran Electrical/Electronic Sub-Assembly (ESA).\r\nThe VAS/AS shall be tested with operating conditions and failure criteria as defined in Table 1\r\nTable 1\r\nOperating conditions and failure criteria for VAS/AS\r\n\r\n Test type      VAS/AS operating conditions                     Failure criteria\r\n\r\n\r\n Vehicle test   VAS/AS in unset state                           Unexpected activation of the VAS/AS\r\n                Key ON or Vehicle at 50 km/h (1)\r\n\r\n                VAS/AS in set state                             Unexpected deactivation of the VAS/AS\r\n                Key OFF\r\n\r\n                VAS/AS in set state                             Unexpected deactivation of the VAS/AS\r\n                Vehicle in charging mode (if applicable)\r\n\r\n ESA Test       VAS/AS in unset state                           Unexpected activation of the VAS/AS\r\n\r\n                VAS/AS in set state                             Unexpected deactivation of the VAS/AS\r\n\r\n (1) This test can be covered by the UN Regulation No. 10, 50 km/h mode"
+    },
+    {
+      "paragraph": "Annex 7 / 3",
+      "pages": [
+        23
+      ],
+      "text": "3. Electrical disturbance from electrostatic discharges\r\nImmunity against electrical disturbances shall be tested in accordance with ISO 10605-2008 + corrigendum:2010\r\n+ AMD1:2014 using the test severity levels from table 2.\r\nESD tests shall be performed either at vehicle level or at Electrical/Electronic Sub-Assembly (ESA) level."
+    },
+    {
+      "paragraph": "Table 2",
+      "pages": [
+        23,
+        24
+      ],
+      "text": "Table 2 ESD Test levels\r\n\r\n Discharge       Discharge points            VAS/AS state                        Discharge       Test      Failure criteria\r\n type                                                                            network         Level\r\n\r\n\r\n Air             Points that can easily      VAS/AS in unset state               330 pF, 2       ± 6       Unexpected activation of the\r\n discharge       be accessed only from                                           kΩ              kV        VAS/AS\r\n\r\n\r\n\r\n\r\n\r\n\r\nDischarge       Discharge points             VAS/AS state                          Discharge       Test      Failure criteria\r\n type                                                                               network         Level\r\n\r\n                 the inside of the            (if test performed on vehicle\r\n                 vehicle                      then vehicle shall be Key ON\r\n                                              or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       VAS/AS in set state                   150 pF, 2       ± 15      Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle         kΩ              kV        the VAS/AS without\r\n                 the outside of the           then vehicle shall be locked                                    reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                    each discharge\r\n\r\n Contact         Points that can easily       VAS/AS in unset state                 330 pF, 2       ± 4       Unexpected activation of the\r\n discharge       be accessed only from        (if test performed on vehicle         kΩ              kV        VAS/AS\r\n                 the inside of the            then vehicle shall be Key ON\r\n                 vehicle                      or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       VAS/AS in set state                   150 pF, 2       ± 8       Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle         kΩ              kV        the VAS/AS without\r\n                 the outside of the           then vehicle shall be locked                                    reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                    each discharge\r\n\r\n Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge\r\n\r\n4. Radiated emissions\r\nTests shall be performed according to the technical prescriptions and transitional provisions of UN Regulation No.\r\n10, 06 series of amendments prescriptions and according to the test methods described in Annexes 4 and 5 for\r\nvehicles or Annexes 7 and 8, foran Electrical/Electronic Sub-Assembly (ESA).\r\nThe VAS/AS shall be in set state.",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 8",
+      "pages": [
+        24
+      ],
+      "text": "Annex 8 Test of systems for the protection of the passenger compartment.\r\nParagraph 7.2.11."
+    },
+    {
+      "paragraph": "Annex 9",
+      "pages": [
+        25
+      ],
+      "text": "Annex 9 Safety provisions for digital keys"
+    },
+    {
+      "paragraph": "Annex 9 / 1",
+      "pages": [
+        25
+      ],
+      "text": "1. General\r\nThe purpose of this annex is to specify the requirements for documentation and verification for digital keys used\r\nto operate the ‘alarm system’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2",
+      "pages": [
+        25
+      ],
+      "text": "2. Definitions"
+    },
+    {
+      "paragraph": "Annex 9 / 2.1",
+      "pages": [
+        25
+      ],
+      "text": "2.1. \"Authorization process\" means any method to provide the digital key which can operate the ‘alarm system’ of\r\nthe vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2.2",
+      "pages": [
+        25
+      ],
+      "text": "2.2. \"Revocation process\" means any method to prevent the digital key to operate the ‘alarm system’ of the\r\nvehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 3",
+      "pages": [
+        25
+      ],
+      "text": "3. Documentation\r\nThe vehicle manufacturer shall provide the following documentation for type approval:"
+    },
+    {
+      "paragraph": "Annex 9 / 3.1",
+      "pages": [
+        25
+      ],
+      "text": "3.1. A description of the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.2",
+      "pages": [
+        25
+      ],
+      "text": "3.2. A description of the revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.3",
+      "pages": [
+        25
+      ],
+      "text": "3.3. A description of the safety measures designed within the digital key revocation process to ensure safe\r\noperation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 4",
+      "pages": [
+        25
+      ],
+      "text": "4. Requirements for Safe Operation"
+    },
+    {
+      "paragraph": "Annex 9 / 4.1",
+      "pages": [
+        25
+      ],
+      "text": "4.1. A digital key shall only be transferred to a device via the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2",
+      "pages": [
+        25
+      ],
+      "text": "4.2. There shall be a revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.1",
+      "pages": [
+        25
+      ],
+      "text": "4.2.1. Revocation of a digital key shall not result in an unsafe condition.\r\nA risk reduction analysis using functional safety standard such as ISO 26262 and safety of the intended\r\nfunctionality standard such as ISO/PAS 21448, which documents the risk to vehicle occupants caused by\r\nrevocation of a digital key and documents the reduction of risk resulting from implementation of the identified\r\nrisk mitigation functions or characteristics."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.2",
+      "pages": [
+        25
+      ],
+      "text": "4.2.2. It shall be possible for the primary user(s) to identify the number of authorized registered digital keys."
+    },
+    {
+      "paragraph": "Annex 9 / 4.3",
+      "pages": [
+        26
+      ],
+      "text": "4.3. Detailed information shall be contained in the owner's manual of the vehicle, or by any other communication\r\nmeans in the vehicle; as a minimum, this information shall include:\r\n(a) The method(s) for authorization of the digital key\r\n(b) The method(s) for revocation of the digital key"
+    },
+    {
+      "paragraph": "Annex 9 / 5",
+      "pages": [
+        26
+      ],
+      "text": "5. The effectiveness of the system shall not be adversely affected by cyber-attacks, cyber threats and\r\nvulnerabilities. The effectiveness of the security measures shall be demonstrated by fulfilling the technical\r\nrequirements of UN Regulation No. 155."
+    },
+    {
+      "paragraph": "Annex 9 / 6",
+      "pages": [
+        26
+      ],
+      "text": "6. Verification\r\nVerification of the functionality of the digital key shall be conducted with support of manufacturer's\r\ndocumentation as specified in paragraph 3."
+    },
+    {
+      "paragraph": "Annex 9 / 7",
+      "pages": [
+        26
+      ],
+      "text": "7. Competence of the auditors/assessors\r\nThe assessments under this Annex shall only be conducted by auditors/assessors with the technical and\r\nadministrative knowledge necessary for such purposes. They shall in particular be competent as auditor/assessor\r\nfor ISO 26262-2018 (Functional Safety - Road Vehicles), and ISO/PAS 21448 (Safety of the Intended\r\nFunctionality of road vehicles); and shall be able to make the necessary link with cybersecurity aspects in\r\naccordance with UN Regulation No. 155 and ISO/SAE 21434). This competence should be demonstrated by\r\nappropriate qualifications or other equivalent training records."
+    }
+  ]
+}

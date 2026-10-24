@@ -1,0 +1,4017 @@
+{
+  "regulation": "UN R53",
+  "version": "4.0.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R53 (version 4.0.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to vehicles of category L31 with regard to the installation of lighting and light-signalling\r\ndevices.\r\n\r\n1 As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2. -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purpose of this Regulation, the definitions given in the latest series of amendments to UN Regulation No.\r\n48 in force at the time of application for type approval shall apply, unless otherwise specified in this Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Vehicle type\" means a category of vehicles which do not differ from each other in such essential respects as:"
+    },
+    {
+      "paragraph": "2.1.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1.1. The dimensions and external shape of the vehicle;"
+    },
+    {
+      "paragraph": "2.1.2",
+      "pages": [
+        1
+      ],
+      "text": "2.1.2. The number and position of the devices;"
+    },
+    {
+      "paragraph": "2.1.3",
+      "pages": [
+        1
+      ],
+      "text": "2.1.3. The following shall likewise not be deemed to be \"vehicles of a different type\":"
+    },
+    {
+      "paragraph": "2.1.3.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1.3.1. Vehicles which differ within the meaning of paragraphs 2.1.1. and 2.1.2. above but not in such a way as to\r\nentail a change in the kind, number, position and geometric visibility of the lamps prescribed for the vehicle type\r\nin question; and"
+    },
+    {
+      "paragraph": "2.1.3.2",
+      "pages": [
+        1
+      ],
+      "text": "2.1.3.2. Vehicles on which lamps approved under one of the Regulations annexed to the 1958 Agreement, or\r\nlamps allowed in the country in which the vehicles are registered, are fitted, or are absent where their fitting is\r\noptional;"
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Unladen vehicle\" means a vehicle without a driver, or passenger, and unladen, but with its fuel tank full and\r\nits normal complement of tools;"
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Lamp\" means a device designed to illuminate the road or to emit a light signal to other road users. Rear\r\nregistration plate lamp and retro-reflectors are likewise to be regarded as lamps;"
+    },
+    {
+      "paragraph": "2.3.1",
+      "pages": [
+        1
+      ],
+      "text": "2.3.1. \"Equivalent lamps\" means lamps having the same function and authorised in the country in which the\r\nvehicle is registered; such lamps may have different characteristics from those of the lamps with which the vehicle\r\nis equipped at the time of approval, on condition that they satisfy the requirements of this Regulation;"
+    },
+    {
+      "paragraph": "2.3.2",
+      "pages": [
+        1
+      ],
+      "text": "2.3.2. \"Independent lamp\" means devices having separate apparent surfaces, separate light sources and separate\r\nlamp bodies;"
+    },
+    {
+      "paragraph": "2.3.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3.3. \"Grouped lamps\" means devices having separate apparent surfaces and separate light sources, but a\r\ncommon lamp body;"
+    },
+    {
+      "paragraph": "2.3.4",
+      "pages": [
+        1
+      ],
+      "text": "2.3.4. \"Combined\" means devices having separate apparent surfaces, but a common light source and a common\r\nlamp body;"
+    },
+    {
+      "paragraph": "2.3.5",
+      "pages": [
+        1
+      ],
+      "text": "2.3.5. \"Reciprocally incorporated\" means devices having separate light sources or a single light source operating\r\nunder different conditions (for example, optical, mechanical, electrical differences), totally or partially common\r\napparent surfaces and a common lamp body;"
+    },
+    {
+      "paragraph": "2.3.6",
+      "pages": [
+        2
+      ],
+      "text": "2.3.6. \"Direction indicator lamp\" means the lamp used to indicate to other road-users that the driver intends to\r\nchange direction to the right or to the left;\r\nA direction indicator lamp or lamps may also be used according to provisions of UN Regulation No. 97."
+    },
+    {
+      "paragraph": "2.3.7",
+      "pages": [
+        2
+      ],
+      "text": "2.3.7. \"Front position lamp\" means the lamp used to indicate the presence of the vehicle when viewed from the\r\nfront;"
+    },
+    {
+      "paragraph": "2.3.8",
+      "pages": [
+        2
+      ],
+      "text": "2.3.8. \"Rear position lamp\" means the lamp used to indicate the presence of the vehicle when viewed from the\r\nrear;"
+    },
+    {
+      "paragraph": "2.3.9",
+      "pages": [
+        2
+      ],
+      "text": "2.3.9. \"Retro-reflector\" means a device used to indicate the presence of a vehicle by the reflection of light\r\nemanating from a light source not connected to the vehicle, the observer being situated near the source;\r\nFor the purpose of this Regulation, retro-reflecting number plates are not considered as retro-reflectors;"
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. \"Light-emitting surface\" of a \"lighting device\", \"light-signalling device\" or a retro-reflector means all or part\r\nof the exterior surface of the transparent material as declared in the request for approval by the manufacturer of\r\nthe device on the drawing, see Annex 3;"
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Illuminating surface\" (see Annex 3);"
+    },
+    {
+      "paragraph": "2.5.1",
+      "pages": [
+        2
+      ],
+      "text": "2.5.1. \"Illuminating surface of a lighting device\" (driving beam (main beam) headlamp, passing beam (dipped\r\nbeam) headlamp, front fog lamp) means the orthogonal projection of the full aperture of the reflector, or in the\r\ncase of headlamps with an ellipsoidal reflector of the \"projection lens\", on a transverse plane. If the lighting\r\ndevice has no reflector, the definition of paragraph 2.5.2. below shall be applied. If the light emitting surface of\r\nthe lamp extends over part only of the full aperture of the reflector, then the projection of that part only is taken\r\ninto account.\r\nIn the case of a passing-beam headlamp, the illuminating surface is limited by the apparent trace of the cut-off on\r\nto the lens. If the reflector and lens are adjustable relative to one another, the mean adjustment should be used;\r\nIn the case where any combination of a headlamp producing the principal passing-beam and additional lighting\r\nunits or light sources designed to produce bend lighting are operated together, the individual illuminating surfaces,\r\ntaken together, constitute the illuminating surface."
+    },
+    {
+      "paragraph": "2.5.2",
+      "pages": [
+        2
+      ],
+      "text": "2.5.2. \"Illuminating surface of a light-signalling device other than a retro-reflector\" (direction indicator lamp,\r\nstop lamp, front position lamp, rear position lamp, hazard warning signal, rear fog lamp) means the orthogonal\r\nprojection of the lamp in a plane perpendicular to its axis of reference and in contact with the exterior light-\r\nemitting surface of the lamp, this projection being bounded by the edges of screens situated in this plane, each\r\nallowing only 98 per cent of the total luminous intensity of the light to persist in the direction of the axis of\r\nreference. To determine the lower, upper and lateral limits of the illuminating surface, only screens with horizontal\r\nor vertical edges shall be used;"
+    },
+    {
+      "paragraph": "2.5.3",
+      "pages": [
+        2
+      ],
+      "text": "2.5.3. \"Illuminating surface of a retro-reflector\" (para. 2.3.9. above) means the orthogonal projection of a retro-\r\nreflector in a plane perpendicular to its axis of reference and delimited by planes continuous to the outermost parts\r\nof the retro-reflector's optical system and parallel to that axis. For the purposes of determining the lower, upper\r\nand lateral edges of the device, only horizontal and vertical planes shall be considered;"
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. The \"apparent surface\" for a defined direction of observation means, at the request of the manufacturer or his\r\nduly accredited representative, the orthogonal projection of:\r\nEither the boundary of the illuminating surface projected on the exterior surface of the lens (a-b);\r\nOr the light-emitting surface (c-d);\r\nIn a plane perpendicular to the direction of observation and tangential to the most exterior point of the lens (see\r\nAnnex 3 to this Regulation);"
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        3
+      ],
+      "text": "2.7. \"Centre of reference\" means the intersection of the axis of reference with the exterior light-emitting surface; it\r\nis specified by the manufacturer of the lamp;"
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        3
+      ],
+      "text": "2.8. \"Extreme outer edge\", on either side of the vehicle means the plane parallel to the median longitudinal plane\r\nof the vehicle and touching the lateral extremity of the vehicle, disregarding the projection or projections:"
+    },
+    {
+      "paragraph": "2.8.1",
+      "pages": [
+        3
+      ],
+      "text": "2.8.1. Of rear-view mirrors,"
+    },
+    {
+      "paragraph": "2.8.2",
+      "pages": [
+        3
+      ],
+      "text": "2.8.2. Of direction indicator lamps,"
+    },
+    {
+      "paragraph": "2.8.3",
+      "pages": [
+        3
+      ],
+      "text": "2.8.3. Of front and rear position lamps and retro-reflectors;"
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        3
+      ],
+      "text": "2.9. \"Over-all width\" means the distance between the two vertical planes defined in paragraph 2.8. above;"
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        3
+      ],
+      "text": "2.10. \"Colour of the light emitted from the device\". The definitions of the colour of the light emitted given in UN\r\nRegulation No. 48 and its series of amendments in force at the time of application for type approval shall apply to\r\nthis Regulation."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        3
+      ],
+      "text": "2.11. \"Gross vehicle mass\" or \"maximum mass\" means the technically permissible maximum laden mass as\r\ndeclared by the manufacturer."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        3
+      ],
+      "text": "2.12. \"Laden\" means so loaded as to attain the gross vehicle mass as defined in paragraph 2.11. above."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        3
+      ],
+      "text": "2.13. \"Horizontal inclination\" means the angle created between the beam pattern when the motorcycle is set as\r\nspecified in paragraph 5.4. of this Regulation, and the beam pattern when the motorcycle is banked (see drawing\r\nin Annex 6);"
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        3
+      ],
+      "text": "2.14. \"Horizontal inclination adjustment system (HIAS)\" means a device that adjusts the horizontal inclination of\r\nthe headlamp towards zero;"
+    },
+    {
+      "paragraph": "2.15",
+      "pages": [
+        3
+      ],
+      "text": "2.15. \"Bank angle\" means the angle made with the vertical by the vertical longitudinal median plane of the\r\nmotorcycle, when the motorcycle is rotated about its longitudinal axis (see drawing in Annex 6);"
+    },
+    {
+      "paragraph": "2.16",
+      "pages": [
+        3
+      ],
+      "text": "2.16. \"HIAS signal\" means any control signal or, any additional control input to the system or, a control output\r\nfrom the system to the motorcycle;"
+    },
+    {
+      "paragraph": "2.17",
+      "pages": [
+        3
+      ],
+      "text": "2.17. \"HIAS signal generator\" means a device, reproducing one or more of the HIAS signals for system test;"
+    },
+    {
+      "paragraph": "2.18",
+      "pages": [
+        3
+      ],
+      "text": "2.18. \"HIAS test angle\" means the angle δ created by the headlamp cut-off line and HH line (in case of an\r\nasymmetrical beam headlamp, the horizontal part of the cut-off shall be used), (see drawing in Annex 6)."
+    },
+    {
+      "paragraph": "2.19",
+      "pages": [
+        3
+      ],
+      "text": "2.19. \"Device\" means a component or combination of components used in order to perform one or several\r\nfunctions."
+    },
+    {
+      "paragraph": "2.20",
+      "pages": [
+        3
+      ],
+      "text": "2.20. \"Exterior courtesy lamp\" means a lamp used to provide supplementary illumination to assist the mounting\r\nand dismounting of the vehicle driver and passenger or in loading operations."
+    },
+    {
+      "paragraph": "2.21",
+      "pages": [
+        3
+      ],
+      "text": "2.21. \"Adaptive Driving-Beam\" (or \"ADB\") means a front lighting system consisting of driving-beam(s) only and\r\ntype-approved according to UN Regulation No. 149 that adapts its beam pattern to the presence of oncoming and\r\npreceding vehicles in order to improve the long-range visibility for the driver without causing discomfort,\r\ndistraction or glare to other road users.\r\nUnless otherwise specified, administrative and technical provisions for the driving-beam function of the adaptive\r\nfront lighting system (AFS) in UN Regulation No. 149 shall apply to ADB."
+    },
+    {
+      "paragraph": "2.21.1",
+      "pages": [
+        3
+      ],
+      "text": "2.21.1. \"ADB neutral state\" means the state of the ADB when the driving-beam is in the maximum condition of\r\nactivation."
+    },
+    {
+      "paragraph": "2.22",
+      "pages": [
+        3
+      ],
+      "text": "2.22. \"Rear-end collision alert signal (RECAS)\" means an automatic signal given by the leading vehicle to the\r\nfollowing vehicle. It warns that the following vehicle needs to take emergency action to avoid a collision."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        4
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        4
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to the installation of its lighting and light-signalling\r\ndevices shall be submitted by the vehicle manufacturer or by his duly accredited representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        4
+      ],
+      "text": "3.2. It shall be accompanied by the undermentioned documents in triplicate and the following particulars:"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        4
+      ],
+      "text": "3.2.1. A description of the vehicle type with regard to the items mentioned in paragraphs 2.1.1. to 2.1.3. above; the\r\nvehicle type duly identified shall be specified;"
+    },
+    {
+      "paragraph": "3.2.2",
+      "pages": [
+        4
+      ],
+      "text": "3.2.2. A list of the devices intended by the manufacturer to form the lighting and light-signalling equipment; the\r\nlist may include several types of device for each function; each type shall be duly identified (national or\r\ninternational approval mark, if approved, name of manufacturer, etc.); in addition, the list may include in respect\r\nof each function the additional annotation \"or equivalent devices\";"
+    },
+    {
+      "paragraph": "3.2.3",
+      "pages": [
+        4
+      ],
+      "text": "3.2.3. A layout drawing of the lighting and light-signalling installation as a whole, showing the position of the\r\nvarious devices on the vehicle; and"
+    },
+    {
+      "paragraph": "3.2.4",
+      "pages": [
+        4
+      ],
+      "text": "3.2.4. If necessary, in order to verify the conformity to the prescriptions of the present regulation, a layout drawing\r\nor drawings of each lamp showing the illuminating surface, as defined in paragraph 2.5.1. above, the light-\r\nemitting surface as defined in paragraph 2.4. above, the axis of reference as defined in UN Regulation No. 48 and\r\nthe centre of reference as defined in UN Regulation No. 48. This information is not necessary in the case of the\r\nrear registration plate lamp (as defined in UN Regulation No. 48)."
+    },
+    {
+      "paragraph": "3.2.5",
+      "pages": [
+        4
+      ],
+      "text": "3.2.5. A statement of the method used for the definition of the apparent surface (see paragraph 2.6.);"
+    },
+    {
+      "paragraph": "3.2.6",
+      "pages": [
+        4
+      ],
+      "text": "3.2.6. At the discretion of the manufacturer, a statement indicating whether lamps approved for and equipped with\r\nLED substitute light sources are allowed to be installed on the vehicle or not and, if this is allowed, which lamps."
+    },
+    {
+      "paragraph": "3.2.7",
+      "pages": [
+        4
+      ],
+      "text": "3.2.7. Where an ADB is fitted on the vehicle, the applicant shall submit a detailed description providing the\r\nfollowing information:"
+    },
+    {
+      "paragraph": "3.2.7.1",
+      "pages": [
+        4
+      ],
+      "text": "3.2.7.1. The technical characteristics relevant to the operation of ADB;"
+    },
+    {
+      "paragraph": "3.2.7.2",
+      "pages": [
+        4
+      ],
+      "text": "3.2.7.2. Special instruction, if any, for the inspection of the light sources and the visual observation of the beam;"
+    },
+    {
+      "paragraph": "3.2.7.3",
+      "pages": [
+        4
+      ],
+      "text": "3.2.7.3. The lamps that are grouped or combined with or reciprocally incorporated in the ADB."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        4
+      ],
+      "text": "3.3. An unladen vehicle fitted with a complete set of lighting and light-signalling equipment, as prescribed in\r\nparagraph 3.2.2. above, and representative of the vehicle type to be approved shall be submitted to the Technical\r\nService responsible for conducting approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        4
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        4
+      ],
+      "text": "4.1. If the vehicle submitted for approval pursuant to this Regulation meets the requirements of the Regulation in\r\nrespect of all the devices specified in the list, approval of that vehicle type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        4
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (at present 03 for the\r\nRegulation in its 03 series of amendments) shall indicate the series of amendments incorporating the most recent\r\nmajor technical amendments made to the Regulation at the time of issue of the approval."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        4
+      ],
+      "text": "4.3. Notice of approval or of extension or refusal or withdrawal of approval or production definitively\r\ndiscontinued of a vehicle type pursuant to this Regulation shall be communicated to the Parties to the Agreement\r\nwhich apply this Regulation, by means of a form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        4
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        5
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of country which has granted\r\napproval;2\r\n\r\n\r\n2 The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6, Annex 3 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        5
+      ],
+      "text": "4.4.2. The number of this Regulation followed by the letter \"R\", a dash, and the approval number to the right of\r\nthe circle prescribed in paragraph 4.4.1. above."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        5
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved, under one or more other Regulations annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. above need not be repeated; in such a case the Regulation and approval numbers and the additional symbols\r\nof all the Regulations under which approval has been granted in the country which has granted approval under this\r\nRegulation shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        5
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        5
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        5
+      ],
+      "text": "4.8. Annex 2 to this Regulation gives examples of the arrangement of the approval marks."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        5
+      ],
+      "text": "5. General speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.1. The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and\r\nnotwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this\r\nRegulation and enable the vehicle to comply with the requirements of this Regulation.\r\nIn particular, it shall not be possible for the lamps to be inadvertently maladjusted."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2. The illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried\r\nout."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.3. For all light-signalling devices the reference axis of the lamp when fitted to the vehicle shall be parallel to the\r\nbearing plane of the vehicle on the road; in addition, it shall be perpendicular to the median longitudinal plane of\r\nthe vehicle in the case of side retro-reflectors and parallel to that plane in the case of all light-signalling devices. A\r\ntolerance of ∀ 3° shall be allowed in each direction. In addition, if specifications for fitting are provided by the\r\nmanufacturer they shall be complied with."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.4. In the absence of specific instructions, the height and orientation of the lamps shall be verified with the\r\nvehicle unladen and placed on a flat horizontal surface, its median longitudinal plane being vertical and the\r\nhandlebars being in the position corresponding to the straight ahead movement. The tyre pressures shall be those\r\nprescribed by the manufacturer for the particular conditions of loading required in this Regulation.\r\nIn the case where an ADB is installed, with the system in its ADB neutral state."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        5
+      ],
+      "text": "5.5. In the absence of specific instructions:"
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.5.1. Single lamps or reflectors shall be mounted such that their centre of reference lies in the median\r\nlongitudinal plane of the vehicle;"
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2. Lamps constituting a pair and having the same function shall:"
+    },
+    {
+      "paragraph": "5.5.2.1",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2.1. Be mounted symmetrically in relation to the median longitudinal plane;"
+    },
+    {
+      "paragraph": "5.5.2.2",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2.2. Be symmetrical to one another in relation to the median longitudinal plane;"
+    },
+    {
+      "paragraph": "5.5.2.3",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2.3. Satisfy the same colorimetric requirements; and"
+    },
+    {
+      "paragraph": "5.5.2.4",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2.4. Have identical nominal photometric characteristics;"
+    },
+    {
+      "paragraph": "5.5.2.5",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2.5. Come on and go off simultaneously;"
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        6
+      ],
+      "text": "5.6. Grouped, combined or reciprocally incorporated or single lamps"
+    },
+    {
+      "paragraph": "5.6.1",
+      "pages": [
+        6
+      ],
+      "text": "5.6.1. Lamps may be grouped, combined or reciprocally incorporated with one another provided that all\r\nrequirements regarding colour, position, orientation, geometric visibility, electrical connections and other\r\nrequirements, if any, are fulfilled."
+    },
+    {
+      "paragraph": "5.6.1.1",
+      "pages": [
+        6
+      ],
+      "text": "5.6.1.1. The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with\r\nwhich this lamp is grouped, combined or reciprocally incorporated are switched OFF.\r\nHowever, when a front or rear position lamp is reciprocally incorporated with one or more other function(s) which\r\ncan be activated together with them, the requirements regarding colour of each of these other functions shall be\r\nfulfilled when the reciprocally incorporated function(s) and the front or rear position lamps are switched ON."
+    },
+    {
+      "paragraph": "5.6.1.2",
+      "pages": [
+        6
+      ],
+      "text": "5.6.1.2. Stop lamps and direction indicator lamps are not permitted to be reciprocally incorporated."
+    },
+    {
+      "paragraph": "5.6.1.3",
+      "pages": [
+        6
+      ],
+      "text": "5.6.1.3. However, where stop lamps and direction indicator lamps are grouped, any horizontal or vertical straight\r\nline passing through the projections of the apparent surfaces of these functions on a plane perpendicular to the\r\nreference axis, shall not intersect more than two borderlines separating adjacent areas of different colour."
+    },
+    {
+      "paragraph": "5.6.2",
+      "pages": [
+        6
+      ],
+      "text": "5.6.2. Single lamps"
+    },
+    {
+      "paragraph": "5.6.2.1",
+      "pages": [
+        6
+      ],
+      "text": "5.6.2.1. Single lamps as defined in paragraph 2.16.1. of UN Regulation No. 48, subparagraph (a), composed of\r\ntwo or more distinct parts, shall be installed in such a way that:\r\n(a) Either the total area of the projection of the distinct parts on a plane tangent to the exterior surface of the outer\r\nlens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral\r\ncircumscribing the said projection; or\r\n(b) The minimum distance between the facing edges of two adjacent/tangential distinct parts shall not exceed 75\r\nmm when measured perpendicularly to the reference axis.\r\nThese requirements shall not apply to a single retro reflector."
+    },
+    {
+      "paragraph": "5.6.2.2",
+      "pages": [
+        6
+      ],
+      "text": "5.6.2.2. Single lamps as defined in paragraph 2.16.1. of UN Regulation No. 48, subparagraph (b) or (c), composed\r\nof two lamps marked \"D\" or two independent retro reflectors, shall be installed in such a way that:\r\n(a) Either the projection of the apparent surfaces in the direction of the reference axis of the two lamps or retro\r\nreflectors occupies not less than 60 per cent of the smallest quadrilateral circumscribing the projections of the said\r\napparent surfaces in the direction of the reference axis; or\r\n(b) The minimum distance between the facing edges of the apparent surfaces in the direction of the reference axis\r\nof two lamps or two independent retro reflectors does not exceed 75 mm when measured perpendicularly to the\r\nreference axis."
+    },
+    {
+      "paragraph": "5.6.2.3",
+      "pages": [
+        6
+      ],
+      "text": "5.6.2.3. Single lamps as defined in paragraph 2.16.1. of UN Regulation No. 48, subparagraph (d), shall fulfil the\r\nrequirements of paragraph 5.6.2.1.\r\nWhere two or more lamps and/or two or more separate apparent surfaces are included into the same lamp body\r\nand/or have a common outer lens, these shall not be considered as an interdependent lamp system.\r\nHowever, a lamp in the shape of a band or strip may be part of an interdependent lamp system."
+    },
+    {
+      "paragraph": "5.7",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "5.7. The maximum height above ground shall be measured from the highest point and the minimum height from\r\nthe lowest point of the apparent surface in the direction of the reference axis. For passing-beam headlamps, the\r\nminimum height from the ground shall be measured from the lowest point of the effective outlet of the optical\r\nsystem (e.g. reflector, lens, projection lens) independent of its utilisation.\r\nWhere the (maximum and minimum) height above the ground clearly meets the requirements of the Regulation,\r\nthe exact edges of any surface need not be determined.\r\nWhen referring to the distance between lamps, the position, as regards width, shall be determined from the inner\r\nedges of the apparent surface in the direction of the reference axis.\r\n\r\n\r\n\r\n\r\n\r\nWhere the position, as regards width, clearly meets the requirements of the Regulation, the exact edges of any\r\nsurface need not be determined.\r\nFor the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the\r\nground, shall be measured from the H plane."
+    },
+    {
+      "paragraph": "5.8",
+      "pages": [
+        7
+      ],
+      "text": "5.8. In the absence of specific instructions, no lamps other than direction indicator lamps, the vehicle-hazard\r\nwarning signal lamps and the emergency stop signal shall be flashing lamps."
+    },
+    {
+      "paragraph": "5.8.1",
+      "pages": [
+        7
+      ],
+      "text": "5.8.1. The photometric characteristics of a direction indicator lamp except for categories 5 and 6 specified in UN\r\nRegulation No. 6 or [LSD], and of a direction indicator lamp specified in UN Regulation No. 50 or [LSD] may be\r\nvaried during a flash by sequential activation of light sources as specified in paragraph 5.6. of UN Regulation No.\r\n6 or paragraph 5.6.11. of UN Regulation No. [LSD] or in paragraph 6.8. of UN Regulation No. 50.\r\nThis provision shall not apply when direction indicator lamps of categories 2a and 2b of UN Regulation No. 6 or\r\n[LSD] or category 12 of UN Regulation No. 50 or [LSD] are operated as emergency stop signal according to\r\nparagraph 6.14. of this Regulation.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.9",
+      "pages": [
+        7
+      ],
+      "text": "5.9. No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a\r\nforward direction and no white light which could give rise to confusion, shall be emitted from a lamp as defined in\r\nparagraph 2.3. in a rearward direction. No account shall be taken of lighting devices fitted for the interior lighting\r\nof the vehicle. In case of doubt, this requirement shall be verified as follows (see drawing in Annex 4):"
+    },
+    {
+      "paragraph": "5.9.1",
+      "pages": [
+        7
+      ],
+      "text": "5.9.1. Visibility of red light towards the front: a red lamp shall not be directly visible to an observer moving in\r\nzone 1 of a transverse plane situated 25 m forward of the foremost point on the vehicle;"
+    },
+    {
+      "paragraph": "5.9.2",
+      "pages": [
+        7
+      ],
+      "text": "5.9.2. Visibility of white light towards the rear: a white lamp shall not be directly visible to an observer moving in\r\nzone 2 of a transverse plane situated 25 m rearward of the rearmost point on the vehicle;"
+    },
+    {
+      "paragraph": "5.9.3",
+      "pages": [
+        7
+      ],
+      "text": "5.9.3. In their respective planes, the zones 1 and 2 explored by the eye of the observer are bound:"
+    },
+    {
+      "paragraph": "5.9.3.1",
+      "pages": [
+        7
+      ],
+      "text": "5.9.3.1. In height, by two horizontal planes 1 m and 2.2 m respectively above the ground;"
+    },
+    {
+      "paragraph": "5.9.3.2",
+      "pages": [
+        7
+      ],
+      "text": "5.9.3.2. In width, by two vertical planes which, forming to the front and the rear respectively an angle of 15°\r\noutwards from the vehicle's median longitudinal plane, pass through the point or points of contact of vertical\r\nplanes parallel to the vehicle's median longitudinal plane and delimiting the vehicle's over-all width; if there are\r\nseveral points of contact, the foremost shall correspond to the forward plane and the rearmost to the rearward\r\nplane."
+    },
+    {
+      "paragraph": "5.10",
+      "pages": [
+        7
+      ],
+      "text": "5.10. The electrical connections shall be such that the front position lamp or the passing-beam headlamp, if there\r\nis no front position lamp, the rear position lamp and the rear-registration-plate illuminating device cannot be\r\nswitched ON or OFF otherwise than simultaneously, unless otherwise specified."
+    },
+    {
+      "paragraph": "5.10.1",
+      "pages": [
+        7
+      ],
+      "text": "5.10.1. In the case of an interdependent lamp system, all light sources shall be switched on and off simultaneously."
+    },
+    {
+      "paragraph": "5.11",
+      "pages": [
+        7
+      ],
+      "text": "5.11. In the absence of specific instructions, the electrical connection shall be such that the driving-beam\r\nheadlamp, the passing-beam headlamp and the fog lamp cannot be switched on unless the lamps referred to in\r\nparagraph 5.10. above are likewise switched on. This requirement need not, however, be satisfied in the case of\r\nthe driving-beam headlamp and passing-beam headlamp where their luminous warnings consist in switching on\r\nthe passing-beam headlamp intermittently, at short intervals, or in switching on the driving-beam headlamp\r\nintermittently, or in switching on the passing-beam headlamp and driving-beam headlamp alternately at short\r\nintervals."
+    },
+    {
+      "paragraph": "5.11.1",
+      "pages": [
+        7
+      ],
+      "text": "5.11.1. If installed, the daytime running lamp shall automatically be ON when the engine is running. If the\r\nheadlamp is switched ON, the daytime running lamp shall not come ON when the engine is running."
+    },
+    {
+      "paragraph": "5.11.1.1",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "5.11.1.1. If each DRL whose maximum luminous intensity exceeds 700 cd as identified in Annex 1 of UN\r\nRegulation No. [148] is fitted on vehicle, the passing beam shall be switched ON and OFF automatically relative\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nto the ambient light conditions (e.g. switch ON during night-time driving conditions, tunnels, etc.) according to\r\nthe requirements of Annex 8."
+    },
+    {
+      "paragraph": "5.11.1.2",
+      "pages": [
+        8
+      ],
+      "text": "5.11.1.2. If each DRL whose maximum luminous intensity does not exceed 700 cd as identified in Annex 1 of UN\r\nRegulation No. [148] is fitted on vehicle, the switching ON or OFF of the passing beam may be either manual or\r\nautomatic. If automatic, conditions of paragraph 5.11.1.1. must be complied with."
+    },
+    {
+      "paragraph": "5.11.2",
+      "pages": [
+        8
+      ],
+      "text": "5.11.2. If no daytime running lamp is installed, the headlamp shall automatically be ON when the engine is\r\nrunning."
+    },
+    {
+      "paragraph": "5.12",
+      "pages": [
+        8
+      ],
+      "text": "5.12. Tell-tale lamps"
+    },
+    {
+      "paragraph": "5.12.1",
+      "pages": [
+        8
+      ],
+      "text": "5.12.1. Every tell-tale lamp shall be readily visible to a driver in the normal driving position."
+    },
+    {
+      "paragraph": "5.12.2",
+      "pages": [
+        8
+      ],
+      "text": "5.12.2. Where a \"circuit-closed\" tell-tale is prescribed by this Regulation, it may be replaced by an \"operating\"\r\ntell-tale."
+    },
+    {
+      "paragraph": "5.13",
+      "pages": [
+        8
+      ],
+      "text": "5.13. Colours of the lights\r\nThe colours of the lights referred to in this Regulation shall be as follow:\r\n\r\n Driving-beam headlamp:                     white\r\n Passing-beam headlamp:                     white\r\n Direction-indicator lamp:                  amber\r\n Stop lamp:                                 red\r\n Rear-registration plate lamp:              white\r\n Front position lamp:                       white or amber\r\n Rear position lamp:                        red\r\n Rear retro-reflector, non-triangular:      red\r\n Side retro-reflector, non-triangular:      amber at the front\r\n                                            amber or red at the rear\r\n\r\n Vehicle-hazard warning signal:             amber\r\n Front fog lamp:                            white or selective yellow\r\n Rear fog lamp:                             red\r\n Daytime running lamp                       white\r\n Emergency stop signal:                     amber or red\r\n Exterior courtesy lamp:                    white\r\n Adaptive Driving-Beam (ADB):               white\r\n Rear-end collision alert signal:           amber"
+    },
+    {
+      "paragraph": "5.14",
+      "pages": [
+        8
+      ],
+      "text": "5.14. Every vehicle submitted for approval pursuant to this Regulation shall be equipped with the following\r\nlighting and light-signalling devices:"
+    },
+    {
+      "paragraph": "5.14.1",
+      "pages": [
+        8
+      ],
+      "text": "5.14.1. Driving-beam headlamp (paragraph 6.1.);"
+    },
+    {
+      "paragraph": "5.14.2",
+      "pages": [
+        8
+      ],
+      "text": "5.14.2. Passing-beam headlamp (paragraph 6.2.);"
+    },
+    {
+      "paragraph": "5.14.3",
+      "pages": [
+        8
+      ],
+      "text": "5.14.3. Direction indicator lamps (paragraph 6.3.);"
+    },
+    {
+      "paragraph": "5.14.4",
+      "pages": [
+        8
+      ],
+      "text": "5.14.4. Stop lamp, S1 category device specified in UN Regulation No. 7 or [LSD] or stop lamp specified in UN\r\nRegulation No. 50 (paragraph 6.4.) or stop lamp for category L vehicles in UN Regulation No [LSD];"
+    },
+    {
+      "paragraph": "5.14.5",
+      "pages": [
+        8
+      ],
+      "text": "5.14.5. Rear-registration-plate illuminating device (paragraph 6.5.);"
+    },
+    {
+      "paragraph": "5.14.6",
+      "pages": [
+        9
+      ],
+      "text": "5.14.6. Front position lamp (paragraph 6.6.);"
+    },
+    {
+      "paragraph": "5.14.7",
+      "pages": [
+        9
+      ],
+      "text": "5.14.7. Rear position lamp (paragraph 6.7.);"
+    },
+    {
+      "paragraph": "5.14.8",
+      "pages": [
+        9
+      ],
+      "text": "5.14.8. Rear retro reflector, non-triangular (paragraph 6.8.);"
+    },
+    {
+      "paragraph": "5.14.9",
+      "pages": [
+        9
+      ],
+      "text": "5.14.9. Side retro reflector, non-triangular (paragraph 6.12.);"
+    },
+    {
+      "paragraph": "5.15",
+      "pages": [
+        9
+      ],
+      "text": "5.15. It may, in addition, be equipped with the following lighting and light-signalling devices;"
+    },
+    {
+      "paragraph": "5.15.1",
+      "pages": [
+        9
+      ],
+      "text": "5.15.1. Vehicle-hazard warning signal (paragraph 6.9.);"
+    },
+    {
+      "paragraph": "5.15.2",
+      "pages": [
+        9
+      ],
+      "text": "5.15.2. Fog lamps;"
+    },
+    {
+      "paragraph": "5.15.2.1",
+      "pages": [
+        9
+      ],
+      "text": "5.15.2.1. Front fog lamp (paragraph 6.10.);"
+    },
+    {
+      "paragraph": "5.15.2.2",
+      "pages": [
+        9
+      ],
+      "text": "5.15.2.2. Rear fog lamp (paragraph 6.11.);"
+    },
+    {
+      "paragraph": "5.15.3",
+      "pages": [
+        9
+      ],
+      "text": "5.15.3. Daytime running lamp (paragraph 6.13.);"
+    },
+    {
+      "paragraph": "5.15.4",
+      "pages": [
+        9
+      ],
+      "text": "5.15.4. Stop lamp, S3 category device specified in UN Regulation No. 7 (paragraph 6.4.) or [LSD];"
+    },
+    {
+      "paragraph": "5.15.5",
+      "pages": [
+        9
+      ],
+      "text": "5.15.5. Emergency stop signal (paragraph 6.14.)."
+    },
+    {
+      "paragraph": "5.15.6",
+      "pages": [
+        9
+      ],
+      "text": "5.15.6. Exterior courtesy lamp (paragraph 6.15.)."
+    },
+    {
+      "paragraph": "5.15.7",
+      "pages": [
+        9
+      ],
+      "text": "5.15.7. Adaptive Driving-Beam (ADB) (paragraph 6.16.)."
+    },
+    {
+      "paragraph": "5.15.8",
+      "pages": [
+        9
+      ],
+      "text": "5.15.8. Rear-end collision alert signal (paragraph 6.17.)."
+    },
+    {
+      "paragraph": "5.16",
+      "pages": [
+        9
+      ],
+      "text": "5.16. The fitting of each of the lighting and light-signalling devices mentioned in paragraphs 5.14. and 5.15. above\r\nshall be effected in conformity with the relevant requirements in paragraph 6. of this Regulation."
+    },
+    {
+      "paragraph": "5.17",
+      "pages": [
+        9
+      ],
+      "text": "5.17. The fitting of any lighting and light-signalling devices other than those mentioned in paragraphs 5.14. and\r\n5.15. above is prohibited for the purposes of type approval.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.18",
+      "pages": [
+        9
+      ],
+      "text": "5.18. Lighting and light-signalling devices type-approved for four-wheeled vehicles of categories M1 and N1 and\r\nreferred to in paragraphs 5.14. and 5.15. above may also be fitted to motorcycles."
+    },
+    {
+      "paragraph": "5.19",
+      "pages": [
+        9
+      ],
+      "text": "5.19. Rear position lamps, rear direction-indicators and rear retro-reflectors, may be installed on movable\r\ncomponents only:"
+    },
+    {
+      "paragraph": "5.19.1",
+      "pages": [
+        9
+      ],
+      "text": "5.19.1. If at all fixed positions of the movable components the lamps on the movable components meet all the\r\nposition, geometric visibility, colorimetric and photometric requirements for those lamps."
+    },
+    {
+      "paragraph": "5.19.2",
+      "pages": [
+        9
+      ],
+      "text": "5.19.2. In the case where the functions referred to in paragraph 5.19. are obtained by an assembly of two lamps\r\nmarked \"D\" (see paragraph 2.16.1. of UN Regulation No. 48), only one of the lamps needs to meet the position,\r\ngeometric visibility and photometric requirements for those lamps at all fixed positions of the movable\r\ncomponents."
+    },
+    {
+      "paragraph": "5.19.3",
+      "pages": [
+        9
+      ],
+      "text": "5.19.3. Where additional lamps for the above functions are fitted and are activated, when the movable component\r\nis in any fixed open position, provided that these additional lamps satisfy all the position, geometric visibility and\r\nphotometric requirements applicable to the lamps installed on the movable component."
+    },
+    {
+      "paragraph": "5.19.4",
+      "pages": [
+        9,
+        10
+      ],
+      "text": "5.19.4. In the case where the functions referred to in paragraph 5.19. are obtained by an interdependent lamp\r\nsystem either of the following conditions shall apply:\r\n(a) Should the complete interdependent lamp system be mounted on the moving component(s), the requirements\r\nof paragraph 5.19.1. shall be satisfied. However, additional lamps for the above functions may be activated, when\r\nthe movable component is in any fixed open position, provided that these additional lamps satisfy all the position,\r\ngeometric visibility, colorimetric and photometric requirements applicable to the lamps installed on the movable\r\ncomponent.\r\nor\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Should the interdependent lamp system be partly mounted on the fixed component and partly mounted on a\r\nmovable component, the interdependent lamp(s) specified by the Applicant during the device approval procedure\r\nshall meet all the position, outwards geometric visibility, colorimetric and photometric requirements for those\r\nlamps, at all fixed positions of the movable component(s). The inwards geometric visibility requirement(s) is(are)\r\ndeemed to be satisfied if this(these) interdependent lamp(s) still conform(s) to the photometric values prescribed\r\nin the field of light distribution for the approval of the device, at all fixed positions of the movable component(s)."
+    },
+    {
+      "paragraph": "5.20",
+      "pages": [
+        10
+      ],
+      "text": "5.20. General provisions relating to geometric visibility"
+    },
+    {
+      "paragraph": "5.20.1",
+      "pages": [
+        10
+      ],
+      "text": "5.20.1. There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light\r\nfrom any part of the apparent surface of the lamp observed from infinity. However, no account is taken of\r\nobstacles, if they were already presented when the lamp was type-approved."
+    },
+    {
+      "paragraph": "5.20.2",
+      "pages": [
+        10
+      ],
+      "text": "5.20.2. If measurements are taken closer to the lamp, the direction of observation shall be shifted parallel to\r\nachieve the same accuracy."
+    },
+    {
+      "paragraph": "5.20.3",
+      "pages": [
+        10
+      ],
+      "text": "5.20.3. If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of\r\nthe vehicle, proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the\r\nphotometric values prescribed for the approval of the device."
+    },
+    {
+      "paragraph": "5.20.4",
+      "pages": [
+        10
+      ],
+      "text": "5.20.4. When the vertical angle of geometric visibility below the horizontal may be reduced to 5 degrees (lamp at\r\nless than 750 mm above the ground, measured according to the provisions of paragraph 5.7.) the photometric field\r\nof measurements of the installed optical unit may be reduced to 5 degrees below the horizontal."
+    },
+    {
+      "paragraph": "5.20.5",
+      "pages": [
+        10
+      ],
+      "text": "5.20.5. In the case of an interdependent lamp system the geometric visibility requirements shall be fulfilled when\r\nall its interdependent lamps are operated together."
+    },
+    {
+      "paragraph": "5.21",
+      "pages": [
+        10
+      ],
+      "text": "5.21. A device type approved according to any preceding series of amendments to UN Regulations Nos. [LSD]\r\nand/or [RID] and/or [RRD] is deemed equivalent to one approved according to the latest series of amendments to\r\nthe pertinent UN Regulations Nos. [LSD] and/or [RID] and/or [RRD], when the change indexes (defined in UN\r\nRegulation No. 48) related to each individual lamp (function) do not differ. In this case such a device may be\r\nfitted on the vehicle to be type approved without any update of the device type approval documents and device\r\nmarkings."
+    },
+    {
+      "paragraph": "5.22",
+      "pages": [
+        10
+      ],
+      "text": "5.22. The use of lamps approved for and equipped with LED substitute light source(s), is allowed exclusively in\r\nthe case where the statement indicated in paragraph 3.2.6. is present and positive.\r\nTo verify that this statement is respected, both at the type approval and in the conformity of production\r\nverification, the presence of the marking on the lamps related to the use of LED substitute light source(s) shall be\r\nchecked."
+    },
+    {
+      "paragraph": "5.23",
+      "pages": [
+        10
+      ],
+      "text": "5.23. Where an ADB is fitted, it shall be considered equivalent to the driving-beam headlamp(s)."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        10
+      ],
+      "text": "6. Individual speciﬁcations"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        10
+      ],
+      "text": "6.1. Driving-beam headlamp"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        10
+      ],
+      "text": "6.1.1. Number:"
+    },
+    {
+      "paragraph": "6.1.1.1",
+      "pages": [
+        10
+      ],
+      "text": "6.1.1.1. For motorcycles having a cylinder capacity ≤ 125 cm3 and a maximum power ≤ 11 kW (*)\r\n\r\nOne or two, type-approved according to Class A, B, CS or DS of the 01 or subsequent series of amendments to\r\nUN Regulation No. 149.\r\n\r\n* The power limits are based on maximum continuous rated power for electric propelled vehicles and maximum net power for vehicles\r\npropelled with a combustion engine."
+    },
+    {
+      "paragraph": "6.1.1.2",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "6.1.1.2. For motorcycles having a cylinder capacity > 125 cm3 or a maximum power > 11 kW (*)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nOne or two, type-approved according to Class A, B, or DS of the 01 or subsequent series of amendments to UN\r\nRegulation No. 149.\r\nTwo, type-approved according to Class CS of the 01 or subsequent series of amendments to UN Regulation No.\r\n149.\r\n\r\n* The power limits are based on maximum continuous rated power for electric propelled vehicles and maximum net power for vehicles\r\npropelled with a combustion engine."
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        11
+      ],
+      "text": "6.1.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.1.3",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3. Position"
+    },
+    {
+      "paragraph": "6.1.3.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.1. Width"
+    },
+    {
+      "paragraph": "6.1.3.1.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.1.1. An independent driving lamp may be fitted above or below or to one side of another front lamp: if these\r\nlamps are on top of the other the reference centre of the driving lamp must be located within the median\r\nlongitudinal plane of the vehicle; if these lamps are side by side their reference centre must be symmetrical in\r\nrelation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.1.3.1.2",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.1.2. A driving-beam headlamp, that is reciprocally incorporated with another front lamp, shall be fitted in\r\nsuch a way that its reference centre lies within the median longitudinal plane of the vehicle. However, when the\r\nvehicle is also fitted with an independent principal passing-beam headlamp, or a principal passing-beam headlamp\r\nthat is reciprocally incorporated with a front position lamp alongside the driving-beam headlamp, their reference\r\ncentres shall be symmetrical in relation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.1.3.1.3",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.1.3. Two driving lamps of which either one or both are reciprocally incorporated with another front lamp\r\nshall be fitted in such a way that their reference centres are symmetrical in relation to the median longitudinal\r\nplane of the vehicle."
+    },
+    {
+      "paragraph": "6.1.3.2",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.2. The length: at the front of the vehicle. This requirement is regarded as satisfied if the light emitted does\r\nnot cause discomfort to the driver either directly or indirectly by means of the rear-view mirrors and/or reflective\r\nsurfaces on the vehicle."
+    },
+    {
+      "paragraph": "6.1.3.3",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.3. In any case, the distance between the edge of the illuminating surface of any independent driving lamp\r\nand the edge of that of the lamp producing the principal passing-beam shall not exceed 200 mm. The distance\r\nbetween the edge of the illuminating surface of any independent driving lamp and the ground shall be from 500\r\nmm to 1,300 mm."
+    },
+    {
+      "paragraph": "6.1.3.4",
+      "pages": [
+        11
+      ],
+      "text": "6.1.3.4. In the case of two driving lamps: the distance separating the illuminating surfaces of two driving lamps\r\nshall not exceed 200 mm."
+    },
+    {
+      "paragraph": "6.1.4",
+      "pages": [
+        11
+      ],
+      "text": "6.1.4. Geometric visibility\r\nThe visibility of the illuminating surface, including its visibility in areas which do not appear to be illuminated in\r\nthe direction of observation considered, shall be ensured within a divergent space defined by generating lines\r\nbased on the perimeter of the illuminating surface and forming an angle of not less than 5° with the axis of\r\nreference of the headlamp."
+    },
+    {
+      "paragraph": "6.1.5",
+      "pages": [
+        11
+      ],
+      "text": "6.1.5. Orientation"
+    },
+    {
+      "paragraph": "6.1.5.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1.5.1. Forwards. The lamp(s) may move with the steering angle."
+    },
+    {
+      "paragraph": "6.1.5.2",
+      "pages": [
+        11
+      ],
+      "text": "6.1.5.2. An HIAS may be installed for the driving-beam."
+    },
+    {
+      "paragraph": "6.1.6",
+      "pages": [
+        11
+      ],
+      "text": "6.1.6. Electrical connections"
+    },
+    {
+      "paragraph": "6.1.6.1",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "6.1.6.1. The passing-beam(s) may remain switched ON with the driving-beam(s).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHowever, when the vehicle is fitted with secondary driving-beam(s) approved in accordance with UN Regulation\r\nNo. 149, at least one of the following lamps shall remain switched ON with the secondary driving- beam(s):\r\n(a) Passing-beam(s);\r\n(b) Driving-beam of Class A or B approved according to the 01 or subsequent series of amendments to UN\r\nRegulation No. 149."
+    },
+    {
+      "paragraph": "6.1.6.2",
+      "pages": [
+        12
+      ],
+      "text": "6.1.6.2. The control of the driving-beam headlamp(s) may be automatic regarding their switching ON and OFF,\r\nthe control signals being produced by a sensor system which is capable of detecting and reacting to each of the\r\nfollowing inputs:\r\n(a) Ambient lighting conditions;\r\n(b) The light emitted by the front lighting devices and front light-signalling devices of oncoming vehicles;\r\n(c) The light emitted by the rear light-signalling devices of preceding vehicles.\r\nAdditional sensor functions to improve performance are allowed.\r\nFor the purpose of this paragraph, \"vehicles\" means vehicles of categories L, M, N, O, T, as well as bicycles, such\r\nvehicles being equipped with retro-reflectors, with lighting and light-signalling devices, which are switched ON."
+    },
+    {
+      "paragraph": "6.1.6.3",
+      "pages": [
+        12
+      ],
+      "text": "6.1.6.3. It shall always be possible to switch the driving-beam headlamp(s) ON and OFF manually and to\r\nmanually deactivate the automatic control of the driving-beam headlamp(s). Moreover, the switching OFF, of the\r\ndriving-beam headlamp(s) and the deactivation of their automatic control, shall be by means of a simple and\r\nimmediate manual operation; the use of submenus is not allowed."
+    },
+    {
+      "paragraph": "6.1.7",
+      "pages": [
+        12
+      ],
+      "text": "6.1.7. Tell-tales"
+    },
+    {
+      "paragraph": "6.1.7.1",
+      "pages": [
+        12
+      ],
+      "text": "6.1.7.1. \"Circuit-closed\" tell-tale.\r\nMandatory, non-flashing blue signal lamp."
+    },
+    {
+      "paragraph": "6.1.7.2",
+      "pages": [
+        12
+      ],
+      "text": "6.1.7.2. \"HIAS failure\" tell-tale\r\nMandatory, flashing amber signal lamp, which may be combined with the telltale referred to in paragraph 6.2.8.2.\r\nbelow. It shall be activated whenever a failure is detected with respect to the HIAS signals. It shall remain\r\nactivated while the failure is present."
+    },
+    {
+      "paragraph": "6.1.7.3",
+      "pages": [
+        12
+      ],
+      "text": "6.1.7.3. If the control of the driving-beam headlamp(s) is automatic, an indication shall be provided to the driver\r\nthat the automatic control of the driving-beam function is activated. This information shall remain displayed as\r\nlong as the automatic operation is activated."
+    },
+    {
+      "paragraph": "6.1.8",
+      "pages": [
+        12
+      ],
+      "text": "6.1.8. Other requirements"
+    },
+    {
+      "paragraph": "6.1.8.1",
+      "pages": [
+        12
+      ],
+      "text": "6.1.8.1. The aggregate maximum intensity of the driving-beam headlamps which can be switched on\r\nsimultaneously shall not exceed 430,000 cd which corresponds to a reference number of 100. (The approval\r\nvalue)."
+    },
+    {
+      "paragraph": "6.1.8.2",
+      "pages": [
+        12
+      ],
+      "text": "6.1.8.2. In the event of a driving-beam HIAS failure, without the use of any special tools, it shall be possible to:\r\n(a) Deactivate the HIAS until it is reset according to the manufacturer’s instructions; and\r\n(b) Re-position the driving-beam so that its horizontal and vertical alignments are the same as a headlamp not\r\nequipped with HIAS.\r\nThe manufacturer shall provide a detailed description of the procedure for resetting the HIAS.\r\nAlternatively, the manufacturer may choose to install an automatic system that either achieves both the tasks\r\nspecified above or resets the HIAS. In this case, the manufacturer shall provide the test house with a description of\r\nthe automatic system and, until such time as harmonized requirements have been developed, demonstrate the\r\nmeans of verifying that the automatic system works as described."
+    },
+    {
+      "paragraph": "6.1.8.3",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3. Automatic switching ON and OFF of the driving-beam headlamp(s):"
+    },
+    {
+      "paragraph": "6.1.8.3.1",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.1. The sensor system used to control the automatic switching ON and OFF of the driving-beam\r\nheadlamp(s) shall comply with the following requirements:"
+    },
+    {
+      "paragraph": "6.1.8.3.1.1",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.1.1. The boundaries of the minimum fields in which the sensor is able to detect light emitted from other\r\nvehicles defined in paragraph 6.1.6.2. above are defined by the angles indicated below."
+    },
+    {
+      "paragraph": "6.1.8.3.1.1.1",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.1.1.1. Horizontal angles: 15 degrees to the left and 15 degrees to the right.\r\nVertical angles: 5 degrees upwards and 2 degrees downwards.\r\nThese angles are measured from the centre of the sensor aperture relative to a horizontal straight line through its\r\ncentre and parallel to the longitudinal median plane of the vehicle."
+    },
+    {
+      "paragraph": "6.1.8.3.1.2",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.1.2. The sensor system shall be able to detect on a straight level road:\r\n(a) An oncoming power driven vehicle at a distance extending to at least 400 m;\r\n(b) A preceding power driven vehicle or a vehicle-trailers combination at a distance extending to at least 100 m;\r\n(c) An oncoming bicycle at a distance extending to at least 75 m, its illumination represented by a white lamp with\r\na luminous intensity of 150 cd with a light emitting area of 10± 3cm2 and a height above a ground of 0.8 m.\r\n\r\nTo verify compliance with (a) and (b) above, the oncoming and preceding power driven vehicle (or vehicle-trailer\r\ncombination) shall have position lamps (if applicable) and passing-beam headlamp(s) switched ON."
+    },
+    {
+      "paragraph": "6.1.8.3.2",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.2. The transition from driving-beam to passing-beam and vice versa may be performed automatically and\r\nshall not cause discomfort, distraction or glare."
+    },
+    {
+      "paragraph": "6.1.8.3.3",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.3. The overall performance of the automatic control shall be verified by:"
+    },
+    {
+      "paragraph": "6.1.8.3.3.1",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.3.1. Means of simulation or other means of verification accepted by the Type Approval Authority, as\r\nprovided by the applicant."
+    },
+    {
+      "paragraph": "6.1.8.3.3.2",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.3.2. A test drive according to paragraph 1 in Annex 9. The performance of the automatic control shall be\r\ndocumented and checked against the applicant's description. Any obvious malfunctioning shall be contested (e. g.\r\nexcessive angular movement or flicker)."
+    },
+    {
+      "paragraph": "6.1.8.3.4",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.4. The control of the driving-beam headlamp(s) may be such that the driving-beam headlamp(s) are\r\nswitched ON automatically only when:\r\n(a) No vehicles, as mentioned in paragraph 6.1.6.2. above, are detected within the fields and distances according\r\nto paragraphs 6.1.8.3.1.1. and 6.1.8.3.1.2.; and\r\n(b) The detected ambient lighting levels are as prescribed in paragraph 6.1.8.3.5. below."
+    },
+    {
+      "paragraph": "6.1.8.3.5",
+      "pages": [
+        13
+      ],
+      "text": "6.1.8.3.5. In the case where driving-beam headlamp(s) are switched ON automatically, they shall be switched OFF\r\nautomatically when oncoming or preceding vehicles, as mentioned in paragraph 6.1.6.2. above, are detected\r\nwithin the fields and distances according to paragraphs 6.1.8.3.1.1. and 6.1.8.3.1.2.\r\nMoreover, they shall be switched OFF automatically when the illuminance produced by ambient lighting\r\nconditions exceeds 7000 lx.\r\nCompliance with this requirement shall be demonstrated by the applicant, using simulation or other means of\r\nverification accepted by the Type Approval Authority. If necessary the illuminance shall be measured on a\r\nhorizontal surface, with a cosine corrected sensor on the same height as the mounting position of the sensor on the\r\nvehicle. This may be demonstrated by the manufacturer by sufficient documentation or by other means accepted\r\nby the Type Approval Authority."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        13
+      ],
+      "text": "6.2. Passing-beam headlamp"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        13
+      ],
+      "text": "6.2.1. Number:"
+    },
+    {
+      "paragraph": "6.2.1.1",
+      "pages": [
+        14
+      ],
+      "text": "6.2.1.1. For motorcycles having a cylinder capacity ≤ 125 cm3 and a maximum power ≤ 11 kW (*)\r\n\r\nOne or two, type-approved according to Class C, CS or DS of the 01 or subsequent series of amendments to UN\r\nRegulation No. 149.\r\n\r\n* The power limits are based on maximum continuous rated power for electric propelled vehicles and maximum net power for vehicles\r\npropelled with a combustion engine."
+    },
+    {
+      "paragraph": "6.2.1.2",
+      "pages": [
+        14
+      ],
+      "text": "6.2.1.2. For motorcycles having a cylinder capacity > 125 cm3 or a maximum power > 11 kW (*)\r\n\r\nOne or two, type-approved according to Class C or DS of the 01 or subsequent series of amendments to UN\r\nRegulation No. 149.\r\nTwo, type-approved according to Class CS of the 01 or subsequent series of amendments to UN Regulation No.\r\n149.\r\n\r\n* The power limits are based on maximum continuous rated power for electric propelled vehicles and maximum net power for vehicles\r\npropelled with a combustion engine."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        14
+      ],
+      "text": "6.2.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.2.3",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3. Position"
+    },
+    {
+      "paragraph": "6.2.3.1",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.1. Width"
+    },
+    {
+      "paragraph": "6.2.3.1.1",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.1.1. An independent passing lamp may be installed above, below or to one side of another front lamp: if\r\nthese lamps are one above the other the reference centre of the lamp producing the principal passing-beam shall\r\nbe located within the median longitudinal plane of the vehicle; if these lamps are side by side their reference\r\ncentre shall be symmetrical in relation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.2.3.1.2",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.1.2. A headlamp producing the principal passing-beam, that is reciprocally incorporated with another front\r\nlamp, shall be fitted in such a way that its reference centre lies within the median longitudinal plane of the vehicle.\r\nHowever, when the vehicle is also fitted with an independent driving-beam headlamp, or a driving-beam\r\nheadlamp that is reciprocally incorporated with a front position lamp alongside the headlamp producing the\r\nprincipal passing-beam, their reference centres shall be symmetrical in relation to the median longitudinal plane of\r\nthe vehicle."
+    },
+    {
+      "paragraph": "6.2.3.1.3",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.1.3. Two headlamps producing the principal passing-beam, of which either one or both are reciprocally\r\nincorporated with another front lamp shall be installed in such a way that their reference centres are symmetrical\r\nin relation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.2.3.1.4",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.1.4. If installed, additional lighting unit(s) which provide bend lighting, type approved as part of the passing-\r\nbeam according to UN Regulation No. 149, shall be installed under the following conditions:\r\nIn the case of (a) pair(s) of additional lighting units, they shall be installed so that their reference centre(s) are\r\nsymmetrical in relation to the median longitudinal plane of the vehicle.\r\nIn the case of a single additional lighting unit, its reference centre shall be coincident with the median longitudinal\r\nplane of the vehicle."
+    },
+    {
+      "paragraph": "6.2.3.2",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.2. Height: a minimum of 500 mm and a maximum of 1,200 mm above the ground."
+    },
+    {
+      "paragraph": "6.2.3.3",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.3. Length: at the front of the vehicle. This requirement is regarded as satisfied if the light emitted does not\r\ncause discomfort to the driver either directly or indirectly by means of the rear-view mirrors and/or reflective\r\nsurfaces of the vehicle."
+    },
+    {
+      "paragraph": "6.2.3.4",
+      "pages": [
+        14
+      ],
+      "text": "6.2.3.4. In the case of two headlamps producing the principal passing-beam the distance separating the\r\nilluminating surfaces shall not exceed 200 mm."
+    },
+    {
+      "paragraph": "6.2.4",
+      "pages": [
+        14,
+        15
+      ],
+      "text": "6.2.4. Geometric visibility\r\n\r\n\r\n\r\n\r\n\r\n\r\nDefined by angles α and β as specified in paragraph 2.13. of UN Regulation No. 48:\r\nα = 15° upwards and 10° downwards;\r\nβ = 45° to the left and to the right for a single lamp;\r\nβ = 45° outwards and 10° inwards for each pair of lamps.\r\nThe presence of partitions or other items of equipment near the headlamp shall not give rise to secondary effects\r\ncausing discomfort to other road users."
+    },
+    {
+      "paragraph": "6.2.5",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5. Orientation"
+    },
+    {
+      "paragraph": "6.2.5.1",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5.1. Forwards. The lamp(s) may move in line with the steering angle."
+    },
+    {
+      "paragraph": "6.2.5.2",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5.2. The vertical inclination of the headlamp producing the principal passing-beam shall remain between -0.5\r\nand -2.5 per cent, except in the case where an external adjusting device is present."
+    },
+    {
+      "paragraph": "6.2.5.3",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5.3. For headlamp producing the principal passing-beam with a light source having an objective luminous flux\r\nwhich exceeds 2,000 lumens, the vertical inclination of the headlamp shall remain between -0.5 and -2.5 per cent.\r\nA headlamp levelling device may be used to satisfy the requirements of this paragraph but its operation shall be\r\nautomatic.3\r\n\r\n\r\n3 However, until 60 months after the date of entry into force of Supplement 10 to the 01 series of amendments this operation may be manual\r\nwithout the use of tools. In such case the manufacturer shall provide in the vehicle owners' manual instruction regarding such manual\r\nheadlamp levelling.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.2.5.4",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5.4. The requirement in paragraph 6.2.5.3. above shall be tested on the vehicle in the following conditions:\r\nCondition A (rider alone):\r\nA mass of 75 kg ± 1 kg, simulating the rider, shall be placed on the vehicle in such a way as to reproduce the axle\r\nloads declared by the manufacturer for this loading condition.\r\nThe vertical inclination (initial aiming) of the headlamp producing the principal passing-beam shall be set,\r\nfollowing the manufacturer’s instructions, between -1.0 and -1.5 per cent.\r\nCondition B (fully laden motorcycle):\r\nMasses, simulating the manufacturer's maximum total mass, shall be placed on the vehicle in such a way as to\r\nreproduce the axle loads declared by the manufacturer for this loading condition.\r\nBefore making the measurements, the vehicle shall be rocked three times up and down and then moved backwards\r\nand forwards for at least a complete wheel revolution."
+    },
+    {
+      "paragraph": "6.2.5.5",
+      "pages": [
+        15
+      ],
+      "text": "6.2.5.5. An HIAS may be installed for the passing-beam. The HIAS shall not adjust the horizontal inclination by\r\nmore than the vehicle’s bank angle."
+    },
+    {
+      "paragraph": "6.2.5.6",
+      "pages": [
+        15,
+        16
+      ],
+      "text": "6.2.5.6. The requirement in paragraph 6.2.5.5. above shall be tested under the following conditions:\r\nThe test vehicle shall be set as specified in paragraph 5.4. of this Regulation. Incline the vehicle and measure the\r\nHIAS test angle.\r\nThe vehicle shall be tested in the following two conditions:\r\n(a) The maximum horizontal inclination adjustment angle specified by the manufacturer (to left and to right);\r\n(b) Half of the maximum horizontal inclination adjustment angle specified by the manufacturer (to left and to\r\nright).\r\nAnd when the test vehicle is returned to the position as specified in paragraph 5.4. of this Regulation, the HIAS\r\ntest angle shall return to zero quickly.\r\nThe handlebar may be fixed in the straight ahead position so as not to move during the vehicle inclination.\r\nFor the test the HIAS shall be activated by means of an HIAS signal generator.\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe system shall be considered to satisfy the requirements of paragraph 6.2.5.5. above, if all measured HIAS test\r\nangles are not less than zero. This may be demonstrated by the manufacturer using other means accepted by the\r\nType Approval Authority."
+    },
+    {
+      "paragraph": "6.2.5.7",
+      "pages": [
+        16
+      ],
+      "text": "6.2.5.7. Additional light source(s) or additional lighting unit(s) may be activated only in conjunction with the\r\nprincipal passing-beam or the driving-beam to produce bend lighting. The illumination provided by the bend\r\nlighting shall not extend above the horizontal plane that is parallel with the ground and containing the reference\r\naxis of the headlamp producing the principal passing-beam for all bank angles as specified by the manufacturer\r\nduring type approval of the device according to UN Regulation No. 149."
+    },
+    {
+      "paragraph": "6.2.5.8",
+      "pages": [
+        16
+      ],
+      "text": "6.2.5.8. The requirement in paragraph 6.2.5.7. above shall be tested as follows:\r\nThe test vehicle shall be set as specified in paragraph 5.4. of this Regulation. Measure the bank angles on both\r\nsides of the vehicle under every condition where the bend lighting is activated. The bank angles to measure are the\r\nbank angles specified by the manufacturer during type approval of the device according to UN Regulation No.\r\n149.\r\nThe handlebar may be fixed in the straight ahead position so as not to move during the vehicle inclination.\r\nFor the test, the bend lighting may be activated by means of a signal generator provided by the manufacturer.\r\nThe system is considered to satisfy the requirements of paragraph 6.2.5.7. above, if all measured bank angles on\r\nboth sides of the vehicle are greater than or equal to the minimum bank angles given in the communication form\r\nfor the type approval of the device according to UN Regulation No. 149.\r\nConformity to paragraph 6.2.5.7. above may be demonstrated by the manufacturer using other means accepted by\r\nthe Type Approval Authority responsible for type approval."
+    },
+    {
+      "paragraph": "6.2.6",
+      "pages": [
+        16
+      ],
+      "text": "6.2.6. Electrical connections\r\nThe control for changing over to the passing-beam(s) shall switch off the driving-beam(s) simultaneously.\r\nPassing-beam headlamps with a light source approved in accordance with UN Regulation No. 99 shall remain\r\nswitched on when the driving-beam is illuminated."
+    },
+    {
+      "paragraph": "6.2.6.1",
+      "pages": [
+        16
+      ],
+      "text": "6.2.6.1. The additional light source(s) or additional lighting unit(s) used to produce bend lighting shall be so\r\nconnected that it (they) cannot be activated unless the headlamp(s) producing the principal passing-beam or the\r\ndriving-beam is (are) also activated.\r\nThe additional light source(s) or additional lighting unit(s) used to produce bend lighting on each side of the\r\nvehicle may only be automatically activated when the bank angle(s) is(are) greater or equal to the minimum bank\r\nangle(s) given in the communication form for the type approval of the device according to UN Regulation No. 49.\r\nHowever, the additional light source(s) or additional lighting unit(s) shall not be activated when the bank angle is\r\nless than three degrees.\r\nThe additional light source(s) or additional lighting unit(s) shall be deactivated when the bank angle(s) is (are) less\r\nthan the minimum bank angle(s) given in the communication form for the type approval of the device according\r\nto UN Regulation No. 149."
+    },
+    {
+      "paragraph": "6.2.7",
+      "pages": [
+        16
+      ],
+      "text": "6.2.7. Telltales"
+    },
+    {
+      "paragraph": "6.2.7.1",
+      "pages": [
+        16
+      ],
+      "text": "6.2.7.1. \"Circuit-closed\" tell-tale.\r\nOptional; non-flashing green signal lamp."
+    },
+    {
+      "paragraph": "6.2.7.2",
+      "pages": [
+        16
+      ],
+      "text": "6.2.7.2. \"HIAS failure\" tell-tale.\r\nMandatory, flashing amber signal lamp, which may be combined with the telltale referred to in paragraph 6.1.7.2.\r\nIt shall be activated whenever a failure is detected with respect to the HIAS signals. It shall remain activated while\r\nthe failure is present."
+    },
+    {
+      "paragraph": "6.2.7.3",
+      "pages": [
+        17
+      ],
+      "text": "6.2.7.3. In the event of a control system failure, additional light source(s) or additional lighting unit(s) producing\r\nbend lighting shall be switched OFF automatically."
+    },
+    {
+      "paragraph": "6.2.8",
+      "pages": [
+        17
+      ],
+      "text": "6.2.8. Other requirements\r\nIn the event of a passing-beam HIAS failure, without the use of any special tools, it shall be possible to:\r\n(a) Deactivate the HIAS until it is reset according to the manufacturers instructions; and\r\n(b) Re-position the passing-beam so that its horizontal and vertical alignments are the same as a headlamp not\r\nequipped with HIAS.\r\nThe manufacturer shall provide a detailed description of the procedure for resetting the HIAS.\r\nAlternatively, the manufacturer may choose to install an automatic system that either achieves both tasks specified\r\nabove or resets the HIAS. In this case, the manufacturer shall provide the test house with a description of the\r\nautomatic system and, until such time as harmonized requirements have been developed, demonstrate the means\r\nof verifying that the automatic system works as described."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        17
+      ],
+      "text": "6.3. Direction indicator lamp"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        17
+      ],
+      "text": "6.3.1. Number\r\nTwo per side."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        17
+      ],
+      "text": "6.3.2. Arrangement\r\nTwo front indicators, type-approved as category 1, 1a or 1b according to the 01 or subsequent series of\r\namendments to UN Regulation No. 6, or to the 00 or subsequent series of amendments to UN Regulation 148; or\r\ncategory 11, 11a, 11b or 11c according to the 00 or subsequent series of amendments to UN Regulation Nos. 50 or\r\n148.\r\nTwo rear indicators, type-approved as category 2 according to the 01 or subsequent series of amendments to UN\r\nRegulation No. 6, or to the 00 or subsequent series of amendments to UN Regulation No. 148; or category 12\r\naccording to the 00 or subsequent series of amendments to UN Regulation Nos. 50 or 148."
+    },
+    {
+      "paragraph": "6.3.3",
+      "pages": [
+        17
+      ],
+      "text": "6.3.3. Position"
+    },
+    {
+      "paragraph": "6.3.3.1",
+      "pages": [
+        17
+      ],
+      "text": "6.3.3.1. In width: For front indicators, the following requirements shall all be met:\r\n(a) There shall be a minimum distance of 240 mm between illuminating surfaces;\r\n(b) The indicators shall be situated outside the longitudinal vertical plane tangential to the outer edges of the\r\nilluminating surface of the driving-beam(s) and/or principal passing-beam(s);\r\n(c) There shall be a minimum distance between the illuminating surface of the indicators and headlamp producing\r\nthe principal passing-beam closest to one another as follows:\r\n\r\n Minimum indicator intensity (cd)        Minimum separation (mm)\r\n\r\n 90                                      75\r\n\r\n 175                                     40\r\n\r\n 250                                     20\r\n\r\n 400                                     ≤ 20\r\n\r\nFor rear indicators, the clearance between the inner edges of the two illuminating surfaces shall be at least 180\r\nmm on the condition that the prescriptions of paragraph 2.13. of UN Regulation No. 48 are applied even when the\r\nregistration plate is mounted;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.3.3.2",
+      "pages": [
+        17
+      ],
+      "text": "6.3.3.2. In height: not less than 350 mm nor more than 1,200 mm above the ground;"
+    },
+    {
+      "paragraph": "6.3.3.3",
+      "pages": [
+        18
+      ],
+      "text": "6.3.3.3. In length: the forward distance between the centre reference of the rear indicators and the transverse plane\r\nwhich constitutes the rearmost limit of the vehicle's over-all length shall not exceed 300 mm."
+    },
+    {
+      "paragraph": "6.3.4",
+      "pages": [
+        18
+      ],
+      "text": "6.3.4. Geometric visibility\r\nHorizontal angles: 20° inwards, 80° outwards.\r\nVertical angles: 15° above and below the horizontal.\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°."
+    },
+    {
+      "paragraph": "6.3.5",
+      "pages": [
+        18
+      ],
+      "text": "6.3.5. Orientation\r\nThe front direction indicators may move in line with the steering angle."
+    },
+    {
+      "paragraph": "6.3.6",
+      "pages": [
+        18
+      ],
+      "text": "6.3.6. Electrical connections"
+    },
+    {
+      "paragraph": "6.3.6.1",
+      "pages": [
+        18
+      ],
+      "text": "6.3.6.1. The direction indicator lamps shall switch on independently of the other lamps. All direction indicator\r\nlamps on one side of a vehicle shall be switched on and off by means of one control."
+    },
+    {
+      "paragraph": "6.3.6.2",
+      "pages": [
+        18
+      ],
+      "text": "6.3.6.2. The direction indicator lamps may be switched ON to indicate the status of the device for protection of\r\nvehicles against unauthorized use."
+    },
+    {
+      "paragraph": "6.3.6.3",
+      "pages": [
+        18
+      ],
+      "text": "6.3.6.3. The indication described in paragraph 6.3.6.2. shall be produced by the simultaneous operation of the\r\ndirection indicator lamps and shall be in accordance to the following conditions.\r\n\r\n In case of single indication:           3 seconds maximum\r\n In case of continuous indication:\r\n Duration:                               5 minutes maximum\r\n Frequency:                              (2 ± 1) Hz\r\n On time:                                Off time ± 10 per cent\r\n\r\nThis indication shall be allowed only when the device which starts and/or stops the engine (propulsion system) is\r\nset in a position which makes it impossible for the engine (propulsion system) to operate."
+    },
+    {
+      "paragraph": "6.3.7",
+      "pages": [
+        18
+      ],
+      "text": "6.3.7. \"Operating\" tell-tale\r\nMandatory. This may be optical or auditory or both. If it is optical it shall be (a) flashing green lamp(s), which, in\r\nthe event of defective operation of any of the direction indicators, is extinguished, remains alight without flashing,\r\nor shows a marked change of frequency."
+    },
+    {
+      "paragraph": "6.3.8",
+      "pages": [
+        18
+      ],
+      "text": "6.3.8. Other requirements\r\nThe characteristics indicated below shall be measured with no other load on the electrical system than that\r\nrequired for the operation of the engine and the lighting devices. For all vehicles:"
+    },
+    {
+      "paragraph": "6.3.8.1",
+      "pages": [
+        18
+      ],
+      "text": "6.3.8.1. The light flashing frequency shall be 90 ± 30 times per minute;"
+    },
+    {
+      "paragraph": "6.3.8.2",
+      "pages": [
+        18
+      ],
+      "text": "6.3.8.2. The flashing of the direction indicators on the same side of the vehicle may occur synchronously or\r\nalternately;"
+    },
+    {
+      "paragraph": "6.3.8.3",
+      "pages": [
+        18
+      ],
+      "text": "6.3.8.3. Operation of the light-signal control shall be followed within not more than one second by the appearance\r\nof the light and within not more than one-and-one half seconds by the first extinction of the light."
+    },
+    {
+      "paragraph": "6.3.8.4",
+      "pages": [
+        18
+      ],
+      "text": "6.3.8.4. In the event of failure, other than a short circuit, of one direction indicator lamp, the other(s) direction\r\nindicator lamp(s) indicating the same direction shall continue to flash or remain alight, but the frequency in this\r\ncondition may be different from that prescribed."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        18
+      ],
+      "text": "6.4. Stop lamp"
+    },
+    {
+      "paragraph": "6.4.1",
+      "pages": [
+        18,
+        19
+      ],
+      "text": "6.4.1. Number\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nOne or two, type-approved as a category S1 device according to the 02 or subsequent series of amendments to UN\r\nRegulation No. 7, or to the 00 or subsequent series of amendments to UN Regulation No. 148; or as a stop lamp\r\nfor category L vehicles according to the 00 or subsequent series of amendments to UN Regulation Nos. 50 or 148.\r\nOptional one, type-approved as a category S3 device according to the 02 or subsequent series of amendments to\r\nUN Regulation No. 7, or to the 00 or subsequent series of amendments to UN Regulation No. 148."
+    },
+    {
+      "paragraph": "6.4.2",
+      "pages": [
+        19
+      ],
+      "text": "6.4.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.4.3",
+      "pages": [
+        19
+      ],
+      "text": "6.4.3. Position"
+    },
+    {
+      "paragraph": "6.4.3.1",
+      "pages": [
+        19
+      ],
+      "text": "6.4.3.1. For category S1 device specified in UN Regulation No. 7 or UN Regulation No. [LSD] or stop lamp\r\nspecified in UN Regulation No. 50 or [LSD]\r\nIn height: not less than 250 mm nor more than 1,500 mm above the ground;\r\nIn length: at the rear of the vehicle."
+    },
+    {
+      "paragraph": "6.4.3.2",
+      "pages": [
+        19
+      ],
+      "text": "6.4.3.2. For the category S3 device specified in UN Regulation No. 7 or [LSD]\r\nIn height: The horizontal plane tangential to the lower edge of the apparent surface shall not be less than 850 mm\r\nabove the ground.\r\nHowever, the horizontal plane tangential to the lower edge of the apparent surface shall be above the horizontal\r\nplane tangential to the upper edge of the apparent surface of the category S1 device specified in UN Regulation\r\nNo. 7 or [LSD] or stop lamp specified in UN Regulation No. 50 or stop lamp for category L vehicles of UN\r\nRegulation No. [LSD].\r\nIn length: at the rear of the vehicle."
+    },
+    {
+      "paragraph": "6.4.4",
+      "pages": [
+        19
+      ],
+      "text": "6.4.4. Geometric visibility\r\nFor category S1 device specified in UN Regulation No. 7 or [LSD] or stop lamp specified in UN Regulation No.\r\n50 or stop lamp for category L vehicles of UN Regulation No. [LSD]\r\n\r\n Horizontal angle:     45° to left and to right for a single lamp;\r\n                       45° outwards and 10° inwards for each pair of lamps;\r\n\r\n Vertical angle:       15° above and below the horizontal.\r\n\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°.\r\nFor category S3 device specified in UN Regulation No. 7 or [LSD]\r\n\r\n Horizontal angle:     10° to the left and to the right of the longitudinal axis of the vehicle.\r\n\r\n Vertical angle:       10° above and 5° below the horizontal.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.4.5",
+      "pages": [
+        19
+      ],
+      "text": "6.4.5. Orientation\r\nTowards the rear of the vehicle."
+    },
+    {
+      "paragraph": "6.4.6",
+      "pages": [
+        19
+      ],
+      "text": "6.4.6. Electrical connections"
+    },
+    {
+      "paragraph": "6.4.6.1",
+      "pages": [
+        19
+      ],
+      "text": "6.4.6.1. All the stop lamps shall light up simultaneously when the braking system provides the braking signal\r\ndefined in UN Regulation No. 78."
+    },
+    {
+      "paragraph": "6.4.6.2",
+      "pages": [
+        19
+      ],
+      "text": "6.4.6.2. The stop lamps need not to function if the device, which starts and/or stops the engine (propulsion\r\nsystem), is in a position that makes it impossible for the engine (propulsion system) to operate."
+    },
+    {
+      "paragraph": "6.4.7",
+      "pages": [
+        19,
+        20
+      ],
+      "text": "6.4.7. \"Tell-tale\"\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTell-tale optional; where fitted, this tell-tale shall be a tell-tale consisting of a non-flashing warning light which\r\ncomes on in the event of the malfunctioning of the stop lamps."
+    },
+    {
+      "paragraph": "6.4.8",
+      "pages": [
+        20
+      ],
+      "text": "6.4.8. Other requirements\r\nNone."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        20
+      ],
+      "text": "6.5. Rear-registration-plate illuminating device"
+    },
+    {
+      "paragraph": "6.5.1",
+      "pages": [
+        20
+      ],
+      "text": "6.5.1. Number\r\nOne, type-approved as category 2 according to the 00 or subsequent series of amendments to UN Regulation Nos.\r\n50 or 148.\r\nThe device may consist of several optical components designed to illuminate the space reserved for the\r\nregistration plate.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.5.2",
+      "pages": [
+        20
+      ],
+      "text": "6.5.2. Arrangement } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.3",
+      "pages": [
+        20
+      ],
+      "text": "6.5.3. Position } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.3.1",
+      "pages": [
+        20
+      ],
+      "text": "6.5.3.1. In width: } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.3.2",
+      "pages": [
+        20
+      ],
+      "text": "6.5.3.2. In height: } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.4",
+      "pages": [
+        20
+      ],
+      "text": "6.5.4. Geometric visibility } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.5",
+      "pages": [
+        20
+      ],
+      "text": "6.5.5. Orientation } Such that the device illuminates the space reserved for the registration plate."
+    },
+    {
+      "paragraph": "6.5.6",
+      "pages": [
+        20
+      ],
+      "text": "6.5.6. Tell-tale\r\nOptional: Its function shall be performed by the tell-tale prescribed for the position lamp."
+    },
+    {
+      "paragraph": "6.5.7",
+      "pages": [
+        20
+      ],
+      "text": "6.5.7. Other requirements\r\nWhen the rear registration plate lamp is combined with the rear position lamp, reciprocally incorporated in the\r\nstop lamp or in the rear fog lamp, the photometric characteristics of the rear registration plate lamp may be\r\nmodified during the illumination of the stop lamp or the rear fog lamp."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        20
+      ],
+      "text": "6.6. Front position lamp"
+    },
+    {
+      "paragraph": "6.6.1",
+      "pages": [
+        20
+      ],
+      "text": "6.6.1. Number\r\n\r\n One or two              if coloured white\r\n\r\n or\r\n\r\n Two (one per side)      if coloured amber\r\n\r\nThe device(s) shall be type-approved according to the 02 or subsequent series of amendments to UN Regulation\r\nNo. 7, or to the 00 or subsequent series of amendments to UN Regulation Nos. 50 or 148."
+    },
+    {
+      "paragraph": "6.6.2",
+      "pages": [
+        20
+      ],
+      "text": "6.6.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.6.3",
+      "pages": [
+        20
+      ],
+      "text": "6.6.3. Position"
+    },
+    {
+      "paragraph": "6.6.3.1",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "6.6.3.1. Width:\r\nAn independent front position lamp may be fitted above or below, or to one side of another front lamp: if these\r\nlamps are one above the other, the reference centre of the front position lamp shall be located within the median\r\nlongitudinal plane of the vehicle; if these lamps are side by side, their reference centres shall be symmetrical in\r\nrelation to the median longitudinal plane of the vehicle;\r\nA front position lamp, that is reciprocally incorporated with another front lamp, shall be installed in such a way\r\nthat its reference centre is situated in the median longitudinal plane of the vehicle. However, when the vehicle is\r\n\r\n\r\n\r\n\r\n\r\n\r\nalso fitted with another front lamp alongside the front position lamp, their reference centres shall be symmetrical\r\nin relation to the median longitudinal plane of the vehicle.\r\nTwo front position lamps, one or both of them reciprocally incorporated with another front lamp, shall be installed\r\nin such a way that their reference centres are symmetrical in relation to the median longitudinal plane of the\r\nvehicle."
+    },
+    {
+      "paragraph": "6.6.3.2",
+      "pages": [
+        21
+      ],
+      "text": "6.6.3.2. In height: not less than 350 mm nor more than 1,200 mm above the ground."
+    },
+    {
+      "paragraph": "6.6.3.3",
+      "pages": [
+        21
+      ],
+      "text": "6.6.3.3. In length: at the front of the vehicle."
+    },
+    {
+      "paragraph": "6.6.4",
+      "pages": [
+        21
+      ],
+      "text": "6.6.4. Geometric visibility\r\n\r\n Horizontal angle:      80° to the left and to the right for a single lamp:\r\n                        the horizontal angle may be 80° outwards and 20° inwards for each pair of lamps.\r\n\r\n Vertical angle:        15° above and below the horizontal.\r\n\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°."
+    },
+    {
+      "paragraph": "6.6.5",
+      "pages": [
+        21
+      ],
+      "text": "6.6.5. Orientation\r\nForwards. The lamp(s) may move in line with the steering angle."
+    },
+    {
+      "paragraph": "6.6.6",
+      "pages": [
+        21
+      ],
+      "text": "6.6.6. \"Circuit-closed\" tell-tale\r\nMandatory. Non-flashing green signal lamp. This tell-tale shall not be required if the instrument illumination\r\nlighting can be switched on or off only simultaneously with the position lamp(s)."
+    },
+    {
+      "paragraph": "6.6.7",
+      "pages": [
+        21
+      ],
+      "text": "6.6.7. Other requirements\r\nIf a front position lamp is reciprocally incorporated with a direction indicator, the electrical connection of the front\r\nposition lamp on the relevant side of the vehicle or the reciprocally incorporated part of it shall be such that it is\r\nswitched OFF during the entire time (both ON and OFF cycle) of operation of the direction indicator lamp."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        21
+      ],
+      "text": "6.7. Rear position lamp"
+    },
+    {
+      "paragraph": "6.7.1",
+      "pages": [
+        21
+      ],
+      "text": "6.7.1. Number\r\nOne or two, type-approved according to the 02 or subsequent series of amendments to UN Regulation No. 7, or to\r\nthe 00 or subsequent series of amendments to UN Regulation Nos. 50 or 148."
+    },
+    {
+      "paragraph": "6.7.2",
+      "pages": [
+        21
+      ],
+      "text": "6.7.2. Arrangement\r\nNo special requirements."
+    },
+    {
+      "paragraph": "6.7.3",
+      "pages": [
+        21
+      ],
+      "text": "6.7.3. Position\r\n6.7.3.1. in height: not less than 250 mm nor more than 1,500 mm above the ground;\r\n6.7.3.2. in length: at the rear of the vehicle.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.7.4",
+      "pages": [
+        21
+      ],
+      "text": "6.7.4. Geometric visibility\r\n\r\n Horizontal angle:      80 ° to left and to right for a single lamp:\r\n                        the horizontal angle may be 80° outwards and 20° inwards for each pair of lamps.\r\n\r\n Vertical angle:        15° above and below the horizontal.\r\n\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°."
+    },
+    {
+      "paragraph": "6.7.5",
+      "pages": [
+        21
+      ],
+      "text": "6.7.5. Orientation\r\nRearwards."
+    },
+    {
+      "paragraph": "6.7.6",
+      "pages": [
+        22
+      ],
+      "text": "6.7.6. \"Circuit-closed\" tell-tale\r\nOptional: Its function shall be performed by the device prescribed for the front position lamp."
+    },
+    {
+      "paragraph": "6.7.7",
+      "pages": [
+        22
+      ],
+      "text": "6.7.7. Other requirements\r\nIf a rear position lamp is reciprocally incorporated with a direction indicator, the electrical connection of the rear\r\nposition lamp on the relevant side of the vehicle or the reciprocally incorporated part of it may be such that it is\r\nswitched OFF during the entire period (both ON and OFF cycle) of activation of the direction indicator lamp."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        22
+      ],
+      "text": "6.8. Rear retro-reflector, non-triangular"
+    },
+    {
+      "paragraph": "6.8.1",
+      "pages": [
+        22
+      ],
+      "text": "6.8.1. Number\r\nOne or two, type-approved as Class IA or IB according to the 02 or subsequent series of amendments to UN\r\nRegulation No. 3, or to the 00 or subsequent series of amendments to UN Regulation No. 150."
+    },
+    {
+      "paragraph": "6.8.2",
+      "pages": [
+        22
+      ],
+      "text": "6.8.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.8.3",
+      "pages": [
+        22
+      ],
+      "text": "6.8.3. Position\r\nIn height: not less than 250 mm nor more than 900 mm above the ground;"
+    },
+    {
+      "paragraph": "6.8.4",
+      "pages": [
+        22
+      ],
+      "text": "6.8.4. Geometric visibility\r\n\r\n Horizontal angle:     30° to left and to right for a single reflector;\r\n                       30° outwards and 10° inwards for each pair of reflectors;\r\n\r\n Vertical angle:       15° above and below the horizontal.\r\n\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°."
+    },
+    {
+      "paragraph": "6.8.5",
+      "pages": [
+        22
+      ],
+      "text": "6.8.5. Orientation\r\nRearwards."
+    },
+    {
+      "paragraph": "6.9",
+      "pages": [
+        22
+      ],
+      "text": "6.9. Vehicle-hazard warning signal"
+    },
+    {
+      "paragraph": "6.9.1",
+      "pages": [
+        22
+      ],
+      "text": "6.9.1. The signal shall be given by simultaneous operation of the direction indicator lamps in accordance with the\r\nrequirements of paragraph 6.3. above."
+    },
+    {
+      "paragraph": "6.9.2",
+      "pages": [
+        22
+      ],
+      "text": "6.9.2. Electrical connections\r\nThe signal shall be given by means of a separate control enabling all the direction indicators to be supplied with\r\ncurrent simultaneously. In addition, it may be activated automatically in the event of a vehicle being involved in a\r\ncollision or after the de-activation of the emergency stop signal, as specified in paragraph 6.14. below. In such\r\ncases, it may be turned OFF manually.\r\nIn addition, the hazard warning signal may be switched ON automatically to indicate to other road-users the risk\r\nof imminent danger as defined by Regulations; in this case, the signal shall remain switched ON until it is\r\nmanually or automatically switched OFF."
+    },
+    {
+      "paragraph": "6.9.3",
+      "pages": [
+        22
+      ],
+      "text": "6.9.3. \"Circuit-closed\" tell-tale\r\nMandatory. Flashing red signal lamp or, in the case of separate tell-tales, the simultaneous operation of the tell-\r\ntale prescribed in paragraph 6.3.8."
+    },
+    {
+      "paragraph": "6.9.4",
+      "pages": [
+        22
+      ],
+      "text": "6.9.4. Other requirements\r\nLight flashing 90 ± 30 times per minute.\r\nOperation of the lamp-signal control shall be followed within not more than one second by the appearance of the\r\nlight and within not more than one-and-one-half seconds by the first extinction of the light."
+    },
+    {
+      "paragraph": "6.10",
+      "pages": [
+        23
+      ],
+      "text": "6.10. Front fog lamp"
+    },
+    {
+      "paragraph": "6.10.1",
+      "pages": [
+        23
+      ],
+      "text": "6.10.1. Number\r\nOne or two, type-approved as Class “F3” according to the 03 or subsequent series of amendments to UN\r\nRegulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149."
+    },
+    {
+      "paragraph": "6.10.2",
+      "pages": [
+        23
+      ],
+      "text": "6.10.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.10.3",
+      "pages": [
+        23
+      ],
+      "text": "6.10.3. Position"
+    },
+    {
+      "paragraph": "6.10.3.1",
+      "pages": [
+        23
+      ],
+      "text": "6.10.3.1. In width: for a single lamp the centre of reference shall be in the median longitudinal plane of the\r\nvehicle; or the edge of the illuminating surface which is nearest to that plane shall be not more than 250 mm away\r\nfrom it;"
+    },
+    {
+      "paragraph": "6.10.3.2",
+      "pages": [
+        23
+      ],
+      "text": "6.10.3.2. In height: not less than 250 mm above the ground. No point on the illuminating surface shall be higher\r\nthan the highest point on the illuminating surface of the passing-beam headlamp."
+    },
+    {
+      "paragraph": "6.10.3.3",
+      "pages": [
+        23
+      ],
+      "text": "6.10.3.3. In length: at the front of the vehicle. This requirement shall be deemed to be satisfied if the light emitted\r\ndoes not cause discomfort to the driver either directly, or indirectly through the rear-view mirrors and/or other\r\nreflecting surfaces of the vehicle."
+    },
+    {
+      "paragraph": "6.10.4",
+      "pages": [
+        23
+      ],
+      "text": "6.10.4. Geometric visibility\r\nDefined by angles α and β as specified in paragraph 2.13. of UN Regulation No. 48:\r\nα = 5° upwards and downwards;\r\nβ = 45° to left and to right for a single lamp, except for an off- centre light, in which case the inward angle β =\r\n10°;\r\nβ = 45° outwards and 10° inwards for each pair of lamps"
+    },
+    {
+      "paragraph": "6.10.5",
+      "pages": [
+        23
+      ],
+      "text": "6.10.5. Orientation\r\nForwards. The lamp(s) may move in line with the steering angle."
+    },
+    {
+      "paragraph": "6.10.6",
+      "pages": [
+        23
+      ],
+      "text": "6.10.6. May not be combined with any other front lamp."
+    },
+    {
+      "paragraph": "6.10.7",
+      "pages": [
+        23
+      ],
+      "text": "6.10.7. \"Circuit-closed\" tell-tale\r\nOptional; non-flashing green signal."
+    },
+    {
+      "paragraph": "6.10.8",
+      "pages": [
+        23
+      ],
+      "text": "6.10.8. Other requirements\r\nNone."
+    },
+    {
+      "paragraph": "6.10.9",
+      "pages": [
+        23
+      ],
+      "text": "6.10.9. Electrical connections\r\nIt shall be possible to switch the fog lamp(s) on or off independently of the driving-beam headlamp(s) and/or\r\npassing-beam headlamp(s)."
+    },
+    {
+      "paragraph": "6.11",
+      "pages": [
+        23
+      ],
+      "text": "6.11. Rear fog lamp"
+    },
+    {
+      "paragraph": "6.11.1",
+      "pages": [
+        23
+      ],
+      "text": "6.11.1. Number\r\nOne or two, type-approved according to the 00 or subsequent series of amendments to UN Regulation Nos. 38 or\r\n148."
+    },
+    {
+      "paragraph": "6.11.2",
+      "pages": [
+        23
+      ],
+      "text": "6.11.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.11.3",
+      "pages": [
+        23
+      ],
+      "text": "6.11.3. Position"
+    },
+    {
+      "paragraph": "6.11.3.1",
+      "pages": [
+        23
+      ],
+      "text": "6.11.3.1. In height: not less than 250 mm nor more than 900 mm above the ground;"
+    },
+    {
+      "paragraph": "6.11.3.2",
+      "pages": [
+        24
+      ],
+      "text": "6.11.3.2. In length at the rear of the vehicle."
+    },
+    {
+      "paragraph": "6.11.3.3",
+      "pages": [
+        24
+      ],
+      "text": "6.11.3.3. The distance between the illuminating surface of the rear fog lamp and that of the stop lamp shall not be\r\nless than 100 mm."
+    },
+    {
+      "paragraph": "6.11.4",
+      "pages": [
+        24
+      ],
+      "text": "6.11.4. Geometric visibility\r\nDefined by angles α and β as specified in paragraph 2.13. of UN Regulation No. 48:\r\nα = 5° upwards and downwards;\r\nβ = 25° to left and to right for a single lamp;\r\n25° outwards and 10° inwards for each pair of lamps."
+    },
+    {
+      "paragraph": "6.11.5",
+      "pages": [
+        24
+      ],
+      "text": "6.11.5. Orientation\r\nRearwards."
+    },
+    {
+      "paragraph": "6.11.6",
+      "pages": [
+        24
+      ],
+      "text": "6.11.6. Electrical connections\r\nThey shall be such that the rear fog lamp can light up only when one or more of the following lamps are switched\r\non: driving-beam headlamp, passing-beam headlamp, front fog lamp.\r\nIf there is a front fog lamp, it shall be possible to switch off the rear fog lamp independently of the front fog lamp.\r\nThe rear fog lamp(s) may continue to operate until the position lamps are switched off and they shall remain off\r\nuntil deliberately switched on again."
+    },
+    {
+      "paragraph": "6.11.7",
+      "pages": [
+        24
+      ],
+      "text": "6.11.7. \"Circuit-closed\" tell-tale\r\nMandatory. Non-flashing amber signal lamp."
+    },
+    {
+      "paragraph": "6.11.8",
+      "pages": [
+        24
+      ],
+      "text": "6.11.8. Other requirements\r\nNone."
+    },
+    {
+      "paragraph": "6.12",
+      "pages": [
+        24
+      ],
+      "text": "6.12. Side retro-reflector, non-triangular"
+    },
+    {
+      "paragraph": "6.12.1",
+      "pages": [
+        24
+      ],
+      "text": "6.12.1. Number per side\r\nOne or two, type-approved as Class IA or IB according to the 02 or subsequent series of amendments to UN\r\nRegulation No. 3, or to the 00 or subsequent series of amendments to UN Regulation No. 150."
+    },
+    {
+      "paragraph": "6.12.2",
+      "pages": [
+        24
+      ],
+      "text": "6.12.2. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.12.3",
+      "pages": [
+        24
+      ],
+      "text": "6.12.3. Position"
+    },
+    {
+      "paragraph": "6.12.3.1",
+      "pages": [
+        24
+      ],
+      "text": "6.12.3.1. On the side of the vehicle."
+    },
+    {
+      "paragraph": "6.12.3.2",
+      "pages": [
+        24
+      ],
+      "text": "6.12.3.2. In height: not less than 300 mm nor more than 900 mm above the ground;"
+    },
+    {
+      "paragraph": "6.12.3.3",
+      "pages": [
+        24
+      ],
+      "text": "6.12.3.3. In length: should be placed in such a position that under normal conditions it may not be masked by the\r\ndriver's or passenger's clothes."
+    },
+    {
+      "paragraph": "6.12.4",
+      "pages": [
+        24
+      ],
+      "text": "6.12.4. Geometric visibility\r\nHorizontal angles β = 30° to the front and to the rear.\r\nVertical angles α = 15° above and below the horizontal.\r\nHowever, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the\r\ndownward angle of 15° may be reduced to 5°."
+    },
+    {
+      "paragraph": "6.12.5",
+      "pages": [
+        24
+      ],
+      "text": "6.12.5. Orientation\r\nThe reference axis of the retro-reflectors shall be perpendicular to the vehicle’s median longitudinal plane and\r\ndirected outwards. The front side retro-reflectors may move with the steering angle."
+    },
+    {
+      "paragraph": "6.13",
+      "pages": [
+        25
+      ],
+      "text": "6.13. Daytime running lamp"
+    },
+    {
+      "paragraph": "6.13.1",
+      "pages": [
+        25
+      ],
+      "text": "6.13.1. Presence\r\nOptional for motorcycles."
+    },
+    {
+      "paragraph": "6.13.2",
+      "pages": [
+        25
+      ],
+      "text": "6.13.2. Number\r\nOne or two, type-approved according to the 00 or subsequent series of amendments to UN Regulation Nos. 87 or\r\n148."
+    },
+    {
+      "paragraph": "6.13.3",
+      "pages": [
+        25
+      ],
+      "text": "6.13.3. Arrangement\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.13.4",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4. Position"
+    },
+    {
+      "paragraph": "6.13.4.1",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1. In width:"
+    },
+    {
+      "paragraph": "6.13.4.1.1",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1.1. An independent daytime running lamp may be installed above, below or to one side of another front\r\nlamp: If these lamps are one above the other, the reference centre of the daytime running lamp shall be located\r\nwithin the median longitudinal plane of the vehicle; if these lamps are side by side, the edge of the illuminating\r\nsurface shall not be more than 250 mm from the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.13.4.1.2",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1.2. A daytime running lamp, that is reciprocally incorporated with another front lamp (driving-beam\r\nheadlamp or front position lamp), shall be fitted in such a way that the edge of the illuminated surface lies not\r\nmore than 250 mm from the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.13.4.1.3",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1.3. Two daytime running lamps, of which either one or both are reciprocally incorporated with another\r\nfront lamp, shall be installed in such a way that their reference centres are symmetrical in relation to the median\r\nlongitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.13.4.1.4",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1.4. In the case of two daytime running lamps, the distance separating the illuminating surfaces shall not\r\nexceed 420 mm."
+    },
+    {
+      "paragraph": "6.13.4.1.5",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.1.5. The maximum separation distance is not applicable when the daytime running lamps:\r\n(a) Are grouped, combined or reciprocally incorporated with another headlamp, or\r\n(b) Are within the projection of the frontal silhouette of the motorcycle on an orthogonal plane perpendicular to\r\nthe longitudinal median plane of the vehicle."
+    },
+    {
+      "paragraph": "6.13.4.2",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.2. In height:\r\nAbove the ground not less than 250 mm and not more than 1,500 mm."
+    },
+    {
+      "paragraph": "6.13.4.3",
+      "pages": [
+        25
+      ],
+      "text": "6.13.4.3. In length:\r\nAt the front of the vehicle."
+    },
+    {
+      "paragraph": "6.13.5",
+      "pages": [
+        25
+      ],
+      "text": "6.13.5. Geometric visibility\r\nHorizontal: Outwards 20° and inwards 10°.\r\nVertical: Upwards 10° and downwards 10°."
+    },
+    {
+      "paragraph": "6.13.6",
+      "pages": [
+        25
+      ],
+      "text": "6.13.6. Orientation\r\nTowards the front. The lamp(s) may move in line with the steering angle."
+    },
+    {
+      "paragraph": "6.13.7",
+      "pages": [
+        25
+      ],
+      "text": "6.13.7. Electrical connections"
+    },
+    {
+      "paragraph": "6.13.7.1",
+      "pages": [
+        25,
+        26
+      ],
+      "text": "6.13.7.1. The daytime running lamp shall switch OFF automatically when the headlamps are switched ON, except\r\nwhen the latter are used to give intermittent luminous warnings at short intervals.\r\nThe rear position lamp shall be switched ON when the daytime running lamp(s) is/are switched ON. The front\r\nposition lamp(s) and the rear-registration-plate illuminating device may be switched ON individually or together,\r\n\r\n\r\n\r\n\r\n\r\n\r\nwhen the daytime running lamp(s) is/are switched ON."
+    },
+    {
+      "paragraph": "6.13.7.2",
+      "pages": [
+        26
+      ],
+      "text": "6.13.7.2. If the distance between the front direction indicator lamp and the daytime running lamp is equal or less\r\nthan 40 mm, the electrical connections of the daytime running lamp on the relevant side of the vehicle may be\r\nsuch that either:\r\n(a) It is switched OFF; or\r\n(b) Its luminous intensity is reduced during the entire period (both ON and OFF cycle) of activation of a front\r\ndirection indicator lamp."
+    },
+    {
+      "paragraph": "6.13.7.3",
+      "pages": [
+        26
+      ],
+      "text": "6.13.7.3. If a direction indicator lamp is reciprocally incorporated with a daytime running lamp, the electrical\r\nconnections of the daytime running lamp on the relevant side of the vehicle shall be such that the daytime running\r\nlamp is switched OFF during the entire period (both ON and OFF cycle) of activation of the direction indicator\r\nlamp."
+    },
+    {
+      "paragraph": "6.13.8",
+      "pages": [
+        26
+      ],
+      "text": "6.13.8. Tell-tale\r\nClosed-circuit green tell-tale, optional."
+    },
+    {
+      "paragraph": "6.13.9",
+      "pages": [
+        26
+      ],
+      "text": "6.13.9. Other requirements\r\nThe DRL symbol in ISO 2575:2004 - Road vehicles. Symbols for controls, indicators and tell-tales, may be used\r\nto inform the driver that the daytime running lamp is on."
+    },
+    {
+      "paragraph": "6.14",
+      "pages": [
+        26
+      ],
+      "text": "6.14. Emergency stop signal"
+    },
+    {
+      "paragraph": "6.14.1",
+      "pages": [
+        26
+      ],
+      "text": "6.14.1. Presence\r\nOptional.\r\nThe emergency stop signal shall be given by the simultaneous operation of all the stop or direction indicator\r\nlamps fitted as described in paragraph 6.14.7."
+    },
+    {
+      "paragraph": "6.14.2",
+      "pages": [
+        26
+      ],
+      "text": "6.14.2. Number\r\nAs specified in paragraph 6.3.1. or 6.4.1."
+    },
+    {
+      "paragraph": "6.14.3",
+      "pages": [
+        26
+      ],
+      "text": "6.14.3. Arrangement\r\nAs specified in paragraph 6.3.2. or 6.4.2."
+    },
+    {
+      "paragraph": "6.14.4",
+      "pages": [
+        26
+      ],
+      "text": "6.14.4. Position\r\nAs specified in paragraph 6.3.3. or 6.4.3."
+    },
+    {
+      "paragraph": "6.14.5",
+      "pages": [
+        26
+      ],
+      "text": "6.14.5. Geometric visibility\r\nAs specified in paragraph 6.3.4. or 6.4.4."
+    },
+    {
+      "paragraph": "6.14.6",
+      "pages": [
+        26
+      ],
+      "text": "6.14.6. Orientation\r\nAs specified in paragraph 6.3.5. or 6.4.5."
+    },
+    {
+      "paragraph": "6.14.7",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7. Electrical connections"
+    },
+    {
+      "paragraph": "6.14.7.1",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7.1. All the lamps of the emergency stop signal shall flash in phase at a frequency of 4.0 ± 1.0 Hz."
+    },
+    {
+      "paragraph": "6.14.7.1.1",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7.1.1. However, if any of the lamps of the emergency stop signal to the rear of the vehicle use filament light\r\nsources the frequency shall be 4.0 +0.0/-1.0 Hz."
+    },
+    {
+      "paragraph": "6.14.7.2",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7.2. The emergency stop signal shall operate independently of other lamps."
+    },
+    {
+      "paragraph": "6.14.7.3",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7.3. The emergency stop signal shall be activated and deactivated automatically."
+    },
+    {
+      "paragraph": "6.14.7.3.1",
+      "pages": [
+        26
+      ],
+      "text": "6.14.7.3.1. The emergency stop signal shall be activated only when the vehicle speed is above 50 km/h and the\r\nbraking system is providing the emergency braking logic signal defined in UN Regulation No. 78."
+    },
+    {
+      "paragraph": "6.14.7.3.2",
+      "pages": [
+        27
+      ],
+      "text": "6.14.7.3.2. The emergency stop signal shall be automatically deactivated if the emergency braking logic signal as\r\ndefined in UN Regulation No. 78 is no longer provided or if the vehicle-hazard warning signal is activated."
+    },
+    {
+      "paragraph": "6.14.8",
+      "pages": [
+        27
+      ],
+      "text": "6.14.8. Tell-tale\r\nOptional."
+    },
+    {
+      "paragraph": "6.14.9",
+      "pages": [
+        27
+      ],
+      "text": "6.14.9. Other requirements\r\nNone."
+    },
+    {
+      "paragraph": "6.15",
+      "pages": [
+        27
+      ],
+      "text": "6.15. Exterior courtesy lamp"
+    },
+    {
+      "paragraph": "6.15.1",
+      "pages": [
+        27
+      ],
+      "text": "6.15.1. Presence\r\nOptional for motorcycles."
+    },
+    {
+      "paragraph": "6.15.2",
+      "pages": [
+        27
+      ],
+      "text": "6.15.2. Number\r\nOne or two; however further exterior courtesy lamps to illuminate footrest are permitted. Each footrest shall be\r\nilluminated by not more than one lamp."
+    },
+    {
+      "paragraph": "6.15.3",
+      "pages": [
+        27
+      ],
+      "text": "6.15.3. Arrangement\r\nNo special requirement, however the requirements of paragraph 6.15.9.3. apply."
+    },
+    {
+      "paragraph": "6.15.4",
+      "pages": [
+        27
+      ],
+      "text": "6.15.4. Position\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.15.5",
+      "pages": [
+        27
+      ],
+      "text": "6.15.5. Geometric visibility\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.15.6",
+      "pages": [
+        27
+      ],
+      "text": "6.15.6. Orientation\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.15.7",
+      "pages": [
+        27
+      ],
+      "text": "6.15.7. Electrical connections\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.15.8",
+      "pages": [
+        27
+      ],
+      "text": "6.15.8. Tell-tale\r\nNo special requirement."
+    },
+    {
+      "paragraph": "6.15.9",
+      "pages": [
+        27
+      ],
+      "text": "6.15.9. Other requirements"
+    },
+    {
+      "paragraph": "6.15.9.1",
+      "pages": [
+        27
+      ],
+      "text": "6.15.9.1. The exterior courtesy lamp shall not be activated unless the vehicle is stationary and one or more of the\r\nfollowing conditions is satisfied:\r\n(a) The device which starts and/or stops the engine (propulsion system) is set in a position which makes it\r\nimpossible for the engine (propulsion system) to operate; or\r\n(b) A load compartment is opened for access.\r\nThe provisions of paragraph 5.9. shall be met in all fixed positions of use."
+    },
+    {
+      "paragraph": "6.15.9.2",
+      "pages": [
+        27
+      ],
+      "text": "6.15.9.2. Approved lamps emitting white light with the exception of main beam headlamps and day time running\r\nlamps may be activated as courtesy lamp function. They may also be activated together with the exterior courtesy\r\nlamps and the condition of paragraphs 5.10. and 5.11. above may not apply."
+    },
+    {
+      "paragraph": "6.15.9.3",
+      "pages": [
+        27,
+        28
+      ],
+      "text": "6.15.9.3. The technical service shall, to the satisfaction of the Type Approval Authority, perform a visual test to\r\nverify that there is no direct visibility of the apparent surface of the exterior courtesy lamps, if viewed by an\r\nobserver moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse\r\nplane 10 m from the rear of the vehicle, and two longitudinal planes 10 m from each side of the vehicle; these four\r\nplanes to extend from 1 m to 3 m above and perpendicular to the ground as shown in Annex 7.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn addition to the conditions described in paragraph 5.4., the requirements prescribed above shall be verified in the\r\nfollowing vehicle conditions:\r\nStand: On a prop stand or a centre stand, and both if applicable\r\nSteering: Straight ahead, and locked in each available position\r\nAt the request of the applicant and with the consent of the Technical Service this requirement may be verified by a\r\ndrawing or simulation."
+    },
+    {
+      "paragraph": "6.16",
+      "pages": [
+        28
+      ],
+      "text": "6.16. Adaptive Driving-Beam (ADB) (UN Regulation No. 149)\r\nWhere not otherwise specified below, the requirements for driving-beam headlamp(s) (paragraph 6.1.) of this\r\nRegulation apply to the ADB."
+    },
+    {
+      "paragraph": "6.16.1",
+      "pages": [
+        28
+      ],
+      "text": "6.16.1. Number"
+    },
+    {
+      "paragraph": "6.16.1.1",
+      "pages": [
+        28
+      ],
+      "text": "6.16.1.1. One, type-approved as adaptive driving-beam (ADB) for vehicles of category L3 according to the 01 or\r\nsubsequent series to UN Regulation No. 149."
+    },
+    {
+      "paragraph": "6.16.1.2",
+      "pages": [
+        28
+      ],
+      "text": "6.16.1.2. Installation units shall be one or two."
+    },
+    {
+      "paragraph": "6.16.2",
+      "pages": [
+        28
+      ],
+      "text": "6.16.2. Arrangement\r\nNo special requirements."
+    },
+    {
+      "paragraph": "6.16.3",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3. Position\r\nThe ADB shall, prior to the subsequent test procedures, be set to the ADB neutral state;"
+    },
+    {
+      "paragraph": "6.16.3.1",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.1. In width and height:\r\nAll dimensions refer to the nearest edge of the apparent surface(s) observed in the direction of the reference axis,\r\nof the installation unit(s)."
+    },
+    {
+      "paragraph": "6.16.3.1.1",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.1.1. An independent ADB installation unit may be fitted above or below or to one side of another front\r\nlamp: if these lamps are on top of the other the reference centre of the ADB installation unit must be located\r\nwithin the median longitudinal plane of the vehicle; if these lamps are side by side their reference centre must be\r\nsymmetrical in relation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.16.3.1.2",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.1.2. An ADB installation unit, that is reciprocally incorporated with another front lamp, must be fitted in\r\nsuch a way that its reference centre lies within the median longitudinal plane of the vehicle. However, when the\r\nvehicle is also fitted with an independent principal passing-beam headlamp, or a principal passing-beam headlamp\r\nthat is reciprocally incorporated with a front position lamp alongside the ADB installation unit, their reference\r\ncentres must be symmetrical in relation to the median longitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.16.3.1.3",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.1.3. Two ADB installation units of which either one or both are reciprocally incorporated with another front\r\nlamp must be fitted in such a way that their reference centres are symmetrical in relation to the median\r\nlongitudinal plane of the vehicle."
+    },
+    {
+      "paragraph": "6.16.3.2",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.2. In length: at the front of the vehicle. This requirement is regarded as satisfied if the light emitted does\r\nnot cause discomfort to the driver either directly or indirectly by means of the rear-view mirrors and/or reflective\r\nsurfaces on the vehicle."
+    },
+    {
+      "paragraph": "6.16.3.3",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.3. In any case, the distance between the edge of the illuminating surface of any independent ADB\r\ninstallation unit and the edge of that of the lamp producing the principal passing-beam must not exceed 200 mm.\r\nThe distance between the edge of the illuminating surface of any independent ADB installation unit and the\r\nground must be from 500 mm to 1,300 mm."
+    },
+    {
+      "paragraph": "6.16.3.4",
+      "pages": [
+        28
+      ],
+      "text": "6.16.3.4. In the case of two ADB installation units: the distance separating the illuminating surfaces of two ADB\r\ninstallation units must not exceed 200 mm."
+    },
+    {
+      "paragraph": "6.16.4",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "6.16.4. Geometric visibility\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe angles of geometric visibility specified in paragraph 6.1.4. of this Regulation, shall be met by at least one of\r\nthe installation units said function, according to the description of the applicant. Individual installation units may\r\nbe used to comply with the requirements for different angles."
+    },
+    {
+      "paragraph": "6.16.5",
+      "pages": [
+        29
+      ],
+      "text": "6.16.5. Orientation\r\nTowards the front."
+    },
+    {
+      "paragraph": "6.16.5.1",
+      "pages": [
+        29
+      ],
+      "text": "6.16.5.1. The vertical inclination of the center of the area of maximum illumination of ADB shall remain between\r\n± 0.5 per cent, except in the case where an external adjusting device is present.\r\nIn case ADB is adjusted together with the passing-beam(s), this provision shall not apply."
+    },
+    {
+      "paragraph": "6.16.6",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6. Electrical connections"
+    },
+    {
+      "paragraph": "6.16.6.1",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6.1. For changing over from the ADB to the passing-beam all lighting units for the driving-beam shall be de-\r\nactivated simultaneously."
+    },
+    {
+      "paragraph": "6.16.6.2",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6.2. The ADB shall be designed to be adaptive, subject to the provisions in paragraph 6.16.8.1., the control\r\nsignals being produced by a sensor system which is capable of detecting and reacting to each of the following\r\ninputs:\r\n(a) Ambient lighting conditions;\r\n(b) The light emitted by the front lighting devices and front light-signalling devices of oncoming vehicles;\r\n(c) The light emitted by the rear light-signalling of preceding vehicles;\r\nAdditional sensor functions to improve performance are allowed.\r\nFor the purpose of this paragraph, \"vehicles\" means vehicles of categories L, M, N, O, T, as well as bicycles, such\r\nvehicles being equipped with retro-reflectors, with lighting and light-signalling devices, which are switched ON."
+    },
+    {
+      "paragraph": "6.16.6.3",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6.3. It shall always be possible to activate and deactivate the ADB manually, and to manually deactivate the\r\nautomatic control.\r\nMoreover, the deactivation, of the ADB and of their automatic control, shall be by means of a simple and\r\nimmediate manual operation; the use of sub-menus is not allowed."
+    },
+    {
+      "paragraph": "6.16.6.4",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6.4. The passing-beam(s) may remain switched ON at the same time as the ADB."
+    },
+    {
+      "paragraph": "6.16.6.5",
+      "pages": [
+        29
+      ],
+      "text": "6.16.6.5. It shall always be possible for the driver to set the ADB to the ADB neutral state and to return it to its\r\nautomatic operation."
+    },
+    {
+      "paragraph": "6.16.7",
+      "pages": [
+        29
+      ],
+      "text": "6.16.7. Tell-tale:"
+    },
+    {
+      "paragraph": "6.16.7.1",
+      "pages": [
+        29
+      ],
+      "text": "6.16.7.1. The provisions of paragraphs 6.1.7. (for the driving-beam headlamp(s)) of this Regulation apply to the\r\nrespective parts of an ADB."
+    },
+    {
+      "paragraph": "6.16.7.2",
+      "pages": [
+        29
+      ],
+      "text": "6.16.7.2. A visual failure tell-tale for ADB is mandatory. It shall be non-flashing. It shall be activated whenever a\r\nfailure signal is received in accordance with paragraph 4.13. of UN Regulation No. 149. It shall remain activated\r\nwhile the failure is present. It may be cancelled temporarily, but shall be repeated whenever the device which\r\nstarts and stops the engine is switched ON and OFF."
+    },
+    {
+      "paragraph": "6.16.7.3",
+      "pages": [
+        29
+      ],
+      "text": "6.16.7.3. A visual tell-tale shall be provided to indicate to the driver that the adaptation of the driving-beam is\r\nactivated. This information shall remain displayed as long as the adaptation is activated."
+    },
+    {
+      "paragraph": "6.16.8",
+      "pages": [
+        29
+      ],
+      "text": "6.16.8. Other requirements"
+    },
+    {
+      "paragraph": "6.16.8.1",
+      "pages": [
+        29
+      ],
+      "text": "6.16.8.1. Adaptation of the driving-beam"
+    },
+    {
+      "paragraph": "6.16.8.1.1",
+      "pages": [
+        29
+      ],
+      "text": "6.16.8.1.1. The sensor system used to control the adaptation of the driving-beam, as described in paragraph\r\n6.16.6.2. above, shall comply with the following requirements:",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.16.8.1.1.1",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.1.1.1. The boundaries of the minimum fields in which the sensor is able to detect light emitted from other\r\nvehicles as defined in paragraph 6.16.6.2. above are given by the angles indicated in paragraph 6.1.8.3.1.1. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "6.16.8.1.1.2",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.1.1.2. The sensor system sensitivity shall comply with the requirements in paragraph 6.1.8.3.1.2. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "6.16.8.1.1.3",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.1.1.3. The adaptive driving-beam shall be switched OFF when the illuminance produced by ambient\r\nlighting conditions exceeds 7,000 lx.\r\nCompliance with this requirement shall be demonstrated by the applicant, using simulation or other means of\r\nverification accepted by the Type Approval Authority. If necessary, the illuminance shall be measured on a\r\nhorizontal surface, with a cosine corrected sensor on the same height as the mounting position of the sensor on the\r\nvehicle. This may be demonstrated by the manufacturer by sufficient documentation or by other means accepted\r\nby the Type Approval Authority."
+    },
+    {
+      "paragraph": "6.16.8.1.1.4",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.1.1.4. The overall performance of the automatic control shall be demonstrated by the applicant by\r\ndocumentation or by other means accepted by the Type Approval Authority. Furthermore, the manufacturer shall\r\nprovide a documentation package which gives access to the design of \"the safety concept\" of the system. This\r\n\"safety concept\" is a description of the measures designed into the system, for example within the electronic units,\r\nso as to address system integrity and thereby ensure safe operation even in the event of mechanical or electrical\r\nfailure which could cause any discomfort, distraction or glare, either to the driver or to oncoming and preceding\r\nvehicles. This description shall also give a simple explanation of all the control functions of the \"system\" and the\r\nmethods employed to achieve the objectives, including a statement of the mechanism(s) by which control is\r\nexercised. The “safety concept” shall describe the measures taken to ensure that failure mode is triggered if any\r\nexternal agent (e.g. caused by dirt) obscures the sensor input.\r\nA list of all input and sensed variables shall be provided and the working range of these shall be defined.\r\nThe functions of the system and the safety concept, as laid down by the manufacturer, shall be explained. The\r\ndocumentation shall be brief, yet provide evidence that the design and development has had the benefit of\r\nexpertise from all the system fields which are involved.\r\nFor periodic technical inspections, the documentation shall describe how the current operational status of the\r\n\"system\" can be checked.\r\nFor Type Approval purposes this documentation shall be taken as the basic reference for the verification process."
+    },
+    {
+      "paragraph": "6.16.8.1.1.5",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.1.1.5. To verify, that the adaptation of the driving-beam does not cause any discomfort, distraction or glare,\r\nneither to the driver nor to oncoming and preceding vehicles, the technical service shall perform a test drive\r\naccording to paragraph 2. in Annex 9. This shall include any situation relevant to the system control on the basis\r\nof the applicant's description. The performance of the adaptation of the driving-beam shall be documented and\r\nchecked against the applicant's description. Any obvious malfunctioning shall be contested (e.g. excessive angular\r\nmovement or flicker)."
+    },
+    {
+      "paragraph": "6.16.8.2",
+      "pages": [
+        30
+      ],
+      "text": "6.16.8.2. The aggregate maximum intensity of the lighting units that can be energized simultaneously to provide\r\nthe driving-beam lighting or its modes, if any, shall not exceed 430,000 cd, which corresponds to a reference\r\nvalue of 100.\r\nThis maximum intensity shall be obtained by adding together the individual reference marks indicated on the\r\ninstallation units that are simultaneously used to provide the driving-beam."
+    },
+    {
+      "paragraph": "6.17",
+      "pages": [
+        30
+      ],
+      "text": "6.17. Rear-end collision alert signal"
+    },
+    {
+      "paragraph": "6.17.1",
+      "pages": [
+        30,
+        31
+      ],
+      "text": "6.17.1. Presence\r\nOptional.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe rear-end collision alert signal shall be given by the simultaneous operation of all the direction indicator lamps\r\nfitted as described in paragraph 6.17.7."
+    },
+    {
+      "paragraph": "6.17.2",
+      "pages": [
+        31
+      ],
+      "text": "6.17.2. Number\r\nAs specified in paragraph 6.3.1."
+    },
+    {
+      "paragraph": "6.17.3",
+      "pages": [
+        31
+      ],
+      "text": "6.17.3. Arrangement\r\nAs specified in paragraph 6.3.2."
+    },
+    {
+      "paragraph": "6.17.4",
+      "pages": [
+        31
+      ],
+      "text": "6.17.4. Position\r\nAs specified in paragraph 6.3.3."
+    },
+    {
+      "paragraph": "6.17.5",
+      "pages": [
+        31
+      ],
+      "text": "6.17.5. Geometric visibility\r\nAs specified in paragraph 6.3.4."
+    },
+    {
+      "paragraph": "6.17.6",
+      "pages": [
+        31
+      ],
+      "text": "6.17.6. Orientation\r\nAs specified in paragraph 6.3.5."
+    },
+    {
+      "paragraph": "6.17.7",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7. Electrical connections\r\nCompliance with these requirements shall be demonstrated by the applicant, by simulation or other means of\r\nverification accepted by the Technical Service responsible for type approval."
+    },
+    {
+      "paragraph": "6.17.7.1",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.1. All the lamps of the rear-end collision alert signal shall flash in phase at a frequency of 4.0 +/- 1.0 Hz."
+    },
+    {
+      "paragraph": "6.17.7.1.1",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.1.1. However, if any of the lamps of the rear-end collision alert signal to the rear of the vehicle use filament\r\nlight sources the frequency shall be 4.0 +0.0/-1.0 Hz."
+    },
+    {
+      "paragraph": "6.17.7.2",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.2. The rear-end collision alert signal shall operate independently of other lamps."
+    },
+    {
+      "paragraph": "6.17.7.3",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.3. The rear-end collision alert signal shall be switched ON and OFF automatically."
+    },
+    {
+      "paragraph": "6.17.7.4",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.4. The rear-end collision alert signal shall not be switched ON if the direction indicator lamps, the hazard\r\nwarning signal or the emergency stop signal is activated."
+    },
+    {
+      "paragraph": "6.17.7.5",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.5. The rear-end collision alert signal may only be switched ON under the following conditions:\r\n\r\n Vr                Activation\r\n Vr > 30 km/h      TTC ≤ 1.4\r\n Vr ≤ 30 km/h      TTC ≤ 1.4 / 30 x Vr\r\n\"Vr (Relative Speed)\": means the difference in speed between a vehicle with rear-end collision alert signal and a\r\nfollowing vehicle in the same lane.\r\n\"TTC (Time to collision)\": means the estimated time for a vehicle with rear-end collision alert signal and a\r\nfollowing vehicle to collide assuming the relative speed at the time of estimation remains constant."
+    },
+    {
+      "paragraph": "6.17.7.6",
+      "pages": [
+        31
+      ],
+      "text": "6.17.7.6. The switch ON period of the rear-end collision alert signal shall be not more than 3 seconds."
+    },
+    {
+      "paragraph": "6.17.8",
+      "pages": [
+        31
+      ],
+      "text": "6.17.8. Tell-tale\r\nOptional."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        31
+      ],
+      "text": "7. Modiﬁcations of the vehicle type or of the installation of its lighting and\r\nlight-signalling devices"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        31
+      ],
+      "text": "7.1. Every modification of the vehicle type, or of the installation of its lighting or light-signalling devices, or of\r\nthe list referred to in paragraph 3.2.2. above, shall be notified to the Type Approval Authority which approved that\r\nvehicle type. The Type Approval Authority may then either;"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        32
+      ],
+      "text": "7.1.1. Consider that the modification made are unlikely to have appreciable adverse effects and that in any case\r\nthe vehicle still complies with the requirements; or"
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        32
+      ],
+      "text": "7.1.2. Require a further test report from the Technical Service responsible for conducting tests."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        32
+      ],
+      "text": "7.2. Confirmation or refusal of approval, specifying the alternatives, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Parties to the Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        32
+      ],
+      "text": "7.3. The Type Approval Authority issuing the extension of approval shall assign a series number for such an\r\nextension and inform thereof the other Parties to the 1958 Agreement applying this Regulation by means of a\r\ncommunication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        32
+      ],
+      "text": "8. Conformity of production\r\nThe conformity of production procedures shall comply with those set out in the Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3), with the following requirements:"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        32
+      ],
+      "text": "8.1. Motorcycles approved under this Regulation shall be so manufactured as to conform to the type approved, by\r\nmeeting the requirements set out in paragraphs 5. and 6. above."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        32
+      ],
+      "text": "8.2. The minimum requirements for conformity of production control procedures set forth in Annex 5 to this\r\nRegulation shall be complied with."
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        32
+      ],
+      "text": "8.3. The Type Approval Authority which has granted type approval may at any time verify the conformity control\r\nmethods applied in each production facility. The normal frequency of these verifications shall be once a year."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        32
+      ],
+      "text": "9. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        32
+      ],
+      "text": "9.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirement laid down in paragraph 8.1. above is not met or if the vehicle has failed to pass the checks prescribed\r\nin paragraph 8. above."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        32
+      ],
+      "text": "9.2. If a Party to the Agreement which applies this Regulation withdraws an approval it has previously granted, it\r\nshall forthwith so notify the other Contracting Parties to the Agreement which apply this Regulation by means of a\r\ncommunication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        32
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of an approval completely ceases to manufacture a vehicle type approved in accordance with this\r\nRegulation, he shall so inform the Type Approval Authority which granted the approval. Upon receiving the\r\nrelevant communication that Authority shall inform thereof the other Parties to the Agreement applying this\r\nRegulation, by means of a communication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        32
+      ],
+      "text": "11. Transitional provisions"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        32
+      ],
+      "text": "11.1. As from the official date of entry into force of Supplement 10 to the 01 series of amendments, no\r\nContracting Party applying this Regulation shall refuse to grant approvals under this Regulation as amended by\r\nSupplement 10 to the 01 series of amendments."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        32
+      ],
+      "text": "11.2. As from 60 months after the date of entry into force mentioned in paragraph 11.1. above, Contracting Parties\r\napplying this Regulation shall grant approvals only if the vehicle type with regard to the number and mode of\r\ninstallation of the lighting and light-signalling devices corresponds to the requirements of the Supplement 10 to\r\nthe 01 series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.3",
+      "pages": [
+        32,
+        33
+      ],
+      "text": "11.3. Existing approvals granted under this Regulation before the date mentioned in paragraph 11.2. above shall\r\nremain valid. In the case of vehicles first registered more than 84 months after the date of entry into force\r\nmentioned in paragraph 11.1. above Contracting Parties applying this Regulation may refuse the vehicle type with\r\n\r\n\r\n\r\n\r\n\r\n\r\nregard to the number and mode of installation of the lighting and light-signalling devices which do not meet the\r\nrequirements of the Supplement 10 to the 01 series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.4",
+      "pages": [
+        33
+      ],
+      "text": "11.4. As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant approvals under this Regulation as amended by the 02 series of amendments."
+    },
+    {
+      "paragraph": "11.5",
+      "pages": [
+        33
+      ],
+      "text": "11.5. As from 48 months after the date mentioned in paragraph 11.4. above, Contracting Parties applying this\r\nRegulation shall grant approvals only if the vehicle type with regard to the number and mode of installation of the\r\nlighting and light-signalling devices corresponds to the requirements of the 02 series of amendments to this\r\nRegulation."
+    },
+    {
+      "paragraph": "11.6",
+      "pages": [
+        33
+      ],
+      "text": "11.6. Existing approvals granted under this Regulation before the date mentioned in paragraph 11.5. above shall\r\nremain valid."
+    },
+    {
+      "paragraph": "11.7",
+      "pages": [
+        33
+      ],
+      "text": "11.7. As from the official date of entry into force of the 03 series of amendments, no Contracting Party applying\r\nthis UN Regulation shall refuse to grant or refuse to accept UN type approvals under this UN Regulation as\r\namended by the 03 series of amendments."
+    },
+    {
+      "paragraph": "11.8",
+      "pages": [
+        33
+      ],
+      "text": "11.8. As from 1 September 2023, Contracting Parties applying this UN Regulation shall not be obliged to accept\r\nUN type approvals to the preceding series of amendments, first issued after 1 September 2023."
+    },
+    {
+      "paragraph": "11.9",
+      "pages": [
+        33
+      ],
+      "text": "11.9. Notwithstanding the transitional provisions above, Contracting Parties who start to apply this UN Regulation\r\nafter the date of entry into force of the most recent series of amendments are not obliged to accept UN type-\r\napprovals which were granted in accordance with any of the preceding series of amendments to this UN\r\nRegulation."
+    },
+    {
+      "paragraph": "11.10",
+      "pages": [
+        33
+      ],
+      "text": "11.10. Notwithstanding paragraph 11.8., Contracting Parties applying this UN Regulation shall continue to accept\r\nUN type approvals to the preceding series of amendments to this UN Regulation, first issued after 1 September\r\n2023 and extension thereof, for the vehicles which are not affected by the changes introduced by the 03 series of\r\namendments.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "11.11",
+      "pages": [
+        33
+      ],
+      "text": "11.11. Contracting Parties applying this UN Regulation shall not refuse to grant UN type approvals according to\r\nany preceding series of amendments to this UN Regulation or extensions thereof."
+    },
+    {
+      "paragraph": "11.12",
+      "pages": [
+        33
+      ],
+      "text": "11.12. Transitional provisions applicable to the 04 series of amendments"
+    },
+    {
+      "paragraph": "11.12.1",
+      "pages": [
+        33
+      ],
+      "text": "11.12.1. As from the official date of entry into force of the 04 series of amendments, no Contracting Party\r\napplying this Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended\r\nby the 04 series of amendments."
+    },
+    {
+      "paragraph": "11.12.2",
+      "pages": [
+        33
+      ],
+      "text": "11.12.2. As from 1 September 2028, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals to the preceding series of amendments, first issued after 1 September 2028."
+    },
+    {
+      "paragraph": "11.12.3",
+      "pages": [
+        33
+      ],
+      "text": "11.12.3. Until 1 September 2030, Contracting Parties applying this Regulation shall accept type approvals to the\r\npreceding series of amendments, first issued before 1 September 2028."
+    },
+    {
+      "paragraph": "11.12.4",
+      "pages": [
+        33
+      ],
+      "text": "11.12.4. As from 1 September 2030, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals, and extensions thereof, issued to the preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.12.5",
+      "pages": [
+        33
+      ],
+      "text": "11.12.5. Notwithstanding the transitional provisions above, Contracting Parties who start to apply this Regulation\r\nafter the date of entry into force of the most recent series of amendments are not obliged to accept type approvals\r\nwhich were granted in accordance with any of the preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.12.6",
+      "pages": [
+        33
+      ],
+      "text": "11.12.6. Notwithstanding paragraph 11.12.4., Contracting Parties applying this Regulation shall continue to accept\r\ntype approvals to the preceding series of amendments to this Regulation and extension thereof, for the vehicles\r\nwhich are not affected by the changes introduced by the 04 series of amendments."
+    },
+    {
+      "paragraph": "11.12.7",
+      "pages": [
+        33
+      ],
+      "text": "11.12.7. Contracting Parties applying this Regulation may grant type approvals according to any preceding series\r\nof amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.12.8",
+      "pages": [
+        34
+      ],
+      "text": "11.12.8. Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to\r\nany preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        34
+      ],
+      "text": "12. Names and addresses of Technical Services responsible for conducting\r\napproval tests, and of Type Approval Authorities\r\nThe Contracting Parties to the 1958 Agreement which apply this Regulation shall communicate to the United\r\nNations Secretary-General the names and addresses of the Technical Services responsible for conducting approval\r\ntests and of the Type Approval Authorities which grant approval and to which forms certifying approval,\r\nextension or refusal or withdrawal of approval, issued, in other countries, are to be sent."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        34
+      ],
+      "text": "Annex 1 Communication\r\n(maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by: Name of administration:\r\n.......................................\r\n.......................................\r\n.......................................\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of category L3 vehicle with regard to the installation of lighting and light-signalling devices, pursuant to\r\nUN Regulation No. 53.\r\nApproval No. ……………………….. Extension No. …………………………………..."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        34
+      ],
+      "text": "1 Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulation).",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        34
+      ],
+      "text": "2 Strike out what does not apply.\r\n\r\n1. Trade name or mark of the vehicle: .............................\r\n2. Manufacturer's name for the type of vehicle: .............................",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        34
+      ],
+      "text": "3. Manufacturer's name and address: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        35
+      ],
+      "text": "4. If applicable, name and address of the manufacturer's representative: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        35
+      ],
+      "text": "5. Submitted for approval on: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        35
+      ],
+      "text": "6. Technical Service responsible for conducting approval tests: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        35
+      ],
+      "text": "7. Date of test report: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        35
+      ],
+      "text": "8. Number of test report: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        35
+      ],
+      "text": "9. Concise description: .............................\r\nLighting devices on the vehicle:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.1",
+      "pages": [
+        35
+      ],
+      "text": "9.1. Driving lamps: yes/no2 .............................\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.2",
+      "pages": [
+        35
+      ],
+      "text": "9.2. Passing lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.3",
+      "pages": [
+        35
+      ],
+      "text": "9.3. Front fog lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.\r\n\r\n9.4. -",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.5",
+      "pages": [
+        35
+      ],
+      "text": "9.5. Direction indicators: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.\r\n\r\n9.6. -",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.7",
+      "pages": [
+        35
+      ],
+      "text": "9.7. Repeating side direction indicators: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.8",
+      "pages": [
+        35
+      ],
+      "text": "9.8. Hazard warning signal: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.9",
+      "pages": [
+        35
+      ],
+      "text": "9.9. Stop lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.10",
+      "pages": [
+        35
+      ],
+      "text": "9.10. Rear-registration-plate illuminating device: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.11",
+      "pages": [
+        35
+      ],
+      "text": "9.11. Front position (side) lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.12",
+      "pages": [
+        35
+      ],
+      "text": "9.12. Rear position (side) lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.13",
+      "pages": [
+        35
+      ],
+      "text": "9.13. Rear fog lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.\r\n\r\n9.14. -\r\n9.15. -",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.16",
+      "pages": [
+        35,
+        36
+      ],
+      "text": "9.16. Rear retro-reflectors, non-triangular: yes/no2\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2 Strike out what does not apply.\r\n\r\n9.17. -\r\n9.18. -",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.19",
+      "pages": [
+        36
+      ],
+      "text": "9.19. Side retro-reflectors, non-triangular: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.20",
+      "pages": [
+        36
+      ],
+      "text": "9.20. Equivalent lamps: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.21",
+      "pages": [
+        36
+      ],
+      "text": "9.21. Emergency stop signal: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.22",
+      "pages": [
+        36
+      ],
+      "text": "9.22. Exterior courtesy lamp: yes/no2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 9.23",
+      "pages": [
+        36
+      ],
+      "text": "9.23. Lamps approved for and equipped with LED substitute light source(s) are allowed to be installed on this\r\nvehicle type: yes/no2, 4\r\n\r\n\r\n2 Strike out what does not apply.\r\n\r\n\r\n4 If yes, list the applicable lamps.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        36
+      ],
+      "text": "10. Any comments: ............................."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        36
+      ],
+      "text": "11. Masses as declared by the manufacturer3\r\n\r\n\r\n3 These sections only need to be completed if the test according to paragraph 6.2.5.4. of this Regulation is performed.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 11.1",
+      "pages": [
+        36
+      ],
+      "text": "11.1. Mass in running order:\r\nTotal mass: .............................. kg\r\nMass on the front wheel: .............................. kg\r\nMass on the rear wheel: .............................. kg"
+    },
+    {
+      "paragraph": "Annex 1 / 11.2",
+      "pages": [
+        36
+      ],
+      "text": "11.2. Gross vehicle mass:\r\nTotal mass: .............................. kg\r\nMass on the front wheel: .............................. kg\r\nMass on the rear wheel: .............................. kg"
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        36
+      ],
+      "text": "12. Position of the approval mark: .............................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        36
+      ],
+      "text": "13. Reason(s) for extension (if applicable):"
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        36
+      ],
+      "text": "14. Approval granted/refused/extended/withdrawn:2\r\n\r\n\r\n2 Strike out what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        36
+      ],
+      "text": "15. Place: .............................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        36
+      ],
+      "text": "16. Date: .............................."
+    },
+    {
+      "paragraph": "Annex 1 / 17",
+      "pages": [
+        36
+      ],
+      "text": "17. Signature: .............................."
+    },
+    {
+      "paragraph": "Annex 1 / 18",
+      "pages": [
+        36
+      ],
+      "text": "18. The list of documents deposited with the Type Approval Authority which has granted the approval is annexed\r\nto this communication and may be obtained upon request."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        37
+      ],
+      "text": "Annex 2 Arrangement of approval marks\r\nModel A\r\n(see paragraph 4.4. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a motorcycle shows that the vehicle type concerned has, with regard to the\r\ninstallation of lighting and light-signalling devices, been approved in the Netherlands (E 4), pursuant to UN\r\nRegulation No. 53, as amended by the 03 series of amendments. The approval number indicates that the approval\r\nwas granted in accordance with the requirements of UN Regulation No. 53.\r\nModel B\r\n(see paragraph 4.5. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a motorcycle shows that the vehicle type concerned has been approved in the\r\nNetherlands (E 4) pursuant to Regulations Nos. 53 and 78.1 The approval numbers indicate that, at the dates when\r\nthe respective approvals were granted, UN Regulation No. 53 included the 03 series of amendments and UN\r\nRegulation No. 78 already included the 04 series of amendments."
+    },
+    {
+      "paragraph": "Annex 2 / 1",
+      "pages": [
+        37
+      ],
+      "text": "1 The second number is given merely as an example.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        38
+      ],
+      "text": "Annex 3 Lamp surfaces, axis and centre of reference, and angles of\r\ngeometric visibility\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nKey"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        38
+      ],
+      "text": "1. Illuminating surface"
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        38
+      ],
+      "text": "2. Axis of reference"
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        38
+      ],
+      "text": "3. Centre of reference"
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        38
+      ],
+      "text": "4. Angle of geometric visibility"
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        38
+      ],
+      "text": "5. Light-emitting surface"
+    },
+    {
+      "paragraph": "Annex 3 / 6",
+      "pages": [
+        38
+      ],
+      "text": "6. Apparent surface based on illuminating surface"
+    },
+    {
+      "paragraph": "Annex 3 / 7",
+      "pages": [
+        38
+      ],
+      "text": "7. Apparent surface based on light-emitting surface"
+    },
+    {
+      "paragraph": "Annex 3 / 8",
+      "pages": [
+        38,
+        39
+      ],
+      "text": "8. Direction of visibility\r\nNote: Notwithstanding the drawing, the apparent surface is to be considered as tangent to the light-emitting\r\nsurface.\r\nIlluminating surface in comparison with light-emitting surface\r\nSketch A\r\n(See paragraphs 2.9. and 2.8. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\nSketch B\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n             Illuminating surface    Light-emitting surface\r\n Edges are   a and b                 c and d"
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        39
+      ],
+      "text": "Annex 4 Forward visibility of red lights and rearward visibility of white lights\r\n(See paragraph 5.9. of this Regulation)"
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        39
+      ],
+      "text": "Figure 1 Forward visibility of a red lamp",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        40
+      ],
+      "text": "Figure 2 Rearward visibility of a white lamp",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        40
+      ],
+      "text": "Annex 5 Control of conformity of production"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        40
+      ],
+      "text": "1. Tests"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        40
+      ],
+      "text": "1.1. Position of lamps\r\nThe position of the lamps as specified in paragraph 6. of this Regulation shall be checked in accordance with the\r\ngeneral requirements set out in paragraph 5. of this Regulation. The values measured for the distances shall be\r\nsuch that the individual specifications applicable to each lamp are fulfilled."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2",
+      "pages": [
+        40
+      ],
+      "text": "1.2. Visibility of lamps"
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.1",
+      "pages": [
+        41
+      ],
+      "text": "1.2.1. The angles of geometric visibility shall be checked in accordance with paragraph 2.13. of UN Regulation\r\nNo. 48. The values measured for the angles shall be such that the individual specifications applicable to each lamp\r\nare fulfilled except that the limits of the angles may have an allowance corresponding to the ±3° variation\r\npermitted in paragraph 5.3. of this Regulation for the mounting of the light-signalling devices."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2.2",
+      "pages": [
+        41
+      ],
+      "text": "1.2.2. The visibility of red light towards the front and of white light towards the rear shall be checked in\r\naccordance with paragraph 5.9. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 5 / 1.3",
+      "pages": [
+        41
+      ],
+      "text": "1.3. Alignment of passing-beam headlamps towards the front"
+    },
+    {
+      "paragraph": "Annex 5 / 1.3.1",
+      "pages": [
+        41
+      ],
+      "text": "1.3.1. Initial downward inclination\r\n(The initial downward inclination of the cut-off of the passing-beam shall be checked against the requirements of\r\nparagraph 6.2.5. of this Regulation)."
+    },
+    {
+      "paragraph": "Annex 5 / 1.4",
+      "pages": [
+        41
+      ],
+      "text": "1.4. Electrical connections and tell-tales\r\nThe electrical connections shall be checked by switching on every lamp supplied by the electrical system of the\r\nmotorcycle.\r\nThe lamps and tell-tales shall function in accordance with the provisions set out in paragraphs 5.10. to 5.12. of this\r\nRegulation and with the individual specifications, applicable to each lamp."
+    },
+    {
+      "paragraph": "Annex 5 / 1.5",
+      "pages": [
+        41
+      ],
+      "text": "1.5. Light intensities"
+    },
+    {
+      "paragraph": "Annex 5 / 1.5.1",
+      "pages": [
+        41
+      ],
+      "text": "1.5.1. Driving-beam headlamps\r\nThe aggregate maximum intensity of the driving-beam headlamp(s) shall be such that the requirement in\r\nparagraph 6.1.9. of this Regulation is fulfilled."
+    },
+    {
+      "paragraph": "Annex 5 / 1.6",
+      "pages": [
+        41
+      ],
+      "text": "1.6. The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by\r\nvisual inspection of the lamps and their markings. These shall be such that the requirements set out in paragraph\r\n5.13. of this Regulation and the individual specifications applicable to each lamp are fulfilled.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        41,
+        42
+      ],
+      "text": "Annex 6 Explanation about \"the horizontal inclination\", \"the bank angle\" and\r\nthe angle \"δ\"\r\nFigure 1\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nNote: This figure shows the motorcycle is banked to the right side."
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        42
+      ],
+      "text": "Annex 7 Observing area towards the apparent surface of exterior courtesy\r\nlamps\r\nZones of observation\r\nThis drawing shows the zone from one side, the other zones are from the front, the rear and from the other side of\r\nthe vehicle."
+    },
+    {
+      "paragraph": "Annex 8",
+      "pages": [
+        43
+      ],
+      "text": "Annex 8 Ambient light related automatic switching conditions for passing\r\nbeam\r\n Automatic switching conditions for passing beam1\r\n\r\n Ambient light outside the vehicle2        Headlamps requirement             Response time for switching\r\n\r\n less than 1,000 lux                       ON                                no more than 2 seconds\r\n\r\n 1,000 lux and more than 1,000 lux         at manufacturer’s discretion      at manufacturer’s discretion"
+    },
+    {
+      "paragraph": "Annex 8 / 1",
+      "pages": [
+        43
+      ],
+      "text": "1 Compliance with these conditions shall be demonstrated by the applicant, by simulation or other means of\r\nverification accepted by the Type Approval Authority.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 8 / 2",
+      "pages": [
+        43
+      ],
+      "text": "2 The illuminance shall be measured on a horizontal surface, with a cosine corrected sensor on the same height as\r\nthe mounting position of the sensor on the vehicle. This may be demonstrated by the manufacturer by sufficient\r\ndocumentation or by other means accepted by the Type Approval Authority.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 9",
+      "pages": [
+        43
+      ],
+      "text": "Annex 9 Test drive"
+    },
+    {
+      "paragraph": "Annex 9 / 1",
+      "pages": [
+        43
+      ],
+      "text": "1. Test drive specifications for the automatic control of the driving-beam headlamp(s)."
+    },
+    {
+      "paragraph": "Annex 9 / 1.1",
+      "pages": [
+        43
+      ],
+      "text": "1.1. The test drive shall be carried out in clear atmosphere1 and with clean headlamp(s).\r\n\r\n\r\n1 Good visibility (meteorological optical range MOR > 2,000 m defined according to WMO, Guide to Meteorological Instruments and\r\nMethods of Observation, Sixth Edition, ISBN: 92-63-16008-2, pp 1. 9. 1/ 1. 9. 11, Geneva 1996).",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 9 / 1.2",
+      "pages": [
+        43,
+        44
+      ],
+      "text": "1.2. The test course shall comprise test sections with traffic conditions, at speed corresponding to the relevant type\r\nof road, as described in Table 1 below:\r\nTable 1\r\n\r\n Test       Traffic conditions                                                                 Road type\r\n Section\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nUrban          Multi-lane           Country\r\n                                                                                                   areas          road, e.g.           road\r\n                                                                                                                  motorway\r\n\r\n            Speed                                                                                  50 ± 10        100 ± 20 km/h        80 ± 20\r\n                                                                                                   km/h                                km/h\r\n\r\n            Average percentage of the full test course length                                      10 per         20 per cent          70 per\r\n                                                                                                   cent                                cent\r\n\r\n A          Single oncoming vehicle or single preceding vehicle in a frequency so                                 X                    X\r\n            that the driving-beam will switch ON and OFF.\r\n\r\n B          Combined oncoming and preceding traffic situations, in a frequency                                    X                    X\r\n            so that the driving-beam will switch ON and OFF.\r\n\r\n C          Active and passive overtaking manoeuvres, in a frequency so that the                                  X                    X\r\n            driving-beam will switch ON and OFF.\r\n\r\n D          Oncoming bicycle, as described in paragraph 6.1.8.3.1.2.                                                                   X\r\n\r\n E          Combined oncoming and preceding traffic situations                                     X"
+    },
+    {
+      "paragraph": "Annex 9 / 1.3",
+      "pages": [
+        44
+      ],
+      "text": "1.3. Urban areas shall comprise roads with and without illumination."
+    },
+    {
+      "paragraph": "Annex 9 / 1.4",
+      "pages": [
+        44
+      ],
+      "text": "1.4. Country roads shall comprise sections having two lanes and sections having four or more lanes and shall\r\ninclude junctions, hills and/or slopes, dips and winding roads."
+    },
+    {
+      "paragraph": "Annex 9 / 1.5",
+      "pages": [
+        44
+      ],
+      "text": "1.5. Multi-lane roads (e.g. motorways) and country roads shall comprise sections having straight level parts with a\r\nlength of more than 600 m. Additionally they shall comprise sections having curves to the left and to the right."
+    },
+    {
+      "paragraph": "Annex 9 / 1.6",
+      "pages": [
+        44
+      ],
+      "text": "1.6. Dense traffic situations shall be taken into account."
+    },
+    {
+      "paragraph": "Annex 9 / 2",
+      "pages": [
+        44
+      ],
+      "text": "2. Test drive specifications for adaptive driving-beam headlamp(s)"
+    },
+    {
+      "paragraph": "Annex 9 / 2.1",
+      "pages": [
+        44
+      ],
+      "text": "2.1. The test drive shall be carried out in clear atmosphere1 and with clean headlamp(s).\r\n\r\n\r\n1 Good visibility (meteorological optical range MOR > 2,000 m defined according to WMO, Guide to Meteorological Instruments and\r\nMethods of Observation, Sixth Edition, ISBN: 92-63-16008-2, pp 1. 9. 1/ 1. 9. 11, Geneva 1996).",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 9 / 2.2",
+      "pages": [
+        44,
+        45
+      ],
+      "text": "2.2. The test course shall comprise test sections with traffic conditions, at speed corresponding to the relevant type\r\nof road, as described in Table 2 below:\r\nTable 2\r\n\r\n Test       Traffic conditions                                                               Road type\r\n Section                                                                                     Urban         Multi-lane road, e.g.       Country\r\n                                                                                             areas         motorway                    road\r\n\r\n            Speed                                                                            50 ± 10       100 ± 20 km/h               80 ± 20\r\n                                                                                             km/h                                      km/h\r\n\r\n            Average percentage of the full test course length                                10 per        20 per cent                 70 per\r\n                                                                                             cent                                      cent\r\n\r\n A          Single oncoming vehicle or single preceding vehicle in a                                       X                           X\r\n            frequency so that the adaptive driving-beam will react to\r\n            demonstrate the adaptation process.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nB          Combined oncoming and preceding traffic situations. In a                                     X                          X\r\n            frequency so that the adaptive driving-beam will react to\r\n            demonstrate the adaptation process.\r\n\r\n C          Active and passive overtaking manoeuvres, in a frequency so that                             X                          X\r\n            the adaptive driving-beam will react to\r\n            demonstrate the adaptation process.\r\n\r\n D          Oncoming bicycle, as described in paragraph 6.16.8.1.1.2.                                                               X\r\n\r\n E          Combined oncoming and preceding traffic situations                             X"
+    },
+    {
+      "paragraph": "Annex 9 / 2.3",
+      "pages": [
+        45
+      ],
+      "text": "2.3. Urban areas shall comprise roads with and without illumination."
+    },
+    {
+      "paragraph": "Annex 9 / 2.4",
+      "pages": [
+        45
+      ],
+      "text": "2.4. Country roads shall comprise sections having two lanes and sections having four or more lanes and shall\r\ninclude junctions, hills and/or slopes, dips and winding roads."
+    },
+    {
+      "paragraph": "Annex 9 / 2.5",
+      "pages": [
+        45
+      ],
+      "text": "2.5. Multi lane roads (e.g. motorways) and country roads shall comprise sections having straight level parts with a\r\nlength of more than 600 m. Additionally they shall comprise of sections having curves to the left and to the right."
+    },
+    {
+      "paragraph": "Annex 9 / 2.6",
+      "pages": [
+        45
+      ],
+      "text": "2.6. Dense traffic situations shall be taken into account."
+    },
+    {
+      "paragraph": "Annex 9 / 2.7",
+      "pages": [
+        45
+      ],
+      "text": "2.7. For the test sections A and B in the table above the engineers conducting the tests shall evaluate and record\r\nthe acceptability of the performance of the adaptation process in relation to oncoming and preceding road users.\r\nThis means that the test engineers shall operate the vehicle being tested and additionally operate the oncoming and\r\npreceding vehicles.\r\nAt the request of the Type Approval Authority, compliance with traffic scenarios other than the ones listed in"
+    },
+    {
+      "paragraph": "Table 2",
+      "pages": [
+        45
+      ],
+      "text": "Table 2 may be demonstrated by the manufacturer by providing sufficient documentation or by other means\r\naccepted by the Type Approval Authority.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    }
+  ]
+}

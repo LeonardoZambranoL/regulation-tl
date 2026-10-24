@@ -1,0 +1,2886 @@
+{
+  "regulation": "UN R127",
+  "version": "4.3.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R127 (version 4.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to motor vehicles of categories M1 and N1.1\r\n\r\nHowever, vehicles of category N1 where the driver’s position \"R-point\" is either forward of the front axle or\r\nlongitudinally rearwards of the front axle transverse centreline by a maximum of 1,100 mm, are exempted from\r\nthe requirements of this Regulation.\r\nThis Regulation does not apply to vehicles of category M1 above 2,500 kg maximum mass and which are derived\r\nfrom N1 category vehicles, and where the driver’s position \"R-point\" is either forward of the front axle or\r\nlongitudinally rearwards of the front axle transverse centreline by a maximum of 1,100 mm; for these vehicle\r\ncategories Contracting Parties may continue to apply the requirements already in force for that purpose at the time\r\nof acceding to this Regulation.\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2. -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nWhen performing measurements as described in this Part, the vehicle should be positioned in its normal ride\r\nattitude.\r\nIf the vehicle is fitted with a badge, mascot or other structure, which would bend back or retract under an applied\r\nload of maximum 100 N, then this load shall be applied before and/or while these measurements are taken.\r\nAny vehicle component which could change shape or position, other than suspension components or active\r\ndevices to protect pedestrians, shall be set to their stowed position.\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Adult headform bonnet top test area\" is an area on the outer surfaces of the front structure. The area is\r\nbound:\r\n(a) In the front, by a wrap around distance (WAD) of 1,700 or a line 82.5 mm rearward of the bonnet leading edge\r\nreference line, whichever is most rearward at a given lateral position;\r\n(b) At the rear, by a WAD 2,5001 or a line 82.5 mm forward of the bonnet rear reference line2, whichever is most\r\nforward at a given lateral position, and\r\n(c) At each side, by a line 82.5 mm inside the side reference line.\r\nThe distance of 82.5 mm is to be set with a flexible tape held tautly along the outer surface of the vehicle.\r\n\r\n1 or WAD 2,100 in accordance with paragraphs 11.19. to 11.21.\r\n\r\n2 In the case where the BRRL is not on the bonnet and the line 82.5 mm forward of the BRRL is rearward of WAD 2100, then the rear\r\nphysical edge of the bonnet shall be used as BRRL, in accordance with paragraphs 11.22. and 11.23.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1,
+        2
+      ],
+      "text": "2.2. \"Assessment Interval (AI)\" of the flexible lower legform impactor is defined and limited by the time of first\r\ncontact of the flexible lower legform impactor with the vehicle and the timing of the last zero crossing of all\r\nfemur and tibia segments after their first local maximum subsequent to any marginal value of 15 Nm, within their\r\nparticular common zero crossing phases. The AI is identical for all bone segments and knee ligaments. In case of\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nany bone segment not having a zero crossing during the common zero crossing phases, the time history curves for\r\nall bone segments are shifted downwards until all bending moments are crossing zero. The downwards shift is to\r\nbe applied for the determination of the AI only."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.3. \"A-pillar\" means the foremost and outermost roof support extending from the chassis to the roof of the\r\nvehicle."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. \"Approval of a vehicle type\" means the full procedure whereby a Contracting Party to the Agreement certifies\r\nthat a vehicle type meets the technical requirements of this Regulation."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Bonnet leading edge\" means the edge of the front upper outer structure of the vehicle, including the bonnet\r\nand wings, the upper and side members of the headlight surrounds and any other attachments. The reference line\r\nidentifying the position of the bonnet leading edge is defined by its height above the ground reference plane and\r\nby the horizontal distance separating it from the bumper (bumper lead)."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Bonnet leading edge height\" means, at any point on the bonnet leading edge, the vertical distance between\r\nthe ground reference plane and the bonnet leading edge reference line at that point."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Bonnet leading edge reference line\" means the geometric trace of the points of contact between a straight\r\nedge 1,000 mm long and the front surface of the bonnet, when the straight edge, held parallel to the vertical\r\nlongitudinal plane of the car and inclined rearwards by 50° from the vertical and with the lower end 600 mm\r\nabove the ground, is traversed across and in contact with the bonnet leading edge (see Figure 1).\r\nFor vehicles having the bonnet top surface inclined at 50°, so that the straight edge makes a continuous contact or\r\nmultiple contacts rather than a point contact, the reference line is determined with the straight edge inclined\r\nrearwards at an angle of 40° from the vertical.\r\nFor vehicles of such shape that the bottom end of the straight edge makes first contact, then that contact is taken to\r\nbe the bonnet leading edge reference line, at that lateral position.\r\nFor vehicles of such shape that the top end of the straight edge makes first contact with the vehicle, then the\r\ngeometric trace of 1,000 mm wrap around distance will be used as the bonnet leading edge reference line at that\r\nlateral position.\r\nThe top edge of the bumper shall also be regarded as the bonnet leading edge for the purposes of this Regulation,\r\nif it is contacted by the straight edge during this procedure."
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        2
+      ],
+      "text": "Figure 1 Bonnet leading edge reference line",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        3
+      ],
+      "text": "2.8. \"Bonnet rear reference line\" (BRRL) means the geometric trace of the most rearward points of contact\r\nbetween a 165 mm diameter sphere and the front structure of the vehicle when the sphere is traversed across the\r\nfront structure of the vehicle while maintaining contact with the windscreen (see Figure 2). The wiper blades and\r\narms are removed during this process.\r\nWhere the bonnet rear reference line and the side reference line do not intersect, the bonnet rear reference line\r\nshould be extended and/or modified using a semi-circular template, of radius 100 mm. The template should be\r\nmade of a thin flexible sheet material that easily bends to a single curvature in any direction. The template should,\r\npreferably, resist double or complex curvature where this could result in wrinkling. The recommended material is\r\na foam backed thin plastic sheet to allow the template to \"grip\" the surface of the vehicle.\r\nThe template should be marked up with four points \"A\" through \"D\", as shown in Figure 3, while the template is\r\non a flat surface.\r\nThe template should be placed on the vehicle with Corners \"A\" and \"B\" coincident with the side reference line.\r\nEnsuring these two corners remain coincident with the side reference line, the template should be slid\r\nprogressively rearwards until the arc of the template makes first contact with the bonnet rear reference line.\r\nThroughout the process, the template should be curved to follow, as closely as possible, the outer contour of the\r\nvehicle's bonnet top, without wrinkling or folding of the template. If the contact between the template and bonnet\r\nrear reference line is tangential and the point of tangency lies outside the arc scribed by points \"C\" and \"D\", then\r\nthe bonnet rear reference line is extended and/or modified to follow the circumferential arc of the template to meet\r\nthe bonnet side reference line, as shown in Figure 4.\r\nIf the template cannot make simultaneous contact with the bonnet side reference line at points \"A\" and \"B\" and\r\ntangentially with the bonnet rear reference line, or the point at which the bonnet rear reference line and template\r\ntouch lies within the arc scribed by points \"C\" and \"D\", then additional templates should be used where the radii\r\nare increased progressively in increments of 20 mm, until all the above criteria are met."
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        3
+      ],
+      "text": "Figure 2 Bonnet rear reference line",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        3
+      ],
+      "text": "Figure 3 Template",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 4",
+      "pages": [
+        4
+      ],
+      "text": "Figure 4 Marking of intersection between bonnet rear and side reference lines",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        4
+      ],
+      "text": "2.9. \"Bonnet top\" is the area which is bounded by (a), (b) and (c) as follows:\r\n(a) The bonnet leading edge reference line;\r\n(b) The bonnet rear reference line;\r\n(c) The side reference lines."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        4
+      ],
+      "text": "2.10. \"Bonnet top test area\" is composed of the child headform bonnet top test area and the adult headform bonnet\r\ntop test area as defined in paragraphs 2.1. and 2.16. respectively."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        4
+      ],
+      "text": "2.11. \"Bumper\" means the front, lower, outer structure of a vehicle. It includes all structures that are intended to\r\ngive protection to a vehicle when involved in a low speed frontal collision and also any attachments to this\r\nstructure. The reference height and lateral limits of the bumper are identified by the corners and the bumper\r\nreference lines."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        4
+      ],
+      "text": "2.12. \"Bumper beam\" means the structural cross member, rearward of the bumper fascia if present, protecting the\r\nfront of the vehicle. The beam does not include foam, cover support or any pedestrian protection devices."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        4
+      ],
+      "text": "2.13. \"Bumper lead\" means for any longitudinal section of a vehicle, the horizontal distance measured in any\r\nvehicle vertical longitudinal plane between the upper bumper reference line and the bonnet leading edge reference\r\nline."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "2.14. \"Bumper test area\" means either the front vehicle fascia between the left and right corner of bumper as\r\ndefined in paragraph 2.17., minus the areas covered by the distance of 42 mm inboard of each corner of bumper as\r\nmeasured horizontally and perpendicular to the longitudinal median plane of the vehicle, or between the\r\n\r\n\r\n\r\n\r\n\r\noutermost ends of the bumper beam as defined in paragraph 2.12. (see Figure 5D), minus the areas covered by the\r\ndistance of 42 mm inboard of each end of the bumper beam, as measured horizontally and perpendicular to the\r\nlongitudinal median plane of the vehicle, whichever area is wider."
+    },
+    {
+      "paragraph": "2.15",
+      "pages": [
+        5
+      ],
+      "text": "2.15. \"Centre of the knee\" of the lower legform impactor is defined as the point about which the knee effectively\r\nbends."
+    },
+    {
+      "paragraph": "2.16",
+      "pages": [
+        5
+      ],
+      "text": "2.16. \"Child headform bonnet top test area\" is an area on the outer surfaces of the front structure. The area is\r\nbound:\r\n(a) In the front, by a WAD 1,000 or a line 82.5 mm rearward of the bonnet leading edge reference line, whichever\r\nis most rearward at a given lateral position,\r\n(b) At the rear, by a WAD 1,700 or a line 82.5 mm forward of the bonnet rear reference line, whichever is most\r\nforward at a given lateral position, and\r\n(c) At each side, by a line 82.5 mm inside the side reference line.\r\nThe distance of 82.5 mm is to be set with a flexible tape held tautly along the outer surface of the vehicle."
+    },
+    {
+      "paragraph": "2.17",
+      "pages": [
+        5
+      ],
+      "text": "2.17. \"Corner of bumper\" means the transversal position of the vehicle's point of contact with a corner gauge as\r\ndefined in Figure 5B.\r\nFor determination of the corner of bumper, the front surface of the corner gauge is moved parallel to a vertical\r\nplane with an angle of 60° to the vertical longitudinal centre plane of the vehicle (see Figures 5A and 5C) at any\r\nheight of the centre point of the corner gauge between:\r\n(a) Equal to and above the point found on the vertical line intersecting the lower bumper reference line at the\r\nassessment position in transversal direction or at 75 mm above the ground reference plane, whichever is higher.\r\n(b) Equal to and below the point found on the vertical line intersecting the upper bumper reference line at the\r\nassessment position in transversal direction or at 1,003 mm above the ground reference plane, whichever is lower.\r\nFor determination of the corner of bumper, the gauge is moved to contact the outer contour/front fascia of the\r\nvehicle touching at the vertical centre line of the gauge. The horizontal centre line of the gauge is kept parallel to\r\nthe ground plane.\r\nThe corners of bumper on both sides are subsequently defined as the outermost points of contact of the gauge with\r\nthe outer contour/front fascia of the vehicle as determined in accordance with this procedure. Any points of\r\ncontact on the top and the bottom edges of the gauge are not taken into account. The external devices for indirect\r\nvision and the tyres shall not be considered."
+    },
+    {
+      "paragraph": "Figure 5A",
+      "pages": [
+        5
+      ],
+      "text": "Figure 5A Corner of bumper example (see paragraph 2.17., note that the corner gauge is to be moved in\r\nvertical and horizontal directions to enable contact with the outer contour/ front fascia of the vehicle)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 5B",
+      "pages": [
+        6
+      ],
+      "text": "Figure 5B Corner gauge\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe front surface of the corner gauge is flat.\r\nThe centre point is the intersection of the vertical and horizontal centre lines on the front surface.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 5C",
+      "pages": [
+        6
+      ],
+      "text": "Figure 5C Determination of the corner of bumper with the corner gauge (shown in random location)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 5D",
+      "pages": [
+        7
+      ],
+      "text": "Figure 5D Determination of bumper test area (note that the corner gauges are to be moved in vertical and\r\nhorizontal directions to enable contact with the outer contour/front fascia of the vehicle)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n                                                           \"",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.18",
+      "pages": [
+        7
+      ],
+      "text": "2.18. \"Corner reference point\" means the intersection of the bonnet leading edge reference line and of the bonnet\r\nside reference line (see Figure 6)."
+    },
+    {
+      "paragraph": "Figure 6",
+      "pages": [
+        7
+      ],
+      "text": "Figure 6 Determination of corner reference point; intersection of the bonnet leading edge reference line and\r\nthe bonnet side reference line",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.19",
+      "pages": [
+        8
+      ],
+      "text": "2.19. \"Driver mass\" means the nominal mass of a driver that shall be 75 kg (subdivided into 68 kg occupant mass\r\nat the seat and 7 kg luggage mass in accordance with ISO standard 2416-1992)."
+    },
+    {
+      "paragraph": "2.20",
+      "pages": [
+        8
+      ],
+      "text": "2.20. \"Femur\" of the lower legform impactor is defined as all components or parts of components (including\r\nflesh, skin covering, damper, instrumentation and brackets, pulleys, etc. attached to the impactor for the purpose\r\nof launching it) above the level of the centre of the knee."
+    },
+    {
+      "paragraph": "2.21",
+      "pages": [
+        8
+      ],
+      "text": "2.21. \"Front reference line for child headform\" means the geometric trace as described on the vehicle front\r\nstructure using a WAD1000 line. In the case of vehicles where the wrap around distance to the bonnet leading\r\nedge reference line, is more than 1,000 mm at any point, then the bonnet leading edge reference line will be used\r\nas the front reference line for child headform at that point."
+    },
+    {
+      "paragraph": "2.22",
+      "pages": [
+        8
+      ],
+      "text": "2.22. \"Front structure\" means all outer structures of the vehicle except the windscreen, the windscreen header, the\r\nA-pillars and structures rearward of these. It therefore includes, but is not limited to, the bumper, the bonnet,\r\nwings, scuttle, wiper spindles and lower windscreen frame."
+    },
+    {
+      "paragraph": "2.23",
+      "pages": [
+        8
+      ],
+      "text": "2.23. \"Ground reference plane\" means a horizontal plane, either real or imaginary, that passes through the lowest\r\npoints of contact for all tyres of a vehicle while the vehicle is in its normal ride attitude. If the vehicle is resting on\r\nthe ground, then the ground level and the ground reference plane are one and the same. If the vehicle is raised off\r\nthe ground such as to allow extra clearance below the bumper, then the ground reference plane is above ground\r\nlevel."
+    },
+    {
+      "paragraph": "2.24",
+      "pages": [
+        8
+      ],
+      "text": "2.24. \"Head Injury Criterion (HIC)\" means the calculated result of accelerometer time histories using the\r\nfollowing formula:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nWhere:\r\n\"a\" is the resultant acceleration measured in units of gravity \"g\" (1 g = 9.81 m/s²);\r\n\"t1\" and \"t2\" are the two time instants (expressed in seconds) during the impact, defining an interval between the\r\nbeginning and the end of the recording period for which the value of HIC is a maximum (t2 - t                         1 ≤ 15 ms)."
+    },
+    {
+      "paragraph": "2.25",
+      "pages": [
+        8
+      ],
+      "text": "2.25. \"Lower bumper height\" means the vertical distance between the ground reference plane and the lower\r\nbumper reference line, with the vehicle positioned in its normal ride attitude."
+    },
+    {
+      "paragraph": "2.26",
+      "pages": [
+        8
+      ],
+      "text": "2.26. \"Lower bumper reference line\" means the lower limit to significant points of pedestrian contact with the\r\nbumper. It is defined as the geometric trace of the lowermost points of contact between a straight edge 700 mm\r\nlong and the bumper, when the straight edge, held parallel to the vertical longitudinal plane of the vehicle and\r\ninclined forwards by 25° from the vertical, is traversed across the front of the vehicle, while maintaining contact\r\nwith the ground and with the surface of the bumper (see Figure 8)."
+    },
+    {
+      "paragraph": "Figure 7",
+      "pages": [
+        8
+      ],
+      "text": "Figure 7 Lower Bumper Reference Line (LBRL)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.27",
+      "pages": [
+        9
+      ],
+      "text": "2.27. \"Mass in running order\" means the nominal mass of a vehicle as determined by the sum of unladen vehicle\r\nmass and driver’s mass."
+    },
+    {
+      "paragraph": "2.28",
+      "pages": [
+        9
+      ],
+      "text": "2.28. \"Measuring point\"\r\nThe measuring point may also be referred to as \"test point\" or \"impact point\". In all cases, the result of the test\r\nshall be attributed to this point, independent of where first contact occurs."
+    },
+    {
+      "paragraph": "2.28.1",
+      "pages": [
+        9
+      ],
+      "text": "2.28.1. \"Measuring point\" for the headform test means a point on the vehicle’s outer surface selected for\r\nassessment. The measuring point is where the headform’s profile contacts the vehicle’s outer surface cross section\r\nin a vertical longitudinal plane through the center of gravity of the headform (see Figure 8A)."
+    },
+    {
+      "paragraph": "2.28.2",
+      "pages": [
+        9
+      ],
+      "text": "2.28.2. \"Measuring point\" for the lower legform to bumper test and the upper legform to bumper test is located in\r\nthe vertical longitudinal plane through the central axis of the impactor (see Figure 8B)."
+    },
+    {
+      "paragraph": "Figure 8A",
+      "pages": [
+        9
+      ],
+      "text": "Figure 8A Measuring point in the vertical longitudinal plane through the center of the headform impactor\r\n(see paragraph 2.28.1.)2\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2Remark: due to the spatial geometry of the bonnet top, the first contact may not occur in the same vertical longitudinal or transverse plane\r\nwhich contains measuring point A.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 8B",
+      "pages": [
+        9
+      ],
+      "text": "Figure 8B Measuring point in the vertical longitudinal plane through the central axis of the legform\r\nimpactor (see paragraph 2.28.2.)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.29",
+      "pages": [
+        10
+      ],
+      "text": "2.29. \"Normal ride attitude\" means the vehicle positioned on a flat horizontal surface with its mass in running\r\norder, with the tyres inflated to manufacturer recommended pressures, the front wheels in the straight-ahead\r\nposition and with a passenger mass placed on the front passenger seat. The front seats are placed at the nominal\r\nmid-track position. The suspension shall be set in normal running condition as specified by the manufacturer for a\r\nspeed of 40 km/h."
+    },
+    {
+      "paragraph": "2.29.1",
+      "pages": [
+        10
+      ],
+      "text": "2.29.1. \"Adjustable Ride Height Suspension System (ARHSS)\" means a system that could change the vehicle\r\nheight while driving (e.g. an active suspension)."
+    },
+    {
+      "paragraph": "2.30",
+      "pages": [
+        10
+      ],
+      "text": "2.30. \"Passenger mass\" means the nominal mass of a passenger that shall be 68 kg, with in addition a 7 kg\r\nprovision for luggage which shall be located in the luggage compartment(s) in accordance with ISO standard\r\n2416-1992."
+    },
+    {
+      "paragraph": "2.31",
+      "pages": [
+        10
+      ],
+      "text": "2.31. \"Primary reference marks\" means holes, surfaces, marks and identification signs on the vehicle body. The\r\ntype of reference mark used and the vertical (Z) position of each mark relative to the ground shall be specified by\r\nthe vehicle manufacturer according to the running conditions specified in paragraph 2.27. These marks shall be\r\nselected so as to be able to easily check the vehicle front and rear ride heights and vehicle attitude.\r\nIf the primary reference marks are found to be within ±25 mm of the design position in the vertical (Z) axis, then\r\nthe design position shall be considered to be the normal ride height. If this condition is met, either the vehicle\r\nshall be adjusted to the design position, or all further measurements shall be adjusted, and tests performed, to\r\nsimulate the vehicle being at the design position."
+    },
+    {
+      "paragraph": "2.32",
+      "pages": [
+        10
+      ],
+      "text": "2.32. \"Side reference line\" means the geometric trace of the highest points of contact between a straight edge 700\r\nmm long and the sides of the vehicle, when the straight edge, held parallel to the transverse vertical plane of the\r\nvehicle and inclined inwards by 45°, is traversed down, and maintains contact with the sides of the front structure\r\n(see Figure 9)."
+    },
+    {
+      "paragraph": "Figure 9",
+      "pages": [
+        10
+      ],
+      "text": "Figure 9 Side reference line",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.33",
+      "pages": [
+        10
+      ],
+      "text": "2.33. \"Third of the bonnet leading edge\" means the geometric trace between the corner reference points, measured\r\nwith a flexible tape following the outer contour of the leading edge, divided in three equal parts."
+    },
+    {
+      "paragraph": "2.34",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "2.34. \"Third of the bonnet top\" means the geometric trace of the area between the bonnet side reference lines,\r\nmeasured with a flexible tape following the outer contour of the bonnet top on any transverse section, divided in\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nthree equal parts."
+    },
+    {
+      "paragraph": "2.35",
+      "pages": [
+        11
+      ],
+      "text": "2.35. \"Third of the bumper\" means the geometric trace between the corners of the bumper, measured with a\r\nflexible tape following the outer contour of the bumper, divided in three equal parts."
+    },
+    {
+      "paragraph": "2.36",
+      "pages": [
+        11
+      ],
+      "text": "2.36. \"Tibia\" of the lower legform impactor is defined as all components or parts of components (including flesh,\r\nskin covering, instrumentation and brackets, pulleys, etc. attached to the impactor for the purpose of launching it)\r\nbelow the level of the centre of the knee. Note that the tibia as defined includes allowances for the mass, etc., of\r\nthe foot."
+    },
+    {
+      "paragraph": "2.37",
+      "pages": [
+        11
+      ],
+      "text": "2.37. \"Unladen vehicle mass\" means the nominal mass of a complete vehicle as determined by the following\r\ncriteria:"
+    },
+    {
+      "paragraph": "2.37.1",
+      "pages": [
+        11
+      ],
+      "text": "2.37.1. Mass of the vehicle with bodywork and all factory fitted equipment, electrical and auxiliary equipment for\r\nnormal operation of vehicle, including liquids, tools, fire extinguisher, standard spare parts, chocks and spare\r\nwheel, if fitted."
+    },
+    {
+      "paragraph": "2.37.2",
+      "pages": [
+        11
+      ],
+      "text": "2.37.2. The fuel tank shall be filled to at least 90 per cent of rated capacity and the other liquid containing systems\r\n(except those for used water) to 100 per cent of the capacity specified by the manufacturer"
+    },
+    {
+      "paragraph": "2.38",
+      "pages": [
+        11
+      ],
+      "text": "2.38. \"Upper bumper reference line\" means a line which identifies the upper limit to significant points of\r\npedestrian contact with the bumper. It is defined as the geometric trace of the upper most points of contact\r\nbetween a straight edge 700 mm long and the bumper, when the straight edge, held parallel to the vertical\r\nlongitudinal plane and inclined rearwards by 20°, is traversed across the front of the vehicle, while maintaining\r\ncontact with the ground and with the surface of the bumper (see Figure 10).\r\nWhere necessary the straight edge shall be shortened to avoid any contact with structures above the bumper."
+    },
+    {
+      "paragraph": "Figure 10",
+      "pages": [
+        11
+      ],
+      "text": "Figure 10 Upper Bumper Reference Line (UBRL)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.39",
+      "pages": [
+        11
+      ],
+      "text": "2.39. \"Vehicle type with regard to the pedestrian protection requirements\" means a category of vehicles which,\r\nforward of the A-pillars, do not differ in such essential respects as:\r\n(a) The structure,\r\n(b) The main dimensions,\r\n(c) The materials of the outer surfaces of the vehicle,\r\n(d) The component arrangement (external or internal),\r\nIn so far as they may be considered to have a negative effect on the results of the impact tests prescribed in this\r\nRegulation."
+    },
+    {
+      "paragraph": "2.40",
+      "pages": [
+        11
+      ],
+      "text": "2.40. \"Vehicles of category M1 derived from N1\" means those vehicles of M1 category which, forward of the A-\r\npillars, have the same general structure and shape as a pre-existing N1 category vehicle."
+    },
+    {
+      "paragraph": "2.41",
+      "pages": [
+        11
+      ],
+      "text": "2.41. \"Vehicles of category N1 derived from M1\" means those vehicles of N1 category which, forward of the A-\r\npillars, have the same general structure and shape as a pre-existing M1 category vehicle."
+    },
+    {
+      "paragraph": "2.42",
+      "pages": [
+        12
+      ],
+      "text": "2.42. \"Windscreen\" means the frontal glazing of the vehicle situated between the A-pillars."
+    },
+    {
+      "paragraph": "2.43",
+      "pages": [
+        12
+      ],
+      "text": "2.43. \"Wrap Around Distance (WAD)\" means the geometric trace described on the outer surface of the vehicle\r\nfront structure by one end of a flexible tape, when it is held in a vertical longitudinal plane of the vehicle and\r\ntraversed across the front structure. The tape is held taut throughout the operation with one end held at the same\r\nlevel as the ground reference plane, vertically below the front face of the bumper and the other end held in contact\r\nwith the front structure (see Figure 11). The vehicle is positioned in the normal ride attitude.\r\nThis procedure shall be followed, using alternative tapes of appropriate lengths, to describe wrap around distances\r\nof 1,000 mm (WAD1000), of 1,700 mm (WAD1700) and of 2,500 mm (WAD2500)1.\r\n\r\n\r\n1or WAD 2,100 in accordance with paragraph 11.9."
+    },
+    {
+      "paragraph": "Figure 11",
+      "pages": [
+        12
+      ],
+      "text": "Figure 11 Wrap around distance measurement",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.44",
+      "pages": [
+        12
+      ],
+      "text": "2.44. \"Windscreen test area\" is an area on the outer surface of the windscreen. It is bound (see figure 12):\r\n(a) In the front, by a line 100 mm rearward to the opaque obscuration of the windscreen. In case of absence of the\r\nopaque obscuration, the line is measured from the front visible edge of the windscreen material.\r\n(b) In the rear, by a WAD 2,500 or a line 130 mm forward to the rear visible edge of the windscreen material,\r\nwhichever is more forward at a given lateral position.\r\n(c) At each side, by a line 100 mm inside the opaque obscuration of the windscreen. In case of absence of the\r\nopaque obscuration, the line is measured from the side visible edge of the windscreen material.\r\nFor (a) and (c): the distances of 100 mm are to be measured with a flexible tape held tautly along the outer surface\r\nof the vehicle at an angle of 90° to the tangent line to the opaque obscuration limit or in case of absence of the\r\nopaque obscuration, from the visible edge respectively.\r\nFor (b): the distances of 130 mm is to be measured with a flexible tape held tautly along the outer surface of the\r\nvehicle at an angle of 90 ° to the tangent line to the rear visible edge of the windscreen."
+    },
+    {
+      "paragraph": "Figure 12",
+      "pages": [
+        12,
+        13
+      ],
+      "text": "Figure 12 Windscreen Test Area\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDepending on the geometry, in case there is no intersection between (b) and (c), resulting in an open test area,\r\nthen the marking shall be modified using theshortest distance to close the open test area (see figure 13).",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 13",
+      "pages": [
+        13
+      ],
+      "text": "Figure 13 Upper Corner Definition with \"Shortest Distance\"\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTests assigned to any measuring points located in the windscreen area forward of and including WAD 1,700 are\r\nperformed with the child headform impactor. Tests assigned to any measuring points located in the windscreen\r\narea rearward of WAD 1,700 are performed with the adult headform impactor.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.45",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "2.45. \"Cowl monitoring area\" is generally located near the rear of the bonnet test area and the front of the\r\nwindscreen test area.\r\nFor the adult head tests, if any, this area is bound:\r\n(a) In the front, by the forward most boundary of the adult headform bonnet top test area as defined in paragraph\r\n2.1. or a line 82.5 mm forward of the bonnet rear reference line, whichever is most rearward at a given lateral\r\nposition; and\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) At the rear, by a WAD 2,5003 or the front of the windscreen test area, whichever is most forward at a given\r\nlateral position.\r\nFor the child head tests, this area is bound:\r\n(a) In the front, by the forward most boundary of the child headform bonnet top test area as defined in paragraph\r\n2.16 or a line 82.5 mm forward of the bonnet rear reference line, whichever is most rearward at a given lateral\r\nposition; and\r\n(b) At the rear, by a WAD 1,700 or the front of the windscreen test area, whichever is most forward at a given\r\nlateral position.\r\nAt each side, the cowl monitoring area is bound by the TP line (see figure 14), where:\r\n(a) the \"T point\" is the rear corner of the bonnet top test area; and\r\n(b) the \"P corner point\" is the lower corner of the windscreen test area; using a flexible tape held tautly from point\r\nT to P.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Figure 14",
+      "pages": [
+        14
+      ],
+      "text": "Figure 14 Lateral Limits of the Cowl Monitoring Area",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 15",
+      "pages": [
+        15
+      ],
+      "text": "Figure 15 Particular case, if no unique \"P point\" corner\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIf there is no unique \"P point\" where the lines defined in 2.44 (a) and (c) intersect, then the \"P point\" is defined by\r\nthe first contact of a vertical plane intersecting the vertical longitudinal vehicle centre-plane at an angle of 45°\r\nwith the (a)-(c) transition of the windscreen test area boundary, as shown in Figure 15.\r\nTests assigned to any monitoring point located in the cowl monitoring area forward of and including WAD 1,700\r\nare performed with the child headform impactor. Tests assigned to any monitoring point located in the cowl\r\nmonitoring area rearward of WAD 1,700 are performed with the adult headform impactor.\r\n\r\n3 from WAD 2,100 boundary, if applicable, in accordance with paragraphs 11.19. to 11.21.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.46",
+      "pages": [
+        15
+      ],
+      "text": "2.46. \"Opaque obscuration\" means any area of the glazing preventing light transmission, including any solid black\r\nwindscreen-printed area, but excluding any shade band, dot-printed area, text or graphics."
+    },
+    {
+      "paragraph": "2.47",
+      "pages": [
+        15
+      ],
+      "text": "2.47. \"Shade band\" means any area of the glazing with a reduced light transmittance, excluding any opaque\r\nobscuration."
+    },
+    {
+      "paragraph": "2.48",
+      "pages": [
+        16
+      ],
+      "text": "2.48. \"Atypical windscreen fracture behaviour\" is where the headform to windscreen impact results in at least one\r\nof the following cases:\r\n(a) The absolute value of the minimum value of the derivation of the headform acceleration versus time is less\r\nthan 180 g/ms within the first 4 ms after the initial contact of the headform to the windscreen, as shown in Figure\r\n16 ; or",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Figure 16",
+      "pages": [
+        16
+      ],
+      "text": "Figure 16 Jerk Criterion Graph and Formula\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) The minimum value of the acceleration below 300 m/s2 between the initial peak and 10 milliseconds is\r\nreached later than 4 ms in the time/acceleration plot, or glass breaking which expands to whole windshield is not\r\nvisibly observed.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "2.49",
+      "pages": [
+        16
+      ],
+      "text": "2.49. \"One third of the windscreen test area\" means the area between the side boundaries of the windscreen test\r\narea as defined in paragraph 2.44.(c), divided by the lines passing through the third markings of the lines from P\r\nto P' and from Q to Q' (the upper corner points of the windscreen test area), as shown in Figure 17. All lines are to\r\nbe drawn and the three equal parts to be measured with a flexible tape following the outer contour of the\r\nwindscreen. In case Q and Q' are coincident with P and P’, Q and Q' are to be created on the side boundary lines\r\nas defined in paragraph 2.44. (c) rearward of P and P', respectively.\r\nIf there is no unique \"Q point\" where the lines defined in paragraph 2.44. (b) and (c) intersect, then the \"Q point\"\r\nis defined by the first contact of a vertical plane V45, intersecting the vertical longitudinal vehicle centre-plane at\r\nan angle of 45°, with the (b)-(c) transition of the windscreen test area boundary.\r\nIf there is no intersection between (b) and (c) and the open test area is closed by a connecting line, as illustrated in\r\nFigure 13, then the \"Q point\" is defined by the centre of this connecting line."
+    },
+    {
+      "paragraph": "Figure 17",
+      "pages": [
+        16,
+        17
+      ],
+      "text": "Figure 17 Thirds of the windscreen test area\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3. Application for approval",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        17
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to the pedestrian protection requirements shall be\r\nsubmitted by the vehicle manufacturer or by his authorized representative.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        17
+      ],
+      "text": "3.2. It shall be accompanied by the documents mentioned below in triplicate and include the following particulars:",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        17
+      ],
+      "text": "3.2.1. The manufacturer shall submit to the Type Approval Authority the information document, established in\r\naccordance with the model set out in Part 1 of Annex 1, including a description of the vehicle type with regard to\r\nthe items mentioned in paragraph 2.39., together with dimensional drawings. The numbers and/or symbols\r\nidentifying the vehicle type shall be specified."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        17
+      ],
+      "text": "3.3. A vehicle representative of the vehicle type to be approved shall be submitted to the Technical Service\r\nconducting the approval tests.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        17
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        17
+      ],
+      "text": "4.1. If the vehicle type submitted for approval pursuant to this Regulation meets the requirements of paragraph 5.\r\nbelow, approval of that vehicle shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        17,
+        18
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved in accordance with Schedule 4 of the Agreement\r\n(E/ECE/TRANS/505/Rev.3). The section 2 of the approval number shall be supplemented with a slash and one of\r\nthe following characters as applicable:\r\n(a) the letter \"T\" for vehicles approved using the specific provisions related to WAD 2,100 boundary in\r\naccordance with paragraph 11.19.; or\r\n(b) the letter \"E\" for vehicles approved with the extended WAD 2,500 boundary.\r\nExample:\r\nExample of the first extension to the 2439th type approval issued by the United Kingdom of Great Britain and\r\nNorthern Ireland for a vehicle approval according to UN Regulation No. 127, third series of amendments and its\r\nsupplement 1, using the specific provisions related to WAD 2,100 boundary;\r\nE11*127R03/01/T*2439*01.\r\n(c) the letter \"F\" for vehicles approved using the specific provisions related to BRRL in accordance with\r\nparagraphs 11.22. and 11.23.\r\nExample:\r\n\r\n\r\n\r\n\r\n\r\n\r\nExample of the first extension to the 2439th type approval issued by the United Kingdom of Great Britain and\r\nNorthern Ireland for a vehicle approval according to UN Regulation No. 127, fourth series of amendments and its\r\nsupplement 1, using the specific provisions related to BRRL boundary;\r\nE11*127R04/01/F*2439*01."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        18
+      ],
+      "text": "4.3. Notice of approval or of refusal or withdrawal of approval pursuant to this Regulation shall be communicated\r\nto the Parties to the Agreement which apply this Regulation by means of a form conforming to the model in\r\nAnnex 1, Part 2 and photographs and/or plans supplied by the applicant being in a format not exceeding A4 (210 x\r\n297 mm), or folded to that format, and on an appropriate scale.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        18
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation, an international approval mark\r\nconforming to the model described in Annex 2, consisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        18
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval;3\r\n\r\n\r\n3The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        18
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.4.1. above."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        18
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved under one or more other Regulations, annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. needs not be repeated; in such a case, the Regulation and approval numbers and the additional symbols shall\r\nbe placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        18
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        18
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        18
+      ],
+      "text": "5. Speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        18
+      ],
+      "text": "5.1. Legform test to bumper:\r\nFor vehicles with a lower bumper height at the test position of less than 425 mm the requirements of paragraph\r\n5.1.1. shall be applied.\r\nFor vehicles with a lower bumper height at the test position which is greater than, or equal to, 425 mm and less\r\nthan 500 mm the requirements of either paragraph 5.1.1. or 5.1.2., at the choice of the manufacturer, shall be\r\napplied.\r\nFor vehicles with a lower bumper height at the test position of greater than, or equal to, 500 mm the requirements\r\nof paragraph 5.1.2. shall be applied.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        18
+      ],
+      "text": "5.1.1. Flexible lower legform to bumper:\r\nWhen tested in accordance with Annex 5, paragraph 1. (Flexible lower legform impactor), the absolute value of\r\nthe maximum dynamic medial collateral ligament elongation at the knee shall not exceed 22 mm, and the\r\nmaximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation shall not exceed 13 mm.\r\nThe absolute value of dynamic bending moments at the tibia shall not exceed 340 Nm. In addition, the\r\nmanufacturer may nominate bumper test widths up to a maximum of 264 mm in total where the absolute value of\r\nthe tibia bending moment shall not exceed 380 Nm. A Contracting Party may restrict application of the relaxation\r\nzone requirement in its domestic legislation if it decides that such restriction is appropriate.\r\nThe flexible lower legform impactor shall be certified pursuant to Annex 6, paragraph 1."
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        19
+      ],
+      "text": "5.1.2. Upper legform to bumper\r\nWhen tested in accordance with Annex 5, paragraph 2. (upper legform to bumper), the instantaneous sum of the\r\nimpact forces with respect to time shall not exceed 7.5 kN and the bending moment on the test impactor shall not\r\nexceed 510 Nm.\r\nThe upper legform impactor shall be certified pursuant to Annex 6, paragraph 2."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        19
+      ],
+      "text": "5.2. Headform tests"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        19
+      ],
+      "text": "5.2.1. Child and adult headform tests:\r\nWhen tested in accordance with Annex 5, paragraphs 3., 4., and 5., the HIC recorded shall not exceed 1,000 over\r\ntwo thirds of the combined bonnet top test area and the windscreen test area. Furthermore, the HIC recorded shall\r\nnot exceed 1,000 over two-thirds of the bonnet top test area. The HIC for the remaining test areas shall not exceed\r\n1,700 for both headforms. Measuring points located in the cowl monitoring area shall not be taken into\r\nconsideration to assess the performance requirements stated in this paragraph. The respective test results are used\r\nfor monitoring purposes only and do not contribute to the one-third and two-third area calculation.\r\nIn case there is only a child headform test area, the HIC recorded shall not exceed 1,000 over two thirds of the test\r\narea. For the remaining area the HIC shall not exceed 1,700."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        19
+      ],
+      "text": "5.2.2. Child headform impact\r\nWhen tested in accordance with Annex 5, paragraphs 3. and 4., the HIC recorded shall not exceed 1,000 over a\r\nminimum of one half of the child headform test area. The HIC for the remaining areas shall not exceed 1,700."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        19
+      ],
+      "text": "5.2.3. The headform impactors shall be certified pursuant to Annex 6, paragraph 3."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        19
+      ],
+      "text": "5.3. In the case of a vehicle fitted with an ARHSS, which could change the vehicle height at the front axle more\r\nthan 20 mm from the nominal for any vehicle speed between 25 and 40 km/h, the provisions of paragraphs 5.1.\r\nand 5.2. shall, in addition to the normal running condition as specified by the manufacturer for a vehicle speed of\r\n40 km/h, be met for all adjustable vehicle steady heights corresponding to vehicle speeds from 25 up to 40 km/h.\r\nFor these tests, on request of the manufacturer and agreed by the technical service, either the impact speeds\r\ndefined in paragraphs 5.1. and 5.2. or the impact speed corresponding to the adjusted vehicle height shall be used.\r\nIn the latter case, the ratio of the head impact vs. the corresponding vehicle velocity shall be 0.9.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        19
+      ],
+      "text": "5.3.1. The requirements of paragraph 5.3. are deemed to be fulfilled if the vehicle is equipped with an ARHSS\r\nfully corresponding to the conditions of paragraph 5.3.1.1. or 5.3.1.2."
+    },
+    {
+      "paragraph": "5.3.1.1",
+      "pages": [
+        19
+      ],
+      "text": "5.3.1.1. ARHSS cannot be activated on public roads and is activated for off-road use only. ARHSS will return\r\nautomatically to the normal ride attitude, when the vehicle is operating on public roads. The default status of\r\nARHSS on public roads is the normal ride height at the initiation of each new engine start/run cycle."
+    },
+    {
+      "paragraph": "5.3.1.2",
+      "pages": [
+        19
+      ],
+      "text": "5.3.1.2. ARHSS can be engaged for use in exceptional low speed use cases (e.g. flood/heavy snow) on public\r\nroads. In such cases, ARHSS shall automatically return to the normal ride height when the vehicle speed exceeds\r\n25 km/h or when the system is manually disengaged by the driver. If an ARHSS for use in exceptional low speed\r\nuse cases is engaged, it is indicated to the driver at least by an optical warning signal.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3.1.3",
+      "pages": [
+        19
+      ],
+      "text": "5.3.1.3. The compliance with the conditions of paragraph 5.3.1.1. or 5.3.1.2. shall be demonstrated by the vehicle\r\nmanufacturer to the satisfaction of the technical service by independent means (e.g. a physical test). The relevant\r\ninformation shall be described in the information document in Annex I. The exceptional low speed use case of\r\nparagraph 5.3.1.2 shall be additionally described in the owner’s handbook."
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        19
+      ],
+      "text": "5.3.2. The legform impactor to be used is the legform impactor as used for the legform to bumper test in normal\r\nrunning conditions for a speed of 40 km/h."
+    },
+    {
+      "paragraph": "5.3.3",
+      "pages": [
+        19,
+        20
+      ],
+      "text": "5.3.3. With the agreement of the technical service, compliance shall be demonstrated by a limited number of\r\nlegform tests or by numerical simulation according to the specification set out in paragraph 5.3, so that the\r\n\r\n\r\n\r\n\r\n\r\n\r\nbiomechanical limits set out in paragraph 5.1.1. and paragraph 5.1.2. respectively are met."
+    },
+    {
+      "paragraph": "5.3.4",
+      "pages": [
+        20
+      ],
+      "text": "5.3.4. With the agreement of the technical service, compliance shall be demonstrated by a limited number of head\r\nimpact tests or by numerical simulation showing compliance to the HIC 1,700 requirement on the additional head\r\ntest area."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        20
+      ],
+      "text": "6. Modiﬁcation of vehicle type and extension of approval"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        20
+      ],
+      "text": "6.1. Every modification of the vehicle type as defined in paragraph 2.37. above shall be notified to the Type\r\nApproval Authority which approved the vehicle type. The Authority may then either:"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        20
+      ],
+      "text": "6.1.1. Consider that the modifications made do not have an adverse effect on the conditions of the granting of the\r\napproval and grant an extension of approval;"
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        20
+      ],
+      "text": "6.1.2. Consider that the modifications made affect the conditions of the granting of the approval and require\r\nfurther tests or additional checks before granting an extension of approval."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        20
+      ],
+      "text": "6.2. Confirmation or refusal of approval, specifying the alterations, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        20
+      ],
+      "text": "6.3. The Type Approval Authority shall inform the other Contracting Parties of the extension by means of the\r\ncommunication form conforming to the model of in Annex 1, Part 2 to this Regulation. It shall assign a serial\r\nnumber to each extension, to be known as the extension number."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        20
+      ],
+      "text": "7. Conformity of production"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        20
+      ],
+      "text": "7.1. Procedures concerning conformity of production shall conform to the general provisions defined in the\r\nAgreement, Schedule 1 (E/ECE/TRANS/505/Rev.3), and meet the following requirements:"
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        20
+      ],
+      "text": "7.2. A vehicle approved pursuant to this Regulation shall be so manufactured as to conform to the type approved\r\nby meeting the requirements of paragraph 5. above;"
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        20
+      ],
+      "text": "7.3. The Type Approval Authority which has granted approval may at any time verify the conformity of control\r\nmethods applicable to each production unit. The normal frequency of such inspections shall be once every two\r\nyears."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        20
+      ],
+      "text": "8. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        20
+      ],
+      "text": "8.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 7. above are not complied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        20
+      ],
+      "text": "8.2. If a Contracting Party withdraws an approval it had previously granted, it shall forthwith so notify the other\r\nContracting Parties applying this Regulation by sending them a communication form conforming to the model set\r\nout in Part 2 of Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        20
+      ],
+      "text": "9. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance with this\r\nRegulation, he shall so inform the Type Approval Authority which granted the approval, which in turn shall\r\nforthwith inform the other Contracting Parties to the Agreement applying this Regulation by means of a\r\ncommunication form conforming to the model set out in Part 2 of Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "10. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of the Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat the names and addresses of the Technical Services responsible for conducting approval tests and of the\r\n\r\n\r\n\r\n\r\n\r\n\r\nType Approval Authorities which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval are to be sent."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        21
+      ],
+      "text": "11. Transitional provisions"
+    },
+    {
+      "paragraph": "11.1",
+      "pages": [
+        21
+      ],
+      "text": "11.1. As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 02\r\nseries of amendments."
+    },
+    {
+      "paragraph": "11.2",
+      "pages": [
+        21
+      ],
+      "text": "11.2. As from 31 December 2017, Contracting Parties applying this Regulation shall grant type approvals only if\r\nthe vehicle type to be approved meets the requirements of this Regulation as amended by the 02 series of\r\namendments."
+    },
+    {
+      "paragraph": "11.3",
+      "pages": [
+        21
+      ],
+      "text": "11.3. Contracting Parties applying this Regulation shall not refuse to grant extensions of type approvals for\r\nexisting vehicle types which have been granted according to the original series of this Regulation or to the 01\r\nseries of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.4",
+      "pages": [
+        21
+      ],
+      "text": "11.4. Contracting Parties applying this Regulation shall continue to accept type approvals to the original series of\r\nthis Regulation and to the 01 series of amendments to the Regulation."
+    },
+    {
+      "paragraph": "11.5",
+      "pages": [
+        21
+      ],
+      "text": "11.5. As from the official date of entry into force of the 03 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 03\r\nseries of amendments."
+    },
+    {
+      "paragraph": "11.6",
+      "pages": [
+        21
+      ],
+      "text": "11.6. As from 7 July 2024, Contracting Parties applying this Regulation shall not be obliged to accept type\r\napprovals to the preceding series of amendments, first issued after 7 July 2024."
+    },
+    {
+      "paragraph": "11.7",
+      "pages": [
+        21
+      ],
+      "text": "11.7. Until 7 July 2026, Contracting Parties applying this Regulation shall accept type approvals to the preceding\r\nseries of amendments, first issued before 7 July 2024."
+    },
+    {
+      "paragraph": "11.8",
+      "pages": [
+        21
+      ],
+      "text": "11.8. As from 7 July 2026, Contracting Parties applying this Regulation shall not be obliged to accept type\r\napprovals issued to the preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "11.9",
+      "pages": [
+        21
+      ],
+      "text": "11.9. Until 1 September 2028, Contracting Parties applying this Regulation shall continue to grant type approvals\r\nusing the test proceedings related to atypical windscreen fracture behaviour (see Annex 5 paragraphs 4.8. and 5.8.)\r\nand specific provisions related to WAD 2,100 boundary (see paragraphs 2.1. and 2.45.)."
+    },
+    {
+      "paragraph": "11.10",
+      "pages": [
+        21
+      ],
+      "text": "11.10 Until 1 September 2029, Contracting Parties applying this Regulation shall continue to accept type\r\napprovals issued using the specific provisions related to WAD 2,100 boundary (see paragraphs 2.1. and 2.45.)",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "11.11",
+      "pages": [
+        21
+      ],
+      "text": "11.11. As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept type\r\napprovals issued for a vehicle with a WAD 2,100 boundary on the bonnet top (see paragraphs 2.1. and 2.45.)"
+    },
+    {
+      "paragraph": "11.12",
+      "pages": [
+        21
+      ],
+      "text": "11.12. Contracting Parties applying this Regulation may grant type approvals according to any preceding series of\r\namendments to this Regulation."
+    },
+    {
+      "paragraph": "11.13",
+      "pages": [
+        21
+      ],
+      "text": "11.13 Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any\r\npreceding series of amendments to this Regulation.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "11.16",
+      "pages": [
+        21
+      ],
+      "text": "11.16. As from the official date of entry into force of the 04 series of amendments, no Contracting Party applying\r\nthis UN Regulation shall refuse to grant or refuse to accept type-approvals under this UN Regulation as amended\r\nby the 04 series of amendments."
+    },
+    {
+      "paragraph": "11.17",
+      "pages": [
+        21
+      ],
+      "text": "11.17. As from 1 September 2026, Contracting Parties applying this UN Regulation shall not be obliged to accept\r\ntype-approvals to the preceding series of amendments first issued after 1 September 2026."
+    },
+    {
+      "paragraph": "11.18",
+      "pages": [
+        21
+      ],
+      "text": "11.18. Contracting Parties applying this UN Regulation shall continue to accept type approvals issued according\r\nto the preceding series of amendments to this UN Regulation first issued before 1 September 2026."
+    },
+    {
+      "paragraph": "11.19",
+      "pages": [
+        22
+      ],
+      "text": "11.19. Until 1 September 2028, Contracting Parties applying this UN Regulation shall continue to grant type\r\napprovals using the test proceedings related to atypical windscreen fracture behaviour (see Annex 5 paragraphs\r\n4.8. and 5.8.) and specific provisions related to WAD 2,100 boundary (see paragraphs 2.1. and 2.45.).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "11.20",
+      "pages": [
+        22
+      ],
+      "text": "11.20. Until 1 September 2029, Contracting Parties applying this UN Regulation shall continue to accept type\r\napprovals issued using the specific provisions related to WAD 2,100 boundary (see paragraphs 2.1. and 2.45.)"
+    },
+    {
+      "paragraph": "11.21",
+      "pages": [
+        22
+      ],
+      "text": "11.21. As from 1 September 2029, Contracting Parties applying this UN Regulation shall not be obliged to accept\r\ntype approvals issued for a vehicle with a WAD 2,100 boundary on the bonnet top (see paragraphs 2.1. and 2.45.)."
+    },
+    {
+      "paragraph": "11.22",
+      "pages": [
+        22
+      ],
+      "text": "11.22. Notwithstanding paragraph 11.19., until the 1 September 2030, contracting parties applying this Regulation\r\nshall continue to grant type approvals using the specific provisions related to BRRL (see footnote 2 in paragraph\r\n2.1)."
+    },
+    {
+      "paragraph": "11.23",
+      "pages": [
+        22
+      ],
+      "text": "11.23. Notwithstanding paragraphs 11.20. and 11.21., until the 1 September 2031, contracting parties applying this\r\nUN Regulation shall continue to accept type approvals issued using the specific provisions related to BRRL (see\r\nfootnote 2 in paragraph 2.1.)."
+    },
+    {
+      "paragraph": "11.24",
+      "pages": [
+        22
+      ],
+      "text": "11.24. Contracting Parties applying this UN Regulation may grant type approvals according to any preceding\r\nseries of amendments to this UN Regulation."
+    },
+    {
+      "paragraph": "11.25",
+      "pages": [
+        22
+      ],
+      "text": "11.25. Contracting Parties applying this UN Regulation shall continue to grant extensions of existing approvals to\r\nany preceding series of amendments to this UN Regulation."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        22
+      ],
+      "text": "Annex 1 Part 1 Model Information document No … relating to the type\r\napproval of a vehicle with regard to pedestrian protection\r\nThe following information, if applicable, shall be supplied in triplicate and include a list of contents. Any\r\ndrawings shall be supplied in appropriate scale and in sufficient detail on size A4 or on a folder of A4 format.\r\nPhotographs, if any, shall show sufficient details.\r\nIf the systems, components or separate technical units have electronic controls, information concerning their\r\nperformance shall be supplied."
+    },
+    {
+      "paragraph": "Annex 1 / 0",
+      "pages": [
+        22
+      ],
+      "text": "0. General"
+    },
+    {
+      "paragraph": "Annex 1 / 0.1",
+      "pages": [
+        22
+      ],
+      "text": "0.1. Make (trade name of manufacturer):"
+    },
+    {
+      "paragraph": "Annex 1 / 0.2",
+      "pages": [
+        22
+      ],
+      "text": "0.2. Type:"
+    },
+    {
+      "paragraph": "Annex 1 / 0.2.1",
+      "pages": [
+        22
+      ],
+      "text": "0.2.1. Commercial name(s) (if available):"
+    },
+    {
+      "paragraph": "Annex 1 / 0.3",
+      "pages": [
+        22
+      ],
+      "text": "0.3. Means of identification of type, if marked on the vehicle:1,2\r\n\r\n\r\n1Delete where not applicable (there are cases where nothing needs to be deleted when more than one entry is applicable).\r\n\r\n\r\n2If means of identification of type contains characters not relevant to describe the vehicle type covered by this information document, such\r\ncharacters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??)."
+    },
+    {
+      "paragraph": "Annex 1 / 0.3.1",
+      "pages": [
+        22
+      ],
+      "text": "0.3.1. Location of that marking:"
+    },
+    {
+      "paragraph": "Annex 1 / 0.4",
+      "pages": [
+        22
+      ],
+      "text": "0.4. Category of vehicle:3\r\n\r\n\r\n3As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2. -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "Annex 1 / 0.5",
+      "pages": [
+        22
+      ],
+      "text": "0.5. Name and address of manufacturer:"
+    },
+    {
+      "paragraph": "Annex 1 / 0.6",
+      "pages": [
+        22
+      ],
+      "text": "0.6. Name(s) and address(es) of assembly plant(s):"
+    },
+    {
+      "paragraph": "Annex 1 / 0.7",
+      "pages": [
+        22
+      ],
+      "text": "0.7. Name and address of the manufacturer’s representative (if any):"
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        23
+      ],
+      "text": "1. General construction characteristics of the vehicle"
+    },
+    {
+      "paragraph": "Annex 1 / 1.1",
+      "pages": [
+        23
+      ],
+      "text": "1.1. Photographs and/or drawings of a representative vehicle:"
+    },
+    {
+      "paragraph": "Annex 1 / 1.6",
+      "pages": [
+        23
+      ],
+      "text": "1.6. Position and arrangement of the engine:"
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        23
+      ],
+      "text": "9. Bodywork"
+    },
+    {
+      "paragraph": "Annex 1 / 9.1",
+      "pages": [
+        23
+      ],
+      "text": "9.1. Type of bodywork:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.2",
+      "pages": [
+        23
+      ],
+      "text": "9.2. Materials used and methods of construction:"
+    },
+    {
+      "paragraph": "Annex 1 / 9.23",
+      "pages": [
+        23
+      ],
+      "text": "9.23. Pedestrian protection"
+    },
+    {
+      "paragraph": "Annex 1 / 9.23.1",
+      "pages": [
+        23
+      ],
+      "text": "9.23.1. A detailed description, including photographs and/or drawings, of the vehicle with respect to the structure,\r\nthe dimensions, the relevant reference lines and the constituent materials of the frontal part of the vehicle (interior\r\nand exterior) shall be provided. This description shall include detail of any active protection system installed and\r\nany system, which could change the vehicle height at the front axle while driving (e.g. ARHSS).\r\n\r\nAnnex 1 Part 2 Communication\r\n(Maximum format: A4 (210 x 297 mm)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2\r\n\r\nApproval granted\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of vehicle with regard to the pedestrian safety performance pursuant to UN Regulation No. 127\r\nApproval No.: ............................................ Extension No.: ..........................................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn an approval (see approval provisions in the\r\nRegulation).\r\n\r\n2Delete what does not apply.\r\n\r\n1. Trademark: ................................................",
+      "review_flags": [
+        "ambiguous_annex_heading",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        23
+      ],
+      "text": "2. Type and trade names:.........................................",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        23
+      ],
+      "text": "3. Name and address of manufacturer:................................"
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        23
+      ],
+      "text": "4. If applicable, name and address of manufacturer’s representative:............."
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        24
+      ],
+      "text": "5. Brief description of vehicle:....................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        24
+      ],
+      "text": "6. Date of submission of vehicle for approval:..........................."
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        24
+      ],
+      "text": "7. Technical Service performing the approval tests: ......................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        24
+      ],
+      "text": "8. Date of report issued by that Service: ...............................\r\n9. Number of report issued by that Service:.............................",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        24
+      ],
+      "text": "10. Approval with regard to the pedestrian safety performance is granted/refused:2\r\n\r\n\r\n2 Delete what does not apply.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        24
+      ],
+      "text": "11. Place:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        24
+      ],
+      "text": "12. Date:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        24
+      ],
+      "text": "13. Signature: ................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        24
+      ],
+      "text": "14. Annexed to this communication are the following documents, bearing the approval number indicated above:\r\nDimensional drawings.......................................................\r\nExploded view or photograph of the vehicle........................................."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        24
+      ],
+      "text": "15. Any remarks:..............................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        24
+      ],
+      "text": "16. Monitoring results"
+    },
+    {
+      "paragraph": "Annex 1 / 16.1",
+      "pages": [
+        24
+      ],
+      "text": "16.1. Cowl Monitoring area:\r\n point     WAD      Y-coordinate3        Impact speed        HIC value\r\n\r\n 1.\r\n\r\n 2.\r\n\r\n …\r\n\r\nWAD 2,100 boundary in accordance with paragraphs 11.9 to 11.11: applicable / not applicable.\r\n\r\n3Coordinate system as defined by appendix 2 to Annex 1 of the Consolidated Resolution on the Construction of Vehicles (R.E.3), document\r\nECE/TRANS/WP.29/78/Rev.6 - https://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions"
+    },
+    {
+      "paragraph": "Annex 1 / 16.2",
+      "pages": [
+        24,
+        25
+      ],
+      "text": "16.2. Area incorporating pedestrian or bicyclist head injury mitigation features, e.g. external airbag, deployable\r\nstructure, energy absorption elements (if applicable)\r\n\r\n A-pillar                    WAD      Y-coordinate        Impact speed        HIC value\r\n\r\n 1.\r\n\r\n 2.\r\n\r\n …\r\n\r\n Windscreen header\r\n\r\n (3.)\r\n\r\n (4.)\r\n\r\n …\r\n\r\n Cowl\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nA-pillar               WAD     Y-coordinate    Impact speed     HIC value\r\n\r\n (5.)\r\n\r\n (6.)\r\n\r\n …"
+    },
+    {
+      "paragraph": "Annex 1 / 16.3",
+      "pages": [
+        25
+      ],
+      "text": "16.3. Manufacturer-requested impact points on innovative solutions (if applicable)\r\n\r\n A-pillar               WAD     Y-coordinate    Impact speed     HIC value\r\n\r\n 1.\r\n\r\n 2.\r\n\r\n …\r\n\r\n Windscreen header\r\n\r\n (3.)\r\n\r\n (4.)\r\n\r\n …\r\n\r\n Cowl\r\n\r\n (5.)\r\n\r\n (6.)\r\n\r\n …"
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        25
+      ],
+      "text": "Annex 2 Arrangements of approval marks\r\n(See paragraphs 4.4. to 4.4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in\r\nBelgium (E 6) with regard to its pedestrian safety performance pursuant to UN Regulation No. 127. The first two\r\ndigits of the approval number indicate that the approval was granted in accordance with the requirements of UN\r\nRegulation No. 127 as amended by the 04 series of amendments."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        25
+      ],
+      "text": "Annex 3 General test conditions"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        25
+      ],
+      "text": "1. Temperature and humidity"
+    },
+    {
+      "paragraph": "Annex 3 / 1.1",
+      "pages": [
+        25
+      ],
+      "text": "1.1. At the time of testing, the test facility and the vehicle or sub-system shall have a relative humidity of 40 per\r\ncent ± 30 per cent and stabilized temperature of 20 ºC ± 4 ºC."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        26
+      ],
+      "text": "2. Impact test site"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        26
+      ],
+      "text": "2.1. The test site shall consist of a flat, smooth and hard surface with a slope not exceeding 1 per cent."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        26
+      ],
+      "text": "3. Preparation of the vehicle"
+    },
+    {
+      "paragraph": "Annex 3 / 3.1",
+      "pages": [
+        26
+      ],
+      "text": "3.1. Either a complete vehicle, or a cut-body, adjusted to the following conditions shall be used for the test."
+    },
+    {
+      "paragraph": "Annex 3 / 3.1.1",
+      "pages": [
+        26
+      ],
+      "text": "3.1.1. The vehicle shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at\r\nrest on a flat horizontal surface with the parking brake applied."
+    },
+    {
+      "paragraph": "Annex 3 / 3.1.2",
+      "pages": [
+        26
+      ],
+      "text": "3.1.2. The cut-body shall include, in the test, all parts of the vehicle front structure, all under-bonnet components\r\nand all components behind the windscreen that may be involved in a frontal impact with a vulnerable road user, to\r\ndemonstrate the performance and interactions of all the contributory vehicle components. The cut-body shall be\r\nsecurely mounted in the normal vehicle ride attitude."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2",
+      "pages": [
+        26
+      ],
+      "text": "3.2. All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly\r\nactivated before and/or be active during the relevant test. It shall be the responsibility of the manufacturer to show\r\nthat any devices will act as intended in a pedestrian impact."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3",
+      "pages": [
+        26
+      ],
+      "text": "3.3. For vehicle components which could change shape or position, other than active devices to protect\r\npedestrians, and which have more than one fixed shape or position shall require the vehicle to comply with the\r\ncomponents in each fixed shape or position."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        26
+      ],
+      "text": "Annex 4 Test impactor speciﬁcations"
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        26
+      ],
+      "text": "1. Flexible lower legform impactor"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        26
+      ],
+      "text": "1.1. The flexible lower legform impactor shall consist of flesh and skin, flexible long bone segments (representing\r\nfemur and tibia), and a knee joint as shown in Figure 1. The assembled impactor shall have a total mass of\r\n13.2 kg ± 0.4 kg. The dimensions of the fully assembled impactor shall be as defined in Figure 1.\r\nBrackets, pulleys, protectors, connection parts, etc. attached to the impactor for the purposes of launching and/or\r\nprotection may extend beyond the dimensions and tolerances shown in Figure 1 and Figures 2(a) and (b).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 1.2",
+      "pages": [
+        26
+      ],
+      "text": "1.2. The cross-sectional shape of the femur main body segments, the tibia main body segments and their impact\r\nfaces shall be as defined in Figure 2(a)."
+    },
+    {
+      "paragraph": "Annex 4 / 1.3",
+      "pages": [
+        26
+      ],
+      "text": "1.3. The cross-sectional shape of the knee joint and its impact face shall be as defined in Figure 2(b)."
+    },
+    {
+      "paragraph": "Annex 4 / 1.4",
+      "pages": [
+        26
+      ],
+      "text": "1.4. The masses of the femur and the tibia without the flesh and skin, including the connection parts to the knee\r\njoint, shall be 2.46 kg ± 0.12 kg and 2.64 kg ± 0.13 kg respectively. The mass of the knee joint without the flesh\r\nand skin shall be 4.28 kg ± 0.21 kg. The assembled mass of the femur, the knee joint and the tibia without the\r\nflesh and skin shall be 9.38 kg ± 0.3 kg.\r\nThe centres of gravity of the femur and tibia without the flesh and skin, including the connection parts to the knee\r\njoint, shall be as defined in Figure 1. The centre of gravity of the knee joint shall be as defined in Figure 1.\r\nThe moment of inertia of the femur and the tibia without the flesh and skin, including the connection parts\r\ninserted to the knee joint, about the X-axis through the respective centre of gravity shall be 0.0339 kgm² ± 0.0016\r\nkgm² and 0.0486 kgm² ± 0.0023 kgm² respectively. The moment of inertia of the knee joint about the X-axis\r\nthrough the respective centre of gravity shall be 0.0180 kgm² ± 0.0009 kgm²."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        26
+      ],
+      "text": "2. Lower legform instrumentation"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        26
+      ],
+      "text": "2.1. Four transducers shall be installed in the tibia to measure bending moments at the locations within the tibia.\r\nThree transducers shall be installed in the femur to measure bending moments applied to the femur. The sensing\r\nlocations of each of the transducers are as defined in Figure 2. The measurement axis of each transducer shall be\r\nthe X-axis of the impactor."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2",
+      "pages": [
+        27
+      ],
+      "text": "2.2. Three transducers shall be installed in the knee joint to measure elongations of the Medial Collateral\r\nLigament (MCL), Anterior Cruciate Ligament (ACL), and Posterior Cruciate Ligament (PCL). The measurement\r\nlocations of each transducer are shown in Figure 3. The measurement locations shall be within ±4 mm along the\r\nX-axis from the knee joint centre."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3",
+      "pages": [
+        27
+      ],
+      "text": "2.3. The instrumentation response value Channel Frequency Class (CFC), as defined in ISO 6487:2002, shall be\r\n180 for all transducers. The Channel Amplitude Class (CAC) response values, as defined in ISO 6487:2002, shall\r\nbe 30 mm for the knee ligament elongations and 400 Nm for the tibia and femur bending moments. This does not\r\nrequire that the impactor itself be able to physically elongate or bend until these values.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.4",
+      "pages": [
+        27
+      ],
+      "text": "2.4. The determination of all flexible lower legform impactor peak tibia bending moments and ligament\r\nelongations shall be limited to the assessment interval (AI) as defined in paragraph 2.2. of this Regulation."
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        27
+      ],
+      "text": "Figure 1 Flexible lower legform impactor Dimensions and centre of gravitiy locations of femur, knee joint\r\nand tibia (Side view)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        27
+      ],
+      "text": "Figure 2 Flexible lower legform impactor schematic plan views of femur, tibia, and knee dimensions (top\r\nview)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        28
+      ],
+      "text": "Figure 3 Flexible lower legform impactor instrument locations\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3. Upper legform impactor",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.1",
+      "pages": [
+        28
+      ],
+      "text": "3.1. The upper legform impactor shall be rigid, foam covered at the impact side, and 350 mm ± 5 mm long (see\r\nFigure 4).",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.2",
+      "pages": [
+        28
+      ],
+      "text": "3.2. The total mass of the upper legform impactor including those propulsion and guidance components which are\r\neffectively part of the impactor during the impact shall be 9.5 kg ± 0.1 kg.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.3",
+      "pages": [
+        28
+      ],
+      "text": "3.3. The total mass of the front member and other components in front of the load transducer assemblies, together\r\nwith those parts of the load transducer assemblies in front of the active elements, but excluding the foam and skin,\r\nshall be 1.95 kg ± 0.05 kg.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.4",
+      "pages": [
+        29
+      ],
+      "text": "3.4. The upper legform impactor for the bumper test shall be mounted to the propulsion system by a torque\r\nlimiting joint and be insensitive to off-axis loading. The impactor shall move only in the specified direction of\r\nimpact when in contact with the vehicle and shall be prevented from motion in other directions including rotation\r\nabout any axis.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.5",
+      "pages": [
+        29
+      ],
+      "text": "3.5. The torque limiting joint shall be set so that the longitudinal axis of the front member is vertical at the time of\r\nimpact with a tolerance of ±2°, with the joint friction torque set to 675 Nm ± 25 Nm.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.6",
+      "pages": [
+        29
+      ],
+      "text": "3.6. The centre of gravity of those parts of the impactor which are effectively forward of the torque limiting joint,\r\nincluding any weights fitted, shall lie on the longitudinal centre line of the impactor, with a tolerance of ±10 mm.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3.7",
+      "pages": [
+        29
+      ],
+      "text": "3.7. The length between the load transducer centre lines shall be 310 mm ± 1 mm and the front member diameter\r\nshall be 50 mm ± 1 mm.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 4",
+      "pages": [
+        29
+      ],
+      "text": "4. Upper legform instrumentation"
+    },
+    {
+      "paragraph": "Annex 4 / 4.1",
+      "pages": [
+        29
+      ],
+      "text": "4.1. The front member shall be strain gauged to measure bending moments in three positions, as shown in Figure\r\n4, each using a separate channel. The strain gauges are located on the impactor on the back of the front member.\r\nThe two outer strain gauges are located 50 mm ± 1 mm from the impactor's symmetrical axis. The middle strain\r\ngauge is located on the symmetrical axis with a ±1 mm tolerance."
+    },
+    {
+      "paragraph": "Annex 4 / 4.2",
+      "pages": [
+        29
+      ],
+      "text": "4.2. Two load transducers shall be fitted to measure individually the forces applied at either end of the upper\r\nlegform impactor, plus strain gauges measuring bending moments at the centre of the upper legform impactor and\r\nat positions 50 mm either side of the centre line (see Figure 4)."
+    },
+    {
+      "paragraph": "Annex 4 / 4.3",
+      "pages": [
+        29
+      ],
+      "text": "4.3. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 180 for all transducers. The\r\nCAC response values, as defined in ISO 6487:2002, shall be 10 kN for the force transducers and 1,000 Nm for the\r\nbending moment measurements."
+    },
+    {
+      "paragraph": "Figure 4",
+      "pages": [
+        29,
+        30
+      ],
+      "text": "Figure 4 Upper legform impactor\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5. Child and adult headform impactors",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.1",
+      "pages": [
+        30
+      ],
+      "text": "5.1. Child headform impactor (see Figure 5)",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.1.1",
+      "pages": [
+        30
+      ],
+      "text": "5.1.1. The child headform impactor shall be made of aluminium, be of homogenous construction and be of\r\nspherical shape. The overall diameter shall be 165 mm ± 1 mm. The mass shall be 3.5 kg ± 0.07 kg. The moment\r\nof inertia about an axis through the centre of gravity and perpendicular to the direction of impact shall be within\r\nthe range of 0.008 to 0.012 kgm2. The centre of gravity of the headform impactor including instrumentation shall\r\nbe located in the geometric centre of the sphere with a tolerance of ±2 mm.\r\nThe sphere shall be covered with a 14 mm ± 0.5 mm thick synthetic skin, which shall cover at least half of the\r\nsphere."
+    },
+    {
+      "paragraph": "Annex 4 / 5.1.2",
+      "pages": [
+        30
+      ],
+      "text": "5.1.2. The first natural frequency of the child headform impactor shall be over 5,000 Hz."
+    },
+    {
+      "paragraph": "Annex 4 / 5.2",
+      "pages": [
+        30
+      ],
+      "text": "5.2. Child headform instrumentation",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.2.1",
+      "pages": [
+        30
+      ],
+      "text": "5.2.1. A recess in the sphere shall allow for mounting one triaxial or three uniaxial accelerometers within ±10 mm\r\nseismic mass location tolerance from the centre of the sphere for the measurement axis, and ±1 mm seismic mass\r\nlocation tolerance from the centre of the sphere for the perpendicular direction to the measurement axis."
+    },
+    {
+      "paragraph": "Annex 4 / 5.2.2",
+      "pages": [
+        30,
+        31
+      ],
+      "text": "5.2.2. If three uniaxial accelerometers are used, one of the accelerometers shall have its sensitive axis\r\nperpendicular to the mounting face A (see Figure 5) and its seismic mass shall be positioned within a cylindrical\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ntolerance field of 1 mm radius and 20 mm length. The centre line of the tolerance field shall run perpendicular to\r\nthe mounting face and its mid-point shall coincide with the centre of the sphere of the headform impactor."
+    },
+    {
+      "paragraph": "Annex 4 / 5.2.3",
+      "pages": [
+        31
+      ],
+      "text": "5.2.3. The remaining accelerometers shall have their sensitive axes perpendicular to each other and parallel to the\r\nmounting face A and their seismic mass shall be positioned within a spherical tolerance field of 10 mm radius.\r\nThe centre of the tolerance field shall coincide with the centre of the sphere of the headform impactor."
+    },
+    {
+      "paragraph": "Annex 4 / 5.2.4",
+      "pages": [
+        31
+      ],
+      "text": "5.2.4. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 1,000. The CAC response\r\nvalue, as defined in ISO 6487:2002, shall be 500 g for the acceleration."
+    },
+    {
+      "paragraph": "Figure 5",
+      "pages": [
+        31
+      ],
+      "text": "Figure 5 Child headform impactor",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.3",
+      "pages": [
+        31
+      ],
+      "text": "5.3. Adult headform impactor (see Figure 6)",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.3.1",
+      "pages": [
+        31
+      ],
+      "text": "5.3.1. The adult headform impactor shall be made of aluminium, be of homogenous construction and be of\r\nspherical shape. The overall diameter is 165 mm ± 1 mm as shown in Figure 6. The mass shall be 4.5 kg ± 0.1 kg.\r\nThe moment of inertia about an axis through the centre of gravity and perpendicular to the direction of impact\r\nshall be within the range of 0.010 to 0.013 kgm2. The centre of gravity of the headform impactor including\r\ninstrumentation shall be located in the geometric centre of the sphere with a tolerance of ±5 mm.\r\nThe sphere shall be covered with a 14 mm ± 0.5 mm thick synthetic skin, which shall cover at least half of the\r\nsphere."
+    },
+    {
+      "paragraph": "Annex 4 / 5.3.2",
+      "pages": [
+        31
+      ],
+      "text": "5.3.2. The first natural frequency of the headform impactor shall be over 5,000 Hz."
+    },
+    {
+      "paragraph": "Figure 6",
+      "pages": [
+        31
+      ],
+      "text": "Figure 6 Adult headform impactor",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.4",
+      "pages": [
+        32
+      ],
+      "text": "5.4. Adult headform instrumentation",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 5.4.1",
+      "pages": [
+        32
+      ],
+      "text": "5.4.1. A recess in the sphere shall allow for mounting one triaxial or three uniaxial accelerometers within ±10 mm\r\nseismic mass location tolerance from the centre of the sphere for the measurement axis, and ±1 mm seismic mass\r\nlocation tolerance from the centre of the sphere for the perpendicular direction to the measurement axis."
+    },
+    {
+      "paragraph": "Annex 4 / 5.4.2",
+      "pages": [
+        32
+      ],
+      "text": "5.4.2. If three uniaxial accelerometers are used, one of the accelerometers shall have its sensitive axis\r\nperpendicular to the mounting face A (see Figure 6) and its seismic mass shall be positioned within a cylindrical\r\ntolerance field of 1 mm radius and 20 mm length. The centre line of the tolerance field shall run perpendicular to\r\nthe mounting face and its mid-point shall coincide with the centre of the sphere of the headform impactor."
+    },
+    {
+      "paragraph": "Annex 4 / 5.4.3",
+      "pages": [
+        32
+      ],
+      "text": "5.4.3. The remaining accelerometers shall have their sensitive axes perpendicular to each other and parallel to the\r\nmounting face A and their seismic mass shall be positioned within a spherical tolerance field of 10 mm radius.\r\nThe centre of the tolerance field shall coincide with the centre of the sphere of the headform impactor."
+    },
+    {
+      "paragraph": "Annex 4 / 5.4.4",
+      "pages": [
+        32
+      ],
+      "text": "5.4.4. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 1,000. The CAC response\r\nvalue, as defined in ISO 6487:2002, shall be 500 g for the acceleration."
+    },
+    {
+      "paragraph": "Annex 4 / 5.5",
+      "pages": [
+        32
+      ],
+      "text": "5.5. Rear face of the child and adult headform impactors\r\nA rear flat face shall be provided on the outer surface of the headform impactors which is perpendicular to the\r\ndirection of travel, and typically perpendicular to the axis of one of the accelerometers as well as being a flat plate\r\ncapable of providing for access to the accelerometers and an attachment point for the propulsion system.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        32
+      ],
+      "text": "Annex 5 Test procedures"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        32
+      ],
+      "text": "1. Flexible lower legform impactor"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        32
+      ],
+      "text": "1.1. For each test the impactor (femur, knee joint and tibia) shall be covered by flesh and skin composed of\r\nsynthetic rubber sheets (R1, R2) and neoprene sheets (N1F, N2F, N1T, N2T, N3) as shown in Figure 1. The size of\r\nthe sheets shall be within the requirements described in Figure 1. The sheets are required to have compression\r\ncharacteristics as shown in Figure 2. The compression characteristics shall be checked using material from the\r\nsame batch as the sheets used for the impactor flesh and skin."
+    },
+    {
+      "paragraph": "Annex 5 / 1.2",
+      "pages": [
+        32,
+        33
+      ],
+      "text": "1.2. All impactor components shall be stored for a sufficient period of time in a controlled storage area with a\r\nstabilized temperature of 20 °C ± 4 °C prior to impactor removal for testing. After removal from the storage the\r\n\r\n\r\n\r\n\r\n\r\n\r\nimpactor shall not be subjected to conditions other than those pertaining in the test area as defined in Annex 3,\r\nparagraph 1.1."
+    },
+    {
+      "paragraph": "Annex 5 / 1.3",
+      "pages": [
+        33
+      ],
+      "text": "1.3. Each test shall be completed within two hours of when the impactor to be used is removed from the\r\ncontrolled storage area."
+    },
+    {
+      "paragraph": "Annex 5 / 1.4",
+      "pages": [
+        33
+      ],
+      "text": "1.4. The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "Annex 5 / 1.5",
+      "pages": [
+        33
+      ],
+      "text": "1.5. A minimum of three lower legform to bumper tests shall be carried out, one each to the middle and the outer\r\nthirds of the bumper test area at positions judged to be the most likely to cause injury. Tests shall be to different\r\ntypes of structure, where they vary throughout the area to be assessed. The selected test points shall be a minimum\r\nof 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle. The\r\npositions tested by the laboratories shall be indicated in the test report."
+    },
+    {
+      "paragraph": "Annex 5 / 1.6",
+      "pages": [
+        33
+      ],
+      "text": "1.6. The direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal\r\nvertical plane of the vehicle. The tolerance for the direction of the velocity vector in the horizontal plane and in\r\nthe longitudinal plane shall be ±2° at the time of first contact. The axis of the impactor shall be perpendicular to\r\nthe horizontal plane with a roll and pitch angle tolerance of ±2° in the lateral and longitudinal plane. The\r\nhorizontal, longitudinal and lateral planes are orthogonal to each other (see Figure 3)."
+    },
+    {
+      "paragraph": "Annex 5 / 1.7",
+      "pages": [
+        33
+      ],
+      "text": "1.7. The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at\r\n75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm\r\ntolerance. When setting the height of the propulsion system, an allowance shall be made for the influence of\r\ngravity during the period of free flight of the impactor.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 1.8",
+      "pages": [
+        33
+      ],
+      "text": "1.8. The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact. The\r\nimpactor shall be released to free flight at such a distance from the vehicle that the test results are not influenced\r\nby contact of the impactor with the propulsion system during rebound of the impactor.\r\nThe impactor may be propelled by any means that can be shown to meet the requirements of the test."
+    },
+    {
+      "paragraph": "Annex 5 / 1.9",
+      "pages": [
+        33
+      ],
+      "text": "1.9. At the time of first contact the impactor shall have the intended orientation about its vertical axis, for the\r\ncorrect operation of its knee joint, with a yaw angle tolerance of ±5° (see Figure 3)."
+    },
+    {
+      "paragraph": "Annex 5 / 1.10",
+      "pages": [
+        33
+      ],
+      "text": "1.10. For the lower legform testing, a horizontal and vertical impact tolerance of\r\n±10 mm shall apply. The test laboratory may verify at a sufficient number of measuring points that this condition\r\ncan be met and the tests are thus being conducted with the necessary accuracy."
+    },
+    {
+      "paragraph": "Annex 5 / 1.11",
+      "pages": [
+        33
+      ],
+      "text": "1.11. During contact between the impactor and the vehicle, the impactor shall not contact the ground or any object\r\nwhich is not part of the vehicle."
+    },
+    {
+      "paragraph": "Annex 5 / 1.12",
+      "pages": [
+        33
+      ],
+      "text": "1.12. The impact velocity of the impactor when striking the bumper shall be 11.1 m/s ± 0.2 m/s. The effect of\r\ngravity shall be taken into account when the impact velocity is obtained from measurements taken before the time\r\nof first contact."
+    },
+    {
+      "paragraph": "Annex 5 / 1.13",
+      "pages": [
+        33
+      ],
+      "text": "1.13. The tibia bending moments shall not exceed +/- 15 Nm within an evaluation interval of 30 ms immediately\r\nprior to impact."
+    },
+    {
+      "paragraph": "Annex 5 / 1.14",
+      "pages": [
+        33
+      ],
+      "text": "1.14. The offset compensation shall be done with the flexible lower legform impactor in resting position prior to\r\nthe test/acceleration phase."
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        33
+      ],
+      "text": "Figure 1 Flexible lower legform impactor: Flesh and skin dimensions",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        34
+      ],
+      "text": "Figure 2 Flexible lower legform impactor: Flesh and skin compression characteristics\r\n(a) Synthetic rubber sheets\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Neoprene sheets",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        35,
+        36
+      ],
+      "text": "Figure 3 Tolerances of angles for the flexible lower legform impactor at the time of the first impact\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nFigure 4\r\nFlexible Lower legform impactor to bumper tests for complete vehicle in normal ride attitude (left) and for\r\ncut-body mounted on supports (right)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2. Upper legform to bumper",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.1",
+      "pages": [
+        36
+      ],
+      "text": "2.1. For each test the foam flesh shall be two new sheets of 25 mm thick foam type CF-45 or equivalent, which\r\nshall be cut from the sheet of material used for the dynamic certification test. The skin shall be a 1.5 mm thick\r\nfibre reinforced rubber sheet. The mass of the foam and the rubber skin together shall be 0.6 kg ± 0.1 kg (this\r\nexcludes any reinforcement, mountings, etc. which are used to attach the rear edges of the rubber skin to the rear\r\nmember). The foam and rubber skin shall be folded back towards the rear, with the rubber skin attached via\r\nspacers to the rear member so that the sides of the rubber skin are held parallel. The foam shall be of such a size\r\nand shape that an adequate gap is maintained between the foam and components behind the front member, to\r\navoid significant load paths between the foam and these components.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.2",
+      "pages": [
+        36
+      ],
+      "text": "2.2. The test impactor or at least the foam flesh shall be stored during a period of at least four hours in a controlled\r\nstorage area with a stabilized humidity of 35 per cent ± 15 per cent and a stabilized temperature of 20 °C ± 4 °C\r\nprior to impactor removal for test. After removal from the storage the impactor shall not be subjected to conditions\r\nother than those pertaining in the test area.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.3",
+      "pages": [
+        36
+      ],
+      "text": "2.3. Each test shall be completed within two hours of when the impactor to be used is removed from the\r\ncontrolled storage area.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.4",
+      "pages": [
+        36
+      ],
+      "text": "2.4. The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this\r\nRegulation.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.5",
+      "pages": [
+        36
+      ],
+      "text": "2.5. A minimum of three upper legform to bumper tests shall be carried out, one each to the middle and the outer\r\nthirds of the bumper test area at positions judged to be the most likely to cause injury. Tests shall be to different\r\ntypes of structure, where they vary throughout the area to be assessed. The selected measuring points shall be a\r\nminimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the\r\nvehicle. The positions tested by the laboratories shall be indicated in the test report.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.6",
+      "pages": [
+        36
+      ],
+      "text": "2.6. The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper\r\nlegform vertical at the time of first contact. The tolerance to this direction is ±2°.\r\nAt the time of first contact the impactor centre line shall be vertically midway between the upper bumper\r\nreference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line\r\nshall be positioned laterally with the selected impact location with a tolerance of ±10 mm. The test laboratory may\r\nverify at a sufficient number of measuring points that this condition can be met and the tests are thus being\r\nconducted with the necessary accuracy.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 2.7",
+      "pages": [
+        36
+      ],
+      "text": "2.7. The impact velocity of the upper legform impactor when striking the bumper shall be 11.1 m/s ± 0.2 m/s.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 3",
+      "pages": [
+        36
+      ],
+      "text": "3. Child and adult headform test procedures - Common test specifications"
+    },
+    {
+      "paragraph": "Annex 5 / 3.1",
+      "pages": [
+        37
+      ],
+      "text": "3.1. Propulsion of the headform impactors"
+    },
+    {
+      "paragraph": "Annex 5 / 3.1.1",
+      "pages": [
+        37
+      ],
+      "text": "3.1.1. The headform impactors shall be in \"free flight\" at the moment of impact, at the required impact velocity\r\n(as specified in paragraphs 4.6. and 5.6. below) and the required direction of impact (as specified in paragraphs\r\n4.7. and 5.7. below).",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 3.1.2",
+      "pages": [
+        37
+      ],
+      "text": "3.1.2. The impactors shall be released to \"free flight\" at such a distance from the vehicle that the test results are\r\nnot influenced by contact of the impactor with the propulsion system during rebound of the impactor."
+    },
+    {
+      "paragraph": "Annex 5 / 3.2",
+      "pages": [
+        37
+      ],
+      "text": "3.2. Measurement of impact velocity"
+    },
+    {
+      "paragraph": "Annex 5 / 3.2.1",
+      "pages": [
+        37
+      ],
+      "text": "3.2.1. The velocity of the headform impactor shall be measured at some point during the free flight before impact,\r\nin accordance with the method specified in ISO 3784:1976. The measured velocity shall be adjusted considering\r\nall factors which may affect the impactor between the point of measurement and the point of impact, in order to\r\ndetermine the velocity of the impactor at the time of impact. The angle of the velocity vector at the time of impact\r\nshall be calculated or measured."
+    },
+    {
+      "paragraph": "Annex 5 / 3.3",
+      "pages": [
+        37
+      ],
+      "text": "3.3. Recording"
+    },
+    {
+      "paragraph": "Annex 5 / 3.3.1",
+      "pages": [
+        37
+      ],
+      "text": "3.3.1. The acceleration time histories shall be recorded, and HIC shall be calculated. The measuring point on the\r\nfront structure of the vehicle shall be recorded. Recording of test results shall be in accordance with ISO\r\n6487:2002."
+    },
+    {
+      "paragraph": "Annex 5 / 3.4",
+      "pages": [
+        37
+      ],
+      "text": "3.4. Splitting of headform test zones"
+    },
+    {
+      "paragraph": "Annex 5 / 3.4.1",
+      "pages": [
+        37
+      ],
+      "text": "3.4.1. The manufacturer shall identify the zones of the bonnet top test area and of the windscreen test area where\r\nthe HIC shall not exceed 1,000 (HIC1000 zone) or 1,700 (HIC1700 zone) (see Figure 5).\r\nFigure 5\r\nExample of marking of HIC1000 zone and HIC1700 zone"
+    },
+    {
+      "paragraph": "Annex 5 / 3.4.2",
+      "pages": [
+        38
+      ],
+      "text": "3.4.2. Marking of the \"bonnet top\" test area, marking of the windscreen test area as well as \"HIC1000 zone\" and\r\n\"HIC1700 zone\" will be based on a drawing supplied by the manufacturer, when viewed from a horizontal plane\r\nabove the vehicle that is parallel to the vehicle horizontal zero plane. A sufficient number of x and y co-ordinates\r\nshall be supplied by the manufacturer to mark up the areas on the actual vehicle while considering the vehicle\r\nouter contour in the z direction. The cowl monitoring area is not considered for the marking of the \"HIC1000\r\nzone\" and \"HIC1700 zone\"."
+    },
+    {
+      "paragraph": "Annex 5 / 3.4.3",
+      "pages": [
+        38
+      ],
+      "text": "3.4.3. The areas of \"HIC1000 zone\" and \"HIC1700 zone\" may consist of several parts, with the number of these\r\nparts not being limited. The determination of the impacted zone is done by the measuring point."
+    },
+    {
+      "paragraph": "Annex 5 / 3.4.4",
+      "pages": [
+        38
+      ],
+      "text": "3.4.4. The calculation of the surface of the bonnet top test area and the calculation of the surface of the windscreen\r\ntest area as well as the surface areas of \"HIC1000 zone\" and \"HIC1700 zone\" shall be done on the basis of a\r\nprojected bonnet and windscreen when viewed from a horizontal plane parallel to the horizontal zero plane above\r\nthe vehicle, on the basis of the drawing data supplied by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 5 / 3.5",
+      "pages": [
+        38
+      ],
+      "text": "3.5. Measuring points - Particular specifications\r\nNotwithstanding the provisions of paragraphs 4.2. and 5.2. below, if a number of measuring points have been\r\nselected in order of potential to cause injury and the test area remaining is too small to select another measuring\r\npoint while maintaining the minimum spacing between points, then less than nine tests for each impactor may be\r\nperformed. The positions tested by the laboratories shall be indicated in the test report. However, the technical\r\nservices conducting the tests shall perform as many tests as necessary to guarantee the compliance of the vehicle\r\nwith the head injury criteria (HIC) limit values of 1,000 for the HIC1000 zone and 1,700 for the HIC1700 zone,\r\nespecially in the points near to the borders between the two types of zones."
+    },
+    {
+      "paragraph": "Annex 5 / 4",
+      "pages": [
+        38
+      ],
+      "text": "4. Child headform - Specific test procedure"
+    },
+    {
+      "paragraph": "Annex 5 / 4.1",
+      "pages": [
+        38
+      ],
+      "text": "4.1. Tests shall be made to the front structure within the boundaries as defined in paragraph 2.16. of this\r\nRegulation. Test shall also be made to the windscreen within the boundaries as defined in paragraph 2.44. For\r\ntests on the rear area of the bonnet top, the headform impactor shall not contact the windscreen or A-pillar before\r\nimpacting the bonnet top. For tests on the windscreen, the headform impactor shall not directly contact the A-\r\npillars, windscreen header and cowl, except in the case of monitoring testing."
+    },
+    {
+      "paragraph": "Annex 5 / 4.2",
+      "pages": [
+        38
+      ],
+      "text": "4.2. A minimum of nine tests shall be carried out with the child headform impactor over the areas prescribed by\r\nthe child bonnet top test area and the child windscreen test area together, with three tests each to the middle and\r\nthe outer thirds of the child/small adult test areas, at positions judged to be the most likely to cause injury. Where\r\npossible, at least one of these nine tests shall be carried out on the windscreen test area. Furthermore, and at the\r\ndiscretion of the technical service, one of these nine tests may be conducted in the cowl monitoring area.\r\nFor each test on the windscreen an undamaged and untested windscreen shall be used.\r\nTests shall be to different types of structure, where these vary throughout the area to be assessed and at positions\r\njudged to be the most likely to cause injury. Taking into account any symmetry of the windscreen and relevant\r\nstructures, the number of tests on the windscreen test area may be reduced at the discretion of the Technical\r\nService."
+    },
+    {
+      "paragraph": "Annex 5 / 4.3",
+      "pages": [
+        38
+      ],
+      "text": "4.3. The selected measuring points for the child/small adult headform impactor shall be a minimum of 165 mm\r\napart and within the child headform test areas as defined in paragraphs 2.16. and 2.44. of this UN Regulation.\r\nThese minimum distances are to be set with a flexible tape held tautly along the outer surface of the vehicle."
+    },
+    {
+      "paragraph": "Annex 5 / 4.4",
+      "pages": [
+        38
+      ],
+      "text": "4.4. No measuring point shall be located so that the impactor will impact the test area with a glancing blow\r\nresulting in a more severe second impact outside the test area."
+    },
+    {
+      "paragraph": "Annex 5 / 4.5",
+      "pages": [
+        38,
+        39
+      ],
+      "text": "4.5. For the child headform testing, a longitudinal and transversal impact tolerance of ±10 mm shall apply. This\r\ntolerance is measured along the surface of the bonnet or the windscreen. The test laboratory may verify at a\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nsufficient number of measuring points that this condition can be met and the tests are thus being conducted with\r\nthe necessary accuracy."
+    },
+    {
+      "paragraph": "Annex 5 / 4.6",
+      "pages": [
+        39
+      ],
+      "text": "4.6. The headform velocity at the time of impact shall be 9.7 m/s ± 0.2 m/s."
+    },
+    {
+      "paragraph": "Annex 5 / 4.7",
+      "pages": [
+        39
+      ],
+      "text": "4.7. The direction of impact shall be in the longitudinal vertical plane of the vehicle to be tested at an angle of 50°\r\n± 2° to the horizontal. The direction of impact of tests to the front structure shall be downward and rearward."
+    },
+    {
+      "paragraph": "Annex 5 / 4.8",
+      "pages": [
+        39
+      ],
+      "text": "4.8. Tests may be repeated in case of atypical windscreen fracture. The repetition of the test is at manufacturer’s\r\nrequest where the HIC value exceeds or is equal to the respective limit of the head impact zone. The maximum\r\nnumber of repetitions on a measuring point is 3 (i.e. 4 tests total) in this case. On request of the technical service\r\nthe tests may be repeated where the HIC value is below the limit of the head impact zone, for instance in case of\r\nunderlying structures within 100 mm of the measuring point.\r\nTests with atypical windscreen fracture shall be duly recorded in the test report."
+    },
+    {
+      "paragraph": "Annex 5 / 4.9",
+      "pages": [
+        39
+      ],
+      "text": "4.9. If the A-pillars and/or windscreen header incorporate pedestrian or bicyclist head injury mitigation features,\r\nwhich shall be declared by the manufacturer (e.g. external airbag, deployable structure, energy absorption\r\nelements) additional monitoring tests shall be carried out on such structure. Contracting parties may indicate that\r\nmonitoring results are not required for the approval to be recognised and accepted by such contracting party.\r\nIn such case the measuring points on the A-pillars, windscreen header and/or cowl shall be selected as agreed\r\nbetween the technical service and the manufacturer so that the effectiveness of the protection can be scientifically\r\nassessed. For that purpose, it is not required to observe the prescribed clearance distances or exclusion areas.\r\nThe vehicle manufacturer may also voluntarily request for monitoring tests to be carried out in case of any other\r\ninnovative solutions that reduce head injury levels in case of head contact with A-pillars and/or windscreen\r\nheader.\r\nThe monitoring results shall be detailed in point 16 of the type-approval communication form.\r\nA detailed description of the protective system, the selected measuring points and the results of the assessment\r\nshall also be included in the information document."
+    },
+    {
+      "paragraph": "Annex 5 / 5",
+      "pages": [
+        39
+      ],
+      "text": "5. Adult headform specific test procedure"
+    },
+    {
+      "paragraph": "Annex 5 / 5.1",
+      "pages": [
+        39
+      ],
+      "text": "5.1. Tests shall be made to the front structure within the boundaries as defined in paragraph 2.1. of this UN\r\nRegulation. Test shall also be made to the windscreen within the boundaries as defined in paragraph 2.44. For\r\ntests at the rear of the bonnet top, the headform impactor shall not contact the windscreen or A-pillar before\r\nimpacting the bonnet top. For the tests on the windscreen, the headform impactor shall not directly contact the A-\r\npillars, windscreen header and cowl, except in the case of monitoring testing."
+    },
+    {
+      "paragraph": "Annex 5 / 5.2",
+      "pages": [
+        39
+      ],
+      "text": "5.2. A minimum of nine tests shall be carried out with the adult headform impactor, over the adult areas prescribed\r\nby the adult bonnet top test area and the adult windscreen test area together, with three tests each to the middle\r\nand the outer thirds of the adult test areas, at positions judged to be the most likely to cause injury. Where\r\npossible, at least one of these nine tests shall be carried out on the windscreen test area. Furthermore, and at the\r\ndiscretion of the technical service, one of these nine tests may be conducted in the cowl monitoring area.\r\nFor each test on the windscreen an undamaged and untested windscreen shall be used.\r\nTests shall be to different types of structure, where these vary throughout the area to be assessed and at positions\r\njudged to be the most likely to cause injury.\r\nTaking into account any symmetry of the windscreen and relevant structures, the number of tests on the\r\nwindscreen test area may be reduced at the discretion of the Technical Service."
+    },
+    {
+      "paragraph": "Annex 5 / 5.3",
+      "pages": [
+        39
+      ],
+      "text": "5.3. The selected measuring points for the adult headform impactor shall be a minimum of 165 mm apart and\r\nwithin the adult headform test areas defined in paragraphs 2.1. and 2.44. of this UN Regulation.\r\nThese minimum distances are to be set with a flexible tape held tautly along the outer surface of the vehicle."
+    },
+    {
+      "paragraph": "Annex 5 / 5.4",
+      "pages": [
+        40
+      ],
+      "text": "5.4. No measuring point shall be located so that the impactor will impact the test area with a glancing blow\r\nresulting in a more severe second impact outside the test area."
+    },
+    {
+      "paragraph": "Annex 5 / 5.5",
+      "pages": [
+        40
+      ],
+      "text": "5.5. For the adult headform testing, a longitudinal and transversal impact tolerance of ±10 mm shall apply. This\r\ntolerance is measured along the surface of the bonnet or the windscreen. The test laboratory may verify at a\r\nsufficient number of measuring points that this condition can be met and the tests are thus being conducted with\r\nthe necessary accuracy."
+    },
+    {
+      "paragraph": "Annex 5 / 5.6",
+      "pages": [
+        40
+      ],
+      "text": "5.6. The headform velocity at the time of impact shall be 9.7 m/s ± 0.2 m/s."
+    },
+    {
+      "paragraph": "Annex 5 / 5.7",
+      "pages": [
+        40
+      ],
+      "text": "5.7. The direction of impact shall be in the longitudinal vertical plane of the vehicle to be tested at an angle of 65°\r\n± 2° to the horizontal. The direction of impact of tests to the front structure shall be downward and rearward."
+    },
+    {
+      "paragraph": "Annex 5 / 5.8",
+      "pages": [
+        40
+      ],
+      "text": "5.8. Tests may be repeated in case of atypical windscreen fracture. The repetition of the test is at manufacturer’s\r\nrequest where the HIC value exceeds or is equal to the respective limit of the head impact zone. The maximum\r\nnumber of repetitions on a measuring point is 3 (i.e. 4 tests total) in this case. On request of the technical service\r\nthe tests may be repeated where the HIC value is below the limit of the head impact zone, for instance in case of\r\nunderlying structures within 100 mm of the measuring point.\r\nTests with atypical windscreen fracture shall be duly recorded in the test report."
+    },
+    {
+      "paragraph": "Annex 5 / 5.9",
+      "pages": [
+        40
+      ],
+      "text": "5.9. If the A-pillars and/or windscreen header incorporate pedestrian or bicyclist head injury mitigation features,\r\nwhich shall be declared by the manufacturer (e.g. external airbag, deployable structure, energy absorption\r\nelements) additional monitoring tests shall be carried out on such structure. Contracting parties may indicate that\r\nmonitoring results are not required for the approval to be recognised and accepted by such contracting party.\r\nIn such case the measuring points on the A-pillars, windscreen header and/or cowl shall be selected as agreed\r\nbetween the technical service and the manufacturer so that the effectiveness of the protection can be scientifically\r\nassessed. For that purpose, it is not required to observe the prescribed clearance distances or exclusion areas.\r\nThe vehicle manufacturer may also voluntarily request for monitoring tests to be carried out in case of any other\r\ninnovative solutions that reduce head injury levels in case of head contact with A-pillars and/or windscreen\r\nheader.\r\nThe monitoring results shall be detailed in point 16 of the type-approval communication form.\r\nA detailed description of the protective system, the selected measuring points and the results of the assessment\r\nshall also be included in the information document."
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        40
+      ],
+      "text": "Annex 6 Certiﬁcation of the impactor"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        40
+      ],
+      "text": "1. Flexible lower legform impactor certification"
+    },
+    {
+      "paragraph": "Annex 6 / 1.1",
+      "pages": [
+        40
+      ],
+      "text": "1.1. The impactor shall be certified using two certification tests as follows: First, the certification shall be\r\nconducted according to the inverse certification (IC) test procedure prescribed in paragraph 1.4. of this annex\r\nbefore starting a vehicle test series. Second, after a maximum of 10 vehicle tests, certification should be\r\nconducted according to the pendulum certification (PC) test procedure prescribed in paragraph 1.3. of this annex.\r\nOngoing certification testing then shall constitute the sequence IC - PC - PC - IC - PC - PC - etc. with a maximum\r\nof 10 tests between each certification.\r\nIn addition, the impactor shall be certified according to the procedures prescribed in paragraph 1.2. below at least\r\nonce a year."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2",
+      "pages": [
+        40
+      ],
+      "text": "1.2. Static certification tests"
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.1",
+      "pages": [
+        40,
+        41
+      ],
+      "text": "1.2.1. The femur and the tibia of the flexible lower legform impactor shall meet the requirements specified in\r\nparagraph 1.2.2. of this annex when tested according to paragraph 1.2.4. of this annex. The knee joint of the lower\r\nlegform impactor shall meet the requirements specified in paragraph 1.2.3. of this annex when tested according to\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nparagraph 1.2.5 of this annex. The stabilized temperature of the impactor during the certification tests shall be 20\r\n°C ± 2 °C.\r\nThe CAC response values, as defined in ISO 6487:2002, shall be 30 mm for the knee ligament elongations and 4\r\nkN for the applied external load. For these tests, low-pass filtering at an appropriate frequency is permitted to\r\nremove higher frequency noise without significantly affecting the measurement of the response of the impactor."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.2",
+      "pages": [
+        41
+      ],
+      "text": "1.2.2. When the femur and the tibia of the impactor are loaded in bending in accordance with paragraph 1.2.4.\r\nbelow, the applied moment and the generated deflection at the centre of the femur and the tibia (Mc and Dc) shall\r\nbe within the corridors shown in Figure 1."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.3",
+      "pages": [
+        41
+      ],
+      "text": "1.2.3. When the knee joint of the impactor is loaded in bending in accordance with paragraph 1.2.5. of this annex,\r\nthe MCL, ACL, and PCL elongations and applied bending moment or the force at the centre of the knee joint (Mc\r\nor Fc) shall be within the corridors shown in Figure 2."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.4",
+      "pages": [
+        41
+      ],
+      "text": "1.2.4. The edges of the femur and tibia, not bending parts, shall be mounted to the support rig firmly as shown in"
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        41
+      ],
+      "text": "Figure 3 and Figure 4. The Y-axis of the impactor shall be parallel to the loading axis within 180° ± 2° tolerance.\r\nTo obtain repeatable loading, low friction Polytetrafluoroethylene (PTFE) plastic pads are used under each\r\nsupport (see Figure 3 and Figure 4).\r\nThe centre of the loading force shall be applied at the centre of the femur and the tibia within ±2 mm tolerance\r\nalong the Z-axis. The force shall be increased so as to maintain a deflection rate between 10 and 100 mm/minute\r\nuntil the bending moment at the centre part (Mc) of the femur or tibia reaches 380 Nm.",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.2.5",
+      "pages": [
+        41
+      ],
+      "text": "1.2.5. The ends of the knee joint shall be mounted to the support rig firmly as shown in Figure 5. The Y-axis of the\r\nimpactor shall be parallel to the loading axis within ±2° tolerance. To obtain repeatable loading, low friction\r\nPolytetrafluoroethylene (PTFE) plastic pads are used under each support (see Figure 5). To avoid impactor\r\ndamage, a neoprene sheet shall be set underneath the loading ram and the impactor face of the knee joint which is\r\ndescribed in the Figure 3 of Annex 4 shall be removed. The neoprene sheet used in this test shall have\r\ncompression characteristics as shown in Figure 2 (b) of Annex 5.\r\nThe centre of the loading force shall be applied at the knee joint center within ±2 mm tolerance along the Z-axis\r\n(see Figure 5 below). The external load shall be increased so as to maintain a deflection rate between 10 and 100\r\nmm/minute until the bending moment at the centre part of the knee joint (Mc) reaches 400 Nm."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3",
+      "pages": [
+        41
+      ],
+      "text": "1.3. Dynamic certification tests (pendulum test)"
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.1",
+      "pages": [
+        41
+      ],
+      "text": "1.3.1. Certification"
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.1.1",
+      "pages": [
+        41
+      ],
+      "text": "1.3.1.1. The test facility used for the certification test shall have a stabilized temperature of 20 °C ± 2 °C during\r\nthe test."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.1.2",
+      "pages": [
+        41
+      ],
+      "text": "1.3.1.2. The temperature of the certification area shall be measured at the time of certification and recorded in a\r\ncertification report."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.2",
+      "pages": [
+        41
+      ],
+      "text": "1.3.2. Requirements"
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.2.1",
+      "pages": [
+        41,
+        42
+      ],
+      "text": "1.3.2.1. When the flexible lower legform impactor is used for a test according to paragraph 1.3.3. below, the\r\nabsolute value of the maximum bending moment of the tibia at:\r\n(a) Tibia-1 shall be 235 Nm ≤ 272 Nm;\r\n(b) Tibia-2 shall be 187 Nm ≤ 219 Nm;\r\n(c) Tibia-3 shall be 139 Nm ≤ 166 Nm;\r\n(d) Tibia-4 shall be 90 Nm ≤ 111 Nm.\r\nThe absolute value of the maximum elongation of:\r\n(a) MCL shall be 20.5 ≤ 24.0 mm;\r\n\r\n\r\n\r\n\r\n\r\n(b) ACL shall be 8.0 mm ≤ 10.5 mm;\r\n(c) PCL shall be 3.5 mm ≤ 5.0 mm.\r\nFor all these values for the maximum bending moment and the maximum elongation, the readings used shall be\r\nfrom the initial impact timing to 200 ms after the impact timing."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.2.2",
+      "pages": [
+        42
+      ],
+      "text": "1.3.2.2. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 180 for all transducers.\r\nThe CAC response values, as defined in ISO 6487:2002, shall be 30 mm for the knee ligament elongations and"
+    },
+    {
+      "paragraph": "Annex 6 / 400",
+      "pages": [
+        42
+      ],
+      "text": "400 Nm for the tibia bending moments.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.3",
+      "pages": [
+        42
+      ],
+      "text": "1.3.3. Test procedure",
+      "review_flags": [
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.3.1",
+      "pages": [
+        42
+      ],
+      "text": "1.3.3.1. The flexible lower legform impactor, including the flesh and skin, shall be suspended from the dynamic\r\ncertification test rig 15° ± 1° upward from the horizontal as shown in Figure 6 below. The impactor shall be\r\nreleased from the suspended position and fall freely against the pin joint of the test rig as shown in Figure 6."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3.3.2",
+      "pages": [
+        42
+      ],
+      "text": "1.3.3.2. The knee joint centre of the impactor shall be 30 mm ± 1 mm below the bottom line of the stopper bar,\r\nand the tibia impact face without the flesh and skin shall be located 13 mm ± 2 mm from the front upper edge of\r\nthe stopper bar when the impactor is hanging freely as shown in Figure 6 below."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4",
+      "pages": [
+        42
+      ],
+      "text": "1.4. Dynamic certification tests (inverse test)"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.1",
+      "pages": [
+        42
+      ],
+      "text": "1.4.1. Certification"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.1.1",
+      "pages": [
+        42
+      ],
+      "text": "1.4.1.1. The test facility used for the certification test shall have a stabilized temperature of 20 °C ± 2 °C during\r\nthe test."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.1.2",
+      "pages": [
+        42
+      ],
+      "text": "1.4.1.2. The temperature of the certification area shall be measured at the time of certification and recorded in a\r\ncertification report."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.2",
+      "pages": [
+        42
+      ],
+      "text": "1.4.2. Requirements"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.2.1",
+      "pages": [
+        42
+      ],
+      "text": "1.4.2.1. When the flexible lower legform impactor is used for the test according to paragraph 1.4.3. of this annex,\r\nthe absolute value of the maximum bending moment of the tibia:\r\n(a) Tibia-1 shall be 230 Nm ≤ 272 Nm;\r\n(b) Tibia-2 shall be 210 Nm ≤ 252 Nm;\r\n(c) Tibia-3 shall be 166 Nm ≤ 192 Nm;\r\n(d) Tibia-4 shall be 93 Nm ≤ 108 Nm.\r\nThe absolute value of the maximum elongation of:\r\n(a) MCL shall be 17.0 ≤ 21.0 mm;\r\n(b) ACL shall be 8.0 mm ≤ 10.0 mm;\r\n(c) PCL shall be 4.0 mm ≤ 6.0 mm.\r\nFor all these values for the maximum bending moment and the maximum elongation, the readings used shall be\r\nfrom the initial impact timing to 50 ms after the impact timing."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.2.2",
+      "pages": [
+        42
+      ],
+      "text": "1.4.2.2. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 180 for all transducers.\r\nThe CAC response values, as defined in ISO 6487:2002, shall be 30 mm for the knee ligament elongations and\r\n400 Nm for the tibia bending moments.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3",
+      "pages": [
+        42
+      ],
+      "text": "1.4.3. Test procedure"
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3.1",
+      "pages": [
+        42,
+        43
+      ],
+      "text": "1.4.3.1. The assembled flexible lower legform impactor (with the flesh and skin) shall be hung vertically and\r\nfreely suspended from a test rig as shown in Figure 7 below. It is then impacted by the upper edge of a linearly\r\nguided aluminium honeycomb impactor, covered by a thin paper cloth with a maximum thickness of 1 mm, at an\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nimpact speed of 11.1 m/s ± 0.2 m/s. The legform shall achieve a free flight condition within 10 ms after the time\r\nof first contact of the honeycomb impactor."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3.2",
+      "pages": [
+        43
+      ],
+      "text": "1.4.3.2. The honeycomb of 5052 alloy, which is attached in front of the moving ram, shall be 200 mm ± 5 mm\r\nwide, 160 mm ± 5 mm high and 60 mm ± 2 mm deep and shall have a crush strength of 75 pound per square inch\r\n(psi) ±10 per cent. The honeycomb should have cell sizes of either 3/16 inch or ¼ inch and a density of 2.0 pound\r\nper cubic foot (pcf) for the 3/16 inch cell size or a density of 2.3 pcf for the ¼ inch cell size."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3.3",
+      "pages": [
+        43
+      ],
+      "text": "1.4.3.3. The upper edge of the honeycomb face shall be in line with the rigid plate of the linearly guided impactor.\r\nAt the time of first contact, the upper edge of the honeycomb shall be in line with the knee joint centre line within\r\na vertical tolerance of ±2 mm.\r\nThe honeycomb shall not be deformed before the impact test."
+    },
+    {
+      "paragraph": "Annex 6 / 1.4.3.4",
+      "pages": [
+        43
+      ],
+      "text": "1.4.3.4. At the time of the first contact, the flexible lower legform impactor pitch angle (rotation around the Y-\r\naxis) and therefore the pitch angle of the velocity vector of the honeycomb impactor shall be within a tolerance of\r\n±2° in relation to the lateral vertical plane. The flexible lower legform impactor roll angle (rotation around the X-\r\naxis) and therefore the roll angle of the honeycomb impactor shall be within a tolerance of ±2° in relation to the\r\nlongitudinal vertical plane. The flexible lower legform impactor yaw angle (rotation around the Z-axis) and\r\ntherefore the yaw angle of the velocity vector of the honeycomb impactor shall be within a tolerance of ±2°."
+    },
+    {
+      "paragraph": "Annex 6 / 2",
+      "pages": [
+        43
+      ],
+      "text": "2. Upper legform impactor certification"
+    },
+    {
+      "paragraph": "Annex 6 / 2.1",
+      "pages": [
+        43
+      ],
+      "text": "2.1. The certified impactor may be used for a maximum of 20 impacts before re-certification (this limit does not\r\napply to propulsion or guidance components). The impactor shall also be re-certified if more than one year has\r\nelapsed since the previous certification or if any impactor transducer output, in any impact, has exceeded the\r\nspecified CAC."
+    },
+    {
+      "paragraph": "Annex 6 / 2.2",
+      "pages": [
+        43
+      ],
+      "text": "2.2. Certification"
+    },
+    {
+      "paragraph": "Annex 6 / 2.2.1",
+      "pages": [
+        43
+      ],
+      "text": "2.2.1. The foam flesh for the test impactor shall be stored for a period of at least four hours in a controlled storage\r\narea with a stabilized humidity of 35 ± 10 per cent and a stabilized temperature of 20 °C ± 2 °C prior to impactor\r\nremoval for certification. The test impactor itself shall have a temperature of 20 °C ± 2 °C at the time of impact.\r\nThe temperature tolerances for the test impactor shall apply at a relative humidity of 40 ± 30 per cent after a soak\r\nperiod of at least four hours prior to their application in a test."
+    },
+    {
+      "paragraph": "Annex 6 / 2.2.2",
+      "pages": [
+        43
+      ],
+      "text": "2.2.2. The test facility used for the certification test shall have a stabilized humidity of 40 ± 30 per cent and a\r\nstabilized temperature of 20 °C ± 4 °C during certification."
+    },
+    {
+      "paragraph": "Annex 6 / 2.2.3",
+      "pages": [
+        43
+      ],
+      "text": "2.2.3. Each certification shall be completed within two hours of when the impactor to be calibrated is removed\r\nfrom the controlled storage area."
+    },
+    {
+      "paragraph": "Annex 6 / 2.2.4",
+      "pages": [
+        43
+      ],
+      "text": "2.2.4. The relative humidity and temperature of the certification area shall be measured at the time of certification,\r\nand recorded in the certification report."
+    },
+    {
+      "paragraph": "Annex 6 / 2.3",
+      "pages": [
+        43
+      ],
+      "text": "2.3. Requirements"
+    },
+    {
+      "paragraph": "Annex 6 / 2.3.1",
+      "pages": [
+        43
+      ],
+      "text": "2.3.1. When the impactor is propelled into a stationary cylindrical pendulum the peak force measured in each load\r\ntransducer shall be not less than 1.20 kN and not more than 1.55 kN and the difference between the peak forces\r\nmeasured in the top and bottom load transducers shall not be more than 0.10 kN. Also, the peak bending moment\r\nmeasured by the strain gauges shall not be less than 190 Nm and not more than 250 Nm on the centre position and\r\nnot less than 160 Nm and not more than 220 Nm for the outer positions. The difference between the upper and\r\nlower peak bending moments shall not be more than 20 Nm.\r\nFor all these values, the readings used shall be from the initial impact with the pendulum and not from the\r\narresting phase. Any system used to arrest the impactor or pendulum shall be so arranged that the arresting phase\r\ndoes not overlap in time with the initial impact. The arresting system shall not cause the transducer outputs to\r\nexceed the specified CAC."
+    },
+    {
+      "paragraph": "Annex 6 / 2.3.2",
+      "pages": [
+        44
+      ],
+      "text": "2.3.2. The instrumentation response value CFC, as defined in ISO 6487:2002, shall be 180 for all transducers. The\r\nCAC response values, as defined in ISO 6487:2002, shall be 10 kN for the force transducers and 1,000 Nm for the\r\nbending moment measurements."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4",
+      "pages": [
+        44
+      ],
+      "text": "2.4. Test procedure"
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.1",
+      "pages": [
+        44
+      ],
+      "text": "2.4.1. The impactor shall be mounted to the propulsion and guidance system, by a torque limiting joint. The\r\ntorque limiting joint shall be set so that the longitudinal axis of the front member is perpendicular to the axis of\r\nthe guidance system, with a tolerance of ±2°, with the joint friction torque set to 675 Nm ± 25 Nm. The guidance\r\nsystem shall be fitted with low friction guides that allow the impactor to move only in the specified direction of\r\nimpact, when in contact with the pendulum."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.2",
+      "pages": [
+        44
+      ],
+      "text": "2.4.2. The impactor mass shall be adjusted to give a mass of 12 kg ± 0.1 kg, this mass includes those propulsion\r\nand guidance components which are effectively part of the impactor during impact."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.3",
+      "pages": [
+        44
+      ],
+      "text": "2.4.3. The centre of gravity of those parts of the impactor which are effectively forward of the torque limiting\r\njoint, including the extra masses fitted, shall lie on the longitudinal centreline of the impactor, with a tolerance of\r\n±10 mm."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.4",
+      "pages": [
+        44
+      ],
+      "text": "2.4.4. The impactor shall be certified with previously unused foam."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.5",
+      "pages": [
+        44
+      ],
+      "text": "2.4.5. The impactor foam shall not be excessively handled or deformed before, during or after fitting."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.6",
+      "pages": [
+        44
+      ],
+      "text": "2.4.6. The impactor with the front member vertical shall be propelled horizontally at a velocity of 7.1 m/s ± 0.1\r\nm/s into the stationary pendulum as shown in Figure 8."
+    },
+    {
+      "paragraph": "Annex 6 / 2.4.7",
+      "pages": [
+        44
+      ],
+      "text": "2.4.7. The pendulum tube shall have a mass of 3 kg ± 0.03 kg, a wall thickness of 3 mm ± 0.15 mm and an outside\r\ndiameter of 150 mm +1 mm/-4 mm. Total pendulum tube length shall be 275 mm ± 25 mm. The pendulum tube\r\nshall be made from cold finished seamless steel (metal surface plating is permissible for protection from\r\ncorrosion), with an outer surface finish of better than 2.0 micrometer. It shall be suspended on two wire ropes of\r\n1.5 mm ± 0.2 mm diameter and of 2.0 m minimum length. The surface of the pendulum shall be clean and dry.\r\nThe pendulum tube shall be positioned so that the longitudinal axis of the cylinder is perpendicular to the front\r\nmember (i.e. level), with a tolerance of ±2℃, and to the direction of impactor motion, with a tolerance of ±2℃,\r\nand with the centre of the pendulum tube aligned with the centre of the impactor front member, with tolerances of\r\n±5 mm laterally and ±5 mm vertically.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 3",
+      "pages": [
+        44
+      ],
+      "text": "3. Child and adult headform"
+    },
+    {
+      "paragraph": "Annex 6 / 3.1",
+      "pages": [
+        44
+      ],
+      "text": "3.1. The certified impactors may be used for a maximum of 20 impacts before re-certification. The impactors shall\r\nbe re-certified if more than one year has elapsed since the previous certification or if the transducer output, in any\r\nimpact, has exceeded the specified CAC."
+    },
+    {
+      "paragraph": "Annex 6 / 3.2",
+      "pages": [
+        44
+      ],
+      "text": "3.2. Drop test"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.1",
+      "pages": [
+        44
+      ],
+      "text": "3.2.1. When the headform impactors are dropped from a height of 376 mm ± 1 mm in accordance with paragraph\r\n3.3. below, the peak resultant acceleration measured by one triaxial (or three uniaxial) accelerometer\r\n(accelerometers) in the headform impactor shall be:\r\n(a) For the child headform impactor not less than 245 g and not more than 300 g;\r\n(b) For the adult headform impactor not less than 225 g and not more than 275 g.\r\nThe acceleration time curve shall be uni-modal.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.2",
+      "pages": [
+        44
+      ],
+      "text": "3.2.2. The instrumentation response values CFC and CAC for each accelerometer shall be 1,000 Hz and 500 g\r\nrespectively as defined in ISO 6487:2002."
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.3",
+      "pages": [
+        44
+      ],
+      "text": "3.2.3. The headform impactors shall have a temperature of 20 °C ± 2 °C at the time of impact. The temperature\r\ntolerances shall apply at a relative humidity of 40 ± 30 per cent after a soak period of at least four hours prior to\r\ntheir application in a test."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3",
+      "pages": [
+        45
+      ],
+      "text": "3.3. Test procedure"
+    },
+    {
+      "paragraph": "Annex 6 / 3.3.1",
+      "pages": [
+        45
+      ],
+      "text": "3.3.1. The headform impactor shall be suspended from a drop rig as shown in Figure 9."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3.2",
+      "pages": [
+        45
+      ],
+      "text": "3.3.2. The headform impactor shall be dropped from the specified height by means that ensure instant release onto\r\na rigidly supported flat horizontal steel plate, over 50 mm thick and over 300 mm x 300 mm square which has a\r\nclean dry surface and a surface finish of between 0.2 and 2.0 micrometer."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3.3",
+      "pages": [
+        45
+      ],
+      "text": "3.3.3. The headform impactor shall be dropped with the rear face of the impactor at the test angle specified in\r\nAnnex 5, paragraph 4.7. for the child headform impactor and in Annex 5, paragraph 5.7. for the adult headform\r\nimpactor with respect to the vertical as shown in Figure 9 below. The suspension of the headform impactor shall\r\nbe such that it does not rotate during the fall."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3.4",
+      "pages": [
+        45
+      ],
+      "text": "3.3.4. The drop test shall be performed three times, with the headform impactor rotated 120° around its\r\nsymmetrical axis after each test."
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        45
+      ],
+      "text": "Figure 1 Flexible lower legform impactor: Requirement corridors of the femur and the tibia in the static\r\ncertification test (see paragraph 1.2.2. of this annex)\r\n(a) Femur bending corridor\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Tibia bending corridor",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        46
+      ],
+      "text": "Figure 2 Flexible lower legform impactor: Requirement corridors for the knee joint in the static\r\ncertification test\r\n(see paragraph 1.2.3. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        47
+      ],
+      "text": "Figure 3 Flexible lower legform: Impactor test set-up for the femur in the static certification test\r\n(see paragraph 1.2.4. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 4",
+      "pages": [
+        48
+      ],
+      "text": "Figure 4 Flexible lower legform impactor: Test set-up for the tibia in the static certification test\r\n(see paragraph 1.2.4. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 5",
+      "pages": [
+        48
+      ],
+      "text": "Figure 5 Flexible lower legform impactor: Test set-up for the knee joint in the static certification test\r\n(see paragraph 1.2.5. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 6",
+      "pages": [
+        49
+      ],
+      "text": "Figure 6 Flexible lower legform impactor: Test set-up for the dynamic lower legform impactor certification\r\ntest (pendulum test, see paragraph 1.3.3.1. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 7",
+      "pages": [
+        50
+      ],
+      "text": "Figure 7 Flexible lower legform impactor: Test set-up for the dynamic lower legform impactor certification\r\ntest (inverse test, see paragraph 1.4.3.1. of this annex)",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 8",
+      "pages": [
+        51
+      ],
+      "text": "Figure 8 Test set-up for dynamic upper legform impactor certification test",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Figure 9",
+      "pages": [
+        52
+      ],
+      "text": "Figure 9 Test set-up for dynamic headform impactor biofidelity test",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    }
+  ]
+}

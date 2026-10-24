@@ -1,0 +1,2261 @@
+{
+  "regulation": "UN R131",
+  "version": "2.3.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1,
+        2
+      ],
+      "text": "UN R131 (version 2.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nIntroduction\r\nThe original intention of this Regulation was to establish uniform provisions for Advanced Emergency Braking\r\nSystems (AEBS) fitted to motor vehicles of the Categories M2, M3, N2 and N3 primarily used under monotonous\r\nhighway driving conditions. This version extends the scope to new scenarios like city driving.\r\nWhile, in general, those vehicle categories would benefit from the fitment of an AEBS, there are sub-groups\r\nwhere the benefit is rather uncertain because of their specific usage (e.g. buses with standing passengers i.e.\r\nClasses I, II and A, Category G vehicles, construction vehicles, etc.). Regardless from the benefit, there are other\r\nsub-groups where the installation of AEBS would be technically difficult or not feasible (e.g. position of the\r\nsensor on vehicles of Category G, construction vehicles mainly used in off-road areas and gravel tracks, special\r\npurpose vehicles and vehicles with front mounted equipment, etc.). In some cases, there may be a possibility of\r\nfalse emergency braking events because of vehicle design constraints.\r\nAEBS are designed to deal with specific critical traffic situations with an operational intervention as an assistance\r\nsystem for the driver. This Regulation cannot cover all the traffic conditions and infrastructure features in the\r\ntype-approval process; this Regulation recognises that the performances required in it cannot be achieved in all\r\nconditions (vehicle condition, road adhesion, weather conditions, noise of external radar sources, deteriorated road\r\ninfrastructure and traffic scenarios etc. may affect the system performances). While the system should meet the\r\nexpected performance under the specified conditions, actual conditions and features in the real world may\r\nadditionally influence performance and should not result in false warnings or false braking to the extent that they\r\nencourage the driver to switch off the system. Some other conditions affecting the performance may indeed be\r\nencountered in the future (e.g. new infrastructure type). The list may then be upgraded to acknowledge for the\r\ngained experience.\r\nThe system shall automatically detect a potential forward collision with another vehicle and with a pedestrian\r\ncrossing the path of the vehicle, provide the driver with a warning and activate the vehicle braking system to\r\ndecelerate the vehicle with the purpose of avoiding or mitigating the severity of a collision.\r\nThe system shall only operate in driving situations where braking will avoid or mitigate the severity of an accident\r\nand shall avoid intervening in uncritical driving situations.\r\nIn the case of a failure in the system, the safe operation of the vehicle shall not be endangered.\r\nThe system shall provide as a minimum an acoustic or haptic warning, which may also be a sharp deceleration, so\r\nthat an inattentive driver is made aware of a critical situation, if time permits. There are, however, situations\r\nwhere a warning cannot be given in time for the driver to appropriately react, such as collisions with pedestrian or\r\nwith strongly decelerating preceding vehicles. In these cases, the warning may be given at the time that an\r\nemergency brake intervention starts.\r\nDuring any action taken by the system (the warning and emergency braking phases), the driver can, at any time\r\nthrough a conscious action like an accelerator kick-down or a swerving action that results in enough change of\r\ndirection not to hit the target, take control and override the system.\r\nWhile from a traffic safety perspective, it would be appreciable to require automated collision avoidance for all\r\nheavy vehicles up to their maximum driving speed, the prevention of false positive reactions limits the current\r\nmaximum performance. This revision of UN Regulation No. 131 is accounting for the fact that active safety\r\nsystems in general have made a giant leap over the 2010’s with respect to their performance in avoiding or\r\nmitigating accidents with an ever-increasing variety of collision partners.\r\n\r\n\r\n\r\n\r\n\r\nThere should be an ambition to produce AEBS for heavy vehicles that go beyond what is required in this version\r\nof UN Regulation No. 131, namely: to avoid accidents with other vehicles up to the maximum driving speed, to\r\navoid accidents with pedestrians up to speeds comparable to those required from passenger cars (see UN\r\nRegulation No. 152) and to avoid collisions with bicycles. To support this level of ambition, the state of\r\ntechnology should be closely monitored and requirements in this Regulation regularly adapted as appropriate."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        2
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to the approval* of vehicles of Category M2, M3, N2 and N31 with regard to an on-board\r\n\r\nsystem to:\r\n(a) Avoid or mitigate the severity of a rear-end in lane collision with a preceding vehicle,\r\n(b) Avoid or mitigate the severity of an impact with a pedestrian.\r\n* For vehicles of category M2, and for those of category M3/N2 with a maximum weight below or equal to 8t,\r\nequipped with hydraulic braking, Contracting Parties that are signatories to both UN Regulation No. 152 and this\r\nRegulation shall recognize approvals to either Regulation as equally valid.\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        2
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        2
+      ],
+      "text": "2.1. \"Advanced Emergency Braking System (AEBS)\" means a system which can automatically detect an imminent\r\nforward collision and activate the vehicle braking system to decelerate the vehicle with the purpose of avoiding or\r\nmitigating a collision."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        2
+      ],
+      "text": "2.2. \"Emergency Braking\" means a braking demand emitted by the AEBS to the service braking system of the\r\nvehicle."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        2
+      ],
+      "text": "2.3. \"Collision Warning \" means a warning emitted by the AEBS to the driver when the AEBS has detected an\r\nimminent forward collision."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        2
+      ],
+      "text": "2.4. \"Vehicle Type with Regard to its Advanced Emergency Braking System\" means a category of vehicles which\r\ndo not differ in such essential aspects as:\r\n(a) Vehicle features which significantly influence the performances of the Advanced Emergency Braking System;\r\n(b) The type and design of the Advanced Emergency Braking System."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        2
+      ],
+      "text": "2.5. \"Subject Vehicle\" means the vehicle being tested."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6. \"Soft Target\" means a target that will suffer minimum damage and cause minimum damage to the subject\r\nvehicle in the event of a collision."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Vehicle Target\" means a target that represents a vehicle"
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Pedestrian Target\" means a soft target that represents a pedestrian"
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        2
+      ],
+      "text": "2.9. \"Common Space\" means an area on which two or more information functions (e.g. symbol) may be displayed,\r\nbut not simultaneously."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Self-Check\" means an integrated function that checks for a system failure on a continuous basis at least\r\nwhile the system is active."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Time To Collision (TTC)\" means the value of time obtained by dividing the longitudinal distance (in the\r\ndirection of travel of the subject vehicle) between the subject vehicle and the target by the longitudinal relative\r\nspeed of the subject vehicle and the target, at any instant in time."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        3
+      ],
+      "text": "2.12. \"Initialisation\" means the process of setting-up the operation of the system after switching ON the vehicle\r\nuntil it is fully functioning."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        3
+      ],
+      "text": "2.13. \"Mass of a vehicle in running order\" means the mass of an unladen vehicle with bodywork and/or coupling\r\ndevice, as relevant (e.g. if fitted by the manufacturer), including coolant, oils, at least 90 per cent of fuel, 100 per\r\ncent of other liquids except used waters, driver (75 kg), tools, spare wheel, and, for buses and coaches, the mass of\r\nthe crew member (75 kg) if there is a crew seat in the vehicle."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        3
+      ],
+      "text": "2.14. \"Maximum mass\" means the maximum mass stated by the vehicle manufacturer to be technically\r\npermissible (this mass may be higher than the \"permissible maximum mass\" laid down by the national\r\nadministration)."
+    },
+    {
+      "paragraph": "2.15",
+      "pages": [
+        3
+      ],
+      "text": "2.15. \"Dry road affording good adhesion\" means a road with a sufficient nominal2 Peak Braking Coefficient\r\n(PBC) that would permit:\r\n(a) A mean fully developed deceleration of at least 9m/s2 ; or\r\n\r\n(b) The design maximum deceleration of the relevant vehicle;\r\nwhichever is lower.\r\n\r\n2The \"nominal\" value is understood as being the minimum theoretical target value"
+    },
+    {
+      "paragraph": "2.16",
+      "pages": [
+        3
+      ],
+      "text": "2.16. \"Sufficient nominal Peak Braking Coefficient (PBC)\": means a road surface friction coefficient of\r\n(a) 0.9, when measured using the American Society for Testing and Materials (ASTM) of E1136-19 standard\r\nreference test tyre in accordance with ASTM Method E1337-19 at a speed of 40 mph\r\n(b) 1.017, when measured using either:\r\n(i) The American Society for Testing and Materials (ASTM) of F2493-20 standard reference test tyre in\r\naccordance with ASTM Method E1337-19 at a speed of 40 mph; or\r\n(ii) The k-test method specified in Appendix 2 to Annex 6 of Regulation No. 13-H.\r\n(c) The required value to permit the design maximum deceleration of the relevant vehicle, when measured using\r\nthe k-test method in Appendix 2 to Annex 13 of UN Regulation No. 13."
+    },
+    {
+      "paragraph": "2.17",
+      "pages": [
+        3
+      ],
+      "text": "2.17. \"The mean fully developed deceleration (dm)\" shall be calculated as the deceleration averaged with respect\r\nto distance over the interval vb to ve, according to the following formula:\r\n\r\n\r\n\r\n\r\n\r\nWhere:\r\nvo = initial vehicle speed in km/h,\r\n\r\nvb = vehicle speed at 0.8 vo in km/h,\r\n\r\nve = vehicle speed at 0.1 vo in km/h,\r\n\r\nsb = distance travelled between vo and vb in metres,\r\n\r\nse = distance travelled between vo and ve in metres.\r\n\r\nThe speed and distance shall be determined using instrumentation having an accuracy of ±1 per cent at the\r\nprescribed speed for the test. The dm may be determined by other methods than the measurement of speed and\r\ndistance; in this case, the accuracy of the dm shall be within ±3 per cent."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        4
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        4
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to the AEBS shall be submitted by the vehicle\r\nmanufacturer or by his authorised representative."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        4
+      ],
+      "text": "3.2. It shall be accompanied by the documents mentioned below in triplicate:"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        4
+      ],
+      "text": "3.2.1. A description of the vehicle type with regard to the items mentioned in paragraph 2.4., together with a\r\ndocumentation package which gives access to the basic design of the AEBS and the means by which it is linked to\r\nother vehicle systems or by which it directly controls output variables. The numbers and/or symbols identifying\r\nthe vehicle type shall be specified."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        4
+      ],
+      "text": "3.3. A vehicle representative of the vehicle type to be approved shall be submitted to the Technical Service\r\nconducting the approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        4
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        4
+      ],
+      "text": "4.1. If the vehicle type submitted for approval pursuant to this Regulation meets the requirements of paragraph 5.\r\nbelow, approval of that vehicle shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        4
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved; its first two digits (02 corresponding to the 02\r\nseries of amendments) shall indicate the series of amendments incorporating the most recent major technical\r\namendments made to the Regulation at the time of issue of the approval. The same Contracting Party shall not\r\nassign the same number to the same vehicle type equipped with another type of AEBS, or to another vehicle type."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        4
+      ],
+      "text": "4.3. Notice of approval or of refusal or withdrawal of approval pursuant to this Regulation shall be communicated\r\nto the Contracting Parties to the Agreement which apply this Regulation by means of a form conforming to the\r\nmodel in Annex 1 and documentation supplied by the applicant being in a format not exceeding A4 (210 ×\r\n297mm), or folded to that format, and on an appropriate scale or electronic format."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        4
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle conforming to a vehicle type approved under this Regulation, an international approval mark\r\nconforming to the model described in Annex 2, consisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        4
+      ],
+      "text": "4.4.1. A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval; 3\r\n\r\n\r\n3The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.6, Annex 3 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html"
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        4
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the Letter \"R\", a dash and the approval number to the right of\r\nthe circle prescribed in paragraph 4.4.1. above."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        4
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved under one or more other Regulations, annexed to the\r\nAgreement, in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. above need not be repeated; in such a case, the Regulation and approval numbers and the additional\r\nsymbols shall be placed in vertical columns to the right of the symbol prescribed in paragraph 4.4.1. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        4
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        4
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        4
+      ],
+      "text": "5. Speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        4
+      ],
+      "text": "5.1. General requirements"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.1.1. Any vehicle fitted with an AEBS complying with the definition of paragraph 2.1. above shall, when\r\nactivated and operated within the prescribed speed ranges, meet the performance requirements:\r\n\r\n\r\n\r\n\r\n\r\n\r\n5.1.1.1. of paragraphs 5.1. and paragraphs 5.3. to 5.6. of this Regulation for all vehicles;\r\n5.1.1.2. of paragraph 5.2.1. of this Regulation for vehicles submitted to approval for vehicle to vehicle scenario;\r\n5.1.1.3. of paragraph 5.2.2. of this Regulation for vehicles submitted to approval for Vehicle to pedestrian\r\nscenario.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.2",
+      "pages": [
+        5
+      ],
+      "text": "5.1.2. The effectiveness of AEBS shall not be adversely affected by magnetic or electrical fields. This shall be\r\ndemonstrated by compliance with the 05 or later series of amendments to UN Regulation No. 10."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        5
+      ],
+      "text": "5.1.3. Conformity with the safety aspects of electronic control systems shall be shown by meeting the\r\nrequirements of Annex 3."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4. Warnings and information\r\nIn addition to the collision warnings described in paragraphs 5.2.1.1. and 5.2.2.1., the system shall provide the\r\ndriver with appropriate warning(s) as below:"
+    },
+    {
+      "paragraph": "5.1.4.1",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4.1. A failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation of\r\nbeing met. The warning shall be as specified in paragraph 5.5.4."
+    },
+    {
+      "paragraph": "5.1.4.1.1",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4.1.1. There shall not be an appreciable time interval between each AEBS self-check, and subsequently there\r\nshall not be a delay in illuminating the warning signal, in the case of an electrically detectable failure."
+    },
+    {
+      "paragraph": "5.1.4.1.2",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4.1.2. Upon detection of any non-electrical failure condition (e.g. sensor blindness or sensor misalignment),\r\nthe warning signal as defined in paragraph 5.1.4.1. shall be illuminated"
+    },
+    {
+      "paragraph": "5.1.4.2",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4.2. If the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10\r\nkm/h, information of this status shall be indicated to the driver. This information shall exist until the system has\r\nbeen successfully initialised."
+    },
+    {
+      "paragraph": "5.1.4.3",
+      "pages": [
+        5
+      ],
+      "text": "5.1.4.3. A deactivation warning, if the vehicle is equipped with a means to deactivate the AEBS, shall be given\r\nwhen the system is deactivated. This shall be as specified in paragraph 5.4.4."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        5
+      ],
+      "text": "5.1.5. Emergency braking\r\nSubject to the provisions of paragraphs 5.3.1. and 5.3.2., the system shall provide emergency braking\r\ninterventions described in paragraphs 5.2.1.2. and 5.2.2.2. having the purpose of significantly decreasing the\r\nspeed of the subject vehicle."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        5
+      ],
+      "text": "5.1.6. False reaction avoidance\r\nThe system shall be designed to minimise the generation of collision warning signals and to avoid advanced\r\nemergency braking in situations where there is no risk of an imminent collision. This shall be demonstrated in the\r\nassessment carried out under Annex 3, and this assessment shall include in particular scenarios listed in Appendix\r\n2 of Annex 3.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        5
+      ],
+      "text": "5.1.7. Any vehicle fitted with an AEBS shall meet the performance requirements of UN Regulation No. 13 in its\r\n11 series of amendments for vehicles of Category M2, M3, N2, N3 and shall be equipped with an anti-lock system\r\nin accordance with the performance requirements of Annex 13 to UN Regulation No. 13 in its 11 series of\r\namendments.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.1.8",
+      "pages": [
+        5,
+        6
+      ],
+      "text": "5.1.8. In situations where the deceleration is limited in empty load conditions, and provided this would be\r\ndemonstrated by the vehicle manufacturer to the technical services, the requirements applicable to the vehicle\r\nwith a mass in running order in the tables of paragraphs 5.2.1.4. and 5.2.2.4. shall be deemed fulfilled if the\r\nimpact speed requirements are met with an added mass on the rear axle, calculated to implement an α value\r\nbetween 1.3 and 1.5,\r\nWith α = Wr/W × L/H, where:\r\n\r\n(a) Wr is the rear axle load.\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) W is the subject vehicle mass.\r\n(c) L is the subject vehicle wheelbase.\r\n(d) H is the subject vehicle centre of gravity height in running order.\r\nAdditionally, the relative impact speed shall be measured with a vehicle mass in running order, and the result\r\nappended to the test report. The vehicle shall reach a relative avoidance speed reduced by α/1.3 when in\r\nconfiguration of \"mass in running order."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2. Specific Requirements"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.1. Vehicle to vehicle scenario"
+    },
+    {
+      "paragraph": "5.2.1.1",
+      "pages": [
+        6
+      ],
+      "text": "5.2.1.1. Collision warning\r\nWhen an imminent collision, with a preceding vehicle of Category M, N or O, is detected in the same lane with a\r\nrelative speed above that speed up to which the subject vehicle is able to avoid the collision (within the conditions\r\nspecified in paragraph 5.2.1.4), a collision warning shall be provided as specified in paragraph 5.5.1., and shall be\r\ntriggered at the latest 0.8 seconds before the start of emergency braking.\r\nHowever, in case the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of an\r\nemergency braking, a collision warning as specified in paragraph 5.5.1. shall be provided no later than the start of\r\nthe emergency braking.\r\nThe collision warning may be aborted if the conditions prevailing a collision are no longer present.\r\nThis shall be verified according to paragraphs 6.4. and 6.5."
+    },
+    {
+      "paragraph": "5.2.1.2",
+      "pages": [
+        6
+      ],
+      "text": "5.2.1.2. Emergency braking\r\nWhen the system has detected the possibility of an imminent collision, there shall be a braking demand of at least\r\n4 m/s² to the service braking system of the vehicle. This does not prohibit higher deceleration demand values than\r\n4 m/s² during the collision warning for very short durations, e.g. as haptic warning to stimulate the driver’s\r\nattention.\r\nThe emergency braking may be aborted, or the deceleration demand reduced below the threshold above (as\r\nrelevant), if the conditions prevailing a collision are no longer present or the risk of a collision has decreased.\r\nThis shall be verified according to paragraphs 6.4. and 6.5.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.2.1.3",
+      "pages": [
+        6
+      ],
+      "text": "5.2.1.3. Speed range\r\nThe system shall be active at least within the vehicle speed range between 10 km/h and the maximum design\r\nspeed of the vehicle and at all vehicle load conditions, unless deactivated as per paragraph 5.4."
+    },
+    {
+      "paragraph": "5.2.1.4",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "5.2.1.4. Speed reduction by braking demand\r\nIn absence of driver’s input which would lead to interruption according to paragraph 5.3.2., the AEBS shall be\r\nable to achieve a relative impact speed that is less or equal to the maximum relative impact speed as shown in the\r\nfollowing table, provided:\r\n(a) Vehicle external influences allow for the required deceleration, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the dynamic performance of the vehicle (e.g. no storm, not below 0°C);\r\n(b) The vehicle state itself allows for the required deceleration, e.g.:\r\n(i) The tyres are in an appropriate state and properly inflated;\r\n(ii) The brakes are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(c) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly RADAR-reflective environment);\r\n(ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g.\r\nbelow fifth percentile of RCS of all M1 vehicles)\r\n\r\n(iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iv) There are no overhead obstructions close to the vehicle;\r\n(d) The situation is unambiguous, i.e.:\r\n(i) The preceding vehicle belongs to Category M, N, O3 or O4, is unobstructed, clearly separated from other\r\nobjects in the driving lane and constantly travelling or stationary;\r\n(ii) The vehicle longitudinal centre planes are displaced by not more than 0.2 m;\r\n(iii) The direction of travel is straight with no curve, and the vehicle is not turning at an intersection and following\r\nits lane.\r\nWhen conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the\r\ncontrol strategy. This shall be demonstrated in accordance with paragraph 6 and Annex 3 of this Regulation."
+    },
+    {
+      "paragraph": "Table 1",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "Table 1 Maximum relative Impact Speed (km/h) (regardless whether target stationary or moving)*\r\n\r\n Relative        M2, M3≤ 8t and N2≤ 8t                                                                                         M3>8t,\r\n Speed                                                                                                                         N2>8t, N3\r\n (km/h)          Vehicle derived          Other vehicles\r\n\r\n                 from M1/N1 **            Vehicles not equipped with hydraulic braking               Vehicles with\r\n\r\n                                          (e.g. pneumatic, Air over hydraulic (AOH))                 hydraulic braking\r\n\r\n 10              0                        0                                                          0                         0\r\n\r\n 20              0                        0                                                          0                         0\r\n\r\n 30              0                        0                                                          0                         0\r\n\r\n 35              0                        0                                                          0                         0\r\n\r\n 40              0                        0                                                          15                        0\r\n\r\n 50              0                        0                                                          28                        0\r\n\r\n 60              25                       0                                                          40                        0\r\n\r\n 70              37                       0                                                          50                        0\r\n\r\n 80              49                       28                                                         61                        28\r\n\r\n 90              60                       42                                                         71                        42\r\n\r\n 100             71                       54                                                         82                        54***\r\n\r\n All values in km/h\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n* For relative speeds between the listed values (e.g. 53 km/h for a Vehicle derived from M1/N1), the maximum relative\r\n impact speed (i.e. 25 km/h) assigned to the next higher relative speed (i.e. 60 km/h) shall apply.\r\n ** The vehicle manufacturer shall demonstrate to the technical service that the vehicles are derived one from the other.\r\n *** This value only applies to M3\r\n\r\nNotwithstanding the table above, for those vehicles driving in urban areas where the speed is limited to 60kph or\r\nbelow, the speed reduction shall be at least 40 km/h4. The safety concept shall be described by the vehicle\r\nmanufacturer and assessed by the Technical Service according to Annex 3 of this Regulation.\r\n\r\n4With the exception of vehicles with hydraulic braking which are not derived from M1/N1, since the minimum relative speed for collision\r\n\r\navoidance is already lower than 40km/h.",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        8
+      ],
+      "text": "5.2.2. Vehicle to pedestrian scenario"
+    },
+    {
+      "paragraph": "5.2.2.1",
+      "pages": [
+        8
+      ],
+      "text": "5.2.2.1. Collision warning\r\nWhen the AEBS has detected the possibility of a collision with a pedestrian crossing the road at a constant speed\r\nof not more than 5 km/h, within the conditions specified in paragraph 5.2.2.4., a collision warning as specified in\r\nparagraph 5.5.1. shall be provided no later than the start of the emergency braking.\r\nThe collision warning may be aborted if the conditions prevailing a collision are no longer present.\r\nThis shall be verified according to paragraphs 6.6."
+    },
+    {
+      "paragraph": "5.2.2.2",
+      "pages": [
+        8
+      ],
+      "text": "5.2.2.2. Emergency braking\r\nWhen the system has detected the possibility of an imminent collision, there shall be a braking demand of at least\r\n4 m/s² to the service braking system of the vehicle. This does not prohibit higher deceleration demand values than\r\n4 m/s² during the collision warning for very short durations, e.g. as haptic warning to stimulate the driver’s\r\nattention.\r\nThe emergency braking may be aborted, or the deceleration demand reduced below the threshold above (as\r\nrelevant), if the conditions prevailing a collision are no longer present or the risk of a collision has decreased.\r\nThis shall be verified according to paragraph 6.6.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.2.2.3",
+      "pages": [
+        8
+      ],
+      "text": "5.2.2.3. Speed range\r\nThe system shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle\r\nload conditions., unless deactivated as per paragraph 5.4."
+    },
+    {
+      "paragraph": "5.2.2.4",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "5.2.2.4. Speed reduction by braking demand\r\nIn absence of driver’s input which would lead to interruption according to paragraph 5.3.2., the AEBS shall be\r\nable to achieve an impact speed that is less or equal to the maximum relative impact speed as shown in the\r\nfollowing table, provided:\r\n(a) Pedestrians are unobstructed and perpendicularly crossing with a lateral speed component of not more than 5\r\nkm/h;\r\nVehicle external influences allow for the required deceleration, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the dynamic performance of the vehicle (e.g. no storm, not below 0°C);\r\nThe vehicle state itself allows for the required deceleration, e.g.:\r\n(i) The tyres in an appropriate state and properly inflated;\r\n(ii) The brakes are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(d) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 2000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly RADAR-reflective environment);\r\n(ii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iii) There are no overhead obstructions close to the vehicle;\r\n(e) The situation is unambiguous, i.e.:\r\n(i) There are not multiple pedestrians crossing in front of the vehicle.\r\n(ii) The silhouette of the pedestrian and the type of movement relate to a human being.\r\n(iii) The anticipated impact point is displaced by not more than 0.2 m compared to the vehicle longitudinal centre\r\nplane.\r\n(iv) The direction of travel is straight with no curve, and the vehicle is not turning at an intersection and following\r\nits lane.\r\n(v) There are no multiple objects close by to the pedestrian and an unambiguous object separation is given.\r\nWhen conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the\r\ncontrol strategy. This shall be demonstrated in accordance with paragraph 6 and Annex 3 of this Regulation.\r\nTable 2\r\nMaximum Impact Speed in the direction of travel of the vehicle (km/h) *\r\n\r\n Subject vehicle     M2, M3≤ 8t and N2≤ 8t                                                                                     M3>8t,\r\n speed                                                                                                                         N2>8t, N3\r\n (km/h)              Vehicle derived from      Other vehicles\r\n\r\n                     M1/N1 **                  Vehicles not equipped with hydraulic                Vehicles with\r\n\r\n                                               braking (e.g. pneumatic, AOH)                       hydraulic braking\r\n\r\n 20                  0                         0                                                   0                           0\r\n\r\n 26                  0                         13                                                  13                          13\r\n\r\n 30                  11                        18                                                  18                          18\r\n\r\n 40                  24                        29                                                  29                          29\r\n\r\n 50                  35                        39                                                  39                          39\r\n\r\n 60                  46                        49                                                  49                          49\r\n\r\nAll values in km/h\r\n* For subject vehicle speeds between the listed values (e.g. 53 km/h for a Vehicle derived from M1/N1), the\r\nmaximum impact speed (i.e. 46 km/h) assigned to the next higher relative speed (i.e. 60 km/h) shall apply.\r\n** The vehicle manufacturer shall demonstrate to the technical service that the vehicles are derived one from the\r\nother.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        9
+      ],
+      "text": "5.3. Interruption by the Driver"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        10
+      ],
+      "text": "5.3.1. The AEBS shall provide appropriate and robust means for the driver to interrupt the collision warning and\r\nthe emergency braking."
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        10
+      ],
+      "text": "5.3.2. In both cases above, this interruption may be initiated by any positive action (e.g. kick-down or a swerving\r\naction that results in enough change of direction to not hit the target) that indicates that the driver is aware of the\r\nemergency situation. The vehicle manufacturer shall provide a list of these positive actions to the technical service\r\nat the time of type approval, and it shall be annexed to the test report."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        10
+      ],
+      "text": "5.4. Deactivation"
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1. When a vehicle is equipped with a means to manually deactivate the AEBS function. the following\r\nconditions shall apply as appropriate:"
+    },
+    {
+      "paragraph": "5.4.1.1",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1.1. The AEBS function shall be automatically reinstated at each initiation of the powertrain5. A new engine\r\nstart (or run cycle) which is performed automatically, e.g. the operation of a stop/start system, shall not be\r\nconsidered an “initiation of the powertrain” wherever that term is used in this Regulation.\r\n\r\n5 As defined in Mutual Resolution No. 2 (M.R.2) of the 1958 and the 1998 Agreements containing vehicle propulsion system definitions,\r\ndocument ECE/TRANS/WP.29/1121.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.4.1.2",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1.2. The AEBS deactivation control shall be designed a in such a way that manual deactivation shall not be\r\npossible with less than two deliberate actions."
+    },
+    {
+      "paragraph": "5.4.1.3",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1.3. The location of AEBS deactivation control shall comply with the relevant requirements and transitional\r\nprovisions of UN Regulation No. 121 in its 01 series of amendments or any later series of amendments."
+    },
+    {
+      "paragraph": "5.4.1.4",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1.4. For every manual deactivation requested by the driver as referenced in paragraph 5.4.1.2., AEBS shall be\r\nautomatically reinstated latest after 15 minutes. Additionally, it shall be possible for the driver to reactivate AEBS\r\nat any time, including whilst driving."
+    },
+    {
+      "paragraph": "5.4.1.5",
+      "pages": [
+        10
+      ],
+      "text": "5.4.1.5. Notwithstanding the requirements of paragraph 5.4.1.4., AEBS may provide a technical means for the\r\ndriver to deactivate the system, following a unique procedure, in case of any situation impairing the operation of\r\nthe system (e.g. sensor mounting damage by an accident). The manufacturer shall provide information about these\r\nsituations in the vehicle owner's handbook or by any other communication means in the vehicle.\r\nAdditionally, the unique procedure shall be possible only while the vehicle is at standstill for a minimum time\r\nduration of 2 minutes with the master control switch active and shall require a more complex procedure than the\r\none specified in paragraph 5.4.1.2 for manual deactivation (e.g. require at least three different deliberate actions)."
+    },
+    {
+      "paragraph": "5.4.2",
+      "pages": [
+        10
+      ],
+      "text": "5.4.2. When the vehicle is equipped with a means to automatically deactivate the AEBS function, for instance in\r\nsituations such as off-road use, being towed, being operated on a dynamometer, being operated in a washing plant,\r\nthe following conditions shall apply as appropriate:"
+    },
+    {
+      "paragraph": "5.4.2.1",
+      "pages": [
+        10
+      ],
+      "text": "5.4.2.1. The vehicle manufacturer shall provide a list of situations and corresponding criteria where the AEBS\r\nfunction is automatically deactivated to the technical service at the time of type approval and it shall be annexed\r\nto the test report."
+    },
+    {
+      "paragraph": "5.4.2.2",
+      "pages": [
+        10
+      ],
+      "text": "5.4.2.2. The AEBS function shall be automatically reactivated as soon as the conditions that led to the automatic\r\ndeactivation are not present anymore."
+    },
+    {
+      "paragraph": "5.4.2.3",
+      "pages": [
+        10
+      ],
+      "text": "5.4.2.3. Where automatic deactivation of the AEBS function is a consequence of the driver manually switching off\r\nthe vehicle stability function of the vehicle, this deactivation of the AEBS shall require at least two deliberate\r\nactions by the driver."
+    },
+    {
+      "paragraph": "5.4.3",
+      "pages": [
+        10,
+        11
+      ],
+      "text": "5.4.3. Notwithstanding the requirements of paragraphs 5.4.1.1. and 5.4.1.4., AEBS may provide a technical means\r\nto deactivate the system for specific applications (e.g. front mounted equipment like snow plough) where the\r\noperation of the system may be impaired.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis technical means shall not be made available to the driver (e.g. be only possible with a unique operation by an\r\nauthorized workshop).\r\nAdditionally, the deactivation warning specified in 5.1.4.3. may be suppressed, at the earliest 15 seconds after the\r\ninitiation of each new ignition cycle."
+    },
+    {
+      "paragraph": "5.4.4",
+      "pages": [
+        11
+      ],
+      "text": "5.4.4. A constant optical warning signal shall inform the driver that the AEBS function has been deactivated. The\r\nyellow warning signal specified in paragraph 5.5.4. below may be used for this purpose."
+    },
+    {
+      "paragraph": "5.4.5",
+      "pages": [
+        11
+      ],
+      "text": "5.4.5. While automated driving functions are in longitudinal control of the vehicle (e.g. ALKS is active) the AEBS\r\nfunction may be suspended or its control strategies (i.e. braking demand, warning timing) adapted without\r\nindication to the driver, as long as it remains ensured that the vehicle provides at least the same collision\r\navoidance capabilities as the AEBS function during manual operation."
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        11
+      ],
+      "text": "5.5. Warning Indication"
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        11
+      ],
+      "text": "5.5.1. The collision warning referred to in paragraphs 5.2.1.1. and 5.2.2.1. shall be provided by at least two modes\r\nselected from acoustic, haptic or optical."
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        11
+      ],
+      "text": "5.5.2. A description of the warning indication and the sequence in which the collision warning signals are\r\npresented to the driver shall be provided by the vehicle manufacturer at the time of type-approval and recorded in\r\nthe test report."
+    },
+    {
+      "paragraph": "5.5.3",
+      "pages": [
+        11
+      ],
+      "text": "5.5.3. Where an optical means is used as part of the collision warning. the optical signal may be the flashing of the\r\nfailure warning signal specified in paragraph 5.5.4."
+    },
+    {
+      "paragraph": "5.5.4",
+      "pages": [
+        11
+      ],
+      "text": "5.5.4. The failure warning referred to in paragraph 5.1.4.1. shall be a constant yellow optical warning signal."
+    },
+    {
+      "paragraph": "5.5.5",
+      "pages": [
+        11
+      ],
+      "text": "5.5.5. Each AEBS optical warning signal shall be activated either when the ignition (start) switch is turned to the\r\n\"on\" (run) position or when the ignition (start) switch is in a position between the \"on\" (run) and \"start\" position\r\nthat is designated by the manufacturer as a check position (initial system (power-on)). This requirement does not\r\napply to warning signals shown in a common space."
+    },
+    {
+      "paragraph": "5.5.6",
+      "pages": [
+        11
+      ],
+      "text": "5.5.6. The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must\r\nbe easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "paragraph": "5.5.7",
+      "pages": [
+        11
+      ],
+      "text": "5.5.7. When the driver is provided with an optical warning signal to indicate that the AEBS is temporarily not\r\navailable, for example due to inclement weather conditions, the signal shall be constant. The failure warning\r\nsignal specified in paragraph 5.5.4. above may be used for this purpose."
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        11
+      ],
+      "text": "5.6. Provisions for the Periodic Technical Inspection"
+    },
+    {
+      "paragraph": "5.6.1",
+      "pages": [
+        11
+      ],
+      "text": "5.6.1. At a Periodic Technical Inspection, it shall be possible to confirm the correct operational status of the AEBS\r\nby a visible observation of the failure warning signal status. following a \"power-ON\" and any bulb check.\r\nIn the case of the failure warning signal being in a common space. the common space must be observed to be\r\nfunctional prior to the failure warning signal status check."
+    },
+    {
+      "paragraph": "5.6.2",
+      "pages": [
+        11
+      ],
+      "text": "5.6.2. At the time of type approval, the means to protect against simple unauthorised modification of the operation\r\nof the failure warning signal chosen by the manufacturer shall be confidentially outlined.\r\nAlternatively, this protection requirement is fulfilled when a secondary means of checking the correct operational\r\nstatus of the AEBS is available."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        11
+      ],
+      "text": "6. T est procedure"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1. Test Conditions"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1.1. Test surface"
+    },
+    {
+      "paragraph": "6.1.1.1",
+      "pages": [
+        11
+      ],
+      "text": "6.1.1.1. The test shall be performed on a flat, dry, concrete or asphalt road affording good adhesion."
+    },
+    {
+      "paragraph": "6.1.1.2",
+      "pages": [
+        12
+      ],
+      "text": "6.1.1.2. The test surface has a consistent slope between level and 1 per cent."
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        12
+      ],
+      "text": "6.1.2. The ambient temperature shall be between 0°C and 45°C."
+    },
+    {
+      "paragraph": "6.1.3",
+      "pages": [
+        12
+      ],
+      "text": "6.1.3. The horizontal visibility range shall allow the target to be observed throughout the test."
+    },
+    {
+      "paragraph": "6.1.4",
+      "pages": [
+        12
+      ],
+      "text": "6.1.4 The tests shall be performed when there is no wind liable to affect the results.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "6.1.5",
+      "pages": [
+        12
+      ],
+      "text": "6.1.5. Natural ambient illumination must be homogeneous in the test area and in excess of 1000 lux in the case of\r\nvehicle to vehicle scenario as stipulated in paragraph 5.2.1. and of 2000 lux in the case of vehicle to pedestrian\r\nscenario as stipulated in paragraph 5.2.2. It should be ensured that testing is not performed whilst driving towards,\r\nor away from the sun at a low angle."
+    },
+    {
+      "paragraph": "6.1.6",
+      "pages": [
+        12
+      ],
+      "text": "6.1.6. At the request of the manufacturer and with the agreement of the Technical Service tests may be conducted\r\nunder deviating test conditions (suboptimal conditions, e.g. on a not dry surface; below the specified minimum\r\nambient temperature; against a non-articulated pedestrian target), whilst the performance requirements are still to\r\nbe met."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        12
+      ],
+      "text": "6.2. Vehicle Conditions"
+    },
+    {
+      "paragraph": "6.2.1",
+      "pages": [
+        12
+      ],
+      "text": "6.2.1. Test mass\r\nThe vehicle shall be tested:\r\n(a) At the maximum mass;\r\n(b) If this is deemed justified (e.g. if lower performance is expected when the sensors may miss the target due to\r\nlow mass conditions), the technical service may test at the mass in running order with an additional mass of\r\nmaximum 125 kg where this additional mass includes the measuring equipment and a possible second person who\r\nis responsible for noting the results in order to demonstrate compliance with the requirements referring to the\r\nmass in running order.\r\nThe load distribution shall be according to the manufacturer’s recommendation and be annexed to the test report.\r\nNo alteration shall be made once the test procedure has begun.\r\nDuring the series of test runs, the fuel level may decrease but shall never fall below 50 per cent."
+    },
+    {
+      "paragraph": "6.2.2",
+      "pages": [
+        12
+      ],
+      "text": "6.2.2. Pre-Test Conditioning"
+    },
+    {
+      "paragraph": "6.2.2.1",
+      "pages": [
+        12
+      ],
+      "text": "6.2.2.1. If requested by the vehicle manufacturer:\r\n(a) The vehicle can be driven a maximum of 100 km on a mixture of urban and rural roads with other traffic and\r\nroadside furniture to initialise the sensor system.\r\n(b) The vehicle can undergo a sequence of brake activations in order to ensure the service brake system is bedded\r\nin prior to the test.\r\n(c) The average temperature of the service brakes on the hottest axle of the vehicle, measured inside the brake\r\nlinings or on the braking path of the disc or drum, is below 100°C prior to each test run."
+    },
+    {
+      "paragraph": "6.2.2.2",
+      "pages": [
+        12
+      ],
+      "text": "6.2.2.2. Details of the pre-test condition strategy requested by the vehicle manufacturer shall be identified and\r\nrecorded in the vehicle type approval documentation."
+    },
+    {
+      "paragraph": "6.2.3",
+      "pages": [
+        12
+      ],
+      "text": "6.2.3. The mounted tyres shall be identified and recorded in the vehicle type approval documentation."
+    },
+    {
+      "paragraph": "6.2.4",
+      "pages": [
+        12
+      ],
+      "text": "6.2.4. The vehicle may be fitted with protective equipment that does not affect the results of the tests."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        12
+      ],
+      "text": "6.3. Test Targets"
+    },
+    {
+      "paragraph": "6.3.1",
+      "pages": [
+        12
+      ],
+      "text": "6.3.1. The target used for the vehicle detection tests shall be a regular high-volume series production passenger car\r\nof Category M1 or alternatively a \"soft target\" representative of a passenger vehicle in terms of its identification\r\ncharacteristics applicable to the sensor system of the AEBS under test according to ISO 19206-3:2021. The\r\nreference point for the location of the vehicle shall be the most rearward point on the centreline of the vehicle."
+    },
+    {
+      "paragraph": "6.3.2",
+      "pages": [
+        13
+      ],
+      "text": "6.3.2. The target used for the pedestrian detection tests shall be a child \"articulated soft target\" and be\r\nrepresentative of the human attributes applicable to the sensor system of the AEBS under test according to ISO\r\n19206-2:2018."
+    },
+    {
+      "paragraph": "6.4",
+      "pages": [
+        13
+      ],
+      "text": "6.4. Warning and Activation Test with a Stationary Vehicle Target\r\nThe subject vehicle shall approach the stationary target in a straight line for at least two seconds prior to the\r\nfunctional part of the test with a subject vehicle to target centreline offset of not more than 0.2 m.\r\nTests shall be conducted with a vehicle travelling at the following speeds, with a tolerance of +/- 2 km/h, but not\r\nbeyond the range specified in paragraph 5.2.1.3., for all tests:\r\n(a) 20 km/h;\r\n(b) Maximum required impact avoidance speed as shown in paragraph 5.2.1.4, and\r\n(c) Either:\r\n(i) Maximum required impact avoidance speed, as shown in paragraph 5.2.1.4., + 8 km/h (e.g. for a vehicle\r\nderived from M1/N1, the test shall be conducted at 58 km/h); or\r\n(ii) Maximum design speed,\r\nwhichever is lower.\r\nIf this is deemed justified, the technical service may test in any test condition within those specified in paragraph\r\n5.2.1.4., with any other speeds listed in the tables in paragraph 5.2.1.4. and within the prescribed speed range as\r\ndefined in paragraph 5.2.1.3. The Technical Service may verify that the control strategy is not unreasonably\r\nchanged or AEBS switched off in other conditions than those specified in paragraph 5.2.1.4. The report of this\r\nverification shall be appended to the test report.\r\nThe functional part of the test shall start with;\r\n(a) The subject vehicle travelling at the required test speed within the tolerances and within the lateral offset\r\nprescribed in this paragraph, and\r\n(b) A distance corresponding to a Time To Collision (TTC) of at least 4 seconds from the target.\r\nThe tolerances shall be respected between the start of the functional part of the test and the system intervention."
+    },
+    {
+      "paragraph": "6.5",
+      "pages": [
+        13,
+        14
+      ],
+      "text": "6.5. Warning and Activation Test with a Moving Vehicle Target\r\nThe subject vehicle and the moving target shall travel in a straight line, in the same direction, for at least two\r\nseconds prior to the functional part of the test. with a subject vehicle to target centreline offset of not more than\r\n0.2m.\r\nTests shall be conducted with a vehicle travelling at the following relative speeds to the target, with a tolerance of\r\n+/- 2 km/h for all tests, and a target travelling at 20 km/h, with a tolerance of +0/-2 km/h for both the target and\r\nthe subject vehicles, but at speeds not beyond the range specified in paragraph 5.2.1.3.:\r\n(a) 20 km/h (e.g. target travelling at 20 km/h, vehicle travelling at 40 km/h, relative speed is 20 km/h);\r\n(b) Maximum required impact avoidance speed as shown in paragraph 5.2.1.4 (e.g. maximum required impact\r\navoidance speed for a N3 vehicle is 70 km/h, target is travelling at 20 k/h, vehicle speed is 90 km/h), and\r\n\r\n(c) Either:\r\n(i) Maximum required impact avoidance speed, as shown in paragraph 5.2.1.4., + 8 km/h (e.g. for a target\r\ntravelling at 20 km/h and a M3 vehicle > 8 tons, the test shall be conducted at 20 + 70 + 8 = 98 km/h), or\r\n(ii) Maximum design speed (e.g.: for a target travelling at 20 km/h, speed limiter speed of approximately 89 km/h\r\nfor an N3).\r\nWhichever is lower.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIf this is deemed justified, the technical service may test in any test condition within the conditions specified in\r\nparagraph 5.2.1.4. and with any other speeds listed in the tables in paragraph 5.2.1.4. and within the prescribed\r\nspeed range as defined in paragraph 5.2.1.3. Outside of the conditions of Paragraph 5.2.1.4., the Technical Service\r\nmay verify that the control strategy is not unreasonably changed or AEBS switched off. The report of this\r\nverification shall be appended to the test report.\r\nThe functional part of the test shall start with\r\n(a) The subject vehicle travelling at the required test speed within the tolerances and within the lateral offset\r\nprescribed in this paragraph;\r\n(b) The moving target travelling at the required test speed and within the tolerances of this paragraph; and\r\n(c) A distance corresponding to a Time To Collision (TTC) of at least 4 seconds from the target.\r\nThe tolerances shall be respected between the start of the functional part of the test and the system intervention."
+    },
+    {
+      "paragraph": "6.6",
+      "pages": [
+        14
+      ],
+      "text": "6.6. Warning and Activation Test with a Pedestrian Target"
+    },
+    {
+      "paragraph": "6.6.1",
+      "pages": [
+        14,
+        15
+      ],
+      "text": "6.6.1. The subject vehicle shall approach the impact point with the pedestrian target in a straight line for at least\r\ntwo seconds prior to the functional part of the test with an anticipated subject vehicle to impact point centreline\r\noffset of not more than 0.2 m.\r\nThe functional part of the test shall start when the subject vehicle is travelling at a constant speed and is at a\r\ndistance corresponding to a TTC of at least 4 seconds from the collision point.\r\nThe pedestrian target shall travel in a straight line perpendicular to the subject vehicle’s direction of travel at a\r\nconstant speed of 5 km/h +0/-0.4 km/h, starting not before the functional part of the test has started. The\r\npedestrian target’s positioning shall be coordinated with the subject vehicle in such a way that the impact point of\r\nthe pedestrian target on the front of the subject vehicle is on the longitudinal centreline of the subject vehicle with\r\na tolerance of not more than 0.1 m if the subject vehicle would remain at the prescribed test speed throughout the\r\nfunctional part of the test and does not brake\r\nTests shall be conducted with a vehicle travelling at the following speeds, with a tolerance of +/- 2 km/h for all\r\ntests, but not beyond the range specified in paragraph 5.2.2.3.:\r\n(a) 20 km/h\r\n(b) Maximum required collision avoidance speed, and\r\n(c) Either:\r\n(i) Maximum required impact avoidance speed as shown in paragraph 5.2.2.4., + 8 km/h (e.g. for a vehicle derived\r\nfrom M1/N1, the test shall be conducted at 34 km/h), or\r\n\r\n(ii) maximum design speed,\r\nWhichever is lower.\r\nIf this is deemed justified, the technical service may test in any test condition within the conditions specified in\r\nparagraph 5.2.2.4., and with any other speeds listed in the table in paragraph 5.2.2.4. and within the prescribed\r\nspeed range as defined in paragraphs 5.2.2.3. Outside of the conditions of Paragraph 5.2.2.4., the Technical\r\nService may verify that the control strategy is not unreasonably changed or AEBS switched off. The report of this\r\nverification shall be appended to the test report.\r\nThe functional part of the test shall start with\r\n(a) The subject vehicle travelling at the required test speed within the tolerances and within the lateral offset\r\nprescribed in this paragraph,\r\n(b) The pedestrian target travelling at the required test speed within the tolerances specified in this paragraph and\r\n(c) A distance corresponding to a Time To Collision (TTC) of at least 4 seconds from the target.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe tolerances shall be respected between the start of the functional part of the test and the system intervention.\r\nThe test prescribed above shall be carried out with a child pedestrian \"soft target\" defined in 6.3.2."
+    },
+    {
+      "paragraph": "6.6.2",
+      "pages": [
+        15
+      ],
+      "text": "6.6.2. The assessment of the impact speed shall be based on the actual contact point between the target and the\r\nvehicle, taking into account the actual vehicle shape without additional protective equipment as permitted per\r\nparagraph 6.2.4."
+    },
+    {
+      "paragraph": "6.7",
+      "pages": [
+        15
+      ],
+      "text": "6.7. Failure Detection Test"
+    },
+    {
+      "paragraph": "6.7.1",
+      "pages": [
+        15
+      ],
+      "text": "6.7.1 Simulate an electrical failure, for example, by disconnecting the power source to any AEBS component or\r\ndisconnecting any electrical connection between AEBS components. When simulating an AEBS failure, neither\r\nthe electrical connections for the driver warning signal of paragraph 5.5.4. above nor the optional manual AEBS\r\ndeactivation control of paragraph 5.4.1. shall be disconnected.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "6.7.2",
+      "pages": [
+        15
+      ],
+      "text": "6.7.2. The failure warning signal mentioned in paragraph 5.5.4. above shall be activated and remain activated not\r\nlater than 10 s after the vehicle has been driven at a speed greater than 10 km/h and be reactivated immediately\r\nafter a subsequent ignition \"off\" ignition \"on\" cycle with the vehicle stationary as long as the simulated failure\r\nexists."
+    },
+    {
+      "paragraph": "6.8",
+      "pages": [
+        15
+      ],
+      "text": "6.8. Deactivation Test"
+    },
+    {
+      "paragraph": "6.8.1",
+      "pages": [
+        15
+      ],
+      "text": "6.8.1. For vehicles equipped with means to manually deactivate the AEBS, turn the ignition (start) switch to the\r\n\"on\" (run) position and deactivate the AEBS. The warning signal mentioned in paragraph 5.4.4. above shall be\r\nactivated. Turn the ignition (start) switch to the \"off\" position. Again, turn the ignition (start) switch to the \"on\"\r\n(run) position and verify that the previously activated warning signal is not reactivated, thereby indicating that the\r\nAEBS has been reinstated as specified in paragraph 5.4.1. above. If the ignition system is activated by means of a\r\n\"key\", the above requirement shall be fulfilled without removing the key."
+    },
+    {
+      "paragraph": "6.9",
+      "pages": [
+        15
+      ],
+      "text": "6.9. Robustness of the system"
+    },
+    {
+      "paragraph": "6.9.1",
+      "pages": [
+        15
+      ],
+      "text": "6.9.1. Any of the above test scenarios, where a scenario describes one test setup at one subject vehicle speed at\r\none load condition of one category (Vehicle to Vehicle, Vehicle to Pedestrian), shall be performed two times. If\r\none of the two test runs fails to meet the required performance, the test may be repeated once. A test scenario shall\r\nbe accounted as passed if the required performance is met in two test runs. The number of failed tests runs within\r\none category shall not exceed:\r\n(a) 10.0 per cent of the performed test runs for the Vehicle to Vehicle tests; and\r\n(b) 10.0 per cent of the performed test runs for the Vehicle to Pedestrian tests6.\r\n\r\n\r\n6 In case the total number of test runs within a category would still be less than 10, additional test runs of that category may be performed,\r\nincluding but not limited to the failed test scenario, to reach a total number of test runs at least equal to 10.",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6.9.2",
+      "pages": [
+        15
+      ],
+      "text": "6.9.2. The root cause of any failed test run shall be analyzed together with the Technical Service and annexed to\r\nthe test report. If the root cause cannot be linked to a deviation in the test setup, the Technical Service may test at\r\nany other speed within the speed range as defined in paragraphs 5.2.1.3., 5.2.1.4., 5.2.2.3. or 5.2.2.4. as relevant."
+    },
+    {
+      "paragraph": "6.9.3",
+      "pages": [
+        15
+      ],
+      "text": "6.9.3. During the assessment as per Annex 3, the manufacturer shall demonstrate, via appropriate documentation,\r\nthat the system is capable of reliably delivering the required performances."
+    },
+    {
+      "paragraph": "6.10",
+      "pages": [
+        15
+      ],
+      "text": "6.10. False reaction test"
+    },
+    {
+      "paragraph": "6.10.1",
+      "pages": [
+        15,
+        16
+      ],
+      "text": "6.10.1. Two stationary vehicles of Category M1, or alternatively a \"soft target\" representative of a passenger\r\nvehicle in terms of its identification characteristics applicable to the sensor system of the AEBS under test\r\naccording to ISO 19206-3:2021, shall be positioned:\r\n(a) So as to face in the same direction of travel as the subject vehicle,\r\n(b) With a distance of 4.5 m between them,\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(c) With the rear of each vehicle aligned with the other."
+    },
+    {
+      "paragraph": "6.10.2",
+      "pages": [
+        16
+      ],
+      "text": "6.10.2. The subject vehicle shall travel for a distance of at least 60 m, at a constant speed of 50 ± 2 km/h to pass\r\ncentrally between the two stationary vehicles. During the test there shall be no adjustment of any subject vehicle\r\ncontrol other than slight steering adjustments to counteract any drifting."
+    },
+    {
+      "paragraph": "6.10.3",
+      "pages": [
+        16
+      ],
+      "text": "6.10.3. The AEBS shall not provide a collision warning and shall not initiate the emergency braking phase."
+    },
+    {
+      "paragraph": "6.11",
+      "pages": [
+        16
+      ],
+      "text": "6.11. Virtual testing of dynamic tests"
+    },
+    {
+      "paragraph": "6.11.1",
+      "pages": [
+        16
+      ],
+      "text": "6.11.1. Virtual testing may be used by request of the vehicle manufacturer as an alternative for some of the tests\r\ndescribed in paragraphs 6.4. to 6.6. The virtual testing shall be verified and validated according to Annex 4 and\r\nused in accordance with Annex 4."
+    },
+    {
+      "paragraph": "6.11.2",
+      "pages": [
+        16
+      ],
+      "text": "6.11.2. Virtual testing may be used in the evaluation of the warning and activation tests in accordance with\r\nparagraph 1.8. of Schedule 3 and Schedule 8 of Revision 3 of the 1958 Agreement."
+    },
+    {
+      "paragraph": "6.11.3",
+      "pages": [
+        16
+      ],
+      "text": "6.11.3. In order to demonstrate that the complete physical system can reliably deliver the required performance, at\r\nleast 30 per cent* of required tests shall be performed physically including at least one test of each scenario\r\nvariant described in paragraphs 6.4 to 6.6 relevant for the approval. The tests to be performed shall be agreed\r\nbetween the manufacturer and Type Approval Authority or its Technical Service. Those tests already performed as\r\npart of the model validation, and corresponding to the vehicle type approval, can be considered as part of the 30\r\nper cent of required tests.\r\n\r\nFootnote: * The value of 30 per cent is considered as a first step for this regulation. It is expected that this value will be reduced in the future.\r\nTherefore, this value should be reviewed regularly in GRVA to take practical experience into account."
+    },
+    {
+      "paragraph": "6.11.3.1",
+      "pages": [
+        16
+      ],
+      "text": "6.11.3.1. Notwithstanding paragraph 6.11.3, in the case of modification of the vehicle type and extension of the\r\napproval according to paragraph 7, the proportion of physical tests required to demonstrate that the complete\r\nphysical system continues to reliably deliver the required performance, may be less than 30 per cent of the\r\nrequired tests and shall be agreed between the manufacturer and Type Approval Authority or its Technical Service."
+    },
+    {
+      "paragraph": "6.11.4",
+      "pages": [
+        16
+      ],
+      "text": "6.11.4. Where virtual testing is used by the manufacturer, a separate report including at least the additional\r\ninformation specified in Annex 4 shall be annexed to the test report."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        16
+      ],
+      "text": "7. Modiﬁcation of vehicle type and extension of approval"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        16
+      ],
+      "text": "7.1. Every modification of the vehicle type as defined in paragraph 2.4. above shall be notified to the Type\r\nApproval Authority which approved the vehicle type. The Type Approval Authority may then either:"
+    },
+    {
+      "paragraph": "7.1.1",
+      "pages": [
+        16
+      ],
+      "text": "7.1.1. Consider that the modifications made do not have an adverse effect on the conditions of the granting of the\r\napproval and grant an extension of approval; or,"
+    },
+    {
+      "paragraph": "7.1.2",
+      "pages": [
+        16
+      ],
+      "text": "7.1.2. Consider that the modifications made affect the conditions of the granting of the approval and require\r\nfurther tests or additional checks before granting an extension of approval."
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        16
+      ],
+      "text": "7.2. Confirmation or refusal of approval. specifying the alterations. shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement which apply this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        16
+      ],
+      "text": "7.3. The Type Approval Authority shall inform the other Contracting Parties of the extension by means of the\r\ncommunication form which appears in Annex 1 to this Regulation. It shall assign a serial number to each\r\nextension to be known as the extension number."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        16
+      ],
+      "text": "8. Conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        16
+      ],
+      "text": "8.1. Procedures concerning conformity of production shall comply with those set out in the 1958 Agreement,\r\nSchedule 1 (E/ECE/TRANS/505/Rev.3) and meet the following requirements:"
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        17
+      ],
+      "text": "8.2. A vehicle approved pursuant to this Regulation shall be so manufactured as to conform to the type approved\r\nby meeting the requirements of paragraph 5. above;"
+    },
+    {
+      "paragraph": "8.3",
+      "pages": [
+        17
+      ],
+      "text": "8.3. The Type Approval Authority which has granted approval may at any time verify the conformity of control\r\nmethods applicable to each production unit. The normal frequency of such inspections shall be once every two\r\nyears."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        17
+      ],
+      "text": "9. Penalties for non ‑ conformity of production"
+    },
+    {
+      "paragraph": "9.1",
+      "pages": [
+        17
+      ],
+      "text": "9.1. The approval granted in respect of a vehicle type pursuant to this Regulation may be withdrawn if the\r\nrequirements laid down in paragraph 8., above are not complied with."
+    },
+    {
+      "paragraph": "9.2",
+      "pages": [
+        17
+      ],
+      "text": "9.2. If a Contracting Party withdraws an approval, it had previously granted, it shall forthwith so notify the other\r\nContracting Parties applying this Regulation by sending them a communication form conforming to the model in\r\nAnnex 1 to this Regulation."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        17
+      ],
+      "text": "10. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a type of vehicle approved in accordance with this\r\nRegulation, he shall so inform the Type Approval Authority which granted the approval, which in turn shall\r\nforthwith inform the other Contracting Parties to the Agreement applying this Regulation by means of a\r\ncommunication form conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "11",
+      "pages": [
+        17
+      ],
+      "text": "11. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat7 the names and addresses of the Technical Services responsible for conducting approval tests and of\r\nthe Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval are to be sent.\r\n\r\n7The UNECE secretariats provides the online platform (\"/343 Application\") for exchange of such information with the secretariat:\r\nhttps://www.unece.org/trans/main/wp29/datasharing.html"
+    },
+    {
+      "paragraph": "12",
+      "pages": [
+        17
+      ],
+      "text": "12. Transitional provisions"
+    },
+    {
+      "paragraph": "12.2",
+      "pages": [
+        17
+      ],
+      "text": "12.2. Transitional provisions applicable to the 02 series of amendments"
+    },
+    {
+      "paragraph": "12.2.1",
+      "pages": [
+        17
+      ],
+      "text": "12.2.1. As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 02\r\nseries of amendments."
+    },
+    {
+      "paragraph": "12.2.2",
+      "pages": [
+        17
+      ],
+      "text": "12.2.2. As from 1 September 2025, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals to the preceding series of amendments, first issued after 1 September 2025."
+    },
+    {
+      "paragraph": "12.2.3",
+      "pages": [
+        17
+      ],
+      "text": "12.2.3. Until 1 September 2028, Contracting Parties applying this Regulation shall accept type approvals to the\r\npreceding series of amendments, first issued before 1 September 2025."
+    },
+    {
+      "paragraph": "12.2.4",
+      "pages": [
+        17
+      ],
+      "text": "12.2.4. As from 1 September 2028, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals issued to the preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "12.2.5",
+      "pages": [
+        17
+      ],
+      "text": "12.2.5. Notwithstanding the transitional provisions above, Contracting Parties who start to apply this Regulation\r\nafter the date of entry into force of the most recent series of amendments are only obliged to accept type approval\r\ngranted in accordance with the 01 series of amendments."
+    },
+    {
+      "paragraph": "12.2.6",
+      "pages": [
+        17
+      ],
+      "text": "12.2.6. Contracting Parties applying this Regulation may grant type approvals according to any preceding series\r\nof amendments to this Regulation."
+    },
+    {
+      "paragraph": "12.2.7",
+      "pages": [
+        18
+      ],
+      "text": "12.2.7. Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any\r\npreceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        18
+      ],
+      "text": "Annex 1 Communication\r\n(Maximum format: A4 (210 x 297 mm)\r\n\r\n                             issued by : (Name of administration)\r\n                             ......................................\r\n                             ......................................\r\n                             ......................................\r\n\r\n\r\nConcerning: 2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of vehicle with regard to the advanced emergency braking system pursuant to UN Regulation No. 131\r\nApproval No.:.............................................................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn an approval (see approval provisions in the\r\nRegulation).\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        18
+      ],
+      "text": "1. Trademark:................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        18
+      ],
+      "text": "2. Type and trade name(s):........................................"
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        18
+      ],
+      "text": "3. Name and address of manufacturer:................................"
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        18
+      ],
+      "text": "4. If applicable. name and address of manufacturer’s representative: ............"
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        18
+      ],
+      "text": "5. Brief description of vehicle:....................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        18
+      ],
+      "text": "6. Date of submission of vehicle for approval: ..........................."
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        18
+      ],
+      "text": "7. Technical Service performing the approval tests: ......................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        18
+      ],
+      "text": "8. Date of report issued by that Service:..............................."
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        18
+      ],
+      "text": "9. Number of report issued by that Service:............................."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        18
+      ],
+      "text": "10. Approval\r\n10.1. to vehicle to vehicle scenario granted/refused/extended/withdrawn:2\r\n\r\n\r\n2Strike out what does not apply.\r\n10.2. to vehicle to pedestrian scenario granted/refused/extended/withdrawn:2\r\n\r\n\r\n2Strike out what does not apply.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        18
+      ],
+      "text": "11. Place:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        18
+      ],
+      "text": "12. Date:...................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        18
+      ],
+      "text": "13. Signature:................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        19
+      ],
+      "text": "14. Annexed to this communication are the following documents. bearing the approval number indicated above:"
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        19
+      ],
+      "text": "15. Any remarks:..............................................."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        19
+      ],
+      "text": "Annex 2 Arrangements of approval marks\r\n(see paragraphs 4.4. to 4.4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in\r\nBelgium (E 6) with regard to the Advanced Emergency Braking Systems (AEBS) pursuant to UN Regulation No."
+    },
+    {
+      "paragraph": "Annex 2 / 131",
+      "pages": [
+        19
+      ],
+      "text": "131 (marked with C for Vehicle to Vehicle. P for Vehicle to Pedestrian). The first two digits of the approval\r\nnumber indicate that the approval was granted in accordance with the requirements of UN Regulation No. 131 in\r\nits original form.",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        19
+      ],
+      "text": "Annex 3 Special requirements to be applied to the safety aspects of\r\nelectronic control systems"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        19
+      ],
+      "text": "1. General\r\nThis annex defines the special requirements for documentation, fault strategy and verification with respect to the\r\nsafety aspects of Complex Electronic Vehicle Control Systems (paragraph 2.4. below) as far as this Regulation is\r\nconcerned.\r\nThis annex shall also apply to safety related functions identified in this Regulation which are controlled by\r\nelectronic system(s) (paragraph 2.3.) as far as this Regulation is concerned.\r\nThis annex does not specify the performance criteria for \"The System\" but covers the methodology applied to the\r\ndesign process and the information which must be disclosed to the Technical Service, for type approval purposes.\r\nThis information shall show that \"The System\" respects, under non-fault and fault conditions, all the appropriate\r\nperformance requirements specified elsewhere in this Regulation and that it is designed to operate in such a way\r\nthat it does not induce safety critical risks."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        19
+      ],
+      "text": "2. Definitions\r\nFor the purposes of this annex,"
+    },
+    {
+      "paragraph": "Annex 3 / 2.1",
+      "pages": [
+        19
+      ],
+      "text": "2.1. The System\" means an electronic control system or complex electronic control system that provides or forms\r\npart of the control transmission of a function to which this Regulation applies. This also includes any other system\r\ncovered in the scope of this Regulation, as well as transmission links to or from other systems that are outside the\r\nscope of this Regulation, that acts on a function to which this Regulation applies.\""
+    },
+    {
+      "paragraph": "Annex 3 / 2.2",
+      "pages": [
+        19
+      ],
+      "text": "2.2. \"Safety Concept\" is a description of the measures designed into the system, for example within the electronic\r\nunits, so as to address system integrity and thereby ensure safe operation under fault and non-fault conditions,\r\nincluding in the event of an electrical failure. The possibility of a fall-back to partial operation or even to a back-\r\nup system for vital vehicle functions may be a part of the safety concept."
+    },
+    {
+      "paragraph": "Annex 3 / 2.3",
+      "pages": [
+        19
+      ],
+      "text": "2.3. \"Electronic Control System\" means a combination of units, designed to co-operate in the production of the\r\nstated vehicle control function by electronic data processing. Such systems, often controlled by software, are built\r\nfrom discrete functional components such as sensors, electronic control units and actuators and connected by\r\ntransmission links. They may include mechanical, electro-pneumatic or electro-hydraulic elements."
+    },
+    {
+      "paragraph": "Annex 3 / 2.4",
+      "pages": [
+        20
+      ],
+      "text": "2.4. \"Complex Electronic Vehicle Control Systems\" are those electronic control systems in which a function\r\ncontrolled by an electronic system or the driver may be over-ridden by a higher-level electronic control\r\nsystem/function. A function which is over-ridden becomes part of the complex system, as well as any overriding\r\nsystem/function within the scope of this Regulation. The transmission links to and from overriding\r\nsystems/function outside of the scope of this Regulation shall also be included."
+    },
+    {
+      "paragraph": "Annex 3 / 2.5",
+      "pages": [
+        20
+      ],
+      "text": "2.5. \"Higher-Level Electronic Control\" systems/functions are those which employ additional processing and/or\r\nsensing provisions to modify vehicle behaviour by commanding variations in the function(s) of the vehicle control\r\nsystem. This allows complex systems to automatically change their objectives with a priority which depends on\r\nthe sensed circumstances."
+    },
+    {
+      "paragraph": "Annex 3 / 2.6",
+      "pages": [
+        20
+      ],
+      "text": "2.6. \"Units\" are the smallest divisions of system components which will be considered in this annex, since these\r\ncombinations of components will be treated as single entities for purposes of identification, analysis or\r\nreplacement."
+    },
+    {
+      "paragraph": "Annex 3 / 2.7",
+      "pages": [
+        20
+      ],
+      "text": "2.7. \"Transmission links\" are the means used for inter-connecting distributed units for the purpose of conveying\r\nsignals, operating data or an energy supply. This equipment is generally electrical but may, in some part, be\r\nmechanical, pneumatic or hydraulic."
+    },
+    {
+      "paragraph": "Annex 3 / 2.8",
+      "pages": [
+        20
+      ],
+      "text": "2.8. \"Range of control\" refers to an output variable and defines the range over which the system is likely to\r\nexercise control."
+    },
+    {
+      "paragraph": "Annex 3 / 2.9",
+      "pages": [
+        20
+      ],
+      "text": "2.9. \"Boundary of functional operation\" defines the boundaries of the external physical limits within which the\r\nsystem is able to maintain control."
+    },
+    {
+      "paragraph": "Annex 3 / 2.10",
+      "pages": [
+        20
+      ],
+      "text": "2.10. \"Safety Related Function\" means a function of \"The System\" that is capable of changing the dynamic\r\nbehaviour of the vehicle. \"The System\" may be capable of performing more than one safety related function."
+    },
+    {
+      "paragraph": "Annex 3 / 3",
+      "pages": [
+        20
+      ],
+      "text": "3. Documentation"
+    },
+    {
+      "paragraph": "Annex 3 / 3.1",
+      "pages": [
+        20
+      ],
+      "text": "3.1. Requirements\r\nThe manufacturer shall provide a documentation package which gives access to the basic design of \"The System\"\r\nand the means by which it is linked to other vehicle systems or by which it directly controls output variables. The\r\nfunction(s) of \"The System\" and the safety concept, as laid down by the manufacturer, shall be explained.\r\nDocumentation shall be brief, yet provide evidence that the design and development has had the benefit of\r\nexpertise from all the system fields which are involved. For periodic technical inspections, the documentation\r\nshall describe how the current operational status of \"The System\" can be checked.\r\nThe Technical Service shall assess the documentation package to show that \"The System\":\r\n(a) Is designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical\r\nrisks;\r\n(b) Respects, under non-fault and fault conditions, all the appropriate performance requirements specified\r\nelsewhere in this Regulation; and,\r\n(c) Was developed according to the development process/method declared by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 3 / 3.1.1",
+      "pages": [
+        20,
+        21
+      ],
+      "text": "3.1.1. Documentation shall be made available in two parts:\r\n(a) The formal documentation package for the approval, containing the material listed in paragraph 3. (with the\r\nexception of that of paragraph 3.4.4.) which shall be supplied to the Technical Service at the time of submission of\r\nthe type approval application. This documentation package shall be used by the Technical Service as the basic\r\nreference for the verification process set out in paragraph 4. of this annex. The Technical Service shall ensure that\r\nthis documentation package remains available for a period determined in agreement with the Approval Authority.\r\nThis period shall be at least 10 years counted from the time when production of the vehicle is definitely\r\ndiscontinued.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) Additional material and analysis data of paragraph 3.4.4. which shall be retained by the manufacturer, but\r\nmade open for inspection at the time of type approval. The manufacturer shall ensure that this material and\r\nanalysis data remains available for a period of 10 years counted from the time when production of the vehicle is\r\ndefinitely discontinued."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2",
+      "pages": [
+        21
+      ],
+      "text": "3.2. Description of the functions of \"The System\"\r\nA description shall be provided which gives a simple explanation of all the control functions of \"The System\" and\r\nthe methods employed to achieve the objectives, including a statement of the mechanism(s) by which control is\r\nexercised.\r\nAny described function that can be over-ridden shall be identified and a further description of the changed\r\nrationale of the function’s operation provided."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.1",
+      "pages": [
+        21
+      ],
+      "text": "3.2.1. A list of all input and sensed variables shall be provided and the working range of these defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.2",
+      "pages": [
+        21
+      ],
+      "text": "3.2.2. A list of all output variables which are controlled by \"The System\" shall be provided and an indication\r\ngiven, in each case, of whether the control is direct or via another vehicle system. The range of control (paragraph\r\n2.8.) exercised on each such variable shall be defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.2.3",
+      "pages": [
+        21
+      ],
+      "text": "3.2.3. Limits defining the boundaries of functional operation (paragraph 2.9.) shall be stated where appropriate to\r\nsystem performance."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3",
+      "pages": [
+        21
+      ],
+      "text": "3.3. System layout and schematics"
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.1",
+      "pages": [
+        21
+      ],
+      "text": "3.3.1. Inventory of components.\r\nA list shall be provided, collating all the units of \"The System\" and mentioning the other vehicle systems which\r\nare needed to achieve the control function in question.\r\nAn outline schematic showing these units in combination, shall be provided with both the equipment distribution\r\nand the interconnections made clear."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.2",
+      "pages": [
+        21
+      ],
+      "text": "3.3.2. Functions of the units\r\nThe function of each unit of \"The System\" shall be outlined and the signals linking it with other units or with\r\nother vehicle systems shall be shown. This may be provided by a labelled block diagram or other schematic, or by\r\na description aided by such a diagram."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.3",
+      "pages": [
+        21
+      ],
+      "text": "3.3.3. Interconnections\r\nInterconnections within \"The System\" shall be shown by a circuit diagram for the electric transmission links, by a\r\npiping diagram for pneumatic or hydraulic transmission equipment and by a simplified diagrammatic layout for\r\nmechanical linkages. The transmission links both to and from other systems shall also be shown"
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.4",
+      "pages": [
+        21
+      ],
+      "text": "3.3.4. Signal flow, operating data and priorities\r\nThere shall be a clear correspondence between these transmission links and the signals and/or operating data\r\ncarried between units. Priorities of signals and/or operating data on multiplexed data paths shall be stated\r\nwherever priority may be an issue affecting performance or safety as far as this Regulation is concerned."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.5",
+      "pages": [
+        21
+      ],
+      "text": "3.3.5. Identification of units\r\nEach unit shall be clearly and unambiguously identifiable (e.g. by marking for hardware and marking or software\r\noutput for software content) to provide corresponding hardware and documentation association.\r\nWhere functions are combined within a single unit or indeed within a single computer, but shown in multiple\r\nblocks in the block diagram for clarity and ease of explanation, only a single hardware identification marking\r\nshall be used. The manufacturer shall, by the use of this identification, affirm that the equipment supplied\r\nconforms to the corresponding document."
+    },
+    {
+      "paragraph": "Annex 3 / 3.3.5.1",
+      "pages": [
+        22
+      ],
+      "text": "3.3.5.1. The identification defines the hardware and software version and, where the latter changes such as to alter\r\nthe function of the unit as far as this Regulation is concerned, this identification shall also be changed."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4",
+      "pages": [
+        22
+      ],
+      "text": "3.4. Safety concept of the manufacturer"
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.1",
+      "pages": [
+        22
+      ],
+      "text": "3.4.1. The Manufacturer shall provide a statement which affirms that the strategy chosen to achieve \"The System\"\r\nobjectives will not, under non-fault conditions, prejudice the safe operation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.2",
+      "pages": [
+        22
+      ],
+      "text": "3.4.2. In respect of software employed in \"The System\", the outline architecture shall be explained and the design\r\nmethods and tools used shall be identified. The manufacturer shall show evidence of the means by which they\r\ndetermined the realisation of the system logic, during the design and development process."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3",
+      "pages": [
+        22
+      ],
+      "text": "3.4.3. The Manufacturer shall provide the Technical Service with an explanation of the design provisions built into\r\n\"The System\" so as to generate safe operation under fault conditions. Possible design provisions for failure in\r\n\"The System\" are for example:\r\n(a) Fall-back to operation using a partial system.\r\n(b) Change-over to a separate back-up system.\r\n(c) Removal of the high level function.\r\nIn case of a failure, the driver shall be warned for example by warning signal or message display. When the\r\nsystem is not deactivated by the driver, e.g. by turning the ignition (run) switch to \"off\", or by switching off that\r\nparticular function if a special switch is provided for that purpose, the warning shall be present as long as the fault\r\ncondition persists."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.1",
+      "pages": [
+        22
+      ],
+      "text": "3.4.3.1. If the chosen provision selects a partial performance mode of operation under certain fault conditions,\r\nthen these conditions shall be stated and the resulting limits of effectiveness defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.2",
+      "pages": [
+        22
+      ],
+      "text": "3.4.3.2. If the chosen provision selects a second (back-up) means to realise the vehicle control system objective,\r\nthe principles of the change-over mechanism, the logic and level of redundancy and any built-in back-up checking\r\nfeatures shall be explained and the resulting limits of back-up effectiveness defined."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.3.3",
+      "pages": [
+        22
+      ],
+      "text": "3.4.3.3. If the chosen provision selects the removal of the Higher Level Function, all the corresponding output\r\ncontrol signals associated with this function shall be inhibited, and in such a manner as to limit the transition\r\ndisturbance."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4",
+      "pages": [
+        22,
+        23
+      ],
+      "text": "3.4.4. The documentation shall be supported, by an analysis which shows, in overall terms, how the system will\r\nbehave on the occurrence of any individual hazard or fault which will have a bearing on vehicle control\r\nperformance or safety.\r\nThe chosen analytical approach(es) shall be established and maintained by the Manufacturer and shall be made\r\nopen for inspection by the Technical Service at the time of the type approval.\r\nThe Technical Service shall perform an assessment of the application of the analytical approach(es). The audit\r\nshall include:\r\n(a) Inspection of the safety approach at the concept (vehicle) level with confirmation that it includes consideration\r\nof interactions with other vehicle systems. This approach shall be based on a Hazard / Risk analysis appropriate to\r\nsystem safety.\r\n(b) Inspection of the safety approach at the system level. This approach shall be based on a Failure Mode and\r\nEffect Analysis (FMEA), a Fault Tree Analysis (FTA) or any similar process appropriate to system safety.\r\n(c) Inspection of the validation plans and results. This validation shall use, for example, Hardware in the Loop\r\n(HIL) testing, vehicle on-road operational testing, or any means appropriate for validation.\r\nThe assessment shall consist of checks of hazards and faults chosen by the Technical Service to establish that the\r\nmanufacturer’s explanation of the safety concept is understandable, logical and that the validation plans are\r\nsuitable and have been completed.\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe Technical Service may perform or may require performing tests as specified in paragraph 4. to verify the\r\nsafety concept."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4.1",
+      "pages": [
+        23
+      ],
+      "text": "3.4.4.1. This documentation shall itemize the parameters being monitored and shall set out, for each fault\r\ncondition of the type defined in paragraph 3.4.4. of this annex, the warning signal to be given to the driver and/or\r\nto service/technical inspection personnel."
+    },
+    {
+      "paragraph": "Annex 3 / 3.4.4.2",
+      "pages": [
+        23
+      ],
+      "text": "3.4.4.2. This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice\r\nthe safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions\r\ne.g. climatic, temperature, dust ingress, water ingress, ice packing."
+    },
+    {
+      "paragraph": "Annex 3 / 4",
+      "pages": [
+        23
+      ],
+      "text": "4. Verification and test"
+    },
+    {
+      "paragraph": "Annex 3 / 4.1",
+      "pages": [
+        23
+      ],
+      "text": "4.1. The functional operation of \"The System\", as laid out in the documents required in paragraph 3., shall be\r\ntested as follows:"
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.1",
+      "pages": [
+        23
+      ],
+      "text": "4.1.1. Verification of the function of \"The System\"\r\nThe Technical Service shall verify \"The System\" under non-fault conditions by testing a number of selected\r\nfunctions from those declared by the manufacturer in paragraph 3.2. above.\r\nFor complex electronic systems, these tests shall include scenarios whereby a declared function is overridden."
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.2",
+      "pages": [
+        23
+      ],
+      "text": "4.1.2. Verification of the safety concept of paragraph 3.4.\r\nThe reaction of \"The System\" shall be checked under the influence of a failure in any individual unit by applying\r\ncorresponding output signals to electrical units or mechanical elements in order to simulate the effects of internal\r\nfaults within the unit. The Technical Service shall conduct this check for at least one individual unit, but shall not\r\ncheck the reaction of \"The System\" to multiple simultaneous failures of individual units.\r\nThe Technical Service shall verify that these tests include aspects that may have an impact on vehicle\r\ncontrollability and user information (HMI aspects).\""
+    },
+    {
+      "paragraph": "Annex 3 / 4.1.2.1",
+      "pages": [
+        23
+      ],
+      "text": "4.1.2.1. The verification results shall correspond with the documented summary of the failure analysis, to a level\r\nof overall effect such that the safety concept and execution are confirmed as being adequate."
+    },
+    {
+      "paragraph": "Annex 3 / 5",
+      "pages": [
+        23
+      ],
+      "text": "5. Reporting by Technical Service\r\nReporting of the assessment by the Technical Service shall be performed in such a manner that allows traceability,\r\ne.g. versions of documents inspected are coded and listed in the records of the Technical Service.\r\nAn example of a possible layout for the assessment form from the Technical Service to the Type Approval\r\nAuthority is given in Appendix 1 to this Annex."
+    },
+    {
+      "paragraph": "Appendix 1",
+      "pages": [
+        23
+      ],
+      "text": "Appendix 1 Model assessment form for electronic systems\r\nTest report No:.........................",
+      "review_flags": [
+        "check_section_boundary"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1",
+      "pages": [
+        23
+      ],
+      "text": "1. Identification"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.1",
+      "pages": [
+        23
+      ],
+      "text": "1.1. Vehicle make:.........................................................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.2",
+      "pages": [
+        23
+      ],
+      "text": "1.2. Type:..............................................................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.3",
+      "pages": [
+        23
+      ],
+      "text": "1.3. Means of identification of type if marked on the vehicle:.............................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.4",
+      "pages": [
+        23
+      ],
+      "text": "1.4. Location of that marking:.................................................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.5",
+      "pages": [
+        23
+      ],
+      "text": "1.5. Manufacturer’s name and address:............................................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.6",
+      "pages": [
+        23
+      ],
+      "text": "1.6. If applicable, name and address of manufacturer’s representative:........................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 1.7",
+      "pages": [
+        23,
+        24
+      ],
+      "text": "1.7. Manufacturer’s formal documentation package:\r\nDocumentation reference No:...........................\r\n\r\n\r\n\r\n\r\n\r\n\r\nDate of original issue:................................\r\nDate of latest update:................................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 2",
+      "pages": [
+        24
+      ],
+      "text": "2. Test vehicle(s)/system(s) description"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 2.1",
+      "pages": [
+        24
+      ],
+      "text": "2.1. General description:......................................................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 2.2",
+      "pages": [
+        24
+      ],
+      "text": "2.2. Description of all the control functions of \"The System\", and methods of operation:"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 2.3",
+      "pages": [
+        24
+      ],
+      "text": "2.3. Description of the components and diagrams of the interconnections within \"The System\":......."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3",
+      "pages": [
+        24
+      ],
+      "text": "3. Manufacturer’s safety concept"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.1",
+      "pages": [
+        24
+      ],
+      "text": "3.1. Description of signal flow and operating data and their priorities:........................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.2",
+      "pages": [
+        24
+      ],
+      "text": "3.2. Manufacturer’s declaration:\r\nThe manufacturer(s) ............................................................. affirm(s) that the strategy chosen to achieve \"The\r\nSystem\", objectives will not, under non-fault conditions, prejudice the safe operation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.3",
+      "pages": [
+        24
+      ],
+      "text": "3.3. Software outline architecture and the design methods and tools used:....................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.4",
+      "pages": [
+        24
+      ],
+      "text": "3.4. Explanation of design provisions built into \"The System\" under fault conditions:.............."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.5",
+      "pages": [
+        24
+      ],
+      "text": "3.5. Documented analyses of the behaviour of \"The System\" under individual hazard or fault conditions:."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.6",
+      "pages": [
+        24
+      ],
+      "text": "3.6. Description of the measures in place for environmental conditions:......................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.7",
+      "pages": [
+        24
+      ],
+      "text": "3.7. Provisions for the periodic technical inspection of \"The System\":........................"
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.8",
+      "pages": [
+        24
+      ],
+      "text": "3.8. Results of \"The System\" verification test, as per para. 4.1.1. of Annex 3 to UN Regulation No. 131:."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.9",
+      "pages": [
+        24
+      ],
+      "text": "3.9. Results of safety concept verification test, as per para. 4.1.2. of Annex 3 to UN Regulation No. 131:."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.10",
+      "pages": [
+        24
+      ],
+      "text": "3.10. Date of test:.........................................................."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.11",
+      "pages": [
+        24
+      ],
+      "text": "3.11. This test has been carried out and the results reported in accordance with ….. to UN Regulation No. 131 as\r\nlast amended by the ..... series of amendments.\r\n\r\nTechnical Service1 carrying out the test\r\nSigned: ....................................... Date: ........................................\r\n\r\n1To be signed by different persons even when the Technical Service and Type Approval Authority are the same or alternatively, a separate\r\nType Approval Authority authorization is issued with the report."
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 1 / 3.12",
+      "pages": [
+        24
+      ],
+      "text": "3.12. Comments:..........................................................."
+    },
+    {
+      "paragraph": "Appendix 2",
+      "pages": [
+        24,
+        25
+      ],
+      "text": "Appendix 2 False Reaction scenarios 10\r\n\r\n10Until proper values heavy vehicles are defined, the values for each scenario may be changed in agreement between the technical service\r\nand the manufacturer. It is recognized that the parameters described in subparagraph 2 of each scenario are based on passenger cars data\r\nThe following scenarios shall be used to assess the system’s strategies implemented in order to minimize the\r\ngeneration of false reactions. For each type of scenario, the vehicle manufacturer shall explain the principle\r\nstrategies implemented to ensure safety.\r\nThe manufacturer shall provide evidence (e.g. simulation results, real-world test data, track test data) of the\r\nsystem’s behaviour in the described types of scenarios. The parameters described in subparagraph 2 of each\r\nscenario shall be used as guidance if the Technical Service deems a demonstration of the scenario necessary.\"\r\n(a) Definition of overlap ratio between the subject vehicle and the related vehicle\r\nOverlap ratio between the subject vehicle and the related vehicle is calculated by the following formula.\r\nRoverlap = Loverlap / Wvehicle * 100\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nWhere:\r\nRoverlap : Overlap ratio [per cent]\r\nLoverlap : Amount of overlap between extended lines of the width of the subject vehicle and the related vehicle [m]\r\n\r\nWvehicle : Width of the subject vehicle [m] (sensors, devices for indirect vision, door handles and connections for\r\ntyre-pressure gauges are not included when measuring the width of the vehicle                       )\r\n(b) Definition of offset ratio between the subject vehicle and the stationary object\r\nOffset ratio between the subject vehicle and the stationary object is calculated by the following formula.\r\nRoffset = Loffset / (0.5*Wvehicle) * 100\r\n\r\nRoffset : Offset ratio [per cent]\r\n\r\nLoffset : Amount of offset between the centre of the subject vehicle and the centre of the stationary object, and the\r\ndirection of offset to the driver's seat side is defined as plus (+) [m]\r\nWvehicle : Width of the subject vehicle [m] (sensors, devices for indirect vision, door handles and connections for\r\ntyre-pressure gauges are not included when measuring the width of the vehicle)\r\nScenario 1 Left turn or Right turn at the intersection11\r\n\r\n\r\n11This scenario is only applicable to vehicles of Category M2, M3≤ 8t and N2≤8t.",
+      "review_flags": [
+        "check_section_boundary"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 1.1",
+      "pages": [
+        25
+      ],
+      "text": "1.1. In this scenario, the subject vehicle passes by a left turn or right turn in front of an oncoming vehicle that is\r\nstopped to make a left turn or right turn at an intersection.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 1.2",
+      "pages": [
+        25
+      ],
+      "text": "1.2. An example of the detail scenario:\r\nThe subject vehicle drives at a speed of 30 km/h (with a tolerance of +0/-2 km/h) toward the intersection, and\r\ndecelerates by braking to a speed of not less than 16 km/h at a point where the subject vehicle begins to steer left /\r\nright, and the Time To Collision (TTC) to the oncoming vehicle is not more than 2.8 seconds. When the subject\r\nvehicle turns left or right in the intersection, the speed is reduced to not less than 10 km/h, and then drives at a\r\nconstant speed. The TTC to the oncoming vehicle is not more than 1.7 seconds at when the overlap ratio between\r\nthe subject vehicle and the oncoming vehicle becomes 0 per cent.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Figure 1",
+      "pages": [
+        25,
+        26
+      ],
+      "text": "Figure 1 Left turn or right turn at the intersection\r\n(A) Driving on right side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(B) Driving on left side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nScenario 2 Right turn or Left turn of a forward vehicle",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 2.1",
+      "pages": [
+        26
+      ],
+      "text": "2.1. In this scenario, the subject vehicle follows a forward vehicle. After that, the forward vehicle turns right or\r\nleft at a corner, and the subject vehicle goes straight.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 2.2",
+      "pages": [
+        26
+      ],
+      "text": "2.2. An example of the detail scenario:\r\nBoth the forward vehicle and the subject vehicle drive at a speed of 40 km/h (with a tolerance of +0/-2 km/h) on\r\nthe straight road. The forward vehicle decelerates by braking to a speed of 10 km/h (with a tolerance of +0/-2\r\nkm/h) in order to turn right or left at the corner, and the subject vehicle also decelerates by braking to keep\r\nappropriate distance with the forward vehicle. At when the forward vehicle begins to turn right or left, the speed\r\nof the subject vehicle is not less than 26 km/h and the TTC to the frontal vehicle is not more than 4.7 seconds.\r\nAfter that, the subject vehicle decelerates to a speed of not less than 20 km/h, and then drives at a constant speed.\r\nThe TTC to the forward vehicle is not more than 2.5 seconds at when the overlap ratio between the subject vehicle\r\nand the forward vehicle becomes 0 per cent.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Figure 2",
+      "pages": [
+        26,
+        27
+      ],
+      "text": "Figure 2 Right turn or left turn of a forward vehicle\r\n(A) Driving on right side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(B) Driving on left side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nScenario 3 Curved road with guard pipes and a stationary object",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 3.1",
+      "pages": [
+        27
+      ],
+      "text": "3.1. In this scenario, the subject vehicle drives a small radius curved road of which the guard pipes are constructed\r\nto the outer side, and a stationary vehicle (M1 category) or a stationary pedestrian target is positioned just outside\r\nof the guard pipes and where on the extension of the centre of the lane.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 3.2",
+      "pages": [
+        27
+      ],
+      "text": "3.2. An example of the detail scenario:\r\nThe subject vehicle drives at a speed of 30 (with a tolerance of +0/-2 km/h) km/h toward the curve of which the\r\nradius is not more than 25 m at the outer side of the road, and decelerates by braking to a speed of not less than 22\r\nkm/h at a point where the subject vehicle enters the curve. The TTC to the stationary object is not more than 1.6\r\nseconds at when the subject vehicle begins to turn in the curve. In the curve, the subject vehicle drives outer lane\r\nthan the centre of the road. After that, the subject vehicle continues to turn in the curve at a constant speed of not\r\nless than 21 km/h. The TTC to the stationary object is not more than 1.1 second at when the overlap ratio between\r\nthe subject vehicle and the stationary vehicle becomes 0 per cent, or at when the offset ratio between the subject\r\nvehicle and the centre of the stationary pedestrian target becomes -100 per cent.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Figure 3",
+      "pages": [
+        27,
+        28
+      ],
+      "text": "Figure 3 Curved road with guard pipes and a stationary object\r\n(A) Driving on right side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(B) Driving on left side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nScenario 4 Lane change due to road construction",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 4.1",
+      "pages": [
+        28
+      ],
+      "text": "4.1. In this scenario, the subject vehicle changes the lane in front of the signboard which is positioned in the centre\r\nof the lane and notifies the driver that the lane is reduced.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 3 / Appendix 2 / 4.2",
+      "pages": [
+        28
+      ],
+      "text": "4.2. An example of the detail scenario:\r\nThe subject vehicle drives a straight road at a speed of 40 km/h (with a tolerance of +0/-2 km/h) and begins to\r\nsteer in order to change the lane in front of the signboard which notifies reducing the lane. No other vehicles\r\napproach the subject vehicle. The TTC to the signboard is not more than 4.2 seconds at when the subject vehicle\r\nbegins to steer. During changing the lane, the speed of the subject vehicle is constant, and the TTC to the\r\nsignboard is not more than 3.3 seconds at when the offset ratio between the subject vehicle and the centre of the\r\nsignboard becomes -100 per cent.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Figure 4",
+      "pages": [
+        28
+      ],
+      "text": "Figure 4 Lane change due to road construction\r\n(A) Driving on right side of the road\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(B) Driving on left side of the road",
+      "review_flags": [
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        28
+      ],
+      "text": "Annex 4 Virtual testing of dynamic tests"
+    },
+    {
+      "paragraph": "Annex 4 / 0",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "0. Introduction (for information only)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis annex describes the method that can be used to consider virtual testing as an alternative to physical testing,\r\nbased on the manufacturer request.\r\nThis method is mainly based on two separate activities:\r\n(a) Activity 1: The development, management, verification and validation of the toolchain; and,\r\n(b) Activity 2: The use of virtual testing results to conduct testing required for approval process."
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        29
+      ],
+      "text": "1. Definitions"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        29
+      ],
+      "text": "1.1. “Virtual testing” is the process of testing a system using one or more simulation models."
+    },
+    {
+      "paragraph": "Annex 4 / 1.2",
+      "pages": [
+        29
+      ],
+      "text": "1.2. “Model” is a description or representation of a system, entity, phenomenon, or process."
+    },
+    {
+      "paragraph": "Annex 4 / 1.3",
+      "pages": [
+        29
+      ],
+      "text": "1.3. “Toolchain” is the combination of simulation model implementations as tools that emulate a vehicle function."
+    },
+    {
+      "paragraph": "Annex 4 / 1.4",
+      "pages": [
+        29
+      ],
+      "text": "1.4. “Validity domain” is the domain of applicability of the toolchain."
+    },
+    {
+      "paragraph": "Annex 4 / 2",
+      "pages": [
+        29
+      ],
+      "text": "2. Activity 1: The development, management, verification and validation of the toolchain"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        29
+      ],
+      "text": "2.1. General specifications"
+    },
+    {
+      "paragraph": "Annex 4 / 2.1.1",
+      "pages": [
+        29
+      ],
+      "text": "2.1.1. Credibility of the toolchain that is used for the virtual testing shall be demonstrated by the vehicle\r\nmanufacturer to the satisfaction of the Type Approval Authority or its Technical Service.\r\nFor this, the following five criteria shall be considered:\r\n(a) Capability – what the toolchain can do, and what the associated risks are;\r\n(b) Accuracy – how well the toolchain reproduces the target data recorded in physical tests;\r\n(c) Correctness – how sound and robust are the data and the algorithms in the tools;\r\n(d) Fit for Purpose – how suitable the toolchain is for the assessment (e.g. vehicle dynamic model, sensor model,\r\nsystem control model, environment model, scenario model, targets model, …) within its validity domain;\r\n(e) Usability –The training and experience, which is needed and the quality of the processes that manage the\r\ntoolchain’s use."
+    },
+    {
+      "paragraph": "Annex 4 / 2.2",
+      "pages": [
+        29
+      ],
+      "text": "2.2. Development of the virtual testing method"
+    },
+    {
+      "paragraph": "Annex 4 / 2.2.1",
+      "pages": [
+        29
+      ],
+      "text": "2.2.1. Developing and using the toolchain is the responsibility of the vehicle manufacturer. The toolchain shall\r\nreflect the vehicle, system and components that are to be tested."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3",
+      "pages": [
+        29
+      ],
+      "text": "2.3. Toolchain management\r\nThe following information shall be provided by the manufacturer to the Technical Service:"
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.1",
+      "pages": [
+        29
+      ],
+      "text": "2.3.1. A description of the models and tools which constitute the toolchain and the method used to trace input data,\r\nparameters and output data back to the corresponding toolchain version."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.2",
+      "pages": [
+        29
+      ],
+      "text": "2.3.2. The processes which ensure that the personnel developing, testing and validating the toolchain and its\r\ncomponents have appropriate experience, expertise, and training and evidence that these processes are\r\nimplemented and effective. If there are any activities not directly controlled by the manufacturer, there must be an\r\nexplanation of measures taken to ensure confidence in the quality and integrity of these activities."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.3",
+      "pages": [
+        29
+      ],
+      "text": "2.3.3. A description of the input parameters, along with any uncertainties in the model parameters, which have\r\nbeen used to validate the models included in the tools and toolchain. The manufacturer shall also provide\r\ndocumentation demonstrating that the data used to validate the models covers the intended scope and functionality\r\nof the toolchain."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.4",
+      "pages": [
+        29
+      ],
+      "text": "2.3.4. A description of the overall approach to data management."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.5",
+      "pages": [
+        29
+      ],
+      "text": "2.3.5. A description of the management activities which describe the modifications between toolchain releases,\r\nversion control and the review processes to ensure those modifications result in a toolchain that is still suitable."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6. Description and analysis of toolchain and components"
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.1",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.1. All parts of the toolchain, tools and models shall be described by the manufacturer."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.2",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.2. The vehicle manufacturer shall define the validity domain on which the toolchain will be applicable and\r\nhow the validity domain has been derived including any AEBS performance influencing factors, parameter\r\nranges, assumptions, limitations and tolerances."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.3",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.3. The documentation shall include a description of the key performance indicators which will be assessed\r\nduring validation, such as time to collision, remaining distance or impact speed."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.4",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.4. The documentation shall include a description of the accuracy requirements for the toolchain and its\r\ncomponents, including comparison with physical tests."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.5",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.5. The documentation of the toolchain shall include assumptions, limitations, uncertainties and the necessary\r\nlevels of fidelity."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.6.6",
+      "pages": [
+        30
+      ],
+      "text": "2.3.6.6. The manufacturer shall provide a description of the toolchain assessment methodology, including the\r\nimpact of any errors and uncertainties on the results and the subsequent consequences for the compliance of the\r\nsystem with this regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 2.3.7",
+      "pages": [
+        30
+      ],
+      "text": "2.3.7. The manufacturer shall review the information produced in addressing the requirements of paragraph\r\n2.3.6.2. and document any implications for the use of the toolchain.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.4",
+      "pages": [
+        30
+      ],
+      "text": "2.4. Verification"
+    },
+    {
+      "paragraph": "Annex 4 / 2.4.1",
+      "pages": [
+        30
+      ],
+      "text": "2.4.1. The toolchain and its components shall be capable of accurately representing the relevant aspects of the\r\nphysical AEBS that is being modelled."
+    },
+    {
+      "paragraph": "Annex 4 / 2.4.2",
+      "pages": [
+        30
+      ],
+      "text": "2.4.2. The manufacturer shall provide documentation on the verification activity of the modelling that implements\r\nthe AEBS function in the toolchain and its components. This shall include a description of the models, their\r\nimplementation, how they represent the AEBS function and a description of the activities that have been\r\nperformed to confirm that the models have been correctly implemented."
+    },
+    {
+      "paragraph": "Annex 4 / 2.4.3",
+      "pages": [
+        30
+      ],
+      "text": "2.4.3. The manufacturer shall provide an estimation of the numerical errors affecting the toolchain and its\r\ncomponents and analysis that the errors remain sufficiently bounded."
+    },
+    {
+      "paragraph": "Annex 4 / 2.4.4",
+      "pages": [
+        30
+      ],
+      "text": "2.4.4. The manufacturer shall demonstrate the effect of variations of the model parameters on the output values\r\nand identification of the most critical parameters which will influence the results. This shall also include a robust\r\ncalibration procedure for these parameters."
+    },
+    {
+      "paragraph": "Annex 4 / 2.45",
+      "pages": [
+        30
+      ],
+      "text": "2.45. Validation"
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.1",
+      "pages": [
+        30
+      ],
+      "text": "2.5.1. The vehicle manufacturer shall describe their overall approach to validation including performance\r\nmeasures and a validation strategy. The validation strategy shall be agreed by the Type Approval Authority or its\r\nTechnical Service, including physical tests performed to demonstrate that the toolchain is an accurate\r\nrepresentation of the physical system. The tests performed shall ensure a statistical comparison between physical\r\nand simulation results is possible.",
+      "review_flags": [
+        "missing_parent_clause",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.2",
+      "pages": [
+        30
+      ],
+      "text": "2.5.2. The validation strategy shall be defined by the manufacturer and presented to the Type Approval Authority\r\nor its Technical Service for review and agreement.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.3",
+      "pages": [
+        30
+      ],
+      "text": "2.5.3. The manufacturer shall demonstrate how the toolchain achieves the key performance indicators defined in\r\nparagraph 2.3.6.3. and accuracy requirements defined in paragraph 2.3.6.4. This shall include justification for the\r\nchoice of key performance indicators and accuracy requirements, and what the criteria is for satisfying these\r\nindicators and requirements.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.4",
+      "pages": [
+        30
+      ],
+      "text": "2.5.4. The manufacturer shall provide the list of validation scenarios. The manufacturer shall provide the\r\nparameter descriptions and accuracy requirements that were needed to perform the validation tests.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.5",
+      "pages": [
+        31
+      ],
+      "text": "2.5.5. The manufacturer shall provide documentation describing the validation that was performed to establish the\r\ncredibility of the toolchain. This shall include information related to the processes that were followed, physical\r\ntests that were performed and models and tools that were used.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.6",
+      "pages": [
+        31
+      ],
+      "text": "2.5.6. The manufacturer shall provide documentation that demonstrates how they have characterised the\r\nuncertainty in the input data and evaluated the model parameters. The overall uncertainty of the results shall be\r\nquantified based on the toolchain structure and from the data and its flow through the toolchain. This uncertainty\r\nquantification shall allow estimates of the likely errors and the required safety margins that shall be applied to the\r\nresults when the toolchain is used for virtual testing.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.7",
+      "pages": [
+        31
+      ],
+      "text": "2.5.7. At the request of the Type Approval Authority or its Technical Service, in addition to the documentation\r\nprovided by the vehicle manufacturer, additional confirmatory validation, which shall include physical tests, shall\r\nbe performed or witnessed. These tests may be relevant to the entire toolchain, specific parts of the toolchain or\r\nany of its components.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.8",
+      "pages": [
+        31
+      ],
+      "text": "2.5.8. The number of physical tests shall be defined in agreement between the manufacturer and the Type\r\nApproval Authority or its Technical Service. They shall be sufficient to cover the validity domain specified by the\r\nvehicle manufacturer.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.5.9",
+      "pages": [
+        31
+      ],
+      "text": "2.5.9. The methodology used to generate physical validation data, such as data recording equipment, data\r\nprocessing, calculation of scalar values shall be documented as part of the validation documentation.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 3",
+      "pages": [
+        31
+      ],
+      "text": "3. Activity 2: The use of virtual testing results to conduct testing required for approval process"
+    },
+    {
+      "paragraph": "Annex 4 / 3.1",
+      "pages": [
+        31
+      ],
+      "text": "3.1. Compliance of the Advanced Emergency Braking System with the performance requirements as defined in\r\nparagraphs 5.2.1 to 5.2.2. of this Regulation may be demonstrated by the vehicle manufacturer to the Type\r\nApproval Authority or its Technical Service by making use of virtual testing of the dynamic manoeuvres described\r\nin the paragraph(s) 6.4. to 6.6. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 4 / 3.2",
+      "pages": [
+        31
+      ],
+      "text": "3.2. All virtual testing results provided by the manufacturer in applying for an approval in accordance with\r\nparagraph 4. of this regulation shall refer to the toolchain evaluated and validated according to paragraph 1. of this\r\nannex."
+    },
+    {
+      "paragraph": "Annex 4 / 3.3",
+      "pages": [
+        31
+      ],
+      "text": "3.3. For each approval application the manufacturer shall provide a confirmation that the virtual testing:\r\n(a) Was conducted using a validated toolchain;\r\n(b) Was performed by staff with appropriate competences and skills;\r\n(c) Has been performing using by a toolchain that has a unique identifier and sufficient information including\r\nscope, regulatory applicability and validation history to ensure that there is traceability and assurance that the\r\ntoolchain is suitable and fit for purpose; and\r\n(d) Has been performed using a toolchain within its scope and in accordance with any restrictions."
+    }
+  ]
+}

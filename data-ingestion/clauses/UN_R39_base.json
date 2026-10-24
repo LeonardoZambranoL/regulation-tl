@@ -1,0 +1,1336 @@
+{
+  "regulation": "UN R39",
+  "version": "2.1.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R39 (version 2.1.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis Regulation applies to the approval of vehicles of categories L, M and N.1\r\n\r\n\r\n1 As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document\r\n\r\nECE/TRANS/WP.29/78/Rev. 7, para. 2. -\r\nhttps://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Approval of a vehicle\" means the approval of a vehicle type with regard to the speedometer and odometer\r\nequipment including its installation."
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Type of vehicle in respect of its speedometer and odometer\" means vehicles which do not among themselves\r\ndisplay any essential differences, where those differences can apply, in particular, to the following:"
+    },
+    {
+      "paragraph": "2.2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.1. The size designation of the tyres chosen from the range of tyres normally fitted;"
+    },
+    {
+      "paragraph": "2.2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2.2. The overall transmission ratio, including any reduction drives, to the speedometer and odometer;"
+    },
+    {
+      "paragraph": "2.2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.2.3. The type of speedometer as characterised by:"
+    },
+    {
+      "paragraph": "2.2.3.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.3.1. The tolerances of the speedometer's measuring mechanism;"
+    },
+    {
+      "paragraph": "2.2.3.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2.3.2. The technical constant of the speedometer;"
+    },
+    {
+      "paragraph": "2.2.3.3",
+      "pages": [
+        1
+      ],
+      "text": "2.2.3.3. The range of speeds displayed."
+    },
+    {
+      "paragraph": "2.2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.2.4. The type of odometer as characterised by:"
+    },
+    {
+      "paragraph": "2.2.4.1",
+      "pages": [
+        1
+      ],
+      "text": "2.2.4.1. The technical constant of the odometer;"
+    },
+    {
+      "paragraph": "2.2.4.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2.4.2. The number of numerals."
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Tyres normally fitted\" means the type or types of tyre provided by the manufacturer on the vehicle type in\r\nquestion; snow tyres shall not be regarded as tyres normally fitted;"
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Normal running pressure\" means the cold inflation pressure specified by the vehicle manufacturer increased\r\nby 200 hPa;"
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Speedometer\" means that part of the speedometer equipment which indicates the speed of the vehicle to the\r\ndriver at any given moment;"
+    },
+    {
+      "paragraph": "2.5.1",
+      "pages": [
+        1
+      ],
+      "text": "2.5.1. \"Tolerances of the speedometer's measuring mechanism\" means the accuracy\r\nof the speedometer instrument itself, expressed as the upper and the lower speed indication limits for a range of\r\nspeed inputs;"
+    },
+    {
+      "paragraph": "2.5.2",
+      "pages": [
+        1
+      ],
+      "text": "2.5.2. \"Technical constant of the speedometer\" means the relationship between the input revolutions or pulses per\r\nminute and a specified displayed speed;"
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Odometer\" means that part of the odometer equipment which indicates to the driver the total distance driven\r\nby the vehicle."
+    },
+    {
+      "paragraph": "2.6.1",
+      "pages": [
+        2
+      ],
+      "text": "2.6.1. \"Technical constant of the odometer\" means the relationship between the input revolutions or pulses and the\r\ndistance driven by the vehicle."
+    },
+    {
+      "paragraph": "2.6.2",
+      "pages": [
+        2
+      ],
+      "text": "2.6.2. \"Total distance indicated\" means the distance as displayed by the odometer."
+    },
+    {
+      "paragraph": "2.6.3",
+      "pages": [
+        2
+      ],
+      "text": "2.6.3. \"True distance travelled\" means the true distance driven by the vehicle for the purpose of the test under\r\nAnnex 4."
+    },
+    {
+      "paragraph": "2.6.4",
+      "pages": [
+        2
+      ],
+      "text": "2.6.4. \"Total distance value\" means mileage values for the purpose of being made available and related to the total\r\ndistance driven by the vehicle."
+    },
+    {
+      "paragraph": "2.6.5",
+      "pages": [
+        2
+      ],
+      "text": "2.6.5. \"Tachograph or Recording equipment\" means the equipment intended for installation in road vehicles to\r\ndisplay, record, print, store and output data related to the movement of such vehicles. The data recorded includes\r\nthe effective distance travelled, calibration data of the vehicle and events and faults log.\r\nThe recording equipment consists of a vehicle unit and a motion sensor.\r\nThe vehicle unit communicates with the motion sensor in a secure way."
+    },
+    {
+      "paragraph": "2.6.5.1",
+      "pages": [
+        2
+      ],
+      "text": "2.6.5.1. \"Vehicle unit\" means the recording equipment excluding the motion sensor and the cables connecting the\r\nmotion sensor."
+    },
+    {
+      "paragraph": "2.6.5.2",
+      "pages": [
+        2
+      ],
+      "text": "2.6.5.2. \"Motion sensor\" means a part of the recording equipment providing a signal representative of vehicle\r\nspeed and/or distance travelled."
+    },
+    {
+      "paragraph": "2.6.6",
+      "pages": [
+        2
+      ],
+      "text": "2.6.6. \"Tachograph Replacement Unit (TRU)\" means a device that simulates the functions of a tachograph or\r\nrecording equipment which are necessary to operate for vehicles that are not required to be equipped with a\r\ntachograph according to national legislation."
+    },
+    {
+      "paragraph": "2.6.7",
+      "pages": [
+        2
+      ],
+      "text": "2.6.7. \"Purely mechanical odometer\" means odometer equipment in which the technical constant of the odometer\r\nis decided by input and output gear combinations in the transmission mechanically, and no electrical correction is\r\napplied."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        2
+      ],
+      "text": "2.7. \"Unladen vehicle\" means the vehicle in running order, complete with fuel, coolant, lubricant, tools and a\r\nspare wheel (if provided as standard equipment by the vehicle manufacturer), carrying a driver weighing 75 kg,\r\nbut no driver's mate, optional accessories or load."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        2
+      ],
+      "text": "2.8. \"Tampering\" means any activity aiming at inaccurate recording or misrepresenting of mileage values being\r\nstored and/or displayed."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for Approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle type with regard to the speedometer and odometer equipment\r\nincluding its installation shall be submitted by the vehicle manufacturer or by the vehicle manufacturer’s duly\r\naccredited representative to the Type Approval Authority of the Contracting Party according to the provisions of\r\nSchedule 3 of the 1958 Agreement."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by the following documents (a model of the information document is given in Annex\r\n5):"
+    },
+    {
+      "paragraph": "3.2.1",
+      "pages": [
+        2
+      ],
+      "text": "3.2.1. A description of the vehicle type with regard to the items mentioned in paragraphs 2.2., 2.3., 2.4., 2.5. and\r\n2.6. above; the vehicle type shall be specified.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. An unladen vehicle representative of the vehicle type to be approved shall be submitted to the technical\r\nservice conducting approval tests."
+    },
+    {
+      "paragraph": "3.4",
+      "pages": [
+        2
+      ],
+      "text": "3.4. The Type Approval Authority shall verify the existence of satisfactory arrangements for ensuring effective\r\ncontrol of the conformity of production before type approval is granted."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        3
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.1. If the vehicle type submitted for approval pursuant to this Regulation meets the requirements of the\r\nRegulation in respect of the speedometer and odometer equipment including its installation, approval of that\r\nvehicle type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.2. An approval number shall be assigned to each approved type in accordance with Schedule 4 of the Agreement\r\n(E/ECE/TRANS/505/Rev.3)."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        3
+      ],
+      "text": "4.3. Notice of approval or of refusal or of extension or withdrawal of approval or of production definitively\r\ndiscontinued of a vehicle type pursuant to this Regulation shall be communicated to the Parties to the Agreement\r\nwhich apply this Regulation by means of a form conforming to the model in Annex 1 to this Regulation and of\r\ndiagrams of the installation, supplied by the applicant for approval."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        3
+      ],
+      "text": "4.4. To every vehicle conforming to a vehicle type approved under this Regulation there shall be affixed in a\r\nconspicuous and easily accessible position, specified on the approval form, an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval;2\r\n\r\n\r\n2 The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev. 7, Annex 3 -\r\nhttps://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of\r\nthe circle described in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If the vehicle conforms to a vehicle type approved under one or more other Regulations annexed to the\r\nAgreement in the country which has granted approval under this Regulation, the symbol prescribed in paragraph\r\n4.4.1. need not be repeated; in such a case the additional numbers and symbols of all the Regulations under which\r\napproval has been granted in the country which has granted approval under this Regulation shall be placed in\r\nvertical columns to the right                                              of the symbol prescribed in paragraph 4.4.1.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        3
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and shall be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        3
+      ],
+      "text": "4.7. The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        3
+      ],
+      "text": "4.8. Annex 2 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        3
+      ],
+      "text": "5. Speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to\r\nthe vehicle to be approved. If more than one onboard speedometer or odometer is fitted to the vehicle, all these\r\nspeedometers and odometers shall comply with all the requirements of this Regulation when displayed. Additional\r\ngraduations and numerical values are not permitted.\r\nTachographs or Recording equipment, or Tachograph Replacement Units, are not considered to be an on-board\r\nspeedometer or odometer for the purpose of this paragraph."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        3
+      ],
+      "text": "5.2. Speedometer\r\nThe display of the speedometer shall be located within the direct field of view of the driver and must be clearly\r\nlegible both day and night. The provision on legibility during day and night does not apply to a speedometer in the\r\nField of Vision Assistant (FVA) compliant with the technical requirements of UN Regulation No. 125 or UN\r\nRegulation No. 176. The range of speeds displayed must be sufficiently wide to include the maximum speed of\r\nthis type of vehicle as stated by the manufacturer."
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1. In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation\r\nshall be 1, 2, 5 or 10 km/h. The numerical values of the speed shall be indicated on the display as follows: when\r\nthe highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not\r\nexceeding 20 km/h. When the maximum value on the display exceeds 200 km/h, then the speed values shall be\r\nindicated at intervals not exceeding 30 km/h. The indicated numerical speed value intervals need not be uniform.\r\nIf a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then\r\nthe speed may be displayed only in either km/h or mph at any one time. The corresponding unit shall permanently\r\nbe displayed."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2.2. In the case of vehicles of Categories M, N, and L3, L4, L5, and L7 manufactured for sale in any country\r\nwhere imperial units are used, the speedometer shall also be marked in miles per hour (mph); the graduations shall\r\nbe of 1, 2, 5 or 10 mph.\r\nThe speed may be displayed either in km/h or mph at any one time provided that a setting makes it possible for\r\nthe driver to choose between the speed in km/h and mph, in that case the corresponding unit shall permanently be\r\ndisplayed.\r\nThe numerical values of the speed shall be indicated on the display at intervals not exceeding 20 mph and\r\ncommencing at 10 or 20 mph. The indicated numerical speed value intervals need not be uniform."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        4
+      ],
+      "text": "5.2.3. In the case of speedometers intended for vehicles of categories L1 (mopeds), L2, and L6, the display\r\nreadings shall not exceed 80 km/h. The graduation shall be 1, 2, 5 or 10 km/h and the marked numerical values of\r\nthe speed indicated shall not exceed 10 km/h. The indicated numerical speed value intervals need not be uniform."
+    },
+    {
+      "paragraph": "5.2.4",
+      "pages": [
+        4
+      ],
+      "text": "5.2.4. In the case of vehicles of categories L1, L2 and L6 manufactured for sale in any country where imperial\r\nunits are used, the speedometer shall also be marked in mph; the graduation shall be of 1, 2, 5 or 10 mph. The\r\nnumerical values of the speed shall be indicated on the display at intervals not exceeding 10 mph and starting at\r\n10 or 20 mph. The indicated numerical speed value intervals need not be uniform. If a setting makes it possible for\r\nthe driver to choose between the speed in km/h and mph, then the speed may be displayed only in km/h or mph at\r\none time at any one time. The corresponding unit shall permanently be displayed.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        4
+      ],
+      "text": "5.3. The accuracy of the speedometer equipment shall be tested in accordance with the following procedure:"
+    },
+    {
+      "paragraph": "5.3.1",
+      "pages": [
+        4
+      ],
+      "text": "5.3.1. The tyres shall be one of the types normally fitted to the vehicle as defined in paragraph 2.3. of this\r\nRegulation. A test shall be carried out for each type of speedometer intended to be fitted by the manufacturer."
+    },
+    {
+      "paragraph": "5.3.2",
+      "pages": [
+        4
+      ],
+      "text": "5.3.2. The test shall be carried out with the vehicle at its unladen weight. An additional weight can be carried for\r\npurposes of measurement. The weight of the vehicle and its distribution between the axles shall be indicated in the\r\napproval communication (see Annex 1, item 7.);\r\n5.3.3. The reference temperature at the speedometer shall be 23 ±                 5 °C,   if relevant for the test to the discretion of\r\nthe Technical Service responsible for carrying out the test;",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3.4",
+      "pages": [
+        4
+      ],
+      "text": "5.3.4. During each test the pressure of the tyres shall be the normal running pressure as defined in paragraph 2.4.;"
+    },
+    {
+      "paragraph": "5.3.5",
+      "pages": [
+        4,
+        5
+      ],
+      "text": "5.3.5. The vehicle is tested at the following speeds:\r\n\r\n Maximum design speed (Vmax)                                          Test speed (V1)\r\n of the vehicle specified by the vehicle manufacturer (km/h)          (km/h)\r\n\r\n Vmax ≤ 45                                                            80 % of Vmax\r\n\r\n 45 < Vmax ≤ 100                                                      40 km/h and 80 % Vmax\r\n                                                                      (if the resulting speed is ≥ 55 km/h)\r\n\r\n 100 < Vmax ≤ 150                                                     40 km/h, 80 km/h and 80 % Vmax\r\n                                                                      (if the resulting speed is ≥ 100 km/h)\r\n\r\n\r\n\r\n\r\n\r\n\r\nMaximum design speed (Vmax)                                          Test speed (V1)\r\n of the vehicle specified by the vehicle manufacturer (km/h)          (km/h)\r\n\r\n 150 < Vmax                                                           40 km/h, 80 km/h and 120 km/h",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.3.6",
+      "pages": [
+        5
+      ],
+      "text": "5.3.6. The test instrumentation used for measuring the true vehicle speed shall be accurate to ± 0.5 per cent;"
+    },
+    {
+      "paragraph": "5.3.6.1",
+      "pages": [
+        5
+      ],
+      "text": "5.3.6.1. The surface of a test track when used shall be flat, and provide sufficient adhesion;"
+    },
+    {
+      "paragraph": "5.3.6.2",
+      "pages": [
+        5
+      ],
+      "text": "5.3.6.2. If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m;"
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.4. The speed indicated shall not be less than the true speed of the vehicle. At the test speeds specified in\r\nparagraph 5.3.5. above, there shall be the following relationship between the speed displayed (V1) and the true\r\nspeed (V2).\r\n\r\n0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.5",
+      "pages": [
+        5
+      ],
+      "text": "5.5. Odometer Equipment\r\nThe display of the odometer shall be visible or accessible to the driver. The odometer shall display at least an\r\ninteger number composed of a minimum of 6 numerals for the vehicles of categories M and N, and at least an\r\ninteger number composed of a minimum of 5 numerals for the vehicles of category L. Nevertheless, the Type\r\nApproval Authorities may also accept an integer number composed of at least 5 numerals for the vehicles of\r\ncategories M and N if the intended use of the vehicle justifies it."
+    },
+    {
+      "paragraph": "5.5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.5.1. In the case of vehicles manufactured for sale in any country where imperial units are used, the odometer\r\nshall be marked in miles."
+    },
+    {
+      "paragraph": "5.5.2",
+      "pages": [
+        5
+      ],
+      "text": "5.5.2. The odometer shall display the distance in the unit corresponding to that of the predominant speedometer\r\nscale. If a setting makes it possible for the driver to select the odometer display distance in km or miles\r\nindependently of the speedometer, the odometer shall identify the unit used."
+    },
+    {
+      "paragraph": "5.6",
+      "pages": [
+        5
+      ],
+      "text": "5.6. Odometer Equipment – Accuracy\r\nParagraphs 5.7. to 5.9. and 5.11. to 5.12. do not apply to vehicles fitted with purely mechanical odometers.\r\nParagraphs 5.9. and 5.11. to 5.12. do not apply to L category vehicles.\r\nFor vehicles equipped with a tachograph or recording equipment, or where a tachograph replacement unit is the\r\nonly source of measuring mileage, the requirements of paragraphs 5.7. to 5.9. and 5.12. are considered to be met,\r\nif the security and accuracy of the recording equipment are at least equivalent to the requirements of this UN\r\nRegulation."
+    },
+    {
+      "paragraph": "5.7",
+      "pages": [
+        5
+      ],
+      "text": "5.7. The accuracy of the odometer equipment shall be tested in accordance with the test procedure prescribed in\r\nAnnex 4."
+    },
+    {
+      "paragraph": "5.8",
+      "pages": [
+        5
+      ],
+      "text": "5.8. The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as\r\ndetermined in paragraph 5.7."
+    },
+    {
+      "paragraph": "5.9",
+      "pages": [
+        5
+      ],
+      "text": "5.9. When total distance values are provided by the serial data port on the standardised data link connector, as\r\nspecified in paragraph 6.5.3 of Appendix 1 of Annex C5 to UN Regulation No. 154 or as specified in paragraph\r\n4.7.3. of Annex 9B to UN Regulation No. 49, these values shall not deviate from the (rounded) total distance\r\nindicated. However, this does not apply to the total distance travelled (lifetime) as defined in UN Regulation No.\r\n154.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.10",
+      "pages": [
+        5
+      ],
+      "text": "5.10. Odometer – General\r\nTotal distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile,\r\nas appropriate."
+    },
+    {
+      "paragraph": "5.11",
+      "pages": [
+        6
+      ],
+      "text": "5.11. In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation\r\nfrom being met, a malfunction indication shall be provided to the driver, if not already covered by other failure\r\nwarnings and/or other failure conditions."
+    },
+    {
+      "paragraph": "5.11.1",
+      "pages": [
+        6
+      ],
+      "text": "5.11.1. The malfunction indication shall be active when the malfunction occurs and shall remain active as long as\r\nthe malfunction persists. It may be temporarily cancelled, but shall be repeated each time the ignition or the\r\nvehicle master control switch is activated."
+    },
+    {
+      "paragraph": "5.11.2",
+      "pages": [
+        6
+      ],
+      "text": "5.11.2. At the time of type approval, the means of indicating malfunction chosen by the manufacturer shall be\r\nconfidentially outlined."
+    },
+    {
+      "paragraph": "5.12",
+      "pages": [
+        6
+      ],
+      "text": "5.12. Odometer – Anti-Tampering and Security Management\r\nThe total distance indicated and total distance values shall be protected against manipulation.\r\nThis shall be deemed to be complied with when:\r\n(a) the manufacturer’s management system encompassing cyber security is complying with the relevant\r\nrequirements of UN Regulation No. 155, the original or any later series of amendments, with regard to total\r\ndistance indicated and total distance values\r\nand\r\n(b) proportionate mitigations are implemented, including, or equivalent to, mitigation 7 referred to in Annex 5,\r\nPart B, Table B5 of UN Regulation No. 155."
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        6
+      ],
+      "text": "6. Modiﬁcations of the Vehicle Type"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1. Every modification of the vehicle type shall be communicated to the Type Approval Authority which\r\napproved the vehicle type. The Authority may then either:"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1.1. Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe vehicle still meets the requirements; or"
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        6
+      ],
+      "text": "6.1.2. Require a further test report from the Technical Service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.2. Notice of confirmation or refusal of approval, accompanied by particulars of the modifications, shall be\r\ncommunicated by the procedure specified in paragraph 4.3. above to the Parties to the Agreement applying this\r\nRegulation."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. Conformity of Production"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. The conformity of production procedures shall comply with those set out in the Agreement, Schedule 1\r\n(E/ECE/TRANS/505/Rev.3), with the following requirements:"
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2. Every vehicle approved under this Regulation shall be so manufactured as to conform to the type approved by\r\nmeeting the requirements of the relevant part(s) of this Regulation."
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        6
+      ],
+      "text": "7.3. For each type of vehicle sufficient checks are carried out regarding the speedometer equipment and its\r\ninstallation; in particular, for each type of vehicle at least the test prescribed in Annex 3 to this Regulation shall be\r\ncarried out."
+    },
+    {
+      "paragraph": "7.4",
+      "pages": [
+        6
+      ],
+      "text": "7.4. The Authority, which has granted type approval, may at any time verify the conformity control methods\r\napplied in each production facility. The normal frequency of these verifications shall be once every two years."
+    },
+    {
+      "paragraph": "7.5",
+      "pages": [
+        6
+      ],
+      "text": "7.5. Where unsatisfactory results are found during verifications and checks pursuant to paragraph 7.4. above, the\r\ncompetent authority shall ensure that all necessary steps are taken to restore conformity of production as rapidly\r\nas possible."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        7
+      ],
+      "text": "8. Penalties for Non-Conformity of Production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        7
+      ],
+      "text": "8.1. The approval granted for a vehicle type pursuant to this Regulation may be withdrawn if the requirement laid\r\ndown in paragraph 7.1. above is not met or if the vehicles have failed to pass the checks prescribed in paragraph 7.\r\nabove."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        7
+      ],
+      "text": "8.2. If a Party to the Agreement which applies this Regulation withdraws an approval it has previously granted, it\r\nshall forthwith so notify the other Contracting Parties applying this Regulation, by means of a communication\r\nform conforming to the model in Annex 1 to this Regulation."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. Names and Addresses of Technical Services Responsible for Conducting\r\nApproval Tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the secretariat of the\r\nUnited Nations the names and addresses of the Technical Services responsible for conducting approval tests and\r\nof the Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval, issued in other countries, are to be sent."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. Transitional Provisions"
+    },
+    {
+      "paragraph": "10.1",
+      "pages": [
+        7
+      ],
+      "text": "10.1. As from the official date of entry into force of the 01 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 01\r\nseries of amendments."
+    },
+    {
+      "paragraph": "10.2",
+      "pages": [
+        7
+      ],
+      "text": "10.2. As from 1 September 2017, Contracting Parties applying this Regulation shall grant new type approvals only\r\nif the vehicle type to be approved meets the requirements of this Regulation as amended by the 01 series of\r\namendments."
+    },
+    {
+      "paragraph": "10.3",
+      "pages": [
+        7
+      ],
+      "text": "10.3. Contracting Parties applying this Regulation shall not refuse to grant extensions of type approvals for\r\nexisting types which have been granted according to the preceding series of amendments to this Regulation."
+    },
+    {
+      "paragraph": "10.4",
+      "pages": [
+        7
+      ],
+      "text": "10.4. After the date of entry into force of the 01 series of amendments to this Regulation, Contracting Parties\r\napplying this Regulation shall continue to accept type approvals granted according to the preceding series of\r\namendments to the Regulation."
+    },
+    {
+      "paragraph": "10.5",
+      "pages": [
+        7
+      ],
+      "text": "10.5. As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 02\r\nseries of amendments."
+    },
+    {
+      "paragraph": "10.6",
+      "pages": [
+        7
+      ],
+      "text": "10.6. As from 1 September 2028, Contracting Parties applying this UN Regulation shall not be obliged to accept\r\ntype approvals to any of the preceding series of amendments, first issued after 1 September 2028."
+    },
+    {
+      "paragraph": "10.7",
+      "pages": [
+        7
+      ],
+      "text": "10.7. Until 1 September 2030, Contracting Parties applying this UN Regulation shall accept type approvals to the\r\n01 series of amendments, first issued before 1 September 2028.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "10.8",
+      "pages": [
+        7
+      ],
+      "text": "10.8. As from 1 September 2030, Contracting Parties applying this UN Regulation shall not be obliged to accept\r\ntype approvals issued to any of the preceding series of amendments to this UN Regulation."
+    },
+    {
+      "paragraph": "10.9",
+      "pages": [
+        7
+      ],
+      "text": "10.9. The malfunction indication as specified in paragraph 5.11. is not compulsory for the purpose of granting\r\ntype-approval to the 02 series of amendment, until 1 September 2030. These exemptions shall remain applicable\r\nin the case of extensions of approvals first granted before 1 September 2030.\""
+    },
+    {
+      "paragraph": "10.10",
+      "pages": [
+        7
+      ],
+      "text": "10.10. Contracting Parties applying this UN Regulation may grant type approvals according to any preceding\r\nseries of amendments to this UN Regulation.\""
+    },
+    {
+      "paragraph": "10.11",
+      "pages": [
+        7
+      ],
+      "text": "10.11. Contracting Parties applying this UN Regulation shall continue to grant extensions of existing approvals to\r\nany preceding series of amendments to this UN Regulation.\""
+    },
+    {
+      "paragraph": "Annex 1",
+      "pages": [
+        8
+      ],
+      "text": "Annex 1 Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIssued by: Name of administration:\r\n…………………….\r\n…………………….\r\n…………………….\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a vehicle type with regard to the speedometer and odometer equipment including its installation pursuant to\r\nRegulation No. 39.\r\nApproval No. ............................................ Extension No. ............................................\r\n\r\n1Distinguishing number of the country which has granted, extended, refused or withdrawn approval (see approval provisions in the\r\nRegulation).\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 1",
+      "pages": [
+        8
+      ],
+      "text": "1. Trade name or mark of the vehicle: ............................................."
+    },
+    {
+      "paragraph": "Annex 1 / 2",
+      "pages": [
+        8
+      ],
+      "text": "2. Vehicle type: ..........................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 3",
+      "pages": [
+        8
+      ],
+      "text": "3. Manufacturer's name and address: ............................................."
+    },
+    {
+      "paragraph": "Annex 1 / 4",
+      "pages": [
+        8
+      ],
+      "text": "4. If applicable, name and address of the manufacturer's representative: ......................"
+    },
+    {
+      "paragraph": "Annex 1 / 5",
+      "pages": [
+        8
+      ],
+      "text": "5. Description of the speedometer equipment: ......................................."
+    },
+    {
+      "paragraph": "Annex 1 / 5.1",
+      "pages": [
+        8
+      ],
+      "text": "5.1. Ratio of speedometer equipment: ................................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 6",
+      "pages": [
+        8
+      ],
+      "text": "6. Description of the odometer equipment: ........................................."
+    },
+    {
+      "paragraph": "Annex 1 / 6.1",
+      "pages": [
+        8
+      ],
+      "text": "6.1. Ratio of odometer equipment: ......................................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 6.2",
+      "pages": [
+        8
+      ],
+      "text": "6.2. Purely mechanical odometer: yes/no"
+    },
+    {
+      "paragraph": "Annex 1 / 6.3",
+      "pages": [
+        8
+      ],
+      "text": "6.3. Malfunction indication (pursuant to paragraph 5.11.): yes/no"
+    },
+    {
+      "paragraph": "Annex 1 / 7",
+      "pages": [
+        8
+      ],
+      "text": "7. Tyres:"
+    },
+    {
+      "paragraph": "Annex 1 / 7.1",
+      "pages": [
+        8
+      ],
+      "text": "7.1. Details of tyres normally fitted: ..................................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 7.2",
+      "pages": [
+        8
+      ],
+      "text": "7.2. Details of tyres fitted during the test: ..........................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 8",
+      "pages": [
+        8
+      ],
+      "text": "8. Mass of vehicle as tested and its distribution between the axles:\r\n......................................................................................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 9",
+      "pages": [
+        9
+      ],
+      "text": "9. Variants: ......................................................................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 10",
+      "pages": [
+        9
+      ],
+      "text": "10. Vehicle submitted for approval on: .............................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 11",
+      "pages": [
+        9
+      ],
+      "text": "11. Technical Service responsible for conducting approval tests: .....................................\r\n......................................................................................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 12",
+      "pages": [
+        9
+      ],
+      "text": "12. Date of report issued by that Service: .........................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 13",
+      "pages": [
+        9
+      ],
+      "text": "13. Number of report issued by that Service: ....................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 14",
+      "pages": [
+        9
+      ],
+      "text": "14. Approval granted/refused/extended/withdrawn2\r\n\r\n\r\n2Strike out what does not apply."
+    },
+    {
+      "paragraph": "Annex 1 / 15",
+      "pages": [
+        9
+      ],
+      "text": "15. Position of approval mark on the vehicle: ...................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 16",
+      "pages": [
+        9
+      ],
+      "text": "16. Place: ............................................................................................................................"
+    },
+    {
+      "paragraph": "Annex 1 / 17",
+      "pages": [
+        9
+      ],
+      "text": "17. Date: ............................................................................................................................."
+    },
+    {
+      "paragraph": "Annex 1 / 18",
+      "pages": [
+        9
+      ],
+      "text": "18. Signature: ....................................................................................................................."
+    },
+    {
+      "paragraph": "Annex 2",
+      "pages": [
+        9
+      ],
+      "text": "Annex 2 Arrangements of Approval Marks\r\nModel A\r\n(see paragraph 4.4. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n                                                                                                                                                     a = 8 mm\r\nmin.\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in the\r\nNetherlands (E 4), pursuant to Regulation No. 39. The approval number indicates that the approval was granted in\r\naccordance with the requirements of UN Regulation No. 39 incorporating the 02 series of amendments.\r\nModel B\r\n(see paragraph 4.5. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n                                                                                                                                                     a = 8 mm\r\nmin.\r\nThe above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in the\r\nNetherlands (E 4) pursuant to Regulations Nos. 39 and 33.1 The approval numbers indicate that, at the dates when\r\nthe respective approvals were granted, UN Regulation No. 39 incorporated the 02 series of amendments and\r\nRegulation No. 33 was still in its original form.\r\n\r\n1The second number is given merely as an example."
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        10
+      ],
+      "text": "Annex 3 Test of Speedometer Accuracy for Conformity of Production"
+    },
+    {
+      "paragraph": "Annex 3 / 1",
+      "pages": [
+        10
+      ],
+      "text": "1. Test conditions\r\nThe test conditions shall be as set out in paragraphs 5.3.1. to 5.3.6. of this Regulation."
+    },
+    {
+      "paragraph": "Annex 3 / 2",
+      "pages": [
+        10
+      ],
+      "text": "2. Requirements\r\nThe production shall be deemed to conform to this Regulation if the following relationship between the speed\r\nindicated on the display of the speedometer (V1) and the actual speed (V2) is observed:\r\n\r\nIn the case of vehicles of categories M and N:\r\n0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h;\r\n\r\nIn the case of vehicles of categories L3, L4 and L5:\r\n\r\n0 ≤ (V1 - V2) ≤ 0.1 V2 + 8 km/h;\r\n\r\nIn the case of vehicles of categories L1 and L2:\r\n0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        10
+      ],
+      "text": "Annex 4 Test of Accuracy of Odometer Equipment"
+    },
+    {
+      "paragraph": "Annex 4 / 0",
+      "pages": [
+        10
+      ],
+      "text": "0. The accuracy of the odometer equipment referred to in paragraph 5.7. of this Regulation shall be determined in\r\naccordance with this Annex. In the case of odometers using both metric and imperial units, the test may be carried\r\nout using either metric or imperial units, with the agreement of the Technical Service.\r\nWith the agreement of the Technical Service and the Type Approval Authority, alternative test procedures may be\r\nused to determine the accuracy of the odometer equipment, provided that they ensure at least the same level of test\r\naccuracy."
+    },
+    {
+      "paragraph": "Annex 4 / 1",
+      "pages": [
+        10
+      ],
+      "text": "1. Test Procedure"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1",
+      "pages": [
+        10
+      ],
+      "text": "1.1. The accuracy of the odometer equipment shall be tested in accordance with the following procedure:"
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.1",
+      "pages": [
+        10
+      ],
+      "text": "1.1.1. The tyres shall be one of the types normally fitted to the vehicle as defined in paragraph 2.3. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.2",
+      "pages": [
+        10
+      ],
+      "text": "1.1.2. The test shall be carried out with the vehicle at its unladen weight. An additional weight can be carried for\r\npurposes of measurement. The weight of the vehicle and its distribution between the axles shall be indicated in the\r\napproval communication (see Annex 1, item 8.)."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.3",
+      "pages": [
+        10
+      ],
+      "text": "1.1.3. The reference temperature at the odometer shall be 23 ± 5 °C, if relevant for the test to the discretion of the\r\nTechnical Service responsible for carrying out the test."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.4",
+      "pages": [
+        10
+      ],
+      "text": "1.1.4. During each test, the pressure of the tyres shall be the normal running pressure as defined in paragraph 2.4."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.5",
+      "pages": [
+        10
+      ],
+      "text": "1.1.5. The test instrumentation used for measuring the true distance travelled shall be accurate to ± 0.5 per cent."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.5.1",
+      "pages": [
+        10
+      ],
+      "text": "1.1.5.1. The surface of a test track when used shall be flat and provide sufficient adhesion."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.5.2",
+      "pages": [
+        10
+      ],
+      "text": "1.1.5.2. If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.6",
+      "pages": [
+        10
+      ],
+      "text": "1.1.6. The vehicle is tested at a speed which may vary between 0 and 100 km/h. The test speed (fixed speed or\r\nrange) is selected in agreement with the Technical Service responsible for carrying out the test, based upon the\r\nvehicle characteristics and the suitability of the road under the conditions given (test track shape, other traffic on\r\ntrack, curves, etc.)."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.7",
+      "pages": [
+        10
+      ],
+      "text": "1.1.7. The vehicle is driven until the odometer switches to the next integer. At this point, the instrumentation is set\r\nto 0 m. This may be done in stationary position."
+    },
+    {
+      "paragraph": "Annex 4 / 1.1.8",
+      "pages": [
+        11
+      ],
+      "text": "1.1.8. The vehicle is driven for a minimum of 10 kilometres or 7 miles as indicated on the odometer and the true\r\nvalue is read from the instrumentation at the point where the odometer switches to the corresponding integer."
+    },
+    {
+      "paragraph": "Annex 4 / 2.0",
+      "pages": [
+        11
+      ],
+      "text": "2.0. Test results",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 4 / 2.1",
+      "pages": [
+        11
+      ],
+      "text": "2.1. The accuracy shall be calculated as follows for vehicles using km:\r\n\r\n\r\n\r\n\r\n\r\nwhere:\r\nTDt: true distance travelled (m)\r\nTDi0: total distance indicated at the start of the test (km), according to paragraph 1.1.7.\r\nTDi: total distance indicated at the end of the test (km).\r\nFor vehicles using imperial units, the formula is adjusted accordingly.\r\nExample:\r\n- odometer switches from 3,529 km to 3,530 km; the instrumentation is set to 0 m.\r\n- odometer switches from 3,539 km to 3,540 km; the instrumentation reads 10,260 m.\r\n\r\n\r\n\r\n\r\n-                                                                                                                   = -2.5 per cent",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        11
+      ],
+      "text": "Annex 5 Information Document"
+    },
+    {
+      "paragraph": "Annex 5 / 0",
+      "pages": [
+        11
+      ],
+      "text": "0. General"
+    },
+    {
+      "paragraph": "Annex 5 / 0.1",
+      "pages": [
+        11
+      ],
+      "text": "0.1. Make (trade name of manufacturer):"
+    },
+    {
+      "paragraph": "Annex 5 / 0.2",
+      "pages": [
+        11
+      ],
+      "text": "0.2. Type and general commercial description(s):"
+    },
+    {
+      "paragraph": "Annex 5 / 0.3",
+      "pages": [
+        11
+      ],
+      "text": "0.3. Means of identification of type, if marked on the vehicle:"
+    },
+    {
+      "paragraph": "Annex 5 / 0.3.1",
+      "pages": [
+        11
+      ],
+      "text": "0.3.1. Location of that marking:"
+    },
+    {
+      "paragraph": "Annex 5 / 0.4",
+      "pages": [
+        11
+      ],
+      "text": "0.4. Category of vehicle:"
+    },
+    {
+      "paragraph": "Annex 5 / 0.5",
+      "pages": [
+        11
+      ],
+      "text": "0.5. Name and address of manufacturer:"
+    },
+    {
+      "paragraph": "Annex 5 / 0.8",
+      "pages": [
+        11
+      ],
+      "text": "0.8. Address(es) of assembly plant(s):"
+    },
+    {
+      "paragraph": "Annex 5 / 1",
+      "pages": [
+        11
+      ],
+      "text": "1. General Construction Characteristics of the Vehicle"
+    },
+    {
+      "paragraph": "Annex 5 / 1.1",
+      "pages": [
+        11
+      ],
+      "text": "1.1. Photographs and/or drawings of a representative vehicle"
+    },
+    {
+      "paragraph": "Annex 5 / 2",
+      "pages": [
+        11
+      ],
+      "text": "2. Masses and Dimensions (in kg and mm)"
+    },
+    {
+      "paragraph": "Annex 5 / 2.6",
+      "pages": [
+        11
+      ],
+      "text": "2.6. Mass of the vehicle in running order (max. and min. for each variant):"
+    },
+    {
+      "paragraph": "Annex 5 / 2.6.1",
+      "pages": [
+        11
+      ],
+      "text": "2.6.1. Distribution of this mass among the axles and, in the case of a semi-trailer or centre axle trailer, load on the\r\ncoupling point (max. and min):"
+    },
+    {
+      "paragraph": "Annex 5 / 4",
+      "pages": [
+        11
+      ],
+      "text": "4. Transmission"
+    },
+    {
+      "paragraph": "Annex 5 / 4.2",
+      "pages": [
+        11
+      ],
+      "text": "4.2. Type (mechanical, hydraulic, electric, etc.): 2\r\n\r\n\r\n2 Provide only if relevant for speedometer and/or odometer equipment",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 4.5",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "4.5. Gearbox 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2 Provide only if relevant for speedometer and/or odometer equipment",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 4.5.3",
+      "pages": [
+        12
+      ],
+      "text": "4.5.3. Method of control:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.6",
+      "pages": [
+        12
+      ],
+      "text": "4.6. Gear ratios 2\r\n\r\n Gear                 Internal gearbox ratios (ratios of engine to          Final drive ratio(s) (ratio of gearbox output          Total gear\r\n                      gearbox output shaft revolutions)                     shaft to driven wheel revolutions)                     ratios\r\n\r\n\r\n Maximum for\r\n CVT*\r\n 1\r\n 2\r\n 3\r\n …\r\n Minimum for\r\n CVT*\r\n Reverse\r\n\r\n* Continuously variable transmission.\r\n\r\n2 Provide only if relevant for speedometer and/or odometer equipment",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 4.7",
+      "pages": [
+        12
+      ],
+      "text": "4.7. Maximum vehicle speed (in km/h):"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8",
+      "pages": [
+        12
+      ],
+      "text": "4.8. Speedometer and odometer\r\nSpeedometer:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.1",
+      "pages": [
+        12
+      ],
+      "text": "4.8.1. Method of operation and description of drive mechanism:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.2",
+      "pages": [
+        12
+      ],
+      "text": "4.8.2. Instrument constant:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.3",
+      "pages": [
+        12
+      ],
+      "text": "4.8.3. Tolerance of the measuring mechanism (pursuant to paragraph 2.2.3.):"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.4",
+      "pages": [
+        12
+      ],
+      "text": "4.8.4. Overall transmission ratio (pursuant to paragraph 2.2.2.) or equivalent data:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.5",
+      "pages": [
+        12
+      ],
+      "text": "4.8.5. Diagram of the speedometer scale or other forms of display:\r\nOdometer:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.6",
+      "pages": [
+        12
+      ],
+      "text": "4.8.6. The technical constant of the odometer (pursuant to paragraph 2.2.4.):"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.7",
+      "pages": [
+        12
+      ],
+      "text": "4.8.7. The number of numerals:"
+    },
+    {
+      "paragraph": "Annex 5 / 4.8.8",
+      "pages": [
+        12
+      ],
+      "text": "4.8.8. Purely mechanical odometer (pursuant to paragraph 2.6.7.): yes/no"
+    },
+    {
+      "paragraph": "Annex 5 / 4.9",
+      "pages": [
+        12
+      ],
+      "text": "4.9. Description of Tachograph or Recording equipment (pursuant to paragraph 2.6.5.) or Tachograph\r\nReplacement Unit (pursuant to paragraph 2.6.6.) (if fitted):"
+    },
+    {
+      "paragraph": "Annex 5 / 6",
+      "pages": [
+        12
+      ],
+      "text": "6. Suspension"
+    },
+    {
+      "paragraph": "Annex 5 / 6.6",
+      "pages": [
+        12
+      ],
+      "text": "6.6 Tyres and Wheels",
+      "review_flags": [
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 6.6.2",
+      "pages": [
+        12
+      ],
+      "text": "6.6.2. Upper and lower limit of rolling radii\r\n6.6.2.1. axle 1:\r\n6.6.2.2. axle 2:\r\n6.6.2.3. axle 3:\r\n6.6.2.4. axle 4: etc.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 5 / 6.6.3",
+      "pages": [
+        13
+      ],
+      "text": "6.6.3. Tyre pressures as recommended by the vehicle manufacturer (in kPa):"
+    }
+  ]
+}

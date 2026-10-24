@@ -1,0 +1,1297 @@
+{
+  "regulation": "UN R162",
+  "version": "0.6.0",
+  "clauses": [
+    {
+      "paragraph": null,
+      "pages": [
+        1
+      ],
+      "text": "UN R162 (version 0.6.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version."
+    },
+    {
+      "paragraph": "1",
+      "pages": [
+        1
+      ],
+      "text": "1. Scope\r\nThis UN Regulation applies to:"
+    },
+    {
+      "paragraph": "1.1",
+      "pages": [
+        1
+      ],
+      "text": "1.1. Approval of immobilizers which are intended to be permanently fitted to vehicles of any category. 1, 2\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html\r\n\r\n2Only vehicles with 12 volts electrical systems are considered."
+    },
+    {
+      "paragraph": "1.2",
+      "pages": [
+        1
+      ],
+      "text": "1.2. Approval of vehicles of category M1 and those of category N1 with a maximum mass of not more than 2\r\ntonnes, with regard to their immobilizer(s). 2\r\n\r\n\r\n2Only vehicles with 12 volts electrical systems are considered."
+    },
+    {
+      "paragraph": "1.3",
+      "pages": [
+        1
+      ],
+      "text": "1.3. At the request of the manufacturer, Contracting Parties may grant approvals to vehicles of other categories\r\nwith regard to their immobilizer(s)."
+    },
+    {
+      "paragraph": "1.4",
+      "pages": [
+        1
+      ],
+      "text": "1.4. This UN Regulation does not apply to radio transmission frequencies, whether or not related to the protection\r\nof vehicles against unauthorized use."
+    },
+    {
+      "paragraph": "2",
+      "pages": [
+        1
+      ],
+      "text": "2. Deﬁnitions"
+    },
+    {
+      "paragraph": "2.1",
+      "pages": [
+        1
+      ],
+      "text": "2.1. \"Component\" means a device subject to the requirements of this regulation and intended to be part of a\r\nvehicle, which may be type-approved independently of a vehicle where this regulation makes express provisions\r\nfor so doing;"
+    },
+    {
+      "paragraph": "2.2",
+      "pages": [
+        1
+      ],
+      "text": "2.2. \"Separate technical unit\" means a device subject to the requirements of this regulation and intended to be part\r\nof a vehicle, which may be type-approved separately, but only in relation to one or more specified types of vehicle\r\nwhere this regulation makes express provisions for so doing;"
+    },
+    {
+      "paragraph": "2.3",
+      "pages": [
+        1
+      ],
+      "text": "2.3. \"Manufacturer\" means the person or body who is responsible to the approval authority for all aspects of the\r\ntype approval process and for ensuring conformity of production. It is not essential that the person or body is\r\ndirectly involved in all stage of the construction of the vehicle, system, component or separate technical unit\r\nwhich is the subject of the approval process."
+    },
+    {
+      "paragraph": "2.4",
+      "pages": [
+        1
+      ],
+      "text": "2.4. \"Immobilizer\" means a device which is intended to prevent normal driving away of a vehicle under its own\r\npower (prevention of unauthorized use)."
+    },
+    {
+      "paragraph": "2.5",
+      "pages": [
+        1
+      ],
+      "text": "2.5. \"Control equipment\" means equipment necessary for the setting and/or unsetting of an immobilizer."
+    },
+    {
+      "paragraph": "2.6",
+      "pages": [
+        1
+      ],
+      "text": "2.6. \"Status display\" means any device intended to indicate the status of the immobilizer (set/unset, change of set\r\nto unset and vice versa)."
+    },
+    {
+      "paragraph": "2.7",
+      "pages": [
+        1
+      ],
+      "text": "2.7. \"Set state\" means the state in which the vehicle cannot be driven normally under its own power."
+    },
+    {
+      "paragraph": "2.8",
+      "pages": [
+        1
+      ],
+      "text": "2.8. \"Unset state\" means the state in which the vehicle can be driven normally."
+    },
+    {
+      "paragraph": "2.9",
+      "pages": [
+        1
+      ],
+      "text": "2.9. \"Key\" means any mechanical and/or electronic solution designed and constructed to provide a method of\r\noperating a locking system which is designed and constructed to be operated by that mechanical and/or electronic\r\nsolution."
+    },
+    {
+      "paragraph": "2.10",
+      "pages": [
+        2
+      ],
+      "text": "2.10. \"Override\" means a design feature which locks the immobilizer in the unset condition."
+    },
+    {
+      "paragraph": "2.11",
+      "pages": [
+        2
+      ],
+      "text": "2.11. \"Rolling code\" means an electronic code consisting of several elements the combination of which changes at\r\nrandom after each operation of the transmitting unit."
+    },
+    {
+      "paragraph": "2.12",
+      "pages": [
+        2
+      ],
+      "text": "2.12. \"Type of immobilizer\" means systems which do not differ significantly in such essential aspects as:\r\n(a) The manufacturer's trade name or mark;\r\n(b) The kind of control equipment;\r\n(c) The design of their operation on the relevant vehicle system(s) (as referred to in paragraph 5.2.1. below)."
+    },
+    {
+      "paragraph": "2.13",
+      "pages": [
+        2
+      ],
+      "text": "2.13. \"Vehicle type with regard to its immobilizer\" means vehicles which do not differ significantly in such\r\nessential aspects as:\r\n(a) The manufacturer's trade name or mark;\r\n(b) Vehicle features which significantly influence the performances of the immobilizer;\r\n(c) The type and design of the immobilizer."
+    },
+    {
+      "paragraph": "2.14",
+      "pages": [
+        2
+      ],
+      "text": "2.14. \"Primary user\" is a user who is able to authorize digital keys. There can be more than one primary users."
+    },
+    {
+      "paragraph": "2.15",
+      "pages": [
+        2
+      ],
+      "text": "2.15. \"Digital key\" means a key designed to be transferred to multiple devices by the primary user(s) through\r\ndedicated processes."
+    },
+    {
+      "paragraph": "2.16",
+      "pages": [
+        2
+      ],
+      "text": "2.16. \"Close proximity\" means a distance of less than 6 m."
+    },
+    {
+      "paragraph": "3",
+      "pages": [
+        2
+      ],
+      "text": "3. Application for approval"
+    },
+    {
+      "paragraph": "3.1",
+      "pages": [
+        2
+      ],
+      "text": "3.1. The application for approval of a vehicle or component type with regard to this Regulation shall be submitted\r\nby the manufacturer."
+    },
+    {
+      "paragraph": "3.2",
+      "pages": [
+        2
+      ],
+      "text": "3.2. It shall be accompanied by an information document established in accordance with the model shown in\r\nAnnex 1, and giving a description of the technical characteristics of the immobilizer and the method(s) of\r\ninstallation for each make and type of vehicle on which the immobilizer is intended to be installed."
+    },
+    {
+      "paragraph": "3.3",
+      "pages": [
+        2
+      ],
+      "text": "3.3. Vehicle(s) / component(s) representative of the type(s) to be approved shall be submitted to the technical\r\nservice responsible for conducting the approval tests."
+    },
+    {
+      "paragraph": "4",
+      "pages": [
+        2
+      ],
+      "text": "4. Approval"
+    },
+    {
+      "paragraph": "4.1",
+      "pages": [
+        2
+      ],
+      "text": "4.1. If the type submitted for approval to this Regulation meets the requirements of this Regulation, approval of\r\nthat type shall be granted."
+    },
+    {
+      "paragraph": "4.2",
+      "pages": [
+        2
+      ],
+      "text": "4.2. An approval number shall be assigned to each type approved. Its first two digits (at present 00, corresponding\r\nto the Regulation in its original form) shall indicate the series of amendments incorporating the most recent major\r\ntechnical amendment made to the Regulation at the time of issue of the approval. The same Contracting Party\r\nshall not assign the same number to another type of vehicle or component as defined in this Regulation."
+    },
+    {
+      "paragraph": "4.3",
+      "pages": [
+        2
+      ],
+      "text": "4.3. Notice of approval or of extension of approval of a type pursuant to this Regulation shall be communicated to\r\nthe Contracting Parties to the Agreement applying this Regulation by means of a form conforming to the model in\r\nAnnex 2 to this Regulation."
+    },
+    {
+      "paragraph": "4.4",
+      "pages": [
+        2
+      ],
+      "text": "4.4. There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to\r\nevery vehicle or component conforming to a type approved under this Regulation, an international approval mark\r\nconsisting of:"
+    },
+    {
+      "paragraph": "4.4.1",
+      "pages": [
+        2,
+        3
+      ],
+      "text": "4.4.1. A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval,3 and\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n3The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in Annex 3 to the Consolidated Resolution on\r\nthe Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev. 6, Annex 3-\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html."
+    },
+    {
+      "paragraph": "4.4.2",
+      "pages": [
+        3
+      ],
+      "text": "4.4.2. The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of\r\nthe circle prescribed in paragraph 4.4.1."
+    },
+    {
+      "paragraph": "4.5",
+      "pages": [
+        3
+      ],
+      "text": "4.5. If a type conforms to a type approved, under one or more other Regulations annexed to the Agreement, in the\r\ncountry which has granted approval under this Regulation, the symbol prescribed in paragraph 4.4.1. need not be\r\nrepeated; in such a case, the Regulation under which approval has been granted in the country which has granted\r\napproval under this Regulation shall be placed in vertical columns to the right of the symbol prescribed in\r\nparagraph 4.4.1."
+    },
+    {
+      "paragraph": "4.6",
+      "pages": [
+        3
+      ],
+      "text": "4.6. The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "paragraph": "4.7",
+      "pages": [
+        3
+      ],
+      "text": "4.7. In the case of a vehicle, the approval mark shall be placed close to or on the vehicle data plate affixed by the\r\nmanufacturer."
+    },
+    {
+      "paragraph": "4.8",
+      "pages": [
+        3
+      ],
+      "text": "4.8. In the case of a component approved separately as an immobilizer, the approval mark shall be affixed by the\r\nmanufacturer to the major element(s) of the device. In the case of a component approved as an immobilizer under\r\nthis regulation and an alarm system under UN Regulation No. [ZZZ] or UN Regulation No. 116, Supplement 7 to\r\nthe original version, or UN Regulation No. 97 Supplement 8 to the 01 series of amendments both approval marks\r\nshall be affixed by the manufacturer to the major element(s) of the device."
+    },
+    {
+      "paragraph": "4.9",
+      "pages": [
+        3
+      ],
+      "text": "4.9. Annex 3 to this Regulation gives examples of arrangements of approval marks."
+    },
+    {
+      "paragraph": "4.10",
+      "pages": [
+        3
+      ],
+      "text": "4.10. As an alternative to the approval mark described in paragraph 4.4. above, a certificate of conformity shall be\r\nissued for every immobilizer offered for sale.\r\nWhere an immobilizer manufacturer supplies an unmarked immobilizer approved to this Regulation to a vehicle\r\nmanufacturer, for fitment by that manufacturer as original equipment for a vehicle model or range of vehicle\r\nmodels, the immobilizer manufacturer shall supply a number of copies of the certificate of conformity to the\r\nvehicle manufacturer, sufficient for that manufacturer to obtain the vehicle approval of this Regulation.\r\nIf the immobilizer is made up of separate components, its main component(s) shall bear a reference mark and the\r\ncertificate of conformity shall provide a list of such reference marks.\r\nA model of the certificate of conformity is given in Annex4 to this Regulation."
+    },
+    {
+      "paragraph": "4.11",
+      "pages": [
+        3
+      ],
+      "text": "4.11. When an immobilizer, approved to this Regulation or UN Regulation No. 116, Supplement 7 to the original\r\nversion, or UN Regulation No. 97, Supplement 8 to the 01 series of amendments as a separate technical unit, is\r\ninstalled in a vehicle submitted for approval to this Regulation, tests required to be passed by an immobilizer in\r\norder to obtain approval to this Regulation shall not be repeated."
+    },
+    {
+      "paragraph": "5",
+      "pages": [
+        3
+      ],
+      "text": "5. Speciﬁcations"
+    },
+    {
+      "paragraph": "5.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1. General Specifications"
+    },
+    {
+      "paragraph": "5.1.1",
+      "pages": [
+        3
+      ],
+      "text": "5.1.1. It must be possible to set and unset the immobilizer in accordance with these requirements.\r\n5.1.2.An immobilizer and its installation shall be so designed that any equipped vehicle continues to meet the\r\ntechnical requirements."
+    },
+    {
+      "paragraph": "5.1.3",
+      "pages": [
+        3,
+        4
+      ],
+      "text": "5.1.3. It shall not be possible for an immobilizer to enter the set state when the ignition key is in the engine\r\nrunning mode, except when:\r\n(a) The vehicle is equipped or intended to be equipped for ambulance, fire brigade or police purposes; or\r\n(b) The engine is required to:\r\n(i) Drive machinery forming part of, or mounted on, the vehicle for purposes other than driving the vehicle; or\r\n\r\n\r\n\r\n\r\n\r\n\r\n(ii) Maintain the electrical power of the batteries of the vehicle at a level required for driving that machinery or\r\napparatus;\r\nand the vehicle is stationary with the parking brake applied. When this exception is used, this fact shall be stated\r\nunder item 2 of the addendum to the communication document (Annex 2 to this Regulation)."
+    },
+    {
+      "paragraph": "5.1.4",
+      "pages": [
+        4
+      ],
+      "text": "5.1.4. It shall not be possible to permanently override an immobilizer."
+    },
+    {
+      "paragraph": "5.1.5",
+      "pages": [
+        4
+      ],
+      "text": "5.1.5. The immobilizer shall be designed and built such that when installed it shall not adversely affect the\r\ndesigned function and the safe operation of the vehicle, even in the case of malfunction."
+    },
+    {
+      "paragraph": "5.1.6",
+      "pages": [
+        4
+      ],
+      "text": "5.1.6. An immobilizer shall be designed and built such that, when installed on a vehicle, according to the\r\nmanufacturer's instructions, it cannot rapidly and without attracting attention be rendered ineffective or destroyed\r\nby, e.g. the use of low cost easily concealed tools, equipment or fabrications readily available to the public at\r\nlarge. It shall be difficult and time consuming to replace a major component or assembly in order to bypass the\r\nimmobilizer."
+    },
+    {
+      "paragraph": "5.1.7",
+      "pages": [
+        4
+      ],
+      "text": "5.1.7. An immobilizer shall be so designed and built such that when installed as specified by the manufacturer it is\r\nable to withstand the environment within the vehicle for a reasonable lifetime (for testing see paragraph 5.3.).\r\nMore particularly the electrical properties of the on-board circuitry shall not be adversely affected by the addition\r\nof the immobilizer (lead cross-sections, contact safety, etc.)"
+    },
+    {
+      "paragraph": "5.1.8",
+      "pages": [
+        4
+      ],
+      "text": "5.1.8. An immobilizer may be combined with other vehicle systems or may be integrated into them (e.g. engine\r\nmanagement, alarm systems)."
+    },
+    {
+      "paragraph": "5.1.9",
+      "pages": [
+        4
+      ],
+      "text": "5.1.9. It shall not be possible for an immobilizer to prevent the release of the brakes of the vehicle, except in the\r\ncase of an immobilizer which prevents the release of pneumatically released spring brakes4 and functions in such\r\na way that in normal operation, or in failure conditions, the technical requirements of UN Regulation No. 13 in\r\nforce at the time of application for type approval under this Regulation are satisfied.\r\nCompliance with this paragraph does not exempt an immobilizer which prevents the release of pneumatically\r\nreleased spring brakes from the technical requirements set out in this Regulation.\r\n\r\n4As defined in Annex 8 of UN Regulation No. 13, as amended."
+    },
+    {
+      "paragraph": "5.1.10",
+      "pages": [
+        4
+      ],
+      "text": "5.1.10. It shall not be possible for an immobilizer to operate in such a manner as to apply the brakes of the\r\nvehicle."
+    },
+    {
+      "paragraph": "5.1.11",
+      "pages": [
+        4
+      ],
+      "text": "5.1.11. In addition, digital keys shall comply with the provisions of Annex 9."
+    },
+    {
+      "paragraph": "5.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2. Particular Specifications"
+    },
+    {
+      "paragraph": "5.2.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1. Extent of disablement"
+    },
+    {
+      "paragraph": "5.2.1.1",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1.1. An immobilizer shall be designed so as to prevent the operation of the vehicle under its own motive power\r\nby at least one of the following means:\r\n5.2.1.1.1. disable, in the case of after-market fitting, or vehicle equipped with diesel engine, at least two separate\r\nvehicle circuits that are needed for vehicle operation under its own power (e.g. starter motor, ignition, fuel supply,\r\npneumatically released spring brakes, etc.);\r\n5.2.1.1.2. interference by code of at least one control unit required for the operation of the vehicle.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "5.2.1.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2.1.2. An immobilizer for fitment to a vehicle equipped with a catalytic converter shall not cause unburnt fuel to\r\nenter the exhaust."
+    },
+    {
+      "paragraph": "5.2.2",
+      "pages": [
+        4
+      ],
+      "text": "5.2.2. Operating reliability\r\nOperating reliability shall be achieved by suitable design of the immobilizer, account being taken of specific\r\nenvironmental conditions in the vehicle (see paragraphs 5.1.8. and 5.3.)."
+    },
+    {
+      "paragraph": "5.2.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.3. Operating safety\r\nIt shall be ensured that the immobilizer does not change its state (set/unset) as a result of any of the tests in\r\nparagraph 5.3."
+    },
+    {
+      "paragraph": "5.2.4",
+      "pages": [
+        5
+      ],
+      "text": "5.2.4. Setting of the immobilizer"
+    },
+    {
+      "paragraph": "5.2.4.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.4.1. The immobilizer must be set without supplementary action from the driver by at least one of the following\r\nmeans:\r\n(a) At rotation of the ignition key into the \"0\" position in the ignition lock and activation of a door; in addition,\r\nimmobilizers which unset immediately before or during the normal starting procedure of the vehicle are permitted\r\nto set on turning the ignition off;\r\n(b) A maximum of 1 minute after removing the key of the ignition lock."
+    },
+    {
+      "paragraph": "5.2.4.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.4.2. If the immobilizer can enter the set state when the ignition key is in the engine running mode as provided\r\nfor in paragraph 5.1.4., the immobilizer may also be set by the opening of the driver's door and/or the authorised\r\nuser carrying out a deliberate action."
+    },
+    {
+      "paragraph": "5.2.5",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5. Unsetting"
+    },
+    {
+      "paragraph": "5.2.5.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.1. Unsetting shall be achieved by using one or a combination of the following devices. Other devices with an\r\nequivalent level of security giving equivalent performance are permitted."
+    },
+    {
+      "paragraph": "5.2.5.1.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.1.1. A key pad for inputting an individually selectable code having at least 10,000 variants."
+    },
+    {
+      "paragraph": "5.2.5.1.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.1.2. Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate\r\nrolling codes and/or have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for\r\n50,000 variants minimum."
+    },
+    {
+      "paragraph": "5.2.5.1.3",
+      "pages": [
+        5
+      ],
+      "text": "5.2.5.1.3. If unsetting can be achieved via a remote control, the immobilizer must return to the set condition\r\nwithin 5 minutes after unsetting if no supplementary action on the starter circuit has been undertaken."
+    },
+    {
+      "paragraph": "5.2.6",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6. Status display"
+    },
+    {
+      "paragraph": "5.2.6.1",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6.1. To provide information on the status of the immobilizer (set/unset, change of set to unset and vice versa),\r\noptical displays inside and optical signals outside the passenger compartment are allowed. Any optical signal or\r\nany use of lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of\r\nRegulation No. 48."
+    },
+    {
+      "paragraph": "5.2.6.2",
+      "pages": [
+        5
+      ],
+      "text": "5.2.6.2. If an indication of short-term \"dynamic\" processes such as changes from \"set\" to \"unset\" and vice versa is\r\nprovided, it shall be optical, according to paragraph 5.2.6.1. Such optical indication may also be produced by the\r\nsimultaneous operation of the direction indicators and/or passenger compartment lamp(s), provided that the\r\nduration of the optical indication by the direction indicators does not exceed 3 seconds."
+    },
+    {
+      "paragraph": "5.3",
+      "pages": [
+        5
+      ],
+      "text": "5.3. Operation parameters and test conditions\r\nAll components of the immobilizer shall be submitted to the tests described in Annex 6."
+    },
+    {
+      "paragraph": "5.4",
+      "pages": [
+        5
+      ],
+      "text": "5.4. Instructions\r\n(Paragraphs 5.4.1. to 5.4.3. for the purposes of aftermarket installation only).\r\nEach immobilizer shall be accompanied by:"
+    },
+    {
+      "paragraph": "5.4.1",
+      "pages": [
+        5
+      ],
+      "text": "5.4.1. Instructions for installation."
+    },
+    {
+      "paragraph": "5.4.1.1",
+      "pages": [
+        5
+      ],
+      "text": "5.4.1.1. The list of vehicles and vehicle models for which the device is intended. This list may be specific or\r\ngeneric, e.g. \"all cars with petrol engines and 12 V negative earth batteries\"."
+    },
+    {
+      "paragraph": "5.4.1.2",
+      "pages": [
+        5
+      ],
+      "text": "5.4.1.2. The method of installation illustrated by photographs and/or very clear drawings."
+    },
+    {
+      "paragraph": "5.4.1.3",
+      "pages": [
+        6
+      ],
+      "text": "5.4.1.3. Detailed installation instructions provided by the supplier shall be such that when correctly followed by a\r\ncompetent installer, the safety and reliability of the vehicle is not affected."
+    },
+    {
+      "paragraph": "5.4.1.4",
+      "pages": [
+        6
+      ],
+      "text": "5.4.1.4. The supplied installation instructions shall identify the electrical power requirements of the immobilizer\r\nand, where relevant, shall advise an increasing of battery size."
+    },
+    {
+      "paragraph": "5.4.1.5",
+      "pages": [
+        6
+      ],
+      "text": "5.4.1.5. The supplier shall provide post installation procedures for checking the vehicle. Particular attention shall\r\nbe drawn to safety related features."
+    },
+    {
+      "paragraph": "5.4.2",
+      "pages": [
+        6
+      ],
+      "text": "5.4.2. A blank installation certificate, an example of which is given in Annex 5."
+    },
+    {
+      "paragraph": "5.4.3",
+      "pages": [
+        6
+      ],
+      "text": "5.4.3. A general statement to the immobilizer purchaser calling his attention to the following points:"
+    },
+    {
+      "paragraph": "5.4.3.1",
+      "pages": [
+        6
+      ],
+      "text": "5.4.3.1. The immobilizer should be installed in accordance with the manufacturer's instructions;"
+    },
+    {
+      "paragraph": "5.4.3.2",
+      "pages": [
+        6
+      ],
+      "text": "5.4.3.2. The selection of a good installer is recommended (the immobilizer manufacturer may be contacted to\r\nindicate appropriate installers);"
+    },
+    {
+      "paragraph": "5.4.3.3",
+      "pages": [
+        6
+      ],
+      "text": "5.4.3.3. The installation certificate supplied with the immobilizer should be completed by the installer."
+    },
+    {
+      "paragraph": "5.4.4",
+      "pages": [
+        6
+      ],
+      "text": "5.4.4. Instructions for use."
+    },
+    {
+      "paragraph": "5.4.5",
+      "pages": [
+        6
+      ],
+      "text": "5.4.5. Instructions for maintenance."
+    },
+    {
+      "paragraph": "5.4.6",
+      "pages": [
+        6
+      ],
+      "text": "5.4.6. A general warning regarding the dangers of making any alterations or additions to the immobilizer; such\r\nalterations and additions would automatically invalidate the certificate of installation referred to in paragraph\r\n5.4.2. above.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "6",
+      "pages": [
+        6
+      ],
+      "text": "6. Modiﬁcation of the type and extension of approval"
+    },
+    {
+      "paragraph": "6.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1. Every modification of a vehicle or component type with regard to this Regulation shall be notified to the\r\nadministrative department which approved the vehicle or component type. The department may then either:"
+    },
+    {
+      "paragraph": "6.1.1",
+      "pages": [
+        6
+      ],
+      "text": "6.1.1. Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case\r\nthe component or the vehicle still complies with the requirements, or"
+    },
+    {
+      "paragraph": "6.1.2",
+      "pages": [
+        6
+      ],
+      "text": "6.1.2. Require a further report from the technical service responsible for conducting the tests."
+    },
+    {
+      "paragraph": "6.2",
+      "pages": [
+        6
+      ],
+      "text": "6.2. Confirmation or refusal of approval, specifying the alteration, shall be communicated by the procedure\r\nspecified in paragraph 4.3. above to the Contracting Parties to the Agreement applying this Regulation."
+    },
+    {
+      "paragraph": "6.3",
+      "pages": [
+        6
+      ],
+      "text": "6.3. The competent authority issuing the extension of approval shall assign a serial number to each\r\ncommunication form drawn up for such an extension."
+    },
+    {
+      "paragraph": "7",
+      "pages": [
+        6
+      ],
+      "text": "7. Conformity of production"
+    },
+    {
+      "paragraph": "7.1",
+      "pages": [
+        6
+      ],
+      "text": "7.1. Procedures concerning conformity of production shall comply with those set out in the 1958 Agreement,\r\nSchedule 1 (E/ECE/TRANS/505/Rev.3) and meet the following requirements:"
+    },
+    {
+      "paragraph": "7.2",
+      "pages": [
+        6
+      ],
+      "text": "7.2. For each type of vehicle or component the tests prescribed in the relevant part(s) of this Regulation shall be\r\ncarried out on a statistically controlled and random basis, in accordance with one of the regular quality assurance\r\nprocedures;"
+    },
+    {
+      "paragraph": "7.3",
+      "pages": [
+        6
+      ],
+      "text": "7.3. The Type Approval Authority which has granted approval may at any time verify the conformity of control\r\nmethods applicable to each production unit. The normal frequency of such inspections shall be once every two\r\nyears."
+    },
+    {
+      "paragraph": "8",
+      "pages": [
+        6
+      ],
+      "text": "8. Penalties for non-conformity of production"
+    },
+    {
+      "paragraph": "8.1",
+      "pages": [
+        6
+      ],
+      "text": "8.1. The approval granted in respect of a vehicle/component type pursuant to this Regulation may be withdrawn if\r\nthe requirements laid down in paragraph 7 . above are not complied with."
+    },
+    {
+      "paragraph": "8.2",
+      "pages": [
+        7
+      ],
+      "text": "8.2. If a Contracting Party to the Agreement applying this Regulation withdraws an approval it has previously\r\ngranted, it shall forthwith so notify the other Contracting Parties applying this Regulation, by means of a form\r\nconforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "9",
+      "pages": [
+        7
+      ],
+      "text": "9. Production deﬁnitively discontinued\r\nIf the holder of the approval completely ceases to manufacture a vehicle/component type approved in accordance\r\nwith this Regulation, he shall so inform the authority which granted the approval. Upon receiving the relevant\r\ncommunication, that authority shall inform thereof the other Contracting Parties to the Agreement applying this\r\nRegulation by means of a form conforming to the model in Annex 2."
+    },
+    {
+      "paragraph": "10",
+      "pages": [
+        7
+      ],
+      "text": "10. Names and addresses of Technical Services responsible for conducting\r\napproval tests, and of administrative departments\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nsecretariat the names and addresses of the technical services responsible for conducting approval tests and of the\r\nadministrative departments which grant approval and to which forms certifying approval or extension or refusal or\r\nwithdrawal of approval, issued in other countries are to be sent.\r\n\r\nAnnex 1a Information document\r\n(Maximum format: A4 (210 mm x 297 mm))\r\nInformation document\r\nIn accordance with paragraph 5. of UN Regulation No. [XXX] relating to system type approval of a vehicle\r\ntype with regard to an immobilizer system\r\n1. General\r\n1.1. Make (trade name of manufacturer):\r\n1.2. Type:\r\n1.3. Means of identification of type, if marked on the device (b):",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "1.3.1",
+      "pages": [
+        7
+      ],
+      "text": "1.3.1. Location of that marking: ........................................\r\n1.4. Name and address of manufacturer:",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "1.5",
+      "pages": [
+        7
+      ],
+      "text": "1.5. Location of the ECE approval mark:"
+    },
+    {
+      "paragraph": "1.6",
+      "pages": [
+        7
+      ],
+      "text": "1.6. Address(es) of assembly plant(s):\r\n2. General construction characteristics of the vehicle\r\n2.1. Photographs and/or drawings of a representative vehicle: ...................\r\n2.2. Hand of drive: left / right (Strike out what does not apply)\r\n3. Miscellaneous\r\n3.1. Vehicle immobilizer: .............................................\r\n3.1.1. type approval number, if available: ....................................",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "3.1.1.1",
+      "pages": [
+        7
+      ],
+      "text": "3.1.1.1 A detailed description of the vehicle type with regard to the arrangement of the installed Immobilizer\r\nillustrated by photographs and/or drawings (where the immobilizer is already type approved as a separate\r\ntechnical unit, reference may be made to the description in paragraph 4.2. of the immobilizers manufacturer's\r\ninformation document): ……………………………………….",
+      "review_flags": [
+        "heading_without_terminal_dot",
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "3.1.2",
+      "pages": [
+        7,
+        8
+      ],
+      "text": "3.1.2. For immobilizers not yet approved\r\n\r\n\r\n\r\n\r\n\r\n\r\n3.1.2.1.A detailed technical description of the vehicle immobilizer and of the measures taken against inadvertent\r\nactivation:"
+    },
+    {
+      "paragraph": "3.1.2.2",
+      "pages": [
+        8
+      ],
+      "text": "3.1.2.2. The system(s) on which the vehicle immobilizer acts: ........................"
+    },
+    {
+      "paragraph": "3.1.2.3",
+      "pages": [
+        8,
+        9
+      ],
+      "text": "3.1.2.3. Number of effective interchangeable codes, if applicable: .....................\r\n\r\nAnnex 1b Information document\r\n(Maximum format: A4 (210 mm x 297 mm))\r\nIn accordance with paragraph 5. of Regulation No. [YYY] on uniform technical prescriptions concerning approval\r\nof immobilizers and approval of a vehicle with regard to its immobilizer (relating to UN component or separate\r\ntechnical unit type approval of an immobilizer system).\r\n1. General\r\n1.1. Make (trade name of manufacturer):\r\n1.2. Type:\r\n1.3. Means of identification of type, if marked on the device (a):\r\n\r\n\r\naIf the means of identification of type contains characters not relevant to describe the component or separate technical unit types covered in\r\nthis information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??).\r\n1.3.1. Location of that marking:\r\n1.4. Name and address of manufacturer:\r\n1.5. Location of the UN approval mark:\r\n1.6. Address(es) of assembly plant(s):\r\n2. Description of the device\r\n2.1. A detailed technical description of the vehicle immobilizer and of the measures taken against inadvertent\r\nactivation:\r\n2.2. The vehicle system(s) on which the vehicle immobilizer acts:\r\n2.3. Method of setting/unsetting the device:\r\n2.4. Number of effective interchangeable codes, if applicable:\r\n2.5. List of main components comprising the device and, if applicable,\r\ntheir reference marks:........................................................\r\n3. Drawings\r\n3.1.Drawings of the main components of the device (the drawings must show the intended space for UN type\r\napproval mark):\r\n4. Instructions\r\n4.1. List of vehicles to which the device is intended to be fitted:\r\n4.2. Description of the method of installation illustrated by photographs and/or drawings:\r\n4.3. Instructions for use:\r\n4.4. Instructions for maintenance, if any:\r\n4.5. Test pulse 5a/5b according to the International Standard ISO 7637-2:2004: applied / not applied.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnnex 2a Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nissued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of vehicle with regard to its immobilizer pursuant to UN Regulation No. 162\r\nApproval No. ............................\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulations).\r\n\r\n\r\n2Strike out what does not apply (there are cases where nothing needs to be deleted, when more than one entry is applicable).\r\n\r\nSection I\r\n1. General\r\n1.1. Make (trade name of manufacturer):\r\n1.2. Type:\r\n1.3. Means of identification of type, if marked on the\r\nvehicle/component/ separate technical unit 2 / (a):......................................\r\n\r\n\r\na If the means of identification of type contains characters not relevant to describe the vehicle, component or separate technical unit types\r\ncovered in this information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??).\r\n1.3.1. Location of that marking:\r\n1.4. Category of vehicle (b):\r\n\r\n.............................................................\r\n\r\nbAs defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html.\r\n1.5. Name and address of manufacturer:\r\n1.6. Location of the ECE approval mark:",
+      "review_flags": [
+        "duplicate_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "1.7",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "text": "1.7. Address(es) of assembly plant(s):\r\nSection II\r\n\r\n\r\n\r\n\r\n\r\n\r\n1. Additional information (where applicable): see addendum\r\n2. Technical service responsible for carrying out the tests:\r\n3. Date of test report:\r\n4. Number of test report:\r\n5. Remarks (if any): see addendum\r\n6. Place:\r\n7. Date:\r\n8. Signature:\r\n9. The index to the information package lodged with the approval authority, which may be obtained on request, is\r\nattached:\r\nAddendum to UN type approval certificate No. ...\r\nConcerning the type approval of a vehicle with regard to Regulation No. [YYY]\r\n1. Additional information:\r\n1.1. Brief description of the immobilizer:\r\n2. Remarks:\r\n\r\nAnnex 2b Communication\r\n(Maximum format: A4 (210 x 297 mm))\r\n\r\n\r\n\r\n\r\n\r\n\r\n                      issued by:\r\nName of administration:\r\n......................................\r\n......................................\r\n......................................\r\nConcerning:2 Approval granted\r\n\r\nApproval extended\r\nApproval refused\r\nApproval withdrawn\r\nProduction definitively discontinued\r\nof a type of component or separate technical unit as an immobilizer pursuant to UN Regulation No. 162\r\nApproval No. ............................\r\nReason for extension:\r\n\r\n1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in the Regulations).\r\n\r\n\r\n2Strike out what does not apply (there are cases where nothing needs to be deleted, when more than one entry is applicable).\r\n\r\nSection I\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1. General\r\n1.1. Make (trade name of manufacturer):\r\n1.2. Type:\r\n1.3. Means of identification of type, if marked on the device (a):\r\n\r\n\r\na If the means of identification of type contains characters not relevant to describe the component or separate technical unit types covered in\r\nthis information document, such characters shall be represented in the documentation by the symbol \"?\" (e.g. ABC??123??).\r\n1.3.1. Location of that marking:\r\n1.4. Name and address of manufacturer:\r\n1.5. Location of the ECE approval mark:\r\n1.6. Address(es) of assembly plant(s):\r\nSection II\r\n1. Additional information (where applicable): see addendum\r\n2. Technical service responsible for carrying out the tests:\r\n3. Date of test report:\r\n4. Number of test report:\r\n5. Remarks (if any): see addendum\r\n6. Place:\r\n7. Date:\r\n8. Signature:\r\n9. The index to the information package lodged with the approval authority, which may be obtained on request, is\r\nattached.\r\nAddendum to UN type approval certificate No. …\r\nconcerning the type approval of an immobilizer with regard to Regulation No. [xxx]\r\n1. Additional information:\r\n1.1. Brief description of the immobilizer:\r\n1.2. List of vehicles to which the immobilizer is intended to be fitted:\r\n1.3. Types of vehicles on which the immobilizer has been tested:\r\n1.4. List of main components, duly identified, comprising the immobilizer:\r\n2. Remarks:",
+      "review_flags": [
+        "duplicate_numbered_line",
+        "numbering_moves_backwards"
+      ]
+    },
+    {
+      "paragraph": "Annex 3",
+      "pages": [
+        11,
+        12
+      ],
+      "text": "Annex 3 Arrangements of approval marks\r\nFigure 1\r\n(see paragraph 4.2. of this Regulation)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\na = 8 mm min\r\nThe above approval mark figure 1 affixed to a vehicle shows that the type concerned was approved in the\r\nNetherlands (E 4) pursuant to UN Regulation No. [xxx] under approval No. 001234. The first two digits (00) of\r\nthe approval number indicate that the approval was granted in accordance with the requirements of UN\r\nRegulation No. [xxx] in its original form."
+    },
+    {
+      "paragraph": "Annex 4",
+      "pages": [
+        12
+      ],
+      "text": "Annex 4 Model of certiﬁcate of conformity\r\nI the undersigned\r\n(surname and name)\r\nTestify that the vehicle immobilizer described below:\r\nMake:..................................................................\r\nType:..................................................................\r\nis in total conformity with the type approved\r\nat.................................. on..........................\r\n(place of approval) (date)\r\nas described in the communication form bearing approval No.\r\nIdentification of the main component(s):\r\nComponent: ................ Marking:......................\r\nDone at: ............... on:..........................\r\nManufacturer's full address and stamp:............................................\r\nSignature : ...............(please specify position)."
+    },
+    {
+      "paragraph": "Annex 5",
+      "pages": [
+        12
+      ],
+      "text": "Annex 5 Model of installation certiﬁcate\r\nI the undersigned.........................................................\r\nprofessional installer, certify that the installation of the immobilizer described below has been carried out by\r\nmyself pursuant to the mounting instructions supplied by the manufacturer of the system.\r\nDescription of the vehicle\r\nMake:..................................................................\r\nType:..................................................................\r\nSerial number:............................................................\r\nRegistration number:........................................................\r\nDescription of the immobilizer\r\nMake:..................................................................\r\nType:..................................................................\r\nApproval number:..........................................................\r\nDone at:........................ on:.............................\r\nInstaller's full address and stamp:................................................\r\nSignature:....................................... (please specify position)"
+    },
+    {
+      "paragraph": "Annex 6",
+      "pages": [
+        13
+      ],
+      "text": "Annex 6 Operation parameters and test conditions for an immobilizer"
+    },
+    {
+      "paragraph": "Annex 6 / 1",
+      "pages": [
+        13
+      ],
+      "text": "1. Operation parameters\r\nThe requirements below do not apply to:\r\n(a) Those components that are fitted and tested as part of the vehicle, whether or not an immobilizer is fitted (e.g.\r\nlamps, alarm system);\r\n(b) Those components that have previously been tested as part of the vehicle and documentary evidence has been\r\nprovided, or\r\n(c) Components that are not embedded in the vehicle, e.g. keys.\r\nAll components of the immobilizer shall operate without any failure under the following conditions."
+    },
+    {
+      "paragraph": "Annex 6 / 1.1",
+      "pages": [
+        13
+      ],
+      "text": "1.1. Climatic conditions\r\nTwo classes of environmental temperature are defined as follows:\r\n(a) -40°C to +85°C for parts to be fitted in the passenger or luggage compartment,\r\n(b) -40°C to +125°C for parts to be fitted in the engine compartment unless otherwise specified."
+    },
+    {
+      "paragraph": "Annex 6 / 1.2",
+      "pages": [
+        13
+      ],
+      "text": "1.2. Degree of protection for installation\r\nThe following degrees of protection in accordance with IEC Publication 529 1989 shall be provided:\r\n(a) IP 40 for parts to be fitted in the passenger compartment,\r\n(b) IP 42 for parts to be fitted in the passenger compartment of roadsters/convertibles and cars with moveable\r\nroof-panels if the installation location requires a higher degree of protection than IP 40,\r\n(c) IP 54 for all other parts.\r\nThe immobilizer manufacturer shall specify in the installation instructions any restrictions on the positioning of\r\nany part of the installation with respect to dust, water and temperature."
+    },
+    {
+      "paragraph": "Annex 6 / 1.3",
+      "pages": [
+        13
+      ],
+      "text": "1.3. Weatherability\r\n7 days according to IEC 68-2-30-1980.",
+      "review_flags": [
+        "ambiguous_numbered_line"
+      ]
+    },
+    {
+      "paragraph": "Annex 6 / 1.4",
+      "pages": [
+        13
+      ],
+      "text": "1.4. Electrical conditions\r\nRated supply voltage: 12 V\r\nOperation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 1.1.1\r\nTime allowance for excess voltages at 23°C:\r\nU = 18 V, max. 1 h\r\nU = 24 V, max. 1 min."
+    },
+    {
+      "paragraph": "Annex 6 / 2",
+      "pages": [
+        13
+      ],
+      "text": "2. Test conditions\r\nAll the tests shall be carried out in sequence on a single immobilizer. However, at the discretion of the test\r\nauthority, other samples may be used if this is not considered to affect the results of the other tests."
+    },
+    {
+      "paragraph": "Annex 6 / 2.1",
+      "pages": [
+        13
+      ],
+      "text": "2.1. Normal test conditions\r\nVoltage U = (12 ± 0.2) V\r\nTemperature T = (23 ± 5)°C"
+    },
+    {
+      "paragraph": "Annex 6 / 3",
+      "pages": [
+        13
+      ],
+      "text": "3. Operation test\r\nAll components of the immobilizer shall comply with prescriptions given in paragraphs 3.2. to 3.9. of this\r\nRegulation."
+    },
+    {
+      "paragraph": "Annex 6 / 3.1",
+      "pages": [
+        14
+      ],
+      "text": "3.1. Upon completion of all the tests specified below, the immobilizer shall be tested under the normal test\r\nconditions specified in paragraph 2.1. of this Regulation to check that it continues to function normally. Where\r\nnecessary, fuses may be replaced prior to the test.\r\nIf some of the tests required in each of these paragraphs prior to the operation tests are performed in series on a\r\nsingle immobilizer, the operation test may be carried out one time only after the chosen tests are completed\r\ninstead of performing the operation tests required in the paragraphs after each of the chosen tests. Vehicle\r\nmanufacturers and suppliers have to guarantee satisfactory results only on non-accumulated procedures."
+    },
+    {
+      "paragraph": "Annex 6 / 3.2",
+      "pages": [
+        14
+      ],
+      "text": "3.2. Resistance to temperature and voltage changes\r\nCompliance with the specifications defined under paragraph 3.1 shall also be checked under the following\r\nconditions:"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.1",
+      "pages": [
+        14
+      ],
+      "text": "3.2.1. Test temperature T (-40 ± 2)° C\r\nTest voltage U = (9 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.2",
+      "pages": [
+        14
+      ],
+      "text": "3.2.2. For parts to be fitted in the passenger or luggage compartment:\r\nTest temperature T = (+85 ± 2)° C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.3",
+      "pages": [
+        14
+      ],
+      "text": "3.2.3. For parts to be fitted in the engine compartment unless otherwise specified:\r\nTest temperature T = (+125 ± 2)° C\r\nTest voltage U = (15 ± 0.2) V\r\nStorage duration 4 hours"
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.4",
+      "pages": [
+        14
+      ],
+      "text": "3.2.4. The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V\r\nfor 1 hour."
+    },
+    {
+      "paragraph": "Annex 6 / 3.2.5",
+      "pages": [
+        14
+      ],
+      "text": "3.2.5. The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V\r\nfor 1 min."
+    },
+    {
+      "paragraph": "Annex 6 / 3.3",
+      "pages": [
+        14,
+        15
+      ],
+      "text": "3.3. Safe operation after foreign body and water-tightness testing\r\nAfter the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in\r\nparagraph 1.1.2., the operation tests according to paragraph 3.1. shall be repeated.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of an immobilizer which is to be type approved as a separate technical unit\r\nIn this case, the manufacturer of the immobilizer shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1 b), that the requirement of this paragraph was not\r\napplied to the immobilizer (in accordance with paragraph 7. of this Regulation), and\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the immobilizer is intended to\r\nbe fitted and the relevant installation conditions in item 4.2.\r\n(b) Type approval of a vehicle in respect of an immobilizer\r\nIn this case, the manufacturer shall specify in item 3.1.1.1. of Annex 1a of the information document (Annex 1a),\r\nthat the requirement of this paragraph does not apply to the immobilizer due to the nature of installation\r\nconditions and the vehicle manufacturer shall prove it by submitting related documents.\r\n(c) Type approval of a vehicle in respect of the installation of an immobilizer which is type approved as a separate\r\ntechnical unit.\r\n\r\n\r\n\r\n\r\n\r\n\r\nIn this case, the vehicle manufacturer shall specify in item 3.1.1.1. of Annex 1a of the information document\r\n(Annex 1a), that the requirement of this paragraph does not apply to the installation of the immobilizer where the\r\nrelevant installation conditions are met.\r\nThis requirement does not apply in cases where the information required in item 3.1.3.1.1. of Annex 1a has\r\nalready been submitted for the approval of the separate technical unit."
+    },
+    {
+      "paragraph": "Annex 6 / 3.4",
+      "pages": [
+        15
+      ],
+      "text": "3.4. Safe operation after condensed water test\r\nAfter a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according\r\nto paragraph 3.1. shall be repeated."
+    },
+    {
+      "paragraph": "Annex 6 / 3.5",
+      "pages": [
+        15
+      ],
+      "text": "3.5. Test for safety against reversed polarity\r\nThe immobilizer and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.\r\nAfter this test the operation tests according to paragraph 3.1. shall be repeated with fuses changed, if necessary."
+    },
+    {
+      "paragraph": "Annex 6 / 3.6",
+      "pages": [
+        15
+      ],
+      "text": "3.6. Test for safety against short-circuits\r\nAll electrical connections of the immobilizer must be short-circuit proof against earth, max. 13 V and/or fused.\r\nAfter this test the operation tests according to paragraph 3.1. shall be repeated, with fuses changed if necessary."
+    },
+    {
+      "paragraph": "Annex 6 / 3.7",
+      "pages": [
+        15
+      ],
+      "text": "3.7. Energy consumption in the set condition\r\nThe energy consumption in set condition under the conditions given in paragraph 2.1. shall not exceed 20 mA on\r\naverage for the complete immobilizer including status display.\r\nWith the agreement of the Technical Service this requirement need not apply in the following circumstances:\r\n(a) Type Approval of an immobilizer which is to be type approved as a separate technical unit\r\nIn this case, the manufacturer of the immobilizer shall:\r\n(i) Specify in item 4.5. of the information document (Annex 1, Part 2), that the requirement of this paragraph was\r\nnot applied to the immobilizer (in accordance with paragraph 7. of this regulation), and\r\n(ii) Specify in item 4.1. of the information document, the list of vehicles to which the immobilizer is intended to\r\nbe fitted and the relevant installation conditions in item 4.2.\r\n(b) Type approval of a vehicle in respect of an immobilizer\r\nIn this case, the manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that the\r\nrequirement of this paragraph does not apply to the immobilizer due to the nature of installation conditions and\r\nthe vehicle manufacturer shall prove it by submitting related documents.\r\n(c) Type approval of a vehicle in respect of the installation of an immobilizer which is type approved as a separate\r\ntechnical unit.\r\nIn this case, the vehicle manufacturer shall specify in item 3.1.3.1.1. of the information document (Annex 1a), that\r\nthe requirement of this paragraph does not apply to the installation of the immobilizer where the relevant\r\ninstallation conditions are met.\r\nThis requirement does not apply in cases where the information required in item 3.1.3.1.1. of Annex 1a has\r\nalready been submitted for the approval of the separate technical unit."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8",
+      "pages": [
+        15
+      ],
+      "text": "3.8. Safe operation after vibration test"
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.1",
+      "pages": [
+        15
+      ],
+      "text": "3.8.1. For this test, the components are subdivided into two types:\r\nType 1: components normally mounted on the vehicle,\r\nType 2: components intended for attachment to the engine."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2",
+      "pages": [
+        15
+      ],
+      "text": "3.8.2. The components/immobilizer shall be submitted to a sinusoidal vibration mode whose characteristics are as\r\nfollows:"
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.1",
+      "pages": [
+        16
+      ],
+      "text": "3.8.2.1. For Type 1\r\nThe frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum\r\nacceleration of 3 g (0-peak)."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.2",
+      "pages": [
+        16
+      ],
+      "text": "3.8.2.2. For Type 2\r\nThe frequency shall be variable from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum\r\nacceleration of 15 g (0-peak)."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.2.3",
+      "pages": [
+        16
+      ],
+      "text": "3.8.2.3. For both type 1 and type 2\r\nThe frequency variation is 1 octave/min.\r\nThe number of cycle is 10, the test shall be performed along each of the 3 axes.\r\nThe vibrations are applied at low frequencies at a maximum constant amplitude and at a maximum constant\r\nacceleration at high frequencies."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.3",
+      "pages": [
+        16
+      ],
+      "text": "3.8.3. During the test the immobilizer shall be electrically connected and the cable shall be supported after 200\r\nmm."
+    },
+    {
+      "paragraph": "Annex 6 / 3.8.4",
+      "pages": [
+        16
+      ],
+      "text": "3.8.4. After the vibration test the operation tests according to paragraph 3.1. shall be repeated."
+    },
+    {
+      "paragraph": "Annex 6 / 3.9",
+      "pages": [
+        16
+      ],
+      "text": "3.9. Electromagnetic compatibility\r\nThe immobilizer shall be submitted to the tests described in Annex 7."
+    },
+    {
+      "paragraph": "Annex 7",
+      "pages": [
+        16
+      ],
+      "text": "Annex 7 Electromagnetic compatibility"
+    },
+    {
+      "paragraph": "Annex 7 / 1",
+      "pages": [
+        16
+      ],
+      "text": "1. Immunity against disturbances conducted along supply lines"
+    },
+    {
+      "paragraph": "Annex 7 / 1.1",
+      "pages": [
+        16
+      ],
+      "text": "1.1 Tests shall be performed according to the technical prescriptions and transitional provisions of Regulation No.\r\n10.06 series of amendments and according to the test methods described in Annex 10 for an Electrical/Electronic\r\nSub-Assembly (ESA).",
+      "review_flags": [
+        "ambiguous_numbered_line",
+        "heading_without_terminal_dot"
+      ]
+    },
+    {
+      "paragraph": "Annex 7 / 1.2",
+      "pages": [
+        16
+      ],
+      "text": "1.2. The immobilizer shall be tested in unset state and in set state"
+    },
+    {
+      "paragraph": "Annex 7 / 2",
+      "pages": [
+        16
+      ],
+      "text": "2. Immunity against radiated high frequency disturbances"
+    },
+    {
+      "paragraph": "Annex 7 / 2.1",
+      "pages": [
+        16
+      ],
+      "text": "2.1. Testing of the immunity of an immobilizer in a vehicle may be performed according to the technical\r\nprescriptions and transitional provisions of Regulation No. 10, 06 series of amendments and test methods\r\ndescribed in Annex 6 for the vehicles or Annex 9 foran Electrical/Electronic Sub-Assembly (ESA)"
+    },
+    {
+      "paragraph": "Annex 7 / 2.2",
+      "pages": [
+        16
+      ],
+      "text": "2.2. The immobilizer shall be tested with operating conditions and failure criteria as defined in table 1"
+    },
+    {
+      "paragraph": "Table 1",
+      "pages": [
+        16,
+        17
+      ],
+      "text": "Table 1 Operating conditions and failure criteria for immobilizer\r\n\r\n Test type      Immobilizer operating conditions                Failure criteria\r\n\r\n\r\n Vehicle test   Immobilizer in unset state                      Unexpected activation of the immobilizer\r\n                Key ON or Vehicle at 50 km/h (1)\r\n\r\n                Immobilizer in set state                        Unexpected deactivation of the immobilizer\r\n                Key OFF\r\n\r\n                Immobilizer in set state                        Unexpected deactivation of the immobilizer\r\n                Vehicle in charging mode (if applicable)\r\n\r\n ESA Test       Immobilizer in unset state                      Unexpected activation of the immobilizer\r\n\r\n                Immobilizer in set state                        Unexpected deactivation of the immobilizer\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTest type       Immobilizer operating conditions                  Failure criteria\r\n\r\n\r\n (1) This test can be covered by the UN Regulation No. 10 50 km/h mode\r\n\r\n3. Electrical disturbance from electrostatic discharges",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 7 / 3.1",
+      "pages": [
+        17
+      ],
+      "text": "3.1. Immunity against electrical disturbances shall be tested in accordance with Technical ISO 10605-2008 +\r\ncorrigendum:2010 + AMD1:2014 using the test severity levels from table 2.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Annex 7 / 3.2",
+      "pages": [
+        17
+      ],
+      "text": "3.2. ESD tests shall be performed either at vehicle level or at Electrical/Electronic Sub-Assembly (ESA) level.",
+      "review_flags": [
+        "missing_parent_clause"
+      ]
+    },
+    {
+      "paragraph": "Table 2",
+      "pages": [
+        17
+      ],
+      "text": "Table 2 ESD Test levels\r\n\r\n Discharge       Discharge points             Immobilizer state                     Discharge        Test      Failure criteria\r\n type                                                                               network          Level\r\n\r\n\r\n Air             Points that can easily       Immobilizer in unset state            330 pF, 2        ± 6       Unexpected activation of the\r\n discharge       be accessed only             (if test performed on vehicle         kΩ               kV        immobilizer\r\n                 from the inside of the       then vehicle shall be Key ON\r\n                 vehicle                      or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       Immobilizer in set state              150 pF, 2        ± 15      Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle         kΩ               kV        the immobilizer without\r\n                 the outside of the           then vehicle shall be locked                                     reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                     each discharge\r\n\r\n Contact         Points that can easily       Immobilizer in unset state            330 pF, 2        ± 4       Unexpected activation of the\r\n discharge       be accessed only             (if test performed on vehicle         kΩ               kV        immobilizer\r\n                 from the inside of the       then vehicle shall be Key ON\r\n                 vehicle                      or Vehicle at 50 km/h or\r\n                                              engine in idle mode)\r\n\r\n                 Points that can easily       Immobilizer in set state              150 pF, 2        ± 8       Unexpected deactivation of\r\n                 be touched only from         (if test performed on vehicle         kΩ               kV        the immobilizer without\r\n                 the outside of the           then vehicle shall be locked                                     reactivation, within 1s, after\r\n                 vehicle                      and Key OFF)                                                     each discharge\r\n\r\n Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge\r\n\r\n4. Radiated emissions\r\nTests shall be performed according to the technical prescriptions and transitional provisions of UN Regulation No.\r\n10, 06 series of amendments prescriptions and according to the test methods described in Annexes 4 and 5 for\r\nvehicles or Annexes 7 and 8, for an Electrical/Electronic Sub-Assembly (ESA).\r\nThe locking system shall be in set state.\r\n\r\nAnnex 8 (reserved)",
+      "review_flags": [
+        "ambiguous_number_in_table_or_figure",
+        "check_table_or_figure_extent"
+      ]
+    },
+    {
+      "paragraph": "Annex 9",
+      "pages": [
+        17
+      ],
+      "text": "Annex 9 Safety provisions for digital keys"
+    },
+    {
+      "paragraph": "Annex 9 / 1",
+      "pages": [
+        17
+      ],
+      "text": "1. General\r\nThe purpose of this annex is to specify the requirements for documentation and verification for digital keys used\r\nto operate the ‘device to prevent unauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2",
+      "pages": [
+        18
+      ],
+      "text": "2. Definitions"
+    },
+    {
+      "paragraph": "Annex 9 / 2.1",
+      "pages": [
+        18
+      ],
+      "text": "2.1. \"Authorization process\" means any method to provide the digital key which can operate the ‘device to\r\nprevent unauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2.2",
+      "pages": [
+        18
+      ],
+      "text": "2.2. \"Revocation process\" means any method to prevent the digital key to operate the ‘device to prevent\r\nunauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 2.3",
+      "pages": [
+        18
+      ],
+      "text": "2.3. \"Boundary of functional operation\" defines the boundaries of the external physical limits (e.g. distance)\r\nwithin which the digital key is able to operate the ‘device to prevent unauthorized use’ of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 3",
+      "pages": [
+        18
+      ],
+      "text": "3. Documentation\r\nThe vehicle manufacturer shall provide the following documentation for type approval:"
+    },
+    {
+      "paragraph": "Annex 9 / 3.1",
+      "pages": [
+        18
+      ],
+      "text": "3.1. A description of the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.2",
+      "pages": [
+        18
+      ],
+      "text": "3.2. A description of the revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 3.3",
+      "pages": [
+        18
+      ],
+      "text": "3.3. A description of the boundary of functional operation."
+    },
+    {
+      "paragraph": "Annex 9 / 3.4",
+      "pages": [
+        18
+      ],
+      "text": "3.4. A description of the safety measures designed within the digital key revocation process to ensure safe\r\noperation of the vehicle."
+    },
+    {
+      "paragraph": "Annex 9 / 4",
+      "pages": [
+        18
+      ],
+      "text": "4. Requirements for Safe Operation"
+    },
+    {
+      "paragraph": "Annex 9 / 4.1",
+      "pages": [
+        18
+      ],
+      "text": "4.1. A digital key shall only be transferred to a device via the authorization process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2",
+      "pages": [
+        18
+      ],
+      "text": "4.2. There shall be a revocation process."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.1",
+      "pages": [
+        18
+      ],
+      "text": "4.2.1. Revocation of a digital key shall not result in an unsafe condition.\r\nA risk reduction analysis using functional safety standard such as ISO 26262 and safety of the intended\r\nfunctionality standard such as ISO/PAS 21448, which documents the risk to vehicle occupants caused by\r\nrevocation of a digital key and documents the reduction of risk resulting from implementation of the identified\r\nrisk mitigation functions or characteristics."
+    },
+    {
+      "paragraph": "Annex 9 / 4.2.2",
+      "pages": [
+        18
+      ],
+      "text": "4.2.2. It shall be possible for the primary user(s) to identify the number of authorized registered digital keys."
+    },
+    {
+      "paragraph": "Annex 9 / 4.3",
+      "pages": [
+        18
+      ],
+      "text": "4.3. Boundary of functional operation for the device to prevent unauthorized use:"
+    },
+    {
+      "paragraph": "Annex 9 / 4.3.1",
+      "pages": [
+        18
+      ],
+      "text": "4.3.1. Unsetting of the immobilizer shall require that an authorized registered digital key is detected in the interior\r\nof the vehicle, or that an actuation is triggered by user intent in close proximity of the vehicle.\r\nThe limitation of the distance for unsetting of the immobilizer by detection in the interior of the vehicle shall be\r\nverified using the following procedure including a tolerance of 2000 mm around the vehicle perimeter:\r\n(a) The vehicle shall be parked in a secure condition in unobstructed free field condition, this means engine off\r\nand all windows, doors and roof shall be closed.\r\n(b) The vehicle manufacturer will provide a typical user device for test in agreement with the technical service.\r\nThe digital key device battery state of charge shall be at maximum.\r\n(c) The technical service will define four test points around the vehicle perimeter at a distance not less than 2000\r\nmm. Distance means the distance between the nearest point of the motor vehicle and the user device.\r\n(d) The user device is placed at each of the test points. During the attempt to operate the vehicle under its own\r\npower, the vehicle door shall be closed. If at one of the test points the vehicle can be operated under its own\r\npower, the requirement is not met."
+    },
+    {
+      "paragraph": "Annex 9 / 4.3.2",
+      "pages": [
+        18
+      ],
+      "text": "4.3.2. The requirements in paragraph 4.3.1. shall not apply during a remote control manoeuvring and remote\r\ncontrol parking as defined in UN Regulation No. 79."
+    },
+    {
+      "paragraph": "Annex 9 / 4.4",
+      "pages": [
+        18,
+        19
+      ],
+      "text": "4.4. Detailed information shall be contained in the owner's manual of the vehicle, or by any other communication\r\nmeans in the vehicle; as a minimum, this information shall include:\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) The method(s) for authorization of the digital key;\r\n(b) The method(s) for revocation of the digital key."
+    },
+    {
+      "paragraph": "Annex 9 / 5",
+      "pages": [
+        19
+      ],
+      "text": "5. The effectiveness of the system shall not be adversely affected by cyber-attacks, cyber threats and\r\nvulnerabilities. The effectiveness of the security measures shall be demonstrated by fulfilling the technical\r\nrequirements of UN Regulation No. 155."
+    },
+    {
+      "paragraph": "Annex 9 / 6",
+      "pages": [
+        19
+      ],
+      "text": "6. Verification\r\nVerification of the functionality of the digital key shall be conducted with support of manufacturer's\r\ndocumentation as specified in paragraph 3."
+    },
+    {
+      "paragraph": "Annex 9 / 7",
+      "pages": [
+        19
+      ],
+      "text": "7. Competence of the auditors/assessors\r\nThe assessments under this Annex shall only be conducted by auditors/assessors with the technical and\r\nadministrative knowledge necessary for such purposes. They shall in particular be competent as auditor/assessor\r\nfor ISO 26262-2018 (Functional Safety - Road Vehicles), and ISO/PAS 21448 (Safety of the Intended\r\nFunctionality of road vehicles); and shall be able to make the necessary link with cybersecurity aspects in\r\naccordance with UN Regulation No 155. and ISO/SAE 21434). This competence should be demonstrated by\r\nappropriate qualifications or other equivalent training records."
+    }
+  ]
+}
