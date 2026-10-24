@@ -1,0 +1,9 @@
+{
+  "level": "low",
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "General UNECE parser fix in Stage 0 for tabular false Annex headings and Table attachment",
+    "Product-neutral type-approval scope rules (administrative vs product obligations)"
+  ],
+  "notes": "Product-neutral 6-stage pipeline tested on both dev-rear-lamp and unseen holdout-acpe without hard-coding product-specific regulation lists or rear-lamp facts."
+}

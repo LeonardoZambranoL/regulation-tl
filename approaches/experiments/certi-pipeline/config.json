@@ -1,0 +1,8 @@
+{
+  "name": "Certi 6-stage deterministic pipeline: Stage 0 Annex/Table/Subclause repair + Opus product reader & hybrid regulation gate + Sonnet exhaustive extraction, coverage ledger & bounded verifiers",
+  "models": {
+    "reader_and_gate": "claude-opus-5-5",
+    "extractor_and_verifier": "claude-sonnet-5-5",
+    "embeddings": "gemini-embedding-2-preview"
+  }
+}

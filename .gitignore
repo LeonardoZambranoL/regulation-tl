@@ -7,4 +7,7 @@ __pycache__/
 .env.*
 !.env.example
 .cache/
+runs/
+approaches/experiments/*/runs/
 approaches/dashboard/.local/
+.idea/

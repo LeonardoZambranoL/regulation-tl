@@ -10,19 +10,20 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Robust | Dev page F2 | Unseen clause recall | Dev clause F2 | Unseen page recall |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.8045 | 0.7670 | 0.8421 | 0.5613 | 0.8750 |
-| 2 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.8018 | 0.7615 | 0.8421 | 0.5462 | 0.8750 |
-| 3 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.8012 | 0.8129 | 0.7895 | 0.5824 | 1.0000 |
-| 4 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.7913 | 0.8281 | 0.7544 | 0.5849 | 1.0000 |
-| 5 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.7905 | 0.8442 | 0.7368 | 0.6195 | 1.0000 |
-| 6 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.7767 | 0.6937 | 0.8596 | 0.4964 | 1.0000 |
-| 7 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.7722 | 0.8426 | 0.7018 | 0.6290 | 1.0000 |
-| 8 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.7090 | 0.8916 | 0.5263 | 0.7079 | 0.8750 |
-| 9 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.7074 | 0.8885 | 0.5263 | 0.7016 | 0.8750 |
-| 10 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.6629 | 0.8696 | 0.4561 | 0.6826 | 0.7500 |
-| 11 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.6503 | 0.5112 | 0.7895 | 0.1484 | 1.0000 |
-| 12 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.5181 | 0.4045 | 0.6316 | 0.0593 | 1.0000 |
-| 13 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.2593 | 0.4834 | 0.0351 | 0.0395 | 1.0000 |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.9195 | 0.9091 | 0.9298 | 0.7391 | 1.0000 |
+| 2 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.8045 | 0.7670 | 0.8421 | 0.5613 | 0.8750 |
+| 3 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.8018 | 0.7615 | 0.8421 | 0.5462 | 0.8750 |
+| 4 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.8012 | 0.8129 | 0.7895 | 0.5824 | 1.0000 |
+| 5 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.7913 | 0.8281 | 0.7544 | 0.5849 | 1.0000 |
+| 6 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.7905 | 0.8442 | 0.7368 | 0.6195 | 1.0000 |
+| 7 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.7767 | 0.6937 | 0.8596 | 0.4964 | 1.0000 |
+| 8 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.7722 | 0.8426 | 0.7018 | 0.6290 | 1.0000 |
+| 9 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.7090 | 0.8916 | 0.5263 | 0.7079 | 0.8750 |
+| 10 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.7074 | 0.8885 | 0.5263 | 0.7016 | 0.8750 |
+| 11 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.6629 | 0.8696 | 0.4561 | 0.6826 | 0.7500 |
+| 12 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.6503 | 0.5112 | 0.7895 | 0.1484 | 1.0000 |
+| 13 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.5181 | 0.4045 | 0.6316 | 0.0593 | 1.0000 |
+| 14 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.2593 | 0.4834 | 0.0351 | 0.0395 | 1.0000 |
 | – | [devansh-llm-clause-filter-multiagent](experiments/devansh-llm-clause-filter-multiagent/) | — | 0.8228 | — | 0.5854 | — |
 | – | [devansh-dynregex-llm-clause-filter-multiagent](experiments/devansh-dynregex-llm-clause-filter-multiagent/) | — | 0.7324 | — | 0.5309 | — |
 | – | [agentic-regulation-screening](experiments/agentic-regulation-screening/) | — | 0.7005 | — | 0.3871 | — |
@@ -37,19 +38,20 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.2333 | 0.8750 | 0.5645 | 0.4717 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/da71db9932e24f8583501f426cfb33db.json) |
-| 2 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.2258 | 0.8750 | 0.5556 | 0.4658 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/2e3d6e6c2d2141729617bbf1d8a8ef3e.json) |
-| 3 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.2609 | 0.7500 | 0.5455 | 0.4437 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/f09fa3213cee448ab192a6747ee91a2f.json) |
-| 4 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.1667 | 1.0000 | 0.5000 | 0.5122 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/f17f372159cf4c3aaddcc32aa1661806.json) |
-| 5 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.1600 | 1.0000 | 0.4878 | 0.5488 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/cb8936daf4e448c19312624cbacbf13c.json) |
-| 6 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.1429 | 1.0000 | 0.4545 | 0.4343 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-llm-clause-filter/benchmark-results/097309f60c5c40d4a4731a5bf6b401f7.json) |
-| 7 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.1127 | 1.0000 | 0.3883 | 0.4358 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-dense-clauses-top190/benchmark-results/0f355925c9d040e9ae2755cac37fec1d.json) |
-| 8 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.1013 | 1.0000 | 0.3604 | 0.3861 | 1/1 | 4 | 0.6250 | [JSON](experiments/jojo-static-embeddings/benchmark-results/0a83034dcfb649f889ce7c1c2f090dca.json) |
-| 9 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.0952 | 1.0000 | 0.3448 | 0.4121 | 1/1 | 6 | 0.5000 | [JSON](experiments/em_devansh-dynregex-neutral/benchmark-results/3c5b319334b845c481cc28a294384410.json) |
-| 10 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.0959 | 0.8750 | 0.3333 | 0.4762 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/8fbaac2fd8644b2db7adbecf99eecace.json) |
-| 11 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.0889 | 1.0000 | 0.3279 | 0.3769 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/12023f9aa06148fca29fd7e870c47434.json) |
-| 12 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.0795 | 0.8750 | 0.2917 | 0.4332 | 1/1 | 6 | 0.5000 | [JSON](experiments/em_devansh-dynregex-llm-clause-filter/benchmark-results/4656af20614349d7b7a69c059955e7e9.json) |
-| 13 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.0602 | 1.0000 | 0.2424 | 0.0292 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-dense-pages-top150/benchmark-results/6817e2045c02460d9ee62f000a8bf61a.json) |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.3478 | 1.0000 | 0.7273 | 0.7934 | 1/1 | 2 | 0.8333 | [JSON](experiments/certi-pipeline/benchmark-results/b77941ff99894c8d85e624cd52178aa7.json) |
+| 2 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.2333 | 0.8750 | 0.5645 | 0.4717 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/da71db9932e24f8583501f426cfb33db.json) |
+| 3 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.2258 | 0.8750 | 0.5556 | 0.4658 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/2e3d6e6c2d2141729617bbf1d8a8ef3e.json) |
+| 4 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.2609 | 0.7500 | 0.5455 | 0.4437 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/f09fa3213cee448ab192a6747ee91a2f.json) |
+| 5 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.1667 | 1.0000 | 0.5000 | 0.5122 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/f17f372159cf4c3aaddcc32aa1661806.json) |
+| 6 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.1600 | 1.0000 | 0.4878 | 0.5488 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/cb8936daf4e448c19312624cbacbf13c.json) |
+| 7 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.1429 | 1.0000 | 0.4545 | 0.4343 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-llm-clause-filter/benchmark-results/097309f60c5c40d4a4731a5bf6b401f7.json) |
+| 8 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.1127 | 1.0000 | 0.3883 | 0.4358 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-dense-clauses-top190/benchmark-results/0f355925c9d040e9ae2755cac37fec1d.json) |
+| 9 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.1013 | 1.0000 | 0.3604 | 0.3861 | 1/1 | 4 | 0.6250 | [JSON](experiments/jojo-static-embeddings/benchmark-results/0a83034dcfb649f889ce7c1c2f090dca.json) |
+| 10 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.0952 | 1.0000 | 0.3448 | 0.4121 | 1/1 | 6 | 0.5000 | [JSON](experiments/em_devansh-dynregex-neutral/benchmark-results/3c5b319334b845c481cc28a294384410.json) |
+| 11 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.0959 | 0.8750 | 0.3333 | 0.4762 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/8fbaac2fd8644b2db7adbecf99eecace.json) |
+| 12 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.0889 | 1.0000 | 0.3279 | 0.3769 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/12023f9aa06148fca29fd7e870c47434.json) |
+| 13 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.0795 | 0.8750 | 0.2917 | 0.4332 | 1/1 | 6 | 0.5000 | [JSON](experiments/em_devansh-dynregex-llm-clause-filter/benchmark-results/4656af20614349d7b7a69c059955e7e9.json) |
+| 14 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.0602 | 1.0000 | 0.2424 | 0.0292 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-dense-pages-top150/benchmark-results/6817e2045c02460d9ee62f000a8bf61a.json) |
 
 ## Gold `dc4bf7baae68` · official-local-f2-v1-641f407012f2
 
@@ -65,25 +67,26 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.6892 | 0.9623 | 0.8916 | 0.7079 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/c532c11e937e474bb71c8df522c5e262.json) |
-| 2 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.6800 | 0.9623 | 0.8885 | 0.7016 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/563441d0607844d59fec637e5c5d45dd.json) |
-| 3 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.7500 | 0.9057 | 0.8696 | 0.6826 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/6487db1551a04a28830f05a5c7ac520c.json) |
-| 4 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.5417 | 0.9811 | 0.8442 | 0.6195 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/54ddbecfa1194b1d9104f8fdb2ad4ad8.json) |
-| 5 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.5904 | 0.9434 | 0.8426 | 0.6290 | 4/4 | 5 | 0.9524 | [JSON](experiments/jojo-static-embeddings/benchmark-results/59b646f2d2b64cfca1f035b66d20795b.json) |
-| 6 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.4907 | 1.0000 | 0.8281 | 0.5849 | 4/4 | 4 | 1.0000 | [JSON](experiments/em_devansh-llm-clause-filter/benchmark-results/f776292b2d4341f0a49cc17a6fd06309.json) |
-| 7 | [devansh-llm-clause-filter-multiagent](experiments/devansh-llm-clause-filter-multiagent/) | 0.5000 | 0.9811 | 0.8228 | 0.5854 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-multiagent/benchmark-results/b59893aa381b4a0ea9e3ec45aa73c941.json) |
-| 8 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.4649 | 1.0000 | 0.8129 | 0.5824 | 4/4 | 5 | 0.9524 | [JSON](experiments/em_devansh-dynregex-neutral/benchmark-results/8c937cbed8b44c0eab68386de25e5e62.json) |
-| 9 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.4094 | 0.9811 | 0.7670 | 0.5613 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/b1aca91520324fe6b18452e55f7c33fe.json) |
-| 10 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.3897 | 1.0000 | 0.7615 | 0.5462 | 4/4 | 6 | 0.9091 | [JSON](experiments/em_devansh-dynregex-llm-clause-filter/benchmark-results/2b767a3ae1964f758a2c3c5e8a304173.json) |
-| 11 | [devansh-dynregex-llm-clause-filter-multiagent](experiments/devansh-dynregex-llm-clause-filter-multiagent/) | 0.3636 | 0.9811 | 0.7324 | 0.5309 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-llm-clause-filter-multiagent/benchmark-results/5d2817d091114c5d9ff85674a91e82dc.json) |
-| 12 | [agentic-regulation-screening](experiments/agentic-regulation-screening/) | 0.3355 | 0.9623 | 0.7005 | 0.3871 | 4/4 | 9 | 0.8000 | [JSON](experiments/agentic-regulation-screening/benchmark-results/37ec3cfc2ef94836ade4be35cadc585d.json) |
-| 13 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.3118 | 1.0000 | 0.6937 | 0.4964 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/444d71e6d99f40b2bfed5496b9a6c5d0.json) |
-| 14 | [agentic-rag](experiments/agentic-rag/) | 0.3333 | 0.8302 | 0.6395 | 0.3606 | 3/4 | 6 | 0.6818 | [JSON](experiments/agentic-rag/benchmark-results/0d47e3ab48644982884fa2b10ba142e9.json) |
-| 15 | [devansh-bm25-pages-top150](experiments/devansh-bm25-pages-top150/) | 0.2800 | 0.7925 | 0.5801 | 0.0000 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-bm25-pages-top150/benchmark-results/6cbd4fa27d904aac87b954699be87b14.json) |
-| 16 | [jojo-splade-dense](experiments/jojo-splade-dense/) | 0.4070 | 0.6415 | 0.5752 | 0.4545 | 3/4 | 6 | 0.6818 | [JSON](experiments/jojo-splade-dense/benchmark-results/b37b56394eb5402a97b2989b30f7f449.json) |
-| 17 | [exhaustive-clause-analysis](experiments/exhaustive-clause-analysis/) | 0.3182 | 0.6604 | 0.5435 | 0.2871 | 4/4 | 9 | 0.8000 | [JSON](experiments/exhaustive-clause-analysis/benchmark-results/8702c69f25464adc8786890bc10c8916.json) |
-| 18 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.3168 | 0.6038 | 0.5112 | 0.1484 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/62f9da241c1e4373983da86b65a664ba.json) |
-| 19 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.2333 | 0.6604 | 0.4834 | 0.0395 | 4/4 | 4 | 1.0000 | [JSON](experiments/em_devansh-dense-pages-top150/benchmark-results/aa216bde462f478a8b89a7d045484a1b.json) |
-| 20 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.2577 | 0.4717 | 0.4045 | 0.0593 | 3/4 | 3 | 0.7895 | [JSON](experiments/em_devansh-dense-clauses-top190/benchmark-results/86e5b65885b0421b874edd9bd10c773b.json) |
-| 21 | [jojo-flat-dense](experiments/jojo-flat-dense/) | 0.3556 | 0.3019 | 0.3113 | — | 3/4 | 8 | 0.6250 | [JSON](experiments/jojo-flat-dense/benchmark-results/a108a047718d466cba252f4066646c15.json) |
-| 22 | [jojo-bm25-dense-targeted](experiments/jojo-bm25-dense-targeted/) | 0.3250 | 0.2453 | 0.2579 | — | 2/4 | 7 | 0.4348 | [JSON](experiments/jojo-bm25-dense-targeted/benchmark-results/d22de00b526945159ea300124121a8f5.json) |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.7027 | 0.9811 | 0.9091 | 0.7391 | 4/4 | 4 | 1.0000 | [JSON](experiments/certi-pipeline/benchmark-results/097ff3f5c7ee4a66ae5b863005bba214.json) |
+| 2 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.6892 | 0.9623 | 0.8916 | 0.7079 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/c532c11e937e474bb71c8df522c5e262.json) |
+| 3 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.6800 | 0.9623 | 0.8885 | 0.7016 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/563441d0607844d59fec637e5c5d45dd.json) |
+| 4 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.7500 | 0.9057 | 0.8696 | 0.6826 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/6487db1551a04a28830f05a5c7ac520c.json) |
+| 5 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.5417 | 0.9811 | 0.8442 | 0.6195 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/54ddbecfa1194b1d9104f8fdb2ad4ad8.json) |
+| 6 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.5904 | 0.9434 | 0.8426 | 0.6290 | 4/4 | 5 | 0.9524 | [JSON](experiments/jojo-static-embeddings/benchmark-results/59b646f2d2b64cfca1f035b66d20795b.json) |
+| 7 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.4907 | 1.0000 | 0.8281 | 0.5849 | 4/4 | 4 | 1.0000 | [JSON](experiments/em_devansh-llm-clause-filter/benchmark-results/f776292b2d4341f0a49cc17a6fd06309.json) |
+| 8 | [devansh-llm-clause-filter-multiagent](experiments/devansh-llm-clause-filter-multiagent/) | 0.5000 | 0.9811 | 0.8228 | 0.5854 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-multiagent/benchmark-results/b59893aa381b4a0ea9e3ec45aa73c941.json) |
+| 9 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.4649 | 1.0000 | 0.8129 | 0.5824 | 4/4 | 5 | 0.9524 | [JSON](experiments/em_devansh-dynregex-neutral/benchmark-results/8c937cbed8b44c0eab68386de25e5e62.json) |
+| 10 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.4094 | 0.9811 | 0.7670 | 0.5613 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/b1aca91520324fe6b18452e55f7c33fe.json) |
+| 11 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.3897 | 1.0000 | 0.7615 | 0.5462 | 4/4 | 6 | 0.9091 | [JSON](experiments/em_devansh-dynregex-llm-clause-filter/benchmark-results/2b767a3ae1964f758a2c3c5e8a304173.json) |
+| 12 | [devansh-dynregex-llm-clause-filter-multiagent](experiments/devansh-dynregex-llm-clause-filter-multiagent/) | 0.3636 | 0.9811 | 0.7324 | 0.5309 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-llm-clause-filter-multiagent/benchmark-results/5d2817d091114c5d9ff85674a91e82dc.json) |
+| 13 | [agentic-regulation-screening](experiments/agentic-regulation-screening/) | 0.3355 | 0.9623 | 0.7005 | 0.3871 | 4/4 | 9 | 0.8000 | [JSON](experiments/agentic-regulation-screening/benchmark-results/37ec3cfc2ef94836ade4be35cadc585d.json) |
+| 14 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.3118 | 1.0000 | 0.6937 | 0.4964 | 4/4 | 6 | 0.9091 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/444d71e6d99f40b2bfed5496b9a6c5d0.json) |
+| 15 | [agentic-rag](experiments/agentic-rag/) | 0.3333 | 0.8302 | 0.6395 | 0.3606 | 3/4 | 6 | 0.6818 | [JSON](experiments/agentic-rag/benchmark-results/0d47e3ab48644982884fa2b10ba142e9.json) |
+| 16 | [devansh-bm25-pages-top150](experiments/devansh-bm25-pages-top150/) | 0.2800 | 0.7925 | 0.5801 | 0.0000 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-bm25-pages-top150/benchmark-results/6cbd4fa27d904aac87b954699be87b14.json) |
+| 17 | [jojo-splade-dense](experiments/jojo-splade-dense/) | 0.4070 | 0.6415 | 0.5752 | 0.4545 | 3/4 | 6 | 0.6818 | [JSON](experiments/jojo-splade-dense/benchmark-results/b37b56394eb5402a97b2989b30f7f449.json) |
+| 18 | [exhaustive-clause-analysis](experiments/exhaustive-clause-analysis/) | 0.3182 | 0.6604 | 0.5435 | 0.2871 | 4/4 | 9 | 0.8000 | [JSON](experiments/exhaustive-clause-analysis/benchmark-results/8702c69f25464adc8786890bc10c8916.json) |
+| 19 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.3168 | 0.6038 | 0.5112 | 0.1484 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/62f9da241c1e4373983da86b65a664ba.json) |
+| 20 | [em_devansh-dense-pages-top150](experiments/em_devansh-dense-pages-top150/) | 0.2333 | 0.6604 | 0.4834 | 0.0395 | 4/4 | 4 | 1.0000 | [JSON](experiments/em_devansh-dense-pages-top150/benchmark-results/aa216bde462f478a8b89a7d045484a1b.json) |
+| 21 | [em_devansh-dense-clauses-top190](experiments/em_devansh-dense-clauses-top190/) | 0.2577 | 0.4717 | 0.4045 | 0.0593 | 3/4 | 3 | 0.7895 | [JSON](experiments/em_devansh-dense-clauses-top190/benchmark-results/86e5b65885b0421b874edd9bd10c773b.json) |
+| 22 | [jojo-flat-dense](experiments/jojo-flat-dense/) | 0.3556 | 0.3019 | 0.3113 | — | 3/4 | 8 | 0.6250 | [JSON](experiments/jojo-flat-dense/benchmark-results/a108a047718d466cba252f4066646c15.json) |
+| 23 | [jojo-bm25-dense-targeted](experiments/jojo-bm25-dense-targeted/) | 0.3250 | 0.2453 | 0.2579 | — | 2/4 | 7 | 0.4348 | [JSON](experiments/jojo-bm25-dense-targeted/benchmark-results/d22de00b526945159ea300124121a8f5.json) |

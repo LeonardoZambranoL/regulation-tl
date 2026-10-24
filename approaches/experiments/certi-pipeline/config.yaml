@@ -1,0 +1,53 @@
+team_id: "team-11"
+experiment_name: "certi-pipeline"
+
+models:
+  stage1_product_reader: "claude-opus-5-5"
+  stage2_regulation_gate: "claude-opus-5-5"
+  stage3_extractor: "claude-sonnet-5-5"
+  stage4_second_pass: "claude-sonnet-5-5"
+  stage5_verifier: "claude-sonnet-5-5"
+  eval_judge: "claude-sonnet-5-5"
+  embedding_model: "gemini-embedding-2-preview"
+  embedding_dim: 768
+
+prompts:
+  stage1_product_reader: "stage1_product_reader_v1.md"
+  stage2_regulation_gate: "stage2_regulation_gate_v1.md"
+  stage3_extractor: "stage3_extractor_v1.md"
+  stage4_second_pass: "stage4_second_pass_v1.md"
+  stage5_verifier: "stage5_verifier_v1.md"
+  eval_judge: "eval_judge_v1.md"
+
+retrieval:
+  top_k_per_query: 30
+  rrf_k0: 60
+  bm25_k1: 1.2
+  bm25_b: 0.75
+  bm25_delta: 1.0
+  bm25_bigrams: true
+  use_dense_embeddings: false
+
+gate:
+  candidate_top_regs: 12
+  score_floor: 0.15
+  gate_confidence_floor: 0.65
+  apply_supersession_filter: true
+  apply_category_filter: true
+
+extraction:
+  batch_max_clauses: 25
+  batch_max_chars: 14000
+  workers: 8
+  only_obligation_candidates_pass1: true
+  run_second_pass: true
+  verbatim_clause_text: false
+
+verification:
+  enabled: true
+  batch_size: 25
+  workers: 8
+  drop_unsupported: true
+  split_compound: true
+  applicability_drop_confidence: 0.90
+  dedup_similarity_threshold: 0.92
