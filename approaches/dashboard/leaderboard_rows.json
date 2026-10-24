@@ -155,6 +155,13 @@
     "uses_llm": true,
     "deterministic": false,
     "risk_notes": "Only one known development product. The 32-packet limit was chosen before scoring solely to meet the user-authorized USD 12 total spending ceiling, not by a score sweep. Gold is read only by the separate benchmark after the submission is frozen. The cost ceiling also limited final review; unchecked drafts are excluded without consulting gold.",
+    "clause_precision": 0.12437810945273632,
+    "clause_recall": 0.2066115702479339,
+    "clause_f1": 0.15527950310559005,
+    "clause_f2": 0.18248175182481752,
+    "clauses_cited": 201,
+    "clauses_expected": 121,
+    "clauses_matched": 25,
     "latest": true
   }
 ]
