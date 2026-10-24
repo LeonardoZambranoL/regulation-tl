@@ -95,6 +95,64 @@ def verify(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, 
     return decisions
 
 
+RANK = VERIFY.replace(
+    "Keep an item only if it is a concrete\nobligation",
+    "Rate how confident you are that an item is a concrete\nobligation").replace(
+    "keep = false when the item:", "Rate 1 (certainly not) when the item:").replace(
+    "keep = true for obligations", "Rate 5 (certainly) for obligations") + """
+
+Rate every item 1-5: 1 = certainly not an obligation for this product, 2 = probably not, 3 = unsure,
+4 = probably, 5 = certainly. Use 1 only when you are sure."""
+
+RANK_SCHEMA = {"type": "object", "properties": {"ratings": {"type": "array", "items": {
+    "type": "object", "properties": {"id": {"type": "string"}, "confidence": {"type": "integer", "enum": [1, 2, 3, 4, 5]}},
+    "required": ["id", "confidence"], "additionalProperties": False}}},
+    "required": ["ratings"], "additionalProperties": False}
+
+
+def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, effort: str = "medium") -> dict[str, int]:
+    """id -> confidence 1-5 that it is a real obligation for this product (cached per batch)."""
+    from .llm import structured
+
+    ordered = sorted(reqs, key=lambda r: (r["source"]["regulation"], r["source"]["page"], str(r["source"].get("paragraph"))))
+    batches = [ordered[i:i + batch_size] for i in range(0, len(ordered), batch_size)]
+
+    def run(batch: list[dict]) -> dict[str, int]:
+        items = "\n".join(f"[{r['id']}] {r['source']['regulation']} para {r['source'].get('paragraph') or '-'}: {r['text']}"
+                          for r in batch)
+        prompt = f"{RANK}\n\n<spec>\n{spec}\n</spec>\n\n<items>\n{items}\n</items>\n\nRate every item id."
+        cache = CACHE_DIR / f"rank_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        if cache.is_file():
+            return json.loads(cache.read_text(encoding="utf-8"))
+        data = structured(prompt, RANK_SCHEMA, effort=effort)
+        wanted = {r["id"] for r in batch}
+        out = {d["id"]: d["confidence"] for d in data["ratings"] if d["id"] in wanted}
+        CACHE_DIR.mkdir(exist_ok=True)
+        cache.write_text(json.dumps(out), encoding="utf-8")
+        return out
+
+    ratings: dict[str, int] = {}
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for part in pool.map(run, batches):
+            ratings.update(part)
+    return ratings
+
+
+def refine_ranked(spec: str, doc: dict, drop_at_or_below: int = 1, effort: str = "medium") -> tuple[dict, dict]:
+    """Keep everything except items rated <= drop_at_or_below (default: only "certainly not"); dedupe first.
+    The cut-off is fixed in advance, not chosen on a scored case."""
+    unique = dedupe(doc["requirements"])
+    ratings = rank(spec, unique, effort=effort)
+    kept = [r for r in unique if ratings.get(r["id"], 5) > drop_at_or_below]
+    hist = {str(k): sum(v == k for v in ratings.values()) for k in range(1, 6)}
+    report = {"input": len(doc["requirements"]), "after_dedupe": len(unique), "kept": len(kept),
+              "drop_at_or_below": drop_at_or_below, "ratings": hist,
+              "kept_if_cutoff": {str(c): sum(ratings.get(r["id"], 5) > c for r in unique) for c in range(0, 4)}}
+    for r in kept:
+        r.setdefault("confidence", ratings.get(r["id"]))
+    return {**doc, "requirements": kept}, report
+
+
 def refine(spec: str, doc: dict, effort: str = "medium") -> tuple[dict, dict]:
     reqs = doc["requirements"]
     unique = dedupe(reqs)
@@ -111,9 +169,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--spec", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--effort", default="medium")
+    ap.add_argument("--mode", choices=["verify", "rank"], default="verify",
+                    help="verify: hard keep / drop; rank: rate 1-5 and drop only items rated <= --drop-at-or-below")
+    ap.add_argument("--drop-at-or-below", type=int, default=1)
     args = ap.parse_args(argv)
     doc = json.loads(args.prediction.read_text(encoding="utf-8"))
-    refined, report = refine(args.spec.read_text(encoding="utf-8"), doc, args.effort)
+    spec = args.spec.read_text(encoding="utf-8")
+    refined, report = (refine_ranked(spec, doc, args.drop_at_or_below, args.effort) if args.mode == "rank"
+                       else refine(spec, doc, args.effort))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(refined, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out.parent / (args.out.stem + "-refine-report.json")).write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

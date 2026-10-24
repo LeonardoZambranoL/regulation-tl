@@ -323,5 +323,31 @@
     "matched": 36,
     "submitted": 122,
     "expected": 94
+  },
+  {
+    "approach": "devansh-llm-clause-filter-writer-ranked",
+    "prediction_sha256": "e9a79add91ecd163add353802a933053d6551c5fd6dffa6542798ce81ae6178a",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.47435897435897434,
+    "recall": 0.7789473684210526,
+    "f1": 0.5896414342629482,
+    "f2": 0.6902985074626865,
+    "matched": 148,
+    "submitted": 312,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-llm-clause-filter-writer-ranked",
+    "prediction_sha256": "bf1c4401442b3e0fcfee2cfcb1a47cd93b9692b5321f24562b4b6bf90a7d5757",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.26506024096385544,
+    "recall": 0.46808510638297873,
+    "f1": 0.3384615384615385,
+    "f2": 0.40590405904059035,
+    "matched": 44,
+    "submitted": 166,
+    "expected": 94
   }
 ]
