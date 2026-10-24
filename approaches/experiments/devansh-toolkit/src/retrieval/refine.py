@@ -104,13 +104,34 @@ RANK = VERIFY.replace(
 Rate every item 1-5: 1 = certainly not an obligation for this product, 2 = probably not, 3 = unsure,
 4 = probably, 5 = certainly. Use 1 only when you are sure."""
 
+SCOPE = """You are the compliance engineer who writes the requirement list a component supplier receives for the
+product in <spec>. Experts in this role list the obligations the product itself must meet and leave out everything
+else. Rate each draft item 1-5 for whether an expert would put it on that list (5 = certainly, 1 = certainly not).
+
+Experts LEAVE OUT (rate 1-2):
+- conditional variants whose condition is about a feature, option or configuration that <spec> does not state the
+  product has (e.g. "where the device has a variable / adjustable / replaceable / movable / interdependent ...",
+  "on vehicles whose shape ...", "if the manufacturer chooses ..."), unless the spec says the product has it;
+- conformity-of-production and approval-process rules ("shall be manufactured to conform to the approved type",
+  sampling, production checks, approval numbers being granted, communication to authorities);
+- pure references that only point to other sections ("shall comply with the requirements of sections 5 and 6");
+- steps of a laboratory or test procedure (how a sample is prepared, mounted, conditioned or measured) when they
+  state no result the product must achieve;
+- functions that belong to the vehicle or another system rather than to this product.
+
+Experts KEEP (rate 4-5): construction and marking requirements of the product, its performance values and limits,
+its colour / photometric / electrical / mechanical characteristics, test RESULTS it must achieve, its installation
+position, number, orientation and visibility on the vehicle, and obligations the product's functions trigger.
+Decide from the spec; do not assume features the spec does not mention."""
+
 RANK_SCHEMA = {"type": "object", "properties": {"ratings": {"type": "array", "items": {
     "type": "object", "properties": {"id": {"type": "string"}, "confidence": {"type": "integer", "enum": [1, 2, 3, 4, 5]}},
     "required": ["id", "confidence"], "additionalProperties": False}}},
     "required": ["ratings"], "additionalProperties": False}
 
 
-def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, effort: str = "medium") -> dict[str, int]:
+def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, effort: str = "medium",
+         prompt_text: str | None = None) -> dict[str, int]:
     """id -> confidence 1-5 that it is a real obligation for this product (cached per batch)."""
     from .llm import structured
 
@@ -120,7 +141,7 @@ def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, ef
     def run(batch: list[dict]) -> dict[str, int]:
         items = "\n".join(f"[{r['id']}] {r['source']['regulation']} para {r['source'].get('paragraph') or '-'}: {r['text']}"
                           for r in batch)
-        prompt = f"{RANK}\n\n<spec>\n{spec}\n</spec>\n\n<items>\n{items}\n</items>\n\nRate every item id."
+        prompt = f"{prompt_text or RANK}\n\n<spec>\n{spec}\n</spec>\n\n<items>\n{items}\n</items>\n\nRate every item id."
         cache = CACHE_DIR / f"rank_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return json.loads(cache.read_text(encoding="utf-8"))
@@ -138,11 +159,12 @@ def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, ef
     return ratings
 
 
-def refine_ranked(spec: str, doc: dict, drop_at_or_below: int = 1, effort: str = "medium") -> tuple[dict, dict]:
+def refine_ranked(spec: str, doc: dict, drop_at_or_below: int = 1, effort: str = "medium",
+                  prompt_text: str | None = None) -> tuple[dict, dict]:
     """Keep everything except items rated <= drop_at_or_below (default: only "certainly not"); dedupe first.
     The cut-off is fixed in advance, not chosen on a scored case."""
     unique = dedupe(doc["requirements"])
-    ratings = rank(spec, unique, effort=effort)
+    ratings = rank(spec, unique, effort=effort, prompt_text=prompt_text)
     kept = [r for r in unique if ratings.get(r["id"], 5) > drop_at_or_below]
     hist = {str(k): sum(v == k for v in ratings.values()) for k in range(1, 6)}
     report = {"input": len(doc["requirements"]), "after_dedupe": len(unique), "kept": len(kept),
@@ -169,14 +191,20 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--spec", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--effort", default="medium")
-    ap.add_argument("--mode", choices=["verify", "rank"], default="verify",
+    ap.add_argument("--mode", choices=["verify", "rank", "scope"], default="verify",
                     help="verify: hard keep / drop; rank: rate 1-5 and drop only items rated <= --drop-at-or-below")
     ap.add_argument("--drop-at-or-below", type=int, default=1)
     args = ap.parse_args(argv)
     doc = json.loads(args.prediction.read_text(encoding="utf-8"))
     spec = args.spec.read_text(encoding="utf-8")
-    refined, report = (refine_ranked(spec, doc, args.drop_at_or_below, args.effort) if args.mode == "rank"
-                       else refine(spec, doc, args.effort))
+    if args.mode in ("rank", "scope"):
+        refined, report = refine_ranked(spec, doc, args.drop_at_or_below, args.effort,
+                                        SCOPE if args.mode == "scope" else None)
+    else:
+        refined, report = refine(spec, doc, args.effort)
+    for r in refined["requirements"]:  # the official validator rejects texts over 2,000 characters
+        if len(r["text"]) > 2000:
+            r["text"] = r["text"][:1997].rsplit(" ", 1)[0] + "..."
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(refined, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out.parent / (args.out.stem + "-refine-report.json")).write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

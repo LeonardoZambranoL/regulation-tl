@@ -1,0 +1,1 @@
+{"name": "Devansh: keep requirements from paragraphs both clause selectors (classifier and deliberate agent) picked; one-selector paragraphs only when the ranker rated them 4-5", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0, "write": {"effort": "medium", "prompt": "faithful"}, "combine": {"min_confidence": 4}}

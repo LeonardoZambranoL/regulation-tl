@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, an agent reads each section whole and thinks before picking the exact clauses, faithful writer, then the 1-5 ranker drops only certain non-obligations", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "deliberate", "effort": "high"}, "n": 0, "write": {"effort": "medium", "prompt": "faithful"}}

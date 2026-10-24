@@ -1,0 +1,51 @@
+{
+  "run_id": "5f3eaa51615a46c0a979f7b98d0e9435",
+  "approach": "devansh-agreement-combo",
+  "status": "completed",
+  "completed_at": "2026-10-24T21:03:13.079312+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-agreement-combo\\outputs\\predictions-holdout-acpe.json",
+  "prediction_sha256": "88d30b26c0c4f609e0e807c4e58572508d9af912fcecbbe151a948cbd06dff53",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
+  "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.8333333333333334
+    },
+    "page_level": {
+      "precision": 0.2222222222222222,
+      "recall": 0.75,
+      "f1": 0.34285714285714286,
+      "n_submitted": 27,
+      "n_expected": 8,
+      "n_matched": 6,
+      "f2": 0.5084745762711865
+    },
+    "clause_level": {
+      "precision": 0.38235294117647056,
+      "recall": 0.45614035087719296,
+      "f1": 0.4159999999999999,
+      "n_submitted": 68,
+      "n_expected": 57,
+      "n_matched": 26,
+      "f2": 0.43918918918918914
+    }
+  }
+}

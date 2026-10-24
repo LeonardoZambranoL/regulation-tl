@@ -35,13 +35,32 @@ def main(argv: list[str] | None = None) -> int:
                                  REPO_ROOT / "approaches" / "benchmarking" / "cases" / args.case) if d.is_dir()), None)
     if case_dir is None:
         raise SystemExit(f"case {args.case!r} not found in the challenge repo or approaches/benchmarking/cases")
-    spec = (case_dir / "spec.md").read_text(encoding="utf-8")
+    spec = raw_spec = (case_dir / "spec.md").read_text(encoding="utf-8")
+    if cfg.get("profile"):
+        # Claude reads the spec + exploded-view image into a product profile that every later step sees
+        from .profile import augment
+        spec = augment(spec, case_dir)
+        Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+        (Path(args.out).parent / f"spec-with-profile-{args.case}.md").write_text(spec, encoding="utf-8")
     regs = None
     if cfg.get("select"):
         from .regselect import select
-        regs = set(select(spec, **cfg["select"]))
+        # regulations are picked from the ORIGINAL spec: the profile's wording ("no filament lamps", "LED light
+        # sources") would trigger keyword rules for regulations the product does not need
+        regs = set(select(raw_spec, **cfg["select"]))
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
-    if cfg.get("filter", {}).get("method") == "llm":
+    if cfg.get("filter", {}).get("method") == "deliberate":
+        # an agent reads each section whole, thinks, and picks the exact clauses (see deliberate.py)
+        from .deliberate import select_clauses
+        ranked, reasons = select_clauses(spec, regs, effort=cfg["filter"].get("effort", "high"))
+        sizes = [len(ranked) if s <= 0 else s for s in sizes]
+        n = len(ranked) if n <= 0 else n
+        if not args.sweep:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            (Path(args.out).parent / (Path(args.out).stem + "-clause-reasons.json")).write_text(json.dumps(
+                [{"regulation": c.regulation, "paragraph": c.paragraph, "page": c.page, "reason": reasons[c.id]}
+                 for c in ranked], indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    elif cfg.get("filter", {}).get("method") == "llm":
         # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
         from .classify import PROMPTS, SHALL, candidates, classify, classify_multi
         mode = cfg["filter"].get("candidates", "shall")

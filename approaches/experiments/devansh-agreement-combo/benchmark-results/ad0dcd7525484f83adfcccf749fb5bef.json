@@ -1,0 +1,51 @@
+{
+  "run_id": "ad0dcd7525484f83adfcccf749fb5bef",
+  "approach": "devansh-agreement-combo",
+  "status": "completed",
+  "completed_at": "2026-10-24T21:03:12.421847+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-agreement-combo\\outputs\\predictions.json",
+  "prediction_sha256": "8712d82660fb4679a3520571cd2c322a39d89b8c7faed8d4002bdf738b0631da",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.6956521739130435,
+      "recall": 0.9056603773584906,
+      "f1": 0.7868852459016393,
+      "n_submitted": 69,
+      "n_expected": 53,
+      "n_matched": 48,
+      "f2": 0.8540925266903915
+    },
+    "clause_level": {
+      "precision": 0.5535714285714286,
+      "recall": 0.768595041322314,
+      "f1": 0.643598615916955,
+      "n_submitted": 168,
+      "n_expected": 121,
+      "n_matched": 93,
+      "f2": 0.7131901840490799
+    }
+  }
+}

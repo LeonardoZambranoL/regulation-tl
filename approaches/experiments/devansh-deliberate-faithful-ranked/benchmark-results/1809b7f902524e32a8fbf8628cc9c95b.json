@@ -1,0 +1,51 @@
+{
+  "run_id": "1809b7f902524e32a8fbf8628cc9c95b",
+  "approach": "devansh-deliberate-faithful-ranked",
+  "status": "completed",
+  "completed_at": "2026-10-24T21:01:03.203203+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-deliberate-faithful-ranked\\outputs\\predictions.json",
+  "prediction_sha256": "f075792e199b41ef892d0a2afee6dde10df64b004fdb3f432cdb651245b974e5",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.734375,
+      "recall": 0.8867924528301887,
+      "f1": 0.8034188034188035,
+      "n_submitted": 64,
+      "n_expected": 53,
+      "n_matched": 47,
+      "f2": 0.8514492753623188
+    },
+    "clause_level": {
+      "precision": 0.5527950310559007,
+      "recall": 0.7355371900826446,
+      "f1": 0.6312056737588653,
+      "n_submitted": 161,
+      "n_expected": 121,
+      "n_matched": 89,
+      "f2": 0.689922480620155
+    }
+  }
+}

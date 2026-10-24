@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits both selectors' dev-informed prompts"
+  ],
+  "notes": "Cut-off 4 fixed in advance; no new LLM calls."
+}
