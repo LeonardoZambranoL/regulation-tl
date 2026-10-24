@@ -1,0 +1,12 @@
+{
+  "model": "claude-haiku-5-5",
+  "verification_model": "claude-sonnet-5-5",
+  "workers": 10,
+  "batch_retries": 2,
+  "batch_size": 12,
+  "batch_characters": 14000,
+  "context_characters": 24000,
+  "max_tool_rounds": 4,
+  "max_tool_calls": 8,
+  "max_tokens": 12000
+}
