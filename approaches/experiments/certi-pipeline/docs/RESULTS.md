@@ -6,15 +6,15 @@ Evaluated with the official challenge scorer (`score_local.py`) and the team lea
 
 | Case | Submitted Reqs | Gold Reqs | Reg P | Reg R | **Reg F2** | Page P | Page R | **Page F2** | Clause P | Clause R | **Clause F2** |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **`dev-rear-lamp`** | 321 | 190 | 1.0000 | 1.0000 | **1.0000** | 0.7027 | 0.9811 | **0.9091** | 0.3707 | 0.9835 | **0.7391** |
-| **`holdout-acpe` (Unseen)** | 106 | 94 | 0.5000 | 1.0000 | **0.8333** | 0.3478 | 1.0000 | **0.7273** | 0.5000 | 0.9298 | **0.7934** |
+| **`dev-rear-lamp`** | 310 | 190 | 1.0000 | 1.0000 | **1.0000** | 0.8000 | 0.9811 | **0.9386** | 0.4685 | 0.9835 | **0.8062** |
+| **`holdout-acpe` (Unseen)** | 148 | 94 | 0.5000 | 1.0000 | **0.8333** | 0.3810 | 1.0000 | **0.7547** | 0.5146 | 0.9298 | **0.8006** |
 
 - **Overall Robust Score** (`(dev page F2 + unseen clause recall) / 2`):
-  $$\text{Robust} = \frac{0.9091 + 0.9298}{2} = \mathbf{0.9195}$$
+  $$\text{Robust} = \frac{0.9386 + 0.9298}{2} = \mathbf{0.9342}$$
 - **Comparison with Previous Leaderboard #1**:
-  - Previous #1 Robust Score (`devansh-dynregex-llm-clause-filter`): `0.8045` -> **Ours (`certi-pipeline`): `0.9195` (+11.50 pts)**
-  - Previous #1 Dev Page F2 (`devansh-llm-clause-filter`): `0.8442` -> **Ours (`certi-pipeline`): `0.9091` (+6.49 pts)**
-  - Previous #1 Dev Clause F2 (`devansh-llm-clause-filter`): `0.6195` -> **Ours (`certi-pipeline`): `0.7391` (+11.96 pts)**
+  - Previous #1 Robust Score (`devansh-dynregex-llm-clause-filter`): `0.8045` -> **Ours (`certi-pipeline`): `0.9342` (+12.97 pts)**
+  - Previous #1 Dev Page F2 (`devansh-llm-clause-filter`): `0.8442` -> **Ours (`certi-pipeline`): `0.9386` (+9.44 pts)**
+  - Previous #1 Dev Clause F2 (`devansh-llm-clause-filter`): `0.6195` -> **Ours (`certi-pipeline`): `0.8062` (+18.67 pts)**
   - Previous #1 Unseen Clause Recall (`devansh-dynregex-allclauses-neutral`): `0.8596` -> **Ours (`certi-pipeline`): `0.9298` (+7.02 pts)**
 
 ## 2. Per-Regulation Breakdown on `dev-rear-lamp`

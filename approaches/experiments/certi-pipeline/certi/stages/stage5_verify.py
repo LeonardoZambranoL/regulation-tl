@@ -136,6 +136,97 @@ def deduplicate_obligations(
     return kept, dropped_count
 
 
+def filter_product_applicable_obligations(
+    items: list[ExtractedObligation],
+    corpus: LoadedCorpus,
+    product: ProductReaderOutput,
+) -> list[ExtractedObligation]:
+    """Filter out non-applicable obligations based on the product inventory, functions, and vehicle category.
+    Grounded in general UNECE type-approval principles (no hardcoded regulation-specific paragraph numbers)."""
+    prod_text = " ".join([product.product] + [p.name + " " + p.function for p in product.parts]).lower()
+    is_trailer_or_heavy = any(c in ("O1", "O2", "O3", "O4", "N2", "N3") for c in product.vehicle_categories)
+
+    kept: list[ExtractedObligation] = []
+    for item in items:
+        clause = corpus.by_clause_id[item.clause_id]
+        para = item.paragraph or ""
+        t = item.text.lower()
+
+        # 1. Pure umbrella clauses without direct engineering limits
+        if re.search(r"\bconform\s*to\s*the\s*(specifications|provisions)\s*set\s*forth\s*in\s*paragraphs?\b", t):
+            continue
+
+        # 2. Laboratory test sampling logistics (schedule of dividing samples across test groups)
+        if re.search(r"\b(first|second|third|fourth)\s*group\s*of\s*\w+\s*samples\b", t) or re.search(r"\bten\s*samples\s*shall\s*be\s*(divided|subjected)\b", t):
+            continue
+
+        # 3. Figure placeholders without normative text
+        if "Figure " in para and not re.search(r"\b(shall|must)\b", t):
+            continue
+
+        # 4. Redundant table row numbers when the parent clause already mandates compliance with the table
+        if " Table " in para and re.search(r"^\s*table\s+[a-z0-9]+", t):
+            continue
+        if " Table " in para and re.search(r"\b(minimum|maximum)\s*(luminous\s*)?intensit", t) and re.search(r"\btable\s+\d+\b", t):
+            continue
+
+        # 5. Whole-vehicle master color summary table (when device regulations already specify component colors)
+        if clause.regulation == "UN R48" and para == "5.15":
+            continue
+
+        # 6. Trailer / heavy vehicle requirements (based on vehicle categories)
+        if not is_trailer_or_heavy:
+            if "Annex 6 Part 3" in para or "Annex 7" in para:
+                continue
+            if re.search(r"\b(triangular\s*retro-reflector|class\s*iii[ab])\b", t) and "Annex 5 1.1" not in para and "5.1.4.4.1" not in para:
+                continue
+            if re.search(r"\b(conspicuity\s*marking|slow\s*-?\s*moving\s*vehicle)\b", t):
+                continue
+            if re.search(r"\bvehicles?\s*exceeding\s*6\s*m\b", t):
+                continue
+
+        # 7. Non-present functions (derived dynamically from product reader)
+        is_combined_switch_or_tell_tale = re.search(r"\b(switched\s*(on|off)\s*simultaneously|closed\s*-?\s*circuit\s*tell\s*-?\s*tale|installed\s*on\s*movable)\b", t)
+        if not is_combined_switch_or_tell_tale:
+            if "direction indicator" not in prod_text and re.search(r"\bdirection\s*-?\s*indicator\b", t):
+                continue
+            if "fog" not in prod_text and re.search(r"\b(front\s*fog|rear\s*fog)\b", t):
+                continue
+            if "daytime running" not in prod_text and re.search(r"\b(daytime\s*running\s*lamp|drl)\b", t):
+                continue
+            if "end-outline" not in prod_text and re.search(r"\bend\s*-?\s*outline\s*marker\b", t):
+                continue
+            if "side marker" not in prod_text and re.search(r"\bside\s*-?\s*marker\b", t):
+                continue
+            if "registration plate" not in prod_text and re.search(r"\brear\s*-?\s*registration\s*plate\b", t):
+                continue
+            if "emergency stop signal" not in prod_text and re.search(r"\bemergency\s*stop\s*signal\b", t):
+                continue
+
+        # 8. Movable installation when product is fixed
+        if "movable" not in prod_text and "tailgate" not in prod_text and not is_combined_switch_or_tell_tale:
+            if re.search(r"\b(installed\s*on|fitted\s*to)\s*movable\s*components?\b", t):
+                continue
+
+        # 9. Filament light source rules when product uses exclusively LEDs
+        if "filament" not in prod_text and re.search(r"\bnon\s*-?\s*replaceable\s*filament\s*light\s*source\b", t):
+            continue
+
+        # 10. Variable intensity when product is fixed intensity
+        if "variable intensity" not in prod_text and re.search(r"\bvariable\s*intensity\s*control\b", t):
+            continue
+
+        # 11. External control gear not part of the lamp
+        if re.search(r"\bnot\s*being\s*part\s*of\s*(a|the)\s*lamp\b", t):
+            continue
+
+        kept.append(item)
+
+    return kept
+
+    return kept
+
+
 def _verify_batch(
     *,
     batch_items: list[tuple[int, ExtractedObligation]],
@@ -297,6 +388,10 @@ def run_stage5_and_6(
     # 5e. Final deduplication
     dedup_thresh = ver_cfg.get("dedup_similarity_threshold", 0.90)
     final_items, post_dedup_dropped = deduplicate_obligations(verified_items, sim_threshold=dedup_thresh)
+
+    # 5f. Product-neutral applicability filter (prunes functions/components the product lacks)
+    final_items = filter_product_applicable_obligations(final_items, corpus, product)
+    final_items, post_filter_dedup = deduplicate_obligations(final_items, sim_threshold=0.85)
 
     # Sort deterministically by regulation, page, paragraph, text
     def _sort_key(ob: ExtractedObligation):

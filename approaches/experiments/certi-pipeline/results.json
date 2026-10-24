@@ -1,8 +1,8 @@
 {
-  "run_id": "b77941ff99894c8d85e624cd52178aa7",
+  "run_id": "16398ccaa2cb44eebe20a398340c065a",
   "approach": "certi-pipeline",
   "status": "completed",
-  "completed_at": "2026-10-24T20:49:48.069199+00:00",
+  "completed_at": "2026-10-24T22:40:07.794749+00:00",
   "evaluator": "official-local-f2-v1-6de0fe1e0763",
   "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
   "validation": {
