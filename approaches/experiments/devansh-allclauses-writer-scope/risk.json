@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "the scope ranker's five leave-out principles were derived from the dev error analysis (paragraphs kept by us but not by the experts); written generically, no product terms",
+    "inherits the regulation rules and writer style rules of devansh-llm-clause-filter-writer"
+  ],
+  "notes": "Cut-off follows the prompt's own scale (1-2 = experts leave it out), fixed before scoring. Judged on dev and on the unseen holdout-acpe case."
+}

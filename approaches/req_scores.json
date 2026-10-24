@@ -349,5 +349,57 @@
     "matched": 44,
     "submitted": 166,
     "expected": 94
+  },
+  {
+    "approach": "devansh-writer-ranked-scope",
+    "prediction_sha256": "801e49fbc5acf1ef9474d94f72e868888df72015aac32ff80e134fafa421f41b",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.5357142857142857,
+    "recall": 0.5526315789473685,
+    "f1": 0.5440414507772021,
+    "f2": 0.549163179916318,
+    "matched": 105,
+    "submitted": 196,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-writer-ranked-scope",
+    "prediction_sha256": "aa48debc1014216470fff6f1741aeae12606677f6816504867b193566efc3281",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.3008130081300813,
+    "recall": 0.39361702127659576,
+    "f1": 0.34101382488479265,
+    "f2": 0.37074148296593185,
+    "matched": 37,
+    "submitted": 123,
+    "expected": 94
+  },
+  {
+    "approach": "devansh-allclauses-writer-scope",
+    "prediction_sha256": "ae9629ab987eca3380f6639287ec7730398da350a5c702195dca688844a5b9d6",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.36893203883495146,
+    "recall": 0.6,
+    "f1": 0.4569138276553107,
+    "f2": 0.5332086061739943,
+    "matched": 114,
+    "submitted": 309,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-allclauses-writer-scope",
+    "prediction_sha256": "f7ed8e26d6e98232f838b1e8064e864c0fe35e1b8d9947ad99bcf0ce1b5ed1b0",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.2275449101796407,
+    "recall": 0.40425531914893614,
+    "f1": 0.29118773946360155,
+    "f2": 0.3499079189686924,
+    "matched": 38,
+    "submitted": 167,
+    "expected": 94
   }
 ]

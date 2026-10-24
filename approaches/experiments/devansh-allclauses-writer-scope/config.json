@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, Claude judges every clause (no shall filter), writer splits obligations, scope ranker drops what experts leave out", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium", "candidates": "all", "prompt": "neutral"}, "n": 0, "write": {"effort": "medium", "prompt": "strict"}}
