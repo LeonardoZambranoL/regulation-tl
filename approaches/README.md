@@ -30,6 +30,11 @@ underscores, starting with a letter or digit. The name identifies its folder
 under `approaches/experiments/`.
 Create a new experiment for each meaningful variant.
 
+Each approach must include its own `README.md` explaining **what it does and how
+it works**: its objective, the method or pipeline, key design choices, inputs and
+outputs, and how to install dependencies and run it. Include any assumptions or
+limitations so others can understand and reproduce the approach.
+
 ## Benchmark saved predictions
 
 Run from the repository root:
