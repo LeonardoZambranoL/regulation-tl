@@ -1,0 +1,1 @@
+{"name": "bm25+ bigrams, clauses | select: rules", "source": "clauses", "select": {"method": "combined"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

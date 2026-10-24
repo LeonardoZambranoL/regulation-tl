@@ -18,11 +18,14 @@ from .retrievers import build
 
 
 class Pipeline:
-    def __init__(self, config: dict):
+    def __init__(self, config: dict, regulations: set[str] | None = None):
+        """regulations: only index these (the output of regulation selection); None = all."""
         self.config = config
         self.name = config.get("name", config["retriever"]["type"])
         self.source = config.get("source", "clauses")
         self.chunks: list[Chunk] = load_corpus(config.get("granularity", "paragraph"), self.source)
+        if regulations is not None:
+            self.chunks = [c for c in self.chunks if c.regulation in regulations]
         self.by_id = {c.id: c for c in self.chunks}
         self.retriever = build(config["retriever"]).fit(self.chunks)
 

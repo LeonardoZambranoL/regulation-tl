@@ -19,10 +19,12 @@ from pathlib import Path
 
 import pymupdf
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+APPROACH_DIR = Path(__file__).resolve().parents[2]  # approaches/experiments/devansh
+# the repo root holds the shared data (regulations/, data-ingestion/), wherever this approach folder sits
+REPO_ROOT = next(p for p in Path(__file__).resolve().parents if (p / "regulations").is_dir())
 PDF_DIR = REPO_ROOT / "regulations"
 CLAUSE_DIR = REPO_ROOT / "data-ingestion" / "clauses"
-CACHE_DIR = REPO_ROOT / ".cache"
+CACHE_DIR = APPROACH_DIR / ".cache"
 DEFAULT_CHALLENGE_DIR = REPO_ROOT.parent / "industrial-ai-hackathon"
 
 _HEADER = re.compile(r"^UN [^|]+, version [\d.]+ \| page \d+ of \d+\s*$")

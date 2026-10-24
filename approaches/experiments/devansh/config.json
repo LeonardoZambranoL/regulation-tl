@@ -1,0 +1,1 @@
+{"name": "devansh: rules regulation selection + bm25+ bigrams on clauses", "n": 190, "source": "clauses", "select": {"method": "combined"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

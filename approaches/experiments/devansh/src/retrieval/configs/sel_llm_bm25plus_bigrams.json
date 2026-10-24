@@ -1,0 +1,1 @@
+{"name": "bm25+ bigrams, clauses | select: llm", "source": "clauses", "select": {"method": "llm"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}
