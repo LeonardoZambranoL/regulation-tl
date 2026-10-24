@@ -24,12 +24,12 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 ## Gold `8b3002792505` · official-local-f2-v1-6de0fe1e0763
 
-| Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulation F2 | Results |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.1667 | 1.0000 | 0.5000 | 0.5122 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/f17f372159cf4c3aaddcc32aa1661806.json) |
-| 2 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.1600 | 1.0000 | 0.4878 | 0.5488 | 0.8333 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/cb8936daf4e448c19312624cbacbf13c.json) |
-| 3 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.0959 | 0.8750 | 0.3333 | 0.4762 | 0.5000 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/8fbaac2fd8644b2db7adbecf99eecace.json) |
-| 4 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.0889 | 1.0000 | 0.3279 | 0.3769 | 0.5000 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/12023f9aa06148fca29fd7e870c47434.json) |
+| Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [devansh-llm-clause-filter](experiments/devansh-llm-clause-filter/) | 0.1667 | 1.0000 | 0.5000 | 0.5122 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter/benchmark-results/f17f372159cf4c3aaddcc32aa1661806.json) |
+| 2 | [devansh-bm25-clauses-top190](experiments/devansh-bm25-clauses-top190/) | 0.1600 | 1.0000 | 0.4878 | 0.5488 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-bm25-clauses-top190/benchmark-results/cb8936daf4e448c19312624cbacbf13c.json) |
+| 3 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.0959 | 0.8750 | 0.3333 | 0.4762 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-llm-clause-filter/benchmark-results/8fbaac2fd8644b2db7adbecf99eecace.json) |
+| 4 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.0889 | 1.0000 | 0.3279 | 0.3769 | 1/1 | 6 | 0.5000 | [JSON](experiments/devansh-dynregex-allclauses-neutral/benchmark-results/12023f9aa06148fca29fd7e870c47434.json) |
 
 ## Gold `dc4bf7baae68` · official-local-f2-v1-641f407012f2
 
