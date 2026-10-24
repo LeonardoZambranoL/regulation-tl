@@ -4,7 +4,11 @@
     python -m retrieval.bench retrieval/configs/bm25.json retrieval/configs/hybrid_rrf.json
     python -m retrieval.bench --case dev-rear-lamp --challenge-dir ../industrial-ai-hackathon
 
-Two tasks, because they fail differently:
+Three tasks:
+
+  official - what the challenge scores. The top-N pooled spec chunks become a mock submission, scored with the challenge's
+            own tools/score_local.py: regulation-level and page-level precision / recall / F1. The third, requirement
+            level (LLM-matched text) runs only on the platform; req_R_max is its ceiling for these chunks.
 
   locate  - query = each expected requirement's text; did the retriever put its paragraph (or page) in the top k?
             Measures "can it find the passage once we know what we are looking for" (used when an LLM drafts requirements
@@ -83,12 +87,46 @@ def eval_spec(pipe: Pipeline, gold: list[dict], spec: str) -> dict:
     return out
 
 
+def official_scorer(challenge_dir: Path):
+    """The challenge's own tools/score_local.py score(), so our numbers are computed exactly like theirs."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("score_local", Path(challenge_dir) / "tools" / "score_local.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.score
+
+
+def eval_official(pipe: Pipeline, gold: list[dict], spec: str, score, sizes: tuple[int, ...]) -> dict:
+    """Pretend the top-N pooled spec chunks are our submission (one requirement per chunk, cited at its page + paragraph)
+    and score it with the official scorer: regulation and page level precision / recall / F1. The platform's third level
+    (requirement text matched by an LLM) cannot run offline; req_R_max is its ceiling: the share of expected requirements
+    whose paragraph or page is among the cited ones, i.e. the best requirement recall an LLM could reach from these chunks."""
+    ranked = pipe.pooled(spec_queries(spec), k_per_query=max(400, max(sizes)))
+    expected = {"requirements": gold}
+    out = {}
+    for n in sizes:
+        chosen = [c for c, _ in ranked[:n]]
+        sub = {"requirements": [{"id": f"R-{i}", "text": c.text[:2000], "source": c.cite()} for i, c in enumerate(chosen)]}
+        res = score(sub, expected)
+        for level, tag in (("regulation_level", "reg"), ("page_level", "page")):
+            for m in ("precision", "recall", "f1"):
+                out[f"N{n}_{tag}_{m[0].upper() if m != 'f1' else 'F1'}"] = res[level][m]
+        cited_pages = {(c.regulation, p) for c in chosen for p in pages_of(c)}
+        cited_paras = {(c.regulation, para_key(c.paragraph)) for c in chosen if c.paragraph}
+        covered = sum((g["source"]["regulation"], g["source"]["page"]) in cited_pages or
+                      (g["source"]["regulation"], para_key(g["source"].get("paragraph"))) in cited_paras for g in gold)
+        out[f"N{n}_req_R_max"] = covered / len(gold)
+    return out
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("configs", nargs="*", help="pipeline JSON configs (default: retrieval/configs/*.json)")
     ap.add_argument("--case", default="dev-rear-lamp")
     ap.add_argument("--challenge-dir", default=str(DEFAULT_CHALLENGE_DIR))
-    ap.add_argument("--tasks", default="locate,spec")
+    ap.add_argument("--tasks", default="official,locate,spec")
+    ap.add_argument("--sizes", default="100,190,400",
+                    help="submission sizes N for the official task (the dev case expects 190 requirements)")
     ap.add_argument("--skip-missing-deps", action="store_true", help="skip configs whose optional libraries are missing")
     ap.add_argument("--combo", action="append", default=[], metavar="A+B[+C]",
                     help="fuse existing configs by name without writing JSON, e.g. --combo bm25+dense_bge_small "
@@ -117,6 +155,8 @@ def main(argv: list[str] | None = None) -> int:
     gold = json.loads((case_dir / "expected.json").read_text(encoding="utf-8"))["requirements"]
     spec = (case_dir / "spec.md").read_text(encoding="utf-8")
     tasks = args.tasks.split(",")
+    sizes = tuple(int(n) for n in args.sizes.split(","))
+    score = official_scorer(Path(args.challenge_dir)) if "official" in tasks else None
 
     jobs: list[tuple[str, dict]] = [(Path(c).name, json.loads(Path(c).read_text(encoding="utf-8"))) for c in args.configs]
     for combo in args.combo:
@@ -143,6 +183,8 @@ def main(argv: list[str] | None = None) -> int:
         row = {"name": name, "config": config_name,
                "granularity": f'{cfg.get("source", "clauses")}/{cfg.get("granularity", "paragraph")}'}
         t1 = time.time()
+        if "official" in tasks:
+            row |= eval_official(pipe, gold, spec, score, sizes)
         if "locate" in tasks:
             row |= eval_locate(pipe, gold)
         if "spec" in tasks:
@@ -158,8 +200,9 @@ def main(argv: list[str] | None = None) -> int:
     old = json.loads(board.read_text(encoding="utf-8")) if board.is_file() else []
     rows = [r for r in old if r["config"] not in {x["config"] for x in rows}] + rows
     board.write_text(json.dumps(rows, indent=2), encoding="utf-8")
-    (out_dir / f"leaderboard_{args.case}.md").write_text(to_markdown(rows, args.case), encoding="utf-8")
-    print("\n" + to_markdown(rows, args.case))
+    md = to_markdown(rows, args.case, sizes[len(sizes) // 2])
+    (out_dir / f"leaderboard_{args.case}.md").write_text(md, encoding="utf-8")
+    print("\n" + md)
     return 0
 
 
@@ -180,14 +223,22 @@ def combo_config(combo: str, fusion: str, weights: str | None, rerank: str | Non
     return {"name": name, "source": source, "granularity": granularity, "retriever": retriever}
 
 
-def to_markdown(rows: list[dict], case: str) -> str:
-    cols = [f"R@{k}" for k in LOCATE_KS] + ["MRR"] + [f"page_R@{n}" for n in PAGE_BUDGETS] + [f"reg_R@{n}" for n in REG_TOPS]
-    cols = [c for c in cols if any(c in r for r in rows)]
-    lines = [f"Case `{case}`. locate: R@k / MRR per expected requirement. spec: page recall within the first N pooled pages, "
-             "regulation recall within the top N regulations.\n",
-             "| pipeline | chunks | " + " | ".join(cols) + " | fit s | query s |",
+def to_markdown(rows: list[dict], case: str, n: int = 190) -> str:
+    """Official-style columns first (what the challenge scores), then our diagnostic retrieval columns."""
+    official = [f"N{n}_reg_P", f"N{n}_reg_R", f"N{n}_reg_F1", f"N{n}_page_P", f"N{n}_page_R", f"N{n}_page_F1",
+                f"N{n}_req_R_max"]
+    diag = ["R@1", "R@10", "MRR", "page_R@100", "reg_R@5"]
+    cols = [c for c in official + diag if any(c in r for r in rows)]
+    head = [c.replace(f"N{n}_", "") for c in cols]
+    lines = [f"Case `{case}`. **Official columns** = the challenge's own scorer (tools/score_local.py) on a mock submission "
+             f"made of the top {n} pooled spec chunks: regulation and page precision / recall / F1, plus `req_R_max`, the "
+             "ceiling on requirement recall from those chunks. Diagnostics: `R@k`/`MRR` = locate each expected requirement "
+             "by its text; `page_R@100` = gold pages in the first 100 pooled pages; `reg_R@5` = gold regulations in the "
+             "top 5. Other sizes N are in the .json.\n",
+             "| pipeline | chunks | " + " | ".join(head) + " | fit s | query s |",
              "|---|---|" + "---:|" * (len(cols) + 2)]
-    for r in sorted(rows, key=lambda r: -r.get("page_R@100", r.get("R@10", 0))):
+    key = f"N{n}_page_F1"
+    for r in sorted(rows, key=lambda r: -r.get(key, r.get("page_R@100", 0))):
         vals = " | ".join(f"{r[c]:.3f}" if c in r else "" for c in cols)
         lines.append(f"| {r['name']} | {r['granularity']} | {vals} | {r['fit_s']} | {r['query_s']} |")
     return "\n".join(lines) + "\n"

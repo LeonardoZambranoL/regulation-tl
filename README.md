@@ -18,6 +18,20 @@ regulation, version and page (and ideally the paragraph).
 - Validate before uploading: `python ../industrial-ai-hackathon/tools/validate.py out.json`; local regulation/page
   score: `python ../industrial-ai-hackathon/tools/score_local.py out.json`.
 
+## How we are scored (from the challenge README)
+
+| level | what is compared | how | offline? |
+|---|---|---|---|
+| **Regulations** | distinct regulations we cite vs the gold set | precision = right ones / ours, recall = right ones / gold | yes: `tools/score_local.py` |
+| **Pages** | distinct (regulation, **base** version, page) we cite | a page counts if the **page OR the paragraph** is right (so always give `paragraph`; page off by one is forgiven when the paragraph is right). Paragraphs compare by meaning: `Annex 8, 2.1.` == `annex 8 2.1`, but `5.4.2.3` != `5.4.23` | yes: `tools/score_local.py` (platform uses full page ranges, so it can differ slightly) |
+| **Requirements** (primary) | each of our requirements matched 1:1 to a gold one stating the same obligation (scope, condition, constraint) | precision = share of ours that match, recall = share of gold we found; judged by an LLM | **platform only** |
+| UI | | judged by the jury | secondary |
+| Sub-goal | flagged requirement changes | recall of flagged requirements + accuracy of the stated change | platform |
+
+So: **precision and recall both count**. Citing extra regulations or pages, or padding with non-matching requirements,
+costs precision. Write one engineering obligation per requirement. Upload limit: 5 per hour per challenge.
+`retrieval/bench.py` reports the two offline levels with their own scorer (see [retrieval/README.md](retrieval/README.md)).
+
 ## Repo layout
 
 ```
