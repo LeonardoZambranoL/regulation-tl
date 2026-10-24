@@ -24,6 +24,9 @@
 .lb-steps { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); font-size: var(--cds-font-size-body); }
 .lb-code { position: relative; margin: 0; background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm); padding-right: 4.5rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: var(--cds-font-size-caption); line-height: 1.6; overflow-x: auto; white-space: pre; }
 .lb-copy { position: absolute; top: var(--cds-pad-xs); right: var(--cds-pad-xs); font: inherit; font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 0 var(--cds-pad-sm); cursor: pointer; }
+.lb-weak { opacity: .45; }
+.lb-toggle { font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 0 var(--cds-pad-sm); cursor: pointer; }
+.lb-toggle:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
 .lb-copy:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
 .lb-agents { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-sm) 0 0; }
 .lb-explain { display: grid; gap: var(--cds-gap-xs); }
@@ -57,6 +60,7 @@
   <header class="lb-head">
     <h1 id="title">Who cites the right pages?</h1>
     <p id="takeaway" class="dash-skeleton" data-source="standings">—</p>
+    <p class="note"><button type="button" class="lb-toggle" id="toggle-weak" aria-pressed="false">Show all approaches</button> Only the top 6 are shown; the others appear dimmed when you show all.</p>
   </header>
 
   <section class="lb-card" id="join" aria-labelledby="join-title">
@@ -97,8 +101,8 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
   </section>
 
   <section class="lb-tiles" aria-label="Headline figures">
-    <div class="lb-tile"><div class="k">Leading approach</div><div class="v dash-skeleton" id="t-leader" data-source="standings" data-field="approach" data-row="0">—</div><div class="s">ranked by Robust score, gold self-check excluded</div></div>
-    <div class="lb-tile"><div class="k">Its Robust score</div><div class="v dash-skeleton" id="t-robust" data-source="standings" data-field="robust_score" data-row="0">—</div><div class="s">(dev page F2 + unseen-case clause recall) / 2</div></div>
+    <div class="lb-tile"><div class="k">Leading approach</div><div class="v dash-skeleton" id="t-leader" data-source="standings" data-field="approach" data-row="0">—</div><div class="s">ranked by requirement F2, then Robust score</div></div>
+    <div class="lb-tile"><div class="k">Its requirement F2</div><div class="v dash-skeleton" id="t-req" data-source="standings" data-field="req_f2" data-row="0">—</div><div class="s">the platform's main score, local judge, dev rear lamp</div></div>
     <div class="lb-tile"><div class="k">Its page F2</div><div class="v dash-skeleton" id="t-f2" data-source="standings" data-field="page_f2" data-row="0">—</div><div class="s">on the dev rear lamp, recall-weighted</div></div>
     <div class="lb-tile"><div class="k">Benchmark runs</div><div class="v dash-skeleton" id="t-runs" data-source="runs">—</div><div class="s">all approaches, all gold sets</div></div>
   </section>
@@ -138,6 +142,8 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
           <th data-field="rank" class="n">#</th>
           <th data-field="approach">Approach</th>
           <th data-field="description">What it does</th>
+          <th data-field="req_f2" class="n">Req F2</th>
+          <th data-field="unseen_req_f2" class="n hide-narrow">Unseen req F2</th>
           <th data-field="robust_score" class="n">Robust</th>
           <th data-field="page_f2" class="n">Page F2</th>
           <th data-field="page_precision" class="n">Page P</th>
@@ -212,13 +218,13 @@ const MAIN_GOLD = "dc4bf7baae68"; // dev-rear-lamp expected.json fingerprint
 dash.calc("standings", {
   inputs: ["runs"],
   title: "Standings on the dev case",
-  description: "Latest run of each approach on the dev rear-lamp gold set, ranked by Robust score = (dev page F2 + unseen-case clause recall) / 2; approaches without an unseen-case run follow, by page F2. The gold self-check is excluded.",
+  description: "Latest run of each approach on the dev rear-lamp gold set, ranked by requirement F2 (local judge of the platform's requirement score), then Robust score = (dev page F2 + unseen-case clause recall) / 2, then page F2. The gold self-check is excluded.",
   fn: (runs) => {
     const num = (v) => v === null || v === undefined || v === "" ? null : +v;
     const rows = runs.filter(r => (r.latest === true || r.latest === "true") && r.gold === "dc4bf7baae68" && r.approach !== "gold-self-check")
-      .map(r => ({ ...r, robust_score: num(r.robust_score), unseen_clause_recall: num(r.unseen_clause_recall), unseen_page_recall: num(r.unseen_page_recall), page_f2: +r.page_f2, page_precision: +r.page_precision, page_recall: +r.page_recall, reg_f2: +r.reg_f2 }))
-      .sort((a, b) => (a.robust_score === null) - (b.robust_score === null) || (b.robust_score ?? 0) - (a.robust_score ?? 0) || b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach));
-    return rows.map((r, i) => ({ ...r, rank: r.robust_score === null ? "–" : i + 1 }));
+      .map(r => ({ ...r, req_f2: num(r.req_f2), unseen_req_f2: num(r.unseen_req_f2), robust_score: num(r.robust_score), unseen_clause_recall: num(r.unseen_clause_recall), unseen_page_recall: num(r.unseen_page_recall), page_f2: +r.page_f2, page_precision: +r.page_precision, page_recall: +r.page_recall, reg_f2: +r.reg_f2 }))
+      .sort((a, b) => (a.req_f2 === null) - (b.req_f2 === null) || (b.req_f2 ?? 0) - (a.req_f2 ?? 0) || (a.robust_score === null) - (b.robust_score === null) || (b.robust_score ?? 0) - (a.robust_score ?? 0) || b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach));
+    return rows.map((r, i) => ({ ...r, rank: i + 1 }));
   }
 });
 
@@ -291,6 +297,7 @@ function fillTable(table, rows, cols) {
   tbody.textContent = "";
   for (const r of rows) {
     const tr = document.createElement("tr");
+    if (r._weak) tr.className = "lb-weak";
     for (const [field, fmt, cls] of cols) {
       const td = document.createElement("td");
       if (cls) td.className = cls;
@@ -301,9 +308,14 @@ function fillTable(table, rows, cols) {
   }
 }
 
-dash.onData(() => {
+const TOP = 6;
+let showAll = false;
+const toggle = document.getElementById("toggle-weak");
+toggle.addEventListener("click", () => { showAll = !showAll; toggle.setAttribute("aria-pressed", String(showAll)); render(); });
+dash.onData(render);
+function render() {
   const runs = dash.data("runs"), st = dash.data("standings");
-  const ids = ["takeaway", "t-leader", "t-robust", "t-f2", "t-runs", "bars", "scatter"];
+  const ids = ["takeaway", "t-leader", "t-req", "t-f2", "t-runs", "bars", "scatter"];
   if (runs.status !== "ok" || st.status !== "ok") {
     if (runs.status === "error" || st.status === "error") {
       ids.forEach(id => document.getElementById(id).classList.remove("dash-skeleton"));
@@ -312,15 +324,19 @@ dash.onData(() => {
     return;
   }
   ids.forEach(id => document.getElementById(id).classList.remove("dash-skeleton"));
-  const rows = st.data;
+  const ranked = st.data.map((r, i) => ({ ...r, _weak: i >= TOP }));
+  const rows = showAll ? ranked : ranked.slice(0, TOP);
+  toggle.textContent = showAll ? `Show top ${TOP} only` : `Show all ${ranked.length} approaches`;
   document.getElementById("t-runs").textContent = d3.format(",")(runs.data.length);
   if (rows.length) {
     const top = rows[0];
     document.getElementById("t-leader").textContent = top.approach;
-    document.getElementById("t-robust").textContent = top.robust_score === null ? "—" : f3(top.robust_score);
+    document.getElementById("t-req").textContent = top.req_f2 === null ? "—" : f3(top.req_f2);
     document.getElementById("t-f2").textContent = f3(top.page_f2);
     const second = rows[1];
-    document.getElementById("takeaway").textContent = top.robust_score === null
+    document.getElementById("takeaway").textContent = top.req_f2 !== null
+      ? `${top.approach} leads on requirement F2 (${f3(top.req_f2)}, the platform's main score, judged locally${second && second.req_f2 !== null ? `; ${f3(top.req_f2 - second.req_f2)} ahead of ${second.approach}` : ""}; page F2 ${f3(top.page_f2)}, overfit risk ${top.risk_level}). Score yours with req_judge.py --record.`
+      : top.robust_score === null
       ? `No approach has an unseen-case run yet; ${top.approach} leads on dev page F2 (${f3(top.page_f2)}). Run yours on holdout-acpe to get a Robust score.`
       : second && second.robust_score !== null
       ? `${top.approach} leads on the Robust score (${f3(top.robust_score)}: dev page F2 ${f3(top.page_f2)}, unseen clause recall ${f3(top.unseen_clause_recall)}, overfit risk ${top.risk_level}), ${f3(top.robust_score - second.robust_score)} ahead of ${second.approach}. Benchmark on both cases to join the ranking.`
@@ -331,6 +347,7 @@ dash.onData(() => {
   const ex = document.getElementById("explain-list"); ex.classList.remove("dash-skeleton"); ex.textContent = "";
   for (const r of rows) {
     const d = document.createElement("details"), s = document.createElement("summary");
+    if (r._weak) d.classList.add("lb-weak");
     const btn = document.createElement("span"); btn.className = "btn"; btn.textContent = "Explain";
     const name = document.createElement("span"); name.className = "name"; name.textContent = r.approach;
     s.append(btn, name); d.appendChild(s);
@@ -350,7 +367,7 @@ dash.onData(() => {
   drawBars(document.getElementById("bars"), rows.slice().sort((a, b) => b.page_f2 - a.page_f2 || a.approach.localeCompare(b.approach)));
   drawScatter(document.getElementById("scatter"), rows);
   fillTable(document.getElementById("tbl-standings"), rows, [
-    ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["robust_score", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
+    ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["req_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["unseen_req_f2", v => v === null || v === undefined ? "—" : f3(+v), "n hide-narrow"], ["robust_score", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
     ["pages_missed", String, "n"], ["unseen_clause_recall", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["unseen_page_recall", v => v === null || v === undefined ? "—" : f3(+v), "n hide-narrow"], ["clause_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
   document.querySelectorAll("#tbl-standings td.risk").forEach(td => { const v = td.textContent; td.textContent = ""; const c = document.createElement("span"); c.className = "lb-chip " + v; c.textContent = v; td.appendChild(c); });
   const ho = dash.data("holdout");
@@ -361,5 +378,5 @@ dash.onData(() => {
   fillTable(document.getElementById("tbl-runs"), all, [
     ["completed_at", when], ["approach"], ["description", null, "desc"], ["page_f2", v => f3(+v), "n"], ["page_precision", v => f3(+v), "n"],
     ["page_recall", v => f3(+v), "n"], ["reg_f2", v => f3(+v), "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]]);
-});
+}
 </script>

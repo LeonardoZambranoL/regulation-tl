@@ -153,6 +153,23 @@ def score(sub: list[dict], exp: list[dict], workers: int = 6, effort: str = "med
             "pairs": [{"submitted": sub[i].get("id"), "expected": exp[j].get("id")} for i, j in matched]}
 
 
+def fingerprint(doc: dict) -> str:
+    """Same as bench.py, so a recorded score attaches to the benchmark run of the same predictions file."""
+    canonical = json.dumps(doc, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def record(approach: str, prediction: dict, gold: Path, res: dict, effort: str) -> None:
+    path = ROOT / "approaches" / "req_scores.json"
+    scores = json.loads(path.read_text(encoding="utf-8")) if path.is_file() else []
+    entry = {"approach": approach, "prediction_sha256": fingerprint(prediction), "case": gold.resolve().parent.name,
+             "judge": f"req_judge {MODEL} {effort}",
+             **{k: res[k] for k in ("precision", "recall", "f1", "f2", "matched", "submitted", "expected")}}
+    scores = [s for s in scores if (s["approach"], s["prediction_sha256"]) != (approach, entry["prediction_sha256"])]
+    path.write_text(json.dumps(scores + [entry], indent=2) + "\n", encoding="utf-8")
+    print(f"recorded in {path.relative_to(ROOT)}")
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("prediction", type=Path)
@@ -160,12 +177,17 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--effort", default="medium")
     ap.add_argument("--out", type=Path, help="write the full result (with matched pairs) here")
+    ap.add_argument("--record", metavar="APPROACH", help="store the score in approaches/req_scores.json under this "
+                    "experiment name; the dashboards show it for the run that scored this exact file")
     args = ap.parse_args(argv)
-    sub = json.loads(args.prediction.read_text(encoding="utf-8"))["requirements"]
+    prediction = json.loads(args.prediction.read_text(encoding="utf-8"))
+    sub = prediction["requirements"]
     exp = json.loads(args.gold.read_text(encoding="utf-8"))["requirements"]
     res = score(sub, exp, args.workers, args.effort)
     if args.out:
         args.out.write_text(json.dumps(res, indent=2) + "\n", encoding="utf-8")
+    if args.record:
+        record(args.record, prediction, args.gold, res, args.effort)
     print(f"requirements (local judge): P {res['precision']:.3f}  R {res['recall']:.3f}  F1 {res['f1']:.3f}  "
           f"F2 {res['f2']:.3f}  ({res['matched']} matched / {res['submitted']} submitted / {res['expected']} expected; "
           f"{res['calls']} calls)")

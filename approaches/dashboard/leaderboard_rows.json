@@ -38,7 +38,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "2217894c5ca4485fb741782c3aa7dc81",
@@ -79,7 +83,11 @@
     "latest": false,
     "robust_score": 0.6503278964183622,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7894736842105263
+    "unseen_clause_recall": 0.7894736842105263,
+    "req_precision": 0.11052631578947368,
+    "req_recall": 0.11052631578947368,
+    "req_f2": 0.11052631578947368,
+    "unseen_req_f2": 0.4063604240282685
   },
   {
     "run_id": "b34780ec33534e70bb7f50941f3cf615",
@@ -120,7 +128,11 @@
     "latest": false,
     "robust_score": 0.790498974709501,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7368421052631579
+    "unseen_clause_recall": 0.7368421052631579,
+    "req_precision": 0.33766233766233766,
+    "req_recall": 0.5473684210526316,
+    "req_f2": 0.4868913857677903,
+    "unseen_req_f2": 0.3832442067736186
   },
   {
     "run_id": "c30250e68f4047fdaffd874f07e0eb62",
@@ -161,7 +173,11 @@
     "latest": false,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.19333333333333333,
+    "req_recall": 0.15263157894736842,
+    "req_f2": 0.15934065934065933,
+    "unseen_req_f2": null
   },
   {
     "run_id": "d22de00b526945159ea300124121a8f5",
@@ -202,7 +218,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "a108a047718d466cba252f4066646c15",
@@ -243,7 +263,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "62f9da241c1e4373983da86b65a664ba",
@@ -284,7 +308,11 @@
     "latest": true,
     "robust_score": 0.6503278964183622,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7894736842105263
+    "unseen_clause_recall": 0.7894736842105263,
+    "req_precision": 0.11052631578947368,
+    "req_recall": 0.11052631578947368,
+    "req_f2": 0.11052631578947368,
+    "unseen_req_f2": 0.4063604240282685
   },
   {
     "run_id": "6cbd4fa27d904aac87b954699be87b14",
@@ -325,7 +353,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.19333333333333333,
+    "req_recall": 0.15263157894736842,
+    "req_f2": 0.15934065934065933,
+    "unseen_req_f2": null
   },
   {
     "run_id": "54ddbecfa1194b1d9104f8fdb2ad4ad8",
@@ -366,7 +398,11 @@
     "latest": true,
     "robust_score": 0.790498974709501,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7368421052631579
+    "unseen_clause_recall": 0.7368421052631579,
+    "req_precision": 0.33766233766233766,
+    "req_recall": 0.5473684210526316,
+    "req_f2": 0.4868913857677903,
+    "unseen_req_f2": 0.3832442067736186
   },
   {
     "run_id": "b37b56394eb5402a97b2989b30f7f449",
@@ -407,7 +443,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "b59893aa381b4a0ea9e3ec45aa73c941",
@@ -448,7 +488,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.2937853107344633,
+    "req_recall": 0.5473684210526316,
+    "req_f2": 0.46678635547576297,
+    "unseen_req_f2": null
   },
   {
     "run_id": "b1aca91520324fe6b18452e55f7c33fe",
@@ -489,7 +533,11 @@
     "latest": true,
     "robust_score": 0.8045334575376494,
     "unseen_page_recall": 0.875,
-    "unseen_clause_recall": 0.8421052631578947
+    "unseen_clause_recall": 0.8421052631578947,
+    "req_precision": 0.2619647355163728,
+    "req_recall": 0.5473684210526316,
+    "req_f2": 0.44943820224719105,
+    "unseen_req_f2": 0.3689759036144578
   },
   {
     "run_id": "5d2817d091114c5d9ff85674a91e82dc",
@@ -530,7 +578,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.232662192393736,
+    "req_recall": 0.5473684210526316,
+    "req_f2": 0.43082021541010773,
+    "unseen_req_f2": null
   },
   {
     "run_id": "623f754c938c4054a533e854f7d52b3c",
@@ -571,7 +623,11 @@
     "latest": false,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "f8b1d4056afd4a73bc9a62da1d3f38ee",
@@ -612,7 +668,11 @@
     "latest": false,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "8702c69f25464adc8786890bc10c8916",
@@ -653,7 +713,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "444d71e6d99f40b2bfed5496b9a6c5d0",
@@ -694,7 +758,11 @@
     "latest": true,
     "robust_score": 0.7766832001469643,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.8596491228070176
+    "unseen_clause_recall": 0.8596491228070176,
+    "req_precision": 0.18153846153846154,
+    "req_recall": 0.6210526315789474,
+    "req_f2": 0.4184397163120567,
+    "unseen_req_f2": 0.3067484662576687
   },
   {
     "run_id": "12023f9aa06148fca29fd7e870c47434",
@@ -735,7 +803,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.11389521640091116,
+    "req_recall": 0.5319148936170213,
+    "req_f2": 0.3067484662576687,
+    "unseen_req_f2": null
   },
   {
     "run_id": "f17f372159cf4c3aaddcc32aa1661806",
@@ -776,7 +848,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.23243243243243245,
+    "req_recall": 0.4574468085106383,
+    "req_f2": 0.3832442067736186,
+    "unseen_req_f2": null
   },
   {
     "run_id": "8fbaac2fd8644b2db7adbecf99eecace",
@@ -817,7 +893,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.1701388888888889,
+    "req_recall": 0.5212765957446809,
+    "req_f2": 0.3689759036144578,
+    "unseen_req_f2": null
   },
   {
     "run_id": "cb8936daf4e448c19312624cbacbf13c",
@@ -858,7 +938,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.24210526315789474,
+    "req_recall": 0.48936170212765956,
+    "req_f2": 0.4063604240282685,
+    "unseen_req_f2": null
   },
   {
     "run_id": "5f8abd295ac14b9d889b6be78fc734aa",
@@ -899,7 +983,11 @@
     "latest": false,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "e86acddcae374967b9013ceca6946ce4",
@@ -940,7 +1028,11 @@
     "latest": false,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "59b646f2d2b64cfca1f035b66d20795b",
@@ -981,7 +1073,11 @@
     "latest": true,
     "robust_score": 0.7721868641889496,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7017543859649122
+    "unseen_clause_recall": 0.7017543859649122,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "0a83034dcfb649f889ce7c1c2f090dca",
@@ -1022,7 +1118,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "37ec3cfc2ef94836ade4be35cadc585d",
@@ -1063,7 +1163,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "86e5b65885b0421b874edd9bd10c773b",
@@ -1104,7 +1208,11 @@
     "latest": true,
     "robust_score": 0.5180548458524953,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.631578947368421
+    "unseen_clause_recall": 0.631578947368421,
+    "req_precision": 0.042105263157894736,
+    "req_recall": 0.042105263157894736,
+    "req_f2": 0.042105263157894736,
+    "unseen_req_f2": 0.32685512367491165
   },
   {
     "run_id": "0f355925c9d040e9ae2755cac37fec1d",
@@ -1145,7 +1253,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.19473684210526315,
+    "req_recall": 0.39361702127659576,
+    "req_f2": 0.32685512367491165,
+    "unseen_req_f2": null
   },
   {
     "run_id": "aa216bde462f478a8b89a7d045484a1b",
@@ -1186,7 +1298,11 @@
     "latest": true,
     "robust_score": 0.25925656683144327,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.03508771929824561
+    "unseen_clause_recall": 0.03508771929824561,
+    "req_precision": 0.03333333333333333,
+    "req_recall": 0.02631578947368421,
+    "req_f2": 0.027472527472527472,
+    "unseen_req_f2": 0.029469548133595282
   },
   {
     "run_id": "6817e2045c02460d9ee62f000a8bf61a",
@@ -1227,7 +1343,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.022556390977443608,
+    "req_recall": 0.031914893617021274,
+    "req_f2": 0.029469548133595282,
+    "unseen_req_f2": null
   },
   {
     "run_id": "f776292b2d4341f0a49cc17a6fd06309",
@@ -1268,7 +1388,11 @@
     "latest": true,
     "robust_score": 0.7912554824561404,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7543859649122807
+    "unseen_clause_recall": 0.7543859649122807,
+    "req_precision": 0.2776349614395887,
+    "req_recall": 0.5684210526315789,
+    "req_f2": 0.4699738903394256,
+    "unseen_req_f2": 0.3405572755417957
   },
   {
     "run_id": "097309f60c5c40d4a4731a5bf6b401f7",
@@ -1309,7 +1433,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.16296296296296298,
+    "req_recall": 0.46808510638297873,
+    "req_f2": 0.3405572755417957,
+    "unseen_req_f2": null
   },
   {
     "run_id": "2b767a3ae1964f758a2c3c5e8a304173",
@@ -1350,7 +1478,11 @@
     "latest": true,
     "robust_score": 0.801799758015729,
     "unseen_page_recall": 0.875,
-    "unseen_clause_recall": 0.8421052631578947
+    "unseen_clause_recall": 0.8421052631578947,
+    "req_precision": 0.23060796645702306,
+    "req_recall": 0.5789473684210527,
+    "req_f2": 0.44462409054163293,
+    "unseen_req_f2": 0.3431372549019608
   },
   {
     "run_id": "4656af20614349d7b7a69c059955e7e9",
@@ -1391,7 +1523,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.14497041420118342,
+    "req_recall": 0.5212765957446809,
+    "req_f2": 0.3431372549019608,
+    "unseen_req_f2": null
   },
   {
     "run_id": "0d47e3ab48644982884fa2b10ba142e9",
@@ -1432,7 +1568,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": null,
+    "req_recall": null,
+    "req_f2": null,
+    "unseen_req_f2": null
   },
   {
     "run_id": "8c937cbed8b44c0eab68386de25e5e62",
@@ -1473,7 +1613,11 @@
     "latest": true,
     "robust_score": 0.8011785598966742,
     "unseen_page_recall": 1.0,
-    "unseen_clause_recall": 0.7894736842105263
+    "unseen_clause_recall": 0.7894736842105263,
+    "req_precision": 0.28610354223433243,
+    "req_recall": 0.5526315789473685,
+    "req_f2": 0.4658385093167702,
+    "unseen_req_f2": 0.326241134751773
   },
   {
     "run_id": "3c5b319334b845c481cc28a294384410",
@@ -1514,7 +1658,11 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.1398176291793313,
+    "req_recall": 0.48936170212765956,
+    "req_f2": 0.326241134751773,
+    "unseen_req_f2": null
   },
   {
     "run_id": "563441d0607844d59fec637e5c5d45dd",
@@ -1555,7 +1703,11 @@
     "latest": true,
     "robust_score": 0.7074087658169814,
     "unseen_page_recall": 0.875,
-    "unseen_clause_recall": 0.5263157894736842
+    "unseen_clause_recall": 0.5263157894736842,
+    "req_precision": 0.4481707317073171,
+    "req_recall": 0.7736842105263158,
+    "req_f2": 0.6755514705882352,
+    "unseen_req_f2": 0.39007092198581556
   },
   {
     "run_id": "2e3d6e6c2d2141729617bbf1d8a8ef3e",
@@ -1596,6 +1748,10 @@
     "latest": true,
     "robust_score": null,
     "unseen_page_recall": null,
-    "unseen_clause_recall": null
+    "unseen_clause_recall": null,
+    "req_precision": 0.23404255319148937,
+    "req_recall": 0.46808510638297873,
+    "req_f2": 0.39007092198581556,
+    "unseen_req_f2": null
   }
 ]

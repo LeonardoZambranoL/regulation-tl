@@ -222,12 +222,23 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         latest[(r["approach"], r["gold_sha256"])] = r["run_id"]
     keep = set(latest.values())
     robust = {t["approach"]: t for t in robust_table(board)}
+    # requirement level (the platform's main score), estimated by req_judge.py --record for the exact predictions file
+    req_path = APPROACHES / "req_scores.json"
+    req = {(s["approach"], s["prediction_sha256"]): s
+           for s in (json.loads(req_path.read_text(encoding="utf-8")) if req_path.is_file() else [])}
+    sha = {r["run_id"]: r["prediction_sha256"] for r in board}
     for row in out:
         row["latest"] = row["run_id"] in keep
         t = robust.get(row["approach"]) if row["case"] == "dev-rear-lamp" else None
         row["robust_score"] = t["robust"] if t else None
         row["unseen_page_recall"] = t["unseen_page_recall"] if t else None
         row["unseen_clause_recall"] = t["unseen_clause_recall"] if t else None
+        s = req.get((row["approach"], sha.get(row["run_id"])))
+        for k in ("precision", "recall", "f2"):
+            row[f"req_{k}"] = s[k] if s else None
+    unseen_req = {row["approach"]: row["req_f2"] for row in out if row["latest"] and row["case"] == "holdout-acpe"}
+    for row in out:
+        row["unseen_req_f2"] = unseen_req.get(row["approach"]) if row["case"] == "dev-rear-lamp" else None
     return out
 
 
