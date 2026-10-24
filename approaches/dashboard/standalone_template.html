@@ -60,7 +60,10 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
 .explain-list details[open] summary .btn { background: var(--accent); color: var(--panel); }
 .explain-list summary .name { font-weight: 600; }
 .explain-list summary .score { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
-.explain-list .text { margin: 8px 0 2px; max-width: 80ch; }
+.explain-list .text { margin: 4px 0 2px; max-width: 80ch; white-space: pre-line; }
+.two-explain { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 10px 22px; margin-top: 8px; }
+.two-explain > * { min-width: 0; }
+.xlabel { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--muted); }
 .explain-list .src { margin: 0; font-size: 12px; color: var(--muted); }
 .glossary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 4px 18px; margin-top: 14px; font-size: 13px; color: var(--muted); }
 .glossary p { margin: 0; }
@@ -98,7 +101,7 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
 
   <section class="card" id="explain">
     <h2>What each approach does, in plain words</h2>
-    <p class="note">Press <b>Explain</b> to read how an approach works, without jargon. Each team member writes their own in <code>EXPLAIN.md</code> in their experiment folder.</p>
+    <p class="note">Press <b>Explain</b> to read how an approach works: once in plain words, once technically. Each team member writes their own in <code>EXPLAIN.md</code> in their experiment folder.</p>
     <div class="explain-list" id="explain-list"></div>
     <div class="glossary">
       <p><b>Page F2</b>: did it point to the right pages of the rulebooks? 1.0 = every right page and nothing else. Missing a right page hurts more than adding a wrong one.</p>
@@ -303,9 +306,18 @@ function drawExplain() {
     const score = document.createElement("span"); score.className = "score";
     score.textContent = `page F2 ${f3(r.page_f2)} · clause F2 ${opt3(r.clause_f2)} · overfit risk ${r.risk_level}`;
     s.append(btn, name, score); d.appendChild(s);
-    const t = document.createElement("p"); t.className = "text"; t.textContent = r.explain || "No plain explanation yet.";
-    const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (r.explain_source || "");
-    d.append(t, src); list.appendChild(d);
+
+    const two = document.createElement("div"); two.className = "two-explain";
+    for (const [label, text, source] of [["In plain words", r.explain, r.explain_source],
+                                         ["Technical", r.explain_technical, r.explain_technical_source]]) {
+      const box = document.createElement("div"); box.className = "xbox";
+      const h = document.createElement("p"); h.className = "xlabel"; h.textContent = label;
+      const t = document.createElement("p"); t.className = "text"; t.textContent = text || "Not written yet.";
+      const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (source || "");
+      box.append(h, t, src); two.appendChild(box);
+    }
+    d.appendChild(two);
+    list.appendChild(d);
   }
 }
 render(); drawExplain(); drawBars(); drawScatter();

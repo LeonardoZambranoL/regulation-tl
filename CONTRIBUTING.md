@@ -53,7 +53,8 @@ Then the dashboard updates itself: a scheduled sync pulls the repo every 5 minut
 
 - `README.md`: what it does and how it works, how to run it, assumptions, limitations.
 - `config.json`: `"name"` is the one-line description shown on the dashboard.
-- `EXPLAIN.md`: 3-6 plain sentences on what it does (shown by the dashboards' Explain button).
+- `EXPLAIN.md`: `# In plain words` (3-6 sentences, no jargon) and `# Technical` (exact method); both shown by the
+  dashboards' Explain button.
 - `risk.json`: what you tuned on the dev case (see [approaches/dashboard/README.md](approaches/dashboard/README.md)).
 - `outputs/predictions.json`: submission format; `results.json` and `benchmark-results/` are written by the bench.
 

@@ -34,7 +34,10 @@
 .lb-explain details[open] .btn { background: var(--color-fg); color: var(--color-bg); }
 .lb-explain .name { font-weight: var(--cds-font-weight-medium); }
 .lb-explain .src { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
-.lb-explain .text { margin: var(--cds-gap-xs) 0; max-width: 80ch; }
+.lb-explain .text { margin: var(--cds-gap-xs) 0; max-width: 80ch; white-space: pre-line; }
+.two-explain { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-sm) var(--cds-gap-lg); margin-top: var(--cds-gap-xs); }
+.two-explain > * { min-width: 0; }
+.xlabel { margin: 0; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); letter-spacing: .03em; text-transform: uppercase; color: var(--color-fg-muted); }
 .glossary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--cds-gap-xs) var(--cds-gap-lg); margin-top: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
 .glossary p { margin: 0; }
 .lb-chip { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid currentColor; font-size: var(--cds-font-size-caption); line-height: 1.6; }
@@ -115,7 +118,7 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
 
   <section class="lb-card" id="explain">
     <h2 id="explain-title">What each approach does, in plain words</h2>
-    <p class="note">Press <b>Explain</b> to read how an approach works, without jargon. Each team member writes their own in EXPLAIN.md in their experiment folder.</p>
+    <p class="note">Press <b>Explain</b> to read how an approach works: once in plain words, once technically. Each team member writes their own in EXPLAIN.md in their experiment folder.</p>
     <div class="lb-explain dash-skeleton" id="explain-list" data-source="standings"></div>
     <div class="glossary">
       <p><b>Page F2</b>: did it point to the right pages of the rulebooks? 1.0 = every right page and nothing else. Missing a right page hurts more than adding a wrong one.</p>
@@ -298,9 +301,18 @@ dash.onData(() => {
     const btn = document.createElement("span"); btn.className = "btn"; btn.textContent = "Explain";
     const name = document.createElement("span"); name.className = "name"; name.textContent = r.approach;
     s.append(btn, name); d.appendChild(s);
-    const t = document.createElement("p"); t.className = "text"; t.textContent = r.explain || "No plain explanation yet.";
-    const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (r.explain_source || "");
-    d.append(t, src); ex.appendChild(d);
+
+    const two = document.createElement("div"); two.className = "two-explain";
+    for (const [label, text, source] of [["In plain words", r.explain, r.explain_source],
+                                         ["Technical", r.explain_technical, r.explain_technical_source]]) {
+      const box = document.createElement("div"); box.className = "xbox";
+      const h = document.createElement("p"); h.className = "xlabel"; h.textContent = label;
+      const t = document.createElement("p"); t.className = "text"; t.textContent = text || "Not written yet.";
+      const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (source || "");
+      box.append(h, t, src); two.appendChild(box);
+    }
+    d.appendChild(two);
+    ex.appendChild(d);
   }
   drawBars(document.getElementById("bars"), rows);
   drawScatter(document.getElementById("scatter"), rows);

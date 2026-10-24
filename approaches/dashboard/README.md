@@ -74,9 +74,20 @@ Edit `approaches/dashboard/index.html` and push; it goes live within about 5 min
 
 ## EXPLAIN.md: say what your approach does, in plain words
 
-The dashboards' **Explain** button shows `approaches/experiments/<name>/EXPLAIN.md`: 3-6 sentences that anyone on the
-team understands, with no jargon (what goes in, what it does step by step, what comes out, its main weakness).
-Until an experiment has one, a draft in `approaches/dashboard/explanations.json` is shown, marked as a draft.
+The dashboards' **Explain** button shows both parts of `approaches/experiments/<name>/EXPLAIN.md`:
+
+```markdown
+# In plain words
+3-6 sentences anyone on the team understands, no jargon: what goes in, what it does, what comes out, main weakness.
+
+# Technical
+1. Numbered steps with models, parameters, corpus, queries, fusion, filters, output size.
+2. Dev scores and overfit risk.
+```
+
+Fallbacks: plain text without headings counts as "In plain words"; without `# Technical` the README's "Method" /
+"How it works" section is shown; without any `EXPLAIN.md`, a draft in `approaches/dashboard/explanations.json`
+(marked as a draft).
 
 ## risk.json: declare how much you tuned on the dev case
 

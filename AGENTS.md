@@ -23,10 +23,13 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 - Every experiment needs `README.md` (what it does, how it works, how to run, assumptions, limitations),
   `config.json` (`"name"` = one-line description), `risk.json` (overfitting declaration, see
   `approaches/dashboard/README.md`), **`EXPLAIN.md`** and `outputs/predictions.json`.
-- `EXPLAIN.md` is what the dashboards' **Explain** button shows: 3-6 sentences anyone on the team understands, no
-  jargon (say "a search engine that matches words" instead of "BM25", "Claude reads each rule and says yes or no"
-  instead of "LLM classifier"); what goes in, what the method does step by step, what comes out, and its main
-  weakness. Update it whenever the method changes.
+- `EXPLAIN.md` is what the dashboards' **Explain** button shows, in two sections:
+  - `# In plain words`: 3-6 sentences anyone on the team understands, no jargon (say "a search engine that matches
+    words" instead of "BM25", "Claude reads each rule and says yes or no" instead of "LLM classifier"): what goes in,
+    what the method does step by step, what comes out, its main weakness.
+  - `# Technical`: the exact method as numbered steps: models and versions, parameters, corpus, queries, fusion,
+    filters, output size, dev scores and the overfit risk. Without this section the README's "Method" section is shown.
+  Update both whenever the method changes.
 - Shared tools: `approaches/benchmarking/bench.py` (scores + leaderboard), `approaches/benchmarking/dashboard_rows.py`
   (dashboard data).
 
