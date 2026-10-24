@@ -1,0 +1,1 @@
+{"name": "devansh: rules regulation selection + bm25+ bigrams on whole PDF pages, top 150", "source": "pdf", "granularity": "page", "n": 150, "select": {"method": "combined"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

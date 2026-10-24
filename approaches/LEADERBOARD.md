@@ -8,4 +8,6 @@ Scores measure citation coverage, not requirement-text correctness.
 | Rank | Approach | Page precision | Page recall | Page F2 | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [gold-self-check](experiments/gold-self-check/) | 1.0000 | 1.0000 | 1.0000 | 1.0000 | [JSON](experiments/gold-self-check/benchmark-results/1f8212bb371041ef8277be9ae3962262.json) |
-| 2 | [devansh](experiments/devansh/) | 0.3168 | 0.6038 | 0.5112 | 1.0000 | [JSON](experiments/devansh/benchmark-results/2217894c5ca4485fb741782c3aa7dc81.json) |
+| 2 | [devansh-llm-classifier](experiments/devansh-llm-classifier/) | 0.5417 | 0.9811 | 0.8442 | 1.0000 | [JSON](experiments/devansh-llm-classifier/benchmark-results/b34780ec33534e70bb7f50941f3cf615.json) |
+| 3 | [devansh-pages-n150](experiments/devansh-pages-n150/) | 0.2800 | 0.7925 | 0.5801 | 1.0000 | [JSON](experiments/devansh-pages-n150/benchmark-results/c30250e68f4047fdaffd874f07e0eb62.json) |
+| 4 | [devansh](experiments/devansh/) | 0.3168 | 0.6038 | 0.5112 | 1.0000 | [JSON](experiments/devansh/benchmark-results/2217894c5ca4485fb741782c3aa7dc81.json) |

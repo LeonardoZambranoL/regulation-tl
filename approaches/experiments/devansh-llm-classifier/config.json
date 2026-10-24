@@ -1,0 +1,1 @@
+{"name": "devansh: rules regulation selection + LLM clause classifier (claude-opus-5-5, effort medium) over all shall-clauses", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0}

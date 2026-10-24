@@ -25,6 +25,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--team-id", default="regulation-tl")
     ap.add_argument("-n", type=int, help="number of requirements (default: config 'n', else 190)")
     ap.add_argument("--out", default=str(APPROACH_DIR / "outputs" / "predictions.json"))
+    ap.add_argument("--sweep", help="comma-separated sizes: print official page/regulation scores + F2 for each, write nothing")
     args = ap.parse_args(argv)
 
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
@@ -34,8 +35,31 @@ def main(argv: list[str] | None = None) -> int:
     if cfg.get("select"):
         from .regselect import select
         regs = set(select(spec, **cfg["select"]))
-    pipe = Pipeline(cfg, regs)
-    chosen = [c for c, _ in pipe.pooled(spec_queries(spec), k_per_query=max(400, n))][:n]
+    sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
+    if cfg.get("filter", {}).get("method") == "llm":
+        # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
+        from .classify import candidates, classify
+        cands = candidates(regs)
+        decisions = classify(spec, cands, effort=cfg["filter"].get("effort", "medium"))
+        ranked = [c for c in cands if decisions.get(c.id)]
+        sizes = [len(ranked) if s <= 0 else s for s in sizes]
+        n = len(ranked) if n <= 0 else n
+    else:
+        pipe = Pipeline(cfg, regs)
+        ranked = [c for c, _ in pipe.pooled(spec_queries(spec), k_per_query=max(400, *sizes))]
+    if args.sweep:
+        from .bench import official_scorer
+        score = official_scorer(Path(args.challenge_dir))
+        gold = json.loads((Path(args.challenge_dir) / "cases" / args.case / "expected.json").read_text(encoding="utf-8"))
+        f2 = lambda m: 5 * m["precision"] * m["recall"] / (4 * m["precision"] + m["recall"]) if m["precision"] + m["recall"] else 0
+        print(f"{'N':>5}  page P   page R   page F1  page F2  reg F2")
+        for size in sizes:
+            sub = {"requirements": [{"id": str(i), "text": "-", "source": c.cite()} for i, c in enumerate(ranked[:size])]}
+            r = score(sub, gold)
+            pl = r["page_level"]
+            print(f"{size:>5}  {pl['precision']:.3f}   {pl['recall']:.3f}   {pl['f1']:.3f}    {f2(pl):.3f}    {f2(r['regulation_level']):.3f}")
+        return 0
+    chosen = ranked[:n]
     doc = {"team_id": args.team_id, "case_id": args.case, "requirements": [
         {"id": f"R-{i:04d}", "text": " ".join(c.text.split())[:2000], "source": c.cite()}
         for i, c in enumerate(chosen, 1)]}

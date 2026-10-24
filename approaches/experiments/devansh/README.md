@@ -59,3 +59,23 @@ environment or from a git-ignored `.env` (repo root or this folder). Never commi
 
 With the right regulations, every gold requirement is among about 1,200 "shall" clauses, so the remaining work is
 picking the right about 190 of them (LLM clause classifier) and rewriting them as single obligations.
+
+## Experiments and history
+
+| experiment | what it does | page F2 (team bench) |
+|---|---|---|
+| [devansh-llm-classifier](../devansh-llm-classifier/) | rules selection + Claude keeps / drops every "shall" clause | **0.844** |
+| [devansh-pages-n150](../devansh-pages-n150/) | rules selection + BM25+ bigrams on whole pages, top 150 (no LLM) | 0.580 |
+| devansh (this folder) | rules selection + BM25+ bigrams on clauses, top 190 | 0.511 |
+
+Everything tried so far, with scores and what did not work: [HISTORY.md](HISTORY.md).
+
+## Comparison dashboard
+
+A shared dashboard reads `approaches/leaderboard.json` and shows every approach's latest page F2, precision vs recall,
+the standings with a one-line description per approach, and every run:
+https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (private until Devansh shares it from its Share menu).
+
+Refresh it after new benchmark runs: `cd src && ../.venv/bin/python -m retrieval.dashboard_rows` writes
+`outputs/leaderboard_rows.json` (local paths stripped; "what it does" comes from each experiment's `config.json`
+`name` or the first line of its README, so give your experiment one); then ask Claude to upload it to the dashboard.
