@@ -1,0 +1,11 @@
+{
+  "level": "high",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "N=150 picked by a size sweep scored against the dev gold",
+    "regulation rules written by looking at the dev product"
+  ],
+  "notes": "The size cut-off is fitted to the only labelled case; expect a lower score on the held-out case."
+}

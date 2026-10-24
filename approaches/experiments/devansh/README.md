@@ -72,10 +72,5 @@ Everything tried so far, with scores and what did not work: [HISTORY.md](HISTORY
 
 ## Comparison dashboard
 
-A shared dashboard reads `approaches/leaderboard.json` and shows every approach's latest page F2, precision vs recall,
-the standings with a one-line description per approach, and every run:
-https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (private until Devansh shares it from its Share menu).
-
-Refresh it after new benchmark runs: `cd src && ../.venv/bin/python -m retrieval.dashboard_rows` writes
-`outputs/leaderboard_rows.json` (local paths stripped; "what it does" comes from each experiment's `config.json`
-`name` or the first line of its README, so give your experiment one); then ask Claude to upload it to the dashboard.
+All experiments are compared on https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV. How to add yours, declare its
+overfitting risk and refresh the dashboard: [approaches/dashboard/README.md](../../dashboard/README.md).

@@ -1,0 +1,11 @@
+#!/bin/sh
+# Refuse to push when the local branch is behind its upstream: pull first.
+# Enable once per clone:  git config core.hooksPath .githooks
+git fetch --quiet origin || exit 0
+upstream=$(git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>/dev/null) || exit 0
+behind=$(git rev-list --count HEAD.."$upstream")
+if [ "$behind" -gt 0 ]; then
+  echo "pre-push: your branch is $behind commit(s) behind $upstream. Run 'git pull --rebase' first, then push." >&2
+  exit 1
+fi
+exit 0

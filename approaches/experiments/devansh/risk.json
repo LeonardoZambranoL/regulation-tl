@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product (generic families, but only one case to test them)",
+    "submission size N=190 equals the dev gold size"
+  ],
+  "notes": "Retrieval baseline; regulation selection is the main dev-specific risk."
+}

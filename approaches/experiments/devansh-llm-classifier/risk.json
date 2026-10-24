@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product",
+    "classifier prompt lists clause kinds seen in the dev gold (marking, photometry, installation, EMC)"
+  ],
+  "notes": "No size cut-off and a generic prompt, so less fitted than the retrieval variants; LLM answers vary run to run (cached per batch)."
+}

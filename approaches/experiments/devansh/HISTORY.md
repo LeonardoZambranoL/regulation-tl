@@ -23,6 +23,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 9 | `export --sweep` | submission size under F2 | | | | 0.43-0.58 | | pages peak at N=150; clauses flat at 0.52-0.54 from N=190 to 1000 |
 | 10 | **`devansh-pages-n150`** (team bench) | selection + bm25+ bigrams on whole pages, N=150 | 0.280 | 0.793 | 0.414 | **0.580** | 1.00 | best without an LLM |
 | 11 | **`devansh-llm-classifier`** (team bench) | selection + Claude (opus 5.5, effort medium) keeps / drops each of 1,240 "shall" clauses | 0.542 | 0.981 | 0.698 | **0.844** | 1.00 | big jump: classification beats retrieval |
+| 12 | `risk.json` for all three | declared what each one tuned on the dev case: devansh medium, devansh-pages-n150 **high** (N fitted by sweep), devansh-llm-classifier medium | | | | | | shown on the dashboard; prefer the lower-risk approach when scores are close |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.
