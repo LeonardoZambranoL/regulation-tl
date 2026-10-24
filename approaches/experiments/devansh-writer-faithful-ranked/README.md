@@ -34,3 +34,5 @@ bash approaches/experiments/devansh-writer-faithful-ranked/final.sh <held-out-ca
 
 It runs the whole pipeline for that case, writes `outputs/submission-<case-id>.json` in the clean submission format and
 validates it. Upload that file.
+
+Platform score (2026-10-25 00:32 CEST): requirements P 47.8% / R 72.6% / F1 57.6% / F2 65.8% (highest precision so far).

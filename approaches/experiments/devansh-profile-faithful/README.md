@@ -21,3 +21,9 @@ spec (the profile's wording triggered extra regulations when it was used there).
 
 Upload: `outputs/submission-dev-rear-lamp.json` (359 requirements, team-11, validate --strict OK; local score_local:
 regulations 1.0, pages P 0.595 / R 0.943). Held-out case: `bash approaches/experiments/devansh-profile-faithful/final.sh <case-id>`.
+
+## Platform score (uploaded 2026-10-25 00:29 CEST, dev rear lamp): confirmed best
+
+Requirements P 43.5% / R 82.1% / F1 56.8% / **F2 69.7%**; pages P 59.5% / R 94.3%; regulations 100%.
+Faithful writer uploaded right after: P 47.8% / R 72.6% / F1 57.6% / F2 65.8%. The local judge reads about 3.7 points
+high on both files (0.733 vs 69.7%, 0.696 vs 65.8%), so it ranks versions correctly.
