@@ -1,11 +1,29 @@
 #!/bin/sh
-# Refuse to push when the local branch is behind its upstream: pull first.
+# 1. Refuse to push when the local branch is behind its upstream: pull first.
+# 2. Refuse to push changes to an experiment whose current dev result has no unseen-case (holdout-acpe) run.
+#    The pusher runs their OWN pipeline with their OWN API keys; the check itself only reads leaderboard.json.
 # Enable once per clone:  git config core.hooksPath .githooks
 git fetch --quiet origin || exit 0
-upstream=$(git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>/dev/null) || exit 0
-behind=$(git rev-list --count HEAD.."$upstream")
-if [ "$behind" -gt 0 ]; then
-  echo "pre-push: your branch is $behind commit(s) behind $upstream. Run 'git pull --rebase' first, then push." >&2
+upstream=$(git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>/dev/null)
+if [ -n "$upstream" ]; then
+  behind=$(git rev-list --count HEAD.."$upstream")
+  if [ "$behind" -gt 0 ]; then
+    echo "pre-push: your branch is $behind commit(s) behind $upstream. Run 'git pull --rebase' first, then push." >&2
+    exit 1
+  fi
+fi
+PY=$(command -v python3 || command -v python) || exit 0
+zero=0000000000000000000000000000000000000000
+names=""
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "$zero" ] && continue
+  if [ "$remote_sha" = "$zero" ]; then base=${upstream:-origin/main}; else base=$remote_sha; fi
+  names="$names $(git diff --name-only "$base" "$local_sha" 2>/dev/null | sed -n 's#^approaches/experiments/\([^/]*\)/.*#\1#p')"
+done
+names=$(echo $names | tr ' ' '\n' | sort -u | tr '\n' ' ')
+[ -z "${names% }" ] && exit 0
+if ! "$PY" approaches/benchmarking/check_unseen.py $names >&2; then
+  echo "pre-push: push refused (see above). Run your experiment on the unseen case, benchmark it, commit, push again." >&2
   exit 1
 fi
 exit 0

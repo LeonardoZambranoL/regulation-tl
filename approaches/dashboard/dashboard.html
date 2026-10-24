@@ -80,9 +80,9 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
   </header>
 
   <section class="tiles" aria-label="Headline figures">
-    <div class="card tile"><div class="k">Leading approach</div><div class="v" id="t-leader">—</div><div class="s">ranked by page F2, gold self-check excluded</div></div>
-    <div class="card tile"><div class="k">Its page F2</div><div class="v" id="t-f2">—</div><div class="s">recall-weighted citation score</div></div>
-    <div class="card tile"><div class="k">Its regulation F2</div><div class="v" id="t-reg">—</div><div class="s">right UN Regulations cited</div></div>
+    <div class="card tile"><div class="k">Leading approach</div><div class="v" id="t-leader">—</div><div class="s">ranked by Robust score, gold self-check excluded</div></div>
+    <div class="card tile"><div class="k">Its Robust score</div><div class="v" id="t-robust">—</div><div class="s">(dev page F2 + unseen-case clause recall) / 2</div></div>
+    <div class="card tile"><div class="k">Its page F2</div><div class="v" id="t-f2">—</div><div class="s">on the dev rear lamp, recall-weighted</div></div>
     <div class="card tile"><div class="k">Benchmark runs</div><div class="v" id="t-runs">—</div><div class="s">all approaches</div></div>
   </section>
 
@@ -116,9 +116,9 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
     <p class="note">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> comes from each experiment's <code>risk.json</code> plus automatic flags (exact gold match: high; no declaration: unknown). Prefer the lower-risk approach when scores are close. <b>Clause F2</b> is stricter than page F2: it compares cited paragraphs with the gold paragraphs (official normalisation), so a neighbouring paragraph on the right page does not count and page-only citations score 0; "—" means the experiment's predictions.json is not the file that run scored. Click a header to sort.</p>
     <div class="tablewrap"><table id="standings"><thead><tr>
       <th data-k="rank" class="n">#</th><th data-k="approach">Approach</th><th>Explain</th><th data-k="description">What it does</th>
-      <th data-k="page_f2" class="n">Page F2</th><th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th>
+      <th data-k="robust_score" class="n">Robust</th><th data-k="page_f2" class="n">Page F2</th><th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th>
       <th data-k="pages_missed" class="n">Gold pages missed</th>
-      <th data-k="unseen_page_recall" class="n">Unseen-case page R</th>
+      <th data-k="unseen_clause_recall" class="n">Unseen clause R</th><th data-k="unseen_page_recall" class="n hide-narrow">Unseen page R</th>
       <th data-k="clause_f2" class="n">Clause F2</th><th data-k="clause_precision" class="n hide-narrow">Clause P</th><th data-k="clause_recall" class="n hide-narrow">Clause R</th><th data-k="reg_f2" class="n">Reg F2</th>
       <th data-k="risk_level">Overfit risk</th><th data-k="risk_flags" class="hide-narrow">Why</th><th data-k="completed_at" class="hide-narrow">Last run</th>
     </tr></thead><tbody></tbody></table></div>
@@ -184,11 +184,13 @@ const css = (name) => getComputedStyle(document.documentElement).getPropertyValu
 
 const HOLDOUT = RUNS.filter(r => r.latest && r.case === "holdout-acpe" && r.approach !== "gold-self-check")
   .sort((a, b) => b.page_recall - a.page_recall || b.clause_recall - a.clause_recall);
-const unseen = Object.fromEntries(HOLDOUT.map(r => [r.approach, r.page_recall]));
+// main ranking: Robust score from dashboard_rows.py (robust.py); approaches without an unseen-case run follow, by page F2
 const standings = RUNS.filter(r => r.latest && r.gold === MAIN_GOLD && r.approach !== "gold-self-check")
-  .map(r => ({ ...r, unseen_page_recall: unseen[r.approach] ?? null }))
-  .sort((a, b) => b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach))
-  .map((r, i) => ({ ...r, rank: i + 1 }));
+  .map(r => ({ ...r, robust_score: r.robust_score ?? null, unseen_clause_recall: r.unseen_clause_recall ?? null, unseen_page_recall: r.unseen_page_recall ?? null }))
+  .sort((a, b) => (a.robust_score === null) - (b.robust_score === null) || (b.robust_score ?? 0) - (a.robust_score ?? 0)
+    || b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach))
+  .map((r, i) => ({ ...r, rank: r.robust_score === null ? "–" : i + 1 }));
+const byPageF2 = standings.slice().sort((a, b) => b.page_f2 - a.page_f2 || a.approach.localeCompare(b.approach));
 
 document.getElementById("stamp").textContent = `Data built ${GENERATED} from approaches/leaderboard.json`;
 document.getElementById("t-runs").textContent = RUNS.length;
@@ -196,10 +198,12 @@ if (standings.length) {
   const [top, second] = standings;
   document.getElementById("t-leader").textContent = top.approach;
   document.getElementById("t-f2").textContent = f3(top.page_f2);
-  document.getElementById("t-reg").textContent = f3(top.reg_f2);
-  document.getElementById("takeaway").textContent = second
-    ? `${top.approach} leads on page F2 (${f3(top.page_f2)}, overfit risk ${top.risk_level}), ${f3(top.page_f2 - second.page_f2)} ahead of ${second.approach}.`
-    : `${top.approach} is the only scored approach so far (page F2 ${f3(top.page_f2)}).`;
+  document.getElementById("t-robust").textContent = opt3(top.robust_score);
+  document.getElementById("takeaway").textContent = top.robust_score === null
+    ? `No approach has an unseen-case run yet; ${top.approach} leads on dev page F2 (${f3(top.page_f2)}). Run yours on holdout-acpe to get a Robust score.`
+    : second && second.robust_score !== null
+    ? `${top.approach} leads on the Robust score (${f3(top.robust_score)}: dev page F2 ${f3(top.page_f2)}, unseen clause recall ${f3(top.unseen_clause_recall)}, overfit risk ${top.risk_level}), ${f3(top.robust_score - second.robust_score)} ahead of ${second.approach}.`
+    : `${top.approach} is the only approach with a Robust score so far (${f3(top.robust_score)}).`;
 } else {
   document.getElementById("takeaway").textContent = "No approach has been benchmarked on the dev case yet.";
 }
@@ -208,12 +212,12 @@ function drawBars() {
   const el = document.getElementById("bars"); el.textContent = "";
   if (!window.d3) { el.textContent = "Charts need an internet connection (d3 from cdnjs)."; return; }
   const w = el.clientWidth || 400, rowH = 44, m = { t: 4, r: 52, l: 2 };
-  const h = Math.max(120, standings.length * rowH + 8);
+  const h = Math.max(120, byPageF2.length * rowH + 8);
   const svg = d3.select(el).append("svg").attr("width", "100%").attr("viewBox", `0 0 ${w} ${h}`);
   const x = d3.scaleLinear([0, 1], [m.l, w - m.r]);
   svg.append("g").selectAll("line").data([.25, .5, .75, 1]).join("line").attr("x1", x).attr("x2", x)
     .attr("y1", 0).attr("y2", h).attr("stroke", css("--grid"));
-  const g = svg.append("g").selectAll("g").data(standings).join("g").attr("transform", (r, i) => `translate(0,${m.t + i * rowH})`);
+  const g = svg.append("g").selectAll("g").data(byPageF2).join("g").attr("transform", (r, i) => `translate(0,${m.t + i * rowH})`);
   g.append("text").attr("x", m.l).attr("y", 13).attr("font-size", 12).attr("fill", css("--fg")).text(r => r.approach);
   g.append("rect").attr("x", x(0)).attr("y", 19).attr("height", 18).attr("rx", 4)
     .attr("width", r => Math.max(0, x(r.page_f2) - x(0))).attr("fill", (r, i) => i === 0 ? css("--accent") : css("--muted-bar"));
@@ -271,8 +275,8 @@ function table(id, rows, cols) {
     tbody.appendChild(tr);
   }
 }
-const STAND_COLS = [["rank", String, "n"], ["approach"], ["_explain"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
-  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["unseen_page_recall", opt3, "n"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
+const STAND_COLS = [["rank", String, "n"], ["approach"], ["_explain"], ["description", null, "desc"], ["robust_score", opt3, "n"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
+  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["unseen_clause_recall", opt3, "n"], ["unseen_page_recall", opt3, "n hide-narrow"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
 const RUN_COLS = [["completed_at", when], ["approach"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
   ["clause_f2", opt3, "n"], ["reg_f2", f3, "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]];
 let standRows = standings.slice(), runRows = RUNS.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
