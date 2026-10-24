@@ -1,0 +1,1 @@
+{"name": "tfidf-word", "source": "clauses", "retriever": {"type": "tfidf", "analyzer": "word"}}

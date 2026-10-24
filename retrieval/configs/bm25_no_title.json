@@ -1,0 +1,1 @@
+{"name": "bm25 no title prefix", "source": "clauses", "retriever": {"type": "bm25", "with_title": false}}
