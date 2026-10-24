@@ -1,5 +1,8 @@
 # PDF text extraction
 
+For the shared local vector database, see [VECTOR_DB.md](VECTOR_DB.md). Import with
+`python data-ingestion/import_vectors.py` after installing `data-ingestion/requirements-vectors.txt`.
+
 From the project root in PowerShell:
 
 ```powershell

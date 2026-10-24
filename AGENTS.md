@@ -33,6 +33,24 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 - Shared tools: `approaches/benchmarking/bench.py` (scores + leaderboard), `approaches/benchmarking/dashboard_rows.py`
   (dashboard data).
 
+## Shared vector database
+
+- Importer: `data-ingestion/import_vectors.py`. Install dependencies with
+  `python -m pip install -r data-ingestion/requirements-vectors.txt`, then run
+  `python data-ingestion/import_vectors.py` from the repository root.
+- Shared local LanceDB: `data-ingestion/.cache/lancedb`, table `clauses`. All experiments
+  should reuse this table read-only. Keep experiment-specific derived data in their own caches.
+- Source vectors: `data-ingestion/embeddings/gemini-embedding-2-preview_d768_n26769.npz`.
+  Query vectors must use the same embedding model and 768 dimensions; use cosine distance.
+- Each row stores `clause_id`, `vector_row`, `regulation`, `version`, `paragraph`, `pages`,
+  `text`, and `vector`. Clause IDs use filename stem plus zero-based clause position;
+  citation metadata alone is not unique. Preserve the original corpus order and text.
+- Import verifies every row's citation mapping before writing. It cannot detect changed text
+  with unchanged citations because the NPZ lacks source-text hashes.
+- The database is git-ignored and rebuilt locally from shared source files. No API key or
+  embedding call is needed for import. `--replace` intentionally rebuilds the shared table.
+- See `data-ingestion/VECTOR_DB.md` for usage. Importing data does not produce benchmark predictions.
+
 ## Benchmark and dashboard (standard flow)
 
 1. `python approaches/benchmarking/bench.py <name> approaches/experiments/<name>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json`
