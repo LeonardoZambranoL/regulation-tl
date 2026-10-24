@@ -35,7 +35,10 @@
     "clauses_cited": null,
     "clauses_expected": null,
     "clauses_matched": null,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "2217894c5ca4485fb741782c3aa7dc81",
@@ -73,7 +76,10 @@
     "clauses_cited": 190,
     "clauses_expected": 121,
     "clauses_matched": 20,
-    "latest": false
+    "latest": false,
+    "robust_score": 0.6503278964183622,
+    "unseen_page_recall": 1.0,
+    "unseen_clause_recall": 0.7894736842105263
   },
   {
     "run_id": "b34780ec33534e70bb7f50941f3cf615",
@@ -111,7 +117,10 @@
     "clauses_cited": 307,
     "clauses_expected": 121,
     "clauses_matched": 98,
-    "latest": false
+    "latest": false,
+    "robust_score": 0.790498974709501,
+    "unseen_page_recall": 1.0,
+    "unseen_clause_recall": 0.7368421052631579
   },
   {
     "run_id": "c30250e68f4047fdaffd874f07e0eb62",
@@ -149,7 +158,10 @@
     "clauses_cited": 0,
     "clauses_expected": 121,
     "clauses_matched": 0,
-    "latest": false
+    "latest": false,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "d22de00b526945159ea300124121a8f5",
@@ -187,7 +199,10 @@
     "clauses_cited": 201,
     "clauses_expected": 121,
     "clauses_matched": 25,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "a108a047718d466cba252f4066646c15",
@@ -225,7 +240,10 @@
     "clauses_cited": 217,
     "clauses_expected": 121,
     "clauses_matched": 37,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "62f9da241c1e4373983da86b65a664ba",
@@ -263,7 +281,10 @@
     "clauses_cited": 190,
     "clauses_expected": 121,
     "clauses_matched": 20,
-    "latest": true
+    "latest": true,
+    "robust_score": 0.6503278964183622,
+    "unseen_page_recall": 1.0,
+    "unseen_clause_recall": 0.7894736842105263
   },
   {
     "run_id": "6cbd4fa27d904aac87b954699be87b14",
@@ -301,7 +322,10 @@
     "clauses_cited": 0,
     "clauses_expected": 121,
     "clauses_matched": 0,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "54ddbecfa1194b1d9104f8fdb2ad4ad8",
@@ -339,7 +363,10 @@
     "clauses_cited": 307,
     "clauses_expected": 121,
     "clauses_matched": 98,
-    "latest": true
+    "latest": true,
+    "robust_score": 0.790498974709501,
+    "unseen_page_recall": 1.0,
+    "unseen_clause_recall": 0.7368421052631579
   },
   {
     "run_id": "b37b56394eb5402a97b2989b30f7f449",
@@ -377,7 +404,10 @@
     "clauses_cited": 308,
     "clauses_expected": 121,
     "clauses_matched": 72,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "b59893aa381b4a0ea9e3ec45aa73c941",
@@ -415,7 +445,10 @@
     "clauses_cited": 353,
     "clauses_expected": 121,
     "clauses_matched": 98,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "b1aca91520324fe6b18452e55f7c33fe",
@@ -453,7 +486,10 @@
     "clauses_cited": 389,
     "clauses_expected": 121,
     "clauses_matched": 98,
-    "latest": true
+    "latest": true,
+    "robust_score": 0.8045334575376494,
+    "unseen_page_recall": 0.875,
+    "unseen_clause_recall": 0.8421052631578947
   },
   {
     "run_id": "5d2817d091114c5d9ff85674a91e82dc",
@@ -491,7 +527,10 @@
     "clauses_cited": 439,
     "clauses_expected": 121,
     "clauses_matched": 98,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "623f754c938c4054a533e854f7d52b3c",
@@ -529,7 +568,10 @@
     "clauses_cited": 352,
     "clauses_expected": 121,
     "clauses_matched": 48,
-    "latest": false
+    "latest": false,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "f8b1d4056afd4a73bc9a62da1d3f38ee",
@@ -567,7 +609,10 @@
     "clauses_cited": 352,
     "clauses_expected": 121,
     "clauses_matched": 48,
-    "latest": false
+    "latest": false,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "8702c69f25464adc8786890bc10c8916",
@@ -605,7 +650,10 @@
     "clauses_cited": 352,
     "clauses_expected": 121,
     "clauses_matched": 48,
-    "latest": true
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   },
   {
     "run_id": "444d71e6d99f40b2bfed5496b9a6c5d0",
@@ -643,6 +691,173 @@
     "clauses_cited": 634,
     "clauses_expected": 121,
     "clauses_matched": 111,
-    "latest": true
+    "latest": true,
+    "robust_score": 0.7766832001469643,
+    "unseen_page_recall": 1.0,
+    "unseen_clause_recall": 0.8596491228070176
+  },
+  {
+    "run_id": "12023f9aa06148fca29fd7e870c47434",
+    "approach": "devansh-dynregex-allclauses-neutral",
+    "description": "Claude writes regex patterns from the spec to pick the regulations, then one Claude agent with a product-neutral prompt judges every clause (no shall filter)",
+    "explain": "Built to work on any product, not just the rear lamp. Claude reads only the product description and writes search patterns for its functions and parts; every rulebook whose title and scope match is picked (older rulebooks replaced by newer ones are dropped). Then one Claude agent reads every single rule in the picked rulebooks, not just the ones containing \"shall\", because many rules are written as plain specifications (\"Height: not less than 250 mm\") or as \"is not permitted\". For each rule it answers: does this apply to the product described, yes or no? Every \"yes\" is handed in with its page and paragraph. Its weakness: it reads two to three times more rules, so it costs more, and it can still keep rules from rulebooks that matched by accident.",
+    "explain_source": "the experiment's EXPLAIN.md",
+    "explain_technical": "1. Regulation selection: `regselect` `llm_regex`: `claude-opus-5-5` sees only `spec.md` and returns 6-20 case-insensitive regexes (generic words forbidden); a regulation is selected when any pattern matches its title or paragraph 1 scope; then supersession and vehicle-category filters. Cached per spec.\n2. Candidates: **every** clause of the selected regulations in `data-ingestion/clauses` (`\"candidates\": \"all\"`), no shall / must filter (dev: 6,080 clauses from 8 regulations; holdout-acpe: 5,349 from 10).\n3. Reviewer: one `claude-opus-5-5` agent, effort medium, structured output, batches of 40, 6 parallel requests, cached per batch, with the product-neutral prompt (`classify.NEUTRAL_INSTRUCTIONS`): no product or function names, explains implicit obligations, \"decide from the spec, not from what products of this kind usually have\".\n4. Output: every kept clause as one requirement (clause text, first page, normalised paragraph); no size cut.\n5. Evaluated on dev-rear-lamp and on the unseen holdout-acpe case (R175 answer key); see the dashboard.",
+    "explain_technical_source": "the experiment's EXPLAIN.md",
+    "completed_at": "2026-10-24T18:02:38.156812+00:00",
+    "gold": "8b3002792505",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "case": "holdout-acpe",
+    "page_precision": 0.08888888888888889,
+    "page_recall": 1.0,
+    "page_f1": 0.163265306122449,
+    "page_f2": 0.3278688524590164,
+    "pages_cited": 90,
+    "pages_expected": 8,
+    "pages_missed": 0,
+    "reg_precision": 0.16666666666666666,
+    "reg_recall": 1.0,
+    "reg_f2": 0.5,
+    "regs_cited": 6,
+    "regs_expected": 1,
+    "risk_level": "medium",
+    "risk_flags": "the reviewer prompt's examples of implicit obligations (spec-style lines, 'may ... provided that', 'is not permitted', test instructions) were chosen after looking at which dev gold clauses lacked 'shall'",
+    "uses_llm": true,
+    "deterministic": false,
+    "risk_notes": "No hand-written product rules (spec-generated regex selection), no product-specific examples in the reviewer prompt, no size cut, nothing tuned against dev scores. Also scored on the unseen holdout-acpe case to check that it generalises.",
+    "clause_precision": 0.11611374407582939,
+    "clause_recall": 0.8596491228070176,
+    "clause_f1": 0.2045929018789144,
+    "clause_f2": 0.3769230769230769,
+    "clauses_cited": 422,
+    "clauses_expected": 57,
+    "clauses_matched": 49,
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
+  },
+  {
+    "run_id": "f17f372159cf4c3aaddcc32aa1661806",
+    "approach": "devansh-llm-clause-filter",
+    "description": "rules pick the regulations, then Claude (opus 5.5) keeps or drops each of their 'shall' clauses; every kept clause is cited",
+    "explain": "Picture the 55 UN Regulations as a library of rulebooks. First a simple checklist reads the product description (lamps, a reflector, LEDs on a circuit board) and picks the rulebooks that apply: here 4 of the 55. Then Claude reads every sentence in those 4 rulebooks that says something \"shall\" be done (about 1,200 of them) and answers one question for each: does this rule apply to our rear lamp, yes or no? Every \"yes\" is handed in as a requirement, with the page and paragraph it came from. It finds almost every right page, but it also says \"yes\" to some rules the experts did not list.",
+    "explain_source": "the experiment's EXPLAIN.md",
+    "explain_technical": "1. Regulation selection: `regselect` method `combined`: about 35 regex rules map spec terms to regulation families, then a supersession filter (R148 / R149 / R150 list the regulations they consolidate in their introduction) and a vehicle-category filter from each regulation's paragraph 1 scope. Dev: R48, R148, R150, R10.\n2. Candidates: every clause of those regulations in `data-ingestion/clauses` matching `\\b(shall|must)\\b` (1,240 on dev).\n3. Classifier: `claude-opus-5-5`, effort medium, structured output (JSON schema `{id, applies}`), batches of 40 clauses (text cut at 900 characters) with the full spec and an include / exclude rubric, 6 parallel requests, cached per batch.\n4. Output: every `applies = true` clause as one requirement (clause text, first page, normalised paragraph); no ranking and no size cut (308 on dev).\n5. Dev: page P 0.54 / R 0.98 / F2 0.844, clause F2 0.619, regulation F2 1.0. Overfit risk medium: the rules and the rubric were written while looking at the dev product.",
+    "explain_technical_source": "the experiment's EXPLAIN.md",
+    "completed_at": "2026-10-24T18:02:38.510634+00:00",
+    "gold": "8b3002792505",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "case": "holdout-acpe",
+    "page_precision": 0.16666666666666666,
+    "page_recall": 1.0,
+    "page_f1": 0.2857142857142857,
+    "page_f2": 0.5,
+    "pages_cited": 48,
+    "pages_expected": 8,
+    "pages_missed": 0,
+    "reg_precision": 0.5,
+    "reg_recall": 1.0,
+    "reg_f2": 0.8333333333333334,
+    "regs_cited": 2,
+    "regs_expected": 1,
+    "risk_level": "medium",
+    "risk_flags": "regulation rules written by looking at the dev product; classifier prompt lists clause kinds seen in the dev gold (marking, photometry, installation, EMC)",
+    "uses_llm": true,
+    "deterministic": false,
+    "risk_notes": "No size cut-off and a generic prompt, so less fitted than the retrieval variants; LLM answers vary run to run (cached per batch).",
+    "clause_precision": 0.23076923076923078,
+    "clause_recall": 0.7368421052631579,
+    "clause_f1": 0.35146443514644354,
+    "clause_f2": 0.5121951219512195,
+    "clauses_cited": 182,
+    "clauses_expected": 57,
+    "clauses_matched": 42,
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
+  },
+  {
+    "run_id": "8fbaac2fd8644b2db7adbecf99eecace",
+    "approach": "devansh-dynregex-llm-clause-filter",
+    "description": "Claude writes regex patterns from the spec to pick the regulations, then one Claude agent keeps or drops each shall-clause",
+    "explain": "Nothing is hand-written for the product. Claude reads only the product description (not the list of rulebooks, not the answers) and writes search patterns for its functions and parts, like \"stop lamp\" or \"retro-reflect\". Those patterns are searched in the title and scope of all 55 rulebooks; every rulebook that matches is picked, and older rulebooks replaced by newer ones are dropped. Then one Claude agent reads every rule that says something \"shall\" be done in the picked rulebooks and answers yes or no for this product. Its weakness: the patterns also catch a few rulebooks that do not apply, so the agent must reject their rules.",
+    "explain_source": "the experiment's EXPLAIN.md",
+    "explain_technical": "1. Regulation selection: `regselect` `llm_regex`: `claude-opus-5-5` gets only `spec.md` and returns 6-20 case-insensitive regexes for the product's functions, components, installation and electronics (generic words forbidden); invalid regexes are dropped; each regulation whose title + paragraph 1 scope matches any pattern is selected; then the supersession and vehicle-category filters. Cached per spec in `devansh-toolkit/.cache`.\n2. Candidates: every clause of the selected regulations in `data-ingestion/clauses` matching `\\b(shall|must)\\b`.\n3. Classifier: single agent, `claude-opus-5-5` effort medium, structured output, batches of 40, cached per batch (the devansh-llm-clause-filter prompt).\n4. Output: every kept clause as one requirement; no size cut.",
+    "explain_technical_source": "the experiment's EXPLAIN.md",
+    "completed_at": "2026-10-24T18:02:38.847975+00:00",
+    "gold": "8b3002792505",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "case": "holdout-acpe",
+    "page_precision": 0.0958904109589041,
+    "page_recall": 0.875,
+    "page_f1": 0.17283950617283952,
+    "page_f2": 0.3333333333333333,
+    "pages_cited": 73,
+    "pages_expected": 8,
+    "pages_missed": 1,
+    "reg_precision": 0.16666666666666666,
+    "reg_recall": 1.0,
+    "reg_f2": 0.5,
+    "regs_cited": 6,
+    "regs_expected": 1,
+    "risk_level": "medium",
+    "risk_flags": "classifier prompt gives lighting examples (headlamps, direction indicators) seen in the dev domain",
+    "uses_llm": true,
+    "deterministic": false,
+    "risk_notes": "Regulation selection is generated per spec by the LLM (no hand-written product rules), so it should transfer better than the rules-based variants; the regex prompt was not tuned against dev scores.",
+    "clause_precision": 0.17391304347826086,
+    "clause_recall": 0.8421052631578947,
+    "clause_f1": 0.28828828828828834,
+    "clause_f2": 0.4761904761904762,
+    "clauses_cited": 276,
+    "clauses_expected": 57,
+    "clauses_matched": 48,
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
+  },
+  {
+    "run_id": "cb8936daf4e448c19312624cbacbf13c",
+    "approach": "devansh-bm25-clauses-top190",
+    "description": "rules pick the regulations, BM25+ (bigrams) ranks their clauses from spec queries, cite the top 190 clauses (no LLM)",
+    "explain": "The same checklist picks the rulebooks (4 of 55). Then the search engine scores each individual rule (each numbered paragraph) by how many words it shares with the product description, and the 190 best-matching rules are handed in. It is the simplest baseline: fast and free. Its weakness is that word matching misses rules written in different words and includes rules that only sound similar.",
+    "explain_source": "the experiment's EXPLAIN.md",
+    "explain_technical": "1. Regulation selection: `regselect` `combined` (rules + supersession + vehicle-category filters): R48, R148, R150, R10.\n2. Corpus: `data-ingestion/clauses` of the selected regulations, one chunk per clause (multi-page clauses cited at their first page), regulation title prefixed.\n3. Queries: `spec_queries()` (about 25, from `spec.md`); retriever BM25+ (k1 1.2, b 0.75, delta 1) on unigrams + bigrams; per-query top 400 fused with reciprocal rank fusion (k0 60).\n4. Output: top 190 clauses with paragraph (190 = dev gold size, declared in `risk.json`).\n5. Dev: page P 0.32 / R 0.60 / F2 0.511, clause F2 0.148, regulation F2 1.0.",
+    "explain_technical_source": "the experiment's EXPLAIN.md",
+    "completed_at": "2026-10-24T18:02:39.145106+00:00",
+    "gold": "8b3002792505",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "case": "holdout-acpe",
+    "page_precision": 0.16,
+    "page_recall": 1.0,
+    "page_f1": 0.2758620689655173,
+    "page_f2": 0.4878048780487805,
+    "pages_cited": 50,
+    "pages_expected": 8,
+    "pages_missed": 0,
+    "reg_precision": 0.5,
+    "reg_recall": 1.0,
+    "reg_f2": 0.8333333333333334,
+    "regs_cited": 2,
+    "regs_expected": 1,
+    "risk_level": "medium",
+    "risk_flags": "regulation rules written by looking at the dev product (generic families, but only one case to test them); submission size N=190 equals the dev gold size",
+    "uses_llm": false,
+    "deterministic": true,
+    "risk_notes": "Retrieval baseline; regulation selection is the main dev-specific risk.",
+    "clause_precision": 0.24725274725274726,
+    "clause_recall": 0.7894736842105263,
+    "clause_f1": 0.37656903765690375,
+    "clause_f2": 0.548780487804878,
+    "clauses_cited": 182,
+    "clauses_expected": 57,
+    "clauses_matched": 45,
+    "latest": true,
+    "robust_score": null,
+    "unseen_page_recall": null,
+    "unseen_clause_recall": null
   }
 ]
