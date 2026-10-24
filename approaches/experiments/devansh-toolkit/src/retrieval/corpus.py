@@ -142,12 +142,13 @@ def load_clauses(clause_dir: Path = CLAUSE_DIR, index: dict | None = None) -> li
     for path in sorted(Path(clause_dir).glob("*.json")):
         doc = json.loads(path.read_text(encoding="utf-8"))
         title = index.get(doc["regulation"], {}).get("title", "")
-        for c in doc["clauses"]:
+        for number, c in enumerate(doc["clauses"]):
             if not c["text"].strip() or not c["pages"]:
                 continue
             para = (c["paragraph"] or "").replace(" / ", " ") or None  # "Annex 6 / Part 4 / 3" -> "Annex 6 Part 4 3"
             chunks.append(Chunk(len(chunks), doc["regulation"], doc["version"], c["pages"][0], para,
-                                c["text"].replace("\r\n", "\n"), title, {"pages": c["pages"]}))
+                                c["text"].replace("\r\n", "\n"), title,
+                                {"pages": c["pages"], "clause_id": f"{path.stem}:{number}"}))  # = shared LanceDB id
     return chunks
 
 

@@ -1,0 +1,1906 @@
+{
+  "team_id": "regulation-tl",
+  "case_id": "holdout-acpe",
+  "requirements": [
+    {
+      "id": "R-0001",
+      "text": "3.3. System layout and schematics",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3"
+      }
+    },
+    {
+      "id": "R-0002",
+      "text": "5.3. Failure detection / self-check",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-0003",
+      "text": "5.4. Warning signals",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "R-0004",
+      "text": "Annex 3 Special requirements to be applied to the safety aspects of electronic control systems",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "R-0005",
+      "text": "6.1. If yes, details:",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 11,
+        "paragraph": "Annex 1 6.1"
+      }
+    },
+    {
+      "id": "R-0006",
+      "text": "1.4. Location of that marking: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 1.4"
+      }
+    },
+    {
+      "id": "R-0007",
+      "text": "5.3.3. A failure warning shall also be given to the driver in the case of a detected non-electrical failure condition (e.g. sensor blindness or sensor misalignment) unless a deactivation warning is given as per paragraph 5.2.3.1.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "R-0008",
+      "text": "5.1.1. The ACPE shall be able to limit unintended acceleration of the vehicle when an accelerator control misapplication by the driver has been detected at least: (a) When an obstacle exists in front of the vehicle when the driving direction is selected to be forward, and (b) When an obstacle exists behind the vehicle when the driving direction is selected to be rearwards.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-0009",
+      "text": "2.1. The System\" means an electronic control system or complex electronic control system that provides or forms part of the control transmission of a function to which this Regulation applies. This also includes any other system covered in the scope of this Regulation, as well as transmission links to or from other systems that are outside the scope of this Regulation, that acts on a function to which this Regulation applies.\"",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 2.1"
+      }
+    },
+    {
+      "id": "R-0010",
+      "text": "5.1.4. The ACPE shall control acceleration when the vehicle is accelerated from standstill.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "R-0011",
+      "text": "5.2. Deactivation",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "R-0012",
+      "text": "5.4.2. Intervention warning signal An intervention warning shall be given by an optical signal. In addition, a haptic or acoustic signal shall be provided to the driver, unless such a signal is already being provided by another vehicle system comprising an object detection capability (e.g. parking distance warning). The optical warning signal may be the flashing of the failure warning signal. A description of the warning indication presented to the driver shall be provided by the vehicle manufacturer at the time of type-approval and recorded in the test report.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "R-0013",
+      "text": "38. Electronic control unit (ECU):",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 38"
+      }
+    },
+    {
+      "id": "R-0014",
+      "text": "5.2.3. Automatic deactivation",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "R-0015",
+      "text": "5.3.1. A failure warning shall be given to the driver when there is a failure in the ACPE that prevents the requirements of this Regulation being met. The warning shall be as specified in paragraph 5.4.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "R-0016",
+      "text": "5.2.3.1.1. The vehicle manufacturer shall provide a list of situations and corresponding criteria where the ACPE is automatically deactivated to the technical service at the time of type-approval and it shall be annexed to the test report.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3.1.1"
+      }
+    },
+    {
+      "id": "R-0017",
+      "text": "2.5. \"Higher-Level Electronic Control\" systems/functions are those which employ additional processing and/or sensing provisions to modify vehicle behaviour by commanding variations in the function(s) of the vehicle control system. This allows complex systems to automatically change their objectives with a priority which depends on the sensed circumstances.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.5"
+      }
+    },
+    {
+      "id": "R-0018",
+      "text": "4.1. The functional operation of \"The System\", as laid out in the documents required in paragraph 3., shall be tested as follows:",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1"
+      }
+    },
+    {
+      "id": "R-0019",
+      "text": "4. Verification and test",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4"
+      }
+    },
+    {
+      "id": "R-0020",
+      "text": "6.1. Test surface and environment conditions",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-0021",
+      "text": "0. Introduction Collisions caused by unintended acceleration resulting from a driver applying the accelerator pedal instead of the brake pedal have been seen to increase in recent years. The issue is particularly prevalent in vehicles with automatic transmission, including electric and hybrid vehicles, and is a more notable occurrence for the elderly. This Regulation provides internationally harmonised technical provisions for Accelerator Control for Pedal Error systems (ACPE), which aim to mitigate the consequences of such incidents. ACPE limits the effect of an accelerator pedal application by the driver, and therefore it is important that systems only intervene in cases of genuine error. It is challenging to determine from accident data when misapplication of the accelerator pedal has occurred and therefore to define the characteristics of such incidents. Therefore, this initial phase of the Regulation has focused on those scenarios where it is most unambiguous that an error has occurred (i.e. when the vehicle is stationary and there is a clear obstruction present in the driving direction) and is closely aligned to the Japan New Car Assessment Program (JNCAP) protocol already established for assessing such systems. The ACPE system must also be designed to accommodate any potential conflict with other systems, including Advanced Emergency Braking Systems (AEBS) - as regulated under UN Regulation No.152, whose purpose is to brake the vehicle when an imminent forward collision is detected. AEBS must provide a means for the driver to interrupt the system, for example by kick-down of the accelerator control. ACPE could misinterpret such a kick- down as a pedal confusion, resulting in a conflict between the two systems. This potential regulatory conflict is avoided in this initial phase of the Regulation by only considering the scenario of a stationary subject vehicle. Some vehicle designs intended for very specific uses may jeopardise the functioning robustness of ACP",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 1,
+        "paragraph": "0"
+      }
+    },
+    {
+      "id": "R-0022",
+      "text": "6.3. Test Vehicle",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3"
+      }
+    },
+    {
+      "id": "R-0023",
+      "text": "2.3. \"Electronic Control System\" means a combination of units, designed to co-operate in the production of the stated vehicle control function by electronic data processing. Such systems, often controlled by software, are built from discrete functional components such as sensors, electronic control units and actuators and connected by transmission links. They may include mechanical, electro-pneumatic or electro-hydraulic elements.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.3"
+      }
+    },
+    {
+      "id": "R-0024",
+      "text": "3.4.3. The Manufacturer shall provide the Technical Service with an explanation of the design provisions built into \"The System\" so as to generate safe operation under fault conditions. Possible design provisions for failure in \"The System\" are for example: (a) Fall-back to operation using a partial system. (b) Change-over to a separate back-up system. (c) Removal of the high level function. In case of a failure, the driver shall be warned for example by warning signal or message display. When the system is not deactivated by the driver, e.g. by turning the ignition (run) switch to \"off\", or by switching off that particular function if a special switch is provided for that purpose, the warning shall be present as long as the fault condition persists.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "R-0025",
+      "text": "2. State of ESA during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2"
+      }
+    },
+    {
+      "id": "R-0026",
+      "text": "5.1.11.2. In the case of interruption by maintaining the accelerator control application, there shall be no rapid increase of acceleration.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.2"
+      }
+    },
+    {
+      "id": "R-0027",
+      "text": "4.1.1. Verification of the function of \"The System\" The Technical Service shall verify \"The System\" under non-fault conditions by testing a number of selected functions from those declared by the manufacturer in paragraph 3.2. above. For complex electronic systems, these tests shall include scenarios whereby a declared function is overridden.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.1"
+      }
+    },
+    {
+      "id": "R-0028",
+      "text": "5.2.3.1. When the vehicle is equipped with a means to automatically deactivate the ACPE, for instance in situations such as carrying a bicycle rack or towing a trailer, the following conditions shall apply as appropriate:",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3.1"
+      }
+    },
+    {
+      "id": "R-0029",
+      "text": "5.1.11. Interruption of ACPE by driver",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "R-0030",
+      "text": "4.2.1. Vehicle",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 7,
+        "paragraph": "4.2.1"
+      }
+    },
+    {
+      "id": "R-0031",
+      "text": "5.1.11.1. The ACPE shall provide a means for the driver to interrupt its intervention. This interruption shall be started by any intentional action which indicates that the driver has recognised the situation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.1"
+      }
+    },
+    {
+      "id": "R-0032",
+      "text": "3.6. Description of the measures in place for environmental conditions: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.6"
+      }
+    },
+    {
+      "id": "R-0033",
+      "text": "4. Test setup",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 4"
+      }
+    },
+    {
+      "id": "R-0034",
+      "text": "5.5.2. At the time of type approval, the means to protect against simple unauthorised modification of the operation of the failure warning signal chosen by the manufacturer shall be confidentially outlined. Alternatively, this protection requirement is fulfilled when a secondary means of checking the correct operational status of the ACPE is available.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "R-0035",
+      "text": "1.1. Vehicle make: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "R-0036",
+      "text": "3.2. Description of the functions of \"The System\" A description shall be provided which gives a simple explanation of all the control functions of \"The System\" and the methods employed to achieve the objectives, including a statement of the mechanism(s) by which control is exercised. Any described function that can be over-ridden shall be identified and a further description of the changed rationale of the function’s operation provided.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "R-0037",
+      "text": "5.3.2. There shall not be an appreciable time interval between each ACPE self-check, and subsequently there shall not be a delay in illuminating the warning signal, in the case of an electrically detectable failure. However, if the vehicle speed is greater than 10 km/h at the time a failure is detected, the warning signal may be suppressed until the next time the vehicle speed is below 10 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "R-0038",
+      "text": "6. Vehicle is equipped with ACPE which has been exempted from the relevant requirements (forward and/or rear direction) of this Regulation: yes/no",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 11,
+        "paragraph": "Annex 1 6"
+      }
+    },
+    {
+      "id": "R-0039",
+      "text": "7.4.2. Vehicle type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2"
+      }
+    },
+    {
+      "id": "R-0040",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 137,
+        "paragraph": "Annex 17 2"
+      }
+    },
+    {
+      "id": "R-0041",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "R-0042",
+      "text": "3.8. Results of \"The System\" verification test, as per para. 4.1.1. of Annex 3 to UN Regulation No. [17X]: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.8"
+      }
+    },
+    {
+      "id": "R-0043",
+      "text": "2.2. \"Safety Concept\" is a description of the measures designed into the system, for example within the electronic units, so as to address system integrity and thereby ensure safe operation under fault and non-fault conditions, including in the event of an electrical failure. The possibility of a fall-back to partial operation or even to a back- up system for vital vehicle functions may be a part of the safety concept.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "id": "R-0044",
+      "text": "1. General This annex defines the special requirements for documentation, fault strategy and verification with respect to the safety aspects of Complex Electronic Vehicle Control Systems (paragraph 2.4. below) as far as this Regulation is concerned. This annex shall also apply to safety related functions identified in this Regulation which are controlled by electronic system(s) (paragraph 2.3.) as far as this Regulation is concerned. This annex does not specify the performance criteria for \"The System\" but covers the methodology applied to the design process and the information which must be disclosed to the Technical Service, for type approval purposes. This information shall show that \"The System\" respects, under non-fault and fault conditions, all the appropriate performance requirements specified elsewhere in this Regulation and that it is designed to operate in such a way that it does not induce safety critical risks.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "R-0045",
+      "text": "6.4.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "id": "R-0046",
+      "text": "4. Test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 146,
+        "paragraph": "Annex 22 4"
+      }
+    },
+    {
+      "id": "R-0047",
+      "text": "2.2.1. Vehicle in charging mode 1 or mode 2 (AC power charging without communication).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1"
+      }
+    },
+    {
+      "id": "R-0048",
+      "text": "5.2.1. Short term deactivation When a vehicle is equipped with a means to manually deactivate the ACPE, the ACPE shall be automatically reinstated at the initiation of any new engine start (or run cycle, as relevant). This requirement does not apply when a new engine start (or run cycle, as relevant) is performed automatically, e.g., the operation of a stop/start system. A deactivation warning shall be given at least at the time of deactivation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-0049",
+      "text": "5.2.2. Long term deactivation Notwithstanding paragraph 5.2.1., a vehicle may be equipped with a long term deactivation means to manually deactivate the ACPE, in that case, the system is not required to be reinstated at the initiation of each engine start (or run cycle, as relevant). However, the system shall provide information to the driver by either (a), (b) or (c): (a) A constant optical warning signal shall inform the driver that the ACPE has been deactivated. The yellow warning signal specified in paragraph 5.4.3. may be used for this purpose; (b) The driver shall be periodically informed that the ACPE has been deactivated. In this case this information shall be given for a minimum of 10 seconds or until driver confirmation. This information shall be given at least either every 7 days or every 10 engine starts (or run cycles, as relevant), not counting when a new engine start (or run cycle, as relevant) is performed automatically, e.g. the operation of a stop/start system. This information shall be distinct from the failure warning signal specified in paragraph 5.4.3.; or (c) If deactivation is only for one direction of operation (forward or rearwards), as an alternative to (a) or (b), a constant optical warning shall be given when the corresponding driving direction is selected for the first time following each initiation of the powertrain. The warning shall remain at least until the driving direction is changed. The long-term deactivation process shall be designed in such a way that deactivation shall not be possible with less than two deliberate actions.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "R-0050",
+      "text": "3.5. Documented analyses of the behaviour of \"The System\" under individual hazard or fault conditions: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.5"
+      }
+    },
+    {
+      "id": "R-0051",
+      "text": "3.13. Comments: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.13"
+      }
+    },
+    {
+      "id": "R-0052",
+      "text": "5.2.3.1.3.1. While an Automated Driving System is in control of the vehicle (e.g. ALKS), the ACPE may be suspended or its control strategies adapted without indication to the driver, as long as the risks associated with a pedal misapplication remain mitigated to the same degree as provided by ACPE. The suspension of the ACPE or the adapted control strategies shall be documented and demonstrated by the manufacturer to the Approval Authority during the inspection of the safety concept as part of the assessment to Annex 3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3.1.3.1"
+      }
+    },
+    {
+      "id": "R-0053",
+      "text": "2.1. “Acceleration Control for Pedal Error (ACPE)” means a system to detect misapplication of the accelerator control by the driver and to control unintended acceleration.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "R-0054",
+      "text": "5.4.1.1. The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "R-0055",
+      "text": "3.4.4.1. This documentation shall itemize the parameters being monitored and shall set out, for each fault condition of the type defined in paragraph 3.4.4. of this annex, the warning signal to be given to the driver and/or to service/technical inspection personnel.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 3.4.4.1"
+      }
+    },
+    {
+      "id": "R-0056",
+      "text": "5.3.1.1. It is not required to provide the driver with a failure warning signal to indicate that the ACPE is temporarily not available, for example due to inclement weather conditions.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "R-0057",
+      "text": "7.9.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.2"
+      }
+    },
+    {
+      "id": "R-0058",
+      "text": "5.1.7. During any intervention, the vehicle acceleration shall continue to be limited by the ACPE. The intervention may be ended when the obstacle is no longer detected, or the driver has interrupted the function. The Manufacturer shall declare the ACPE continuation conditions to the technical service.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "R-0059",
+      "text": "1.1. This UN Regulation applies to the type approval of vehicles of Category M11 equipped with automatic transmission with regard to their Acceleration Control for Pedal Error systems (ACPE). 1 As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.6, para. 2 - https://unece.org/transport/standards/transport/vehicle-regulations-wp29/resolutions",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "1.1"
+      }
+    },
+    {
+      "id": "R-0060",
+      "text": "3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 3"
+      }
+    },
+    {
+      "id": "R-0061",
+      "text": "5.1.3. Notwithstanding paragraph 5.1.2., in the case of systems that implement force-based triggering of the ACPE, an accelerator control force greater than the triggering threshold shall be considered as accelerator control misapplication. The manufacturer shall justify the triggering threshold to the satisfaction of the Type Approval Authority.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "R-0062",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 139,
+        "paragraph": "Annex 18 2"
+      }
+    },
+    {
+      "id": "R-0063",
+      "text": "5.4.1. General",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1"
+      }
+    },
+    {
+      "id": "R-0064",
+      "text": "2.1.1.4. All other systems which affect the driver's control of the vehicle shall be (on) as in normal operation of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.4"
+      }
+    },
+    {
+      "id": "R-0065",
+      "text": "5.2.3.1.3. A deactivation warning shall be given at least at the time of deactivation unless a failure warning is given as per paragraph 5.3.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3.1.3"
+      }
+    },
+    {
+      "id": "R-0066",
+      "text": "5.1.4.1. If ACPE is not ready to perform an intervention 6 seconds after the initiation of the vehicle powertrain, information of this status shall be indicated to the driver. This information shall exist until the system has been successfully initialised.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "id": "R-0067",
+      "text": "3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 137,
+        "paragraph": "Annex 17 3"
+      }
+    },
+    {
+      "id": "R-0068",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 141,
+        "paragraph": "Annex 19 2"
+      }
+    },
+    {
+      "id": "R-0069",
+      "text": "5.1.5. The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located between 1.0 m and 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the accelerator control is applied, provided: (a) Vehicle external influences allow for the required acceleration inhibition, i.e.: (i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C); (b) The vehicle state itself allows for the required acceleration inhibition, e.g.: (i) The tyres are in an appropriate state and properly inflated; (ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.); (iii) There is no severe uneven load distribution; (iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and mass in running order conditions; (v) The vehicle’s powertrain management system is properly operational (c) There are no external influences affecting the physical sensing capabilities, i.e.: (i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g. direct blinding sunlight, highly radar-reflective environment); (ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g. below fifth percentile of RCS of all M1 vehicles) (iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain, dense fog, snow, dirt); (iv) There are no overhead obstructions close to the vehicle; (d) The situation is unambiguous, i.e.: (i) The obstacle is stationary, unobstructed, clearly separated from other objects in the driving direction; (ii) The lateral offset between the centreline of the obstacle and the centreline of the vehicle is not more than 0.2 m (iii) The direction of travel is straight with no curve, and ",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "R-0070",
+      "text": "3.3.1. Inventory of components. A list shall be provided, collating all the units of \"The System\" and mentioning the other vehicle systems which are needed to achieve the control function in question. An outline schematic showing these units in combination, shall be provided with both the equipment distribution and the interconnections made clear.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.1"
+      }
+    },
+    {
+      "id": "R-0071",
+      "text": "5.1.10. The ACPE shall inform the driver of its intervention in accordance with paragraph 5.4.2.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "R-0072",
+      "text": "7.8.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.8.2"
+      }
+    },
+    {
+      "id": "R-0073",
+      "text": "5.1.11.3. The fulfilment of these requirements shall be documented and demonstrated by the manufacturer to the Approval Authority during the inspection of the safety concept as part of the assessment to Annex 3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.3"
+      }
+    },
+    {
+      "id": "R-0074",
+      "text": "3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3"
+      }
+    },
+    {
+      "id": "R-0075",
+      "text": "2.10. \"Safety Related Function\" means a function of \"The System\" that is capable of changing the dynamic behaviour of the vehicle. \"The System\" may be capable of performing more than one safety related function.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.10"
+      }
+    },
+    {
+      "id": "R-0076",
+      "text": "1.3. Means of identification of type if marked on the vehicle: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 1.3"
+      }
+    },
+    {
+      "id": "R-0077",
+      "text": "6.4. Test Targets",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "R-0078",
+      "text": "4.1.2. Verification of the safety concept of paragraph 3.4. The reaction of \"The System\" shall be checked under the influence of a failure in any individual unit by applying corresponding output signals to electrical units or mechanical elements in order to simulate the effects of internal faults within the unit. The Technical Service shall conduct this check for at least one individual unit, but shall not check the reaction of \"The System\" to multiple simultaneous failures of individual units. The Technical Service shall verify that these tests include aspects that may have an impact on vehicle controllability and user information (HMI aspects).\"",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.2"
+      }
+    },
+    {
+      "id": "R-0079",
+      "text": "3.4.4.2. This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions e.g. climatic, temperature, dust ingress, water ingress, ice packing.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 3.4.4.2"
+      }
+    },
+    {
+      "id": "R-0080",
+      "text": "4. Test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 144,
+        "paragraph": "Annex 21 4"
+      }
+    },
+    {
+      "id": "R-0081",
+      "text": "Figure 4 Example of a selection of antenna placements for lateral illumination of a large vehicle Dimensions in metres Key θ 3 dB antenna beamwidth D-bumper the distance between the tip or phase centre of the antenna and the nearest part of the vehicle body without considering small extruding elements (such as side mirrors or fenders)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 83,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0082",
+      "text": "6.8.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2"
+      }
+    },
+    {
+      "id": "R-0083",
+      "text": "5.5.1. At a Periodic Technical Inspection, it shall be possible to confirm the correct operational status of the ACPE by a visible observation of the failure warning signal status. Following a “power-ON” and any bulb check, the failure warning signal shall remain illuminated if any failure was present at the end of the previous engine start (or run, as relevant) cycle, unless this failure is detected to be no longer present. In the case of the failure warning signal being in a common space, the common space must be observed to be functional prior to the failure warning signal status check.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "R-0084",
+      "text": "2.9. \"Boundary of functional operation\" defines the boundaries of the external physical limits within which the system is able to maintain control.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.9"
+      }
+    },
+    {
+      "id": "R-0085",
+      "text": "7.13.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.13.2"
+      }
+    },
+    {
+      "id": "R-0086",
+      "text": "7.3.2. Vehicle type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "7.3.2"
+      }
+    },
+    {
+      "id": "R-0087",
+      "text": "2.10.2. The general arrangement of the electrical and/or electronic components, if applicable.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 2,
+        "paragraph": "2.10.2"
+      }
+    },
+    {
+      "id": "R-0088",
+      "text": "5.4.1.2. Each ACPE optical warning signal shall be activated either when the engine start (or run, as relevant) switch is turned to the \"on\" (run) position or when the engine start (or run, as relevant) switch is in a position between the \"on\" (run) and \"start\" position that is designated by the manufacturer as a check position (initial system (power-on)). This requirement does not apply to warning signals shown in a common space.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "R-0089",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 109,
+        "paragraph": "Annex 11 2"
+      }
+    },
+    {
+      "id": "R-0090",
+      "text": "5.1.6.1. In the case of vehicles that do not exceed 8 km/h without ACPE in the test scenarios but for which a speed reduction of 30 per cent cannot be achieved due to a low engine power to test mass ratio, the speed reduction shall be of at least 15 per cent.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "id": "R-0091",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 114,
+        "paragraph": "Annex 12 2"
+      }
+    },
+    {
+      "id": "R-0092",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2"
+      }
+    },
+    {
+      "id": "R-0093",
+      "text": "6.2.4. The accelerator control position shall be measured with an accuracy of +/- 1%. Alternatively, at the choice of the manufacturer. this measurement may be taken from the vehicle’s own position sensor.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "R-0094",
+      "text": "3.9. Results of safety concept verification test, as per para. 4.1.2. of Annex 3 to UN Regulation No. [17X]: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.9"
+      }
+    },
+    {
+      "id": "R-0095",
+      "text": "3.4.1. The Manufacturer shall provide a statement which affirms that the strategy chosen to achieve \"The System\" objectives will not, under non-fault conditions, prejudice the safe operation of the vehicle.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.1"
+      }
+    },
+    {
+      "id": "R-0096",
+      "text": "2.2. Vehicle in configuration \"REESS charging mode coupled to the power grid\".",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.2"
+      }
+    },
+    {
+      "id": "R-0097",
+      "text": "3.3.5.1. The identification defines the hardware and software version and, where the latter changes such as to alter the function of the unit as far as this Regulation is concerned, this identification shall also be changed.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5.1"
+      }
+    },
+    {
+      "id": "R-0098",
+      "text": "7.12.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 21,
+        "paragraph": "7.12.2"
+      }
+    },
+    {
+      "id": "R-0099",
+      "text": "3.2.3. Limits defining the boundaries of functional operation (paragraph 2.9.) shall be stated where appropriate to system performance.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2.3"
+      }
+    },
+    {
+      "id": "R-0100",
+      "text": "2.2.2. Vehicle in charging mode 3 (AC power charging with communication) or mode 4 (DC power charging with communication).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.2"
+      }
+    },
+    {
+      "id": "R-0101",
+      "text": "2.4. Vehicle in charging mode 3 (AC power charging with communication) or mode 4 (DC power charging with communication)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4"
+      }
+    },
+    {
+      "id": "R-0102",
+      "text": "3. Reference point",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 3"
+      }
+    },
+    {
+      "id": "R-0103",
+      "text": "Annex 4 Method of measurement of radiated broadband electromagnetic emissions from vehicles",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 52,
+        "paragraph": "Annex 4"
+      }
+    },
+    {
+      "id": "R-0104",
+      "text": "6.4.1. The target used for the vehicle detection tests shall be a regular high-volume series production passenger car of Category M1 or alternatively a \"soft target\" representative of a passenger vehicle in terms of its identification characteristics applicable to the sensor system of the ACPE under test according to either ISO 19206-1:2018 or ISO 19206-3:2021 at the choice of the manufacturer.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "R-0105",
+      "text": "7.7.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2"
+      }
+    },
+    {
+      "id": "R-0106",
+      "text": "3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 141,
+        "paragraph": "Annex 19 3"
+      }
+    },
+    {
+      "id": "R-0107",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 118,
+        "paragraph": "Annex 13 2"
+      }
+    },
+    {
+      "id": "R-0108",
+      "text": "5.2.3.1.2. The ACPE shall be automatically reactivated as soon as the conditions that led to the automatic deactivation are not present anymore.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.2.3.1.2"
+      }
+    },
+    {
+      "id": "R-0109",
+      "text": "7.2.2. Vehicle broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.2"
+      }
+    },
+    {
+      "id": "R-0110",
+      "text": "Figure 2 ESA in configuration \"REESS charging mode coupled to the power grid\" -Three-phase test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 138,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0111",
+      "text": "6.2.2. Vehicle broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-0112",
+      "text": "5.1.6. In the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the vehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met. In addition, the collision speed shall not be greater than 70% of that speed the vehicle would have had in the same position and under the same circumstances but without any ACPE intervention.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "R-0113",
+      "text": "5.1.2. An accelerator control application having a velocity of at least 400 per cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator control, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall be regarded as an accelerator control misapplication in the context of the paragraph 5.1.1.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "R-0114",
+      "text": "7.11.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 20,
+        "paragraph": "7.11.2"
+      }
+    },
+    {
+      "id": "R-0115",
+      "text": "1.3. Vehicles where installation of means of forward and/or rear detection is incompatible with their on-road use may be exempted from the relevant requirements (forward and/or rear direction) of this Regulation, subject to the decision of the Type Approval Authority.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "1.3"
+      }
+    },
+    {
+      "id": "R-0116",
+      "text": "57. Drawings or photographs of the position of the metal components housed in the engine compartment (e.g. heating appliances, spare wheel, air filter, steering mechanism, etc.):",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 57"
+      }
+    },
+    {
+      "id": "R-0117",
+      "text": "Table 1 Test conditions Driving Distance to target / Tolerance on the Tolerance on the lateral Presence of direction Distance to speed longitudinal distance (offset) distance target measuring point (m) (m) (m) Forward 1.0 + 0.1 +/-0.2 Yes Forward 1.0 + 0.1 N/A No * Forward 1.5 -0.1 +/-0.2 Yes Forward 1.5 -0.1 N/A No * Rearward 1.0 + 0.1 +/-0.2 Yes Rearward 1.0 + 0.1 N/A No ** Rearward 1.5 -0.1 +/-0.2 Yes Rearward 1.5 -0.1 N/A No ** Presence of target: Yes : with ACPE intervention No : without ACPE intervention or with ACPE deactivation * These tests may be combined ** These tests may be combined The procedure for each test shall be as follows: (a) Position the vehicle at a distance to the target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the corresponding driving direction. (c) Accelerate the vehicle, whilst maintaining the steering control in the neutral position, by operating the accelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) before the vehicle reaches a speed of 0.5 km/h. (d) Record the speed at the collision point (if applicable) or the speed at the respective speed measurement point. Before any test is started the vehicle may be driven in the direction of the target for a distance of up to 20 m to the start position and/or the engine may be switched “off” and “on”, if requested by the manufacturer.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "R-0118",
+      "text": "7.18.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 23,
+        "paragraph": "7.18.2"
+      }
+    },
+    {
+      "id": "R-0119",
+      "text": "2.4. \"Complex Electronic Vehicle Control Systems\" are those electronic control systems in which a function controlled by an electronic system or the driver may be over-ridden by a higher level electronic control system/function. A function which is over-ridden become part of the complex system, as well as any overriding system/function within the scope of this Regulation. The transmission links to and from overriding systems/function outside of the scope of this Regulation shall also be included.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.4"
+      }
+    },
+    {
+      "id": "R-0120",
+      "text": "2.3. All equipment which can be switched on permanently by the driver or passenger with internal oscillators > 9 kHz or repetitive signals should be in normal operation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.3"
+      }
+    },
+    {
+      "id": "R-0121",
+      "text": "3. Measuring location",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 3"
+      }
+    },
+    {
+      "id": "R-0122",
+      "text": "7.16.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 23,
+        "paragraph": "7.16.2"
+      }
+    },
+    {
+      "id": "R-0123",
+      "text": "6.5. Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The test procedure shall be as follows: The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direction and at least with the vehicle situated 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) from the target position at the start of the test (as detailed in Table 1).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "R-0124",
+      "text": "5.1. Test methodology",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1"
+      }
+    },
+    {
+      "id": "R-0125",
+      "text": "Appendix 2: Schematics or drawing of the general arrangement of electrical and/or electronic components (concerned by this Regulation) and the general wiring harness arrangement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 48,
+        "paragraph": "Appendix 2"
+      }
+    },
+    {
+      "id": "R-0126",
+      "text": "4. Test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4"
+      }
+    },
+    {
+      "id": "R-0127",
+      "text": "7.15.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.15.2"
+      }
+    },
+    {
+      "id": "R-0128",
+      "text": "Annex 21 Method of testing for immunity of electrical/electronic sub - assemblies (ESAs) to electrical fast transient/burst disturbances conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 143,
+        "paragraph": "Annex 21"
+      }
+    },
+    {
+      "id": "R-0129",
+      "text": "5.4.3. Failure warning signal The failure warning shall be given by a constant yellow optical signal.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "R-0130",
+      "text": "Figure 4 Antenna position for N = 1 (one antenna position to be used) – Horizontal polarization shown Key 1 vehicle under test 2 antenna",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 66,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0131",
+      "text": "3.1. Approval of a vehicle type",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 5,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "R-0132",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 harmonic analyzer 5 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 harmonic analyzer 5 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 111,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0133",
+      "text": "2.8. \"Range of control\" refers to an output variable and defines the range over which the system is likely to exercise control.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.8"
+      }
+    },
+    {
+      "id": "R-0134",
+      "text": "3.4.2. In respect of software employed in \"The System\", the outline architecture shall be explained and the design methods and tools used shall be identified. The manufacturer shall show evidence of the means by which they determined the realisation of the system logic, during the design and development process.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.2"
+      }
+    },
+    {
+      "id": "R-0135",
+      "text": "3.4. Safety concept of the manufacturer",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4"
+      }
+    },
+    {
+      "id": "R-0136",
+      "text": "3. Test Arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 139,
+        "paragraph": "Annex 18 3"
+      }
+    },
+    {
+      "id": "R-0137",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 flicker analyzer 5 impedance simulator 6 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 flicker analyzer 5 impedance simulator 6 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 116,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0138",
+      "text": "3. Measuring location",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 3"
+      }
+    },
+    {
+      "id": "R-0139",
+      "text": "3.4.3.3. If the chosen provision selects the removal of the Higher Level Function, all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3.3"
+      }
+    },
+    {
+      "id": "R-0140",
+      "text": "3.2.2. A list of all output variables which are controlled by \"The System\" shall be provided and an indication given, in each case, of whether the control is direct or via another vehicle system. The range of control (paragraph 2.8.) exercised on each such variable shall be defined.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2.2"
+      }
+    },
+    {
+      "id": "R-0141",
+      "text": "3.1. Requirements The manufacturer shall provide a documentation package which gives access to the basic design of \"The System\" and the means by which it is linked to other vehicle systems or by which it directly controls output variables. The function(s) of \"The System\" and the safety concept, as laid down by the manufacturer, shall be explained. Documentation shall be brief, yet provide evidence that the design and development has had the benefit of expertise from all the system fields which are involved. For periodic technical inspections, the documentation shall describe how the current operational status of \"The System\" can be checked. The Technical Service shall assess the documentation package to show that \"The System\": (a) Is designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical risks; (b) Respects, under non-fault and fault conditions, all the appropriate performance requirements specified elsewhere in this Regulation; and, (c) Was developed according to the development process/method declared by the manufacturer.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "R-0142",
+      "text": "2.1.1. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.1"
+      }
+    },
+    {
+      "id": "R-0143",
+      "text": "2.1. Vehicle in configuration other than \"REESS charging mode coupled to the power grid.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1"
+      }
+    },
+    {
+      "id": "R-0144",
+      "text": "7.9.1. Method of testing",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.1"
+      }
+    },
+    {
+      "id": "R-0145",
+      "text": "6.6.2. ESA narrowband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2"
+      }
+    },
+    {
+      "id": "R-0146",
+      "text": "3.3. A description of the vehicle type with regard to the items mentioned in paragraph 2.2., together with a documentation package which gives access to the basic design of the ACPE and the means by which it is linked to other vehicle systems or by which it directly controls output variables. The numbers and/or symbols identifying the vehicle type shall be specified.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "R-0147",
+      "text": "6.3.2. Vehicle narrowband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "R-0148",
+      "text": "4. Specific test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4"
+      }
+    },
+    {
+      "id": "R-0149",
+      "text": "Annex 2 Arrangements of approval marks (see paragraphs 4.4. to 4.4.2. of this Regulation) a = 8 mm min The above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in Belgium (E 6) with regard to the Acceleration Control for Pedal Error (ACPE) pursuant to UN Regulation No. [17X]. The first two digits of the approval number indicate that the approval was granted in accordance with the requirements of UN Regulation No. [17X] in its original form.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "R-0150",
+      "text": "2.9.2. The general arrangement of the electrical and/or electronic components and the general wiring arrangement;",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 2,
+        "paragraph": "2.9.2"
+      }
+    },
+    {
+      "id": "R-0151",
+      "text": "2.1.1.3. All equipment which can be switched on permanently by the driver or passenger should be in normal operation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.3"
+      }
+    },
+    {
+      "id": "R-0152",
+      "text": "7.15.1. Method of testing",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.15.1"
+      }
+    },
+    {
+      "id": "R-0153",
+      "text": "2.2. The vehicle's electronic systems shall all be in normal operating mode with the vehicle stationary.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.2"
+      }
+    },
+    {
+      "id": "R-0154",
+      "text": "3.3.2. Functions of the units The function of each unit of \"The System\" shall be outlined and the signals linking it with other units or with other vehicle systems shall be shown. This may be provided by a labelled block diagram or other schematic, or by a description aided by such a diagram.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.2"
+      }
+    },
+    {
+      "id": "R-0155",
+      "text": "3.2.1. A list of all input and sensed variables shall be provided and the working range of these defined.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2.1"
+      }
+    },
+    {
+      "id": "R-0156",
+      "text": "44. A brief description of the electrical/electronic components (if any): ........... Brakes",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 44"
+      }
+    },
+    {
+      "id": "R-0157",
+      "text": "5.1.9. Conformity with the safety aspects of electronic control systems shall be shown by meeting the requirements of Annex 3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "R-0158",
+      "text": "7.10.2. ESA broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.10.2"
+      }
+    },
+    {
+      "id": "R-0159",
+      "text": "5.1. Test methodology",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 5.1"
+      }
+    },
+    {
+      "id": "R-0160",
+      "text": "Annex 22 Method of testing for immunity of electrical/electronic sub - assemblies (ESAs) to surges conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 145,
+        "paragraph": "Annex 22"
+      }
+    },
+    {
+      "id": "R-0161",
+      "text": "3.11. This test has been carried out and the results reported in accordance with ….. to UN Regulation No. [17X] as last amended by the ..... series of amendments. Signed: ....................................... Date: ........................................",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 3.11"
+      }
+    },
+    {
+      "id": "R-0162",
+      "text": "2.3. Vehicle in charging mode 1 or mode 2 (AC power charging without communication)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3"
+      }
+    },
+    {
+      "id": "R-0163",
+      "text": "60. A brief description of electrical/electronic components other than lamps (if any):.. Miscellaneous",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 60"
+      }
+    },
+    {
+      "id": "R-0164",
+      "text": "Figure 2 Position of antenna in relation to the vehicle",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 59,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0165",
+      "text": "5.1. Performance Requirements The following performance requirements shall apply to a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-0166",
+      "text": "6.2.1. The speed of the vehicle shall be measured with an accuracy of +/- 0.1 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "R-0167",
+      "text": "4. Test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4"
+      }
+    },
+    {
+      "id": "R-0168",
+      "text": "4. Test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4"
+      }
+    },
+    {
+      "id": "R-0169",
+      "text": "5.1.8. The effectiveness of ACPE shall not be adversely affected by magnetic or electrical fields. This shall be demonstrated by fulfilling the technical requirements and respecting the transitional provisions of the 06 or later series of amendments to UN Regulation No. 10.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "R-0170",
+      "text": "Figure 1 Charging mode configuration for Annex 4 In case of multiple batteries the average state of charge shall be considered. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode. All other equipment which can be switched ON by the driver or passengers shall be OFF. The test set-up for the connection of the vehicle in configuration \"REESS charging mode coupled to the power grid\" is shown in Figures 3a to 3h (depending of AC or DC power charging mode, location of charging plug and charging with or without communication) of Appendix 1 to this Annex.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0171",
+      "text": "4. Test setup",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 4"
+      }
+    },
+    {
+      "id": "R-0172",
+      "text": "6.5.2. ESA broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "R-0173",
+      "text": "Annex 5 Method of measurement of radiated narrowband electromagnetic emissions from vehicles",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5"
+      }
+    },
+    {
+      "id": "R-0174",
+      "text": "7.16.1. Method of testing",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 23,
+        "paragraph": "7.16.1"
+      }
+    },
+    {
+      "id": "R-0175",
+      "text": "43. A brief description of the electrical/electronic components (if any): ........... Steering",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 43"
+      }
+    },
+    {
+      "id": "R-0176",
+      "text": "7.5.2. Vehicle type approval limit for vehicle charged in residential environment",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.2"
+      }
+    },
+    {
+      "id": "R-0177",
+      "text": "6.8. Specifications concerning immunity of ESAs to electromagnetic radiation",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8"
+      }
+    },
+    {
+      "id": "R-0178",
+      "text": "Annex 13 Method(s) of testing for emission of radiofrequency conducted disturbances on AC or DC power lines from vehicles",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 118,
+        "paragraph": "Annex 13"
+      }
+    },
+    {
+      "id": "R-0179",
+      "text": "1.2. Type: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.2"
+      }
+    },
+    {
+      "id": "R-0180",
+      "text": "3.4.3.1. If the chosen provision selects a partial performance mode of operation under certain fault conditions, then these conditions shall be stated and the resulting limits of effectiveness defined.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3.1"
+      }
+    },
+    {
+      "id": "R-0181",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 surge generator 6 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 surge generator 6 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 134,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0182",
+      "text": "Annex 6 Method of testing for immunity of vehicles to electromagnetic radiation",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 70,
+        "paragraph": "Annex 6"
+      }
+    },
+    {
+      "id": "R-0183",
+      "text": "5.1. Test methodology",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 5.1"
+      }
+    },
+    {
+      "id": "R-0184",
+      "text": "Annex 10 Method(s) of testing for immunity to and emission of transients of electrical/electronic sub-assemblies (ESAs)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10"
+      }
+    },
+    {
+      "id": "R-0185",
+      "text": "4.1. Absorber chamber test",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1"
+      }
+    },
+    {
+      "id": "R-0186",
+      "text": "2.1.1. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 2.1.1"
+      }
+    },
+    {
+      "id": "R-0187",
+      "text": "Annex 7 Method of measurement of radiated broadband electromagnetic emissions from electrical/electronic sub ‑ assemblies (ESAs)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7"
+      }
+    },
+    {
+      "id": "R-0188",
+      "text": "6.3.2. Prior to any testing, it shall be ensured that the ACPE is switched on and ready to function.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "R-0189",
+      "text": "Annex 1 Communication (Maximum format: A4 (210 x 297 mm) issued by : (Name of administration) ...................................... ...................................... ...................................... 1Concerning: 2 Approval granted Approval extended Approval refused Approval withdrawn Production definitively discontinued of a type of vehicle with regard to its Acceleration Control for Pedal Error pursuant to UN Regulation No. [17X] Approval No.:..............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 10,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "R-0190",
+      "text": "2.1.3. All other equipment which can be switched ON by the driver or passengers shall be OFF.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 2.1.3"
+      }
+    }
+  ]
+}

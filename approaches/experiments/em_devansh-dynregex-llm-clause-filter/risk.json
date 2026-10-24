@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "classifier prompt gives lighting examples seen in the dev domain (inherited)"
+  ],
+  "notes": "No hand-written product rules; db_k=300 is a round default, not swept on dev."
+}

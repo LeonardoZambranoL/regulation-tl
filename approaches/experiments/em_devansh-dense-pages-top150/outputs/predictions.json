@@ -1,0 +1,1506 @@
+{
+  "team_id": "regulation-tl",
+  "case_id": "dev-rear-lamp",
+  "requirements": [
+    {
+      "id": "R-0001",
+      "text": "2.8. Lens",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 8,
+        "paragraph": "2.8"
+      }
+    },
+    {
+      "id": "R-0002",
+      "text": "6.10. Rear position lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 50,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "R-0003",
+      "text": "6.11. Rear fog lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11"
+      }
+    },
+    {
+      "id": "R-0004",
+      "text": "Figure 1a Rear",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 115,
+        "paragraph": "Figure 1a"
+      }
+    },
+    {
+      "id": "R-0005",
+      "text": "6.4.6.1. Rearwards",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.6.1"
+      }
+    },
+    {
+      "id": "R-0006",
+      "text": "6.8. Rear registration plate lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 47,
+        "paragraph": "6.8"
+      }
+    },
+    {
+      "id": "R-0007",
+      "text": "6.15.4.3. In length: at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.15.4.3"
+      }
+    },
+    {
+      "id": "R-0008",
+      "text": "6.5. Direction-indicator lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "R-0009",
+      "text": "6.11.4.3. In length: at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.4.3"
+      }
+    },
+    {
+      "id": "R-0010",
+      "text": "3.1. Category 1a - tall plate (340 x 240 mm)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 40,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "R-0011",
+      "text": "6.28.5. Projection area",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 81,
+        "paragraph": "6.28.5"
+      }
+    },
+    {
+      "id": "R-0012",
+      "text": "5.11. Rear registration plate illuminating lamp (L, LM1)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 25,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "R-0013",
+      "text": "6.7. Stop lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "id": "R-0014",
+      "text": "6.9. Front position lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 48,
+        "paragraph": "6.9"
+      }
+    },
+    {
+      "id": "R-0015",
+      "text": "Part 3 - Examples of apparent surface based on illuminating surface in different directions of geometric visibility",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 95,
+        "paragraph": "Part 3"
+      }
+    },
+    {
+      "id": "R-0016",
+      "text": "6.13. End-outline marker lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 53,
+        "paragraph": "6.13"
+      }
+    },
+    {
+      "id": "R-0017",
+      "text": "2.4. Lamps generalities",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 3,
+        "paragraph": "2.4"
+      }
+    },
+    {
+      "id": "R-0018",
+      "text": "6.7.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 46,
+        "paragraph": "6.7.4"
+      }
+    },
+    {
+      "id": "R-0019",
+      "text": "Part 1 - Light emitting surface of a light-signalling device other than a retro-reflector",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 94,
+        "paragraph": "Part 1"
+      }
+    },
+    {
+      "id": "R-0020",
+      "text": "5.8. Reversing lamps (AR)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 23,
+        "paragraph": "5.8"
+      }
+    },
+    {
+      "id": "R-0021",
+      "text": "6.14.4.3. In length: at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 55,
+        "paragraph": "6.14.4.3"
+      }
+    },
+    {
+      "id": "R-0022",
+      "text": "6.28. Reversing projection",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.28"
+      }
+    },
+    {
+      "id": "R-0023",
+      "text": "9. Concise description:",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9"
+      }
+    },
+    {
+      "id": "R-0024",
+      "text": "Part 4 - Examples of apparent surface based on light emitting surface in different directions of geometric visibility",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 96,
+        "paragraph": "Part 4"
+      }
+    },
+    {
+      "id": "R-0025",
+      "text": "6.6.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.6.4"
+      }
+    },
+    {
+      "id": "R-0026",
+      "text": "3.5. Category 2b - wide plate (440 x 220 mm)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 41,
+        "paragraph": "Annex 3 3.5"
+      }
+    },
+    {
+      "id": "R-0027",
+      "text": "1. Approval marking of a single light signalling lamp",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 45,
+        "paragraph": "Annex 7 1"
+      }
+    },
+    {
+      "id": "R-0028",
+      "text": "5.5.7. Colour: The colour of light emitted shall be red.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.5.7"
+      }
+    },
+    {
+      "id": "R-0029",
+      "text": "6.21. Conspicuity markings",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.21"
+      }
+    },
+    {
+      "id": "R-0030",
+      "text": "2.6. Signal",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.6"
+      }
+    },
+    {
+      "id": "R-0031",
+      "text": "6.24. Exterior courtesy lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 76,
+        "paragraph": "6.24"
+      }
+    },
+    {
+      "id": "R-0032",
+      "text": "6.9.5. Geometric visibility",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.5"
+      }
+    },
+    {
+      "id": "R-0033",
+      "text": "Annex 3 Examples of lamp surfaces, axes, centres of reference, and angles of geometric visibility These examples show some arrangements to aid the understanding of the provisions and are not intended to be design restrictive. KEY for all examples in this annex: 1. Illuminating surface IO Inner optical part 2. Axis of reference LG Light guide 3. Centre of reference L Outer lens 4. Angle of geometric visibility R Reflector 5. Light-emitting surface S Light source 6. Apparent surface based on the illuminating surface X Not part of this 7a. Apparent surface based on the light-emitting surface according to paragraph 2.10.2. (a) (with function outer lens) F1 Function one 7b. Apparent surface based on the light-emitting surface according to paragraph 2.10.2. (b) F2 Function two (without outer lens)",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 93,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "R-0034",
+      "text": "2.7.1. SM1 category of side marker lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 39,
+        "paragraph": "Annex 3 2.7.1"
+      }
+    },
+    {
+      "id": "R-0035",
+      "text": "5.2. Rear position lamps (R1, R2, MR) and rear end-outline marker lamps, (RM1, RM2)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "R-0036",
+      "text": "6.20. Cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20"
+      }
+    },
+    {
+      "id": "R-0037",
+      "text": "5.9.7. Colour: The colour of light emitted shall be red.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 24,
+        "paragraph": "5.9.7"
+      }
+    },
+    {
+      "id": "R-0038",
+      "text": "6.19.5. Geometric visibility Horizontal: outwards 20° and inwards 20°. Vertical: upwards 10° and downwards 10°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.19.5"
+      }
+    },
+    {
+      "id": "R-0039",
+      "text": "3.3.4. Marking location",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4"
+      }
+    },
+    {
+      "id": "R-0040",
+      "text": "5.3. Parking lamps (77R)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-0041",
+      "text": "5.1. Front position lamps (A, MA) and front end-outline marker lamps (AM)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-0042",
+      "text": "6.5.5. Geometric visibility",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.5"
+      }
+    },
+    {
+      "id": "R-0043",
+      "text": "1.2. Visibility of lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 114,
+        "paragraph": "Annex 9 1.2"
+      }
+    },
+    {
+      "id": "R-0044",
+      "text": "6.3.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4"
+      }
+    },
+    {
+      "id": "R-0045",
+      "text": "Figure A3-III Light distribution for S3 and S4 stop lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 37,
+        "paragraph": "Figure A3-III"
+      }
+    },
+    {
+      "id": "R-0046",
+      "text": "Figure A5-II Retro-reflective material marking of Class F (Standard Element)",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 35,
+        "paragraph": "Figure A5-II"
+      }
+    },
+    {
+      "id": "R-0047",
+      "text": "5.28.1. There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity. However, no account is taken of obstacles, if they were already presented when the lamp was type-approved.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.28.1"
+      }
+    },
+    {
+      "id": "R-0048",
+      "text": "6.13.5. Geometric visibility Horizontal angle: 80° outwards. Vertical angle: 5° above and 20° below the horizontal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 54,
+        "paragraph": "6.13.5"
+      }
+    },
+    {
+      "id": "R-0049",
+      "text": "5.7 Grouped, combined or reciprocally incorporated or single lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "R-0050",
+      "text": "Annex 2 Angles of geometric visibility The angles shown in these arrangements are correct for lamps to be mounted on the right side of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "R-0051",
+      "text": "6.5.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "id": "R-0052",
+      "text": "5.2.6. Colour of the reflected light of the device",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 18,
+        "paragraph": "Annex 5 5.2.6"
+      }
+    },
+    {
+      "id": "R-0053",
+      "text": "Figure 1b Front (trailers only)",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 116,
+        "paragraph": "Figure 1b"
+      }
+    },
+    {
+      "id": "R-0054",
+      "text": "6.27. Answer-back signal",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 79,
+        "paragraph": "6.27"
+      }
+    },
+    {
+      "id": "R-0055",
+      "text": "Figure A3-I: Standard light distribution for front and rear position-, parking-, end-outline marker-, stop- and direction indicator lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 36,
+        "paragraph": "Figure A3-I"
+      }
+    },
+    {
+      "id": "R-0056",
+      "text": "2.11. Colour",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 12,
+        "paragraph": "2.11"
+      }
+    },
+    {
+      "id": "R-0057",
+      "text": "6.26. Manoeuvring lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26"
+      }
+    },
+    {
+      "id": "R-0058",
+      "text": "6.21.6. Orientation",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 66,
+        "paragraph": "6.21.6"
+      }
+    },
+    {
+      "id": "R-0059",
+      "text": "Figure A4-III Measuring geometry for the measurement of retro-reflective devices",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 30,
+        "paragraph": "Figure A4-III"
+      }
+    },
+    {
+      "id": "R-0060",
+      "text": "2.5.7. \"Rear position lamp\" means the lamp used to indicate the presence and width of the vehicle when viewed from the rear.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 5,
+        "paragraph": "2.5.7"
+      }
+    },
+    {
+      "id": "R-0061",
+      "text": "2.6. Standard light distribution for rear fog lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 38,
+        "paragraph": "Annex 3 2.6"
+      }
+    },
+    {
+      "id": "R-0062",
+      "text": "2.3. Vehicle",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 2,
+        "paragraph": "2.3"
+      }
+    },
+    {
+      "id": "R-0063",
+      "text": "5.10.1. Red light emitted by a lamp fitted on the rear of the vehicle (as defined in paragraph 2.1.5.) shall not be visible from the front of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "R-0064",
+      "text": "5.7.2. Single lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.2"
+      }
+    },
+    {
+      "id": "R-0065",
+      "text": "2.11.3. Day-time Colour of the light reflected from a device",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 15,
+        "paragraph": "2.11.3"
+      }
+    },
+    {
+      "id": "R-0066",
+      "text": "6.1. Main-beam headlamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 30,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-0067",
+      "text": "6.18. Side-marker lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.18"
+      }
+    },
+    {
+      "id": "R-0068",
+      "text": "9.24. Conspicuity markings: Rear...................Side",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 90,
+        "paragraph": "Annex 1 9.24"
+      }
+    },
+    {
+      "id": "R-0069",
+      "text": "6.25. Rear-end collision alert signal",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 77,
+        "paragraph": "6.25"
+      }
+    },
+    {
+      "id": "R-0070",
+      "text": "Annex 15 Gonio(photo)meter system used for the photometric measurements as deﬁned in paragraph 2.10.9. of this Regulation",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 121,
+        "paragraph": "Annex 15"
+      }
+    },
+    {
+      "id": "R-0071",
+      "text": "6.2.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 33,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "R-0072",
+      "text": "5.3.5.1.1. Retro-reflective devices shall be made of material coloured red in the mass.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 20,
+        "paragraph": "Annex 5 5.3.5.1.1"
+      }
+    },
+    {
+      "id": "R-0073",
+      "text": "9. Concise description: Lighting and light-signalling devices on the vehicle:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 88,
+        "paragraph": "Annex 1 9"
+      }
+    },
+    {
+      "id": "R-0074",
+      "text": "6.17. Side retro-reflector, non-triangular",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.17"
+      }
+    },
+    {
+      "id": "R-0075",
+      "text": "5.21.3. Paragraph 5.21.2. does not apply to retro-reflectors.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 26,
+        "paragraph": "5.21.3"
+      }
+    },
+    {
+      "id": "R-0076",
+      "text": "Annex 3 Standard light distributions",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 35,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "R-0077",
+      "text": "5.7. Side marker lamps (SM1, SM2)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "R-0078",
+      "text": "Figure A10-III Arrangement example of the approval mark for retro-reflective marking material",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 52,
+        "paragraph": "Figure A10-III"
+      }
+    },
+    {
+      "id": "R-0079",
+      "text": "6.23. Emergency stop signal",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23"
+      }
+    },
+    {
+      "id": "R-0080",
+      "text": "2.1. General",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 1,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "R-0081",
+      "text": "6.2.8. Tell-tale",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 36,
+        "paragraph": "6.2.8"
+      }
+    },
+    {
+      "id": "R-0082",
+      "text": "6.21.7.3. The distance between the conspicuity marking fitted to the rear of a vehicle and each mandatory stop lamp should be greater than 200 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 67,
+        "paragraph": "6.21.7.3"
+      }
+    },
+    {
+      "id": "R-0083",
+      "text": "2.10. Photometry",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 9,
+        "paragraph": "2.10"
+      }
+    },
+    {
+      "id": "R-0084",
+      "text": "2.10.3.3. \"Illuminating surface of a retro-reflector\" (paragraph 2.5.8.) means, as declared by the applicant during the component approval procedure for the retro-reflectors, the orthogonal projection of a retro-reflector in a plane perpendicular to its axis of reference and delimited by planes contiguous to the declared outermost parts of the retro-reflectors' optical system and parallel to that axis. For the purposes of determining the lower, upper and lateral edges of the device, only horizontal and vertical planes shall be considered.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 10,
+        "paragraph": "2.10.3.3"
+      }
+    },
+    {
+      "id": "R-0085",
+      "text": "Table 1 List of symbols Lamp (function) Symbol Paragraph Daytime running lamp RL 5.4. Front direction indicator lamp 1, 1a, 1b, 11, 11a, 11b, 11c 5.6. Front end-outline marker lamp AM 5.1. Front position lamp for category L vehicle MA 5.1. Front position lamp A 5.1. Manoeuvring lamp ML 5.10. Parking lamp (Forward and rearward facing) 77R 5.3. Rear direction indicator lamp (steady) 2a 5.6. Rear direction indicator lamp (variable) 2b 5.6. Rear direction indicator lamp for category L vehicle 12 5.6. Rear end-outline marker lamp (steady) RM1 5.2. Rear end-outline marker lamp (variable) RM2 5.2. Rear fog lamp (steady) F1 5.9. Rear fog lamp (variable) F2 5.9. Rear position lamp for category L vehicle MR 5.2. Rear position lamp (steady) R1 5.2. Lamp (function) Symbol Paragraph Rear position lamp (variable) R2 5.2. Rear-registration plate illuminating lamp L 5.11. Rear-registration plate illuminating lamp for category L vehicle LM1 5.11. Reversing lamp (note: the letters A and R may be mingled) AR 5.8. Side direction indicator lamp 5, 6 5.6. Side marker lamp for all vehicle categories SM1 5.7. Side marker lamp for M1 vehicles SM2 5.7. Stop lamp (central high mounted) (steady) S3 5.5. Stop lamp (central high mounted) (variable) S4 5.5. Stop lamp for category L vehicle MS 5.5. Stop lamp (steady) S1 5.5. Stop lamp (variable) S2 5.5. Reversing projector RP 5.12.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 4,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "R-0086",
+      "text": "5.14. Concealable lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.14"
+      }
+    },
+    {
+      "id": "R-0087",
+      "text": "5.12.7. Colour: The colour of light emitted shall be white.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 27,
+        "paragraph": "5.12.7"
+      }
+    },
+    {
+      "id": "R-0088",
+      "text": "8.2. Shape and dimensions of the support",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 42,
+        "paragraph": "Annex 5 Part 3 8.2"
+      }
+    },
+    {
+      "id": "R-0089",
+      "text": "5.18. Rear position lamps, rear direction-indicators and rear retro-reflectors, triangular as well as non-triangular, may be installed on movable components only:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 25,
+        "paragraph": "5.18"
+      }
+    },
+    {
+      "id": "R-0090",
+      "text": "5.12. Reversing projector (RP)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 26,
+        "paragraph": "5.12"
+      }
+    },
+    {
+      "id": "R-0091",
+      "text": "5.36.3. The light transmitted downwards by light-signalling devices is not considered a reversing projection.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 29,
+        "paragraph": "5.36.3"
+      }
+    },
+    {
+      "id": "R-0092",
+      "text": "1. Test procedure in the case of moulded plastics reflectors as Classes IA, IB, IIIA, IIIB, IVA and advance warning triangle of type 1.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 47,
+        "paragraph": "Annex 7 Part 2 1"
+      }
+    },
+    {
+      "id": "R-0093",
+      "text": "2.1. Initial inclination",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 109,
+        "paragraph": "Annex 6 2.1"
+      }
+    },
+    {
+      "id": "R-0094",
+      "text": "4.5. Lamps as such or grouped, combined, reciprocally incorporated",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "R-0095",
+      "text": "Figure A3-XV Measuring points for plate size 280 x 200 mm",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 42,
+        "paragraph": "Figure A3-XV"
+      }
+    },
+    {
+      "id": "R-0096",
+      "text": "Figure A5-V Rear marking Plates (Class 1 and Class 3)",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 37,
+        "paragraph": "Figure A5-V"
+      }
+    },
+    {
+      "id": "R-0097",
+      "text": "2.2. The illuminating surface may or may not have at its centre a triangular, non-retro-reflecting area, with sides parallel to those of the outer triangle.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 33,
+        "paragraph": "Annex 5 Part 3 2.2"
+      }
+    },
+    {
+      "id": "R-0098",
+      "text": "1.6. Dense traffic situations shall be taken into account.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 118,
+        "paragraph": "Annex 12 1.6"
+      }
+    },
+    {
+      "id": "R-0099",
+      "text": "1. Classes HLV 1, 2, 3, 4 and 5",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 49,
+        "paragraph": "Annex 8 Part 5 1"
+      }
+    },
+    {
+      "id": "R-0100",
+      "text": "Part 3 - Stability of photometric properties",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 32,
+        "paragraph": "Part 3"
+      }
+    },
+    {
+      "id": "R-0101",
+      "text": "4.2. Dimensions",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 34,
+        "paragraph": "Annex 5 Part 3 4.2"
+      }
+    },
+    {
+      "id": "R-0102",
+      "text": "5.15. The colours of the light emitted by the lamps are the following: Main-beam White headlamp: Dipped-beam White headlamp: Front fog lamp: White or selective yellow Reversing lamp: White Direction-indicator Amber lamp: Hazard warning Amber signal: Stop lamp: Red Emergency stop Amber or red signal : Rear-end collision Amber alert signal: Rear registration White plate lamp: Front position lamp: White Rear position lamp: Red Front fog lamp White or selective yellow Rear fog lamp: Red Parking lamp: White in front, red at the rear, amber if reciprocally incorporated in the side direction-indicator lamps or in the side-marker lamps. Side-marker lamp: Amber; however the rearmost side- marker lamp can be red if it is grouped or combined or reciprocally incorporated with the rear position lamp, the rear end-outline marker lamp, the rear fog lamp, the stop lamp or is grouped or has part of the light emitting surface in common with the rear retro-reflector. End-outline marker White in front, red at the rear lamp: Daytime running White lamp: Rear retro-reflector, Red non- triangular: Rear retro-reflector, Red triangular: Front retro-reflector, Identical to incident light8 non- triangular: Side retro-reflector, Amber; however the rearmost side retro-reflector can be red if it is grouped or has part of the light non- triangular: emitting surface in common with the rear position lamp, the rear end outline marker lamp, the rear fog lamp, the stop-lamp, the red rearmost side-marker lamp or the rear retro-reflector, non- triangular. Cornering lamp: White Conspicuity White to the front; marking: White or yellow to the side; Red or yellow to the rear.9 Adaptive front- White lighting systems (AFS): Exterior courtesy White lamp: Exterior courtesy In addition, in accordance with the individual specifications applicable to the specific lamp used for lamp: the exterior courtesy lamp. Manoeuvring lamp: White Answer-back signal: In accordance with the individual specifications applicable to",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "R-0103",
+      "text": "5.5. Stop lamps (S1, S2, S3, S4, MS)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "R-0104",
+      "text": "3.8.2. The device shall not show a perceptible change in local sensitivity within the area of its aperture; otherwise suitable provisions shall be added, e.g. the application of a diffusing window at a certain distance in front of the sensitive surface.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 31,
+        "paragraph": "Annex 5 Part 1 3.8.2"
+      }
+    },
+    {
+      "id": "R-0105",
+      "text": "3. Dimensional and physical specifications for the photometry of retro-reflective devices",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 29,
+        "paragraph": "Annex 5 Part 1 3"
+      }
+    },
+    {
+      "id": "R-0106",
+      "text": "6.21.4.1. Width",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 64,
+        "paragraph": "6.21.4.1"
+      }
+    },
+    {
+      "id": "R-0107",
+      "text": "2.4.1. Drawing vehicles for semi-trailers:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 108,
+        "paragraph": "Annex 5 2.4.1"
+      }
+    },
+    {
+      "id": "R-0108",
+      "text": "Annex 8 Testing procedures with respect to light sources",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 47,
+        "paragraph": "Annex 8"
+      }
+    },
+    {
+      "id": "R-0109",
+      "text": "6.2. Dipped-beam headlamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 32,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "R-0110",
+      "text": "Annex 4 Visibility of a red lamp to the front and visibility of a white lamp to the rear (See paragraph 5.10.4. of this Regulation) In their respective planes, the zones 1 and 2 explored by the eye of the observer are bounded: - In height, by two horizontal planes 1 m and 2.2 m respectively above the ground; - In width, by two vertical planes which, forming to the front and to the rear respectively an angle of 15° outwards from the vehicle's median longitudinal plane, pass through the point or points of contact of vertical planes parallel to the vehicle's median longitudinal plane delimiting the vehicle's overall width; if there are several points of contact, the foremost shall correspond to the forward plane and the rearmost to the rearward plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 106,
+        "paragraph": "Annex 4"
+      }
+    },
+    {
+      "id": "R-0111",
+      "text": "5.30.1. Especially in case of light-signalling lamps incorporating a manufacturer logo, the lamp shall be type approved according to the requirements of the UN Regulation No. 148.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 28,
+        "paragraph": "5.30.1"
+      }
+    },
+    {
+      "id": "R-0112",
+      "text": "Part 5 - Example of illuminating surface in comparison with light-emitting surface in the case of a \"single function lamp\" (see paragraphs 2.10.2. to 2.10.3. of this Regulation) Examples of a light source with a reflector optic behind an outer lens: Example 1 Example 2 [figure not available] (Including the outer lens) (Excluding the non-textured outer lens) Examples of a light source with a reflector optic with a inner lens behind an outer lens: Example 3 Example 4 (Including the outer lens) (Excluding the non-textured outer lens) Examples of a light source with a reflector optic with a partial inner lens behind an outer lens: Example 5 Example 6 (Including the outer lens) (Excluding the non-textured outer lens) Example of a light guide optic behind an outer lens: Example 7 Example of a light guide optic or a reflector optic behind an outer lens: Example 8 Example of a light source with a reflector optic in combination with an area which is not part of this function, behind an outer lens: Example 9",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 97,
+        "paragraph": "Part 5"
+      }
+    },
+    {
+      "id": "R-0113",
+      "text": "Part 3 - Alternative test procedures of resistance to water penetration for retro-reflective devices of the Classes IB and IIIB",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 43,
+        "paragraph": "Part 3"
+      }
+    },
+    {
+      "id": "R-0114",
+      "text": "5.16. Number of lamps",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 24,
+        "paragraph": "5.16"
+      }
+    },
+    {
+      "id": "R-0115",
+      "text": "5.1.5. Colour of the reflected light of the device:",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 13,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "R-0116",
+      "text": "5.2.5. Minimum values for the coefficient of retro-reflection Photometric specifications for retro-reflective marking materials and plates:",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 17,
+        "paragraph": "Annex 5 5.2.5"
+      }
+    },
+    {
+      "id": "R-0117",
+      "text": "Part 6 - Resistance to weathering",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 46,
+        "paragraph": "Part 6"
+      }
+    },
+    {
+      "id": "R-0118",
+      "text": "9.32. Reversing projection: yes/no2",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 91,
+        "paragraph": "Annex 1 9.32"
+      }
+    },
+    {
+      "id": "R-0119",
+      "text": "12.8.2. For vehicles of categories M, N1, O1 and O2:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 86,
+        "paragraph": "12.8.2"
+      }
+    },
+    {
+      "id": "R-0120",
+      "text": "2.11.4. Day-time colour of the fluorescent a device",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 16,
+        "paragraph": "2.11.4"
+      }
+    },
+    {
+      "id": "R-0121",
+      "text": "2.4.16. Definitions with regard to retro-reflectors:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 4,
+        "paragraph": "2.4.16"
+      }
+    },
+    {
+      "id": "R-0122",
+      "text": "Part 4 - Resistance to impact",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 48,
+        "paragraph": "Part 4"
+      }
+    },
+    {
+      "id": "R-0123",
+      "text": "6.22.9. Other requirements",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 73,
+        "paragraph": "6.22.9"
+      }
+    },
+    {
+      "id": "R-0124",
+      "text": "Annex 11 Guidelines for installation of rear marking plates on slow-moving vehicles (by construction) and their trailers",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 53,
+        "paragraph": "Annex 11"
+      }
+    },
+    {
+      "id": "R-0125",
+      "text": "4.2. Principle of the method",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 50,
+        "paragraph": "Annex 9 4.2"
+      }
+    },
+    {
+      "id": "R-0126",
+      "text": "3.3.1. General provisions",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1"
+      }
+    },
+    {
+      "id": "R-0127",
+      "text": "Part 5 - Resistance of the accessible rear face of mirror-backed retro-reflective devices",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 45,
+        "paragraph": "Part 5"
+      }
+    },
+    {
+      "id": "R-0128",
+      "text": "5.1. Technical requirements concerning retro-reflectors of the Classes IA and IB (Symbols \"IA\" and \"IB\")",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 11,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-0129",
+      "text": "Annex 5 Minimum requirements for sampling by an inspector",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 43,
+        "paragraph": "Annex 5"
+      }
+    },
+    {
+      "id": "R-0130",
+      "text": "Figure A5-VII Example of a slow-moving vehicle plate",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 39,
+        "paragraph": "Figure A5-VII"
+      }
+    },
+    {
+      "id": "R-0131",
+      "text": "1.3. Lamps with apparent defects are disregarded.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 44,
+        "paragraph": "Annex 5 1.3"
+      }
+    },
+    {
+      "id": "R-0132",
+      "text": "4.8.3. Luminous intensities",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.3"
+      }
+    },
+    {
+      "id": "R-0133",
+      "text": "6.18.4. Position",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 59,
+        "paragraph": "6.18.4"
+      }
+    },
+    {
+      "id": "R-0134",
+      "text": "3.1. Application for approval",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 2,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "R-0135",
+      "text": "Annex 9 Control of conformity of production",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 113,
+        "paragraph": "Annex 9"
+      }
+    },
+    {
+      "id": "R-0136",
+      "text": "2.10.17. \"Illumination of the retro-reflective device\" is the abbreviated expression used conventionally to designate the illumination measured in a plane perpendicular to the incident rays and passing through the centre of reference.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 11,
+        "paragraph": "2.10.17"
+      }
+    },
+    {
+      "id": "R-0137",
+      "text": "3.3.2.5.1.1. The arrow shall be directed outwards from the vehicle in the case of: (a) Direction indicators categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12; (b) Front or rear position lamps, front or rear end-outline marker lamps; (c) Reversing lamps in case of reduced light distribution of two reversing lamps.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.1"
+      }
+    },
+    {
+      "id": "R-0138",
+      "text": "Annex 12 Test drive",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 117,
+        "paragraph": "Annex 12"
+      }
+    },
+    {
+      "id": "R-0139",
+      "text": "6.21.4.2.1.2. For trailers, each end of the vehicle (excluding the drawbar).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 65,
+        "paragraph": "6.21.4.2.1.2"
+      }
+    },
+    {
+      "id": "R-0140",
+      "text": "5.2. Technical requirements concerning retro-reflective marking materials and plates",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 16,
+        "paragraph": "Annex 5 5.2"
+      }
+    },
+    {
+      "id": "R-0141",
+      "text": "Part 1 - Photometric measurements of retro-reflective devices",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 27,
+        "paragraph": "Part 1"
+      }
+    },
+    {
+      "id": "R-0142",
+      "text": "Part D: Rear-registration plate illuminating lamp, field of visibility Figures A2-IV Field of visibility, horizontal and vertical Vertical section Horizontal section",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 34,
+        "paragraph": "Part D"
+      }
+    },
+    {
+      "id": "R-0143",
+      "text": "9.12. Rear position lamps: yes/no2........................ 2Strike out which does not apply.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 89,
+        "paragraph": "Annex 1 9.12"
+      }
+    },
+    {
+      "id": "R-0144",
+      "text": "12.1 General",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 83,
+        "paragraph": "12.1"
+      }
+    },
+    {
+      "id": "R-0145",
+      "text": "3. Measuring location",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 3"
+      }
+    },
+    {
+      "id": "R-0146",
+      "text": "Figure A7-V - Marking example 5 Light source module marking MD E3 17325 The light source module bearing the identification code shown above has been approved together with a lamp approved in Italy (E3) under approval number 17325.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 46,
+        "paragraph": "Figure A7-V"
+      }
+    },
+    {
+      "id": "R-0147",
+      "text": "2.3.1. SMV rear marking plate class: 2.4. for the rear marking plate type:",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 24,
+        "paragraph": "Annex 5 2.3.1"
+      }
+    },
+    {
+      "id": "R-0148",
+      "text": "6.5.6. Orientation According to the specifications for installation by the manufacturer, if any.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.6"
+      }
+    },
+    {
+      "id": "R-0149",
+      "text": "6.22.6.1. Vertical inclination:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 70,
+        "paragraph": "6.22.6.1"
+      }
+    },
+    {
+      "id": "R-0150",
+      "text": "3.2.5. The symbols identifying the retro-reflective devices to be referenced in the Annex 1 shall be as follows:",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 5,
+        "paragraph": "3.2.5"
+      }
+    }
+  ]
+}

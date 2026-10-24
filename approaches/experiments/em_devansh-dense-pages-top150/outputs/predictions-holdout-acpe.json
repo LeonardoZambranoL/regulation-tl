@@ -1,0 +1,1336 @@
+{
+  "team_id": "regulation-tl",
+  "case_id": "holdout-acpe",
+  "requirements": [
+    {
+      "id": "R-0001",
+      "text": "3.3. System layout and schematics",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3"
+      }
+    },
+    {
+      "id": "R-0002",
+      "text": "5.3. Failure detection / self-check",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-0003",
+      "text": "5.4. Warning signals",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "R-0004",
+      "text": "Annex 3 Special requirements to be applied to the safety aspects of electronic control systems",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "R-0005",
+      "text": "6.1. If yes, details:",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 11,
+        "paragraph": "Annex 1 6.1"
+      }
+    },
+    {
+      "id": "R-0006",
+      "text": "1.4. Location of that marking: ...............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 1.4"
+      }
+    },
+    {
+      "id": "R-0007",
+      "text": "5.1.1. The ACPE shall be able to limit unintended acceleration of the vehicle when an accelerator control misapplication by the driver has been detected at least: (a) When an obstacle exists in front of the vehicle when the driving direction is selected to be forward, and (b) When an obstacle exists behind the vehicle when the driving direction is selected to be rearwards.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-0008",
+      "text": "5.2. Deactivation",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "R-0009",
+      "text": "38. Electronic control unit (ECU):",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 47,
+        "paragraph": "Annex 2A 38"
+      }
+    },
+    {
+      "id": "R-0010",
+      "text": "2.5. \"Higher-Level Electronic Control\" systems/functions are those which employ additional processing and/or sensing provisions to modify vehicle behaviour by commanding variations in the function(s) of the vehicle control system. This allows complex systems to automatically change their objectives with a priority which depends on the sensed circumstances.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 2.5"
+      }
+    },
+    {
+      "id": "R-0011",
+      "text": "4.1. The functional operation of \"The System\", as laid out in the documents required in paragraph 3., shall be tested as follows:",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1"
+      }
+    },
+    {
+      "id": "R-0012",
+      "text": "0. Introduction Collisions caused by unintended acceleration resulting from a driver applying the accelerator pedal instead of the brake pedal have been seen to increase in recent years. The issue is particularly prevalent in vehicles with automatic transmission, including electric and hybrid vehicles, and is a more notable occurrence for the elderly. This Regulation provides internationally harmonised technical provisions for Accelerator Control for Pedal Error systems (ACPE), which aim to mitigate the consequences of such incidents. ACPE limits the effect of an accelerator pedal application by the driver, and therefore it is important that systems only intervene in cases of genuine error. It is challenging to determine from accident data when misapplication of the accelerator pedal has occurred and therefore to define the characteristics of such incidents. Therefore, this initial phase of the Regulation has focused on those scenarios where it is most unambiguous that an error has occurred (i.e. when the vehicle is stationary and there is a clear obstruction present in the driving direction) and is closely aligned to the Japan New Car Assessment Program (JNCAP) protocol already established for assessing such systems. The ACPE system must also be designed to accommodate any potential conflict with other systems, including Advanced Emergency Braking Systems (AEBS) - as regulated under UN Regulation No.152, whose purpose is to brake the vehicle when an imminent forward collision is detected. AEBS must provide a means for the driver to interrupt the system, for example by kick-down of the accelerator control. ACPE could misinterpret such a kick- down as a pedal confusion, resulting in a conflict between the two systems. This potential regulatory conflict is avoided in this initial phase of the Regulation by only considering the scenario of a stationary subject vehicle. Some vehicle designs intended for very specific uses may jeopardise the functioning robustness of ACP",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 1,
+        "paragraph": "0"
+      }
+    },
+    {
+      "id": "R-0013",
+      "text": "6.3. Test Vehicle",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3"
+      }
+    },
+    {
+      "id": "R-0014",
+      "text": "3.4.3. The Manufacturer shall provide the Technical Service with an explanation of the design provisions built into \"The System\" so as to generate safe operation under fault conditions. Possible design provisions for failure in \"The System\" are for example: (a) Fall-back to operation using a partial system. (b) Change-over to a separate back-up system. (c) Removal of the high level function. In case of a failure, the driver shall be warned for example by warning signal or message display. When the system is not deactivated by the driver, e.g. by turning the ignition (run) switch to \"off\", or by switching off that particular function if a special switch is provided for that purpose, the warning shall be present as long as the fault condition persists.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "R-0015",
+      "text": "2. State of ESA during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2"
+      }
+    },
+    {
+      "id": "R-0016",
+      "text": "4.2.1. Vehicle",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 7,
+        "paragraph": "4.2.1"
+      }
+    },
+    {
+      "id": "R-0017",
+      "text": "4. Test setup",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 4"
+      }
+    },
+    {
+      "id": "R-0018",
+      "text": "7.4.2. Vehicle type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2"
+      }
+    },
+    {
+      "id": "R-0019",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 137,
+        "paragraph": "Annex 17 2"
+      }
+    },
+    {
+      "id": "R-0020",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "R-0021",
+      "text": "6.4.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "id": "R-0022",
+      "text": "4. Test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 146,
+        "paragraph": "Annex 22 4"
+      }
+    },
+    {
+      "id": "R-0023",
+      "text": "2.2.1. Vehicle in charging mode 1 or mode 2 (AC power charging without communication).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1"
+      }
+    },
+    {
+      "id": "R-0024",
+      "text": "2.1. “Acceleration Control for Pedal Error (ACPE)” means a system to detect misapplication of the accelerator control by the driver and to control unintended acceleration.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "R-0025",
+      "text": "7.9.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.2"
+      }
+    },
+    {
+      "id": "R-0026",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 139,
+        "paragraph": "Annex 18 2"
+      }
+    },
+    {
+      "id": "R-0027",
+      "text": "2.1.1.4. All other systems which affect the driver's control of the vehicle shall be (on) as in normal operation of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.4"
+      }
+    },
+    {
+      "id": "R-0028",
+      "text": "2. ESA state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 141,
+        "paragraph": "Annex 19 2"
+      }
+    },
+    {
+      "id": "R-0029",
+      "text": "3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3"
+      }
+    },
+    {
+      "id": "R-0030",
+      "text": "4. Test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 144,
+        "paragraph": "Annex 21 4"
+      }
+    },
+    {
+      "id": "R-0031",
+      "text": "Figure 4 Example of a selection of antenna placements for lateral illumination of a large vehicle Dimensions in metres Key θ 3 dB antenna beamwidth D-bumper the distance between the tip or phase centre of the antenna and the nearest part of the vehicle body without considering small extruding elements (such as side mirrors or fenders)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 83,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0032",
+      "text": "6.8.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2"
+      }
+    },
+    {
+      "id": "R-0033",
+      "text": "7.13.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.13.2"
+      }
+    },
+    {
+      "id": "R-0034",
+      "text": "7.3.2. Vehicle type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "7.3.2"
+      }
+    },
+    {
+      "id": "R-0035",
+      "text": "2.10.2. The general arrangement of the electrical and/or electronic components, if applicable.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 2,
+        "paragraph": "2.10.2"
+      }
+    },
+    {
+      "id": "R-0036",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 109,
+        "paragraph": "Annex 11 2"
+      }
+    },
+    {
+      "id": "R-0037",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 114,
+        "paragraph": "Annex 12 2"
+      }
+    },
+    {
+      "id": "R-0038",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2"
+      }
+    },
+    {
+      "id": "R-0039",
+      "text": "7.12.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 21,
+        "paragraph": "7.12.2"
+      }
+    },
+    {
+      "id": "R-0040",
+      "text": "2.4. Vehicle in charging mode 3 (AC power charging with communication) or mode 4 (DC power charging with communication)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4"
+      }
+    },
+    {
+      "id": "R-0041",
+      "text": "3. Reference point",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 3"
+      }
+    },
+    {
+      "id": "R-0042",
+      "text": "Annex 4 Method of measurement of radiated broadband electromagnetic emissions from vehicles",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 52,
+        "paragraph": "Annex 4"
+      }
+    },
+    {
+      "id": "R-0043",
+      "text": "7.7.2. Vehicle immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2"
+      }
+    },
+    {
+      "id": "R-0044",
+      "text": "2. Vehicle state during tests",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 118,
+        "paragraph": "Annex 13 2"
+      }
+    },
+    {
+      "id": "R-0045",
+      "text": "7.2.2. Vehicle broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.2"
+      }
+    },
+    {
+      "id": "R-0046",
+      "text": "Figure 2 ESA in configuration \"REESS charging mode coupled to the power grid\" -Three-phase test set-up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 138,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0047",
+      "text": "6.2.2. Vehicle broadband type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-0048",
+      "text": "7.11.2. ESA type approval limit",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 20,
+        "paragraph": "7.11.2"
+      }
+    },
+    {
+      "id": "R-0049",
+      "text": "Table 1 Test conditions Driving Distance to target / Tolerance on the Tolerance on the lateral Presence of direction Distance to speed longitudinal distance (offset) distance target measuring point (m) (m) (m) Forward 1.0 + 0.1 +/-0.2 Yes Forward 1.0 + 0.1 N/A No * Forward 1.5 -0.1 +/-0.2 Yes Forward 1.5 -0.1 N/A No * Rearward 1.0 + 0.1 +/-0.2 Yes Rearward 1.0 + 0.1 N/A No ** Rearward 1.5 -0.1 +/-0.2 Yes Rearward 1.5 -0.1 N/A No ** Presence of target: Yes : with ACPE intervention No : without ACPE intervention or with ACPE deactivation * These tests may be combined ** These tests may be combined The procedure for each test shall be as follows: (a) Position the vehicle at a distance to the target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the corresponding driving direction. (c) Accelerate the vehicle, whilst maintaining the steering control in the neutral position, by operating the accelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) before the vehicle reaches a speed of 0.5 km/h. (d) Record the speed at the collision point (if applicable) or the speed at the respective speed measurement point. Before any test is started the vehicle may be driven in the direction of the target for a distance of up to 20 m to the start position and/or the engine may be switched “off” and “on”, if requested by the manufacturer.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "R-0050",
+      "text": "7.18.2. ESA immunity type approval limits",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 23,
+        "paragraph": "7.18.2"
+      }
+    },
+    {
+      "id": "R-0051",
+      "text": "3. Measuring location",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 3"
+      }
+    },
+    {
+      "id": "R-0052",
+      "text": "5.1. Test methodology",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1"
+      }
+    },
+    {
+      "id": "R-0053",
+      "text": "Appendix 2: Schematics or drawing of the general arrangement of electrical and/or electronic components (concerned by this Regulation) and the general wiring harness arrangement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 48,
+        "paragraph": "Appendix 2"
+      }
+    },
+    {
+      "id": "R-0054",
+      "text": "4. Test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4"
+      }
+    },
+    {
+      "id": "R-0055",
+      "text": "Annex 21 Method of testing for immunity of electrical/electronic sub - assemblies (ESAs) to electrical fast transient/burst disturbances conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 143,
+        "paragraph": "Annex 21"
+      }
+    },
+    {
+      "id": "R-0056",
+      "text": "Figure 4 Antenna position for N = 1 (one antenna position to be used) – Horizontal polarization shown Key 1 vehicle under test 2 antenna",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 66,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0057",
+      "text": "3.1. Approval of a vehicle type",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 5,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "R-0058",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 harmonic analyzer 5 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 harmonic analyzer 5 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 111,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0059",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 flicker analyzer 5 impedance simulator 6 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 flicker analyzer 5 impedance simulator 6 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 116,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0060",
+      "text": "2.1.1. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.1"
+      }
+    },
+    {
+      "id": "R-0061",
+      "text": "2.1. Vehicle in configuration other than \"REESS charging mode coupled to the power grid.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1"
+      }
+    },
+    {
+      "id": "R-0062",
+      "text": "3.3. A description of the vehicle type with regard to the items mentioned in paragraph 2.2., together with a documentation package which gives access to the basic design of the ACPE and the means by which it is linked to other vehicle systems or by which it directly controls output variables. The numbers and/or symbols identifying the vehicle type shall be specified.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "R-0063",
+      "text": "4. Specific test requirements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4"
+      }
+    },
+    {
+      "id": "R-0064",
+      "text": "Annex 22 Method of testing for immunity of electrical/electronic sub - assemblies (ESAs) to surges conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 145,
+        "paragraph": "Annex 22"
+      }
+    },
+    {
+      "id": "R-0065",
+      "text": "Figure 2 Position of antenna in relation to the vehicle",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 59,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0066",
+      "text": "Figure 1 Charging mode configuration for Annex 4 In case of multiple batteries the average state of charge shall be considered. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode. All other equipment which can be switched ON by the driver or passengers shall be OFF. The test set-up for the connection of the vehicle in configuration \"REESS charging mode coupled to the power grid\" is shown in Figures 3a to 3h (depending of AC or DC power charging mode, location of charging plug and charging with or without communication) of Appendix 1 to this Annex.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0067",
+      "text": "7.5.2. Vehicle type approval limit for vehicle charged in residential environment",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.2"
+      }
+    },
+    {
+      "id": "R-0068",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 surge generator 6 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 surge generator 6 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 134,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0069",
+      "text": "Annex 6 Method of testing for immunity of vehicles to electromagnetic radiation",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 70,
+        "paragraph": "Annex 6"
+      }
+    },
+    {
+      "id": "R-0070",
+      "text": "Annex 10 Method(s) of testing for immunity to and emission of transients of electrical/electronic sub-assemblies (ESAs)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10"
+      }
+    },
+    {
+      "id": "R-0071",
+      "text": "Annex 1 Communication (Maximum format: A4 (210 x 297 mm) issued by : (Name of administration) ...................................... ...................................... ...................................... 1Concerning: 2 Approval granted Approval extended Approval refused Approval withdrawn Production definitively discontinued of a type of vehicle with regard to its Acceleration Control for Pedal Error pursuant to UN Regulation No. [17X] Approval No.:..............",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 10,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "R-0072",
+      "text": "7.1. General specifications",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "7.1"
+      }
+    },
+    {
+      "id": "R-0073",
+      "text": "Figure 4 ESA in configuration \"REESS charging mode coupled to the power grid\" - Coupling between each line and earth for AC (three phases) power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 147,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0074",
+      "text": "Annex 15 Method of testing for immunity of vehicles to electrical fast transient/burst disturbances conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 125,
+        "paragraph": "Annex 15"
+      }
+    },
+    {
+      "id": "R-0075",
+      "text": "6.1.1. A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "R-0076",
+      "text": "1.2. Components and separate technical units intended to be fitted in these vehicles with the limitation given in paragraph 3.2.1. with regard to electromagnetic compatibility.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 1,
+        "paragraph": "1.2"
+      }
+    },
+    {
+      "id": "R-0077",
+      "text": "Annex 16 Method of testing for immunity of vehicles to surges conducted along AC and DC power lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 131,
+        "paragraph": "Annex 16"
+      }
+    },
+    {
+      "id": "R-0078",
+      "text": "14. Basic ESA interface functions: ex. L1/L2/L3/N/PE/control pilot.........................",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 49,
+        "paragraph": "Annex 2A Appendix 2 14"
+      }
+    },
+    {
+      "id": "R-0079",
+      "text": "6.9. Specifications concerning the immunity of ESAs to transient disturbances conducted along 12/24 V supply lines",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9"
+      }
+    },
+    {
+      "id": "R-0080",
+      "text": "Figure 1 ESA in configuration \"REESS charging mode coupled to the power grid\" (floor-standing equipment) Key 1 ESA under test 2 insulating support 3 charging harness 4 AMN(s) or DC-charging-AN(s) grounded 5 power mains socket 6 measuring receiver 7 ground plane Annex 20 (RESERVED)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 142,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0081",
+      "text": "Table 8 for AC lines and Table 9 for DC lines. If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 122,
+        "paragraph": "Table 8"
+      }
+    },
+    {
+      "id": "R-0082",
+      "text": "2.28. “Failure situations” involve those in which the ADS or another vehicle system experiences a fault or failure that removes or reduces the ADS’s ability to perform the DDT, such as sensor or computer failure or a failed propulsion system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 4,
+        "paragraph": "2.28"
+      }
+    },
+    {
+      "id": "R-0083",
+      "text": "4.5. Reverberation chamber test",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.5"
+      }
+    },
+    {
+      "id": "R-0084",
+      "text": "Figure 4 Example of 5 μH HV-AN combination in a single shielded box Key L1 5 μH HV supply high voltage power supply (positive and negative) C1 0,1 μF ESA HV high voltage of ESA (positive and negative) C2 0,1 μF (default value) MEP measuring port R1 1 kΩ GND ground R2 1 MΩ (discharging C2 to > 50 Vdc within 60 s) An optional impedance matching network may be used to simulate common mode / differential mode impedance seen by the ESA plugged on HV power supply (see Figure 5).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 37,
+        "paragraph": "Figure 4"
+      }
+    },
+    {
+      "id": "R-0085",
+      "text": "Figure 1 Vehicle in configuration \"REESS charging mode coupled to the power grid\" Example of test setup for vehicle with plug located on vehicle side Figure 1a Figure 1b Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 fast Transients / burst generator 6 power supply Example of test setup for vehicle with plug located front/rear of vehicle Figure 1c Figure 1d Key 1 vehicle under test 2 insulating support 3 charging harness 4 CDN 5 fast Transients / burst generator 6 power supply",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 128,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0086",
+      "text": "7.19. Specifications concerning the immunity of ESAs to transient disturbances conducted along 12 / 24 V supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 24,
+        "paragraph": "7.19"
+      }
+    },
+    {
+      "id": "R-0087",
+      "text": "13.2 Transitional provisions applicable to the 06 series of amendments",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 27,
+        "paragraph": "13.2"
+      }
+    },
+    {
+      "id": "R-0088",
+      "text": "Figure 1 Antenna position for N = 1 (one antenna position to be used) – Horizontal polarization shown Key 1 vehicle under test 2 antenna",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 69,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0089",
+      "text": "1.1. The test method described in this Annex shall be applied to ESAs in configuration \"REESS charging mode coupled to the power grid\"",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 136,
+        "paragraph": "Annex 17 1.1"
+      }
+    },
+    {
+      "id": "R-0090",
+      "text": "Figure 2 for closed loop method).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0091",
+      "text": "3.1. Location of that marking:.......................................",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 50,
+        "paragraph": "Annex 3A 3.1"
+      }
+    },
+    {
+      "id": "R-0092",
+      "text": "32. Electronic engine management control unit for NG fuelling:................",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 46,
+        "paragraph": "Annex 2A 32"
+      }
+    },
+    {
+      "id": "R-0093",
+      "text": "Figure 9 Example of AAN with Signal/Control port with PLC on AC or DC power lines Key 1 AAN C1 4,7 nF 2 vehicle A PLC on AC or DC power line (vehicle side) 3 charging station / power supply B PLC on AC or DC power line (vehicle side) 4 HV-AN or AMN or DC-charging-AN C PLC line (charging station or AE side) 5 AE D PLC line (charging station or AE side) R1 2,5 kΩ The value of the resistors depends on the allowed attenuation and the design impedance of the PLC modem (here: 40dB attenuation, 100Ω PLC design impedance).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 42,
+        "paragraph": "Figure 9"
+      }
+    },
+    {
+      "id": "R-0094",
+      "text": "Annex 12 Method(s) of testing for emission of voltage changes, voltage ﬂuctuations and ﬂicker on AC power lines from vehicles",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 113,
+        "paragraph": "Annex 12"
+      }
+    },
+    {
+      "id": "R-0095",
+      "text": "3.4. The test set-up for the connection of the vehicle in configuration \"REESS charging mode coupled to the power grid\" is shown in Figure 1a to 1d of Appendix 1 to this Annex.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 121,
+        "paragraph": "Annex 13 3.4"
+      }
+    },
+    {
+      "id": "R-0096",
+      "text": "Annex 9 Method(s) of testing for immunity of electrical/electronic sub- assemblies (ESAs) to electromagnetic radiation",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9"
+      }
+    },
+    {
+      "id": "R-0097",
+      "text": "Figure 1b ESA in configuration \"REESS charging mode coupled to the power grid\" - Three-phase test set- up",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 140,
+        "paragraph": "Figure 1b"
+      }
+    },
+    {
+      "id": "R-0098",
+      "text": "Part 2: Electrical loads (ISO 16750-2, Fifth edition 2023).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 29,
+        "paragraph": "Part 2"
+      }
+    },
+    {
+      "id": "R-0099",
+      "text": "Figure 10 Example of AAN circuit for Signal/Control port with PLC on control pilot Key 1 AAN 2 vehicle R2 270 Ω 3 charging station C1 2,2 nF 4 control pilot (in vehicle) L1100 µH 5 PLC (in vehicle) A control pilot line (vehicle side) 6 AE B/D protective earth R1 39 Ω C control pilot line (charging station side) The values of the three resistors depend on the design impedance of the PLC modem connected at AE side. The values given in the schematic are valid for a design impedance of 100 Ω.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 43,
+        "paragraph": "Figure 10"
+      }
+    },
+    {
+      "id": "R-0100",
+      "text": "7.20.2. Vehicles and / or ESA which are intended to be used in \"REESS charging mode coupled to the power grid\" in the configuration connected to a local / private DC-charging station without additional participants do not have to fulfil requirements of paragraphs 7.5., 7.8., 7.9., 7.13., 7.15., and 7.16. In this case, the manufacturer shall provide a statement that the vehicle and / or ESA can be used in \"REESS charging mode coupled to the power grid\" only with a local/private DC charging station without additional participants. This information shall be made publicly available following the type approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 25,
+        "paragraph": "7.20.2"
+      }
+    },
+    {
+      "id": "R-0101",
+      "text": "2.1.1.2. Basic vehicle conditions The paragraph defines minimum test conditions (as far as applicable) and failure criteria for vehicle immunity tests. Other vehicle systems, which can affect immunity related functions, shall be tested in a way to be agreed between manufacturer and Technical Service. \"50 km/h mode\" vehicle test conditions Failure criteria Vehicle speed 50 km/h (respectively 25 km/h for L1, L2 vehicles) ±20 Speed variation greater than ±10 per cent of the per cent (vehicle driving the rollers). If the vehicle is equipped with a nominal speed. In case of automatic gearbox: cruise control system, it shall be used to maintain the required constant change of gear ratio inducing a speed variation vehicle speed and maintained without any deactivation. greater than ±10 per cent of the nominal speed. Dipped beams ON (manual mode) Lighting OFF (front light and rear light) Specific warning (e.g Rotating/flashing light, signaling bar, siren…) Specific warning OFF ON Cluster operate in normal mode Unexpected warning Inconsistent variation of the odometer Rear view system Unexpected movement of rear view mirror Loss or freezing of the display (CMS) Front wiper ON (manual mode) maximum speed Complete stop of front wiper Direction indicator on driver's side ON Frequency change (lower than 0.75 Hz or greater than 2.25 Hz). Duty cycle change (lower than 25 per cent or greater than 75 per cent). Adjustable suspension in normal position Unexpected significant variation Driver's seat and steering wheel in medium position Unexpected variation greater than 10 per cent of total range Alarm unset Unexpected activation of alarm Horn OFF Unexpected activation of horn Airbag and safety restraint systems operational with inhibited Unexpected activation passenger airbag if this function exists Automatic doors closed Unexpected opening Adjustable endurance brake lever in normal position Unexpected activation Brake pedal not depressed Unexpected activation of brake and unexpected ",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-0102",
+      "text": "Part 4: Harness excitation methods (ISO 11451-4, Fourth edition 2022).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 28,
+        "paragraph": "Part 4"
+      }
+    },
+    {
+      "id": "R-0103",
+      "text": "Figure 5 Vehicle in configuration \"REESS charging mode coupled to the power grid Example of test setup for vehicle with socket located on vehicle side (charging mode 1 or 2, AC powered, without communication, all dimensions in mm) Figure 5a Figure 5b Key 1 vehicle under test 2 insulating support 3 charging harness (including EVSE for charging mode 2) 4 AMN(s) or DC-charging-AN(s) grounded 5 power mains socket NOTE: The cable between the AC mains and the AMN may not be aligned in the same direction as the cable between the AMN and the EV. Example of test setup for vehicle with socket located front / rear of vehicle side (charging mode 1 or 2, AC powered, without communication) Figure 5c Figure 5d Key 1 vehicle under test 2 insulating support 3 charging harness (including EVSE for charging mode 2) 4 AMN(s) or DC-charging-AN(s) grounded 5 power mains socket NOTE: The cable between the AC mains and the AMN may not be aligned in the same direction as the cable between the AMN and the EV. Example of test setup for vehicle with socket located on vehicle side (charging mode 3 or mode 4, with communication) Figure 5e Figure 5f Key 1 vehicle under test 2 insulating support 3 charging harness with local/private communication lines 4 AMN(s) or DC-charging-AN(s) grounded 5 power mains socket 6 AAN(s) grounded (optional) 7 charging station 8 communication lines 9 communication module 10 power cable NOTE: The cable between the AC/DC mains/supply and the AMN/DC-charging-AN may not be aligned in the same direction as the cable between the AMN/DC-charging-AN and the EV. Example of test setup for vehicle with socket located front / rear of the vehicle side (charging mode 3 or mode 4, with communication) Figure 5g Figure 5h Key 1 vehicle under test 2 insulating support 3 charging harness with communication lines 4 AMN(s) or DC-charging-AN(s), grounded 5 power mains / supply socket (optional) 6 AAN(s) grounded (optional, not represented in the front view) 7 charging station (can be emul",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 84,
+        "paragraph": "Figure 5"
+      }
+    },
+    {
+      "id": "R-0104",
+      "text": "2.13. \"REESS\" means the rechargeable energy storage system that provides electric energy for electric propulsion of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 3,
+        "paragraph": "2.13"
+      }
+    },
+    {
+      "id": "R-0105",
+      "text": "Annex 2A Information document for type approval of a vehicle with respect to electromagnetic compatibility The following information shall be supplied in triplicate and shall include a list of contents. Any drawings shall be supplied in appropriate scale and in sufficient detail. If submission is paper based, documents shall be on size A4 or in a folder of A4 format. Electronic submissions may be of any standard size. Photographs, if any, shall show sufficient detail. If the systems, components or separate technical units have electronic controls, information concerning their performance shall be supplied. General",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 45,
+        "paragraph": "Annex 2A"
+      }
+    },
+    {
+      "id": "R-0106",
+      "text": "4.2. Measurements shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "R-0107",
+      "text": "Figure 1 Charging mode configuration for Annex 13 The state of charge (SOC) of the traction battery shall be kept between 20 per cent and 80 per cent of the maximum SOC during the whole frequency range measurement (this may lead to splitting the measurement in different sub-bands with the need to discharge the vehicle's traction battery before starting the next sub-bands). If the current consumption can be adjusted, then the current shall be set to at least 80 per cent of its maximum rated charging/input current value for AC charging. If the current consumption can be adjusted, then the current shall be set to at least 20 per cent of its nominal value or to a minimum of 16 A (if the 20 per cent of its nominal value cannot be achieved in the test facility) for DC charging unless another value is agreed with the Type-Approval Authorities. In case of multiple batteries the average state of charge shall be considered. The vehicle shall be immobilized, the engine(s) (ICE and / or electrical engine) shall be OFF and in charging mode. All other equipment which can be switched ON by the driver or passengers shall be OFF. 3. Test arrangements",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 119,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0108",
+      "text": "1. Artificial networks (AN) For an ESA powered by LV, a 5 µH / 50 Ω AN as defined in Figure 1 shall be used. The AN(s) shall be mounted directly on the ground plane. The grounding connection of the AN(s) shall be bonded to the ground plane. Measurement ports of AN(s) shall be terminated with a 50 Ω load. The AN impedance ZPB (tolerance ± 20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure 2. It is measured between the terminals P and B (of Figure 1) with a 50 Ω load on the measurement port with terminals A and B (of Figure 1) short circuited.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 35,
+        "paragraph": "Part 2 Appendix 8 1"
+      }
+    },
+    {
+      "id": "R-0109",
+      "text": "Figure 2 Characteristics of the AN impedance ZPB 2. High Voltage Artificial networks (HV-AN) For an ESA powered by HV, a 5 µH / 50 Ω HV-AN as defined in Figure 3 shall be used. The HV-AN(s) shall be mounted directly on the ground plane. The grounding connection of the HV-AN(s) shall be bonded to the ground plane. Measurement ports of HV-AN(s) shall be terminated with a 50 Ω load. The HV-AN impedance ZPB (tolerance ± 20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure 2. It is measured between the “ESA HV” and “GND” terminals (of Figure 3) with a 50 Ω load on the measurement port and with the “HV supply” and “GND” terminals short circuited.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 36,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0110",
+      "text": "Figure 1 Open area test site: Electrical/electronic sub-assembly test area boundary Level clear area free from electromagnetic reflecting surfaces",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0111",
+      "text": "Figure 5 Impedance matching network attached between HV-ANs and ESA Key L1 5 μH HV supply high voltage power supply (positive and negative) C1 0,1 μF ESA HV high voltage of ESA (positive and negative) C2 0,1 μF (default value) MEP measuring port R1 1 kΩ GND ground R2 1 MΩ (discharging C2 to > 50 Vdc within 60 s) ZDI-CM differential and common-mode impedance 3. Direct Current charging Artificial Networks (DC-charging-AN) For a vehicle/ESA in charging mode connected to a DC power supply, a 5 µH / 50 Ω DC-charging-AN as defined in Figure 6 shall be used. Measurement ports of DC-charging-AN(s) shall be terminated with 50 Ω loads. The DC-charging-AN impedance ZPB (tolerance ±20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure 7. It is measured between the terminals “Vehicle/ESA HV” and “GND” (of Figure 6) with a 50 Ω load on the measurement port and with terminals “HV Supply” and “GND” (of Figure 6) short circuited.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 38,
+        "paragraph": "Figure 5"
+      }
+    },
+    {
+      "id": "R-0112",
+      "text": "12.1. Every modification of the vehicle or ESA type shall be notified to the Type Approval Authority which granted approval of the vehicle type. This Authority may then either:",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "12.1"
+      }
+    },
+    {
+      "id": "R-0113",
+      "text": "2.2.2.2. Artificial network AC power mains shall be applied to the vehicle through 50 µH/50 Ω AMN(s) (see Appendix 8, paragraph 4.). DC power mains shall be applied to the vehicle through 5 µH/50 Ω High Voltage Artificial Networks (DC- charging-AN(s)) (see Appendix 8, paragraph 3.). The AMN(s) / DC-charging-AN(s) shall be mounted directly on the ground plane (ALSE) or floor (OTS). The cases of the AMN(s) / DC-charging-AN(s) shall be bonded to the ground plane (ALSE) or connected to the protective earth (OTS, e.g. an earth rod). The measuring port of each AMN / DC-charging-AN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.2"
+      }
+    },
+    {
+      "id": "R-0114",
+      "text": "Figure 3 Vehicle in configuration \"REESS charging mode\" coupled to the power grid: Example of test setup for vehicle with socket located on vehicle side (charging mode 1 or 2, AC powered, without communication, all dimensions in mm). Figure 3a Figure 3b Key 1 vehicle under test 2 insulating support 3 charging cable (including EVSE for charging mode 2) 4 artificial mains network(s) grounded 5 power mains socket 6 extraneous length Z-folded NOTE: The cable between the AC mains and the AMN may not be aligned in the same direction as the cable between the AMN and the EV. Example of test setup for vehicle with socket located front / rear of vehicle (charging mode 1 or 2, AC powered, without communication). Figure 3c Figure 3d Key 1 vehicle under test 2 insulating support 3 charging cable (including EVSE for charging mode 2) 4 artificial mains network(s) grounded 5 power mains socket 6 extraneous length Z-folded NOTE: The cable between the AC mains and the AMN may not be aligned in the same direction as the cable between the AMN and the EV. Example of test setup for vehicle with socket located on vehicle side(charging mode 3 or mode 4, with communication) Figure 3e Figure 3f Key 1 vehicle under test 2 insulating support 3 charging harness with communication lines 4 AMN(s) or DC-charging-AN(s), grounded 5 power mains / supply socket (optional) 6 AAN(s), grounded (optional, not represented in the front view) 7 charging station (can be emulated) 8 communication lines 9 communication module 10 power cable 11 extraneous length Z-folded NOTE : The cable between the AC/DC mains/supply and the AMN/DC-charging-AN may not be aligned in the same direction as the cable between the AMN/DC-charging-AN and the EV. Example of test setup for vehicle with socket located front / rear of vehicle (charging mode 3 or mode 4, with communication) Figure 3g Figure 3h Key 1 vehicle under test 2 insulating support 3 charging harness with communication lines 4 AMN(s) or DC-charging-AN(s), grounded 5",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 60,
+        "paragraph": "Figure 3"
+      }
+    },
+    {
+      "id": "R-0115",
+      "text": "4.6. Antenna position Measurements shall be made on the left and right sides of the vehicle. The horizontal distance is from the reference point of the antenna to the nearest part of the vehicle body. Multiple antenna positions may be required (both for 10 m and 3 m antenna distance) depending on the vehicle length. The same positions shall be used for both horizontal and vertical polarization measurements. The number of antenna positions and the position of the antenna with respect to the vehicle shall be documented in the test report. - If the length of the vehicle is smaller than the 3 dB beamwidth of the antenna, only one antenna position is necessary. The antenna shall be aligned with the middle of the total vehicle (see Figure 4); - If the length of the vehicle is greater than the 3 dB beamwidth of the antenna, multiple antenna positions are necessary in order to cover the total length of the vehicle (see Figure 5). The number of antenna positions shall allow to meet the following condition: (1) with: N: number of antenna positions; D: measurement distance (3 m or 10 m); 2⋅β: 3 dB antenna beamwidth angle in the plane parallel to ground (i.e. the E-plane beamwidth angle when the antenna is used in horizontal polarization, and the H-plane beamwidth angle when the antenna is used in vertical polarization); L: total vehicle length covers the whole dimensions including tires, bumpers and lights, etc. Depending of the chosen values of N (number of antenna positions) different set-up shall be used: if N=1 (only one antenna position is necessary), the antenna shall be aligned with the middle of the total vehicle length (see Figure 4). if N>1 (more than one antenna position is necessary), multiple antenna positions are necessary in order to cover the total length of the vehicle (see Figure 5). The antenna positions shall be symmetric in regard to the vehicle perpendicular axis. Annex 4 - Appendix 1",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "R-0116",
+      "text": "2.4.4. Power charging / local/private communication harness The power charging local/private communication harness shall be laid out in a straight line between the AMN(s) / DC-charging-AN(s) / AAN(s) and the vehicle charging socket and shall be routed perpendicularly to the vehicle’s longitudinal axis (see Figure 5e and Figure 5g). The projected harness length from the side of the AMN(s) to the side of the vehicle shall be 0,8 (+0,2 / - 0) m as shown in Figure 5f and Figure 5h. For a longer cable, the extraneous length shall be “Z-folded” symmetrically. No contact or overlap is allowed between windings. The width of the Z-folded cable shall be between 500 mm and 1 000 mm. If it is impractical to do so because of cable bulk or stiffness, or because the testing is being done at a user's installation, the disposition of the excess cable length shall be precisely noted in the test report. The power charging local/private communication harness at vehicle side shall hang vertically at a distance of 100 (+200 / -0) mm from the vehicle body. The whole harness shall be placed on a non-conductive, low relative permittivity (dielectric-constant) material (εr ≤ 1,4), at (100 ± 25) mm above the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "R-0117",
+      "text": "5.1. Vehicle equipped with 24 GHz short-range radar equipment: yes/no/optional2 2 Strike out what does not apply. 6. Laboratory accredited to ISO 17025 and recognized by the Approval Authority responsible for carrying out the tests: ......... 7. Remarks: (e.g. valid for both left-hand drive and right-hand drive vehicles):...... Annex 3B Communication concerning the approval or extension or refusal or withdrawal of approval or production deﬁnitively discontinued of a type of electrical/electronic sub-assembly (ESA) with regard to UN Regulation No. 10 (Maximum format: A4 (210 x 297 mm)) Concerning:2 Approval granted Approval extended Approval refused Approval withdrawn Production definitively discontinued of a type of electrical/electronic sub-assembly2 with regard to Regulation No. 10. Approval No.: ................................... Extension No.: ........................................ 1 Distinguishing number of the country which issued/extended/refused or withdrawn approval. (see Regulation, provisions on approval). 2 Strike out what does not apply. 1. Make (trade name of manufacturer):................................. 2. Type and general commercial description(s): ........................... 3. Means of identification of type, if marked on the vehicle/component/separate technical unit2 2 Strike out what does not apply. 3.1. Location of that marking: ........................................ 4. Category of vehicle: ............................................ 5. Name and address of manufacturer:.................................. 6. In the case of components and separate technical units, location and method of affixing of the approval mark: 7. Address(es) of assembly plant(s):................................... 8. Additional information (where applicable): See appendix below 9. Technical Service responsible for carrying out the tests:..................... .......................................................... 10. Date of test report:...........................",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 51,
+        "paragraph": "Annex 3A 5.1"
+      }
+    },
+    {
+      "id": "R-0118",
+      "text": "Figure 8 Example of an AAN for Signal/Control port with symmetric lines (e.g. CAN) Key 1 AAN 2 vehicle Zcat symmetric adjustment impedance 3 charging station A symmetrical line 1 (in vehicle) L1 2 x 38 mH B symmetrical line 2 (in vehicle) L2 2 x 38 mH C symmetrical line 1 (charging station side) R 200 Ω D symmetrical line 2 (charging station side) C 4,7 µF E measuring port with 50 Ω load",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 41,
+        "paragraph": "Figure 8"
+      }
+    },
+    {
+      "id": "R-0119",
+      "text": "3.2.7. Where applicable, any restrictions on use should be identified. Any such restrictions should be included in Annexes 2B and/or 3B.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.7"
+      }
+    },
+    {
+      "id": "R-0120",
+      "text": "1.1. The test method described in this Annex shall only be applied to vehicles. This method concerns both configurations of vehicle: (a) Other than \"REESS charging mode coupled to the power grid\"; (b) \"REESS charging mode coupled to the power grid\". A vehicle is considered to be a “large vehicle”, if it is longer than 12 m and/or wider than 2.60 m and/or higher than 4.00 m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.1"
+      }
+    },
+    {
+      "id": "R-0121",
+      "text": "Figure 1 Example of test set-up for substitution method - Injection on LV (or HV or AC) lines for ESAs with shielded power supply systems and inverter/charger device (dimensions in millimetres) Key 1 ESA 14 additional shielded box 2 ground plane 15 HV power supply (should be shielded if placed inside ALSE) 3 low relative permittivity support (εr ≤ 1,4); thickness 50 16 power line filter mm 4 ground straps 17 fibre optic feed through 5 LV harness 18 bulk head connector 6 HV lines (HV+, HV-) 19 stimulating and monitoring system 7 LV load simulator 20 injection probe 8 impedance matching network (optional) (see ISO 11452-1) 21 high frequency equipment (generator and amplifier) 9 LV AN 22 optical fibre 10 HV AN 23 50 Ω load 11 LV supply lines 24 AC lines 12 HV supply lines 25 AMN for AC power mains 13 LV power supply 12 V / 24 V / 48 V (should be placed on 26 AC charging load simulator the bench) 27 AC power mains",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 105,
+        "paragraph": "Figure 1"
+      }
+    },
+    {
+      "id": "R-0122",
+      "text": "Figure 11 Example of AAN circuit for pilot line Key 1 AAN C1 1,1 nF 2 vehicle L1 100 µH 3 charging station A control pilot line (vehicle side) 4 control pilot (in vehicle) B/D protective earth R1 150 Ω C control pilot line (charging station side)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Figure 11"
+      }
+    },
+    {
+      "id": "R-0123",
+      "text": "2.2.1.2. Basic vehicle conditions The paragraph defines minimum test conditions (as far as applicable) and failures criteria for vehicle immunity tests. Other vehicle systems, which can affect immunity related functions, shall be tested in a way to be agreed between manufacturer and Technical Service. \"REESS charging mode\" vehicle test conditions Failure criteria The REESS shall be in charging mode. The REESS State of charge (SOC) shall be kept between 20 Vehicle sets in per cent and 80 per cent of the maximum SOC during the whole frequency range measurement (this motion. may lead to split the measurement in different sub-bands with the need to discharge the vehicle's Unexpected release traction battery before starting the next sub-bands). If the current consumption can be adjusted, then of the parking the current shall be set to at least 20 per cent of its maximum rated charging/input current value for brake. AC charging. Loss of Parking If the current consumption can be adjusted, then the current shall be set to at least 20 per cent of its position for maximum value or to a minimum of 16 A (if the 20 per cent of its maximum value cannot be automatic achieved in the test facility) for DC charging unless another value is agreed with the Type Approval transmission. Authorities. \"REESS charging mode\" vehicle test conditions Failure criteria In case of multiple batteries the average state of charge shall be considered.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "R-0124",
+      "text": "Figure 6 Example of 5 μH DC-charging-AN schematic Key L1 5 µH HV supply high voltage power supply C1 0,1 µF Vehicle / ESA HV high voltage of vehicle or ESA C2 1 µF (default value, if another value is used, it shall be justified) MEP measuring port R1 1 kΩ GND ground R2 1 MΩ (discharging C2 to > 50 Vdc within 60 s)",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 39,
+        "paragraph": "Figure 6"
+      }
+    },
+    {
+      "id": "R-0125",
+      "text": "Figure 7 Characteristics of the DC-charging-AN impedance 4. Artificial Mains networks (AMN) For a vehicle/ESA in charging mode connected to an AC power mains, a 50 µH / 50 Ω-AMN as defined in CISPR 16-1-2 Clause 4.4 shall be used. Measurement ports of AMN(s) shall be terminated with 50 Ω loads. 5. Asymmetric artificial network (AAN) Currently, different technologies for signal/control port lines and/or wired network port lines are used for the communication between charging station and vehicle/ESA. Therefore, a distinction between some specific signal/control port lines and/or wired network port lines (for example, control pilot line, CAN lines) is necessary. Measurement ports of AAN(s) shall be terminated with 50 Ω loads. AANs that are defined in paragraphs 5.1., 5.2., 5.3. and 5.4. of this appendix are used for unshielded signal/control port lines and/or wired network port lines. If shielded signal/control port lines are used, then shielded AANs defined in CISPR 32:2015 Annex G, Figures G.10 and G.11 should be used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 40,
+        "paragraph": "Figure 7"
+      }
+    },
+    {
+      "id": "R-0126",
+      "text": "Figure 2 Test configuration for ESAs involved in \"REESS charging mode coupled to the power grid\" (example for biconical antenna) Dimensions in millimetres Key 12 RF absorber material 1 ESA (grounded locally if required in test plan) 13 stimulation and monitoring system 2 LV Test harness 14 HV harness 3 LV Load simulator (placement and ground connection according 15 HV load simulator to CISPR 25, Clause 6.4.2.5) 16 HV AN 4 power supply (location optional) 17 HV power supply 5 LV Artificial network (AN) 18 HV feed-through 6 ground plane (bonded to shielded enclosure) 19 AC/DC charger harness 7 low relative permittivity support (εr ≤ 1.4) 20 AC/DC load simulator (e.g. Programmable Logic 8 biconical antenna Controller (PLC)) 9 high-quality coaxial cable e.g. double-shielded (50 Ω) 21 AMN(s) or DC-charging-AN(s) 10 bulkhead connector 22 AC/DC power supply 11 measuring instrument 23 AC/DC feed-through",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 94,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0127",
+      "text": "Figure 2 Example of test set-up for horn antenna Key 1 ESA (grounded locally if required in test plan) 16 power line filter 2 ground plane 17 fibre optic feed through 3 low relative permittivity support (εr ≤ 1.4); thickness 50 18 bulk head connector mm 4 ground straps 19 stimulating and monitoring system 5 LV harness 20 RF signal generator and amplifier 6 HV lines (HV+, HV-) 21 high quality coaxial cable e.g. double shielded (50 Ω) 7 LV load simulator 22 optical fibre 8 impedance matching network (optional) 23 horn antenna 9 LV AN 24 RF absorber material 10 HV AN 25 AC power mains 11 LV supply lines 26 AMN for AC power mains 12 HV supply lines 27 AC charging load simulator 13 LV power supply 12 V / 24 V / 48 V (placed on the bench) 28 50 Ω load 14 additional shielded box (optional) 29 AC lines 15 HV power supply (should be shielded if placed inside ALSE) Annex 9 - Appendix 3 BCI test Test configuration for ESAs involved in \"REESS charging mode coupled to the power grid\". The test shall be performed according to ISO 11452-4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 103,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0128",
+      "text": "Appendix 5 Vehicle narrowband reference limits - Antenna-vehicle separation: 3 m Frequency - megahertz - logarithmic (See paragraph 6.3.2.2. of this Regulation) Limit E (dBµV/m) at frequency F (MHz) for a 120 kHz bandwidth 30-230 MHz 230-1,000 MHz E = 38 E = 45",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 32,
+        "paragraph": "Appendix 5"
+      }
+    },
+    {
+      "id": "R-0129",
+      "text": "Appendix 4 Vehicle narrowband reference limits - Antenna-vehicle separation: 10 m Frequency - megahertz - logarithmic (See paragraph 6.3.2.1. of this Regulation) Limit E (dBµV/m) at frequency F (MHz) for a 120 kHz bandwidth 30-230 MHz 230-1,000 MHz E = 28 E = 35 The limits shall be measured with a 120 kHz bandwidth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 31,
+        "paragraph": "Appendix 4"
+      }
+    },
+    {
+      "id": "R-0130",
+      "text": "Appendix 3 Vehicle broadband reference limits - Antenna-vehicle separation: 3 m Frequency - megahertz - logarithmic (See paragraphs 6.2.2.2. and 7.2.2.2. of this Regulation) Limit E (dBµV/m) at frequency F (MHz) for a 120 kHz bandwidth 30-75 MHz 75-400 MHz 400-1,000 MHz E = 42 E = 42 + 15.13 log (F/75) E = 53",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 30,
+        "paragraph": "Appendix 3"
+      }
+    },
+    {
+      "id": "R-0131",
+      "text": "Appendix 6 Electrical/electronic sub-assembly (ESA) - Broadband reference limits Frequency - megahertz - logarithmic (See paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation) Limit E (dBµV/m) at frequency F (MHz) for a 120 kHz bandwidth 30-75 MHz 75-400 MHz 400-1,000 MHz E = 62 - 25.13 log (F/30) E = 52 + 15.13 log (F/75) E = 63",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 33,
+        "paragraph": "Appendix 6"
+      }
+    },
+    {
+      "id": "R-0132",
+      "text": "Figure 2 Example of test set-up for closed loop method - Injection on LV (or HV or AC) lines for ESAs with shielded power supply systems and inverter/charger device (dimensions in millimetres) Key 1 ESA 15 HV power supply (should be shielded if placed inside ALSE) 2 ground plane 16 power line filter 3 low relative permittivity support (εr ≤ 1,4); thickness 17 fibre optic feed through 50 mm 4 ground straps 18 bulk head connector 5 LV harness 19 stimulating and monitoring system 6 HV lines (HV+, HV-) 20 measuring probe 7 LV load simulator 21 high frequency equipment (generator, amplifier and spectrum analyser) 8 impedance matching network (optional) (see ISO 22 optical fibre 11452-1) 9 LV AN 23 50 Ω load 10 HV AN 24 AC lines 11 LV supply lines 25 AMN for AC power mains 12 HV supply lines 26 AC charging load simulator 13 LV power supply 12 V / 24 V / 48 V (should be placed 27 AC power mains on the bench) 14 additional shielded box 28 injection probe",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 107,
+        "paragraph": "Figure 2"
+      }
+    },
+    {
+      "id": "R-0133",
+      "text": "Appendix 7 Electrical/electronic sub-assembly (ESA) - Narrowband reference limits Frequency - megahertz - logarithmic (See paragraph 6.6.2.1. of this Regulation) Limit E (dBµV/m) at frequency F (MHz) for a 120 kHz bandwidth 30-75 MHz 75-400 MHz 400-1,000 MHz E = 52 - 25.13 log (F/30) E = 42 + 15.13 log (F/75) E = 53",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 34,
+        "paragraph": "Appendix 7"
+      }
+    }
+  ]
+}

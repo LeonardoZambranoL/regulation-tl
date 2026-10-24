@@ -1,0 +1,1 @@
+{"name": "Devansh (em_): rules pick the regulations; Claude (opus 5.5) keeps or drops each 'shall' clause plus the shared Gemini database's 300 closest non-'shall' clauses", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium", "candidates": "shall+db", "db_k": 300}, "n": 0}

@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product (inherited from devansh-bm25-clauses-top190)",
+    "submission size N=190 equals the dev gold size (kept from the BM25 version for a like-for-like comparison)"
+  ],
+  "notes": "Same as devansh-bm25-clauses-top190 with BM25 replaced by the shared Gemini embeddings; nothing new was tuned. Query embeddings are cached per text."
+}

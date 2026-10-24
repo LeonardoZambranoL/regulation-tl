@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product (inherited)",
+    "classifier prompt lists clause kinds seen in the dev gold (inherited)"
+  ],
+  "notes": "db_k=300 is a round default, not swept on dev. The database only adds candidates; Claude still decides each one."
+}

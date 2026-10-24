@@ -39,6 +39,21 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.
 
+## 2026-10-24: shared Gemini vector database (em_ experiments)
+
+New retriever `shared_db` (team LanceDB, `gemini-embedding-2-preview` 768d, query embeddings cached) and candidate mode
+`shall+db` (shall clauses + the database's 300 closest non-shall clauses). Dev page F2 / unseen clause recall:
+
+| em_ experiment | base | em_ |
+|---|---|---|
+| em_devansh-dense-clauses-top190 | 0.511 / 0.789 | 0.405 / 0.632 |
+| em_devansh-dense-pages-top150 | 0.580 / not run | 0.483 / 0.035 |
+| em_devansh-llm-clause-filter | 0.844 / 0.737 | 0.828 / 0.754 |
+| em_devansh-dynregex-llm-clause-filter | 0.767 / 0.842 | 0.761 / 0.842 |
+
+Lesson: as a ranker the Gemini embeddings are worse than BM25+ here; as a candidate widener they lift clause recall
+(dev 0.81 -> 0.84 / 0.86) at a small precision cost, so Robust scores barely move.
+
 ## Lessons
 
 - Fix *which regulations* first; then *which clauses*; search quality matters least.

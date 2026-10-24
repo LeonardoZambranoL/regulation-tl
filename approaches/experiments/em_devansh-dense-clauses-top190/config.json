@@ -1,0 +1,1 @@
+{"name": "Devansh (em_): rules pick the regulations, the shared Gemini vector database ranks their clauses from spec queries, cite the top 190 clauses (no LLM)", "n": 190, "source": "clauses", "select": {"method": "combined"}, "retriever": {"type": "shared_db"}}

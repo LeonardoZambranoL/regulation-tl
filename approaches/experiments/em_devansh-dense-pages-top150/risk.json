@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product (inherited from devansh-bm25-pages-top150)",
+    "submission size N=150 pages kept from the BM25 page version, which picked it on dev"
+  ],
+  "notes": "The database holds clauses, not pages, so pages are ranked by their best clause; each page is cited with that clause's paragraph (the BM25 version cited pages without paragraphs)."
+}

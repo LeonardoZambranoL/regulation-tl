@@ -43,8 +43,17 @@ def main(argv: list[str] | None = None) -> int:
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
     if cfg.get("filter", {}).get("method") == "llm":
         # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
-        from .classify import PROMPTS, candidates, classify, classify_multi
-        cands = candidates(regs, cfg["filter"].get("candidates", "shall"))
+        from .classify import PROMPTS, SHALL, candidates, classify, classify_multi
+        mode = cfg["filter"].get("candidates", "shall")
+        if mode == "shall+db":
+            # the "shall" clauses (same order, so cached decisions are reused) + the shared vector database's best
+            # non-"shall" clauses of the same regulations: obligations written without "shall" get a chance too
+            cands = candidates(regs, "shall")
+            db = Pipeline({"source": "clauses", "retriever": {"type": "shared_db"}}, regs)
+            extra = [c for c, _ in db.pooled(spec_queries(spec), k_per_query=1000) if not SHALL.search(c.text)]
+            cands += extra[:cfg["filter"].get("db_k", 300)]
+        else:
+            cands = candidates(regs, mode)
         effort = cfg["filter"].get("effort", "medium")
         if cfg["filter"].get("agents") == "multi":
             decisions, report = classify_multi(spec, cands, effort=effort)
@@ -61,6 +70,9 @@ def main(argv: list[str] | None = None) -> int:
     else:
         pipe = Pipeline(cfg, regs)
         ranked = [c for c, _ in pipe.pooled(spec_queries(spec), k_per_query=max(400, *sizes))]
+        if cfg.get("dedupe") == "page":  # one requirement per page: its best-ranked clause
+            seen: set = set()
+            ranked = [c for c in ranked if (k := (c.regulation, c.version, c.page)) not in seen and not seen.add(k)]
     if args.sweep:
         from .bench import official_scorer
         score = official_scorer(Path(args.challenge_dir))

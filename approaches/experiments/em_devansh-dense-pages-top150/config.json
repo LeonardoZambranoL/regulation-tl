@@ -1,0 +1,1 @@
+{"name": "Devansh (em_): rules pick the regulations, the shared Gemini vector database ranks their clauses, cite the best clause of each of the top 150 pages (no LLM)", "n": 150, "source": "clauses", "dedupe": "page", "select": {"method": "combined"}, "retriever": {"type": "shared_db"}}
