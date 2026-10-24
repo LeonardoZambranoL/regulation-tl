@@ -190,3 +190,7 @@ usage was received are not included. Network failures and server errors without
 usage are flagged as `unpriced_requests`; they may have incurred charges. Update
 rates when pricing changes or when selecting another model. This is cost tracking,
 not a spending cap.
+
+## Benchmark history
+
+2026-10-24: rebenchmarked the unchanged saved submission after merging the team updates. Page F2 **54.35%**, clause F2 **28.71%**, regulation F2 **80.00%**. Page/regulation scores are unchanged; the previous evaluator did not report clause F2. The current non-gold leader, devansh-llm-clause-filter, scores 84.42% / 61.95% / 100% respectively. Risk is medium (see risk.json); source coverage is incomplete: 26,709/26,769 assessed, 1,058 needs_context. No generation or paid model calls were run for this benchmark.

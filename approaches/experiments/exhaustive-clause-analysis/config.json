@@ -8,5 +8,6 @@
   "context_characters": 24000,
   "max_tool_rounds": 4,
   "max_tool_calls": 8,
-  "max_tokens": 12000
+  "max_tokens": 12000,
+  "name": "Exhaustive clause assessment with Haiku and independent Sonnet verification"
 }
