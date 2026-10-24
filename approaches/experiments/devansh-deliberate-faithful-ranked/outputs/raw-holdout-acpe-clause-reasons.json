@@ -1,0 +1,362 @@
+[
+  {
+    "regulation": "UN R10",
+    "paragraph": "Table 1",
+    "page": 11,
+    "reason": "Gives the maximum conducted transient pulse amplitudes (+75 V/-100 V for 12 V systems, +150 V/-450 V for 24 V systems) that the ACPE electronic sub-assemblies (powertrain control unit, sensors) must not exceed on supply lines."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "reason": "Marking requirement on the ACPE ESA (control unit/sensors) samples: they must be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "reason": "Each ESA of the ACPE system (sensors, camera, control unit) approved as a component must carry the R10 approval mark."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "reason": "Approval mark must include a circle with letter E and the number of the approving country."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "reason": "Approval mark must include the regulation number, the letter R, a dash and the approval number to the right of the circle."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "reason": "ACPE electronics must be designed, built and fitted so the vehicle meets R10 EMC requirements in normal use."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "reason": "ACPE ESAs must be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "reason": "Immunity field strength and BCI current levels the vehicle with the installed ACPE must withstand."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "reason": "ACPE limits propulsion torque, an immunity-related function, so it must show no performance degradation during immunity tests."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "reason": "ESA broadband radiated emission limit values by frequency band."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "reason": "Measured ESA broadband emissions must be below the type-approval limits."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "reason": "ESA narrowband radiated emission limit values by frequency band."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "reason": "Measured ESA narrowband emissions must be below the type-approval limits."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1",
+    "page": 10,
+    "reason": "The ACPE ESAs (control unit, sensors, camera) on the 12 V supply must meet the transient conducted emission levels of Table 1 per ISO 7637-2 / Annex 10."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1",
+    "page": 11,
+    "reason": "Sets the radiated immunity test levels (Tables 2a/2b, 20–6,000 MHz) the ACPE ESAs must withstand."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "reason": "Pass criterion: no degradation of immunity related functions. ACPE affects propulsion torque, so this applies."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "reason": "Sets the conducted transient immunity levels and the functional status classes (starting profile, pulses 1, 2a, 2b, 3a, 3b; Tables 3a/3b) for the ACPE ESAs on the 12 V supply."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.7.2.1",
+    "page": 18,
+    "reason": "Sets the radiated immunity field strengths (30 V/m and 10 V/m bands) and the 60 mA BCI current. The ACPE sensors, camera and powertrain control unit must withstand these levels."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.7.2.2",
+    "page": 18,
+    "reason": "Pass criterion: no degradation of immunity-related functions during the radiated immunity test. ACPE limits propulsion torque and warns the driver, so it counts as an immunity-related function."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.10.2.1",
+    "page": 19,
+    "reason": "Broadband radiated emission limits (62–52 / 52–63 / 63 dBµV/m, 30–1000 MHz) apply to the ACPE control unit, camera and ultrasonic sensors as ESAs."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.10.2.2",
+    "page": 19,
+    "reason": "Requires the measured broadband emission values of the ACPE ESA to stay below the type approval limits."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 5 4.1",
+    "page": 68,
+    "reason": "The ACPE control unit is microprocessor-based, so its narrowband radiated emissions must stay within the limits across 30–1,000 MHz."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 1.2",
+    "page": 71,
+    "reason": "The vehicle, including the ACPE electronics and wiring, must withstand the radiated immunity field levels of para 6.4.2.1 while being monitored for correct function."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2",
+    "page": 73,
+    "reason": "Defines the 50 km/h-mode immunity failure criteria (speed variation, unexpected cluster warnings) that the ACPE torque intervention, tell-tale and buzzer must not trigger under radiated disturbance."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.2.1.2",
+    "page": 76,
+    "reason": "REESS charging-mode failure criteria (vehicle sets in motion, loss of parking position) apply to the hybrid/BEV variants, where ACPE runs in the powertrain control unit that commands propulsion."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1",
+    "page": 79,
+    "reason": "Specifies the radiated immunity exposure (20–6000 MHz, vertical polarization, AM/PM2/PM3 modulation) that the ACPE sensors, camera and control unit must withstand without failure."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.1",
+    "page": 92,
+    "reason": "The broadband radiated emission limits apply to the ACPE ESAs (sensors, camera, control unit) across 30–1,000 MHz."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 4.1",
+    "page": 96,
+    "reason": "The narrowband radiated emission limits apply to the microprocessor-based ACPE control unit and sensors across 30–1,000 MHz."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 1.2.1",
+    "page": 97,
+    "reason": "The ACPE ESAs must show radiated immunity compliance using ISO 11452 test methods that together cover the full specified frequency range."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 2.2",
+    "page": 98,
+    "reason": "The ACPE ESA must be switched on and running in normal operation during radiated immunity testing, so the supplier must provide a way to stimulate it."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "reason": "Sets the immunity frequency range (20–6,000 MHz) and the AM/PM modulation the ACPE control unit and sensors must withstand."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2",
+    "page": 108,
+    "reason": "The ACPE ESA's 12 V supply connections must withstand ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b, plus the ISO 16750-2 starting profile on petrol and hybrid variants that have a starter."
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 3",
+    "page": 108,
+    "reason": "The ACPE control unit and sensors are ESAs on the 12 V supply, so their transient conducted emissions on supply and connected lines must be measured to ISO 7637-2."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.1",
+    "page": 4,
+    "reason": "Core function: limit unintended acceleration on misapplication with an obstacle ahead (forward) or behind (rearwards)."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.2",
+    "page": 4,
+    "reason": "Defines the pedal-misapplication trigger thresholds: velocity at least 400 %/s over at least 70 % of travel, reaching at least 90 % position."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.4",
+    "page": 4,
+    "reason": "ACPE must control acceleration when accelerating from standstill."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.4.1",
+    "page": 4,
+    "reason": "Driver must be told if ACPE is not ready 6 s after powertrain initiation, until it initialises."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.5",
+    "page": 4,
+    "reason": "Must prevent or mitigate collision with an obstacle 1.0–1.5 m ahead or behind, under the stated conditions."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.6",
+    "page": 5,
+    "reason": "Collision speed limits: no more than +8 km/h over trigger speed and no more than 70 % of the speed without ACPE."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.7",
+    "page": 5,
+    "reason": "Acceleration must stay limited throughout an intervention; sets the conditions for ending it."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.8",
+    "page": 5,
+    "reason": "EMC immunity per UN R10 06 series."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.9",
+    "page": 5,
+    "reason": "Electronic control system safety requirements per Annex 3 apply to the ACPE."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.10",
+    "page": 5,
+    "reason": "Driver must be informed of an intervention."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.11.1",
+    "page": 5,
+    "reason": "Driver must be able to interrupt the intervention by an intentional action."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.1.11.2",
+    "page": 5,
+    "reason": "No rapid increase of acceleration when the driver interrupts by keeping the pedal applied."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.2.1",
+    "page": 5,
+    "reason": "Manual deactivation is fitted: ACPE must reinstate at each new engine start, with a warning at the time of deactivation."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.3.1",
+    "page": 6,
+    "reason": "Failure warning required for any ACPE failure that prevents compliance."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.3.2",
+    "page": 7,
+    "reason": "Self-check frequency and no delay in the warning, with the 10 km/h suppression allowance."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.3.3",
+    "page": 7,
+    "reason": "Failure warning also required for non-electrical failures such as sensor blindness or misalignment."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.4.1.1",
+    "page": 7,
+    "reason": "Optical warnings must be visible in daylight and verifiable from the driver's seat."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.4.1.2",
+    "page": 7,
+    "reason": "Optical warning signals must activate at power-on (bulb check)."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.4.2",
+    "page": 7,
+    "reason": "Intervention warning must be optical plus haptic or acoustic."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.4.3",
+    "page": 7,
+    "reason": "Failure warning must be a constant yellow optical signal."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.5.1",
+    "page": 7,
+    "reason": "For periodic technical inspection, the failure warning must stay lit after power-on if a failure persists from the previous cycle."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "5.5.2",
+    "page": 7,
+    "reason": "Failure warning operation must be protected against simple unauthorised modification."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "6.5",
+    "page": 8,
+    "reason": "Defines the misapplication test scenarios the ACPE must pass: with and without expected intervention, in both forward and rearward directions, starting 1.0 m and 1.5 m from the target with 0–0.2 m lateral offset. These set the supplier's verification cases for the obstacle-detection and torque-suppression function."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "Annex 3 1",
+    "page": 12,
+    "reason": "Requires that the ACPE electronic control system meet all performance requirements under both non-fault and fault conditions and be designed so that it does not induce safety-critical risks; this is a design obligation for the system's safety concept."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "Annex 3 3.3.5",
+    "page": 15,
+    "reason": "Each ACPE unit (sensors, camera, control unit software) must carry clear, unambiguous hardware/software identification marking, with a single marking per combined unit."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "Annex 3 3.3.5.1",
+    "page": 15,
+    "reason": "The identification must define the hardware and software version and be changed whenever a software change alters the regulated ACPE function."
+  },
+  {
+    "regulation": "UN R175",
+    "paragraph": "Annex 3 3.4.3",
+    "page": 15,
+    "reason": "On an ACPE failure the driver must be warned, and the warning must persist as long as the fault exists unless the system is deactivated; this matches the spec's fault reporting."
+  }
+]

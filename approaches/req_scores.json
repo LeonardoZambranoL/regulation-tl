@@ -427,5 +427,57 @@
     "matched": 43,
     "submitted": 152,
     "expected": 94
+  },
+  {
+    "approach": "devansh-deliberate-faithful-ranked",
+    "prediction_sha256": "f075792e199b41ef892d0a2afee6dde10df64b004fdb3f432cdb651245b974e5",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.49242424242424243,
+    "recall": 0.6842105263157895,
+    "f1": 0.5726872246696035,
+    "f2": 0.634765625,
+    "matched": 130,
+    "submitted": 264,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-deliberate-faithful-ranked",
+    "prediction_sha256": "f720e988e73b872cd4ef38e8a8289df9a345eaf17ba9fddbceb87a1f1f5845b2",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.2920353982300885,
+    "recall": 0.35106382978723405,
+    "f1": 0.3188405797101449,
+    "f2": 0.3374233128834356,
+    "matched": 33,
+    "submitted": 113,
+    "expected": 94
+  },
+  {
+    "approach": "devansh-agreement-combo",
+    "prediction_sha256": "8712d82660fb4679a3520571cd2c322a39d89b8c7faed8d4002bdf738b0631da",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.515748031496063,
+    "recall": 0.6894736842105263,
+    "f1": 0.5900900900900901,
+    "f2": 0.645956607495069,
+    "matched": 131,
+    "submitted": 254,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-agreement-combo",
+    "prediction_sha256": "88d30b26c0c4f609e0e807c4e58572508d9af912fcecbbe151a948cbd06dff53",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.2992125984251969,
+    "recall": 0.40425531914893614,
+    "f1": 0.3438914027149321,
+    "f2": 0.3777335984095427,
+    "matched": 38,
+    "submitted": 127,
+    "expected": 94
   }
 ]

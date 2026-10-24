@@ -1,0 +1,1249 @@
+{
+  "team_id": "team-11",
+  "case_id": "holdout-acpe",
+  "requirements": [
+    {
+      "id": "R-0001",
+      "text": "The maximum allowed positive pulse amplitude shall be +75 V for vehicles with 12 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "Table 1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0002",
+      "text": "The maximum allowed positive pulse amplitude shall be +150 V for vehicles with 24 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "Table 1"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0003",
+      "text": "The maximum allowed negative pulse amplitude shall be -100 V for vehicles with 12 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "Table 1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0004",
+      "text": "The maximum allowed negative pulse amplitude shall be -450 V for vehicles with 24 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "Table 1"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0005",
+      "text": "The ESA sample(s) submitted for type approval shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0006",
+      "text": "An approval mark as described in paragraph 5.3 shall be affixed to every ESA conforming to a type approved under UN R10, except that no marking is required for electrical/electronic systems built into vehicles which are approved as units.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0007",
+      "text": "The international approval mark, affixed in a conspicuous and easily accessible place specified on the approval communication form, shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0008",
+      "text": "The international approval mark shall comprise the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle containing the letter \"E\".",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0009",
+      "text": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of UN R10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0010",
+      "text": "ESA(s) shall be tested for radiated and conducted emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0011",
+      "text": "ESA(s) shall be tested for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0012",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6 in accordance with ISO 11451-2, the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0013",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6 in accordance with ISO 11451-2, the field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0014",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6 in accordance with ISO 11451-4 BCI, the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0015",
+      "text": "The vehicle representative of its type shall show no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6, during the tests performed in accordance with Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0016",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband type approval limit shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, as shown in Appendix 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0017",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband type approval limit shall be 52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz, as shown in Appendix 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0018",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband type approval limit shall remain constant at 63 dB microvolts/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0019",
+      "text": "On the ESA representative of its type, the measured broadband emission values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0020",
+      "text": "If measurements are made using the method described in Annex 8, the ESA narrowband type approval limit shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, as shown in Appendix 7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0021",
+      "text": "If measurements are made using the method described in Annex 8, the ESA narrowband type approval limit shall be 42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz, as shown in Appendix 7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0022",
+      "text": "If measurements are made using the method described in Annex 8, the ESA narrowband type approval limit shall remain constant at 53 dB microvolts/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0023",
+      "text": "On the ESA representative of its type, the measured narrowband emission value, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0024",
+      "text": "The emission of transient conducted disturbances generated by the ESA representative of its type on 12/24 V supply lines shall be tested by the method(s) according to ISO 7637-2 as described in Annex 10 for the levels given in Table 1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.7.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0025",
+      "text": "The ESA representative of its type shall be tested for immunity to electromagnetic radiation by the method(s) described in Annex 9 at the test severity of Table 2a in over 90 per cent of the 20 to 6,000 MHz frequency band and at the minimum test level of Table 2b over the whole 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0026",
+      "text": "For the stripline method, the ESA immunity test level shall be 60 V/m in the 20 to 400 MHz frequency range in over 90 per cent of the 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0027",
+      "text": "For the TEM cell method, the ESA immunity test level shall be 75 V/m in the 20 to 200 MHz frequency range in over 90 per cent of the 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0028",
+      "text": "For the BCI method, the ESA immunity test level shall be 60 mA in the 20 to 400 MHz frequency range in over 90 per cent of the 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0029",
+      "text": "For the ALSE method, the ESA immunity test level shall be 30 V/m in the 80 to 2,000 MHz frequency range and 10 V/m in the 2,000 to 6,000 MHz frequency range in over 90 per cent of the 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0030",
+      "text": "For the reverberation chamber method, the ESA immunity test level shall be 21 V/m in the LUF to 2,000 MHz frequency range and 7 V/m in the 2,000 to 6,000 MHz frequency range in over 90 per cent of the 20 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0031",
+      "text": "For the stripline method, the ESA minimum immunity test level over the whole 20 to 6,000 MHz frequency band shall be 50 V/m in the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0032",
+      "text": "For the TEM cell method, the ESA minimum immunity test level over the whole 20 to 6,000 MHz frequency band shall be 62,5 V/m in the 20 to 200 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0033",
+      "text": "For the BCI method, the ESA minimum immunity test level over the whole 20 to 6,000 MHz frequency band shall be 50 mA in the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0034",
+      "text": "For the ALSE method, the ESA minimum immunity test level over the whole 20 to 6,000 MHz frequency band shall be 25 V/m in the 80 to 2,000 MHz frequency range and 8 V/m in the 2,000 to 6,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0035",
+      "text": "For the reverberation chamber method, the ESA minimum immunity test level over the whole 20 to 6,000 MHz frequency band shall be 18 V/m in the LUF to 2,000 MHz frequency range and 6 V/m in the 2,000 to 6,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0036",
+      "text": "The ESA representative of its type shall show no degradation of performance of \"immunity related functions\" during the tests performed in accordance with Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0037",
+      "text": "The immunity of the ESA representative of its type to transient disturbances conducted along 12/24 V supply lines shall be demonstrated by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0038",
+      "text": "The ESA shall meet, for the starting profile, the functional status classification as defined in ISO 16750-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0039",
+      "text": "The ESA shall meet, for pulses 1, 2a, 2b, 3a and 3b, the Functional Performance Status Classification (FPSC) as in ISO 7637-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0040",
+      "text": "For the starting profile at immunity test level II for 12 V systems and level II for 24 V systems with 10 pulses, the ESA shall achieve functional status B for immunity related functions of ESA which shall be operational during engine start phases, functional status C for immunity related functions of other ESA, and functional status D for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0041",
+      "text": "The starting profile requirement shall apply only to ESAs that could be installed in vehicles with internal combustion engines which are started with a 12V/24V starter motor.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0042",
+      "text": "For test pulse 1 at -75 V for 12 V systems and -450 V for 24 V systems with 500 pulses, the ESA shall achieve FPSC III for immunity related functions and FPSC III for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0043",
+      "text": "For test pulse 2a at +37 V for 12 V systems and +37 V for 24 V systems with 500 pulses, the ESA shall achieve FPSC I for immunity related functions and FPSC III for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0044",
+      "text": "For test pulse 2b at +10 V for 12 V systems and +20 V for 24 V systems with 10 pulses, the ESA shall achieve FPSC II for immunity related functions and FPSC III for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0045",
+      "text": "For test pulse 3a at -112 V for 12 V systems and -150 V for 24 V systems with a test duration of 1 h, the ESA shall achieve FPSC I for immunity related functions and FPSC III for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0046",
+      "text": "For test pulse 3b at +75 V for 12 V systems and +150 V for 24 V systems with a test duration of 1 h, the ESA shall achieve FPSC I for immunity related functions and FPSC III for functions not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0047",
+      "text": "If tests are made using the method described in Annex 6, the vehicle shall withstand a field strength of 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0048",
+      "text": "If tests are made using the method described in Annex 6, the vehicle shall withstand a field strength of 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0049",
+      "text": "If tests are made using the method described in Annex 6 with the ISO 11451-4 BCI method, the vehicle shall withstand a current of 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0050",
+      "text": "During the tests performed in accordance with Annex 6, the vehicle representative of its type shall show no degradation of performance of \"immunity related functions\", according to paragraph 2.2. of Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0051",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband emission limit shall be 62 to 52 dBµV/m in the 30 to 75 MHz frequency band, decreasing logarithmically with frequencies above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.10.2.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0052",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband emission limit shall be 52 to 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.10.2.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0053",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband emission limit shall remain constant at 63 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.10.2.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0054",
+      "text": "On the ESA representative of its type, the measured broadband emission values, expressed in dBµV/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.10.2.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0055",
+      "text": "The vehicle emission limits shall be met throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0056",
+      "text": "The vehicle electronic systems shall demonstrate immunity when the vehicle is subjected to electromagnetic fields according to ISO 11451-2 in an ALSE as described in Annex 6, with front irradiation for vehicles not considered as \"large vehicles\", at the levels defined in paragraph 6.4.2.1. of the Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0057",
+      "text": "For REESS charging mode, the electronic systems and wiring harnesses required for charging mode shall demonstrate immunity to electromagnetic fields as described in Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0058",
+      "text": "During vehicle immunity tests in \"50 km/h mode\" at a vehicle speed of 50 km/h ±20 per cent (vehicle driving the rollers), the vehicle speed shall not vary by more than ±10 per cent of the nominal speed.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0060",
+      "text": "In case of automatic gearbox, there shall be no change of gear ratio inducing a speed variation greater than ±10 per cent of the nominal speed during vehicle immunity tests in \"50 km/h mode\".",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0061",
+      "text": "During vehicle immunity tests in \"50 km/h mode\" with the cluster operating in normal mode, there shall be no unexpected warning and no inconsistent variation of the odometer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0062",
+      "text": "During vehicle immunity tests in \"50 km/h mode\" with the brake pedal not depressed, there shall be no unexpected activation of the brake and no unexpected activation of the stop lights.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0063",
+      "text": "During vehicle immunity tests in \"50 km/h mode\" with the airbag and safety restraint systems operational, there shall be no unexpected activation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0069",
+      "text": "During the immunity test in \"REESS charging mode\", the vehicle shall not set in motion.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0070",
+      "text": "During the immunity test in \"REESS charging mode\", there shall be no unexpected release of the parking brake.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0071",
+      "text": "During the immunity test in \"REESS charging mode\", there shall be no loss of the parking position for automatic transmission.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      },
+      "confidence": 2
+    },
+    {
+      "id": "R-0077",
+      "text": "The vehicle radiated emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0079",
+      "text": "ESAs other than those involved in \"REESS charging mode coupled to the power grid\" shall comply with the requirements of any combination, at the manufacturer's discretion, of the absorber chamber test according to ISO 11452-2, TEM cell testing according to ISO 11452-3, bulk current injection testing according to ISO 11452-4, stripline testing according to ISO 11452-5 and reverberation chamber test according to ISO 11452-11, provided that the results cover the full frequency range of 20 to 6,000 MHz, with frequency range and general test conditions based on ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0083",
+      "text": "ESA immunity shall be demonstrated in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0088",
+      "text": "The ESA shall be immune to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 applied to the 12/24 V supply lines as well as to other connections of the ESA which may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0089",
+      "text": "The ESA shall be immune to the starting profile according to ISO 16750-2 applied to the 12/24 V supply lines as well as to other connections of the ESA which may be operationally connected to supply lines, except ESAs exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0090",
+      "text": "The emission of transient conducted disturbances generated by ESAs on 12/24 V supply lines shall be measured according to ISO 7637-2 on supply lines as well as on other connections of ESAs which may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 3"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0091",
+      "text": "The ACPE shall be able to limit unintended acceleration of the vehicle when an accelerator control misapplication by the driver has been detected at least when an obstacle exists in front of the vehicle and the driving direction is selected to be forward, for a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0093",
+      "text": "The ACPE shall regard as an accelerator control misapplication an accelerator control application having a velocity of at least 400 per cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator control and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0094",
+      "text": "The ACPE shall control acceleration when the vehicle is accelerated from standstill, for a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0095",
+      "text": "If the ACPE is not ready to perform an intervention 6 seconds after the initiation of the vehicle powertrain, information of this status shall be indicated to the driver.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0096",
+      "text": "The information to the driver that the ACPE is not ready to perform an intervention shall exist until the system has been successfully initialised.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0097",
+      "text": "The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located between 1.0 m and 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the accelerator control is applied, provided that the road is flat, horizontal and dry affording good adhesion, the weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C), the tyres are in an appropriate state and properly inflated, the brakes if intended to be used are properly operational, there is no severe uneven load distribution, no trailer is coupled and the vehicle mass is between maximum mass and mass in running order, the powertrain management system is properly operational, the ambient illumination is at least 1000 Lux with no extreme blinding of the sensors, the target vehicle is not extreme with regard to Radar Cross Section or shape/silhouette (e.g. below fifth percentile of RCS of all M1 vehicles), there are no significant weather conditions affecting sensing (e.g. heavy rain, dense fog, snow, dirt), there are no overhead obstructions close to the vehicle, the obstacle is stationary, unobstructed and clearly separated from other objects in the driving direction, the lateral offset between the centreline of the obstacle and the centreline of the vehicle is not more than 0.2 m, the direction of travel is straight with no curve and the vehicle is not turning at an intersection and is following its lane, and the obstacle is a vehicle of category M1 or a wall like structure with a width of at least 2.0 m and a height of at least 1.0 m.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0098",
+      "text": "When conditions deviate from those listed for acceleration limitation, the ACPE shall not deactivate or unreasonably switch the control strategy, as demonstrated in accordance with Annex 3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0099",
+      "text": "In the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the vehicle speed at the point where the accelerator control misapplication triggering conditions are met.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0100",
+      "text": "In the case that a collision is not prevented, the collision speed shall not be greater than 70% of the speed the vehicle would have had in the same position and under the same circumstances but without any ACPE intervention.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0101",
+      "text": "During any intervention, the vehicle acceleration shall continue to be limited by the ACPE, for a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.7"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0102",
+      "text": "The effectiveness of ACPE shall not be adversely affected by magnetic or electrical fields, demonstrated by fulfilling the technical requirements and respecting the transitional provisions of the 06 or later series of amendments to UN Regulation No. 10, for a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.8"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0103",
+      "text": "The ACPE shall show conformity with the safety aspects of electronic control systems by meeting the requirements of Annex 3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.9"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0104",
+      "text": "The ACPE shall inform the driver of its intervention in accordance with paragraph 5.4.2, for a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.10"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0105",
+      "text": "The ACPE shall provide a means for the driver to interrupt its intervention.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0106",
+      "text": "The interruption of the ACPE intervention shall be started by any intentional action which indicates that the driver has recognised the situation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0107",
+      "text": "In the case of interruption of the ACPE intervention by maintaining the accelerator control application, there shall be no rapid increase of acceleration.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0108",
+      "text": "When a vehicle is equipped with a means to manually deactivate the ACPE, the ACPE shall be automatically reinstated at the initiation of any new engine start (or run cycle, as relevant), except when a new engine start (or run cycle, as relevant) is performed automatically, e.g., the operation of a stop/start system.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0109",
+      "text": "When a vehicle is equipped with a means to manually deactivate the ACPE, a deactivation warning shall be given at least at the time of deactivation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0110",
+      "text": "A failure warning shall be given to the driver when there is a failure in the ACPE that prevents the requirements of this Regulation being met.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0111",
+      "text": "The ACPE failure warning shall be as specified in paragraph 5.4.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3.1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0112",
+      "text": "There shall not be an appreciable time interval between each ACPE self-check.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0113",
+      "text": "In the case of an electrically detectable failure, there shall not be a delay in illuminating the ACPE warning signal, except that if the vehicle speed is greater than 10 km/h at the time a failure is detected, the warning signal may be suppressed until the next time the vehicle speed is below 10 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0114",
+      "text": "A failure warning shall be given to the driver in the case of a detected non-electrical failure condition of the ACPE (e.g. sensor blindness or sensor misalignment), unless a deactivation warning is given as per paragraph 5.2.3.1.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.3"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0115",
+      "text": "The ACPE optical warning signals shall be visible even by daylight.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0116",
+      "text": "The satisfactory condition of the ACPE optical warning signals shall be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0117",
+      "text": "Each ACPE optical warning signal not shown in a common space shall be activated either when the engine start (or run, as relevant) switch is turned to the \"on\" (run) position or when the engine start (or run, as relevant) switch is in a position between the \"on\" (run) and \"start\" position that is designated by the manufacturer as a check position (initial system (power-on)).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.2"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0118",
+      "text": "The ACPE intervention warning shall be given by an optical signal.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0119",
+      "text": "In addition to the optical intervention warning signal, a haptic or acoustic signal shall be provided to the driver, unless such a signal is already being provided by another vehicle system comprising an object detection capability (e.g. parking distance warning).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0120",
+      "text": "The ACPE failure warning shall be given by a constant yellow optical signal.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.3"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0121",
+      "text": "It shall be possible at a Periodic Technical Inspection to confirm the correct operational status of the ACPE by a visible observation of the failure warning signal status.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0122",
+      "text": "Following a \"power-ON\" and any bulb check, the ACPE failure warning signal shall remain illuminated if any failure was present at the end of the previous engine start (or run, as relevant) cycle, unless this failure is detected to be no longer present.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0123",
+      "text": "Where the ACPE failure warning signal is in a common space, it shall be possible to observe that the common space is functional prior to the failure warning signal status check.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0124",
+      "text": "The operation of the ACPE failure warning signal shall be protected against simple unauthorised modification, or alternatively a secondary means of checking the correct operational status of the ACPE shall be available.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.2"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0125",
+      "text": "\"The System\" shall respect, under non-fault and fault conditions, all the appropriate performance requirements specified elsewhere in this Regulation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      },
+      "confidence": 3
+    },
+    {
+      "id": "R-0126",
+      "text": "\"The System\" shall be designed to operate in such a way that it does not induce safety critical risks.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0127",
+      "text": "Each unit of \"The System\" shall be clearly and unambiguously identifiable (e.g. by marking for hardware and marking or software output for software content) to provide corresponding hardware and documentation association.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0128",
+      "text": "Where functions are combined within a single unit or within a single computer, but shown in multiple blocks in the block diagram for clarity and ease of explanation, only a single hardware identification marking shall be used.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0129",
+      "text": "The identification of each unit shall define the hardware and software version.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5.1"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0130",
+      "text": "Where the software version changes such as to alter the function of the unit as far as this Regulation is concerned, the unit identification shall also be changed.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5.1"
+      },
+      "confidence": 4
+    },
+    {
+      "id": "R-0131",
+      "text": "\"The System\" shall incorporate design provisions so as to generate safe operation under fault conditions (for example fall-back to operation using a partial system, change-over to a separate back-up system, or removal of the high level function).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0132",
+      "text": "In case of a failure of \"The System\", the driver shall be warned, for example by warning signal or message display.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      },
+      "confidence": 5
+    },
+    {
+      "id": "R-0133",
+      "text": "When \"The System\" is not deactivated by the driver (e.g. by turning the ignition (run) switch to \"off\", or by switching off that particular function if a special switch is provided for that purpose), the failure warning shall be present as long as the fault condition persists.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      },
+      "confidence": 5
+    }
+  ]
+}

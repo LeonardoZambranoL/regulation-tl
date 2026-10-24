@@ -39,6 +39,8 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 22 | **`devansh-llm-clause-filter-writer-ranked`** | writer + ranker (Claude rates 1-5, drop only the 1s; cut-off fixed in advance) + dedupe | | | | | | req F2 dev 0.676 -> **0.690**, holdout 0.390 -> **0.406**; precision up, no match lost: **adopted, new best** |
 | 23 | `devansh-writer-ranked-scope`, `devansh-allclauses-writer-scope` | scope ranker with five expert leave-out principles (drop 1-2) on the best output / on wide candidates + writer | | | | | | req F2 dev 0.549 / 0.533, holdout 0.371 / 0.350 (best 0.690 / 0.406): cut too many real matches, **not adopted** |
 | 24 | **`devansh-writer-faithful-ranked`** | writer keeps the regulation's own scope, subject, values and alternatives (no narrowing to the product) + ranker | | | | | | req F2 dev **0.696** (P 0.505, R 0.768), holdout **0.407**; clause F2 dev 0.619 -> 0.708: **adopted, new best** |
+| 25 | `devansh-deliberate-faithful-ranked` | agent reads each section whole (thinking, effort high) and picks exact clauses; faithful writer; ranker | | | | | | paragraph P 0.553 / R 0.736 (classifier 0.508 / 0.785); req F2 dev 0.635, holdout 0.337: not adopted |
+| 26 | `devansh-agreement-combo` | keep paragraphs both selectors picked; one-selector ones only if ranker >= 4 | | | | | | agreed paragraphs 80% right, but req F2 dev 0.646, holdout 0.378: not adopted |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.
