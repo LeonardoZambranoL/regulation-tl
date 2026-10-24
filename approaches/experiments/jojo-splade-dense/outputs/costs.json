@@ -1,0 +1,8 @@
+{
+  "approved_budget_usd": 13,
+  "new_generation_usd_including_truncated_attempts": 11.185168,
+  "ledger_committed_usd_including_reused_responses": 11.841738,
+  "query_planning_usd_before_this_run": 0.017024,
+  "uncertain_requests": 0,
+  "enforced_run_budget_usd": 12
+}

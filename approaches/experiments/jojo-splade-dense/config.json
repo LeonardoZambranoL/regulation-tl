@@ -1,0 +1,9 @@
+{
+  "sparse_pool": 300,
+  "cross_encoder_head": 200,
+  "query_strategy": "facets",
+  "retrieval_per_query": 12,
+  "target_packets": 60,
+  "workers": 4,
+  "name": "SPLADE++ + BGE dense RRF, MiniLM cross-encoder top 200, Claude evidence-based requirement extraction"
+}
