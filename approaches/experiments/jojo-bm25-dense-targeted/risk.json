@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Generic ancestor-context and conditional-applicability prompts revised after inspecting development-case source/output errors; no fitting to gold scores."
+  ],
+  "notes": "Only one known development product. The 32-packet limit was chosen before scoring solely to meet the user-authorized USD 12 total spending ceiling, not by a score sweep. Gold is read only by the separate benchmark after the submission is frozen. The cost ceiling also limited final review; unchecked drafts are excluded without consulting gold."
+}

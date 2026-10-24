@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, BM25+ (bigrams) ranks their clauses from spec queries, cite the top 190 clauses (no LLM)", "n": 190, "source": "clauses", "select": {"method": "combined"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

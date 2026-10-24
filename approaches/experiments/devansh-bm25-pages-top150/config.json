@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, BM25+ (bigrams) ranks whole PDF pages from spec queries, cite the top 150 pages (no LLM)", "source": "pdf", "granularity": "page", "n": 150, "select": {"method": "combined"}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

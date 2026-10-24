@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "classifier prompt gives lighting examples (headlamps, direction indicators) seen in the dev domain"
+  ],
+  "notes": "Regulation selection is generated per spec by the LLM (no hand-written product rules), so it should transfer better than the rules-based variants; the regex prompt was not tuned against dev scores."
+}

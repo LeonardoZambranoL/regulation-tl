@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-5-5",
+  "packet_pages": 3,
+  "target_packets": 32,
+  "reference_depth": 2,
+  "retrieval_per_query": 6,
+  "review_batch": 35,
+  "workers": 3,
+  "training": false,
+  "automatic_upload": false,
+  "name": "No-training BM25 + dense retrieval, 32 source packets, Claude extraction and source-aware review"
+}

@@ -1,0 +1,2193 @@
+{
+  "R-0061": {
+    "id": "R-0061",
+    "decision": "keep",
+    "reason": "The requirement is conditional on a type approved under UN R128 and applies to the product's LED light sources. Source 2.4.4, 2.4.4.1 and 2.4.4.2 support it, with ancestor 2.4.4 preserved.",
+    "duplicate_of": ""
+  },
+  "R-0060": {
+    "id": "R-0060",
+    "decision": "drop",
+    "reason": "This is an application-documentation requirement (drawings accompanying the application for approval). It is an administrative procedure, not an engineering obligation on the product.",
+    "duplicate_of": ""
+  },
+  "R-0063": {
+    "id": "R-0063",
+    "decision": "keep",
+    "reason": "The source (2.3.3) limits additional inscriptions on LED light sources to those that do not adversely affect luminous characteristics. It applies to the product's LED light sources within R128 scope.",
+    "duplicate_of": ""
+  },
+  "R-0059": {
+    "id": "R-0059",
+    "decision": "keep",
+    "reason": "Source 2.3.1 supports the cap inscriptions for LED light sources submitted for approval. The scope condition is kept explicit in the requirement text.",
+    "duplicate_of": ""
+  },
+  "R-0062": {
+    "id": "R-0062",
+    "decision": "keep",
+    "reason": "Source 2.4.6 requires the 2.3.1 and 2.4.4 marks to be legible and indelible. This is a marking constraint on approved LED light sources.",
+    "duplicate_of": ""
+  },
+  "R-0069": {
+    "id": "R-0069",
+    "decision": "keep",
+    "reason": "Source 3.3.1 requires 48-hour ageing at test voltage before tests, with each function of a multi-function source aged separately. It is a necessary engineering test step for the LED light sources.",
+    "duplicate_of": ""
+  },
+  "R-0064": {
+    "id": "R-0064",
+    "decision": "keep",
+    "reason": "Source 3.2.1 requires each submitted sample to conform to the Regulation. It is a general umbrella obligation that does not replace the more specific requirements, so it is not a duplicate.",
+    "duplicate_of": ""
+  },
+  "R-0065": {
+    "id": "R-0065",
+    "decision": "keep",
+    "reason": "Source 3.2.2 requires LED light sources to remain in good working order in normal use and to have no design or manufacturing fault. It applies to the product's LED modules within R128 scope.",
+    "duplicate_of": ""
+  },
+  "R-0067": {
+    "id": "R-0067",
+    "decision": "keep",
+    "reason": "Source 3.2.4 and 3.2.5 require standard caps per IEC 60061 and a strong, firmly secured cap. The requirement applies to R128 LED light sources; whether the product's LED modules carry caps is unknown but does not change the obligation's validity.",
+    "duplicate_of": ""
+  },
+  "R-0066": {
+    "id": "R-0066",
+    "decision": "keep",
+    "reason": "Source 3.2.3 requires no scores or spots on the optical surfaces of LED light sources, verified at the start of approval testing.",
+    "duplicate_of": ""
+  },
+  "R-0071": {
+    "id": "R-0071",
+    "decision": "keep",
+    "reason": "Source 3.4.1 and 3.4.2 require the light emitting area position and dimensions to conform to the Annex 1 data sheet, measured after ageing.",
+    "duplicate_of": ""
+  },
+  "R-0068": {
+    "id": "R-0068",
+    "decision": "keep",
+    "reason": "Source 3.2.7 supports this constraint on which elements of the LED light source emit light.",
+    "duplicate_of": ""
+  },
+  "R-0070": {
+    "id": "R-0070",
+    "decision": "keep",
+    "reason": "Source 3.3.2 and 3.3.3 support the test voltage and class 0.2 instrument accuracy requirements for measurements.",
+    "duplicate_of": ""
+  },
+  "R-0073": {
+    "id": "R-0073",
+    "decision": "keep",
+    "reason": "Source 3.6.1 and 3.6.2 require the normalized intensity and/or cumulative flux distribution to be within the data sheet limits after ageing, measured per Annex 4.",
+    "duplicate_of": ""
+  },
+  "R-0072": {
+    "id": "R-0072",
+    "decision": "keep",
+    "reason": "Source 3.5.1 and 3.5.2 require luminous flux within the data sheet limits when measured per Annex 4 after ageing.",
+    "duplicate_of": ""
+  },
+  "R-0279": {
+    "id": "R-0279",
+    "decision": "keep",
+    "reason": "Annex 4 1.3 footnote supports substantially uniform flux behaviour between the test voltage and the voltage range limits. It is distinct from the tolerance values in 1.3.",
+    "duplicate_of": ""
+  },
+  "R-0273": {
+    "id": "R-0273",
+    "decision": "keep",
+    "reason": "Annex 4 preamble requires Tb-point stabilisation for LED light sources of categories with a defined Tb. The condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0272": {
+    "id": "R-0272",
+    "decision": "keep",
+    "reason": "Annex 4 preamble supports the still-air 23 ± 2 °C measurement for LED light sources with an integrated heat sink. The condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0277": {
+    "id": "R-0277",
+    "decision": "keep",
+    "reason": "Annex 4 1.2 supports the 1-minute versus 30-minute flux criteria for integrated heatsinks unless the data sheet specifies otherwise.",
+    "duplicate_of": ""
+  },
+  "R-0278": {
+    "id": "R-0278",
+    "decision": "keep",
+    "reason": "Annex 4 1.3 supports the voltage range measurements and the ±30% and ±15% flux tolerances unless the data sheet is tighter.",
+    "duplicate_of": ""
+  },
+  "R-0275": {
+    "id": "R-0275",
+    "decision": "keep",
+    "reason": "Annex 4 1.1 supports the integrating method and measurement timing. It is a distinct test-method requirement.",
+    "duplicate_of": ""
+  },
+  "R-0280": {
+    "id": "R-0280",
+    "decision": "keep",
+    "reason": "Annex 4 2.1 supports the start timing for luminous intensity measurements, conditional on an integrated heatsink or a specified Tb point.",
+    "duplicate_of": ""
+  },
+  "R-0276": {
+    "id": "R-0276",
+    "decision": "keep",
+    "reason": "Annex 4 1.2 supports compliance of flux values measured after 30 minutes or Tb stabilisation with the minimum and maximum requirements. It is distinct from the additional 1 versus 30 minute criteria.",
+    "duplicate_of": ""
+  },
+  "R-0274": {
+    "id": "R-0274",
+    "decision": "keep",
+    "reason": "Annex 4 preamble supports elevated-temperature measurements where a maximum test temperature is specified in the data sheet. The condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0281": {
+    "id": "R-0281",
+    "decision": "keep",
+    "reason": "Annex 4 2.2 supports measurement of normalized intensity and cumulative flux at the relevant test voltage.",
+    "duplicate_of": ""
+  },
+  "R-0282": {
+    "id": "R-0282",
+    "decision": "keep",
+    "reason": "Annex 4 2.3 supports the normalized luminous intensity calculation method.",
+    "duplicate_of": ""
+  },
+  "R-0285": {
+    "id": "R-0285",
+    "decision": "keep",
+    "reason": "Annex 4 4.2 supports power consumption measurement at the relevant test voltage.",
+    "duplicate_of": ""
+  },
+  "R-0284": {
+    "id": "R-0284",
+    "decision": "keep",
+    "reason": "Annex 4 4.1 supports measuring power consumption under the same conditions as flux, with instruments per 3.3.3.",
+    "duplicate_of": ""
+  },
+  "R-0286": {
+    "id": "R-0286",
+    "decision": "keep",
+    "reason": "Annex 4 4.3 supports compliance of power consumption values with the data sheet minimum and maximum requirements.",
+    "duplicate_of": ""
+  },
+  "R-0283": {
+    "id": "R-0283",
+    "decision": "keep",
+    "reason": "Annex 4 3 supports the requirement that the emitted colour be within the required colour boundaries, measured under the paragraph 1.1 conditions.",
+    "duplicate_of": ""
+  },
+  "R-0291": {
+    "id": "R-0291",
+    "decision": "keep",
+    "reason": "Annex 4 5.3 supports the direction requirement of intensity above 20 cd. It applies where a maximum test temperature is specified and a single direction is used, and the condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0288": {
+    "id": "R-0288",
+    "decision": "keep",
+    "reason": "Annex 4 5.1.1.1 supports the temperature range for integrated heatsink categories, conditional on a specified maximum test temperature.",
+    "duplicate_of": ""
+  },
+  "R-0289": {
+    "id": "R-0289",
+    "decision": "keep",
+    "reason": "Annex 4 5.1.1.2 supports the temperature range for categories with a specified Tb, conditional on a specified maximum test temperature.",
+    "duplicate_of": ""
+  },
+  "R-0287": {
+    "id": "R-0287",
+    "decision": "keep",
+    "reason": "Annex 4 5.1.1 supports elevated temperature steps of at most 25 °C with continuous operation, conditional on a specified maximum test temperature.",
+    "duplicate_of": ""
+  },
+  "R-0290": {
+    "id": "R-0290",
+    "decision": "keep",
+    "reason": "Annex 4 5.2 supports the test voltage requirement for elevated-temperature photometric measurements, conditional on a specified maximum test temperature.",
+    "duplicate_of": ""
+  },
+  "R-0296": {
+    "id": "R-0296",
+    "decision": "unresolved",
+    "reason": "UN R128 Annex 5 applies to manufacturers of LED light sources approved under R128. The spec only says 'LED modules on PCB', so whether R128 applies to the product's LEDs is not supported and the requirement carries no such condition.",
+    "duplicate_of": ""
+  },
+  "R-0292": {
+    "id": "R-0292",
+    "decision": "unresolved",
+    "reason": "This R128 LED light source conformity-of-production requirement depends on the LEDs being R128-approved light sources. The spec does not establish that, and the requirement text drops the condition.",
+    "duplicate_of": ""
+  },
+  "R-0293": {
+    "id": "R-0293",
+    "decision": "unresolved",
+    "reason": "The R128 manufacturer test obligation applies to approved LED light source types. The product's LED modules are not shown to be R128 light sources, so applicability cannot be expressed faithfully.",
+    "duplicate_of": ""
+  },
+  "R-0298": {
+    "id": "R-0298",
+    "decision": "unresolved",
+    "reason": "The R128 Annex 5/6 recording obligation depends on the LEDs being R128-approved light sources, which the spec does not establish.",
+    "duplicate_of": ""
+  },
+  "R-0294": {
+    "id": "R-0294",
+    "decision": "unresolved",
+    "reason": "The R128 manufacturer conformity test scope applies only if the LEDs are R128 approved light sources. This is not established.",
+    "duplicate_of": ""
+  },
+  "R-0295": {
+    "id": "R-0295",
+    "decision": "unresolved",
+    "reason": "The R128 test method obligation depends on R128 applicability to the LED modules, which is not established.",
+    "duplicate_of": ""
+  },
+  "R-0299": {
+    "id": "R-0299",
+    "decision": "unresolved",
+    "reason": "The R128 statistical conformity obligation applies to approved LED light source types. Applicability to this product's LED modules is not supported and the condition is not stated.",
+    "duplicate_of": ""
+  },
+  "R-0297": {
+    "id": "R-0297",
+    "decision": "unresolved",
+    "reason": "The R128 sampling obligation depends on the LEDs being R128 light sources, which is not established.",
+    "duplicate_of": ""
+  },
+  "R-0075": {
+    "id": "R-0075",
+    "decision": "drop",
+    "reason": "This is an administrative application-drawing content requirement (axis of reference), not an engineering obligation on the product.",
+    "duplicate_of": ""
+  },
+  "R-0076": {
+    "id": "R-0076",
+    "decision": "drop",
+    "reason": "This is an administrative application-drawing content requirement (apparent surface limit), not an engineering obligation on the product.",
+    "duplicate_of": ""
+  },
+  "R-0077": {
+    "id": "R-0077",
+    "decision": "keep",
+    "reason": "The requirement concerns the space reserved and arrangement intended for the approval marking on the lamp, which constrains the lamp's marking provision. The product is a lamp within R148 scope.",
+    "duplicate_of": ""
+  },
+  "R-0074": {
+    "id": "R-0074",
+    "decision": "drop",
+    "reason": "This is an administrative application documentation requirement. It also asserts reversing function coverage that the cited page does not state.",
+    "duplicate_of": ""
+  },
+  "R-0237": {
+    "id": "R-0237",
+    "decision": "keep",
+    "reason": "This conditional obligation applies if the rear position lamp is reciprocally incorporated with the stop lamp. The product has both functions in one housing, and the source supports the 5:1 ratio and the field.",
+    "duplicate_of": ""
+  },
+  "R-0240": {
+    "id": "R-0240",
+    "decision": "keep",
+    "reason": "The no-sharp-colour-variation obligation applies to the lamp's emitted light and is supported by paragraph 4.9.",
+    "duplicate_of": ""
+  },
+  "R-0238": {
+    "id": "R-0238",
+    "decision": "keep",
+    "reason": "The luminous intensity compliance tests per Annex 8 apply to the lamp's functions and are supported by paragraph 4.8.3.6.",
+    "duplicate_of": ""
+  },
+  "R-0239": {
+    "id": "R-0239",
+    "decision": "keep",
+    "reason": "The colour measurement and colorimetric check method in paragraph 4.9 applies to the lamp functions.",
+    "duplicate_of": ""
+  },
+  "R-0232": {
+    "id": "R-0232",
+    "decision": "keep",
+    "reason": "The rear position lamp R1 limits are conditional on the lamp category, which is not yet known, and are supported by Table 4 and paragraph 5.2.1.",
+    "duplicate_of": ""
+  },
+  "R-0233": {
+    "id": "R-0233",
+    "decision": "keep",
+    "reason": "The rear position lamp R2 limits are conditional on the lamp category, which is not yet known, and are supported by Table 4.",
+    "duplicate_of": ""
+  },
+  "R-0235": {
+    "id": "R-0235",
+    "decision": "keep",
+    "reason": "The minimum intensity within the geometric visibility angles applies to the rear position function and is supported by Table 4 and paragraph 4.8.3.1(d).",
+    "duplicate_of": ""
+  },
+  "R-0234": {
+    "id": "R-0234",
+    "decision": "keep",
+    "reason": "The standard light distribution requirement (Figure A3-I) applies to the rear position function and is supported by Table 4 and paragraph 4.8.3.1(c).",
+    "duplicate_of": ""
+  },
+  "R-0236": {
+    "id": "R-0236",
+    "decision": "keep",
+    "reason": "The red colour requirement for a rear position lamp is supported by paragraph 5.2.7. The product has a red-tinted lens and a rear position function.",
+    "duplicate_of": ""
+  },
+  "R-0252": {
+    "id": "R-0252",
+    "decision": "keep",
+    "reason": "The stop lamp photometric requirements per Table 7 apply to the product's stop lamp function, for the applicable category, and are supported by paragraph 5.5.1.",
+    "duplicate_of": ""
+  },
+  "R-0253": {
+    "id": "R-0253",
+    "decision": "keep",
+    "reason": "The S1 limits are conditional on the stop lamp being category S1, which is not yet known, and are supported by Table 7.",
+    "duplicate_of": ""
+  },
+  "R-0254": {
+    "id": "R-0254",
+    "decision": "keep",
+    "reason": "The S2 limits are conditional on the stop lamp being category S2, which is not yet known, and are supported by Table 7.",
+    "duplicate_of": ""
+  },
+  "R-0255": {
+    "id": "R-0255",
+    "decision": "keep",
+    "reason": "The red colour requirement for a stop lamp is supported by paragraph 5.5.7 and applies to the product's stop lamp.",
+    "duplicate_of": ""
+  },
+  "R-0145": {
+    "id": "R-0145",
+    "decision": "keep",
+    "reason": "This conditional repeat-test obligation applies only to a lamp with a replaceable light source whose photometric results fail. Replaceability is undecided and is kept in the condition. It is supported by Annex 5 1.2(b).",
+    "duplicate_of": ""
+  },
+  "R-0131": {
+    "id": "R-0131",
+    "decision": "keep",
+    "reason": "The type approval holder's Annex 4 conformity-of-production tests are supported by the source and apply to the lamp type.",
+    "duplicate_of": ""
+  },
+  "R-0138": {
+    "id": "R-0138",
+    "decision": "keep",
+    "reason": "The random sampling from a uniform batch is a manufacturing conformity obligation supported by Annex 4 2.3.",
+    "duplicate_of": ""
+  },
+  "R-0132": {
+    "id": "R-0132",
+    "decision": "keep",
+    "reason": "The obligation to take further samples on non-conformity is supported by Annex 4 2 and is a manufacturing conformity control.",
+    "duplicate_of": ""
+  },
+  "R-0133": {
+    "id": "R-0133",
+    "decision": "keep",
+    "reason": "The manufacturer's obligation to take steps to ensure conformity of production is supported by Annex 4 2. It is not a duplicate of R-0132, which covers further sampling.",
+    "duplicate_of": ""
+  },
+  "R-0137": {
+    "id": "R-0137",
+    "decision": "keep",
+    "reason": "The requirement that reference test methods are those of R148 is supported by Annex 4 2.2.4.",
+    "duplicate_of": ""
+  },
+  "R-0143": {
+    "id": "R-0143",
+    "decision": "keep",
+    "reason": "The mechanical and geometric conformity criterion (differences within inevitable manufacturing deviations) is supported by Annex 5 1.1.",
+    "duplicate_of": ""
+  },
+  "R-0144": {
+    "id": "R-0144",
+    "decision": "unresolved",
+    "reason": "The source states photometric conformity shall not be contested if no measured value deviates from the paragraph 6.1.3 values. That is a sufficient condition, so the 'only if' wording is not source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0139": {
+    "id": "R-0139",
+    "decision": "keep",
+    "reason": "The conformity assessment scope covering series production from individual factories is supported by Annex 4 2.3.",
+    "duplicate_of": ""
+  },
+  "R-0141": {
+    "id": "R-0141",
+    "decision": "keep",
+    "reason": "The manufacturer's statistical study and acceptability criteria agreed with the competent authority are supported by Annex 4 2.5 and apply to manufacturing conformity.",
+    "duplicate_of": ""
+  },
+  "R-0142": {
+    "id": "R-0142",
+    "decision": "keep",
+    "reason": "Annex 4 2.5 sets a statistical acceptability criterion for manufacturer conformity-of-production testing. The lamp is within scope and the quote is supported.",
+    "duplicate_of": ""
+  },
+  "R-0135": {
+    "id": "R-0135",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1 sets the test methods for manufacturer conformity testing of the lamp type. It is supported by the page and context.",
+    "duplicate_of": ""
+  },
+  "R-0134": {
+    "id": "R-0134",
+    "decision": "keep",
+    "reason": "Annex 4 2.1 says conformity tests cover photometric and colorimetric characteristics. It applies to the lamp and is supported by the source.",
+    "duplicate_of": ""
+  },
+  "R-0140": {
+    "id": "R-0140",
+    "decision": "keep",
+    "reason": "Annex 4 2.4 requires photometric minimum-value and chromaticity measurements on sampled lamps. It applies to the lamp and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0136": {
+    "id": "R-0136",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.3 requires regular calibration of test apparatus when the R148 methods or consented equivalents are used. The condition is preserved and the requirement is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0149": {
+    "id": "R-0149",
+    "decision": "keep",
+    "reason": "Annex 5 2.2 requires the manufacturer to align production after contested first sampling, with repeat sampling within two months. This is a conformity-of-production obligation and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0152": {
+    "id": "R-0152",
+    "decision": "keep",
+    "reason": "Annex 5 3.2.1 sets the alignment and second repeat sampling consequence for deviations between 20 and 30 per cent. It is source-supported and distinct from the other sampling steps.",
+    "duplicate_of": ""
+  },
+  "R-0150": {
+    "id": "R-0150",
+    "decision": "keep",
+    "reason": "Annex 5 3.1 sets the 20 per cent threshold for non-contested conformity in first repeated sampling. It is a production conformity criterion, source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0151": {
+    "id": "R-0151",
+    "decision": "keep",
+    "reason": "Annex 5 3.2.1 sets the contested-conformity band of more than 20 and up to 30 per cent in first repeated sampling. It is source-supported and distinct from the other thresholds.",
+    "duplicate_of": ""
+  },
+  "R-0153": {
+    "id": "R-0153",
+    "decision": "keep",
+    "reason": "Annex 5 3.2.2 sets the consequence of more than 30 per cent deviation: approval withdrawn and paragraph 5 applied. It constrains manufacturing conformity and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0147": {
+    "id": "R-0147",
+    "decision": "keep",
+    "reason": "Annex 5 2.1 sets the 20 per cent first-sampling criterion for conformity of production. It is source-supported and applies to the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0148": {
+    "id": "R-0148",
+    "decision": "keep",
+    "reason": "Annex 5 2.2 says conformity is contested when any specimen deviates by more than 20 per cent. It is source-supported and complements R-0147 rather than duplicating it.",
+    "duplicate_of": ""
+  },
+  "R-0146": {
+    "id": "R-0146",
+    "decision": "keep",
+    "reason": "Annex 5 1.4 requires chromaticity compliance under the paragraph 4.9 test conditions in inspector sampling. It applies to the lamp and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0154": {
+    "id": "R-0154",
+    "decision": "keep",
+    "reason": "Annex 5 4.1 sets the 20 per cent criterion for second repeated sampling. It is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0155": {
+    "id": "R-0155",
+    "decision": "keep",
+    "reason": "Annex 5 4.2 sets the consequence of a second-repeat deviation above 20 per cent: approval withdrawn and paragraph 5 applied. It is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0157": {
+    "id": "R-0157",
+    "decision": "keep",
+    "reason": "Annex 8 1.2.2 applies to rear position and stop functions because the product uses LED light sources. It requires intensity at 1 min and at 30 min or stability to meet the min/max limits. The context is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0156": {
+    "id": "R-0156",
+    "decision": "keep",
+    "reason": "Annex 8 1.2.1 applies to the reversing lamp function with LED technology. It requires intensity at 1 and 10 min to meet the min/max limits, and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0159": {
+    "id": "R-0159",
+    "decision": "keep",
+    "reason": "Annex 8 2.1.5 is a conditional ('in case of doubt') full-time-range test for the rear position, stop and reversing functions. The Table A8-1 times are supported by the source.",
+    "duplicate_of": ""
+  },
+  "R-0158": {
+    "id": "R-0158",
+    "decision": "keep",
+    "reason": "Annex 8 2.1.2 applies to a function using LED technology only and links the deemed-compliance condition to the paragraph 1.2 measurements. The LED-only condition is preserved. It is an engineering test provision and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0078": {
+    "id": "R-0078",
+    "decision": "drop",
+    "reason": "This is a definitions-applicability provision, not an engineering obligation on the retro-reflector.",
+    "duplicate_of": ""
+  },
+  "R-0079": {
+    "id": "R-0079",
+    "decision": "drop",
+    "reason": "It is an administrative submission procedure for a trade-name-only type variant. It is conditional on a scenario not stated for the product.",
+    "duplicate_of": ""
+  },
+  "R-0080": {
+    "id": "R-0080",
+    "decision": "drop",
+    "reason": "It is an administrative provision on who submits the application. It does not constrain the product or an engineering test.",
+    "duplicate_of": ""
+  },
+  "R-0081": {
+    "id": "R-0081",
+    "decision": "drop",
+    "reason": "It concerns application content and the communication form, which is administrative documentation, and it is an optional applicant choice.",
+    "duplicate_of": ""
+  },
+  "R-0085": {
+    "id": "R-0085",
+    "decision": "drop",
+    "reason": "It concerns sample submission for the application, which is administrative.",
+    "duplicate_of": ""
+  },
+  "R-0084": {
+    "id": "R-0084",
+    "decision": "drop",
+    "reason": "It is an application documentation requirement and does not constrain the design or a necessary engineering test.",
+    "duplicate_of": ""
+  },
+  "R-0082": {
+    "id": "R-0082",
+    "decision": "drop",
+    "reason": "It is an application drawing and documentation requirement, which is administrative.",
+    "duplicate_of": ""
+  },
+  "R-0083": {
+    "id": "R-0083",
+    "decision": "drop",
+    "reason": "It concerns drawing content for the application and is administrative. Marking details are not specified here as an engineering obligation.",
+    "duplicate_of": ""
+  },
+  "R-0089": {
+    "id": "R-0089",
+    "decision": "drop",
+    "reason": "UN R155 cyber security approval marking applies to the vehicle type, not the rear lamp. No connected or cyber-relevant function is stated for the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0086": {
+    "id": "R-0086",
+    "decision": "drop",
+    "reason": "This is a vehicle-manufacturer administrative application obligation, not a lamp obligation.",
+    "duplicate_of": ""
+  },
+  "R-0088": {
+    "id": "R-0088",
+    "decision": "drop",
+    "reason": "This is a vehicle-manufacturer documentation retention obligation for cyber security type approval. It is administrative and not applicable to the rear lamp.",
+    "duplicate_of": ""
+  },
+  "R-0087": {
+    "id": "R-0087",
+    "decision": "drop",
+    "reason": "This is an administrative information-provision duty in vehicle cyber security approval, not a lamp engineering obligation.",
+    "duplicate_of": ""
+  },
+  "R-0093": {
+    "id": "R-0093",
+    "decision": "drop",
+    "reason": "It is a vehicle-level cyber security measure verified by document checks. No cyber-relevant interface of the lamp is stated, so it is inapplicable at component level.",
+    "duplicate_of": ""
+  },
+  "R-0090": {
+    "id": "R-0090",
+    "decision": "drop",
+    "reason": "It concerns the vehicle approval mark under R155, which is not applicable to the rear lamp.",
+    "duplicate_of": ""
+  },
+  "R-0091": {
+    "id": "R-0091",
+    "decision": "drop",
+    "reason": "It concerns the vehicle cyber security approval mark and does not apply to the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0092": {
+    "id": "R-0092",
+    "decision": "drop",
+    "reason": "It concerns the placement of the vehicle approval mark near the vehicle data plate. This is a vehicle-level R155 matter and is not applicable to the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0095": {
+    "id": "R-0095",
+    "decision": "drop",
+    "reason": "UN R155 vehicle-level cyber security obligations on the vehicle manufacturer and approval authority. They do not apply to a rear lamp module with no stated software or connectivity function.",
+    "duplicate_of": ""
+  },
+  "R-0094": {
+    "id": "R-0094",
+    "decision": "drop",
+    "reason": "UN R155 vehicle-level cyber security verification by testing of a vehicle. Not applicable to the rear lamp component, which has no stated software or connectivity function.",
+    "duplicate_of": ""
+  },
+  "R-0096": {
+    "id": "R-0096",
+    "decision": "drop",
+    "reason": "UN R155 administrative information duty towards the approval authority for vehicle cyber security. Not applicable to a rear lamp with no stated software or connectivity function.",
+    "duplicate_of": ""
+  },
+  "R-0097": {
+    "id": "R-0097",
+    "decision": "drop",
+    "reason": "UN R156 software update management system obligation at vehicle-manufacturer level. The product facts do not state any software update capability for the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0039": {
+    "id": "R-0039",
+    "decision": "keep",
+    "reason": "Conditional marking obligation for lamps with non-replaceable light sources or light source modules. LED replaceability is undecided, so the condition is kept.",
+    "duplicate_of": ""
+  },
+  "R-0038": {
+    "id": "R-0038",
+    "decision": "keep",
+    "reason": "The product includes a reversing lamp function. UN R23 3.4 requires adequate space for the approval mark and symbols, shown in the drawing.",
+    "duplicate_of": ""
+  },
+  "R-0036": {
+    "id": "R-0036",
+    "decision": "keep",
+    "reason": "UN R23 3.1 trade name or mark marking applies to the reversing lamp function and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0037": {
+    "id": "R-0037",
+    "decision": "keep",
+    "reason": "UN R23 3.2 light source category or module identification marking, with the exception for non-replaceable light sources preserved.",
+    "duplicate_of": ""
+  },
+  "R-0048": {
+    "id": "R-0048",
+    "decision": "drop",
+    "reason": "This is a grant-of-approval condition for the approval authority based on two samples. It is administrative and adds no separate engineering obligation.",
+    "duplicate_of": ""
+  },
+  "R-0046": {
+    "id": "R-0046",
+    "decision": "keep",
+    "reason": "The reversing lamp must bear the additional AR symbol under UN R23 4.3.2; this is source-supported and applicable.",
+    "duplicate_of": ""
+  },
+  "R-0045": {
+    "id": "R-0045",
+    "decision": "keep",
+    "reason": "The international approval mark is required marking for the reversing lamp under UN R23 4.3.",
+    "duplicate_of": ""
+  },
+  "R-0043": {
+    "id": "R-0043",
+    "decision": "keep",
+    "reason": "Conditional on lamps with light source module(s). Whether the LED modules are light source modules in the R23 sense is undecided, so the condition stays.",
+    "duplicate_of": ""
+  },
+  "R-0044": {
+    "id": "R-0044",
+    "decision": "keep",
+    "reason": "Conditional on light source module(s). Rated voltage marking of the module under 3.6.3; the condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0040": {
+    "id": "R-0040",
+    "decision": "keep",
+    "reason": "Conditional on light source module(s). Applicant trade name or mark on the module under 3.6.1.",
+    "duplicate_of": ""
+  },
+  "R-0042": {
+    "id": "R-0042",
+    "decision": "keep",
+    "reason": "Conditional on light source module(s). Module specific identification code format under 3.6.2.",
+    "duplicate_of": ""
+  },
+  "R-0041": {
+    "id": "R-0041",
+    "decision": "keep",
+    "reason": "Conditional on light source module(s). The module bears its specific identification code under 3.6.2.",
+    "duplicate_of": ""
+  },
+  "R-0047": {
+    "id": "R-0047",
+    "decision": "keep",
+    "reason": "Conditional on asymmetric visibility angles. Arrow marking under 4.3.4 applies to the reversing lamp if that condition holds.",
+    "duplicate_of": ""
+  },
+  "R-0216": {
+    "id": "R-0216",
+    "decision": "keep",
+    "reason": "The product combines several light functions in one housing. The identification symbols apply to grouped, combined or reciprocally incorporated lamps approved under several Regulations (4.5.2).",
+    "duplicate_of": ""
+  },
+  "R-0213": {
+    "id": "R-0213",
+    "decision": "drop",
+    "reason": "Equivalent to R-0049, which states the same 4.5 obligation with the same condition. R-0049 is retained.",
+    "duplicate_of": "R-0049"
+  },
+  "R-0218": {
+    "id": "R-0218",
+    "decision": "keep",
+    "reason": "The approval mark and additional symbol must be indelible and legible when the reversing lamp is mounted on the vehicle (4.6).",
+    "duplicate_of": ""
+  },
+  "R-0049": {
+    "id": "R-0049",
+    "decision": "keep",
+    "reason": "The rear lamp combines several lamp functions in one housing, so each lamp must satisfy UN R23 or another Regulation (4.5).",
+    "duplicate_of": ""
+  },
+  "R-0217": {
+    "id": "R-0217",
+    "decision": "keep",
+    "reason": "Conditional on a single approval mark being used for grouped lamps. Minimum size of components under 4.5.3.",
+    "duplicate_of": ""
+  },
+  "R-0214": {
+    "id": "R-0214",
+    "decision": "keep",
+    "reason": "Conditional on a single international approval mark. The mark must be visible after installation (4.5.1.1).",
+    "duplicate_of": ""
+  },
+  "R-0215": {
+    "id": "R-0215",
+    "decision": "keep",
+    "reason": "Conditional on a single international approval mark. No light-transmitting part may be removable without also removing the mark (4.5.1.2).",
+    "duplicate_of": ""
+  },
+  "R-0221": {
+    "id": "R-0221",
+    "decision": "keep",
+    "reason": "General sample conformity obligation (5.1) applying to the reversing lamp function. Specific constraints are retained separately.",
+    "duplicate_of": ""
+  },
+  "R-0219": {
+    "id": "R-0219",
+    "decision": "keep",
+    "reason": "UN R23 section 5 imports the general and individual specifications of UN R48/R86 for the reversing lamp. Those sections are not supplied here, so the dependency stays explicit.",
+    "duplicate_of": ""
+  },
+  "R-0220": {
+    "id": "R-0220",
+    "decision": "keep",
+    "reason": "Applicability rule for the requirements pertinent to the lamp and its vehicle category (M1), where verification at lamp approval is feasible.",
+    "duplicate_of": ""
+  },
+  "R-0222": {
+    "id": "R-0222",
+    "decision": "keep",
+    "reason": "The reversing lamp must withstand normal-use vibration and retain its characteristics (5.2). This is a design obligation and is source-supported.",
+    "duplicate_of": ""
+  },
+  "R-0229": {
+    "id": "R-0229",
+    "decision": "keep",
+    "reason": "Conditional on a single lamp containing more than one light source. The product uses LED arrays, and the maximum intensities apply when all sources are lit (6.1.5).",
+    "duplicate_of": ""
+  },
+  "R-0226": {
+    "id": "R-0226",
+    "decision": "keep",
+    "reason": "Reversing lamp photometric maximum of 600 cd between h-h and 5° D under 6.1.3.",
+    "duplicate_of": ""
+  },
+  "R-0227": {
+    "id": "R-0227",
+    "decision": "keep",
+    "reason": "Reversing lamp photometric maximum of 8,000 cd below 5° D under 6.1.3.",
+    "duplicate_of": ""
+  },
+  "R-0228": {
+    "id": "R-0228",
+    "decision": "keep",
+    "reason": "Reversing lamp minimum intensities per the Annex 3 directions (6.1.4). The paired-installation exception is in the source and is not lost.",
+    "duplicate_of": ""
+  },
+  "R-0224": {
+    "id": "R-0224",
+    "decision": "keep",
+    "reason": "Reversing lamp minimum of 80 cd along the reference axis (6.1.2).",
+    "duplicate_of": ""
+  },
+  "R-0223": {
+    "id": "R-0223",
+    "decision": "keep",
+    "reason": "General photometric min/max requirement for the reversing lamp samples under 6.1.1.",
+    "duplicate_of": ""
+  },
+  "R-0225": {
+    "id": "R-0225",
+    "decision": "keep",
+    "reason": "Reversing lamp maximum of 300 cd in or above the horizontal plane under 6.1.3.",
+    "duplicate_of": ""
+  },
+  "R-0230": {
+    "id": "R-0230",
+    "decision": "keep",
+    "reason": "The product has a reversing lamp with LED modules, and the multi-source grouping rule is on the cited page under 6.1.6.",
+    "duplicate_of": ""
+  },
+  "R-0231": {
+    "id": "R-0231",
+    "decision": "keep",
+    "reason": "Applies to a reversing lamp with more than one light source, which fits the multi-LED product. Source-supported with both alternatives preserved.",
+    "duplicate_of": ""
+  },
+  "R-0335": {
+    "id": "R-0335",
+    "decision": "keep",
+    "reason": "The approval mark layout note is general and applies to the lamp's required marking. The approval architecture is not yet known, but the requirement is conditional on a mark being applied.",
+    "duplicate_of": ""
+  },
+  "R-0336": {
+    "id": "R-0336",
+    "decision": "keep",
+    "reason": "General approval-mark layout note that constrains required marking; supported by the cited page.",
+    "duplicate_of": ""
+  },
+  "R-0323": {
+    "id": "R-0323",
+    "decision": "keep",
+    "reason": "Photometric test method applying to the reversing function in Annex 3 1.1.",
+    "duplicate_of": ""
+  },
+  "R-0331": {
+    "id": "R-0331",
+    "decision": "keep",
+    "reason": "Conditional on non-replaceable light sources; the product has several LEDs. Whether they are replaceable is undecided, so the condition is retained.",
+    "duplicate_of": ""
+  },
+  "R-0332": {
+    "id": "R-0332",
+    "decision": "keep",
+    "reason": "Conditional on replaceable light sources operated at the stated voltages. This faithfully preserves the undecided design choice.",
+    "duplicate_of": ""
+  },
+  "R-0328": {
+    "id": "R-0328",
+    "decision": "keep",
+    "reason": "Axis-of-reference orientation on the vehicle is an integration constraint for the reversing lamp in an M1 vehicle.",
+    "duplicate_of": ""
+  },
+  "R-0326": {
+    "id": "R-0326",
+    "decision": "keep",
+    "reason": "Conditional on challenged measurement results; a necessary test tolerance supported by Annex 3 1.2.3.",
+    "duplicate_of": ""
+  },
+  "R-0324": {
+    "id": "R-0324",
+    "decision": "keep",
+    "reason": "Conditional on challenged results; a measurement-distance condition supported by Annex 3 1.2.1.",
+    "duplicate_of": ""
+  },
+  "R-0325": {
+    "id": "R-0325",
+    "decision": "keep",
+    "reason": "Conditional on challenged results; a measuring-equipment condition supported by Annex 3 1.2.2.",
+    "duplicate_of": ""
+  },
+  "R-0330": {
+    "id": "R-0330",
+    "decision": "keep",
+    "reason": "Conditional check applying to the reversing lamp when visual examination shows local intensity variations; supported by Annex 3 2.2.",
+    "duplicate_of": ""
+  },
+  "R-0329": {
+    "id": "R-0329",
+    "decision": "keep",
+    "reason": "The minimum intensity table for reversing lamps is in Annex 3 2. The values come from the table image and are consistent with the 80 cd axis minimum in 6.1.2.",
+    "duplicate_of": ""
+  },
+  "R-0327": {
+    "id": "R-0327",
+    "decision": "keep",
+    "reason": "Conditional on installation in more than one position or in a field of positions; mounting is currently unknown, so the condition is retained.",
+    "duplicate_of": ""
+  },
+  "R-0337": {
+    "id": "R-0337",
+    "decision": "keep",
+    "reason": "Manufacturing-conformity criterion (Annex 4 1.1) for the lamp type.",
+    "duplicate_of": ""
+  },
+  "R-0339": {
+    "id": "R-0339",
+    "decision": "keep",
+    "reason": "Conditional on a replaceable light source and failed conformity-of-production photometric results. Supported by Annex 4 1.2.2.",
+    "duplicate_of": ""
+  },
+  "R-0341": {
+    "id": "R-0341",
+    "decision": "keep",
+    "reason": "The manufacturer must run the prescribed conformity tests; this is a manufacturing-conformity obligation in Annex 4 2.",
+    "duplicate_of": ""
+  },
+  "R-0333": {
+    "id": "R-0333",
+    "decision": "keep",
+    "reason": "Conditional on replaceable LED light sources at the stated voltages; supported by Annex 3 3.2.",
+    "duplicate_of": ""
+  },
+  "R-0334": {
+    "id": "R-0334",
+    "decision": "keep",
+    "reason": "Conditional on replaceable light sources used in the photometric check; the 5 per cent flux limit is supported by Annex 3 3.2.",
+    "duplicate_of": ""
+  },
+  "R-0343": {
+    "id": "R-0343",
+    "decision": "keep",
+    "reason": "Manufacturer conformity-of-production resampling obligation after a non-conformity, per Annex 4 2.",
+    "duplicate_of": ""
+  },
+  "R-0338": {
+    "id": "R-0338",
+    "decision": "keep",
+    "reason": "The 20 per cent photometric deviation criterion for conformity of production is supported by Annex 4 1.2.1.",
+    "duplicate_of": ""
+  },
+  "R-0340": {
+    "id": "R-0340",
+    "decision": "keep",
+    "reason": "The chromaticity conformity requirement for production control is supported by Annex 4 1.3.",
+    "duplicate_of": ""
+  },
+  "R-0344": {
+    "id": "R-0344",
+    "decision": "keep",
+    "reason": "Manufacturer obligation to ensure production conformity, per Annex 4 2.",
+    "duplicate_of": ""
+  },
+  "R-0345": {
+    "id": "R-0345",
+    "decision": "keep",
+    "reason": "The scope of manufacturer conformity tests is set in Annex 4 2.1 and applies to the product.",
+    "duplicate_of": ""
+  },
+  "R-0342": {
+    "id": "R-0342",
+    "decision": "keep",
+    "reason": "Test-method requirement for the manufacturer's conformity tests, per Annex 4 2.2.1.",
+    "duplicate_of": ""
+  },
+  "R-0308": {
+    "id": "R-0308",
+    "decision": "keep",
+    "reason": "Reference-method requirement for conformity verification, per Annex 4 2.2.4.",
+    "duplicate_of": ""
+  },
+  "R-0310": {
+    "id": "R-0310",
+    "decision": "keep",
+    "reason": "Random sampling from a uniform batch for manufacturer conformity verification; constrains the manufacturing-conformity test.",
+    "duplicate_of": ""
+  },
+  "R-0309": {
+    "id": "R-0309",
+    "decision": "keep",
+    "reason": "Conditional on use of equivalent methods with the authority's consent; the proof and calibration conditions are preserved from Annex 4 2.2.2 and 2.2.3.",
+    "duplicate_of": ""
+  },
+  "R-0313": {
+    "id": "R-0313",
+    "decision": "keep",
+    "reason": "Inspector-sampling mechanical and geometric conformity criterion in Annex 5 1.1. Scope differs from Annex 4 1.1, so it is not a duplicate.",
+    "duplicate_of": ""
+  },
+  "R-0314": {
+    "id": "R-0314",
+    "decision": "keep",
+    "reason": "Inspector-sampling photometric conformity criterion tied to the 20 per cent limit. Its context (Annex 5) differs from the manufacturer's Annex 4 test.",
+    "duplicate_of": ""
+  },
+  "R-0315": {
+    "id": "R-0315",
+    "decision": "keep",
+    "reason": "Chromaticity compliance in inspector sampling, per Annex 5 1.3; different scope from the Annex 4 requirement.",
+    "duplicate_of": ""
+  },
+  "R-0311": {
+    "id": "R-0311",
+    "decision": "keep",
+    "reason": "The manufacturer's conformity verification must include photometric measurement at the Annex 3 points and chromaticity measurement, per Annex 4 2.4.",
+    "duplicate_of": ""
+  },
+  "R-0316": {
+    "id": "R-0316",
+    "decision": "keep",
+    "reason": "First-sampling acceptance criterion with the 20 per cent threshold in Annex 5 2.1. It constrains production conformity.",
+    "duplicate_of": ""
+  },
+  "R-0312": {
+    "id": "R-0312",
+    "decision": "keep",
+    "reason": "The manufacturer's statistical study and acceptability criteria (95 per cent confidence, probability 0.95) are a manufacturing-conformity obligation in Annex 4 2.5.",
+    "duplicate_of": ""
+  },
+  "R-0317": {
+    "id": "R-0317",
+    "decision": "drop",
+    "reason": "This is an authority-driven corrective-action procedure with notification and a two-month deadline for repeated sampling. It is administrative and does not constrain the product or a necessary engineering test.",
+    "duplicate_of": ""
+  },
+  "R-0318": {
+    "id": "R-0318",
+    "decision": "keep",
+    "reason": "Conformity-of-production sampling threshold (20 per cent) for the reversing-lamp function. Manufacturing conformity is in scope. The ancestor context limits it to repeated sampling C/D after alignment, and the quote and page support it.",
+    "duplicate_of": ""
+  },
+  "R-0319": {
+    "id": "R-0319",
+    "decision": "keep",
+    "reason": "Specific 20-30 per cent band in the first repeated sampling, which triggers renewed alignment and a second sampling within two months. The 30 per cent limit is an independent threshold that supports conformity of production.",
+    "duplicate_of": ""
+  },
+  "R-0320": {
+    "id": "R-0320",
+    "decision": "keep",
+    "reason": "Specific more-than-30-per-cent threshold for first repeated sampling, leading to withdrawal of approval. It is independent of the 20 per cent and 20-30 per cent bands. It applies if the lamp is approved under UN R23.",
+    "duplicate_of": ""
+  },
+  "R-0321": {
+    "id": "R-0321",
+    "decision": "keep",
+    "reason": "Conformity-of-production criterion (20 per cent) for second repeated sampling E/F. Source page and context support it, and it is a distinct stage from R-0318.",
+    "duplicate_of": ""
+  },
+  "R-0322": {
+    "id": "R-0322",
+    "decision": "keep",
+    "reason": "Second repeated sampling failure threshold, with approval withdrawn above 20 per cent. It is a different stage and outcome from the first-sampling requirements.",
+    "duplicate_of": ""
+  },
+  "R-0004": {
+    "id": "R-0004",
+    "decision": "keep",
+    "reason": "The product has an integrated retro-reflector. The space for the approval mark must be provided on the device and shown on the drawings. Supported by UN R3 4.2.",
+    "duplicate_of": ""
+  },
+  "R-0001": {
+    "id": "R-0001",
+    "decision": "keep",
+    "reason": "The retro-reflector must bear the applicant's trade name or mark if submitted for approval under UN R3. Supported by 4.1.1.",
+    "duplicate_of": ""
+  },
+  "R-0003": {
+    "id": "R-0003",
+    "decision": "keep",
+    "reason": "Conditional on reduced light distribution per Annex 7 3.2 or 3.4. The condition is preserved and the retro-reflector is present. Whether reduced distribution is used is unknown.",
+    "duplicate_of": ""
+  },
+  "R-0005": {
+    "id": "R-0005",
+    "decision": "keep",
+    "reason": "The retro-reflector markings must be visible from outside when fitted to the vehicle. This is an installation and marking constraint that applies to the M1 rear lamp.",
+    "duplicate_of": ""
+  },
+  "R-0006": {
+    "id": "R-0006",
+    "decision": "keep",
+    "reason": "Retro-reflector markings must be legible and indelible. Supported by 4.4.",
+    "duplicate_of": ""
+  },
+  "R-0002": {
+    "id": "R-0002",
+    "decision": "keep",
+    "reason": "Conditional on the word TOP being necessary to determine the rotation angle without ambiguity. The condition is preserved and the retro-reflector is present.",
+    "duplicate_of": ""
+  },
+  "R-0007": {
+    "id": "R-0007",
+    "decision": "keep",
+    "reason": "An international approval mark with a class symbol is required on a retro-reflector conforming to an approved type. The retro-reflector is present and the source text supports the requirement.",
+    "duplicate_of": ""
+  },
+  "R-0010": {
+    "id": "R-0010",
+    "decision": "keep",
+    "reason": "Conditional on a single approval mark being used on a combined unit. The product is a combined multi-function module. Whether a single mark is used is a design choice that stays in the condition.",
+    "duplicate_of": ""
+  },
+  "R-0009": {
+    "id": "R-0009",
+    "decision": "keep",
+    "reason": "Conditional on a single approval mark on a combined unit. The mark must be visible after installation. This is an integration constraint for the M1 rear lamp.",
+    "duplicate_of": ""
+  },
+  "R-0008": {
+    "id": "R-0008",
+    "decision": "keep",
+    "reason": "The product combines several lamps and a retro-reflector in one unit. Each lamp must satisfy UN R3 or another Regulation. This is a specific constraint on the product's lamp functions.",
+    "duplicate_of": ""
+  },
+  "R-0012": {
+    "id": "R-0012",
+    "decision": "keep",
+    "reason": "Conditional on a single approval mark for the combined unit. The minimum size is set by the smallest individual mark. Supported by 5.6.3.",
+    "duplicate_of": ""
+  },
+  "R-0014": {
+    "id": "R-0014",
+    "decision": "keep",
+    "reason": "General construction requirement for the retro-reflecting device. It is supported by 6.1 and applies to the product's retro-reflector.",
+    "duplicate_of": ""
+  },
+  "R-0019": {
+    "id": "R-0019",
+    "decision": "keep",
+    "reason": "The retro-reflector must satisfy the dimensional, colorimetric, photometric, physical and mechanical requirements in the Annexes. The class is unknown, so the class-specific test annexes stay conditional.",
+    "duplicate_of": ""
+  },
+  "R-0016": {
+    "id": "R-0016",
+    "decision": "keep",
+    "reason": "The source states retro-reflecting optical units may not be replaceable. This applies to the integrated retro-reflector and is supported by 6.3. The 'may not' wording is kept as written in the source.",
+    "duplicate_of": ""
+  },
+  "R-0013": {
+    "id": "R-0013",
+    "decision": "keep",
+    "reason": "The approval mark must be legible and indelible. It applies once an approval mark is used on the product.",
+    "duplicate_of": ""
+  },
+  "R-0015": {
+    "id": "R-0015",
+    "decision": "keep",
+    "reason": "The components of the retro-reflecting device must not be easily dismantled. Supported by 6.2.",
+    "duplicate_of": ""
+  },
+  "R-0017": {
+    "id": "R-0017",
+    "decision": "keep",
+    "reason": "The outer surface of the retro-reflecting device must be easy to clean and not rough. Supported by 6.4.",
+    "duplicate_of": ""
+  },
+  "R-0018": {
+    "id": "R-0018",
+    "decision": "keep",
+    "reason": "There must be no access to the inner surface of the retro-reflector in normal use. Supported by 6.6.",
+    "duplicate_of": ""
+  },
+  "R-0011": {
+    "id": "R-0011",
+    "decision": "keep",
+    "reason": "Conditional on a single approval mark on grouped, combined or reciprocally incorporated lamps. Each lamp's identification symbol must be marked. The product is a combined module.",
+    "duplicate_of": ""
+  },
+  "R-0058": {
+    "id": "R-0058",
+    "decision": "drop",
+    "reason": "Applies to AE devices, and the product facts mention no AE device or driver architecture. The 'identification code' wording is also not on the cited page.",
+    "duplicate_of": ""
+  },
+  "R-0057": {
+    "id": "R-0057",
+    "decision": "keep",
+    "reason": "Conditional on an LED replacement light source meeting a 2.2.2.2.2 condition. The product has LED modules, and replaceability and type approval are unknown. The condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0056": {
+    "id": "R-0056",
+    "decision": "drop",
+    "reason": "Applies to halogen filament light sources, and the product uses LED modules. No filament source is present.",
+    "duplicate_of": ""
+  },
+  "R-0055": {
+    "id": "R-0055",
+    "decision": "keep",
+    "reason": "Conditional on a high-efficiency LED replacement light source. The product has LED modules, and replaceability and type approval are unknown. The condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0054": {
+    "id": "R-0054",
+    "decision": "keep",
+    "reason": "Conditional on the LED modules being LED replacement light sources approved under UN R37. The LED light source is present and replaceability is unknown, which stays in the condition.",
+    "duplicate_of": ""
+  },
+  "R-0050": {
+    "id": "R-0050",
+    "decision": "keep",
+    "reason": "Conditional on the light source being submitted for approval under UN R37. The LED light source is present. Trade-name marking must not adversely affect luminous characteristics, per footnote 4.",
+    "duplicate_of": ""
+  },
+  "R-0053": {
+    "id": "R-0053",
+    "decision": "keep",
+    "reason": "Conditional on the light source being submitted for approval under UN R37. A space for the approval mark must be provided and shown on the drawings. The LED sources are present.",
+    "duplicate_of": ""
+  },
+  "R-0052": {
+    "id": "R-0052",
+    "decision": "keep",
+    "reason": "Conditional on UN R37 approval of the LED light source. It must bear its category designation, with the stated W exemption for bulbs of 7.5 mm or less.",
+    "duplicate_of": ""
+  },
+  "R-0051": {
+    "id": "R-0051",
+    "decision": "keep",
+    "reason": "Conditional on UN R37 approval of the LED light source. It must bear the rated voltage, with the stated 12 V and 7.5 mm exception. Supply voltage is unknown, which stays in the condition.",
+    "duplicate_of": ""
+  },
+  "R-0306": {
+    "id": "R-0306",
+    "decision": "drop",
+    "reason": "UN R48 2.10.3.2 is a definition of illuminating surface and a measurement convention, not an engineering obligation on the product. It is not specific to a product function.",
+    "duplicate_of": ""
+  },
+  "R-0303": {
+    "id": "R-0303",
+    "decision": "drop",
+    "reason": "This is a permissive definition of the declared light-emitting surface, conditional on a non-textured lens. The product facts do not state the lens texture. The permission cannot be converted into an obligation.",
+    "duplicate_of": ""
+  },
+  "R-0302": {
+    "id": "R-0302",
+    "decision": "keep",
+    "reason": "Conditional on a textured outer lens; the product has an outer lens, and the source supports the condition.",
+    "duplicate_of": ""
+  },
+  "R-0307": {
+    "id": "R-0307",
+    "decision": "keep",
+    "reason": "The product has a retro-reflector, and 2.10.3.3 supports the horizontal/vertical plane rule for determining its edges.",
+    "duplicate_of": ""
+  },
+  "R-0304": {
+    "id": "R-0304",
+    "decision": "keep",
+    "reason": "Defines how the illuminating surface is determined for the position and stop lamps (non-retro-reflector signalling devices), and the 98% screen criterion is supported by 2.10.3.2.",
+    "duplicate_of": ""
+  },
+  "R-0305": {
+    "id": "R-0305",
+    "decision": "keep",
+    "reason": "A separate, specific constraint from 2.10.3.2 on the screens used to verify limits, distinct from the 98% definition.",
+    "duplicate_of": ""
+  },
+  "R-0163": {
+    "id": "R-0163",
+    "decision": "keep",
+    "reason": "5.3 applies to all light-signalling devices, so it covers any manufacturer fitting instructions for this lamp.",
+    "duplicate_of": ""
+  },
+  "R-0162": {
+    "id": "R-0162",
+    "decision": "keep",
+    "reason": "The 5.3 reference-axis orientation rule with ±3° tolerance applies to the rear position, stop and reversing functions.",
+    "duplicate_of": ""
+  },
+  "R-0169": {
+    "id": "R-0169",
+    "decision": "keep",
+    "reason": "Condition is preserved: it applies only if the lamp incorporates a manufacturer logo, which the product does not exclude. Source 5.5.5 supports it.",
+    "duplicate_of": ""
+  },
+  "R-0164": {
+    "id": "R-0164",
+    "decision": "keep",
+    "reason": "5.4 verification condition for lamp height and orientation, applicable when no specific instructions exist.",
+    "duplicate_of": ""
+  },
+  "R-0165": {
+    "id": "R-0165",
+    "decision": "keep",
+    "reason": "Conditional on lamps constituting a pair and on absent specific instructions; a handed left/right pair is plausible and the condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0166": {
+    "id": "R-0166",
+    "decision": "keep",
+    "reason": "Conditional pair symmetry requirement from 5.5.2, with the interior-structure exception preserved.",
+    "duplicate_of": ""
+  },
+  "R-0168": {
+    "id": "R-0168",
+    "decision": "keep",
+    "reason": "Conditional pair photometric requirement from 5.5.4, with the matched-pair exception preserved.",
+    "duplicate_of": ""
+  },
+  "R-0167": {
+    "id": "R-0167",
+    "decision": "keep",
+    "reason": "Conditional pair colorimetric requirement from 5.5.3.",
+    "duplicate_of": ""
+  },
+  "R-0170": {
+    "id": "R-0170",
+    "decision": "keep",
+    "reason": "The product combines multiple functions in one housing, so the 5.7.1 conditions for grouping, combining or reciprocal incorporation apply.",
+    "duplicate_of": ""
+  },
+  "R-0161": {
+    "id": "R-0161",
+    "decision": "keep",
+    "reason": "5.1 requires lamps to be fitted so they cannot be inadvertently maladjusted; this is an installation/integration obligation for the lamp.",
+    "duplicate_of": ""
+  },
+  "R-0160": {
+    "id": "R-0160",
+    "decision": "keep",
+    "reason": "5.1 requires lamps to be fitted so they retain prescribed characteristics despite vibration; it is a distinct constraint from the maladjustment rule.",
+    "duplicate_of": ""
+  },
+  "R-0177": {
+    "id": "R-0177",
+    "decision": "drop",
+    "reason": "Applies only to single lamps composed of two D-marked lamps or two independent retro-reflectors; the product has one retro-reflector in a single housing.",
+    "duplicate_of": ""
+  },
+  "R-0176": {
+    "id": "R-0176",
+    "decision": "keep",
+    "reason": "Conditional on the apparent surface having two or more distinct parts, which is plausible for the multi-function lamp; the single retro-reflector exclusion is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0178": {
+    "id": "R-0178",
+    "decision": "keep",
+    "reason": "Conditional cross-reference to 5.7.2.1 for single lamps of type (d); the condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0173": {
+    "id": "R-0173",
+    "decision": "keep",
+    "reason": "The product has a stop lamp, so the prohibition on reciprocal incorporation with direction-indicator lamps constrains the design.",
+    "duplicate_of": ""
+  },
+  "R-0171": {
+    "id": "R-0171",
+    "decision": "keep",
+    "reason": "The product has grouped and combined functions, so the OFF-state measurement condition for photometric and colorimetric requirements applies.",
+    "duplicate_of": ""
+  },
+  "R-0180": {
+    "id": "R-0180",
+    "decision": "keep",
+    "reason": "Conditional on lamps in the shape of a band or strip; the condition is preserved faithfully. The lamp shape is not yet known.",
+    "duplicate_of": ""
+  },
+  "R-0179": {
+    "id": "R-0179",
+    "decision": "keep",
+    "reason": "Applies to the product's multiple functions in one lamp body behind a common outer lens (5.7.2.3).",
+    "duplicate_of": ""
+  },
+  "R-0172": {
+    "id": "R-0172",
+    "decision": "keep",
+    "reason": "The rear position lamp is present and the requirement is conditional on reciprocal incorporation with functions that can be switched ON together with it.",
+    "duplicate_of": ""
+  },
+  "R-0174": {
+    "id": "R-0174",
+    "decision": "keep",
+    "reason": "Conditional on stop and direction-indicator lamps being grouped; the condition is preserved in the wording. Whether a direction indicator is present is unknown.",
+    "duplicate_of": ""
+  },
+  "R-0175": {
+    "id": "R-0175",
+    "decision": "keep",
+    "reason": "Conditional on stop and direction-indicator lamps being grouped; the condition is preserved. Whether a direction indicator is present is unknown.",
+    "duplicate_of": ""
+  },
+  "R-0182": {
+    "id": "R-0182",
+    "decision": "keep",
+    "reason": "A measurement rule from 5.8.1 for height when geometric visibility angles are reduced; it applies to the lamp installation.",
+    "duplicate_of": ""
+  },
+  "R-0184": {
+    "id": "R-0184",
+    "decision": "keep",
+    "reason": "5.9 applies to the lamp's photometric behaviour, with the 5.9.2 exceptions preserved.",
+    "duplicate_of": ""
+  },
+  "R-0183": {
+    "id": "R-0183",
+    "decision": "keep",
+    "reason": "Width position determination for the lamp's apparent surface per 5.8.3.",
+    "duplicate_of": ""
+  },
+  "R-0181": {
+    "id": "R-0181",
+    "decision": "keep",
+    "reason": "Height measurement rule from 5.8 for the lamp's apparent surface.",
+    "duplicate_of": ""
+  },
+  "R-0185": {
+    "id": "R-0185",
+    "decision": "keep",
+    "reason": "The lamp is rear-mounted and emits red light, so 5.10.1 applies, including the 0.25 cd doubt criterion.",
+    "duplicate_of": ""
+  },
+  "R-0346": {
+    "id": "R-0346",
+    "decision": "keep",
+    "reason": "The product is an M1 vehicle lamp with a reversing function, and 6.4.2.1 sets one mandatory and one optional device for M1.",
+    "duplicate_of": ""
+  },
+  "R-0350": {
+    "id": "R-0350",
+    "decision": "keep",
+    "reason": "Geometric visibility angles for rear-installed reversing lamps apply to the product's reversing function.",
+    "duplicate_of": ""
+  },
+  "R-0347": {
+    "id": "R-0347",
+    "decision": "keep",
+    "reason": "The reversing lamp device must be type-approved under UN R23 or UN R148; the source states the alternatives and they are kept as alternatives.",
+    "duplicate_of": ""
+  },
+  "R-0348": {
+    "id": "R-0348",
+    "decision": "keep",
+    "reason": "The 250–1,200 mm mounting height applies to the reversing lamp on an M1 vehicle; the off-road increase is not applicable.",
+    "duplicate_of": ""
+  },
+  "R-0351": {
+    "id": "R-0351",
+    "decision": "keep",
+    "reason": "The reversing lamp orientation is rearwards per 6.4.6.1.",
+    "duplicate_of": ""
+  },
+  "R-0349": {
+    "id": "R-0349",
+    "decision": "keep",
+    "reason": "The product has a reversing lamp and is an M1; para 6.4.4.3 requires rear longitudinal position, which is an installation constraint.",
+    "duplicate_of": ""
+  },
+  "R-0353": {
+    "id": "R-0353",
+    "decision": "keep",
+    "reason": "The reversing lamp is present. The conditional tell-tale obligation is faithful to 6.4.8; whether the component regulation requires one is a condition, not a product fact.",
+    "duplicate_of": ""
+  },
+  "R-0352": {
+    "id": "R-0352",
+    "decision": "keep",
+    "reason": "A reversing lamp is present, and 6.4.7.1 is a supported electrical-connection obligation for M1.",
+    "duplicate_of": ""
+  },
+  "R-0301": {
+    "id": "R-0301",
+    "decision": "keep",
+    "reason": "A stop lamp is present, and 6.7.1 makes S1/S2 stop lamps mandatory on all vehicle categories, including M1.",
+    "duplicate_of": ""
+  },
+  "R-0300": {
+    "id": "R-0300",
+    "decision": "keep",
+    "reason": "The stop lamp is present. The approval requirement of 6.7.2 is retained as stated in the source, with R7 and R148 as alternative routes. The product's S-category is unknown and is not assumed.",
+    "duplicate_of": ""
+  },
+  "R-0099": {
+    "id": "R-0099",
+    "decision": "keep",
+    "reason": "The height range for S1/S2 stop lamps in 6.7.4.2.1 applies to the product's stop lamp; the conditions on the upper limit are preserved.",
+    "duplicate_of": ""
+  },
+  "R-0100": {
+    "id": "R-0100",
+    "decision": "keep",
+    "reason": "6.7.4.4 gives the longitudinal position for S1/S2 stop lamps, which applies to the product's stop lamp.",
+    "duplicate_of": ""
+  },
+  "R-0098": {
+    "id": "R-0098",
+    "decision": "keep",
+    "reason": "The M1 width-position requirement for S1/S2 stop lamps in 6.7.4.1 is supported and preserves the M1 condition.",
+    "duplicate_of": ""
+  },
+  "R-0105": {
+    "id": "R-0105",
+    "decision": "keep",
+    "reason": "6.7.8 makes the tell-tale optional but mandatory if the component regulation requires it; the condition is preserved.",
+    "duplicate_of": ""
+  },
+  "R-0104": {
+    "id": "R-0104",
+    "decision": "keep",
+    "reason": "6.7.7.1 on simultaneous stop lamp activation is supported and is an integration obligation for the stop lamp function.",
+    "duplicate_of": ""
+  },
+  "R-0101": {
+    "id": "R-0101",
+    "decision": "keep",
+    "reason": "The horizontal visibility angle and the reduction exception for lamps mounted below 750 mm are supported by 6.7.5.",
+    "duplicate_of": ""
+  },
+  "R-0102": {
+    "id": "R-0102",
+    "decision": "keep",
+    "reason": "The vertical visibility angle and the downward reduction exception for lamps mounted below 750 mm are supported by 6.7.5.",
+    "duplicate_of": ""
+  },
+  "R-0103": {
+    "id": "R-0103",
+    "decision": "keep",
+    "reason": "6.7.6 requires rearward orientation of the stop lamp, which applies to the product.",
+    "duplicate_of": ""
+  },
+  "R-0031": {
+    "id": "R-0031",
+    "decision": "drop",
+    "reason": "This is an application-documentation requirement (technical description in the application) and does not constrain the product, its marking or its testing.",
+    "duplicate_of": ""
+  },
+  "R-0030": {
+    "id": "R-0030",
+    "decision": "drop",
+    "reason": "This is a drawings-for-application requirement, which is administrative and not a product engineering obligation.",
+    "duplicate_of": ""
+  },
+  "R-0035": {
+    "id": "R-0035",
+    "decision": "drop",
+    "reason": "This is an application and communication-form procedure; it relates to an optional applicant choice and is not a product obligation.",
+    "duplicate_of": ""
+  },
+  "R-0034": {
+    "id": "R-0034",
+    "decision": "drop",
+    "reason": "This is an application-content requirement and is administrative.",
+    "duplicate_of": ""
+  },
+  "R-0021": {
+    "id": "R-0021",
+    "decision": "keep",
+    "reason": "This is a marking obligation on the lamp with light sources, conditional on the light sources not being non-replaceable. The LED replaceability is unknown and kept as a condition.",
+    "duplicate_of": ""
+  },
+  "R-0032": {
+    "id": "R-0032",
+    "decision": "drop",
+    "reason": "This is an application sample-submission rule and is administrative.",
+    "duplicate_of": ""
+  },
+  "R-0023": {
+    "id": "R-0023",
+    "decision": "keep",
+    "reason": "This is a conditional marking obligation (electronic control gear, variable intensity or non-replaceable or module light sources), which is consistent with the LED modules and an undecided design.",
+    "duplicate_of": ""
+  },
+  "R-0033": {
+    "id": "R-0033",
+    "decision": "drop",
+    "reason": "This applies to non-replaceable filament light sources and is also an application-document requirement; the product uses LED modules.",
+    "duplicate_of": ""
+  },
+  "R-0025": {
+    "id": "R-0025",
+    "decision": "keep",
+    "reason": "This is a conditional marking requirement for lamps with light source modules. The product has LED modules on a PCB, and whether they are modules in the R7 sense stays a condition.",
+    "duplicate_of": ""
+  },
+  "R-0026": {
+    "id": "R-0026",
+    "decision": "keep",
+    "reason": "This is a conditional module identification-code marking requirement for lamps with light source modules.",
+    "duplicate_of": ""
+  },
+  "R-0028": {
+    "id": "R-0028",
+    "decision": "keep",
+    "reason": "This constrains the module and lamp approval markings (same applicant) and is conditional on light source modules.",
+    "duplicate_of": ""
+  },
+  "R-0027": {
+    "id": "R-0027",
+    "decision": "keep",
+    "reason": "This is a conditional marking-format requirement for the module identification code, supported by 3.6.2.",
+    "duplicate_of": ""
+  },
+  "R-0024": {
+    "id": "R-0024",
+    "decision": "keep",
+    "reason": "This is a conditional marking requirement on lamps operating at non-nominal voltages or with a secondary mode; the condition is preserved and not assumed true.",
+    "duplicate_of": ""
+  },
+  "R-0020": {
+    "id": "R-0020",
+    "decision": "keep",
+    "reason": "The R7 marking requirement for the applicant's trade name or mark applies to rear position and stop lamp devices, and the product has both.",
+    "duplicate_of": ""
+  },
+  "R-0022": {
+    "id": "R-0022",
+    "decision": "keep",
+    "reason": "The lamp must provide a space for the approval marking, which is a design obligation on the device.",
+    "duplicate_of": ""
+  },
+  "R-0256": {
+    "id": "R-0256",
+    "decision": "keep",
+    "reason": "This is a conditional marking obligation for control gear that is part of the lamp but not in its body. The product's control electronics are unknown and kept as a condition.",
+    "duplicate_of": ""
+  },
+  "R-0258": {
+    "id": "R-0258",
+    "decision": "keep",
+    "reason": "The approval mark obligation applies to devices conforming to a type approved under R7, which applies to the rear position and stop lamps.",
+    "duplicate_of": ""
+  },
+  "R-0029": {
+    "id": "R-0029",
+    "decision": "keep",
+    "reason": "This is a conditional marking requirement for each light source module in lamps with light source modules.",
+    "duplicate_of": ""
+  },
+  "R-0260": {
+    "id": "R-0260",
+    "decision": "keep",
+    "reason": "The approval mark additional symbol R applies to the rear position lamp function, with the condition on the figure preserved.",
+    "duplicate_of": ""
+  },
+  "R-0259": {
+    "id": "R-0259",
+    "decision": "keep",
+    "reason": "The composition of the approval mark in 4.2 applies to approved devices and is distinct from the other marking requirements.",
+    "duplicate_of": ""
+  },
+  "R-0257": {
+    "id": "R-0257",
+    "decision": "keep",
+    "reason": "The product combines several lamp functions in one housing, so the condition on grouped, combined or reciprocally incorporated lamps is relevant and supported by 4.1.2.",
+    "duplicate_of": ""
+  },
+  "R-0262": {
+    "id": "R-0262",
+    "decision": "keep",
+    "reason": "The product has both a rear position lamp and a stop lamp, so the combined approval-mark symbols apply. The category letter is not assumed.",
+    "duplicate_of": ""
+  },
+  "R-0261": {
+    "id": "R-0261",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0263": {
+    "id": "R-0263",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0265": {
+    "id": "R-0265",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0264": {
+    "id": "R-0264",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0271": {
+    "id": "R-0271",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0269": {
+    "id": "R-0269",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0268": {
+    "id": "R-0268",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0270": {
+    "id": "R-0270",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0267": {
+    "id": "R-0267",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0266": {
+    "id": "R-0266",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0110": {
+    "id": "R-0110",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0115": {
+    "id": "R-0115",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0112": {
+    "id": "R-0112",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0113": {
+    "id": "R-0113",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0114": {
+    "id": "R-0114",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0106": {
+    "id": "R-0106",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0107": {
+    "id": "R-0107",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0111": {
+    "id": "R-0111",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0108": {
+    "id": "R-0108",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0109": {
+    "id": "R-0109",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0116": {
+    "id": "R-0116",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0117": {
+    "id": "R-0117",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0122": {
+    "id": "R-0122",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0123": {
+    "id": "R-0123",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0124": {
+    "id": "R-0124",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0118": {
+    "id": "R-0118",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0119": {
+    "id": "R-0119",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0120": {
+    "id": "R-0120",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0121": {
+    "id": "R-0121",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0125": {
+    "id": "R-0125",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0126": {
+    "id": "R-0126",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0127": {
+    "id": "R-0127",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0241": {
+    "id": "R-0241",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0242": {
+    "id": "R-0242",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0249": {
+    "id": "R-0249",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0250": {
+    "id": "R-0250",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0247": {
+    "id": "R-0247",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0248": {
+    "id": "R-0248",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0245": {
+    "id": "R-0245",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0244": {
+    "id": "R-0244",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0243": {
+    "id": "R-0243",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0246": {
+    "id": "R-0246",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0251": {
+    "id": "R-0251",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0130": {
+    "id": "R-0130",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0128": {
+    "id": "R-0128",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0129": {
+    "id": "R-0129",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0191": {
+    "id": "R-0191",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0194": {
+    "id": "R-0194",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0195": {
+    "id": "R-0195",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0190": {
+    "id": "R-0190",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0186": {
+    "id": "R-0186",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0192": {
+    "id": "R-0192",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0193": {
+    "id": "R-0193",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0187": {
+    "id": "R-0187",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0189": {
+    "id": "R-0189",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0188": {
+    "id": "R-0188",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0205": {
+    "id": "R-0205",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0198": {
+    "id": "R-0198",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0196": {
+    "id": "R-0196",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0199": {
+    "id": "R-0199",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0200": {
+    "id": "R-0200",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0197": {
+    "id": "R-0197",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0201": {
+    "id": "R-0201",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0206": {
+    "id": "R-0206",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0204": {
+    "id": "R-0204",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0203": {
+    "id": "R-0203",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0202": {
+    "id": "R-0202",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0211": {
+    "id": "R-0211",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0212": {
+    "id": "R-0212",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0207": {
+    "id": "R-0207",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0210": {
+    "id": "R-0210",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0208": {
+    "id": "R-0208",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  },
+  "R-0209": {
+    "id": "R-0209",
+    "decision": "unresolved",
+    "duplicate_of": "",
+    "reason": "Final review not performed: offline replay has no saved review.",
+    "review_not_performed": true
+  }
+}

@@ -70,6 +70,67 @@ def risk(folder: Path, page: dict, reg: dict) -> dict:
     }
 
 
+def sections(markdown: str) -> list[tuple[str, str]]:
+    """[(heading, body)] of a markdown file; text before the first heading has heading ""."""
+    out, heading, body = [], "", []
+    for line in markdown.splitlines():
+        if line.startswith("#"):
+            out.append((heading, "\n".join(body).strip()))
+            heading, body = line.lstrip("#").strip().lower(), []
+        else:
+            body.append(line)
+    out.append((heading, "\n".join(body).strip()))
+    return [(h, b) for h, b in out if b]
+
+
+def tidy(text: str, limit: int = 2000) -> str:
+    """Join wrapped lines into paragraphs but keep list items on their own lines; cut very long text."""
+    lines, para = [], []
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or re.match(r"^(\d+[.)]|[-*])\s", line) or line.startswith("```"):
+            if para:
+                lines.append(" ".join(para))
+                para = []
+            if line and not line.startswith("```"):
+                para = [line]
+        else:
+            para.append(line)
+    if para:
+        lines.append(" ".join(para))
+    text = "\n".join(lines)
+    return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0] + " ..."
+
+
+def explain(folder: Path, shared: dict) -> dict:
+    """Both explanations for the dashboards' Explain button, and where each came from.
+    Plain: EXPLAIN.md ("# In plain words" section, or its text before any heading), else a draft in
+    approaches/dashboard/explanations.json. Technical: EXPLAIN.md "# Technical" section, else the README's method /
+    how-it-works / pipeline section, else a draft."""
+    out = {"explain": "", "explain_source": "no plain explanation yet: add EXPLAIN.md to the experiment folder",
+           "explain_technical": "", "explain_technical_source": "no technical explanation yet"}
+    entry = shared.get(folder.name) if isinstance(shared.get(folder.name), dict) else {}
+    path = folder / "EXPLAIN.md"
+    parts = sections(path.read_text(encoding="utf-8")) if path.is_file() else []
+    plain = next((b for h, b in parts if "plain" in h), None) or next((b for h, b in parts if not h), None)
+    technical = next((b for h, b in parts if "technical" in h), None)
+    if plain:
+        out["explain"], out["explain_source"] = tidy(plain), "the experiment's EXPLAIN.md"
+    elif entry.get("text"):
+        out["explain"], out["explain_source"] = entry["text"], entry.get("draft") or "approaches/dashboard/explanations.json"
+    if technical:
+        out["explain_technical"], out["explain_technical_source"] = tidy(technical), "the experiment's EXPLAIN.md"
+    else:
+        readme = folder / "README.md"
+        method = next((b for h, b in sections(readme.read_text(encoding="utf-8"))
+                       if re.search(r"method|how it works|pipeline", h)), None) if readme.is_file() else None
+        if method:
+            out["explain_technical"], out["explain_technical_source"] = tidy(method), "the experiment's README (method section)"
+        elif entry.get("technical"):
+            out["explain_technical"], out["explain_technical_source"] = entry["technical"], entry.get("draft", "draft")
+    return out
+
+
 def fingerprint(doc: dict) -> str:
     """Same canonical hash as bench.py, so a file can be matched to the run that scored it."""
     canonical = json.dumps(doc, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
@@ -116,6 +177,8 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
     """golds: gold documents by bench fingerprint, for the clause level (computed only where the experiment's current
     outputs/predictions.json is exactly the file that run scored)."""
     golds = golds or {}
+    shared_path = APPROACHES / "dashboard" / "explanations.json"
+    shared = json.loads(shared_path.read_text(encoding="utf-8")) if shared_path.is_file() else {}
     predictions: dict[str, tuple[str, dict]] = {}
     for path in (APPROACHES / "experiments").glob("*/outputs/predictions.json"):
         try:
@@ -130,6 +193,7 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         missed = round((1 - p["recall"]) * p["n_expected"])
         out.append({
             "run_id": r["run_id"], "approach": r["approach"], "description": describe(folder),
+            **explain(folder, shared),
             "completed_at": r["completed_at"], "gold": r["gold_sha256"][:12], "evaluator": r["evaluator"],
             "page_precision": p["precision"], "page_recall": p["recall"], "page_f1": p["f1"], "page_f2": p["f2"],
             "pages_cited": p["n_submitted"], "pages_expected": p["n_expected"], "pages_missed": missed,
@@ -139,12 +203,19 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         })
         pred = predictions.get(r["approach"])
         gold = golds.get(r["gold_sha256"])
-        if pred and gold and pred[0] == r.get("prediction_sha256"):
+        recorded = r["metrics"].get("clause_level")  # bench.py records it since the clause level was added
+        if recorded:
+            out[-1].update({"clause_precision": recorded["precision"], "clause_recall": recorded["recall"],
+                            "clause_f1": recorded["f1"], "clause_f2": recorded["f2"],
+                            "clauses_cited": recorded["n_submitted"], "clauses_expected": recorded["n_expected"],
+                            "clauses_matched": recorded["n_matched"]})
+        elif pred and gold and pred[0] == r.get("prediction_sha256"):
             out[-1].update(clause_scores(pred[1], gold))
         else:
             out[-1].update({k: None for k in ("clause_precision", "clause_recall", "clause_f1", "clause_f2",
                                               "clauses_cited", "clauses_expected", "clauses_matched")})
-        latest[(r["approach"], r["gold_sha256"], r["evaluator"])] = r["run_id"]
+        # newest run per approach and gold set; the evaluator id is ignored because it only changed with line endings
+        latest[(r["approach"], r["gold_sha256"])] = r["run_id"]
     keep = set(latest.values())
     for row in out:
         row["latest"] = row["run_id"] in keep
@@ -155,6 +226,8 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--board", default=str(APPROACHES / "leaderboard.json"))
     ap.add_argument("--out", default=str(APPROACHES / "dashboard" / "leaderboard_rows.json"))
+    ap.add_argument("--html-out", default=str(APPROACHES / "dashboard" / "dashboard.html"),
+                    help="where to write the standalone dashboard (open.py uses a git-ignored copy)")
     ap.add_argument("--gold", action="append", help="gold expected.json for the clause level (repeatable); default: every "
                     "cases/*/expected.json in ../industrial-ai-hackathon next to the repo")
     args = ap.parse_args(argv)
@@ -170,7 +243,8 @@ def main(argv: list[str] | None = None) -> int:
         built = max((r["completed_at"] for r in data), default="")[:16].replace("T", " ") + " UTC" if data else "never"
         payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
         html = template.read_text(encoding="utf-8").replace("/*__DATA__*/", payload).replace("/*__GENERATED__*/", built)
-        page = APPROACHES / "dashboard" / "dashboard.html"
+        page = Path(args.html_out)
+        page.parent.mkdir(parents=True, exist_ok=True)
         page.write_text(html, encoding="utf-8", newline="\n")
         print(f"standalone dashboard -> {page}")
     return 0

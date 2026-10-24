@@ -1,0 +1,15 @@
+{
+  "clauses": 1240,
+  "agent_a_yes": 308,
+  "agent_b_yes": 449,
+  "agreed_yes": 308,
+  "disputed": 141,
+  "disputed_kept_by_adjudicator": 46,
+  "final_yes": 354,
+  "regulations": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+  ]
+}

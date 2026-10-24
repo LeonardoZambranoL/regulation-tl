@@ -26,6 +26,20 @@
 .lb-copy { position: absolute; top: var(--cds-pad-xs); right: var(--cds-pad-xs); font: inherit; font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 0 var(--cds-pad-sm); cursor: pointer; }
 .lb-copy:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
 .lb-agents { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-sm) 0 0; }
+.lb-explain { display: grid; gap: var(--cds-gap-xs); }
+.lb-explain details { border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); background: var(--color-bg); }
+.lb-explain summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--cds-gap-xs) var(--cds-gap-sm); list-style: none; }
+.lb-explain summary::-webkit-details-marker { display: none; }
+.lb-explain .btn { font-size: var(--cds-font-size-caption); border: 1px solid var(--color-fg); border-radius: var(--cds-radius); padding: 0 var(--cds-pad-sm); }
+.lb-explain details[open] .btn { background: var(--color-fg); color: var(--color-bg); }
+.lb-explain .name { font-weight: var(--cds-font-weight-medium); }
+.lb-explain .src { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+.lb-explain .text { margin: var(--cds-gap-xs) 0; max-width: 80ch; white-space: pre-line; }
+.two-explain { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-sm) var(--cds-gap-lg); margin-top: var(--cds-gap-xs); }
+.two-explain > * { min-width: 0; }
+.xlabel { margin: 0; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); letter-spacing: .03em; text-transform: uppercase; color: var(--color-fg-muted); }
+.glossary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--cds-gap-xs) var(--cds-gap-lg); margin-top: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.glossary p { margin: 0; }
 .lb-chip { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid currentColor; font-size: var(--cds-font-size-caption); line-height: 1.6; }
 .lb-chip.low { color: var(--color-ok); } .lb-chip.medium { color: var(--color-warn); } .lb-chip.high { color: var(--color-bad); } .lb-chip.unknown { color: var(--color-fg-muted); }
 .lb td.flags { min-width: 14rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
@@ -79,7 +93,7 @@ git add approaches &amp;&amp; git commit -m "NAME: what changed"
 git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button></pre>
       </div>
     </div>
-    <p class="lb-agents">That's it: this dashboard pulls the repo every 15 minutes and shows your pushed results, whatever agent you use. No edit access needed.</p>
+    <p class="lb-agents">That's it: this dashboard pulls the repo every 5 minutes and shows your pushed results, whatever agent you use. No edit access needed.</p>
   </section>
 
   <section class="lb-tiles" aria-label="Headline figures">
@@ -99,6 +113,18 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
       <h2 id="pr-chart">Page precision vs recall</h2>
       <p class="note">Up and right is better. Dashed curves: equal page F2 of 0.4, 0.6 and 0.8.</p>
       <div class="lb-chart dash-skeleton" id="scatter" data-source="standings"></div>
+    </div>
+  </section>
+
+  <section class="lb-card" id="explain">
+    <h2 id="explain-title">What each approach does, in plain words</h2>
+    <p class="note">Press <b>Explain</b> to read how an approach works: once in plain words, once technically. Each team member writes their own in EXPLAIN.md in their experiment folder.</p>
+    <div class="lb-explain dash-skeleton" id="explain-list" data-source="standings"></div>
+    <div class="glossary">
+      <p><b>Page F2</b>: did it point to the right pages of the rulebooks? 1.0 = every right page and nothing else. Missing a right page hurts more than adding a wrong one.</p>
+      <p><b>Clause F2</b>: the same, but for the exact numbered rule (paragraph), not just the page. Stricter.</p>
+      <p><b>Regulation F2</b>: did it pick the right rulebooks (here R48, R148, R150 and R10)?</p>
+      <p><b>Overfit risk</b>: we have only one practice product with answers. "High" means the approach was tuned on that practice product and may score worse on the real, unseen one.</p>
     </div>
   </section>
 
@@ -268,6 +294,25 @@ dash.onData(() => {
       : `${top.approach} is the only scored approach so far (page F2 ${f3(top.page_f2)}).`;
   } else {
     document.getElementById("takeaway").textContent = "No approach has been benchmarked on the dev case yet.";
+  }
+  const ex = document.getElementById("explain-list"); ex.classList.remove("dash-skeleton"); ex.textContent = "";
+  for (const r of rows) {
+    const d = document.createElement("details"), s = document.createElement("summary");
+    const btn = document.createElement("span"); btn.className = "btn"; btn.textContent = "Explain";
+    const name = document.createElement("span"); name.className = "name"; name.textContent = r.approach;
+    s.append(btn, name); d.appendChild(s);
+
+    const two = document.createElement("div"); two.className = "two-explain";
+    for (const [label, text, source] of [["In plain words", r.explain, r.explain_source],
+                                         ["Technical", r.explain_technical, r.explain_technical_source]]) {
+      const box = document.createElement("div"); box.className = "xbox";
+      const h = document.createElement("p"); h.className = "xlabel"; h.textContent = label;
+      const t = document.createElement("p"); t.className = "text"; t.textContent = text || "Not written yet.";
+      const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (source || "");
+      box.append(h, t, src); two.appendChild(box);
+    }
+    d.appendChild(two);
+    ex.appendChild(d);
   }
   drawBars(document.getElementById("bars"), rows);
   drawScatter(document.getElementById("scatter"), rows);

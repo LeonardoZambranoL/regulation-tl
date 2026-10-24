@@ -1,0 +1,49 @@
+{
+  "objective": "development page recall@100, then nDCG@100; exploratory, not held-out",
+  "selected": {
+    "group": "dev-rear-lamp",
+    "strategy": "claude-facets",
+    "flow": "rrf-pool300-ce200",
+    "query_count": 20,
+    "seconds_excluding_encoding": 70.5127350850671,
+    "candidate_union_page_recall": 0.9811320754716981,
+    "budgets": {
+      "20": {
+        "recall": 0.018867924528301886,
+        "precision": 0.05,
+        "f2": 0.021551724137931032,
+        "ndcg": 0.0396210670558156,
+        "hits": 1
+      },
+      "50": {
+        "recall": 0.16981132075471697,
+        "precision": 0.18,
+        "f2": 0.17175572519083968,
+        "ndcg": 0.147083439286775,
+        "hits": 9
+      },
+      "100": {
+        "recall": 0.39622641509433965,
+        "precision": 0.21,
+        "f2": 0.33653846153846156,
+        "ndcg": 0.2875142492359827,
+        "hits": 21
+      },
+      "200": {
+        "recall": 0.5283018867924528,
+        "precision": 0.14,
+        "f2": 0.3398058252427185,
+        "ndcg": 0.3631257868583722,
+        "hits": 28
+      }
+    }
+  },
+  "config": {
+    "sparse_pool": 300,
+    "cross_encoder_head": 200,
+    "query_strategy": "facets",
+    "retrieval_per_query": 12,
+    "target_packets": 60,
+    "workers": 4
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "flow": "targeted",
+  "manifest": {
+    "case_id": "dev-rear-lamp",
+    "team_id": "development",
+    "source_sha256": "ed5793bcca373d2037c4315f7e9ea94b25e2d99edf7f275cb5c256b7bce05053",
+    "input_sha256": {
+      "spec.md": "3b5c40171b499386623f9e89079c1091fd6566149be819a2d5b863c8c7a4de42",
+      "exploded_view.png": "ecd69911330bb6268b2be22df902f630beb42d7e96b75839aeeaa55185f87526"
+    },
+    "config": {
+      "model": "claude-sonnet-5-5",
+      "packet_pages": 3,
+      "target_packets": 32,
+      "reference_depth": 2,
+      "retrieval_per_query": 6,
+      "review_batch": 35,
+      "workers": 3,
+      "training": false,
+      "automatic_upload": false,
+      "name": "No-training BM25 + dense retrieval, 32 source packets, Claude extraction and source-aware review"
+    },
+    "implementation_sha256": "46a679412c988d3323786237259c7bd0f478be31902d84c6c79a1652f125f15b",
+    "prepared_at": 1792860101.565808,
+    "reference_answer_access": false,
+    "note": "Only explicitly whitelisted product inputs copied. Known development case is not a blind benchmark."
+  },
+  "python": "3.12.14",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "generation_seed": null,
+  "generation_nondeterministic": true,
+  "source_documents": [
+    {
+      "id": "UN_GTR_9_0.3.0_UN_GTR_9_base",
+      "sha256": "eb0186563df470156cb4351c6d00fd3dcac020bb87776371c2071238bfe96e37"
+    },
+    {
+      "id": "UN_R100_5.0.0_UN_R100_base",
+      "sha256": "b912427299cfb30ba0e204848dfb3368bf094f05428f359fab4ff848d4ec39a5"
+    },
+    {
+      "id": "UN_R101_1.12.0_UN_R101_base",
+      "sha256": "403e725400eeed783032211b6f26efe1205816b050522ed715b5860e1f15b7d3"
+    },
+    {
+      "id": "UN_R102_0.0.0_UN_R102_base",
+      "sha256": "240d0d00241ebf7851005094cd750f5636ba10d8e9f0d5ef54921cbc96031168"
+    },
+    {
+      "id": "UN_R103_0.3.0_UN_R103_base",
+      "sha256": "ef173f77c1d643933e5d6eba5e85e98c18ab19c6a53bba598018ac164fd21ffc"
+    },
+    {
+      "id": "UN_R104_0.9.0_UN_R104_base",
+      "sha256": "30997d26f987909aa2558256a07f0fc78eb10e514110231c07cb04de627d105a"
+    },
+    {
+      "id": "UN_R107_11.1.0_UN_R107_base",
+      "sha256": "3a1c182a0634555b023111e0b63b1418ff0d76f28137ed440539ca956ec97a84"
+    },
+    {
+      "id": "UN_R10_7.2.0_UN_R10_base",
+      "sha256": "ba4898ad0d82e9d9ad53f5dab0977c9abfdb50a863c1556a27af0378b51d7baa"
+    },
+    {
+      "id": "UN_R114_0.0.0_UN_R114_base",
+      "sha256": "fe154ddccc2bc9bbf8b37d94d72d9ef41432243e12d3df5e47462208e52b44a0"
+    },
+    {
+      "id": "UN_R116_1.3.0_UN_R116_base",
+      "sha256": "cfbb3793d93f4004cd1a7725155e5b767bf2ad54a331dfeea94a089d6cf5bfe5"
+    },
+    {
+      "id": "UN_R123_2.1.0_UN_R123_base",
+      "sha256": "8692754d3880b7e9894f0578e58907b8ff5e17f4b70378fd2f776c2855dce95a"
+    },
+    {
+      "id": "UN_R127_4.3.0_UN_R127_base",
+      "sha256": "592e7a0fb66f4dcb25915901a8258775c4d28b6a6e988a4050fb7e278071a52d"
+    },
+    {
+      "id": "UN_R128_0.11.0_UN_R128_base",
+      "sha256": "72b0485c45d76755cbb16d1b3f017df1821eccdbbf750d3c453f9a34982dde3c"
+    },
+    {
+      "id": "UN_R131_2.3.0_UN_R131_base",
+      "sha256": "bbd10c126bf4f0b7ab1b3fa67dad6c6ff42d58d8c9cfa43b447846144d32be95"
+    },
+    {
+      "id": "UN_R132_1.0.0_UN_R132_base",
+      "sha256": "74df0888522e80e9cbfe1825a11fb617d55d8b91bd729d5a887f851024343b40"
+    },
+    {
+      "id": "UN_R137_4.0.0_UN_R137_base",
+      "sha256": "f614b9f3a79795ff378be0a4766765470cc958ee842699a54599795ab4f8dfb2"
+    },
+    {
+      "id": "UN_R13H_2.1.0_UN_R13H_base",
+      "sha256": "3a7b237bee19db538fbb929ca8f87ee1d08ef4480c0d31af5428195cdef877eb"
+    },
+    {
+      "id": "UN_R148_1.6.0_UN_R148_base",
+      "sha256": "13cf3e805d0e1c2f9b9fa6b6af962b5b18d3c1d491c273c9c7bcdf9670d16583"
+    },
+    {
+      "id": "UN_R149_1.6.0_UN_R149_base",
+      "sha256": "a15b17a12dbc5996f5dbfb9ebbc2150f207a9b1b3b97b2c57cebf19b8461edbc"
+    },
+    {
+      "id": "UN_R150_1.2.1_UN_R150_base",
+      "sha256": "34cc19a76e33aaf8740d97ddd170280e4db31cab4bb270fdebe51c85a74dd185"
+    },
+    {
+      "id": "UN_R152_2.5.0_UN_R152_base",
+      "sha256": "67504102827c4fa54178831f3aa3eb416094ec1fb5983a60cef2b6c060a8c348"
+    },
+    {
+      "id": "UN_R155_0.2.0_UN_R155_base",
+      "sha256": "0eca7c1cd5a76f5de443dbe2848f34c224555ed583c9f5b9ab8821c76a4aeac0"
+    },
+    {
+      "id": "UN_R156_0.1.0_UN_R156_base",
+      "sha256": "278ce8a8daf7a2a6233b6e1eb5814b3c9de93c7c10c613ef97aa27050fdc58dd"
+    },
+    {
+      "id": "UN_R157_1.4.0_UN_R157_base",
+      "sha256": "adb8d5eff21135fe21b3427d640d68fa9ce3f0d66244612fbb9ea3b782d0c466"
+    },
+    {
+      "id": "UN_R161_0.5.0_UN_R161_base",
+      "sha256": "62694ac40c5771fe9fcf35c7835efaaece0c93eae589555198e9c4e9d86ed46d"
+    },
+    {
+      "id": "UN_R162_0.6.0_UN_R162_base",
+      "sha256": "fe64da64ea863e768ade23612a8ac2bd79ea8cc8e1e4e106981dffca0f1fd24f"
+    },
+    {
+      "id": "UN_R163_0.3.0_UN_R163_base",
+      "sha256": "8fd579a9eadecc4b2c034221f545ec70cf53b2005fd0dd8037443caa3f1c9cd2"
+    },
+    {
+      "id": "UN_R164_0.0.0_UN_R164_base",
+      "sha256": "23724b90ea2add78c95cd021a9f6ad7539f2cd2ee9b5650a6ef37a0b9ab93b63"
+    },
+    {
+      "id": "UN_R171_1.1.0_UN_R171_base",
+      "sha256": "6d245c806a63c4654e3026c2070bababca2be0066000dbb97146c36dc2b972b4"
+    },
+    {
+      "id": "UN_R174_1.0.1_UN_R174_base",
+      "sha256": "964c450ae99470402bdc0fad683480a1d2835145891526bcc323949826a33786"
+    },
+    {
+      "id": "UN_R175_0.1.0_UN_R175_base",
+      "sha256": "c0bdbf009ca2818a30bdc12b40b882fd525cb25690b321a335de87fbb2294ae2"
+    },
+    {
+      "id": "UN_R19_4.10.0_UN_R19_base",
+      "sha256": "f85fcc59859f8228375f7ad051b8acd338776f5894edec834bdb488dcfc18736"
+    },
+    {
+      "id": "UN_R23_0.22.0_UN_R23_base",
+      "sha256": "dd429f8fcd76d26568f8faac18b654cdeda0a1ac72403aa2e397bf071c81dbff"
+    },
+    {
+      "id": "UN_R26_4.0.0_UN_R26_base",
+      "sha256": "c39c5f4c565af64bb87770e1ecafe4e455dcecfc26bd4ee23cffa9433709243e"
+    },
+    {
+      "id": "UN_R32_0.1.0_UN_R32_base",
+      "sha256": "07192b3036883d0b3b1cf5032863d682c447315f73fc07513551f490d48a474c"
+    },
+    {
+      "id": "UN_R37_3.48.0_UN_R37_base",
+      "sha256": "39bdbef5cdd812b7f7b9333d48079f26fce76cc4534cc15c21d6e3eb6f10428e"
+    },
+    {
+      "id": "UN_R38_0.19.0_UN_R38_base",
+      "sha256": "f9b3fc12ac2074df132826e8fa7a67be98a0faa318b6f2ba22e157af16c5ddf0"
+    },
+    {
+      "id": "UN_R39_2.1.0_UN_R39_base",
+      "sha256": "24a92772a6ffa8f66534f7f59d4268192d9024202fdf79c20d6de8d358d0ca16"
+    },
+    {
+      "id": "UN_R3_2.17.0_UN_R3_base",
+      "sha256": "1f1ddd74b6623973a2354e58b57f3096127a618e52da1da36fdcd0ed5e6b3f7f"
+    },
+    {
+      "id": "UN_R40_1.1.0_UN_R40_base",
+      "sha256": "da690184c2e0252d3d37c94b6c75b061199ef282bf33ef1bce6d2909ff36bba7"
+    },
+    {
+      "id": "UN_R42_0.2.0_UN_R42_base",
+      "sha256": "5859bf150cdc04a43b8f940c18409153b369a21d6a8629586af1297868ae34fa"
+    },
+    {
+      "id": "UN_R43_1.12.0_UN_R43_base",
+      "sha256": "2789804c4f8b739b6f75950df96fa1553cc55a7640a1632eeeec009e57f6d17b"
+    },
+    {
+      "id": "UN_R48_9.3.0_UN_R48_base",
+      "sha256": "d4b1dde87bf8374d8eba87643cf16b3949354e93c226e2ced25177c592eb3216"
+    },
+    {
+      "id": "UN_R49_7.3.1_UN_R49_base",
+      "sha256": "82c379371463efeabd472d679c06b64b3b6adcbedf499e738f845fd13b1c3c67"
+    },
+    {
+      "id": "UN_R51_3.10.0_UN_R51_base",
+      "sha256": "2b695f5c94381229caf42816bcadf707cc792af6321fb20e0d31a9894d296b1d"
+    },
+    {
+      "id": "UN_R53_4.0.0_UN_R53_base",
+      "sha256": "61081d44072bbe59d2523482c3b149e8192ba9c9055351ca2c6bde2b9211fd8a"
+    },
+    {
+      "id": "UN_R62_1.0.0_UN_R62_base",
+      "sha256": "ac04d5780f86bf55e44be6604ad9c78f53904f8d80b1c62691cb46c65d2353b9"
+    },
+    {
+      "id": "UN_R64_3.1.0_UN_R64_base",
+      "sha256": "38005f6abe5f5bc24833005b61c029617da26f4e0a5948faf826f07af253aecd"
+    },
+    {
+      "id": "UN_R67_4.2.0_UN_R67_base",
+      "sha256": "c94e22b0fe0b34035eda769d97bef03052ba255432420452dfd95ec04af2911c"
+    },
+    {
+      "id": "UN_R6_2.0.0_UN_R6_base",
+      "sha256": "aa33d36e0d934d76bea5933dad044431996c6d7ac8a8d8e27f5c6fe9c13659cb"
+    },
+    {
+      "id": "UN_R79_4.11.0_UN_R79_base",
+      "sha256": "bf56da0ac23311ceb6ae1b487719b3b7128d9a36439b08527b078168f9b62f25"
+    },
+    {
+      "id": "UN_R7_3.0.0_UN_R7_base",
+      "sha256": "d383d16973dfc67f31c86a96909461c621cdbe80decdf9539a209b987ec677d3"
+    },
+    {
+      "id": "UN_R83_9.0.0_UN_R83_base",
+      "sha256": "ced2d68ad55e7deabdae8638b15af9c4d31fa749e359c08d61204ed8e508ab91"
+    },
+    {
+      "id": "UN_R89_0.3.0_UN_R89_base",
+      "sha256": "78a9191c1672ae15f906b8f9d6f61d40308daafb0f26877e1e5d2a4ffed9113e"
+    },
+    {
+      "id": "UN_R92_2.0.0_UN_R92_base",
+      "sha256": "efe4f5469ed3c068d474eab0f94543d7b09a4b7829358824b03eba3574d5bb7f"
+    },
+    {
+      "id": "UN_R94_5.1.0_UN_R94_base",
+      "sha256": "8074484f81fbb6d10713f4e38b6a70cae042da41acf5f88a77bba36c2333f0d3"
+    }
+  ],
+  "dense_metadata": {
+    "model": "BAAI/bge-small-en-v1.5@65fa9b555f6efb7f272e48d38fca7e1805a62077b4d87d6fb87616e07ae50449:fastembed-0.7.4:mean-overflow-v1",
+    "dimensions": 384,
+    "fingerprint": "4f153762509638248074116b8e078e49a75b2837d3e8ba701a1870cd444c5906",
+    "overflow_pooled_chunks": 31,
+    "max_tokens": 512
+  },
+  "source_code_sha256": {
+    "src/regulation-db/retrieval/hybrid.py": "b2bc03d15d4d8ed9e01efcc5e95d4f6ac21b0bc3ebdfaf23e449532a72deef5e",
+    "src/regulation-db/retrieval/local_embed.py": "3bf208a14487d292eb61c05383f7116ce705d5460bcc70480c0ab5e837c2d850",
+    "src/regulation-db/retrieval/requirements-local.lock.txt": "5957c9c0efd3864eefb41b75efb808b8e4932cedfce9dd3780c3f2f2b1fff78e",
+    "src/regulation-db/retrieval/requirements-local.txt": "2b4f8dd960ddd66e6406dc219299b779d6cbfbfb990c4699db6f92c7e5cf2f78",
+    "src/regulation-db/retrieval/requirements.txt": "99f43573522565d7c480efd1f954892948033915df6a4e685327e995d3396eb6",
+    "src/regulation-db/retrieval/test_hybrid.py": "70c6ccbf7386a3035f81a4da2409c5487a46f826a4aa6ff88ec646f71cc9d659",
+    "src/regulation-db/retrieval/test_local_embed.py": "2ab7f512690c7cc72de636a160713757f73c2f2672ffd1acae8608998b6dc554",
+    "src/regulation-db/tools/build.py": "c30efa8bb5fb7297c7c8c94c68b9d2d5dd0f7cbf196151a2be0c29c0bf9f8d2c",
+    "src/regulation-db/tools/corpus.py": "8a7abceb7d4d2fed3ae2389acfac46b49e73c9d4c09b72aa57954243853dac83",
+    "src/regulation-db/tools/test_corpus.py": "1e317858b8439330fb9ddd901161d0f218ad3d2979115fca09ed693f6072741c",
+    "src/regulation-db/workflows/client.py": "53e531eaea9921284af9be9e0e9312e30898b63926729d6575e0d71517b987b2",
+    "src/regulation-db/workflows/contracts.py": "01e277267de02cfdf732946e64f65d9c7aa73017f89f2374c0bee708aed40c2f",
+    "src/regulation-db/workflows/evaluate.py": "841f2644618b21ec435ad76b6d08e35976cbc72a146476df800b503419869f54",
+    "src/regulation-db/workflows/requirements.txt": "2a0deadc834145f03f45501efaf5ebd9b27017b6203ec738c8f2850ac4e90259",
+    "src/regulation-db/workflows/resume_budgeted.py": "5e0da1328351aeff84a3946aa38f97dcdcd71edf561a5f7c3f973a9b6254ff33",
+    "src/regulation-db/workflows/run.py": "db8aeb381106bb2d2f2192dc5ed369de459327cb2d9e748ac4a2029089f0a8cb",
+    "src/regulation-db/workflows/scoreboard.py": "175f031e8d6d4858bcbe1b0254ad0ad36533e6fdabde971876c3efb51a3148c9",
+    "src/regulation-db/workflows/sources.py": "777f26a56d0feade404920333c21d295aed9c409f83901dcefe630e28fcaf6a3",
+    "src/regulation-db/workflows/test_workflows.py": "05d0bef35424b32e3910b57fe521eaa285e1b971f7c59367bb884ebcbf28f58e"
+  },
+  "gold_access": "Separate evaluator only; development case previously known to team."
+}

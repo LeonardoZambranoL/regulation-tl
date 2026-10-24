@@ -1,0 +1,1519 @@
+{
+  "status": "development diagnostic; one product; no held-out validation",
+  "config": {
+    "pools": [
+      100,
+      300,
+      1000
+    ],
+    "rerank_heads": [
+      50,
+      100,
+      200
+    ],
+    "rrf_k": 60,
+    "budgets": [
+      20,
+      50,
+      100,
+      200
+    ],
+    "rerank_pool": 300
+  },
+  "sparse_model": {
+    "corpus": "4f153762509638248074116b8e078e49a75b2837d3e8ba701a1870cd444c5906",
+    "model": "prithivida/Splade_PP_en_v1@3d77ca176cadcd10173658047635a3faf4db12e7ddf418060e6fecb5dfe9478d:fastembed-0.7.4",
+    "pooling": "max-overflow-v1",
+    "vocab": 30522,
+    "chunks": 31056,
+    "nonzero": 3527710
+  },
+  "cross_encoder": "Xenova/ms-marco-MiniLM-L-6-v2@7d8561a043ed799d7c810903011deab75fd98ce67dec33f436a80cc4268d140f:fastembed-0.7.4",
+  "sparse_query_encoding_seconds": 1.858188790967688,
+  "timing_note": "Dense query encoding excluded. CE50/100/200 share the measured CE200 pass; these are not independent timing measurements.",
+  "metric_note": "Versioned page navigation, full clause spans. Not requirement accuracy. Candidate union after best-window clause deduplication.",
+  "results": [
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "baseline-bm25",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.0880977500055451,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.018867924528301886,
+          "precision": 0.05,
+          "f2": 0.021551724137931032,
+          "ndcg": 0.0396210670558156,
+          "hits": 1
+        },
+        "50": {
+          "recall": 0.11320754716981132,
+          "precision": 0.12,
+          "f2": 0.11450381679389314,
+          "ndcg": 0.09709578723271194,
+          "hits": 6
+        },
+        "100": {
+          "recall": 0.22641509433962265,
+          "precision": 0.12,
+          "f2": 0.19230769230769232,
+          "ndcg": 0.1670780994699715,
+          "hits": 12
+        },
+        "200": {
+          "recall": 0.39622641509433965,
+          "precision": 0.105,
+          "f2": 0.25485436893203883,
+          "ndcg": 0.26191294451592384,
+          "hits": 21
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "baseline-dense",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.07253333300468512,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.05660377358490566,
+          "precision": 0.15,
+          "f2": 0.06465517241379311,
+          "ndcg": 0.13788256219492273,
+          "hits": 3
+        },
+        "50": {
+          "recall": 0.22641509433962265,
+          "precision": 0.24,
+          "f2": 0.22900763358778628,
+          "ndcg": 0.20895902737635658,
+          "hits": 12
+        },
+        "100": {
+          "recall": 0.3584905660377358,
+          "precision": 0.19,
+          "f2": 0.3044871794871795,
+          "ndcg": 0.2833162671401368,
+          "hits": 19
+        },
+        "200": {
+          "recall": 0.5660377358490566,
+          "precision": 0.16042780748663102,
+          "f2": 0.37593984962406013,
+          "ndcg": 0.396304922870753,
+          "hits": 30
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "baseline-rrf",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.07172883400926366,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.150473625815957,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.1320754716981132,
+          "precision": 0.14,
+          "f2": 0.13358778625954199,
+          "ndcg": 0.13072712950792154,
+          "hits": 7
+        },
+        "100": {
+          "recall": 0.3018867924528302,
+          "precision": 0.16,
+          "f2": 0.2564102564102564,
+          "ndcg": 0.23473892341362276,
+          "hits": 16
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.36032475461167035,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "baseline-hybrid",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.07012700001359917,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.14067944285180423,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.15204274662365697,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.23958361723553726,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.3325079883392266,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "splade-pool100",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.0876624999800697,
+      "candidate_union_page_recall": 0.33962264150943394,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.1923748385961846,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.19305566658907033,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18947368421052632,
+          "f2": 0.29315960912052114,
+          "ndcg": 0.2818849691383346,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18947368421052632,
+          "f2": 0.29315960912052114,
+          "ndcg": 0.2818849691383346,
+          "hits": 18
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool100",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.08786654198775068,
+      "candidate_union_page_recall": 0.41509433962264153,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.16182279712311914,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.16381428183923555,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.2657049631428398,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.41509433962264153,
+          "precision": 0.1774193548387097,
+          "f2": 0.3273809523809524,
+          "ndcg": 0.3096617079292606,
+          "hits": 22
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "splade-pool300",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.0877021659980528,
+      "candidate_union_page_recall": 0.5849056603773585,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.1923748385961846,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.19305566658907033,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.2818849691383346,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.5849056603773585,
+          "precision": 0.16230366492146597,
+          "f2": 0.3846153846153846,
+          "ndcg": 0.4171064049643992,
+          "hits": 31
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool300",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.08794283401221037,
+      "candidate_union_page_recall": 0.660377358490566,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.16182279712311914,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.16129227091161344,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.2523553883232928,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.5660377358490566,
+          "precision": 0.15,
+          "f2": 0.3640776699029126,
+          "ndcg": 0.3880982385322038,
+          "hits": 30
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool300-ce50",
+      "query_count": 1,
+      "seconds_excluding_encoding": 18.322192084015114,
+      "candidate_union_page_recall": 0.660377358490566,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.19817437036021235,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.19685901890082072,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.2610415613746238,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.5660377358490566,
+          "precision": 0.15,
+          "f2": 0.3640776699029126,
+          "ndcg": 0.39678441158353484,
+          "hits": 30
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool300-ce100",
+      "query_count": 1,
+      "seconds_excluding_encoding": 18.322192084015114,
+      "candidate_union_page_recall": 0.660377358490566,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.15387468880044622,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.1607917779389534,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.2512165000249838,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.5660377358490566,
+          "precision": 0.15,
+          "f2": 0.3640776699029126,
+          "ndcg": 0.3869593502338948,
+          "hits": 30
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool300-ce200",
+      "query_count": 1,
+      "seconds_excluding_encoding": 18.322192084015114,
+      "candidate_union_page_recall": 0.660377358490566,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.19442814725618274,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.18369042031095675,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.37735849056603776,
+          "precision": 0.2,
+          "f2": 0.3205128205128205,
+          "ndcg": 0.2958718547821454,
+          "hits": 20
+        },
+        "200": {
+          "recall": 0.5660377358490566,
+          "precision": 0.15,
+          "f2": 0.3640776699029126,
+          "ndcg": 0.39894961771406795,
+          "hits": 30
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "splade-pool1000",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.09114858400425874,
+      "candidate_union_page_recall": 0.7547169811320755,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.1923748385961846,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.19305566658907033,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.2818849691383346,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.5849056603773585,
+          "precision": 0.155,
+          "f2": 0.3762135922330097,
+          "ndcg": 0.4171064049643992,
+          "hits": 31
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "full-spec",
+      "flow": "rrf-pool1000",
+      "query_count": 1,
+      "seconds_excluding_encoding": 0.09109787497436628,
+      "candidate_union_page_recall": 0.8113207547169812,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.16182279712311914,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.16114504594052767,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.25198720371915684,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.36924567721379475,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "baseline-bm25",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.4847609569551423,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.03773584905660377,
+          "precision": 0.1,
+          "f2": 0.043103448275862065,
+          "ndcg": 0.07509660366335139,
+          "hits": 2
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.1478587675849938,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.2830188679245283,
+          "precision": 0.15,
+          "f2": 0.2403846153846154,
+          "ndcg": 0.21350093626525402,
+          "hits": 15
+        },
+        "200": {
+          "recall": 0.4339622641509434,
+          "precision": 0.115,
+          "f2": 0.279126213592233,
+          "ndcg": 0.2975857194268691,
+          "hits": 23
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "baseline-dense",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.47482395701808855,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.19551363444470593,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.19856135447830447,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.2744624108512844,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.3674761957233816,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "baseline-rrf",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.47508437305805273,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.19723831555236865,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.18015030599507,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.3018867924528302,
+          "precision": 0.16,
+          "f2": 0.2564102564102564,
+          "ndcg": 0.2594209204612184,
+          "hits": 16
+        },
+        "200": {
+          "recall": 0.5471698113207547,
+          "precision": 0.145,
+          "f2": 0.35194174757281554,
+          "ndcg": 0.3942967728193287,
+          "hits": 29
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "baseline-hybrid",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.47321420902153477,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.16204911781168285,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.1509433962264151,
+          "precision": 0.16,
+          "f2": 0.15267175572519084,
+          "ndcg": 0.1460641586094918,
+          "hits": 8
+        },
+        "100": {
+          "recall": 0.3018867924528302,
+          "precision": 0.16,
+          "f2": 0.2564102564102564,
+          "ndcg": 0.2363693540025089,
+          "hits": 16
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.3620291407160327,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "splade-pool100",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.677584209915949,
+      "candidate_union_page_recall": 0.39622641509433965,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.2575743835951251,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.24125770922449713,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.3584905660377358,
+          "precision": 0.19,
+          "f2": 0.3044871794871795,
+          "ndcg": 0.327229096062077,
+          "hits": 19
+        },
+        "200": {
+          "recall": 0.39622641509433965,
+          "precision": 0.1640625,
+          "f2": 0.30882352941176466,
+          "ndcg": 0.3493171527692332,
+          "hits": 21
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool100",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.6839460800110828,
+      "candidate_union_page_recall": 0.49056603773584906,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.21616834431251883,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.2064344902270243,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.2713235973414459,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13978494623655913,
+          "f2": 0.32663316582914576,
+          "ndcg": 0.36637134643045477,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "splade-pool300",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.6850238769839052,
+      "candidate_union_page_recall": 0.6226415094339622,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.2575743835951251,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.24125770922449713,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.3584905660377358,
+          "precision": 0.19,
+          "f2": 0.3044871794871795,
+          "ndcg": 0.327229096062077,
+          "hits": 19
+        },
+        "200": {
+          "recall": 0.5849056603773585,
+          "precision": 0.155,
+          "f2": 0.3762135922330097,
+          "ndcg": 0.4512910258840937,
+          "hits": 31
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool300",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.6863424160110299,
+      "candidate_union_page_recall": 0.7358490566037735,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.21616834431251883,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.17847923326341936,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.2789220800490645,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.36361256579223394,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool300-ce50",
+      "query_count": 11,
+      "seconds_excluding_encoding": 55.86612653892371,
+      "candidate_union_page_recall": 0.7358490566037735,
+      "budgets": {
+        "20": {
+          "recall": 0.1320754716981132,
+          "precision": 0.35,
+          "f2": 0.15086206896551727,
+          "ndcg": 0.3115028614375711,
+          "hits": 7
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.2305818554671434,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.3045395224338513,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.3892300081770208,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool300-ce100",
+      "query_count": 11,
+      "seconds_excluding_encoding": 55.86612653892371,
+      "candidate_union_page_recall": 0.7358490566037735,
+      "budgets": {
+        "20": {
+          "recall": 0.1509433962264151,
+          "precision": 0.4,
+          "f2": 0.17241379310344826,
+          "ndcg": 0.3444748350697714,
+          "hits": 8
+        },
+        "50": {
+          "recall": 0.22641509433962265,
+          "precision": 0.24,
+          "f2": 0.22900763358778628,
+          "ndcg": 0.24623197855570386,
+          "hits": 12
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.30765620118580383,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.39157920866697843,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool300-ce200",
+      "query_count": 11,
+      "seconds_excluding_encoding": 55.86612653892371,
+      "candidate_union_page_recall": 0.7358490566037735,
+      "budgets": {
+        "20": {
+          "recall": 0.1509433962264151,
+          "precision": 0.4,
+          "f2": 0.17241379310344826,
+          "ndcg": 0.33065342455589447,
+          "hits": 8
+        },
+        "50": {
+          "recall": 0.22641509433962265,
+          "precision": 0.24,
+          "f2": 0.22900763358778628,
+          "ndcg": 0.23843285714182202,
+          "hits": 12
+        },
+        "100": {
+          "recall": 0.3018867924528302,
+          "precision": 0.16,
+          "f2": 0.2564102564102564,
+          "ndcg": 0.27615374767080514,
+          "hits": 16
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.38122257843993584,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "splade-pool1000",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.7059233320178464,
+      "candidate_union_page_recall": 0.7169811320754716,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.2575743835951251,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.24125770922449713,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.3584905660377358,
+          "precision": 0.19,
+          "f2": 0.3044871794871795,
+          "ndcg": 0.327229096062077,
+          "hits": 19
+        },
+        "200": {
+          "recall": 0.5849056603773585,
+          "precision": 0.155,
+          "f2": 0.3762135922330097,
+          "ndcg": 0.4512910258840937,
+          "hits": 31
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "spec-functions",
+      "flow": "rrf-pool1000",
+      "query_count": 11,
+      "seconds_excluding_encoding": 0.7251256249437574,
+      "candidate_union_page_recall": 0.8301886792452831,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.21616834431251883,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.17847923326341936,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.2795726536947282,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.38375830246402004,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "baseline-bm25",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.6551892080460675,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.03773584905660377,
+          "precision": 0.1,
+          "f2": 0.043103448275862065,
+          "ndcg": 0.17547753101837077,
+          "hits": 2
+        },
+        "50": {
+          "recall": 0.1509433962264151,
+          "precision": 0.16,
+          "f2": 0.15267175572519084,
+          "ndcg": 0.18055600842973993,
+          "hits": 8
+        },
+        "100": {
+          "recall": 0.20754716981132076,
+          "precision": 0.11,
+          "f2": 0.1762820512820513,
+          "ndcg": 0.20978899945914065,
+          "hits": 11
+        },
+        "200": {
+          "recall": 0.4716981132075472,
+          "precision": 0.125,
+          "f2": 0.3033980582524272,
+          "ndcg": 0.35537190803176216,
+          "hits": 25
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "baseline-dense",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.6290001250454225,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.05660377358490566,
+          "precision": 0.15,
+          "f2": 0.06465517241379311,
+          "ndcg": 0.1201634401527447,
+          "hits": 3
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.15623054211514056,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.24528301886792453,
+          "precision": 0.13,
+          "f2": 0.20833333333333334,
+          "ndcg": 0.1988891420902121,
+          "hits": 13
+        },
+        "200": {
+          "recall": 0.4528301886792453,
+          "precision": 0.12,
+          "f2": 0.2912621359223301,
+          "ndcg": 0.3130150413948127,
+          "hits": 24
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "baseline-rrf",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.6281665820279159,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.3340750026696243,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.20754716981132076,
+          "precision": 0.22,
+          "f2": 0.20992366412213742,
+          "ndcg": 0.2753715267173264,
+          "hits": 11
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.3367749297352276,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.4716981132075472,
+          "precision": 0.125,
+          "f2": 0.3033980582524272,
+          "ndcg": 0.4224726935260873,
+          "hits": 25
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "baseline-hybrid",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.6281573330052197,
+      "candidate_union_page_recall": null,
+      "budgets": {
+        "20": {
+          "recall": 0.07547169811320754,
+          "precision": 0.2,
+          "f2": 0.08620689655172413,
+          "ndcg": 0.2563146623351025,
+          "hits": 4
+        },
+        "50": {
+          "recall": 0.18867924528301888,
+          "precision": 0.2,
+          "f2": 0.19083969465648856,
+          "ndcg": 0.2285989401750759,
+          "hits": 10
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.30380458232010815,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.4528301886792453,
+          "precision": 0.12,
+          "f2": 0.2912621359223301,
+          "ndcg": 0.3772555628581636,
+          "hits": 24
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "splade-pool100",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.7786088770080823,
+      "candidate_union_page_recall": 0.8301886792452831,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.22974369200654052,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.1863162069179263,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.2641509433962264,
+          "precision": 0.14,
+          "f2": 0.22435897435897437,
+          "ndcg": 0.23913075038630932,
+          "hits": 14
+        },
+        "200": {
+          "recall": 0.39622641509433965,
+          "precision": 0.105,
+          "f2": 0.25485436893203883,
+          "ndcg": 0.31205705619064716,
+          "hits": 21
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool100",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.7840638740453869,
+      "candidate_union_page_recall": 0.8679245283018868,
+      "budgets": {
+        "20": {
+          "recall": 0.1320754716981132,
+          "precision": 0.35,
+          "f2": 0.15086206896551727,
+          "ndcg": 0.423452077427484,
+          "hits": 7
+        },
+        "50": {
+          "recall": 0.2641509433962264,
+          "precision": 0.28,
+          "f2": 0.26717557251908397,
+          "ndcg": 0.33764036717706813,
+          "hits": 14
+        },
+        "100": {
+          "recall": 0.32075471698113206,
+          "precision": 0.17,
+          "f2": 0.2724358974358974,
+          "ndcg": 0.3596946349045787,
+          "hits": 17
+        },
+        "200": {
+          "recall": 0.49056603773584906,
+          "precision": 0.13,
+          "f2": 0.3155339805825243,
+          "ndcg": 0.45418469015938573,
+          "hits": 26
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "splade-pool300",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.7896282110013999,
+      "candidate_union_page_recall": 0.9622641509433962,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.22974369200654052,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.1863162069179263,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.2641509433962264,
+          "precision": 0.14,
+          "f2": 0.22435897435897437,
+          "ndcg": 0.23913075038630932,
+          "hits": 14
+        },
+        "200": {
+          "recall": 0.39622641509433965,
+          "precision": 0.105,
+          "f2": 0.25485436893203883,
+          "ndcg": 0.31205705619064716,
+          "hits": 21
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool300",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.8016472890158184,
+      "candidate_union_page_recall": 0.9811320754716981,
+      "budgets": {
+        "20": {
+          "recall": 0.1320754716981132,
+          "precision": 0.35,
+          "f2": 0.15086206896551727,
+          "ndcg": 0.423452077427484,
+          "hits": 7
+        },
+        "50": {
+          "recall": 0.2641509433962264,
+          "precision": 0.28,
+          "f2": 0.26717557251908397,
+          "ndcg": 0.33764036717706813,
+          "hits": 14
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.37094312222140086,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.4756166912581804,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool300-ce50",
+      "query_count": 20,
+      "seconds_excluding_encoding": 70.5127350850671,
+      "candidate_union_page_recall": 0.9811320754716981,
+      "budgets": {
+        "20": {
+          "recall": 0.018867924528301886,
+          "precision": 0.05,
+          "f2": 0.021551724137931032,
+          "ndcg": 0.0396210670558156,
+          "hits": 1
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.147083439286775,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.39622641509433965,
+          "precision": 0.21,
+          "f2": 0.33653846153846156,
+          "ndcg": 0.28578335201997185,
+          "hits": 21
+        },
+        "200": {
+          "recall": 0.6037735849056604,
+          "precision": 0.16,
+          "f2": 0.3883495145631068,
+          "ndcg": 0.3990082268305897,
+          "hits": 32
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool300-ce100",
+      "query_count": 20,
+      "seconds_excluding_encoding": 70.5127350850671,
+      "candidate_union_page_recall": 0.9811320754716981,
+      "budgets": {
+        "20": {
+          "recall": 0.018867924528301886,
+          "precision": 0.05,
+          "f2": 0.021551724137931032,
+          "ndcg": 0.0396210670558156,
+          "hits": 1
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.147083439286775,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.39622641509433965,
+          "precision": 0.21,
+          "f2": 0.33653846153846156,
+          "ndcg": 0.28623768703226216,
+          "hits": 21
+        },
+        "200": {
+          "recall": 0.5471698113207547,
+          "precision": 0.145,
+          "f2": 0.35194174757281554,
+          "ndcg": 0.3698054747600963,
+          "hits": 29
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool300-ce200",
+      "query_count": 20,
+      "seconds_excluding_encoding": 70.5127350850671,
+      "candidate_union_page_recall": 0.9811320754716981,
+      "budgets": {
+        "20": {
+          "recall": 0.018867924528301886,
+          "precision": 0.05,
+          "f2": 0.021551724137931032,
+          "ndcg": 0.0396210670558156,
+          "hits": 1
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.147083439286775,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.39622641509433965,
+          "precision": 0.21,
+          "f2": 0.33653846153846156,
+          "ndcg": 0.2875142492359827,
+          "hits": 21
+        },
+        "200": {
+          "recall": 0.5283018867924528,
+          "precision": 0.14,
+          "f2": 0.3398058252427185,
+          "ndcg": 0.3631257868583722,
+          "hits": 28
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "splade-pool1000",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.8198670409619808,
+      "candidate_union_page_recall": 1.0,
+      "budgets": {
+        "20": {
+          "recall": 0.09433962264150944,
+          "precision": 0.25,
+          "f2": 0.10775862068965518,
+          "ndcg": 0.22974369200654052,
+          "hits": 5
+        },
+        "50": {
+          "recall": 0.16981132075471697,
+          "precision": 0.18,
+          "f2": 0.17175572519083968,
+          "ndcg": 0.1863162069179263,
+          "hits": 9
+        },
+        "100": {
+          "recall": 0.2641509433962264,
+          "precision": 0.14,
+          "f2": 0.22435897435897437,
+          "ndcg": 0.23913075038630932,
+          "hits": 14
+        },
+        "200": {
+          "recall": 0.39622641509433965,
+          "precision": 0.105,
+          "f2": 0.25485436893203883,
+          "ndcg": 0.31205705619064716,
+          "hits": 21
+        }
+      }
+    },
+    {
+      "group": "dev-rear-lamp",
+      "strategy": "claude-facets",
+      "flow": "rrf-pool1000",
+      "query_count": 20,
+      "seconds_excluding_encoding": 0.8813041249231901,
+      "candidate_union_page_recall": 1.0,
+      "budgets": {
+        "20": {
+          "recall": 0.1320754716981132,
+          "precision": 0.35,
+          "f2": 0.15086206896551727,
+          "ndcg": 0.423452077427484,
+          "hits": 7
+        },
+        "50": {
+          "recall": 0.2641509433962264,
+          "precision": 0.28,
+          "f2": 0.26717557251908397,
+          "ndcg": 0.33764036717706813,
+          "hits": 14
+        },
+        "100": {
+          "recall": 0.33962264150943394,
+          "precision": 0.18,
+          "f2": 0.28846153846153844,
+          "ndcg": 0.37094312222140086,
+          "hits": 18
+        },
+        "200": {
+          "recall": 0.5471698113207547,
+          "precision": 0.145,
+          "f2": 0.35194174757281554,
+          "ndcg": 0.4859750640700448,
+          "hits": 29
+        }
+      }
+    }
+  ]
+}

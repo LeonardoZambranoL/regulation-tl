@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product",
+    "reviewer prompts give lighting examples (headlamps, direction indicators) seen in the dev domain"
+  ],
+  "notes": "Same selection as devansh-llm-clause-filter; the multi-agent review adds recall but no new dev tuning."
+}

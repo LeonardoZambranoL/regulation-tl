@@ -1,0 +1,12 @@
+{
+  "level": "high",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Query strategy, candidate-pool size and optional reranking head selected by a development Recall@100/nDCG@100 sweep on the single labelled rear-lamp case"
+  ],
+  "notes": "Indexing, query planning and requirement generation never read gold answers. Gold page labels are used by the separate retrieval evaluator to select configuration. This is exploratory development performance, not held-out generalization. Claude generates and reviews requirement text; the leaderboard scores citations only.",
+  "generalization": "No rear-lamp keyword rules or regulation allowlist are hard-coded in the solver; product-specific facets and scope are generated from the supplied specification. Unchanged execution on other products has not been tested.",
+  "robustness": "Single development case only; no held-out evidence. Cross-experiment gains are confounded by packet count and extraction/review. High risk remains."
+}
