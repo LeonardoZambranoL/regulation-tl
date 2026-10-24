@@ -117,3 +117,13 @@ a dataset `runs` whose source is an uploaded file.
 
 Do not edit the page (`files/index.html`) unless asked; if you do, read it first and keep its data marks.
 If you have no edit access the write is refused: say so and leave the upload to Devansh.
+
+## Troubleshooting: "my push does not show up"
+
+- **Standalone view**: `python approaches/dashboard/open.py` rebuilds the page from `approaches/leaderboard.json` every
+  time it opens (into the git-ignored `approaches/dashboard/.local/`), so a pushed `bench.py` run always appears after
+  the pull, even if the committed `dashboard.html` was not rebuilt.
+- **claude.ai view**: the sync resets its own clone to `origin/main` every 5 minutes (while Devansh's Claude app is
+  open) and publishes when the data or page changed. Nothing shows if the run never reached `leaderboard.json`: check
+  that you ran `bench.py` (not only your own scripts) and pushed `approaches/leaderboard.json`.
+- Enable the hooks once (`git config core.hooksPath .githooks`) so your commits also carry a rebuilt `dashboard.html`.

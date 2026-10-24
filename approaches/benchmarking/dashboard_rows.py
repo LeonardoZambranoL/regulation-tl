@@ -162,6 +162,8 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--board", default=str(APPROACHES / "leaderboard.json"))
     ap.add_argument("--out", default=str(APPROACHES / "dashboard" / "leaderboard_rows.json"))
+    ap.add_argument("--html-out", default=str(APPROACHES / "dashboard" / "dashboard.html"),
+                    help="where to write the standalone dashboard (open.py uses a git-ignored copy)")
     ap.add_argument("--gold", action="append", help="gold expected.json for the clause level (repeatable); default: every "
                     "cases/*/expected.json in ../industrial-ai-hackathon next to the repo")
     args = ap.parse_args(argv)
@@ -177,7 +179,8 @@ def main(argv: list[str] | None = None) -> int:
         built = max((r["completed_at"] for r in data), default="")[:16].replace("T", " ") + " UTC" if data else "never"
         payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
         html = template.read_text(encoding="utf-8").replace("/*__DATA__*/", payload).replace("/*__GENERATED__*/", built)
-        page = APPROACHES / "dashboard" / "dashboard.html"
+        page = Path(args.html_out)
+        page.parent.mkdir(parents=True, exist_ok=True)
         page.write_text(html, encoding="utf-8", newline="\n")
         print(f"standalone dashboard -> {page}")
     return 0
