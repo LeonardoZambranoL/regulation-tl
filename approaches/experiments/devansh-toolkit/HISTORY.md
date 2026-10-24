@@ -31,6 +31,10 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 14 | re-benchmarked all three under the shared evaluator id (line-ending fix in bench.py) | bench.py now records clause level | | | | | | same scores; one table with everyone's runs |
 | 15 | renamed for clarity | `devansh` -> code in `devansh-toolkit` + run in `devansh-bm25-clauses-top190`; `devansh-pages-n150` -> `devansh-bm25-pages-top150`; `devansh-llm-classifier` -> `devansh-llm-clause-filter` (history migrated, run ids unchanged) | | | | | | |
 | 16 | plain-language explanations | EXPLAIN.md for all three; Explain buttons on both dashboards | | | | | | |
+| 17 | **`devansh-llm-clause-filter-multiagent`** (team bench) | same rules selection; agents A (strict) + B (completeness auditor) review all 1,240 clauses, C adjudicates the 141 disagreements (kept 46) -> 354 | 0.500 | 0.981 | | **0.823** | 1.00 | recall unchanged, precision down: the extra 46 were not in the gold set |
+| 18 | **`devansh-dynregex-llm-clause-filter`** (team bench) | Claude writes regexes from the spec only (no hand rules) -> 8 regulations (all 4 gold + R128, R149, R37, R43); one agent over 2,600 clauses -> 397 | 0.409 | 0.981 | | **0.767** | 0.80 | same recall with no hand-written rules; agent rejected R37 / R43 but kept R128 / R149 clauses (reg P 0.67) |
+| 19 | **`devansh-dynregex-llm-clause-filter-multiagent`** (team bench) | dynamic regex + three agents (A 397, B 676 yes, 281 disputed, C kept 51) -> 447 | 0.364 | 0.981 | | **0.732** | 0.80 | lowest precision of the LLM variants |
+| 20 | analysis | why multi-agent cannot raise recall | | | | | | 23 of 121 gold clauses (19%) are not "shall" candidates at all (5 not even parsed): clause recall is capped at 0.81 before any agent reads anything. Next: widen candidates (clauses without shall/must, table rows, parent context) |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

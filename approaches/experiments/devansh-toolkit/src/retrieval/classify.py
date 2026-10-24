@@ -39,18 +39,40 @@ provisions, names and addresses); scope statements without an obligation.
 Be strict about functions the product does not have, and inclusive about general requirements that apply to it."""
 
 
+AUDITOR_INSTRUCTIONS = """You are a completeness auditor for a UNECE type-approval team. Another engineer is deciding
+which numbered clauses below apply to the product in <spec>; your job is to make sure NOTHING that applies is missed.
+For each clause decide whether it could state a requirement that this product (the device itself, its markings, its
+installation on the vehicle, its electrical / electronic behaviour, the tests it must pass) has to fulfil.
+
+applies = true unless the clause clearly does not apply: it only concerns a function or device the product does not
+have, a vehicle category other than the spec's, a pure definition, an administrative duty of authorities or technical
+services, or a scope statement without an obligation. General requirements, test procedures and marking rules that
+cover devices of this kind apply. When in doubt, answer true."""
+
+ADJUDICATOR_INSTRUCTIONS = """You are the senior UNECE type-approval engineer settling disagreements. Two reviewers
+judged whether each numbered clause below states a requirement that the product in <spec> must fulfil:
+- Reviewer A is strict about applicability (rejects clauses for functions the product does not have).
+- Reviewer B is a completeness auditor (keeps anything that could apply).
+They disagreed on every clause below. Read the clause and the spec, decide yourself, and give a one-sentence reason.
+applies = true when the clause states an obligation for this product (device, markings, installation, electrical /
+electronic behaviour, tests) given its actual functions and vehicle category; false otherwise."""
+
+
 def candidates(regulations: set[str]) -> list[Chunk]:
     return [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and SHALL.search(c.text)]
 
 
-def _batch_prompt(spec: str, batch: list[Chunk]) -> str:
-    items = "\n\n".join(f"[{c.id}] {c.regulation} para {c.paragraph or '-'} (page {c.page})\n{' '.join(c.text.split())[:900]}"
+def _batch_prompt(spec: str, batch: list[Chunk], instructions: str = INSTRUCTIONS, notes: dict[int, str] | None = None) -> str:
+    notes = notes or {}
+    items = "\n\n".join(f"[{c.id}] {c.regulation} para {c.paragraph or '-'} (page {c.page})"
+                        f"{(' ' + notes[c.id]) if c.id in notes else ''}\n{' '.join(c.text.split())[:900]}"
                         for c in batch)
-    return f"{INSTRUCTIONS}\n\n<spec>\n{spec}\n</spec>\n\n<clauses>\n{items}\n</clauses>\n\nDecide every clause id."
+    return f"{instructions}\n\n<spec>\n{spec}\n</spec>\n\n<clauses>\n{items}\n</clauses>\n\nDecide every clause id."
 
 
-def classify(spec: str, chunks: list[Chunk], batch_size: int = 40, workers: int = 6, effort: str = "medium") -> dict[int, bool]:
-    """chunk id -> applies."""
+def classify(spec: str, chunks: list[Chunk], batch_size: int = 40, workers: int = 6, effort: str = "medium",
+             instructions: str = INSTRUCTIONS, notes: dict[int, str] | None = None) -> dict[int, bool]:
+    """chunk id -> applies. `instructions` sets the reviewer's role (each role has its own cache)."""
     from .llm import structured
 
     schema = {"type": "object", "properties": {"decisions": {"type": "array", "items": {
@@ -60,7 +82,7 @@ def classify(spec: str, chunks: list[Chunk], batch_size: int = 40, workers: int 
     batches = [chunks[i:i + batch_size] for i in range(0, len(chunks), batch_size)]
 
     def run(batch: list[Chunk]) -> dict[int, bool]:
-        prompt = _batch_prompt(spec, batch)
+        prompt = _batch_prompt(spec, batch, instructions, notes)
         cache = CACHE_DIR / f"classify_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return {int(k): v for k, v in json.loads(cache.read_text(encoding="utf-8")).items()}
@@ -76,6 +98,32 @@ def classify(spec: str, chunks: list[Chunk], batch_size: int = 40, workers: int 
         for part in pool.map(run, batches):
             decisions.update(part)
     return decisions
+
+
+def classify_multi(spec: str, chunks: list[Chunk], workers: int = 6, effort: str = "medium") -> tuple[dict[int, bool], dict]:
+    """Three agents that check each other: A (strict applicability, the single-agent reviewer) and B (completeness
+    auditor) judge every clause independently; C (adjudicator) re-judges only the clauses where A and B disagree.
+    Final: both yes -> yes, both no -> no, disagreement -> C's decision. Returns (decisions, report)."""
+    a = classify(spec, chunks, workers=workers, effort=effort, instructions=INSTRUCTIONS)
+    b = classify(spec, chunks, workers=workers, effort=effort, instructions=AUDITOR_INSTRUCTIONS)
+    disputed = [c for c in chunks if a.get(c.id) != b.get(c.id)]
+    notes = {c.id: f"[reviewer A: {'applies' if a.get(c.id) else 'does not apply'}; "
+                   f"reviewer B: {'applies' if b.get(c.id) else 'does not apply'}]" for c in disputed}
+    judged = classify(spec, disputed, batch_size=25, workers=workers, effort="high",
+                      instructions=ADJUDICATOR_INSTRUCTIONS, notes=notes) if disputed else {}
+    final = {}
+    for c in chunks:
+        final[c.id] = a.get(c.id) if a.get(c.id) == b.get(c.id) else bool(judged.get(c.id, b.get(c.id)))
+    report = {
+        "clauses": len(chunks),
+        "agent_a_yes": sum(bool(a.get(c.id)) for c in chunks),
+        "agent_b_yes": sum(bool(b.get(c.id)) for c in chunks),
+        "agreed_yes": sum(bool(a.get(c.id)) and bool(b.get(c.id)) for c in chunks),
+        "disputed": len(disputed),
+        "disputed_kept_by_adjudicator": sum(bool(judged.get(c.id)) for c in disputed),
+        "final_yes": sum(final.values()),
+    }
+    return final, report
 
 
 def main(argv: list[str] | None = None) -> int:

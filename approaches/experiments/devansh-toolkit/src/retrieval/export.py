@@ -38,9 +38,18 @@ def main(argv: list[str] | None = None) -> int:
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
     if cfg.get("filter", {}).get("method") == "llm":
         # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
-        from .classify import candidates, classify
+        from .classify import candidates, classify, classify_multi
         cands = candidates(regs)
-        decisions = classify(spec, cands, effort=cfg["filter"].get("effort", "medium"))
+        effort = cfg["filter"].get("effort", "medium")
+        if cfg["filter"].get("agents") == "multi":
+            decisions, report = classify_multi(spec, cands, effort=effort)
+            report["regulations"] = sorted(regs)
+            print("multi-agent review:", json.dumps(report))
+            if not args.sweep:
+                Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+                (Path(args.out).parent / "review-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+        else:
+            decisions = classify(spec, cands, effort=effort)
         ranked = [c for c in cands if decisions.get(c.id)]
         sizes = [len(ranked) if s <= 0 else s for s in sizes]
         n = len(ranked) if n <= 0 else n

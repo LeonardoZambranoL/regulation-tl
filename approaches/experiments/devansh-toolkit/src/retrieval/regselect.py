@@ -188,6 +188,57 @@ def select_llm(spec: str, profiles: dict[str, Profile]) -> dict[str, list[str]]:
     return dict(out)
 
 
+REGEX_PROMPT = """You help find which UN vehicle regulations (UNECE) apply to a product. You only see the product
+specification, not the list of regulations. Write regular expressions that will be searched (case-insensitive) in the
+TITLE and SCOPE paragraph of every UN Regulation, written in UNECE regulatory English (for example "light-signalling
+devices", "retro-reflecting devices", "electrical/electronic sub-assemblies", "installation of lighting").
+
+Write 6 to 20 patterns covering the product's own functions, components, materials that have their own regulations,
+its installation on the vehicle, and its electrical / electronic content. Each pattern must be specific to this product:
+never a generic word that appears in every regulation (vehicle, approval, regulation, type, category, device alone).
+Allow spelling variants (hyphens, plurals: e.g. "retro-?reflect"). Use Python regex syntax.
+
+<spec>
+{spec}
+</spec>"""
+
+
+def regex_patterns(spec: str) -> list[dict]:
+    """Claude writes regexes from the spec alone (cached per spec); invalid patterns are dropped."""
+    from .llm import structured
+    key = hashlib.sha1(REGEX_PROMPT.format(spec=spec).encode()).hexdigest()[:12]
+    cache = CACHE_DIR / f"regselect_llmregex_{key}.json"
+    if cache.is_file():
+        patterns = json.loads(cache.read_text(encoding="utf-8"))
+    else:
+        schema = {"type": "object", "properties": {"patterns": {"type": "array", "items": {
+            "type": "object", "properties": {"regex": {"type": "string"}, "meaning": {"type": "string"}},
+            "required": ["regex", "meaning"], "additionalProperties": False}}},
+            "required": ["patterns"], "additionalProperties": False}
+        patterns = structured(REGEX_PROMPT.format(spec=spec), schema)["patterns"]
+        CACHE_DIR.mkdir(exist_ok=True)
+        cache.write_text(json.dumps(patterns, indent=2), encoding="utf-8")
+    valid = []
+    for p in patterns:
+        try:
+            re.compile(p["regex"], re.IGNORECASE)
+            valid.append(p)
+        except re.error:
+            pass
+    return valid
+
+
+def select_llm_regex(spec: str, profiles: dict[str, Profile]) -> dict[str, list[str]]:
+    """Dynamic regex: run the spec-derived patterns over each regulation's title + scope; any match selects it."""
+    chosen: dict[str, list[str]] = {}
+    for p in regex_patterns(spec):
+        rx = re.compile(p["regex"], re.IGNORECASE)
+        for reg, prof in profiles.items():
+            if rx.search(prof.title + " . " + prof.scope):
+                chosen.setdefault(reg, []).append(f"/{p['regex']}/ ({p['meaning']})")
+    return chosen
+
+
 def apply_filters(selected: dict[str, list[str]], spec: str, profiles: dict[str, Profile]) -> dict[str, list[str]]:
     out = dict(selected)
     for reg in list(out):  # supersession, as stated by the consolidated regulation itself
@@ -227,6 +278,8 @@ def select(spec: str, method: str = "combined", k: int = 4, pipe: Pipeline | Non
             chosen = select_llm(spec, profiles)
             CACHE_DIR.mkdir(exist_ok=True)
             cache.write_text(json.dumps(chosen, indent=2), encoding="utf-8")
+    elif method == "llm_regex":
+        chosen = select_llm_regex(spec, profiles)
     else:
         raise ValueError(f"unknown method {method!r}")
     return apply_filters(chosen, spec, profiles)
