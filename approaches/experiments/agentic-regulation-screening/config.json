@@ -1,0 +1,18 @@
+{
+  "name": "Agentic per-regulation scope screening followed by complete clause analysis",
+  "screening_model": "claude-opus-5-5",
+  "model": "claude-sonnet-5-5",
+  "verification_model": "claude-sonnet-5-5",
+  "workers": 10,
+  "batch_retries": 2,
+  "screening_initial_clauses": 8,
+  "screening_initial_characters": 40000,
+  "screening_tool_rounds": 6,
+  "screening_tool_calls": 12,
+  "batch_size": 12,
+  "batch_characters": 14000,
+  "context_characters": 24000,
+  "max_tool_rounds": 4,
+  "max_tool_calls": 8,
+  "max_tokens": 12000
+}

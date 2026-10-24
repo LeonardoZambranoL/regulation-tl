@@ -1,0 +1,8 @@
+{
+  "level": "medium",
+  "uses_gold": false,
+  "tuned_on_dev": [],
+  "uses_llm": true,
+  "deterministic": false,
+  "notes": "No embeddings or case-specific regulation filters. A screening false negative can remove an entire relevant regulation; uncertain and failed screens are therefore included. Dev run has high recall but low precision. No holdout run and no score-driven tuning."
+}

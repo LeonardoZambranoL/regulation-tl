@@ -1201,5 +1201,56 @@
         "f2": 0.3861003861003861
       }
     }
+  },
+  {
+    "run_id": "37ec3cfc2ef94836ade4be35cadc585d",
+    "approach": "agentic-regulation-screening",
+    "status": "completed",
+    "completed_at": "2026-10-24T19:10:45.815701+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "C:\\Users\\user\\Desktop\\industrial-ai-hackathon\\regulations\\index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "C:\\Users\\user\\Desktop\\regulation-tl\\approaches\\experiments\\agentic-regulation-screening\\outputs\\predictions.json",
+    "prediction_sha256": "2a13035293cf91e7c5824dddd72829cf4f193c49c904700c254440b55dabd0e1",
+    "gold_path": "C:\\Users\\user\\Desktop\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.4444444444444444,
+        "recall": 1.0,
+        "f1": 0.6153846153846153,
+        "n_submitted": 9,
+        "n_expected": 4,
+        "n_matched": 4,
+        "f2": 0.8
+      },
+      "page_level": {
+        "precision": 0.3355263157894737,
+        "recall": 0.9622641509433962,
+        "f1": 0.4975609756097561,
+        "n_submitted": 152,
+        "n_expected": 53,
+        "n_matched": 51,
+        "f2": 0.7005494505494505
+      },
+      "clause_level": {
+        "precision": 0.141156462585034,
+        "recall": 0.6859504132231405,
+        "f1": 0.234132581100141,
+        "n_submitted": 588,
+        "n_expected": 121,
+        "n_matched": 83,
+        "f2": 0.3871268656716418
+      }
+    }
   }
 ]
