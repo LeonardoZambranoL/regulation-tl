@@ -61,7 +61,7 @@ python approaches/benchmarking/bench.py <experiment> approaches/experiments/<exp
 
 New here: [CONTRIBUTING.md](CONTRIBUTING.md) (setup for any coding agent, then pull, test, push).
 Team rules for every agent (pull before push, folder ownership, overfitting, secrets): [AGENTS.md](AGENTS.md).
-Comparison dashboard: open `approaches/dashboard/dashboard.html` in any browser after `git pull`
+Comparison dashboard: `python approaches/dashboard/open.py` (pulls, then opens it in your browser)
 (claude.ai copy: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV) ([how to update it](approaches/dashboard/README.md)).
 
 Do not commit secrets: API keys go in a git-ignored `.env` (see `.gitignore`).

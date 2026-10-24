@@ -2,8 +2,9 @@
 
 One page that compares every experiment in `approaches/experiments/`, in two forms:
 
-- **`approaches/dashboard/dashboard.html`**: for everyone. `git pull`, then open the file in any browser
-  (double-click it). No account, server or setup; data is built into the file.
+- **`approaches/dashboard/dashboard.html`**: for everyone. From the repo root run
+  `python approaches/dashboard/open.py` (pulls, then opens it in your browser), or double-click the file.
+  No account, server or setup; data is built into the file.
 - **https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV**: the same view on claude.ai, synced from the repo.
 
 `python approaches/benchmarking/dashboard_rows.py` rebuilds both `leaderboard_rows.json` and `dashboard.html`
