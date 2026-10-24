@@ -97,9 +97,9 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
   </section>
 
   <section class="lb-tiles" aria-label="Headline figures">
-    <div class="lb-tile"><div class="k">Leading approach</div><div class="v dash-skeleton" id="t-leader" data-source="standings" data-field="approach" data-row="0">—</div><div class="s">ranked by page F2, gold self-check excluded</div></div>
-    <div class="lb-tile"><div class="k">Its page F2</div><div class="v dash-skeleton" id="t-f2" data-source="standings" data-field="page_f2" data-row="0">—</div><div class="s">recall-weighted citation score</div></div>
-    <div class="lb-tile"><div class="k">Its regulation F2</div><div class="v dash-skeleton" id="t-reg" data-source="standings" data-field="reg_f2" data-row="0">—</div><div class="s">right UN Regulations cited</div></div>
+    <div class="lb-tile"><div class="k">Leading approach</div><div class="v dash-skeleton" id="t-leader" data-source="standings" data-field="approach" data-row="0">—</div><div class="s">ranked by Robust score, gold self-check excluded</div></div>
+    <div class="lb-tile"><div class="k">Its Robust score</div><div class="v dash-skeleton" id="t-robust" data-source="standings" data-field="robust_score" data-row="0">—</div><div class="s">(dev page F2 + unseen-case clause recall) / 2</div></div>
+    <div class="lb-tile"><div class="k">Its page F2</div><div class="v dash-skeleton" id="t-f2" data-source="standings" data-field="page_f2" data-row="0">—</div><div class="s">on the dev rear lamp, recall-weighted</div></div>
     <div class="lb-tile"><div class="k">Benchmark runs</div><div class="v dash-skeleton" id="t-runs" data-source="runs">—</div><div class="s">all approaches, all gold sets</div></div>
   </section>
 
@@ -138,11 +138,13 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
           <th data-field="rank" class="n">#</th>
           <th data-field="approach">Approach</th>
           <th data-field="description">What it does</th>
+          <th data-field="robust_score" class="n">Robust</th>
           <th data-field="page_f2" class="n">Page F2</th>
           <th data-field="page_precision" class="n">Page P</th>
           <th data-field="page_recall" class="n">Page R</th>
           <th data-field="pages_missed" class="n">Gold pages missed</th>
-          <th data-field="unseen_page_recall" class="n">Unseen-case page R</th>
+          <th data-field="unseen_clause_recall" class="n">Unseen clause R</th>
+          <th data-field="unseen_page_recall" class="n hide-narrow">Unseen page R</th>
           <th data-field="clause_f2" class="n">Clause F2</th>
           <th data-field="pages_cited" class="n hide-narrow">Pages cited</th>
           <th data-field="reg_f2" class="n">Reg F2</th>
@@ -210,14 +212,13 @@ const MAIN_GOLD = "dc4bf7baae68"; // dev-rear-lamp expected.json fingerprint
 dash.calc("standings", {
   inputs: ["runs"],
   title: "Standings on the dev case",
-  description: "Latest run of each approach on the dev rear-lamp gold set, ranked by page F2 then regulation F2; the gold self-check is excluded.",
+  description: "Latest run of each approach on the dev rear-lamp gold set, ranked by Robust score = (dev page F2 + unseen-case clause recall) / 2; approaches without an unseen-case run follow, by page F2. The gold self-check is excluded.",
   fn: (runs) => {
-    const unseen = {};
-    for (const r of runs) if ((r.latest === true || r.latest === "true") && r.case === "holdout-acpe") unseen[r.approach] = +r.page_recall;
+    const num = (v) => v === null || v === undefined || v === "" ? null : +v;
     const rows = runs.filter(r => (r.latest === true || r.latest === "true") && r.gold === "dc4bf7baae68" && r.approach !== "gold-self-check")
-      .map(r => ({ ...r, unseen_page_recall: unseen[r.approach] ?? null, page_f2: +r.page_f2, page_precision: +r.page_precision, page_recall: +r.page_recall, reg_f2: +r.reg_f2 }))
-      .sort((a, b) => b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach));
-    return rows.map((r, i) => ({ ...r, rank: i + 1 }));
+      .map(r => ({ ...r, robust_score: num(r.robust_score), unseen_clause_recall: num(r.unseen_clause_recall), unseen_page_recall: num(r.unseen_page_recall), page_f2: +r.page_f2, page_precision: +r.page_precision, page_recall: +r.page_recall, reg_f2: +r.reg_f2 }))
+      .sort((a, b) => (a.robust_score === null) - (b.robust_score === null) || (b.robust_score ?? 0) - (a.robust_score ?? 0) || b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach));
+    return rows.map((r, i) => ({ ...r, rank: r.robust_score === null ? "–" : i + 1 }));
   }
 });
 
@@ -302,7 +303,7 @@ function fillTable(table, rows, cols) {
 
 dash.onData(() => {
   const runs = dash.data("runs"), st = dash.data("standings");
-  const ids = ["takeaway", "t-leader", "t-f2", "t-reg", "t-runs", "bars", "scatter"];
+  const ids = ["takeaway", "t-leader", "t-robust", "t-f2", "t-runs", "bars", "scatter"];
   if (runs.status !== "ok" || st.status !== "ok") {
     if (runs.status === "error" || st.status === "error") {
       ids.forEach(id => document.getElementById(id).classList.remove("dash-skeleton"));
@@ -316,12 +317,14 @@ dash.onData(() => {
   if (rows.length) {
     const top = rows[0];
     document.getElementById("t-leader").textContent = top.approach;
+    document.getElementById("t-robust").textContent = top.robust_score === null ? "—" : f3(top.robust_score);
     document.getElementById("t-f2").textContent = f3(top.page_f2);
-    document.getElementById("t-reg").textContent = f3(top.reg_f2);
     const second = rows[1];
-    document.getElementById("takeaway").textContent = second
-      ? `${top.approach} leads on page F2 (${f3(top.page_f2)}, overfit risk ${top.risk_level}), ${f3(top.page_f2 - second.page_f2)} ahead of ${second.approach}. Benchmark your predictions to join the table.`
-      : `${top.approach} is the only scored approach so far (page F2 ${f3(top.page_f2)}).`;
+    document.getElementById("takeaway").textContent = top.robust_score === null
+      ? `No approach has an unseen-case run yet; ${top.approach} leads on dev page F2 (${f3(top.page_f2)}). Run yours on holdout-acpe to get a Robust score.`
+      : second && second.robust_score !== null
+      ? `${top.approach} leads on the Robust score (${f3(top.robust_score)}: dev page F2 ${f3(top.page_f2)}, unseen clause recall ${f3(top.unseen_clause_recall)}, overfit risk ${top.risk_level}), ${f3(top.robust_score - second.robust_score)} ahead of ${second.approach}. Benchmark on both cases to join the ranking.`
+      : `${top.approach} is the only approach with a Robust score so far (${f3(top.robust_score)}).`;
   } else {
     document.getElementById("takeaway").textContent = "No approach has been benchmarked on the dev case yet.";
   }
@@ -344,11 +347,11 @@ dash.onData(() => {
     d.appendChild(two);
     ex.appendChild(d);
   }
-  drawBars(document.getElementById("bars"), rows);
+  drawBars(document.getElementById("bars"), rows.slice().sort((a, b) => b.page_f2 - a.page_f2 || a.approach.localeCompare(b.approach)));
   drawScatter(document.getElementById("scatter"), rows);
   fillTable(document.getElementById("tbl-standings"), rows, [
-    ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
-    ["pages_missed", String, "n"], ["unseen_page_recall", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["clause_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
+    ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["robust_score", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
+    ["pages_missed", String, "n"], ["unseen_clause_recall", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["unseen_page_recall", v => v === null || v === undefined ? "—" : f3(+v), "n hide-narrow"], ["clause_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
   document.querySelectorAll("#tbl-standings td.risk").forEach(td => { const v = td.textContent; td.textContent = ""; const c = document.createElement("span"); c.className = "lb-chip " + v; c.textContent = v; td.appendChild(c); });
   const ho = dash.data("holdout");
   if (ho.status === "ok") fillTable(document.getElementById("tbl-holdout"), ho.data, [
@@ -356,7 +359,7 @@ dash.onData(() => {
     ["reg_recall", f3, "n"], ["page_f2", f3, "n"], ["clause_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"]]);
   const all = runs.data.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
   fillTable(document.getElementById("tbl-runs"), all, [
-    ["completed_at", when], ["approach"], ["page_f2", v => f3(+v), "n"], ["page_precision", v => f3(+v), "n"],
+    ["completed_at", when], ["approach"], ["description", null, "desc"], ["page_f2", v => f3(+v), "n"], ["page_precision", v => f3(+v), "n"],
     ["page_recall", v => f3(+v), "n"], ["reg_f2", v => f3(+v), "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]]);
 });
 </script>

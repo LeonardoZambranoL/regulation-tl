@@ -12,8 +12,18 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 - Never force-push. If a pull conflicts, resolve it keeping both sides' work; for `approaches/leaderboard.json` keep
   every run from both sides, then re-run `python approaches/benchmarking/dashboard_rows.py` and re-render the
   leaderboard by re-running the benchmark or keeping the newer `LEADERBOARD.md`.
-- Optional safety net: `git config core.hooksPath .githooks` enables a pre-push hook that refuses to push when the
-  branch is behind `origin`.
+- Enable the hooks once per clone: `git config core.hooksPath .githooks`. The pre-push hook refuses to push when the
+  branch is behind `origin`, or when the push changes an experiment whose current dev result has no unseen-case run
+  (see "Benchmark and dashboard").
+
+## Credits: your own keys, your own experiments
+
+- Run only **your own** experiments, with **your own** API keys (your git-ignored `.env`). Never run, re-run or
+  re-benchmark-by-re-generating a teammate's experiment, and never use another person's key, even if one is lying
+  around in a shared folder: each person pays for their own algorithm's runs.
+- When a teammate's experiment lacks a score (e.g. no unseen-case run), leave it: tell them, do not run it for them.
+- The shared automation spends nobody's credits: the GitHub Action and the dashboard sync only re-score predictions
+  files that were already pushed (no model or API calls).
 
 ## Where things go
 
@@ -53,13 +63,24 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 
 ## Benchmark and dashboard (standard flow)
 
-1. `python approaches/benchmarking/bench.py <name> approaches/experiments/<name>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json`
-2. `python approaches/benchmarking/dashboard_rows.py`
-3. Pull, commit (experiment folder + `approaches/leaderboard.json`, `LEADERBOARD.md`, `dashboard/leaderboard_rows.json`), push.
-4. Comparison dashboard: step 2 also rebuilds `approaches/dashboard/dashboard.html` (open it in a browser; commit it
+Every time your algorithm changes, score it on **both** cases (with your own pipeline and keys):
+
+1. Dev case: `python approaches/benchmarking/bench.py <name> approaches/experiments/<name>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json`
+2. Unseen case (required): run your pipeline on `approaches/benchmarking/cases/holdout-acpe/`, write
+   `outputs/predictions-holdout-acpe.json`, then
+   `python approaches/benchmarking/bench.py <name> approaches/experiments/<name>/outputs/predictions-holdout-acpe.json approaches/benchmarking/cases/holdout-acpe/expected.json --index ../industrial-ai-hackathon/regulations/index.json`
+3. `python approaches/benchmarking/check_unseen.py <name>` must say "up to date" (the pre-push hook runs it on the
+   experiments your push changes and refuses the push otherwise).
+4. `python approaches/benchmarking/dashboard_rows.py`
+5. Pull, commit (experiment folder + `approaches/leaderboard.json`, `LEADERBOARD.md`, `dashboard/leaderboard_rows.json`), push.
+6. Comparison dashboard: step 4 also rebuilds `approaches/dashboard/dashboard.html` (open it in a browser; commit it
    with the rest). The claude.ai copy (https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV) reads the
    `approaches/dashboard/leaderboard_rows.json` you pushed. A scheduled sync uploads it within about 5 minutes of the
    push, so every agent stops at the push; no dashboard access is needed.
+
+**Ranking:** the main ranking is the **Robust score** = (dev page F2 + unseen-case clause recall) / 2
+(`approaches/benchmarking/robust.py`), at the top of `LEADERBOARD.md` and on both dashboards. Approaches without an
+unseen-case run rank below all that have one.
 
 ## Metrics we track (report all of them, every time)
 

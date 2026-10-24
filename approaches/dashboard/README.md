@@ -21,6 +21,9 @@ Claude uploads the new rows.
 
 ## Scores shown
 
+- **Robust** (main ranking, standings are sorted by it): (dev page F2 + unseen-case clause recall) / 2, from
+  `benchmarking/robust.py`. Needs a holdout-acpe run; approaches without one are listed after, by page F2.
+  `python approaches/benchmarking/check_unseen.py` lists experiments missing an up-to-date unseen-case run.
 - **Page** (precision, recall, F1, F2; ranking metric = page F2): from `bench.py` and the official scorer. A cited page
   counts if the page or its paragraph is right.
 - **Clause** (precision, recall, F1, F2): recorded by `bench.py` for every run since it was added (and computed by
