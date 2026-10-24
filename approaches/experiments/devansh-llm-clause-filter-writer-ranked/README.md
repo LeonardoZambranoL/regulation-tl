@@ -10,7 +10,7 @@ yes/no verifier lost as many real matches as false ones. Method: [EXPLAIN.md](EX
 bash approaches/experiments/devansh-llm-clause-filter-writer-ranked/run.sh      # from the repo root
 ```
 
-## Results (2026-10-24): adopted, current best for the requirement level
+## Results (2026-10-24): adopted, then superseded by [devansh-writer-faithful-ranked](../devansh-writer-faithful-ranked/)
 
 | local requirement judge | requirements | P | R | F1 | F2 |
 |---|---|---|---|---|---|

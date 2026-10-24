@@ -202,6 +202,9 @@ def main(argv: list[str] | None = None) -> int:
                                         SCOPE if args.mode == "scope" else None)
     else:
         refined, report = refine(spec, doc, args.effort)
+    for r in refined["requirements"]:  # the official validator rejects texts over 2,000 characters
+        if len(r["text"]) > 2000:
+            r["text"] = r["text"][:1997].rsplit(" ", 1)[0] + "..."
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(refined, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out.parent / (args.out.stem + "-refine-report.json")).write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

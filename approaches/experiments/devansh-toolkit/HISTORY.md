@@ -37,6 +37,8 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 20 | analysis | why multi-agent cannot raise recall | | | | | | 23 of 121 gold clauses (19%) are not "shall" candidates at all (5 not even parsed): clause recall is capped at 0.81 before any agent reads anything. Next: widen candidates (clauses without shall/must, table rows, parent context) |
 | 21 | **`devansh-llm-clause-filter-writer-refined`** | writer + product-neutral verifier + dedupe (328 -> 191 requirements) | | | | | | req F2 dev 0.568 (writer 0.676), holdout 0.361 (0.390); req P 0.448 -> 0.565 but R 0.774 -> 0.568, F1 unchanged: not adopted |
 | 22 | **`devansh-llm-clause-filter-writer-ranked`** | writer + ranker (Claude rates 1-5, drop only the 1s; cut-off fixed in advance) + dedupe | | | | | | req F2 dev 0.676 -> **0.690**, holdout 0.390 -> **0.406**; precision up, no match lost: **adopted, new best** |
+| 23 | `devansh-writer-ranked-scope`, `devansh-allclauses-writer-scope` | scope ranker with five expert leave-out principles (drop 1-2) on the best output / on wide candidates + writer | | | | | | req F2 dev 0.549 / 0.533, holdout 0.371 / 0.350 (best 0.690 / 0.406): cut too many real matches, **not adopted** |
+| 24 | **`devansh-writer-faithful-ranked`** | writer keeps the regulation's own scope, subject, values and alternatives (no narrowing to the product) + ranker | | | | | | req F2 dev **0.696** (P 0.505, R 0.768), holdout **0.407**; clause F2 dev 0.619 -> 0.708: **adopted, new best** |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

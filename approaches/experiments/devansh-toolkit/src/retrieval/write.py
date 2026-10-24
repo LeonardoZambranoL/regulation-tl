@@ -44,8 +44,23 @@ STRICT_EXTRA = """
    preparation steps, timing of measurements), for conformity-of-production or sampling procedures, and for the
    manufacturer's or authority's quality and documentation procedures."""
 
+FAITHFUL_EXTRA = """
+7. Keep the regulation's own scope and subject. Do NOT narrow a requirement to this product's vehicle category,
+   variant or function (if the clause says "for M1 and N1 category vehicles", write "M1 and N1"), do NOT replace the
+   regulation's subject with the product's name (write "the rear retro-reflector", "the stop lamp", "the ESA" as the
+   clause does), and do NOT drop alternatives or the second half of a combined obligation ("two S1 or S2 category
+   devices and one S3 or S4 category device" stays one requirement). Every value, unit, condition, exception and
+   referenced standard in the clause must appear in the requirement.
+8. Split only where the regulation states separate obligations (own "shall", list items, per-variant values). Do not
+   split one sentence into several requirements because it has several attributes."""
+
 PROMPTS = {"default": INSTRUCTIONS, "strict": INSTRUCTIONS.replace(
     "\n\nReturn for every clause id", STRICT_EXTRA + "\n\nReturn for every clause id")}
+# faithful = strict, minus the instruction to keep only the parts that apply (it made the writer narrow the scope),
+# plus rules 7-8: keep the regulation's own scope, subject, values and alternatives
+PROMPTS["faithful"] = PROMPTS["strict"].replace(
+    " Within a clause, keep only the parts that apply to\n   this product.", "").replace(
+    "\n\nReturn for every clause id", FAITHFUL_EXTRA + "\n\nReturn for every clause id")
 
 
 def _parents(chunks: list[Chunk]) -> dict[int, Chunk]:

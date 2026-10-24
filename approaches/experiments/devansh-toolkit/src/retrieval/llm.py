@@ -29,7 +29,7 @@ def structured(prompt: str, schema: dict, model: str = MODEL, effort: str = "hig
 
     load_env()
     client = anthropic.Anthropic()
-    response = client.beta.messages.create(
+    params = dict(
         model=model,
         max_tokens=max_tokens,
         betas=["server-side-fallback-2026-07-01"],
@@ -37,6 +37,12 @@ def structured(prompt: str, schema: dict, model: str = MODEL, effort: str = "hig
         output_config={"effort": effort, "format": {"type": "json_schema", "schema": schema}},
         messages=[{"role": "user", "content": prompt}],
     )
+    if max_tokens > 16000:
+        # long outputs (deep thinking) must stream, or the SDK refuses the request
+        with client.beta.messages.stream(**params) as stream:
+            response = stream.get_final_message()
+    else:
+        response = client.beta.messages.create(**params)
     if response.stop_reason == "refusal":
         raise RuntimeError(f"model declined: {response.stop_details}")
     return json.loads(next(b.text for b in response.content if b.type == "text"))

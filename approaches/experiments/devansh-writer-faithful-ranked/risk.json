@@ -1,0 +1,12 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-llm-clause-filter-writer: regulation rules and writer style rules written while looking at the dev case",
+    "rating criteria reuse the verifier's categories, chosen after the dev error analysis",
+    "faithful writer rules (keep scope, subject, values, alternatives) written after comparing unmatched dev requirements with the expert wording"
+  ],
+  "notes": "Cut-off fixed in advance (drop only rating 1, 'certainly not'), not chosen on a scored case; the report lists other cut-offs for information only. Judged on dev and on the unseen holdout-acpe case."
+}

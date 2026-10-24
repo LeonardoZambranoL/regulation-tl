@@ -41,7 +41,18 @@ def main(argv: list[str] | None = None) -> int:
         from .regselect import select
         regs = set(select(spec, **cfg["select"]))
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
-    if cfg.get("filter", {}).get("method") == "llm":
+    if cfg.get("filter", {}).get("method") == "deliberate":
+        # an agent reads each section whole, thinks, and picks the exact clauses (see deliberate.py)
+        from .deliberate import select_clauses
+        ranked, reasons = select_clauses(spec, regs, effort=cfg["filter"].get("effort", "high"))
+        sizes = [len(ranked) if s <= 0 else s for s in sizes]
+        n = len(ranked) if n <= 0 else n
+        if not args.sweep:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            (Path(args.out).parent / (Path(args.out).stem + "-clause-reasons.json")).write_text(json.dumps(
+                [{"regulation": c.regulation, "paragraph": c.paragraph, "page": c.page, "reason": reasons[c.id]}
+                 for c in ranked], indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    elif cfg.get("filter", {}).get("method") == "llm":
         # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
         from .classify import PROMPTS, SHALL, candidates, classify, classify_multi
         mode = cfg["filter"].get("candidates", "shall")

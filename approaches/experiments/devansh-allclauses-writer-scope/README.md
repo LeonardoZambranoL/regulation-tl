@@ -9,4 +9,6 @@ never kept. Method and steps: [EXPLAIN.md](EXPLAIN.md). Risk: `risk.json`.
 Run (your own Anthropic credits; cached): `bash approaches/experiments/devansh-writer-ranked-scope/run_scope.sh` from the
 repo root runs both scope experiments, scores them and pushes.
 
+**Verdict (2026-10-24): not adopted.** Local requirement F2 below the ranked writer on both cases (it removed too many real matches).
+
 Results: `results.json`, `approaches/req_scores.json`, dashboards, devansh-toolkit/HISTORY.md.
