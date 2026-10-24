@@ -72,7 +72,7 @@ def main():
     planner_config = dict(config, model=config["planner_model"],
                           max_tool_rounds=config["planner_tool_rounds"], max_tool_calls=config["planner_tool_calls"])
     planner = Claude(planner_config, spec, None, HERE / ".cache/claude", corpus, costs, "planning")
-    tools = SearchTools(table, config, HERE / ".cache", args.output, costs)
+    tools = SearchTools(table, config, HERE / ".cache", args.output, costs, documents)
     write_json(args.output / "embedding-costs.json", tools.usage)
     # Preserve the previous prediction file instead of leaving it looking current
     # if this invocation stops during planning or validation.

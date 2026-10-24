@@ -1,19 +1,53 @@
 {
   "currency": "USD",
   "scope": "This invocation only; local cache replays cost zero",
-  "started_at": "2026-10-24T19:09:21.980970+00:00",
-  "estimated_total_usd": 0.0,
+  "started_at": "2026-10-24T19:32:18.970097+00:00",
+  "estimated_total_usd": 14.98091,
   "unpriced_requests": 0,
   "stages": {
     "planning": {
       "model": "claude-sonnet-5-5",
-      "api_responses": 0,
-      "local_cache_hits": 3,
-      "input_tokens": 0,
-      "output_tokens": 0,
+      "api_responses": 5,
+      "local_cache_hits": 0,
+      "input_tokens": 107844,
+      "output_tokens": 3603,
       "cache_write_tokens": 0,
       "cache_read_tokens": 0,
-      "estimated_usd": 0.0,
+      "estimated_usd": 0.251718,
+      "rates_usd_per_million_tokens": {
+        "input": 2.0,
+        "output": 10.0,
+        "cache_write_5m": 2.5,
+        "cache_write_1h": 4.0,
+        "cache_read": 0.1
+      }
+    },
+    "assessment": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 309,
+      "local_cache_hits": 0,
+      "input_tokens": 2331930,
+      "output_tokens": 614095,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 10.80481,
+      "rates_usd_per_million_tokens": {
+        "input": 2.0,
+        "output": 10.0,
+        "cache_write_5m": 2.5,
+        "cache_write_1h": 4.0,
+        "cache_read": 0.1
+      }
+    },
+    "verification": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 155,
+      "local_cache_hits": 0,
+      "input_tokens": 1224491,
+      "output_tokens": 147540,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 3.924382,
       "rates_usd_per_million_tokens": {
         "input": 2.0,
         "output": 10.0,
@@ -24,5 +58,5 @@
     }
   },
   "note": "Estimate from returned usage and pricing.json, not an invoice. Unpriced requests may add cost. Gemini query embedding charges are additional; see embedding-costs.json.",
-  "updated_at": "2026-10-24T19:09:28.316511+00:00"
+  "updated_at": "2026-10-24T19:41:23.925260+00:00"
 }

@@ -1,0 +1,3626 @@
+{
+  "plan": {
+    "selected_regulations": [
+      {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "reason": "Installation of lighting and light-signalling devices on M and N category vehicles. Covers rear position lamp (6.10), stop lamp (6.7), reversing lamp (6.4.7) and rear retro-reflectors (6.14/6.15). It sets the mounting, visibility, colour and switching requirements for this module.",
+        "confidence": 0.9
+      },
+      {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "reason": "Consolidated light-signalling device regulation. Scope covers position lamps, stop lamps and reversing lamps. It sets photometric, colour, light-source, approval and marking requirements for the rear lamp functions. It consolidates R7 and R23, so it may be the applicable route in place of the older regulations.",
+        "confidence": 0.8
+      },
+      {
+        "regulation": "UN R7",
+        "version": "3.0.0",
+        "reason": "Rear position lamps and stop lamps for M-category vehicles: photometry, colour, approval marking and conformity of production. This is the legacy standalone regulation for the position and stop functions, which R148 also covers. Kept for recall.",
+        "confidence": 0.7
+      },
+      {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "reason": "Reversing lamps for M and N categories: intensity, light source and approval requirements. This is the legacy standalone regulation for the reversing function, which R148 also covers. Kept for recall.",
+        "confidence": 0.7
+      },
+      {
+        "regulation": "UN R3",
+        "version": "2.17.0",
+        "reason": "Retro-reflecting devices for M-category vehicles. Covers photometric, colour and plastic material testing and approval marking for the integrated retro-reflector.",
+        "confidence": 0.7
+      },
+      {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "reason": "Consolidated retro-reflective devices regulation, which includes R3 for retro-reflectors. It is the newer alternative route for approving the integrated retro-reflector.",
+        "confidence": 0.65
+      }
+    ],
+    "summary": "I ran 5 searches covering rear position and stop lamps, reversing lamps, retro-reflectors, installation, and LED and plastic-lens testing. I inspected the scope clauses of every selected regulation: R48, R148, R7, R23, R3 and R150. The rear lamp functions map to installation regulation R48 and to the device regulations: R7 (position, stop), R23 (reversing) and R3 (retro-reflector). The consolidated regulations R148 (replacing R7 and R23) and R150 (replacing R3) are included as alternatives. I rejected the following as host-vehicle or other-function rules: R6 (direction indicators), R38 (rear fog lamps), R19 (front fog lamps), R37 and R128 (replaceable light sources), R149 (road illumination), R53 and R13H.",
+    "coverage_gaps": [
+      "I did not check whether EMC (UN R10) applies to the LED electronics. It applies to vehicles and electrical/electronic subassemblies, so it is probably not applicable to a passive lamp.",
+      "I did not verify the installation clauses for combined and grouped lamps in detail.",
+      "The catalogue has no standalone R50 and no R4. The R148 consolidation covers these functions."
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "stop_reason": "tool_use",
+      "cache_hit": false,
+      "usage": {
+        "input_tokens": 3813,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 311,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "turn": 2,
+      "stop_reason": "tool_use",
+      "cache_hit": false,
+      "usage": {
+        "input_tokens": 20428,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 846,
+        "output_tokens_details": {
+          "thinking_tokens": 232
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "turn": 3,
+      "stop_reason": "end_turn",
+      "cache_hit": false,
+      "usage": {
+        "input_tokens": 26787,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1245,
+        "output_tokens_details": {
+          "thinking_tokens": 149
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      },
+      "validation_error": "Inspect every regulation before selecting it: [('UN R48', '9.3.0')]"
+    },
+    {
+      "turn": 4,
+      "stop_reason": "tool_use",
+      "cache_hit": false,
+      "usage": {
+        "input_tokens": 28080,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 125,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "turn": 5,
+      "stop_reason": "end_turn",
+      "cache_hit": false,
+      "usage": {
+        "input_tokens": 28736,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1076,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "search_regulations",
+      "input": {
+        "query": "rear position lamps stop lamps approval of devices"
+      },
+      "output": {
+        "regulations": [
+          {
+            "regulation": "UN R7",
+            "version": "3.0.0",
+            "score": 0.811623,
+            "clauses_in_regulation": 241,
+            "examples": [
+              {
+                "clause_id": "UN_R7_base:208",
+                "paragraph": "Annex 5 / 1.4",
+                "similarity": 0.814838,
+                "snippet": "1.4. In the case of non-replaceable filament light source(s) or light source module(s) equipped with non-\r\nreplaceable filament light sources, at any conformity of production check:"
+              },
+              {
+                "clause_id": "UN_R7_base:174",
+                "paragraph": "Annex 3 / 2",
+                "similarity": 0.810335,
+                "snippet": "2. Rear position lamp\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe device bearing the approval mark shown above is a rear position lamp approved in the Netherlands (E 4)\r\nunder approval number 221 pursuant to UN Regulation No. 7, which may also be used in an assembly of two rear\r\nposition lamps.\r\nThe number mentioned below the symbol \"R1D\" indicates that approval was granted in conformity with the\r\nrequirements of UN Regulation No. 7 as amended b"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "score": 0.795843,
+            "clauses_in_regulation": 1193,
+            "examples": [
+              {
+                "clause_id": "UN_R48_base:555",
+                "paragraph": "6.10",
+                "similarity": 0.806099,
+                "snippet": "6.10. Rear position lamp"
+              },
+              {
+                "clause_id": "UN_R48_base:500",
+                "paragraph": "6.7",
+                "similarity": 0.791253,
+                "snippet": "6.7. Stop lamp"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R38",
+            "version": "0.19.0",
+            "score": 0.786679,
+            "clauses_in_regulation": 184,
+            "examples": [
+              {
+                "clause_id": "UN_R38_base:85",
+                "paragraph": "13.5",
+                "similarity": 0.796611,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R38_base:165",
+                "paragraph": "Annex 5 / 1.1",
+                "similarity": 0.785032,
+                "snippet": "1.1. The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in\r\naccordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable\r\n\r\n\r\n\r\n\r\n\r\n\r\nmanufacturing deviations."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "score": 0.784087,
+            "clauses_in_regulation": 424,
+            "examples": [
+              {
+                "clause_id": "UN_R148_base:172",
+                "paragraph": "5.3.7",
+                "similarity": 0.785517,
+                "snippet": "5.3.7. Colour:\r\nThe colour of light emitted shall:\r\n(a) For front parking lamps be white;\r\n(b) For rear parking lamps be red;"
+              },
+              {
+                "clause_id": "UN_R148_base:27",
+                "paragraph": "Table 1",
+                "similarity": 0.784482,
+                "snippet": "Table 1 List of symbols\r\n\r\n Lamp (function)                                                            Symbol                           Paragraph\r\n\r\n Daytime running lamp                                                       RL                               5.4.\r\n\r\n Front direction indicator lamp                                             1, 1a, 1b, 11, 11a, 11b, 11c     5.6.\r\n\r\n Front end-outline marker lamp                                     "
+              }
+            ]
+          },
+          {
+            "regulation": "UN R53",
+            "version": "4.0.0",
+            "score": 0.77805,
+            "clauses_in_regulation": 551,
+            "examples": [
+              {
+                "clause_id": "UN_R53_base:275",
+                "paragraph": "6.7",
+                "similarity": 0.784644,
+                "snippet": "6.7. Rear position lamp"
+              },
+              {
+                "clause_id": "UN_R53_base:245",
+                "paragraph": "6.4.3.1",
+                "similarity": 0.776098,
+                "snippet": "6.4.3.1. For category S1 device specified in UN Regulation No. 7 or UN Regulation No. [LSD] or stop lamp\r\nspecified in UN Regulation No. 50 or [LSD]\r\nIn height: not less than 250 mm nor more than 1,500 mm above the ground;\r\nIn length: at the rear of the vehicle."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R23",
+            "version": "0.22.0",
+            "score": 0.766628,
+            "clauses_in_regulation": 164,
+            "examples": [
+              {
+                "clause_id": "UN_R23_base:71",
+                "paragraph": "13.5",
+                "similarity": 0.768151,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R23_base:2",
+                "paragraph": "1.1",
+                "similarity": 0.76694,
+                "snippet": "1.1. \"reversing lamp\" means the lamp of the vehicle designed to illuminate the road to the rear of the vehicle and\r\nto warn other road users that the vehicle is reversing or about to reverse;"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R3",
+            "version": "2.17.0",
+            "score": 0.756053,
+            "clauses_in_regulation": 203,
+            "examples": [
+              {
+                "clause_id": "UN_R3_base:98",
+                "paragraph": "Annex 5 / 2.3",
+                "similarity": 0.763761,
+                "snippet": "2.3. The illuminating surface may or may not be continuous. In any case, the shortest distance between two\r\nadjacent retro-reflecting optical units must not exceed 15 mm."
+              },
+              {
+                "clause_id": "UN_R3_base:30",
+                "paragraph": "5.5",
+                "similarity": 0.753813,
+                "snippet": "5.5. There shall be affixed to every retro-reflecting device conforming to a type approved under this Regulation, in\r\nthe space referred to in paragraph 4.2. above and in addition to the markings prescribed in paragraph 4.1.\r\n5.5.1. an international approval mark consisting of:\r\n5.5.1.1. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted\r\napproval; 4/\r\n\r\n4/1 for Germany, 2 for France, 3 for "
+              }
+            ]
+          },
+          {
+            "regulation": "UN R150",
+            "version": "1.2.1",
+            "score": 0.752552,
+            "clauses_in_regulation": 521,
+            "examples": [
+              {
+                "clause_id": "UN_R150_base:467",
+                "paragraph": "Part 5",
+                "similarity": 0.753722,
+                "snippet": "Part 5 - Rigidity of retro-reflective marking plates"
+              },
+              {
+                "clause_id": "UN_R150_base:285",
+                "paragraph": "Part 1",
+                "similarity": 0.753282,
+                "snippet": "Part 1 - Photometric measurements of retro-reflective devices"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R6",
+            "version": "2.0.0",
+            "score": 0.748339,
+            "clauses_in_regulation": 215,
+            "examples": [
+              {
+                "clause_id": "UN_R6_base:107",
+                "paragraph": "13.5",
+                "similarity": 0.75212,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R6_base:54",
+                "paragraph": "4.3.2",
+                "similarity": 0.748601,
+                "snippet": "4.3.2. Grouped, combined or reciprocally incorporated lamps"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R37",
+            "version": "3.48.0",
+            "score": 0.746391,
+            "clauses_in_regulation": 258,
+            "examples": [
+              {
+                "clause_id": "UN_R37_base:61",
+                "paragraph": "91958",
+                "similarity": 0.754927,
+                "snippet": "91958 Agreement, Revision 3, Schedule 4 (E/ECE/TRANS/505/Rev.3)."
+              },
+              {
+                "clause_id": "UN_R37_base:1",
+                "paragraph": "1",
+                "similarity": 0.746014,
+                "snippet": "1. Scope\r\nThis Regulation applies to filament light sources and their LED replacement light sources shown in Annex 1 and\r\nintended for use in approved lamps of power-driven vehicles and of their trailers."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R128",
+            "version": "0.11.0",
+            "score": 0.744496,
+            "clauses_in_regulation": 229,
+            "examples": [
+              {
+                "clause_id": "UN_R128_base:143",
+                "paragraph": "Table 1",
+                "similarity": 0.749795,
+                "snippet": "Table 1 Essential electrical and photometric characteristics of the LED light source\r\n\r\n Dimensions                                   Production LED light sources             Standard LED light sources\r\n\r\n a                        mm                  6.0 max.\r\n\r\n b                        mm                  c + 10.0 min.\r\n                                              38.0 max.\r\n\r\n c                        mm                  18.5 ± 0.1\r\n\r\n d     "
+              },
+              {
+                "clause_id": "UN_R128_base:171",
+                "paragraph": "Annex 3",
+                "similarity": 0.742832,
+                "snippet": "Annex 3 Example of the arrangement of the approval mark\r\n(see paragraph 2.4.4.)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe above approval mark affixed to a LED light source indicates that the light source has been approved in the\r\nUnited Kingdom (E11) under the approval code 0001."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R26",
+            "version": "4.0.0",
+            "score": 0.737531,
+            "clauses_in_regulation": 216,
+            "examples": [
+              {
+                "clause_id": "UN_R26_base:15",
+                "paragraph": "2.7.4",
+                "similarity": 0.746956,
+                "snippet": "2.7.4. Of side direction indicator lamps, end outline marker lamps, front and rear position (side) lamps and\r\nparking lamps;"
+              },
+              {
+                "clause_id": "UN_R26_base:117",
+                "paragraph": "6.15",
+                "similarity": 0.735294,
+                "snippet": "6.15. Registration plate brackets"
+              }
+            ]
+          }
+        ],
+        "clauses_compared": 26769,
+        "candidate_regulations_compared": 56,
+        "regulations_returned": 12,
+        "discovered_regulations_total": 12
+      },
+      "is_error": false,
+      "evidence_hits": [
+        {
+          "clause_id": "UN_R7_base:208",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 5 / 1.4",
+          "pages": [
+            26
+          ],
+          "_distance": 0.1851624846458435
+        },
+        {
+          "clause_id": "UN_R7_base:174",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 3 / 2",
+          "pages": [
+            17
+          ],
+          "_distance": 0.18966543674468994
+        },
+        {
+          "clause_id": "UN_R7_base:3",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "1.2",
+          "pages": [
+            1
+          ],
+          "_distance": 0.19030314683914185
+        },
+        {
+          "clause_id": "UN_R48_base:555",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.10",
+          "pages": [
+            50
+          ],
+          "_distance": 0.1939014196395874
+        },
+        {
+          "clause_id": "UN_R48_base:500",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.7",
+          "pages": [
+            45
+          ],
+          "_distance": 0.2087472677230835
+        },
+        {
+          "clause_id": "UN_R48_base:502",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.7.2",
+          "pages": [
+            45
+          ],
+          "_distance": 0.20982259511947632
+        },
+        {
+          "clause_id": "UN_R38_base:85",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "13.5",
+          "pages": [
+            6
+          ],
+          "_distance": 0.20338863134384155
+        },
+        {
+          "clause_id": "UN_R38_base:165",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "Annex 5 / 1.1",
+          "pages": [
+            14,
+            15
+          ],
+          "_distance": 0.21496808528900146
+        },
+        {
+          "clause_id": "UN_R38_base:110",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "Annex 1",
+          "pages": [
+            8,
+            9
+          ],
+          "_distance": 0.22160553932189941
+        },
+        {
+          "clause_id": "UN_R148_base:172",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.3.7",
+          "pages": [
+            18
+          ],
+          "_distance": 0.21448343992233276
+        },
+        {
+          "clause_id": "UN_R148_base:27",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Table 1",
+          "pages": [
+            4,
+            5
+          ],
+          "_distance": 0.21551769971847534
+        },
+        {
+          "clause_id": "UN_R148_base:193",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.5.7",
+          "pages": [
+            20
+          ],
+          "_distance": 0.217737078666687
+        },
+        {
+          "clause_id": "UN_R53_base:275",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "6.7",
+          "pages": [
+            21
+          ],
+          "_distance": 0.2153557538986206
+        },
+        {
+          "clause_id": "UN_R53_base:245",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "6.4.3.1",
+          "pages": [
+            19
+          ],
+          "_distance": 0.22390216588974
+        },
+        {
+          "clause_id": "UN_R53_base:241",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "6.4",
+          "pages": [
+            18
+          ],
+          "_distance": 0.2265920639038086
+        },
+        {
+          "clause_id": "UN_R23_base:71",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "13.5",
+          "pages": [
+            7
+          ],
+          "_distance": 0.23184871673583984
+        },
+        {
+          "clause_id": "UN_R23_base:2",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "1.1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.23306012153625488
+        },
+        {
+          "clause_id": "UN_R23_base:21",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "4.3",
+          "pages": [
+            3
+          ],
+          "_distance": 0.23520857095718384
+        },
+        {
+          "clause_id": "UN_R3_base:98",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 5 / 2.3",
+          "pages": [
+            13
+          ],
+          "_distance": 0.2362392544746399
+        },
+        {
+          "clause_id": "UN_R3_base:30",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "5.5",
+          "pages": [
+            3
+          ],
+          "_distance": 0.24618732929229736
+        },
+        {
+          "clause_id": "UN_R3_base:1",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.24941349029541016
+        },
+        {
+          "clause_id": "UN_R150_base:467",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 5",
+          "pages": [
+            49
+          ],
+          "_distance": 0.2462778091430664
+        },
+        {
+          "clause_id": "UN_R150_base:285",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 1",
+          "pages": [
+            27
+          ],
+          "_distance": 0.24671757221221924
+        },
+        {
+          "clause_id": "UN_R150_base:317",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 3",
+          "pages": [
+            32
+          ],
+          "_distance": 0.249347984790802
+        },
+        {
+          "clause_id": "UN_R6_base:107",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "13.5",
+          "pages": [
+            9
+          ],
+          "_distance": 0.24787986278533936
+        },
+        {
+          "clause_id": "UN_R6_base:54",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "4.3.2",
+          "pages": [
+            5
+          ],
+          "_distance": 0.2513994574546814
+        },
+        {
+          "clause_id": "UN_R6_base:155",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            15,
+            16
+          ],
+          "_distance": 0.2557029724121094
+        },
+        {
+          "clause_id": "UN_R37_base:61",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "91958",
+          "pages": [
+            4
+          ],
+          "_distance": 0.2450733184814453
+        },
+        {
+          "clause_id": "UN_R37_base:1",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.25398582220077515
+        },
+        {
+          "clause_id": "UN_R37_base:202",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "Annex 5",
+          "pages": [
+            17
+          ],
+          "_distance": 0.2617689371109009
+        },
+        {
+          "clause_id": "UN_R128_base:143",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "Table 1",
+          "pages": [
+            28,
+            29
+          ],
+          "_distance": 0.2502046823501587
+        },
+        {
+          "clause_id": "UN_R128_base:171",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            39
+          ],
+          "_distance": 0.25716787576675415
+        },
+        {
+          "clause_id": "UN_R128_base:22",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "2.4.4",
+          "pages": [
+            2,
+            3
+          ],
+          "_distance": 0.2591390013694763
+        },
+        {
+          "clause_id": "UN_R26_base:15",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "2.7.4",
+          "pages": [
+            2
+          ],
+          "_distance": 0.2530437111854553
+        },
+        {
+          "clause_id": "UN_R26_base:117",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "6.15",
+          "pages": [
+            9
+          ],
+          "_distance": 0.2647057771682739
+        },
+        {
+          "clause_id": "UN_R26_base:187",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            14
+          ],
+          "_distance": 0.269656240940094
+        }
+      ]
+    },
+    {
+      "name": "search_regulations",
+      "input": {
+        "query": "reversing lamp requirements"
+      },
+      "output": {
+        "regulations": [
+          {
+            "regulation": "UN R23",
+            "version": "0.22.0",
+            "score": 0.811091,
+            "clauses_in_regulation": 164,
+            "examples": [
+              {
+                "clause_id": "UN_R23_base:2",
+                "paragraph": "1.1",
+                "similarity": 0.820201,
+                "snippet": "1.1. \"reversing lamp\" means the lamp of the vehicle designed to illuminate the road to the rear of the vehicle and\r\nto warn other road users that the vehicle is reversing or about to reverse;"
+              },
+              {
+                "clause_id": "UN_R23_base:65",
+                "paragraph": "6.2.1",
+                "similarity": 0.810769,
+                "snippet": "6.2.1. The intensity shall not exceed 500 candelas in all directions in which the light can be observed, when\r\ninstalled in any mounting position specified by the applicant"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "score": 0.801559,
+            "clauses_in_regulation": 1193,
+            "examples": [
+              {
+                "clause_id": "UN_R48_base:91",
+                "paragraph": "2.5.12",
+                "similarity": 0.807701,
+                "snippet": "2.5.12. \"Reversing lamp\" means the lamp used to illuminate the road to the rear of the vehicle and to warn other\r\nroad-users that the vehicle is reversing or about to reverse."
+              },
+              {
+                "clause_id": "UN_R48_base:460",
+                "paragraph": "6.4.7.1",
+                "similarity": 0.802998,
+                "snippet": "6.4.7.1. They shall be such that the lamp can be switched ON only if the reverse gear is engaged and if the device\r\nwhich controls the starting and stopping of the propulsion system is in such a position that operation of the\r\npropulsion system is possible. It shall not switch ON or remain ON if either of the above conditions is not\r\nsatisfied."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "score": 0.788794,
+            "clauses_in_regulation": 424,
+            "examples": [
+              {
+                "clause_id": "UN_R148_base:253",
+                "paragraph": "5.12.1.2",
+                "similarity": 0.792701,
+                "snippet": "5.12.1.2. In addition, outside of the projection area as defined by the individual specifications of UN Regulation\r\nNo. 48, one of the following conditions shall be fulfilled:\r\n(a) The light emitted directly towards the rear of the vehicle shall not exceed 5∙10-1 cd within the angular field as\r\ndefined below.\r\n(i) The vertical minimum angle φmin (in degrees) is:\r\nφmin = arctan ((1-h)/10); where h is mounting height in m\r\n(ii) The vertical maximum"
+              },
+              {
+                "clause_id": "UN_R148_base:304",
+                "paragraph": "Annex 1 / 9.1.7",
+                "similarity": 0.787426,
+                "snippet": "9.1.7. Reversing projector:"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R7",
+            "version": "3.0.0",
+            "score": 0.74658,
+            "clauses_in_regulation": 241,
+            "examples": [
+              {
+                "clause_id": "UN_R7_base:50",
+                "paragraph": "4.2.2.2",
+                "similarity": 0.749789,
+                "snippet": "4.2.2.2. On devices meeting the requirements of this Regulation in respect of the rear position lamps, the letter\r\n\"R\" followed or not by the Figure \"1\" when the device produces steady luminous intensity and by the Figure \"2\"\r\nwhen the device produces variable luminous intensity."
+              },
+              {
+                "clause_id": "UN_R7_base:135",
+                "paragraph": "8",
+                "similarity": 0.747119,
+                "snippet": "8. Colour of light emitted\r\nThe colour of the light emitted inside the field of the light distribution grid defined in paragraph 2. of Annex 4\r\nshall be red or white. Outside this field, no sharp variation of colour shall be observed. To check these\r\ncolorimetric characteristics, the test procedure described in paragraph 7. of this Regulation shall be applied.\r\nHowever, for lamps equipped with non-replaceable light sources (filament light sources"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R38",
+            "version": "0.19.0",
+            "score": 0.742176,
+            "clauses_in_regulation": 184,
+            "examples": [
+              {
+                "clause_id": "UN_R38_base:78",
+                "paragraph": "6.6.2",
+                "similarity": 0.744899,
+                "snippet": "6.6.2. Exceeding the category F or F1 maximum specified in paragraph 6.3.:\r\n(a) For systems depending only on daytime and night time conditions: under night time conditions;\r\n(b) For other systems: under standard conditions3\r\n\r\n\r\n3Good visibility (meteorological optical range MOR > 2,000 m defined according to WMO, Guide to Meteorological Instruments and\r\nMethods of Observation, Sixth Edition, ISBN: 92-63-16008-2, pp .9.1/1.9.11, Geneva 1996.) an"
+              },
+              {
+                "clause_id": "UN_R38_base:71",
+                "paragraph": "6.3",
+                "similarity": 0.741947,
+                "snippet": "6.3. The intensity of the light emitted in all directions in which the light(s) can be observed shall not exceed 300\r\ncd for a device with steady luminous intensity (F or F1) 840 cd for a device with variable luminous intensity (F2)."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R53",
+            "version": "4.0.0",
+            "score": 0.731711,
+            "clauses_in_regulation": 551,
+            "examples": [
+              {
+                "clause_id": "UN_R53_base:98",
+                "paragraph": "5.9.2",
+                "similarity": 0.743153,
+                "snippet": "5.9.2. Visibility of white light towards the rear: a white lamp shall not be directly visible to an observer moving in\r\nzone 2 of a transverse plane situated 25 m rearward of the rearmost point on the vehicle;"
+              },
+              {
+                "clause_id": "UN_R53_base:96",
+                "paragraph": "5.9",
+                "similarity": 0.726515,
+                "snippet": "5.9. No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a\r\nforward direction and no white light which could give rise to confusion, shall be emitted from a lamp as defined in\r\nparagraph 2.3. in a rearward direction. No account shall be taken of lighting devices fitted for the interior lighting\r\nof the vehicle. In case of doubt, this requirement shall be verified as follows (see drawing in "
+              }
+            ]
+          },
+          {
+            "regulation": "UN R149",
+            "version": "1.6.0",
+            "score": 0.722679,
+            "clauses_in_regulation": 750,
+            "examples": [
+              {
+                "clause_id": "UN_R149_base:175",
+                "paragraph": "4.19",
+                "similarity": 0.749603,
+                "snippet": "4.19. For any road illumination devices listed in paragraph 1, in order to verify the visibility of white light towards the rear of a\r\nvehicle required in UN Regulation No. 48, the applicant may request a test, to show that in the angular field from 165° to 180°\r\noutboard in horizontal direction and -2.5° to +5° in vertical direction, the maximum luminous intensity is not more than 2.5∙10-1\r\ncd. This additional test may be conducted taking into a"
+              },
+              {
+                "clause_id": "UN_R149_base:169",
+                "paragraph": "4.16",
+                "similarity": 0.70955,
+                "snippet": "4.16. Colour of light emitted:\r\nThe colour of the light emitted shall be white for all lamps. However, for front fog lamps the colour of the light emitted may be\r\nselective yellow if requested by the applicant."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R3",
+            "version": "2.17.0",
+            "score": 0.720324,
+            "clauses_in_regulation": 203,
+            "examples": [
+              {
+                "clause_id": "UN_R3_base:98",
+                "paragraph": "Annex 5 / 2.3",
+                "similarity": 0.724071,
+                "snippet": "2.3. The illuminating surface may or may not be continuous. In any case, the shortest distance between two\r\nadjacent retro-reflecting optical units must not exceed 15 mm."
+              },
+              {
+                "clause_id": "UN_R3_base:112",
+                "paragraph": "Annex 6 / 3",
+                "similarity": 0.722904,
+                "snippet": "3. Clear retro-reflecting devices must not produce a selective reflection, that is to say, the trichromatic coordinates\r\n“x” and “y” of the standard illuminant “A” used to illuminate the retro-reflecting device must not undergo a\r\nchange of more than 0.01 after reflection by the retro-reflecting device."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R150",
+            "version": "1.2.1",
+            "score": 0.718015,
+            "clauses_in_regulation": 521,
+            "examples": [
+              {
+                "clause_id": "UN_R150_base:304",
+                "paragraph": "Annex 5 / Part 1 / 3.8.2",
+                "similarity": 0.724421,
+                "snippet": "3.8.2. The device shall not show a perceptible change in local sensitivity within the area of its aperture; otherwise\r\nsuitable provisions shall be added, e.g. the application of a diffusing window at a certain distance in front of the\r\nsensitive surface."
+              },
+              {
+                "clause_id": "UN_R150_base:518",
+                "paragraph": "Annex 11 / 4",
+                "similarity": 0.715988,
+                "snippet": "4. Arrangement\r\nThe rear marking plate(s) shall be type approved and meet the requirements of this Regulation.\r\nThe apex of a rear marking plate shall be directed upwards.\r\nEvery part of a rear marking plate shall lie within 5° of a transverse vertical plane at right angles to the\r\nlongitudinal axis of the vehicle and shall face to the rear."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R6",
+            "version": "2.0.0",
+            "score": 0.712759,
+            "clauses_in_regulation": 215,
+            "examples": [
+              {
+                "clause_id": "UN_R6_base:82",
+                "paragraph": "5.8",
+                "similarity": 0.714675,
+                "snippet": "5.8. An interdependent lamp system shall meet the requirements when all its interdependent lamps are operated\r\ntogether.\r\nHowever, if the interdependent lamp system providing the rear direction indicator function is partly mounted on\r\nthe fixed component and partly mounted on a movable component, the interdependent lamp(s) specified by the\r\nApplicant shall meet the geometric visibility, colorimetric and photometric requirement, at all fixed posit"
+              },
+              {
+                "clause_id": "UN_R6_base:161",
+                "paragraph": "Annex 4 / 1.2.1",
+                "similarity": 0.71392,
+                "snippet": "1.2.1. The distance of measurement shall be such that the law of the inverse of the square of the distance is\r\napplicable;"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R107",
+            "version": "11.1.0",
+            "score": 0.708436,
+            "clauses_in_regulation": 1361,
+            "examples": [
+              {
+                "clause_id": "UN_R107_base:806",
+                "paragraph": "Annex 3 / 7.8.3.9",
+                "similarity": 0.710361,
+                "snippet": "7.8.3.9. The emergency lighting system shall provide a minimum illuminance of 1 lux at floor level in the\r\ncentreline of all access passages and gangways and at the centre of any step, at step level."
+              },
+              {
+                "clause_id": "UN_R107_base:645",
+                "paragraph": "Annex 3 / 7.6.12.2.3",
+                "similarity": 0.708517,
+                "snippet": "7.6.12.2.3. Have limited dazzle outside a zone on the ground having a maximum width of 5 m measured from the\r\nside of the vehicle and a maximum length limited by a transverse plane passing through the front of the vehicle\r\nand a transverse plane passing through the rear of the vehicle;"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R13H",
+            "version": "2.1.0",
+            "score": 0.704975,
+            "clauses_in_regulation": 663,
+            "examples": [
+              {
+                "clause_id": "UN_R13H_base:210",
+                "paragraph": "5.2.22.1",
+                "similarity": 0.71409,
+                "snippet": "5.2.22.1. Activation of the service braking system by the driver shall generate a signal that will be used to\r\nilluminate the stop lamps."
+              },
+              {
+                "clause_id": "UN_R13H_base:163",
+                "paragraph": "5.2.17.3",
+                "similarity": 0.701136,
+                "snippet": "5.2.17.3. The use of the stop-lamp switch and circuit for actuating the electrical braking system is permissible\r\nonly if the actuating line is connected in parallel with the stop-lamp and the existing stop-lamp switch and circuit\r\nare capable of taking the extra load."
+              }
+            ]
+          }
+        ],
+        "clauses_compared": 26769,
+        "candidate_regulations_compared": 56,
+        "regulations_returned": 12,
+        "discovered_regulations_total": 15
+      },
+      "is_error": false,
+      "evidence_hits": [
+        {
+          "clause_id": "UN_R23_base:2",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "1.1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.1797989010810852
+        },
+        {
+          "clause_id": "UN_R23_base:65",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "6.2.1",
+          "pages": [
+            6
+          ],
+          "_distance": 0.1892305612564087
+        },
+        {
+          "clause_id": "UN_R23_base:19",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "4.1",
+          "pages": [
+            3
+          ],
+          "_distance": 0.19769829511642456
+        },
+        {
+          "clause_id": "UN_R48_base:91",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "2.5.12",
+          "pages": [
+            6
+          ],
+          "_distance": 0.19229894876480103
+        },
+        {
+          "clause_id": "UN_R48_base:460",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.4.7.1",
+          "pages": [
+            40
+          ],
+          "_distance": 0.1970016360282898
+        },
+        {
+          "clause_id": "UN_R48_base:913",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.28.7.1",
+          "pages": [
+            81
+          ],
+          "_distance": 0.20602142810821533
+        },
+        {
+          "clause_id": "UN_R148_base:253",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.12.1.2",
+          "pages": [
+            26,
+            27
+          ],
+          "_distance": 0.2072988748550415
+        },
+        {
+          "clause_id": "UN_R148_base:304",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 1 / 9.1.7",
+          "pages": [
+            30
+          ],
+          "_distance": 0.21257370710372925
+        },
+        {
+          "clause_id": "UN_R148_base:213",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.8.1",
+          "pages": [
+            23
+          ],
+          "_distance": 0.21374404430389404
+        },
+        {
+          "clause_id": "UN_R7_base:50",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "4.2.2.2",
+          "pages": [
+            4
+          ],
+          "_distance": 0.2502111792564392
+        },
+        {
+          "clause_id": "UN_R7_base:135",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "8",
+          "pages": [
+            11
+          ],
+          "_distance": 0.25288134813308716
+        },
+        {
+          "clause_id": "UN_R7_base:109",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "6.1.7.2",
+          "pages": [
+            9
+          ],
+          "_distance": 0.25716787576675415
+        },
+        {
+          "clause_id": "UN_R38_base:78",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "6.6.2",
+          "pages": [
+            6
+          ],
+          "_distance": 0.25510144233703613
+        },
+        {
+          "clause_id": "UN_R38_base:71",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "6.3",
+          "pages": [
+            5
+          ],
+          "_distance": 0.2580529451370239
+        },
+        {
+          "clause_id": "UN_R38_base:0",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": null,
+          "pages": [
+            1
+          ],
+          "_distance": 0.2603161334991455
+        },
+        {
+          "clause_id": "UN_R53_base:98",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.9.2",
+          "pages": [
+            7
+          ],
+          "_distance": 0.25684720277786255
+        },
+        {
+          "clause_id": "UN_R53_base:96",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.9",
+          "pages": [
+            7
+          ],
+          "_distance": 0.2734851837158203
+        },
+        {
+          "clause_id": "UN_R53_base:102",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.10",
+          "pages": [
+            7
+          ],
+          "_distance": 0.27453553676605225
+        },
+        {
+          "clause_id": "UN_R149_base:175",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "4.19",
+          "pages": [
+            15
+          ],
+          "_distance": 0.2503966689109802
+        },
+        {
+          "clause_id": "UN_R149_base:169",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "4.16",
+          "pages": [
+            15
+          ],
+          "_distance": 0.29044950008392334
+        },
+        {
+          "clause_id": "UN_R149_base:164",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "4.13",
+          "pages": [
+            14
+          ],
+          "_distance": 0.29111742973327637
+        },
+        {
+          "clause_id": "UN_R3_base:98",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 5 / 2.3",
+          "pages": [
+            13
+          ],
+          "_distance": 0.27592939138412476
+        },
+        {
+          "clause_id": "UN_R3_base:112",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 6 / 3",
+          "pages": [
+            15
+          ],
+          "_distance": 0.27709639072418213
+        },
+        {
+          "clause_id": "UN_R3_base:115",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 7 / 2",
+          "pages": [
+            15
+          ],
+          "_distance": 0.2860007882118225
+        },
+        {
+          "clause_id": "UN_R150_base:304",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 5 / Part 1 / 3.8.2",
+          "pages": [
+            31
+          ],
+          "_distance": 0.27557873725891113
+        },
+        {
+          "clause_id": "UN_R150_base:518",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 11 / 4",
+          "pages": [
+            53
+          ],
+          "_distance": 0.2840123772621155
+        },
+        {
+          "clause_id": "UN_R150_base:165",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 5 / 5.2.6.4",
+          "pages": [
+            18
+          ],
+          "_distance": 0.286362886428833
+        },
+        {
+          "clause_id": "UN_R6_base:82",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "5.8",
+          "pages": [
+            7
+          ],
+          "_distance": 0.2853248715400696
+        },
+        {
+          "clause_id": "UN_R6_base:161",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "Annex 4 / 1.2.1",
+          "pages": [
+            20
+          ],
+          "_distance": 0.28608012199401855
+        },
+        {
+          "clause_id": "UN_R6_base:77",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "5.5.1",
+          "pages": [
+            6
+          ],
+          "_distance": 0.2903171181678772
+        },
+        {
+          "clause_id": "UN_R107_base:806",
+          "regulation": "UN R107",
+          "version": "11.1.0",
+          "paragraph": "Annex 3 / 7.8.3.9",
+          "pages": [
+            67
+          ],
+          "_distance": 0.28963911533355713
+        },
+        {
+          "clause_id": "UN_R107_base:645",
+          "regulation": "UN R107",
+          "version": "11.1.0",
+          "paragraph": "Annex 3 / 7.6.12.2.3",
+          "pages": [
+            56
+          ],
+          "_distance": 0.29148340225219727
+        },
+        {
+          "clause_id": "UN_R107_base:644",
+          "regulation": "UN R107",
+          "version": "11.1.0",
+          "paragraph": "Annex 3 / 7.6.12.2.2",
+          "pages": [
+            56
+          ],
+          "_distance": 0.29356878995895386
+        },
+        {
+          "clause_id": "UN_R13H_base:210",
+          "regulation": "UN R13H",
+          "version": "2.1.0",
+          "paragraph": "5.2.22.1",
+          "pages": [
+            17
+          ],
+          "_distance": 0.28590989112854004
+        },
+        {
+          "clause_id": "UN_R13H_base:163",
+          "regulation": "UN R13H",
+          "version": "2.1.0",
+          "paragraph": "5.2.17.3",
+          "pages": [
+            13
+          ],
+          "_distance": 0.29886382818222046
+        },
+        {
+          "clause_id": "UN_R13H_base:238",
+          "regulation": "UN R13H",
+          "version": "2.1.0",
+          "paragraph": "5.2.24.15.2",
+          "pages": [
+            22
+          ],
+          "_distance": 0.3003002405166626
+        }
+      ]
+    },
+    {
+      "name": "search_regulations",
+      "input": {
+        "query": "retro-reflecting devices for power-driven vehicles"
+      },
+      "output": {
+        "regulations": [
+          {
+            "regulation": "UN R3",
+            "version": "2.17.0",
+            "score": 0.864399,
+            "clauses_in_regulation": 203,
+            "examples": [
+              {
+                "clause_id": "UN_R3_base:108",
+                "paragraph": "Annex 6 / 1",
+                "similarity": 0.873274,
+                "snippet": "1. These specifications shall apply only to clear, red or amber retro-reflecting devices."
+              },
+              {
+                "clause_id": "UN_R3_base:109",
+                "paragraph": "Annex 6 / 1.1",
+                "similarity": 0.860676,
+                "snippet": "1.1. Retro-reflecting devices may consist of a combined retro-reflecting optical unit and filter, which must be so\r\ndesigned that they cannot be separated under normal conditions of use."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R150",
+            "version": "1.2.1",
+            "score": 0.848906,
+            "clauses_in_regulation": 521,
+            "examples": [
+              {
+                "clause_id": "UN_R150_base:161",
+                "paragraph": "Annex 5 / 5.2.6",
+                "similarity": 0.851986,
+                "snippet": "5.2.6. Colour of the reflected light of the device"
+              },
+              {
+                "clause_id": "UN_R150_base:285",
+                "paragraph": "Part 1",
+                "similarity": 0.848495,
+                "snippet": "Part 1 - Photometric measurements of retro-reflective devices"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "score": 0.837323,
+            "clauses_in_regulation": 1193,
+            "examples": [
+              {
+                "clause_id": "UN_R48_base:628",
+                "paragraph": "6.15",
+                "similarity": 0.839427,
+                "snippet": "6.15. Rear retro-reflector, triangular"
+              },
+              {
+                "clause_id": "UN_R48_base:617",
+                "paragraph": "6.14",
+                "similarity": 0.837942,
+                "snippet": "6.14. Rear retro-reflector, non-triangular"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R104",
+            "version": "0.9.0",
+            "score": 0.820362,
+            "clauses_in_regulation": 169,
+            "examples": [
+              {
+                "clause_id": "UN_R104_base:7",
+                "paragraph": "2.2",
+                "similarity": 0.822274,
+                "snippet": "2.2. \"Retro-reflection\" means the reflection in which luminous flux is returned in directions close to the direction\r\nfrom which it came, this property being maintained even over wide variations of the direction of the luminous\r\nflux."
+              },
+              {
+                "clause_id": "UN_R104_base:121",
+                "paragraph": "Annex 6",
+                "similarity": 0.820395,
+                "snippet": "Annex 6 COLORIMETRIC SPECIFICATIONS"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R53",
+            "version": "4.0.0",
+            "score": 0.815171,
+            "clauses_in_regulation": 551,
+            "examples": [
+              {
+                "clause_id": "UN_R53_base:19",
+                "paragraph": "2.3.9",
+                "similarity": 0.819812,
+                "snippet": "2.3.9. \"Retro-reflector\" means a device used to indicate the presence of a vehicle by the reflection of light\r\nemanating from a light source not connected to the vehicle, the observer being situated near the source;\r\nFor the purpose of this Regulation, retro-reflecting number plates are not considered as retro-reflectors;"
+              },
+              {
+                "clause_id": "UN_R53_base:283",
+                "paragraph": "6.8",
+                "similarity": 0.815608,
+                "snippet": "6.8. Rear retro-reflector, non-triangular"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "score": 0.812156,
+            "clauses_in_regulation": 424,
+            "examples": [
+              {
+                "clause_id": "UN_R148_base:293",
+                "paragraph": "Annex 1 / 9",
+                "similarity": 0.812857,
+                "snippet": "9. Concise description:"
+              },
+              {
+                "clause_id": "UN_R148_base:351",
+                "paragraph": "Annex 3 / 3.2",
+                "similarity": 0.812279,
+                "snippet": "3.2. Category 1b - wide plate (520 x 120 mm)"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R38",
+            "version": "0.19.0",
+            "score": 0.808837,
+            "clauses_in_regulation": 184,
+            "examples": [
+              {
+                "clause_id": "UN_R38_base:85",
+                "paragraph": "13.5",
+                "similarity": 0.815654,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R38_base:0",
+                "paragraph": null,
+                "similarity": 0.807013,
+                "snippet": "UN R38 (version 0.19.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nScope\r\nThis Regulation applies to rear fog lamps for vehicles of categories L3, L4, L5, L7, M, N, O, and T1.\r\n\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/7"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R7",
+            "version": "3.0.0",
+            "score": 0.801765,
+            "clauses_in_regulation": 241,
+            "examples": [
+              {
+                "clause_id": "UN_R7_base:162",
+                "paragraph": "Annex 2 / 9",
+                "similarity": 0.803199,
+                "snippet": "9. Concise description:"
+              },
+              {
+                "clause_id": "UN_R7_base:207",
+                "paragraph": "Annex 5 / 1.3",
+                "similarity": 0.802668,
+                "snippet": "1.3. With respect to colorimetric performance, the requirements set out in paragraph 8. of this Regulation shall be\r\ncomplied with."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R6",
+            "version": "2.0.0",
+            "score": 0.79289,
+            "clauses_in_regulation": 215,
+            "examples": [
+              {
+                "clause_id": "UN_R6_base:54",
+                "paragraph": "4.3.2",
+                "similarity": 0.793815,
+                "snippet": "4.3.2. Grouped, combined or reciprocally incorporated lamps"
+              },
+              {
+                "clause_id": "UN_R6_base:3",
+                "paragraph": "1.1",
+                "similarity": 0.792889,
+                "snippet": "1.1. \"Direction indicator\" means a device mounted on a motor vehicle or trailer which, when operated by the\r\ndriver, signals the latter's intention to change the direction in which the vehicle is proceeding. The present\r\nRegulation applies solely to fixed-position flashing light devices whose flashing is obtained by the intermittent\r\nsupply of electric current to the lamp."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R23",
+            "version": "0.22.0",
+            "score": 0.792541,
+            "clauses_in_regulation": 164,
+            "examples": [
+              {
+                "clause_id": "UN_R23_base:71",
+                "paragraph": "13.5",
+                "similarity": 0.799347,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R23_base:55",
+                "paragraph": "6.1",
+                "similarity": 0.793156,
+                "snippet": "6.1. Intensity of the light specifications for reversing lamps"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R26",
+            "version": "4.0.0",
+            "score": 0.787718,
+            "clauses_in_regulation": 216,
+            "examples": [
+              {
+                "clause_id": "UN_R26_base:187",
+                "paragraph": "Annex 3",
+                "similarity": 0.790601,
+                "snippet": "Annex 3 Methods of determining the dimensions of projections and gaps"
+              },
+              {
+                "clause_id": "UN_R26_base:14",
+                "paragraph": "2.7.3",
+                "similarity": 0.78698,
+                "snippet": "2.7.3. Of devices for indirect vision;"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R149",
+            "version": "1.6.0",
+            "score": 0.779189,
+            "clauses_in_regulation": 750,
+            "examples": [
+              {
+                "clause_id": "UN_R149_base:546",
+                "paragraph": "Annex 5",
+                "similarity": 0.784583,
+                "snippet": "Annex 5 Visual aiming method of Road Illumination Devices. Deﬁnition of \"cut-off\" line\r\nfor passing-beam headlamps and front fog lamps."
+              },
+              {
+                "clause_id": "UN_R149_base:736",
+                "paragraph": "Annex 13 / 1",
+                "similarity": 0.778142,
+                "snippet": "1. Approval marking of a single road illumination device"
+              }
+            ]
+          }
+        ],
+        "clauses_compared": 26769,
+        "candidate_regulations_compared": 56,
+        "regulations_returned": 12,
+        "discovered_regulations_total": 16
+      },
+      "is_error": false,
+      "evidence_hits": [
+        {
+          "clause_id": "UN_R3_base:108",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 6 / 1",
+          "pages": [
+            14
+          ],
+          "_distance": 0.1267262101173401
+        },
+        {
+          "clause_id": "UN_R3_base:109",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 6 / 1.1",
+          "pages": [
+            14
+          ],
+          "_distance": 0.13932424783706665
+        },
+        {
+          "clause_id": "UN_R3_base:1",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.14075124263763428
+        },
+        {
+          "clause_id": "UN_R150_base:161",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 5 / 5.2.6",
+          "pages": [
+            18
+          ],
+          "_distance": 0.14801448583602905
+        },
+        {
+          "clause_id": "UN_R150_base:285",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 1",
+          "pages": [
+            27
+          ],
+          "_distance": 0.15150541067123413
+        },
+        {
+          "clause_id": "UN_R150_base:467",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 5",
+          "pages": [
+            49
+          ],
+          "_distance": 0.15376073122024536
+        },
+        {
+          "clause_id": "UN_R48_base:628",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.15",
+          "pages": [
+            56
+          ],
+          "_distance": 0.16057342290878296
+        },
+        {
+          "clause_id": "UN_R48_base:617",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.14",
+          "pages": [
+            55
+          ],
+          "_distance": 0.1620582938194275
+        },
+        {
+          "clause_id": "UN_R48_base:711",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.21",
+          "pages": [
+            63
+          ],
+          "_distance": 0.16540056467056274
+        },
+        {
+          "clause_id": "UN_R104_base:7",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "2.2",
+          "pages": [
+            1
+          ],
+          "_distance": 0.17772561311721802
+        },
+        {
+          "clause_id": "UN_R104_base:121",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            10
+          ],
+          "_distance": 0.17960530519485474
+        },
+        {
+          "clause_id": "UN_R104_base:127",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "Annex 7 / 1",
+          "pages": [
+            11
+          ],
+          "_distance": 0.18158352375030518
+        },
+        {
+          "clause_id": "UN_R53_base:19",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "2.3.9",
+          "pages": [
+            2
+          ],
+          "_distance": 0.18018776178359985
+        },
+        {
+          "clause_id": "UN_R53_base:283",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "6.8",
+          "pages": [
+            22
+          ],
+          "_distance": 0.1843920350074768
+        },
+        {
+          "clause_id": "UN_R53_base:319",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "6.12",
+          "pages": [
+            24
+          ],
+          "_distance": 0.18990600109100342
+        },
+        {
+          "clause_id": "UN_R148_base:293",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 1 / 9",
+          "pages": [
+            30
+          ],
+          "_distance": 0.1871429681777954
+        },
+        {
+          "clause_id": "UN_R148_base:351",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 3 / 3.2",
+          "pages": [
+            40
+          ],
+          "_distance": 0.1877213716506958
+        },
+        {
+          "clause_id": "UN_R148_base:355",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 3 / 3.4",
+          "pages": [
+            41
+          ],
+          "_distance": 0.18866866827011108
+        },
+        {
+          "clause_id": "UN_R38_base:85",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "13.5",
+          "pages": [
+            6
+          ],
+          "_distance": 0.1843462586402893
+        },
+        {
+          "clause_id": "UN_R38_base:0",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": null,
+          "pages": [
+            1
+          ],
+          "_distance": 0.19298678636550903
+        },
+        {
+          "clause_id": "UN_R38_base:165",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "Annex 5 / 1.1",
+          "pages": [
+            14,
+            15
+          ],
+          "_distance": 0.19615662097930908
+        },
+        {
+          "clause_id": "UN_R7_base:162",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 2 / 9",
+          "pages": [
+            15
+          ],
+          "_distance": 0.19680136442184448
+        },
+        {
+          "clause_id": "UN_R7_base:207",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 5 / 1.3",
+          "pages": [
+            26
+          ],
+          "_distance": 0.19733154773712158
+        },
+        {
+          "clause_id": "UN_R7_base:221",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            27
+          ],
+          "_distance": 0.20057135820388794
+        },
+        {
+          "clause_id": "UN_R6_base:54",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "4.3.2",
+          "pages": [
+            5
+          ],
+          "_distance": 0.20618486404418945
+        },
+        {
+          "clause_id": "UN_R6_base:3",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "1.1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.20711100101470947
+        },
+        {
+          "clause_id": "UN_R6_base:83",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "6",
+          "pages": [
+            7
+          ],
+          "_distance": 0.20803511142730713
+        },
+        {
+          "clause_id": "UN_R23_base:71",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "13.5",
+          "pages": [
+            7
+          ],
+          "_distance": 0.200653076171875
+        },
+        {
+          "clause_id": "UN_R23_base:55",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "6.1",
+          "pages": [
+            6
+          ],
+          "_distance": 0.2068440318107605
+        },
+        {
+          "clause_id": "UN_R23_base:24",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "4.3.4",
+          "pages": [
+            3
+          ],
+          "_distance": 0.21488112211227417
+        },
+        {
+          "clause_id": "UN_R26_base:187",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            14
+          ],
+          "_distance": 0.20939922332763672
+        },
+        {
+          "clause_id": "UN_R26_base:14",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "2.7.3",
+          "pages": [
+            2
+          ],
+          "_distance": 0.21301984786987305
+        },
+        {
+          "clause_id": "UN_R26_base:1",
+          "regulation": "UN R26",
+          "version": "4.0.0",
+          "paragraph": "1",
+          "pages": [
+            1
+          ],
+          "_distance": 0.21442633867263794
+        },
+        {
+          "clause_id": "UN_R149_base:546",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 5",
+          "pages": [
+            57
+          ],
+          "_distance": 0.21541720628738403
+        },
+        {
+          "clause_id": "UN_R149_base:736",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 13 / 1",
+          "pages": [
+            79
+          ],
+          "_distance": 0.22185832262039185
+        },
+        {
+          "clause_id": "UN_R149_base:635",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 8",
+          "pages": [
+            68
+          ],
+          "_distance": 0.22515612840652466
+        }
+      ]
+    },
+    {
+      "name": "search_regulations",
+      "input": {
+        "query": "installation of lighting and light-signalling devices on vehicles"
+      },
+      "output": {
+        "regulations": [
+          {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "score": 0.875005,
+            "clauses_in_regulation": 1193,
+            "examples": [
+              {
+                "clause_id": "UN_R48_base:42",
+                "paragraph": "2.4",
+                "similarity": 0.880805,
+                "snippet": "2.4. Lamps generalities"
+              },
+              {
+                "clause_id": "UN_R48_base:1065",
+                "paragraph": "Part 1",
+                "similarity": 0.873351,
+                "snippet": "Part 1 - Light emitting surface of a light-signalling device other than a retro-reflector"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "score": 0.843114,
+            "clauses_in_regulation": 424,
+            "examples": [
+              {
+                "clause_id": "UN_R148_base:146",
+                "paragraph": "5.1",
+                "similarity": 0.862356,
+                "snippet": "5.1. Front position lamps (A, MA) and front end-outline marker lamps (AM)"
+              },
+              {
+                "clause_id": "UN_R148_base:194",
+                "paragraph": "5.6",
+                "similarity": 0.834768,
+                "snippet": "5.6. Direction indicator lamps (1, 1a, 1b, 2a, 2b, 5, 6, 11, 11a, 11b, 11c, 12)"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R53",
+            "version": "4.0.0",
+            "score": 0.832534,
+            "clauses_in_regulation": 551,
+            "examples": [
+              {
+                "clause_id": "UN_R53_base:89",
+                "paragraph": "5.6.2",
+                "similarity": 0.83687,
+                "snippet": "5.6.2. Single lamps"
+              },
+              {
+                "clause_id": "UN_R53_base:72",
+                "paragraph": "5.1",
+                "similarity": 0.831637,
+                "snippet": "5.1. The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and\r\nnotwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this\r\nRegulation and enable the vehicle to comply with the requirements of this Regulation.\r\nIn particular, it shall not be possible for the lamps to be inadvertently maladjusted."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R7",
+            "version": "3.0.0",
+            "score": 0.831705,
+            "clauses_in_regulation": 241,
+            "examples": [
+              {
+                "clause_id": "UN_R7_base:38",
+                "paragraph": "4.1",
+                "similarity": 0.836464,
+                "snippet": "4.1. General"
+              },
+              {
+                "clause_id": "UN_R7_base:162",
+                "paragraph": "Annex 2 / 9",
+                "similarity": 0.831706,
+                "snippet": "9. Concise description:"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R149",
+            "version": "1.6.0",
+            "score": 0.82743,
+            "clauses_in_regulation": 750,
+            "examples": [
+              {
+                "clause_id": "UN_R149_base:546",
+                "paragraph": "Annex 5",
+                "similarity": 0.834316,
+                "snippet": "Annex 5 Visual aiming method of Road Illumination Devices. Deﬁnition of \"cut-off\" line\r\nfor passing-beam headlamps and front fog lamps."
+              },
+              {
+                "clause_id": "UN_R149_base:205",
+                "paragraph": "Part C / 5.3.1",
+                "similarity": 0.824281,
+                "snippet": "5.3.1. General provisions"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R150",
+            "version": "1.2.1",
+            "score": 0.825644,
+            "clauses_in_regulation": 521,
+            "examples": [
+              {
+                "clause_id": "UN_R150_base:514",
+                "paragraph": "Annex 11",
+                "similarity": 0.828377,
+                "snippet": "Annex 11 Guidelines for installation of rear marking plates on slow-moving\r\nvehicles (by construction) and their trailers"
+              },
+              {
+                "clause_id": "UN_R150_base:285",
+                "paragraph": "Part 1",
+                "similarity": 0.825161,
+                "snippet": "Part 1 - Photometric measurements of retro-reflective devices"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R6",
+            "version": "2.0.0",
+            "score": 0.825026,
+            "clauses_in_regulation": 215,
+            "examples": [
+              {
+                "clause_id": "UN_R6_base:157",
+                "paragraph": "Annex 4",
+                "similarity": 0.826271,
+                "snippet": "Annex 4 Photometric measurements"
+              },
+              {
+                "clause_id": "UN_R6_base:54",
+                "paragraph": "4.3.2",
+                "similarity": 0.824827,
+                "snippet": "4.3.2. Grouped, combined or reciprocally incorporated lamps"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R19",
+            "version": "4.10.0",
+            "score": 0.818463,
+            "clauses_in_regulation": 430,
+            "examples": [
+              {
+                "clause_id": "UN_R19_base:397",
+                "paragraph": "Annex 12 / 3.1",
+                "similarity": 0.825691,
+                "snippet": "3.1. Application and relaxation"
+              },
+              {
+                "clause_id": "UN_R19_base:329",
+                "paragraph": "Annex 7 / 2.2",
+                "similarity": 0.815264,
+                "snippet": "2.2. Methods used in tests"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R123",
+            "version": "2.1.0",
+            "score": 0.818173,
+            "clauses_in_regulation": 518,
+            "examples": [
+              {
+                "clause_id": "UN_R123_base:484",
+                "paragraph": "Annex 11",
+                "similarity": 0.819574,
+                "snippet": "Annex 11 Requirements for LED modules and adaptative front-lighting (AFS)\r\nincluding LED modules"
+              },
+              {
+                "clause_id": "UN_R123_base:152",
+                "paragraph": "6",
+                "similarity": 0.817949,
+                "snippet": "6. Illumination"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R23",
+            "version": "0.22.0",
+            "score": 0.817313,
+            "clauses_in_regulation": 164,
+            "examples": [
+              {
+                "clause_id": "UN_R23_base:71",
+                "paragraph": "13.5",
+                "similarity": 0.82198,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R23_base:51",
+                "paragraph": "5.4.2",
+                "similarity": 0.818105,
+                "snippet": "5.4.2. The design of the device shall be such that the light source can be fixed in no other position but the correct\r\none."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R38",
+            "version": "0.19.0",
+            "score": 0.811257,
+            "clauses_in_regulation": 184,
+            "examples": [
+              {
+                "clause_id": "UN_R38_base:85",
+                "paragraph": "13.5",
+                "similarity": 0.815159,
+                "snippet": "13.5 V or 28.0 V respectively."
+              },
+              {
+                "clause_id": "UN_R38_base:131",
+                "paragraph": "Annex 3",
+                "similarity": 0.811961,
+                "snippet": "Annex 3 Photometric measurements"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R3",
+            "version": "2.17.0",
+            "score": 0.807945,
+            "clauses_in_regulation": 203,
+            "examples": [
+              {
+                "clause_id": "UN_R3_base:87",
+                "paragraph": "Annex 4",
+                "similarity": 0.815761,
+                "snippet": "Annex 4 TEST PROCEDURE - CLASS IA AND CLASS IIIA"
+              },
+              {
+                "clause_id": "UN_R3_base:84",
+                "paragraph": "Annex 3",
+                "similarity": 0.805455,
+                "snippet": "Annex 3 EXAMPLES OF APPROVAL MARKS"
+              }
+            ]
+          }
+        ],
+        "clauses_compared": 26769,
+        "candidate_regulations_compared": 56,
+        "regulations_returned": 12,
+        "discovered_regulations_total": 18
+      },
+      "is_error": false,
+      "evidence_hits": [
+        {
+          "clause_id": "UN_R48_base:42",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "2.4",
+          "pages": [
+            3
+          ],
+          "_distance": 0.11919522285461426
+        },
+        {
+          "clause_id": "UN_R48_base:1065",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "Part 1",
+          "pages": [
+            94
+          ],
+          "_distance": 0.12664943933486938
+        },
+        {
+          "clause_id": "UN_R48_base:464",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "6.5",
+          "pages": [
+            40
+          ],
+          "_distance": 0.12914174795150757
+        },
+        {
+          "clause_id": "UN_R148_base:146",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.1",
+          "pages": [
+            16
+          ],
+          "_distance": 0.13764429092407227
+        },
+        {
+          "clause_id": "UN_R148_base:194",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "5.6",
+          "pages": [
+            20
+          ],
+          "_distance": 0.16523247957229614
+        },
+        {
+          "clause_id": "UN_R148_base:345",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 3 / 2.7.1",
+          "pages": [
+            39
+          ],
+          "_distance": 0.16778218746185303
+        },
+        {
+          "clause_id": "UN_R53_base:89",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.6.2",
+          "pages": [
+            6
+          ],
+          "_distance": 0.16313010454177856
+        },
+        {
+          "clause_id": "UN_R53_base:72",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.1",
+          "pages": [
+            5
+          ],
+          "_distance": 0.16836315393447876
+        },
+        {
+          "clause_id": "UN_R53_base:84",
+          "regulation": "UN R53",
+          "version": "4.0.0",
+          "paragraph": "5.6",
+          "pages": [
+            6
+          ],
+          "_distance": 0.17090362310409546
+        },
+        {
+          "clause_id": "UN_R7_base:38",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "4.1",
+          "pages": [
+            4
+          ],
+          "_distance": 0.16353565454483032
+        },
+        {
+          "clause_id": "UN_R7_base:162",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 2 / 9",
+          "pages": [
+            15
+          ],
+          "_distance": 0.16829407215118408
+        },
+        {
+          "clause_id": "UN_R7_base:68",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "4.3.2",
+          "pages": [
+            6
+          ],
+          "_distance": 0.17305445671081543
+        },
+        {
+          "clause_id": "UN_R149_base:546",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 5",
+          "pages": [
+            57
+          ],
+          "_distance": 0.16568362712860107
+        },
+        {
+          "clause_id": "UN_R149_base:205",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Part C / 5.3.1",
+          "pages": [
+            18
+          ],
+          "_distance": 0.1757185459136963
+        },
+        {
+          "clause_id": "UN_R149_base:458",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 1 / 9.5.8",
+          "pages": [
+            47
+          ],
+          "_distance": 0.1763073205947876
+        },
+        {
+          "clause_id": "UN_R150_base:514",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 11",
+          "pages": [
+            53
+          ],
+          "_distance": 0.17162340879440308
+        },
+        {
+          "clause_id": "UN_R150_base:285",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 1",
+          "pages": [
+            27
+          ],
+          "_distance": 0.17483925819396973
+        },
+        {
+          "clause_id": "UN_R150_base:467",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Part 5",
+          "pages": [
+            49
+          ],
+          "_distance": 0.17660397291183472
+        },
+        {
+          "clause_id": "UN_R6_base:157",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "Annex 4",
+          "pages": [
+            20
+          ],
+          "_distance": 0.1737290620803833
+        },
+        {
+          "clause_id": "UN_R6_base:54",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "4.3.2",
+          "pages": [
+            5
+          ],
+          "_distance": 0.17517340183258057
+        },
+        {
+          "clause_id": "UN_R6_base:107",
+          "regulation": "UN R6",
+          "version": "2.0.0",
+          "paragraph": "13.5",
+          "pages": [
+            9
+          ],
+          "_distance": 0.17601972818374634
+        },
+        {
+          "clause_id": "UN_R19_base:397",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 12 / 3.1",
+          "pages": [
+            45
+          ],
+          "_distance": 0.1743091344833374
+        },
+        {
+          "clause_id": "UN_R19_base:329",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 7 / 2.2",
+          "pages": [
+            38
+          ],
+          "_distance": 0.18473601341247559
+        },
+        {
+          "clause_id": "UN_R19_base:245",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 5 / 1",
+          "pages": [
+            27
+          ],
+          "_distance": 0.18556588888168335
+        },
+        {
+          "clause_id": "UN_R123_base:484",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "Annex 11",
+          "pages": [
+            51
+          ],
+          "_distance": 0.1804255247116089
+        },
+        {
+          "clause_id": "UN_R123_base:152",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "6",
+          "pages": [
+            10
+          ],
+          "_distance": 0.1820507049560547
+        },
+        {
+          "clause_id": "UN_R123_base:450",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "Annex 9",
+          "pages": [
+            47
+          ],
+          "_distance": 0.18300437927246094
+        },
+        {
+          "clause_id": "UN_R23_base:71",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "13.5",
+          "pages": [
+            7
+          ],
+          "_distance": 0.17802029848098755
+        },
+        {
+          "clause_id": "UN_R23_base:51",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "5.4.2",
+          "pages": [
+            5
+          ],
+          "_distance": 0.18189454078674316
+        },
+        {
+          "clause_id": "UN_R23_base:33",
+          "regulation": "UN R23",
+          "version": "0.22.0",
+          "paragraph": "4.5.1.1",
+          "pages": [
+            4
+          ],
+          "_distance": 0.18814492225646973
+        },
+        {
+          "clause_id": "UN_R38_base:85",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "13.5",
+          "pages": [
+            6
+          ],
+          "_distance": 0.18484091758728027
+        },
+        {
+          "clause_id": "UN_R38_base:131",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            12
+          ],
+          "_distance": 0.18803900480270386
+        },
+        {
+          "clause_id": "UN_R38_base:167",
+          "regulation": "UN R38",
+          "version": "0.19.0",
+          "paragraph": "Annex 5 / 6.75",
+          "pages": [
+            15
+          ],
+          "_distance": 0.1933499574661255
+        },
+        {
+          "clause_id": "UN_R3_base:87",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 4",
+          "pages": [
+            12
+          ],
+          "_distance": 0.18423926830291748
+        },
+        {
+          "clause_id": "UN_R3_base:84",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 3",
+          "pages": [
+            8
+          ],
+          "_distance": 0.19454491138458252
+        },
+        {
+          "clause_id": "UN_R3_base:107",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            14
+          ],
+          "_distance": 0.1973813772201538
+        }
+      ]
+    },
+    {
+      "name": "search_regulations",
+      "input": {
+        "query": "LED light source modules, colour of light, plastic lens materials testing"
+      },
+      "output": {
+        "regulations": [
+          {
+            "regulation": "UN R149",
+            "version": "1.6.0",
+            "score": 0.804865,
+            "clauses_in_regulation": 750,
+            "examples": [
+              {
+                "clause_id": "UN_R149_base:709",
+                "paragraph": "Annex 9 / 4.1",
+                "similarity": 0.807907,
+                "snippet": "4.1. Colour rendering"
+              },
+              {
+                "clause_id": "UN_R149_base:694",
+                "paragraph": "Annex 9",
+                "similarity": 0.803525,
+                "snippet": "Annex 9 Requirements for LED modules"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R128",
+            "version": "0.11.0",
+            "score": 0.799968,
+            "clauses_in_regulation": 229,
+            "examples": [
+              {
+                "clause_id": "UN_R128_base:215",
+                "paragraph": "Annex 9",
+                "similarity": 0.807299,
+                "snippet": "Annex 9 Method for the measurement of luminance contrast and luminance\r\nuniformity of the light emitting area"
+              },
+              {
+                "clause_id": "UN_R128_base:62",
+                "paragraph": "3.7",
+                "similarity": 0.798442,
+                "snippet": "3.7. Colour"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R123",
+            "version": "2.1.0",
+            "score": 0.793876,
+            "clauses_in_regulation": 518,
+            "examples": [
+              {
+                "clause_id": "UN_R123_base:345",
+                "paragraph": "Annex 6",
+                "similarity": 0.801352,
+                "snippet": "Annex 6 Requirements for systems incorporating lenses of plastic material: testing of\r\nlens or material samples and complete systems or part(s) of systems"
+              },
+              {
+                "clause_id": "UN_R123_base:379",
+                "paragraph": "Annex 6 / 2.6",
+                "similarity": 0.792257,
+                "snippet": "2.6. Tests of the complete system incorporating a lens of plastic material"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R19",
+            "version": "4.10.0",
+            "score": 0.791381,
+            "clauses_in_regulation": 430,
+            "examples": [
+              {
+                "clause_id": "UN_R19_base:268",
+                "paragraph": "Annex 6",
+                "similarity": 0.811617,
+                "snippet": "Annex 6 Requirements for lamps incorporating lenses of plastic material -\r\ntesting of lens or material samples and of complete lamps"
+              },
+              {
+                "clause_id": "UN_R19_base:301",
+                "paragraph": "Annex 6 / 2.6",
+                "similarity": 0.78282,
+                "snippet": "2.6. Tests of the complete lamp incorporating a lens of plastic material"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R37",
+            "version": "3.48.0",
+            "score": 0.789002,
+            "clauses_in_regulation": 258,
+            "examples": [
+              {
+                "clause_id": "UN_R37_base:202",
+                "paragraph": "Annex 5",
+                "similarity": 0.795856,
+                "snippet": "Annex 5 Checking the colour of ﬁlament light sources"
+              },
+              {
+                "clause_id": "UN_R37_base:210",
+                "paragraph": "Annex 5 / 2.1",
+                "similarity": 0.787878,
+                "snippet": "2.1. Colour tests shall be made with a measuring system that determines CIE trichromatic co-ordinates of the\r\nreceived light with an accuracy of ±0.002."
+              }
+            ]
+          },
+          {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "score": 0.78505,
+            "clauses_in_regulation": 424,
+            "examples": [
+              {
+                "clause_id": "UN_R148_base:410",
+                "paragraph": "Annex 8",
+                "similarity": 0.80219,
+                "snippet": "Annex 8 Testing procedures with respect to light sources"
+              },
+              {
+                "clause_id": "UN_R148_base:372",
+                "paragraph": "Annex 4 / 2.2",
+                "similarity": 0.778774,
+                "snippet": "2.2. Methods used in tests"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R43",
+            "version": "1.12.0",
+            "score": 0.775229,
+            "clauses_in_regulation": 1810,
+            "examples": [
+              {
+                "clause_id": "UN_R43_base:418",
+                "paragraph": "Annex 3 / 9.1",
+                "similarity": 0.804977,
+                "snippet": "9.1. Light transmission test"
+              },
+              {
+                "clause_id": "UN_R43_base:372",
+                "paragraph": "Annex 3 / 6",
+                "similarity": 0.766534,
+                "snippet": "6. Resistance-to-radiation test"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R3",
+            "version": "2.17.0",
+            "score": 0.775155,
+            "clauses_in_regulation": 203,
+            "examples": [
+              {
+                "clause_id": "UN_R3_base:87",
+                "paragraph": "Annex 4",
+                "similarity": 0.78412,
+                "snippet": "Annex 4 TEST PROCEDURE - CLASS IA AND CLASS IIIA"
+              },
+              {
+                "clause_id": "UN_R3_base:189",
+                "paragraph": "Annex 12 / 2.2",
+                "similarity": 0.773776,
+                "snippet": "2.2. Methods used in tests"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R150",
+            "version": "1.2.1",
+            "score": 0.774305,
+            "clauses_in_regulation": 521,
+            "examples": [
+              {
+                "clause_id": "UN_R150_base:448",
+                "paragraph": "Annex 7 / Part 2 / 1",
+                "similarity": 0.778151,
+                "snippet": "1. Test procedure in the case of moulded plastics reflectors as Classes IA, IB, IIIA, IIIB, IVA and advance warning\r\ntriangle of type 1."
+              },
+              {
+                "clause_id": "UN_R150_base:380",
+                "paragraph": "Annex 6 / Part 2 / 1",
+                "similarity": 0.777321,
+                "snippet": "1. Test for retro-reflectors and retro-reflective marking materials"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R7",
+            "version": "3.0.0",
+            "score": 0.766191,
+            "clauses_in_regulation": 241,
+            "examples": [
+              {
+                "clause_id": "UN_R7_base:89",
+                "paragraph": "5.6",
+                "similarity": 0.773516,
+                "snippet": "5.6. In the case of light source modules, it shall be checked that:"
+              },
+              {
+                "clause_id": "UN_R7_base:213",
+                "paragraph": "Annex 5 / 2.2",
+                "similarity": 0.766337,
+                "snippet": "2.2. Methods used in tests"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R104",
+            "version": "0.9.0",
+            "score": 0.758463,
+            "clauses_in_regulation": 169,
+            "examples": [
+              {
+                "clause_id": "UN_R104_base:104",
+                "paragraph": "Annex 4",
+                "similarity": 0.768761,
+                "snippet": "Annex 4 TEST PROCEDURE\r\nTEST SAMPLES"
+              },
+              {
+                "clause_id": "UN_R104_base:126",
+                "paragraph": "Annex 7",
+                "similarity": 0.754335,
+                "snippet": "Annex 7 PHOTOMETRIC SPECIFICATIONS"
+              }
+            ]
+          },
+          {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "score": 0.755444,
+            "clauses_in_regulation": 1193,
+            "examples": [
+              {
+                "clause_id": "UN_R48_base:1190",
+                "paragraph": "Annex 15",
+                "similarity": 0.763992,
+                "snippet": "Annex 15 Gonio(photo)meter system used for the photometric measurements\r\nas deﬁned in paragraph 2.10.9. of this Regulation"
+              },
+              {
+                "clause_id": "UN_R48_base:1163",
+                "paragraph": "Annex 9 / 1.5",
+                "similarity": 0.752964,
+                "snippet": "1.5. Light intensities"
+              }
+            ]
+          }
+        ],
+        "clauses_compared": 26769,
+        "candidate_regulations_compared": 56,
+        "regulations_returned": 12,
+        "discovered_regulations_total": 19
+      },
+      "is_error": false,
+      "evidence_hits": [
+        {
+          "clause_id": "UN_R149_base:709",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 9 / 4.1",
+          "pages": [
+            76
+          ],
+          "_distance": 0.1920931339263916
+        },
+        {
+          "clause_id": "UN_R149_base:694",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 9",
+          "pages": [
+            76
+          ],
+          "_distance": 0.19647502899169922
+        },
+        {
+          "clause_id": "UN_R149_base:715",
+          "regulation": "UN R149",
+          "version": "1.6.0",
+          "paragraph": "Annex 10",
+          "pages": [
+            77
+          ],
+          "_distance": 0.19683724641799927
+        },
+        {
+          "clause_id": "UN_R128_base:215",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "Annex 9",
+          "pages": [
+            46
+          ],
+          "_distance": 0.1927005648612976
+        },
+        {
+          "clause_id": "UN_R128_base:62",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "3.7",
+          "pages": [
+            5
+          ],
+          "_distance": 0.2015576958656311
+        },
+        {
+          "clause_id": "UN_R128_base:199",
+          "regulation": "UN R128",
+          "version": "0.11.0",
+          "paragraph": "Annex 5 / 2.1",
+          "pages": [
+            42
+          ],
+          "_distance": 0.20583730936050415
+        },
+        {
+          "clause_id": "UN_R123_base:345",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            33
+          ],
+          "_distance": 0.1986478567123413
+        },
+        {
+          "clause_id": "UN_R123_base:379",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "Annex 6 / 2.6",
+          "pages": [
+            36
+          ],
+          "_distance": 0.2077433466911316
+        },
+        {
+          "clause_id": "UN_R123_base:504",
+          "regulation": "UN R123",
+          "version": "2.1.0",
+          "paragraph": "Annex 11 / 4.1",
+          "pages": [
+            51
+          ],
+          "_distance": 0.21197938919067383
+        },
+        {
+          "clause_id": "UN_R19_base:268",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            30
+          ],
+          "_distance": 0.18838286399841309
+        },
+        {
+          "clause_id": "UN_R19_base:301",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 6 / 2.6",
+          "pages": [
+            33
+          ],
+          "_distance": 0.21717989444732666
+        },
+        {
+          "clause_id": "UN_R19_base:400",
+          "regulation": "UN R19",
+          "version": "4.10.0",
+          "paragraph": "Annex 12 / 3.1.3",
+          "pages": [
+            45
+          ],
+          "_distance": 0.22029417753219604
+        },
+        {
+          "clause_id": "UN_R37_base:202",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "Annex 5",
+          "pages": [
+            17
+          ],
+          "_distance": 0.20414352416992188
+        },
+        {
+          "clause_id": "UN_R37_base:210",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "Annex 5 / 2.1",
+          "pages": [
+            18
+          ],
+          "_distance": 0.21212226152420044
+        },
+        {
+          "clause_id": "UN_R37_base:209",
+          "regulation": "UN R37",
+          "version": "3.48.0",
+          "paragraph": "Annex 5 / 2",
+          "pages": [
+            18
+          ],
+          "_distance": 0.21672803163528442
+        },
+        {
+          "clause_id": "UN_R148_base:410",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 8",
+          "pages": [
+            47
+          ],
+          "_distance": 0.19780981540679932
+        },
+        {
+          "clause_id": "UN_R148_base:372",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 4 / 2.2",
+          "pages": [
+            43
+          ],
+          "_distance": 0.2212255597114563
+        },
+        {
+          "clause_id": "UN_R148_base:398",
+          "regulation": "UN R148",
+          "version": "1.6.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            45
+          ],
+          "_distance": 0.2258141040802002
+        },
+        {
+          "clause_id": "UN_R43_base:418",
+          "regulation": "UN R43",
+          "version": "1.12.0",
+          "paragraph": "Annex 3 / 9.1",
+          "pages": [
+            63
+          ],
+          "_distance": 0.19502276182174683
+        },
+        {
+          "clause_id": "UN_R43_base:372",
+          "regulation": "UN R43",
+          "version": "1.12.0",
+          "paragraph": "Annex 3 / 6",
+          "pages": [
+            59
+          ],
+          "_distance": 0.23346638679504395
+        },
+        {
+          "clause_id": "UN_R43_base:1234",
+          "regulation": "UN R43",
+          "version": "1.12.0",
+          "paragraph": "Annex 16 / 6.2",
+          "pages": [
+            119
+          ],
+          "_distance": 0.24582386016845703
+        },
+        {
+          "clause_id": "UN_R3_base:87",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 4",
+          "pages": [
+            12
+          ],
+          "_distance": 0.21587973833084106
+        },
+        {
+          "clause_id": "UN_R3_base:189",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 12 / 2.2",
+          "pages": [
+            24
+          ],
+          "_distance": 0.22622370719909668
+        },
+        {
+          "clause_id": "UN_R3_base:107",
+          "regulation": "UN R3",
+          "version": "2.17.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            14
+          ],
+          "_distance": 0.23243165016174316
+        },
+        {
+          "clause_id": "UN_R150_base:448",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 7 / Part 2 / 1",
+          "pages": [
+            47
+          ],
+          "_distance": 0.22184878587722778
+        },
+        {
+          "clause_id": "UN_R150_base:380",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "Annex 6 / Part 2 / 1",
+          "pages": [
+            42
+          ],
+          "_distance": 0.2226787805557251
+        },
+        {
+          "clause_id": "UN_R150_base:101",
+          "regulation": "UN R150",
+          "version": "1.2.1",
+          "paragraph": "4.2",
+          "pages": [
+            11
+          ],
+          "_distance": 0.23255664110183716
+        },
+        {
+          "clause_id": "UN_R7_base:89",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "5.6",
+          "pages": [
+            7
+          ],
+          "_distance": 0.22648358345031738
+        },
+        {
+          "clause_id": "UN_R7_base:213",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 5 / 2.2",
+          "pages": [
+            26
+          ],
+          "_distance": 0.2336626648902893
+        },
+        {
+          "clause_id": "UN_R7_base:212",
+          "regulation": "UN R7",
+          "version": "3.0.0",
+          "paragraph": "Annex 5 / 2.1",
+          "pages": [
+            26
+          ],
+          "_distance": 0.24128007888793945
+        },
+        {
+          "clause_id": "UN_R104_base:104",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "Annex 4",
+          "pages": [
+            9
+          ],
+          "_distance": 0.2312394380569458
+        },
+        {
+          "clause_id": "UN_R104_base:126",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "Annex 7",
+          "pages": [
+            11
+          ],
+          "_distance": 0.24566489458084106
+        },
+        {
+          "clause_id": "UN_R104_base:121",
+          "regulation": "UN R104",
+          "version": "0.9.0",
+          "paragraph": "Annex 6",
+          "pages": [
+            10
+          ],
+          "_distance": 0.24770581722259521
+        },
+        {
+          "clause_id": "UN_R48_base:1190",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "Annex 15",
+          "pages": [
+            121
+          ],
+          "_distance": 0.23600757122039795
+        },
+        {
+          "clause_id": "UN_R48_base:1163",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "Annex 9 / 1.5",
+          "pages": [
+            115
+          ],
+          "_distance": 0.24703550338745117
+        },
+        {
+          "clause_id": "UN_R48_base:1117",
+          "regulation": "UN R48",
+          "version": "9.3.0",
+          "paragraph": "Annex 6 / 5",
+          "pages": [
+            110
+          ],
+          "_distance": 0.25062626600265503
+        }
+      ]
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "start_index": 0,
+        "count": 8
+      },
+      "output": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "total_clauses": 424,
+        "clauses": [
+          {
+            "clause_id": "UN_R148_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R148 (version 1.6.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nIntroduction (for information)\r\nThis Regulation combines the provisions of individual UN Regulations Nos. 4, 6, 7, 23, 38, 50, 77, 87 and 91 into\r\na single Regulation, and is the outcome of the World Forum for Harmonization of Vehicle Regulations (WP.29)\r\ndecision to simplify the lighting and light-signalling Regulations based on the initial proposal by the European\r\nUnion and Japan.\r\nThe objective of this Regulation is to increase the clarity, to consolidate and streamline the complexity of\r\nrequirements in UN Regulations Nos. 4, 6, 7, 23, 38, 50, 77, 87 and 91 and to prepare for the transition to\r\nperformance-based requirements, by reducing the number of Regulations through an editorial exercise without\r\nchanging any of the detailed technical requirements already in force up to the date of entry into force of this\r\nRegulation. This is reflected by the introduction of the original series of amendments to UN Regulation No. 148\r\nand completes one of the objectives of the Working Party on Light and Light-Signalling (GRE) Informal Working\r\nGroup “Simplification of Lighting and Light-Signalling Regulations” (IWG SLR).\r\nWith the introduction of the 01 series of amendments to this Regulation another objective of GRE IWG SLR\r\ncomes into existence. This new series of amendments deals with the identified amendments and clarifications to\r\nthis Regulation in order to achieve, to the current maximum possible extent, the goal of being technologically\r\nneutral, performance based and able to be tested objectively. This is accompanied by amendments to UN\r\nRegulations regarding the installation of lighting and light-signalling devices (Nos. 48, 53, 74 and 86) to reflect\r\nany necessary changes influenced by this Regulation.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1 Scope\r\nThis Regulation applies to the following light-signalling devices (lamps):\r\n• Rear-registration plate illuminating lamps\r\n• Direction indicator lamps\r\n• Position lamps\r\n• Stop lamps\r\n• End-outline marker lamps\r\n• Reversing lamps\r\n• Manoeuvring lamps\r\n• Rear fog lamps\r\n• Parking lamps\r\n• Daytime running lamps\r\n• Side marker lamps\r\n• Reversing projectors.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:2",
+            "paragraph": "2",
+            "pages": [
+              1
+            ],
+            "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:3",
+            "paragraph": "2.1",
+            "pages": [
+              2
+            ],
+            "text": "2.1. All the definitions given in the latest series of amendments to UN Regulation No. 48 in force at the time of\r\napplication for type approval shall apply, unless otherwise specified in this Regulation or in the pertinent\r\ninstallation UN Regulations Nos. 53, 74 and 86.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:4",
+            "paragraph": "2.2",
+            "pages": [
+              2
+            ],
+            "text": "2.2. \"Lamps of different types\" means lamps, which differ in such essential respects as:\r\n(a) The trade name or mark:\r\n(i) Lamps bearing the same trade name or mark but produced by different manufacturers are considered as being\r\nof different types;\r\n(ii) Lamps produced by the same manufacturer differing only by the trade name or mark are considered as being\r\nof the same type.\r\n(b) The characteristics of the optical system (levels of intensity, light distribution angles, inclusion or elimination\r\nof components capable of altering the optical effects by reflection, refraction, absorption and/ or deformation\r\nduring operation, etc.);\r\n(c) The category or categories of light source(s) used and/or the specific identification code (s) of the light source\r\nmodule(s);\r\n(d) The category of the lamp, if any;\r\n(e) The variable intensity control, if any;\r\n(f) The sequential activation of light sources, if any.\r\nNevertheless, direction indicators capable of being activated in different modes (sequential or not) without any\r\nmodification of the optical characteristics of the lamp do not constitute \"Direction indicators of different types\".\r\nA change of the colour of the light source or the colour of any filter does not constitute a change of type.\r\nThe use of LED substitute light source(s) does not constitute a change of type. However, paragraph 4.8.1.6.\r\napplies.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:5",
+            "paragraph": "2.3",
+            "pages": [
+              2
+            ],
+            "text": "2.3. \"Being part of the lamp\" means to be physically included in the lamp body or to be external, separated or not,\r\nand declared by the applicant as part of the lamp system.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:6",
+            "paragraph": "3",
+            "pages": [
+              2
+            ],
+            "text": "3. Administrative provisions",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R148_base:7",
+            "paragraph": "3.1",
+            "pages": [
+              2
+            ],
+            "text": "3.1. Application for approval",
+            "truncated": false
+          }
+        ],
+        "next_index": 8
+      },
+      "is_error": false
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R7",
+        "version": "3.0.0",
+        "start_index": 0,
+        "count": 4
+      },
+      "output": {
+        "regulation": "UN R7",
+        "version": "3.0.0",
+        "total_clauses": 241,
+        "clauses": [
+          {
+            "clause_id": "UN_R7_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R7 (version 3.0.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nScope\r\nThis Regulation applies to:\r\nFront and rear position lamps and stop lamps for vehicles of categories L, M, N, O and T;1 and,\r\n\r\nEnd-outline marker lamps for vehicles of categories M, N, O and T.\r\n\r\n1As defined in the Consolidated Resolution on the Construction of vehicles (R.E.3) (ECE/TRANS/WP.29/78/Rev.6, para.2)\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R7_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1. Deﬁnitions\r\nFor the purpose of this Regulation,",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R7_base:2",
+            "paragraph": "1.1",
+            "pages": [
+              1
+            ],
+            "text": "1.1. \"Front position lamp\" means the lamp used to indicate the presence and the width of the vehicle when viewed\r\nfrom the front;",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R7_base:3",
+            "paragraph": "1.2",
+            "pages": [
+              1
+            ],
+            "text": "1.2. \"Rear position lamp\" means the lamp used to indicate the presence and the width of the vehicle when viewed\r\nfrom the rear;",
+            "truncated": false
+          }
+        ],
+        "next_index": 4
+      },
+      "is_error": false
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "start_index": 0,
+        "count": 3
+      },
+      "output": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "total_clauses": 164,
+        "clauses": [
+          {
+            "clause_id": "UN_R23_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R23 (version 0.22.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nScope\r\nThis Regulation applies to:\r\n(a) Reversing lamps for vehicles of categories M, N, O, and T;1\r\n\r\n(b) Manoeuvring lamps for vehicles of categories M and N.\r\n\r\n1/ As defined in Annex 7 to the Consolidated Resolution on the Construction of Vehicles (R.E.3), (document\r\nTRANS/WP.29/78/Rev.1/Amend.2 as last amended by Amend.4).",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R23_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1. DEFINITIONS\r\nFor the purposes of this Regulation,",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R23_base:2",
+            "paragraph": "1.1",
+            "pages": [
+              1
+            ],
+            "text": "1.1. \"reversing lamp\" means the lamp of the vehicle designed to illuminate the road to the rear of the vehicle and\r\nto warn other road users that the vehicle is reversing or about to reverse;",
+            "truncated": false
+          }
+        ],
+        "next_index": 3
+      },
+      "is_error": false
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "start_index": 0,
+        "count": 4
+      },
+      "output": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "total_clauses": 521,
+        "clauses": [
+          {
+            "clause_id": "UN_R150_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R150 (version 1.2.1)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.\r\n\r\n\r\nIntroduction (for information)\r\nThis Regulation combines the provisions of individual UN Regulations Nos. 3, 27, 69, 70 and 104 into a single\r\nUN Regulation, and is the outcome of the World Forum for Harmonization of Vehicle Regulations (WP.29)\r\ndecision to simplify the lighting and light-signalling Regulations based on the initial proposal by the European\r\nUnion and Japan.\r\nThe objective of this Regulation is to increase the clarity, to consolidate and streamline the complexity of\r\nrequirements in UN Regulations Nos. 3, 27, 69, 70 and 104 and to prepare for the future transition to\r\nperformance-based requirements, by reducing the number of UN Regulations through an editorial exercise\r\nwithout changing any of the detailed technical requirements already in force up to the date of entry into force of\r\nthis Regulation. This is reflected by the introduction of the original series of amendments to UN Regulation No.\r\n150 and completes one of the objectives of the Working Party on Light and Light-Signalling (GRE) Informal\r\nWorking Group “Simplification of Lighting and Light-Signalling Regulations” (IWG SLR).\r\nWith the introduction of the 01 series of amendments to this Regulation another objective of GRE IWG SLR\r\ncomes into existence. This new series of amendments deals with the identified amendments and clarifications to\r\nthis Regulation in order to achieve, to the current maximum possible extent, the goal of being technologically\r\nneutral, performance based and able to be tested objectively. This is accompanied by amendments to UN\r\nRegulations regarding the installation of lighting and light-signalling devices (Nos. 48, 53, 74 and 86) to reflect\r\nany necessary changes influenced by this Regulation.\r\nRegarding the requirements for approval markings, this Regulation includes the requirements for the use of the\r\n'Unique Identifier' and is conditional upon access to a secure internet database established by UNECE (in\r\naccordance with Schedule 5 of the 1958 Agreement) where all type approval documentation is held. When the\r\n'Unique Identifier' is used there is no requirement for the lamps to carry the conventional type approval markings\r\n(E-mark). If it is technically not possible to use the 'Unique Identifier' (e.g. if the access to the UNECE i",
+            "truncated": true
+          },
+          {
+            "clause_id": "UN_R150_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1. Scope\r\nThis Regulation applies to retro-reflective devices as:\r\n• Retro-reflectors of the Classes IA, IB, IIIA, IIIB and IVA\r\n• Retro-reflective Marking Materials of the Classes C, D, E and F, D/E\r\n• Retro-reflective Marking Plates for Heavy and Long Vehicles (HLV) of the Classes 1, 2, 3, 4 and 5\r\n• Retro-reflective Marking Plates for Slow Moving Vehicles (SMV) of the Classes 1 and 2\r\n• Advance Warning Triangles (AWT) of Type 1 and 2.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R150_base:2",
+            "paragraph": "2",
+            "pages": [
+              1
+            ],
+            "text": "2. Deﬁnitions\r\nFor the purposes of this Regulation:",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R150_base:3",
+            "paragraph": "2.1",
+            "pages": [
+              2
+            ],
+            "text": "2.1. All the definitions given in the latest series of amendments to UN Regulation No. 48 in force at the time of\r\napplication for type approval shall apply, unless otherwise specified in this UN Regulation or in the pertinent\r\ninstallation UN Regulations Nos. 53, 74 and 86.",
+            "truncated": false
+          }
+        ],
+        "next_index": 4
+      },
+      "is_error": false
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R3",
+        "version": "2.17.0",
+        "start_index": 0,
+        "count": 3
+      },
+      "output": {
+        "regulation": "UN R3",
+        "version": "2.17.0",
+        "total_clauses": 203,
+        "clauses": [
+          {
+            "clause_id": "UN_R3_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R3 (version 2.17.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R3_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1. SCOPE\r\nThis Regulation applies to retro-reflecting devices 1/ for vehicles of categories L, M, N, O, and T 2/.\r\n\r\n1/Also called \"retro-reflector(s)\".\r\n\r\n2/ As defined in Annex 7 to the Consolidated Resolution on the Construction of Vehicles (R.E.3), (document\r\nTRANS/WP.29/78/Rev.1/Amend.2 as last amended by Amend.4).",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R3_base:2",
+            "paragraph": "2",
+            "pages": [
+              1
+            ],
+            "text": "2. DEFINITIONS 3/\r\n\r\n3/The definitions of the technical terms (excluding the ones in Regulation No. 48) are those adopted by the International Commission on\r\nIllumination (CIE).\r\nFor the purpose of this Regulation,",
+            "truncated": false
+          }
+        ],
+        "next_index": 3
+      },
+      "is_error": false
+    },
+    {
+      "name": "inspect_regulation",
+      "input": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "start_index": 0,
+        "count": 4
+      },
+      "output": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "total_clauses": 1193,
+        "clauses": [
+          {
+            "clause_id": "UN_R48_base:0",
+            "paragraph": null,
+            "pages": [
+              1
+            ],
+            "text": "UN R48 (version 9.3.0)\r\nConsolidated text of this version, rendered by Certivity for the hackathon. Cite pages of THIS ﬁle: the page number is printed at\r\nthe bottom of every page.\r\nRole in the hackathon: base version.",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R48_base:1",
+            "paragraph": "1",
+            "pages": [
+              1
+            ],
+            "text": "1. Scope\r\nThis Regulation applies to vehicles of categories M, N, and to their trailers (category O)1 with regard to the\r\ninstallation of lighting and light-signalling devices.\r\n\r\n1As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3.), document ECE/TRANS/WP.29/78/Rev.3, para. 2 -\r\nwww.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R48_base:2",
+            "paragraph": "2",
+            "pages": [
+              1
+            ],
+            "text": "2. Deﬁnitions",
+            "truncated": false
+          },
+          {
+            "clause_id": "UN_R48_base:3",
+            "paragraph": "2.1",
+            "pages": [
+              1
+            ],
+            "text": "2.1. General",
+            "truncated": false
+          }
+        ],
+        "next_index": 4
+      },
+      "is_error": false
+    }
+  ],
+  "tool_budget_exhausted": false,
+  "batch_attempts": [
+    {
+      "attempt": 1,
+      "status": "ok"
+    }
+  ],
+  "selected_regulations": [
+    [
+      "UN R148",
+      "1.6.0"
+    ],
+    [
+      "UN R150",
+      "1.2.1"
+    ],
+    [
+      "UN R23",
+      "0.22.0"
+    ],
+    [
+      "UN R3",
+      "2.17.0"
+    ],
+    [
+      "UN R48",
+      "9.3.0"
+    ],
+    [
+      "UN R7",
+      "3.0.0"
+    ]
+  ]
+}

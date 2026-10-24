@@ -1,0 +1,51 @@
+{
+  "run_id": "0d47e3ab48644982884fa2b10ba142e9",
+  "approach": "agentic-rag",
+  "status": "completed",
+  "completed_at": "2026-10-24T19:41:52.612308+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\user\\Desktop\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\user\\Desktop\\regulation-tl\\approaches\\experiments\\agentic-rag\\outputs\\predictions.json",
+  "prediction_sha256": "e7bd9f301d1da1433bcf9238d2f6614afc2b03f38ae595ae353eb9a19790dc61",
+  "gold_path": "C:\\Users\\user\\Desktop\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 0.5,
+      "recall": 0.75,
+      "f1": 0.6,
+      "n_submitted": 6,
+      "n_expected": 4,
+      "n_matched": 3,
+      "f2": 0.6818181818181818
+    },
+    "page_level": {
+      "precision": 0.3333333333333333,
+      "recall": 0.8301886792452831,
+      "f1": 0.4756756756756757,
+      "n_submitted": 135,
+      "n_expected": 53,
+      "n_matched": 45,
+      "f2": 0.6395348837209303
+    },
+    "clause_level": {
+      "precision": 0.13653136531365315,
+      "recall": 0.6115702479338843,
+      "f1": 0.22322775263951736,
+      "n_submitted": 542,
+      "n_expected": 121,
+      "n_matched": 74,
+      "f2": 0.36062378167641335
+    }
+  }
+}

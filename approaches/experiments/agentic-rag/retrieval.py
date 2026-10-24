@@ -10,7 +10,7 @@ import jsonschema
 import lancedb
 import numpy as np
 
-from engine import obj, STRING, write_json
+from engine import array, obj, NUMBER, STRING, write_json
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "data-ingestion"))
@@ -29,15 +29,27 @@ gaps or useful terminology. Run at least the supplied minimum number of distinct
 queries. Do not repeat identical searches. Prioritize recall over precision.
 
 Each query compares against every clause, groups the strongest matches by
-regulation, and returns a generous list of distinct candidate regulations. ALL
-returned regulations will automatically be scanned in full by other workers.
-You cannot remove regulations from that set. Your job is discovery, not final
-clause selection. Search snippets are only discovery evidence; downstream workers
-receive the full clause text.
-When finished, return a short search summary and any remaining coverage gaps.
+regulation, and returns distinct CANDIDATES. Search results are not automatically
+selected. After broad discovery, use inspect_regulation on every regulation you
+intend to select. Then choose only regulations likely to impose requirements on
+this product or its installation.
+
+Do not select a regulation merely because it concerns the same vehicle category,
+mentions the product, or regulates a host vehicle system. Reject context-only
+vehicle, braking, impact, or component rules unless they impose an obligation on
+this supplied product. Check whether a candidate is an alternative or predecessor
+of a consolidated regulation and avoid redundant full scans unless both genuinely
+apply. Preserve recall when applicability remains genuinely unresolved.
+
+When finished, return the selected regulation/version pairs with concise reasons
+and confidence, a search summary, and any remaining coverage gaps.
 """
 
-PLAN_SCHEMA = obj(summary=STRING, coverage_gaps={"type": "array", "items": STRING})
+PLAN_SCHEMA = obj(
+    selected_regulations=array(obj(regulation=STRING, version=STRING, reason=STRING, confidence=NUMBER)),
+    summary=STRING,
+    coverage_gaps=array(STRING),
+)
 
 
 def open_corpus(path, index, dimensions, embedding_model):
@@ -74,12 +86,20 @@ def open_corpus(path, index, dimensions, embedding_model):
 
 
 class SearchTools:
-    definitions = [{"name": "search_regulations", "description": "Semantic search across all regulation clauses. Every regulation in the top hits is added to the full-scan set. Returns regulation summaries and representative snippets.", "input_schema": obj(query=STRING)}]
+    definitions = [
+        {"name": "search_regulations", "description": "Semantic search across every clause. Returns distinct regulation candidates and representative matches; it does not select them for scanning.", "input_schema": obj(query=STRING)},
+        {"name": "inspect_regulation", "description": "Read ordered clauses from one discovered candidate regulation to verify scope before selecting it. Start at index 0. Returns at most eight clauses; continue with next_index when needed.",
+         "input_schema": obj(regulation=STRING, version=STRING,
+                             start_index={"type": "integer"}, count={"type": "integer"})},
+    ]
 
-    def __init__(self, table, config, cache, output, costs=None):
+    def __init__(self, table, config, cache, output, costs=None, documents=None):
         self.table, self.config, self.cache, self.output = table, config, cache, output
         self.costs = costs
-        self.trace, self.selected, self.queries = [], set(), set()
+        self.trace, self.selected, self.discovered = [], set(), set()
+        self.queries, self.inspected = set(), set()
+        self.documents = {(entries[0]["regulation"], entries[0]["version"]): entries
+                          for entries in (documents or [])}
         self.usage = {"api_responses": 0, "local_cache_hits": 0, "failed_attempts": 0,
                       "estimated_usd": None, "note": "Gemini query embedding charges are not included in the Claude cost estimate."}
 
@@ -89,6 +109,7 @@ class SearchTools:
         path = self.cache / "queries" / f"{key}.json"
         if path.exists():
             values = json.loads(path.read_text())["vector"]
+            vector = np.asarray(values, dtype=np.float32)
             self.usage["local_cache_hits"] += 1
         else:
             try:
@@ -103,15 +124,35 @@ class SearchTools:
                 write_json(self.output / "embedding-costs.json", self.usage)
                 raise
             self.usage["api_responses"] += 1
+        if vector.shape != (self.config["dimensions"],) or not np.isfinite(vector).all() or np.linalg.norm(vector) == 0:
+            raise ValueError("Cached or returned query embedding is invalid")
         write_json(path, {"vector": vector.tolist()})
         write_json(self.output / "embedding-costs.json", self.usage)
         return vector
 
     def execute(self, name, arguments):
         try:
-            if name != "search_regulations":
+            definition = next((item for item in self.definitions if item["name"] == name), None)
+            if definition is None:
                 raise ValueError("Unknown tool")
-            jsonschema.validate(arguments, self.definitions[0]["input_schema"])
+            jsonschema.validate(arguments, definition["input_schema"])
+            if name == "inspect_regulation":
+                key = (arguments["regulation"], arguments["version"])
+                if key not in self.discovered:
+                    raise ValueError("Inspect only regulations returned by search_regulations")
+                entries = self.documents.get(key)
+                start, count = arguments["start_index"], arguments["count"]
+                if entries is None or type(start) is not int or start < 0 or type(count) is not int or not 1 <= count <= 8:
+                    raise ValueError("Unknown regulation or invalid start_index/count")
+                selected = entries[start:start + count]
+                output = {"regulation": key[0], "version": key[1], "total_clauses": len(entries),
+                          "clauses": [{"clause_id": c["id"], "paragraph": c.get("paragraph"),
+                                      "pages": c["pages"], "text": c["text"][:2500],
+                                      "truncated": len(c["text"]) > 2500} for c in selected],
+                          "next_index": start + len(selected) if start + len(selected) < len(entries) else None}
+                self.inspected.add(key)
+                self.trace.append({"name": name, "input": arguments, "output": output, "is_error": False})
+                return output, False
             query = " ".join(arguments["query"].split())
             if not query or len(query) > 1500 or query.casefold() in self.queries:
                 raise ValueError("Use a new nonempty query of at most 1500 characters")
@@ -134,7 +175,7 @@ class SearchTools:
                 key=lambda item: sum(h["_distance"] for h in item[1]["evidence"]) / len(item[1]["evidence"]),
             )
             selected_groups = ranked[:self.config["regulations_per_query"]]
-            self.selected.update(key for key, _ in selected_groups)
+            self.discovered.update(key for key, _ in selected_groups)
             self.queries.add(query.casefold())
             summaries = []
             trace_hits = []
@@ -151,13 +192,14 @@ class SearchTools:
             output = {"regulations": summaries, "clauses_compared": len(hits),
                       "candidate_regulations_compared": len(grouped),
                       "regulations_returned": len(selected_groups),
-                      "selected_regulations_total": len(self.selected)}
+                      "discovered_regulations_total": len(self.discovered)}
             self.trace.append({"name": name, "input": arguments, "output": output, "is_error": False,
                                "evidence_hits": trace_hits})
-            write_json(self.output / "retrieval.json", {"searches": self.trace, "selected_regulations": sorted(self.selected)})
+            write_json(self.output / "retrieval.json", {"searches": self.trace,
+                       "candidate_regulations": sorted(self.discovered), "selected_regulations": []})
             cost = f"; Claude cost=${self.costs.total():.4f} (Gemini additional)" if self.costs else ""
             print(f"Search {len(self.queries)}: compared {len(hits)} clauses; "
-                  f"returned {len(selected_groups)} regulations; {len(self.selected)} selected total{cost}", flush=True)
+                  f"returned {len(selected_groups)} regulations; {len(self.discovered)} candidates total{cost}", flush=True)
             return output, False
         except (ValueError, jsonschema.ValidationError) as error:
             output = {"error": str(error)[:500]}
@@ -169,5 +211,20 @@ def plan(tools, catalogue, client):
     def check(result):
         if len(tools.queries) < client.config["min_queries"]:
             raise ValueError(f"Run at least {client.config['min_queries']} distinct successful searches before finishing")
+        rows = result["selected_regulations"]
+        if not rows:
+            raise ValueError("Select at least one regulation")
+        keys = [(row["regulation"], row["version"]) for row in rows]
+        if len(keys) != len(set(keys)):
+            raise ValueError("Selected regulation/version pairs must be unique")
+        if any(not 0 <= row["confidence"] <= 1 or not row["reason"].strip() for row in rows):
+            raise ValueError("Every selection needs a reason and confidence from 0 to 1")
+        unknown = set(keys) - tools.discovered
+        if unknown:
+            raise ValueError(f"Selected regulations were not discovered by search: {sorted(unknown)}")
+        uninspected = set(keys) - tools.inspected
+        if uninspected:
+            raise ValueError(f"Inspect every regulation before selecting it: {sorted(uninspected)}")
+        tools.selected = set(keys)
     result, trace = client.call(PLAN_PROMPT, {"catalogue": catalogue, "minimum_queries": client.config["min_queries"]}, PLAN_SCHEMA, check, tools)
     return {"plan": result, **trace}

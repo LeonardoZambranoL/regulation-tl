@@ -4,5 +4,5 @@
   "tuned_on_dev": [],
   "uses_llm": true,
   "deterministic": false,
-  "notes": "Generic product-driven agent searches. No case-specific filters or gold access. Retrieval can miss whole regulations; assessment and verification can reject applicable clauses. Not benchmarked yet."
+  "notes": "Generic product-driven agent searches. No case-specific filters or gold access. Dev run selected 6 regulations and missed one expected regulation; clause precision was also low. No holdout run and no score-driven tuning."
 }

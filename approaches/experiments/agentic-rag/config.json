@@ -9,13 +9,13 @@
   "max_tool_rounds": 4,
   "max_tool_calls": 8,
   "max_tokens": 12000,
-  "name": "Agentic vector retrieval followed by complete clause scans of retrieved regulations",
+  "name": "Agentic vector discovery and scope-confirmed regulation scans",
   "planner_model": "claude-sonnet-5-5",
   "embedding_model": "gemini-embedding-2-preview",
   "dimensions": 768,
-  "regulations_per_query": 25,
+  "regulations_per_query": 12,
   "evidence_clauses_per_regulation": 3,
   "min_queries": 4,
-  "planner_tool_calls": 12,
-  "planner_tool_rounds": 8
+  "planner_tool_calls": 18,
+  "planner_tool_rounds": 12
 }
