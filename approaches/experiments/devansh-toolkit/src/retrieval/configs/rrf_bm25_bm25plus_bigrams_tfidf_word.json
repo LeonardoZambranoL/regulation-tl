@@ -1,0 +1,24 @@
+{
+  "name": "rrf(bm25+bm25plus_bigrams+tfidf_word)",
+  "source": "clauses",
+  "granularity": "paragraph",
+  "retriever": {
+    "type": "rrf",
+    "retrievers": [
+      {
+        "type": "bm25",
+        "k1": 1.2,
+        "b": 0.75
+      },
+      {
+        "type": "bm25",
+        "variant": "plus",
+        "bigrams": true
+      },
+      {
+        "type": "tfidf",
+        "analyzer": "word"
+      }
+    ]
+  }
+}

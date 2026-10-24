@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, then three Claude agents check each other on every shall-clause (strict reviewer + completeness auditor, adjudicator settles disagreements)", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium", "agents": "multi"}, "n": 0}

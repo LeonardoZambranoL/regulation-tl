@@ -1,0 +1,1 @@
+{"name": "tfidf-char3-5", "source": "clauses", "retriever": {"type": "tfidf", "analyzer": "char", "ngram": [3, 5]}}

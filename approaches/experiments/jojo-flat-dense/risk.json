@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Inherits an existing workflow developed on this product; no Flat parameter sweep or score-based selection."
+  ],
+  "notes": "One known development case only. Gold used only after frozen predictions in the official benchmark. 32 source packets fixed for comparison and cost."
+}

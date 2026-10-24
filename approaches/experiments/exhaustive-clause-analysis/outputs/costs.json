@@ -1,0 +1,53 @@
+{
+  "currency": "USD",
+  "scope": "This invocation only; local cache replays cost zero",
+  "started_at": "2026-10-24T17:06:00.026192+00:00",
+  "estimated_total_usd": 7.3784351,
+  "unpriced_requests": 0,
+  "stages": {
+    "assessment": {
+      "model": "claude-haiku-5-5",
+      "api_responses": 2471,
+      "local_cache_hits": 234,
+      "input_tokens": 19281981,
+      "output_tokens": 5063970,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 4.4601831,
+      "rates_usd_per_million_tokens": {
+        "input": 0.1,
+        "output": 0.5,
+        "cache_write_5m": 0.125,
+        "cache_write_1h": 0.2,
+        "cache_read": 0.01,
+        "long_context_threshold": 100000,
+        "long_context_rates": {
+          "input": 0.5,
+          "output": 2.5,
+          "cache_write_5m": 0.625,
+          "cache_write_1h": 1.0,
+          "cache_read": 0.05
+        }
+      }
+    },
+    "verification": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 126,
+      "local_cache_hits": 0,
+      "input_tokens": 920101,
+      "output_tokens": 107805,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 2.918252,
+      "rates_usd_per_million_tokens": {
+        "input": 2.0,
+        "output": 10.0,
+        "cache_write_5m": 2.5,
+        "cache_write_1h": 4.0,
+        "cache_read": 0.1
+      }
+    }
+  },
+  "note": "Estimate from returned usage and pricing.json, not an invoice. Unpriced requests may add cost.",
+  "updated_at": "2026-10-24T17:42:14.767309+00:00"
+}

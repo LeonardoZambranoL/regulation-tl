@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+src/industrial-ai-hackathon/
+src/regulation-db/corpus/
+src/regulation-db/retrieval/index/
+src/regulation-db/retrieval/model-cache/
+src/regulation-db/workflows/runs/
+*.key
+.env*

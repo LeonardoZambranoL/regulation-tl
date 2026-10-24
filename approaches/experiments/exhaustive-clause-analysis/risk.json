@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Clause parsing and prompt examples were inspected using the rear-lamp development case; no score-based parameter sweep."
+  ],
+  "notes": "Only one labelled case has been evaluated. Models and concurrency were selected for cost/runtime. Production code does not read expected.json. This saved run has incomplete coverage; all scores are development citation metrics, not semantic correctness."
+}

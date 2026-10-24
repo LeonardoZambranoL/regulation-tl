@@ -1,0 +1,1 @@
+{"name": "bm25 k1=0.9 b=0.4 (BEIR/Anserini default)", "source": "clauses", "retriever": {"type": "bm25", "k1": 0.9, "b": 0.4}}

@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "reviewer prompts give lighting examples (headlamps, direction indicators) seen in the dev domain"
+  ],
+  "notes": "No hand-written product rules (spec-generated regex selection); the multi-agent review adds recall."
+}

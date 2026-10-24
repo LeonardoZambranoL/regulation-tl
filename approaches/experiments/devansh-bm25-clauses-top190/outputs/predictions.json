@@ -1,0 +1,1906 @@
+{
+  "team_id": "regulation-tl",
+  "case_id": "dev-rear-lamp",
+  "requirements": [
+    {
+      "id": "R-0001",
+      "text": "5.15. The colours of the light emitted by the lamps are the following: Main-beam White headlamp: Dipped-beam White headlamp: Front fog lamp: White or selective yellow Reversing lamp: White Direction-indicator Amber lamp: Hazard warning Amber signal: Stop lamp: Red Emergency stop Amber or red signal : Rear-end collision Amber alert signal: Rear registration White plate lamp: Front position lamp: White Rear position lamp: Red Front fog lamp White or selective yellow Rear fog lamp: Red Parking lamp: White in front, red at the rear, amber if reciprocally incorporated in the side direction-indicator lamps or in the side-marker lamps. Side-marker lamp: Amber; however the rearmost side- marker lamp can be red if it is grouped or combined or reciprocally incorporated with the rear position lamp, the rear end-outline marker lamp, the rear fog lamp, the stop lamp or is grouped or has part of the light emitting surface in common with the rear retro-reflector. End-outline marker White in front, red at the rear lamp: Daytime running White lamp: Rear retro-reflector, Red non- triangular: Rear retro-reflector, Red triangular: Front retro-reflector, Identical to incident light8 non- triangular: Side retro-reflector, Amber; however the rearmost side retro-reflector can be red if it is grouped or has part of the light non- triangular: emitting surface in common with the rear position lamp, the rear end outline marker lamp, the rear fog lamp, the stop-lamp, the red rearmost side-marker lamp or the rear retro-reflector, non- triangular. Cornering lamp: White Conspicuity White to the front; marking: White or yellow to the side; Red or yellow to the rear.9 Adaptive front- White lighting systems (AFS): Exterior courtesy White lamp: Exterior courtesy In addition, in accordance with the individual specifications applicable to the specific lamp used for lamp: the exterior courtesy lamp. Manoeuvring lamp: White Answer-back signal: In accordance with the individual specifications applicable to",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "R-0002",
+      "text": "5.7.7. Colour: The colour of the light emitted shall be amber. However, it can be red, if the rearmost side marker lamp is grouped or combined or reciprocally incorporated with the rear position lamp, the rear end-outline marker lamp, the rear fog lamp, the stop lamp, or is grouped with or has part of the light emitting surface in common with the rear retro- reflector.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 23,
+        "paragraph": "5.7.7"
+      }
+    },
+    {
+      "id": "R-0003",
+      "text": "Figure A7-III Marking example 3-a Marking example 3-b These examples of approval markings represent two possible solutions for the marking of a light signalling lamp where two or more lamps are part of the same assembly of grouped, combined or reciprocally incorporated lamps They indicate that the lamp was approved in the Netherlands (E4) under approval number 3333 and comprises: (a) A retro-reflector of class IA; (b) A rear direction indicator lamp with variable luminous intensity (category 2b). The horizontal arrow shows in what position this device, which cannot be mounted on either side of the vehicle indiscriminately, is to be mounted; (c) A rear position lamp with variable luminous intensity (R2). The horizontal arrow indicates the side on which the required photometric specifications are met up to an angle of 80° H; (d) A rear fog lamp with variable luminous intensity (F2); (e) A reversing lamp (AR); (f) A stop lamp with variable luminous intensity (S2). The number (01) mentioned after 148R and after 150R indicates that all these lamps (functions) are approved in accordance with the requirements of the pertinent Regulation as set in the 01 series of amendments. 3. Approval marking of a lamp where the lens is intended to be used in different types of lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 46,
+        "paragraph": "Figure A7-III"
+      }
+    },
+    {
+      "id": "R-0004",
+      "text": "9.1.6. In case of a rear position lamp reciprocally incorporated with a stop lamp, the rear position/stop lamp are provided by multiple light sources: yes/no2 2Strike out what does not apply.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9.1.6"
+      }
+    },
+    {
+      "id": "R-0005",
+      "text": "Table 1 List of symbols Lamp (function) Symbol Paragraph Daytime running lamp RL 5.4. Front direction indicator lamp 1, 1a, 1b, 11, 11a, 11b, 11c 5.6. Front end-outline marker lamp AM 5.1. Front position lamp for category L vehicle MA 5.1. Front position lamp A 5.1. Manoeuvring lamp ML 5.10. Parking lamp (Forward and rearward facing) 77R 5.3. Rear direction indicator lamp (steady) 2a 5.6. Rear direction indicator lamp (variable) 2b 5.6. Rear direction indicator lamp for category L vehicle 12 5.6. Rear end-outline marker lamp (steady) RM1 5.2. Rear end-outline marker lamp (variable) RM2 5.2. Rear fog lamp (steady) F1 5.9. Rear fog lamp (variable) F2 5.9. Rear position lamp for category L vehicle MR 5.2. Rear position lamp (steady) R1 5.2. Lamp (function) Symbol Paragraph Rear position lamp (variable) R2 5.2. Rear-registration plate illuminating lamp L 5.11. Rear-registration plate illuminating lamp for category L vehicle LM1 5.11. Reversing lamp (note: the letters A and R may be mingled) AR 5.8. Side direction indicator lamp 5, 6 5.6. Side marker lamp for all vehicle categories SM1 5.7. Side marker lamp for M1 vehicles SM2 5.7. Stop lamp (central high mounted) (steady) S3 5.5. Stop lamp (central high mounted) (variable) S4 5.5. Stop lamp for category L vehicle MS 5.5. Stop lamp (steady) S1 5.5. Stop lamp (variable) S2 5.5. Reversing projector RP 5.12.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 4,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "R-0006",
+      "text": "6.8.9. Other requirements When the rear registration plate lamp is combined with the rear position lamp, reciprocally incorporated in the stop lamp or in the rear fog lamp, the photometric characteristics of the rear registration plate lamp may be modified during the entire time the stop lamp or the rear fog lamp is switched ON.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 48,
+        "paragraph": "6.8.9"
+      }
+    },
+    {
+      "id": "R-0007",
+      "text": "Table 2 Series of amendments and change index Series of amendments to the Regulation 00 01 Lamp (function) Change Index for the specific Lamp (function) Daytime running lamp 0 1 Front direction indicator lamp 0 1 Front direction indicator lamp (Vehicle category L) 0 1 Front end-outline marker lamp 0 1 Front position lamp 0 1 Front position lamp (Vehicle category L) 0 1 Manoeuvring lamp 0 1 Parking lamp 0 1 Rear direction indicator lamp 0 1 Rear direction indicator lamp (Vehicle category L) 0 1 Rear end-outline marker lamp 0 1 Rear fog lamp 0 1 Rear position lamp 0 1 Series of amendments to the Regulation 00 01 Lamp (function) Change Index for the specific Lamp (function) Rear position lamp (Vehicle category L) 0 1 Rear-registration plate illuminating lamp 0 1 Rear-registration plate illuminating lamp (Vehicle category L) 0 1 Reversing lamp 0 1 Side direction indicator lamp 0 1 Side marker lamp 0 1 Stop lamp 0 1 Stop lamp (Vehicle category L) 0 1 Stop lamp (central high mounted) 0 1 Reversing projector - 0 Notes to Table 2: A dash “-” means that this lamp (function) is not available for type approvals according to the corresponding series of amendments.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 5,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "R-0008",
+      "text": "Annex 1 Communication (Maximum format: A4 (210 x 297 mm)) issued by: Name of Administration: ………………………....................................... ………………………....................................... ………………………....................................... ………………………....................................... Concerning:2 Approval granted Approval extended Approval refused Approval withdrawn Production definitively discontinued of a type of lamp pursuant to UN Regulation No.148 Lamp:2 Rear-registration plate illuminating lamp Direction indicator lamp Stop lamp Position lamp End-outline marker lamp Reversing lamp Manoeuvring lamp Rear fog lamp Parking lamp Daytime running lamp Side marker lamp Reversing projector Category of the lamp: Change index: Approval No: 1Distinguishing number of the country which has granted/extended/refused/withdrawn approval (see approval provisions in this Regulation). 2Strike out what does not apply.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 29,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "R-0009",
+      "text": "5.11.5.2. Incidence of the light The manufacturer of the rear registration plate illuminating lamp shall specify one or more or a field of positions in which the device is to be fitted in relation to the space for the registration plate; when the lamp is placed in the position(s) specified by the manufacturer the angle of incidence of the light on the surface of the plate does not exceed 82° at any point on the surface to be illuminated, this angle being measured from the extremity of the device's illuminating area which is furthest from the surface of the plate. If there is more than one part, the foregoing requirement shall apply only to that part of the plate intended to be illuminated by the device concerned. When the device has one outer edge of the illuminating surface that is parallel to the surface of the registration plate, the extremity of the illuminating surface of the device which is furthest from the surface of the plate is the middle point of the edge of the illuminating surface, which is parallel to the plate and is furthest from the surface of the plate. The device must be so designed that no light is emitted directly towards the rear, with the exception of red light if the device is combined or grouped with a rear lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 26,
+        "paragraph": "5.11.5.2"
+      }
+    },
+    {
+      "id": "R-0010",
+      "text": "6.18.9. Other requirements When the rearmost side-marker lamp is combined with the rear position lamp reciprocally incorporated with the rear fog-lamp or stop lamp, the photometric characteristics of the side-marker lamp may be modified during the entire time of the rear fog lamp or stop lamp are switched ON. Rear side-marker lamps shall be amber if they flash with the rear direction-indicator lamp. When an optional side-marker lamp is grouped or combined with a position lamp that is reciprocally incorporated or grouped with the direction indicator, the electrical connection of the side-marker lamp on the relevant side of the vehicle may be such that it is switched OFF during the entire period (both ON and OFF cycle) of activation of the direction indicator lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.18.9"
+      }
+    },
+    {
+      "id": "R-0011",
+      "text": "4.8.3.5. If a rear position lamp and/or a rear end-outline marker lamp is reciprocally incorporated with a stop lamp producing either steady or variable luminous intensity, the ratio between the luminous intensities actually measured of the two lamps when turned on simultaneously at the intensity of the rear position lamp or end-outline marker lamp when turned on alone should be at least 5:1 in the field delimited by the straight horizontal lines passing through ±5° V and the straight vertical lines passing through ±10° H of the light distribution table. If the one or both of the two reciprocally incorporated lamps contain(s) more than one light source and is (are) considered as a single lamp, the values to be considered are those obtained with all sources in operation;",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "4.8.3.5"
+      }
+    },
+    {
+      "id": "R-0012",
+      "text": "6.15.7. Other requirements The illuminating surface of the retro-reflector may have parts in common with the apparent surface of any other lamp situated at the rear.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.15.7"
+      }
+    },
+    {
+      "id": "R-0013",
+      "text": "6.14.7. Other requirements The illuminating surface of the retro-reflector may have parts in common with the apparent surface of any other lamp situated at the rear.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.14.7"
+      }
+    },
+    {
+      "id": "R-0014",
+      "text": "4.5.3.1. However, in the case of a rear position lamp reciprocally incorporated with a stop lamp, these functions shall either: (a) be provided by multiple light sources (for instance, a double filament light source); or (b) be intended for use in a vehicle equipped with a tell-tale indicating failure for the lamps. In either case, a note shall be made within the communication document.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.3.1"
+      }
+    },
+    {
+      "id": "R-0015",
+      "text": "2.5.13. \"Parking lamp\" means a lamp which is used to draw attention to the presence of a stationary vehicle in a built-up area. In such circumstances it replaces the front and rear position lamps. 2.5.14. \"End-outline marker lamp \" means the lamp fitted near to the extreme outer edge and as close as possible to the top of the vehicle and intended to indicate clearly the vehicle's overall width. This lamp is intended, for certain vehicles and trailers, to complement the vehicle's front and rear position lamps by drawing particular attention to its bulk.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.13"
+      }
+    },
+    {
+      "id": "R-0016",
+      "text": "2.5.7. \"Rear position lamp\" means the lamp used to indicate the presence and width of the vehicle when viewed from the rear.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 5,
+        "paragraph": "2.5.7"
+      }
+    },
+    {
+      "id": "R-0017",
+      "text": "Table A8-1 Points in time for additional testing Lamp (function) Time after switch ON (seconds) Reference coordinate Rear-registration plate illumination 4 any measurement point given in Annex 3 Direction Indicator Cat 1, 2, 11, 12 0.2 HV Direction Indicator Cat 5, 6 0.2 H5, V0 Front and rear position 4 HV Stop 0.2 HV End-outline marker 4 HV Reversing 0.2 HV Manoeuvring N.A. N.A. Rear fog 4 HV Parking 4 HV Daytime running 4 HV Side marker 4 HV",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 47,
+        "paragraph": "Table A8-1"
+      }
+    },
+    {
+      "id": "R-0018",
+      "text": "4.6.2. In case of failure of the variable intensity control of: (a) A rear position lamp category R2 emitting more than the maximum value of category R1; (b) A rear end-outline marker lamp category RM2 emitting more than the maximum value of category RM1; (c) A stop lamp category S2 emitting more than the maximum value of category S1; (d) A stop lamp category S4 emitting more than the maximum value of category S3; (e) A direction indicator of category 2b emitting more than the maximum value of category 2a; (f) A rear fog lamp of category F2 emitting more than the maximum value of category F1. Requirements of steady luminous intensity of the respective category shall be fulfilled automatically.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2"
+      }
+    },
+    {
+      "id": "R-0019",
+      "text": "Part 5 - Example of illuminating surface in comparison with light-emitting surface in the case of a \"single function lamp\" (see paragraphs 2.10.2. to 2.10.3. of this Regulation) Examples of a light source with a reflector optic behind an outer lens: Example 1 Example 2 [figure not available] (Including the outer lens) (Excluding the non-textured outer lens) Examples of a light source with a reflector optic with a inner lens behind an outer lens: Example 3 Example 4 (Including the outer lens) (Excluding the non-textured outer lens) Examples of a light source with a reflector optic with a partial inner lens behind an outer lens: Example 5 Example 6 (Including the outer lens) (Excluding the non-textured outer lens) Example of a light guide optic behind an outer lens: Example 7 Example of a light guide optic or a reflector optic behind an outer lens: Example 8 Example of a light source with a reflector optic in combination with an area which is not part of this function, behind an outer lens: Example 9",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 97,
+        "paragraph": "Part 5"
+      }
+    },
+    {
+      "id": "R-0020",
+      "text": "6.5.5.2. Or, at the discretion of the manufacturer, for M1 and N1 category vehicles: Front and rear direction indicator lamps, as well as side-marker lamps (**). Horizontal angles: (see figure below) (**) The value of 5° given for the dead angle of visibility to the rear of the side direction-indicator is an upper limit. d ≤ 2.50 m However, for the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the inward angle of 45° may be reduced to 20° under the H plane. Vertical angles: 15° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the downward angle of 15° may be reduced to 5°. To be considered visible, the lamp shall provide an unobstructed view of the apparent surface of at least 12.5 square centimetres, except for side direction-indicators of categories 5 and 6. The illuminating surface area of any retro-reflector that does not transmit light shall be excluded.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.5.2"
+      }
+    },
+    {
+      "id": "R-0021",
+      "text": "6.10. Rear position lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 50,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "R-0022",
+      "text": "6.10.5.2. For M1 and N1 category vehicles, as an alternative to paragraph 6.10.5.1. above, at the discretion of the manufacturer or his duly accredited representative, and only if a rear side-marker lamp is installed on the vehicle, Horizontal angle: 45° outwards to 45° inwards. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the inward angle of 45° may be reduced to 20° under the H plane. Vertical angle: 15° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 15° may be reduced to 5°. To be considered visible, the lamp shall provide an unobstructed view of the apparent surface of at least 12.5 square centimetres. The illuminating surface area of any retro-reflector that does not transmit light shall be excluded.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.10.5.2"
+      }
+    },
+    {
+      "id": "R-0023",
+      "text": "6.11.4.2. In height: not less than 250 mm nor more than 1,000 mm above the ground. For rear fog lamps grouped with any rear lamp the maximum height may be increased to 1,200 mm. For categories N2G, N3G, M2G, M3G (off-road) vehicles the maximum height may be increased to 1,400 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.4.2"
+      }
+    },
+    {
+      "id": "R-0024",
+      "text": "6.11.9. Other requirements In all cases, the distance between the rear fog-lamp and each stop-lamp shall be greater than 100 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.9"
+      }
+    },
+    {
+      "id": "R-0025",
+      "text": "6.10.7. Electrical connections In accordance with paragraph 5.11. However, if a rear position lamp is reciprocally incorporated with a direction-indicator, the electrical connection of the rear position lamp on the relevant side of the vehicle or the reciprocally incorporated part of it may be such that it is switched OFF during the entire time (both ON and OFF cycle) of operation of the direction-indicator lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "R-0026",
+      "text": "6.5.5.1. Horizontal angles: (see figure below) Vertical angles: 15° above and below the horizontal for direction indicator lamps of categories 1, 1a, 1b, 2a, 2b and 5. However: (a) Where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the downward angle of 15° may be reduced to 5°; (b) Where an optional rear lamp is mounted above 2,100 mm (measured according to the provisions of paragraph 5.8.1. above) the upward angle of 15° may be reduced to 5°. 30° above and 5° below the horizontal for direction indicator lamps of category 6. Figure (see paragraph 6.5.) [figure not available] (*) The value of 5° given for dead angle of visibility to the rear of the side direction-indicator is an upper limit d ≤ 1.80 m (for M1 and N1 category vehicles d ≤ 2.50 m). For the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the inward angle of 45° may be reduced to 20° under the H plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.5.1"
+      }
+    },
+    {
+      "id": "R-0027",
+      "text": "2.10.2. \"Light emitting surface\" of a \"lighting device\", \"light-signalling device\" or a retro-reflector means the surface as declared in the request for approval by the manufacturer of the device on the drawing, see Annex 3 (see e.g. Parts 1, and 4). This shall be declared according to one of the following conditions: (a) In the case where the outer lens is textured, the declared light emitting surface shall be all or part of the exterior surface of the outer lens; (b) In the case where the outer lens is non-textured the outer lens may be disregarded and the light emitting surface shall be as declared on the drawing, see Annex 3 (see e.g. Part 5).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 9,
+        "paragraph": "2.10.2"
+      }
+    },
+    {
+      "id": "R-0028",
+      "text": "5.7.1.1. The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with which this lamp is grouped, combined or reciprocally incorporated are switched OFF. However, when a front or rear position lamp is reciprocally incorporated with one or more other function(s) which can be switched ON together with them, the requirements regarding colour of each of these other functions shall be fulfilled when the reciprocally incorporated function(s) and the front or rear position lamps are switched ON.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.1.1"
+      }
+    },
+    {
+      "id": "R-0029",
+      "text": "Annex 3 Examples of lamp surfaces, axes, centres of reference, and angles of geometric visibility These examples show some arrangements to aid the understanding of the provisions and are not intended to be design restrictive. KEY for all examples in this annex: 1. Illuminating surface IO Inner optical part 2. Axis of reference LG Light guide 3. Centre of reference L Outer lens 4. Angle of geometric visibility R Reflector 5. Light-emitting surface S Light source 6. Apparent surface based on the illuminating surface X Not part of this 7a. Apparent surface based on the light-emitting surface according to paragraph 2.10.2. (a) (with function outer lens) F1 Function one 7b. Apparent surface based on the light-emitting surface according to paragraph 2.10.2. (b) F2 Function two (without outer lens)",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 93,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "R-0030",
+      "text": "2.5.12. \"Reversing lamp\" means the lamp used to illuminate the road to the rear of the vehicle and to warn other road-users that the vehicle is reversing or about to reverse.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.12"
+      }
+    },
+    {
+      "id": "R-0031",
+      "text": "5.5.4.1. In the case of a category S3 or S4 stop lamp, which is intended to be mounted inside the vehicle, the colorimetric characteristics shall be verified with the worst-case combination(s) of lamp and rear window(s) or sample plate(s).",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.5.4.1"
+      }
+    },
+    {
+      "id": "R-0032",
+      "text": "4.4.2. An interdependent lamp system to be type approved as lamps marked “Y” is applicable to front and rear position lamps, stop lamps, front and rear end-outline marker lamps, daytime running lamps and direction indicator lamps.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "R-0033",
+      "text": "5.7.2.1. Single lamps as defined in paragraph 2.14.11.1., subparagraph (a), the apparent surface of which is composed of two or more distinct parts, shall be installed in such a way that: (a) Either the total area of the projection of the distinct parts of the apparent surface in the direction of the reference axis on a plane tangent to the exterior surface of the outer lens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral circumscribing the projection of the said apparent surface in the direction of the reference axis; or (b) The minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm when measured perpendicularly to the reference axis. These requirements shall not apply to a single retro-reflector.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.2.1"
+      }
+    },
+    {
+      "id": "R-0034",
+      "text": "6.14.4.2. In height: Above the ground, not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any rear lamp(s), 1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm or 1200 mm respectively).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 55,
+        "paragraph": "6.14.4.2"
+      }
+    },
+    {
+      "id": "R-0035",
+      "text": "2.5.4. \"Stop lamp\" means a lamp used to indicate to other road users to the rear of the vehicle that the longitudinal movement of the vehicle is intentionally retarded.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 5,
+        "paragraph": "2.5.4"
+      }
+    },
+    {
+      "id": "R-0036",
+      "text": "6.21.7.3. The distance between the conspicuity marking fitted to the rear of a vehicle and each mandatory stop lamp should be greater than 200 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 67,
+        "paragraph": "6.21.7.3"
+      }
+    },
+    {
+      "id": "R-0037",
+      "text": "6.15.4.2. In height: Above the ground, not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any rear lamp(s),1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm or 1,200 mm respectively).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.15.4.2"
+      }
+    },
+    {
+      "id": "R-0038",
+      "text": "4.4.1. An assembly of two independent lamps to be type approved as lamp marked \"D\" is applicable to front and rear position lamps, stop lamps, front and rear end-outline marker lamps, daytime running lamps and direction indicator lamps;",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "R-0039",
+      "text": "Table A2-1 Angles of geometric visibility, horizontal and vertical Lamp Minimum horizontal angles Minimum vertical angles Additional (inboard / outboard) (above / below) information Front direction indicator (1, 1a, 45°/80° 15°/15° - 1b) (20°/80°) a (15°/5°) b Rear direction indicator (2a, 2b) 45°/80° 15°/15° (15°/5°) b - (20°/80°) a (5°/15°) c Front/rear direction indicator (11, 20°/80° 15°/15° (15°/5°) b - 11a, 11b, 11c, 12) Front/rear position singular (MA, 80°/80° 15°/10° (15°/5°) b - MR) Front/rear position pair (MA, MR) 20°/80° 15°/10° (15°/5°) b - Stop singular (MS) 45°/45° 15°/10° (15°/5°) b - Stop pair (MS) 0°/45° 15°/10° (15°/5°) b - Front/rear position (A, R1, R2) 45°/80° (20°/80°) a 15°/15° (15°/5°) b (5°/15°) c - Front/rear parking (77R) 0°/45° 15°/15° (15°/5°) b - Front/rear end-outline marker 0°/80° 15°/15° (15°/5°) b (5°/15°) c - (AM, RM1, RM2) Stop lamp (S1, S2) 45°/45° (20°/45°) a 15°/15° (15°/5°) b (5°/15°) c - High mounted stop lamp (S3, S4) 10°/10° 10° / 5° - Daytime running lamps (RL) 20°/20° 10° / 5° - Notes to Table A2-1: a Reduced angles used only below the H-plane for lamps mounted with the H-plane below 750 mm. b For lamps to be installed with the H-plane of the lamp at a mounting height of less than 750 mm. c Optional lamps to be installed with the H-plane of the lamp at a mounting height of more than 2,100 mm.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Table A2-1"
+      }
+    },
+    {
+      "id": "R-0040",
+      "text": "6.24.9.2. Approved lamps emitting white light with the exception of main beam head lamps, daytime running lamps and reversing lamps may be switched ON as exterior courtesy lamp(s). In addition, rear position lamps, the parking lamps, the side marker lamps and/or the end-outline marker lamps may be switched ON. The conditions of paragraphs 5.11. and 5.12. above may not apply.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 76,
+        "paragraph": "6.24.9.2"
+      }
+    },
+    {
+      "id": "R-0041",
+      "text": "6.15. Rear retro-reflector, triangular",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.15"
+      }
+    },
+    {
+      "id": "R-0042",
+      "text": "4.8.3.3. An interdependent lamp system shall meet the requirements when all its interdependent lamps are operated together. However: (a) If the interdependent lamp system providing the rear position lamp is partly mounted on the fixed component and partly mounted on a movable component, the interdependent lamp(s) specified by the applicant shall meet the outboard geometric visibility colorimetric and photometric requirement, at all fixed positions of the movable component(s). In this case, the inboard geometric visibility requirement is deemed to be satisfied if this (these) interdependent lamp(s) still conform to the photometric values prescribed in the field of light distribution for the approval of the device, at all fixed positions of the moveable component(s); (b) If the interdependent lamp system providing the rear direction indicator function is partly mounted on the fixed component and partly mounted on a movable component, the interdependent lamp(s) specified by the applicant shall meet the geometric visibility, colorimetric and photometric requirement, at all fixed positions of the movable component(s). This does not apply to interdependent direction indicator lamp(s) intended for fitting on vehicle(s) where, to fulfil or complete the geometric visibility angle, additional lamps are activated when the movable component is in any fixed open position, provided that these additional lamps satisfy all the position, photometric and colorimetric requirements applicable to the direction indicator lamps installed on the movable component.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.3"
+      }
+    },
+    {
+      "id": "R-0043",
+      "text": "5.10.4.2. For the visibility of white light towards the rear of a vehicle, with the exception of reversing lamps and white side conspicuity markings, there shall be no direct visibility of the apparent surface of a white lamp if viewed by an observer moving within Zone 2 in a transverse plane situated 25 m behind the vehicle (see Annex 4);",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.10.4.2"
+      }
+    },
+    {
+      "id": "R-0044",
+      "text": "4.5.5. On request of the applicant, the internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) may incorporate only one manufacturer logo build by transparent or non-transparent components provided that all requirements for the specific function of this Regulation are fulfilled and in addition the following conditions: (a) Irrespective of the marking requirements in paragraph 3.3., only the logo of the brand name of the vehicle manufacturer or the body manufacturer is allowed. This shall be confirmed by the applicant by a statement (see paragraph 3.1.2.2. (f)). (b) Size: the enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of such a lamp in the direction of the reference axis shall not exceed 100 cm2. (c) Symmetry: notwithstanding the requirements of paragraph 5.5.2. of UN Regulation No. 48, the logo light emitting surface (incorporating transparent and non-transparent components of the logo) does not have to be symmetrical by itself. (d) Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.5"
+      }
+    },
+    {
+      "id": "R-0045",
+      "text": "6.14. Rear retro-reflector, non-triangular",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 55,
+        "paragraph": "6.14"
+      }
+    },
+    {
+      "id": "R-0046",
+      "text": "Table 4 Luminous intensities for rear position and rear end-outline marker lamps Rear position Minimum Maximum luminous Standard light Angles of geometric lamps, rear end- luminous intensity in cd when used as distribution (Par. visibility (Par. 4.8.3.1. (d)) outline marker intensity in cd (Par. 4.8.3.1. (b)) 4.8.3.1. (c)) lamps of categories (Par. 4.8.3.1. (a)) A single A lamp marked Definition Minimum lamp \"D\" (Par. luminous 3.3.2.5.2.) intensity in cd R1, MR or RM1 4∙100 1.7∙101 8.5∙100 Figure A3-I Table A2- 5∙10-2 (steady) 1 R2 or RM2 4∙100 4.2∙101 2.1∙101 Figure A3-I Table A2- 5∙10-2 (variable) 1",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "Table 4"
+      }
+    },
+    {
+      "id": "R-0047",
+      "text": "5.7.2.3. Single lamps as defined in paragraph 2.4.11.1., subparagraph (d) shall fulfil the requirements of paragraph 5.7.2.1. Where two or more lamps and/or two or more separate apparent surfaces are included into the same lamp body and/or have a common outer lens these shall not be considered as an interdependent lamp system. However, a lamp in the shape of a band or strip may be part of an interdependent lamp system.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.2.3"
+      }
+    },
+    {
+      "id": "R-0048",
+      "text": "2.10.3.1. \"Illuminating surface of a lighting device\" (paragraphs 2.5.1., 2.5.2., 2.5.10., 2.5.12. and 2.5.17.) means the orthogonal projection of the full aperture of the reflector, or in the case of headlamps with an ellipsoidal reflector of the \"projection lens\", on a transverse plane. If the lighting device has no reflector, the definition of paragraph 2.10.3.2. shall be applied. If the light emitting surface of the lamp extends over part only of the full aperture of the reflector, then the projection of that part only is taken into account. In the case of a dipped-beam headlamp, the illuminating surface is limited by the apparent trace of the cut-off on to the lens. If the reflector and lens are adjustable relative to one another, the mean adjustment should be used. In the case of AFS being installed: where a lighting function is produced by two or more simultaneously operated lighting units on a given side of the vehicle, the individual illuminating surfaces, taken together, constitute the illuminating surface to be considered (for example, in the figure of paragraph 6.22.4. below, the individual illuminating surfaces of the lighting units 8, 9 and 11, regarded together and taking into account their respective location, constitute the illuminating surface to be considered for the right hand side of the vehicle).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 10,
+        "paragraph": "2.10.3.1"
+      }
+    },
+    {
+      "id": "R-0049",
+      "text": "2.5.19. \"Manoeuvring lamp\" means a lamp used to provide supplementary illumination to the side and/or the rear of the vehicle to assist during slow manoeuvres.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.19"
+      }
+    },
+    {
+      "id": "R-0050",
+      "text": "9.3. The front position lamp2, rear position lamp2, stop lamp2, end-outline marker lamp2, daytime running lamp2, parking lamp2, reversing lamp2, rear fog lamp2 and side marker lamp2 is only for use on a vehicle fitted with a tell-tale indicating failure: yes/no2 2Strike out what does not apply.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 31,
+        "paragraph": "Annex 1 9.3"
+      }
+    },
+    {
+      "id": "R-0051",
+      "text": "2.12. \"Immunity related functions\" are the following functions; this list is not exhaustive and shall be adapted to the technical evolution of vehicle/technology: (a) Functions related to the direct control of the vehicle: (i) By degradation or change in: e.g. engine, gear, brake, suspension, active steering, speed limitation devices; (ii) By affecting drivers position: e.g. seat or steering wheel positioning; (iii) By affecting driver's visibility: e.g. dipped beam, windscreen wiper, indirect vision systems, blind spot systems. (b) Functions related to driver, passenger and other road user protection: (i) E.g. airbag and safety restraint systems, emergency calling systems; (c) Functions which, when disturbed, cause confusion to the driver or other road users: (i) Optical disturbances: incorrect operation of e.g. direction indicators, stop lamps, end outline marker lamps, rear position lamp, light bars for emergency system, wrong information from warning indicators, lamps or displays related to functions in subparagraphs (a) or (b) which might be observed in the direct view of the driver; (ii) Acoustical disturbances: incorrect operation of e.g. anti-theft alarm, horn. (d) Functions related to vehicle data bus functionality: (i) By blocking data transmission on vehicle data bus-systems, which are used to transmit data, required to ensure the correct functioning of other immunity related functions. (e) Functions which when disturbed affect vehicle statutory data: e.g. tachograph, odometer; (f) Functions related to charging mode when coupled to the power grid: (i) For vehicle test: by leading to unexpected vehicle motion; (ii) For ESA test: by leading to an incorrect charging condition (e.g. over-current, over-voltage).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 2,
+        "paragraph": "2.12"
+      }
+    },
+    {
+      "id": "R-0052",
+      "text": "6.11.7.3.1. The rear fog lamp(s) may continue to operate until the position lamps are switched OFF, and the rear fog lamp(s) shall then remain OFF until deliberately switched ON again;",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.3.1"
+      }
+    },
+    {
+      "id": "R-0053",
+      "text": "6.12.9. Other requirements The functioning of this lamp may also be performed by simultaneously switching ON the front and rear position lamps on the same side of the vehicle. In this case, lamps that meet the requirements of front or rear position lamps are deemed to meet the requirements of parking lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 53,
+        "paragraph": "6.12.9"
+      }
+    },
+    {
+      "id": "R-0054",
+      "text": "6.16.7. Other requirements The illuminating surface of the retro-reflector may have parts in common with the apparent surface of any other lamp situated at the front.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.7"
+      }
+    },
+    {
+      "id": "R-0055",
+      "text": "6.17.7. Other requirements The illuminating surface of the side retro-reflector may have parts in common with the apparent surface of any other side lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.7"
+      }
+    },
+    {
+      "id": "R-0056",
+      "text": "2.5.11. \"Rear fog lamp\" means a lamp used to make the vehicle more easily visible from the rear in dense fog.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.11"
+      }
+    },
+    {
+      "id": "R-0057",
+      "text": "6.11.7.5. The rear fog lamp(s) of a drawing motor vehicle may be automatically switched OFF while a trailer is connected and the rear fog lamp(s) of the trailer is (are) switched ON.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.5"
+      }
+    },
+    {
+      "id": "R-0058",
+      "text": "6.9.5.2. For M1 and N1 category vehicles, as an alternative to paragraph 6.9.5.1. above, at the discretion of the manufacturer or his duly accredited representative, and only if a front side-marker lamp is installed on the vehicle: Horizontal angle: 45° outwards to 45° inwards. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the inward angle of 45° may be reduced to 20° under the H plane. Vertical angle: 15° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 15° may be reduced to 5°. To be considered visible, the lamp shall provide an unobstructed view of the apparent surface of at least 12.5 cm2. The illuminating surface area of any retro-reflector that does not transmit light shall be excluded.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.5.2"
+      }
+    },
+    {
+      "id": "R-0059",
+      "text": "6.19.7.5. When daytime running lamps are switched ON, the rear position lamps shall be switched ON. In addition, any other lamp(s) mentioned in paragraph 5.11. may also be switched ON. However, the rear position lamps and the other lamp(s) mentioned in paragraph 5.11. may be switched OFF when the daytime running lamps are switched ON, and may remain switched OFF as long as the ambient light conditions outside vehicle are above 7,000 lux (measured according to the requirements of Annex 13).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 61,
+        "paragraph": "6.19.7.5"
+      }
+    },
+    {
+      "id": "R-0060",
+      "text": "6.11.7.2. The rear fog-lamp(s) can be switched OFF independently of any other lamp;",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.2"
+      }
+    },
+    {
+      "id": "R-0061",
+      "text": "6.18.1. Presence Mandatory: On all vehicles the length of which exceeds 6 m, except for chassis-cabs. The SM1 type of side-marker lamp shall be used on all categories of vehicles; however the SM2 type of side- marker lamps may be used on the M1 category of vehicles. In addition, on M1 and N1 category vehicles less than 6 m in length, side-marker lamps shall be used, if they supplement the reduced geometric visibility requirements of front position lamps conforming to paragraph 6.9.5.2. and rear position lamps conforming to paragraph 6.10.5.2. Optional: On all other vehicles. The SM1 or SM2 types of side-marker lamps may be used.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.18.1"
+      }
+    },
+    {
+      "id": "R-0062",
+      "text": "5.11. The electrical connections shall be such that the front and rear position lamps, the end-outline marker lamps, if they exist, the side-marker lamps, if they exist, and the rear registration plate lamp can only be switched ON and OFF simultaneously.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "R-0063",
+      "text": "3.1.2. It shall be accompanied by: 3.1.2.1. drawings, sufficiently detailed to permit identification of the type and, if applicable, of the category of the lamp, showing: (a) Geometrically in what position(s) the lamp (and if applicable the rear window) may be mounted on the vehicle; (b) The axis of observation to be taken as the axis of reference in the tests (horizontal angle H = 0°, vertical angle V = 0°); and the point to be taken as the centre of reference during the tests; (c) The limit of the apparent surface of the function(s); (d) The space reserved and the arrangement intended for the approval marking; (e) In case of replaceable source module(s), the module(s) and the space reserved for the specific identification code(s) of the module(s) on the lamp and on the module(s); (f) In the case of an interdependent lamp system, the interdependent lamp or the combination of interdependent lamps that fulfil the relevant requirements. (g) In the case of a lamp that may incorporate a vehicle manufacturer logo, the vehicle manufacturer logo.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 2,
+        "paragraph": "3.1.2"
+      }
+    },
+    {
+      "id": "R-0064",
+      "text": "1 Scope This Regulation applies to the following light-signalling devices (lamps): • Rear-registration plate illuminating lamps • Direction indicator lamps • Position lamps • Stop lamps • End-outline marker lamps • Reversing lamps • Manoeuvring lamps • Rear fog lamps • Parking lamps • Daytime running lamps • Side marker lamps • Reversing projectors.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 1,
+        "paragraph": "1"
+      }
+    },
+    {
+      "id": "R-0065",
+      "text": "6.5.3. Arrangements (see figure below) A: Two front direction-indicator lamps of the following categories: 1 or 1a or 1b, If the distance between the edge of the apparent surface in the direction of the reference axis of this lamp and that of the apparent surface in the direction of the reference axis of the dipped-beam headlamp and/or the front fog lamp, if there is one, is at least 40 mm; 1a or 1b, If the distance between the edge of the apparent surface in the direction of the reference axis of this lamp and that of the apparent surface in the direction of the reference axis of the dipped-beam headlamp and/or the front fog lamp, if there is one, is greater than 20 mm and less than 40 mm; 1b, If the distance between the edge of the apparent surface in the direction of the reference axis of this lamp and that of the apparent surface in the direction of the reference axis of the dipped-beam headlamp and/or the front fog lamp, if there is one, is less than or equal to 20 mm; Two rear direction-indicator lamps (category 2a or 2b); Two optional lamps (category 2a or 2b) on all vehicles in categories M2, M3, N2, N3. Two side direction-indicator lamps of the categories 5 or 6 (minimum requirements): 5 For all M1 vehicles; For N1, M2 and M3 vehicles not exceeding 6 metres in length. 6 For all N2 and N3 vehicles; For N1, M2 and M3 vehicles exceeding 6 metres in length. It is permitted to replace category 5 side direction-indicator lamps by category 6 side direction-indicator lamps in all instances Where lamps combining the functions of front direction-indicator lamps (categories 1, 1a, 1b) and side direction- indicator lamps (categories 5 or 6) are fitted, two additional side direction- indicator lamps (categories 5 or 6) may be fitted to meet the visibility requirements of paragraph 6.5.5. B: two rear direction-indicator lamps (Categories 2a or 2b) Two optional lamps (category 2a or 2b) on all vehicles in categories O2, O3 and O4. A maximum of three optional category 5 or",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "R-0066",
+      "text": "6.17.4.3. In length: at least one side retro-reflector shall be fitted to the middle third of the vehicle, the foremost side retro-reflector being not further than 3 m (4 m for semi-trailers) from the front. The distance between two adjacent side retro-reflectors shall not exceed 3 m. This does not, however, apply to M1 and N1 category vehicles. If the structure, design or the operational use of the vehicle makes it impossible to comply with such a requirement, this distance may be increased to 4 m. The distance between the rearmost side retro-reflector and the rear of the vehicle shall not exceed 1 m. However, for motor vehicles the length of which does not exceed 6 m, it is sufficient to have one side retro-reflector fitted within the first third and/or one within the last third of the vehicle length. However, for motor vehicles the length of which does not exceed 6 m, it is sufficient to have one side retro- reflector fitted within the first third and/or one within the last third of the vehicle length. For M1 vehicles the length of which exceeds 6 m but does not exceed 7 m it is sufficient to have one side retro-reflector fitted not further than 3 m from the front and one within the last third of the vehicle length.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.4.3"
+      }
+    },
+    {
+      "id": "R-0067",
+      "text": "6.11. Rear fog lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11"
+      }
+    },
+    {
+      "id": "R-0068",
+      "text": "5.10.1. Red light emitted by a lamp fitted on the rear of the vehicle (as defined in paragraph 2.1.5.) shall not be visible from the front of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "R-0069",
+      "text": "3.1.2.2. A brief technical description stating in particular (a) In case of lamps with replaceable UN approved light sources, the category or categories of light source(s) prescribed; (b) In case of lamps with replaceable light source module(s), the light source module specific identification code; (c) The make and type of electronic light source control gear(s) or variable intensity control(s) if any, and if not being part of the lamp. (d) In the case the lamp shall also be approved with LED substitute light source(s) according to UN Regulation No. 128, the category or categories of light sources(s) prescribed; (e) In the case a device is intended to be mounted inside the vehicle, the technical description shall contain the specification of the optical properties (transmission, colour, inclination, etc.) of the rear window(s). (f) In the case of a lamp that may incorporate a vehicle manufacturer logo, the applicant shall confirm by a statement provided by the vehicle manufacturer that the vehicle manufacturer logo is the official appropriate one related to the brand name of the vehicle manufacturer or body manufacturer.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 3,
+        "paragraph": "3.1.2.2"
+      }
+    },
+    {
+      "id": "R-0070",
+      "text": "Table A2-4 Field of visibility, horizontal and vertical 1. The field-of-visibility angles shown above relate only to the relative positions of the rear registration plate illuminating lamp and the space for the registration plate. 2. The field of visibility of the registration plate when mounted on the vehicle remains subject to the relevant national regulations. 3. The angles shown take account of the partial occultation caused by the rear registration plate illuminating lamp. They must be adhered to in the directions in which there is most occultation. The rear registration plate illuminating lamp must be such as to reduce the areas partly occulted to the minimum strictly necessary.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 35,
+        "paragraph": "Table A2-4"
+      }
+    },
+    {
+      "id": "R-0071",
+      "text": "Figure A7-II - The lamp bearing the approval marking shown on the left is a combination of a front position lamp Marking example 2 (A) and a front fog lamp (F3) with a plastic lens (PL) approved in France (E2), under approval number 3223 pursuant to this Regulation (148R) and the UN Regulation for Road Illumination Devices (149R). The number (01) mentioned after 148R and after 149R indicates that approval was granted in accordance with the requirements of the pertinent Regulation as set in the 01 series of amendments. 2. Approval marking of grouped, combined or reciprocally incorporated lamps Note: The vertical and horizontal lines schematize the shape of the light-signalling lamp. These lines are not part of the approval marking.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 45,
+        "paragraph": "Figure A7-II"
+      }
+    },
+    {
+      "id": "R-0072",
+      "text": "3.1.2.9. In the case of a reversing projector tested together with the reversing lamp according to the requirements of paragraph 5.12.1.2. (b), drawings showing the relative position of the projector and the lamp and the associated measurement report.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 3,
+        "paragraph": "3.1.2.9"
+      }
+    },
+    {
+      "id": "R-0073",
+      "text": "5.24. Any temporary fail-safe replacement of the light-signalling function of a rear position lamp is allowed, provided that the replacement function in case of a failure is similar in colour, main intensity and position to the function that has ceased to operate and provided that the replacement device remains operational in its original safety function. During replacement, a tell-tale on the dashboard (paragraph 2.3.5. of this Regulation) shall indicate occurrence of a temporary replacement and need for repair.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 26,
+        "paragraph": "5.24"
+      }
+    },
+    {
+      "id": "R-0074",
+      "text": "6.8. Rear registration plate lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 47,
+        "paragraph": "6.8"
+      }
+    },
+    {
+      "id": "R-0075",
+      "text": "6.12.7. Electrical connections The connection shall allow the parking lamp(s) on the same side of the vehicle to be switched ON independently of any other lamps. The parking lamp(s) and, if applicable, the front and rear position lamps according to paragraph 6.12.9. below, shall be able to operate even if the device which starts the propulsion system is in a position which makes it impossible for the propulsion system to operate. A device which automatically switches OFF these lamps as a function of time is prohibited.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 53,
+        "paragraph": "6.12.7"
+      }
+    },
+    {
+      "id": "R-0076",
+      "text": "6.17.5. Geometric visibility Horizontal angle: 45° to the front and to the rear. Vertical angle: 10° above and below the horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.5"
+      }
+    },
+    {
+      "id": "R-0077",
+      "text": "2.5.8. \"Retro-reflector\" means a device used to indicate the presence of a vehicle by the reflection of light emanating from a light source not connected to the vehicle, the observer being situated near the source. For the purposes of this Regulation the following are not considered as retro-reflectors:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 5,
+        "paragraph": "2.5.8"
+      }
+    },
+    {
+      "id": "R-0078",
+      "text": "3.3.2.5.1.1. The arrow shall be directed outwards from the vehicle in the case of: (a) Direction indicators categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12; (b) Front or rear position lamps, front or rear end-outline marker lamps; (c) Reversing lamps in case of reduced light distribution of two reversing lamps.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.1"
+      }
+    },
+    {
+      "id": "R-0079",
+      "text": "Annex 4 Visibility of a red lamp to the front and visibility of a white lamp to the rear (See paragraph 5.10.4. of this Regulation) In their respective planes, the zones 1 and 2 explored by the eye of the observer are bounded: - In height, by two horizontal planes 1 m and 2.2 m respectively above the ground; - In width, by two vertical planes which, forming to the front and to the rear respectively an angle of 15° outwards from the vehicle's median longitudinal plane, pass through the point or points of contact of vertical planes parallel to the vehicle's median longitudinal plane delimiting the vehicle's overall width; if there are several points of contact, the foremost shall correspond to the forward plane and the rearmost to the rearward plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 106,
+        "paragraph": "Annex 4"
+      }
+    },
+    {
+      "id": "R-0080",
+      "text": "5.12.1.2. In addition, outside of the projection area as defined by the individual specifications of UN Regulation No. 48, one of the following conditions shall be fulfilled: (a) The light emitted directly towards the rear of the vehicle shall not exceed 5∙10-1 cd within the angular field as defined below. (i) The vertical minimum angle φmin (in degrees) is: φmin = arctan ((1-h)/10); where h is mounting height in m (ii) The vertical maximum angle φmax (in degrees) is: φmax = φmin + 11.3 The measurement shall be limited to a horizontal angle ranging from +90° to -90° with respect to the line which cuts the reference axis and which is perpendicular to the vertical transversal plane of the vehicle. (b) When the apparent surfaces of the reversing projector and the apparent surface of the reversing lamp are arranged in such a way that: (i) Either the projection of the apparent surfaces in the direction of the reference axis of them occupies not less than 60 per cent of the smallest quadrilateral circumscribing the projections of the said apparent surfaces in the direction of the reference axis; or (ii) The minimum distance between the facing edges of the apparent surfaces in the direction of the reference axis of them does not exceed 75 mm when measured perpendicularly to the reference axis, the reversing projector shall be tested together with the reversing lamp and the integrated luminous intensity shall not exceed the maximum luminous intensity required in the Table 10.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 26,
+        "paragraph": "5.12.1.2"
+      }
+    },
+    {
+      "id": "R-0081",
+      "text": "6.27.9.1. The answer-back signal shall be provided by approved lighting and light-signalling devices and exterior courtesy lamps where in all these cases, the maximum luminous intensity per lamp does not exceed 700 cd on or above the HH line. However, front fog lamps, rear fog lamps and stop lamps are not permitted to be used.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.27.9.1"
+      }
+    },
+    {
+      "id": "R-0082",
+      "text": "6.13.9. Other requirements Provided that all other requirements are met, the mandatory or optional lamps, visible from the front and the mandatory or optional lamps visible from the rear on the same side of the vehicle may be combined into one device. Two of the lamps visible from the rear may be grouped, combined or reciprocally incorporated in accordance with paragraph 5.7. The position of an end-outline marker lamp in relation to corresponding position lamp shall be such that the distance between the projections on a transverse vertical plane of the points nearest to one another on the apparent surfaces in the direction of the respective reference axes of the two lamps considered is not less than 200 mm. The additional lamps, as specified in paragraph 6.13.2. (a), used to mark the rear end outline of the vehicle, the trailer or the semi-trailer shall be fitted in such a way to make it visible within the fields of vision of the approved main rear-view devices for indirect vision.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 54,
+        "paragraph": "6.13.9"
+      }
+    },
+    {
+      "id": "R-0083",
+      "text": "5.11. Rear registration plate illuminating lamp (L, LM1)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 25,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "R-0084",
+      "text": "Part 2 - Illuminating surface of a light-signalling device other than a retro-reflector",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 94,
+        "paragraph": "Part 2"
+      }
+    },
+    {
+      "id": "R-0085",
+      "text": "Part 1 - Light emitting surface of a light-signalling device other than a retro-reflector",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 94,
+        "paragraph": "Part 1"
+      }
+    },
+    {
+      "id": "R-0086",
+      "text": "2.8.1. \"Lens\" means the outermost component of the lamp (unit) which transmits light through the illuminating surface;",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 8,
+        "paragraph": "2.8.1"
+      }
+    },
+    {
+      "id": "R-0087",
+      "text": "6.4. Reversing lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "R-0088",
+      "text": "3.3.4.1. The approval marking shall be placed on an inner or outer part (transparent or not) of the lamp which is not designed to be separated from the transparent part of the lamp emitting the light.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.1"
+      }
+    },
+    {
+      "id": "R-0089",
+      "text": "Figure A3-I: Standard light distribution for front and rear position-, parking-, end-outline marker-, stop- and direction indicator lamps",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 36,
+        "paragraph": "Figure A3-I"
+      }
+    },
+    {
+      "id": "R-0090",
+      "text": "5.10.2. White light emitted by a lamp fitted on the front of the vehicle (as defined in paragraph 2.1.5.) shall not be visible from the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.2"
+      }
+    },
+    {
+      "id": "R-0091",
+      "text": "Table 1 List of retro-reflective devices and their symbols Retro-reflective devices Symbol Minimum “a” for Paragraph examples of figures in Annex 10 (values in mm) Retro-reflector for motor vehicles (independent) IA 5 5.1. Retro-reflector for motor vehicles (combined with other signal lamps IB 5 5.1. which are not watertight) Retro-reflector for trailers (independent) IIIA 5 5.1. Retro-reflector for trailers (combined with other signal lamps which are not IIIB 5 5.1. watertight) Wide-angle retro reflector IVA 5 5.1. Retro-reflective marking material (Conspicuity marking, material for C 8 5.2. contour/strip marking) Retro-reflective marking material (Conspicuity marking, material for D 8 5.2. distinctive markings/graphics intended for a limited area) Retro-reflective marking material (Conspicuity marking, material for E 8 5.2. distinctive markings/graphics intended for an extended area) Retro-reflective devices Symbol Minimum “a” for Paragraph examples of figures in Annex 10 (values in mm) Retro-reflective marking material (Conspicuity marking, materials for D/E 8 5.2. distinctive markings or graphics as base or background in printing process for fully coloured logos and markings of class E in use which fulfil the requirements of class D materials) Retro-reflective marking material (material for extremities marking of F 8 5.2. class F) Retro-reflective marking plates for long or heavy vehicles (comprising RF 5 5.2. retro-reflective and fluorescent materials) Marking plate of class 1 or class 2 Retro-reflective marking plates for long or heavy vehicles (comprising RR 5 5.2. retro-reflective only materials) Marking plate of class 3, class 4 or class 5 Retro-reflective marking plates for slow moving vehicles (comprising RF 5 5.2. retro-reflective and fluorescent materials) Marking plate of class 1 Retro-reflective marking plates for slow moving vehicles (comprising RR 5 5.2. retro-reflective only materials) - Marking plate of class 2 Advance Warning Triangle (Type 1) WT",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 5,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "R-0092",
+      "text": "4.8.1.9. The limits of the apparent surface in the direction of the reference axis of a light-signalling lamp shall be determined. However, in the case of category 5 and 6 direction indicators, the limits of the light emitting surface shall be determined. This requirement shall not apply to rear-registration plate illuminating lamps.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.1.9"
+      }
+    },
+    {
+      "id": "R-0093",
+      "text": "3.1.2.8. In the case of a lamp which is intended to be mounted inside the vehicle, a sample plate or sample plates (in case of different possibilities) having the equivalent optical properties corresponding to those of the actual rear window(s).",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 3,
+        "paragraph": "3.1.2.8"
+      }
+    },
+    {
+      "id": "R-0094",
+      "text": "6.12.3. Arrangement Either two lamps at the front and two lamps at the rear, or one lamp on each side.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.12.3"
+      }
+    },
+    {
+      "id": "R-0095",
+      "text": "6.7. Stop lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "id": "R-0096",
+      "text": "9.1.3. A reversing lamp: The lamp shall be installed on a vehicle only as part of a pair of lamps: yes/no2 2Strike out what does not apply.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9.1.3"
+      }
+    },
+    {
+      "id": "R-0097",
+      "text": "6.20.7.2. When the reversing lamp is switched ON, both cornering lamps may be switched ON simultaneously, independently from the steering wheel position or direction-indicator operation. If so switched ON, both cornering lamps shall be switched OFF either: (a) When the reversing lamp is switched OFF; or (b) When the forward speed of the vehicle exceeds 15 km/h.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.7.2"
+      }
+    },
+    {
+      "id": "R-0098",
+      "text": "2.5.6. \"Front position lamp\" means the lamp used to indicate the presence and the width of the vehicle when viewed from the front.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 5,
+        "paragraph": "2.5.6"
+      }
+    },
+    {
+      "id": "R-0099",
+      "text": "5.12.1.2. The substituting lamp/function meets, for the respective position lamp, the requirements concerning: (a) The geometric visibility prescribed for the front position lamps in 6.9.5; and (b) The minimum photometric values according to the angles of light distribution; and",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.12.1.2"
+      }
+    },
+    {
+      "id": "R-0100",
+      "text": "2.10.3.3. \"Illuminating surface of a retro-reflector\" (paragraph 2.5.8.) means, as declared by the applicant during the component approval procedure for the retro-reflectors, the orthogonal projection of a retro-reflector in a plane perpendicular to its axis of reference and delimited by planes contiguous to the declared outermost parts of the retro-reflectors' optical system and parallel to that axis. For the purposes of determining the lower, upper and lateral edges of the device, only horizontal and vertical planes shall be considered.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 10,
+        "paragraph": "2.10.3.3"
+      }
+    },
+    {
+      "id": "R-0101",
+      "text": "6.18.4.3. In length: at least one side-marker lamp shall be fitted to the middle third of the vehicle, the foremost side-marker lamp being not further than 3 m (4 m for semi-trailers) from the front. The distance between two adjacent side-marker lamps shall not exceed 3 m. If the structure, design or the operational use of the vehicle makes it impossible to comply with such a requirement, this distance may be increased to 4 m. The distance between the rearmost side-marker lamp and the rear of the vehicle shall not exceed 1 m. However, for vehicles the length of which does not exceed 6 m and for chassis-cabs it is sufficient to have one side-marker lamp fitted within the first third and/or within the last third of the vehicle length. For M1 vehicles the length of which exceeds 6 m but does not exceed 7 m it is sufficient to have one side-marker lamp fitted not further than 3 m from the front and one within the last third of the vehicle length.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 59,
+        "paragraph": "6.18.4.3"
+      }
+    },
+    {
+      "id": "R-0102",
+      "text": "5.9.5. Additional specific requirements: The rear fog lamp shall be subjected to the heat resistance test specified in Annex 6.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 24,
+        "paragraph": "5.9.5"
+      }
+    },
+    {
+      "id": "R-0103",
+      "text": "Part A: Position, end-outline marker, stop, front and rear direction indicators, daytime running and front and rear parking lamps Figures A2-I: Angles of geometric visibility, horizontal and vertical Horizontal angles Vertical angles",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Part A"
+      }
+    },
+    {
+      "id": "R-0104",
+      "text": "6.16. Front retro-reflector, non-triangular",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.16"
+      }
+    },
+    {
+      "id": "R-0105",
+      "text": "6.9.4.4. Where the front position lamp and another lamp are reciprocally incorporated, the apparent surface in the direction of the reference axis of the other lamp shall be used to verify compliance with the positioning requirements (paragraphs 6.9.4.1. to 6.9.4.3.).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.4.4"
+      }
+    },
+    {
+      "id": "R-0106",
+      "text": "6.17. Side retro-reflector, non-triangular",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.17"
+      }
+    },
+    {
+      "id": "R-0107",
+      "text": "Table 2 Series of amendments and change index Series of amendments to the Regulation 00 01 Device Change Index for the specific device Retro-reflector for motor vehicles (independent) 0 1 Retro-reflector for motor vehicles (combined with other signal lamps which are not watertight) 0 1 Retro-reflector for trailers (independent) 0 1 Retro-reflector for trailers (combined with other signal lamps which are not watertight) 0 1 Wide-angle retro reflector 0 1 Retro-reflective marking material (Conspicuity marking, material for contour/strip marking) 0 1 Retro-reflective marking material (Conspicuity marking, material for distinctive markings/graphics 0 1 intended for a limited area) Retro-reflective marking material (Conspicuity marking, material for distinctive markings/graphics 0 1 intended for an extended area) Series of amendments to the Regulation 00 01 Device Change Index for the specific device Retro-reflective marking material (Conspicuity marking, materials for distinctive markings or 0 1 graphics as base or background in printing process for fully coloured logos and markings of class E in use which fulfil the requirements of class D materials) Retro-reflective marking material (material for extremities marking of class F) 0 1 Retro-reflective marking plates for long or heavy vehicles (comprising retro-reflective and fluorescent 0 1 materials) Marking plate of class 1 or class 2 Retro-reflective marking plates for long or heavy vehicles (comprising retro-reflective only materials) 0 1 Marking plate of class 3, class 4 or class 5 Retro-reflective marking plates for slow moving vehicles (comprising retro-reflective and fluorescent 0 1 materials) Marking plate of class 1 Retro-reflective marking plates for slow moving vehicles (comprising retro-reflective only materials) 0 1 - Marking plate of class 2 Advance Warning Triangle (Type 1) 0 1 Advance Warning Triangle (Type 2) 0 1 Notes to Table 2: A dash “-“ means that this device is not available for type approvals acc",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 6,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "R-0108",
+      "text": "2.4.2. \"Independent lamps\" means devices having separate apparent surfaces in the direction of the reference axis,1 separate light sources and separate lamp bodies. 1In the case of lighting devices for the rear registration plate and direction-indicators of categories 5 and 6, the \"light-emitting surface\" shall be used.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 3,
+        "paragraph": "2.4.2"
+      }
+    },
+    {
+      "id": "R-0109",
+      "text": "Part D: Rear-registration plate illuminating lamp, field of visibility Figures A2-IV Field of visibility, horizontal and vertical Vertical section Horizontal section",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 34,
+        "paragraph": "Part D"
+      }
+    },
+    {
+      "id": "R-0110",
+      "text": "7.2. Pattern The SMV rear marking plates shall have a red fluorescent centre and red retro-reflective borders made of either retro-reflective material or coating or of plastic corner-cube reflectors (class 1). The SMV rear marking plates of class 2 shall have a retro-reflective centre.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 39,
+        "paragraph": "Annex 5 Part 3 7.2"
+      }
+    },
+    {
+      "id": "R-0111",
+      "text": "2.5.17. \"Cornering lamp\" means a lamp used to provide supplementary illumination of that part of the road which is located near the forward corner of the vehicle at the side towards which the vehicle is going to turn. 2.5.18.“Exterior courtesy lamp” means a lamp used to provide supplementary illumination to assist the vehicle user to approach or depart, enter or exit, load or unload the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.17"
+      }
+    },
+    {
+      "id": "R-0112",
+      "text": "9.1.1. A rear-registration plate illuminating lamp:..................................... Geometrical conditions of installation (position(s) and inclination(s) of the device in relation to the space to be occupied by the registration plate and/or different inclinations of this space):",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9.1.1"
+      }
+    },
+    {
+      "id": "R-0113",
+      "text": "5.18. Rear position lamps, rear direction-indicators and rear retro-reflectors, triangular as well as non-triangular, may be installed on movable components only:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 25,
+        "paragraph": "5.18"
+      }
+    },
+    {
+      "id": "R-0114",
+      "text": "6.26.4.3. In length: Side mounted: in the case of the installation of more than one manoeuvring lamp, lamps shall be mounted as symmetrically as practicable along each side of the vehicle. The distance between two adjacent manoeuvring lamps on the same side shall not be less than 0.5 m. Rear mounted: at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.4.3"
+      }
+    },
+    {
+      "id": "R-0115",
+      "text": "2.10.3.2. \"Illuminating surface of a light-signalling device other than a retro-reflector\" (paragraphs 2.5.3. to 2.5.7., 2.6.1., 2.5.11. and 2.5.13. to 2.5.16.) means the orthogonal projection of the lamp in a plane perpendicular to its axis of reference and in contact with the exterior light-emitting surface of the lamp, this projection being bounded by the edges of screens situated in this plane, each allowing only 98 per cent of the total luminous intensity of the light to persist in the direction of the axis of reference. To determine the lower, upper and lateral limits of the illuminating surface only screens with horizontal or vertical edges shall be used to verify the distance to the extreme edges of the vehicle and the height above the ground. For other applications of the illuminating surface, e.g. distance between two lamps or functions, the shape of the periphery of this illuminating surface shall be used. The screens shall remain parallel, but other orientations are allowed to be used. In the case of a light-signalling device whose illuminating surface encloses either totally or partially the illuminating surface of another function or encloses a non-lighted surface, the illuminating surface may be considered to be the light emitting surface itself (see e.g. Annex 3, Parts 2, 3, 5 and 6).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 10,
+        "paragraph": "2.10.3.2"
+      }
+    },
+    {
+      "id": "R-0116",
+      "text": "6.11.7.1. The rear fog-lamp(s) cannot be switched ON unless the main beams, dipped-beams or front fog-lamps are switched ON;",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.1"
+      }
+    },
+    {
+      "id": "R-0117",
+      "text": "2.1. Standard light distribution for front and rear position lamps, parking lamps, front and rear end-outline marker lamps, stop lamps (S1, S2 and MS) and direction indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c, 12. The values shown give, for the various directions of measurement, the minimum intensities as a percentage of the minimum intensities required (see Tables 3, 4, 5, 7 and 8).",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 36,
+        "paragraph": "Annex 3 2.1"
+      }
+    },
+    {
+      "id": "R-0118",
+      "text": "5.10.4.3. In case of doubt, the requirement above shall be deemed fulfilled if the luminous intensity of the red light emitted to the front and/or the white light emitted to the rear, as verified during type approval of the lamps, is not more than 0.25 cd per lamp taking into account the influence of the vehicle body if applicable.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.10.4.3"
+      }
+    },
+    {
+      "id": "R-0119",
+      "text": "2.1.5. \"Lamp\" means a device designed to illuminate the road or to emit a light signal to other road users. Rear registration plate lamps and retro-reflectors are likewise to be regarded as lamps. For the purpose of this Regulation, light-emitting rear registration plates, the service-door-lighting system according to the provisions of UN Regulation No. 107 on vehicles of categories M2 and M3 and external status indicator as defined in this Regulation are not considered as lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 1,
+        "paragraph": "2.1.5"
+      }
+    },
+    {
+      "id": "R-0120",
+      "text": "2.9.3. \"Variable intensity control\" means the device which automatically controls rear light signalling devices producing variable luminous intensities to assure the unvarying perception of their signals. The variable intensity control is part of the lamp, or part of the vehicle, or split between the said lamp and the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 9,
+        "paragraph": "2.9.3"
+      }
+    },
+    {
+      "id": "R-0121",
+      "text": "4.8.3.4.2. Exceeding the respective steady luminous intensity maximum specified in paragraph 5. for the specific lamp: (a) For systems depending only on daytime and night-time conditions: under night-time conditions; (b) For other systems: under standard conditions2. 2Good visibility (meteorological optical range MOR > 2,000 m defined according to WMO, Guide to Meteorological Instruments and Methods of Observation, Sixth Edition, ISBN: 92-63-16008-2, pp 1.9.1/1.9.11, Geneva 1996) and clean lens.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.4.2"
+      }
+    },
+    {
+      "id": "R-0122",
+      "text": "6.21.4.2.1.1. For motor vehicles, each end of the vehicle, or in the case of tractors for semi-trailers each end of the cab; However, an alternative marking mode within 2,400 mm from the front end of the motor vehicle is allowed where a series of retro-reflectors of Class IVA type-approved according to the 02 or subsequent series of amendments to UN Regulation No. 3, or the 00 or subsequent series of amendments to UN Regulation No. 150, or Class C type- approved according to the 00 or subsequent series of amendments to UN Regulation No. 104 or the 00 or subsequent series of amendments to UN Regulation No. 150 are mounted followed by the required conspicuity marking as follows: (a) Retro-reflector size minimum 25 cm2; (b) One retro-reflector mounted not more than 600 mm from the front end of the vehicle; (c) Additional retro-reflectors spaced not more than 600 mm apart; (d) The distance between the last retro-reflector and the start of the conspicuity marking shall not exceed 600 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 64,
+        "paragraph": "6.21.4.2.1.1"
+      }
+    },
+    {
+      "id": "R-0123",
+      "text": "6.28.7.1. If provided, the reversing projections shall be switched ON only when the reversing lamp(s) is/are switched ON.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 81,
+        "paragraph": "6.28.7.1"
+      }
+    },
+    {
+      "id": "R-0124",
+      "text": "6.11.7.4. Except as provided in paragraphs 6.11.7.1., 6.11.7.3. and 6.11.7.5., the operation of the rear fog lamp(s) shall not be affected by switching ON or OFF any other lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.4"
+      }
+    },
+    {
+      "id": "R-0125",
+      "text": "1.1. Retro-reflective devices whether part of a lamp or not, or a sample unit of retro-reflective marking, shall be stripped of all removable parts and immersed for 10 minutes in water at a temperature of 50 °C ± 5 °C, the highest point of the upper part of the illuminating surface being 20 mm below the surface of the water. This test shall be repeated after turning the retro-reflective device through 180°, so that the illuminating surface is at the bottom and the rear face is covered by about 20 mm of water. These sample units shall then be immediately immersed in the same conditions in water at a temperature of 25 °C ± 5 °C.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 42,
+        "paragraph": "Annex 6 Part 2 1.1"
+      }
+    },
+    {
+      "id": "R-0126",
+      "text": "6.18.5. Geometric visibility Horizontal angle: 45° to the front and to the rear; however for vehicles on which the installation of the side- marker lamps is optional this value can be reduced to 30°. If the vehicle is equipped with side-marker lamps used to supplement the reduced geometric visibility of front and rear direction indicator lamps conforming to paragraph 6.5.5.2. above and/or position lamps conforming to paragraphs 6.9.5.2. and 6.10.5.2. above, the angles are 45° towards the front and rear ends of the vehicle and 30° towards the centre of the vehicle (see the figure in paragraph 6.5.5.2. above). Vertical angle: 10° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 59,
+        "paragraph": "6.18.5"
+      }
+    },
+    {
+      "id": "R-0127",
+      "text": "3.3.4.2. Retro-reflective devices shall bear 3.3.4.2.1. in case of a retro-reflector of Class IA, IIIA, IB, IIIB or IVA, the word “TOP” inscribed horizontally on the highest part of the illuminating surface, if such an indication is necessary to determine without ambiguity the angle or angles of rotation prescribed by the manufacturer. 3.3.4.2.2. in case of retro-reflective marking material of Class C, D, E or F an orientation mark \"TOP\" on any marking material whose retro-reflective system is not omni-rotational. 3.3.4.2.3. in case of retro-reflective marking plates of Class 1, 2, 3, 4 or 5, on the plates whose retro-reflective system is not omni-rotational, the word \"TOP\" inscribed horizontally on the part of the plates which is intended to be the highest part of the plate when mounted on the vehicle.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 8,
+        "paragraph": "3.3.4.2"
+      }
+    },
+    {
+      "id": "R-0128",
+      "text": "4.7.2.4. In case of replaceable light source module(s), the design of the light source module(s) shall be such that (a) it can only be fitted in the designated and correct position and can only be removed with the use of tool(s); and (b) it is tamperproof; and (c) regardless of the use of tool(s), it is not interchangeable with: - any replaceable UN approved light source; and/or, - any other replaceable light source module having different characteristics that is located in the same lamp housing. (d) when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of device shall be met.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.4"
+      }
+    },
+    {
+      "id": "R-0129",
+      "text": "6.11.7.3.2. A warning, at least audible, additional to the mandatory tell-tale (paragraph 6.11.8.) shall be given if the ignition is switched OFF or the ignition key is withdrawn and the driver's door is opened, whether the lamps in (paragraph 6.11.7.1.) are ON or OFF, whilst the rear fog lamp control is in the ON position.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.3.2"
+      }
+    },
+    {
+      "id": "R-0130",
+      "text": "2.5.10. \"Front fog lamp\" means a lamp used to improve the illumination of the road ahead of the vehicle in case of fog or any similar condition of reduced visibility.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.10"
+      }
+    },
+    {
+      "id": "R-0131",
+      "text": "7. In the case of the retro-reflector of an Advance warning triangle of type 1, the RI shall not have diminished by more than 40 per cent of the values recorded before the test. This test is not applicable for fluorescent retro- reflecting material.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 46,
+        "paragraph": "Annex 6 Part 5 7"
+      }
+    },
+    {
+      "id": "R-0132",
+      "text": "9.2. By light signalling function and category: For mounting either outside or inside or both2 Colour of light emitted: red/white/amber/colourless2 Number, category and kind of light source(s): ....................................... Lamp approved for LED substitute light source(s): yes/no2 If yes, category of LED substitute light source(s) ..................................... Rated voltage or the range of voltage: ............................................. Light source module: yes/no2 Light source module specific identification code: ..................................... Only for limited mounting height of equal to or less than 750 mm above the ground, if applicable: yes/no2 Geometrical conditions of installation and relating variations, if any: ........................ Application of an electronic light source control gear/variable intensity control: (a) Being part of the lamp: yes/no2 (b) Being not part of the lamp: yes/no2 Input voltage(s) supplied by an electronic light source control gear/variable intensity control:........ Electronic light source control gear/variable intensity control manufacturer and identification number (when the light source control gear is part of the lamp but is not included into the lamp body): Variable luminous intensity, if applicable: yes/no2 Function(s) produced by an interdependent lamp forming part of an interdependent lamp system, if applicable: ………………………………………… 2Strike out what does not apply.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9.2"
+      }
+    },
+    {
+      "id": "R-0133",
+      "text": "1.1. The direction H = 0° and V = 0° corresponds to the reference axis. (On the vehicle, it is horizontal, parallel to the median longitudinal plane of the vehicle and oriented in the required direction of visibility.) It passes through the centre of reference. Unless specified otherwise, the values shown in Figures A3-I to A3-XV give, for the various directions of measurement, the minimum intensities as a percentage of the minimum intensities required, which shall be mathematically rounded down to three significant digits. However, in the case where one of the following lamps is intended to be installed at a mounting height (using the H plane specified by the manufacturer) equal to or less than 750 mm above the ground, the photometric intensity is verified only up to an angle of 5° downwards: (a) Front and rear direction indicators lamps; (b) Front and rear position lamps; (c) Front and rear end-outline marker lamps; (d) Parking lamps; (e) Stop lamps of category S1, S2 and MS; (f) Side marker lamps;",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 35,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "R-0134",
+      "text": "4.8.1.2. In the case of a lamp equipped with light source module(s) or non-replaceable light source(s), all measurements shall be made with the light source(s) present in the lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8.1.2"
+      }
+    },
+    {
+      "id": "R-0135",
+      "text": "3.2.4. If necessary, in order to verify the conformity to the prescriptions of the present Regulation, layout drawing(s) for each individual lamp showing the illuminating surface as defined in paragraph 2.10.3., the light- emitting surface as defined in paragraph 2.10.2., the axis of reference as defined in paragraph 2.10.5. and the centre of reference as defined in paragraph 2.10.6. This information is not necessary in the case of the rear registration plate lamp (paragraph 2.5.5.);\"",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 17,
+        "paragraph": "3.2.4"
+      }
+    },
+    {
+      "id": "R-0136",
+      "text": "2. Retro-reflective devices of the Class IVA The retro-reflective device shall be mounted in a manner similar to the way in which it is mounted on the vehicle, but with the lens faced horizontal and directed upwards. Drop a 13 mm diameter polished solid steel ball, once, vertically onto the central part of the lens from a height of 0.76 m. The ball may be guided but not restricted in free fall. When a retro-reflective device is tested at room temperature with this method, the lens shall not crack.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 48,
+        "paragraph": "Annex 8 Part 4 2"
+      }
+    },
+    {
+      "id": "R-0137",
+      "text": "2.8.3. \"Textured outer lens\" or \"Textured outer lens area\" means all or part of an outer lens, designed to modify or influence the propagation of light from the light source(s), such that the light rays are significantly diverted from their original direction.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 8,
+        "paragraph": "2.8.3"
+      }
+    },
+    {
+      "id": "R-0138",
+      "text": "5.2.1. Luminous intensity and standard light distribution: The light emitted by each of the two samples supplied shall meet the requirements in Table 4. However, a luminous intensity of 6.0∙101 cd shall be permitted for rear position lamps reciprocally incorporated with stop lamps below a plane forming an angle of 5° with and downward from the horizontal plane.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-0139",
+      "text": "5.1.5.1. The testing of the colour for retro-reflector (night-time colour) shall be carried out according to the method described in paragraph 4.2.1.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 13,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "id": "R-0140",
+      "text": "9.1.7.1. Tested together with reversing lamp: ......................................................................yes/no2",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 30,
+        "paragraph": "Annex 1 9.1.7.1"
+      }
+    },
+    {
+      "id": "R-0141",
+      "text": "6.12.5. Geometric visibility Horizontal angle: 45° outwards, forwards and rearwards. However, where a front or rear parking lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the inward angle of 45° may be reduced to 20° under the H plane. Vertical angle: 15° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 15° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 53,
+        "paragraph": "6.12.5"
+      }
+    },
+    {
+      "id": "R-0142",
+      "text": "Part 7 - Examples to enable a decision regarding the reciprocal incorporation of two functions In the case with a textured outer lens and a wall in between: ==================================================================== In the case with a textured outer lens: ==================================================================== In the case where the non-textured outer lens is excluded: ==================================================================== In the case where the non-textured outer lens is excluded: ==================================================================== In the case where the outer lens (textured or not) is included: ==================================================================== In the case where the outer lens (textured or not) is included: ==================================================================== In the case where the non-textured outer lens is excluded, \"7b\" is the apparent surface according to paragraph 2.10.2. and F1 shall not be transparent to F2: ==================================================================== In the case where the non-textured outer lens is excluded or not: ====================================================================",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 102,
+        "paragraph": "Part 7"
+      }
+    },
+    {
+      "id": "R-0143",
+      "text": "5.1.4.5. However, in the case where a retro-reflector of Class IA or Class IB, is intended to be installed with its H plane at a mounting height less than 750 mm above the ground, the RI values are verified only up to an angle of 5° downwards.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 13,
+        "paragraph": "5.1.4.5"
+      }
+    },
+    {
+      "id": "R-0144",
+      "text": "2.2.3. If the retro-reflector is reciprocally incorporated or grouped with signalling or lighting functions, these functions shall be operated at design voltage according to a cycle of 5 min ON (in flashing mode, where appropriate), 55 min OFF.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 44,
+        "paragraph": "Annex 6 Part 3 2.2.3"
+      }
+    },
+    {
+      "id": "R-0145",
+      "text": "5.2. Rear position lamps (R1, R2, MR) and rear end-outline marker lamps, (RM1, RM2)",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "R-0146",
+      "text": "10.2. Method used for the definition of the apparent surface: (a) Boundary of the illuminating surface used for the following lamp(s): ………………………………………………………………………………… ………………………………………………………………………………… ………………………………………………………………………………… (b) Light-emitting surface used for the following lamp(s): ………………………………………………………………………………… ………………………………………………………………………………… …………………………………………………………………………………",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 91,
+        "paragraph": "Annex 1 10.2"
+      }
+    },
+    {
+      "id": "R-0147",
+      "text": "6.9.7. Electrical connections In accordance with paragraph 5.11. However, if a front position lamp is reciprocally incorporated with a direction-indicator the electrical connection of the front position lamp on the relevant side of the vehicle or the reciprocally incorporated part of it may be such that it is switched OFF during the entire time (both ON and OFF cycle) of operation of the direction-indicator lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.7"
+      }
+    },
+    {
+      "id": "R-0148",
+      "text": "6.15.5. Geometric visibility Horizontal angle: 30° inwards and outwards. Vertical angle: 15° above and below the horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 15° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.15.5"
+      }
+    },
+    {
+      "id": "R-0149",
+      "text": "6.14.5. Geometric visibility Horizontal angle: 30° inwards and outwards. Vertical angle: 10° above and below horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 55,
+        "paragraph": "6.14.5"
+      }
+    },
+    {
+      "id": "R-0150",
+      "text": "5.26. Rear direction indicator lamps of category 2b, rear position lamps of category R2 and stop lamps of category S2 with variable luminous intensity control, which respond simultaneously to one or more of the conditions listed in paragraphs 5.26.1. and 5.26.2., are allowed, provided that: (a) The intensity of the all lamps mentioned above, when combined, grouped or reciprocally incorporated, vary all together in the same manner and in a similar proportion. (b) In the entire intensity range, the specific prescribed ratio between the luminous intensities of two lamps, if applicable, shall be maintained throughout variation transitions.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 26,
+        "paragraph": "5.26"
+      }
+    },
+    {
+      "id": "R-0151",
+      "text": "6.11.4.1. In width: if there is only one rear fog-lamp, it shall be on the opposite side of the median longitudinal plane of the vehicle to the direction of traffic prescribed in the country of registration, the centre of reference may also be situated on the median longitudinal plane of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.4.1"
+      }
+    },
+    {
+      "id": "R-0152",
+      "text": "2.8.2. \"Coating\" means any product or products applied in one or more layers to the outer face of a lens;",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 8,
+        "paragraph": "2.8.2"
+      }
+    },
+    {
+      "id": "R-0153",
+      "text": "6.19.7.7.2. Partially common apparent surfaces, the electrical connections of the daytime running lamp shall be such that, either: (a) The whole daytime running lamp function on the relevant side of the vehicle is switched OFF during the entire period (both ON and OFF cycle) of activation of the front direction-indicator lamp; or (b) For category 1a or 1b front direction-indicator lamp the daytime running lamp function on the relevant side of the vehicle is switched OFF for the part of the apparent surface in common with the one of the front direction indicator lamp and the luminous intensity of the part of the apparent surface not in common is reduced during the entire period (both ON and OFF cycle) of operation of the front direction-indicator lamp, to attain not more than 140 cd within the angles of geometric visibility. The conformity to this requirement shall be verified at the time of the daytime running lamp type approval and indicated in the related communication form.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.19.7.7.2"
+      }
+    },
+    {
+      "id": "R-0154",
+      "text": "2.3. Dust exposure test This test evaluates the ability of the sample device to resist dust penetration which could significantly affect the photometric output of the retro-reflector.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 44,
+        "paragraph": "Annex 6 Part 3 2.3"
+      }
+    },
+    {
+      "id": "R-0155",
+      "text": "5.28.3. If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of the vehicle, proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the photometric values prescribed for the approval of the device.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.28.3"
+      }
+    },
+    {
+      "id": "R-0156",
+      "text": "9.12. Rear position lamps: yes/no2........................ 2Strike out which does not apply.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 89,
+        "paragraph": "Annex 1 9.12"
+      }
+    },
+    {
+      "id": "R-0157",
+      "text": "Figure A7-IV - Marking example 4 This example corresponds to the marking of a lens intended to be used in different types of light signalling lamps, see paragraph 3.3.4.4. of this Regulation. The approval markings indicate that the lamp was approved in Spain (E9) under approval number 1432 and may comprise all listed different functions. 4. Identification code of light source modules",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 46,
+        "paragraph": "Figure A7-IV"
+      }
+    },
+    {
+      "id": "R-0158",
+      "text": "4.2. The requirements contained in sections 5 \"General specifications\" and 6 \"Individual specifications\" (and in the Annexes referenced in the said sections) of UN Regulations Nos. 48, 53, 74 or 86, and their series of amendments in force at the time of application for the lamp type approval shall apply to this Regulation. The requirements pertinent to each lamp and to the category/ies of vehicle on which the lamp is intended to be installed shall be applied, where its verification at the moment of lamp type approval is feasible.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "R-0159",
+      "text": "Table A2-2 Angles of geometric visibility, horizontal and vertical Lamp Horizontal angles Min. vertical angles Additional information (A/B) (above/below) Side direction indicators 5° / 55° 15° / 15° Horizontal angles apply to direction (5) 15° / 5° b A Side parking a 0° / 45° 15° / 15° Horizontal angles apply to front and 15° / 5° b rear Notes to Table A2-2: a Side parking lamps are a combination of front and rear facing parking lamps b Reduced angles used for lamps mounted with the H-plane below 750 mm.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 33,
+        "paragraph": "Table A2-2"
+      }
+    },
+    {
+      "id": "R-0160",
+      "text": "4.5.4. If a front position lamp incorporates one or more infrared radiation generators, the photometric and colour requirements for this front position lamp shall be met with and without the operation of the infrared radiation generator(s).",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.4"
+      }
+    },
+    {
+      "id": "R-0161",
+      "text": "5.1.1. Every retro-reflector of the Classes IA and IB, when tested according to paragraph 5.1.7., shall meet: (a) The dimensions and shape requirements set forth in Annex 5; and (b) The photometric and colorimetric requirements as specified in paragraphs 5.1.4. to 5.1.5.; and (c) The physical and mechanical requirements set forth in paragraph 5.1.7., depending on the nature of the materials and construction of the retro-reflective devices.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 11,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-0162",
+      "text": "6.9. Front position lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 48,
+        "paragraph": "6.9"
+      }
+    },
+    {
+      "id": "R-0163",
+      "text": "5.10.4.1. For the visibility of red light towards the front of a vehicle, with the exception of a red rearmost side- marker lamp, there shall be no direct visibility of the apparent surface of a red lamp if viewed by an observer moving within Zone 1 in a transverse plane situated 25 m in front of the vehicle (see Annex 4);",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.10.4.1"
+      }
+    },
+    {
+      "id": "R-0164",
+      "text": "4.6.1.1. In a single lamp containing more than one light source, a group of light sources, wired so that the failure of any one of them causes all of them to stop emitting light, shall be considered to be one light source.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.6.1.1"
+      }
+    },
+    {
+      "id": "R-0165",
+      "text": "5.21. The apparent surface in the direction of the reference axis of front and rear position lamps, front and rear direction-indicator lamps and retro-reflectors shall not be hidden more than 50 per cent by any movable component, with or without a light-signalling device installed on it, in any fixed position different from the \"normal position of use\". Fixed position of a movable component means the stable or natural rest position(s) of the movable component specified by the vehicle manufacturer, whether locked or not. If the above requirement is not practicable:",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 25,
+        "paragraph": "5.21"
+      }
+    },
+    {
+      "id": "R-0166",
+      "text": "6.24.9.1.2. The exterior courtesy lamp or lamps may vary in luminous intensity and/or vary in apparent surface. The photometric characteristics of the exterior courtesy lamp(s) may vary in relation to the position of vehicle users. No sharp variation of intensity shall be observed during transition.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 76,
+        "paragraph": "6.24.9.1.2"
+      }
+    },
+    {
+      "id": "R-0167",
+      "text": "Table 3 Luminous intensities for front position and front end-outline marker lamps Front position Minimum Maximum luminous Standard light Angles of geometric lamps, front end- luminous intensity in cd when used as distribution (Par. visibility (Par. 4.8.3.1. (d)) outline marker intensity in cd (Par. 4.8.3.1. (b)) 4.8.3.1. (c)) lamp of categories (Par. 4.8.3.1. (a)) A single A lamp marked Definition Minimum lamp \"D\" (Par. luminous 3.3.2.5.2.) intensity in cd A, MA or AM 4∙100 1.40∙102 7.0∙101 Figure A3-I Table A2- 5∙10-2 1",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "Table 3"
+      }
+    },
+    {
+      "id": "R-0168",
+      "text": "6.16.5. Geometric visibility Horizontal angle: 30° inwards and outwards. In the case of trailers, the angle inwards may be reduced to 10°. If because of the construction of the trailers this angle cannot be met by the mandatory retro-reflectors, then additional (supplementary) retro-reflectors shall be fitted, without the width limitation (paragraph 6.16.4.1. above), which shall, in conjunction with the mandatory retro-reflectors, give the necessary visibility angle. Vertical angle: 10° above and below the horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.5"
+      }
+    },
+    {
+      "id": "R-0169",
+      "text": "3.1.1.1. In case of retro-reflectors: (a) At the choice of the applicant, the application for type approval will specify that the device may be installed on a vehicle with different inclinations of the reference axis in respect to the vehicle reference planes and to the ground or, in the case of Classes IA, IB and IVA retro-reflectors, rotate around its reference axis; these different conditions of installation shall be indicated in the communication form; (b) Drawings, in triplicate, in sufficient detail to permit identification of the type, showing geometrically the position(s) in which the retro-reflecting device may be fitted to the vehicle, and in case of class IB or IIIB-retro- reflectors details of installation. The drawings must show the position intended for the approval number and class indicator in relation to the circle of the approval mark; (c) A brief description giving the technical specifications of the materials of which the retro-reflecting optical unit is made; (d) Samples of the retro-reflector of a colour specified by the manufacturer and, if necessary, the means of fixation; the number of samples to be submitted is specified in paragraphs 5.1. and 5.2.; (e) If necessary, two samples in other colour(s) for simultaneous or subsequent extension of the approval to devices in other colour(s); (f) In the case of a retro-reflector of Class IVA: samples of the retro-reflecting device and, if necessary, the means of fixation; the number of samples to be submitted is specified in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R150",
+        "version": "1.2.1",
+        "page": 3,
+        "paragraph": "3.1.1.1"
+      }
+    },
+    {
+      "id": "R-0170",
+      "text": "5.18.4. In the case where the functions referred to in paragraph 5.18. are obtained by an interdependent lamp system either of the following conditions shall apply: (a) Should the complete interdependent lamp system be mounted on the moving component(s), the requirements of paragraph 5.18.1. shall be satisfied. However, additional lamps for the above functions may be switched ON, when the movable component is in any fixed open position, provided that these additional lamps satisfy all the position, geometric visibility, colorimetric and photometric requirements applicable to the lamps installed on the movable component; or (b) Should the interdependent lamp system be partly mounted on the fixed component and partly mounted on a movable component, with the exception of direction indicator lamps, the interdependent lamp(s) specified by the Applicant during the device approval procedure shall meet all the position, outwards geometric visibility, colorimetric and photometric requirements for those lamps, at all fixed positions of the movable component(s). The inwards geometric visibility requirement(s) is(are) deemed to be satisfied if this(these) interdependent lamp(s) still conform(s) to the photometric values prescribed in the field of light distribution for the approval of the device, at all fixed positions of the movable component(s). For direction indicator lamps, the interdependent lamp(s) specified by the Applicant during the device approval procedure shall meet all the position, geometric visibility, photometric and colorimetric requirements at all fixed positions of the movable component(s). This does not apply where, to fulfil or complete the geometric visibility angle, additional lamps are switched ON when the movable component is in any fixed open position, provided that these additional lamps satisfy all the position, photometric and colorimetric requirements applicable to the direction indicator lamps installed on the movable component.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 25,
+        "paragraph": "5.18.4"
+      }
+    },
+    {
+      "id": "R-0171",
+      "text": "5.4.3. Minimum or maximum area of apparent surface: The area of the apparent surface in the direction of the axis of reference of the daytime running lamp shall be not less than 25 cm2 and not more than 200 cm2. When a daytime running lamp is to be type approved as a lamp marked “D”, the apparent surface of such a lamp shall not be more than 100 cm2.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "R-0172",
+      "text": "Part 6 - Examples showing the determination of the light-emitting surface in comparison with illuminating surface (See paragraphs 2.8. and 2.9. of this Regulation) Note: Reflected light could / may contribute to the determination of the light emitting surface Example A Illuminating surface Declared light-emitting surface according to 2.10.2. (a) Edges are a and b c and d Example B Illuminating surface Declared Light-emitting surface according to 2.10.2. (a) Edges are a and b c and d Example C Example to determine the illuminating surface in combination with an area which is not part of the function: [figure not available] Illuminating surface Edges are a and b Example D Example to determine a light emitting surface according to 2.10.2. (a) in combination with an area which is not part of the function: Declared Light-emitting surface according to 2.10.2. (a) Edges are c-d and e-f Example E Example to determine the apparent surface in combination with an area which is not part of the function and a non-textured outer lens (according to 2.10.2. (b)): Declared Light emitting surface according to 2.10.2 (b) for example Edges are c’-d’ and e’-f’",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 100,
+        "paragraph": "Part 6"
+      }
+    },
+    {
+      "id": "R-0173",
+      "text": "2.5.15. \"Side marker lamp\" means a lamp used to indicate the presence of the vehicle when viewed from the side.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 6,
+        "paragraph": "2.5.15"
+      }
+    },
+    {
+      "id": "R-0174",
+      "text": "3.3.4.3. If the outer lens of a device is designed to be separated from the main body, the approval marking shall be placed on both, the detachable lens and the main body.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.3"
+      }
+    },
+    {
+      "id": "R-0175",
+      "text": "2.7.11. “Reversing projection” means light signal projected on the ground by reversing projectors to provide enhanced recognition of reversing indication to other road users.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 8,
+        "paragraph": "2.7.11"
+      }
+    },
+    {
+      "id": "R-0176",
+      "text": "6.13.4.1. In width: Front and rear: as close as possible to the extreme outer edge of the vehicle. This condition is deemed to have been met when the point on the apparent surface in the direction of the reference axis which is farthest from the vehicle's median longitudinal plane is not more than 400 mm from the extreme outer edge of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 54,
+        "paragraph": "6.13.4.1"
+      }
+    },
+    {
+      "id": "R-0177",
+      "text": "6.19.7.6. If a front direction-indicator lamp is not reciprocally incorporated with a daytime running lamp and the distance between the edges of the apparent surfaces in the direction of the reference axis of the front direction- indicator lamp and the daytime running lamp is equal or less than 40 mm, the electrical connections of the daytime running lamp shall be such that, either (a) The daytime running lamp on the relevant side of the vehicle is switched OFF during the entire period (both ON and OFF cycle) of operation of the front direction-indicator lamp; or (b) The luminous intensity of the daytime running lamp on the relevant side of the vehicle is reduced during the entire period (both ON and OFF cycle) of operation of the front direction-indicator lamp, to attain not more than 140 cd within the angles of geometric visibility. The conformity to this requirement shall be verified at the time of the daytime running lamp type approval and indicated in the related communication form. If the luminous intensity of the front direction-indicator lamp in HV is at least 50% higher than the luminous intensity of the daytime running lamp in HV, the daytime running lamp does not need to be switched OFF as required under (a) of this paragraph nor dimmed as required under (b) of this paragraph. In this case the applicant shall demonstrate compliance with a concise description or other means acceptable to the Type Approval Authority.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 61,
+        "paragraph": "6.19.7.6"
+      }
+    },
+    {
+      "id": "R-0178",
+      "text": "2.4.12.1. \"Interdependent lamp marked \"Y\"\" means a device operating as part of an interdependent lamp system. Interdependent lamps operate together when activated, have separate apparent surfaces in the direction of the reference axis and separate lamp bodies, and may have separate light source(s).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 4,
+        "paragraph": "2.4.12.1"
+      }
+    },
+    {
+      "id": "R-0179",
+      "text": "2.3. \"Being part of the lamp\" means to be physically included in the lamp body or to be external, separated or not, and declared by the applicant as part of the lamp system.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 2,
+        "paragraph": "2.3"
+      }
+    },
+    {
+      "id": "R-0180",
+      "text": "6.23.7.1.1. However, if any of the lamps of the emergency stop signal to the rear of the vehicle use filament light sources the frequency shall be 4.0 +0.0/-1.0 Hz.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.7.1.1"
+      }
+    },
+    {
+      "id": "R-0181",
+      "text": "2.4.7. \"Concealable lamp\" means a lamp capable of being partly or completely hidden when not in use. This result may be achieved by means of a movable cover, by displacement of the lamp or by any other suitable means. The term \"retractable\" is used more particularly to describe a concealable lamp the displacement of which enables it to be inserted within the bodywork.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 3,
+        "paragraph": "2.4.7"
+      }
+    },
+    {
+      "id": "R-0182",
+      "text": "2.3.3.4. Of side direction-indicator lamps, end-outline marker lamps, front and rear position lamps, parking lamps, retro-reflectors and side-marker lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 2,
+        "paragraph": "2.3.3.4"
+      }
+    },
+    {
+      "id": "R-0183",
+      "text": "Annex 14 Observing area towards the apparent surface of manoeuvring lamps, exterior courtesy lamps and reversing projectors Zones of observation This drawing shows the zone from one side, the other zones are from the front, the rear and from the other side of the vehicle Boundaries of the zones",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 119,
+        "paragraph": "Annex 14"
+      }
+    },
+    {
+      "id": "R-0184",
+      "text": "2.4.9. \"Optional lamp\" means a lamp, the installation of which is left to the discretion of the manufacturer.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 3,
+        "paragraph": "2.4.9"
+      }
+    },
+    {
+      "id": "R-0185",
+      "text": "2.7.4.2. \"Installation unit\" means an indivisible housing (lamp body) which contains one or more lighting unit(s).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 7,
+        "paragraph": "2.7.4.2"
+      }
+    },
+    {
+      "id": "R-0186",
+      "text": "3.3.4.4. In case an outer lens is used for several devices and bearing different approval markings, the main body of each device shall bear only the approval marking of the function(s) of that device.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.4"
+      }
+    },
+    {
+      "id": "R-0187",
+      "text": "Table 7 Luminous intensities for stop lamps Stop lamp Minimum luminous Maximum luminous intensity Standard light Angles of geometric of category intensity in cd (Par. in cd when used as (Par. distribution (Par. visibility (Par. 4.8.3.1. (d)) 4.8.3.1. (a)) 4.8.3.1. (b)) 4.8.3.1. (c)) A single A lamp marked Definition Minimum lamp \"D\" (Par. luminous 3.3.2.5.2.) intensity in cd S1 (steady) 6.0∙101 2.60∙102 1.30∙102 Figure A3-I Table A2- 3∙10-1 1 S2 6.0∙101 7.30∙102 3.65∙102 Figure A3-I Table A2- 3∙10-1 (day) (variable) 1 7∙10-2 (night) S3 (steady) 2.5∙101 1.10∙102 5.5∙101 Figure A3-III Table A2- 3∙10-1 1 S4 2.5∙101 1.60∙102 8.0∙101 Figure A3-III Table A2- 3∙10-1 (day) (variable) 1 7∙10-2 (night) MS (steady) 4.0∙101 2.60∙102 1.30∙102 Figure A3-I Table A2- 3∙10-1 1",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "Table 7"
+      }
+    },
+    {
+      "id": "R-0188",
+      "text": "2.10.4. The \"apparent surface\" for a defined direction of observation means, at the request of the manufacturer or his duly accredited representative, the orthogonal projection of: Either the boundary of the illuminating surface projected on the exterior surface of the lens; Or the light-emitting surface; Only in the case of a light-signalling device producing variable luminous intensities, its apparent surface that may be variable as specified in paragraph 2.9.3. shall be considered under all conditions permitted by the variable intensity control, if applicable. In a plane perpendicular to the direction of observation and tangential to the most exterior point of the lens. Different examples of the application of apparent surface can be found in Annex 3 to this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 10,
+        "paragraph": "2.10.4"
+      }
+    },
+    {
+      "id": "R-0189",
+      "text": "5.8.1. For the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the ground, shall be measured from the H plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.8.1"
+      }
+    },
+    {
+      "id": "R-0190",
+      "text": "1.2.2. The visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 114,
+        "paragraph": "Annex 9 1.2.2"
+      }
+    }
+  ]
+}

@@ -30,16 +30,19 @@ regulation, version and page (and ideally the paragraph).
 
 So: **precision and recall both count**. Citing extra regulations or pages, or padding with non-matching requirements,
 costs precision. Write one engineering obligation per requirement. Upload limit: 5 per hour per challenge.
-`retrieval/bench.py` reports the two offline levels with their own scorer (see [retrieval/README.md](retrieval/README.md)).
+`approaches/benchmarking/bench.py` scores saved predictions with the official scorer (plus F2) and keeps the internal
+leaderboard: see [approaches/README.md](approaches/README.md).
 
 ## Repo layout
 
 ```
 regulations/          base-version PDFs of all 55 citeable regulations (UN_R48_base.pdf, ...)
 data-ingestion/       PDF -> text (data-ingestion/text) -> clauses JSON (data-ingestion/clauses): see data-ingestion/README.md
-retrieval/            plug-and-play retrieval lab: algorithms, configs, benchmark, leaderboard  -> retrieval/README.md
-setup.sh / setup.ps1  one-command setup (venv + deps + clones the challenge repo next to this one)
-requirements.txt      core deps (pymupdf, numpy); retrieval/requirements-neural.txt for the optional ML retrievers
+approaches/           internal competition: shared benchmark + leaderboard, one folder per experiment
+  benchmarking/       bench.py: official scorer + F2, validator, schemas
+  LEADERBOARD.md      generated ranking (page F2, then regulation F2)
+  experiments/<name>/ each person's / variant's code, config, predictions and results (see approaches/README.md)
+  dashboard/          data + how-to for the comparison dashboard (risk.json, refresh steps)
 ```
 
 Expected folder layout on your machine:
@@ -47,30 +50,18 @@ Expected folder layout on your machine:
 ```
 some-folder/
   regulation-tl/            this repo
-  industrial-ai-hackathon/  the challenge repo (cases, schemas, scorer); setup clones it
+  industrial-ai-hackathon/  the challenge repo (cases, schemas, scorer)
 ```
 
-## Quick start
+Score an experiment's predictions on the internal leaderboard (from the repo root):
 
 ```bash
-git clone https://github.com/LeonardoZambranoL/regulation-tl.git && cd regulation-tl
-./setup.sh --neural              # Windows: .\setup.ps1 -Neural   (drop the flag for a light, lexical-only install)
-.venv/bin/python -m retrieval.bench --list                    # Windows: .venv\Scripts\python ...
-.venv/bin/python -m retrieval.bench                           # benchmark every pipeline on the dev case
-.venv/bin/python -m retrieval.bench --combo bm25plus_bigrams+dense_bge_small --rerank BAAI/bge-reranker-base
-.venv/bin/python -m retrieval.search "stop lamp luminous intensity" --config hybrid_rrf
+python approaches/benchmarking/bench.py <experiment> approaches/experiments/<experiment>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
 ```
 
-Commit new configs (`retrieval/configs/`) and the updated leaderboard (`retrieval/results/`) so everyone sees what was tried.
+New here: [CONTRIBUTING.md](CONTRIBUTING.md) (setup for any coding agent, then pull, test, push).
+Team rules for every agent (pull before push, folder ownership, overfitting, secrets): [AGENTS.md](AGENTS.md).
+Comparison dashboard: `python approaches/dashboard/open.py` (pulls, then opens it in your browser)
+(claude.ai copy: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV) ([how to update it](approaches/dashboard/README.md)).
 
-## Planned pipeline
-
-```
-spec.md + exploded view
-  -> (1) regulation selection   LLM / rules on scope sections: which of the 55 regulations apply?
-  -> (2) retrieval              multi-query, hybrid sparse+dense (+rerank) over data-ingestion clauses  <- retrieval/
-  -> (3) requirement extraction LLM splits candidate paragraphs into one-obligation requirements, keeps citations
-  -> (4) validate + score       tools/validate.py, tools/score_local.py, then upload
-```
-
-Current findings and the research menu of algorithms to try are in [retrieval/README.md](retrieval/README.md).
+Do not commit secrets: API keys go in a git-ignored `.env` (see `.gitignore`).

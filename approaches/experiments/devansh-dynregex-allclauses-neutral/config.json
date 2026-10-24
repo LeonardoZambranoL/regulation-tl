@@ -1,0 +1,1 @@
+{"name": "Devansh: Claude writes regex patterns from the spec to pick the regulations, then one Claude agent with a product-neutral prompt judges every clause (no shall filter)", "source": "clauses", "select": {"method": "llm_regex"}, "filter": {"method": "llm", "effort": "medium", "candidates": "all", "prompt": "neutral"}, "n": 0}

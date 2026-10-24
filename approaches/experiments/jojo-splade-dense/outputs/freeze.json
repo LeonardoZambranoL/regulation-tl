@@ -1,0 +1,10 @@
+{
+  "submission_sha256": "0bb22ddbf2fd8148dbdb01b11183a01f96718dd1a52a0732b76d2ae3fc860985",
+  "manifest_sha256": "f179e67fda95882ae53e1db00b3766532a1ba1b96d7c370d2df3364c88f57c41",
+  "flow": "targeted",
+  "case_id": "dev-rear-lamp",
+  "requirements": 395,
+  "schema_valid": true,
+  "coverage_complete": false,
+  "frozen_at": 1792861978.8366761
+}

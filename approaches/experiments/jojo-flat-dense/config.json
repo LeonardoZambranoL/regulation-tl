@@ -1,0 +1,14 @@
+{
+  "model": "claude-sonnet-5-5",
+  "packet_pages": 3,
+  "target_packets": 32,
+  "reference_depth": 2,
+  "retrieval_per_query": 6,
+  "review_batch": 35,
+  "workers": 3,
+  "training": false,
+  "automatic_upload": false,
+  "retriever": "flat-dense",
+  "scan_block_size": 8192,
+  "name": "Exact Flat cosine scan of all BGE vectors + Claude source review (32 packets)"
+}

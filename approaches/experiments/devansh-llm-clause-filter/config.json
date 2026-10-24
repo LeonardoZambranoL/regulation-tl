@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, then Claude (opus 5.5) keeps or drops each of their 'shall' clauses; every kept clause is cited", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0}

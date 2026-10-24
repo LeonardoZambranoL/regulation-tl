@@ -1,0 +1,1 @@
+{"name": "Devansh: Claude writes regex patterns from the spec to pick the regulations, then one Claude agent keeps or drops each shall-clause", "source": "clauses", "select": {"method": "llm_regex"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0}
