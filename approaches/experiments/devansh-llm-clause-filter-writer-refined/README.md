@@ -20,7 +20,19 @@ bash approaches/experiments/devansh-llm-clause-filter-writer-refined/run.sh     
 It refines both cases, benchmarks citations, judges the requirement level, rebuilds the dashboard data, then pulls,
 commits this experiment and pushes.
 
-## Results
+## Results (2026-10-24): not adopted
+
+| local requirement judge | requirements | P | R | F1 | F2 |
+|---|---|---|---|---|---|
+| dev, writer (baseline) | 328 | 0.448 | 0.774 | 0.567 | **0.676** |
+| dev, writer + refine | 191 | **0.565** | 0.568 | 0.567 | 0.568 |
+| holdout-acpe, writer (baseline) | 188 | 0.234 | 0.468 | | **0.390** |
+| holdout-acpe, writer + refine | 122 | 0.295 | 0.383 | | 0.361 |
+
+The verifier removed 133 dev items, 39 of them real matches: precision up, recall down by the same amount, F1
+unchanged, F2 worse on both cases. Only worth it if the platform weighs precision above recall. Next: make the
+verifier a ranker (keep everything, drop only the lowest-confidence items) instead of a hard yes / no.
+
 
 In `results.json`, `approaches/req_scores.json` and the dashboards (requirement-level columns). Compare with
 devansh-llm-clause-filter-writer: req F2 0.676 on dev, 0.390 on holdout-acpe.
