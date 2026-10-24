@@ -124,6 +124,16 @@ metrics.page_level/metrics.regulation_level with the official precision, recall,
 F1, n_submitted, n_expected, n_matched fields, plus F2.
 
 The leaderboard shows the **latest run per approach** for each gold solution and
+evaluator version. **Regulations matched** shows the number of correctly cited
+distinct regulations out of the gold total (for example, `4/4`). This count does
+not penalize extra regulations; regulation F2 accounts for those through precision.
+The count comes from `metrics.regulation_level.n_matched` and `n_expected` in the
+saved JSON. **Regulations included** shows the total number of distinct regulations
+cited by the approach (`n_submitted`), including incorrect ones. For example,
+`4/4` matched with `6` included means all four expected regulations were found,
+plus two extra regulations.
+
+Approaches are grouped by gold solution and
 evaluator version, ranked by **page F2**, then regulation F2, descending. Equal
 scores share a rank. Different gold fingerprints/evaluator versions get separate
 tables. JSON whitespace and object-key order do not affect fingerprints; list

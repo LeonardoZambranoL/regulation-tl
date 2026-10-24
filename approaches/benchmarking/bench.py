@@ -87,8 +87,8 @@ def render_leaderboard(rows: list[dict]) -> str:
     groups = sorted({(r["gold_sha256"], r["evaluator"]) for r in rows})
     for gold_hash, evaluator in groups:
         lines += [f"## Gold `{gold_hash[:12]}` · {evaluator}", "",
-                  "| Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulation F2 | Results |",
-                  "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+                  "| Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |",
+                  "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
         group = [r for r in rows if (r["gold_sha256"], r["evaluator"]) == (gold_hash, evaluator)]
         group.sort(key=lambda r: (-r["metrics"]["page_level"]["f2"],
                                   -r["metrics"]["regulation_level"]["f2"], r["approach"]))
@@ -104,7 +104,8 @@ def render_leaderboard(rows: list[dict]) -> str:
             clause = row["metrics"].get("clause_level")  # absent on runs from before the clause level existed
             clause_f2 = f"{clause['f2']:.4f}" if clause else "—"
             lines.append(f"| {rank} | [{name}](experiments/{name}/) | {page['precision']:.4f} | "
-                         f"{page['recall']:.4f} | {page['f2']:.4f} | {clause_f2} | {reg['f2']:.4f} | "
+                         f"{page['recall']:.4f} | {page['f2']:.4f} | {clause_f2} | "
+                         f"{reg['n_matched']}/{reg['n_expected']} | {reg['n_submitted']} | {reg['f2']:.4f} | "
                          f"[JSON]({result_path}) |")
         lines.append("")
     if not rows:
