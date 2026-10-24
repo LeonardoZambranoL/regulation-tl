@@ -7,13 +7,17 @@ One row per benchmark run, every experiment. Each row carries:
   - `latest`: the approach's newest run for that gold set and evaluator
   - `description`: config.json "name", else the first prose line of the experiment's README.md
   - overfitting risk: the experiment's risk.json (see approaches/dashboard/README.md) plus automatic flags
+  - clause level (paragraph) precision / recall / F1 / F2, when the experiment's outputs/predictions.json is the file
+    that run scored and the gold file is found (--gold, default: the challenge repo next to this one)
 Local file paths are left out. Then upload the file to the dashboard (approaches/dashboard/README.md says how).
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 from pathlib import Path
 
 APPROACHES = Path(__file__).resolve().parent.parent
@@ -66,7 +70,59 @@ def risk(folder: Path, page: dict, reg: dict) -> dict:
     }
 
 
-def rows(board: list[dict]) -> list[dict]:
+def fingerprint(doc: dict) -> str:
+    """Same canonical hash as bench.py, so a file can be matched to the run that scored it."""
+    canonical = json.dumps(doc, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def paragraph_key(paragraph) -> str | None:
+    """The official scorer's paragraph normalisation (challenge_tools/score_local.py _paragraph_key)."""
+    text = str(paragraph or "").casefold().replace("§", " ")
+    text = re.sub(r"[,;:()\[\]]", " ", text)
+    text = re.sub(r"(?<![0-9a-z])\.|\.(?![0-9a-z])", " ", text)
+    text = " ".join(text.split())
+    text = re.sub(r"^(paragraphs?|para|par|section|clause)\s+", "", text)
+    return text or None
+
+
+def clause_scores(prediction: dict, gold: dict) -> dict:
+    """Clause level: distinct (regulation, version, normalised paragraph) cited vs gold, precision / recall / F1 / F2.
+    Stricter than the page level (a neighbouring paragraph on the right page does not count). A requirement without a
+    paragraph cites no clause, so a page-only submission scores 0 here."""
+    def cited(doc):
+        return {(r["source"]["regulation"], r["source"].get("version", ""), k) for r in doc.get("requirements", [])
+                if (k := paragraph_key(r["source"].get("paragraph")))}
+    sub, ref = cited(prediction), cited(gold)
+    hit = len(sub & ref)
+    p = hit / len(sub) if sub else 0.0
+    r = hit / len(ref) if ref else 0.0
+    return {"clause_precision": p, "clause_recall": r,
+            "clause_f1": 2 * p * r / (p + r) if p + r else 0.0,
+            "clause_f2": 5 * p * r / (4 * p + r) if 4 * p + r else 0.0,
+            "clauses_cited": len(sub), "clauses_expected": len(ref), "clauses_matched": hit}
+
+
+def load_golds(paths: list[Path]) -> dict[str, dict]:
+    golds = {}
+    for path in paths:
+        if path.is_file():
+            doc = json.loads(path.read_text(encoding="utf-8"))
+            golds[fingerprint(doc)] = doc
+    return golds
+
+
+def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
+    """golds: gold documents by bench fingerprint, for the clause level (computed only where the experiment's current
+    outputs/predictions.json is exactly the file that run scored)."""
+    golds = golds or {}
+    predictions: dict[str, tuple[str, dict]] = {}
+    for path in (APPROACHES / "experiments").glob("*/outputs/predictions.json"):
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+            predictions[path.parent.parent.name] = (fingerprint(doc), doc)
+        except ValueError:
+            pass
     out, latest = [], {}
     for r in sorted(board, key=lambda r: r["completed_at"]):
         p, g = r["metrics"]["page_level"], r["metrics"]["regulation_level"]
@@ -81,6 +137,13 @@ def rows(board: list[dict]) -> list[dict]:
             "regs_cited": g["n_submitted"], "regs_expected": g["n_expected"],
             **risk(folder, p, g),
         })
+        pred = predictions.get(r["approach"])
+        gold = golds.get(r["gold_sha256"])
+        if pred and gold and pred[0] == r.get("prediction_sha256"):
+            out[-1].update(clause_scores(pred[1], gold))
+        else:
+            out[-1].update({k: None for k in ("clause_precision", "clause_recall", "clause_f1", "clause_f2",
+                                              "clauses_cited", "clauses_expected", "clauses_matched")})
         latest[(r["approach"], r["gold_sha256"], r["evaluator"])] = r["run_id"]
     keep = set(latest.values())
     for row in out:
@@ -92,8 +155,11 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--board", default=str(APPROACHES / "leaderboard.json"))
     ap.add_argument("--out", default=str(APPROACHES / "dashboard" / "leaderboard_rows.json"))
+    ap.add_argument("--gold", action="append", help="gold expected.json for the clause level (repeatable); default: every "
+                    "cases/*/expected.json in ../industrial-ai-hackathon next to the repo")
     args = ap.parse_args(argv)
-    data = rows(json.loads(Path(args.board).read_text(encoding="utf-8")))
+    gold_paths = [Path(g) for g in args.gold] if args.gold else         sorted((APPROACHES.parent.parent / "industrial-ai-hackathon" / "cases").glob("*/expected.json"))
+    data = rows(json.loads(Path(args.board).read_text(encoding="utf-8")), load_golds(gold_paths))
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

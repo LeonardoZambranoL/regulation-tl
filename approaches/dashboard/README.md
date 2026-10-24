@@ -18,6 +18,17 @@ Devansh's machine pulls the repo every 15 minutes and uploads `leaderboard_rows.
 benchmark results (step 4) is enough. The sync runs while Devansh's Claude app is open; otherwise on its next launch. Without edit access, still do steps 1-4 and push: Devansh's
 Claude uploads the new rows.
 
+## Scores shown
+
+- **Page** (precision, recall, F1, F2; ranking metric = page F2): from `bench.py` and the official scorer. A cited page
+  counts if the page or its paragraph is right.
+- **Clause** (precision, recall, F1, F2): computed by `dashboard_rows.py` for every approach: distinct cited
+  (regulation, version, paragraph) vs the gold paragraphs, with the official paragraph normalisation. Stricter than
+  page level (a neighbouring paragraph on the right page does not count); citations without `paragraph` score 0. Shown
+  only when `experiments/<name>/outputs/predictions.json` is exactly the file the run scored (same fingerprint), so keep
+  your latest predictions file committed. Needs the challenge repo next to this one for the gold file.
+- **Regulation** F2, **gold pages missed**, **overfit risk** (see risk.json below).
+
 ## How it stays connected (pull and push)
 
 The dashboard is driven entirely by this folder in the repo:

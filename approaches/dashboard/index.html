@@ -104,7 +104,7 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
 
   <section class="lb-card">
     <h2 id="standings-table">Standings</h2>
-    <p class="lb-risk">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> is declared by each experiment in its <code>risk.json</code> (what was tuned on the dev case, LLM use), plus automatic flags: an exact match of the gold set is <i>high</i>, no declaration is <i>unknown</i>. Prefer a lower-risk approach when scores are close.</p>
+    <p class="lb-risk">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> is declared by each experiment in its <code>risk.json</code> (what was tuned on the dev case, LLM use), plus automatic flags: an exact match of the gold set is <i>high</i>, no declaration is <i>unknown</i>. Prefer a lower-risk approach when scores are close. <b>Clause F2</b> is stricter: cited paragraphs vs gold paragraphs, so page-only citations score 0; "—" = no matching predictions file.</p>
     <p class="note">Latest run per approach. "What it does" comes from each experiment's config or README in approaches/experiments. Page = (regulation, version, page) citations; a page also counts when its paragraph is right.</p>
     <div class="lb-tablewrap">
       <table data-source="standings" data-row-key="approach" id="tbl-standings">
@@ -116,6 +116,7 @@ git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button
           <th data-field="page_precision" class="n">Page P</th>
           <th data-field="page_recall" class="n">Page R</th>
           <th data-field="pages_missed" class="n">Gold pages missed</th>
+          <th data-field="clause_f2" class="n">Clause F2</th>
           <th data-field="pages_cited" class="n hide-narrow">Pages cited</th>
           <th data-field="reg_f2" class="n">Reg F2</th>
           <th data-field="regs_cited" class="n hide-narrow">Regs cited</th>
@@ -272,7 +273,7 @@ dash.onData(() => {
   drawScatter(document.getElementById("scatter"), rows);
   fillTable(document.getElementById("tbl-standings"), rows, [
     ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
-    ["pages_missed", String, "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
+    ["pages_missed", String, "n"], ["clause_f2", v => v === null || v === undefined ? "—" : f3(+v), "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
   document.querySelectorAll("#tbl-standings td.risk").forEach(td => { const v = td.textContent; td.textContent = ""; const c = document.createElement("span"); c.className = "lb-chip " + v; c.textContent = v; td.appendChild(c); });
   const all = runs.data.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
   fillTable(document.getElementById("tbl-runs"), all, [

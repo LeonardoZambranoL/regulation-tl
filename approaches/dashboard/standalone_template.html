@@ -86,11 +86,12 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
 
   <section class="card">
     <h2>Standings</h2>
-    <p class="note">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> comes from each experiment's <code>risk.json</code> plus automatic flags (exact gold match: high; no declaration: unknown). Prefer the lower-risk approach when scores are close. Click a header to sort.</p>
+    <p class="note">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> comes from each experiment's <code>risk.json</code> plus automatic flags (exact gold match: high; no declaration: unknown). Prefer the lower-risk approach when scores are close. <b>Clause F2</b> is stricter than page F2: it compares cited paragraphs with the gold paragraphs (official normalisation), so a neighbouring paragraph on the right page does not count and page-only citations score 0; "—" means the experiment's predictions.json is not the file that run scored. Click a header to sort.</p>
     <div class="tablewrap"><table id="standings"><thead><tr>
       <th data-k="rank" class="n">#</th><th data-k="approach">Approach</th><th data-k="description">What it does</th>
       <th data-k="page_f2" class="n">Page F2</th><th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th>
-      <th data-k="pages_missed" class="n">Gold pages missed</th><th data-k="reg_f2" class="n">Reg F2</th>
+      <th data-k="pages_missed" class="n">Gold pages missed</th>
+      <th data-k="clause_f2" class="n">Clause F2</th><th data-k="clause_precision" class="n hide-narrow">Clause P</th><th data-k="clause_recall" class="n hide-narrow">Clause R</th><th data-k="reg_f2" class="n">Reg F2</th>
       <th data-k="risk_level">Overfit risk</th><th data-k="risk_flags" class="hide-narrow">Why</th><th data-k="completed_at" class="hide-narrow">Last run</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
@@ -100,7 +101,7 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
     <input class="search" id="q" type="search" placeholder="Filter by approach" aria-label="Filter runs by approach">
     <div class="tablewrap"><table id="runs"><thead><tr>
       <th data-k="completed_at">When (UTC)</th><th data-k="approach">Approach</th><th data-k="page_f2" class="n">Page F2</th>
-      <th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th><th data-k="reg_f2" class="n">Reg F2</th>
+      <th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th><th data-k="clause_f2" class="n">Clause F2</th><th data-k="reg_f2" class="n">Reg F2</th>
       <th data-k="gold" class="hide-narrow">Gold</th><th data-k="run_id" class="hide-narrow">Run</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
@@ -138,6 +139,7 @@ const RUNS = JSON.parse(document.getElementById("data").textContent);
 const GENERATED = "/*__GENERATED__*/";
 const MAIN_GOLD = "dc4bf7baae68"; // dev-rear-lamp expected.json fingerprint
 const f3 = (v) => (+v).toFixed(3);
+const opt3 = (v) => v === null || v === undefined ? "—" : (+v).toFixed(3);
 const when = (s) => new Date(s).toISOString().slice(0, 16).replace("T", " ");
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
@@ -219,9 +221,9 @@ function table(id, rows, cols) {
   }
 }
 const STAND_COLS = [["rank", String, "n"], ["approach"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
-  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
+  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
 const RUN_COLS = [["completed_at", when], ["approach"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
-  ["reg_f2", f3, "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]];
+  ["clause_f2", opt3, "n"], ["reg_f2", f3, "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]];
 let standRows = standings.slice(), runRows = RUNS.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
 
 function sortable(id, get, set, cols) {

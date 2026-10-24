@@ -23,6 +23,13 @@
     "uses_llm": false,
     "deterministic": null,
     "risk_notes": "",
+    "clause_precision": null,
+    "clause_recall": null,
+    "clause_f1": null,
+    "clause_f2": null,
+    "clauses_cited": null,
+    "clauses_expected": null,
+    "clauses_matched": null,
     "latest": true
   },
   {
@@ -49,6 +56,13 @@
     "uses_llm": false,
     "deterministic": true,
     "risk_notes": "Retrieval baseline; regulation selection is the main dev-specific risk.",
+    "clause_precision": 0.10526315789473684,
+    "clause_recall": 0.1652892561983471,
+    "clause_f1": 0.12861736334405147,
+    "clause_f2": 0.14836795252225518,
+    "clauses_cited": 190,
+    "clauses_expected": 121,
+    "clauses_matched": 20,
     "latest": true
   },
   {
@@ -75,6 +89,13 @@
     "uses_llm": true,
     "deterministic": false,
     "risk_notes": "No size cut-off and a generic prompt, so less fitted than the retrieval variants; LLM answers vary run to run (cached per batch).",
+    "clause_precision": 0.31921824104234525,
+    "clause_recall": 0.8099173553719008,
+    "clause_f1": 0.45794392523364486,
+    "clause_f2": 0.6194690265486725,
+    "clauses_cited": 307,
+    "clauses_expected": 121,
+    "clauses_matched": 98,
     "latest": true
   },
   {
@@ -101,6 +122,13 @@
     "uses_llm": false,
     "deterministic": true,
     "risk_notes": "The size cut-off is fitted to the only labelled case; expect a lower score on the held-out case.",
+    "clause_precision": 0.0,
+    "clause_recall": 0.0,
+    "clause_f1": 0.0,
+    "clause_f2": 0.0,
+    "clauses_cited": 0,
+    "clauses_expected": 121,
+    "clauses_matched": 0,
     "latest": true
   }
 ]
