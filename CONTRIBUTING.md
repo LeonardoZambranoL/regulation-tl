@@ -5,7 +5,7 @@ The rules every agent follows are in [AGENTS.md](AGENTS.md); this page is the se
 
 - Repo: https://github.com/LeonardoZambranoL/regulation-tl
 - Challenge (cases, official tools): https://github.com/Certivity/industrial-ai-hackathon
-- Comparison dashboard: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; ask Devansh for edit access to update it)
+- Comparison dashboard: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; it updates itself from the repo within about 15 minutes of your push)
 - Leaderboard in the repo: [approaches/LEADERBOARD.md](approaches/LEADERBOARD.md)
 
 ## 1. Set up once
@@ -44,9 +44,8 @@ git add approaches && git commit -m "<name>: what changed"
 git push
 ```
 
-Then the dashboard: with Claude and edit access, ask it to "update the comparison dashboard" (steps in
-[approaches/dashboard/README.md](approaches/dashboard/README.md)); otherwise the pushed `leaderboard_rows.json` is
-uploaded by a teammate who has Claude.
+Then the dashboard updates itself: a scheduled sync pulls the repo every 15 minutes and uploads the pushed
+`leaderboard_rows.json` (details in [approaches/dashboard/README.md](approaches/dashboard/README.md)). Nothing else to do.
 
 ## 3. What a good experiment folder has
 

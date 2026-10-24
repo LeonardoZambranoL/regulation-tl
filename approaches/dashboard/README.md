@@ -7,8 +7,9 @@ It shows each approach's latest page F2 (bar chart), page precision vs recall (w
 (what each approach does, page and regulation scores, gold pages missed, overfit risk and why) and every run ever
 benchmarked. Its data is `leaderboard_rows.json` in this folder, built from `approaches/leaderboard.json`.
 
-Access: anyone with the link can open it (owned by Devansh). To **update** it, ask Devansh for **edit** access
-(Share menu). Without edit access, still do steps 1-4 and push: Devansh's
+Access: anyone with the link can open it (owned by Devansh). **You do not need edit access:** a scheduled sync on
+Devansh's machine pulls the repo every 15 minutes and uploads `leaderboard_rows.json` when it changed, so pushing your
+benchmark results (step 4) is enough. The sync runs while Devansh's Claude app is open; otherwise on its next launch. Without edit access, still do steps 1-4 and push: Devansh's
 Claude uploads the new rows.
 
 ## Add your experiment (standard flow)

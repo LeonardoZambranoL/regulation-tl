@@ -32,9 +32,8 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 2. `python approaches/benchmarking/dashboard_rows.py`
 3. Pull, commit (experiment folder + `approaches/leaderboard.json`, `LEADERBOARD.md`, `dashboard/leaderboard_rows.json`), push.
 4. Comparison dashboard (https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV): it reads the
-   `approaches/dashboard/leaderboard_rows.json` you pushed. Uploading it to the dashboard needs claude.ai artifact tools
-   (Claude Code / Claude desktop) and edit access; other agents stop at the push and tell the user to ask a teammate
-   with Claude (or Devansh) to "update the comparison dashboard".
+   `approaches/dashboard/leaderboard_rows.json` you pushed. A scheduled sync uploads it within about 15 minutes of the
+   push, so every agent stops at the push; no dashboard access is needed.
 
 ## Avoid overfitting
 
