@@ -7,8 +7,8 @@ It shows each approach's latest page F2 (bar chart), page precision vs recall (w
 (what each approach does, page and regulation scores, gold pages missed, overfit risk and why) and every run ever
 benchmarked. Its data is `leaderboard_rows.json` in this folder, built from `approaches/leaderboard.json`.
 
-Access: the dashboard is a private claude.ai artifact owned by Devansh. To open it, ask him to share it with you; to
-**update** it, ask for **edit** access (Share menu). Without edit access, still do steps 1-4 and push: Devansh's
+Access: anyone with the link can open it (owned by Devansh). To **update** it, ask Devansh for **edit** access
+(Share menu). Without edit access, still do steps 1-4 and push: Devansh's
 Claude uploads the new rows.
 
 ## Add your experiment (standard flow)

@@ -59,7 +59,8 @@ Score an experiment's predictions on the internal leaderboard (from the repo roo
 python approaches/benchmarking/bench.py <experiment> approaches/experiments/<experiment>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
 ```
 
-Team rules (pull before push, folder ownership, overfitting, secrets) are in [CLAUDE.md](CLAUDE.md).
+New here: [CONTRIBUTING.md](CONTRIBUTING.md) (setup for any coding agent, then pull, test, push).
+Team rules for every agent (pull before push, folder ownership, overfitting, secrets): [AGENTS.md](AGENTS.md).
 Comparison dashboard: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV ([how to update it](approaches/dashboard/README.md)).
 
 Do not commit secrets: API keys go in a git-ignored `.env` (see `.gitignore`).
