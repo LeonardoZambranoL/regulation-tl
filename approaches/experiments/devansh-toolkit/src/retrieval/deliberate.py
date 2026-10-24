@@ -21,7 +21,7 @@ from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .corpus import CACHE_DIR, DEFAULT_CHALLENGE_DIR, REPO_ROOT, Chunk, load_corpus
+from .corpus import LLM_CACHE_DIR, DEFAULT_CHALLENGE_DIR, REPO_ROOT, Chunk, load_corpus
 
 PROMPT = """You are the compliance engineer who writes the requirement list that the supplier of the product in <spec>
 receives. You are reading ONE section of a UN Regulation that applies to this product. Choose the exact numbered clauses
@@ -104,13 +104,13 @@ def select_clauses(spec: str, regulations: set[str], effort: str = "high", worke
 
     def run(chunks: list[Chunk]) -> dict[int, str]:
         prompt = _prompt(spec, chunks)
-        cache = CACHE_DIR / f"deliberate_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        cache = LLM_CACHE_DIR / f"deliberate_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return {int(k): v for k, v in json.loads(cache.read_text(encoding="utf-8")).items()}
         data = structured(prompt, SCHEMA, effort=effort, max_tokens=32000)
         wanted = {c.id for c in chunks}
         out = {d["id"]: d["reason"] for d in data["chosen"] if d["id"] in wanted}
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(out), encoding="utf-8")
         return out
 

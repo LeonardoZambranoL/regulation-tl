@@ -16,7 +16,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from .corpus import CACHE_DIR, DEFAULT_CHALLENGE_DIR, REPO_ROOT
+from .corpus import LLM_CACHE_DIR, DEFAULT_CHALLENGE_DIR, REPO_ROOT
 
 PROMPT = """You are a UNECE type-approval engineer starting a compliance file. Read the product specification below and,
 if attached, the exploded-view image with its callouts. Write a precise product profile that later steps use to decide
@@ -65,12 +65,12 @@ def find_image(case_dir: Path) -> Path | None:
 def build_profile(spec: str, image: Path | None = None, effort: str = "high") -> dict:
     from .llm import structured
     key = hashlib.sha1((PROMPT + spec + (hashlib.sha1(image.read_bytes()).hexdigest() if image else "")).encode()).hexdigest()[:16]
-    cache = CACHE_DIR / f"profile_{key}.json"
+    cache = LLM_CACHE_DIR / f"profile_{key}.json"
     if cache.is_file():
         return json.loads(cache.read_text(encoding="utf-8"))
     profile = structured(f"{PROMPT}\n\n<spec>\n{spec}\n</spec>", SCHEMA, effort=effort,
                          images=[image] if image else None)
-    CACHE_DIR.mkdir(exist_ok=True)
+    LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache.write_text(json.dumps(profile, indent=2, ensure_ascii=False), encoding="utf-8")
     return profile
 

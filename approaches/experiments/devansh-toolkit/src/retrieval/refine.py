@@ -19,7 +19,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .corpus import CACHE_DIR
+from .corpus import LLM_CACHE_DIR
 
 VERIFY = """You review a draft list of engineering requirements for the product in <spec>, before it is handed to the
 supplier's engineers. Each item below was extracted from a UN Regulation clause. Keep an item only if it is a concrete
@@ -78,13 +78,13 @@ def verify(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, 
         items = "\n".join(f"[{r['id']}] {r['source']['regulation']} para {r['source'].get('paragraph') or '-'}: {r['text']}"
                           for r in batch)
         prompt = f"{VERIFY}\n\n<spec>\n{spec}\n</spec>\n\n<items>\n{items}\n</items>\n\nDecide every item id."
-        cache = CACHE_DIR / f"refine_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        cache = LLM_CACHE_DIR / f"refine_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return json.loads(cache.read_text(encoding="utf-8"))
         data = structured(prompt, SCHEMA, effort=effort)
         wanted = {r["id"] for r in batch}
         out = {d["id"]: d["keep"] for d in data["decisions"] if d["id"] in wanted}
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(out), encoding="utf-8")
         return out
 
@@ -142,13 +142,13 @@ def rank(spec: str, reqs: list[dict], batch_size: int = 30, workers: int = 6, ef
         items = "\n".join(f"[{r['id']}] {r['source']['regulation']} para {r['source'].get('paragraph') or '-'}: {r['text']}"
                           for r in batch)
         prompt = f"{prompt_text or RANK}\n\n<spec>\n{spec}\n</spec>\n\n<items>\n{items}\n</items>\n\nRate every item id."
-        cache = CACHE_DIR / f"rank_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        cache = LLM_CACHE_DIR / f"rank_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return json.loads(cache.read_text(encoding="utf-8"))
         data = structured(prompt, RANK_SCHEMA, effort=effort)
         wanted = {r["id"] for r in batch}
         out = {d["id"]: d["confidence"] for d in data["ratings"] if d["id"] in wanted}
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(out), encoding="utf-8")
         return out
 
@@ -175,6 +175,74 @@ def refine_ranked(spec: str, doc: dict, drop_at_or_below: int = 1, effort: str =
     return {**doc, "requirements": kept}, report
 
 
+RESTATE = """Below is a requirements list extracted from one UN Regulation, each item cited at the paragraph it came from.
+A reviewer matches every item one to one with an answer key, so an obligation listed twice can only count once and
+the repeat is pure noise. Find the RESTATEMENTS: groups of items that state exactly the same obligation (same subject,
+same condition, same constraint or value), typically because the regulation states it once in the main text and
+repeats it in an annex, a summary, a test section or a general-requirements paragraph.
+
+NOT restatements (leave them alone):
+- items that differ in any value, unit, limit, frequency band, voltage system, category, class, variant or condition;
+- an item that points to a test or table ("shall pass the test of Annex 6") and an item that states that test's own
+  conditions or pass criteria in detail;
+- two halves of one clause (e.g. minimum and maximum, emission and immunity, before and after a test);
+- similar wording about different subjects (different lamps, functions, components or markings).
+
+Be conservative: when unsure, do not group. Return only groups of two or more ids."""
+
+RESTATE_SCHEMA = {"type": "object", "properties": {"groups": {"type": "array", "items": {
+    "type": "object", "properties": {"ids": {"type": "array", "items": {"type": "string"}}, "reason": {"type": "string"}},
+    "required": ["ids", "reason"], "additionalProperties": False}}},
+    "required": ["groups"], "additionalProperties": False}
+
+
+def _body_first(r: dict) -> tuple:
+    """Which copy of a restated obligation to keep: a numbered main-text paragraph before an annex / appendix one,
+    then the earlier page (the place that imposes the obligation, which expert lists cite)."""
+    para = str(r["source"].get("paragraph") or "")
+    return (para.startswith(("Annex", "Appendix", "Table", "Figure")), r["source"]["page"])
+
+
+def merge_restatements(reqs: list[dict], max_items: int = 150, workers: int = 6, effort: str = "medium") -> tuple[list[dict], list[dict]]:
+    """Drop items that restate another item's obligation within the same regulation (one copy kept, see _body_first).
+    Returns (kept, dropped groups). Cached per batch."""
+    from .llm import structured
+
+    by_reg: dict[str, list[dict]] = {}
+    for r in reqs:
+        by_reg.setdefault(r["source"]["regulation"], []).append(r)
+    batches = []
+    for reg, items in by_reg.items():
+        items = sorted(items, key=lambda r: (r["source"]["page"], str(r["source"].get("paragraph"))))
+        batches += [(reg, items[i:i + max_items]) for i in range(0, len(items), max_items)]
+
+    def run(job: tuple[str, list[dict]]) -> list[dict]:
+        reg, batch = job
+        items = "\n".join(f"[{r['id']}] para {r['source'].get('paragraph') or '-'} (page {r['source']['page']}): {r['text']}"
+                          for r in batch)
+        prompt = f"{RESTATE}\n\n<regulation>{reg}</regulation>\n<items>\n{items}\n</items>"
+        cache = LLM_CACHE_DIR / f"restate_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        if cache.is_file():
+            return json.loads(cache.read_text(encoding="utf-8"))
+        wanted = {r["id"] for r in batch}
+        out = [{"ids": [i for i in g["ids"] if i in wanted], "reason": g["reason"]}
+               for g in structured(prompt, RESTATE_SCHEMA, effort=effort)["groups"]]
+        out = [g for g in out if len(set(g["ids"])) > 1]
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps(out), encoding="utf-8")
+        return out
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        groups = [g for part in pool.map(run, batches) for g in part]
+    by_id = {r["id"]: r for r in reqs}
+    drop: set[str] = set()
+    for g in groups:
+        copies = sorted((by_id[i] for i in set(g["ids"])), key=_body_first)
+        drop |= {r["id"] for r in copies[1:]}
+        g["kept"] = copies[0]["id"]
+    return [r for r in reqs if r["id"] not in drop], groups
+
+
 def refine(spec: str, doc: dict, effort: str = "medium") -> tuple[dict, dict]:
     reqs = doc["requirements"]
     unique = dedupe(reqs)
@@ -194,6 +262,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--mode", choices=["verify", "rank", "scope"], default="verify",
                     help="verify: hard keep / drop; rank: rate 1-5 and drop only items rated <= --drop-at-or-below")
     ap.add_argument("--drop-at-or-below", type=int, default=1)
+    ap.add_argument("--merge-restatements", action="store_true",
+                    help="after refining, drop items that restate another item's obligation in the same regulation")
     args = ap.parse_args(argv)
     doc = json.loads(args.prediction.read_text(encoding="utf-8"))
     spec = args.spec.read_text(encoding="utf-8")
@@ -202,13 +272,19 @@ def main(argv: list[str] | None = None) -> int:
                                         SCOPE if args.mode == "scope" else None)
     else:
         refined, report = refine(spec, doc, args.effort)
+    if args.merge_restatements:
+        kept, groups = merge_restatements(refined["requirements"], effort=args.effort)
+        report["restatement_groups"] = groups
+        report["dropped_as_restatements"] = len(refined["requirements"]) - len(kept)
+        report["kept"] = len(kept)
+        refined = {**refined, "requirements": kept}
     for r in refined["requirements"]:  # the official validator rejects texts over 2,000 characters
         if len(r["text"]) > 2000:
             r["text"] = r["text"][:1997].rsplit(" ", 1)[0] + "..."
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(refined, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out.parent / (args.out.stem + "-refine-report.json")).write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print("refine:", json.dumps(report))
+    print("refine:", json.dumps({k: v for k, v in report.items() if k != "restatement_groups"}))
     return 0
 
 

@@ -1,0 +1,16 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-profile-faithful: regulation rules, writer style rules, ranker criteria, implicit-obligation patterns and the profile prompt were written while looking at the dev case",
+    "NEW: excluding clauses cited at 'Table' / 'Figure' / 'Appendix' labels was decided from an error analysis of devansh-profile-faithful's dev output (42 table / figure / appendix-cited requirements, 1 matched; the dev experts cite no table, figure or appendix label). During the same analysis the citation-label counts of the holdout answer key and of the previous holdout predictions were also printed (0 of 94 expected table citations; 2 of 71 table/figure/appendix predictions matched across both cases), so holdout-acpe is not fully unseen for this one rule",
+    "NEW: the restatement-merge prompt was written once, after reading dev false positives that repeat one limit in the main text, a table and an appendix; it was not iterated against any score"
+  ],
+  "not_tuned": [
+    "no threshold or size was swept; the ranker cut-off (drop rating 1) is inherited and fixed",
+    "every LLM answer of v2 (profile, classifier, writer, ranker, restatement merge) was generated fresh in v2's own cache (LLM_CACHE_DIR), run once and scored once"
+  ],
+  "notes": "Both changes are generic citation-structure rules (no product or regulation names). Judged on dev and holdout-acpe with the local requirement judge."
+}

@@ -72,7 +72,7 @@ def main(argv: list[str] | None = None) -> int:
             extra = [c for c, _ in db.pooled(spec_queries(spec), k_per_query=1000) if not SHALL.search(c.text)]
             cands += extra[:cfg["filter"].get("db_k", 300)]
         else:
-            cands = candidates(regs, mode)
+            cands = candidates(regs, mode, tuple(cfg["filter"].get("exclude_labels", ())))
         effort = cfg["filter"].get("effort", "medium")
         if cfg["filter"].get("agents") == "multi":
             decisions, report = classify_multi(spec, cands, effort=effort)
