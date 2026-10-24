@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-llm-clause-filter-writer: regulation rules and writer style rules written while looking at the dev case",
+    "the verifier's drop categories (test-procedure steps, authority duties, definitions, repeats) were chosen after the dev error analysis showed most unmatched requirements come from unlisted paragraphs"
+  ],
+  "notes": "No thresholds or sizes fitted; the verifier prompt names no product. Judged on the unseen holdout-acpe case as well."
+}

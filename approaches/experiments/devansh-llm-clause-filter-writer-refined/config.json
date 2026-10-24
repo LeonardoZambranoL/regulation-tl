@@ -1,0 +1,1 @@
+{"name": "Devansh: devansh-llm-clause-filter-writer, then a product-neutral verifier drops non-obligations and near-duplicate requirements (for the one-to-one requirement judge)", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0, "write": {"effort": "medium", "prompt": "strict"}, "refine": {"effort": "medium"}}
