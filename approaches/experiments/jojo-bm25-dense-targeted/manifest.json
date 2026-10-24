@@ -1,0 +1,25 @@
+{
+  "case_id": "dev-rear-lamp",
+  "team_id": "development",
+  "source_sha256": "ed5793bcca373d2037c4315f7e9ea94b25e2d99edf7f275cb5c256b7bce05053",
+  "input_sha256": {
+    "spec.md": "3b5c40171b499386623f9e89079c1091fd6566149be819a2d5b863c8c7a4de42",
+    "exploded_view.png": "ecd69911330bb6268b2be22df902f630beb42d7e96b75839aeeaa55185f87526"
+  },
+  "config": {
+    "model": "claude-sonnet-5-5",
+    "packet_pages": 3,
+    "target_packets": 32,
+    "reference_depth": 2,
+    "retrieval_per_query": 6,
+    "review_batch": 35,
+    "workers": 3,
+    "training": false,
+    "automatic_upload": false,
+    "name": "No-training BM25 + dense retrieval, 32 source packets, Claude extraction and source-aware review"
+  },
+  "implementation_sha256": "46a679412c988d3323786237259c7bd0f478be31902d84c6c79a1652f125f15b",
+  "prepared_at": 1792860101.565808,
+  "reference_answer_access": false,
+  "note": "Only explicitly whitelisted product inputs copied. Known development case is not a blind benchmark."
+}

@@ -1,0 +1,89 @@
+{
+  "facts": [
+    {
+      "fact": "The product is a rear lamp, an exterior lighting and signalling module combining several light functions, a lens and a retro-reflector in one housing.",
+      "evidence": "Spec 'Product Type': 'Rear lamp — exterior lighting & signalling module combining multiple light functions, lens, and retro-reflector in a single housing.'"
+    },
+    {
+      "fact": "The vehicle category is M1 passenger car.",
+      "evidence": "Spec 'Vehicle Category': 'M1 — passenger car.'"
+    },
+    {
+      "fact": "The lamp provides rear position signalling.",
+      "evidence": "Spec 'Function': 'Rear position signalling (presence/visibility)'; 'Main Parts': Rear position lamp"
+    },
+    {
+      "fact": "The lamp provides a braking indication (stop lamp function).",
+      "evidence": "Spec 'Function': 'Braking indication (stop lamp)'; 'Main Parts': Stop lamp"
+    },
+    {
+      "fact": "The lamp provides reversing illumination.",
+      "evidence": "Spec 'Function': 'Reversing illumination'; 'Main Parts': Reversing lamp"
+    },
+    {
+      "fact": "The lamp includes a passive retro-reflector.",
+      "evidence": "Spec 'Function': 'Passive conspicuity (retro-reflector)'; 'Main Parts': Retro-reflector; the image shows a ribbed rectangular panel at the lower right of the lens view."
+    },
+    {
+      "fact": "The outer lens defines light transmission and colour and is made of red-tinted, UV-stabilised PMMA.",
+      "evidence": "Spec 'Function': 'Light transmission & color definition (outer lens)'; Materials table: 'Outer lens — PMMA (red-tinted, UV-stabilised)'"
+    },
+    {
+      "fact": "The light source is LED modules on a PCB.",
+      "evidence": "Materials table: 'Light source — LED modules on PCB'; the image shows three rows of 8 LED reflector cups plus a row of small round apertures."
+    },
+    {
+      "fact": "The housing, reflector surface, seal and fasteners are made of the listed typical materials, which are representative and not confirmed.",
+      "evidence": "Materials table: housing PP or ASA/PC; reflector surface PC with vacuum-metallised aluminium; seal TPE or silicone; fasteners PA, POM or steel. The spec states 'Representative values — confirm against actual bill of materials.'"
+    },
+    {
+      "fact": "The retro-reflector is made of PMMA with molded prism optics.",
+      "evidence": "Materials table: 'Retro-reflector — PMMA (molded prism optics)'"
+    },
+    {
+      "fact": "The image shows a single combined housing with an exposed optical interior view and a closed outer-lens view, with a separate lower-right cavity that appears to hold a reflector or reversing optic.",
+      "evidence": "Image: the top view shows an LED array, a central rectangular recess and a lower-right cavity with a gridded optic; the bottom view shows the outer lens covering the housing with a ribbed rectangular panel."
+    },
+    {
+      "fact": "The spec says UNECE lighting regulations apply across M and N categories.",
+      "evidence": "Spec 'Vehicle Category': 'UNECE lighting regulations referenced apply across M and N categories.'"
+    }
+  ],
+  "unknowns": [
+    "Installation position and mounting height, number of lamps per vehicle, and left, right or both sides",
+    "Whether the lamp is mounted on a single vehicle side or is a handed pair",
+    "Whether any function is a fog lamp, direction indicator, rear registration plate lamp or other function not listed (not stated)",
+    "Which functions share the same light source or are grouped, combined or reciprocally incorporated",
+    "Photometric values (intensity, area), colours of the stop, position and reversing functions, and the light source categories",
+    "Stop lamp intensity switching, brightness control, or dual-intensity operation of the position/stop lamp",
+    "Electrical supply voltage, power, LED driver or control electronics, and wiring or connector details",
+    "Failure behaviour on LED failure, and whether any failure monitoring or tell-tale is present",
+    "Whether the LED modules are replaceable or non-replaceable and their type approval",
+    "Retro-reflector class, area, colour and geometry values",
+    "Marking details, approval marks and the required approval architecture",
+    "Applicable regulation editions, series of amendments and approval route",
+    "Production conformity controls and test samples",
+    "Environmental requirements (water ingress, vibration, UV, temperature, humidity)",
+    "Final bill of materials confirmation and material flammability or plastic-lens test data",
+    "Number of LEDs per function",
+    "Whether the module has adaptive or automatic functions"
+  ],
+  "queries": [
+    "rear position lamp photometric intensity requirements M1",
+    "stop lamp luminous intensity and signal colour requirements",
+    "reversing lamp installation requirements and photometric limits",
+    "retro-reflector rear red non-triangular requirements",
+    "rear lamp combined grouped reciprocally incorporated lamps",
+    "LED light source module requirements for signalling lamps",
+    "plastic lens material UV and heat resistance test for lamp",
+    "lamp housing sealing ingress protection and condensation test",
+    "lamp approval marking and manufacturer identification",
+    "lamp electrical supply voltage and LED failure behaviour",
+    "stop lamp activation conditions and braking signal",
+    "rear lamp geometric visibility angles and mounting position",
+    "signal colour chromaticity coordinates red white lamp",
+    "conformity of production for lighting devices",
+    "test sample and technical documentation for lighting device approval",
+    "retro-reflecting device colorimetric and photometric tests"
+  ]
+}

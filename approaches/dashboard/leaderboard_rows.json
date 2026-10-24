@@ -130,5 +130,31 @@
     "clauses_expected": 121,
     "clauses_matched": 0,
     "latest": true
+  },
+  {
+    "run_id": "d22de00b526945159ea300124121a8f5",
+    "approach": "jojo-bm25-dense-targeted",
+    "description": "No-training BM25 + dense retrieval, 32 source packets, Claude extraction and source-aware review",
+    "completed_at": "2026-10-24T16:42:03.376760+00:00",
+    "gold": "dc4bf7baae68",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "page_precision": 0.325,
+    "page_recall": 0.24528301886792453,
+    "page_f1": 0.27956989247311825,
+    "page_f2": 0.2579365079365079,
+    "pages_cited": 40,
+    "pages_expected": 53,
+    "pages_missed": 40,
+    "reg_precision": 0.2857142857142857,
+    "reg_recall": 0.5,
+    "reg_f2": 0.4347826086956521,
+    "regs_cited": 7,
+    "regs_expected": 4,
+    "risk_level": "medium",
+    "risk_flags": "Generic ancestor-context and conditional-applicability prompts revised after inspecting development-case source/output errors; no fitting to gold scores.",
+    "uses_llm": true,
+    "deterministic": false,
+    "risk_notes": "Only one known development product. The 32-packet limit was chosen before scoring solely to meet the user-authorized USD 12 total spending ceiling, not by a score sweep. Gold is read only by the separate benchmark after the submission is frozen. The cost ceiling also limited final review; unchecked drafts are excluded without consulting gold.",
+    "latest": true
   }
 ]

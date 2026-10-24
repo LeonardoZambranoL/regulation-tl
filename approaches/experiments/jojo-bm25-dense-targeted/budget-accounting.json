@@ -1,0 +1,20 @@
+{
+  "prior_workflow_cost_usd": 11.077606,
+  "workflow_total_ceiling_usd": 12.0,
+  "subsequent_workflow_cost_usd": 0.8321339999999999,
+  "invocations": [
+    {
+      "shared_before_usd": 12.073792,
+      "remaining_workflow_usd": 0.9223940000000006,
+      "effective_shared_ceiling_usd": 12.996186,
+      "started_at": 1792859560.823542,
+      "shared_after_usd": 12.905926,
+      "incremental_committed_usd": 0.8321339999999999
+    }
+  ],
+  "attributed_workflow_total_usd": 11.90974,
+  "offline_finalization_incremental_usd": 0,
+  "other_workflows_excluded": true,
+  "standalone_model_cost_estimate_usd": 4.80654,
+  "note": "Standalone estimate covers requests used by this partial output. Total workflow cost includes earlier probes and the unfinished thorough run. Other experiments are separate."
+}
