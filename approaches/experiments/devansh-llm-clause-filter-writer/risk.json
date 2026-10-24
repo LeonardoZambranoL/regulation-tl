@@ -1,0 +1,12 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "regulation rules written by looking at the dev product",
+    "classifier prompt lists clause kinds seen in the dev gold (marking, photometry, installation, EMC)",
+    "writer rules (one obligation per requirement, split lists/table rows, drop test-apparatus, sampling and documentation procedures) were written after comparing the dev gold's style with our output and checked with the local requirement judge on dev; no thresholds or sizes were fitted"
+  ],
+  "notes": "Same clause selection as devansh-llm-clause-filter; the new writer step only changes the requirement text and drops non-product obligations. Requirement-level F2 measured with approaches/benchmarking/req_judge.py (matches the platform within 1 requirement on the uploaded file)."
+}

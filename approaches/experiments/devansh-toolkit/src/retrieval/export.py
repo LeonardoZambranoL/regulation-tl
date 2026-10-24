@@ -86,13 +86,18 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{size:>5}  {pl['precision']:.3f}   {pl['recall']:.3f}   {pl['f1']:.3f}    {f2(pl):.3f}    {f2(r['regulation_level']):.3f}")
         return 0
     chosen = ranked[:n]
+    if cfg.get("write"):
+        # one requirement per obligation (the platform matches requirements one to one), not one per clause
+        from .write import write
+        pairs = write(spec, chosen, effort=cfg["write"].get("effort", "medium"), prompt=cfg["write"].get("prompt", "default"))
+    else:
+        pairs = [(c, " ".join(c.text.split())[:2000]) for c in chosen]
     doc = {"team_id": args.team_id, "case_id": args.case, "requirements": [
-        {"id": f"R-{i:04d}", "text": " ".join(c.text.split())[:2000], "source": c.cite()}
-        for i, c in enumerate(chosen, 1)]}
+        {"id": f"R-{i:04d}", "text": t, "source": c.cite()} for i, (c, t) in enumerate(pairs, 1)]}
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {len(chosen)} requirements from {sorted(regs) if regs else 'all regulations'} -> {out}")
+    print(f"wrote {len(pairs)} requirements ({len(chosen)} clauses) from {sorted(regs) if regs else 'all regulations'} -> {out}")
     return 0
 
 

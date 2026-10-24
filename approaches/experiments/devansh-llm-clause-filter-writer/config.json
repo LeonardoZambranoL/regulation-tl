@@ -1,0 +1,1 @@
+{"name": "Devansh: rules pick the regulations, Claude keeps or drops each 'shall' clause, then Claude rewrites every kept clause into single self-contained obligations (strict: product obligations only)", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0, "write": {"effort": "medium", "prompt": "strict"}}

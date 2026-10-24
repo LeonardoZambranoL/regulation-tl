@@ -56,6 +56,14 @@ Lesson: as a ranker the Gemini embeddings are worse than BM25+ here; as a candid
 (dev 0.81 -> 0.84 / 0.86) at a small precision cost, so Robust scores barely move. Replacing "judge every clause" with "shall + 300 database
 clauses" (neutral prompt) raises precision a lot (dev page F2 0.694 -> 0.813) for some recall: Robust 0.777 -> 0.801.
 
+## 2026-10-24: requirement writer (the platform's requirement level)
+
+Platform score of the uploaded devansh-llm-clause-filter file: requirements P 0.334 / R 0.542 / F2 0.482 (pages R 0.98,
+regulations 1.0). Cause: one raw clause per requirement, while the experts list single obligations, matched one to one.
+New `retrieval/write.py` rewrites each kept clause into 0..n one-sentence obligations; new local judge
+`approaches/benchmarking/req_judge.py` (reproduces the platform within one match). Dev req F2: raw 0.487, writer 0.604,
+strict writer **0.676** (devansh-llm-clause-filter-writer). Remaining error is mostly clause selection.
+
 ## Lessons
 
 - Fix *which regulations* first; then *which clauses*; search quality matters least.

@@ -92,6 +92,12 @@ unseen-case run rank below all that have one.
 | **Clause** P / R / F1 / **F2** | distinct (regulation, version, paragraph), official normalisation | stricter: the right clause, not just the right page; closest offline proxy for the requirement level |
 | **Regulation** P / R / F1 / F2 | distinct regulations | the challenge's regulation level |
 
+**Requirement level** (the platform's main score, judged by a model; one to one with the experts' single-obligation
+requirements) is not in `bench.py`. Estimate it locally with
+`python approaches/benchmarking/req_judge.py <predictions.json> <expected.json>` (Claude, your own key, cached; it
+reproduced the platform's score of an uploaded file within one requirement). Hand in one obligation per requirement,
+not whole clauses: see `experiments/devansh-llm-clause-filter-writer`.
+
 When you report or push a result, state page F2, clause F2 and regulation F2, and how they compare with the
 experiment's previous run and the current leader (`approaches/LEADERBOARD.md` or the dashboard). Always cite
 paragraphs in predictions: a submission without `paragraph` scores 0 at clause level.
