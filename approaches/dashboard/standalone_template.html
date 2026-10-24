@@ -118,9 +118,21 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
       <th data-k="rank" class="n">#</th><th data-k="approach">Approach</th><th>Explain</th><th data-k="description">What it does</th>
       <th data-k="page_f2" class="n">Page F2</th><th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th>
       <th data-k="pages_missed" class="n">Gold pages missed</th>
+      <th data-k="unseen_page_recall" class="n">Unseen-case page R</th>
       <th data-k="clause_f2" class="n">Clause F2</th><th data-k="clause_precision" class="n hide-narrow">Clause P</th><th data-k="clause_recall" class="n hide-narrow">Clause R</th><th data-k="reg_f2" class="n">Reg F2</th>
       <th data-k="risk_level">Overfit risk</th><th data-k="risk_flags" class="hide-narrow">Why</th><th data-k="completed_at" class="hide-narrow">Last run</th>
     </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="card" id="holdout">
+    <h2>Generalisation check: unseen product (holdout-acpe)</h2>
+    <p class="note">A different product the approaches were not built on: an Acceleration Control for Pedal Error system (driver-assistance software), answer key = 94 expert requirements from UN R175. <b>Recall is the number to read</b>: did it find the right rules on a product it never saw? Precision is understated here, because the key covers R175 only while a real ACPE product may also need EMC, cyber security or software-update rules. An approach that is strong on the rear lamp but weak here is probably overfitted.</p>
+    <div class="tablewrap"><table id="holdout-table"><thead><tr>
+      <th data-k="approach">Approach</th><th data-k="page_recall" class="n">Page R</th><th data-k="clause_recall" class="n">Clause R</th>
+      <th data-k="reg_recall" class="n">Regulation R</th><th data-k="page_f2" class="n">Page F2</th><th data-k="clause_f2" class="n">Clause F2</th>
+      <th data-k="regs_cited" class="n hide-narrow">Regs cited</th><th data-k="pages_cited" class="n hide-narrow">Pages cited</th>
+    </tr></thead><tbody></tbody></table></div>
+    <p class="note" id="holdout-empty" hidden>No approach has been run on this case yet.</p>
   </section>
 
   <section class="card">
@@ -170,7 +182,11 @@ const opt3 = (v) => v === null || v === undefined ? "—" : (+v).toFixed(3);
 const when = (s) => new Date(s).toISOString().slice(0, 16).replace("T", " ");
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
+const HOLDOUT = RUNS.filter(r => r.latest && r.case === "holdout-acpe" && r.approach !== "gold-self-check")
+  .sort((a, b) => b.page_recall - a.page_recall || b.clause_recall - a.clause_recall);
+const unseen = Object.fromEntries(HOLDOUT.map(r => [r.approach, r.page_recall]));
 const standings = RUNS.filter(r => r.latest && r.gold === MAIN_GOLD && r.approach !== "gold-self-check")
+  .map(r => ({ ...r, unseen_page_recall: unseen[r.approach] ?? null }))
   .sort((a, b) => b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach))
   .map((r, i) => ({ ...r, rank: i + 1 }));
 
@@ -256,7 +272,7 @@ function table(id, rows, cols) {
   }
 }
 const STAND_COLS = [["rank", String, "n"], ["approach"], ["_explain"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
-  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
+  ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["unseen_page_recall", opt3, "n"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
 const RUN_COLS = [["completed_at", when], ["approach"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
   ["clause_f2", opt3, "n"], ["reg_f2", f3, "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]];
 let standRows = standings.slice(), runRows = RUNS.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
@@ -279,7 +295,11 @@ function sortable(id, get, set, cols) {
     th.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
   });
 }
+const HOLD_COLS = [["approach"], ["page_recall", f3, "n"], ["clause_recall", opt3, "n"], ["reg_recall", f3, "n"],
+  ["page_f2", f3, "n"], ["clause_f2", opt3, "n"], ["regs_cited", String, "n hide-narrow"], ["pages_cited", String, "n hide-narrow"]];
 function render() {
+  table("holdout-table", HOLDOUT, HOLD_COLS);
+  document.getElementById("holdout-empty").hidden = HOLDOUT.length > 0;
   const q = document.getElementById("q").value.trim().toLowerCase();
   table("standings", standRows, STAND_COLS);
   table("runs", runRows.filter(r => !q || r.approach.toLowerCase().includes(q)), RUN_COLS);

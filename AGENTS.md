@@ -70,7 +70,12 @@ optimistic. Before you push any result, go through this checklist and record the
    facts, say so and set `level` to `high`.
 4. Is the gain robust? Prefer a change that improves both page F2 and clause F2 over one that trades one for the other;
    prefer round default values over values picked by a sweep.
-5. Set `level` (`low` / `medium` / `high`) honestly. The dashboard shows it next to the score, and the team prefers
+5. Run it on the unseen case too: `approaches/benchmarking/cases/holdout-acpe/` (a different product, ACPE
+   driver-assistance software, R175 answer key). Write its predictions to `outputs/predictions-holdout-acpe.json`
+   (`"case_id": "holdout-acpe"`) and benchmark them against `approaches/benchmarking/cases/holdout-acpe/expected.json`.
+   Read its **recall** (precision is understated there). Never tune on it. A big drop from dev to holdout means
+   overfitting; the dashboard shows both side by side.
+6. Set `level` (`low` / `medium` / `high`) honestly. The dashboard shows it next to the score, and the team prefers
    the lower-risk approach when scores are close.
 
 Never optimise against `expected.json` directly, never copy gold text or citations into prompts or code, and never

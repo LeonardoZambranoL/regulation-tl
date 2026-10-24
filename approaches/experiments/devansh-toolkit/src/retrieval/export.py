@@ -13,7 +13,7 @@ import argparse
 import json
 from pathlib import Path
 
-from .corpus import APPROACH_DIR, DEFAULT_CHALLENGE_DIR
+from .corpus import APPROACH_DIR, DEFAULT_CHALLENGE_DIR, REPO_ROOT
 from .pipeline import Pipeline, spec_queries
 
 
@@ -30,7 +30,12 @@ def main(argv: list[str] | None = None) -> int:
 
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
     n = args.n or cfg.get("n", 190)
-    spec = (Path(args.challenge_dir) / "cases" / args.case / "spec.md").read_text(encoding="utf-8")
+    # a case lives in the challenge repo (cases/<case>) or in the team's extra cases (approaches/benchmarking/cases/<case>)
+    case_dir = next((d for d in (Path(args.challenge_dir) / "cases" / args.case,
+                                 REPO_ROOT / "approaches" / "benchmarking" / "cases" / args.case) if d.is_dir()), None)
+    if case_dir is None:
+        raise SystemExit(f"case {args.case!r} not found in the challenge repo or approaches/benchmarking/cases")
+    spec = (case_dir / "spec.md").read_text(encoding="utf-8")
     regs = None
     if cfg.get("select"):
         from .regselect import select
@@ -38,8 +43,8 @@ def main(argv: list[str] | None = None) -> int:
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
     if cfg.get("filter", {}).get("method") == "llm":
         # no retrieval cut: every "shall" clause of the selected regulations, kept or dropped by the LLM classifier
-        from .classify import candidates, classify, classify_multi
-        cands = candidates(regs)
+        from .classify import PROMPTS, candidates, classify, classify_multi
+        cands = candidates(regs, cfg["filter"].get("candidates", "shall"))
         effort = cfg["filter"].get("effort", "medium")
         if cfg["filter"].get("agents") == "multi":
             decisions, report = classify_multi(spec, cands, effort=effort)
@@ -49,7 +54,7 @@ def main(argv: list[str] | None = None) -> int:
                 Path(args.out).parent.mkdir(parents=True, exist_ok=True)
                 (Path(args.out).parent / "review-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
         else:
-            decisions = classify(spec, cands, effort=effort)
+            decisions = classify(spec, cands, effort=effort, instructions=PROMPTS[cfg["filter"].get("prompt", "default")])
         ranked = [c for c in cands if decisions.get(c.id)]
         sizes = [len(ranked) if s <= 0 else s for s in sizes]
         n = len(ranked) if n <= 0 else n
@@ -59,7 +64,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.sweep:
         from .bench import official_scorer
         score = official_scorer(Path(args.challenge_dir))
-        gold = json.loads((Path(args.challenge_dir) / "cases" / args.case / "expected.json").read_text(encoding="utf-8"))
+        gold = json.loads((case_dir / "expected.json").read_text(encoding="utf-8"))
         f2 = lambda m: 5 * m["precision"] * m["recall"] / (4 * m["precision"] + m["recall"]) if m["precision"] + m["recall"] else 0
         print(f"{'N':>5}  page P   page R   page F1  page F2  reg F2")
         for size in sizes:

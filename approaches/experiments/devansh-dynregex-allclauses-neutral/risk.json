@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "the reviewer prompt's examples of implicit obligations (spec-style lines, 'may ... provided that', 'is not permitted', test instructions) were chosen after looking at which dev gold clauses lacked 'shall'"
+  ],
+  "notes": "No hand-written product rules (spec-generated regex selection), no product-specific examples in the reviewer prompt, no size cut, nothing tuned against dev scores. Also scored on the unseen holdout-acpe case to check that it generalises."
+}

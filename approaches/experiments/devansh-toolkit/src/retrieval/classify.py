@@ -39,6 +39,25 @@ provisions, names and addresses); scope statements without an obligation.
 Be strict about functions the product does not have, and inclusive about general requirements that apply to it."""
 
 
+NEUTRAL_INSTRUCTIONS = """You are a UNECE type-approval engineer. A supplier builds the product in <spec> and needs every
+engineering requirement it must fulfil under the selected UN Regulations. For each numbered clause below decide
+whether it states a requirement that this product must fulfil.
+
+Obligations are often written without "shall": specification-style lines ("Height: not less than ... mm",
+"Number: two", "Angle: 45 degrees"), permissions with conditions ("may ... provided that ..."), prohibitions
+("... is not permitted"), test instructions ("Apply the test ...", "The sample is exposed to ..."), and table rows.
+Treat these as requirements when they apply.
+
+applies = true for requirements on the product itself, its markings and approval documentation from the
+manufacturer, its performance and the tests it must pass, its installation or integration in the vehicle, and its
+electrical / electronic behaviour, for the functions, components and vehicle categories described in the spec.
+
+applies = false for: functions, components or vehicle categories the product does not have; pure definitions;
+duties of type-approval authorities or technical services; headings or scope statements without an obligation of
+their own; transitional provisions.
+
+Decide from the spec, not from what products of this kind usually have."""
+
 AUDITOR_INSTRUCTIONS = """You are a completeness auditor for a UNECE type-approval team. Another engineer is deciding
 which numbered clauses below apply to the product in <spec>; your job is to make sure NOTHING that applies is missed.
 For each clause decide whether it could state a requirement that this product (the device itself, its markings, its
@@ -58,8 +77,14 @@ applies = true when the clause states an obligation for this product (device, ma
 electronic behaviour, tests) given its actual functions and vehicle category; false otherwise."""
 
 
-def candidates(regulations: set[str]) -> list[Chunk]:
-    return [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and SHALL.search(c.text)]
+PROMPTS = {"default": INSTRUCTIONS, "neutral": NEUTRAL_INSTRUCTIONS}
+
+
+def candidates(regulations: set[str], mode: str = "shall") -> list[Chunk]:
+    """Clauses the reviewers judge. "shall": only clauses containing shall / must (misses implicit obligations);
+    "all": every clause of the selected regulations."""
+    chunks = [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and c.text.strip()]
+    return chunks if mode == "all" else [c for c in chunks if SHALL.search(c.text)]
 
 
 def _batch_prompt(spec: str, batch: list[Chunk], instructions: str = INSTRUCTIONS, notes: dict[int, str] | None = None) -> str:

@@ -195,6 +195,7 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
             "run_id": r["run_id"], "approach": r["approach"], "description": describe(folder),
             **explain(folder, shared),
             "completed_at": r["completed_at"], "gold": r["gold_sha256"][:12], "evaluator": r["evaluator"],
+            "case": golds.get(r["gold_sha256"], {}).get("case_id", r["gold_sha256"][:12]),
             "page_precision": p["precision"], "page_recall": p["recall"], "page_f1": p["f1"], "page_f2": p["f2"],
             "pages_cited": p["n_submitted"], "pages_expected": p["n_expected"], "pages_missed": missed,
             "reg_precision": g["precision"], "reg_recall": g["recall"], "reg_f2": g["f2"],
@@ -232,6 +233,8 @@ def main(argv: list[str] | None = None) -> int:
                     "cases/*/expected.json in ../industrial-ai-hackathon next to the repo")
     args = ap.parse_args(argv)
     gold_paths = [Path(g) for g in args.gold] if args.gold else         sorted((APPROACHES.parent.parent / "industrial-ai-hackathon" / "cases").glob("*/expected.json"))
+    # the team's extra test cases (e.g. holdout-acpe) are always known
+    gold_paths += sorted((APPROACHES / "benchmarking" / "cases").glob("*/expected.json"))
     data = rows(json.loads(Path(args.board).read_text(encoding="utf-8")), load_golds(gold_paths))
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
