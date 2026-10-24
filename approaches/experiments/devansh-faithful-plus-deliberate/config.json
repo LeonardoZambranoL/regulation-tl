@@ -1,0 +1,1 @@
+{"name": "Devansh: faithful-writer requirements plus the deliberate agent's requirements from paragraphs the faithful pipeline did not cite (recall-first), deduplicated", "source": "clauses", "select": {"method": "combined"}, "filter": {"method": "llm", "effort": "medium"}, "n": 0, "write": {"effort": "medium", "prompt": "faithful"}}

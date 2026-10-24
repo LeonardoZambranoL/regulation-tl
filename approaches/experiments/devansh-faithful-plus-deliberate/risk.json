@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits both pipelines' dev-informed prompts"
+  ],
+  "notes": "No new LLM calls; union of two existing outputs."
+}

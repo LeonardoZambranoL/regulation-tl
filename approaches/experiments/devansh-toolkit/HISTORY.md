@@ -41,6 +41,8 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 24 | **`devansh-writer-faithful-ranked`** | writer keeps the regulation's own scope, subject, values and alternatives (no narrowing to the product) + ranker | | | | | | req F2 dev **0.696** (P 0.505, R 0.768), holdout **0.407**; clause F2 dev 0.619 -> 0.708: **adopted, new best** |
 | 25 | `devansh-deliberate-faithful-ranked` | agent reads each section whole (thinking, effort high) and picks exact clauses; faithful writer; ranker | | | | | | paragraph P 0.553 / R 0.736 (classifier 0.508 / 0.785); req F2 dev 0.635, holdout 0.337: not adopted |
 | 26 | `devansh-agreement-combo` | keep paragraphs both selectors picked; one-selector ones only if ranker >= 4 | | | | | | agreed paragraphs 80% right, but req F2 dev 0.646, holdout 0.378: not adopted |
+| 27 | `devansh-faithful-plus-deliberate` | faithful list + deliberate agent's extra paragraphs (recall-first) | | | | | | req dev P 0.412 / R 0.842 / F1 0.554 / F2 0.697, holdout F2 0.393: not the final |
+| 28 | **FINAL = `devansh-writer-faithful-ranked`** | clean submission file + `final.sh <case>` for the held-out case | | | | | | req dev P 0.505 / R 0.768 / F1 0.610 / F2 0.696; holdout 0.407 |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

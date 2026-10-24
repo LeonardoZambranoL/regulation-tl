@@ -19,3 +19,18 @@ repo root. Results: `results.json`, `approaches/req_scores.json`, dashboards, de
 | **holdout-acpe, faithful** | **152** | **0.283** | 0.457 | **0.350** | **0.407** |
 
 Clause F2 on dev 0.619 -> 0.708. Upload file: `outputs/predictions.json` (validate first).
+
+## FINAL submission (2026-10-24)
+
+This is the team's final pipeline. Clean, validated file for the dev case:
+`outputs/submission-dev-rear-lamp.json` (289 requirements, team-11, every requirement with page and paragraph;
+`tools/validate.py --strict` OK; local score_local: regulations 1.0, pages P 0.658 / R 0.943).
+
+For the held-out case on Sunday (after `git pull` in ../industrial-ai-hackathon):
+
+```bash
+bash approaches/experiments/devansh-writer-faithful-ranked/final.sh <held-out-case-id>
+```
+
+It runs the whole pipeline for that case, writes `outputs/submission-<case-id>.json` in the clean submission format and
+validates it. Upload that file.
