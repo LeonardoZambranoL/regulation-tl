@@ -118,7 +118,17 @@ a dataset `runs` whose source is an uploaded file.
 Do not edit the page (`files/index.html`) unless asked; if you do, read it first and keep its data marks.
 If you have no edit access the write is refused: say so and leave the upload to Devansh.
 
+## Updated on every push
+
+| what | updated by | when |
+|---|---|---|
+| `approaches/LEADERBOARD.md`, `leaderboard_rows.json`, `dashboard.html` in the repo | GitHub Action `.github/workflows/dashboard.yml` | every push to `main` that touches results, experiments or benchmark code (about a minute); it commits only when something changed |
+| what `python approaches/dashboard/open.py` shows | rebuilt locally from the pulled `leaderboard.json` | every time you open it |
+| the claude.ai dashboard | scheduled sync on Devansh's machine | every 5 minutes while his Claude app is open (claude.ai cannot be triggered by GitHub) |
+
 ## Troubleshooting: "my push does not show up"
+
+- Check the repo's **Actions** tab on GitHub for the "Rebuild dashboard" run of your push.
 
 - **Standalone view**: `python approaches/dashboard/open.py` rebuilds the page from `approaches/leaderboard.json` every
   time it opens (into the git-ignored `approaches/dashboard/.local/`), so a pushed `bench.py` run always appears after

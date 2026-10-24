@@ -79,6 +79,10 @@ Never optimise against `expected.json` directly, never copy gold text or citatio
 
 ## Dashboard updates on every commit and push
 
+- On every push to `main`, the GitHub Action `.github/workflows/dashboard.yml` rebuilds `approaches/LEADERBOARD.md`,
+  `approaches/dashboard/leaderboard_rows.json` and `dashboard.html` and commits them (`Rebuild dashboard ... [skip ci]`)
+  when they changed. So after you push, `git pull` again before your next push (the pre-push hook enforces this).
+
 - The `pre-commit` hook (enable once: `git config core.hooksPath .githooks`) rebuilds
   `approaches/dashboard/dashboard.html` and `leaderboard_rows.json` whenever benchmark results or experiment metadata
   are committed, and adds them to that commit, so every push carries an up-to-date dashboard.
