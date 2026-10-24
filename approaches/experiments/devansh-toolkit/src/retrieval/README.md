@@ -1,6 +1,6 @@
-# `retrieval/`: plug-and-play retrieval lab (experiment `devansh`)
+# `retrieval/`: plug-and-play retrieval lab (Devansh's toolkit, `approaches/experiments/devansh-toolkit`)
 
-All commands run from `approaches/experiments/devansh/src`.
+All commands run from `approaches/experiments/devansh-toolkit/src`.
 
 Goal: given a product spec, find **every regulation paragraph that holds a requirement for it** (recall first), with a
 citation (`regulation / version / page / paragraph`) we can paste straight into a submission. An LLM step then turns the
@@ -35,7 +35,7 @@ retrieval/
 ## Run it
 
 ```bash
-# from approaches/experiments/devansh: ./setup.sh --neural  (Windows: .\setup.ps1 -Neural), then cd src
+# from approaches/experiments/devansh-toolkit: ./setup.sh --neural  (Windows: .\setup.ps1 -Neural), then cd src
 ../.venv/bin/python -m retrieval.bench --list                         # (Windows: ..\.venv\Scripts\python)
 ../.venv/bin/python -m retrieval.bench                                # every config in configs/
 ../.venv/bin/python -m retrieval.bench retrieval/configs/bm25.json    # just one

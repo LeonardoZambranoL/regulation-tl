@@ -19,7 +19,7 @@ from pathlib import Path
 
 import pymupdf
 
-APPROACH_DIR = Path(__file__).resolve().parents[2]  # approaches/experiments/devansh
+APPROACH_DIR = Path(__file__).resolve().parents[2]  # approaches/experiments/devansh-toolkit
 # the repo root holds the shared data (regulations/, data-ingestion/), wherever this approach folder sits
 REPO_ROOT = next(p for p in Path(__file__).resolve().parents if (p / "regulations").is_dir())
 PDF_DIR = REPO_ROOT / "regulations"

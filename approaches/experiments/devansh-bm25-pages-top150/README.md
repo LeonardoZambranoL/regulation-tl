@@ -1,4 +1,4 @@
-# devansh-pages-n150
+# devansh-bm25-pages-top150
 
 Owner: Devansh. **Rules-based regulation selection, then BM25+ (with bigrams) retrieval over whole PDF pages; cite the
 top 150 pages.** No LLM in the loop (deterministic, free).
@@ -15,10 +15,10 @@ N = 150 was chosen with `retrieval.export --sweep` on the dev case (F2 by size: 
 ## Run
 
 ```bash
-cd approaches/experiments/devansh/src        # after ../setup.sh
-../.venv/bin/python -m retrieval.export --config ../../devansh-pages-n150/config.json --out ../../devansh-pages-n150/outputs/predictions.json
+cd approaches/experiments/devansh-toolkit/src        # after ../setup.sh
+../.venv/bin/python -m retrieval.export --config ../../devansh-bm25-pages-top150/config.json --out ../../devansh-bm25-pages-top150/outputs/predictions.json
 cd ../../../..
-python approaches/benchmarking/bench.py devansh-pages-n150 approaches/experiments/devansh-pages-n150/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
+python approaches/benchmarking/bench.py devansh-bm25-pages-top150 approaches/experiments/devansh-bm25-pages-top150/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
 ```
 
 ## Result (dev-rear-lamp, team bench)

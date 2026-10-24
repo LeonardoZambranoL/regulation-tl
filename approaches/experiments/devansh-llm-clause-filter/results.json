@@ -1,6 +1,6 @@
 {
   "run_id": "54ddbecfa1194b1d9104f8fdb2ad4ad8",
-  "approach": "devansh-llm-classifier",
+  "approach": "devansh-llm-clause-filter",
   "status": "completed",
   "completed_at": "2026-10-24T16:47:35.893120+00:00",
   "evaluator": "official-local-f2-v1-6de0fe1e0763",
@@ -14,7 +14,7 @@
     "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
     "regulation_versions_checked": true
   },
-  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-llm-classifier\\outputs\\predictions.json",
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-llm-clause-filter\\outputs\\predictions.json",
   "prediction_sha256": "fbe64719a701200f5517488929a2f246640b0788c098bd29674309577949e5d4",
   "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
   "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",

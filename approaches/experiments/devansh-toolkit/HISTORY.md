@@ -1,5 +1,8 @@
 # Devansh's experiment log
 
+Names: `devansh-toolkit` = shared code (not ranked); `devansh-bm25-clauses-top190`, `devansh-bm25-pages-top150`,
+`devansh-llm-clause-filter` = ranked experiments. Older rows use the names they had then.
+
 What was tried, in order, what changed, and what it scored on `dev-rear-lamp`. Newest at the bottom. Scores marked
 **team bench** come from `approaches/benchmarking/bench.py` (official scorer + F2, recorded in `approaches/leaderboard.json`);
 the others from this folder's own `src/retrieval/bench.py` / `oracle.py` with the same official scorer.
@@ -19,13 +22,14 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 5 | `oracle.py` | perfect regulation selection (cheating) | 0.31 | 0.60 | 0.41 | | 1.00 | selection is the biggest lever |
 | 6 | `oracle.py` | perfect regs + every "shall" clause | 0.20 | 1.00 | 0.34 | | 1.00 | all gold requirements are among about 1,200 clauses: the task becomes classification |
 | 7 | `regselect` methods | rules / LLM / retrieval vote / scope-BM25 | | | | | 1.00 / 1.00 / 0.75 / 0.50 | rules and LLM both pick exactly R48, R148, R150, R10 |
-| 8 | **`devansh`** (team bench) | rules selection + bm25+ bigrams on clauses, N=190 | 0.317 | 0.604 | 0.416 | **0.511** | 1.00 | first leaderboard entry |
+| 8 | **`devansh-bm25-clauses-top190`** (team bench, first named `devansh`) | rules selection + bm25+ bigrams on clauses, N=190 | 0.317 | 0.604 | 0.416 | **0.511** | 1.00 | first leaderboard entry |
 | 9 | `export --sweep` | submission size under F2 | | | | 0.43-0.58 | | pages peak at N=150; clauses flat at 0.52-0.54 from N=190 to 1000 |
-| 10 | **`devansh-pages-n150`** (team bench) | selection + bm25+ bigrams on whole pages, N=150 | 0.280 | 0.793 | 0.414 | **0.580** | 1.00 | best without an LLM |
-| 11 | **`devansh-llm-classifier`** (team bench) | selection + Claude (opus 5.5, effort medium) keeps / drops each of 1,240 "shall" clauses | 0.542 | 0.981 | 0.698 | **0.844** | 1.00 | big jump: classification beats retrieval |
-| 12 | `risk.json` for all three | declared what each one tuned on the dev case: devansh medium, devansh-pages-n150 **high** (N fitted by sweep), devansh-llm-classifier medium | | | | | | shown on the dashboard; prefer the lower-risk approach when scores are close |
-| 13 | clause-level F2 (all approaches, `dashboard_rows.py`) | stricter metric: cited paragraphs vs gold paragraphs | | | | | | llm-classifier 0.619 (98/121 gold clauses), devansh 0.148, pages-n150 0 (cites no paragraphs) |
+| 10 | **`devansh-bm25-pages-top150`** (team bench) | selection + bm25+ bigrams on whole pages, N=150 | 0.280 | 0.793 | 0.414 | **0.580** | 1.00 | best without an LLM |
+| 11 | **`devansh-llm-clause-filter`** (team bench) | selection + Claude (opus 5.5, effort medium) keeps / drops each of 1,240 "shall" clauses | 0.542 | 0.981 | 0.698 | **0.844** | 1.00 | big jump: classification beats retrieval |
+| 12 | `risk.json` for all three | declared what each one tuned on the dev case: devansh-bm25-clauses-top190 medium, devansh-bm25-pages-top150 **high** (N fitted by sweep), devansh-llm-clause-filter medium | | | | | | shown on the dashboard; prefer the lower-risk approach when scores are close |
+| 13 | clause-level F2 (all approaches, `dashboard_rows.py`) | stricter metric: cited paragraphs vs gold paragraphs | | | | | | llm-clause-filter 0.619 (98/121 gold clauses), bm25-clauses-top190 0.148, bm25-pages-top150 0 (cites no paragraphs) |
 | 14 | re-benchmarked all three under the shared evaluator id (line-ending fix in bench.py) | bench.py now records clause level | | | | | | same scores; one table with everyone's runs |
+| 15 | renamed for clarity | `devansh` -> code in `devansh-toolkit` + run in `devansh-bm25-clauses-top190`; `devansh-pages-n150` -> `devansh-bm25-pages-top150`; `devansh-llm-classifier` -> `devansh-llm-clause-filter` (history migrated, run ids unchanged) | | | | | | |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

@@ -1,4 +1,4 @@
-# devansh-llm-classifier
+# devansh-llm-clause-filter
 
 Owner: Devansh. **Rules-based regulation selection, then an LLM decides clause by clause what applies.** No retrieval
 ranking and no size cut.
@@ -13,18 +13,18 @@ ranking and no size cut.
    product lacks, other vehicle categories, definitions, authorities' administrative duties, scope statements).
 4. Output: every kept clause as one requirement (clause text, cited at first page + paragraph). 308 kept on the dev case.
 
-Code lives in `../devansh/src/retrieval` (shared by all devansh-* experiments). Config: `config.json`.
+Code lives in `../devansh-toolkit/src/retrieval` (shared by all devansh-* experiments). Config: `config.json`.
 
 ## Run
 
 ```bash
-cd approaches/experiments/devansh/src        # after ../setup.sh; needs ANTHROPIC_API_KEY or a git-ignored .env
-../.venv/bin/python -m retrieval.export --config ../../devansh-llm-classifier/config.json --out ../../devansh-llm-classifier/outputs/predictions.json
+cd approaches/experiments/devansh-toolkit/src        # after ../setup.sh; needs ANTHROPIC_API_KEY or a git-ignored .env
+../.venv/bin/python -m retrieval.export --config ../../devansh-llm-clause-filter/config.json --out ../../devansh-llm-clause-filter/outputs/predictions.json
 cd ../../../..
-python approaches/benchmarking/bench.py devansh-llm-classifier approaches/experiments/devansh-llm-classifier/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
+python approaches/benchmarking/bench.py devansh-llm-clause-filter approaches/experiments/devansh-llm-clause-filter/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
 ```
 
-Classifier answers are cached per batch in `devansh/.cache/` (git-ignored); the first run costs about 31 API calls.
+Classifier answers are cached per batch in `devansh-toolkit/.cache/` (git-ignored); the first run costs about 31 API calls.
 Not deterministic across fresh runs (LLM); cached runs are repeatable.
 
 ## Result (dev-rear-lamp, team bench)

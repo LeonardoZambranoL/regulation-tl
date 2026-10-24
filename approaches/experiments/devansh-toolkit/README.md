@@ -1,40 +1,42 @@
-# devansh: regulation selection + plug-and-play retrieval
+# devansh-toolkit: Devansh's shared code (not a ranked experiment)
 
-Owner: Devansh. Spec -> **select applicable regulations** -> multi-query retrieval over the team's
-`data-ingestion/clauses` -> top-N clauses cited at page + paragraph.
+Owner: Devansh. The code behind every `devansh-*` experiment: regulation selection, a plug-and-play retrieval lab, the
+LLM clause classifier, and export to the submission format. It has no predictions of its own; the ranked experiments
+are the folders below, each with its own `config.json`, `risk.json`, README and results.
 
-Current submission (`config.json`, `outputs/predictions.json`): rules-based regulation selection + BM25+ with bigrams
-on clauses, N = 190. Shared bench (`approaches/benchmarking/bench.py`) on dev-rear-lamp:
-**page P 0.32 / R 0.60 / F2 0.51, regulation F2 1.00** (picks exactly R48, R148, R150, R10).
+| experiment | what it does | page F2 | clause F2 |
+|---|---|---|---|
+| [devansh-llm-clause-filter](../devansh-llm-clause-filter/) | rules pick the regulations, Claude keeps or drops each "shall" clause | **0.844** | **0.619** |
+| [devansh-bm25-pages-top150](../devansh-bm25-pages-top150/) | rules pick the regulations, BM25+ ranks whole pages, top 150 (no LLM) | 0.580 | 0.000 |
+| [devansh-bm25-clauses-top190](../devansh-bm25-clauses-top190/) | rules pick the regulations, BM25+ ranks clauses, top 190 (no LLM) | 0.511 | 0.148 |
 
-The requirement text is still the raw clause; splitting into single obligations and filtering clauses with an LLM are
-the next steps (see the plan in [src/retrieval/README.md](src/retrieval/README.md)).
+Pipeline: spec -> **select applicable regulations** (`regselect`) -> candidates from the team's `data-ingestion/clauses`
+-> rank (BM25+, TF-IDF, dense, hybrids...) or classify (`classify`, Claude) -> cite page + paragraph (`export`).
+Everything tried so far, with scores and lessons: [HISTORY.md](HISTORY.md).
 
 ## Layout
 
 ```text
 README.md            this file
-config.json          the pipeline behind outputs/predictions.json
 requirements.txt     pymupdf, numpy, jsonschema (+ src/retrieval/requirements-neural.txt for dense/SPLADE/rerank, anthropic for LLM)
 setup.sh / setup.ps1 venv + deps + clones the challenge repo next to this repo
 src/retrieval/       the lab: corpus, retrievers, regselect, bench, oracle, export (full docs in its README)
-outputs/predictions.json
-results.json, benchmark-results/   written by approaches/benchmarking/bench.py
+HISTORY.md           every experiment so far, with scores
 ```
 
 ## Run
 
 ```bash
-cd approaches/experiments/devansh
+cd approaches/experiments/devansh-toolkit
 ./setup.sh                 # Windows: .\setup.ps1   (add --neural / -Neural for dense, SPLADE, rerank)
 cd src
 ../.venv/bin/python -m retrieval.regselect                 # every selection method vs gold (Windows: ..\.venv\Scripts\python)
 ../.venv/bin/python -m retrieval.bench --list              # all retriever configs
 ../.venv/bin/python -m retrieval.bench retrieval/configs/sel_rules_bm25plus_bigrams.json
 ../.venv/bin/python -m retrieval.oracle                    # what perfect selection / filtering would be worth
-../.venv/bin/python -m retrieval.export                    # config.json -> outputs/predictions.json
+../.venv/bin/python -m retrieval.export --config ../../devansh-llm-clause-filter/config.json --out ../../devansh-llm-clause-filter/outputs/predictions.json
 cd ../../../..             # repo root, then score on the team leaderboard:
-python approaches/benchmarking/bench.py devansh approaches/experiments/devansh/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
+python approaches/benchmarking/bench.py devansh-llm-clause-filter approaches/experiments/devansh-llm-clause-filter/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
 ```
 
 LLM steps (`regselect --method llm`, `select: {"method": "llm"}` in a config) read `ANTHROPIC_API_KEY` from the
@@ -59,16 +61,6 @@ environment or from a git-ignored `.env` (repo root or this folder). Never commi
 
 With the right regulations, every gold requirement is among about 1,200 "shall" clauses, so the remaining work is
 picking the right about 190 of them (LLM clause classifier) and rewriting them as single obligations.
-
-## Experiments and history
-
-| experiment | what it does | page F2 (team bench) |
-|---|---|---|
-| [devansh-llm-classifier](../devansh-llm-classifier/) | rules selection + Claude keeps / drops every "shall" clause | **0.844** |
-| [devansh-pages-n150](../devansh-pages-n150/) | rules selection + BM25+ bigrams on whole pages, top 150 (no LLM) | 0.580 |
-| devansh (this folder) | rules selection + BM25+ bigrams on clauses, top 190 | 0.511 |
-
-Everything tried so far, with scores and what did not work: [HISTORY.md](HISTORY.md).
 
 ## Comparison dashboard
 
