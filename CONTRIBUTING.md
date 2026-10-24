@@ -5,7 +5,8 @@ The rules every agent follows are in [AGENTS.md](AGENTS.md); this page is the se
 
 - Repo: https://github.com/LeonardoZambranoL/regulation-tl
 - Challenge (cases, official tools): https://github.com/Certivity/industrial-ai-hackathon
-- Comparison dashboard: https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; it updates itself from the repo within about 15 minutes of your push)
+- Comparison dashboard: open `approaches/dashboard/dashboard.html` after `git pull` (any browser, no account), or
+  https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; it updates itself from the repo within about 15 minutes of your push)
 - Leaderboard in the repo: [approaches/LEADERBOARD.md](approaches/LEADERBOARD.md)
 
 ## 1. Set up once

@@ -98,6 +98,15 @@ def main(argv: list[str] | None = None) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{len(data)} runs, {sum(r['latest'] for r in data)} latest -> {out}")
+    # the standalone page anyone can open from disk: the template with the data embedded
+    template = APPROACHES / "dashboard" / "standalone_template.html"
+    if template.is_file():
+        built = max((r["completed_at"] for r in data), default="")[:16].replace("T", " ") + " UTC" if data else "never"
+        payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+        html = template.read_text(encoding="utf-8").replace("/*__DATA__*/", payload).replace("/*__GENERATED__*/", built)
+        page = APPROACHES / "dashboard" / "dashboard.html"
+        page.write_text(html, encoding="utf-8", newline="\n")
+        print(f"standalone dashboard -> {page}")
     return 0
 
 

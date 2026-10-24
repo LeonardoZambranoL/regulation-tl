@@ -1,7 +1,13 @@
 # Comparison dashboard
 
-One page that compares every experiment in `approaches/experiments/`:
-**https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV**
+One page that compares every experiment in `approaches/experiments/`, in two forms:
+
+- **`approaches/dashboard/dashboard.html`**: for everyone. `git pull`, then open the file in any browser
+  (double-click it). No account, server or setup; data is built into the file.
+- **https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV**: the same view on claude.ai, synced from the repo.
+
+`python approaches/benchmarking/dashboard_rows.py` rebuilds both `leaderboard_rows.json` and `dashboard.html`
+(from `standalone_template.html`; edit the template, not the generated file).
 
 It shows each approach's latest page F2 (bar chart), page precision vs recall (with equal-F2 curves), the standings
 (what each approach does, page and regulation scores, gold pages missed, overfit risk and why) and every run ever

@@ -31,7 +31,8 @@ Certivity hackathon: from a product spec to the UN Regulation requirements it mu
 1. `python approaches/benchmarking/bench.py <name> approaches/experiments/<name>/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json`
 2. `python approaches/benchmarking/dashboard_rows.py`
 3. Pull, commit (experiment folder + `approaches/leaderboard.json`, `LEADERBOARD.md`, `dashboard/leaderboard_rows.json`), push.
-4. Comparison dashboard (https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV): it reads the
+4. Comparison dashboard: step 2 also rebuilds `approaches/dashboard/dashboard.html` (open it in a browser; commit it
+   with the rest). The claude.ai copy (https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV) reads the
    `approaches/dashboard/leaderboard_rows.json` you pushed. A scheduled sync uploads it within about 15 minutes of the
    push, so every agent stops at the push; no dashboard access is needed.
 
