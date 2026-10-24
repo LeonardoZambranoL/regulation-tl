@@ -1,0 +1,282 @@
+<style>
+.lb { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+.lb-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.lb-head p { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); max-width: 70ch; }
+.lb-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+.lb-tile, .lb-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.lb-tile .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lb-tile .v { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin-top: var(--cds-gap-xs); }
+.lb-tile .s { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-xs); }
+.lb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+.lb-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.lb-card .note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+.lb-chart { position: relative; min-height: 220px; }
+.lb-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+.lb-tip .t { color: var(--cds-text-secondary); }
+.lb-tablewrap { overflow: auto; max-height: 28rem; }
+.lb table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.lb th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; background: var(--color-panel); }
+.lb td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+.lb td.n, .lb th.n { text-align: right; }
+.lb-join { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+.lb-links { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); margin: 0 0 var(--cds-gap-md); padding: 0; list-style: none; }
+.lb-links a { color: var(--color-fg); text-underline-offset: 2px; }
+.lb-steps { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); font-size: var(--cds-font-size-body); }
+.lb-code { position: relative; margin: 0; background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm); padding-right: 4.5rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: var(--cds-font-size-caption); line-height: 1.6; overflow-x: auto; white-space: pre; }
+.lb-copy { position: absolute; top: var(--cds-pad-xs); right: var(--cds-pad-xs); font: inherit; font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 0 var(--cds-pad-sm); cursor: pointer; }
+.lb-copy:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.lb-agents { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-sm) 0 0; }
+.lb-chip { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid currentColor; font-size: var(--cds-font-size-caption); line-height: 1.6; }
+.lb-chip.low { color: var(--color-ok); } .lb-chip.medium { color: var(--color-warn); } .lb-chip.high { color: var(--color-bad); } .lb-chip.unknown { color: var(--color-fg-muted); }
+.lb td.flags { min-width: 14rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lb-risk { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); max-width: 80ch; }
+.lb td.desc { min-width: 16rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lb .ref { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lb-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: 220px; }
+.lb-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+@media (max-width: 40rem) { .lb .hide-narrow { display: none; } }
+</style>
+
+<div class="lb">
+  <header class="lb-head">
+    <h1 id="title">Who cites the right pages?</h1>
+    <p id="takeaway" class="dash-skeleton" data-source="standings">—</p>
+  </header>
+
+  <section class="lb-card" id="join" aria-labelledby="join-title">
+    <h2 id="join-title">Join and contribute</h2>
+    <p class="note">Any coding agent works: Claude Code reads CLAUDE.md, Codex / Cursor / most others read AGENTS.md, Gemini reads GEMINI.md, Copilot reads .github/copilot-instructions.md. All say the same rules: pull before you push, work in your own experiment folder, declare overfit risk.</p>
+    <ul class="lb-links">
+      <li><a href="https://github.com/LeonardoZambranoL/regulation-tl" target="_blank" rel="noopener">Team repo</a></li>
+      <li><a href="https://github.com/LeonardoZambranoL/regulation-tl/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Setup guide (CONTRIBUTING.md)</a></li>
+      <li><a href="https://github.com/LeonardoZambranoL/regulation-tl/blob/main/AGENTS.md" target="_blank" rel="noopener">Agent rules (AGENTS.md)</a></li>
+      <li><a href="https://github.com/LeonardoZambranoL/regulation-tl/blob/main/approaches/dashboard/README.md" target="_blank" rel="noopener">Update this dashboard</a></li>
+      <li><a href="https://github.com/LeonardoZambranoL/regulation-tl/blob/main/approaches/LEADERBOARD.md" target="_blank" rel="noopener">Leaderboard in the repo</a></li>
+      <li><a href="https://github.com/Certivity/industrial-ai-hackathon" target="_blank" rel="noopener">Challenge repo</a></li>
+    </ul>
+    <div class="lb-join">
+      <div>
+        <ol class="lb-steps">
+          <li>Set up once (both repos side by side).</li>
+        </ol>
+        <pre class="lb-code" id="code-setup">git clone https://github.com/LeonardoZambranoL/regulation-tl.git
+git clone https://github.com/Certivity/industrial-ai-hackathon.git
+cd regulation-tl
+git config core.hooksPath .githooks
+python -m pip install -r approaches/benchmarking/requirements.txt<button type="button" class="lb-copy" data-copy="code-setup">Copy</button></pre>
+      </div>
+      <div>
+        <ol class="lb-steps" start="2">
+          <li>Each change: pull, benchmark, rebuild the data, pull again, push.</li>
+        </ol>
+        <pre class="lb-code" id="code-loop">git pull --rebase
+python approaches/benchmarking/bench.py NAME approaches/experiments/NAME/outputs/predictions.json ../industrial-ai-hackathon/cases/dev-rear-lamp/expected.json --index ../industrial-ai-hackathon/regulations/index.json
+python approaches/benchmarking/dashboard_rows.py
+git pull --rebase
+git add approaches &amp;&amp; git commit -m "NAME: what changed"
+git push<button type="button" class="lb-copy" data-copy="code-loop">Copy</button></pre>
+      </div>
+    </div>
+    <p class="lb-agents">That's it: this dashboard pulls the repo every 15 minutes and shows your pushed results, whatever agent you use. No edit access needed.</p>
+  </section>
+
+  <section class="lb-tiles" aria-label="Headline figures">
+    <div class="lb-tile"><div class="k">Leading approach</div><div class="v dash-skeleton" id="t-leader" data-source="standings" data-field="approach" data-row="0">—</div><div class="s">ranked by page F2, gold self-check excluded</div></div>
+    <div class="lb-tile"><div class="k">Its page F2</div><div class="v dash-skeleton" id="t-f2" data-source="standings" data-field="page_f2" data-row="0">—</div><div class="s">recall-weighted citation score</div></div>
+    <div class="lb-tile"><div class="k">Its regulation F2</div><div class="v dash-skeleton" id="t-reg" data-source="standings" data-field="reg_f2" data-row="0">—</div><div class="s">right UN Regulations cited</div></div>
+    <div class="lb-tile"><div class="k">Benchmark runs</div><div class="v dash-skeleton" id="t-runs" data-source="runs">—</div><div class="s">all approaches, all gold sets</div></div>
+  </section>
+
+  <section class="lb-grid">
+    <div class="lb-card">
+      <h2 id="f2-chart">Page F2 by approach</h2>
+      <p class="note">Latest run of each approach on the dev rear-lamp gold set. F2 = 5PR / (4P + R).</p>
+      <div class="lb-chart dash-skeleton" id="bars" data-source="standings"></div>
+    </div>
+    <div class="lb-card">
+      <h2 id="pr-chart">Page precision vs recall</h2>
+      <p class="note">Up and right is better. Dashed curves: equal page F2 of 0.4, 0.6 and 0.8.</p>
+      <div class="lb-chart dash-skeleton" id="scatter" data-source="standings"></div>
+    </div>
+  </section>
+
+  <section class="lb-card">
+    <h2 id="standings-table">Standings</h2>
+    <p class="lb-risk">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> is declared by each experiment in its <code>risk.json</code> (what was tuned on the dev case, LLM use), plus automatic flags: an exact match of the gold set is <i>high</i>, no declaration is <i>unknown</i>. Prefer a lower-risk approach when scores are close.</p>
+    <p class="note">Latest run per approach. "What it does" comes from each experiment's config or README in approaches/experiments. Page = (regulation, version, page) citations; a page also counts when its paragraph is right.</p>
+    <div class="lb-tablewrap">
+      <table data-source="standings" data-row-key="approach" id="tbl-standings">
+        <thead><tr>
+          <th data-field="rank" class="n">#</th>
+          <th data-field="approach">Approach</th>
+          <th data-field="description">What it does</th>
+          <th data-field="page_f2" class="n">Page F2</th>
+          <th data-field="page_precision" class="n">Page P</th>
+          <th data-field="page_recall" class="n">Page R</th>
+          <th data-field="pages_missed" class="n">Gold pages missed</th>
+          <th data-field="pages_cited" class="n hide-narrow">Pages cited</th>
+          <th data-field="reg_f2" class="n">Reg F2</th>
+          <th data-field="regs_cited" class="n hide-narrow">Regs cited</th>
+          <th data-field="risk_level">Overfit risk</th>
+          <th data-field="risk_flags" class="hide-narrow">Why</th>
+          <th data-field="completed_at" class="hide-narrow">Last run</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="lb-card">
+    <h2 id="history-table">Every run</h2>
+    <p class="note">Newest first, every approach and gold set.</p>
+    <div class="lb-tablewrap">
+      <table data-source="runs" data-row-key="run_id" id="tbl-runs">
+        <thead><tr>
+          <th data-field="completed_at">When (UTC)</th>
+          <th data-field="approach">Approach</th>
+          <th data-field="description">What it does</th>
+          <th data-field="page_f2" class="n">Page F2</th>
+          <th data-field="page_precision" class="n">Page P</th>
+          <th data-field="page_recall" class="n">Page R</th>
+          <th data-field="reg_f2" class="n">Reg F2</th>
+          <th data-field="gold" class="hide-narrow">Gold</th>
+          <th data-field="run_id" class="hide-narrow">Run</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+document.querySelectorAll(".lb-copy").forEach(btn => btn.addEventListener("click", () => {
+  const pre = document.getElementById(btn.dataset.copy);
+  const text = Array.from(pre.childNodes).filter(n => n.nodeType === 3).map(n => n.textContent).join("").trim();
+  const done = (label) => { btn.textContent = label; setTimeout(() => { btn.textContent = "Copy"; }, 1500); };
+  const select = () => { const r = document.createRange(); r.selectNodeContents(pre); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); done("Selected"); };
+  try { navigator.clipboard.writeText(text).then(() => done("Copied"), select); } catch (e) { select(); }
+}));
+
+const MAIN_GOLD = "dc4bf7baae68"; // dev-rear-lamp expected.json fingerprint
+
+dash.calc("standings", {
+  inputs: ["runs"],
+  title: "Standings on the dev case",
+  description: "Latest run of each approach on the dev rear-lamp gold set, ranked by page F2 then regulation F2; the gold self-check is excluded.",
+  fn: (runs) => {
+    const rows = runs.filter(r => (r.latest === true || r.latest === "true") && r.gold === "dc4bf7baae68" && r.approach !== "gold-self-check")
+      .map(r => ({ ...r, page_f2: +r.page_f2, page_precision: +r.page_precision, page_recall: +r.page_recall, reg_f2: +r.reg_f2 }))
+      .sort((a, b) => b.page_f2 - a.page_f2 || b.reg_f2 - a.reg_f2 || a.approach.localeCompare(b.approach));
+    return rows.map((r, i) => ({ ...r, rank: i + 1 }));
+  }
+});
+
+const f3 = d3.format(".3f");
+const when = (s) => d3.utcFormat("%b %-d, %H:%M")(new Date(s));
+
+function failLine(el) { el.textContent = ""; const d = document.createElement("div"); d.className = "lb-fail"; d.textContent = "Failed to load"; el.appendChild(d); }
+
+function drawBars(el, rows) {
+  // name above each bar, so long experiment names are never cut
+  el.textContent = "";
+  const w = el.clientWidth || 360, rowH = 44, m = { t: 4, r: 52, b: 4, l: 2 };
+  const h = Math.max(120, rows.length * rowH + m.t + m.b);
+  const svg = d3.select(el).append("svg").attr("width", "100%").attr("viewBox", `0 0 ${w} ${h}`);
+  const x = d3.scaleLinear([0, 1], [m.l, w - m.r]);
+  const top = (i) => m.t + i * rowH;
+  svg.append("g").selectAll("line").data([0.25, 0.5, 0.75, 1]).join("line")
+    .attr("x1", d => x(d)).attr("x2", d => x(d)).attr("y1", m.t).attr("y2", h - m.b)
+    .attr("stroke", "var(--cds-chart-grid)");
+  const g = svg.append("g").selectAll("g").data(rows).join("g").attr("transform", (r, i) => `translate(0,${top(i)})`);
+  g.append("text").attr("x", m.l).attr("y", 13).attr("font-size", 12).attr("fill", "var(--color-fg)").text(r => r.approach);
+  g.append("rect").attr("x", x(0)).attr("y", 19).attr("height", 18).attr("rx", 4)
+    .attr("width", r => Math.max(0, x(r.page_f2) - x(0)))
+    .attr("fill", (r, i) => i === 0 ? dash.colors[0] : "var(--cds-chart-muted)");
+  g.append("text").attr("x", r => x(r.page_f2) + 6).attr("y", 28).attr("dy", "0.35em")
+    .attr("font-size", 12).attr("fill", "var(--color-fg-muted)").text(r => f3(r.page_f2));
+}
+
+function drawScatter(el, rows) {
+  el.textContent = "";
+  const w = el.clientWidth || 360, h = 240, m = { t: 10, r: 14, b: 34, l: 40 };
+  const svg = d3.select(el).append("svg").attr("width", "100%").attr("viewBox", `0 0 ${w} ${h}`);
+  const x = d3.scaleLinear([0, 1], [m.l, w - m.r]), y = d3.scaleLinear([0, 1], [h - m.b, m.t]);
+  const gx = svg.append("g").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat(d3.format(".1f")));
+  const gy = svg.append("g").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".1f")));
+  [gx, gy].forEach(g => { g.attr("font-size", null).attr("font-family", null); g.selectAll("text").attr("fill", "var(--color-fg-muted)").attr("font-size", 11); g.selectAll("line,path").attr("stroke", "var(--cds-chart-axis)"); });
+  svg.append("text").attr("x", w - m.r).attr("y", h - 4).attr("text-anchor", "end").attr("font-size", 11).attr("fill", "var(--color-fg-muted)").text("page recall");
+  svg.append("text").attr("x", m.l + 4).attr("y", m.t + 10).attr("font-size", 11).attr("fill", "var(--color-fg-muted)").text("page precision");
+  for (const F of [0.4, 0.6, 0.8]) { // precision as a function of recall at fixed F2: P = F R / (5R - 4F)
+    const pts = d3.range(0.01, 1.0001, 0.01).map(R => [R, F * R / (5 * R - 4 * F)]).filter(([R, P]) => 5 * R - 4 * F > 0 && P >= 0 && P <= 1);
+    svg.append("path").attr("d", d3.line(d => x(d[0]), d => y(d[1]))(pts)).attr("fill", "none")
+      .attr("stroke", "var(--cds-chart-reference)").attr("stroke-dasharray", "3 3");
+  }
+  const tip = d3.select(el).append("div").attr("class", "lb-tip").style("display", "none");
+  svg.append("g").selectAll("circle").data(rows).join("circle")
+    .attr("cx", r => x(r.page_recall)).attr("cy", r => y(r.page_precision)).attr("r", 6)
+    .attr("fill", (r, i) => dash.colors[i % dash.colors.length]).attr("stroke", "var(--color-bg)")
+    .on("mousemove", (ev, r) => {
+      const [px, py] = d3.pointer(ev, el);
+      tip.style("display", null).style("left", Math.min(px + 12, w - 170) + "px").style("top", Math.max(py - 10, 0) + "px");
+      tip.selectAll("*").remove();
+      tip.append("div").attr("class", "t").text(r.approach);
+      tip.append("div").text(`P ${f3(r.page_precision)} · R ${f3(r.page_recall)} · F2 ${f3(r.page_f2)}`);
+      tip.append("div").text(`overfit risk: ${r.risk_level}`);
+    })
+    .on("mouseleave", () => tip.style("display", "none"));
+}
+
+function fillTable(table, rows, cols) {
+  const tbody = table.querySelector("tbody");
+  tbody.textContent = "";
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    for (const [field, fmt, cls] of cols) {
+      const td = document.createElement("td");
+      if (cls) td.className = cls;
+      td.textContent = fmt ? fmt(r[field]) : r[field];
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+}
+
+dash.onData(() => {
+  const runs = dash.data("runs"), st = dash.data("standings");
+  const ids = ["takeaway", "t-leader", "t-f2", "t-reg", "t-runs", "bars", "scatter"];
+  if (runs.status !== "ok" || st.status !== "ok") {
+    if (runs.status === "error" || st.status === "error") {
+      ids.forEach(id => document.getElementById(id).classList.remove("dash-skeleton"));
+      failLine(document.getElementById("bars")); failLine(document.getElementById("scatter"));
+    }
+    return;
+  }
+  ids.forEach(id => document.getElementById(id).classList.remove("dash-skeleton"));
+  const rows = st.data;
+  document.getElementById("t-runs").textContent = d3.format(",")(runs.data.length);
+  if (rows.length) {
+    const top = rows[0];
+    document.getElementById("t-leader").textContent = top.approach;
+    document.getElementById("t-f2").textContent = f3(top.page_f2);
+    document.getElementById("t-reg").textContent = f3(top.reg_f2);
+    const second = rows[1];
+    document.getElementById("takeaway").textContent = second
+      ? `${top.approach} leads on page F2 (${f3(top.page_f2)}, overfit risk ${top.risk_level}), ${f3(top.page_f2 - second.page_f2)} ahead of ${second.approach}. Benchmark your predictions to join the table.`
+      : `${top.approach} is the only scored approach so far (page F2 ${f3(top.page_f2)}).`;
+  } else {
+    document.getElementById("takeaway").textContent = "No approach has been benchmarked on the dev case yet.";
+  }
+  drawBars(document.getElementById("bars"), rows);
+  drawScatter(document.getElementById("scatter"), rows);
+  fillTable(document.getElementById("tbl-standings"), rows, [
+    ["rank", String, "n"], ["approach"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
+    ["pages_missed", String, "n"], ["pages_cited", String, "n hide-narrow"], ["reg_f2", f3, "n"], ["regs_cited", String, "n hide-narrow"], ["risk_level", null, "risk"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]]);
+  document.querySelectorAll("#tbl-standings td.risk").forEach(td => { const v = td.textContent; td.textContent = ""; const c = document.createElement("span"); c.className = "lb-chip " + v; c.textContent = v; td.appendChild(c); });
+  const all = runs.data.slice().sort((a, b) => b.completed_at.localeCompare(a.completed_at));
+  fillTable(document.getElementById("tbl-runs"), all, [
+    ["completed_at", when], ["approach"], ["page_f2", v => f3(+v), "n"], ["page_precision", v => f3(+v), "n"],
+    ["page_recall", v => f3(+v), "n"], ["reg_f2", v => f3(+v), "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]]);
+});
+</script>

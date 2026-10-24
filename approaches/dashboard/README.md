@@ -12,6 +12,30 @@ Devansh's machine pulls the repo every 15 minutes and uploads `leaderboard_rows.
 benchmark results (step 4) is enough. The sync runs while Devansh's Claude app is open; otherwise on its next launch. Without edit access, still do steps 1-4 and push: Devansh's
 Claude uploads the new rows.
 
+## How it stays connected (pull and push)
+
+The dashboard is driven entirely by this folder in the repo:
+
+| file | what it is | how it reaches the dashboard |
+|---|---|---|
+| `leaderboard_rows.json` | the data: every benchmark run (built from `approaches/leaderboard.json`) | sync uploads it when it changes |
+| `index.html` | the dashboard page itself (charts, tables, the "Join and contribute" card) | sync publishes it when it changes |
+
+A scheduled sync on Devansh's machine pulls `main` every 15 minutes (while his Claude app is open) and publishes
+whatever changed. So everyone **pushes** results or page edits to the repo, and the dashboard **pulls** them. Nobody
+needs edit access on claude.ai, and any coding agent works.
+
+### Changing the dashboard page
+
+Edit `approaches/dashboard/index.html` and push; it goes live within about 15 minutes. It is a page of the claude.ai
+"Dashboard" artifact type, so keep its rules:
+- Every number on the page comes from the dataset `runs` (or the `standings` calc), marked with `data-source` /
+  `data-field` and filled inside `dash.onData`; no hard-coded figures.
+- No external scripts, styles, fetches, iframes or forms; scripts use the `dash` and `d3` globals.
+- Use the theme tokens (`var(--color-fg)`, `var(--color-panel)`, ...) so it works in light and dark.
+- The sync reports the dashboard's own check after publishing; if your change breaks it, the old page stays in git
+  history: revert your commit and push.
+
 ## Add your experiment (standard flow)
 
 1. Create `approaches/experiments/<name>/` (lowercase, see `approaches/README.md`) with `README.md`, `config.json`
