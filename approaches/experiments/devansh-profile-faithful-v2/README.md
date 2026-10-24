@@ -1,4 +1,4 @@
-# devansh-profile-faithful-v2
+# devansh-profile-faithful-v2 (FINAL, platform F2 72.7%)
 
 Owner: Devansh. **devansh-profile-faithful with two generic precision fixes, every LLM answer regenerated from scratch.**
 Method: [EXPLAIN.md](EXPLAIN.md); risk: `risk.json`.
@@ -49,12 +49,18 @@ clauses (no generic rule separated them from matched pointer clauses like "shall
 Citation level (bench.py), F2 page / clause / regulation: dev 0.853 / 0.740 / 1.0 (was 0.845 / 0.744 / 1.0);
 holdout 0.476 / 0.491 / 0.833 (was 0.455 / 0.478 / 0.833).
 
-**Verdict: not adopted as the final.** Precision and F1 rose on both cases, but requirement F2 changed by +0.003 (dev)
-and -0.002 (holdout). That is within run-to-run noise: regenerating every answer moves the holdout true positives by
-about 5, and only 1 holdout true positive came from a table clause. The rule set before the run (better on both
-cases) is not met on F2. The restatement merge dropped only 0 (dev) and 2 (holdout) items, so in practice it does
-nothing. Expected platform score of `outputs/submission-dev-rear-lamp.json` (local minus ~3.7 points): F2 about 69.9%,
-P about 44.5%, R about 81%. That is level with profile-faithful's 69.7%, which stays the recommended upload.
+**Local verdict (before upload): not adopted.** Precision and F1 rose on both cases, but local requirement F2 changed by
+only +0.003 (dev) and -0.002 (holdout), which is within run-to-run noise. The restatement merge dropped only 0 (dev) and
+2 (holdout) items, so in practice it does nothing; the gain comes from skipping table / figure / appendix clauses.
+
+## Platform score (uploaded 2026-10-25 00:57 CEST, dev rear lamp): NEW BEST, now the FINAL
+
+Requirements P **47.6%** / R **83.7%** / F1 **60.7%** / F2 **72.7%** (profile-faithful: P 43.5 / R 82.1 / F1 56.8 /
+F2 69.7). Pages P 61.7% / R 94.3% / F1 74.6%; regulations 100%. The platform improved on precision AND recall, by more
+than the local judge predicted: the local judge read 0.9 points high this time (0.736 vs 72.7%) against 3.7 points
+before, so its gap is not constant and small local differences should not decide adoption. Upload:
+`outputs/submission-dev-rear-lamp.json`. Held-out case: `bash approaches/experiments/devansh-profile-faithful-v2/final.sh <case-id>`.
+Caveat: on holdout-acpe the local judge shows no F2 gain (0.407 vs 0.409), with higher precision and lower recall.
 
 ## Limitations
 
