@@ -1,6 +1,6 @@
 # devansh-llm-clause-filter-writer
 
-Owner: Devansh. **Current best for the platform's requirement-level score.** Same clause selection as
+Owner: Devansh. **Superseded by [devansh-llm-clause-filter-writer-ranked](../devansh-llm-clause-filter-writer-ranked/) (req F2 0.690 dev / 0.406 holdout).** Same clause selection as
 [devansh-llm-clause-filter](../devansh-llm-clause-filter/), plus a writer step that turns each kept clause into the
 single obligations it states. Code: [devansh-toolkit](../devansh-toolkit/) (`retrieval/write.py`, `retrieval/export.py`).
 
