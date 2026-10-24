@@ -1,4 +1,6 @@
-# `retrieval/`: plug-and-play retrieval lab
+# `retrieval/`: plug-and-play retrieval lab (experiment `devansh`)
+
+All commands run from `approaches/experiments/devansh/src`.
 
 Goal: given a product spec, find **every regulation paragraph that holds a requirement for it** (recall first), with a
 citation (`regulation / version / page / paragraph`) we can paste straight into a submission. An LLM step then turns the
@@ -22,6 +24,9 @@ retrieval/
   pipeline.py      Pipeline(config): load corpus + build retriever; .search(), .pooled() (multi-query RRF), spec_queries()
   bench.py         benchmark configs/combos on cases/<case>/expected.json -> results/leaderboard_<case>.md
   search.py        print top hits for a query or a spec, to eyeball results
+  regselect.py     regulation selection: rules / scope / retrieval / combined / llm (+ supersession, category filters)
+  llm.py           shared Claude client (structured JSON output), key from env or git-ignored .env
+  export.py        config -> submission-format predictions for approaches/benchmarking/bench.py
   oracle.py        ceiling experiments: what perfect regulation selection / filtering would be worth
   configs/*.json   one pipeline per file; add yours here
   results/         committed leaderboards, so everyone sees what has been tried
@@ -30,15 +35,15 @@ retrieval/
 ## Run it
 
 ```bash
-./setup.sh --neural          # or .\setup.ps1 -Neural on Windows; drop the flag for lexical-only (no torch)
-.venv/bin/python -m retrieval.bench --list                         # (Windows: .venv\Scripts\python)
-.venv/bin/python -m retrieval.bench                                # every config in configs/
-.venv/bin/python -m retrieval.bench retrieval/configs/bm25.json    # just one
-.venv/bin/python -m retrieval.bench --combo bm25plus_bigrams+dense_bge_small                # hybrid, no JSON needed
-.venv/bin/python -m retrieval.bench --combo bm25+dense_bge_small --fusion score_fusion --weights 1,0.5
-.venv/bin/python -m retrieval.bench --combo bm25+dense_bge_small --rerank BAAI/bge-reranker-base --save
-.venv/bin/python -m retrieval.search "stop lamp luminous intensity" --config hybrid_rrf -k 10
-.venv/bin/python -m retrieval.search --spec ../industrial-ai-hackathon/cases/dev-rear-lamp/spec.md -k 40
+# from approaches/experiments/devansh: ./setup.sh --neural  (Windows: .\setup.ps1 -Neural), then cd src
+../.venv/bin/python -m retrieval.bench --list                         # (Windows: ..\.venv\Scripts\python)
+../.venv/bin/python -m retrieval.bench                                # every config in configs/
+../.venv/bin/python -m retrieval.bench retrieval/configs/bm25.json    # just one
+../.venv/bin/python -m retrieval.bench --combo bm25plus_bigrams+dense_bge_small                # hybrid, no JSON needed
+../.venv/bin/python -m retrieval.bench --combo bm25+dense_bge_small --fusion score_fusion --weights 1,0.5
+../.venv/bin/python -m retrieval.bench --combo bm25+dense_bge_small --rerank BAAI/bge-reranker-base --save
+../.venv/bin/python -m retrieval.search "stop lamp luminous intensity" --config hybrid_rrf -k 10
+../.venv/bin/python -m retrieval.search --spec ../../../../../industrial-ai-hackathon/cases/dev-rear-lamp/spec.md -k 40
 ```
 
 **Speed:** lexical configs run in seconds. Dense/hnsw/hybrid/splade/rerank configs first embed the whole corpus once:
@@ -46,7 +51,7 @@ about **75-100 min on a laptop CPU**, about 1-3 min on a GPU (Colab works: clone
 retrieval/requirements-neural.txt`, run the bench). The embeddings are then cached in `.cache/`, and every config using
 the same model reuses them.
 
-The challenge repo must sit next to this one (`../industrial-ai-hackathon`, `setup` clones it) or pass `--challenge-dir`.
+The challenge repo must sit next to this repo (`<repo>/../industrial-ai-hackathon`, `setup` clones it) or pass `--challenge-dir`.
 Parsed chunks and embeddings are cached in `.cache/` (git-ignored), so only the first run of a model is slow.
 `--save` writes the combo into `configs/` so you can commit it; the leaderboard merges rows across runs, so commit
 `results/` after a run to share your numbers.

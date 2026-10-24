@@ -2,6 +2,11 @@ Case `dev-rear-lamp`. **Official columns** = the challenge's own scorer (tools/s
 
 | pipeline | chunks | reg_P | reg_R | reg_F1 | page_P | page_R | page_F1 | req_R_max | R@1 | R@10 | MRR | page_R@100 | reg_R@5 | fit s | query s |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| bm25+ bigrams, clauses | select: rules | clauses/paragraph | 1.000 | 1.000 | 1.000 | 0.317 | 0.604 | 0.416 | 0.621 | 0.905 | 0.984 | 0.942 | 0.547 | 1.000 | 0.7 | 0.5 |
+| bm25+ bigrams, clauses | select: llm | clauses/paragraph | 1.000 | 1.000 | 1.000 | 0.317 | 0.604 | 0.416 | 0.621 | 0.905 | 0.984 | 0.942 | 0.547 | 1.000 | 12.4 | 0.6 |
+| rrf(bm25+ bigrams + tfidf-char), clauses | select: rules | clauses/paragraph | 1.000 | 1.000 | 1.000 | 0.308 | 0.604 | 0.408 | 0.600 | 0.895 | 0.989 | 0.933 | 0.604 | 1.000 | 3.9 | 20.3 |
+| bm25+ bigrams, clauses | select: scope top 4 | clauses/paragraph | 0.500 | 0.500 | 0.500 | 0.333 | 0.453 | 0.384 | 0.526 | 0.505 | 0.537 | 0.519 | 0.547 | 0.500 | 0.6 | 0.3 |
+| bm25+ bigrams, whole pages | select: rules | pdf/page | 1.000 | 1.000 | 1.000 | 0.226 | 0.811 | 0.354 | 0.811 | 0.821 | 0.979 | 0.886 | 0.604 | 1.000 | 11.3 | 0.2 |
 | rrf(bm25plus_bigrams+tfidf_char) | clauses/paragraph | 0.214 | 0.750 | 0.333 | 0.200 | 0.472 | 0.281 | 0.500 | 0.832 | 0.979 | 0.893 | 0.283 | 0.500 | 85.1 | 175.4 |
 | bm25 no title prefix | clauses/paragraph | 0.188 | 0.750 | 0.300 | 0.186 | 0.453 | 0.264 | 0.479 | 0.763 | 0.989 | 0.854 | 0.321 | 0.750 | 3.6 | 2.9 |
 | tfidf-char3-5 | clauses/paragraph | 0.214 | 0.750 | 0.333 | 0.183 | 0.453 | 0.261 | 0.500 | 0.758 | 0.979 | 0.849 | 0.302 | 0.500 | 35.4 | 190.3 |

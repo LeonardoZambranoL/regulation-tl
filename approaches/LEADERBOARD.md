@@ -8,3 +8,4 @@ Scores measure citation coverage, not requirement-text correctness.
 | Rank | Approach | Page precision | Page recall | Page F2 | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [gold-self-check](experiments/gold-self-check/) | 1.0000 | 1.0000 | 1.0000 | 1.0000 | [JSON](experiments/gold-self-check/benchmark-results/1f8212bb371041ef8277be9ae3962262.json) |
+| 2 | [devansh](experiments/devansh/) | 0.3168 | 0.6038 | 0.5112 | 1.0000 | [JSON](experiments/devansh/benchmark-results/2217894c5ca4485fb741782c3aa7dc81.json) |

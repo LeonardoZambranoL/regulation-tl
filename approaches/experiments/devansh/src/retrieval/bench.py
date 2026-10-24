@@ -173,14 +173,19 @@ def main(argv: list[str] | None = None) -> int:
         name = cfg.get("name", Path(config_name).stem)
         t0 = time.time()
         try:
-            pipe = Pipeline(cfg)
+            regs = None
+            if cfg.get("select"):
+                from .regselect import select
+                regs = set(select(spec, **cfg["select"]))
+                print(f"{name}: selected {sorted(regs)}", file=sys.stderr)
+            pipe = Pipeline(cfg, regs)
         except ImportError as exc:
             if args.skip_missing_deps:
                 print(f"skip {name}: {exc}", file=sys.stderr)
                 continue
             raise
         t_fit = time.time() - t0
-        row = {"name": name, "config": config_name,
+        row = {"name": name, "config": config_name, "selected": sorted(regs) if regs else "all",
                "granularity": f'{cfg.get("source", "clauses")}/{cfg.get("granularity", "paragraph")}'}
         t1 = time.time()
         if "official" in tasks:

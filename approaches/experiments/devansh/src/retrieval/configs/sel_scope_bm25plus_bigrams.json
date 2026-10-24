@@ -1,0 +1,1 @@
+{"name": "bm25+ bigrams, clauses | select: scope top 4", "source": "clauses", "select": {"method": "scope", "k": 4}, "retriever": {"type": "bm25", "variant": "plus", "bigrams": true}}

@@ -1,0 +1,1 @@
+{"name": "rrf(bm25+ bigrams + tfidf-char), clauses | select: rules", "source": "clauses", "select": {"method": "combined"}, "retriever": {"type": "rrf", "retrievers": [{"type": "bm25", "variant": "plus", "bigrams": true}, {"type": "tfidf", "analyzer": "char", "ngram": [3, 5]}]}}
