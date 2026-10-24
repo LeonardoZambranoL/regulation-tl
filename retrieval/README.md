@@ -22,6 +22,7 @@ retrieval/
   pipeline.py      Pipeline(config): load corpus + build retriever; .search(), .pooled() (multi-query RRF), spec_queries()
   bench.py         benchmark configs/combos on cases/<case>/expected.json -> results/leaderboard_<case>.md
   search.py        print top hits for a query or a spec, to eyeball results
+  oracle.py        ceiling experiments: what perfect regulation selection / filtering would be worth
   configs/*.json   one pipeline per file; add yours here
   results/         committed leaderboards, so everyone sees what has been tried
 ```
@@ -102,6 +103,41 @@ Takeaways:
   selection, not a better index.
 - Dense / hnsw / hybrid (with dense): configs are ready and will use the team's precomputed embeddings once they are in
   the repo. SPLADE and cross-encoder rerank need a GPU or about 1 h of CPU; not run yet.
+
+## Where accuracy is lost (oracle experiments) and the plan to fix it
+
+`python -m retrieval.oracle [--config NAME]` cheats with the gold answer to price each pipeline stage before we build it
+(dev case, bm25+ bigrams on clauses, N = 190):
+
+| stage | reg F1 | page P / R / F1 | req_R_max |
+|---|---|---|---|
+| A  retrieval only (today) | 0.33 | 0.16 / 0.36 / 0.22 | 0.39 |
+| B  + perfect regulation selection | **1.00** | 0.31 / 0.60 / **0.41** | 0.64 |
+| D  + perfect regs, only "shall" clauses | 1.00 | 0.29 / 0.57 / 0.39 | 0.62 |
+| E  perfect regs + **every** "shall" clause, no retrieval (1,223 clauses) | 1.00 | 0.20 / **1.00** / 0.34 | **1.00** |
+
+What this shows:
+1. **Regulation selection is the biggest single lever**: it doubles page F1 and makes reg F1 perfect.
+2. **Once the regulations are right, search is no longer the problem.** 99% of gold requirements contain "shall", and
+   *all* of them are among the 1,223 "shall" clauses of the 4 regulations. The task becomes **choosing about 190 of
+   about 1,200 clauses**: a classification problem, not retrieval.
+3. Gold sits in predictable sections: approval markings (R148 §3, R150 §3), general technical requirements
+   (R148 §4, R150 §4-5), lamp-specific specs and installation (R48 §5 general + §6.x for each lamp present on the
+   product), EMC for electronic sub-assemblies (R10 §6 + Annexes 9/10), and a few test annexes.
+
+Proposed pipeline, in order of value:
+
+| # | step | how | expected gain |
+|---|---|---|---|
+| 1 | **Regulation selection** | LLM reads the spec + each regulation's title and Scope (§1) and returns the applicable ones, with rules: lighting device -> R48 installation; one device regulation per function (R148 signalling lamps, R150 retro-reflectors, ...); any electronics (LEDs, PCB) -> R10 EMC; follow "UN Regulation No. X" cross-references in the selected ones | reg F1 0.33 -> ~1.0, page F1 about x2 |
+| 2 | **Section selection** | LLM picks relevant sections from each selected regulation's heading tree (e.g. R48 §6.7 reversing lamp yes, §6.2 dipped-beam headlamp no) | cuts 1,200 -> a few hundred candidates without losing recall |
+| 3 | **Clause classifier** | per candidate "shall" clause: does it apply to this product? A small/cheap LLM (batched), or retrieval scores as a prior | precision: the key step for the requirement-level score |
+| 4 | **Split into obligations** | one engineering obligation per requirement, near-verbatim wording (gold texts are almost verbatim, e.g. "Every device ..." -> "The device ..."), keep the clause's page + paragraph | requirement-level match rate |
+| 5 | **Query expansion (HyDE)** | if we stay retrieval-first: LLM writes requirement-like queries per part/function; `locate` shows these find their paragraph about 98% of the time in the top 10 | recall when steps 1-2 miss something |
+| 6 | **Size the output** | submit roughly gold-sized lists (about 150-250 for a product like this); every extra non-matching requirement costs precision | balances P/R |
+
+Cheap guaranteed points: always fill `paragraph` (a page counts if page **or** paragraph is right), cite the **base**
+version, and never cite the latest version's pages.
 
 ## Add an algorithm
 
