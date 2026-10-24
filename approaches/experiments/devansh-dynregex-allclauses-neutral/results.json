@@ -1,8 +1,8 @@
 {
-  "run_id": "444d71e6d99f40b2bfed5496b9a6c5d0",
+  "run_id": "12023f9aa06148fca29fd7e870c47434",
   "approach": "devansh-dynregex-allclauses-neutral",
   "status": "completed",
-  "completed_at": "2026-10-24T17:58:37.517748+00:00",
+  "completed_at": "2026-10-24T18:02:38.156812+00:00",
   "evaluator": "official-local-f2-v1-6de0fe1e0763",
   "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
   "validation": {
@@ -14,38 +14,38 @@
     "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
     "regulation_versions_checked": true
   },
-  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-dynregex-allclauses-neutral\\outputs\\predictions.json",
-  "prediction_sha256": "6c71748cc8037fe2a5885ca92eb158de0fe579ab04e7d07401035b03f45cda2f",
-  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
-  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-dynregex-allclauses-neutral\\outputs\\predictions-holdout-acpe.json",
+  "prediction_sha256": "8c027b0628daa2b21b40e70d7eb7e3613f3a660624ecb132b6cd0da7050c7715",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
+  "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
   "ranking_metric": "page_level.f2",
   "metrics": {
     "regulation_level": {
-      "precision": 0.6666666666666666,
+      "precision": 0.16666666666666666,
       "recall": 1.0,
-      "f1": 0.8,
+      "f1": 0.2857142857142857,
       "n_submitted": 6,
-      "n_expected": 4,
-      "n_matched": 4,
-      "f2": 0.9090909090909091
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.5
     },
     "page_level": {
-      "precision": 0.31176470588235294,
+      "precision": 0.08888888888888889,
       "recall": 1.0,
-      "f1": 0.47533632286995514,
-      "n_submitted": 170,
-      "n_expected": 53,
-      "n_matched": 53,
-      "f2": 0.693717277486911
+      "f1": 0.163265306122449,
+      "n_submitted": 90,
+      "n_expected": 8,
+      "n_matched": 8,
+      "f2": 0.3278688524590164
     },
     "clause_level": {
-      "precision": 0.1750788643533123,
-      "recall": 0.9173553719008265,
-      "f1": 0.29403973509933773,
-      "n_submitted": 634,
-      "n_expected": 121,
-      "n_matched": 111,
-      "f2": 0.49642218246869413
+      "precision": 0.11611374407582939,
+      "recall": 0.8596491228070176,
+      "f1": 0.2045929018789144,
+      "n_submitted": 422,
+      "n_expected": 57,
+      "n_matched": 49,
+      "f2": 0.3769230769230769
     }
   }
 }

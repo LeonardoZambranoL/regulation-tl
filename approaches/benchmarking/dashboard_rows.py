@@ -16,11 +16,14 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import sys
 import json
 import re
 from pathlib import Path
 
 APPROACHES = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from robust import robust_table  # noqa: E402  (shared with bench.py so both rank the same way)
 LEVELS = ("low", "medium", "high")
 
 
@@ -218,8 +221,13 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         # newest run per approach and gold set; the evaluator id is ignored because it only changed with line endings
         latest[(r["approach"], r["gold_sha256"])] = r["run_id"]
     keep = set(latest.values())
+    robust = {t["approach"]: t for t in robust_table(board)}
     for row in out:
         row["latest"] = row["run_id"] in keep
+        t = robust.get(row["approach"]) if row["case"] == "dev-rear-lamp" else None
+        row["robust_score"] = t["robust"] if t else None
+        row["unseen_page_recall"] = t["unseen_page_recall"] if t else None
+        row["unseen_clause_recall"] = t["unseen_clause_recall"] if t else None
     return out
 
 
