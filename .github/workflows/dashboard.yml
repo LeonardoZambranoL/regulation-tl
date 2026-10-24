@@ -11,6 +11,7 @@ on:
       - "approaches/experiments/**"
       - "approaches/benchmarking/**"
       - "approaches/dashboard/standalone_template.html"
+      - "approaches/dashboard/explanations.json"
       - ".github/workflows/dashboard.yml"
   workflow_dispatch:
 

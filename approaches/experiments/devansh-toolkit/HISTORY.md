@@ -30,6 +30,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 13 | clause-level F2 (all approaches, `dashboard_rows.py`) | stricter metric: cited paragraphs vs gold paragraphs | | | | | | llm-clause-filter 0.619 (98/121 gold clauses), bm25-clauses-top190 0.148, bm25-pages-top150 0 (cites no paragraphs) |
 | 14 | re-benchmarked all three under the shared evaluator id (line-ending fix in bench.py) | bench.py now records clause level | | | | | | same scores; one table with everyone's runs |
 | 15 | renamed for clarity | `devansh` -> code in `devansh-toolkit` + run in `devansh-bm25-clauses-top190`; `devansh-pages-n150` -> `devansh-bm25-pages-top150`; `devansh-llm-classifier` -> `devansh-llm-clause-filter` (history migrated, run ids unchanged) | | | | | | |
+| 16 | plain-language explanations | EXPLAIN.md for all three; Explain buttons on both dashboards | | | | | | |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

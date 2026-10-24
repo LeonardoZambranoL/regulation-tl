@@ -72,6 +72,12 @@ Edit `approaches/dashboard/index.html` and push; it goes live within about 5 min
 5. Upload the rows to the dashboard (needs edit access): see "For Claude" below, or ask Claude
    "update the comparison dashboard".
 
+## EXPLAIN.md: say what your approach does, in plain words
+
+The dashboards' **Explain** button shows `approaches/experiments/<name>/EXPLAIN.md`: 3-6 sentences that anyone on the
+team understands, with no jargon (what goes in, what it does step by step, what comes out, its main weakness).
+Until an experiment has one, a draft in `approaches/dashboard/explanations.json` is shown, marked as a draft.
+
 ## risk.json: declare how much you tuned on the dev case
 
 There is only one labelled case (`dev-rear-lamp`), and the ranking is decided on a held-out case. Anything chosen by

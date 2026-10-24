@@ -1,0 +1,11 @@
+{
+  "_about": "Plain-language explanations shown by the dashboards' Explain buttons, for experiments that have no EXPLAIN.md of their own yet. An experiment's own approaches/experiments/<name>/EXPLAIN.md always wins. Drafts are marked; the owner should check and replace them.",
+  "jojo-bm25-dense-targeted": {
+    "draft": "Drafted by Devansh's Claude from Jojo's README; Jojo, please check or replace with your own EXPLAIN.md.",
+    "text": "Claude first reads the product description and picture and writes down what the product is and what to look for. It skims the first pages of every rulebook and drops the ones that clearly do not apply. Two kinds of search then find the most relevant pages: one matches exact words, the other matches meaning (so 'braking light' can find 'stop lamp'). It also follows pages that those pages refer to, up to 32 bundles of 3 pages. Claude reads those pages carefully and writes each obligation as its own requirement, quoting the source, and a checker confirms every quote is really on the cited page."
+  },
+  "jojo-flat-dense": {
+    "draft": "Drafted by Devansh's Claude from Jojo's README; Jojo, please check or replace with your own EXPLAIN.md.",
+    "text": "Like the targeted version, Claude first describes the product and skims each rulebook. The search here uses only meaning: every passage of every rulebook is turned into a list of numbers that captures what it means, and each search question is compared with all 31,000 of them, with no shortcuts, to find the closest ones. The best pages (up to 32 bundles of 3 pages) go to Claude, which reads them and writes requirements backed by quotes. It is a clean baseline to see how far pure meaning-search gets on its own."
+  }
+}

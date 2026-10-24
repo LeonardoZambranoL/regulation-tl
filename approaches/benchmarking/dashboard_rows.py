@@ -70,6 +70,19 @@ def risk(folder: Path, page: dict, reg: dict) -> dict:
     }
 
 
+def explain(folder: Path, shared: dict) -> tuple[str, str]:
+    """Plain-language explanation for the dashboards' Explain button and where it came from: the experiment's own
+    EXPLAIN.md, else approaches/dashboard/explanations.json (drafts), else nothing."""
+    path = folder / "EXPLAIN.md"
+    if path.is_file():
+        lines = [l for l in path.read_text(encoding="utf-8").splitlines() if not l.startswith("#")]
+        return " ".join(" ".join(lines).split()), "the experiment's EXPLAIN.md"
+    entry = shared.get(folder.name)
+    if isinstance(entry, dict) and entry.get("text"):
+        return entry["text"], entry.get("draft") or "approaches/dashboard/explanations.json"
+    return "", "no plain explanation yet: add EXPLAIN.md to the experiment folder"
+
+
 def fingerprint(doc: dict) -> str:
     """Same canonical hash as bench.py, so a file can be matched to the run that scored it."""
     canonical = json.dumps(doc, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
@@ -116,6 +129,8 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
     """golds: gold documents by bench fingerprint, for the clause level (computed only where the experiment's current
     outputs/predictions.json is exactly the file that run scored)."""
     golds = golds or {}
+    shared_path = APPROACHES / "dashboard" / "explanations.json"
+    shared = json.loads(shared_path.read_text(encoding="utf-8")) if shared_path.is_file() else {}
     predictions: dict[str, tuple[str, dict]] = {}
     for path in (APPROACHES / "experiments").glob("*/outputs/predictions.json"):
         try:
@@ -130,6 +145,7 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         missed = round((1 - p["recall"]) * p["n_expected"])
         out.append({
             "run_id": r["run_id"], "approach": r["approach"], "description": describe(folder),
+            **dict(zip(("explain", "explain_source"), explain(folder, shared))),
             "completed_at": r["completed_at"], "gold": r["gold_sha256"][:12], "evaluator": r["evaluator"],
             "page_precision": p["precision"], "page_recall": p["recall"], "page_f1": p["f1"], "page_f2": p["f2"],
             "pages_cited": p["n_submitted"], "pages_expected": p["n_expected"], "pages_missed": missed,

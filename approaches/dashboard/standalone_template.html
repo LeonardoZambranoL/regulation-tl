@@ -52,6 +52,18 @@ td.desc, td.flags { color: var(--muted); font-size: 12px; min-width: 14rem; }
 .links a { color: var(--accent); }
 pre { position: relative; margin: 0; background: var(--code); border: 1px solid var(--line); border-radius: 8px; padding: 10px 76px 10px 10px; font: 12px/1.6 var(--mono); overflow-x: auto; white-space: pre; }
 .copy { position: absolute; top: 6px; right: 6px; font: 12px var(--sans); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 2px 10px; cursor: pointer; }
+.explain-list { display: grid; gap: 8px; }
+.explain-list details { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: var(--bg); }
+.explain-list summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; list-style: none; }
+.explain-list summary::-webkit-details-marker { display: none; }
+.explain-list summary .btn, button.explain { font: 12px var(--sans); color: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 1px 10px; background: transparent; cursor: pointer; }
+.explain-list details[open] summary .btn { background: var(--accent); color: var(--panel); }
+.explain-list summary .name { font-weight: 600; }
+.explain-list summary .score { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.explain-list .text { margin: 8px 0 2px; max-width: 80ch; }
+.explain-list .src { margin: 0; font-size: 12px; color: var(--muted); }
+.glossary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 4px 18px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+.glossary p { margin: 0; }
 .search { width: min(100%, 22rem); font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); margin-bottom: 10px; }
 @media (max-width: 40rem) { .hide-narrow { display: none; } h1 { font-size: 1.6rem; } }
 </style>
@@ -84,11 +96,23 @@ pre { position: relative; margin: 0; background: var(--code); border: 1px solid 
     </div>
   </section>
 
+  <section class="card" id="explain">
+    <h2>What each approach does, in plain words</h2>
+    <p class="note">Press <b>Explain</b> to read how an approach works, without jargon. Each team member writes their own in <code>EXPLAIN.md</code> in their experiment folder.</p>
+    <div class="explain-list" id="explain-list"></div>
+    <div class="glossary">
+      <p><b>Page F2</b>: did it point to the right pages of the rulebooks? 1.0 = every right page and nothing else. Missing a right page hurts more than adding a wrong one.</p>
+      <p><b>Clause F2</b>: the same, but for the exact numbered rule (paragraph), not just the page. Stricter.</p>
+      <p><b>Regulation F2</b>: did it pick the right rulebooks (here R48, R148, R150 and R10)?</p>
+      <p><b>Overfit risk</b>: we have only one practice product with answers. "High" means the approach was tuned on that practice product and may score worse on the real, unseen one.</p>
+    </div>
+  </section>
+
   <section class="card">
     <h2>Standings</h2>
     <p class="note">Only one labelled case exists, so a high score can mean fitted to it. <b>Overfit risk</b> comes from each experiment's <code>risk.json</code> plus automatic flags (exact gold match: high; no declaration: unknown). Prefer the lower-risk approach when scores are close. <b>Clause F2</b> is stricter than page F2: it compares cited paragraphs with the gold paragraphs (official normalisation), so a neighbouring paragraph on the right page does not count and page-only citations score 0; "—" means the experiment's predictions.json is not the file that run scored. Click a header to sort.</p>
     <div class="tablewrap"><table id="standings"><thead><tr>
-      <th data-k="rank" class="n">#</th><th data-k="approach">Approach</th><th data-k="description">What it does</th>
+      <th data-k="rank" class="n">#</th><th data-k="approach">Approach</th><th>Explain</th><th data-k="description">What it does</th>
       <th data-k="page_f2" class="n">Page F2</th><th data-k="page_precision" class="n">Page P</th><th data-k="page_recall" class="n">Page R</th>
       <th data-k="pages_missed" class="n">Gold pages missed</th>
       <th data-k="clause_f2" class="n">Clause F2</th><th data-k="clause_precision" class="n hide-narrow">Clause P</th><th data-k="clause_recall" class="n hide-narrow">Clause R</th><th data-k="reg_f2" class="n">Reg F2</th>
@@ -213,6 +237,14 @@ function table(id, rows, cols) {
     const tr = document.createElement("tr");
     for (const [k, fmt, cls] of cols) {
       const td = document.createElement("td"); if (cls) td.className = cls;
+      if (k === "_explain") {
+        const b = document.createElement("button"); b.type = "button"; b.className = "explain"; b.textContent = "Explain";
+        b.addEventListener("click", () => {
+          const d = document.getElementById("x-" + r.approach);
+          if (d) { d.open = true; d.scrollIntoView({ behavior: "smooth", block: "center" }); }
+        });
+        td.appendChild(b); tr.appendChild(td); continue;
+      }
       if (k === "risk_level") { const c = document.createElement("span"); c.className = "chip " + r[k]; c.textContent = r[k]; td.appendChild(c); }
       else td.textContent = fmt ? fmt(r[k]) : (r[k] ?? "");
       tr.appendChild(td);
@@ -220,7 +252,7 @@ function table(id, rows, cols) {
     tbody.appendChild(tr);
   }
 }
-const STAND_COLS = [["rank", String, "n"], ["approach"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
+const STAND_COLS = [["rank", String, "n"], ["approach"], ["_explain"], ["description", null, "desc"], ["page_f2", f3, "n"], ["page_precision", f3, "n"],
   ["page_recall", f3, "n"], ["pages_missed", String, "n"], ["clause_f2", opt3, "n"], ["clause_precision", opt3, "n hide-narrow"], ["clause_recall", opt3, "n hide-narrow"], ["reg_f2", f3, "n"], ["risk_level"], ["risk_flags", null, "flags hide-narrow"], ["completed_at", when, "hide-narrow"]];
 const RUN_COLS = [["completed_at", when], ["approach"], ["page_f2", f3, "n"], ["page_precision", f3, "n"], ["page_recall", f3, "n"],
   ["clause_f2", opt3, "n"], ["reg_f2", f3, "n"], ["gold", null, "hide-narrow"], ["run_id", v => v.slice(0, 8), "hide-narrow"]];
@@ -261,7 +293,22 @@ document.querySelectorAll(".copy").forEach(btn => btn.addEventListener("click", 
   try { navigator.clipboard.writeText(text).then(() => done("Copied"), select); } catch (e) { select(); }
 }));
 
-render(); drawBars(); drawScatter();
+function drawExplain() {
+  const list = document.getElementById("explain-list"); list.textContent = "";
+  for (const r of standings) {
+    const d = document.createElement("details"); d.id = "x-" + r.approach;
+    const s = document.createElement("summary");
+    const btn = document.createElement("span"); btn.className = "btn"; btn.textContent = "Explain";
+    const name = document.createElement("span"); name.className = "name"; name.textContent = r.approach;
+    const score = document.createElement("span"); score.className = "score";
+    score.textContent = `page F2 ${f3(r.page_f2)} · clause F2 ${opt3(r.clause_f2)} · overfit risk ${r.risk_level}`;
+    s.append(btn, name, score); d.appendChild(s);
+    const t = document.createElement("p"); t.className = "text"; t.textContent = r.explain || "No plain explanation yet.";
+    const src = document.createElement("p"); src.className = "src"; src.textContent = "Source: " + (r.explain_source || "");
+    d.append(t, src); list.appendChild(d);
+  }
+}
+render(); drawExplain(); drawBars(); drawScatter();
 let resizeTimer; addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => { drawBars(); drawScatter(); }, 150); });
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => { drawBars(); drawScatter(); });
 </script>
