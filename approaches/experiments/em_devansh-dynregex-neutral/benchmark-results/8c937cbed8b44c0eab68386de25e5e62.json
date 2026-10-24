@@ -1,0 +1,51 @@
+{
+  "run_id": "8c937cbed8b44c0eab68386de25e5e62",
+  "approach": "em_devansh-dynregex-neutral",
+  "status": "completed",
+  "completed_at": "2026-10-24T19:42:51.731555+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\em_devansh-dynregex-neutral\\outputs\\predictions.json",
+  "prediction_sha256": "624ab9984cb8a78f38acb659bf1e28f0e71919c2c8274dceaa8d60a10bb61cea",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "n_submitted": 5,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 0.9523809523809523
+    },
+    "page_level": {
+      "precision": 0.4649122807017544,
+      "recall": 1.0,
+      "f1": 0.6347305389221557,
+      "n_submitted": 114,
+      "n_expected": 53,
+      "n_matched": 53,
+      "f2": 0.8128834355828221
+    },
+    "clause_level": {
+      "precision": 0.27049180327868855,
+      "recall": 0.8181818181818182,
+      "f1": 0.406570841889117,
+      "n_submitted": 366,
+      "n_expected": 121,
+      "n_matched": 99,
+      "f2": 0.5823529411764706
+    }
+  }
+}

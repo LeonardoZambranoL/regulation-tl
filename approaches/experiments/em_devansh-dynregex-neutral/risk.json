@@ -1,0 +1,10 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "the neutral prompt's examples of implicit obligations were chosen after looking at which dev gold clauses lacked 'shall' (inherited from devansh-dynregex-allclauses-neutral)"
+  ],
+  "notes": "No hand-written product rules; db_k=300 is a round default, not swept on dev. The database replaces 'judge every clause' with 'judge shall clauses + the 300 closest others'."
+}

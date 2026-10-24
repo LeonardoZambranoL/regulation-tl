@@ -50,9 +50,11 @@ New retriever `shared_db` (team LanceDB, `gemini-embedding-2-preview` 768d, quer
 | em_devansh-dense-pages-top150 | 0.580 / not run | 0.483 / 0.035 |
 | em_devansh-llm-clause-filter | 0.844 / 0.737 | 0.828 / 0.754 |
 | em_devansh-dynregex-llm-clause-filter | 0.767 / 0.842 | 0.761 / 0.842 |
+| em_devansh-dynregex-neutral (base: dynregex-allclauses-neutral; shall + 300 db instead of all clauses) | 0.694 / 0.860 | 0.813 / 0.789 |
 
 Lesson: as a ranker the Gemini embeddings are worse than BM25+ here; as a candidate widener they lift clause recall
-(dev 0.81 -> 0.84 / 0.86) at a small precision cost, so Robust scores barely move.
+(dev 0.81 -> 0.84 / 0.86) at a small precision cost, so Robust scores barely move. Replacing "judge every clause" with "shall + 300 database
+clauses" (neutral prompt) raises precision a lot (dev page F2 0.694 -> 0.813) for some recall: Robust 0.777 -> 0.801.
 
 ## Lessons
 
