@@ -16,4 +16,5 @@ Scores measure citation coverage, not requirement-text correctness.
 
 | Rank | Approach | Page precision | Page recall | Page F2 | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [jojo-bm25-dense-targeted](experiments/jojo-bm25-dense-targeted/) | 0.3250 | 0.2453 | 0.2579 | 0.4348 | [JSON](experiments/jojo-bm25-dense-targeted/benchmark-results/d22de00b526945159ea300124121a8f5.json) |
+| 1 | [jojo-flat-dense](experiments/jojo-flat-dense/) | 0.3556 | 0.3019 | 0.3113 | 0.6250 | [JSON](experiments/jojo-flat-dense/benchmark-results/a108a047718d466cba252f4066646c15.json) |
+| 2 | [jojo-bm25-dense-targeted](experiments/jojo-bm25-dense-targeted/) | 0.3250 | 0.2453 | 0.2579 | 0.4348 | [JSON](experiments/jojo-bm25-dense-targeted/benchmark-results/d22de00b526945159ea300124121a8f5.json) |

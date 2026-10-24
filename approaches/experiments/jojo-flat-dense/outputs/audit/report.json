@@ -1,0 +1,723 @@
+{
+  "flow": "targeted",
+  "requirements": 268,
+  "selected_regulations": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R155",
+    "UN R156",
+    "UN R23",
+    "UN R26",
+    "UN R3",
+    "UN R37",
+    "UN R48",
+    "UN R7"
+  ],
+  "pages_reviewed": 96,
+  "pages_in_selected_regulations": 569,
+  "candidate_decisions": 814,
+  "candidate_unreviewed": 3053,
+  "candidate_unresolved": 89,
+  "review_unresolved": 14,
+  "source_issues": [
+    {
+      "regulation": "UN R3",
+      "page": 0,
+      "reason": "Retro-reflector class (IA/IB/IIIA/IIIB/IVA), colour, area and installation not specified; Annexes 4, 5-11, 13, 14, 16 and Annex 8 para 1.1 (watertightness) needed to resolve numeric and test requirements."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 1,
+      "reason": "Regulation No. 48 definitions (para 2.1, 2.30) and sections 5/6 of R48/53/74/86 (para 6) are incorporated by reference; those texts are not in this packet."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 2,
+      "reason": "Applicability of 4.1.2 (TOP) and 4.1.3 (reduced light distribution arrow) depends on unspecified product rotation conditions and light distribution; Annex 7 para 3.2/3.4 not in packet."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 3,
+      "reason": "5.6.1 single approval mark is permissive; applies only if one mark is chosen for the combined lamp. Approval architecture of the rear lamp functions and their other Regulations are unspecified."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 0,
+      "reason": "Referenced paragraphs 5.10, 5.11, 6, 6.1, Annex 4 and 4.2 pages are not supplied; requirements depending on them cannot be completed."
+    },
+    {
+      "regulation": "UN R48, UN R37, UN R128",
+      "page": 1,
+      "reason": "Referenced regulations not supplied; definitions and light source categories unresolved."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 3,
+      "reason": "Applicability of module and voltage markings depends on unknown facts: replaceable LED modules, control gear, variable intensity, grouping. Reversing lamp and retro-reflector fall under other regulations."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 0,
+      "reason": "Main pages 1-3 contain scope and definitions only. Paragraph 3.2.1 (component/STU limitation) is cited by 1.2 and its page is not supplied. Immunity and emission requirements and test methods are in later pages."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 1,
+      "reason": "Applicability to the M1 rear lamp as an ESA is unresolved. It depends on the approval route (component, STU or vehicle-level) and on whether electronic drivers or control electronics are present, which the spec does not state."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 2,
+      "reason": "Paragraph 2.12(c)(i) names stop lamps and rear position lamps as immunity-related functions. Definition only; it creates no numerical obligation without the later immunity clauses and test levels."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 0,
+      "reason": "Annex 2 (approval mark models, AR symbol arrangement) and Annex 1 are needed for marking layout and sizes but are not in the packet."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 0,
+      "reason": "Photometric, installation and test requirements (later sections) are not in main pages; reversing lamp light source category and non-replaceability are unknown."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 1,
+      "reason": "References to Regulation No. XXX (LED light sources) are an unresolved placeholder; paragraph 5.5 referenced on page 2 is not supplied."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 4,
+      "reason": "Whether rear lamp functions are grouped, combined or reciprocally incorporated, or share the outer lens, is not stated; 4.4 and 4.5 applicability and other Regulations' requirements are unresolved."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 3,
+      "reason": "Whether asymmetrical visibility angles apply (4.3.4) and whether light sources are non-replaceable is unknown; the conditional requirements apply only if so."
+    },
+    {
+      "regulation": "UN R26",
+      "page": 1,
+      "reason": "Applicability to a separately supplied rear lamp is uncertain. R26 covers external projections of M1 vehicles, and the external surface includes lighting devices. The spec gives no mounting position or projection geometry."
+    },
+    {
+      "regulation": "UN R26",
+      "page": 4,
+      "reason": "The substantive requirements (paragraph 5 general specifications, including the 5.1 exemptions, and paragraph 6) are outside the main pages 1-3. They are needed to state any engineering requirement for the lamp."
+    },
+    {
+      "regulation": "UN R26",
+      "page": 0,
+      "reason": "Referenced paragraphs 6.16-6.18, Annex 1, Annex 2, Annex 3 and the section 6.9.1 projection drawings are not supplied. Annex 3 holds the projection measurement method. Target pages are unknown."
+    },
+    {
+      "regulation": "UN R26",
+      "page": 1,
+      "reason": "Pages 1-3 contain only scope, definitions, application and approval/marking text. No numeric engineering limit for the rear lamp is stated in them, so no requirements are emitted."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 1,
+      "reason": "Applicability conditional: R37 applies only if the lamp uses replaceable filament or LED replacement light sources; spec does not state replaceability or light source category. All included requirements apply only if such sources are used."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "reason": "Cross-references to paragraph 3.3.4, Annex 1, paragraphs 2.4.3.1 and 4.2.2.1 targets are not on the supplied pages; needed to fully apply the U, HE and symbol marking requirements."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 4,
+      "reason": "Specific identification code requirement (2.3.5.3) and approval mark composition (2.4.3) continue on page 4 (context only); R9 is incomplete without it."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 2,
+      "reason": "Paragraph reference 2.2.2.2.2 in 2.3.1.7 is shown as unresolved in the references list though present on page 2; it lists high-efficiency, AE device, polarity and oversize cap conditions."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Annex 3 Part 7 (reciprocal incorporation examples, referenced from 2.4.3-2.4.5) is needed to classify the lamp's functions as grouped, combined or reciprocally incorporated; function sharing of light sources is unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Annex 5 (laden vehicle mass distribution method, referenced in 2.3.2) is not supplied; needed if laden-condition tests apply."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 3,
+      "reason": "Pages 1-3 contain only definitions; no installation, number, position or visibility obligations for rear position, stop, reversing lamps or retro-reflectors appear. Those require later R48 paragraphs."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 0,
+      "reason": "Applicability depends on whether the rear lamp's LED modules are standardised Annex 1 category light sources; Annex 1 data sheets and replaceability/category/approval status are unknown. Requirements apply only to such LED light sources (supplier level)."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 0,
+      "reason": "Annex 1 data sheets, Annex 4 test conditions, Annex 2/3 and IEC 60061 are not in the packet; limits for flux, emitting area and intensity distribution cannot be stated numerically."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 3,
+      "reason": "Resolution R.E.4 (definitions referenced in 3.1) is not supplied; needed to interpret definitions."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 2,
+      "reason": "Footnote 2/ country number list continues across pages 2-3; not an engineering requirement; ISO 7000 symbol 1641 (2.3.1.5) applies only to LED substitute light sources, whose presence in the product is unknown, so not extracted."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 0,
+      "reason": "Function-specific requirements for position, stop and reversing lamps (section 5), the marking provisions (section 4) and the 5.12.1.2 target are not in main pages 1-3; the packet cannot yet be shown to cover the engineering requirements."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 2,
+      "reason": "Paragraph 2.1 applies the definitions of the latest UN R48 series in force at application; the R48 text is not supplied and the applicable edition is unknown."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 3,
+      "reason": "Conditional documentation duties in 3.1.2.2 (light source categories, module identification code, control gear, LED substitute sources) and 3.1.2.1(e) depend on unknowns: replaceable vs non-replaceable LED modules, control electronics and variable intensity."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 3,
+      "reason": "The reference to IEC 60809 paragraph 4.11 (3.1.2.5) is unresolved. It applies only to non-replaceable filament sources and appears irrelevant for LEDs."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 4,
+      "reason": "Paragraph 3.2.2 (grouped, combined or reciprocally incorporated lamps) is relevant to the combined housing, but page 4 is context-only; which functions are grouped or combined is unknown."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Retro-reflector class (IA, IB, IIIA, IIIB, IVA), colour and geometry are unknown, so class-specific items (IB/IIIB installation details, IVA samples, rotation) cannot be confirmed."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Paragraphs 5.1, 5.2 and 5.3 (sample numbers) and the approval-marking and photometric clauses are not in the packet."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 2,
+      "reason": "UN R48 definitions and installation Regulations Nos. 53, 74, 86 are referenced but not supplied; Annex 5 and Annex 4 targets are also unresolved."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 1,
+      "reason": "The introduction is informative; the Unique Identifier versus E-mark route cannot be determined from the product data."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 3,
+      "reason": "The definitions of the 3.1.1.1 clause on page 3 continue on page 4, which is context-only; the requirement quotes are taken from the page 4 text."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 1,
+      "reason": "Applicability to the rear lamp is conditional: M1 is in scope, but approval is vehicle-level and the lamp's ECU, LED driver, network interface, software and external interfaces are unknown. Obligations fall on the vehicle manufacturer."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 3,
+      "reason": "Paragraph 5.1.3 depends on 7, 7.3, 7.3.3 and Annex 5 Part A, which are outside the supplied main pages; the detailed requirements cannot be stated without them."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 2,
+      "reason": "The CSMS Certificate of Compliance (3.2.3, paragraph 6) and Annex 1 documentation content are referenced but not supplied; their pages are needed."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 3,
+      "reason": "The reference to paragraph 4.1.1 in candidate C00033 is unresolved by the detector, although 4.1.1 is on page 2. Annex 3 mark arrangement examples are not supplied."
+    },
+    {
+      "regulation": "UN R156",
+      "page": 1,
+      "reason": "Applicability is conditional: R156 applies to vehicles permitting software updates (1.1). The spec does not state whether the rear lamp has updatable software, an LED controller or an update interface. R156 is a vehicle-level regulation and not a lamp component regulation. The requirement is therefore conditional on vehicle-level software update capability."
+    },
+    {
+      "regulation": "UN R156",
+      "page": 2,
+      "reason": "Marking paragraphs 4.1-4.4 describe a vehicle-level approval mark. Whether any mark applies to the lamp or its module depends on the unknown approval architecture, so they are left unresolved. The reference to paragraph 4.1.1 in 4.2 is flagged unresolved but the target appears on page 2."
+    },
+    {
+      "regulation": "UN R156",
+      "page": 0,
+      "reason": "Annex 1 (information package, Appendix 1 declaration), Annex 2 (communication form), Annex 3 (mark examples) and Annex 4 (SUMS certificate) are referenced but not supplied. Their content may add requirements."
+    },
+    {
+      "regulation": "UN R156",
+      "page": 4,
+      "reason": "Paragraphs 7.1.1.2 onward are on a context-only page. Requirements 7.1.1.2-7.1.2.3 were not assessed here."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 7,
+      "reason": "Referenced UN Regulations Nos. 48, 53, 74, 86 (sections 5, 6, Annexes) are not in the packet; their content and applicable series cannot be derived."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 8,
+      "reason": "UN Regulations Nos. 37 and 128, and paragraph 4.11 of IEC 60809 and IEC 60061, are not supplied; replaceable-source conditions are unresolved."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 0,
+      "reason": "Paragraph 8 (test/colour specifications), Annex 1 (angular fields), Annex 4 (light distribution table) and paragraph 4.2.2.8 ('D' marking) are not in main pages; needed for complete photometric requirements."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 8,
+      "reason": "Product categories (R/R1/R2 for position, S1-S4 for stop) are not specified; per-category intensity requirements are listed and the applicable one must be confirmed."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 7,
+      "reason": "Whether rear position and stop functions are reciprocally incorporated, interdependent or mounted on movable parts is unknown; conditional clauses 5.5.1, 5.10, 6.1.5 and 6.2.4.2 remain unresolved."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 7,
+      "reason": "Whether LED modules are replaceable light sources or R7 light source modules is unknown; 5.6.x included as conditional on light source modules, 5.9.x unresolved."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 8,
+      "reason": "The stop-lamp table heading (6.1.4) is split across pages 8 and 9; values were read from the page 9 table rows and verified against the images."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 14,
+      "reason": "Paragraph 7.1 (test conditions for non-replaceable light sources) is referenced but its page is not in the packet; needed to apply the multi-source photometric check."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 15,
+      "reason": "Paragraph 7 (photometric/colorimetric test conditions) is referenced by Annex 4 and unresolved; the prescribed photometric values, chromaticity limits and paragraph 6 requirements are not available."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 15,
+      "reason": "Paragraph 4.11 of IEC 60809 is cited for filament lamps only; not relevant to the LED product unless filament lamps are used."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 14,
+      "reason": "Minimum intensity grid was read from the page raster (cd values per angle); verify against the original figure. Which side the ±H angles refer to is not distinguishable."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 13,
+      "reason": "Product facts unknown: whether LED sources are replaceable or non-replaceable, whether several light sources are used, and installation positions; conditional requirements depend on these."
+    },
+    {
+      "regulation": "UN R23",
+      "page": 13,
+      "reason": "Figure 4 (manoeuvring lamp marking, a = 5 mm min) is not applicable to the reversing lamp; the reversing lamp approval mark and AR symbol requirements are on pages outside the main pages (page 12 and earlier)."
+    },
+    {
+      "regulation": "UN R3 / UN R150",
+      "page": 0,
+      "reason": "Type-approval requirements for Class IA/IB retro-reflectors (UN R3 02 series or later, UN R150 00 series or later) are not in the packet. Photometric, colour and marking requirements are unresolved."
+    },
+    {
+      "regulation": "UN R48 para 5.8.1",
+      "page": 55,
+      "reason": "The cross-reference for measuring the 750 mm mounting height is unresolved. Only context paragraph 5.8 (page 21) is supplied, so the exact para 5.8.1 text is needed."
+    },
+    {
+      "regulation": "UN R48 para 6.14.4.2",
+      "page": 55,
+      "reason": "The product fixes none of the following: installed height of the retro-reflector, whether it is grouped with rear lamps (1,200 mm limit applies), and bodywork shape (1,500 mm). It also fixes neither vehicle width nor retro-reflector class. Compliance cannot be evaluated."
+    },
+    {
+      "regulation": "UN R48 para 6.14.2",
+      "page": 55,
+      "reason": "The spec shows one retro-reflector in the lamp housing, while the vehicle must carry two. The handed-pair arrangement and any additional reflecting devices are not stated."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 0,
+      "reason": "Whether the product is a grouped, combined or reciprocally incorporated lamp, and whether the position and stop functions share a source or are interdependent, is not stated; conditional marking requirements are applicable only if so."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 3,
+      "reason": "Cross-referenced paragraphs 3.1-3.4 and 2.2.4 are on context pages; 3.3 marking space is needed to apply the approval mark requirements."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 0,
+      "reason": "Annex 3 (approval mark examples and minimum sizes) and Annex 2 are not in the packet; mark layout and size values cannot be verified."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 5,
+      "reason": "Whether the rear position and stop functions have steady or variable intensity is unknown, so figure suffixes (1/2, S1/S2) cannot be determined."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 63,
+      "reason": "Paragraph 6.21.1.1 (context page) prohibits conspicuity markings on M1 and O1, so the 6.21 conspicuity requirements on the main pages 64-66 do not apply to this M1 rear lamp. The lamp's retro-reflector is not stated to be a conspicuity marking. Rear retro-reflector and rear position/stop/reversing lamp requirements (R48 paragraphs 6.x) are on pages outside this packet."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Referenced UN Regulations Nos. 3, 104 and 150 and Annex 11 are not in the packet. They are only relevant to conspicuity markings, which are inapplicable to M1."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 49,
+      "reason": "Retro-reflector class is not given in the specification. Applicability of the Class IVA impact test (R1, R2) cannot be confirmed; the Class IVA heading is on context page 48. Candidates C00498:O001 and O003 are unresolved and therefore not linked to R1/R2."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 52,
+      "reason": "The Annex 10 note is on page 52 (context page), although candidates cite page 51. R3-R5 quote page 52. Applicability of the Figure A10-I single-device note versus the Figure A10-II grouped/combined marking for this combined lamp is unresolved."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Paragraph 3.3 of the Regulation (approval marking requirement referenced by Annex 10) is unresolved; its page is unknown. Table 1 (dimension a) is referenced but not in the packet."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 0,
+      "reason": "Referenced paragraphs 6, 7, 7.1, 8, 9.1 and Annex 1 are not in the packet; the photometric values, test conditions and colorimetric limits they set are needed."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 25,
+      "reason": "Standard light distribution grid is for category S3 stop-lamp (page 24 context); the product's stop lamp category is unknown. Grid values not transcribed because the row/column orientation is ambiguous."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 25,
+      "reason": "Applicability of replaceable/non-replaceable light source clauses (Annex 4 para 3.1, 3.2; Annex 5 para 1.2.2) and the 750 mm mounting height condition cannot be determined; LED replaceability and installation height are not specified."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 26,
+      "reason": "Annex 5 para 1.4 (filament light sources, IEC 60809 Ed. 3 para 4.11) excluded as no filament sources are stated; confirm the light source type."
+    },
+    {
+      "regulation": "UN R7",
+      "page": 28,
+      "reason": "Annex 6 repeated sampling (paras 3-5, approval withdrawal per paragraph 10) is on context page 28 and was not turned into separate requirements."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 10,
+      "reason": "Section 4.2 incorporates UN R48/R53/R74/R86 sections 5 and 6 and annexes, not in packet; installation, photometric, colour and reversing/retro-reflector requirements remain unresolved. Target pages unknown (page=0 not specific)."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 11,
+      "reason": "4.6.1.2(b) references UN R48 paragraphs 6.4.8 etc. (tell-tale), and Annex 3 standard light distribution tables are not in packet; needed to verify failure intensity."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 12,
+      "reason": "4.7.1 references UN R37, R99, R128 for replaceable light sources; applicability depends on whether LED sources are replaceable (unknown in spec)."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 10,
+      "reason": "Applicability of 4.5.3.1, 4.5.5 and 4.6.2 depends on unknowns: grouping of rear position and stop function, shared light source, logo use, variable intensity control, and light source category."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 11,
+      "reason": "4.5.5 references applicant statement in 3.1.2.2(f) and UN R48 5.5.2; not in main pages."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 45,
+      "reason": "Stop lamp category (S1/S2 vs S3/S4) and whether the product is a mandatory S1/S2 device are not stated; the requirement applies if the stop function is S1/S2."
+    },
+    {
+      "regulation": "UN R7 / UN R148",
+      "page": 0,
+      "reason": "Referenced device regulations (R7 02 series, R148 00 series) are not in the packet; approval route and photometric/colour requirements remain unresolved."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 46,
+      "reason": "Stop lamp position, geometric visibility and other 6.7.x requirements continue on page 46 (context only); needed for installation compliance."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 43,
+      "reason": "Reference to paragraph 5.8.1 is unresolved; only 5.8 appears in the packet. Direction-indicator content was excluded because no direction-indicator function is stated."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 45,
+      "reason": "Reversing lamp and rear position lamp clauses and retro-reflector requirements are not in these main pages; their obligations are not derived here."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 33,
+      "reason": "Spec does not state lamp categories (R1/R2 vs MR; S1/S2 vs MS). Table A2-1 rows for R1/R2 and S1/S2 were applied. The MA/MR singular/pair and MS singular/pair rows on pp.32-33 were not applied because applicability is unconfirmed."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 32,
+      "reason": "Table A2-1 vertical/horizontal values are split across two pages. Row values were read from page text and cross-checked against the page images. The figures show angles for right-side lamps only; mounting side and pair/handed configuration are unknown."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 0,
+      "reason": "Visibility angle requirements for the reversing lamp and any retro-reflector are not in Table A2-1. The relevant Annex 2 part or main-text clauses are needed."
+    },
+    {
+      "regulation": "UN R148",
+      "page": 31,
+      "reason": "Annex 1 communication form (p.31) is administrative. Item 9.4 refers to paragraph 4.8.3.1.1, which is not in this packet; its test content is needed to determine any engineering obligation."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Paragraphs 2.5.1-2.5.17 (device classification) are needed to confirm which product functions (position, stop, reversing, retro-reflector) fall under each illuminating surface definition."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Annex 3 drawings are needed to interpret the light emitting surface and illuminating surface declarations; the outer lens texture status is unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 10,
+      "reason": "Whether the product has variable intensity control (para 2.9.3 and 2.10.4) is not stated, so that condition is not applied."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 12,
+      "reason": "Colour definitions (white, selective-yellow, red) are definitions only; the colour required for each product function is set in sections not in this packet, so none was emitted."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 10,
+      "reason": "Applicability to the rear lamp is conditional: it is not established that the LED modules are Annex 1 category LED light sources (not substitute sources) or that they are separately approved. The Annex 1 / R.E.5 data sheets are not supplied. Included 3.10.3 and 3.11 requirements apply only if the LED source is in scope; their limits are in those sheets."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 0,
+      "reason": "Annex 9 (luminance measurement method), Annex 4 paragraph 5 (elevated temperature measurement), Annex 5, and Annex 6 are needed to execute the cited tests; target pages unknown."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 4,
+      "reason": "Paragraph 3.2.3, re-verified after 3.10.3 per 3.10.4, is not in the supplied pages; the requirement cannot be stated."
+    },
+    {
+      "regulation": "UN R128",
+      "page": 9,
+      "reason": "Paragraph 5.4.3 refers to 'paragraph 4.4.2', which does not exist; likely paragraph 5.4.2. Paragraph 5.2 verifies para 4.1 only (packaging of substitute sources)."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Cross-referenced paragraphs 2.1.6, 2.10.2, 2.10.3, 2.10.4, 2.3.3, 2.10.7, 5.3, 5.4 and 5.10 are not in the packet. Position and visibility requirements R1-R4 cannot be quantified without them, nor without the individual lamp specifications they refer to."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 114,
+      "reason": "Paragraph 1.2.2 (red light visible to the front, white to the rear, per 5.10) is unresolved. 5.10 is needed to see whether the white reversing lamp is permitted rearward. Mounting position and side of the lamp are unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 114,
+      "reason": "Annex 9 1.3 (dipped-beam and front fog lamp alignment) and Annex 6/7/8 headlamp-levelling content are excluded as not applicable to a rear lamp with position, stop and reversing functions."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Retro-reflector class (IA/IB vs IIIA/IIIB/IVA), colour, mounting height and geometry are not stated in the spec. Section 5.1 and Table 3 red IA/IB values are applied conditionally; the class must be confirmed."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 13,
+      "reason": "Table 3 values are only on page 13 (context page); page 12 shows only the header. Red IA/IB values were read from the page 13 text. The sentence on the 'last two columns' and the 5.1.4.5 mounting-height (<750 mm) provision need confirmation for this product."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Night-time colour limits, and sections 5, 6 and annexes of UN R48 (also R53, R74, R86) are referenced but not supplied; needed for colour limits and general requirements."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Annex 4 (Part 1 paras 1.1, 1.2 and 3; Part 3), Annex 5, Annex 6 (Parts 1-6), Annex 7 and paragraph 5.1.7 are referenced but not in the main pages; needed for test details, shape and dimensions."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 12,
+      "reason": "Paragraph 5.1.3.1 'Four samples out of the remaining eight' conflicts with the following 'other eight samples divided into four groups of two'; sample allocation is ambiguous."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "reason": "Reference to paragraph 5.7.6.1 in 3.5.5 is unresolved; it concerns marking plates and is not used for this product."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Colour of the retro-reflector is not stated, so white-only clause 4.2.1.3 and the red-only Table 3 rows are unconfirmed."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 39,
+      "reason": "Reversing lamp requirements apply only if the product's reversing function is installed per the stated M1 category; mounting height, number of devices and handedness are unknown from the product specification."
+    },
+    {
+      "regulation": "UN R23 / UN R148",
+      "page": 0,
+      "reason": "Component regulations referenced by 6.4.2.3 are not in the packet; photometric and approval requirements cannot be derived and which route applies is unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Paragraph 2.10.7 (definition of angles α and β) is a needed target for the geometric visibility requirement; its text is not in the supplied pages."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 40,
+      "reason": "Paragraph 6.4.7.2 and paragraph 5.11 concern optional devices on vehicles over 6,000 mm, not M1, so were not applied; any 'component regulation' tell-tale requirement remains unresolved."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Definitions in paragraphs 2.1.5, 2.3.10-2.3.10.2, 2.4.11.1, 2.10.3 and 2.14.11.1 are needed to scope several requirements; 2.14.11.1 is unresolved and possibly a typo for 2.4.11.1."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 21,
+      "reason": "Zone 1 (Annex 4) and the 25 m verification and 0.25 cd doubt criterion in paragraph 5.10.4 on page 22 are context-only; Annex 4 is not in the packet."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 20,
+      "reason": "Product facts unknown: whether stop is grouped with a direction indicator, whether lamps are paired, whether band/strip lamps exist, and whether the lamp is a single lamp with distinct parts."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 19,
+      "reason": "Specific instructions for 'in the absence of specific instructions' clauses are not given for the product; the manufacturer's fitting instructions are unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 46,
+      "reason": "Stop lamp device category (S1/S2 vs S3/S4) is not stated; S1/S2 assumed for the rear-lamp stop function, S3/S4 clauses excluded. Optional-lamp provisions are treated as not applicable."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 47,
+      "reason": "Paragraph 5.8.1 (cited for measuring mounting height below 750 mm / above 2,100 mm) is not in the packet; only 5.8 appears. Target page unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 47,
+      "reason": "UN Regulations Nos. 13 and 13-H (braking signal) are referenced but not supplied. The component regulation that may require a failure tell-tale (UN R7 or R148) is also not supplied. Their pages are unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 46,
+      "reason": "Mounting position, installation height, vehicle width and bodywork constraints are unknown, so compliance with the position and visibility limits cannot be verified. Candidate C00532:O003 is tagged page 46 but its text appears on page 47."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 42,
+      "reason": "Retro-reflector class (IA, IB, IIIA, IIIB, IVA) is not specified in the product spec; applicability of the Annex 6 Part 1 heat test and Part 2 water test depends on it."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 0,
+      "reason": "Paragraph 5.1.3.2.2 (RI measurement method) is referenced by Annex 6 Part 2 1.3.1 but its page is not supplied; RI measurement conditions and the minimum RI after the water test are unresolved."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 43,
+      "reason": "Part 3 offers an alternative moisture/dust test for Classes IB and IIIB at manufacturer request; only context pages supplied, so it is not derived as a requirement."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 42,
+      "reason": "Annex 6 Part 1 clause 1 text is on page 42; page 43 context describes alternative test route only if the manufacturer requests it. Test sample counts and approval route are unknown."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 0,
+      "reason": "Annexes 5-11, 13, 4, 14 and 16 (dimensional, colorimetric, photometric, physical, mechanical requirements and test procedures) are not in the packet. Numeric limits cannot be stated."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 0,
+      "reason": "Annexes 17 and 18 (conformity of production controls and inspector sampling) and Agreement Appendix 2 are not supplied, so their detailed obligations are unresolved."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 0,
+      "reason": "Regulations 48, 53, 74 and 86 sections 5 and 6 and their annexes, incorporated by paragraph 6, are not supplied. Their applicability to the M1 rear lamp cannot be determined."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 4,
+      "reason": "The retro-reflector class (IA, IB, IIIA, IIIB or IVA) is not stated in the specification. Class-dependent test annex selection and paragraph 6.5 (Class IVA) cannot be resolved."
+    },
+    {
+      "regulation": "UN R3",
+      "page": 4,
+      "reason": "Marking requirements 5.6.2 and 5.6.3 apply only if a single approval mark is used for grouped, combined or reciprocally incorporated lamps. The approval architecture is unknown, and the condition comes from 5.6.1 on context page 3. Annex 3 examples are not supplied."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 58,
+      "reason": "Main pages cover side retro-reflector, side-marker and daytime running lamp clauses; the spec lists only rear position, stop, reversing and a retro-reflector, so these were not applied. Fitting of side-marker or side retro-reflector functions in the housing is unknown."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 0,
+      "reason": "Paragraph 5.8.1 (height measurement basis for the 750 mm threshold) and paragraph 6.10.5.2 (reduced rear position lamp visibility) are not in the packet. Whether the rear position lamp uses reduced geometric visibility is unknown, so the side-marker supplement obligation in 6.18.1 is unresolved."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 61,
+      "reason": "Paragraph 6.19.7.5 (context-only page) requires rear position lamps to switch ON when daytime running lamps are ON, with an exception above 7,000 lux. It may affect the rear position lamp control; it is not a main-page requirement and was not emitted."
+    }
+  ],
+  "scope_uncertain": [
+    {
+      "regulation": "UN R26",
+      "decision": "uncertain",
+      "reason": "UN R26 applies to external projections of M1 vehicles, and its definition of external surface includes lighting and light-signalling devices. This is a vehicle-level regulation, and the opening pages do not state whether a separately supplied rear lamp is assessed under it. The spec gives no mounting position or projection dimensions, so applicability cannot be safely established or excluded.",
+      "evidence_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "coverage_complete": false,
+  "usage": {
+    "unique_model_calls": 53,
+    "standalone_model_cost_estimate_usd": 6.6214379999999995,
+    "model_seconds_sum": 1733.3978316690773,
+    "shared_experiment_committed_usd": 15.666806
+  },
+  "training": false,
+  "limitation": "Automated source and applicability review; structural checks do not prove legal/semantic correctness.",
+  "elapsed_this_invocation_seconds": 548.3289161249995
+}

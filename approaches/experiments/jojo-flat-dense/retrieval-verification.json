@@ -1,0 +1,51 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "index_load_seconds": 0.25534649999463,
+  "embedding": {
+    "model": "BAAI/bge-small-en-v1.5@65fa9b555f6efb7f272e48d38fca7e1805a62077b4d87d6fb87616e07ae50449:fastembed-0.7.4:mean-overflow-v1",
+    "dimensions": 384,
+    "fingerprint": "4f153762509638248074116b8e078e49a75b2837d3e8ba701a1870cd444c5906",
+    "overflow_pooled_chunks": 31,
+    "max_tokens": 512
+  },
+  "index_fingerprint": "4f153762509638248074116b8e078e49a75b2837d3e8ba701a1870cd444c5906",
+  "matrix_bytes": 47702016,
+  "tests": [
+    {
+      "query": "rear position lamp red light",
+      "oracle_top100_equal": true,
+      "vectors_scanned": 31056,
+      "eligible_vectors": 31056,
+      "returned_clauses": 100,
+      "dimensions": 384,
+      "seconds": 0.008496624999679625,
+      "scope_filter": "after full scan",
+      "exact": true
+    },
+    {
+      "query": "electromagnetic compatibility electronic lamp controller",
+      "oracle_top100_equal": true,
+      "vectors_scanned": 31056,
+      "eligible_vectors": 31056,
+      "returned_clauses": 100,
+      "dimensions": 384,
+      "seconds": 0.005274082999676466,
+      "scope_filter": "after full scan",
+      "exact": true
+    },
+    {
+      "query": "stop lamp installation visibility angles",
+      "oracle_top100_equal": true,
+      "vectors_scanned": 31056,
+      "eligible_vectors": 31056,
+      "returned_clauses": 100,
+      "dimensions": 384,
+      "seconds": 0.0054782090010121465,
+      "scope_filter": "after full scan",
+      "exact": true
+    }
+  ],
+  "gold_access": false,
+  "note": "Independent per-vector dot-product oracle; timings include scan/sort/dedup, exclude encoding and index load."
+}
