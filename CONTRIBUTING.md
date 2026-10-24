@@ -7,7 +7,7 @@ The rules every agent follows are in [AGENTS.md](AGENTS.md); this page is the se
 - Challenge (cases, official tools): https://github.com/Certivity/industrial-ai-hackathon
 - Comparison dashboard: `python approaches/dashboard/open.py` (pulls, then opens `approaches/dashboard/dashboard.html`
   in your browser; no account needed), or
-  https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; it updates itself from the repo within about 15 minutes of your push)
+  https://claude.ai/artifact/TEW2x5Fhkj8DHgtmfnLLTV (open to anyone with the link; it updates itself from the repo within about 5 minutes of your push)
 - Leaderboard in the repo: [approaches/LEADERBOARD.md](approaches/LEADERBOARD.md)
 
 ## 1. Set up once
@@ -46,7 +46,7 @@ git add approaches && git commit -m "<name>: what changed"
 git push
 ```
 
-Then the dashboard updates itself: a scheduled sync pulls the repo every 15 minutes and uploads the pushed
+Then the dashboard updates itself: a scheduled sync pulls the repo every 5 minutes and uploads the pushed
 `leaderboard_rows.json` (details in [approaches/dashboard/README.md](approaches/dashboard/README.md)). Nothing else to do.
 
 ## 3. What a good experiment folder has

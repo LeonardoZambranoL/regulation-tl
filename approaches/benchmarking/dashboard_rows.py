@@ -139,12 +139,19 @@ def rows(board: list[dict], golds: dict[str, dict] | None = None) -> list[dict]:
         })
         pred = predictions.get(r["approach"])
         gold = golds.get(r["gold_sha256"])
-        if pred and gold and pred[0] == r.get("prediction_sha256"):
+        recorded = r["metrics"].get("clause_level")  # bench.py records it since the clause level was added
+        if recorded:
+            out[-1].update({"clause_precision": recorded["precision"], "clause_recall": recorded["recall"],
+                            "clause_f1": recorded["f1"], "clause_f2": recorded["f2"],
+                            "clauses_cited": recorded["n_submitted"], "clauses_expected": recorded["n_expected"],
+                            "clauses_matched": recorded["n_matched"]})
+        elif pred and gold and pred[0] == r.get("prediction_sha256"):
             out[-1].update(clause_scores(pred[1], gold))
         else:
             out[-1].update({k: None for k in ("clause_precision", "clause_recall", "clause_f1", "clause_f2",
                                               "clauses_cited", "clauses_expected", "clauses_matched")})
-        latest[(r["approach"], r["gold_sha256"], r["evaluator"])] = r["run_id"]
+        # newest run per approach and gold set; the evaluator id is ignored because it only changed with line endings
+        latest[(r["approach"], r["gold_sha256"])] = r["run_id"]
     keep = set(latest.values())
     for row in out:
         row["latest"] = row["run_id"] in keep

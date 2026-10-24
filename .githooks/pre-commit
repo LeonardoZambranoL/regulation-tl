@@ -1,0 +1,14 @@
+#!/bin/sh
+# Keep the dashboard in step with every commit: when benchmark results or dashboard sources are staged, rebuild
+# approaches/dashboard/{leaderboard_rows.json,dashboard.html} and add them to this commit.
+# Enable once per clone:  git config core.hooksPath .githooks
+changed=$(git diff --cached --name-only | grep -E '^approaches/(leaderboard\.json|experiments/[^/]+/(outputs/predictions\.json|risk\.json|config\.json|README\.md)|dashboard/standalone_template\.html|benchmarking/dashboard_rows\.py)$')
+[ -z "$changed" ] && exit 0
+PY=$(command -v python3 || command -v python) || { echo "pre-commit: no python found; skipping dashboard rebuild" >&2; exit 0; }
+if "$PY" approaches/benchmarking/dashboard_rows.py >/dev/null; then
+  git add approaches/dashboard/leaderboard_rows.json approaches/dashboard/dashboard.html
+  echo "pre-commit: dashboard rebuilt and added to this commit"
+else
+  echo "pre-commit: dashboard rebuild failed (commit continues; run python approaches/benchmarking/dashboard_rows.py)" >&2
+fi
+exit 0

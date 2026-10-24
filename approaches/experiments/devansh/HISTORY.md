@@ -25,6 +25,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 11 | **`devansh-llm-classifier`** (team bench) | selection + Claude (opus 5.5, effort medium) keeps / drops each of 1,240 "shall" clauses | 0.542 | 0.981 | 0.698 | **0.844** | 1.00 | big jump: classification beats retrieval |
 | 12 | `risk.json` for all three | declared what each one tuned on the dev case: devansh medium, devansh-pages-n150 **high** (N fitted by sweep), devansh-llm-classifier medium | | | | | | shown on the dashboard; prefer the lower-risk approach when scores are close |
 | 13 | clause-level F2 (all approaches, `dashboard_rows.py`) | stricter metric: cited paragraphs vs gold paragraphs | | | | | | llm-classifier 0.619 (98/121 gold clauses), devansh 0.148, pages-n150 0 (cites no paragraphs) |
+| 14 | re-benchmarked all three under the shared evaluator id (line-ending fix in bench.py) | bench.py now records clause level | | | | | | same scores; one table with everyone's runs |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

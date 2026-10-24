@@ -12,15 +12,23 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 if __package__:
-    from .challenge_tools.score_local import score as official_score
+    from .challenge_tools.score_local import score as official_score, _paragraph_key
     from .challenge_tools.validate import read_submission, validate, load_index
 else:
-    from challenge_tools.score_local import score as official_score
+    from challenge_tools.score_local import score as official_score, _paragraph_key
     from challenge_tools.validate import read_submission, validate, load_index
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-SCORER_SHA256 = hashlib.sha256((HERE / "challenge_tools/score_local.py").read_bytes()).hexdigest()
+
+
+def file_sha256(path: Path) -> str:
+    """Checksum of a text file with line endings normalised, so Windows (CRLF) and macOS/Linux (LF) checkouts of the
+    same file agree and their runs land in the same leaderboard table."""
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
+SCORER_SHA256 = file_sha256(HERE / "challenge_tools/score_local.py")
 EVALUATOR = f"official-local-f2-v1-{SCORER_SHA256[:12]}"
 
 
@@ -32,9 +40,26 @@ def load_solution(path: Path, index: list | None = None) -> dict:
     return doc
 
 
+def clause_level(prediction: dict, gold: dict) -> dict:
+    """Clause (paragraph) level, added by this evaluator: distinct (regulation, version, paragraph) cited vs gold, with
+    the official paragraph normalisation. Stricter than the page level: a neighbouring paragraph on the right page does
+    not count, and a requirement without a paragraph cites no clause."""
+    def cited(doc: dict) -> set:
+        return {(r["source"]["regulation"], r["source"].get("version", ""), key) for r in doc.get("requirements", [])
+                if (key := _paragraph_key(r["source"].get("paragraph")))}
+    submitted, expected = cited(prediction), cited(gold)
+    matched = len(submitted & expected)
+    precision = matched / len(submitted) if submitted else 0.0
+    recall = matched / len(expected) if expected else 0.0
+    return {"precision": precision, "recall": recall,
+            "f1": 2 * precision * recall / (precision + recall) if precision + recall else 0.0,
+            "n_submitted": len(submitted), "n_expected": len(expected), "n_matched": matched}
+
+
 def score(prediction: dict, gold: dict) -> dict:
-    """Use the unmodified challenge scorer and add F2 to each metric group."""
+    """Use the unmodified challenge scorer, add the clause level, and add F2 to each metric group."""
     result = official_score(prediction, gold)
+    result["clause_level"] = clause_level(prediction, gold)
     for level in result.values():
         precision, recall = level["precision"], level["recall"]
         denominator = 4 * precision + recall
@@ -62,8 +87,8 @@ def render_leaderboard(rows: list[dict]) -> str:
     groups = sorted({(r["gold_sha256"], r["evaluator"]) for r in rows})
     for gold_hash, evaluator in groups:
         lines += [f"## Gold `{gold_hash[:12]}` · {evaluator}", "",
-                  "| Rank | Approach | Page precision | Page recall | Page F2 | Regulation F2 | Results |",
-                  "| --- | --- | --- | --- | --- | --- | --- |"]
+                  "| Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulation F2 | Results |",
+                  "| --- | --- | --- | --- | --- | --- | --- | --- |"]
         group = [r for r in rows if (r["gold_sha256"], r["evaluator"]) == (gold_hash, evaluator)]
         group.sort(key=lambda r: (-r["metrics"]["page_level"]["f2"],
                                   -r["metrics"]["regulation_level"]["f2"], r["approach"]))
@@ -76,8 +101,10 @@ def render_leaderboard(rows: list[dict]) -> str:
             previous = key
             name = row["approach"]
             result_path = f"experiments/{name}/benchmark-results/{row['run_id']}.json"
+            clause = row["metrics"].get("clause_level")  # absent on runs from before the clause level existed
+            clause_f2 = f"{clause['f2']:.4f}" if clause else "—"
             lines.append(f"| {rank} | [{name}](experiments/{name}/) | {page['precision']:.4f} | "
-                         f"{page['recall']:.4f} | {page['f2']:.4f} | {reg['f2']:.4f} | "
+                         f"{page['recall']:.4f} | {page['f2']:.4f} | {clause_f2} | {reg['f2']:.4f} | "
                          f"[JSON]({result_path}) |")
         lines.append("")
     if not rows:
@@ -112,8 +139,8 @@ def benchmark(name: str, prediction_path: Path, gold_path: Path, root: Path = RO
         "validation": {
             "prediction": "passed",
             "gold": "passed",
-            "validator_sha256": hashlib.sha256((HERE / "challenge_tools/validate.py").read_bytes()).hexdigest(),
-            "schema_sha256": hashlib.sha256((HERE / "challenge_tools/schemas/submission_main.schema.json").read_bytes()).hexdigest(),
+            "validator_sha256": file_sha256(HERE / "challenge_tools/validate.py"),
+            "schema_sha256": file_sha256(HERE / "challenge_tools/schemas/submission_main.schema.json"),
             "index_path": str(index_path.resolve()) if index_path else None,
             "index_sha256": fingerprint(index) if index is not None else None,
             "regulation_versions_checked": index is not None,

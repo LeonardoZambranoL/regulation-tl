@@ -15,7 +15,7 @@ It shows each approach's latest page F2 (bar chart), page precision vs recall (w
 benchmarked. Its data is `leaderboard_rows.json` in this folder, built from `approaches/leaderboard.json`.
 
 Access: anyone with the link can open it (owned by Devansh). **You do not need edit access:** a scheduled sync on
-Devansh's machine pulls the repo every 15 minutes and uploads `leaderboard_rows.json` when it changed, so pushing your
+Devansh's machine pulls the repo every 5 minutes and uploads `leaderboard_rows.json` when it changed, so pushing your
 benchmark results (step 4) is enough. The sync runs while Devansh's Claude app is open; otherwise on its next launch. Without edit access, still do steps 1-4 and push: Devansh's
 Claude uploads the new rows.
 
@@ -23,7 +23,8 @@ Claude uploads the new rows.
 
 - **Page** (precision, recall, F1, F2; ranking metric = page F2): from `bench.py` and the official scorer. A cited page
   counts if the page or its paragraph is right.
-- **Clause** (precision, recall, F1, F2): computed by `dashboard_rows.py` for every approach: distinct cited
+- **Clause** (precision, recall, F1, F2): recorded by `bench.py` for every run since it was added (and computed by
+  `dashboard_rows.py` for older runs): distinct cited
   (regulation, version, paragraph) vs the gold paragraphs, with the official paragraph normalisation. Stricter than
   page level (a neighbouring paragraph on the right page does not count); citations without `paragraph` score 0. Shown
   only when `experiments/<name>/outputs/predictions.json` is exactly the file the run scored (same fingerprint), so keep
@@ -39,13 +40,13 @@ The dashboard is driven entirely by this folder in the repo:
 | `leaderboard_rows.json` | the data: every benchmark run (built from `approaches/leaderboard.json`) | sync uploads it when it changes |
 | `index.html` | the dashboard page itself (charts, tables, the "Join and contribute" card) | sync publishes it when it changes |
 
-A scheduled sync on Devansh's machine pulls `main` every 15 minutes (while his Claude app is open) and publishes
+A scheduled sync on Devansh's machine pulls `main` every 5 minutes (while his Claude app is open) and publishes
 whatever changed. So everyone **pushes** results or page edits to the repo, and the dashboard **pulls** them. Nobody
 needs edit access on claude.ai, and any coding agent works.
 
 ### Changing the dashboard page
 
-Edit `approaches/dashboard/index.html` and push; it goes live within about 15 minutes. It is a page of the claude.ai
+Edit `approaches/dashboard/index.html` and push; it goes live within about 5 minutes. It is a page of the claude.ai
 "Dashboard" artifact type, so keep its rules:
 - Every number on the page comes from the dataset `runs` (or the `standings` calc), marked with `data-source` /
   `data-field` and filled inside `dash.onData`; no hard-coded figures.
