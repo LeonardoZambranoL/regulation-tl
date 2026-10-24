@@ -1,0 +1,2877 @@
+[
+  {
+    "id": "P00000",
+    "decision": "keep",
+    "reason": "C13716 (4.4) requires the approval mark on every vehicle conforming to an approved type. The mark must be conspicuous, in a place specified on the approval form, and follow the Annex 2 model. This is a required marking."
+  },
+  {
+    "id": "P00001",
+    "decision": "keep",
+    "reason": "C13717 (4.4.1) requires the circle with letter E and the distinguishing number of the approving country. This is a marking content requirement."
+  },
+  {
+    "id": "P00002",
+    "decision": "keep",
+    "reason": "C13718 (4.4.2) requires the regulation number, the letter R, a dash and the approval number to the right of the circle-E. This is supported."
+  },
+  {
+    "id": "P00003",
+    "decision": "keep",
+    "reason": "C13719 (4.5) is a conditional marking arrangement that applies when the vehicle also conforms to a type approved under other Regulations in the same country. The condition and the vertical-column layout are preserved."
+  },
+  {
+    "id": "P00004",
+    "decision": "keep",
+    "reason": "C13720 (4.6) requires the approval mark to be clearly legible and indelible. This is supported and applicable."
+  },
+  {
+    "id": "P00005",
+    "decision": "keep",
+    "reason": "C13721 (4.7) requires the approval mark to be close to or on the vehicle data plate. This is supported."
+  },
+  {
+    "id": "P00006",
+    "decision": "keep",
+    "reason": "C13723 (5.1) sets the scope for the performance requirements: no trailer, mass between maximum mass and mass in running order, and a properly operational powertrain management system. This is a necessary scope condition and applies to the M1/N1 product."
+  },
+  {
+    "id": "P00007",
+    "decision": "keep",
+    "reason": "C13724 (5.1.1(a)) requires the ACPE to limit unintended acceleration when a misapplication is detected and an obstacle is ahead with forward direction selected. This matches the product function."
+  },
+  {
+    "id": "P00008",
+    "decision": "keep",
+    "reason": "C13724 (5.1.1(b)) requires the same limiting when an obstacle is behind and rearward direction is selected. The product detects obstacles behind the vehicle."
+  },
+  {
+    "id": "P00009",
+    "decision": "keep",
+    "reason": "C13725 (5.1.2) defines misapplication as pedal velocity of at least 400 %/s over at least 70 % of travel, reaching at least 90 % position. The numbers are preserved and the product detects sudden, strong pedal input."
+  },
+  {
+    "id": "P00010",
+    "decision": "unresolved",
+    "reason": "C13726 (5.1.3) applies only to systems that implement force-based triggering. The specification only says 'sudden, strong accelerator pedal input' and does not state whether triggering is force-based, so applicability cannot be determined."
+  },
+  {
+    "id": "P00011",
+    "decision": "unresolved",
+    "reason": "The requirement to justify the triggering threshold in C13726 (5.1.3) applies only if force-based triggering is implemented. The product's triggering principle is not specified, so applicability is undetermined."
+  },
+  {
+    "id": "P00012",
+    "decision": "keep",
+    "reason": "C13727 (5.1.4) requires the ACPE to control acceleration when the vehicle accelerates from standstill. This is supported and applicable."
+  },
+  {
+    "id": "P00013",
+    "decision": "keep",
+    "reason": "C13728 (5.1.4.1) requires a driver indication if the ACPE is not ready 6 s after powertrain initiation, persisting until initialisation succeeds. The product has an instrument cluster tell-tale and reports faults."
+  },
+  {
+    "id": "P00014",
+    "decision": "keep",
+    "reason": "C13729 (5.1.5) sets the 1.0–1.5 m obstacle distance requirement together with the conditions in (a)–(d). The conditions are preserved and the requirement is supported and applicable."
+  },
+  {
+    "id": "P00015",
+    "decision": "keep",
+    "reason": "C13729 (5.1.5, final paragraph) requires that the system does not deactivate or unreasonably switch control strategy when conditions deviate. This is a supported performance obligation."
+  },
+  {
+    "id": "P00016",
+    "decision": "keep",
+    "reason": "C13729 requires the manufacturer to demonstrate non-deactivation under deviating conditions per Annex 3, with optional Technical Service testing if justified. This is a necessary verification obligation. Annex 3 content is not supplied and the dependency remains explicit."
+  },
+  {
+    "id": "P00017",
+    "decision": "keep",
+    "reason": "C13730 (5.1.6) limits the collision speed to no more than 8 km/h above the vehicle speed at the point where the 5.1.2 triggering conditions are met, if a collision is not prevented. This is supported."
+  },
+  {
+    "id": "P00018",
+    "decision": "keep",
+    "reason": "C13730 (5.1.6) also limits the collision speed to no more than 70 % of the speed without ACPE intervention. This is supported."
+  },
+  {
+    "id": "P00019",
+    "decision": "keep",
+    "reason": "C13731 (5.1.6.1) sets a minimum 15 % speed reduction where 30 % cannot be achieved due to a low power-to-test-mass ratio and the vehicle does not exceed 8 km/h without ACPE. The conditions are preserved."
+  },
+  {
+    "id": "P00020",
+    "decision": "drop",
+    "reason": "C13732 (5.1.7) requires acceleration to continue to be limited during any intervention. It only permits ending the intervention when the obstacle is no longer detected or the driver interrupts. The word 'only' converts a permission into an exclusive restriction that the source does not state."
+  },
+  {
+    "id": "P00021",
+    "decision": "keep",
+    "reason": "C13732 (5.1.7) requires the manufacturer to declare the ACPE continuation conditions to the technical service. This is a supported declaration tied to the system's engineering behaviour."
+  },
+  {
+    "id": "P00022",
+    "decision": "keep",
+    "reason": "C13733 (5.1.8) requires that ACPE effectiveness is not adversely affected by magnetic or electrical fields. This applies to the electronic system."
+  },
+  {
+    "id": "P00023",
+    "decision": "keep",
+    "reason": "C13733 (5.1.8) requires demonstration by fulfilling UN R10 06 or later series technical requirements and transitional provisions. This is a supported test obligation. The UN R10 text is not supplied and the dependency remains explicit."
+  },
+  {
+    "id": "P00024",
+    "decision": "keep",
+    "reason": "Clause 5.1.9 is a clear obligation for the electronic control system, which the ACPE is. The content of Annex 3 is not supplied, so the detailed Annex 3 criteria stay an open source dependency."
+  },
+  {
+    "id": "P00025",
+    "decision": "keep",
+    "reason": "Clauses 5.1.10 and 5.4.2 support this. The ACPE warns the driver on intervention with an optical signal plus a haptic or acoustic one, unless another object-detection system already provides it. The warning description is recorded at type approval. The product has visual and acoustic warnings."
+  },
+  {
+    "id": "P00026",
+    "decision": "keep",
+    "reason": "Clause 5.1.11.1 supports this directly. It applies to the ACPE under the 5.1 performance conditions."
+  },
+  {
+    "id": "P00027",
+    "decision": "keep",
+    "reason": "Clause 5.1.11.1 supports this directly. Interruption is started by any intentional action showing the driver has recognised the situation."
+  },
+  {
+    "id": "P00028",
+    "decision": "keep",
+    "reason": "Clause 5.1.11.2 supports this. The condition is interruption by maintaining the accelerator application, and there must be no rapid increase of acceleration."
+  },
+  {
+    "id": "P00029",
+    "decision": "keep",
+    "reason": "Clause 5.1.12 requires the performance requirements to be verified using the section 6 test procedure. It is a necessary engineering test obligation."
+  },
+  {
+    "id": "P00030",
+    "decision": "keep",
+    "reason": "Clause 5.2.1 applies because the product has a driver deactivation switch. The exception for automatic engine starts such as stop/start is preserved."
+  },
+  {
+    "id": "P00031",
+    "decision": "keep",
+    "reason": "Clause 5.2.1 requires a deactivation warning at least at the time of deactivation. The product has a driver deactivation function."
+  },
+  {
+    "id": "P00032",
+    "decision": "keep",
+    "reason": "Clause 5.3.1 supports this. A failure that prevents the Regulation's requirements being met needs a warning as specified in 5.4.3."
+  },
+  {
+    "id": "P00033",
+    "decision": "keep",
+    "reason": "Clause 5.3.2 supports this. There must be no appreciable time interval between self-checks."
+  },
+  {
+    "id": "P00034",
+    "decision": "keep",
+    "reason": "Clause 5.3.2 supports this, including the exception for speed above 10 km/h at the time of detection."
+  },
+  {
+    "id": "P00035",
+    "decision": "keep",
+    "reason": "Clause 5.3.3 supports this. It applies to detected non-electrical failures such as sensor blindness, unless a deactivation warning is given. The 5.2.3.1.3 context is supplied."
+  },
+  {
+    "id": "P00036",
+    "decision": "keep",
+    "reason": "Clause 5.4.1.1 supports this. The ACPE has an optical tell-tale in the instrument cluster."
+  },
+  {
+    "id": "P00037",
+    "decision": "keep",
+    "reason": "Clause 5.4.1.1 supports this. The driver must be able to easily verify the satisfactory condition of the signals from the driver's seat."
+  },
+  {
+    "id": "P00038",
+    "decision": "keep",
+    "reason": "Clause 5.4.1.2 supports this, including the exception for warning signals shown in a common space."
+  },
+  {
+    "id": "P00039",
+    "decision": "drop",
+    "reason": "This duplicates P00025. P00025 already covers the 5.4.2 intervention warning content and the 5.1.10 cross-reference, so a separate requirement is redundant."
+  },
+  {
+    "id": "P00040",
+    "decision": "keep",
+    "reason": "Clause 5.4.3 supports this directly. The failure warning must be a constant yellow optical signal."
+  },
+  {
+    "id": "P00041",
+    "decision": "keep",
+    "reason": "Clause 5.5.1 supports this. It constrains the product so that Periodic Technical Inspection can confirm ACPE status from the failure warning signal."
+  },
+  {
+    "id": "P00042",
+    "decision": "keep",
+    "reason": "Clause 5.5.1 supports this. The failure warning stays illuminated after power-ON and any bulb check if a failure was present at the end of the previous cycle, unless the failure is no longer present."
+  },
+  {
+    "id": "P00043",
+    "decision": "keep",
+    "reason": "Clause 5.5.2 constrains the product by requiring protection of the failure warning signal against simple unauthorised modification. The alternative of a secondary means of checking operational status is preserved."
+  },
+  {
+    "id": "P00044",
+    "decision": "keep",
+    "reason": "Clause 6.1.1 supports this test condition for the section 6 verification."
+  },
+  {
+    "id": "P00045",
+    "decision": "keep",
+    "reason": "Clause 6.1.2 supports this. The test surface has a consistent slope between level and 1 per cent."
+  },
+  {
+    "id": "P00046",
+    "decision": "unresolved",
+    "reason": "The 0 °C to 45 °C range is supported by clause 6.1.3. The proposal adds an exception for deviating conditions agreed under 6.1.7, but that clause is not in the supplied source."
+  },
+  {
+    "id": "P00047",
+    "decision": "keep",
+    "reason": "Clause 6.1.4 supports this test condition. The horizontal visibility range must allow the target to be observed throughout the test."
+  },
+  {
+    "id": "P00048",
+    "decision": "keep",
+    "reason": "Source 6.1.5 supports the test condition (no wind liable to affect results). It applies to ACPE type-approval testing of this M1/N1 product."
+  },
+  {
+    "id": "P00049",
+    "decision": "keep",
+    "reason": "Source 6.1.6 supports homogeneous natural illumination above 1000 lux and avoiding testing towards or away from the sun at a low angle. The 'should be ensured' wording is softened to 'shall' in the proposal, but it is still a test condition for the camera-equipped product."
+  },
+  {
+    "id": "P00050",
+    "decision": "keep",
+    "reason": "Source 6.1.7 permits deviating test conditions at the manufacturer's request with Technical Service agreement, and the performance requirements must still be met. This is correctly conditional and not an added mandatory route."
+  },
+  {
+    "id": "P00051",
+    "decision": "keep",
+    "reason": "Source 6.2.1 supports the speed measurement accuracy of ±0.1 km/h."
+  },
+  {
+    "id": "P00052",
+    "decision": "keep",
+    "reason": "Source 6.2.2 supports the position measurement accuracy of ±0.03 m."
+  },
+  {
+    "id": "P00053",
+    "decision": "keep",
+    "reason": "Source 6.2.3 supports ±1 N accuracy for accelerator control force where applicable."
+  },
+  {
+    "id": "P00054",
+    "decision": "keep",
+    "reason": "Source 6.2.4 supports ±1% accuracy for accelerator control position, with the vehicle's own position sensor allowed as an alternative at the manufacturer's choice. The product has an accelerator pedal position sensor."
+  },
+  {
+    "id": "P00055",
+    "decision": "keep",
+    "reason": "Source 6.2.5 supports recording measurements at a frequency of at least 100 Hz."
+  },
+  {
+    "id": "P00056",
+    "decision": "keep",
+    "reason": "Source 6.3.1 supports identifying and recording pre-test conditioning details in the type approval documentation if the manufacturer requests conditioning. The 100 km limit and brake bedding-in are preserved."
+  },
+  {
+    "id": "P00057",
+    "decision": "keep",
+    "reason": "Source 6.3.2 supports ensuring the ACPE is switched on and ready before any testing. The product has a deactivation switch, so this is relevant."
+  },
+  {
+    "id": "P00058",
+    "decision": "keep",
+    "reason": "Source 6.3.3(a) supports testing at minimum mass, defined as mass in running order plus up to 125 kg."
+  },
+  {
+    "id": "P00059",
+    "decision": "keep",
+    "reason": "Source 6.3.3(b) supports Technical Service discretion to test at another mass up to the technically permissible maximum laden mass. It is a conditional permission and the proposal keeps it as such, with the expectation that requirements are met at that mass."
+  },
+  {
+    "id": "P00060",
+    "decision": "keep",
+    "reason": "Source 6.3.3 states that no alteration shall be made once the test procedure has begun, so the proposal is supported."
+  },
+  {
+    "id": "P00061",
+    "decision": "keep",
+    "reason": "Source 6.4.1 supports the target choice: an M1 series production car, or a soft target per ISO 19206-1:2018 or ISO 19206-3:2021 at the manufacturer's choice. It applies to the product, which detects vehicles ahead and behind."
+  },
+  {
+    "id": "P00062",
+    "decision": "keep",
+    "reason": "Source 6.5 supports a lateral offset between target and vehicle centrelines of between 0.0 m and 0.2 m. Table 1 gives it as ±0.2 m, consistent with the source."
+  },
+  {
+    "id": "P00063",
+    "decision": "keep",
+    "reason": "Source 6.5 supports performing the test with and without an expected ACPE intervention, forward and rearward, at least at 1.0 m (+0.1 m) and 1.5 m (-0.1 m) from the target position."
+  },
+  {
+    "id": "P00064",
+    "decision": "drop",
+    "reason": "Table 1 conditions are already captured in P00062 and P00063, and the proposal repeats them together with the combination permission. It would be a duplicate of other requirements rather than a distinct obligation."
+  },
+  {
+    "id": "P00065",
+    "decision": "keep",
+    "reason": "Table 1 step (a) requires positioning the vehicle at the distance to the target or speed measurement point defined in Table 1."
+  },
+  {
+    "id": "P00066",
+    "decision": "keep",
+    "reason": "Table 1 step (b) requires holding the vehicle stationary and selecting the corresponding driving direction."
+  },
+  {
+    "id": "P00067",
+    "decision": "keep",
+    "reason": "Table 1 step (c) supports accelerating with neutral steering by operating the accelerator control to achieve the paragraph 5.1.2 triggering conditions before the vehicle reaches 0.5 km/h. Paragraph 5.1.2 appears in the supplied context (C13725)."
+  },
+  {
+    "id": "P00068",
+    "decision": "keep",
+    "reason": "Table 1 step (d) requires recording the speed at the collision point, if applicable, or at the speed measurement point."
+  },
+  {
+    "id": "P00069",
+    "decision": "keep",
+    "reason": "Source 6.6 supports Technical Service discretion to test any condition within paragraph 5.1 during the 6.5 tests. The paragraph 5.1 context (no trailer, mass between maximum and running order, powertrain management properly operational) is supplied, and the discretion is preserved."
+  },
+  {
+    "id": "P00070",
+    "decision": "keep",
+    "reason": "Source 8.2 requires production vehicles to conform to the approved type by meeting the paragraph 5 requirements. This constrains manufacturing conformity, so it is an engineering obligation."
+  },
+  {
+    "id": "P00071",
+    "decision": "unresolved",
+    "reason": "Annex 2 supports a minimum dimension a of 8 mm for the approval mark, and paragraph 4.4 supplies the marking obligation. The mark layout is in a figure that cannot be interpreted from the supplied text, and the regulation number is shown as a placeholder [17X], so the full marking requirement cannot be settled from the evidence."
+  },
+  {
+    "id": "P00072",
+    "decision": "keep",
+    "reason": "Annex 3 para 1 applies to complex electronic control systems and safety-related electronically controlled functions; ACPE is an electronic system, so disclosure to the Technical Service applies. The note that the annex sets methodology rather than performance criteria is source-supported."
+  },
+  {
+    "id": "P00073",
+    "decision": "keep",
+    "reason": "Directly supported by C13823; disclosed information must show compliance with the performance requirements under non-fault and fault conditions."
+  },
+  {
+    "id": "P00074",
+    "decision": "keep",
+    "reason": "Supported by C13823; the system must be designed so that it does not induce safety critical risks. This is partly redundant with P00077 but it is the source requirement for Annex 3 para 1."
+  },
+  {
+    "id": "P00075",
+    "decision": "keep",
+    "reason": "C13836 requires the manufacturer to provide a documentation package covering basic design, links to other systems and control of outputs, and an explanation of the functions and safety concept. This applies to the ACPE electronic system."
+  },
+  {
+    "id": "P00076",
+    "decision": "keep",
+    "reason": "C13836 requires brief documentation that evidences multi-field expertise, plus a description of how operational status can be checked for periodic technical inspections. Both are source-supported and applicable."
+  },
+  {
+    "id": "P00077",
+    "decision": "keep",
+    "reason": "C13836(a) requires the system to be designed to operate without inducing safety critical risks under non-fault and fault conditions. This is assessed through documentation and is applicable."
+  },
+  {
+    "id": "P00078",
+    "decision": "keep",
+    "reason": "C13836(b) requires the system to respect all appropriate performance requirements specified elsewhere in the Regulation under non-fault and fault conditions. It is applicable, though the specific performance requirements elsewhere are not supplied."
+  },
+  {
+    "id": "P00079",
+    "decision": "keep",
+    "reason": "C13836(c) requires development according to the process or method declared by the manufacturer, assessed via documentation. It is an engineering and process obligation constraining the product development."
+  },
+  {
+    "id": "P00080",
+    "decision": "drop",
+    "reason": "The retention obligation is placed on the Technical Service, in agreement with the Approval Authority, which is administrative and not a manufacturer engineering obligation. Only the supply of the package at application is a manufacturer duty, and it is also an administrative submission."
+  },
+  {
+    "id": "P00081",
+    "decision": "keep",
+    "reason": "C13837(b) places a manufacturer obligation to retain additional material and analysis data, open for inspection at type approval and available for 10 years after definite end of production. Paragraph 3.4.4 itself is not supplied, so its content is an unresolved dependency, but the retention duty is source-supported."
+  },
+  {
+    "id": "P00082",
+    "decision": "keep",
+    "reason": "C13838 requires a simple explanation of all control functions, methods and control mechanisms. It is applicable to the ACPE system."
+  },
+  {
+    "id": "P00083",
+    "decision": "keep",
+    "reason": "C13838 requires over-ridable functions to be identified with their changed rationale described. It is applicable because the ACPE can be deactivated by the driver."
+  },
+  {
+    "id": "P00084",
+    "decision": "keep",
+    "reason": "C13839 requires a list of all input and sensed variables with their working ranges. It is applicable given the sensors and pedal position input."
+  },
+  {
+    "id": "P00085",
+    "decision": "unresolved",
+    "reason": "C13840 requires a list of output variables with an indication of direct or indirect control and a defined range of control. The definition of range of control (para 2.8) is not resolvable from the supplied context, because the linked C13705 defines Automatic Transmission instead."
+  },
+  {
+    "id": "P00086",
+    "decision": "unresolved",
+    "reason": "C13841 requires statement of functional operation limits per para 2.9, but the referenced context (C13706) defines mass in running order and not boundaries of functional operation, so the cross-reference cannot be resolved."
+  },
+  {
+    "id": "P00087",
+    "decision": "keep",
+    "reason": "C13843 requires a list of all system units and other needed vehicle systems, plus an outline schematic showing equipment distribution and interconnections. It is applicable."
+  },
+  {
+    "id": "P00088",
+    "decision": "keep",
+    "reason": "C13844 requires the function of each unit and the linking signals to be outlined, by block diagram, schematic, or a description aided by a diagram. It is applicable."
+  },
+  {
+    "id": "P00089",
+    "decision": "keep",
+    "reason": "C13845 requires interconnections to be shown by circuit diagram for electric links, with piping or mechanical diagrams for those link types only where they exist, and links to and from other systems shown. It is applicable to the ACPE electrical system."
+  },
+  {
+    "id": "P00090",
+    "decision": "keep",
+    "reason": "C13846 requires a clear correspondence between transmission links and the signals or operating data carried between units. It is applicable."
+  },
+  {
+    "id": "P00091",
+    "decision": "keep",
+    "reason": "C13846 requires priorities of signals on multiplexed data paths to be stated where priority affects performance or safety under the Regulation. It is conditional but applicable if the ACPE uses multiplexed buses."
+  },
+  {
+    "id": "P00092",
+    "decision": "keep",
+    "reason": "C13847 requires each unit to be clearly and unambiguously identifiable, by marking for hardware and marking or software output for software, to associate hardware with documentation. It is a marking obligation that constrains the product."
+  },
+  {
+    "id": "P00093",
+    "decision": "keep",
+    "reason": "C13847 requires a single hardware identification marking where functions are combined in one unit or computer but shown in multiple blocks. It is applicable, for example to the ACPE software in the powertrain control unit."
+  },
+  {
+    "id": "P00094",
+    "decision": "keep",
+    "reason": "C13847 requires the manufacturer to affirm, by the identification, that the supplied equipment conforms to the corresponding document. It relates to manufacturing conformity and marking."
+  },
+  {
+    "id": "P00095",
+    "decision": "keep",
+    "reason": "C13848 requires the identification to define hardware and software version and to be changed when a software change alters the unit function as far as the Regulation is concerned. It is applicable."
+  },
+  {
+    "id": "P00096",
+    "decision": "keep",
+    "reason": "C13850 (3.4.1) requires a manufacturer statement on the safety strategy under non-fault conditions. It applies to the ACPE as an electronic control system."
+  },
+  {
+    "id": "P00097",
+    "decision": "keep",
+    "reason": "C13851 (3.4.2) requires the software architecture to be explained, design methods and tools identified, and evidence shown. The ACPE has a software function in the powertrain control unit."
+  },
+  {
+    "id": "P00098",
+    "decision": "keep",
+    "reason": "C13852 (3.4.3) requires an explanation of the design provisions for safe operation under fault conditions. The examples are illustrative only and are not mandated."
+  },
+  {
+    "id": "P00099",
+    "decision": "keep",
+    "reason": "C13852 requires the driver to be warned in case of failure. The ACPE reports faults to the driver, so the requirement applies."
+  },
+  {
+    "id": "P00100",
+    "decision": "keep",
+    "reason": "C13852 requires the warning to persist while the fault persists, unless the driver has deactivated the system (ignition off or a dedicated switch). The condition is preserved."
+  },
+  {
+    "id": "P00101",
+    "decision": "keep",
+    "reason": "C13853 (3.4.3.1) is conditional on a partial performance mode being chosen. If so, the fault conditions must be stated and the limits of effectiveness defined."
+  },
+  {
+    "id": "P00102",
+    "decision": "keep",
+    "reason": "C13854 (3.4.3.2) is conditional on a back-up means being chosen. If so, the change-over principles, redundancy logic and limits of back-up effectiveness must be explained or defined."
+  },
+  {
+    "id": "P00103",
+    "decision": "keep",
+    "reason": "C13855 (3.4.3.3) is conditional on removal of the higher level function being chosen. If so, all associated output control signals must be inhibited so as to limit transition disturbance."
+  },
+  {
+    "id": "P00104",
+    "decision": "keep",
+    "reason": "C13856 (3.4.4) requires the documentation to be supported by an analysis of system behaviour on any individual hazard or fault affecting vehicle control performance or safety."
+  },
+  {
+    "id": "P00105",
+    "decision": "keep",
+    "reason": "C13856 requires the manufacturer to establish and maintain the analytical approach and make it open for inspection at type approval. This is a manufacturer-side obligation with an engineering evidence role."
+  },
+  {
+    "id": "P00106",
+    "decision": "keep",
+    "reason": "C13856(a) requires the concept-level safety approach to consider interactions with other vehicle systems and to be based on a Hazard/Risk analysis."
+  },
+  {
+    "id": "P00107",
+    "decision": "keep",
+    "reason": "C13856(b) requires the system-level safety approach to be based on FMEA, FTA or a similar process appropriate to system safety."
+  },
+  {
+    "id": "P00108",
+    "decision": "keep",
+    "reason": "C13856(c) requires validation plans and results to be open for inspection, using e.g. HIL, on-road testing or other appropriate means. The Technical Service tests are a permission and are not made mandatory. The paragraph 4 reference is covered by the supplied 4.1.x clauses."
+  },
+  {
+    "id": "P00109",
+    "decision": "keep",
+    "reason": "C13857 (3.4.4.1) requires the documentation to itemize the monitored parameters and the warning signal for each fault condition. The reference to 3.4.4 is resolved by the supplied C13856."
+  },
+  {
+    "id": "P00110",
+    "decision": "keep",
+    "reason": "C13858 (3.4.4.2) requires documentation of the measures that keep operation safe when system performance is affected by environmental conditions. This applies to ultrasonic sensors and a camera, which are environmentally sensitive."
+  },
+  {
+    "id": "P00111",
+    "decision": "keep",
+    "reason": "C13861 (4.1.1) requires the system to be verifiable under non-fault conditions by testing selected functions declared in the 3.2 documents. It is a necessary engineering test. The declared functions themselves are not yet defined."
+  },
+  {
+    "id": "P00112",
+    "decision": "keep",
+    "reason": "C13861 includes override scenarios for complex electronic systems. The proposal states the condition and the missing product details (declared functions and what counts as an override), so it is kept as conditional."
+  },
+  {
+    "id": "P00113",
+    "decision": "keep",
+    "reason": "C13862 (4.1.2) requires the system reaction to a failure in an individual unit to be checkable by applying signals that simulate internal faults. The ACPE has multiple units (sensors, control unit, warning outputs)."
+  },
+  {
+    "id": "P00114",
+    "decision": "keep",
+    "reason": "C13862 sets the scope of the fault-reaction check: at least one individual unit, and no multiple simultaneous failures. This is a test scope constraint."
+  },
+  {
+    "id": "P00115",
+    "decision": "keep",
+    "reason": "C13862 requires the fault tests to include aspects affecting vehicle controllability and user information (HMI). This matches the ACPE warning and fault indication."
+  },
+  {
+    "id": "P00116",
+    "decision": "keep",
+    "reason": "C13863 (4.1.2.1) requires the verification results to correspond with the documented failure analysis summary, confirming the safety concept and execution as adequate."
+  },
+  {
+    "id": "P00117",
+    "decision": "drop",
+    "reason": "UN R10 3.1.5 concerns the choice of the representative vehicle for the EMC approval test. This is an administrative sample-selection rule and does not constrain the product design. The spec also does not state an EMC approval route."
+  },
+  {
+    "id": "P00118",
+    "decision": "drop",
+    "reason": "UN R10 3.1.7 concerns provision of a representative vehicle when the Technical Service itself carries out the test. This is an administrative application procedure and not an engineering obligation on the ACPE."
+  },
+  {
+    "id": "P00119",
+    "decision": "unresolved",
+    "reason": "UN R10 3.1.8 applies to vehicle categories M and N, which covers M1/N1. It is a vehicle-level information-document obligation about RF-transmitter installation provisions. The spec does not say that EMC vehicle approval is in scope or that the ACPE has any RF transmitter, and the proposal omits the evidence sentence of the clause."
+  },
+  {
+    "id": "P00120",
+    "decision": "keep",
+    "reason": "UN R10 3.1.8 applies to M and N vehicles and requires evidence that vehicle performance is not adversely affected by RF transmitter installations. The ACPE mention is only a scope note."
+  },
+  {
+    "id": "P00121",
+    "decision": "keep",
+    "reason": "UN R10 5.2.1 requires an approval mark on every vehicle of an approved type. It is conditional on UN R10 approval and constrains required marking."
+  },
+  {
+    "id": "P00122",
+    "decision": "keep",
+    "reason": "UN R10 5.3 requires the international approval mark in a conspicuous, easily accessible place specified on the approval communication form."
+  },
+  {
+    "id": "P00123",
+    "decision": "keep",
+    "reason": "UN R10 5.3.1 requires a circle containing E and the distinguishing number of the approving country."
+  },
+  {
+    "id": "P00124",
+    "decision": "keep",
+    "reason": "UN R10 5.3.2 requires the Regulation number, the letter R, a dash and the approval number to the right of the circle."
+  },
+  {
+    "id": "P00125",
+    "decision": "keep",
+    "reason": "UN R10 6.1.1 requires the vehicle and its electrical/electronic systems to be designed, constructed and fitted to comply in normal use. The ACPE electronics fall within this scope."
+  },
+  {
+    "id": "P00126",
+    "decision": "keep",
+    "reason": "UN R10 6.1.1.1 requires radiated emission and radiated immunity testing and states that conducted tests are not required for type approval."
+  },
+  {
+    "id": "P00127",
+    "decision": "keep",
+    "reason": "UN R10 6.1.2 requires a test plan with the listed minimum content, prepared in conjunction with the manufacturer. The source names the Technical Service as preparer, but the plan content constrains the necessary EMC testing."
+  },
+  {
+    "id": "P00128",
+    "decision": "keep",
+    "reason": "UN R10 6.1.2 requires the test plan to define the minimum number of steady-state operating conditions, depending on the intended operating conditions of the propulsion system."
+  },
+  {
+    "id": "P00129",
+    "decision": "keep",
+    "reason": "UN R10 6.1.2 requires test conditions to consider multiple propulsion operating strategies, based on Annex 2A/2B documentation. That documentation is not supplied, and the requirement states this dependency."
+  },
+  {
+    "id": "P00130",
+    "decision": "keep",
+    "reason": "UN R10 6.2.1 requires broadband radiation to be measured by the Annex 4 method. Annex 4 is not supplied, and the requirement states this."
+  },
+  {
+    "id": "P00131",
+    "decision": "keep",
+    "reason": "UN R10 6.2.1 states that the manufacturer defines the method of measurement in accordance with the Technical Service."
+  },
+  {
+    "id": "P00132",
+    "decision": "keep",
+    "reason": "UN R10 6.2.2.1 gives the conditional limits for 10 m spacing. Appendix 2 is not supplied, and the requirement states this. The sentence continues in C04317."
+  },
+  {
+    "id": "P00133",
+    "decision": "keep",
+    "reason": "The text of C04317 supports the constant 43 dB µV/m limit in 400–1,000 MHz for 10 m spacing. The heading flags are only parsing artefacts."
+  },
+  {
+    "id": "P00134",
+    "decision": "keep",
+    "reason": "UN R10 6.2.2.2 gives the conditional broadband limits for 3 m spacing, with the numerical values preserved. Appendix 3 is not supplied."
+  },
+  {
+    "id": "P00135",
+    "decision": "keep",
+    "reason": "UN R10 6.2.2.3 requires measured broadband values to be below the type approval limits."
+  },
+  {
+    "id": "P00136",
+    "decision": "keep",
+    "reason": "UN R10 6.3.1 requires narrowband radiation to be measured by the Annex 5 method. Annex 5 is not supplied, and the requirement states this."
+  },
+  {
+    "id": "P00137",
+    "decision": "keep",
+    "reason": "UN R10 6.3.1 states that the measurement details are defined by the manufacturer in accordance with the Technical Service."
+  },
+  {
+    "id": "P00138",
+    "decision": "keep",
+    "reason": "UN R10 6.3.2.1 gives the conditional narrowband limits for 10 m spacing: 28 dB µV/m in 30–230 MHz and 35 dB µV/m in 230–1,000 MHz."
+  },
+  {
+    "id": "P00139",
+    "decision": "keep",
+    "reason": "UN R10 6.3.2.2 gives the conditional narrowband limits for 3 m spacing: 38 dB µV/m in 30–230 MHz and 45 dB µV/m in 230–1,000 MHz."
+  },
+  {
+    "id": "P00140",
+    "decision": "keep",
+    "reason": "UN R10 6.3.2.3 requires measured narrowband values to be below the type approval limit."
+  },
+  {
+    "id": "P00141",
+    "decision": "keep",
+    "reason": "UN R10 6.4.1 requires immunity to be tested by the Annex 6 method. Annex 6 is not supplied, and the requirement states this."
+  },
+  {
+    "id": "P00142",
+    "decision": "keep",
+    "reason": "UN R10 6.4.2.1 gives the ISO 11451-2 field strength levels for 20–2,000 MHz: 30 V/m over more than 90% of the band and at least 25 V/m over the whole band."
+  },
+  {
+    "id": "P00143",
+    "decision": "keep",
+    "reason": "UN R10 6.4.2.1 gives the ISO 11451-2 field strength levels for 2,000–6,000 MHz: 10 V/m over more than 90% of the band and at least 8 V/m over the whole band."
+  },
+  {
+    "id": "P00144",
+    "decision": "keep",
+    "reason": "Supported by 6.4.2.1 as a conditional vehicle-level BCI test level for M1/N1. The 60 mA over more than 90% and 50 mA minimum values are preserved."
+  },
+  {
+    "id": "P00145",
+    "decision": "keep",
+    "reason": "Supported by 6.4.2.2 for vehicle immunity. The Annex 6 para 2.1 definition of immunity related functions is not supplied, which the proposal states."
+  },
+  {
+    "id": "P00146",
+    "decision": "keep",
+    "reason": "Supported by 6.6.1: the ESA narrowband emission is measured by the Annex 8 method. The ACPE electronics are ESAs. Annex 8 content is not supplied."
+  },
+  {
+    "id": "P00147",
+    "decision": "keep",
+    "reason": "Supported by 6.6.2.1. The frequency bands and dB microvolts/m limits are preserved accurately."
+  },
+  {
+    "id": "P00148",
+    "decision": "keep",
+    "reason": "Supported by 6.6.2.2: the measured ESA value must be below the type approval limits."
+  },
+  {
+    "id": "P00149",
+    "decision": "keep",
+    "reason": "Supported by 6.7.1: ESA transient conducted emission is tested per ISO 7637-2 as described in Annex 10, at the Table 1 levels."
+  },
+  {
+    "id": "P00150",
+    "decision": "keep",
+    "reason": "Supported by Table 1. The 12 V and 24 V amplitudes are correct. The applicable column depends on the vehicle system voltage, which the spec does not state."
+  },
+  {
+    "id": "P00151",
+    "decision": "keep",
+    "reason": "Supported by 6.8.1: ESA radiated immunity is tested by method(s) chosen from Annex 9."
+  },
+  {
+    "id": "P00152",
+    "decision": "keep",
+    "reason": "Supported by 6.8.2.1 Table 2a. Values and frequency ranges are accurately represented, including the not-applicable entries above 2 GHz."
+  },
+  {
+    "id": "P00153",
+    "decision": "keep",
+    "reason": "Supported by 6.8.2.1 Table 2b minimum levels over the whole band. The values are accurate."
+  },
+  {
+    "id": "P00154",
+    "decision": "keep",
+    "reason": "Supported by 6.8.2.2: no degradation of immunity related functions during Annex 9 tests."
+  },
+  {
+    "id": "P00155",
+    "decision": "keep",
+    "reason": "Supported by 6.9.1: ISO 16750-2 for the starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, per Annex 10 and Tables 3a/3b."
+  },
+  {
+    "id": "P00156",
+    "decision": "keep",
+    "reason": "Supported by 6.9.1 and Table 3a. Classes B, C and D and the 10 pulses at level II are correct."
+  },
+  {
+    "id": "P00157",
+    "decision": "keep",
+    "reason": "Supported by the 6.9.1 note that the starting profile applies only to ESAs installable in ICE vehicles with a 12/24 V starter. The petrol/hybrid versus BEV mapping is a reasonable scope inference."
+  },
+  {
+    "id": "P00158",
+    "decision": "keep",
+    "reason": "Supported by Table 3b. The test levels, pulse counts and durations, and FPSC classes are accurate."
+  },
+  {
+    "id": "P00159",
+    "decision": "keep",
+    "reason": "Supported by 7.1.1. It is conditional on a variant having the REESS charging mode coupled to the grid, which may apply to the hybrid and battery-electric variants."
+  },
+  {
+    "id": "P00160",
+    "decision": "keep",
+    "reason": "Supported by 7.1.1.1 and conditional on the grid-coupled REESS charging configuration."
+  },
+  {
+    "id": "P00161",
+    "decision": "keep",
+    "reason": "Supported by 7.1.2. The test plan content constrains the necessary engineering test and is conditional on the REESS charging configuration."
+  },
+  {
+    "id": "P00162",
+    "decision": "keep",
+    "reason": "Supported by 7.1.3. It is conditional on the charging configuration, and the 'should' recommendation strength is kept as stated. The annex flowcharts are not supplied."
+  },
+  {
+    "id": "P00163",
+    "decision": "keep",
+    "reason": "Supported by 7.1.4 as a conditional test-setup requirement when AC mains are applied during the charging-mode test."
+  },
+  {
+    "id": "P00164",
+    "decision": "keep",
+    "reason": "Supported by 7.1.4 as a conditional test-setup requirement when DC mains are applied during the charging-mode test."
+  },
+  {
+    "id": "P00165",
+    "decision": "unresolved",
+    "reason": "The 7.1.4 text is supported, but it applies only to ESA-level testing. The approval route (ESA versus vehicle level) is not specified in the product data."
+  },
+  {
+    "id": "P00166",
+    "decision": "keep",
+    "reason": "Supported by 7.1.4. It is conditional on the charging configuration and carries 'should' strength, which is preserved as a recommendation."
+  },
+  {
+    "id": "P00167",
+    "decision": "keep",
+    "reason": "Supported by 7.2.1, conditional on the grid-coupled REESS charging configuration. The method definition by the manufacturer with the Technical Service is preserved."
+  },
+  {
+    "id": "P00168",
+    "decision": "keep",
+    "reason": "Supported by 7.2.2.1. Applies to grid-charging variants (battery-electric, and hybrid if plug-in) when measured at 10 m. The numeric limits and the Annex 4 condition are preserved."
+  },
+  {
+    "id": "P00169",
+    "decision": "keep",
+    "reason": "Supported by 7.2.2.2. This is the 3 m spacing condition with its own distinct limits, so it is not a duplicate of the 10 m case. The conditional scope is preserved."
+  },
+  {
+    "id": "P00170",
+    "decision": "keep",
+    "reason": "Supported by the second sentence of 7.2.2.2. Measured values on the representative vehicle must be below the type approval limits."
+  },
+  {
+    "id": "P00171",
+    "decision": "keep",
+    "reason": "Supported by 7.3.1. Applies to variants with an AC power line connection in charging mode. The Annex 11 method and the manufacturer/Technical Service definition of the method are preserved."
+  },
+  {
+    "id": "P00172",
+    "decision": "keep",
+    "reason": "Supported by 7.3.2.1. Applies to input current of 16 A or less per phase, measured by the Annex 11 method, with limits per IEC 61000-3-2 and Table 4. The product's actual input current is not specified, so this stays conditional."
+  },
+  {
+    "id": "P00173",
+    "decision": "keep",
+    "reason": "Table 4 values match the source and carry the 16 A per phase condition and the IEC 61000-3-2 Clause 6.3.3.4 note."
+  },
+  {
+    "id": "P00174",
+    "decision": "unresolved",
+    "reason": "7.3.2.2 supports the 16 A to 75 A per phase range with IEC 61000-3-12 limits in Tables 5, 6 and 7. Table 7 is not supplied, so the dependency is incomplete. The product's input current and phase configuration are also unspecified."
+  },
+  {
+    "id": "P00175",
+    "decision": "keep",
+    "reason": "Table 5 values match the source. Applies to single-phase or other than balanced three-phase equipment with input current above 16 A and up to 75 A. The condition and Rsce-based numeric limits are preserved."
+  },
+  {
+    "id": "P00176",
+    "decision": "keep",
+    "reason": "Supported by the Table 5 note on even harmonics of order 12 or below (below 16/n %) and the treatment of higher even harmonics in THD and PWHD. Applies only in the Table 5 scope."
+  },
+  {
+    "id": "P00177",
+    "decision": "keep",
+    "reason": "Table 6 values match the source. Applies to balanced three-phase equipment with input current above 16 A and up to 75 A. The Rsce-based numeric limits are preserved."
+  },
+  {
+    "id": "P00178",
+    "decision": "keep",
+    "reason": "Supported by the Table 6 note on even harmonics. This is a separate scope from Table 5, so it is not a duplicate."
+  },
+  {
+    "id": "P00179",
+    "decision": "keep",
+    "reason": "Supported by 7.4.1. Applies to variants that can charge from the grid. Flicker and voltage change emissions are measured by the Annex 12 method on the representative vehicle."
+  },
+  {
+    "id": "P00180",
+    "decision": "keep",
+    "reason": "Supported by 7.4.1. The manufacturer defines the measurement method in accordance with the Technical Service. This constrains the necessary test method and is conditional on grid charging capability."
+  },
+  {
+    "id": "P00181",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.1. Applies at rated current of 16 A or less per phase and not subject to conditional connection. Pst must not exceed 1.0."
+  },
+  {
+    "id": "P00182",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.1 under the same conditions. Plt must not exceed 0.65."
+  },
+  {
+    "id": "P00183",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.1 under the same conditions. d(t) must not exceed 3.3 % for more than 500 ms."
+  },
+  {
+    "id": "P00184",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.1 under the same conditions. dc must not exceed 3.3 %."
+  },
+  {
+    "id": "P00185",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.1 under the same conditions. dmax must not exceed 6 %."
+  },
+  {
+    "id": "P00186",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.2. Applies at rated current above 16 A and up to 75 A per phase, subject to conditional connection per IEC 61000-3-11. Pst must not exceed 1.0."
+  },
+  {
+    "id": "P00187",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.2 under the same conditions. Plt must not exceed 0.65."
+  },
+  {
+    "id": "P00188",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.2 under the same conditions. d(t) must not exceed 3.3 % for more than 500 ms."
+  },
+  {
+    "id": "P00189",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.2 under the same conditions. dc must not exceed 3.3 %."
+  },
+  {
+    "id": "P00190",
+    "decision": "keep",
+    "reason": "Supported by 7.4.2.2 under the same conditions. dmax must not exceed 6 %."
+  },
+  {
+    "id": "P00191",
+    "decision": "keep",
+    "reason": "Supported by 7.5.1. Applies to grid-charging variants. Radiofrequency conducted disturbances on AC or DC power lines are measured by the Annex 13 method on the representative vehicle."
+  },
+  {
+    "id": "P00192",
+    "decision": "keep",
+    "reason": "Source 7.5.1 is supported. It applies to the battery-electric (and any plug-in hybrid) variants in the REESS grid-charging configuration. The manufacturer defines the measurement method with the Technical Service, and the method sits with Annex 13."
+  },
+  {
+    "id": "P00193",
+    "decision": "keep",
+    "reason": "Source 7.5.2.1 is supported. It applies to grid-charging variants charged in a residential environment, measured by the Annex 13 method, and the conditions are preserved."
+  },
+  {
+    "id": "P00194",
+    "decision": "keep",
+    "reason": "The Table 8 values match the source table. It is the limit table for the AC power line requirement 7.5.2.1."
+  },
+  {
+    "id": "P00195",
+    "decision": "keep",
+    "reason": "Source 7.5.2.2 is supported. The residential-environment and Annex 13 conditions are preserved."
+  },
+  {
+    "id": "P00196",
+    "decision": "keep",
+    "reason": "The Table 9 values match the source table. It is the limit table for the DC power line requirement 7.5.2.2."
+  },
+  {
+    "id": "P00197",
+    "decision": "keep",
+    "reason": "Source 7.7.1 requires the Annex 6 test method for vehicle immunity. It applies to variants with REESS grid charging, which the battery-electric variants provide."
+  },
+  {
+    "id": "P00198",
+    "decision": "keep",
+    "reason": "Source 7.7.2.1 is supported. The 30 V/m over more than 90 % of the band and 25 V/m minimum over the whole 20-2,000 MHz band apply when the Annex 6 method is used."
+  },
+  {
+    "id": "P00199",
+    "decision": "keep",
+    "reason": "Source 7.7.2.1 is supported. The 10 V/m over more than 90 % of the band and 8 V/m minimum over the whole 2,000-6,000 MHz band apply when the Annex 6 method is used."
+  },
+  {
+    "id": "P00200",
+    "decision": "keep",
+    "reason": "Source 7.7.2.1 is supported. The BCI current of 60 mA over more than 90 % of the band and 50 mA minimum over the whole 20-2,000 MHz band applies when the Annex 6 ISO 11451-4 BCI method is used."
+  },
+  {
+    "id": "P00201",
+    "decision": "keep",
+    "reason": "Source 7.7.2.2 is supported and applicable. The pass criterion is no degradation of the immunity related functions. The Annex 6 para 2.2 definition is not supplied and remains an explicit open dependency."
+  },
+  {
+    "id": "P00202",
+    "decision": "keep",
+    "reason": "Source 7.8.1.1 is supported. It requires the Annex 15 test method for EFT/burst immunity on AC and DC power lines, for grid-charging variants."
+  },
+  {
+    "id": "P00203",
+    "decision": "keep",
+    "reason": "Source 7.8.2.1 is supported. The test levels are ±2 kV, 5 ns rise time, 50 ns hold time, 5 kHz repetition rate, for at least 1 minute, when the Annex 15 method is used."
+  },
+  {
+    "id": "P00204",
+    "decision": "keep",
+    "reason": "Source 7.9.1.1 is supported. It requires the Annex 16 test method for surge immunity on the power lines of grid-charging variants."
+  },
+  {
+    "id": "P00205",
+    "decision": "keep",
+    "reason": "Source 7.9.2.1(a) is supported. It applies conditionally to AC power lines, and the levels, timing and phase angles are preserved."
+  },
+  {
+    "id": "P00206",
+    "decision": "keep",
+    "reason": "Source 7.9.2.1(b) is supported. It applies conditionally to DC power lines, and the levels and timing are preserved."
+  },
+  {
+    "id": "P00207",
+    "decision": "drop",
+    "reason": "Source 7.10 covers the ESA broadband type-approval route. The specification describes a vehicle-integrated function and gives no separate ESA approval. Adding it would duplicate an alternative approval route and invent a certification architecture."
+  },
+  {
+    "id": "P00208",
+    "decision": "drop",
+    "reason": "This is an ESA-route limit (7.10.2.1). Separate ESA approval is not stated and ESA approval is an alternative route, so it is not applicable by assumption."
+  },
+  {
+    "id": "P00209",
+    "decision": "drop",
+    "reason": "This is an ESA-route limit (7.10.2.1). Separate ESA approval is not stated and ESA approval is an alternative route, so it is not applicable by assumption."
+  },
+  {
+    "id": "P00210",
+    "decision": "drop",
+    "reason": "This is an ESA-route limit (7.10.2.1). Separate ESA approval is not stated and ESA approval is an alternative route, so it is not applicable by assumption."
+  },
+  {
+    "id": "P00211",
+    "decision": "drop",
+    "reason": "This is an ESA-route requirement (7.10.2.2). Separate ESA approval is not stated and ESA approval is an alternative route, so it is not applicable by assumption."
+  },
+  {
+    "id": "P00212",
+    "decision": "keep",
+    "reason": "Source 9.1 is supported. It is a conformity-of-production obligation that constrains manufacture, and it applies when approval is granted under UN R10."
+  },
+  {
+    "id": "P00213",
+    "decision": "keep",
+    "reason": "Source 9.2 is supported. Conformity of production is checked against the Annex 3A/3B communication form data when approved under UN R10."
+  },
+  {
+    "id": "P00214",
+    "decision": "keep",
+    "reason": "Source 9.3.1 is supported. It applies when the authority is not satisfied with the manufacturer's checking procedure and a series item is verified. The 4 dB (60 per cent) tolerance on the reference limits is preserved."
+  },
+  {
+    "id": "P00215",
+    "decision": "keep",
+    "reason": "Source 9.3.2 is supported. It applies when the authority is not satisfied with the manufacturer's checking procedure and a series item is verified. The immunity criterion of no observable degradation of direct vehicle control, with the 80 per cent field strength and Annex 6 para 4 state, is preserved."
+  },
+  {
+    "id": "P00216",
+    "decision": "keep",
+    "reason": "Supported by 9.3.3. It applies to a series component or STU (the ACPE control unit is one) when the authority is not satisfied with the manufacturer's checks (9.3). It constrains immunity and emission performance, and the references are preserved."
+  },
+  {
+    "id": "P00217",
+    "decision": "keep",
+    "reason": "Supported by Appendix 2 (via 6.2.2.1). Conditional on a 10 m measurement for vehicle broadband emissions, and the values and 120 kHz bandwidth are preserved."
+  },
+  {
+    "id": "P00218",
+    "decision": "keep",
+    "reason": "Supported by Appendix 3 (via 6.2.2.2). Conditional on a 3 m measurement, and the limits are preserved."
+  },
+  {
+    "id": "P00219",
+    "decision": "keep",
+    "reason": "Supported by Appendix 4 (via 6.3.2.1). Conditional on a 10 m measurement, and the limits and 120 kHz bandwidth are preserved."
+  },
+  {
+    "id": "P00220",
+    "decision": "keep",
+    "reason": "Supported by Appendix 5 (via 6.3.2.2). Conditional on a 3 m measurement, and the limits are preserved."
+  },
+  {
+    "id": "P00221",
+    "decision": "keep",
+    "reason": "Annex 1 gives a = 6 mm min for the approval mark on a vehicle or ESA. This is a marking constraint that applies if the product is approved under R10."
+  },
+  {
+    "id": "P00222",
+    "decision": "keep",
+    "reason": "3.1.8 applies to M and N vehicles and requires the RF-transmitter statement even if no transmitter is fitted. Item 63 is the place for it. The missing RF data is flagged explicitly."
+  },
+  {
+    "id": "P00223",
+    "decision": "keep",
+    "reason": "3.1.8 requires evidence that vehicle performance is not adversely affected by RF-transmitter installations. It applies to M1/N1."
+  },
+  {
+    "id": "P00224",
+    "decision": "keep",
+    "reason": "Annex 4 1.1 limits the test method to vehicles and covers both the non-charging and the grid-charging configuration. The grid-charging condition is preserved as unspecified for the product."
+  },
+  {
+    "id": "P00225",
+    "decision": "keep",
+    "reason": "Annex 4 1.2 requires CISPR 12 unless Annex 4 states otherwise, for broadband emissions from vehicle electrical and electronic systems."
+  },
+  {
+    "id": "P00226",
+    "decision": "keep",
+    "reason": "Annex 4 2.1.1 requires the engine to be in operation per CISPR 12 in the non-charging configuration."
+  },
+  {
+    "id": "P00227",
+    "decision": "keep",
+    "reason": "Annex 4 2.1.1 requires an agreed alternative steady-state mode if the 40 km/h mode does not activate all traction motors or battery-charging engines. This is relevant to the hybrid and electric variants."
+  },
+  {
+    "id": "P00228",
+    "decision": "keep",
+    "reason": "Annex 4 2.1.2 says 'should' for equipment that can be switched on permanently, with the horn and window motors excluded. The recommendation strength is preserved and not upgraded."
+  },
+  {
+    "id": "P00229",
+    "decision": "keep",
+    "reason": "Annex 4 2.2 requires charging-mode testing if the vehicle has that mode. The condition is explicit. The flowchart content is missing from the supplied text, but the obligation itself is source-supported."
+  },
+  {
+    "id": "P00230",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.1 requires the socket on the ground plane or floor. It is conditional on charging mode 1 or 2, and the product's charging mode is unspecified."
+  },
+  {
+    "id": "P00231",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.1 requires the socket-to-AMN harness to be as short as possible. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00232",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.1 requires the harness as close as possible to the ground plane or floor. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00233",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.2 requires mains to be applied through 50 µH/50 Ω AMNs. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00234",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.2 specifies AMN mounting and bonding or earthing. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00235",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.2 requires each AMN measuring port to be terminated with 50 Ω. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00236",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.3 requires a straight harness between the AMN and the charging plug, routed perpendicular to the vehicle axis. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00237",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.3 gives the projected harness length 0,8 (+0,2/-0) m. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00238",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.3 requires symmetric Z-folding of excess cable, with a width of 500-1000 mm, and a recording exception if impractical. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00239",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1.3 requires the harness at the vehicle side to hang vertically at 100 (+200/-0) mm from the body. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00240",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 2.2.1.3 (charging mode 1/2). The harness material, εr ≤ 1,4 and (100 ± 25) mm height match the source. Applies only to variants with mode 1/2 charging; the proposed text omits that condition."
+  },
+  {
+    "id": "P00241",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.1. Applies under mode 3/4 charging, which is plausible for the battery-electric variants."
+  },
+  {
+    "id": "P00242",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.1. The condition (charging station inside the test site) and the test-report exception for impractical cases are preserved."
+  },
+  {
+    "id": "P00243",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.1. The 'should' wording and the absorber-panel fallback are preserved, and the fallback is not turned into a separate obligation."
+  },
+  {
+    "id": "P00244",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.2: AC mains through 50 µH/50 Ω AMN in mode 3/4."
+  },
+  {
+    "id": "P00245",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.2: DC mains through 5 µH/50 Ω DC-charging-AN."
+  },
+  {
+    "id": "P00246",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.2: mounting on the ground plane or floor, and bonding or protective earth."
+  },
+  {
+    "id": "P00247",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.2: 50 Ω termination of the measuring port."
+  },
+  {
+    "id": "P00248",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.3. The exceptions (charging station used, or emulated communication blocked by the AAN) are preserved."
+  },
+  {
+    "id": "P00249",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.3: AAN mounting and bonding or protective earth."
+  },
+  {
+    "id": "P00250",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.3: 50 Ω termination of the AAN measuring port."
+  },
+  {
+    "id": "P00251",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.4: straight-line routing perpendicular to the vehicle longitudinal axis."
+  },
+  {
+    "id": "P00252",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.4: projected length 0,8 (+0,2/-0) m."
+  },
+  {
+    "id": "P00253",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.4: Z-folding, 500–1 000 mm width, and the test-report exception when impractical."
+  },
+  {
+    "id": "P00254",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.4: vehicle-side harness hangs vertically at 100 (+200/-0) mm."
+  },
+  {
+    "id": "P00255",
+    "decision": "keep",
+    "reason": "Supported by 2.2.2.4: non-conductive material with εr ≤ 1,4 at (100 ± 25) mm height."
+  },
+  {
+    "id": "P00256",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.1: limits apply over 30 to 1 000 MHz in ALSE or OTS."
+  },
+  {
+    "id": "P00257",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.2: 20 dB correction factor when peak detectors are used."
+  },
+  {
+    "id": "P00258",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.3 (spectrum analyser or scanning receiver, parameters in Tables 1 and 2). The CISPR 16-1-1 requirement is the condition for instruments to be usable."
+  },
+  {
+    "id": "P00259",
+    "decision": "keep",
+    "reason": "Supported by 4.3: FFT instruments must continuously record and evaluate the signal."
+  },
+  {
+    "id": "P00260",
+    "decision": "keep",
+    "reason": "Supported by 4.3: minimum 1 s measurement time per analysis band for FFT instruments."
+  },
+  {
+    "id": "P00261",
+    "decision": "keep",
+    "reason": "Table 1 values match the source (RBW 100/120 kHz at -3 dB and 100 ms/MHz for peak; 120 kHz at -6 dB and 20 s/MHz for quasi-peak). The extent flag does not contradict the content."
+  },
+  {
+    "id": "P00262",
+    "decision": "keep",
+    "reason": "Supported by the Table 1 note: video bandwidth at least 3× RBW for peak measurements."
+  },
+  {
+    "id": "P00263",
+    "decision": "keep",
+    "reason": "Table 2 values and footnote a match the source (120 kHz BW, 60 kHz max step, 5 ms peak and 1 s quasi-peak dwell, step size may be increased for purely broadband disturbances)."
+  },
+  {
+    "id": "P00264",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.4. The 14-band scheme is kept only as a conditional alternative, not as a separate mandatory obligation."
+  },
+  {
+    "id": "P00265",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 4 4.4 as a conditional obligation that applies if the limit is exceeded."
+  },
+  {
+    "id": "P00266",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.5. It applies to the 14-band scheme and covers both polarizations and both vehicle sides."
+  },
+  {
+    "id": "P00267",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 4 4.6. The vehicle-level test applies to the M1/N1 product."
+  },
+  {
+    "id": "P00268",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.6. The same positions are used for both polarizations, and the number of positions and the antenna position relative to the vehicle are documented in the test report."
+  },
+  {
+    "id": "P00269",
+    "decision": "drop",
+    "reason": "Duplicate. The documentation of the number of antenna positions is already covered by P00268."
+  },
+  {
+    "id": "P00270",
+    "decision": "keep",
+    "reason": "Supported by Annex 4 4.6. The condition is N=1 and the antenna is aligned with the middle of the total vehicle length."
+  },
+  {
+    "id": "P00271",
+    "decision": "unresolved",
+    "reason": "The symmetry rule for N>1 is supported. The condition on N depends on formula (1), which is missing from the supplied text, so the full obligation cannot be determined."
+  },
+  {
+    "id": "P00272",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 1.1. It is a scope limit that excludes the REESS charging mode coupled to the grid, and the product includes battery-electric variants."
+  },
+  {
+    "id": "P00273",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 1.2. The narrowband test follows CISPR 12 unless Annex 5 states otherwise."
+  },
+  {
+    "id": "P00274",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 5 2.1. The two-wheeler sentence is not relevant to the M1/N1 product."
+  },
+  {
+    "id": "P00275",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 5 2.2. The ACPE function is one of the vehicle's electronic systems."
+  },
+  {
+    "id": "P00276",
+    "decision": "unresolved",
+    "reason": "The source uses 'should', so it is a recommendation rather than a mandatory obligation. It is also not established that any ACPE equipment can be switched on permanently by the driver or passenger and has oscillators above 9 kHz or repetitive signals."
+  },
+  {
+    "id": "P00277",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 4.1. The limits apply from 30 to 1,000 MHz for measurements in an ALSE or OTS."
+  },
+  {
+    "id": "P00278",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 5 4.2."
+  },
+  {
+    "id": "P00279",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 4.3, with the parameters defined in Tables 1 and 2."
+  },
+  {
+    "id": "P00280",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 4.3. It applies conditionally when FFT-based instruments are used."
+  },
+  {
+    "id": "P00281",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 4.3. It applies conditionally when FFT-based instruments are used, with a minimum of 1 s per analysis frequency band."
+  },
+  {
+    "id": "P00282",
+    "decision": "keep",
+    "reason": "Supported by Table 1. It applies to a spectrum analyser with an average detector from 30 to 1,000 MHz."
+  },
+  {
+    "id": "P00283",
+    "decision": "keep",
+    "reason": "Supported by Table 1. It sets a minimum scan time of 100 ms/MHz when a spectrum analyser is used."
+  },
+  {
+    "id": "P00284",
+    "decision": "keep",
+    "reason": "Supported by the Table 1 note. It is a conditional requirement that applies only if a spectrum analyser is used for peak measurements."
+  },
+  {
+    "id": "P00285",
+    "decision": "keep",
+    "reason": "Supported by Table 2. It sets a 120 kHz bandwidth at -6 dB for a scanning receiver with an average detector."
+  },
+  {
+    "id": "P00286",
+    "decision": "keep",
+    "reason": "Supported by Table 2. The maximum step size is 60 kHz when a scanning receiver is used."
+  },
+  {
+    "id": "P00287",
+    "decision": "keep",
+    "reason": "Supported by Table 2. The minimum dwell time is 5 ms when a scanning receiver is used."
+  },
+  {
+    "id": "P00288",
+    "decision": "keep",
+    "reason": "Annex 5 4.4 supports the CISPR 12 interval test over 30-1,000 MHz. The 14-band route is a separate alternative and is not duplicated here."
+  },
+  {
+    "id": "P00289",
+    "decision": "keep",
+    "reason": "Annex 5 4.4 requires an investigation if the limit is exceeded. The obligation is conditional but source-supported and applicable."
+  },
+  {
+    "id": "P00290",
+    "decision": "keep",
+    "reason": "Annex 5 4.5 supports taking the maximum reading per band. It applies only when the 14-band method is used, and that condition is preserved."
+  },
+  {
+    "id": "P00291",
+    "decision": "keep",
+    "reason": "Annex 5 4.6 requires measurements on the left and right sides of the vehicle."
+  },
+  {
+    "id": "P00292",
+    "decision": "keep",
+    "reason": "Annex 5 4.6 requires the same antenna positions for horizontal and vertical polarization."
+  },
+  {
+    "id": "P00293",
+    "decision": "keep",
+    "reason": "Annex 5 4.6 requires the number of antenna positions and the antenna position relative to the vehicle to be documented in the test report. This is a test-record requirement tied to the engineering test."
+  },
+  {
+    "id": "P00294",
+    "decision": "keep",
+    "reason": "Annex 5 4.6 requires the antenna to be aligned with the middle of the vehicle length when N=1, that is, when the vehicle is shorter than the 3 dB beamwidth."
+  },
+  {
+    "id": "P00295",
+    "decision": "keep",
+    "reason": "Annex 5 4.6 requires symmetric antenna positions about the vehicle perpendicular axis when N>1."
+  },
+  {
+    "id": "P00296",
+    "decision": "keep",
+    "reason": "Annex 6 1.2 requires the vehicle to be monitored during the immunity tests."
+  },
+  {
+    "id": "P00297",
+    "decision": "keep",
+    "reason": "Annex 6 1.2 supports ISO 11451-2 testing in an ALSE unless otherwise stated in the Annex. This is the regular method."
+  },
+  {
+    "id": "P00298",
+    "decision": "keep",
+    "reason": "Annex 6 1.2 supports front irradiation for vehicles not considered large vehicles. The proposal explicitly records that rear irradiation in paragraph 5.1.3 is an unresolved dependency, so that part is not asserted."
+  },
+  {
+    "id": "P00299",
+    "decision": "keep",
+    "reason": "Annex 6 1.3 requires the outdoor test facility to meet national legal requirements on electromagnetic field emission. It applies only if an OTS is used, and that condition is preserved."
+  },
+  {
+    "id": "P00300",
+    "decision": "keep",
+    "reason": "Annex 6 1.3 supports ISO 11451-2 in an OTS with front irradiation for vehicles not considered large vehicles. It is conditional on the OTS alternative being chosen."
+  },
+  {
+    "id": "P00301",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1 requires the vehicle to be unladen except for necessary test equipment."
+  },
+  {
+    "id": "P00302",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1.1 requires the engine to turn the driving wheels at a steady 50 km/h unless there is a technical reason due to the vehicle. The 25 km/h value for L1/L2 is not applicable to this product."
+  },
+  {
+    "id": "P00303",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1.1 requires an appropriately loaded dynamometer, or insulated axle stands with minimum ground clearance if no dynamometer is available."
+  },
+  {
+    "id": "P00304",
+    "decision": "keep",
+    "reason": "The Annex 6 2.1.1.2 table gives 50 km/h ±20 per cent for the 50 km/h mode. The 25 km/h value for L1/L2 does not apply."
+  },
+  {
+    "id": "P00305",
+    "decision": "keep",
+    "reason": "The Annex 6 2.1.1.2 table gives the failure criterion: speed variation greater than ±10 per cent of nominal speed. For an automatic gearbox, a gear change causing such a variation also fails, which applies to the automatic-transmission product."
+  },
+  {
+    "id": "P00306",
+    "decision": "keep",
+    "reason": "The Annex 6 2.1.1.2 table requires the cluster to operate in normal mode. An unexpected warning or inconsistent odometer variation is a failure."
+  },
+  {
+    "id": "P00307",
+    "decision": "keep",
+    "reason": "The Annex 6 2.1.1.2 table requires the brake pedal not to be depressed in 50 km/h mode. Unexpected activation of the brake or stop lights is a failure."
+  },
+  {
+    "id": "P00308",
+    "decision": "keep",
+    "reason": "The Annex 6 2.1.1.2 brake-mode table supports the vehicle state, the brake pedal depressed, and the failure criteria for stop lights and brake warning light with loss of brake function. Wording about activating the stop lights is faithful."
+  },
+  {
+    "id": "P00309",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1.2 requires other vehicle systems that can affect immunity-related functions to be tested as agreed between manufacturer and Technical Service. The ACPE function can affect propulsion."
+  },
+  {
+    "id": "P00310",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1.3 applies in the 2.1 configuration other than REESS charging mode. The source wording is 'should', and that condition is preserved."
+  },
+  {
+    "id": "P00311",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.1.4 requires systems affecting the driver's control of the vehicle to be on as in normal operation, in configurations other than REESS charging. The ACPE function limits propulsion torque and so falls within this scope."
+  },
+  {
+    "id": "P00312",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.3 supports it; it applies to immunity testing outside REESS charging mode, which fits the M1/N1 product."
+  },
+  {
+    "id": "P00313",
+    "decision": "keep",
+    "reason": "Annex 6 2.1.3 supports monitoring of the exterior and passenger compartment; the video camera or microphone is only an example."
+  },
+  {
+    "id": "P00314",
+    "decision": "keep",
+    "reason": "Annex 6 2.2.1 supports it. It is conditional on the charging-mode configuration, which is relevant to the hybrid and battery-electric variants."
+  },
+  {
+    "id": "P00315",
+    "decision": "keep",
+    "reason": "Annex 6 2.2.1.1 supports it: vehicle immobilized, engine(s) OFF and in charging mode for the charging-mode test."
+  },
+  {
+    "id": "P00316",
+    "decision": "unresolved",
+    "reason": "The clause depends on the Figure 2 flowchart, which is not in the supplied text. Whether a charging mode configuration is available on the vehicle is also not stated."
+  },
+  {
+    "id": "P00317",
+    "decision": "keep",
+    "reason": "Table in 2.2.1.2 supports charging mode, SOC kept between 20 % and 80 % over the whole frequency range, and sub-band splitting."
+  },
+  {
+    "id": "P00318",
+    "decision": "keep",
+    "reason": "2.2.1.2 supports use of the average SOC for multiple batteries."
+  },
+  {
+    "id": "P00319",
+    "decision": "keep",
+    "reason": "2.2.1.2 supports the conditional requirement of at least 20 % of maximum rated charging/input current for AC charging."
+  },
+  {
+    "id": "P00320",
+    "decision": "keep",
+    "reason": "2.2.1.2 supports the DC requirement of at least 20 % of maximum, or a minimum of 16 A, unless another value is agreed with the Type Approval Authorities."
+  },
+  {
+    "id": "P00321",
+    "decision": "keep",
+    "reason": "The failure criteria are in the 2.2.1.2 table; the product has an automatic transmission, so the Park-position criterion applies."
+  },
+  {
+    "id": "P00322",
+    "decision": "keep",
+    "reason": "2.2.1.2 supports testing other vehicle systems that can affect immunity-related functions in a way agreed between manufacturer and Technical Service."
+  },
+  {
+    "id": "P00323",
+    "decision": "keep",
+    "reason": "2.2.1.3 supports it: all other equipment that driver or passengers can switch ON shall be OFF."
+  },
+  {
+    "id": "P00324",
+    "decision": "keep",
+    "reason": "2.2.2 supports non-perturbing monitoring equipment in the charging-mode test; it is a separate configuration from P00312."
+  },
+  {
+    "id": "P00325",
+    "decision": "keep",
+    "reason": "2.2.2 supports monitoring of the vehicle exterior and passenger compartment in the charging-mode test."
+  },
+  {
+    "id": "P00326",
+    "decision": "keep",
+    "reason": "2.3.1 supports it for tests in charging mode 1 or 2. It is conditional, and the spec does not state the charging mode."
+  },
+  {
+    "id": "P00327",
+    "decision": "keep",
+    "reason": "2.3.1 supports a harness between the socket and AMN(s) that is as short as possible. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00328",
+    "decision": "keep",
+    "reason": "2.3.1 supports placing the harness as close as possible to the ground plane or floor. It is conditional on charging mode 1 or 2."
+  },
+  {
+    "id": "P00329",
+    "decision": "keep",
+    "reason": "2.3.2 supports applying power mains through 50 µH/50 Ω AMN(s) in the mode 1/2 test."
+  },
+  {
+    "id": "P00330",
+    "decision": "keep",
+    "reason": "2.3.2 supports mounting the AMN(s) directly on the ground plane or floor and bonding the case to the ground plane or protective earth."
+  },
+  {
+    "id": "P00331",
+    "decision": "keep",
+    "reason": "2.3.2 supports terminating the measuring port of each AMN with a 50 Ω load."
+  },
+  {
+    "id": "P00332",
+    "decision": "keep",
+    "reason": "2.3.3 supports a straight harness between the AMN(s) and the charging plug, routed perpendicular to the vehicle longitudinal axis."
+  },
+  {
+    "id": "P00333",
+    "decision": "keep",
+    "reason": "2.3.3 supports a projected harness length of 0,8 (+0,2/-0) m from the AMN side to the vehicle side."
+  },
+  {
+    "id": "P00334",
+    "decision": "keep",
+    "reason": "2.3.3 supports Z-folding of excess length, with no contact or overlap, a width of 500 mm to 1 000 mm, and the report-note exception."
+  },
+  {
+    "id": "P00335",
+    "decision": "drop",
+    "reason": "The Z-fold width is already covered by P00334, so this is a duplicate fragment."
+  },
+  {
+    "id": "P00336",
+    "decision": "keep",
+    "reason": "Supported by C04785 (Annex 6 2.3.3, charging mode 1/2). Applies to vehicles with a charging inlet, e.g. the BEV variants. The mode used is not stated in the spec, so the requirement stays conditional on mode 1/2 testing."
+  },
+  {
+    "id": "P00337",
+    "decision": "keep",
+    "reason": "Supported by C04785 (mode 1/2 harness placement). Keeps εr ≤ 1,4 and (100 ± 25) mm."
+  },
+  {
+    "id": "P00338",
+    "decision": "keep",
+    "reason": "Supported by C04787 (mode 3/4). The socket placement is stated for both charging-station and mains-supply cases."
+  },
+  {
+    "id": "P00339",
+    "decision": "keep",
+    "reason": "Supported by C04787. The harness length is as short as possible, not necessarily aligned with the charging harness."
+  },
+  {
+    "id": "P00340",
+    "decision": "keep",
+    "reason": "Supported by C04787 and correctly conditional on the charging station being inside the test site."
+  },
+  {
+    "id": "P00341",
+    "decision": "keep",
+    "reason": "Supported by C04787. It is conditional on the station being inside the test site, and the report-note fallback is preserved."
+  },
+  {
+    "id": "P00342",
+    "decision": "keep",
+    "reason": "Supported by C04787. It is a 'should' recommendation and is retained as such."
+  },
+  {
+    "id": "P00343",
+    "decision": "keep",
+    "reason": "Supported by C04788: AC mains through 50 µH/50 Ω AMN(s) in mode 3/4 tests."
+  },
+  {
+    "id": "P00344",
+    "decision": "keep",
+    "reason": "Supported by C04788 and conditional on DC charging: 5 µH/50 Ω DC-charging-AN(s)."
+  },
+  {
+    "id": "P00345",
+    "decision": "keep",
+    "reason": "Supported by C04788: mounting directly on the ground plane/floor and bonding or protective earth."
+  },
+  {
+    "id": "P00346",
+    "decision": "keep",
+    "reason": "Supported by C04788: 50 Ω termination of the measuring port."
+  },
+  {
+    "id": "P00347",
+    "decision": "keep",
+    "reason": "Supported by C04789. The exception for charging-station use and the emulation case are preserved. Appendix 8 para 5 is not supplied, which is noted in the requirement."
+  },
+  {
+    "id": "P00348",
+    "decision": "keep",
+    "reason": "Supported by C04789: AAN mounting and case bonding or earthing."
+  },
+  {
+    "id": "P00349",
+    "decision": "keep",
+    "reason": "Supported by C04789: 50 Ω termination of the AAN measuring port."
+  },
+  {
+    "id": "P00350",
+    "decision": "keep",
+    "reason": "Supported by C04789 and conditional on a charging station being used."
+  },
+  {
+    "id": "P00351",
+    "decision": "keep",
+    "reason": "Supported by C04790: straight-line layout, routed perpendicular to the longitudinal axis."
+  },
+  {
+    "id": "P00352",
+    "decision": "keep",
+    "reason": "Supported by C04790: projected length 0,8 (+0,2/-0) m."
+  },
+  {
+    "id": "P00353",
+    "decision": "keep",
+    "reason": "Supported by C04790: Z-fold symmetric, no contact or overlap, width 500–1 000 mm, with the impracticality fallback."
+  },
+  {
+    "id": "P00354",
+    "decision": "drop",
+    "reason": "Duplicate of the Z-fold width constraint already captured in P00353."
+  },
+  {
+    "id": "P00355",
+    "decision": "keep",
+    "reason": "Supported by C04790: the harness hangs vertically 100 (+200/-0) mm from the vehicle body at the vehicle side."
+  },
+  {
+    "id": "P00356",
+    "decision": "keep",
+    "reason": "Supported by C04790: non-conductive support with εr ≤ 1,4 at (100 ± 25) mm."
+  },
+  {
+    "id": "P00357",
+    "decision": "keep",
+    "reason": "Supported by C04793. M1 and N1 fall within categories M and N, so the reference point follows ISO 11451-2."
+  },
+  {
+    "id": "P00358",
+    "decision": "keep",
+    "reason": "Supported by C04800 and conditional on vehicle size (>12 m, >2.60 m or >4.00 m) with ISO 11451-2 testing. The spec gives no vehicle dimensions, so the condition remains open, and it is retained as conditional."
+  },
+  {
+    "id": "P00359",
+    "decision": "keep",
+    "reason": "Supported by C04802: 20–6 000 MHz in vertical polarization, with the agreed-otherwise allowance preserved."
+  },
+  {
+    "id": "P00360",
+    "decision": "keep",
+    "reason": "Supported by C04802 4.1(a). The 'unless otherwise agreed' exception is preserved. Applies to the vehicle immunity test of this M1/N1 vehicle."
+  },
+  {
+    "id": "P00361",
+    "decision": "keep",
+    "reason": "Supported by C04802 4.1(b), with the PM2 values and the agreement exception preserved."
+  },
+  {
+    "id": "P00362",
+    "decision": "keep",
+    "reason": "Supported by C04802 4.1(c), with the PM3 values, both frequency ranges and the agreement exception preserved."
+  },
+  {
+    "id": "P00363",
+    "decision": "keep",
+    "reason": "Directly stated in C04802: step size and dwell time are chosen according to ISO 11451-1."
+  },
+  {
+    "id": "P00364",
+    "decision": "keep",
+    "reason": "Supported by C04803 4.1.1. The reduced spot-frequency alternative is correctly limited to the accredited-laboratory data condition."
+  },
+  {
+    "id": "P00365",
+    "decision": "keep",
+    "reason": "Supported by the last sentence of C04803 4.1.1. It is a verification obligation that applies when a vehicle fails the test."
+  },
+  {
+    "id": "P00366",
+    "decision": "keep",
+    "reason": "Directly stated in C04806 5.1.1: the substitution method of ISO 11451-1 is used to establish the test field conditions."
+  },
+  {
+    "id": "P00367",
+    "decision": "keep",
+    "reason": "Supported by C04807 5.1.2. The condition that a TLS is used is preserved."
+  },
+  {
+    "id": "P00368",
+    "decision": "keep",
+    "reason": "Supported by C04807 5.1.2. The condition that antennas are used is preserved."
+  },
+  {
+    "id": "P00369",
+    "decision": "keep",
+    "reason": "Supported by C04808 5.1.3: the vehicle centre line is placed on the reference point or line."
+  },
+  {
+    "id": "P00370",
+    "decision": "keep",
+    "reason": "Supported by C04808 5.1.3. The 'normally' qualifier is preserved, and the rear-half ECU/harness exception is covered by P00371."
+  },
+  {
+    "id": "P00371",
+    "decision": "keep",
+    "reason": "Supported by C04808 5.1.3 as a conditional provision. The product's ECU/harness layout is not specified, so whether the condition triggers is left open. The condition is stated explicitly in the requirement."
+  },
+  {
+    "id": "P00372",
+    "decision": "keep",
+    "reason": "Supported by C04808 5.1.3: the antenna location is noted in the test report. It documents a necessary test parameter."
+  },
+  {
+    "id": "P00373",
+    "decision": "keep",
+    "reason": "Supported by C04816 2.1 for the Annex 7 ESA emission test, which applies to the ACPE electronic parts. 'Preferably' is preserved. The product's actual approval route is not specified."
+  },
+  {
+    "id": "P00374",
+    "decision": "keep",
+    "reason": "Supported by C04818 3.1. The ACPE ESA is not involved in REESS grid charging, so the stated condition holds."
+  },
+  {
+    "id": "P00375",
+    "decision": "keep",
+    "reason": "Supported by C04827 3.3. It is conditional on OATS being used, and the CISPR 16-1-4 compliance requirement is preserved."
+  },
+  {
+    "id": "P00376",
+    "decision": "keep",
+    "reason": "Supported by C04828 3.4 with the 6 dB margin and the narrowband exception. The referenced limits in 6.5.2.1 are in the context."
+  },
+  {
+    "id": "P00377",
+    "decision": "keep",
+    "reason": "Supported by C04830 4.1: the limits apply across 30 to 1,000 MHz for ALSE or OATS measurements."
+  },
+  {
+    "id": "P00378",
+    "decision": "keep",
+    "reason": "Supported by C04831 4.2: quasi-peak or peak detectors may be used, and a 20 dB correction factor applies if peak is used."
+  },
+  {
+    "id": "P00379",
+    "decision": "keep",
+    "reason": "Supported by C04832 4.3: a spectrum analyser or scanning receiver is used with the parameters of Tables 1 and 2."
+  },
+  {
+    "id": "P00380",
+    "decision": "keep",
+    "reason": "Supported by C04832 4.3. It is conditional on FFT-based instruments being used, and the 1 s minimum measurement time is preserved."
+  },
+  {
+    "id": "P00381",
+    "decision": "keep",
+    "reason": "Supported by Table 1 (C04833) for 30 to 1,000 MHz: peak RBW 100/120 kHz at -3 dB with 100 ms/MHz, and quasi-peak RBW 120 kHz at -6 dB with 20 s/MHz."
+  },
+  {
+    "id": "P00382",
+    "decision": "keep",
+    "reason": "Supported by the Table 1 note (C04833): video bandwidth is at least three times the RBW for peak measurements with a spectrum analyser."
+  },
+  {
+    "id": "P00383",
+    "decision": "keep",
+    "reason": "Supported by Table 2 (C04834) and footnote a. The values are preserved and the step-size increase is kept as a permission. The brush commutator motor note is not relevant to this product."
+  },
+  {
+    "id": "P00384",
+    "decision": "keep",
+    "reason": "Supported by Annex 7 4.4. The ACPE ECU and harness are an ESA under test, so the broadband test configuration applies. The 'unless otherwise specified' exception is preserved."
+  },
+  {
+    "id": "P00385",
+    "decision": "keep",
+    "reason": "Supported by Annex 7 4.4 as an antenna positioning requirement for frequencies up to 1,000 MHz in the broadband emission test."
+  },
+  {
+    "id": "P00386",
+    "decision": "keep",
+    "reason": "Supported by Annex 7 4.4. It is a necessary test constraint (CISPR 12 intervals, 30 to 1,000 MHz). The 14-band alternative is optional and is not turned into an obligation."
+  },
+  {
+    "id": "P00387",
+    "decision": "keep",
+    "reason": "Supported by Annex 7 4.4. It requires an investigation when the limit is exceeded, to confirm the cause is the ESA and not background radiation."
+  },
+  {
+    "id": "P00388",
+    "decision": "keep",
+    "reason": "Supported by Annex 7 4.5. It applies only when the optional 14-band evaluation route is used. The source text carries that condition implicitly, so the requirement is conditional and not unsupported."
+  },
+  {
+    "id": "P00389",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 1.2. CISPR 25 is the default narrowband test method unless the Annex states otherwise."
+  },
+  {
+    "id": "P00390",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 2. The ESA must be in normal operation mode. Maximum load is preferred but not mandatory, and the proposal states this correctly."
+  },
+  {
+    "id": "P00391",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 3.1. The ALSE method of CISPR 25 paragraph 6.4 is the primary test method."
+  },
+  {
+    "id": "P00392",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 3.2. It is an alternative site, and the proposal correctly states it only as a conditional constraint (the OATS must comply with CISPR 16-1-4 if used)."
+  },
+  {
+    "id": "P00393",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 3.3. Ambient measurements are required before or after the main test."
+  },
+  {
+    "id": "P00394",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 3.3 and the context clause 6.6.2.1. The 6 dB margin, the limit values and the exception for intentional narrowband ambient transmissions match the source."
+  },
+  {
+    "id": "P00395",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.1. The limits apply across 30 to 1,000 MHz for ALSE or OATS measurements."
+  },
+  {
+    "id": "P00396",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.2. An average detector is required."
+  },
+  {
+    "id": "P00397",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.3. A spectrum analyser or scanning receiver is required, with parameters from Tables 1 and 2."
+  },
+  {
+    "id": "P00398",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.3. This is a conditional requirement for FFT-based instruments: CISPR 16-1-1 conformance, continuous recording and a minimum measurement time of 1 s."
+  },
+  {
+    "id": "P00399",
+    "decision": "drop",
+    "reason": "Duplicates the minimum measurement time already captured in P00398 from the same clause."
+  },
+  {
+    "id": "P00400",
+    "decision": "keep",
+    "reason": "Supported by Table 1. The spectrum analyser parameters are RBW of 100/120 kHz at -3 dB and a minimum scan time of 100 ms/MHz for 30 to 1,000 MHz with an average detector."
+  },
+  {
+    "id": "P00401",
+    "decision": "keep",
+    "reason": "Supported by the Table 1 note. This conditional requirement applies only if a spectrum analyser is used for peak measurements."
+  },
+  {
+    "id": "P00402",
+    "decision": "keep",
+    "reason": "Supported by Table 2. The scanning receiver parameters are bandwidth of 120 kHz at -6 dB, a maximum step size of 60 kHz and a minimum dwell time of 5 ms."
+  },
+  {
+    "id": "P00403",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.4. It applies to the narrowband test (CISPR 12 intervals, 30 to 1,000 MHz), is distinct from the Annex 7 broadband requirement, and the 14-band alternative is not made mandatory."
+  },
+  {
+    "id": "P00404",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.4. It requires an investigation of limit exceedances, including background and broadband radiation from the ESA."
+  },
+  {
+    "id": "P00405",
+    "decision": "keep",
+    "reason": "Supported by Annex 8 4.5. The condition is preserved: it applies when the 14-band evaluation is used."
+  },
+  {
+    "id": "P00406",
+    "decision": "keep",
+    "reason": "Supported by Annex 9 2.1. Immunity tests on the ESA follow the conditions of ISO 11452-1."
+  },
+  {
+    "id": "P00407",
+    "decision": "keep",
+    "reason": "Supported by Annex 9 2.2. The ESA must be switched on and stimulated to normal operation, and arranged as defined in the Annex unless individual test methods dictate otherwise."
+  },
+  {
+    "id": "P00408",
+    "decision": "keep",
+    "reason": "C04865 supports it: no extraneous equipment needed to operate the ESA in place during calibration, and none closer than 1 m from the reference point. It applies to the ESA immunity test of the product's electronic units."
+  },
+  {
+    "id": "P00409",
+    "decision": "keep",
+    "reason": "C04866 supports it: test signal equipment and layout must match the specification used in the appropriate calibration phase."
+  },
+  {
+    "id": "P00410",
+    "decision": "keep",
+    "reason": "C04867 supports it, including the 'ideally' and 'preferably' wording and the 'as defined in the standard' dependency. It applies to a multi-unit ESA such as the ACPE sensors and control unit."
+  },
+  {
+    "id": "P00411",
+    "decision": "keep",
+    "reason": "C04869 supports the 20 to 6,000 MHz range with ISO 11452-1 steps, the agreed-otherwise exception and the step size and dwell time rule."
+  },
+  {
+    "id": "P00412",
+    "decision": "keep",
+    "reason": "C04869(a) supports AM at 1 kHz with 80% depth in 20 to 400 MHz."
+  },
+  {
+    "id": "P00413",
+    "decision": "keep",
+    "reason": "C04869(b) supports PM2 with Ton 3 µs and period 3,333 µs in 2,700 to 3,100 MHz."
+  },
+  {
+    "id": "P00414",
+    "decision": "keep",
+    "reason": "C04869(c) supports PM3 with Ton 500 µs and period 1,000 µs in 380 to 2,700 MHz and 3,100 to 6,000 MHz."
+  },
+  {
+    "id": "P00415",
+    "decision": "keep",
+    "reason": "C04870 supports testing at ISO 11452-1 intervals across 20 to 6,000 MHz. The reduced spot-frequency option is a separate permission and is not made mandatory."
+  },
+  {
+    "id": "P00416",
+    "decision": "keep",
+    "reason": "C04871 supports it: a failed test must be verified as occurring under the relevant test conditions and not from uncontrolled fields."
+  },
+  {
+    "id": "P00417",
+    "decision": "keep",
+    "reason": "C04875 supports it for the absorber chamber test: use the substitution method per ISO 11452-2."
+  },
+  {
+    "id": "P00418",
+    "decision": "keep",
+    "reason": "C04875 supports it for the absorber chamber test: vertical polarization."
+  },
+  {
+    "id": "P00419",
+    "decision": "keep",
+    "reason": "C04886 supports it for TEM cell testing: perform the test per ISO 11452-3."
+  },
+  {
+    "id": "P00420",
+    "decision": "keep",
+    "reason": "C04886 supports it: the Technical Service chooses maximum field coupling to the ESA or to the harness in the TEM cell, depending on the ESA."
+  },
+  {
+    "id": "P00421",
+    "decision": "keep",
+    "reason": "C04889 supports it, including the two test-bench BCI options, the distances, and the in-vehicle ISO 11451-4 alternative, all preserved."
+  },
+  {
+    "id": "P00422",
+    "decision": "keep",
+    "reason": "C04893 supports it for the BCI substitution method: harness lengths of 1,700 (+300/-0) mm and 100 (+100/-0) mm spacing, unless otherwise specified. The HV harness applies to the hybrid and BEV variants."
+  },
+  {
+    "id": "P00423",
+    "decision": "keep",
+    "reason": "C04893 supports it: harness straight over at least 1,400 mm from the ESA for ISO 11452-4 methods, except BCI closed-loop with power limitation."
+  },
+  {
+    "id": "P00424",
+    "decision": "keep",
+    "reason": "C04893 supports it for the BCI closed-loop method: harness lengths of 1,000 (+200/-0) mm and 100 (+100/-0) mm spacing, unless otherwise specified."
+  },
+  {
+    "id": "P00425",
+    "decision": "keep",
+    "reason": "C04893 supports it: the harness must be straight over its entire length for BCI closed-loop with power limitation."
+  },
+  {
+    "id": "P00426",
+    "decision": "keep",
+    "reason": "C04894 supports it: harnesses on non-conductive material with εr ≤ 1.4 at (50 ± 5) mm above the ground plane."
+  },
+  {
+    "id": "P00427",
+    "decision": "keep",
+    "reason": "C04896 supports it: the ESA case connected to the ground plane directly or via a defined impedance, unless otherwise specified."
+  },
+  {
+    "id": "P00428",
+    "decision": "keep",
+    "reason": "C04897 supports it: the injection probe placed around the LV, HV, and where applicable AC and DC power harnesses, unless otherwise specified."
+  },
+  {
+    "id": "P00429",
+    "decision": "keep",
+    "reason": "C04900 supports it: stripline testing is performed per ISO 11452-5. It applies when this method is used."
+  },
+  {
+    "id": "P00430",
+    "decision": "keep",
+    "reason": "C04903 supports it: reverberation chamber testing is performed per ISO 11452-11. It applies when this method is used."
+  },
+  {
+    "id": "P00431",
+    "decision": "keep",
+    "reason": "C04903 supports it: reverberation chamber testing uses a setup with a ground plane, unless otherwise specified."
+  },
+  {
+    "id": "P00432",
+    "decision": "keep",
+    "reason": "Annex 10 applies to ESAs. The ACPE control unit, sensors and software are ESAs, so conducted transient immunity and emission are in scope."
+  },
+  {
+    "id": "P00433",
+    "decision": "keep",
+    "reason": "Annex 10 para 2 requires ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b on supply lines and on connections that may be operationally connected to them. This applies to the ACPE ESAs."
+  },
+  {
+    "id": "P00434",
+    "decision": "keep",
+    "reason": "The ISO 16750-2 starting profile applies. Petrol and hybrid variants have a starter motor, so the exemption for ESAs reserved exclusively for electric vehicles is preserved as an exception and does not remove the obligation."
+  },
+  {
+    "id": "P00435",
+    "decision": "keep",
+    "reason": "Annex 10 para 3 requires measuring transient conducted emissions per ISO 7637-2 on supply lines and on connections that may be operationally connected to them. This applies to the ACPE ESAs."
+  },
+  {
+    "id": "P00436",
+    "decision": "unresolved",
+    "reason": "Annex 13 is a vehicle-level test of conducted emissions on AC/DC charging lines. The spec does not say whether the vehicle variants are plug-in or whether the ACPE system is assessed at vehicle level. The para 7.5 limits are not supplied."
+  },
+  {
+    "id": "P00437",
+    "decision": "unresolved",
+    "reason": "The 20 dB peak-detector correction belongs to the vehicle-level charging-line emission test. Applicability depends on plug-in charging capability, which the spec does not state. The Table 8 and Table 9 limits are not supplied."
+  },
+  {
+    "id": "P00438",
+    "decision": "unresolved",
+    "reason": "The Annex 15 EFT/burst test is vehicle-level and applies in REESS charging mode coupled to the grid. The spec does not state that the hybrid or battery-electric variants charge from the grid, nor that the ACPE is assessed at vehicle level."
+  },
+  {
+    "id": "P00439",
+    "decision": "unresolved",
+    "reason": "This is the test-standard reference for the Annex 15 EFT/burst test. Its applicability depends on grid charging capability and vehicle-level assessment, neither of which is stated. The content of IEC 61000-4-4 is not supplied."
+  },
+  {
+    "id": "P00440",
+    "decision": "unresolved",
+    "reason": "This applies only if a charging mode is available on the vehicle, which the spec does not state. The Figure 1 flowchart is not supplied."
+  },
+  {
+    "id": "P00441",
+    "decision": "unresolved",
+    "reason": "This is a vehicle-level EFT test condition. Applicability depends on grid charging capability and the assessment level, neither of which is stated."
+  },
+  {
+    "id": "P00442",
+    "decision": "unresolved",
+    "reason": "This is a vehicle-level EFT test condition for charging mode. Applicability depends on grid charging capability, which is not stated."
+  },
+  {
+    "id": "P00443",
+    "decision": "drop",
+    "reason": "It duplicates the 'in charging mode' condition already captured in P00442 and the charging-mode configuration in P00440. It adds no separate engineering obligation."
+  },
+  {
+    "id": "P00444",
+    "decision": "unresolved",
+    "reason": "The SOC condition (20 to 80 per cent, with the average for multiple batteries) applies only to vehicle-level charging tests. Applicability depends on the plug-in capability of the variants, which is not stated."
+  },
+  {
+    "id": "P00445",
+    "decision": "unresolved",
+    "reason": "This is an AC charging current test condition. Applicability depends on plug-in AC charging capability, which the spec does not state."
+  },
+  {
+    "id": "P00446",
+    "decision": "unresolved",
+    "reason": "This is a DC charging current test condition. Applicability depends on DC charging capability, which the spec does not state."
+  },
+  {
+    "id": "P00447",
+    "decision": "drop",
+    "reason": "It duplicates the multiple-battery average SOC statement already included in P00444."
+  },
+  {
+    "id": "P00448",
+    "decision": "unresolved",
+    "reason": "These failure criteria apply only to the vehicle-level charging EFT immunity test. Applicability is not established for the ACPE product."
+  },
+  {
+    "id": "P00449",
+    "decision": "unresolved",
+    "reason": "The requirement depends on the vehicle-level charging test applying. The way of testing other systems is left to agreement between manufacturer and Technical Service and is not defined in the supplied text."
+  },
+  {
+    "id": "P00450",
+    "decision": "unresolved",
+    "reason": "This is a vehicle-level EFT test condition. Applicability depends on grid charging capability, which is not stated."
+  },
+  {
+    "id": "P00451",
+    "decision": "unresolved",
+    "reason": "This is vehicle-level EFT test monitoring. Applicability depends on grid charging capability and the assessment level, neither of which is stated."
+  },
+  {
+    "id": "P00452",
+    "decision": "unresolved",
+    "reason": "This describes the equipment for the vehicle-level EFT test. Applicability depends on grid charging capability, which is not stated."
+  },
+  {
+    "id": "P00453",
+    "decision": "unresolved",
+    "reason": "The generator requirement applies only if the vehicle-level EFT test applies. The Clause 6.1 content of IEC 61000-4-4 is not supplied."
+  },
+  {
+    "id": "P00454",
+    "decision": "unresolved",
+    "reason": "The CDN requirement, with the permitted clamp substitute, applies only if the vehicle-level EFT test applies. The IEC 61000-4-4 Clause 6.2 and 6.3 content is not supplied."
+  },
+  {
+    "id": "P00455",
+    "decision": "unresolved",
+    "reason": "The test setup applies only if the vehicle-level EFT test applies. Applicability is not established and the IEC 61000-4-4 Clause 7.2 content is not supplied."
+  },
+  {
+    "id": "P00456",
+    "decision": "keep",
+    "reason": "Annex 15 4.2 requires the vehicle to be placed directly on the ground plane. This applies to the vehicle-level EFT/B test on variants with AC/DC power lines (hybrid and battery-electric). The two-wheeler exception is not relevant to M1/N1."
+  },
+  {
+    "id": "P00457",
+    "decision": "drop",
+    "reason": "The proposal omits the clause's alternative route (accredited-laboratory measurement in place of a Technical Service test) and is mainly about who performs the test. The levels from 7.8.2.1 are already captured in P00458."
+  },
+  {
+    "id": "P00458",
+    "decision": "keep",
+    "reason": "Annex 15 5.1.1 requires testing per IEC 61000-4-4 and only at the 7.8.2.1 severity levels. The levels in the proposal match 7.8.2.1 (±2 kV, 5 ns, 50 ns, 5 kHz, at least 1 min). The 7.8.2.1 levels apply when Annex 15 methods are used."
+  },
+  {
+    "id": "P00459",
+    "decision": "drop",
+    "reason": "Same obligation as P00456 (vehicle on the ground plane for the EFT/B test), restated from 5.1.2. It adds nothing, so it is dropped as a duplicate."
+  },
+  {
+    "id": "P00460",
+    "decision": "unresolved",
+    "reason": "The source requires CDN common-mode coupling as in Figures 1a-1d of Appendix 1, but the figure content was not supplied, so the set-up details cannot be verified."
+  },
+  {
+    "id": "P00461",
+    "decision": "keep",
+    "reason": "Annex 15 5.1.2 requires the test set-up to be noted in the test report. This is a documentation obligation tied directly to the engineering test."
+  },
+  {
+    "id": "P00462",
+    "decision": "keep",
+    "reason": "Annex 16 1.1 limits the surge method to vehicles in the configuration with REESS charging mode coupled to the power grid. It applies to the hybrid and battery-electric variants that have such a charging mode."
+  },
+  {
+    "id": "P00463",
+    "decision": "keep",
+    "reason": "Annex 16 1.2 requires the vehicle to be subjected to surges conducted along its AC and DC power lines, to demonstrate immunity. It applies to the grid-charging configuration."
+  },
+  {
+    "id": "P00464",
+    "decision": "keep",
+    "reason": "Annex 16 1.2 requires the vehicle to be monitored during the surge tests."
+  },
+  {
+    "id": "P00465",
+    "decision": "keep",
+    "reason": "Annex 16 1.2 requires testing per IEC 61000-4-5 Clause 4.2 for lightning transients, unless the Annex states otherwise."
+  },
+  {
+    "id": "P00466",
+    "decision": "unresolved",
+    "reason": "The Annex 16 clause 2 requirement is conditional on a charging mode being available and refers to the Figure 1 flowchart. The flowchart content was not supplied, so the configuration cannot be verified."
+  },
+  {
+    "id": "P00467",
+    "decision": "keep",
+    "reason": "Annex 16 2.1 requires the vehicle to be unladen except for necessary test equipment."
+  },
+  {
+    "id": "P00468",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.1 requires the vehicle to be immobilized, with the engine(s) OFF and in charging mode."
+  },
+  {
+    "id": "P00469",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.2 requires other vehicle systems that can affect immunity-related functions to be tested in a way agreed between manufacturer and Technical Service. This is relevant to the ACPE and powertrain control functions. The test method itself is not specified in the source."
+  },
+  {
+    "id": "P00470",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.2 requires the REESS to be in charging mode with traction battery SOC between 20% and 80% of maximum SOC for the whole measurement duration. For multiple batteries the average SOC is considered."
+  },
+  {
+    "id": "P00471",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.2 sets the charging current conditions if current consumption can be adjusted. AC charging: at least 20% of maximum rated charging/input current. DC charging: at least 20% of nominal value, or a minimum of 16 A if 20% cannot be achieved in the test facility, unless another value is agreed with the Type Approval Authorities."
+  },
+  {
+    "id": "P00472",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.2 lists the failure criteria: vehicle sets in motion, unexpected release of the parking brake, and loss of park position for an automatic transmission. The product is an automatic transmission vehicle, so these criteria apply."
+  },
+  {
+    "id": "P00473",
+    "decision": "keep",
+    "reason": "Annex 16 2.1.3 requires all other equipment that can be switched ON by the driver or passengers to be OFF."
+  },
+  {
+    "id": "P00474",
+    "decision": "keep",
+    "reason": "Annex 16 2.2 requires only non-perturbing monitoring equipment, and monitoring of the vehicle exterior and passenger compartment to determine whether the Annex requirements are met."
+  },
+  {
+    "id": "P00475",
+    "decision": "keep",
+    "reason": "Annex 16 3.1 specifies the test equipment: a reference ground plane (a shielded room is not required), a surge generator and a CDN."
+  },
+  {
+    "id": "P00476",
+    "decision": "keep",
+    "reason": "Annex 16 3.2 requires the surge generator to meet the conditions of Clause 6.1 of IEC 61000-4-5. The standard's content is a referenced dependency."
+  },
+  {
+    "id": "P00477",
+    "decision": "keep",
+    "reason": "Annex 16 3.3 requires the CDN to meet the conditions of Clause 6.3 of IEC 61000-4-5. The standard's content is a referenced dependency."
+  },
+  {
+    "id": "P00478",
+    "decision": "keep",
+    "reason": "Annex 16 4.1 requires the vehicle test set-up to be based on Clause 7.2 of IEC 61000-4-5."
+  },
+  {
+    "id": "P00479",
+    "decision": "keep",
+    "reason": "Annex 16 4.2 requires the vehicle to be placed directly on the ground plane for the surge test. This is a separate annex from Annex 15, and the two-wheeler exception is not relevant to M1/N1."
+  },
+  {
+    "id": "P00480",
+    "decision": "unresolved",
+    "reason": "UN R10 Annex 16 surge levels apply only if the Annex 16 method is used. The supplied evidence does not show that the product has an AC/DC grid charging connection or what the Annex 16 scope is. The proposal also omits the accredited-laboratory alternative in 4.3."
+  },
+  {
+    "id": "P00481",
+    "decision": "keep",
+    "reason": "UN R155 4.1 requires the approval mark on every vehicle conforming to an approved type. The M1/N1 vehicle is in scope, and the mark constrains required marking."
+  },
+  {
+    "id": "P00482",
+    "decision": "keep",
+    "reason": "UN R155 4.1.1 sets the circled E and country number as part of the approval mark."
+  },
+  {
+    "id": "P00483",
+    "decision": "keep",
+    "reason": "UN R155 4.1.2 sets the regulation number, letter R, dash and approval number to the right of the circle."
+  },
+  {
+    "id": "P00484",
+    "decision": "keep",
+    "reason": "UN R155 4.2 sets the conditional arrangement of multiple approval numbers and symbols in vertical columns. It applies where other approvals exist and the E symbol is not repeated."
+  },
+  {
+    "id": "P00485",
+    "decision": "keep",
+    "reason": "UN R155 4.3 requires the approval mark to be clearly legible and indelible."
+  },
+  {
+    "id": "P00486",
+    "decision": "keep",
+    "reason": "UN R155 4.4 requires the approval mark on or close to the manufacturer's vehicle data plate."
+  },
+  {
+    "id": "P00487",
+    "decision": "keep",
+    "reason": "UN R155 5.1.1(a) requires collecting and verifying information through the supply chain so that supplier-related risks are identified and managed. This is relevant to the sensor, camera and control unit suppliers."
+  },
+  {
+    "id": "P00488",
+    "decision": "keep",
+    "reason": "UN R155 5.1.1(b) requires documenting the risk assessment, test results, mitigations and supporting design information."
+  },
+  {
+    "id": "P00489",
+    "decision": "keep",
+    "reason": "UN R155 5.1.1(c) requires appropriate cyber security measures in the vehicle type design."
+  },
+  {
+    "id": "P00490",
+    "decision": "keep",
+    "reason": "UN R155 5.1.1(d) requires the manufacturer to detect and respond to possible cyber security attacks."
+  },
+  {
+    "id": "P00491",
+    "decision": "keep",
+    "reason": "UN R155 5.1.1(e) requires data logging to support attack detection and to provide data forensic capability."
+  },
+  {
+    "id": "P00492",
+    "decision": "keep",
+    "reason": "UN R155 5.1.2 requires the documented cyber security measures to be implemented and verifiable by testing a vehicle of the type. Sampling is focused on, but not limited to, high-rated risks."
+  },
+  {
+    "id": "P00493",
+    "decision": "drop",
+    "reason": "This duplicates the sampling sentence already included in P00492 (UN R155 5.1.2)."
+  },
+  {
+    "id": "P00494",
+    "decision": "keep",
+    "reason": "UN R155 5.1.3(a) with 7.3.3 requires an exhaustive risk assessment that considers all Annex 5 Part A threats. Failure is grounds for refusal."
+  },
+  {
+    "id": "P00495",
+    "decision": "keep",
+    "reason": "UN R155 5.1.3(b) requires protection against the risks the manufacturer identified, with proportionate mitigations. Failure is grounds for refusal."
+  },
+  {
+    "id": "P00496",
+    "decision": "unresolved",
+    "reason": "The obligation applies only if the vehicle type provides dedicated environments for aftermarket software, services, applications or data. The specification does not say whether such environments exist."
+  },
+  {
+    "id": "P00497",
+    "decision": "keep",
+    "reason": "UN R155 5.1.3(d) requires appropriate and sufficient testing before approval to verify the effectiveness of the implemented security measures."
+  },
+  {
+    "id": "P00498",
+    "decision": "unresolved",
+    "reason": "UN R155 5.4 refers to paragraph 7.2, and only the heading of 7.2 is supplied. The detailed obligation cannot be determined, and the proposal itself says so."
+  },
+  {
+    "id": "P00499",
+    "decision": "drop",
+    "reason": "This is an administrative CSMS declaration and demonstration to the Approval Authority using an Appendix 1 model. It does not constrain the product, marking or a necessary engineering test."
+  },
+  {
+    "id": "P00500",
+    "decision": "drop",
+    "reason": "This is an administrative notification duty about the CSMS Certificate of Compliance and is not an engineering requirement on the product."
+  },
+  {
+    "id": "P00501",
+    "decision": "drop",
+    "reason": "This is an administrative duty to apply for a new or extended CSMS certificate and is not an engineering obligation."
+  },
+  {
+    "id": "P00502",
+    "decision": "keep",
+    "reason": "UN R155 7.2.2.1 requires the manufacturer to demonstrate that its CSMS covers the development, production and post-production phases. It is a process-scope obligation supported by the source."
+  },
+  {
+    "id": "P00503",
+    "decision": "unresolved",
+    "reason": "UN R155 7.2.2.2 refers to risks and mitigations in Annex 5, which is not supplied. The proposal omits the listed process items (a)-(h), so the obligation is incomplete and the Annex 5 dependency is unresolved."
+  },
+  {
+    "id": "P00504",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(a). Applies to the manufacturer's CSMS for the M1/N1 vehicle type."
+  },
+  {
+    "id": "P00505",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(b), including Annex 5 Part A and other relevant threats."
+  },
+  {
+    "id": "P00506",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(c)."
+  },
+  {
+    "id": "P00507",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(d)."
+  },
+  {
+    "id": "P00508",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(e)."
+  },
+  {
+    "id": "P00509",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(f)."
+  },
+  {
+    "id": "P00510",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(g), covering monitoring, detection, response and effectiveness assessment."
+  },
+  {
+    "id": "P00511",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.2(h)."
+  },
+  {
+    "id": "P00512",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.3. Mitigation within a reasonable timeframe is for threats requiring a manufacturer response, based on the categorization in 7.2.2.2(c) and (g)."
+  },
+  {
+    "id": "P00513",
+    "decision": "keep",
+    "reason": "Matches the 7.2.2.4 lead-in: monitoring under 7.2.2.2(g) must be continual."
+  },
+  {
+    "id": "P00514",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.4(a)."
+  },
+  {
+    "id": "P00515",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.4(b), including respect for paragraph 1.3 and owner/driver privacy and consent. Paragraph 1.3 is in the supplied context."
+  },
+  {
+    "id": "P00516",
+    "decision": "keep",
+    "reason": "Matches 7.2.2.5 on managing dependencies on suppliers, service providers and sub-organizations."
+  },
+  {
+    "id": "P00517",
+    "decision": "keep",
+    "reason": "Matches the main clause of 7.3.1: a valid CSMS Certificate of Compliance is required for the vehicle type being approved."
+  },
+  {
+    "id": "P00518",
+    "decision": "unresolved",
+    "reason": "The exception depends on the type approval being first issued before 1 July 2024 (or an extension of one) and on the manufacturer demonstrating the type could not be developed in compliance with the CSMS. The product evidence does not establish either condition."
+  },
+  {
+    "id": "P00519",
+    "decision": "keep",
+    "reason": "Matches 7.3.2."
+  },
+  {
+    "id": "P00520",
+    "decision": "keep",
+    "reason": "Matches the first sentence of 7.3.3: identify critical elements, perform an exhaustive risk assessment, treat/manage risks."
+  },
+  {
+    "id": "P00521",
+    "decision": "keep",
+    "reason": "Matches 7.3.3: the risk assessment must consider the individual elements and their interactions."
+  },
+  {
+    "id": "P00522",
+    "decision": "keep",
+    "reason": "Matches 7.3.3: the risk assessment must consider interactions with external systems."
+  },
+  {
+    "id": "P00523",
+    "decision": "keep",
+    "reason": "Matches 7.3.3: all Annex 5 Part A threats and any other relevant risk must be considered."
+  },
+  {
+    "id": "P00524",
+    "decision": "keep",
+    "reason": "Matches the first two sentences of 7.3.4: protect the vehicle type against identified risks with proportionate mitigations."
+  },
+  {
+    "id": "P00525",
+    "decision": "drop",
+    "reason": "Duplicates the proportionate-mitigations obligation already included in P00524, so it is not a separate obligation."
+  },
+  {
+    "id": "P00526",
+    "decision": "keep",
+    "reason": "Matches 7.3.4: include all relevant Annex 5 Part B and C mitigations, or another appropriate mitigation if one is not relevant or not sufficient."
+  },
+  {
+    "id": "P00527",
+    "decision": "unresolved",
+    "reason": "This applies only to type approvals first issued before 1 July 2024 and their extensions, and only where an Annex 5 Part B/C mitigation is technically not feasible. Neither the approval date nor any infeasibility is established by the product evidence."
+  },
+  {
+    "id": "P00528",
+    "decision": "keep",
+    "reason": "7.3.5 applies to the vehicle type and is conditional ('if provided'). The condition is preserved in the requirement, so it is kept as a conditional obligation."
+  },
+  {
+    "id": "P00529",
+    "decision": "keep",
+    "reason": "7.3.6 requires pre-approval testing to verify the effectiveness of the security measures. This is a necessary engineering test and applies to the M1/N1 vehicle type."
+  },
+  {
+    "id": "P00530",
+    "decision": "keep",
+    "reason": "7.3.7(a) requires measures to detect and prevent cyber-attacks against vehicles of the type. It applies to the M1/N1 vehicle that hosts the ACPE."
+  },
+  {
+    "id": "P00531",
+    "decision": "keep",
+    "reason": "7.3.7(b) requires measures supporting the manufacturer's monitoring capability. It is supported by the source and applies to the vehicle type."
+  },
+  {
+    "id": "P00532",
+    "decision": "keep",
+    "reason": "7.3.7(c) requires data forensic capability. It is supported by the source and applies to the vehicle type."
+  },
+  {
+    "id": "P00533",
+    "decision": "keep",
+    "reason": "7.3.8 requires cryptographic modules to be in line with consensus standards. It applies to any cryptography used in the vehicle type."
+  },
+  {
+    "id": "P00534",
+    "decision": "keep",
+    "reason": "7.3.8 second sentence requires justification if the cryptographic modules are not in line with consensus standards. It is a conditional obligation tied to an engineering choice, and the condition is preserved."
+  },
+  {
+    "id": "P00535",
+    "decision": "drop",
+    "reason": "7.4.1 annual reporting of monitoring outcomes to the Approval Authority is an administrative reporting duty. It does not constrain the product design, marking, conformity of production or an engineering test."
+  },
+  {
+    "id": "P00536",
+    "decision": "drop",
+    "reason": "Reporting and confirming mitigation effectiveness to the Approval Authority is an administrative procedure. It is not a product engineering obligation."
+  },
+  {
+    "id": "P00537",
+    "decision": "drop",
+    "reason": "8.1 notification of modifications to the approval authority is an administrative approval procedure. It does not constrain the product itself."
+  },
+  {
+    "id": "P00538",
+    "decision": "keep",
+    "reason": "9.1 requires conformity of production procedures to comply with the 1958 Agreement Schedule 1. This constrains manufacturing conformity and applies to the approved M1/N1 type."
+  },
+  {
+    "id": "P00539",
+    "decision": "keep",
+    "reason": "9.1.1 is a manufacturing conformity obligation: record CoP test results and keep the annexed documents available for a period agreed with the authority, not exceeding 10 years from definitive discontinuation of production."
+  },
+  {
+    "id": "P00540",
+    "decision": "keep",
+    "reason": "Annex 5 para 2 requires Parts A, B and C to be considered in risk assessment and mitigations. It is source-supported and applies to the vehicle type including the ACPE."
+  },
+  {
+    "id": "P00541",
+    "decision": "keep",
+    "reason": "Annex 5 para 4 requires the threat analysis to consider possible attack impacts, and the listed impacts are preserved. It is source-supported and applicable."
+  },
+  {
+    "id": "P00542",
+    "decision": "keep",
+    "reason": "Table A1 mitigation M10 requires the vehicle to verify the authenticity and integrity of the messages it receives. The ACPE uses in-vehicle communication, so it applies."
+  },
+  {
+    "id": "P00543",
+    "decision": "keep",
+    "reason": "Mitigation M12 requires protection of confidential data transmitted to or from the vehicle. The requirement is conditional on such transmission, and the product facts do not specify it, so it is kept with its condition."
+  },
+  {
+    "id": "P00544",
+    "decision": "keep",
+    "reason": "Mitigation M13 requires measures to detect and recover from denial of service attacks. It is source-supported and applies to the vehicle and its networks."
+  },
+  {
+    "id": "P00545",
+    "decision": "keep",
+    "reason": "Mitigation M9 requires measures to prevent and detect unauthorized access, including privilege escalation. It is source-supported and applies to the ACPE control unit."
+  },
+  {
+    "id": "P00546",
+    "decision": "keep",
+    "reason": "Mitigation M16 requires secure software update procedures. It is conditional on the ACPE software being updatable, and the condition is preserved."
+  },
+  {
+    "id": "P00547",
+    "decision": "keep",
+    "reason": "Mitigation M11 requires security controls for storing cryptographic keys. The requirement is conditional on keys being used for software updates, which the product facts do not specify, so it is kept with its condition."
+  },
+  {
+    "id": "P00548",
+    "decision": "keep",
+    "reason": "Mitigation M18 requires defining and controlling user roles and access privileges based on least privilege. It is source-supported and applies to the vehicle systems."
+  },
+  {
+    "id": "P00549",
+    "decision": "keep",
+    "reason": "Mitigation M21 requires software to be security assessed, authenticated and integrity protected. It applies to the ACPE software in the powertrain control unit and to the infotainment menu."
+  },
+  {
+    "id": "P00550",
+    "decision": "keep",
+    "reason": "Mitigation M21 requires security controls to minimise the risk from third-party software that is intended or foreseeably hosted on the vehicle. The condition from the source is preserved."
+  },
+  {
+    "id": "P00551",
+    "decision": "keep",
+    "reason": "Mitigation M22 requires security controls on external interfaces. The requirement is conditional on such interfaces existing, which the product facts do not specify, so it is kept with its condition."
+  },
+  {
+    "id": "P00552",
+    "decision": "keep",
+    "reason": "Table A1 threats 19.1 and 20.1 map to mitigation M7, which requires access control to protect system data and code. The ACPE software sits in the powertrain control unit, so it is in scope."
+  },
+  {
+    "id": "P00553",
+    "decision": "keep",
+    "reason": "Threat 19.3 maps to M11, which requires security controls for storing cryptographic keys. It is correctly framed as conditional on the ACPE using keys, which the product facts do not specify."
+  },
+  {
+    "id": "P00554",
+    "decision": "keep",
+    "reason": "Threats 20.5, 21.1 and 25.1 map to M7. Access control applies to diagnostic data, event logs and configuration parameters of key functions. The ACPE is a driver-assistance function that intervenes in propulsion torque, so this is applicable."
+  },
+  {
+    "id": "P00555",
+    "decision": "keep",
+    "reason": "Threat 24.1 maps to M13, which requires measures to detect and recover from denial of service, such as CAN flooding. The ACPE ECU is on the internal network, so this applies."
+  },
+  {
+    "id": "P00556",
+    "decision": "keep",
+    "reason": "Threats 26.1-26.3 and 27.1 map to M23, which requires cybersecurity best practices for software and hardware development. The proposal is supported and applicable."
+  },
+  {
+    "id": "P00557",
+    "decision": "keep",
+    "reason": "Threats 28.1 and 28.2 map to M23 and require cybersecurity testing with adequate coverage. This covers software bugs and development remainders such as debug and JTAG ports. It is supported and applicable."
+  },
+  {
+    "id": "P00558",
+    "decision": "keep",
+    "reason": "Threats 29.1 and 29.2 map to M23 and require best practices for system design and integration. These address open ports and unprotected gateways. The ACPE is an integrated, networked system, so this applies."
+  },
+  {
+    "id": "P00559",
+    "decision": "keep",
+    "reason": "Threat 31.1 maps to M24, which requires best practices for protecting the integrity and confidentiality of stored personal data. It is correctly conditional on personal data being stored, which the product facts do not specify."
+  },
+  {
+    "id": "P00560",
+    "decision": "keep",
+    "reason": "Threat 32.1 maps to M9, which requires measures to prevent and detect unauthorized access against manipulation of OEM hardware. It is applicable to the ACPE hardware: ECU, sensors and links."
+  },
+  {
+    "id": "P00561",
+    "decision": "keep",
+    "reason": "UN R156 7.1.2 requires the manufacturer to record and store information for each update applied to a vehicle type. It is conditional on updates being applied. The ACPE software in the powertrain control unit is software that could be updated, so this applies."
+  },
+  {
+    "id": "P00562",
+    "decision": "keep",
+    "reason": "R156 7.1.2.1 requires documentation of the software update processes and of any standards used to demonstrate compliance. It sits under the 7.1.2 record-and-store obligation and is supported."
+  },
+  {
+    "id": "P00563",
+    "decision": "keep",
+    "reason": "R156 7.1.2.2 requires documentation of the configuration of relevant type-approved systems before and after an update, including hardware and software identification and versions and relevant parameters. It is supported."
+  },
+  {
+    "id": "P00564",
+    "decision": "keep",
+    "reason": "R156 7.1.2.3 requires an auditable register per RXSWIN, covering software versions and integrity validation data before and after an update. It is conditional on RXSWIN use and is supported."
+  },
+  {
+    "id": "P00565",
+    "decision": "keep",
+    "reason": "R156 7.1.2.4 requires documentation listing the target vehicles for the update and confirming that their last known configuration is compatible with it. It is supported."
+  },
+  {
+    "id": "P00566",
+    "decision": "keep",
+    "reason": "R156 7.1.2.5 (a)-(i) lists the required documentation content for all software updates of the vehicle type. The proposal preserves all items and is supported."
+  },
+  {
+    "id": "P00567",
+    "decision": "keep",
+    "reason": "R156 7.1.3.1 requires the manufacturer to demonstrate a process that protects software updates against manipulation before the update starts. It constrains the update engineering process and is supported."
+  },
+  {
+    "id": "P00568",
+    "decision": "keep",
+    "reason": "R156 7.1.3.2 requires the manufacturer to demonstrate that the update processes, including development of the update delivery system, are protected against compromise. It is supported."
+  },
+  {
+    "id": "P00569",
+    "decision": "keep",
+    "reason": "R156 7.1.3.3 requires the manufacturer to demonstrate that the processes for verifying and validating software functionality and code are appropriate. It is supported and applies to the ACPE software."
+  },
+  {
+    "id": "P00570",
+    "decision": "keep",
+    "reason": "R156 7.2.1.1 requires the authenticity and integrity of software updates to be protected so as to reasonably prevent compromise and invalid updates. It is supported."
+  },
+  {
+    "id": "P00571",
+    "decision": "keep",
+    "reason": "R156 7.2.1.2.1 requires each RXSWIN to be uniquely identifiable. It is conditional on the vehicle type using RXSWIN and is supported."
+  },
+  {
+    "id": "P00572",
+    "decision": "keep",
+    "reason": "R156 7.2.1.2.1 requires the RXSWIN to be updated when type-approval-relevant software is modified by the manufacturer and the modification leads to a type approval extension or a new type approval. It is conditional on RXSWIN use and is supported."
+  },
+  {
+    "id": "P00573",
+    "decision": "keep",
+    "reason": "R156 7.2.1.2.2 requires each RXSWIN to be readable in a standardized way via the OBD port. It includes the alternative where RXSWINs are not held on the vehicle: declare software versions to the Approval Authority and keep the declaration updated. This is a single obligation with a conditional branch, not duplicated routes, and it is supported."
+  },
+  {
+    "id": "P00574",
+    "decision": "keep",
+    "reason": "R156 7.2.1.2.3 requires the manufacturer to protect RXSWINs and/or software versions on the vehicle against unauthorised modification. It is supported. The confidential provision of the protection means at type approval is an administrative addition and is not needed in the engineering obligation."
+  }
+]

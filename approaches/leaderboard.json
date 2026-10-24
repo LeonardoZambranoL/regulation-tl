@@ -997,5 +997,209 @@
         "f2": 0.548780487804878
       }
     }
+  },
+  {
+    "run_id": "5f8abd295ac14b9d889b6be78fc734aa",
+    "approach": "jojo-static-embeddings",
+    "status": "completed",
+    "completed_at": "2026-10-24T18:50:13.376328+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "/private/tmp/certivity-splade-publish/approaches/experiments/jojo-static-embeddings/outputs/holdout-v1-budget-audit/predictions.json",
+    "prediction_sha256": "a8d2f71224209383f3d1ac13d987404a847bee7a8bcc557875a7441f7b888ebc",
+    "gold_path": "/private/tmp/certivity-splade-publish/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "n_submitted": 2,
+        "n_expected": 1,
+        "n_matched": 1,
+        "f2": 0.8333333333333334
+      },
+      "page_level": {
+        "precision": 0.34782608695652173,
+        "recall": 1.0,
+        "f1": 0.5161290322580645,
+        "n_submitted": 23,
+        "n_expected": 8,
+        "n_matched": 8,
+        "f2": 0.7272727272727273
+      },
+      "clause_level": {
+        "precision": 0.38095238095238093,
+        "recall": 0.7017543859649122,
+        "f1": 0.49382716049382713,
+        "n_submitted": 105,
+        "n_expected": 57,
+        "n_matched": 40,
+        "f2": 0.6006006006006006
+      }
+    }
+  },
+  {
+    "run_id": "e86acddcae374967b9013ceca6946ce4",
+    "approach": "jojo-static-embeddings",
+    "status": "completed",
+    "completed_at": "2026-10-24T18:50:13.469920+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "/private/tmp/certivity-splade-publish/approaches/experiments/jojo-static-embeddings/outputs/holdout-v2-budget-audit/predictions.json",
+    "prediction_sha256": "fe500d8c68e10057d3c5d4ffc6bfc7706d30c17df6dfd109bb86b49467c14784",
+    "gold_path": "/private/tmp/certivity-splade-publish/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "n_submitted": 3,
+        "n_expected": 1,
+        "n_matched": 1,
+        "f2": 0.7142857142857143
+      },
+      "page_level": {
+        "precision": 0.11428571428571428,
+        "recall": 1.0,
+        "f1": 0.20512820512820512,
+        "n_submitted": 70,
+        "n_expected": 8,
+        "n_matched": 8,
+        "f2": 0.39215686274509803
+      },
+      "clause_level": {
+        "precision": 0.145985401459854,
+        "recall": 0.7017543859649122,
+        "f1": 0.24169184290030207,
+        "n_submitted": 274,
+        "n_expected": 57,
+        "n_matched": 40,
+        "f2": 0.398406374501992
+      }
+    }
+  },
+  {
+    "run_id": "59b646f2d2b64cfca1f035b66d20795b",
+    "approach": "jojo-static-embeddings",
+    "status": "completed",
+    "completed_at": "2026-10-24T18:50:13.572553+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "/private/tmp/certivity-splade-publish/approaches/experiments/jojo-static-embeddings/outputs/predictions.json",
+    "prediction_sha256": "2a70d665a2e5854b531f7d17949cb1302be8b8686e0345f602df4651a03a38b4",
+    "gold_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/cases/dev-rear-lamp/expected.json",
+    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889,
+        "n_submitted": 5,
+        "n_expected": 4,
+        "n_matched": 4,
+        "f2": 0.9523809523809523
+      },
+      "page_level": {
+        "precision": 0.5903614457831325,
+        "recall": 0.9433962264150944,
+        "f1": 0.7262487031273158,
+        "n_submitted": 83,
+        "n_expected": 53,
+        "n_matched": 49,
+        "f2": 0.8426193424129867
+      },
+      "clause_level": {
+        "precision": 0.32673267326732675,
+        "recall": 0.8181818181818182,
+        "f1": 0.4669811320754717,
+        "n_submitted": 303,
+        "n_expected": 121,
+        "n_matched": 99,
+        "f2": 0.6289707750952986
+      }
+    }
+  },
+  {
+    "run_id": "0a83034dcfb649f889ce7c1c2f090dca",
+    "approach": "jojo-static-embeddings",
+    "status": "completed",
+    "completed_at": "2026-10-24T18:50:13.664347+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "/private/tmp/certivity-splade-publish/approaches/experiments/jojo-static-embeddings/outputs/predictions-holdout-acpe.json",
+    "prediction_sha256": "0586ca0b1fb80de65ac179c5565ded6d1300377bb70672bef39033289f8318d9",
+    "gold_path": "/private/tmp/certivity-splade-publish/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4,
+        "n_submitted": 4,
+        "n_expected": 1,
+        "n_matched": 1,
+        "f2": 0.625
+      },
+      "page_level": {
+        "precision": 0.10126582278481013,
+        "recall": 1.0,
+        "f1": 0.18390804597701146,
+        "n_submitted": 79,
+        "n_expected": 8,
+        "n_matched": 8,
+        "f2": 0.3603603603603604
+      },
+      "clause_level": {
+        "precision": 0.13793103448275862,
+        "recall": 0.7017543859649122,
+        "f1": 0.23054755043227662,
+        "n_submitted": 290,
+        "n_expected": 57,
+        "n_matched": 40,
+        "f2": 0.3861003861003861
+      }
+    }
   }
 ]

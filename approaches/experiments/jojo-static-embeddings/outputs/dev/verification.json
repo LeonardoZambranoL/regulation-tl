@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "P00000",
+    "decision": "keep",
+    "reason": "Clause 2.10.2 applies to the lamp and retro-reflector. The textured and non-textured conditions are preserved. Lens texture is not specified for the product."
+  },
+  {
+    "id": "P00001",
+    "decision": "keep",
+    "reason": "Clause 5.1 supports this fitting obligation. It applies to the lamp and its mounting and is conditional on normal conditions of use."
+  },
+  {
+    "id": "P00002",
+    "decision": "keep",
+    "reason": "Clause 5.1 states that the lamps must not be inadvertently maladjustable."
+  },
+  {
+    "id": "P00003",
+    "decision": "keep",
+    "reason": "Clause 5.3 requires every light-signalling device, including the rear lamp functions and retro-reflector, to have its reference axis parallel to the bearing plane."
+  },
+  {
+    "id": "P00004",
+    "decision": "keep",
+    "reason": "Clause 5.3 requires non-side devices to have the reference axis parallel to the median longitudinal plane. The rear position, stop and reversing functions are such devices."
+  },
+  {
+    "id": "P00005",
+    "decision": "keep",
+    "reason": "Clause 5.3 allows a ±3° tolerance in each direction. The proposal states this as a tolerance, which the clause supports."
+  },
+  {
+    "id": "P00006",
+    "decision": "keep",
+    "reason": "Clause 5.3 requires compliance with manufacturer fitting instructions, where any exist. The condition is preserved."
+  },
+  {
+    "id": "P00007",
+    "decision": "keep",
+    "reason": "Clause 5.4 sets the verification condition in the absence of specific instructions. The AFS part is correctly limited to cases where an AFS is installed."
+  },
+  {
+    "id": "P00008",
+    "decision": "keep",
+    "reason": "Clause 5.5.1 applies to lamps constituting a pair, which a rear lamp on an M1 vehicle normally is. The no-instructions condition is preserved."
+  },
+  {
+    "id": "P00009",
+    "decision": "keep",
+    "reason": "Clause 5.5.2 is supported. It is conditional on a pair and on the absence of instructions, and it excludes the interior structure of the lamp."
+  },
+  {
+    "id": "P00010",
+    "decision": "keep",
+    "reason": "Clause 5.5.3 is supported and applies to lamps constituting a pair, where no specific instructions exist."
+  },
+  {
+    "id": "P00011",
+    "decision": "keep",
+    "reason": "Clause 5.5.4 is supported. The exception for a matched pair of a function and/or an AFS is preserved."
+  },
+  {
+    "id": "P00012",
+    "decision": "keep",
+    "reason": "Clause 5.5.5 applies conditionally to lamps incorporating a manufacturer logo. The product does not state whether a logo is incorporated."
+  },
+  {
+    "id": "P00013",
+    "decision": "keep",
+    "reason": "Clause 5.5.5 prohibits logos that are not vehicle or body manufacturer logos. It is relevant to lamps incorporating logos."
+  },
+  {
+    "id": "P00014",
+    "decision": "keep",
+    "reason": "Clause 5.6 applies conditionally to vehicles with an asymmetrical external shape. It requires the preceding requirements to be met so far as is possible."
+  },
+  {
+    "id": "P00015",
+    "decision": "keep",
+    "reason": "Clause 5.7.1 permits grouping, combining or reciprocal incorporation only if the listed requirements are met. The product combines several functions in one housing."
+  },
+  {
+    "id": "P00016",
+    "decision": "keep",
+    "reason": "Clause 5.7.1.1 requires each lamp's photometric and colorimetric requirements to be met with the other functions switched OFF. It applies to the multi-function housing."
+  },
+  {
+    "id": "P00017",
+    "decision": "keep",
+    "reason": "Clause 5.7.1.1 applies conditionally where a rear position lamp is reciprocally incorporated with other functions that can be ON together with it. The product does not state whether this is the case."
+  },
+  {
+    "id": "P00018",
+    "decision": "keep",
+    "reason": "Clause 5.7.1.2 prohibits reciprocally incorporating stop and direction-indicator lamps. It constrains the design of a module that includes a stop lamp."
+  },
+  {
+    "id": "P00019",
+    "decision": "keep",
+    "reason": "Clause 5.7.1.3.1 applies only where stop and direction-indicator lamps are grouped. The product lists no direction indicator, so this is a conditional obligation."
+  },
+  {
+    "id": "P00020",
+    "decision": "keep",
+    "reason": "Clause 5.7.1.3.2 applies only where stop and direction-indicator lamps are grouped. The product lists no direction indicator, so this is a conditional obligation."
+  },
+  {
+    "id": "P00021",
+    "decision": "unresolved",
+    "reason": "Clause 5.7.2.1 depends on the definition of 'single lamp' in paragraph 2.14.11.1, which is an unresolved reference. The product also does not state whether any apparent surface has two or more distinct parts."
+  },
+  {
+    "id": "P00022",
+    "decision": "keep",
+    "reason": "Clause 5.8 sets the height measurement method for the apparent surface in the direction of the reference axis. It includes the exception that exact edges need not be determined where the height clearly meets the requirements."
+  },
+  {
+    "id": "P00023",
+    "decision": "keep",
+    "reason": "Clause 5.8.1 applies conditionally when geometric visibility angles are reduced. It measures lamp height from the H plane."
+  },
+  {
+    "id": "P00024",
+    "decision": "keep",
+    "reason": "Source 5.8.3 supports this rule for determining width position, including the exception where the exact edges need not be determined. It applies to the rear position lamp and retro-reflector as installed."
+  },
+  {
+    "id": "P00025",
+    "decision": "keep",
+    "reason": "Source 5.9 prohibits intentional variation of photometric characteristics while a lamp is ON, absent specific instructions. It applies to all lamp functions in the module."
+  },
+  {
+    "id": "P00026",
+    "decision": "keep",
+    "reason": "Source 5.9.2 allows variation only where it complies with the lamp's technical provisions. The proposal keeps this conditional limit and does not turn a permission into a mandate."
+  },
+  {
+    "id": "P00027",
+    "decision": "keep",
+    "reason": "Source 5.10.1 states this directly, and the product is a rear lamp fitted on the rear of an M1 vehicle."
+  },
+  {
+    "id": "P00028",
+    "decision": "keep",
+    "reason": "Source 5.10.4.1 supports this, including the 25 m distance, Zone 1 and the red rearmost side-marker exception. It applies to the red rear position, stop and retro-reflector surfaces."
+  },
+  {
+    "id": "P00029",
+    "decision": "keep",
+    "reason": "Source 5.10.4.3 sets the 0.25 cd per lamp criterion for cases of doubt, taking vehicle body influence into account. It is a conditional verification criterion that applies to the red light emitted to the front."
+  },
+  {
+    "id": "P00030",
+    "decision": "unresolved",
+    "reason": "The base rule in 5.11 is supported. The proposal's listed exceptions cite 5.11.1 and 5.12.1, which are not in the supplied source text, so they cannot be verified. Whether the rear lamp module or the vehicle wiring satisfies the simultaneous switching rule is also not stated."
+  },
+  {
+    "id": "P00031",
+    "decision": "keep",
+    "reason": "Source 5.11.2 supports this as a conditional obligation for interdependent lamp systems. Whether the module is interdependent is not stated, so applicability depends on the design."
+  },
+  {
+    "id": "P00032",
+    "decision": "keep",
+    "reason": "Source 5.14.1 prohibits concealing lamps except main-beam, dipped-beam and front fog lamps, so the rear lamp functions may not be concealable."
+  },
+  {
+    "id": "P00033",
+    "decision": "keep",
+    "reason": "Table 5.15 gives red for the rear position lamp, and the product includes one."
+  },
+  {
+    "id": "P00034",
+    "decision": "keep",
+    "reason": "Table 5.15 gives red for the stop lamp, and the product includes one."
+  },
+  {
+    "id": "P00035",
+    "decision": "keep",
+    "reason": "Table 5.15 gives white for the reversing lamp, and the product includes one."
+  },
+  {
+    "id": "P00036",
+    "decision": "keep",
+    "reason": "Table 5.15 gives red for both non-triangular and triangular rear retro-reflectors, so the colour requirement is the same whichever type the product uses."
+  },
+  {
+    "id": "P00037",
+    "decision": "keep",
+    "reason": "Source 5.21 limits hiding of the rear position lamp and retro-reflector by a movable component to 50 per cent in any fixed position other than the normal position of use. It applies conditionally where the vehicle has movable components such as a tailgate."
+  },
+  {
+    "id": "P00038",
+    "decision": "unresolved",
+    "reason": "Source 5.21.1 is one of at least two alternatives, as shown by the trailing 'or', and the other alternative is not supplied. It applies only if the 50 per cent limit is not practicable. Making this route the obligation would convert an alternative route into a mandate."
+  },
+  {
+    "id": "P00039",
+    "decision": "keep",
+    "reason": "Source 5.22 deems a lamp not present if it cannot operate by the sole installation of a light source and/or a fuse. Retro-reflectors are excepted, as the proposal states."
+  },
+  {
+    "id": "P00040",
+    "decision": "keep",
+    "reason": "Source 5.28.1 supports this, including the exception for obstacles already present at lamp type approval."
+  },
+  {
+    "id": "P00041",
+    "decision": "keep",
+    "reason": "Source 5.28.2 sets a conditional measurement rule for geometric visibility checks taken closer than infinity."
+  },
+  {
+    "id": "P00042",
+    "decision": "keep",
+    "reason": "Source 5.28.3 requires proof when part of the apparent surface is hidden by vehicle parts once the lamp is installed."
+  },
+  {
+    "id": "P00043",
+    "decision": "keep",
+    "reason": "Source 5.28.5 supports this as a conditional obligation for interdependent lamp systems. Whether the module is interdependent is not stated."
+  },
+  {
+    "id": "P00044",
+    "decision": "keep",
+    "reason": "Source 5.30 requires lamps to be type approved to the device Regulations where applicable. The specific device Regulations are in paragraph 6, which is only partly supplied."
+  },
+  {
+    "id": "P00045",
+    "decision": "keep",
+    "reason": "Source 5.30.1 supports this as a conditional obligation that applies only if the lamp incorporates a manufacturer logo."
+  },
+  {
+    "id": "P00046",
+    "decision": "keep",
+    "reason": "Source 5.31 supports this conditional obligation and its exception for light source modules, LED modules and non-replaceable light sources. The product uses LED modules, so the exception may apply."
+  },
+  {
+    "id": "P00047",
+    "decision": "keep",
+    "reason": "Source 6.4.1 makes the reversing lamp mandatory on motor vehicles, and the product is an M1 vehicle with a reversing lamp function."
+  },
+  {
+    "id": "P00048",
+    "decision": "keep",
+    "reason": "6.4.2.1 applies to M1: one reversing lamp mandatory, second optional. Product is M1 with a reversing lamp function."
+  },
+  {
+    "id": "P00049",
+    "decision": "keep",
+    "reason": "6.4.2.3 requires type approval to UN R23 00+ or R148 00+ (alternatives expressed as one requirement). Applies to the reversing lamp."
+  },
+  {
+    "id": "P00050",
+    "decision": "keep",
+    "reason": "6.4.4.2 gives 250-1200 mm height; off-road exception for N2G/N3G/M2G/M3G does not apply to M1. Numbers preserved."
+  },
+  {
+    "id": "P00051",
+    "decision": "keep",
+    "reason": "6.4.4.3 requires reversing lamp at the rear; the side-mounting exception applies only to optional devices of 6.4.2.2, which is not applicable to M1."
+  },
+  {
+    "id": "P00052",
+    "decision": "keep",
+    "reason": "6.4.5.1 gives vertical visibility of 15° up and 5° down for rear-installed reversing lamps; angles defined per 2.10.7."
+  },
+  {
+    "id": "P00053",
+    "decision": "keep",
+    "reason": "6.4.5.1: β = 45° right and left when only one device is fitted; conditional on a single reversing lamp, which is valid for M1 (one mandatory)."
+  },
+  {
+    "id": "P00054",
+    "decision": "keep",
+    "reason": "6.4.5.1: 45° outwards and 30° inwards when two devices are fitted; applicable conditionally since M1 may fit an optional second device."
+  },
+  {
+    "id": "P00055",
+    "decision": "keep",
+    "reason": "6.4.7.1 requires the lamp to be switchable ON only with reverse gear engaged and propulsion system operable; applicable to the reversing lamp."
+  },
+  {
+    "id": "P00056",
+    "decision": "keep",
+    "reason": "6.4.7.1 states the lamp shall not switch ON or remain ON if either condition is unmet; supported by source."
+  },
+  {
+    "id": "P00057",
+    "decision": "unresolved",
+    "reason": "6.4.8 makes the tell-tale optional and mandatory only if the component regulation requires it; the component regulation is not supplied, so the dependency is unresolved."
+  },
+  {
+    "id": "P00058",
+    "decision": "keep",
+    "reason": "6.7.1: S1/S2 stop lamps mandatory on all vehicle categories including M1; product has a stop lamp function."
+  },
+  {
+    "id": "P00059",
+    "decision": "keep",
+    "reason": "6.7.2 requires two S1 or S2 devices on all categories; applicable to the M1. The S3/S4 part is outside this proposal and the rear lamp scope."
+  },
+  {
+    "id": "P00060",
+    "decision": "keep",
+    "reason": "6.7.2 requires type approval to UN R7 02+ or UN R148 00+ for the stop lamp devices."
+  },
+  {
+    "id": "P00061",
+    "decision": "keep",
+    "reason": "6.7.4.1 for M1 sets the 400 mm limit from the extreme outer edge, with no special requirement on inner edge distance."
+  },
+  {
+    "id": "P00062",
+    "decision": "keep",
+    "reason": "6.7.4.2.1 gives 350-1500 mm height with the conditional 2100 mm allowance and the optional lamp conditions; conditions preserved."
+  },
+  {
+    "id": "P00063",
+    "decision": "keep",
+    "reason": "6.7.4.4 requires S1/S2 devices at the rear of the vehicle."
+  },
+  {
+    "id": "P00064",
+    "decision": "keep",
+    "reason": "6.7.5 gives horizontal visibility of 45° left and right, with the below-750 mm exception reducing the inward angle to 20°; the mounting height is not in the spec but the conditional exception is preserved."
+  },
+  {
+    "id": "P00065",
+    "decision": "keep",
+    "reason": "6.7.5 gives vertical visibility of 15° above and below the horizontal, with exceptions (a) and (b) for the height conditions; height measured per 5.8.1."
+  },
+  {
+    "id": "P00066",
+    "decision": "keep",
+    "reason": "6.7.6 requires orientation towards the rear of the vehicle for the stop lamp."
+  },
+  {
+    "id": "P00067",
+    "decision": "keep",
+    "reason": "6.7.7.1 requires all stop lamps to switch ON simultaneously on the braking system signal defined in UN R13 and R13-H."
+  },
+  {
+    "id": "P00068",
+    "decision": "unresolved",
+    "reason": "6.7.8 makes the tell-tale optional and mandatory only if the component regulation requires it; the component regulation is not supplied."
+  },
+  {
+    "id": "P00069",
+    "decision": "keep",
+    "reason": "6.10.1 makes rear position lamps of category R, R1 or R2 mandatory; the product includes a rear position lamp."
+  },
+  {
+    "id": "P00070",
+    "decision": "keep",
+    "reason": "6.10.2 requires two rear position lamps type-approved to UN R7 02+ or UN R148 00+ (alternatives expressed as one requirement)."
+  },
+  {
+    "id": "P00071",
+    "decision": "keep",
+    "reason": "6.10.4.1 sets the 400 mm outer edge limit (not applying to optional rear lamps), and M1 has no special requirement on inner edge distance."
+  },
+  {
+    "id": "P00072",
+    "decision": "keep",
+    "reason": "Supported by 6.10.4.2 for the rear position lamp. Height limits and the bodywork/optional-lamp exception are preserved. The product does not state whether the exception is needed."
+  },
+  {
+    "id": "P00073",
+    "decision": "keep",
+    "reason": "Directly supported by 6.10.4.3."
+  },
+  {
+    "id": "P00074",
+    "decision": "keep",
+    "reason": "Supported by 6.10.5.1 with the 750 mm reduction exception. Height is measured from the H plane per 5.8.1."
+  },
+  {
+    "id": "P00075",
+    "decision": "keep",
+    "reason": "Supported by 6.10.5.1 with the 750 mm downward exception. The upward reduction is correctly limited to optional lamps above 2,100 mm."
+  },
+  {
+    "id": "P00076",
+    "decision": "keep",
+    "reason": "Supported by 6.10.6."
+  },
+  {
+    "id": "P00077",
+    "decision": "keep",
+    "reason": "Supported by 6.10.7 and 5.11. The direction-indicator exception is limited to reciprocally incorporated lamps."
+  },
+  {
+    "id": "P00078",
+    "decision": "keep",
+    "reason": "Supported by 6.10.8, including the exception when daytime running lamps are ON."
+  },
+  {
+    "id": "P00079",
+    "decision": "keep",
+    "reason": "Supported by 6.10.8. It is a valid conditional obligation, applying if the component Regulation requires a failure tell-tale."
+  },
+  {
+    "id": "P00080",
+    "decision": "keep",
+    "reason": "6.14.1 makes the rear retro-reflector mandatory on motor vehicles, and the product is M1. The trailer option does not apply."
+  },
+  {
+    "id": "P00081",
+    "decision": "keep",
+    "reason": "Supported by 6.14.2: two retro-reflectors approved as Class IA or IB to R3 02 series or later, or R150 00 series or later."
+  },
+  {
+    "id": "P00082",
+    "decision": "keep",
+    "reason": "Supported by 6.14.2. Additional retro-reflecting devices are permitted only if they do not impair the mandatory devices."
+  },
+  {
+    "id": "P00083",
+    "decision": "keep",
+    "reason": "Supported by 6.14.4.1. The M1 no-special-requirement point on inner-edge distance is also supported."
+  },
+  {
+    "id": "P00084",
+    "decision": "keep",
+    "reason": "Supported by 6.14.4.2, with the height limits and grouping/bodywork conditions preserved."
+  },
+  {
+    "id": "P00085",
+    "decision": "keep",
+    "reason": "Supported by 6.14.4.3."
+  },
+  {
+    "id": "P00086",
+    "decision": "keep",
+    "reason": "Supported by 6.14.5."
+  },
+  {
+    "id": "P00087",
+    "decision": "keep",
+    "reason": "Supported by 6.14.5, with the 750 mm downward reduction exception. The product mounting height is unspecified."
+  },
+  {
+    "id": "P00088",
+    "decision": "keep",
+    "reason": "Supported by 6.14.6."
+  },
+  {
+    "id": "P00089",
+    "decision": "keep",
+    "reason": "6.15.1 prohibits triangular rear retro-reflectors on motor vehicles, and the product is M1."
+  },
+  {
+    "id": "P00090",
+    "decision": "keep",
+    "reason": "Supported by 6.19.7.5. It applies when daytime running lamps are fitted and ON. The 7,000 lux exception is preserved."
+  },
+  {
+    "id": "P00091",
+    "decision": "keep",
+    "reason": "6.21.1.1 prohibits conspicuity markings on M1 vehicles. The product is M1. The proposal's inference about the retro-reflector is flagged as not stated in the source."
+  },
+  {
+    "id": "P00092",
+    "decision": "keep",
+    "reason": "6.23.1 makes the emergency stop signal mandatory on motor vehicles, given by simultaneous operation of all stop or direction-indicator lamps. The 6.23.7 electrical detail is not supplied and remains unresolved."
+  },
+  {
+    "id": "P00093",
+    "decision": "keep",
+    "reason": "Supported by 6.28.7.1 as a conditional obligation that applies only if reversing projections are provided."
+  },
+  {
+    "id": "P00094",
+    "decision": "unresolved",
+    "reason": "Applicability is unknown because the product lists a reversing lamp and no projector. The deemed-compliance reference is to UN R148 5.12.1.2(a), but the supplied 5.12.1.2 is the R48 text, which does not match."
+  },
+  {
+    "id": "P00095",
+    "decision": "keep",
+    "reason": "Section 8 requires conformity of production procedures per Agreement Appendix 2. This is a manufacturing-conformity obligation. The specific 'following requirements' are not supplied."
+  },
+  {
+    "id": "P00096",
+    "decision": "keep",
+    "reason": "R48 8.1 is a manufacturing-conformity obligation that applies to the M1 vehicle carrying this rear lamp. It refers to paragraphs 5 and 6 of R48."
+  },
+  {
+    "id": "P00097",
+    "decision": "keep",
+    "reason": "R48 8.2.1 requires quality-control procedures covering aspects relevant to paragraphs 5 and 6. This is a manufacturing-conformity obligation and is supported by the source."
+  },
+  {
+    "id": "P00098",
+    "decision": "keep",
+    "reason": "R48 8.2.2 requires at least the Annex 9 tests, or physical checks yielding equivalent data, for each vehicle type. This is a necessary conformity test."
+  },
+  {
+    "id": "P00099",
+    "decision": "keep",
+    "reason": "Annex 9 1.1 requires the position of lamps in width, height and length to be checked. This is relevant to the rear lamp functions. The cross-references are only partly supplied and the 2.1.6 reference points to a different definition. The proposal does not depend on 2.1.6."
+  },
+  {
+    "id": "P00100",
+    "decision": "keep",
+    "reason": "Annex 9 1.1 requires measured distances to meet each lamp's individual specifications. This applies to the rear position, stop and reversing lamps."
+  },
+  {
+    "id": "P00101",
+    "decision": "keep",
+    "reason": "Annex 9 1.2.1 requires the geometric visibility angles to be checked per 2.10.7, which is supplied."
+  },
+  {
+    "id": "P00102",
+    "decision": "keep",
+    "reason": "Annex 9 1.2.1 sets the pass criterion for visibility angles. The ±3° allowance from 5.3 is supplied and the proposal preserves it."
+  },
+  {
+    "id": "P00103",
+    "decision": "keep",
+    "reason": "Annex 9 1.2.2 requires checking the visibility of red light to the front and white light to the rear per 5.10. This is relevant to the rear lamp, and the proposal already notes that the detail of 5.10 is not supplied."
+  },
+  {
+    "id": "P00104",
+    "decision": "keep",
+    "reason": "Annex 9 1.4 requires checking electrical connections by switching on every lamp supplied by the vehicle electrical system. This includes the rear lamp functions."
+  },
+  {
+    "id": "P00105",
+    "decision": "keep",
+    "reason": "Annex 9 1.4 requires lamps and tell-tales to function per 5.11 to 5.14. 5.11 is supplied and covers the rear position lamp switching simultaneously. The proposal states that 5.12 to 5.14 are not supplied."
+  },
+  {
+    "id": "P00106",
+    "decision": "keep",
+    "reason": "Annex 9 1.6 requires visual inspection of the presence, number, colour, arrangement and, where applicable, category of lamps and their markings."
+  },
+  {
+    "id": "P00107",
+    "decision": "keep",
+    "reason": "Annex 9 1.6 together with R48 5.15 supports the colour statements: rear position lamp, stop lamp and rear retro-reflector are red, and the reversing lamp is white. The proposal notes that 5.16 is not supplied."
+  },
+  {
+    "id": "P00108",
+    "decision": "keep",
+    "reason": "The rear lamp unit combines several lamp functions, so R148 3.2.2 applies. Each lamp in the unit must satisfy R148 or another Regulation."
+  },
+  {
+    "id": "P00109",
+    "decision": "drop",
+    "reason": "This duplicates the second sentence of P00108, which already covers the same R148 3.2.2 obligation."
+  },
+  {
+    "id": "P00110",
+    "decision": "keep",
+    "reason": "R148 3.3.1.1 requires a space of sufficient size for the approval and other markings. It applies to the rear lamp as an approved device."
+  },
+  {
+    "id": "P00111",
+    "decision": "keep",
+    "reason": "R148 3.3.1.1.1 requires all markings to be clearly legible and indelible."
+  },
+  {
+    "id": "P00112",
+    "decision": "keep",
+    "reason": "R148 3.3.1.2 requires dimension 'a' of the approval marking to be at least 5 mm."
+  },
+  {
+    "id": "P00113",
+    "decision": "keep",
+    "reason": "R148 3.3.2.1 requires the approval mark: a circle around the letter E followed by the distinguishing number of the approving country."
+  },
+  {
+    "id": "P00114",
+    "decision": "keep",
+    "reason": "R148 3.3.2.2 requires the four to six-digit sequential number from the approval number. 3.2.3.2 is supplied as context."
+  },
+  {
+    "id": "P00115",
+    "decision": "drop",
+    "reason": "This duplicates the placement requirement already stated in P00114, namely that the sequential number is placed close to the approval mark."
+  },
+  {
+    "id": "P00116",
+    "decision": "keep",
+    "reason": "R148 3.3.2.3 requires the symbols identifying the approved light-signalling lamp function(s) per 3.2.4."
+  },
+  {
+    "id": "P00117",
+    "decision": "keep",
+    "reason": "R148 3.3.2.4 requires the Regulation number, the letter R and the two digits of the amendment series in force at approval."
+  },
+  {
+    "id": "P00118",
+    "decision": "keep",
+    "reason": "R148 3.3.2.5.1 requires a horizontal mounting arrow on lamps that cannot be mounted on either side indiscriminately. The condition is preserved."
+  },
+  {
+    "id": "P00119",
+    "decision": "keep",
+    "reason": "R148 3.3.2.5.1.1(b) requires the arrow to point outwards for rear position lamps. This applies only where the arrow is required."
+  },
+  {
+    "id": "P00120",
+    "decision": "keep",
+    "reason": "Supported by 3.3.2.5.1.1(c). Conditional on an arrow being required (3.3.2.5.1) and on the reversing lamp being one of two with reduced light distribution. The product has a reversing lamp, so this is kept as conditional."
+  },
+  {
+    "id": "P00121",
+    "decision": "keep",
+    "reason": "Supported by 3.3.2.5.2(a) as an 'if applicable' marking. The product is a lamp assembly, so the letter 'D' may apply."
+  },
+  {
+    "id": "P00122",
+    "decision": "keep",
+    "reason": "Supported by 3.3.2.5.2(b) as an 'if applicable' marking for interdependent lamp systems."
+  },
+  {
+    "id": "P00123",
+    "decision": "keep",
+    "reason": "Directly supported by 3.3.3.1, which applies to lamps without exception."
+  },
+  {
+    "id": "P00124",
+    "decision": "keep",
+    "reason": "Directly supported by 3.3.3.2."
+  },
+  {
+    "id": "P00125",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.3(a), with the exception for non-replaceable light sources preserved. The product's use of LED modules does not make the exception clearly applicable."
+  },
+  {
+    "id": "P00126",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.3(b). It is conditional on the lamp being approved for LED substitute light sources."
+  },
+  {
+    "id": "P00127",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.4(a)-(d). The product uses LED modules on a PCB, so non-replaceable sources or control gear may apply."
+  },
+  {
+    "id": "P00128",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.5(a)(i). Conditional on replaceable light source modules being used."
+  },
+  {
+    "id": "P00129",
+    "decision": "keep",
+    "reason": "The requirement is supported by 3.3.3.5(a)(ii): an MD code followed by the approval mark without the circle. The source's paragraph reference is truncated, and the proposal states this, so the gap is preserved."
+  },
+  {
+    "id": "P00130",
+    "decision": "keep",
+    "reason": "Supported by the continuation of 3.3.3.5(a)(ii) in C08976, which references C08975. The source numbering is flagged as moving backwards, but the content is coherent and the condition (non-identical modules) is preserved."
+  },
+  {
+    "id": "P00131",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.5(a)(iii). Conditional on replaceable light source modules being used."
+  },
+  {
+    "id": "P00132",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.5(b) as carried in C08976. Conditional on replaceable light source modules being used."
+  },
+  {
+    "id": "P00133",
+    "decision": "keep",
+    "reason": "Supported by 3.3.3.6. Conditional on the control gear being part of the lamp but not in the lamp body."
+  },
+  {
+    "id": "P00134",
+    "decision": "keep",
+    "reason": "Directly supported by 3.3.4.1."
+  },
+  {
+    "id": "P00135",
+    "decision": "keep",
+    "reason": "Directly supported by 3.3.4.2. The LED substitute category condition ('if any') is preserved."
+  },
+  {
+    "id": "P00136",
+    "decision": "keep",
+    "reason": "Supported by 3.3.4.3. Conditional on a detachable outer lens. The product has an outer lens, but whether it is detachable is not stated."
+  },
+  {
+    "id": "P00137",
+    "decision": "keep",
+    "reason": "Supported by 3.3.4.4. Conditional on one outer lens serving several devices with different approval markings. The product combines several functions, so this may apply."
+  },
+  {
+    "id": "P00138",
+    "decision": "keep",
+    "reason": "Supported by 3.3.4.5. The referenced paragraphs 3.3.3.3, 3.3.3.4, 3.3.3.5(b) and 3.3.3.6 are in fact supplied in the sources, so the proposal's note that their content is not supplied is inaccurate, but the obligation itself is supported."
+  },
+  {
+    "id": "P00139",
+    "decision": "keep",
+    "reason": "Supported by 3.3.4.6. Conditional on replaceable light source modules being used. The proposal's parenthetical omits the rated voltage in 3.3.3.5(a)(iii), but the obligation refers to all of 3.3.3.5(a)."
+  },
+  {
+    "id": "P00140",
+    "decision": "keep",
+    "reason": "Supported by 3.3.4.7 as an exception to the visibility requirement of 3.3.4.2, listing the exempted paragraphs."
+  },
+  {
+    "id": "P00141",
+    "decision": "keep",
+    "reason": "Supported by 3.3.5.1.1. Conditional on a single approval mark being used for grouped, combined or reciprocally incorporated lamps. The product combines several functions, so this may apply."
+  },
+  {
+    "id": "P00142",
+    "decision": "keep",
+    "reason": "Supported by 3.3.5.1.2. Conditional on a single approval mark being used."
+  },
+  {
+    "id": "P00143",
+    "decision": "keep",
+    "reason": "Supported by 3.3.5.2. Conditional on a single approval mark being used."
+  },
+  {
+    "id": "P00144",
+    "decision": "keep",
+    "reason": "C09006 4.1 requires each lamp submitted for approval to conform to paragraphs 4 and 5 of UN R148; this applies to the rear lamp."
+  },
+  {
+    "id": "P00145",
+    "decision": "keep",
+    "reason": "C09007 4.2 applies UN R48 sections 5 and 6 and referenced Annexes (R48 for M1) in the series in force at application. Requirements pertinent to each lamp and vehicle category apply where verification at lamp type approval is feasible. Faithful to the source and applicable to M1."
+  },
+  {
+    "id": "P00146",
+    "decision": "drop",
+    "reason": "Duplicates the feasibility condition already captured in P00145 from the same clause C09007; it is a qualifier, not a separate obligation."
+  },
+  {
+    "id": "P00147",
+    "decision": "keep",
+    "reason": "C09008 4.3 requires design and construction so that satisfactory operation is assured in normal use despite vibration and that the prescribed characteristics are retained."
+  },
+  {
+    "id": "P00148",
+    "decision": "keep",
+    "reason": "C09016 4.5.3.1 applies to a rear position lamp reciprocally incorporated with a stop lamp. The product has both functions in one housing, but whether they are reciprocally incorporated is not stated, so the obligation is conditional. Alternatives (a) multiple light sources or (b) tell-tale vehicle, and the note in the communication document, are preserved."
+  },
+  {
+    "id": "P00149",
+    "decision": "keep",
+    "reason": "C09018 4.5.5(a) restricts any incorporated logo to the vehicle or body manufacturer brand logo, confirmed by an applicant statement. Conditional on a logo being incorporated at the applicant's request; preserved as conditional."
+  },
+  {
+    "id": "P00150",
+    "decision": "keep",
+    "reason": "C09018 4.5.5(b) limits the enclosed light-emitting surface of a logo in the direction of the reference axis to 100 cm2. Conditional on a logo being incorporated."
+  },
+  {
+    "id": "P00151",
+    "decision": "keep",
+    "reason": "C09018 4.5.5(d) prohibits logos in stop lamps and reversing lamps. The product has both functions, so it is applicable."
+  },
+  {
+    "id": "P00152",
+    "decision": "keep",
+    "reason": "C09022 4.6.1.2 applies to a single lamp containing more than one light source; the product uses LED modules, and whether it has more than one source is conditional. Alternatives (a) and (b) are preserved. The R48 tell-tale paragraph reference 6.4.8 is unresolved in the sources, but that does not invalidate the obligation."
+  },
+  {
+    "id": "P00153",
+    "decision": "keep",
+    "reason": "C09029 4.7.1 restricts the light sources a lamp may be equipped with to approved replaceable sources, light source modules and/or non-replaceable sources. Applicable to the LED-based lamp."
+  },
+  {
+    "id": "P00154",
+    "decision": "keep",
+    "reason": "C09033 4.7.2.3 requires that light signalling devices not generate disturbances that cause a malfunction of other vehicle electrical/electronic systems. The footnote is preserved. Applicable to an LED lamp on a PCB."
+  },
+  {
+    "id": "P00155",
+    "decision": "keep",
+    "reason": "C09039 4.8.1.2 requires measurements with the light source(s) present for lamps with light source modules or non-replaceable sources. The product uses LED modules, so this is a necessary engineering test condition."
+  },
+  {
+    "id": "P00156",
+    "decision": "keep",
+    "reason": "C09040 4.8.1.3 requires separate photometric measurements for each applicable condition when a lamp function uses sources subject to more than one condition in 4.8. It is a conditional test method obligation."
+  },
+  {
+    "id": "P00157",
+    "decision": "drop",
+    "reason": "Sentence 2 and 3 of the same clause C09040 as P00156. Summing the results is part of the same procedure as P00156, and the laboratory's ability to request samples is a permission, not an obligation, so this duplicates P00156 and converts a permission into a requirement."
+  },
+  {
+    "id": "P00158",
+    "decision": "keep",
+    "reason": "C09041 4.8.1.4 requires stray reflections to be avoided by appropriate masking during photometric measurements; a necessary test condition."
+  },
+  {
+    "id": "P00159",
+    "decision": "keep",
+    "reason": "C09042 4.8.1.5 requires repeated photometric measurements for each position or the extreme positions of the field when the lamp can be installed in more than one position. Conditional, preserved."
+  },
+  {
+    "id": "P00160",
+    "decision": "keep",
+    "reason": "C09044 4.8.1.7 requires intensities to be measured with the light source continuously lit unless otherwise specified; preserved with its exception."
+  },
+  {
+    "id": "P00161",
+    "decision": "keep",
+    "reason": "C09046 4.8.1.8.1 applies when measurement results are challenged: the distance must satisfy the inverse square law. Conditional obligation preserved."
+  },
+  {
+    "id": "P00162",
+    "decision": "keep",
+    "reason": "C09047 4.8.1.8.2 requires, when results are challenged, a receiver angular aperture between 10' and 1 degree viewed from the reference centre; numbers preserved."
+  },
+  {
+    "id": "P00163",
+    "decision": "keep",
+    "reason": "C09048 4.8.1.8.3 provides that, when results are challenged, the intensity requirement is deemed satisfied if met within one-quarter of a degree of the direction of observation. This is a deemed-compliance rule rather than a strict obligation but is a necessary test condition under the challenge scenario; kept as stated."
+  },
+  {
+    "id": "P00164",
+    "decision": "keep",
+    "reason": "C09049 4.8.1.9 requires determining the limits of the apparent surface in the direction of the reference axis for light-signalling lamps. The exceptions (category 5/6 direction indicators, rear-registration plate lamps) do not apply to this rear lamp."
+  },
+  {
+    "id": "P00165",
+    "decision": "keep",
+    "reason": "C09051 4.8.2 specifies test voltages of 6.75 V, 13.5 V or 28 V according to the system voltage, unless otherwise specified. The product's system voltage is not given, but the requirement is applicable, with the choice dependent on the intended electrical system."
+  },
+  {
+    "id": "P00166",
+    "decision": "keep",
+    "reason": "C09052 4.8.2.1 requires that a lamp controlled by an electronic light source control gear or variable intensity control be operated as specified by the applicant; conditional on that control being used. Preserved."
+  },
+  {
+    "id": "P00167",
+    "decision": "keep",
+    "reason": "C09053 4.8.2.2.1 requires that a lamp not controlled by control gear or variable intensity control, with light source modules or non-replaceable sources, be operated as specified by the applicant. The LED modules make it potentially applicable. The clause carries an ambiguous_numbered_line flag but the text is clear for this sub-item."
+  },
+  {
+    "id": "P00168",
+    "decision": "keep",
+    "reason": "Source 4.8.2.2.2 supports this test-operation condition. The product uses LED modules on PCB, so applicability depends on whether the sources are replaceable UN approved ones; the conditional is preserved."
+  },
+  {
+    "id": "P00169",
+    "decision": "keep",
+    "reason": "Source 4.8.2.3.1 supports this conditional test operation for lamps with multiple replaceable UN approved light sources. The 5 per cent tolerance and the proportional correction are preserved. It applies only if the product has such sources."
+  },
+  {
+    "id": "P00170",
+    "decision": "keep",
+    "reason": "Source 4.8.3.1(a) supports this. The 'unless otherwise specified' exception is preserved, and the requirement applies to each of the two samples supplied for the lamp functions."
+  },
+  {
+    "id": "P00171",
+    "decision": "keep",
+    "reason": "Source 4.8.3.1(b) supports the maximum intensity limit in any direction where the lamp is visible, per the function table in paragraph 5."
+  },
+  {
+    "id": "P00172",
+    "decision": "keep",
+    "reason": "Source 4.8.3.1(c) supports this. The two alternatives (percentage of the minimum, or the figure value) are one provision and are kept as such. The Annex 3 figures are not supplied, but the obligation itself is supported."
+  },
+  {
+    "id": "P00173",
+    "decision": "keep",
+    "reason": "Source 4.8.3.1(d) supports this minimum intensity within the Annex 2 geometric visibility angles."
+  },
+  {
+    "id": "P00174",
+    "decision": "keep",
+    "reason": "The final sentence of 4.8.3.1 requires observing the Annex 3 provisions on local variations of intensity."
+  },
+  {
+    "id": "P00175",
+    "decision": "keep",
+    "reason": "Source 4.8.3.5 supports this for a rear position lamp reciprocally incorporated with a stop lamp. The rear position lamp and stop lamp are both in the module, so the 5:1 ratio in ±5° V and ±10° H applies if they are reciprocally incorporated. The product does not state whether they are. The source says 'should' rather than 'shall', but it is part of the regulation's requirement."
+  },
+  {
+    "id": "P00176",
+    "decision": "keep",
+    "reason": "Source 4.8.3.6 supports this. It requires luminous intensity compliance tests to be carried out according to Annex 8, which is a necessary engineering test."
+  },
+  {
+    "id": "P00177",
+    "decision": "keep",
+    "reason": "Source 4.9 supports measuring colour inside the Annex 3 light distribution grid field using the 4.8 procedure."
+  },
+  {
+    "id": "P00178",
+    "decision": "keep",
+    "reason": "Source 4.9 states that no sharp variation of colour shall be observed outside the grid field."
+  },
+  {
+    "id": "P00179",
+    "decision": "keep",
+    "reason": "Source 4.9 supports this for lamps with non-replaceable light sources. The product uses LED modules on PCB, which are plausibly non-replaceable, and the conditional is preserved."
+  },
+  {
+    "id": "P00180",
+    "decision": "keep",
+    "reason": "Source 5.2.1 supports this for the rear position lamp, which is in the product. The 60 cd exception is limited to the reciprocally incorporated case. The Table 4 values are not supplied, but the obligation is supported."
+  },
+  {
+    "id": "P00181",
+    "decision": "keep",
+    "reason": "Source 5.2.7 requires red light for the rear position lamp, and the product has a rear position lamp."
+  },
+  {
+    "id": "P00182",
+    "decision": "keep",
+    "reason": "Source 5.5.1 supports this for the stop lamp. The category is not specified in the product data and Table 7 is not supplied. The obligation is valid, with the category dependency noted."
+  },
+  {
+    "id": "P00183",
+    "decision": "unresolved",
+    "reason": "Source 5.5.2 only says 'See Table 7'. Table 7 and Table A2-1 are not supplied, and the category is not specified, so the numerical requirement cannot be determined."
+  },
+  {
+    "id": "P00184",
+    "decision": "keep",
+    "reason": "Source 5.5.7 requires the stop lamp to emit red light, and the product has a stop lamp."
+  },
+  {
+    "id": "P00185",
+    "decision": "keep",
+    "reason": "Source 5.8.1 supports this for the reversing lamp. Table 10 (AR) is supplied, and the product has a reversing lamp."
+  },
+  {
+    "id": "P00186",
+    "decision": "unresolved",
+    "reason": "Source 5.8.1 supports this as an optional route, valid only if the lamp is installed exclusively as a pair and the manufacturer chooses it. The product spec does not state either, so applicability cannot be confirmed."
+  },
+  {
+    "id": "P00187",
+    "decision": "unresolved",
+    "reason": "This is conditional on the optional pair-only route, which is not confirmed by the product spec. It is also largely an administrative documentation item, and paragraph 9.1.3 is an unresolved reference."
+  },
+  {
+    "id": "P00188",
+    "decision": "keep",
+    "reason": "Table 10 gives the AR category a minimum of 8.0·10^1 cd on the reference axis (4.8.3.1(a)). The product has a reversing lamp."
+  },
+  {
+    "id": "P00189",
+    "decision": "keep",
+    "reason": "Table 10 gives the AR category maxima of 300 cd in or above the h-plane, 600 cd below it down to 5°D, and 8000 cd below 5°D. The figure A3-V dependency is noted but does not affect the numeric limits."
+  },
+  {
+    "id": "P00190",
+    "decision": "keep",
+    "reason": "Source 5.8.7 requires white light for the reversing lamp, and the product has a reversing lamp."
+  },
+  {
+    "id": "P00191",
+    "decision": "keep",
+    "reason": "Source 6.1 requires lamps to be manufactured to conform to the approved type, with paragraph 5 compliance verified through conformity of production. This constrains manufacturing conformity."
+  },
+  {
+    "id": "P00192",
+    "decision": "unresolved",
+    "reason": "Source 6.1.1 requires compliance with Annex 4 CoP minimums, but the Annex 4 content is only partly supplied. This is a pointer that needs separate resolution."
+  },
+  {
+    "id": "P00193",
+    "decision": "unresolved",
+    "reason": "Source 6.1.2 requires compliance with Annex 5 sampling minimums, but Annex 5 is not supplied. Cannot be resolved from the evidence provided."
+  },
+  {
+    "id": "P00194",
+    "decision": "keep",
+    "reason": "Source 6.1.3 states the 20 per cent unfavourable deviation limit for CoP. It applies to the lamp. The proposal's text is source-supported."
+  },
+  {
+    "id": "P00195",
+    "decision": "unresolved",
+    "reason": "The source requires measured values to correspond to Table 12, but Table 12 is not supplied. The specific numerical values and the Annex 2 and 3 field definitions are unavailable."
+  },
+  {
+    "id": "P00196",
+    "decision": "keep",
+    "reason": "Table A2-1 row for position lamps (A, R1, R2) gives 45°/80°, with 20° inboard reduced only below the H-plane for mounting height under 750 mm, and 15°/15° vertical angles with the footnote variants. Applies to a rear position lamp of these categories. The proposal's text is source-supported."
+  },
+  {
+    "id": "P00197",
+    "decision": "keep",
+    "reason": "Table A2-1 row for singular front/rear position (MA, MR) gives 80°/80° and 15°/10°, or 15°/5° for H-plane below 750 mm. Applies conditionally to a singular MR lamp."
+  },
+  {
+    "id": "P00198",
+    "decision": "keep",
+    "reason": "Table A2-1 row for pair front/rear position (MA, MR) gives 20°/80° and 15°/10°, or 15°/5° for H-plane below 750 mm. Applies conditionally to a paired MR lamp."
+  },
+  {
+    "id": "P00199",
+    "decision": "keep",
+    "reason": "Table A2-1 row for stop lamp (S1, S2) gives 45°/45° with reduced 20° inboard below the H-plane for mounting under 750 mm, and 15°/15° vertical angles with the footnote variants. Applies to the stop lamp if it is category S1 or S2. The proposal's text is source-supported."
+  },
+  {
+    "id": "P00200",
+    "decision": "keep",
+    "reason": "Table A2-1 row for singular stop lamp MS gives 45°/45° and 15°/10°, or 15°/5° for H-plane below 750 mm. Applies conditionally."
+  },
+  {
+    "id": "P00201",
+    "decision": "keep",
+    "reason": "Table A2-1 row for paired stop lamps MS gives 0°/45° and 15°/10°, or 15°/5° for H-plane below 750 mm. Applies conditionally."
+  },
+  {
+    "id": "P00202",
+    "decision": "keep",
+    "reason": "Annex 3 1.1 defines the reference axis (H=0°, V=0°) as horizontal on the vehicle, parallel to the median longitudinal plane, oriented in the direction of visibility, and passing through the centre of reference. This is relevant to photometric testing of the lamp."
+  },
+  {
+    "id": "P00203",
+    "decision": "keep",
+    "reason": "Annex 3 1.1 states that, unless specified otherwise, the figure values give percentages of the minimum intensities required, mathematically rounded down to three significant digits. It applies to the photometric evaluation of the lamp."
+  },
+  {
+    "id": "P00204",
+    "decision": "keep",
+    "reason": "Annex 3 1.1 limits photometric verification to 5° downwards for position lamps and stop lamps S1, S2 and MS installed at mounting height of 750 mm or less. The rear position lamp and the stop lamp are in scope. The proposal's text is source-supported."
+  },
+  {
+    "id": "P00205",
+    "decision": "keep",
+    "reason": "Annex 3 1.2 requires substantially uniform light distribution, meeting at least the lowest minimum value on the surrounding grid lines. It applies to the lamp's photometric performance. The source wording is 'should', but it is defined here as the criterion with the 'shall meet' language."
+  },
+  {
+    "id": "P00206",
+    "decision": "keep",
+    "reason": "Annex 3 1.2 requires the 50 per cent check for reversing lamps when visual examination reveals substantial local intensity variations. The product has a reversing lamp, so the conditional obligation applies."
+  },
+  {
+    "id": "P00207",
+    "decision": "keep",
+    "reason": "Annex 4 1.1 sets the mechanical and geometric conformity criterion as differences not exceeding inevitable manufacturing deviations. It applies to production of the lamp."
+  },
+  {
+    "id": "P00208",
+    "decision": "keep",
+    "reason": "Annex 4 1.2 gives the photometric conformity criterion based on testing a randomly chosen lamp according to paragraph 4.8. The reference to 4.8 is supplied as a heading only, but the obligation itself is source-supported and the dependency is noted."
+  },
+  {
+    "id": "P00209",
+    "decision": "unresolved",
+    "reason": "Applicability depends on the lamp having a replaceable light source. The spec lists LED modules on PCB, and it is not stated whether they are replaceable. Insufficient evidence."
+  },
+  {
+    "id": "P00210",
+    "decision": "keep",
+    "reason": "Annex 4 1.3 requires chromaticity coordinates to be complied with when tested under paragraph 4.9. Colour definition is a function of the lamp and 4.9 is supplied as context."
+  },
+  {
+    "id": "P00211",
+    "decision": "keep",
+    "reason": "Annex 4 2 requires the type approval holder to carry out the minimum tests at appropriate intervals per the Regulation. It constrains manufacturing conformity of each lamp type."
+  },
+  {
+    "id": "P00212",
+    "decision": "keep",
+    "reason": "Annex 4 2 requires further samples to be taken and tested when any sampling shows non-conformity for the type of test concerned. This is a manufacturing conformity obligation."
+  },
+  {
+    "id": "P00213",
+    "decision": "keep",
+    "reason": "Annex 4 2 requires the manufacturer to take steps to ensure conformity of the production concerned. It is a manufacturing conformity obligation."
+  },
+  {
+    "id": "P00214",
+    "decision": "keep",
+    "reason": "Annex 4 2.1 states conformity tests cover photometric and colorimetric characteristics. It is a necessary scope of the engineering CoP tests."
+  },
+  {
+    "id": "P00215",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.1 states tests shall generally be carried out per the methods in the Regulation. It constrains CoP test methods. The wording 'generally' is preserved."
+  },
+  {
+    "id": "P00216",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.2 is applicable to the rear lamp type approval holder's CoP tests. It is a conditional constraint on test methods: equivalent methods need the authority's consent, and the manufacturer must prove equivalence."
+  },
+  {
+    "id": "P00217",
+    "decision": "drop",
+    "reason": "The manufacturer's duty to prove equivalence is already covered in P00216. Keeping it would duplicate that obligation."
+  },
+  {
+    "id": "P00218",
+    "decision": "unresolved",
+    "reason": "C09298 ties the calibration and correlation duty to the application of paragraphs 2.2.1 and 2.2.2, and 2.2.1 is not supplied. The scope of the broad statement 'test apparatus used for CoP tests' cannot be confirmed."
+  },
+  {
+    "id": "P00219",
+    "decision": "keep",
+    "reason": "Annex 4 2.2.4 is supported. It sets the Regulation's methods as the reference for CoP verification and sampling."
+  },
+  {
+    "id": "P00220",
+    "decision": "keep",
+    "reason": "Annex 4 2.3 supports random selection of samples from a uniform batch and the definition of a uniform batch."
+  },
+  {
+    "id": "P00221",
+    "decision": "keep",
+    "reason": "Annex 4 2.4 supports photometric measurement at the Annex 3 points and measurement of the chromaticity coordinates."
+  },
+  {
+    "id": "P00222",
+    "decision": "keep",
+    "reason": "Annex 4 2.5 supports the manufacturer's statistical study and acceptability criteria agreed with the authority. These constrain manufacturing conformity."
+  },
+  {
+    "id": "P00223",
+    "decision": "keep",
+    "reason": "Annex 4 2.5 states the numerical criterion: 95 per cent confidence and a minimum probability of passing an Annex 5 spot check of 0.95."
+  },
+  {
+    "id": "P00224",
+    "decision": "keep",
+    "reason": "Annex 5 1.1 supports the rule that mechanical and geometric conformity holds when differences do not exceed inevitable manufacturing deviations."
+  },
+  {
+    "id": "P00225",
+    "decision": "keep",
+    "reason": "Annex 5 1.2(a), with the context of 6.1.3 and 4.8, supports the photometric conformity criterion. No measured value may deviate unfavourably by more than 20 per cent."
+  },
+  {
+    "id": "P00226",
+    "decision": "keep",
+    "reason": "Annex 5 1.2(b) supports repeating the tests with another standard light source. The condition is a replaceable light source and results that do not meet the requirements."
+  },
+  {
+    "id": "P00227",
+    "decision": "keep",
+    "reason": "Annex 5 1.3 states directly that lamps with apparent defects are disregarded."
+  },
+  {
+    "id": "P00228",
+    "decision": "keep",
+    "reason": "Annex 5 1.4 supports compliance of the chromaticity coordinates when tested under paragraph 4.9."
+  },
+  {
+    "id": "P00229",
+    "decision": "keep",
+    "reason": "Annex 5 paragraph 2 supports the first-sampling procedure: four lamps selected at random and marked A and B."
+  },
+  {
+    "id": "P00230",
+    "decision": "keep",
+    "reason": "Annex 5 2.1 supports the criterion that conformity is not contested if all four lamps of samples A and B deviate by no more than 20 per cent."
+  },
+  {
+    "id": "P00231",
+    "decision": "keep",
+    "reason": "Annex 5 2.2 supports the rule that conformity is contested if at least one specimen of sample A or B deviates by more than 20 per cent."
+  },
+  {
+    "id": "P00232",
+    "decision": "keep",
+    "reason": "Annex 5 2.2 supports the manufacturer's alignment duty and the repeated sampling within two months of the notification."
+  },
+  {
+    "id": "P00233",
+    "decision": "keep",
+    "reason": "Annex 5 paragraph 3 supports the first repeated sampling: four lamps from post-alignment stock, marked C and D."
+  },
+  {
+    "id": "P00234",
+    "decision": "keep",
+    "reason": "Annex 5 3.1 supports the criterion that conformity is not contested if all four lamps of samples C and D deviate by no more than 20 per cent."
+  },
+  {
+    "id": "P00235",
+    "decision": "keep",
+    "reason": "Annex 5 3.2.1 supports the alignment duty when the deviation is above 20 per cent but not above 30 per cent for all specimens."
+  },
+  {
+    "id": "P00236",
+    "decision": "keep",
+    "reason": "Annex 5 3.2.1 supports a second repeated sampling per paragraph 4 within two months of the notification."
+  },
+  {
+    "id": "P00237",
+    "decision": "unresolved",
+    "reason": "Annex 5 3.2.2 supports withdrawal of approval for a deviation above 30 per cent. The consequence depends on Annex 5 paragraph 5, which is not supplied, and withdrawal is an administrative action."
+  },
+  {
+    "id": "P00238",
+    "decision": "keep",
+    "reason": "Annex 5 paragraph 4 supports the second repeated sampling: four lamps from post-alignment stock, marked E and F."
+  },
+  {
+    "id": "P00239",
+    "decision": "keep",
+    "reason": "Annex 5 4.1 supports the criterion that conformity is not contested if all four lamps of samples E and F deviate by no more than 20 per cent."
+  },
+  {
+    "id": "P00240",
+    "decision": "keep",
+    "reason": "Annex 5 4.2 is a manufacturing-conformity criterion for mass-produced lamps. It applies to this lamp, and a deviation above 20 per cent in a specimen of sample E or F contests conformity and withdraws the approval."
+  },
+  {
+    "id": "P00241",
+    "decision": "keep",
+    "reason": "Annex 8 1.2.1 covers reversing lamps with non-incandescent sources. The product's reversing lamp uses LED modules, so the 1 min and 10 min intensity checks apply."
+  },
+  {
+    "id": "P00242",
+    "decision": "drop",
+    "reason": "The proposal bundles the reversing function into 1.2.2 'all other lamps', but reversing lamps are governed by 1.2.1. The text also rests on an explicit assumption and adds product statements. This is mis-scoped and cannot be rewritten."
+  },
+  {
+    "id": "P00243",
+    "decision": "keep",
+    "reason": "Annex 8 2.1 requires an additional distribution check at the Table A8-1 time, depending on light source technology. It applies to the product's lamp functions."
+  },
+  {
+    "id": "P00244",
+    "decision": "keep",
+    "reason": "Table A8-1 lists the rear position function at 4 s, reference HV. The product has a rear position lamp."
+  },
+  {
+    "id": "P00245",
+    "decision": "keep",
+    "reason": "Table A8-1 lists the stop function at 0.2 s, reference HV. The product has a stop lamp."
+  },
+  {
+    "id": "P00246",
+    "decision": "keep",
+    "reason": "Table A8-1 lists the reversing function at 0.2 s, reference HV. The product has a reversing lamp."
+  },
+  {
+    "id": "P00247",
+    "decision": "drop",
+    "reason": "This is a deeming/simplification provision: an LED-only function is deemed compliant if the 1.2 values comply. It is a permitted route rather than an independent obligation, and it would be converted into a mandatory demonstration. Whether each function is LED-only is also not confirmed."
+  },
+  {
+    "id": "P00248",
+    "decision": "keep",
+    "reason": "Annex 8 2.1.5 is a conditional test obligation that applies when there is doubt, such as unexpected run-up behaviour. It applies to the product's lamp functions and the condition is preserved."
+  },
+  {
+    "id": "P00249",
+    "decision": "drop",
+    "reason": "This is a circular, administrative statement that a submitted sample conforms to the Regulation. It adds no distinct engineering obligation, and R128 applicability to the product's LED modules is not established."
+  },
+  {
+    "id": "P00250",
+    "decision": "unresolved",
+    "reason": "This is a UN R128 requirement for LED light sources. The spec says only 'LED modules on PCB', so it is unknown whether they are R128 replaceable LED light sources."
+  },
+  {
+    "id": "P00251",
+    "decision": "unresolved",
+    "reason": "This is a UN R128 requirement. The spec does not say whether the LED modules are R128 light sources."
+  },
+  {
+    "id": "P00252",
+    "decision": "unresolved",
+    "reason": "This is a UN R128 requirement. The spec does not say whether the LED modules are R128 light sources."
+  },
+  {
+    "id": "P00253",
+    "decision": "unresolved",
+    "reason": "This is an R128 verification method. It depends on R128 applicability to the LED modules and on holder/IEC 60061 fitting, neither of which the spec states."
+  },
+  {
+    "id": "P00254",
+    "decision": "unresolved",
+    "reason": "This is a UN R128 requirement. The spec does not say whether the LED modules are R128 light sources."
+  },
+  {
+    "id": "P00255",
+    "decision": "unresolved",
+    "reason": "This is an R128 test procedure. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00256",
+    "decision": "unresolved",
+    "reason": "This is an R128 test procedure that applies only to multi-function LED light sources. Neither R128 applicability nor multi-function sources is established by the spec."
+  },
+  {
+    "id": "P00257",
+    "decision": "unresolved",
+    "reason": "This is an R128 test condition. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00258",
+    "decision": "unresolved",
+    "reason": "This is an R128 test instrument requirement. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00259",
+    "decision": "unresolved",
+    "reason": "This is an R128 measurement procedure. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00260",
+    "decision": "unresolved",
+    "reason": "This is an R128 measurement procedure. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00261",
+    "decision": "unresolved",
+    "reason": "This is an R128 measurement procedure. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00262",
+    "decision": "unresolved",
+    "reason": "This is an R128 data-sheet and colour-definition requirement. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00263",
+    "decision": "unresolved",
+    "reason": "This is an R128 colour measurement requirement. It depends on R128 applicability to the LED modules, which the spec does not establish."
+  },
+  {
+    "id": "P00264",
+    "decision": "keep",
+    "reason": "Clause 3.2.3 requires the approval number to be marked on the device per 3.3. The retro-reflector in the product is in scope."
+  },
+  {
+    "id": "P00265",
+    "decision": "keep",
+    "reason": "Clause 3.3.1.1 requires a space of sufficient size for the UI or approval marking and the other markings. It applies to the retro-reflector."
+  },
+  {
+    "id": "P00266",
+    "decision": "keep",
+    "reason": "Clause 3.3.1.2 requires all markings to be clearly legible and indelible."
+  },
+  {
+    "id": "P00267",
+    "decision": "unresolved",
+    "reason": "Clause 3.3.1.3 sets marking size by value 'a' from Table 1. Table 1 is not supplied and the retro-reflector class is not specified, so the numerical constraint cannot be determined."
+  },
+  {
+    "id": "P00268",
+    "decision": "keep",
+    "reason": "Clause 3.3.2.1 requires the approval mark, a circle around 'E' plus the country number. This is the default approval marking."
+  },
+  {
+    "id": "P00269",
+    "decision": "keep",
+    "reason": "Clause 3.3.2.2 requires the four to six-digit sequential number close to the approval mark. The placement obligation is explicit, although the 3.2.3.2 cross-reference is unresolved."
+  },
+  {
+    "id": "P00270",
+    "decision": "unresolved",
+    "reason": "Clause 3.3.2.3 requires the class symbol from 3.2.5. The symbol list is not supplied and the product class is not specified, so the symbol to mark cannot be determined."
+  },
+  {
+    "id": "P00271",
+    "decision": "keep",
+    "reason": "Clause 3.3.2.4 requires the Regulation number, the letter R and the two-digit amendment series in force at issue of the approval."
+  },
+  {
+    "id": "P00272",
+    "decision": "keep",
+    "reason": "Clause 3.3.3.1 is a conditional obligation: if the UI replaces the approval marking, it must follow the specified format. The example figure itself is not supplied."
+  },
+  {
+    "id": "P00273",
+    "decision": "keep",
+    "reason": "Clause 3.3.4.1 requires retro-reflective devices to bear the applicant's trade name or mark."
+  },
+  {
+    "id": "P00274",
+    "decision": "keep",
+    "reason": "Clause 3.3.5.1 requires the approval marking or UI and the 3.3.4 markings to be clearly legible on the retro-reflective device."
+  },
+  {
+    "id": "P00275",
+    "decision": "keep",
+    "reason": "Clause 3.3.6.1.1 applies where a single approval mark or UI is used for grouped, combined or reciprocally incorporated lamps. The product combines several functions in one housing, so the conditional obligation is preserved."
+  },
+  {
+    "id": "P00276",
+    "decision": "keep",
+    "reason": "Clause 3.3.6.1.2 is a conditional obligation for grouped or combined lamps sharing a single mark or UI. It is supported by the source and relevant to the combined module."
+  },
+  {
+    "id": "P00277",
+    "decision": "keep",
+    "reason": "Clause 3.3.6.2 sets a minimum size for a single approval mark relative to the smallest individual mark required. It applies when a single mark is used."
+  },
+  {
+    "id": "P00278",
+    "decision": "keep",
+    "reason": "Clause 3.5.1 requires retro-reflectors to be manufactured to conform to the approved type by meeting paragraphs 4 and 5. This is a manufacturing-conformity obligation."
+  },
+  {
+    "id": "P00279",
+    "decision": "unresolved",
+    "reason": "Clause 3.5.1.1 requires compliance with the Annex 2 conformity-of-production requirements. Annex 2 content is not supplied, so the engineering content cannot be derived."
+  },
+  {
+    "id": "P00280",
+    "decision": "unresolved",
+    "reason": "Clause 3.5.1.2 requires compliance with the Annex 3 inspector-sampling requirements. Annex 3 content is not supplied, so the details cannot be derived."
+  },
+  {
+    "id": "P00281",
+    "decision": "keep",
+    "reason": "Clause 4.1.1 requires retro-reflective devices to function satisfactorily and continue to do so in normal use. It applies to the product's retro-reflector."
+  },
+  {
+    "id": "P00282",
+    "decision": "keep",
+    "reason": "Clause 4.1.1 also prohibits design or manufacturing defects detrimental to efficient operation or to maintenance in good condition."
+  },
+  {
+    "id": "P00283",
+    "decision": "keep",
+    "reason": "Clause 4.1.2 requires that components of retro-reflective devices or parts thereof not be easily dismantled."
+  },
+  {
+    "id": "P00284",
+    "decision": "keep",
+    "reason": "Clause 4.1.4 requires the outer surface of retro-reflective devices to be easy to clean."
+  },
+  {
+    "id": "P00285",
+    "decision": "keep",
+    "reason": "Clause 4.1.4 requires the surface not to be rough and any protuberances not to prevent easy cleaning."
+  },
+  {
+    "id": "P00286",
+    "decision": "keep",
+    "reason": "Clause 4.1.5 requires no access to the inner surface of the retro-reflector in normal use."
+  },
+  {
+    "id": "P00287",
+    "decision": "keep",
+    "reason": "Clause 4.1.6.1 is a conditional design obligation: where a retro-reflector combines an optical unit and filter, they must not be separable under normal conditions of use."
+  },
+  {
+    "id": "P00288",
+    "decision": "keep",
+    "reason": "4.1.6.2 applies to retro-reflectors, and the rear lamp contains one. The ban on colouring by paint or varnish is directly supported."
+  },
+  {
+    "id": "P00289",
+    "decision": "keep",
+    "reason": "4.2.1.2 supports the colour test conditions and the requirement to meet the R48 night-time colour limits. The Annex 4 para 1.1 angle and the R48 limits are not supplied, and the requirement text says so."
+  },
+  {
+    "id": "P00290",
+    "decision": "keep",
+    "reason": "5.1.1(a) applies to Class IA/IB retro-reflectors. The class is conditional and not stated in the spec, but the rear lamp's retro-reflector can be Class IA/IB. Annex 5 content is not supplied."
+  },
+  {
+    "id": "P00291",
+    "decision": "keep",
+    "reason": "5.1.1(b) is supported. It is conditional on Class IA/IB and refers to 5.1.4 to 5.1.5."
+  },
+  {
+    "id": "P00292",
+    "decision": "keep",
+    "reason": "5.1.1(c) is supported. It applies to Class IA/IB and depends on the materials and construction (PMMA prism optics), per 5.1.7."
+  },
+  {
+    "id": "P00293",
+    "decision": "keep",
+    "reason": "5.1.3.1 supports the heat resistance test (Annex 6 Part 1) on ten samples. It is a necessary engineering test sequence."
+  },
+  {
+    "id": "P00294",
+    "decision": "keep",
+    "reason": "5.1.3.1 supports the post-heat colorimetric and RI examination at 20' divergence and β1=β2=0°. The Annex 4 para 1.1 text is not supplied."
+  },
+  {
+    "id": "P00295",
+    "decision": "keep",
+    "reason": "5.1.3.1 supports the full 5.1.4 testing of the two samples giving the minimum and maximum values, which the laboratory retains."
+  },
+  {
+    "id": "P00296",
+    "decision": "keep",
+    "reason": "5.1.3.1 supports the first and second group test sequences, including the conditional ('if necessary') corrosion test."
+  },
+  {
+    "id": "P00297",
+    "decision": "keep",
+    "reason": "5.1.3.1 supports the third group (stability in time of optical properties) and the fourth group (weathering resistance)."
+  },
+  {
+    "id": "P00298",
+    "decision": "keep",
+    "reason": "5.1.3.2.1 requires the colour to meet 5.1.5 after the 5.1.3.1 tests. The content of 5.1.5 is partly supplied via 5.1.5.1 and 5.1.5.2."
+  },
+  {
+    "id": "P00299",
+    "decision": "keep",
+    "reason": "5.1.3.2.2 supports the post-test RI requirement and the verification conditions. The Annex 4 para 1.1 text is not supplied."
+  },
+  {
+    "id": "P00300",
+    "decision": "keep",
+    "reason": "5.1.4.1 requires specifying the reference axis or axes. It constrains the product photometric definition and the test setup, so it is not purely administrative."
+  },
+  {
+    "id": "P00301",
+    "decision": "keep",
+    "reason": "5.1.4.2 supports repeating the photometric measurements for each axis, or the extreme axes of a specified range, where more than one is specified."
+  },
+  {
+    "id": "P00302",
+    "decision": "keep",
+    "reason": "5.1.4.3 supports the illuminating-surface definition (200 mm circle, 100 cm² limit, manufacturer-specified perimeter) for Class IA/IB."
+  },
+  {
+    "id": "P00303",
+    "decision": "keep",
+    "reason": "5.1.4.4.1 supports minimum RI values per Table 3 for red Class IA/IB retro-reflectors, measured per Annex 4 Part 1 para 3. This overlaps with P00304, which gives the numbers. The Annex 4 text is not supplied."
+  },
+  {
+    "id": "P00304",
+    "decision": "keep",
+    "reason": "Table 3 red IA/IB values match the proposal: 300/200/100 mcd/lx at 20' and 5/2.8/2.5 mcd/lx at 1°30'. They apply if the retro-reflector is red Class IA/IB."
+  },
+  {
+    "id": "P00305",
+    "decision": "keep",
+    "reason": "5.1.4.5 is a valid conditional provision. It applies if the Class IA/IB retro-reflector is installed with its H plane below 750 mm; the spec gives no mounting height."
+  },
+  {
+    "id": "P00306",
+    "decision": "keep",
+    "reason": "5.1.5.1 requires testing the night-time colour of the retro-reflector per 4.2.1."
+  },
+  {
+    "id": "P00307",
+    "decision": "keep",
+    "reason": "5.1.5.2 requires the trichromatic coordinates to be within the R48 night-time colour limits. Red is the colour applicable to the rear retro-reflector; the R48 limits are not supplied."
+  },
+  {
+    "id": "P00308",
+    "decision": "keep",
+    "reason": "Annex 5 para 1.1 supports mechanical and geometric production conformity within inevitable manufacturing deviations."
+  },
+  {
+    "id": "P00309",
+    "decision": "keep",
+    "reason": "Annex 5 para 1.2 supports the 20 per cent unfavourable-deviation criterion for photometric production conformity. The source phrasing is 'shall not be contested if', not 'only if', but the criterion is preserved."
+  },
+  {
+    "id": "P00310",
+    "decision": "keep",
+    "reason": "Annex 5 para 1.3 requires the chromaticity coordinates to be complied with in production."
+  },
+  {
+    "id": "P00311",
+    "decision": "keep",
+    "reason": "Annex 5 para 2 requires the approval mark holder to carry out at least the prescribed tests at appropriate intervals. This is a manufacturing conformity obligation; the specific test list is not supplied."
+  },
+  {
+    "id": "P00312",
+    "decision": "keep",
+    "reason": "The product includes a retro-reflector, so UN R150 applies to it. Annex 5 2 requires the approval-mark holder's conformity tests to follow the Regulation."
+  },
+  {
+    "id": "P00313",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 5 2. It is conditional on a sampling showing non-conformity, which still makes it a valid obligation."
+  },
+  {
+    "id": "P00314",
+    "decision": "keep",
+    "reason": "Directly supported by Annex 5 2. It is a manufacturing-conformity obligation on the manufacturer."
+  },
+  {
+    "id": "P00315",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.1. The conformity tests must cover photometric and colorimetric characteristics and resistance to penetration of water."
+  },
+  {
+    "id": "P00316",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.2.1. Tests are generally carried out by the methods of the Regulation."
+  },
+  {
+    "id": "P00317",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.2.2. Equivalent methods are only a permission, but if they are used the manufacturer must prove equivalence. The requirement preserves the Type Approval Authority consent condition."
+  },
+  {
+    "id": "P00318",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.2.3, which requires regular calibration of test apparatus and correlation with Type Approval Authority measurements. Paragraph 2.2.1, the only unresolved reference, is among the supplied sources."
+  },
+  {
+    "id": "P00319",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.2.4. The Regulation's methods are the reference methods in all cases."
+  },
+  {
+    "id": "P00320",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.3. Samples are selected at random from a uniform batch, and the clause defines a uniform batch."
+  },
+  {
+    "id": "P00321",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.4. Sampled devices are measured photometrically at the specified points and for chromaticity coordinates."
+  },
+  {
+    "id": "P00322",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.5. It constrains production conformity by requiring a statistical study and acceptability criteria agreed with the Type Approval Authority."
+  },
+  {
+    "id": "P00323",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.5. The numerical constraint is a 95 per cent confidence level and a minimum probability of 0.95 of passing the spot check at first sampling."
+  },
+  {
+    "id": "P00324",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 1.2.1 together with its parent paragraph 1.2. Photometric values may not deviate unfavourably by more than 20 per cent from the prescribed minima."
+  },
+  {
+    "id": "P00325",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 1.2.2. It is a rule of the photometric conformity check that devices with apparent defects are disregarded."
+  },
+  {
+    "id": "P00326",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 1.3 and 1.2.2. The chromaticity coordinates must be complied with."
+  },
+  {
+    "id": "P00327",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2, first sampling. Four devices are selected at random and split into samples A and B. This is a necessary part of the conformity test procedure."
+  },
+  {
+    "id": "P00328",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.1. Conformity is not contested if every specimen of A and B deviates by no more than 20 per cent."
+  },
+  {
+    "id": "P00329",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 2.2. If any specimen deviates by more than 20 per cent, the manufacturer must align production and repeated sampling follows within two months of notification."
+  },
+  {
+    "id": "P00330",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 3. The first repeated sample of four devices is taken at random from stock manufactured after alignment."
+  },
+  {
+    "id": "P00331",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 3.1. Conformity is not contested if every specimen of C and D deviates by no more than 20 per cent."
+  },
+  {
+    "id": "P00332",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 3.2.1 and 3.2. Conformity is contested if one specimen of C or D deviates by more than 20 per cent but all deviate by no more than 30 per cent."
+  },
+  {
+    "id": "P00333",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 3.2.1. The manufacturer must again bring production in line with the requirements."
+  },
+  {
+    "id": "P00334",
+    "decision": "keep",
+    "reason": "Supported by Annex 5 3.2.1. A second repeated sampling must be carried out within two months of notification."
+  },
+  {
+    "id": "P00335",
+    "decision": "unresolved",
+    "reason": "Annex 5 3.2.2 supports withdrawal of approval if a specimen of C or D deviates by more than 30 per cent. The consequence depends on paragraph 5, which is not supplied. Withdrawal is also an authority action rather than an engineering obligation."
+  },
+  {
+    "id": "P00336",
+    "decision": "keep",
+    "reason": "Source C10379 supports the second repeated sampling step. It is part of the conformity-of-production check for the retro-reflector in the rear lamp."
+  },
+  {
+    "id": "P00337",
+    "decision": "keep",
+    "reason": "C10380 supports the criterion that conformity is not contested if every specimen of E and F deviates by no more than 20 per cent."
+  },
+  {
+    "id": "P00338",
+    "decision": "keep",
+    "reason": "C10381 states conformity is contested if at least one specimen of E or F deviates by more than 20 per cent."
+  },
+  {
+    "id": "P00339",
+    "decision": "drop",
+    "reason": "Approval withdrawal is an administrative authority action. Paragraph 3.6 is supplied only as a heading, so it adds no engineering obligation on the product."
+  },
+  {
+    "id": "P00340",
+    "decision": "keep",
+    "reason": "C10381 6.1 requires a water-penetration test on one retro-reflector of sample A. The retro-reflector is acceptable if it passes. The Annex 6 procedure for the non-triangle case applies to this retro-reflector, though that annex text is not supplied."
+  },
+  {
+    "id": "P00341",
+    "decision": "keep",
+    "reason": "C10381 6.1 provides the fallback: if sample A fails, both devices of sample B undergo the same test and both must pass."
+  },
+  {
+    "id": "P00342",
+    "decision": "keep",
+    "reason": "C10384 requires checking for a mirror effect by slightly turning the device when RI is measured at β1 = β2 = 0°."
+  },
+  {
+    "id": "P00343",
+    "decision": "keep",
+    "reason": "C10384 requires the reading at β1 = -5°, β2 = 0° if a mirror effect is present. The condition is preserved."
+  },
+  {
+    "id": "P00344",
+    "decision": "keep",
+    "reason": "C10385 supports rotating devices not marked TOP to the position of minimum RI at 20' divergence. That minimum RI must meet the specified value, and measurements at other angles use that orientation."
+  },
+  {
+    "id": "P00345",
+    "decision": "keep",
+    "reason": "C10386 requires devices marked TOP to be rotated about their axes ±5° at the specified illumination angle and 20' divergence."
+  },
+  {
+    "id": "P00346",
+    "decision": "keep",
+    "reason": "C10386 requires RI not to fall below the prescribed value in any position assumed during the rotation of a TOP-marked device."
+  },
+  {
+    "id": "P00347",
+    "decision": "keep",
+    "reason": "C10387 supports this conditional rule: if RI exceeds the specified value by 50 per cent or more at β1 = β2 = 0° and ε = 0°, all measurements are made at ε = 0°."
+  },
+  {
+    "id": "P00348",
+    "decision": "keep",
+    "reason": "C10390 requires the CIE angular system (Figure A4-I) for specifying and measuring retro-reflective devices."
+  },
+  {
+    "id": "P00349",
+    "decision": "keep",
+    "reason": "C10393 requires illumination with CIE Standard Illuminant A and measurement as described in Part 1 of Annex 4."
+  },
+  {
+    "id": "P00350",
+    "decision": "keep",
+    "reason": "C10394 sets the geometry limits δ ≤ 10', γ ≤ 10' and η ≤ 80', shown in Figure A4-III."
+  },
+  {
+    "id": "P00351",
+    "decision": "drop",
+    "reason": "C10396 uses \"should\", so it is a recommendation. It is not a mandatory obligation."
+  },
+  {
+    "id": "P00352",
+    "decision": "keep",
+    "reason": "C10397 requires a measuring distance that respects the δ, γ and η limits and is not less than 10 m."
+  },
+  {
+    "id": "P00353",
+    "decision": "keep",
+    "reason": "C10398 requires sufficiently uniform illuminance, checked with a sensor of no more than one-tenth of the examined area. The variation must satisfy max/min ≤ 1.05."
+  },
+  {
+    "id": "P00354",
+    "decision": "keep",
+    "reason": "C10400 requires the photometer head to be corrected to the CIE photopic spectral luminous efficiency."
+  },
+  {
+    "id": "P00355",
+    "decision": "keep",
+    "reason": "C10401 requires no perceptible change in local sensitivity within the aperture, otherwise suitable provisions such as a diffusing window must be added."
+  },
+  {
+    "id": "P00356",
+    "decision": "keep",
+    "reason": "C10404 uses \"shall\" for restricting the photometer field of view and the spread of light from sample and source as much as possible."
+  },
+  {
+    "id": "P00357",
+    "decision": "drop",
+    "reason": "C10404 uses \"should\" for the matt black background and sample holder framework, so it is only a recommendation."
+  },
+  {
+    "id": "P00358",
+    "decision": "keep",
+    "reason": "C10405 requires floor and wall reflections to be screened from the sample and the photometer head by baffles."
+  },
+  {
+    "id": "P00359",
+    "decision": "keep",
+    "reason": "C10406 requires residual stray light to be measured with the sample covered by one of the listed surfaces. That value must be subtracted from the measurement on the retro-reflective device."
+  },
+  {
+    "id": "P00360",
+    "decision": "drop",
+    "reason": "Source wording is 'should' (recommended measurement precaution), not a 'shall' obligation on the product."
+  },
+  {
+    "id": "P00361",
+    "decision": "unresolved",
+    "reason": "The supplied clause text does not state the Class IA/IB scope, and the product's retro-reflector class is not specified. Applicability cannot be confirmed from the evidence, and the clause carries numbering review flags."
+  },
+  {
+    "id": "P00362",
+    "decision": "keep",
+    "reason": "Annex 6 Part 1 para 1 applies to moulded plastics retro-reflectors of the listed classes. The product has a molded PMMA retro-reflector, and the proposal keeps the class condition and the 65 °C ± 2 °C, 48 h and 1 h at 23 °C ± 2 °C values."
+  },
+  {
+    "id": "P00363",
+    "decision": "keep",
+    "reason": "Annex 6 Part 1 para 3 sets the post-heat-test acceptance criterion of no cracking or appreciable distortion, in particular of the optical component. It applies to the product's retro-reflective device."
+  },
+  {
+    "id": "P00364",
+    "decision": "keep",
+    "reason": "Annex 6 Part 2 para 1.1 sets the primary water immersion procedure for retro-reflective devices, including those that are part of a lamp. The temperatures, times and depths are preserved."
+  },
+  {
+    "id": "P00365",
+    "decision": "keep",
+    "reason": "Annex 6 Part 2 para 1.2 sets the acceptance criterion that no water penetrates to the reflecting surface of the optical unit. The proposal states it accurately."
+  },
+  {
+    "id": "P00366",
+    "decision": "keep",
+    "reason": "Annex 6 Part 2 para 1.3.1 requires RI measurement per para 5.1.3.2.2 when inspection shows no water or in case of doubt. The supplied context supports the 20' and β1 = β2 = 0° detail."
+  },
+  {
+    "id": "P00367",
+    "decision": "drop",
+    "reason": "This is an optional alternative route available at the manufacturer's request. The proposal would convert a permission into an obligation and duplicate the primary water-penetration route, and no request is stated for the product. The Class IB/IIIB scope is also not in the clause text."
+  },
+  {
+    "id": "P00368",
+    "decision": "drop",
+    "reason": "Equipment detail of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative approval route."
+  },
+  {
+    "id": "P00369",
+    "decision": "drop",
+    "reason": "Equipment detail of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative approval route."
+  },
+  {
+    "id": "P00370",
+    "decision": "drop",
+    "reason": "Equipment detail of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative approval route."
+  },
+  {
+    "id": "P00371",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00372",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00373",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00374",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00375",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00376",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00377",
+    "decision": "drop",
+    "reason": "Acceptance criterion of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00378",
+    "decision": "drop",
+    "reason": "Evaluation step of the optional alternative moisture test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00379",
+    "decision": "drop",
+    "reason": "Test-chamber equipment detail of the optional alternative dust test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00380",
+    "decision": "drop",
+    "reason": "Test-chamber equipment detail of the optional alternative dust test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00381",
+    "decision": "drop",
+    "reason": "Test material specification of the optional alternative dust test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00382",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative dust test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00383",
+    "decision": "drop",
+    "reason": "Procedure step of the optional alternative dust test, which is not selected for the product. It would duplicate an alternative route."
+  },
+  {
+    "id": "P00384",
+    "decision": "keep",
+    "reason": "C10511 supports the placement rule: at least 150 mm from a chamber wall, and horizontal centring for devices longer than 600 mm. The retro-reflector in the rear lamp is within scope."
+  },
+  {
+    "id": "P00385",
+    "decision": "keep",
+    "reason": "C10511 gives the agitation interval (15 min), agitation duration (2 to 15 s), total duration (5 h) and the settling requirement."
+  },
+  {
+    "id": "P00386",
+    "decision": "keep",
+    "reason": "C10512 requires cleaning and drying with a dry cotton cloth after the dust test, then RI measurement per 5.1.3.2.2."
+  },
+  {
+    "id": "P00387",
+    "decision": "keep",
+    "reason": "C10514 requires the retro-reflective device to retain its photometric and colorimetric characteristics under humidity and corrosive influences. The rear lamp includes a retro-reflector."
+  },
+  {
+    "id": "P00388",
+    "decision": "keep",
+    "reason": "C10514 requires checking front-surface tarnishing resistance and rear-face protection, particularly where an essential metal component may be attacked. It points to ISO 9227:2017 for the corrosion test description."
+  },
+  {
+    "id": "P00389",
+    "decision": "keep",
+    "reason": "C10515 supports the saline mist exposure: 50 h as two 24 h periods with a 2 h drying interval. The clause covers the lamp when the retro-reflector is combined with a light. The numbering flag does not affect the text."
+  },
+  {
+    "id": "P00390",
+    "decision": "keep",
+    "reason": "C10516 supports the solution (5:95 NaCl to distilled water, at most 0.02 % impurities) and 35 ± 2 °C. The condition is essential metal components susceptible to corrosion, and it is preserved."
+  },
+  {
+    "id": "P00391",
+    "decision": "keep",
+    "reason": "C10518 states the post-test criterion: no signs of excessive corrosion liable to impair the efficiency of the device."
+  },
+  {
+    "id": "P00392",
+    "decision": "keep",
+    "reason": "C10530 supports the apparatus requirements: EN ISO 4892-1:2016 and EN ISO 4892-2:2013, temperature and humidity control, and a water spray system. These constrain a necessary engineering test."
+  },
+  {
+    "id": "P00393",
+    "decision": "keep",
+    "reason": "C10531 supports the water spray capability of at least 0.3 ml/cm² within 5 minutes."
+  },
+  {
+    "id": "P00394",
+    "decision": "keep",
+    "reason": "C10532 requires the spray water to meet EN ISO 4892-2:2013."
+  },
+  {
+    "id": "P00395",
+    "decision": "keep",
+    "reason": "C10534 requires the test method used to be specified in the report. It is part of the weathering test procedure and the TM1/TM2 methods come from Table A6-1."
+  },
+  {
+    "id": "P00396",
+    "decision": "keep",
+    "reason": "C10535 and Table A6-1 require exposure per EN ISO 4892-2:2013 with the Table A6-1 parameters, for 500 h for retro-reflective devices."
+  },
+  {
+    "id": "P00397",
+    "decision": "drop",
+    "reason": "Redundant. The 500 h duration for retro-reflective devices is already included in P00396 from the same clause C10535."
+  },
+  {
+    "id": "P00398",
+    "decision": "keep",
+    "reason": "Table A6-1 supports the cycle, irradiance, temperature (TM1 65 ± 3 °C, TM2 63 ± 3 °C) and humidity (50 ± 10 %) values. Note 2, which treats the tolerances as fluctuations about the set value, is preserved."
+  },
+  {
+    "id": "P00399",
+    "decision": "keep",
+    "reason": "C10539 supports the 70 vol. % n-heptane and 30 vol. % toluol test mixture for the retro-reflective device."
+  },
+  {
+    "id": "P00400",
+    "decision": "keep",
+    "reason": "C10540(a) requires the outer surface, in particular the illuminating surface, to be lightly wiped with a cotton cloth soaked in the test mixture."
+  },
+  {
+    "id": "P00401",
+    "decision": "keep",
+    "reason": "C10540(b) requires visual inspection after about 5 minutes with no apparent surface changes, and tolerates slight surface cracks."
+  },
+  {
+    "id": "P00402",
+    "decision": "drop",
+    "reason": "Duplicates the slight-crack exception already stated in P00401 from the same clause (C10540)."
+  },
+  {
+    "id": "P00403",
+    "decision": "keep",
+    "reason": "C10546 with context C10545 applies the detergent lubricating oil wipe to moulded plastics reflectors of Classes IA, IB, IIIA, IIIB and IVA. The retro-reflector is moulded PMMA, so the condition applies if its class falls in that list. The class is not stated in the spec."
+  },
+  {
+    "id": "P00404",
+    "decision": "keep",
+    "reason": "C10546 requires the surface to be cleaned after about 5 minutes. It is a step of the same conditional test as P00403 and applies only to the Class IA/IB/IIIA/IIIB/IVA moulded plastics reflectors."
+  },
+  {
+    "id": "P00405",
+    "decision": "unresolved",
+    "reason": "C10546 and 5.1.3.2.2 require RI measurement and compliance with the conditions of 5.1.4. Paragraph 5.1.4 (the RI limits) and the Annex 4 positions are not supplied, and C10213 has an unresolved reference. The numerical acceptance criteria cannot be verified."
+  },
+  {
+    "id": "P00406",
+    "decision": "drop",
+    "reason": "Administrative application procedure under UN R10 for a Technical Service sample. The spec does not establish that the rear lamp is an ESA, and the proposal's \"ESA (rear lamp)\" wording invents that fact. It is not an engineering obligation on the product."
+  },
+  {
+    "id": "P00407",
+    "decision": "unresolved",
+    "reason": "UN R10 3.2.6 requires approval samples of an ESA system to be marked with the trade name or mark and the type designation. Whether the rear lamp is an ESA, and so whether R10 applies, is not established in the supplied product spec."
+  },
+  {
+    "id": "P00408",
+    "decision": "drop",
+    "reason": "Paragraph 3.2.7 is an administrative application-documentation rule. It is conditional ('where applicable'), no restriction on use is identified for the product, and it sets no engineering constraint."
+  },
+  {
+    "id": "P00409",
+    "decision": "unresolved",
+    "reason": "Paragraph 3.2.10 applies only if the ESA is (part of) a light source. The spec lists LED modules on a PCB but does not say whether they are light sources under Regulation 37, 99 or 128, so applicability cannot be decided. The source offers (a) and (b) as alternatives."
+  },
+  {
+    "id": "P00410",
+    "decision": "keep",
+    "reason": "Paragraph 6.1.1 is a general design, construction and fitting obligation that applies to ESAs and is supported by the source."
+  },
+  {
+    "id": "P00411",
+    "decision": "keep",
+    "reason": "Paragraph 6.5.1 requires the ESA's electromagnetic radiation to be measured by the Annex 7 method. This is a source-supported test method obligation."
+  },
+  {
+    "id": "P00412",
+    "decision": "keep",
+    "reason": "Paragraph 6.5.2.2 requires measured values in dB microvolts/m to be below the type approval limits. The limits are given in 6.5.2.1 and Appendix 6."
+  },
+  {
+    "id": "P00413",
+    "decision": "keep",
+    "reason": "Paragraph 6.6.1 requires measurement by the Annex 8 method. This is a source-supported test method obligation."
+  },
+  {
+    "id": "P00414",
+    "decision": "keep",
+    "reason": "Paragraph 6.6.2.2 requires the measured narrowband value in dB microvolts/m to be below the type approval limits, as the source states."
+  },
+  {
+    "id": "P00415",
+    "decision": "keep",
+    "reason": "Paragraph 6.7.1 requires testing by ISO 7637-2 per Annex 10 at the Table 1 levels. The exemption cited (6.10.5) is not in the supplied text, so that caveat is unverified, but the core obligation is supported."
+  },
+  {
+    "id": "P00416",
+    "decision": "keep",
+    "reason": "Table 1 gives maximum pulse amplitudes by supply voltage: 12 V is +75 V and -100 V, and 24 V is +150 V and -450 V. The values match the source, and the applicable column depends on the vehicle supply voltage."
+  },
+  {
+    "id": "P00417",
+    "decision": "keep",
+    "reason": "Paragraph 6.8.1 requires immunity testing by method(s) chosen from Annex 9. The stated exemption for ESAs with no immunity-related functions is not in the supplied text, but the core obligation is supported."
+  },
+  {
+    "id": "P00418",
+    "decision": "keep",
+    "reason": "Paragraph 6.8.2.1 and Table 2a give the test levels over more than 90 per cent of 20 to 6,000 MHz. The values in the proposal match the source."
+  },
+  {
+    "id": "P00419",
+    "decision": "keep",
+    "reason": "Paragraph 6.8.2.1 and Table 2b give the minimum test levels over the whole 20 to 6,000 MHz band. The values in the proposal match the source."
+  },
+  {
+    "id": "P00420",
+    "decision": "keep",
+    "reason": "Paragraph 6.8.2.2 requires no degradation of performance of immunity-related functions during the Annex 9 tests."
+  },
+  {
+    "id": "P00421",
+    "decision": "keep",
+    "reason": "Paragraph 6.9.1 requires the starting profile to be tested per ISO 16750-2 and pulses 1, 2a, 2b, 3a and 3b per ISO 7637-2 (Annex 10), at the Table 3a and 3b levels."
+  },
+  {
+    "id": "P00422",
+    "decision": "keep",
+    "reason": "Paragraph 6.9.1 and Table 3b support the FPSC classification and pulse levels, including numbers of pulses, durations and the two FPSC columns. All values match the source."
+  },
+  {
+    "id": "P00423",
+    "decision": "keep",
+    "reason": "Table 3a and the note in 6.9.1 support the starting profile requirements: level II, 10 pulses, and status B, C or D. The profile applies only if the ESA could be installed in an ICE vehicle with a 12/24 V starter. The spec does not state the powertrain, so this stays conditional, and a conditional obligation is still valid."
+  },
+  {
+    "id": "P00424",
+    "decision": "keep",
+    "reason": "Paragraph 9.1 requires manufacture to conform to the approved type by meeting paragraph 6 and, if applicable, paragraph 7. Paragraph 7 covers the REESS grid-charging configuration, which the rear lamp does not have."
+  },
+  {
+    "id": "P00425",
+    "decision": "keep",
+    "reason": "Paragraph 9.2 ties conformity-of-production checks to the Annex 3A/3B communication form data, so it constrains manufacturing conformity. The product's approval data are not specified and remain a gap."
+  },
+  {
+    "id": "P00426",
+    "decision": "keep",
+    "reason": "Paragraph 9.3.1 deems production conforming for broadband and narrowband disturbances if levels exceed the reference limits by no more than 4 dB (60 per cent). It applies when the authority is not satisfied with the manufacturer's checks (9.3)."
+  },
+  {
+    "id": "P00427",
+    "decision": "keep",
+    "reason": "Paragraph 9.3.2 supports the immunity conformity criterion: no driver-observable degradation relating to direct control of the vehicle, with the vehicle in the Annex 6 paragraph 4 state and a field strength up to 80 per cent of the reference limits. It applies under 9.3."
+  },
+  {
+    "id": "P00428",
+    "decision": "drop",
+    "reason": "The 80 per cent field strength is already included in P00427 from the same clause 9.3.2, so this proposal duplicates it."
+  },
+  {
+    "id": "P00429",
+    "decision": "keep",
+    "reason": "Paragraph 9.3.3 supports deeming production conforming for conducted immunity if immunity-related functions show no degradation up to the 6.9.1 levels. It applies under 9.3."
+  },
+  {
+    "id": "P00430",
+    "decision": "keep",
+    "reason": "Paragraph 9.3.3 also requires that the component or STU emission not exceed the 6.7.1 levels. It applies under 9.3."
+  },
+  {
+    "id": "P00431",
+    "decision": "keep",
+    "reason": "Appendix 6 gives E = 62 - 25.13 log(F/30) for 30 to 75 MHz at a 120 kHz bandwidth, referenced from 6.5.2.1. It is conditional on assessment with the Annex 7 method, and the formula matches the source."
+  },
+  {
+    "id": "P00432",
+    "decision": "keep",
+    "reason": "C04556 gives E = 52 + 15.13 log(F/75) for 75-400 MHz at 120 kHz. The proposal is conditional on ESA assessment by the Annex 7 broadband method, and that condition is preserved."
+  },
+  {
+    "id": "P00433",
+    "decision": "keep",
+    "reason": "C04556 gives a constant 63 dBµV/m for 400-1,000 MHz at 120 kHz. The condition is preserved."
+  },
+  {
+    "id": "P00434",
+    "decision": "keep",
+    "reason": "C04557 gives E = 52 - 25.13 log(F/30) for 30-75 MHz at 120 kHz under the Annex 8 narrowband method. Conditional but source-supported."
+  },
+  {
+    "id": "P00435",
+    "decision": "keep",
+    "reason": "C04557 gives E = 42 + 15.13 log(F/75) for 75-400 MHz at 120 kHz. Matches the source."
+  },
+  {
+    "id": "P00436",
+    "decision": "keep",
+    "reason": "C04557 gives a constant 53 dBµV/m for 400-1,000 MHz at 120 kHz. Matches the source."
+  },
+  {
+    "id": "P00437",
+    "decision": "keep",
+    "reason": "C04814 requires the Annex 7 test to follow CISPR 25 unless the Annex states otherwise. Applies to the lamp when assessed as an ESA."
+  },
+  {
+    "id": "P00438",
+    "decision": "keep",
+    "reason": "C04816 requires normal operation mode, preferably at maximum load. The source wording is preserved, including 'preferably'."
+  },
+  {
+    "id": "P00439",
+    "decision": "keep",
+    "reason": "C04816 states the ESA should be tested at rated current when no REESS is used. The source's 'should' is preserved, and this applies to a lamp with no REESS."
+  },
+  {
+    "id": "P00440",
+    "decision": "keep",
+    "reason": "C04818 requires the ALSE method of CISPR 25 Clause 6.4 for ESAs not involved in REESS charging mode. A rear lamp falls in that group."
+  },
+  {
+    "id": "P00441",
+    "decision": "keep",
+    "reason": "C04827 allows an OATS as an alternative to an ALSE, and the OATS must comply with CISPR 16-1-4. The proposal states the conditional constraint without making OATS mandatory."
+  },
+  {
+    "id": "P00442",
+    "decision": "keep",
+    "reason": "C04828 requires an ambient measurement before or after the main test, with extraneous noise at least 6 dB below the limits of 6.5.2.1, excluding intentional narrowband ambient transmissions. Matches the source."
+  },
+  {
+    "id": "P00443",
+    "decision": "keep",
+    "reason": "C04830 states the limits apply throughout 30-1,000 MHz for ALSE or OATS measurements."
+  },
+  {
+    "id": "P00444",
+    "decision": "keep",
+    "reason": "C04831 allows quasi-peak or peak detectors, the limits are quasi-peak, and peak detectors need a 20 dB correction per CISPR 12. Matches the source."
+  },
+  {
+    "id": "P00445",
+    "decision": "keep",
+    "reason": "C04832 requires a spectrum analyser or scanning receiver with the parameters of Tables 1 and 2."
+  },
+  {
+    "id": "P00446",
+    "decision": "keep",
+    "reason": "C04832 sets conditions for FFT-based instruments: CISPR 16-1-1 compliance, continuous recording, and a minimum of 1 s per band in real-time mode."
+  },
+  {
+    "id": "P00447",
+    "decision": "keep",
+    "reason": "C04833 Table 1 gives the 30-1,000 MHz values: peak RBW 100/120 kHz with 100 ms/MHz, and quasi-peak RBW 120 kHz with 20 s/MHz. Matches the source."
+  },
+  {
+    "id": "P00448",
+    "decision": "keep",
+    "reason": "The Table 1 note in C04833 requires a video bandwidth of at least three times the RBW for spectrum analyser peak measurements."
+  },
+  {
+    "id": "P00449",
+    "decision": "keep",
+    "reason": "C04834 Table 2 gives BW 120 kHz, maximum step 60 kHz, dwell 5 ms for peak and 1 s for quasi-peak over 30-1,000 MHz. Matches the source."
+  },
+  {
+    "id": "P00450",
+    "decision": "keep",
+    "reason": "Footnote a of C04834 allows the step size to be increased to no more than the bandwidth for purely broadband disturbances. It is kept as a conditional exception to the Table 2 step-size limit, still expressed as a permission."
+  },
+  {
+    "id": "P00451",
+    "decision": "keep",
+    "reason": "C04835 sets the configuration with the LV harness closer to the antenna, unless otherwise specified, and antenna phase centre alignment up to 1,000 MHz."
+  },
+  {
+    "id": "P00452",
+    "decision": "keep",
+    "reason": "C04835 sets the test intervals per CISPR 12 over 30-1,000 MHz. It also gives the alternative 14-band approach, which depends on ISO 17025 accredited data recognised by the authority; this is a single requirement with its exception."
+  },
+  {
+    "id": "P00453",
+    "decision": "keep",
+    "reason": "C04835 requires investigation to confirm that any limit exceedance is due to the ESA and not to background radiation."
+  },
+  {
+    "id": "P00454",
+    "decision": "keep",
+    "reason": "C04836 states the maximum reading relative to the limit in each of the 14 bands, across both polarizations, is the characteristic reading."
+  },
+  {
+    "id": "P00455",
+    "decision": "keep",
+    "reason": "C04842 requires the Annex 8 narrowband test to follow CISPR 25 unless the Annex states otherwise. Applies conditionally to the lamp assessed as an ESA."
+  },
+  {
+    "id": "P00456",
+    "decision": "keep",
+    "reason": "Annex 8 para 2 states this directly and it applies to the ESA under test. The 'preferably' qualifier is preserved."
+  },
+  {
+    "id": "P00457",
+    "decision": "keep",
+    "reason": "Annex 8 para 3.1 requires the ALSE method of CISPR 25 para 6.4. This is a necessary test-method obligation."
+  },
+  {
+    "id": "P00458",
+    "decision": "keep",
+    "reason": "Para 3.2 permits an OATS as an alternative. The proposal states only the conditional obligation that an OATS used must comply with CISPR 16-1-4, and does not make the OATS mandatory."
+  },
+  {
+    "id": "P00459",
+    "decision": "keep",
+    "reason": "Para 3.3 requires ambient measurements before or after the main test to ensure no extraneous noise or signal materially affects the measurement."
+  },
+  {
+    "id": "P00460",
+    "decision": "keep",
+    "reason": "Para 3.3 requires ambient noise at least 6 dB below the para 6.6.2.1 limits, except for intentional narrowband ambient transmissions. The supplied context gives the limits."
+  },
+  {
+    "id": "P00461",
+    "decision": "keep",
+    "reason": "Para 4.1 gives the 30 to 1,000 MHz range for ALSE or OATS measurements."
+  },
+  {
+    "id": "P00462",
+    "decision": "keep",
+    "reason": "Para 4.2 requires an average detector."
+  },
+  {
+    "id": "P00463",
+    "decision": "keep",
+    "reason": "Para 4.3 requires a spectrum analyser or scanning receiver using the parameters in Tables 1 and 2."
+  },
+  {
+    "id": "P00464",
+    "decision": "keep",
+    "reason": "Para 4.3 supports both statements: continuous record and evaluation for FFT instruments, and the CISPR 16-1-1 condition for conformity measurements."
+  },
+  {
+    "id": "P00465",
+    "decision": "keep",
+    "reason": "Para 4.3 sets a minimum of 1 s per analysis frequency band when FFT instruments are used. The proposal is conditional on FFT use."
+  },
+  {
+    "id": "P00466",
+    "decision": "keep",
+    "reason": "Table 1 gives RBW at -3 dB of 100/120 kHz for the average detector over 30 to 1,000 MHz. The values are legible despite the table review flags."
+  },
+  {
+    "id": "P00467",
+    "decision": "keep",
+    "reason": "Table 1 gives a minimum scan time of 100 ms/MHz for the 30 to 1,000 MHz average detector."
+  },
+  {
+    "id": "P00468",
+    "decision": "keep",
+    "reason": "The Table 1 note requires video bandwidth of at least three times RBW when a spectrum analyser is used for peak measurements. The proposal is conditional."
+  },
+  {
+    "id": "P00469",
+    "decision": "keep",
+    "reason": "Table 2 gives bandwidth at -6 dB of 120 kHz for a scanning receiver with an average detector over 30 to 1,000 MHz."
+  },
+  {
+    "id": "P00470",
+    "decision": "keep",
+    "reason": "Table 2 gives a maximum step size of 60 kHz."
+  },
+  {
+    "id": "P00471",
+    "decision": "keep",
+    "reason": "Table 2 gives a minimum dwell time of 5 ms."
+  },
+  {
+    "id": "P00472",
+    "decision": "keep",
+    "reason": "Para 4.4 requires testing at CISPR 12 intervals across 30 to 1,000 MHz. The 14-band route is correctly stated as optional, conditional on accredited laboratory data recognised by the Type Approval Authority. The CISPR 12 intervals themselves are an external standard and are not supplied."
+  },
+  {
+    "id": "P00473",
+    "decision": "keep",
+    "reason": "Para 4.4 requires investigation, when the limit is exceeded, that the exceedance is due to the ESA and not to background radiation."
+  },
+  {
+    "id": "P00474",
+    "decision": "keep",
+    "reason": "Para 4.5 states how readings are taken when the 14-band approach is used. The proposal is conditional on that approach."
+  },
+  {
+    "id": "P00475",
+    "decision": "unresolved",
+    "reason": "Annex 9 para 1.2.1 is a manufacturer's permission to combine methods. The operative obligation is coverage of the full range in Annex 9 para 3.1, which is not in the supplied sources, so the range cannot be verified."
+  },
+  {
+    "id": "P00476",
+    "decision": "keep",
+    "reason": "Para 1.2.1 states that frequency range and general test conditions shall be based on ISO 11452-1."
+  },
+  {
+    "id": "P00477",
+    "decision": "keep",
+    "reason": "Annex 9 para 2.1 requires test conditions according to ISO 11452-1."
+  },
+  {
+    "id": "P00478",
+    "decision": "keep",
+    "reason": "Annex 9 para 2.2 requires the ESA to be switched on, stimulated to normal operation and arranged as defined in the Annex, unless individual test methods dictate otherwise."
+  },
+  {
+    "id": "P00479",
+    "decision": "keep",
+    "reason": "Annex 9 para 2.4 requires extraneous equipment needed to operate the ESA to be absent during calibration. The additional 1 m clearance in the same paragraph is not captured by the proposal but does not contradict it."
+  },
+  {
+    "id": "P00480",
+    "decision": "unresolved",
+    "reason": "Calibration rule from UN R10 Annex 9. The spec does not say the rear lamp is an ESA, or that an R10 Annex 9 immunity test applies to it."
+  },
+  {
+    "id": "P00481",
+    "decision": "unresolved",
+    "reason": "Test-setup consistency rule from UN R10 Annex 9. It applies only if the rear lamp is an ESA tested under Annex 9, and the spec does not establish that."
+  },
+  {
+    "id": "P00482",
+    "decision": "unresolved",
+    "reason": "Applies only to a multi-unit ESA without the intended harness. The spec describes a single housing and gives no ESA or R10 architecture. 'AN' and the 'standard' cable length are undefined in the supplied text."
+  },
+  {
+    "id": "P00483",
+    "decision": "unresolved",
+    "reason": "UN R10 Annex 9 frequency range. Whether the rear lamp is an ESA subject to Annex 9 immunity testing is not stated in the spec."
+  },
+  {
+    "id": "P00484",
+    "decision": "unresolved",
+    "reason": "AM modulation for 20-400 MHz is source-supported, with the 'unless otherwise agreed' exception preserved. Its applicability to this product depends on the ESA/R10 status, which is not established."
+  },
+  {
+    "id": "P00485",
+    "decision": "unresolved",
+    "reason": "PM2 modulation for 2,700-3,100 MHz is source-supported. Its applicability depends on the ESA/R10 status of the rear lamp, which is not established."
+  },
+  {
+    "id": "P00486",
+    "decision": "unresolved",
+    "reason": "PM3 modulation for 380-2,700 and 3,100-6,000 MHz is source-supported. Its applicability depends on the ESA/R10 status of the rear lamp, which is not established."
+  },
+  {
+    "id": "P00487",
+    "decision": "unresolved",
+    "reason": "Step size and dwell time per ISO 11452-1 are source-supported. Applicability to this product depends on the ESA/R10 status, which is not established."
+  },
+  {
+    "id": "P00488",
+    "decision": "unresolved",
+    "reason": "The source supports testing at ISO 11452-1 intervals over 20-6,000 MHz, and the reduced-spot-frequency alternative is correctly not mandatory. Applicability depends on the ESA/R10 status, which is not established."
+  },
+  {
+    "id": "P00489",
+    "decision": "unresolved",
+    "reason": "Failure-verification rule is source-supported but applies only to an ESA tested under Annex 9. The spec does not establish that status."
+  },
+  {
+    "id": "P00490",
+    "decision": "unresolved",
+    "reason": "Absorber chamber method (substitution method, ISO 11452-2) is source-supported. Whether the rear lamp is tested this way is not established, because the ESA/R10 status and chosen test route are unknown."
+  },
+  {
+    "id": "P00491",
+    "decision": "unresolved",
+    "reason": "Vertical polarization for the absorber chamber test is source-supported. Applicability depends on the ESA/R10 status and the chosen test route, which are not established."
+  },
+  {
+    "id": "P00492",
+    "decision": "unresolved",
+    "reason": "TEM cell test per ISO 11452-3 is source-supported. Applicability depends on the ESA/R10 status and the chosen test route, which are not established."
+  },
+  {
+    "id": "P00493",
+    "decision": "unresolved",
+    "reason": "BCI test method is source-supported, and the in-vehicle alternative is correctly not mandatory. Applicability depends on the ESA/R10 status and the chosen test route, which are not established."
+  },
+  {
+    "id": "P00494",
+    "decision": "keep",
+    "reason": "UN R26 5.2 supports this for the exterior of an M1 vehicle, and the rear lamp is an external-surface component. The exclusion under 5.1 is preserved. The 5.1 list is not in the supplied text, but the exception is stated."
+  },
+  {
+    "id": "P00495",
+    "decision": "keep",
+    "reason": "UN R26 5.3 supports this for the external surface of an M1 vehicle, which includes the rear lamp. The 5.1 exclusion is preserved."
+  },
+  {
+    "id": "P00496",
+    "decision": "keep",
+    "reason": "UN R26 5.4 supports the 2.5 mm minimum radius of curvature for protruding external-surface parts. It applies to the rear lamp as an external part, with the 5.1 exclusion preserved."
+  },
+  {
+    "id": "P00497",
+    "decision": "keep",
+    "reason": "UN R26 5.4 supports the exemption for parts protruding less than 5 mm, with blunted outward-facing angles required unless the part protrudes less than 1.5 mm."
+  },
+  {
+    "id": "P00498",
+    "decision": "keep",
+    "reason": "UN R26 5.5 supports measuring hardness with the component installed on the vehicle, and using comparable measurements where Shore A is impossible. It applies conditionally to a protruding part relying on the 60 Shore A relaxation."
+  },
+  {
+    "id": "P00499",
+    "decision": "drop",
+    "reason": "This is only a linkage rule saying 5.1-5.5 apply alongside paragraph 6. It adds no independent engineering obligation, duplicates the substantive 5.2-5.5 requirements, and paragraph 6 was not supplied."
+  }
+]

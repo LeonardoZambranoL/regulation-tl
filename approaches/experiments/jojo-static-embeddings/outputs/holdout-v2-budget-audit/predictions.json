@@ -1,0 +1,4736 @@
+{
+  "team_id": "jojo-static-embeddings",
+  "case_id": "holdout-acpe",
+  "requirements": [
+    {
+      "id": "P00000",
+      "text": "Every vehicle conforming to a vehicle type approved under UN R175 shall carry an international approval mark conforming to the Annex 2 model, affixed conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "P00001",
+      "text": "The approval mark shall include a circle surrounding the letter \"E\" followed by the distinguishing number of the country that granted the approval.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "P00002",
+      "text": "The approval mark shall include the number of UN R175, followed by the letter \"R\", a dash and the approval number, placed to the right of the circle with the letter \"E\".",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "P00003",
+      "text": "Where the vehicle also conforms to a type approved under one or more other Regulations in the country that granted approval under UN R175, the circle-E symbol need not be repeated. In that case, the Regulation numbers, approval numbers and additional symbols shall be placed in vertical columns to the right of the circle-E symbol.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 3,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "P00004",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "P00005",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "P00006",
+      "text": "The performance requirements of paragraph 5.1 apply to a vehicle with no trailer coupled, with a mass between maximum mass and mass in running order, and whose powertrain management system is properly operational.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "P00007",
+      "text": "The ACPE shall be able to limit unintended acceleration when an accelerator control misapplication by the driver has been detected and an obstacle exists in front of the vehicle while the forward driving direction is selected.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00008",
+      "text": "The ACPE shall be able to limit unintended acceleration when an accelerator control misapplication by the driver has been detected and an obstacle exists behind the vehicle while the rearward driving direction is selected.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00009",
+      "text": "An accelerator control application with a velocity of at least 400 per cent per second over a travel distance of at least 70 per cent of total accelerator control travel, and reaching a maximum position of at least 90 per cent at that velocity, shall be regarded as an accelerator control misapplication for the purposes of paragraph 5.1.1.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "P00012",
+      "text": "The ACPE shall control acceleration when the vehicle is accelerated from standstill.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "P00013",
+      "text": "If the ACPE is not ready to perform an intervention 6 seconds after initiation of the vehicle powertrain, this status shall be indicated to the driver, and the information shall persist until the system has been successfully initialised.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "id": "P00014",
+      "text": "The ACPE shall limit vehicle acceleration to prevent or mitigate a collision with an obstacle located between 1.0 m and 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the accelerator control is applied. This applies provided the stated conditions hold: (a) external influences allow the inhibition (flat, horizontal, dry road with good adhesion; weather not affecting vehicle performance, e.g. no storm, not below 0°C); (b) vehicle state allows it (tyres in appropriate state and properly inflated; brakes, if intended to be used, properly operational; no severe uneven load; no trailer and mass between maximum mass and mass in running order; powertrain management system properly operational); (c) no external influences affect sensing (ambient illumination of at least 1000 Lux and no extreme sensor blinding; target not extreme in RCS or silhouette, e.g. below the fifth percentile of RCS of M1 vehicles; no significant weather affecting sensing such as heavy rain, dense fog, snow or dirt; no overhead obstructions close to the vehicle); (d) the situation is unambiguous (obstacle stationary, unobstructed and clearly separated from other objects in the driving direction; lateral offset between obstacle and vehicle centrelines not more than 0.2 m; straight travel following its lane, not turning at an intersection; obstacle is an M1 vehicle or a wall-like structure at least 2.0 m wide and at least 1.0 m high).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "P00015",
+      "text": "When conditions deviate from those listed in paragraph 5.1.5, the system shall not deactivate or unreasonably switch its control strategy.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "P00016",
+      "text": "The manufacturer shall demonstrate, in accordance with Annex 3 of the Regulation, that the system does not deactivate or unreasonably switch control strategy when conditions deviate. Annex 3 content is not supplied. If deemed justified, the Technical Service may follow this with testing under deviating conditions.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "P00017",
+      "text": "If a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the vehicle speed at the point where the triggering conditions of paragraph 5.1.2 are met.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "P00018",
+      "text": "If a collision is not prevented, the collision speed shall also not be greater than 70% of the speed the vehicle would have had in the same position and under the same circumstances without any ACPE intervention.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "P00019",
+      "text": "For vehicles that do not exceed 8 km/h without ACPE in the test scenarios but cannot achieve a 30 per cent speed reduction due to a low engine power to test mass ratio, the speed reduction shall be at least 15 per cent.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "id": "P00021",
+      "text": "The manufacturer shall declare the ACPE continuation conditions to the technical service.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "P00022",
+      "text": "The effectiveness of ACPE shall not be adversely affected by magnetic or electrical fields.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "P00023",
+      "text": "This shall be demonstrated by fulfilling the technical requirements and respecting the transitional provisions of the 06 or later series of amendments to UN Regulation No. 10. The UN R10 text is not supplied.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "P00024",
+      "text": "Conformity with the safety aspects of electronic control systems shall be shown by meeting the requirements of Annex 3 (content not supplied).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "P00025",
+      "text": "The ACPE shall inform the driver of its intervention in accordance with paragraph 5.4.2. Per 5.4.2, this means an optical warning signal plus a haptic or acoustic signal, unless such a signal is already provided by another vehicle system with object detection capability. The optical signal may be the flashing of the failure warning signal. The manufacturer shall provide a description of the warning indication at type-approval, to be recorded in the test report.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "P00026",
+      "text": "The ACPE shall provide a means for the driver to interrupt its intervention.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.1"
+      }
+    },
+    {
+      "id": "P00027",
+      "text": "The interruption shall be started by any intentional action that indicates the driver has recognised the situation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.1"
+      }
+    },
+    {
+      "id": "P00028",
+      "text": "When the driver interrupts the intervention by maintaining the accelerator control application, there shall be no rapid increase of acceleration.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.11.2"
+      }
+    },
+    {
+      "id": "P00029",
+      "text": "Verify the ACPE performance requirements of paragraph 5.1 using the test procedure described in section 6 of UN R175.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.1.12"
+      }
+    },
+    {
+      "id": "P00030",
+      "text": "Where the vehicle has a means to manually deactivate the ACPE, the ACPE shall be automatically reinstated at the initiation of any new engine start (or run cycle, as relevant). This does not apply when the new engine start or run cycle is performed automatically, e.g. by a stop/start system.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "P00031",
+      "text": "A deactivation warning shall be given to the driver at least at the time of manual deactivation of the ACPE.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "P00032",
+      "text": "Give the driver a failure warning when there is a failure in the ACPE that prevents the requirements of the Regulation being met. The warning shall be as specified in paragraph 5.4.3 (constant yellow optical signal).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "P00033",
+      "text": "The ACPE shall not have an appreciable time interval between each self-check.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "P00034",
+      "text": "For an electrically detectable failure there shall be no delay in illuminating the warning signal. Exception: if the vehicle speed is greater than 10 km/h when the failure is detected, the warning signal may be suppressed until the next time the vehicle speed is below 10 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "P00035",
+      "text": "Give the driver a failure warning when a non-electrical failure condition is detected (e.g. sensor blindness or sensor misalignment), unless a deactivation warning is given as per paragraph 5.2.3.1.3.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "P00036",
+      "text": "ACPE optical warning signals shall be visible even in daylight.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "P00037",
+      "text": "The satisfactory condition of the optical warning signals shall be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "P00038",
+      "text": "Each ACPE optical warning signal shall be activated when the engine start (or run) switch is turned to the \"on\" (run) position, or when it is in a manufacturer-designated check position between \"on\" (run) and \"start\" (initial power-on). This does not apply to warning signals shown in a common space.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "P00040",
+      "text": "The ACPE failure warning shall be a constant yellow optical signal.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "P00041",
+      "text": "It shall be possible at a Periodic Technical Inspection to confirm the correct operational status of the ACPE by visible observation of the failure warning signal status.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "P00042",
+      "text": "Following a power-ON and any bulb check, the failure warning signal shall remain illuminated if any failure was present at the end of the previous engine start (or run) cycle, unless the failure is detected to be no longer present.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "P00043",
+      "text": "At type approval, the manufacturer shall confidentially outline the means chosen to protect the operation of the ACPE failure warning signal against simple unauthorised modification. This is also fulfilled if a secondary means of checking the correct operational status of the ACPE is available.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "P00044",
+      "text": "ACPE tests shall be performed on a flat, dry, concrete or asphalt road affording good adhesion.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "P00045",
+      "text": "The test surface shall have a consistent slope between level and 1 per cent.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 7,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "P00047",
+      "text": "The horizontal visibility range shall allow the target to be observed throughout the test.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "P00048",
+      "text": "Tests shall be performed when there is no wind liable to affect the results.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.1.5"
+      }
+    },
+    {
+      "id": "P00049",
+      "text": "Natural ambient illumination in the test area shall be homogeneous and above 1000 lux. Testing shall not be performed while driving towards, or away from, the sun at a low angle.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.1.6"
+      }
+    },
+    {
+      "id": "P00050",
+      "text": "If tests are conducted under deviating (suboptimal) test conditions at the manufacturer's request and with Technical Service agreement, the ACPE performance requirements shall still be met.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.1.7"
+      }
+    },
+    {
+      "id": "P00051",
+      "text": "Vehicle speed shall be measured with an accuracy of ±0.1 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "P00052",
+      "text": "Vehicle position shall be measured with an accuracy of ±0.03 m.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "P00053",
+      "text": "Where accelerator control force is measured (if applicable), it shall be measured with an accuracy of ±1 N.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "P00054",
+      "text": "Accelerator control position shall be measured with an accuracy of ±1%. At the manufacturer's choice, the measurement may be taken from the vehicle's own position sensor.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "P00055",
+      "text": "Test measurements shall be recorded at a frequency of at least 100 Hz.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.2.5"
+      }
+    },
+    {
+      "id": "P00056",
+      "text": "If the manufacturer requests pre-test conditioning (up to 100 km driving to initialise the sensor system and/or brake bedding-in), the details of the strategy shall be identified and recorded in the type approval documentation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "P00057",
+      "text": "Before any testing it shall be ensured that the ACPE is switched on and ready to function.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "P00058",
+      "text": "The vehicle shall be tested at the minimum mass (mass in running order plus an additional mass of maximum 125 kg).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "P00059",
+      "text": "If the technical service deems it justified, it may test at any other mass up to the manufacturer's technically permissible maximum laden mass; the ACPE would then be expected to meet the requirements at that mass.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "P00060",
+      "text": "No alteration of the test mass shall be made once the test procedure has begun.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "P00061",
+      "text": "The target for vehicle detection tests shall be a regular high-volume series production M1 passenger car or, at the manufacturer's choice, a soft target representative of a passenger vehicle in terms of identification characteristics applicable to the ACPE sensor system, per ISO 19206-1:2018 or ISO 19206-3:2021.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "P00062",
+      "text": "In the misapplication test the lateral offset between the target centreline and the vehicle centreline shall be between 0.0 m and 0.2 m.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "P00063",
+      "text": "The misapplication test shall be performed with and without an expected ACPE intervention, in both forward and rearward directions, and at least with the vehicle at 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) from the target position at the start (per Table 1).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 8,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "P00065",
+      "text": "Position the vehicle at the distance to the target or speed measurement point defined in Table 1.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00066",
+      "text": "Hold the vehicle stationary and select the corresponding driving direction.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00067",
+      "text": "Accelerate the vehicle with steering in neutral by operating the accelerator control to achieve the triggering conditions of paragraph 5.1.2 (accelerator control misapplication) before the vehicle reaches 0.5 km/h.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00068",
+      "text": "Record the speed at the collision point (if applicable) or the speed at the respective speed measurement point.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00069",
+      "text": "The ACPE must meet the paragraph 5.1 performance requirements in the paragraph 6.5 accelerator control misapplication tests in any test condition within paragraph 5.1 that the Technical Service chooses to test. That covers a vehicle with no trailer coupled, at a mass between maximum mass and mass in running order, with the powertrain management system properly operational. The Technical Service tests at its discretion, when it deems this justified.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 9,
+        "paragraph": "6.6"
+      }
+    },
+    {
+      "id": "P00070",
+      "text": "Each production vehicle approved under this Regulation, including its ACPE, must be manufactured to conform to the approved type by meeting the performance requirements of paragraph 5.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 10,
+        "paragraph": "8.2"
+      }
+    },
+    {
+      "id": "P00072",
+      "text": "Documentation, fault strategy and verification information for the ACPE electronic system shall be disclosed to the Technical Service for type approval purposes. The annex sets the methodology applied to the design process, not the performance criteria.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "P00073",
+      "text": "The disclosed information shall show that the ACPE system respects all appropriate performance requirements of the Regulation under both non-fault and fault conditions.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "P00074",
+      "text": "The ACPE system shall be designed to operate in such a way that it does not induce safety critical risks.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "P00075",
+      "text": "Manufacturer shall provide a documentation package giving access to the basic design of the ACPE system and how it is linked to other vehicle systems or directly controls output variables, and shall explain the function(s) and the manufacturer's safety concept.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "P00076",
+      "text": "The documentation shall be brief but evidence that design and development drew on expertise from all involved system fields. For periodic technical inspections it shall describe how the current operational status of the system can be checked.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "P00077",
+      "text": "The system shall be designed to operate under non-fault and fault conditions without inducing safety-critical risks.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "P00078",
+      "text": "The system shall respect, under non-fault and fault conditions, all the appropriate performance requirements specified elsewhere in the Regulation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "P00079",
+      "text": "The system shall be developed according to the development process/method declared by the manufacturer, which the Technical Service assesses via the documentation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 13,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "P00081",
+      "text": "The manufacturer shall retain the additional material and analysis data of paragraph 3.4.4, open for inspection at type approval, and keep it available for 10 years from the time production of the vehicle is definitely discontinued.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.1.1"
+      }
+    },
+    {
+      "id": "P00082",
+      "text": "Provide a description giving a simple explanation of all control functions of the system and methods employed to achieve the objectives, including the mechanism(s) by which control is exercised.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "P00083",
+      "text": "Where any described function can be over-ridden, identify it and describe the changed rationale of its operation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "P00084",
+      "text": "Provide a list of all input and sensed variables and define their working range.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.2.1"
+      }
+    },
+    {
+      "id": "P00087",
+      "text": "Provide a list of all units of the system and the other vehicle systems needed to achieve the control function, plus an outline schematic showing the units in combination with equipment distribution and interconnections clear.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.1"
+      }
+    },
+    {
+      "id": "P00088",
+      "text": "Outline the function of each unit of the system and show the signals linking it with other units or other vehicle systems, by block diagram or schematic, or description aided by a diagram.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.2"
+      }
+    },
+    {
+      "id": "P00089",
+      "text": "Show interconnections within the system by a circuit diagram for electric transmission links (and piping diagram or simplified mechanical layout only where pneumatic/hydraulic/mechanical links exist), and show transmission links to and from other systems.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.3"
+      }
+    },
+    {
+      "id": "P00090",
+      "text": "Ensure a clear correspondence between transmission links and the signals/operating data carried between units.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.4"
+      }
+    },
+    {
+      "id": "P00091",
+      "text": "State priorities of signals/operating data on multiplexed data paths wherever priority may affect performance or safety as far as the Regulation is concerned.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 14,
+        "paragraph": "Annex 3 3.3.4"
+      }
+    },
+    {
+      "id": "P00092",
+      "text": "Each unit shall be clearly and unambiguously identifiable (marking for hardware, marking or software output for software content) to associate hardware with documentation.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5"
+      }
+    },
+    {
+      "id": "P00093",
+      "text": "Where functions are combined in a single unit or computer but shown in multiple blocks in the diagram, use only a single hardware identification marking.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5"
+      }
+    },
+    {
+      "id": "P00094",
+      "text": "The manufacturer shall, by the identification, affirm that the supplied equipment conforms to the corresponding document.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5"
+      }
+    },
+    {
+      "id": "P00095",
+      "text": "The identification shall define the hardware and software version, and shall be changed when a software change alters the function of the unit as far as the Regulation is concerned.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.3.5.1"
+      }
+    },
+    {
+      "id": "P00096",
+      "text": "Provide a manufacturer statement affirming that the strategy chosen to achieve the system's objectives will not, under non-fault conditions, prejudice safe operation of the vehicle.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.1"
+      }
+    },
+    {
+      "id": "P00097",
+      "text": "For the system software, explain the outline architecture, identify the design methods and tools used, and show evidence of the means by which the realisation of the system logic was determined during design and development.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.2"
+      }
+    },
+    {
+      "id": "P00098",
+      "text": "Provide the Technical Service with an explanation of the design provisions built into the system to generate safe operation under fault conditions (e.g. partial-system fall-back, back-up system change-over, removal of the high level function).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "P00099",
+      "text": "In case of a failure the driver shall be warned (e.g. warning signal or message display).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "P00100",
+      "text": "When the system is not deactivated by the driver (ignition off or dedicated function switch), the warning shall be present as long as the fault condition persists.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "P00101",
+      "text": "If a partial performance mode under certain fault conditions is chosen, state those conditions and define the resulting limits of effectiveness.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3.1"
+      }
+    },
+    {
+      "id": "P00102",
+      "text": "If a second (back-up) means is chosen, explain the change-over mechanism principles, logic and level of redundancy and any built-in back-up checking, and define the resulting limits of back-up effectiveness.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3.2"
+      }
+    },
+    {
+      "id": "P00103",
+      "text": "If removal of the Higher Level Function is chosen, inhibit all corresponding output control signals in a manner limiting the transition disturbance.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.3.3"
+      }
+    },
+    {
+      "id": "P00104",
+      "text": "Support the documentation with an analysis showing in overall terms how the system behaves on any individual hazard or fault bearing on vehicle control performance or safety.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.4"
+      }
+    },
+    {
+      "id": "P00105",
+      "text": "The manufacturer shall establish and maintain the chosen analytical approach(es) and make them open for inspection by the Technical Service at type approval.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.4"
+      }
+    },
+    {
+      "id": "P00106",
+      "text": "Concept (vehicle) level safety approach shall consider interactions with other vehicle systems and be based on a Hazard/Risk analysis appropriate to system safety.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.4"
+      }
+    },
+    {
+      "id": "P00107",
+      "text": "System level safety approach shall be based on FMEA, FTA or a similar process appropriate to system safety.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.4"
+      }
+    },
+    {
+      "id": "P00108",
+      "text": "Validation plans and results shall be available for inspection, using e.g. HIL testing, vehicle on-road operational testing or other appropriate means, and shall be suitable and completed. The Technical Service may perform or require tests per paragraph 4 to verify the safety concept (paragraph 4 is not in the supplied targets).",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.4.4"
+      }
+    },
+    {
+      "id": "P00109",
+      "text": "The documentation shall itemize the monitored parameters and set out, for each fault condition of the type defined in paragraph 3.4.4, the warning signal given to the driver and/or service/technical inspection personnel.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 3.4.4.1"
+      }
+    },
+    {
+      "id": "P00110",
+      "text": "Document the measures ensuring the system does not prejudice safe vehicle operation when its performance is affected by environmental conditions, e.g. climatic, temperature, dust ingress, water ingress, ice packing.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 3.4.4.2"
+      }
+    },
+    {
+      "id": "P00111",
+      "text": "The ACPE function must be verifiable under non-fault conditions. Selected functions from those declared by the manufacturer in the documents of paragraph 3.2 must be demonstrable to the Technical Service.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.1"
+      }
+    },
+    {
+      "id": "P00112",
+      "text": "If the ACPE is a complex electronic system, its verification tests must include scenarios in which a declared function is overridden. The functions the manufacturer declares and what counts as an override are not specified for this product.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.1"
+      }
+    },
+    {
+      "id": "P00113",
+      "text": "The reaction of the ACPE system to a failure in an individual unit (for example a sensor, the control unit or the warning outputs) must be checkable by applying output signals to electrical units or mechanical elements that simulate the effects of internal faults within the unit.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.2"
+      }
+    },
+    {
+      "id": "P00114",
+      "text": "The fault-reaction check is conducted for at least one individual unit. The reaction to multiple simultaneous failures of individual units is not checked.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.2"
+      }
+    },
+    {
+      "id": "P00115",
+      "text": "The fault tests must cover aspects that may affect vehicle controllability and user information (HMI aspects). For the ACPE this includes driver warning and fault indication behaviour.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.2"
+      }
+    },
+    {
+      "id": "P00116",
+      "text": "The results of the fault verification tests must correspond with the documented summary of the failure analysis, to a level of overall effect that confirms the safety concept and its execution as adequate.",
+      "source": {
+        "regulation": "UN R175",
+        "version": "0.1.0",
+        "page": 16,
+        "paragraph": "Annex 3 4.1.2.1"
+      }
+    },
+    {
+      "id": "P00120",
+      "text": "The vehicle manufacturer shall provide evidence that vehicle performance, including the ACPE function, is not adversely affected by such RF transmitter installations.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 5,
+        "paragraph": "3.1.8"
+      }
+    },
+    {
+      "id": "P00121",
+      "text": "Where the vehicle type is approved under UN R10, an approval mark as described in paragraph 5.3 shall be affixed to every vehicle conforming to that type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "P00122",
+      "text": "The international approval mark shall be affixed on each vehicle conforming to the approved type, in a conspicuous and easily accessible place specified on the approval communication form.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "P00123",
+      "text": "The approval mark shall include a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "P00124",
+      "text": "The approval mark shall include the number of UN Regulation 10 followed by the letter \"R\", a dash and the approval number, placed to the right of the circle specified in paragraph 5.3.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "P00125",
+      "text": "The vehicle and its electrical/electronic systems or ESAs, including the ACPE sensors, camera, control unit and harness, shall be designed, constructed and fitted so that the vehicle, in normal conditions of use, complies with the requirements of UN R10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "P00126",
+      "text": "For vehicle type approval, the vehicle shall be tested for radiated emissions and for immunity to radiated disturbances. Tests for conducted emissions or conducted-disturbance immunity are not required for vehicle type approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "P00127",
+      "text": "Before EMC testing, a test plan shall be prepared with the manufacturer containing at least: mode of operation, stimulated function(s), monitored function(s), pass/fail criteria and intended emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "P00128",
+      "text": "The test plan shall define the minimum number of steady-state vehicle operating conditions, selectable by the driver or the control system, depending on the intended operating conditions of the propulsion system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "P00129",
+      "text": "The test conditions shall consider multiple propulsion system operating strategies that can be activated permanently by the driver or the vehicle control system. They shall be based on the documentation in Annexes 2A and 2B (e.g. risk analysis). That documentation is not supplied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "P00130",
+      "text": "Broadband electromagnetic radiation of the vehicle representative of its type shall be measured using the Annex 4 method (Annex 4 not supplied).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "P00131",
+      "text": "The method of measurement shall be defined by the vehicle manufacturer in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "P00132",
+      "text": "If Annex 4 measurements use a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the broadband limit is 32 dB µV/m in 30–75 MHz and 32 to 43 dB µV/m in 75–400 MHz, increasing logarithmically above 75 MHz as shown in Appendix 2 (Appendix 2 not supplied).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "P00133",
+      "text": "For 10 m antenna spacing, the broadband limit in the 400 to 1,000 MHz band remains constant at 43 dB µV/m. Above 75 MHz the limit follows Appendix 2 (not supplied).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "75"
+      }
+    },
+    {
+      "id": "P00134",
+      "text": "If Annex 4 measurements use a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the broadband limit is 42 dB µV/m in 30–75 MHz and 42 to 53 dB µV/m in 75–400 MHz, increasing logarithmically above 75 MHz as shown in Appendix 3 (not supplied). In 400–1,000 MHz the limit remains constant at 53 dB µV/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "P00135",
+      "text": "Measured vehicle broadband emission values, in dB µV/m, shall be below the applicable type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "P00136",
+      "text": "Narrowband electromagnetic radiation of the vehicle representative of its type shall be measured using the Annex 5 method (Annex 5 not supplied).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "P00137",
+      "text": "The measurement method details shall be defined by the vehicle manufacturer in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "P00138",
+      "text": "If Annex 5 measurements use a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the narrowband limit is 28 dB µV/m in 30–230 MHz and 35 dB µV/m in 230–1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "P00139",
+      "text": "If Annex 5 measurements use a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the narrowband limit is 38 dB µV/m in 30–230 MHz and 45 dB µV/m in 230–1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "P00140",
+      "text": "Measured vehicle narrowband emission values, in dB µV/m, shall be below the applicable type approval limit.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "P00141",
+      "text": "Immunity of the vehicle representative of its type to electromagnetic radiation shall be tested by the Annex 6 method (Annex 6 not supplied).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "P00142",
+      "text": "If the Annex 6 test is made per ISO 11451-2, the field strength shall be 30 V/m over more than 90% of the 20–2,000 MHz band and at least 25 V/m over the whole 20–2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "P00143",
+      "text": "If the Annex 6 test is made per ISO 11451-2, the field strength shall be 10 V/m over more than 90% of the 2,000–6,000 MHz band and at least 8 V/m over the whole 2,000–6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "P00144",
+      "text": "If the Annex 6 test is made per ISO 11451-4 BCI, the current shall be 60 mA over more than 90% of the 20–2,000 MHz band and at least 50 mA over the whole 20–2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "P00145",
+      "text": "During Annex 6 immunity tests there shall be no degradation of performance of the 'immunity related functions' as defined in Annex 6 para 2.1 (not supplied) for the vehicle to be considered compliant.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "P00146",
+      "text": "Measure the electromagnetic radiation generated by the ESA representative of its type using the method described in Annex 8 (narrowband emissions). The Annex 8 content is not supplied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "P00147",
+      "text": "When measured by the Annex 8 method, the ESA narrowband emission limits are 52 to 42 dB microvolts/m in 30-75 MHz (decreasing logarithmically with frequency above 30 MHz), 42 to 53 dB microvolts/m in 75-400 MHz (increasing logarithmically with frequency above 75 MHz, as shown in Appendix 7), and a constant 53 dB microvolts/m in 400-1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "P00148",
+      "text": "The measured narrowband emission value of the ESA representative of its type, in dB microvolts/m, must be below the type approval limits of 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "P00149",
+      "text": "Test the transient conducted emission of the ESA representative of its type according to ISO 7637-2 as described in Annex 10, against the pulse amplitude levels in Table 1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "P00150",
+      "text": "Transient conducted emission pulse amplitude must not exceed: for 12 V systems +75 V (positive) and -100 V (negative); for 24 V systems +150 V (positive) and -450 V (negative). The column applicable to the vehicle's system voltage must be used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00151",
+      "text": "Test the immunity to electromagnetic radiation of the ESA representative of its type using the method(s) chosen from those described in Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "P00152",
+      "text": "Test ESA immunity by the Annex 9 method(s) at the Table 2a severity levels over more than 90 per cent of the 20-6,000 MHz band: below 2 GHz, 60 V/m (stripline, 20-400 MHz), 75 V/m (TEM cell, 20-200 MHz), 60 mA (BCI, 20-400 MHz), 30 V/m (ALSE, 80-2,000 MHz), 21 V/m (reverberation chamber, LUF-2,000 MHz); above 2 GHz, 10 V/m (ALSE) and 7 V/m (reverberation chamber), 2,000-6,000 MHz; the other methods do not apply above 2 GHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "P00153",
+      "text": "Over the whole 20-6,000 MHz band the Table 2b minimum test levels apply: below 2 GHz, 50 V/m (stripline), 62.5 V/m (TEM cell), 50 mA (BCI), 25 V/m (ALSE), 18 V/m (reverberation chamber); above 2 GHz, 8 V/m (ALSE) and 6 V/m (reverberation chamber).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "P00154",
+      "text": "During the Annex 9 immunity tests there must be no degradation of performance of the ESA's \"immunity related functions\".",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "P00155",
+      "text": "Test the immunity of the ESA representative of its type to transient disturbances by ISO 16750-2 for the starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, at the test levels in Tables 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "P00156",
+      "text": "Test the starting profile (Table 3a: level II, 10 pulses) according to the functional status classification of ISO 16750-1: class B for ESAs related to immunity related functions that must be operational during engine start, class C for other ESAs related to immunity related functions, and class D for ESAs not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "P00157",
+      "text": "The starting profile test applies only to ESAs that could be installed in vehicles with internal combustion engines started by a 12 V/24 V starter motor, which may include the petrol and hybrid variants but not the battery-electric variants.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "P00158",
+      "text": "Apply the Table 3b test pulses with FPSC per ISO 7637-1. For 12 V / 24 V systems: pulse 1 -75 V / -450 V, 500 pulses; pulse 2a +37 V / +37 V, 500 pulses; pulse 2b +10 V / +20 V, 10 pulses; pulse 3a -112 V / -150 V, 1 h; pulse 3b +75 V / +150 V, 1 h. Required FPSC for ESAs related to immunity related functions: pulse 1 III, 2a I, 2b II, 3a I, 3b I. For ESAs not related to immunity related functions: III for all pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "P00159",
+      "text": "For vehicle variants that have a 'REESS charging mode coupled to the power grid' configuration, the vehicle and its electrical/electronic systems (including the ACPE-related electronics as fitted) must be designed, constructed and fitted so that the vehicle complies with UN R10 in that configuration.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "P00160",
+      "text": "For vehicle variants with a REESS charging mode coupled to the power grid, test the vehicle in that configuration for radiated emissions, immunity to radiated disturbances, conducted emissions and immunity to conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "7.1.1.1"
+      }
+    },
+    {
+      "id": "P00161",
+      "text": "For the 'REESS charging mode coupled to the power grid' configuration, a test plan must be prepared before testing (Technical Service with the manufacturer). It must contain at least mode of operation, stimulated function(s), monitored function(s), pass/fail criterion (criteria) and intended emissions. Depending on the available charging modes, it must define the minimum number of vehicle test conditions (selectable by the driver or the control system) and be based on the documentation in Annexes 2A and 2B (e.g. risk analysis).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "P00162",
+      "text": "A vehicle in the 'REESS charging mode coupled to the power grid' configuration should be tested with the charging harness delivered by the manufacturer, following the flowcharts in Annexes 4, 6, 11, 12, 13, 15 and 16 (the annex content is not supplied here).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.1.3"
+      }
+    },
+    {
+      "id": "P00163",
+      "text": "If AC power mains are applied to the vehicle/ESA during the charging-mode test, apply them through 50 µH/50 Ω AMN(s) as defined in Appendix 8, paragraph 4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "P00164",
+      "text": "If DC power mains are applied to the vehicle/ESA during the charging-mode test, apply them through 5 µH/50 Ω DC-charging-AN(s) as defined in Appendix 8, paragraph 3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "P00166",
+      "text": "Signal, control or wired network port lines should be applied to the vehicle/ESA through an AAN as defined in Appendix 8, paragraph 5. This is a 'should' recommendation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "P00167",
+      "text": "For the vehicle in the grid-coupled REESS charging configuration, measure the electromagnetic radiation of the vehicle representative of its type using the Annex 4 method. The manufacturer defines the measurement method in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.1"
+      }
+    },
+    {
+      "id": "P00168",
+      "text": "If broadband emissions are measured per Annex 4 at a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the limits are 32 dBµV/m for 30–75 MHz, 32 to 43 dBµV/m for 75–400 MHz (increasing logarithmically with frequency above 75 MHz, as shown in Appendix 2) and a constant 43 dBµV/m for 400–1000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.2.1"
+      }
+    },
+    {
+      "id": "P00169",
+      "text": "If broadband emissions are measured per Annex 4 at a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the limits are 42 dBµV/m for 30–75 MHz, 42 to 53 dBµV/m for 75–400 MHz (increasing logarithmically with frequency above 75 MHz, as shown in Appendix 3) and a constant 53 dBµV/m for 400–1000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00170",
+      "text": "On the vehicle representative of its type, the measured broadband values in dBµV/m must be below the applicable type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00171",
+      "text": "For vehicles with an AC power line connection in charging mode, measure the harmonics emission on AC power lines of the vehicle representative of its type using the Annex 11 method. The manufacturer defines the method of measurement in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 14,
+        "paragraph": "7.3.1"
+      }
+    },
+    {
+      "id": "P00172",
+      "text": "If harmonics are measured per Annex 11 and the input current is ≤ 16 A per phase, harmonic current limits are those of IEC 61000-3-2 as given in Table 4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "7.3.2.1"
+      }
+    },
+    {
+      "id": "P00173",
+      "text": "For input current ≤ 16 A per phase, the maximum harmonic currents (A) are: odd n=3: 2.3; 5: 1.14; 7: 0.77; 9: 0.40; 11: 0.33; 13: 0.21; 15≤n≤39: 0.15×15/n. Even n=2: 1.08; 4: 0.43; 6: 0.30; 8≤n≤40: 0.23×8/n. Apply the limits per IEC 61000-3-2, Clause 6.3.3.4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "Table 4"
+      }
+    },
+    {
+      "id": "P00175",
+      "text": "For single-phase or other than balanced three-phase equipment with input current >16 A and ≤75 A per phase, individual harmonic currents In/I1 (%) and THD/PWHD ratios (%) must not exceed, by minimum Rsce. Rsce 33: I3 21.6, I5 10.7, I7 7.2, I9 3.8, I11 3.1, I13 2, THD 23, PWHD 23. Rsce 66: 24, 13, 8, 5, 4, 3, THD 26, PWHD 26. Rsce 120: 27, 15, 10, 6, 5, 4, THD 30, PWHD 30. Rsce 250: 35, 20, 13, 9, 8, 6, THD 40, PWHD 40. Rsce ≥350: 41, 24, 15, 12, 10, 8, THD 47, PWHD 47.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "Table 5"
+      }
+    },
+    {
+      "id": "P00176",
+      "text": "Relative values of even harmonics of order ≤12 must be lower than 16/n %. Even harmonics above 12 are included in THD and PWHD in the same way as odd harmonics.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 15,
+        "paragraph": "Table 5"
+      }
+    },
+    {
+      "id": "P00177",
+      "text": "For balanced three-phase equipment with input current >16 A and ≤75 A per phase, individual harmonic currents In/I1 (%) and THD/PWHD ratios (%) must not exceed, by minimum Rsce. Rsce 33: I5 10.7, I7 7.2, I11 3.1, I13 2, THD 13, PWHD 22. Rsce 66: 14, 9, 5, 3, THD 16, PWHD 25. Rsce 120: 19, 12, 7, 4, THD 22, PWHD 28. Rsce 250: 31, 20, 12, 7, THD 37, PWHD 38. Rsce ≥350: 40, 25, 15, 10, THD 48, PWHD 46.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "Table 6"
+      }
+    },
+    {
+      "id": "P00178",
+      "text": "Relative values of even harmonics of order ≤12 must be lower than 16/n %. Even harmonics above 12 are included in THD and PWHD in the same way as odd harmonics.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "Table 6"
+      }
+    },
+    {
+      "id": "P00179",
+      "text": "For vehicle variants that can operate in the 'REESS charging mode coupled to the power grid', measure emission of voltage changes, voltage fluctuations and flicker on AC power lines using the method described in Annex 12, on a vehicle representative of its type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.1"
+      }
+    },
+    {
+      "id": "P00180",
+      "text": "The vehicle manufacturer shall define the method of measurement for these emissions in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.1"
+      }
+    },
+    {
+      "id": "P00181",
+      "text": "If measured using the Annex 12 method, and rated current is ≤16 A per phase and not subject to conditional connection (IEC 61000-3-3 Clause 5), Pst shall not exceed 1.0.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2.1"
+      }
+    },
+    {
+      "id": "P00182",
+      "text": "Under the same conditions, Plt shall not exceed 0.65.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2.1"
+      }
+    },
+    {
+      "id": "P00183",
+      "text": "Under the same conditions, d(t) during a voltage change shall not exceed 3.3 per cent for more than 500 ms.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2.1"
+      }
+    },
+    {
+      "id": "P00184",
+      "text": "Under the same conditions, the relative steady-state voltage change dc shall not exceed 3.3 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2.1"
+      }
+    },
+    {
+      "id": "P00185",
+      "text": "Under the same conditions, the maximum relative voltage change dmax shall not exceed 6 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 16,
+        "paragraph": "7.4.2.1"
+      }
+    },
+    {
+      "id": "P00186",
+      "text": "If measured using the Annex 12 method, and rated current is >16 A and ≤75 A per phase and subject to conditional connection (IEC 61000-3-11 Clause 5), Pst shall not exceed 1.0.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.4.2.2"
+      }
+    },
+    {
+      "id": "P00187",
+      "text": "Under the same conditions, Plt shall not exceed 0.65.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.4.2.2"
+      }
+    },
+    {
+      "id": "P00188",
+      "text": "Under the same conditions, d(t) during a voltage change shall not exceed 3.3 per cent for more than 500 ms.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.4.2.2"
+      }
+    },
+    {
+      "id": "P00189",
+      "text": "Under the same conditions, the relative steady-state voltage change dc shall not exceed 3.3 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.4.2.2"
+      }
+    },
+    {
+      "id": "P00190",
+      "text": "Under the same conditions, the maximum relative voltage change dmax shall not exceed 6 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.4.2.2"
+      }
+    },
+    {
+      "id": "P00191",
+      "text": "For vehicle variants that can operate in the 'REESS charging mode coupled to the power grid', measure radiofrequency conducted disturbances on AC or DC power lines using the method described in Annex 13, on a vehicle representative of its type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.1"
+      }
+    },
+    {
+      "id": "P00192",
+      "text": "The vehicle manufacturer shall define the method of measurement for these emissions in accordance with the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.1"
+      }
+    },
+    {
+      "id": "P00193",
+      "text": "For vehicles charged in a residential environment, when measured using the Annex 13 method, radiofrequency conducted disturbances on AC power lines shall not exceed the IEC 61000-6-3 limits given in Table 8.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.2.1"
+      }
+    },
+    {
+      "id": "P00194",
+      "text": "AC power line conducted disturbance limits (residential environment): 0.15 to 0.5 MHz: quasi-peak 66 to 56 dBµV and average 56 to 46 dBµV, linearly decreasing with the logarithm of frequency; 0.5 to 5 MHz: quasi-peak 56 dBµV and average 46 dBµV; 5 to 30 MHz: quasi-peak 60 dBµV and average 50 dBµV.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "Table 8"
+      }
+    },
+    {
+      "id": "P00195",
+      "text": "For vehicles charged in a residential environment, when measured using the Annex 13 method, radiofrequency conducted disturbances on DC power lines shall not exceed the IEC 61000-6-3 limits given in Table 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "7.5.2.2"
+      }
+    },
+    {
+      "id": "P00196",
+      "text": "DC power line conducted disturbance limits (residential environment): 0.15 to 0.5 MHz: quasi-peak 79 dBµV and average 66 dBµV; 0.5 to 30 MHz: quasi-peak 73 dBµV and average 60 dBµV.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 17,
+        "paragraph": "Table 9"
+      }
+    },
+    {
+      "id": "P00197",
+      "text": "For vehicle variants in the 'REESS charging mode coupled to the power grid', test the immunity to electromagnetic radiation of the vehicle representative of its type using the method described in Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.1"
+      }
+    },
+    {
+      "id": "P00198",
+      "text": "When the vehicle (in the REESS charging mode coupled to the power grid configuration) is tested by the Annex 6 method, the radiated field strength in the 20 to 2,000 MHz band shall be 30 V/m over more than 90 % of the band and at least 25 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      }
+    },
+    {
+      "id": "P00199",
+      "text": "When tested by the Annex 6 method, the radiated field strength in the 2,000 to 6,000 MHz band shall be 10 V/m over more than 90 % of the band and at least 8 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      }
+    },
+    {
+      "id": "P00200",
+      "text": "When tested by the Annex 6 method using the ISO 11451-4 BCI method, the injected current in the 20 to 2,000 MHz band shall be 60 mA over more than 90 % of the band and at least 50 mA over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      }
+    },
+    {
+      "id": "P00201",
+      "text": "During the Annex 6 radiated immunity tests, there shall be no degradation of performance of the 'immunity related functions' as defined in Annex 6 para 2.2, for the vehicle to be considered compliant. The Annex 6 definition is not supplied and must be confirmed.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.2"
+      }
+    },
+    {
+      "id": "P00202",
+      "text": "Immunity to Electrical Fast Transient/Burst disturbances conducted along AC and DC power lines shall be tested on the vehicle representative of its type by the Annex 15 method.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.8.1.1"
+      }
+    },
+    {
+      "id": "P00203",
+      "text": "When tested by the Annex 15 method, the EFT/burst immunity test level for AC or DC power lines shall be ±2 kV open-circuit test voltage, rise time 5 ns, hold time 50 ns, repetition rate 5 kHz, applied for at least 1 minute.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.8.2.1"
+      }
+    },
+    {
+      "id": "P00204",
+      "text": "Immunity to surge conducted along AC/DC power lines shall be tested on the vehicle representative of its type by the Annex 16 method.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.1.1"
+      }
+    },
+    {
+      "id": "P00205",
+      "text": "If the vehicle has AC power lines and is tested by the Annex 16 method, apply ±2 kV open-circuit surge between line and earth and ±1 kV between lines, rise time 1.2 µs, hold time 50 µs. Apply each surge five times with at most 1 minute between pulses, at phases 0, 90, 180 and 270°.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.2.1"
+      }
+    },
+    {
+      "id": "P00206",
+      "text": "If the vehicle has DC power lines and is tested by the Annex 16 method, apply ±0.5 kV open-circuit surge between line and earth and ±0.5 kV between lines, rise time 1.2 µs, hold time 50 µs. Apply each surge five times with at most 1 minute between pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.9.2.1"
+      }
+    },
+    {
+      "id": "P00212",
+      "text": "If the vehicle or ESA/component is approved under UN R10, series production shall conform to the approved type by meeting the paragraph 6 requirements and, where applicable, the paragraph 7 requirements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 25,
+        "paragraph": "9.1"
+      }
+    },
+    {
+      "id": "P00213",
+      "text": "If approved under UN R10, conformity of production of the vehicle, component or separate technical unit shall be checked on the basis of the data in the type-approval communication form(s) of Annex 3A and/or 3B.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 25,
+        "paragraph": "9.2"
+      }
+    },
+    {
+      "id": "P00214",
+      "text": "When the authority is not satisfied with the manufacturer's checking procedure and conformity of a series vehicle or ESA is verified, production is deemed to conform for broadband and narrowband electromagnetic disturbances only if the measured levels do not exceed the reference limits by more than 4 dB (60 per cent). The reference limits are those of 6.2.2.1, 6.2.2.2, 6.3.2.1, 6.3.2.2 and, if applicable, 7.2.2.1 and 7.2.2.2 for vehicles, and 6.5.2.1, 6.6.2.1 and, if applicable, 7.10.2.1 for ESAs.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.1"
+      }
+    },
+    {
+      "id": "P00215",
+      "text": "When the authority is not satisfied with the manufacturer's checking procedure and conformity of a series vehicle or ESA is verified, production is deemed to conform for immunity to electromagnetic radiation only if the vehicle ESA shows no degradation relating to direct control of the vehicle that the driver or other road user could observe. This is assessed with the vehicle in the Annex 6 paragraph 4 state, under field strength up to 80 per cent of the reference limits of 6.4.2.1 and, if applicable, 7.7.2.1 for vehicles, or 6.8.2.1 and, if applicable, 7.18.2.1 for ESAs.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.2"
+      }
+    },
+    {
+      "id": "P00216",
+      "text": "When the authority is not satisfied with the manufacturer's checking procedure and conformity of a series component or STU is verified, production is deemed to conform for conducted disturbances and emission only if the component or STU shows no degradation of performance of immunity-related functions up to the levels of 6.9.1 and, if applicable, 7.19.1. It must also not exceed the emission levels of 6.7.1 and, if applicable, 7.17.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.3"
+      }
+    },
+    {
+      "id": "P00217",
+      "text": "When the vehicle is measured with a 10 m antenna-vehicle separation, broadband radiated emissions shall not exceed E = 32 dBµV/m at 30-75 MHz, E = 32 + 15.13 log (F/75) at 75-400 MHz, and E = 43 dBµV/m at 400-1,000 MHz. The limits apply for a 120 kHz bandwidth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 29,
+        "paragraph": "Appendix 2"
+      }
+    },
+    {
+      "id": "P00218",
+      "text": "When the vehicle is measured with a 3 m antenna-vehicle separation, broadband radiated emissions shall not exceed E = 42 dBµV/m at 30-75 MHz, E = 42 + 15.13 log (F/75) at 75-400 MHz, and E = 53 dBµV/m at 400-1,000 MHz. The limits apply for a 120 kHz bandwidth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 30,
+        "paragraph": "Appendix 3"
+      }
+    },
+    {
+      "id": "P00219",
+      "text": "When the vehicle is measured with a 10 m antenna-vehicle separation, narrowband radiated emissions shall not exceed 28 dBµV/m at 30-230 MHz and 35 dBµV/m at 230-1,000 MHz. The limits shall be measured with a 120 kHz bandwidth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 31,
+        "paragraph": "Appendix 4"
+      }
+    },
+    {
+      "id": "P00220",
+      "text": "When the vehicle is measured with a 3 m antenna-vehicle separation, narrowband radiated emissions shall not exceed 38 dBµV/m at 30-230 MHz and 45 dBµV/m at 230-1,000 MHz. The limits apply for a 120 kHz bandwidth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 32,
+        "paragraph": "Appendix 5"
+      }
+    },
+    {
+      "id": "P00221",
+      "text": "The EMC approval mark affixed to the vehicle or ESA shall be made with dimension 'a' of at least 6 mm, using the Model A or Model B layout.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "P00222",
+      "text": "For the M1/N1 vehicle, the manufacturer shall provide in the information document (item 63) a statement of frequency bands, maximum output power, antenna positions and installation/use conditions for RF transmitters, where applicable. Per 3.1.8 the statement is required even if no transmitter is fitted at type approval, and the information is made publicly available after approval. No RF transmitter data are given in the specification.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 48,
+        "paragraph": "Annex 2A 63"
+      }
+    },
+    {
+      "id": "P00223",
+      "text": "Per 3.1.8, the manufacturer shall provide evidence that vehicle performance is not adversely affected by the RF-transmitter installations covered by the item 63 statement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 48,
+        "paragraph": "Annex 2A 63"
+      }
+    },
+    {
+      "id": "P00224",
+      "text": "The Annex 4 broadband emission test method is applied to vehicles (not to components alone). It covers both the configuration other than \"REESS charging mode coupled to the power grid\" and, where the vehicle has that mode, the \"REESS charging mode coupled to the power grid\" configuration. Whether the product has a grid-charging mode is not specified.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 52,
+        "paragraph": "Annex 4 1.1"
+      }
+    },
+    {
+      "id": "P00225",
+      "text": "Radiated broadband emissions generated by the vehicle's electrical/electronic systems shall be measured with the Annex 4 test, performed according to CISPR 12 unless Annex 4 states otherwise.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 1.2"
+      }
+    },
+    {
+      "id": "P00226",
+      "text": "During the broadband emission test in the configuration other than REESS charging, the engine shall be operated according to CISPR 12.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.1.1"
+      }
+    },
+    {
+      "id": "P00227",
+      "text": "If the CISPR 12 operating mode (40 km/h) does not activate all traction motors or auxiliary battery charging engines, an alternative steady-state operating mode shall be agreed between the Technical Service and the vehicle manufacturer. This applies to electric and hybrid variants.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.1.1"
+      }
+    },
+    {
+      "id": "P00228",
+      "text": "In the non-charging configuration, all equipment that can generate broadband emissions and can be switched on permanently by the driver or passenger (e.g. wiper motors, fans) should be in operation at maximum load. The horn and electric window motors are excluded. The wording is 'should'.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.1.2"
+      }
+    },
+    {
+      "id": "P00229",
+      "text": "If the vehicle has a REESS charging mode coupled to the power grid, it shall be tested in that charging mode configuration as defined in the flowchart of Figure 1. The flowchart content is not interpretable from the supplied text.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.2"
+      }
+    },
+    {
+      "id": "P00230",
+      "text": "For the vehicle in charging mode 1 or 2, the power mains socket(s) shall be placed on the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.1"
+      }
+    },
+    {
+      "id": "P00231",
+      "text": "For the vehicle in charging mode 1 or 2, the harness between the power mains socket and the AMN(s) shall be as short as possible, not necessarily aligned with the charging harness.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.1"
+      }
+    },
+    {
+      "id": "P00232",
+      "text": "For the vehicle in charging mode 1 or 2, the harness shall be placed as close as possible to the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.1"
+      }
+    },
+    {
+      "id": "P00233",
+      "text": "In charging mode 1 or 2, power mains shall be applied to the vehicle through 50 µH/50 Ω artificial networks (AMN).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00234",
+      "text": "The AMN(s) shall be mounted directly on the ground plane (ALSE) or floor (OTS), and their cases shall be bonded to the ground plane (ALSE) or connected to protective earth (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00235",
+      "text": "The measuring port of each AMN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00236",
+      "text": "In charging mode 1 or 2, the power charging harness shall be laid in a straight line between the AMN(s) and the vehicle charging plug, routed perpendicularly to the vehicle longitudinal axis.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00237",
+      "text": "The projected harness length from the AMN(s) side to the vehicle side shall be 0,8 m (+0,2/-0).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00238",
+      "text": "Any extra cable length shall be Z-folded symmetrically with no contact or overlap between windings, and the folded width shall be 500-1 000 mm. If this is impractical, the disposition of the excess cable shall be recorded in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00239",
+      "text": "The charging harness at the vehicle side shall hang vertically at 100 (+200/-0) mm from the vehicle body.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00240",
+      "text": "The whole harness shall be on non-conductive material with εr ≤ 1,4, at (100 ± 25) mm above the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00241",
+      "text": "In charging mode 3 or 4, the power mains and communication/signal line socket(s) shall be in the test site, on the ground plane (ALSE) or floor (OTS). The harness between these sockets and the AMN(s)/DC-charging-AN(s)/AAN(s) shall be as short as possible and as close as possible to the ground plane or floor.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.2.1"
+      }
+    },
+    {
+      "id": "P00242",
+      "text": "If the charging station is inside the test site, the harness at the charging station side shall hang vertically to the ground plane/floor. Excess length shall be kept close to the ground plane/floor and Z-folded if necessary. If this is impractical, the disposition shall be noted in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.2.1"
+      }
+    },
+    {
+      "id": "P00243",
+      "text": "The charging station should be placed outside the 3 dB beamwidth of the receiving antenna. If that is not technically feasible, it may be placed behind an absorber panel but not between the antenna and the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 55,
+        "paragraph": "Annex 4 2.2.2.1"
+      }
+    },
+    {
+      "id": "P00244",
+      "text": "In charging mode 3 or 4, AC power mains shall be applied through 50 µH/50 Ω AMN(s).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.2"
+      }
+    },
+    {
+      "id": "P00245",
+      "text": "DC power mains shall be applied through 5 µH/50 Ω High Voltage Artificial Networks (DC-charging-AN).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.2"
+      }
+    },
+    {
+      "id": "P00246",
+      "text": "The AMN(s)/DC-charging-AN(s) shall be mounted directly on the ground plane (ALSE) or floor (OTS). Their cases shall be bonded to the ground plane or connected to protective earth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.2"
+      }
+    },
+    {
+      "id": "P00247",
+      "text": "The measuring port of each AMN/DC-charging-AN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.2"
+      }
+    },
+    {
+      "id": "P00248",
+      "text": "In charging mode 3 or 4, local/private communication lines connected to signal/control ports and lines connected to wired network ports shall be applied to the vehicle through AAN(s) as defined in Appendix 8 paragraph 5. AANs are not required if a charging station is used, and no AAN should be used if communication is emulated and the AAN prevents proper communication.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.3"
+      }
+    },
+    {
+      "id": "P00249",
+      "text": "AAN(s) shall be mounted directly on the ground plane, with cases bonded to the ground plane (ALSE) or connected to protective earth (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.3"
+      }
+    },
+    {
+      "id": "P00250",
+      "text": "The measuring port of each AAN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.3"
+      }
+    },
+    {
+      "id": "P00251",
+      "text": "In charging mode 3 or 4, the power charging/communication harness shall be laid in a straight line between the AMN(s)/DC-charging-AN(s)/AAN(s) and the vehicle charging socket, routed perpendicularly to the vehicle longitudinal axis.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.4"
+      }
+    },
+    {
+      "id": "P00252",
+      "text": "The projected harness length from the AMN(s) side to the vehicle side shall be 0,8 m (+0,2/-0).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.4"
+      }
+    },
+    {
+      "id": "P00253",
+      "text": "Any extra cable length shall be Z-folded symmetrically with no contact or overlap, and the folded width shall be 500-1 000 mm. If this is impractical, the disposition shall be recorded in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.4"
+      }
+    },
+    {
+      "id": "P00254",
+      "text": "The harness at the vehicle side shall hang vertically at 100 (+200/-0) mm from the vehicle body.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.4"
+      }
+    },
+    {
+      "id": "P00255",
+      "text": "The whole harness shall be on non-conductive material with εr ≤ 1,4, at (100 ± 25) mm above the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 56,
+        "paragraph": "Annex 4 2.2.2.4"
+      }
+    },
+    {
+      "id": "P00256",
+      "text": "For radiated broadband emission measurements in an ALSE or OTS, the limits apply throughout the whole frequency range 30 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "P00257",
+      "text": "If peak detectors are used instead of quasi-peak detectors, a correction factor of 20 dB as defined in CISPR 12 shall be applied. The limits in paragraphs 6.2 and 7.2 are quasi-peak limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.2"
+      }
+    },
+    {
+      "id": "P00258",
+      "text": "Measurements shall be performed with a spectrum analyser or a scanning receiver using the parameters in Table 1 and Table 2. Spectrum analysers and FFT instruments used for conformity measurements shall meet CISPR 16-1-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.3"
+      }
+    },
+    {
+      "id": "P00259",
+      "text": "If an FFT-based instrument is used, it shall continuously record and evaluate the signal during the measurement time.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.3"
+      }
+    },
+    {
+      "id": "P00260",
+      "text": "If an FFT-based instrument is used, the minimum measurement time shall be 1 s per analysis frequency band (in real-time mode).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.3"
+      }
+    },
+    {
+      "id": "P00261",
+      "text": "Spectrum analyser, 30 to 1,000 MHz. Peak detector: RBW at -3 dB of 100/120 kHz and minimum scan time of 100 ms/MHz. Quasi-peak detector: RBW at -6 dB of 120 kHz and minimum scan time of 20 s/MHz. The table layout is flagged for verification.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00262",
+      "text": "If a spectrum analyser is used for peak measurements, the video bandwidth shall be at least three times the resolution bandwidth (RBW).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00263",
+      "text": "Scanning receiver, 30 to 1,000 MHz. Peak detector: BW at -6 dB of 120 kHz, maximum step size of 60 kHz, minimum dwell time of 5 ms. Quasi-peak detector: BW at -6 dB of 120 kHz, maximum step size of 60 kHz, minimum dwell time of 1 s. For purely broadband disturbances the step size may be increased, but not beyond the bandwidth value (footnote a).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00264",
+      "text": "The Technical Service shall perform the test at the intervals specified in CISPR 12 throughout the frequency range 30 to 1,000 MHz. The 14-band reduced scheme is available only as the stated alternative when accredited laboratory data covering the whole band is provided.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.4"
+      }
+    },
+    {
+      "id": "P00265",
+      "text": "If the limit is exceeded during the test, investigations shall be made to ensure the exceedance is due to the vehicle and not to background radiation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.4"
+      }
+    },
+    {
+      "id": "P00266",
+      "text": "The maximum of the readings relative to the limit (horizontal and vertical polarization, antenna on left and right sides of the vehicle) in each of the 14 frequency bands shall be taken as the characteristic reading at the frequency at which the measurements were made.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.5"
+      }
+    },
+    {
+      "id": "P00267",
+      "text": "Measurements shall be made on the left and right sides of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "P00268",
+      "text": "The same antenna positions shall be used for horizontal and vertical polarization. The number of antenna positions and the antenna position with respect to the vehicle shall be documented in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "P00270",
+      "text": "If N=1, the antenna shall be aligned with the middle of the total vehicle length.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "P00272",
+      "text": "The narrowband emission test method applies only to vehicles, and only to configurations other than 'REESS charging mode coupled to the power grid'.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 1.1"
+      }
+    },
+    {
+      "id": "P00273",
+      "text": "Unless otherwise stated in Annex 5, the narrowband emission test shall be performed according to CISPR 12.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 1.2"
+      }
+    },
+    {
+      "id": "P00274",
+      "text": "During the narrowband emission test, the ignition switch shall be on and the engine shall not be operating.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.1"
+      }
+    },
+    {
+      "id": "P00275",
+      "text": "During the narrowband emission test, all vehicle electronic systems (including the ACPE function) shall be in normal operating mode with the vehicle stationary.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.2"
+      }
+    },
+    {
+      "id": "P00277",
+      "text": "Narrowband emission limits apply throughout 30 to 1,000 MHz for measurements performed in an ALSE or an OTS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.1"
+      }
+    },
+    {
+      "id": "P00278",
+      "text": "Perform the narrowband emission measurements with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "P00279",
+      "text": "Perform the emission measurements with a spectrum analyser or a scanning receiver, using the parameters defined in Table 1 and Table 2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.3"
+      }
+    },
+    {
+      "id": "P00280",
+      "text": "If FFT-based instruments are used, they shall continuously record and evaluate the signal during the measurement time.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.3"
+      }
+    },
+    {
+      "id": "P00281",
+      "text": "If FFT-based instruments are used, the minimum measurement time is 1 s per analysis frequency band (real-time mode).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.3"
+      }
+    },
+    {
+      "id": "P00282",
+      "text": "When a spectrum analyser is used for 30 to 1,000 MHz average-detector measurements, use an RBW of 100/120 kHz at -3 dB.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00283",
+      "text": "When a spectrum analyser is used for 30 to 1,000 MHz average-detector measurements, use a minimum scan time of 100 ms/MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00284",
+      "text": "If a spectrum analyser is used for peak measurements, the video bandwidth shall be at least three times the RBW.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00285",
+      "text": "When a scanning receiver is used for 30 to 1,000 MHz average-detector measurements, use a bandwidth of 120 kHz at -6 dB.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00286",
+      "text": "When a scanning receiver is used, the maximum step size is 60 kHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00287",
+      "text": "When a scanning receiver is used, the minimum dwell time is 5 ms.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00288",
+      "text": "The Technical Service shall perform the emission test throughout 30 to 1,000 MHz at the intervals specified in CISPR 12.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.4"
+      }
+    },
+    {
+      "id": "P00289",
+      "text": "If the limit is exceeded during the test, investigate to ensure the exceedance is due to the vehicle and not to background radiation, including broadband radiation from any ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.4"
+      }
+    },
+    {
+      "id": "P00290",
+      "text": "The maximum of the readings relative to the limit, across polarizations and left/right antenna locations, in each of the 14 frequency bands is taken as the characteristic reading at the frequency where the measurements were made. This applies when the 14-band method is used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.5"
+      }
+    },
+    {
+      "id": "P00291",
+      "text": "Make emission measurements on both the left and right sides of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "P00292",
+      "text": "Use the same antenna positions for horizontal and vertical polarization measurements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "P00293",
+      "text": "Document the number of antenna positions and the antenna position relative to the vehicle in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "P00294",
+      "text": "If only one antenna position is necessary (N=1), align the antenna with the middle of the total vehicle length.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "P00295",
+      "text": "If more than one antenna position is necessary (N>1), place the antenna positions symmetrically with respect to the vehicle perpendicular axis.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "P00296",
+      "text": "The vehicle shall be monitored during the immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "P00297",
+      "text": "Unless otherwise stated, perform the immunity test according to ISO 11451-2 in an ALSE.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "P00298",
+      "text": "Use front irradiation for a vehicle not considered a large vehicle. Rear irradiation is specified in paragraph 5.1.3, which is an unresolved dependency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "P00299",
+      "text": "If the immunity test is performed in an outdoor test site, the test facility shall comply with national legal requirements regarding the emission of electromagnetic fields.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.3"
+      }
+    },
+    {
+      "id": "P00300",
+      "text": "If an OTS is used, perform the test according to ISO 11451-2 with front irradiation for vehicles not considered large vehicles.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.3"
+      }
+    },
+    {
+      "id": "P00301",
+      "text": "The vehicle shall be unladen during the immunity test, except for necessary test equipment.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1"
+      }
+    },
+    {
+      "id": "P00302",
+      "text": "Unless a technical reason due to the vehicle requires otherwise, the engine shall turn the driving wheels at a steady speed of 50 km/h during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "P00303",
+      "text": "Place the vehicle on an appropriately loaded dynamometer, or alternatively on insulated axle stands with minimum ground clearance if no dynamometer is available.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "P00304",
+      "text": "In 50 km/h mode, the vehicle speed shall be 50 km/h with a ±20 per cent tolerance (vehicle driving the rollers).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00305",
+      "text": "Failure criterion in 50 km/h mode: speed variation greater than ±10 per cent of the nominal speed. For an automatic gearbox, a gear ratio change inducing such a variation is also a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00306",
+      "text": "In 50 km/h mode, the cluster shall operate in normal mode. An unexpected warning or an inconsistent odometer variation is a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00307",
+      "text": "In 50 km/h mode, the brake pedal shall not be depressed. Unexpected activation of the brake or of the stop lights is a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00308",
+      "text": "In brake mode, the vehicle shall be in a state that allows the braking system to operate normally, with the parking brake released and speed 0 km/h. The brake pedal shall be depressed to activate the brake function and stop lights. Failure criteria are inactivated stop lights, and brake warning light ON with loss of brake function.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00309",
+      "text": "Other vehicle systems that can affect immunity related functions shall be tested in a way agreed between the manufacturer and the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "P00310",
+      "text": "For the vehicle radiated immunity test in a configuration other than 'REESS charging mode coupled to the power grid', all equipment that the driver or passenger can switch on permanently should be in normal operation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.3"
+      }
+    },
+    {
+      "id": "P00311",
+      "text": "For the vehicle radiated immunity test in a configuration other than 'REESS charging mode coupled to the power grid', all other systems that affect the driver's control of the vehicle (including the ACPE function) shall be on, as in normal operation of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.4"
+      }
+    },
+    {
+      "id": "P00312",
+      "text": "During the immunity test in a configuration other than 'REESS charging mode coupled to the power grid', only non-perturbing equipment shall be used to monitor the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.3"
+      }
+    },
+    {
+      "id": "P00313",
+      "text": "The vehicle exterior and the passenger compartment shall be monitored (e.g. by video camera(s) or a microphone) to determine whether the Annex 6 requirements are met.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.3"
+      }
+    },
+    {
+      "id": "P00314",
+      "text": "For the immunity test in the configuration 'REESS charging mode coupled to the power grid', the vehicle shall be unladen except for necessary test equipment.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.2.1"
+      }
+    },
+    {
+      "id": "P00315",
+      "text": "For the charging-mode immunity test, the vehicle shall be immobilized, with the engine(s) (ICE and/or electrical engine) OFF and in charging mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.2.1.1"
+      }
+    },
+    {
+      "id": "P00317",
+      "text": "In the REESS charging mode immunity test, the REESS shall be in charging mode. Its state of charge shall be kept between 20 % and 80 % of maximum SOC during the whole frequency range measurement. The measurement may be split into sub-bands, with discharge of the traction battery between them.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00318",
+      "text": "For multiple batteries, the average state of charge shall be considered.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00319",
+      "text": "For AC charging, if the current consumption can be adjusted, the charging current shall be set to at least 20 % of the maximum rated charging/input current value.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00320",
+      "text": "For DC charging, if the current consumption can be adjusted, the current shall be set to at least 20 % of its maximum value, or to a minimum of 16 A if 20 % cannot be achieved in the test facility, unless another value is agreed with the Type Approval Authorities.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00321",
+      "text": "Failure criteria for the charging mode immunity test: the vehicle sets in motion; unexpected release of the parking brake; loss of Park position for an automatic transmission (the ACPE vehicles are automatic transmission).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00322",
+      "text": "Other vehicle systems that can affect immunity related functions shall be tested in a way agreed between the manufacturer and the Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 76,
+        "paragraph": "Annex 6 2.2.1.2"
+      }
+    },
+    {
+      "id": "P00323",
+      "text": "In the charging-mode immunity test, all other equipment that can be switched ON by the driver or passengers shall be OFF.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.2.1.3"
+      }
+    },
+    {
+      "id": "P00324",
+      "text": "During the charging-mode immunity test, only non-perturbing equipment shall be used to monitor the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.2.2"
+      }
+    },
+    {
+      "id": "P00325",
+      "text": "The vehicle exterior and the passenger compartment shall be monitored (e.g. by video camera(s) or a microphone) to determine whether the Annex 6 requirements are met.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.2.2"
+      }
+    },
+    {
+      "id": "P00326",
+      "text": "When the vehicle is tested in charging mode 1 or 2, the power mains socket(s) shall be placed on the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.1"
+      }
+    },
+    {
+      "id": "P00327",
+      "text": "When the vehicle is tested in charging mode 1 or 2, the harness between the power mains socket and the AMN(s) shall be kept as short as possible, but not necessarily aligned with the charging harness.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.1"
+      }
+    },
+    {
+      "id": "P00328",
+      "text": "When the vehicle is tested in charging mode 1 or 2, the harness between the power mains socket and the AMN(s) shall be placed as close as possible to the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.1"
+      }
+    },
+    {
+      "id": "P00329",
+      "text": "In charging mode 1 or 2 tests, power mains shall be applied to the vehicle through 50 µH/50 Ω artificial networks (AMN(s)).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.2"
+      }
+    },
+    {
+      "id": "P00330",
+      "text": "The AMN(s) shall be mounted directly on the ground plane (ALSE) or floor (OTS). The AMN case(s) shall be bonded to the ground plane (ALSE) or connected to protective earth (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.2"
+      }
+    },
+    {
+      "id": "P00331",
+      "text": "The measuring port of each AMN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.2"
+      }
+    },
+    {
+      "id": "P00332",
+      "text": "In charging mode 1 or 2 tests, the power charging harness shall be placed in a straight line between the AMN(s) and the vehicle charging plug and routed perpendicularly to the vehicle longitudinal axis.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "P00333",
+      "text": "The projected harness length from the side of the AMN(s) to the side of the vehicle shall be 0,8 (+0,2/-0) m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "P00334",
+      "text": "For a longer cable, the extraneous length shall be Z-folded symmetrically with no contact or overlap between windings. The width of the Z-fold shall be between 500 mm and 1 000 mm. If this is impractical, the disposition of the excess cable shall be precisely noted in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "P00336",
+      "text": "At the vehicle side, the charging harness shall hang vertically at a distance of 100 (+200/-0) mm from the vehicle body.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "P00337",
+      "text": "The whole harness shall be placed on a non-conductive, low relative permittivity material (εr ≤ 1,4) at (100 ± 25) mm above the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "P00338",
+      "text": "In charging mode 3 or 4 tests, the power mains and communication/signal line socket(s) shall be placed in the test site on the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4.1"
+      }
+    },
+    {
+      "id": "P00339",
+      "text": "The harness between the power mains/local/private communication socket and the AMN(s)/DC-charging-AN(s)/AAN(s) shall be kept as short as possible, but not necessarily aligned with the charging harness.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4.1"
+      }
+    },
+    {
+      "id": "P00340",
+      "text": "If the charging station is placed inside the test site, the harness at the charging station side shall hang vertically down to the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4.1"
+      }
+    },
+    {
+      "id": "P00341",
+      "text": "If the charging station is placed inside the test site, the extraneous length shall be placed as close as possible to the ground plane (ALSE) or floor (OTS) and Z-folded if necessary. If impractical, the disposition of the excess cable shall be noted in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4.1"
+      }
+    },
+    {
+      "id": "P00342",
+      "text": "The charging station should be placed outside the beamwidth of the receiving antenna.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 77,
+        "paragraph": "Annex 6 2.4.1"
+      }
+    },
+    {
+      "id": "P00343",
+      "text": "In charging mode 3/4 tests, AC power mains shall be applied to the vehicle through 50 µH/50 Ω AMN(s).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.2"
+      }
+    },
+    {
+      "id": "P00344",
+      "text": "In DC charging tests, DC power mains shall be applied to the vehicle through 5 µH/50 Ω High Voltage Artificial Networks (DC-charging-AN(s)).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.2"
+      }
+    },
+    {
+      "id": "P00345",
+      "text": "The AMN(s)/DC-charging-AN(s) shall be mounted directly on the ground plane (ALSE) or floor (OTS). Their cases shall be bonded to the ground plane (ALSE) or connected to protective earth (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.2"
+      }
+    },
+    {
+      "id": "P00346",
+      "text": "The measuring port of each AMN/DC-charging-AN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.2"
+      }
+    },
+    {
+      "id": "P00347",
+      "text": "In charging mode 3/4 tests, local/private communication lines connected to signal/control ports and lines connected to wired network ports shall be applied to the vehicle through AAN(s). The AAN types are defined in Appendix 8, paragraph 5, which is not supplied. Exception: AAN(s) are not required for these ports when a charging station is used. If communication is emulated and the AAN prevents proper communication, no AAN should be used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.3"
+      }
+    },
+    {
+      "id": "P00348",
+      "text": "The AAN(s) shall be mounted directly on the ground plane. The AAN case shall be bonded to the ground plane (ALSE) or connected to protective earth (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.3"
+      }
+    },
+    {
+      "id": "P00349",
+      "text": "The measuring port of each AAN shall be terminated with a 50 Ω load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.3"
+      }
+    },
+    {
+      "id": "P00350",
+      "text": "If a charging station is used, the local/private communication lines between the vehicle and the charging station shall be connected to the auxiliary equipment on the charging station side so that they work as designed.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.3"
+      }
+    },
+    {
+      "id": "P00351",
+      "text": "In charging mode 3/4 tests, the power charging/local/private communication harness shall be laid out in a straight line between the AMN(s)/DC-charging-AN(s)/AAN(s) and the vehicle charging socket and routed perpendicularly to the vehicle's longitudinal axis.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "P00352",
+      "text": "The projected harness length from the side of the AMN(s) to the side of the vehicle shall be 0,8 (+0,2/-0) m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "P00353",
+      "text": "For a longer cable, the extraneous length shall be Z-folded symmetrically with no contact or overlap between windings. The width of the Z-fold shall be between 500 mm and 1 000 mm. If impractical, the disposition of the excess cable shall be noted in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "P00355",
+      "text": "At the vehicle side, the harness shall hang vertically at a distance of 100 (+200/-0) mm from the vehicle body.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "P00356",
+      "text": "The whole harness shall be placed on a non-conductive, low relative permittivity material (εr ≤ 1,4) at (100 ± 25) mm above the ground plane (ALSE) or floor (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 78,
+        "paragraph": "Annex 6 2.4.4"
+      }
+    },
+    {
+      "id": "P00357",
+      "text": "For M1/N1 vehicles (categories M and N), the reference point at which the field strength is established for the radiated immunity test shall be defined according to ISO 11451-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 3.2"
+      }
+    },
+    {
+      "id": "P00358",
+      "text": "If the vehicle is longer than 12 m and/or wider than 2.60 m and/or higher than 4.00 m and is tested according to ISO 11451-2, additional reference point(s) shall be chosen by the manufacturer in conjunction with the Type Approval Authority. The choice shall consider the distribution of electronic systems with immunity related functions and the layout of any wiring harness.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 3.4"
+      }
+    },
+    {
+      "id": "P00359",
+      "text": "Expose the vehicle to electromagnetic radiation in the 20 to 6,000 MHz frequency range in vertical polarization. The text allows this to be varied if otherwise agreed between the Technical Service and the vehicle manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "P00360",
+      "text": "In the 20 to 400 MHz range, use AM test-signal modulation with 1 kHz modulation frequency and 80 per cent modulation depth, unless otherwise agreed between the Technical Service and the manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "P00361",
+      "text": "In the 2,700 to 3,100 MHz range, use PM2 pulse modulation with Ton 3 µs and period 3,333 µs, unless otherwise agreed between the Technical Service and the manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "P00362",
+      "text": "In the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges, use PM3 pulse modulation with Ton 500 µs and period 1,000 µs, unless otherwise agreed between the Technical Service and the manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "P00363",
+      "text": "Choose the frequency step size and dwell time according to ISO 11451-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "P00364",
+      "text": "The immunity test shall be performed at the intervals specified in ISO 11451-1 throughout the 20 to 6,000 MHz range. A reduced set of spot frequencies is permitted only where the stated accredited-laboratory data condition is met.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 4.1.1"
+      }
+    },
+    {
+      "id": "P00365",
+      "text": "If the vehicle fails the immunity test, it shall be verified that the failure occurred under the relevant test conditions and not as a result of the generation of uncontrolled fields.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 4.1.1"
+      }
+    },
+    {
+      "id": "P00366",
+      "text": "Use the substitution method according to ISO 11451-1 to establish the test field conditions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.1"
+      }
+    },
+    {
+      "id": "P00367",
+      "text": "If a transmission line system (TLS) is used, calibration shall use four horizontal field probes.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.2"
+      }
+    },
+    {
+      "id": "P00368",
+      "text": "If antennas are used, calibration shall use four field probes at the vehicle reference line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.2"
+      }
+    },
+    {
+      "id": "P00369",
+      "text": "Position the vehicle with its centre line on the vehicle reference point or line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.3"
+      }
+    },
+    {
+      "id": "P00370",
+      "text": "The vehicle shall normally face a fixed antenna.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.3"
+      }
+    },
+    {
+      "id": "P00371",
+      "text": "Where the electronic control units with immunity related functions and the associated wiring harness are predominantly in the rear half of the vehicle, the test should normally be carried out with the vehicle facing away from the antenna. The vehicle is positioned as if rotated horizontally 180° about its centre point, so that the distance from the antenna to the nearest part of the outer body remains the same. This is conditional on the product's ECU/harness layout, which is not specified.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.3"
+      }
+    },
+    {
+      "id": "P00372",
+      "text": "The antenna location shall be noted in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 80,
+        "paragraph": "Annex 6 5.1.3"
+      }
+    },
+    {
+      "id": "P00373",
+      "text": "During the Annex 7 radiated broadband emission test, the ESA under test shall be in normal operation mode, preferably at maximum load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "P00374",
+      "text": "For an ESA not involved in \"REESS charging mode coupled to the power grid\", the radiated broadband emission test shall be performed using the ALSE method of CISPR 25 Clause 6.4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 3.1"
+      }
+    },
+    {
+      "id": "P00375",
+      "text": "If an open area test site (OATS) is used instead of an ALSE, the OATS shall comply with the requirements of CISPR 16-1-4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.3"
+      }
+    },
+    {
+      "id": "P00376",
+      "text": "Ambient measurements shall be taken before or after the main test. The extraneous noise or signal shall be at least 6 dB below the interference limits of paragraph 6.5.2.1, except for intentional narrowband ambient transmissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "P00377",
+      "text": "The limits apply throughout 30 to 1,000 MHz for measurements performed in an ALSE or OATS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "P00378",
+      "text": "Quasi-peak or peak detectors may be used. The limits of paragraphs 6.5 and 7.10 are for quasi-peak detectors. If peak detectors are used, a 20 dB correction factor as defined in CISPR 12 shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.2"
+      }
+    },
+    {
+      "id": "P00379",
+      "text": "Measurements shall be performed with a spectrum analyser or a scanning receiver using the parameters of Tables 1 and 2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.3"
+      }
+    },
+    {
+      "id": "P00380",
+      "text": "FFT-based instruments shall continuously record and evaluate the signal during the measurement time, with a minimum measurement time of 1 s per analysis frequency band (in real-time mode).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.3"
+      }
+    },
+    {
+      "id": "P00381",
+      "text": "When a spectrum analyser is used for 30 to 1,000 MHz: for the peak detector use RBW 100/120 kHz at -3 dB and minimum scan time 100 ms/MHz; for the quasi-peak detector use RBW 120 kHz at -6 dB and minimum scan time 20 s/MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00383",
+      "text": "When a scanning receiver is used for 30 to 1,000 MHz: BW 120 kHz at -6 dB and maximum step size 60 kHz for both detectors; minimum dwell time 5 ms for the peak detector and 1 s for the quasi-peak detector. For purely broadband disturbances the step size may be increased up to the bandwidth value.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00384",
+      "text": "Unless otherwise specified, the configuration with the LV harness closer to the antenna shall be tested.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.4"
+      }
+    },
+    {
+      "id": "P00385",
+      "text": "The antenna phase centre shall be in line with the centre of the longitudinal part of the wiring harnesses for frequencies up to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.4"
+      }
+    },
+    {
+      "id": "P00386",
+      "text": "The Technical Service shall test at the intervals specified in CISPR 12 throughout 30 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.4"
+      }
+    },
+    {
+      "id": "P00387",
+      "text": "If the limit is exceeded during the test, investigations shall be made to ensure that this is due to the ESA and not to background radiation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.4"
+      }
+    },
+    {
+      "id": "P00388",
+      "text": "In each of the 14 frequency bands, the maximum of the readings relative to the limit (horizontal/vertical polarization) shall be taken as the characteristic reading at the frequency at which the measurements were made.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.5"
+      }
+    },
+    {
+      "id": "P00389",
+      "text": "Where this Annex does not state otherwise, perform the radiated narrowband electromagnetic emission test on the ESA according to CISPR 25.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 1.2"
+      }
+    },
+    {
+      "id": "P00390",
+      "text": "During the narrowband emission test, operate the ESA under test in normal operation mode. Maximum load is preferred but not mandatory.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 2"
+      }
+    },
+    {
+      "id": "P00391",
+      "text": "Perform the narrowband emission test using the ALSE method described in paragraph 6.4 of CISPR 25.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.1"
+      }
+    },
+    {
+      "id": "P00392",
+      "text": "If an open area test site is used instead of an ALSE for the emission measurement, it shall comply with CISPR 16-1-4.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.2"
+      }
+    },
+    {
+      "id": "P00393",
+      "text": "Take ambient measurements before or after the main emission test to ensure that extraneous noise or signals do not materially affect the measurement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "P00394",
+      "text": "During the ambient measurement, extraneous noise or signal shall be at least 6 dB below the interference limits of paragraph 6.6.2.1 of the Regulation (52 to 42 dBµV/m for 30 to 75 MHz, 42 to 53 dBµV/m for 75 to 400 MHz, 53 dBµV/m for 400 to 1,000 MHz). Intentional narrowband ambient transmissions are excepted.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "P00395",
+      "text": "The narrowband emission limits apply throughout 30 to 1,000 MHz for measurements in an ALSE or on an OATS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.1"
+      }
+    },
+    {
+      "id": "P00396",
+      "text": "Perform the narrowband emission measurements with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.2"
+      }
+    },
+    {
+      "id": "P00397",
+      "text": "Perform the measurements with a spectrum analyser or a scanning receiver using the parameters in Tables 1 and 2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.3"
+      }
+    },
+    {
+      "id": "P00398",
+      "text": "If an FFT-based instrument is used, it shall meet CISPR 16-1-1, continuously record and evaluate the signal during the measurement time, and have a minimum measurement time of 1 s per analysis frequency band (real-time mode).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.3"
+      }
+    },
+    {
+      "id": "P00400",
+      "text": "When a spectrum analyser is used for 30 to 1,000 MHz with an average detector, use RBW at -3 dB of 100/120 kHz and a minimum scan time of 100 ms/MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Table 1"
+      }
+    },
+    {
+      "id": "P00402",
+      "text": "When a scanning receiver is used for 30 to 1,000 MHz with an average detector, use a bandwidth at -6 dB of 120 kHz, a maximum step size of 60 kHz and a minimum dwell time of 5 ms.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Table 2"
+      }
+    },
+    {
+      "id": "P00403",
+      "text": "Perform the emission test at the intervals specified in CISPR 12 throughout 30 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 8 4.4"
+      }
+    },
+    {
+      "id": "P00404",
+      "text": "If the limit is exceeded during the test, investigate to ensure that the exceedance is due to the ESA and not to background radiation, including broadband radiation from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 8 4.4"
+      }
+    },
+    {
+      "id": "P00405",
+      "text": "When measurements are evaluated in the 14 frequency bands, take the maximum of the readings relative to the limit (horizontal/vertical polarisation) in each band as the characteristic reading at the frequency where it was measured.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 8 4.5"
+      }
+    },
+    {
+      "id": "P00406",
+      "text": "Perform the radiated immunity test under the test conditions of ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.1"
+      }
+    },
+    {
+      "id": "P00407",
+      "text": "During the immunity test, switch the ESA on and stimulate it to normal operation condition, and arrange it as defined in the Annex unless individual test methods dictate otherwise.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "P00408",
+      "text": "During the calibration phase of the ESA immunity test, any extraneous equipment required to operate the ESA under test shall not be in place, and no extraneous equipment shall be closer than 1 m from the reference point.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.4"
+      }
+    },
+    {
+      "id": "P00409",
+      "text": "The test signal generating equipment and its layout used for each test and measurement shall be to the same specification as that used during the appropriate calibration phase, so that results are reproducible when tests are repeated.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.5"
+      }
+    },
+    {
+      "id": "P00410",
+      "text": "If the ESA under test consists of more than one unit, the interconnecting cables should ideally be the wiring harnesses intended for use in the vehicle. If these are not available, the length between the electronic control unit and the artificial network (AN) shall be as defined in the standard. All cables in the harness should be terminated as realistically as possible, preferably with real loads and actuators.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.6"
+      }
+    },
+    {
+      "id": "P00411",
+      "text": "Immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1, unless otherwise agreed between the Technical Service and the ESA manufacturer. Frequency step size and dwell time shall be chosen according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "P00412",
+      "text": "Test signal modulation in the 20 to 400 MHz range shall be AM with 1 kHz modulation frequency and 80 per cent modulation depth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "P00413",
+      "text": "Test signal modulation in the 2,700 to 3,100 MHz range shall be PM2 (pulse modulation type 2) with Ton 3 µs and period 3,333 µs.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "P00414",
+      "text": "Test signal modulation in the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges shall be PM3 (pulse modulation type 3) with Ton 500 µs and period 1,000 µs.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "P00415",
+      "text": "The Technical Service shall perform the immunity test at the intervals specified in ISO 11452-1 throughout the 20 to 6,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 3.2"
+      }
+    },
+    {
+      "id": "P00416",
+      "text": "If an ESA fails the immunity tests of this Annex, it shall be verified that the failure occurred under the relevant test conditions and not as a result of the generation of uncontrolled fields.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 3.3"
+      }
+    },
+    {
+      "id": "P00417",
+      "text": "For the absorber chamber test, the substitution method shall be used to establish the test field conditions according to ISO 11452-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "P00418",
+      "text": "For the absorber chamber test, the test shall be performed with vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "P00419",
+      "text": "The TEM cell immunity test shall be performed according to ISO 11452-3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.2.2"
+      }
+    },
+    {
+      "id": "P00420",
+      "text": "Depending on the ESA to be tested, the Technical Service shall choose the method of maximum field coupling either to the ESA or to the wiring harness inside the TEM cell.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.2.2"
+      }
+    },
+    {
+      "id": "P00421",
+      "text": "When the ESA immunity to electromagnetic radiation is verified by bulk current injection, perform the test according to ISO 11452-4 on a test bench using either the BCI substitution method with the injection probe at 150 mm from the ESA, or the BCI closed-loop method with the injection probe at 900 mm from the ESA. As an alternative, the ESA may be tested installed in the vehicle according to ISO 11451-4 using the BCI substitution method with the injection probe at 150 mm from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "P00422",
+      "text": "For the BCI substitution method, unless otherwise specified, the LV harness (and the HV harness where one is present) shall be 1,700 mm (+300/-0 mm) long, and the distance between the LV and HV harness shall be 100 mm (+100/-0 mm).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.2"
+      }
+    },
+    {
+      "id": "P00423",
+      "text": "For test methods defined in ISO 11452 part 4, the HV/LV wiring harness shall be straight over at least 1,400 mm starting at the ESA. The exception is the BCI closed-loop method with power limitation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.2"
+      }
+    },
+    {
+      "id": "P00424",
+      "text": "For the BCI closed-loop method, unless otherwise specified, the LV harness (and the HV harness where one is present) shall be 1,000 mm (+200/-0 mm) long, with 100 mm (+100/-0 mm) between LV and HV harness.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.2"
+      }
+    },
+    {
+      "id": "P00425",
+      "text": "For the BCI closed-loop method with power limitation, the HV/LV wiring harness shall be straight over its entire length.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.2"
+      }
+    },
+    {
+      "id": "P00426",
+      "text": "In the BCI test set-up, place all harnesses on a non-conductive, low relative permittivity material (εr ≤ 1.4) at (50 ± 5) mm above the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.3"
+      }
+    },
+    {
+      "id": "P00427",
+      "text": "In the BCI test, unless otherwise specified, connect the ESA case to the ground plane either directly or via a defined impedance.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.5"
+      }
+    },
+    {
+      "id": "P00428",
+      "text": "In the BCI test, unless otherwise specified, perform the test with the injection probe placed around each of the following harnesses: the low voltage harness, the high voltage harness, AC power lines if applicable, and DC power lines if applicable.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2.1.6"
+      }
+    },
+    {
+      "id": "P00429",
+      "text": "When stripline testing is used for ESA immunity, perform the test according to ISO 11452-5.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.4.2"
+      }
+    },
+    {
+      "id": "P00430",
+      "text": "When the reverberation chamber method is used for ESA immunity, perform the test according to ISO 11452-11.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.5.2"
+      }
+    },
+    {
+      "id": "P00431",
+      "text": "Unless otherwise specified, carry out the reverberation chamber test using a test setup with a ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.5.2"
+      }
+    },
+    {
+      "id": "P00432",
+      "text": "The ESA shall be immune to conducted transients on the vehicle power supply, and conducted transients emitted from the ESA to the vehicle power supply shall be limited, as verified by the Annex 10 test methods.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "P00433",
+      "text": "Apply test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 to the ESA supply lines and to other ESA connections that may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "P00434",
+      "text": "Apply the starting profile according to ISO 16750-2 to the ESA supply lines and to other connections that may be operationally connected to supply lines. This does not apply to ESAs exclusively reserved for mounting on electric vehicles (vehicles without a 12 V/24 V starter motor).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "P00435",
+      "text": "Measure the emission of transient conducted disturbances generated by the ESA on the 12/24 V supply lines, and on other ESA connections that may be operationally connected to supply lines, according to ISO 7637-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 3"
+      }
+    },
+    {
+      "id": "P00456",
+      "text": "Place the vehicle directly on the ground plane for the EFT/burst immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 4.2"
+      }
+    },
+    {
+      "id": "P00458",
+      "text": "For vehicle configurations with AC/DC power lines in charging mode, the EFT/B immunity test shall be conducted according to IEC 61000-4-4, and only at the severity levels of paragraph 7.8.2.1: ±2 kV open-circuit test voltage, rise time 5 ns, hold time 50 ns, repetition rate 5 kHz, for at least 1 minute.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 128,
+        "paragraph": "Annex 15 5.1.1"
+      }
+    },
+    {
+      "id": "P00461",
+      "text": "The EFT/B test set-up shall be recorded in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 128,
+        "paragraph": "Annex 15 5.1.2"
+      }
+    },
+    {
+      "id": "P00462",
+      "text": "The Annex 16 surge test method shall be applied only to vehicles, and only to the configuration with REESS charging mode coupled to the power grid.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 131,
+        "paragraph": "Annex 16 1.1"
+      }
+    },
+    {
+      "id": "P00463",
+      "text": "The vehicle shall be subjected to surges conducted along its AC and DC power lines as described in Annex 16, to demonstrate immunity of the vehicle electronic systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 131,
+        "paragraph": "Annex 16 1.2"
+      }
+    },
+    {
+      "id": "P00464",
+      "text": "The vehicle shall be monitored during the surge tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 131,
+        "paragraph": "Annex 16 1.2"
+      }
+    },
+    {
+      "id": "P00465",
+      "text": "Unless otherwise stated in Annex 16, the surge test shall be performed according to IEC 61000-4-5 Clause 4.2 for lightning transients.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 131,
+        "paragraph": "Annex 16 1.2"
+      }
+    },
+    {
+      "id": "P00467",
+      "text": "The vehicle shall be unladen during the surge test, except for necessary test equipment.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1"
+      }
+    },
+    {
+      "id": "P00468",
+      "text": "During the surge test the vehicle shall be immobilized, with the engine(s) (ICE and/or electric) OFF and in charging mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.1"
+      }
+    },
+    {
+      "id": "P00469",
+      "text": "Other vehicle systems that can affect immunity-related functions shall be tested in a way to be agreed between manufacturer and Technical Service.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.2"
+      }
+    },
+    {
+      "id": "P00470",
+      "text": "The REESS shall be in charging mode. The traction battery SOC shall be kept between 20% and 80% of maximum SOC for the whole measurement duration. For multiple batteries the average SOC shall be considered.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.2"
+      }
+    },
+    {
+      "id": "P00471",
+      "text": "If the current consumption can be adjusted, then for AC charging the current shall be set to at least 20% of its maximum rated charging/input current. For DC charging the current shall be at least 20% of nominal value, or a minimum of 16 A if 20% cannot be achieved in the test facility, unless another value is agreed with the Type Approval Authorities.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.2"
+      }
+    },
+    {
+      "id": "P00472",
+      "text": "Failure criteria during the surge test: the vehicle sets in motion; unexpected release of the parking brake; loss of park position for an automatic transmission.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.2"
+      }
+    },
+    {
+      "id": "P00473",
+      "text": "During the surge test, all other equipment that can be switched ON by the driver or passengers shall be OFF.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.1.3"
+      }
+    },
+    {
+      "id": "P00474",
+      "text": "Only non-perturbing equipment shall be used to monitor the vehicle, and the vehicle exterior and passenger compartment shall be monitored to determine whether the Annex 16 requirements are met.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 2.2"
+      }
+    },
+    {
+      "id": "P00475",
+      "text": "The surge test equipment shall comprise a reference ground plane (a shielded room is not required), a surge generator and a Coupling/Decoupling Network (CDN).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 3.1"
+      }
+    },
+    {
+      "id": "P00476",
+      "text": "The surge generator shall meet the conditions defined in Clause 6.1 of IEC 61000-4-5.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 3.2"
+      }
+    },
+    {
+      "id": "P00477",
+      "text": "The Coupling/Decoupling Network shall meet the conditions defined in Clause 6.3 of IEC 61000-4-5.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 3.3"
+      }
+    },
+    {
+      "id": "P00478",
+      "text": "The vehicle surge test set-up shall be based on the set-up described in Clause 7.2 of IEC 61000-4-5.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 4.1"
+      }
+    },
+    {
+      "id": "P00479",
+      "text": "The vehicle shall be placed directly on the ground plane for the surge test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 133,
+        "paragraph": "Annex 16 4.2"
+      }
+    },
+    {
+      "id": "P00481",
+      "text": "Every vehicle conforming to a vehicle type approved under UN R155 shall carry an international approval mark, affixed conspicuously in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "P00482",
+      "text": "The approval mark shall include a circle surrounding the letter \"E\" followed by the distinguishing number of the country that granted the approval.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "P00483",
+      "text": "The approval mark shall include the number of UN R155, followed by the letter \"R\", a dash and the approval number, placed to the right of the circle with the \"E\" and country number.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "P00484",
+      "text": "Where the vehicle also conforms to a type approved under one or more other Regulations in the country granting approval under UN R155 and the \"E\" symbol is not repeated, the Regulation and approval numbers and additional symbols of all those Regulations shall be placed in vertical columns to the right of the \"E\" symbol.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "P00485",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "P00486",
+      "text": "The approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "P00487",
+      "text": "The manufacturer shall collect and verify the required information through the supply chain (e.g. for the sensor, camera and control unit suppliers) to demonstrate that supplier-related risks are identified and managed.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00488",
+      "text": "The manufacturer shall document the risk assessment (conducted during development or retrospectively), test results and mitigations applied to the vehicle type, including the design information supporting the risk assessment.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00489",
+      "text": "The manufacturer shall implement appropriate cyber security measures in the design of the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00490",
+      "text": "The manufacturer shall be able to detect and respond to possible cyber security attacks on the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00491",
+      "text": "The vehicle shall log data to support detection of cyber-attacks and provide data forensic capability to enable analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "P00492",
+      "text": "The cyber security measures documented by the manufacturer shall be implemented in the vehicle and be verifiable by testing a vehicle of the type. Sampling shall be focused on, but not limited to, risks assessed as high in the risk assessment.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "P00494",
+      "text": "The manufacturer shall perform the exhaustive risk assessment required by paragraph 7.3.3, considering all risks related to the threats in Annex 5 Part A.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "P00495",
+      "text": "The manufacturer shall protect the vehicle type against the risks identified in its risk assessment and implement proportionate mitigations as required by paragraph 7.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "P00497",
+      "text": "Before approval, the manufacturer shall perform appropriate and sufficient testing to verify the effectiveness of the implemented security measures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "P00502",
+      "text": "The vehicle manufacturer shall demonstrate that its Cyber Security Management System applies to the development phase, the production phase and the post-production phase.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.1"
+      }
+    },
+    {
+      "id": "P00504",
+      "text": "The CSMS shall include processes within the manufacturer's organization to manage cyber security.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00505",
+      "text": "The CSMS shall include processes to identify risks to vehicle types, considering the Annex 5 Part A threats and other relevant threats.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00506",
+      "text": "The CSMS shall include processes to assess, categorize and treat the identified risks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00507",
+      "text": "The CSMS shall include processes to verify that the identified risks are appropriately managed.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00508",
+      "text": "The CSMS shall include processes for testing the cyber security of a vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00509",
+      "text": "The CSMS shall include processes to keep the risk assessment current.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00510",
+      "text": "The CSMS shall include processes to monitor for, detect and respond to cyber-attacks, threats and vulnerabilities on vehicle types, and to assess whether the implemented cyber security measures remain effective against newly identified threats and vulnerabilities.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00511",
+      "text": "The CSMS shall include processes to provide relevant data to support analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "P00512",
+      "text": "Demonstrate that CSMS processes ensure that, based on the categorization under 7.2.2.2 (c) and (g), cyber threats and vulnerabilities that require a manufacturer response are mitigated within a reasonable timeframe.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "P00513",
+      "text": "Demonstrate that CSMS processes ensure the monitoring in 7.2.2.2 (g) is continual.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "P00514",
+      "text": "The continual monitoring shall include vehicles after first registration.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "P00515",
+      "text": "The monitoring shall include the capability to analyse and detect cyber threats, vulnerabilities and cyber-attacks from vehicle data and logs. This capability shall respect paragraph 1.3 and the privacy rights of car owners or drivers, particularly with respect to consent.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "P00516",
+      "text": "Demonstrate how the CSMS manages dependencies on contracted suppliers, service providers or the manufacturer's sub-organizations with regard to the 7.2.2.2 processes.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "P00517",
+      "text": "The manufacturer shall hold a valid Certificate of Compliance for the CSMS relevant to the vehicle type being approved.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.1"
+      }
+    },
+    {
+      "id": "P00519",
+      "text": "The manufacturer shall identify and manage supplier-related risks for the vehicle type being approved.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.2"
+      }
+    },
+    {
+      "id": "P00520",
+      "text": "Identify the critical elements of the vehicle type, perform an exhaustive risk assessment, and treat/manage the identified risks appropriately.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "P00521",
+      "text": "The risk assessment shall consider the individual elements of the vehicle type and their interactions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "P00522",
+      "text": "The risk assessment shall consider interactions with any external systems.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "P00523",
+      "text": "The risk assessment shall consider risks related to all Annex 5 Part A threats and any other relevant risk.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "P00524",
+      "text": "Protect the vehicle type against risks identified in the manufacturer's risk assessment by implementing proportionate mitigations.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "P00526",
+      "text": "The mitigations shall include all Annex 5 Part B and C mitigations relevant to the identified risks. If one is not relevant or not sufficient, another appropriate mitigation shall be implemented.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "P00528",
+      "text": "If the vehicle type provides dedicated environments for storing and executing aftermarket software, services, applications or data, put appropriate and proportionate measures in place to secure them.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.5"
+      }
+    },
+    {
+      "id": "P00529",
+      "text": "Before type approval, perform appropriate and sufficient testing to verify the effectiveness of the implemented security measures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.6"
+      }
+    },
+    {
+      "id": "P00530",
+      "text": "Implement measures to detect and prevent cyber-attacks against vehicles of the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "P00531",
+      "text": "Implement measures to support the manufacturer's monitoring capability for detecting threats, vulnerabilities and cyber-attacks relevant to the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "P00532",
+      "text": "Implement measures to provide data forensic capability to enable analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "P00533",
+      "text": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "P00534",
+      "text": "If the cryptographic modules used are not in line with consensus standards, the manufacturer shall justify their use.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "P00538",
+      "text": "Conformity of Production procedures applied to production of the approved type, including the ACPE function in its M1/N1 vehicles, shall comply with those in the 1958 Agreement, Schedule 1 (E/ECE/TRANS/505/Rev.3), together with the additional requirements in 9.1.1 and 9.1.2.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "9.1"
+      }
+    },
+    {
+      "id": "P00539",
+      "text": "The approval holder shall record the results of conformity of production tests and keep the annexed documents available for a period agreed with the Approval Authority or its Technical Service. The period shall not exceed 10 years from the time production is definitively discontinued.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "9.1.1"
+      }
+    }
+  ]
+}

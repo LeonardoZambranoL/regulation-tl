@@ -1,0 +1,39 @@
+{
+  "case_id": "dev-rear-lamp",
+  "selected_regulations": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R26",
+    "UN R48"
+  ],
+  "all_corpus_clauses": 26769,
+  "selected_clauses": 3478,
+  "assessed_clauses": 3478,
+  "assessment_counts": {
+    "irrelevant": 2817,
+    "relevant": 471,
+    "unresolved": 190
+  },
+  "proposals": 500,
+  "verified_proposals": 500,
+  "requirements": 412,
+  "verification_counts": {
+    "keep": 412,
+    "unresolved": 53,
+    "drop": 35
+  },
+  "errors": [
+    "Invalid requirement text/quote for C10188",
+    "Invalid requirement text/quote for C04559"
+  ],
+  "coverage_complete": false,
+  "elapsed_seconds": 1129.9272643330041,
+  "limitations": [
+    "Text-only draft clause splits; figures and ambiguous tables may remain unresolved.",
+    "First source page is cited for multi-page clauses; exact quote-to-page mapping is unavailable.",
+    "Scope filtering can miss applicable regulations; all include/uncertain clauses are assessed.",
+    "Source catalogue is structurally reusable; it is not an expert-approved legal requirement catalogue."
+  ]
+}

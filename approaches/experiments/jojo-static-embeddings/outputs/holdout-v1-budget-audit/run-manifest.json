@@ -1,0 +1,23 @@
+{
+  "model": "claude-sonnet-5-5",
+  "batch_size": 24,
+  "batch_chars": 60000,
+  "workers": 4,
+  "page_cap": null,
+  "cross_encoder": false,
+  "scope_uncertain_included": true,
+  "budget_usd": 23.0,
+  "case_id": "holdout-acpe",
+  "image_used": false,
+  "spec_sha256": "bcece50af9dcbcc49dc25725a8217cc32eca6af918c567eb73137c79a789ba89",
+  "catalog_fingerprint": "d23e356cad8ddd86ef18d2b0e4aaa129890faf357e0c215aac17164514494d0f",
+  "implementation": {
+    "catalog.py": "dc79f51f2909abbc90fa7958ac2ce48f40354362b407179ad6f7cd1f9c8db1fd",
+    "client.py": "4fc71437e4b973b561a956c6eb188950db63be2d20c21aaa5c8c0d490b8df679",
+    "contracts.py": "6d34fbe90b74646d73ea6dbf3b5d20a9de10390dd14110ffdb84d3ffcd37e94a",
+    "prompts.py": "498c3eba04ef5a4937d16940e44b07f61386b8a02e2ffe3ccf0248a1ad7104c1",
+    "run.py": "3bb293ce43918e41e569257c52f278475846bc8784d9b38a154d958b81ae6a13",
+    "test_pipeline.py": "ef33ea97c62b225f44773e0b871654feb99a4d9fce97c6115634d65f090f8b39",
+    "test_token_retry.py": "8c7977a40aaccdd3798fa1ad8804344b81110db71e03cc4e923c28ad8a7ce376"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Fixed clause catalogue + shared Gemini embeddings, exhaustive scoped assessment, independent Claude verification",
+  "model": "claude-sonnet-5-5",
+  "embedding_model": "gemini-embedding-2-preview",
+  "dimensions": 768,
+  "priority": "lexical source seeds + document cosine similarity, RRF k60",
+  "lexical_seeds": 8,
+  "batch_size": 24,
+  "batch_characters": 60000,
+  "page_cap": null,
+  "cross_encoder": false,
+  "scope_uncertain_included": true,
+  "approved_shared_budget_usd": 29,
+  "source": "data-ingestion/clauses and data-ingestion/embeddings",
+  "seed": null,
+  "workers": 4,
+  "verification_reserve_usd": 1.5,
+  "source_git_commit": "3760fcfce7e6e84578341b803e57d984b6f20445"
+}

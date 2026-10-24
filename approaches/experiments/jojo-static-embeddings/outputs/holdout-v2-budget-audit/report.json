@@ -1,0 +1,43 @@
+{
+  "case_id": "holdout-acpe",
+  "selected_regulations": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R175"
+  ],
+  "all_corpus_clauses": 26769,
+  "selected_clauses": 1404,
+  "assessed_clauses": 1404,
+  "assessment_counts": {
+    "irrelevant": 761,
+    "relevant": 378,
+    "unresolved": 265
+  },
+  "proposals": 541,
+  "verified_proposals": 541,
+  "requirements": 473,
+  "verification_counts": {
+    "keep": 475,
+    "unresolved": 39,
+    "drop": 27
+  },
+  "errors": [
+    "Budget ceiling reached: $24.474 committed, next reserve $0.153.",
+    "Budget ceiling reached: $24.480 committed, next reserve $0.152.",
+    "Budget ceiling reached: $24.480 committed, next reserve $0.172.",
+    "Budget ceiling reached: $24.463 committed, next reserve $0.152.",
+    "Budget ceiling reached: $24.463 committed, next reserve $0.152.",
+    "Budget ceiling reached: $24.463 committed, next reserve $0.151.",
+    "Budget ceiling reached: $24.353 committed, next reserve $0.150.",
+    "Budget ceiling reached: $24.499 committed, next reserve $0.152."
+  ],
+  "coverage_complete": false,
+  "elapsed_seconds": 676.0094835839991,
+  "limitations": [
+    "Text-only draft clause splits; figures and ambiguous tables may remain unresolved.",
+    "First source page is cited for multi-page clauses; exact quote-to-page mapping is unavailable.",
+    "Scope filtering can miss applicable regulations; all include/uncertain clauses are assessed.",
+    "Source catalogue is structurally reusable; it is not an expert-approved legal requirement catalogue."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "approved_total_usd": 29,
+  "prior_run_ledger_usd": 11.841738,
+  "completed_ledger_usd": 25.674174,
+  "uncertain_reservation_usd": 0.151672,
+  "committed_usd": 25.825846000000002,
+  "new_run_committed_usd": 13.984108000000003,
+  "remaining_usd": 3.1741539999999993,
+  "embedding_api_calls": 0,
+  "uncertain_requests": 1
+}

@@ -1,0 +1,10 @@
+{
+  "level": "high",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Architecture revised after observing the previous SPLADE/dense development run: remove page cap and cross-encoder selection; use exhaustive selected-regulation clause assessment. No new threshold or model sweep against this run."
+  ],
+  "notes": "No product-specific regulation allowlist or keyword rules. The fixed source catalogue contains source clauses, not gold requirements. The held-out specification is passed through the same frozen inference rules without tuning; its gold is read only by the benchmark. The semantic priority uses existing document vectors seeded by lexical source matches, not a Gemini query encoder. New end-to-end results cannot isolate an embedding-only gain. Development page F2 improves to 0.842619 and clause F2 to 0.628971, but unseen clause recall is only 0.701754. The large output and unresolved applicability decisions remain material risks. No post-score tuning."
+}

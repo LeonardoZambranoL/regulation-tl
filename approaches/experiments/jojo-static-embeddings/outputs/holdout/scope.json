@@ -1,0 +1,340 @@
+{
+  "decisions": [
+    {
+      "regulation": "UN GTR 9",
+      "decision": "exclude",
+      "reason": "GTR 9 covers pedestrian-injury construction of vehicle fronts. ACPE is a driver-assistance torque-limiting function. Sensors and camera as passive front-end items do not trigger separate pedestrian-protection obligations from the supplied text.",
+      "quote": "The purpose of this global technical regulation is to bring about an improvement in the construction of certain"
+    },
+    {
+      "regulation": "UN R100",
+      "decision": "exclude",
+      "reason": "Part I-III address the electric power train and REESS safety. ACPE only limits torque demand in software and does not alter HV components. The hybrid and BEV variants' R100 compliance is a vehicle-level matter outside ACPE.",
+      "quote": "Part I: Safety requirements with respect to the electric power train of road vehicles of categories M, N and O1,"
+    },
+    {
+      "regulation": "UN R101",
+      "decision": "exclude",
+      "reason": "R101 concerns CO2, fuel and electric energy consumption measurement. ACPE is a rare-event safety intervention and is not a measurement-related provision.",
+      "quote": "This Regulation applies to vehicles of categories M1 and N1 1/ with regard to:"
+    },
+    {
+      "regulation": "UN R102",
+      "decision": "exclude",
+      "reason": "Applies only to N2, N3, O3 and O4. The product is M1 and N1.",
+      "quote": "1.1. This Regulation applies to vehicles of categories N2, N3, O3 and O4."
+    },
+    {
+      "regulation": "UN R103",
+      "decision": "exclude",
+      "reason": "Covers replacement pollution control devices as separate technical units. ACPE is not one.",
+      "quote": "This Regulation applies to the type-approval, as separate technical units, of pollution control device to be fitted in"
+    },
+    {
+      "regulation": "UN R104",
+      "decision": "exclude",
+      "reason": "Covers retro-reflective markings for M2, M3, N, O2-O4. ACPE has no such markings.",
+      "quote": "This Regulation applies to retro-reflective markings for vehicles of category M2, M3, N, O2, O3 and O4."
+    },
+    {
+      "regulation": "UN R107",
+      "decision": "exclude",
+      "reason": "Applies to M2/M3 buses only. The product is M1/N1.",
+      "quote": "1.1. This Regulation applies to every single-deck, double-deck, rigid or articulated vehicle of category M2 or M3"
+    },
+    {
+      "regulation": "UN R10",
+      "decision": "include",
+      "reason": "Covers vehicles of M and N categories and components/ESAs for EMC. ACPE is electronic (ECU software, sensors, camera, cluster) and is related to direct control of the vehicle, so EMC immunity and emission obligations apply to the vehicle or ESA. The supplied profile contains only scope text, so the detailed limits and test methods are unresolved. The approval route (vehicle or ESA) is not stated.",
+      "quote": "1.1. Vehicles of categories L, M, N O, T, R and S1 with regard to electromagnetic compatibility;"
+    },
+    {
+      "regulation": "UN R114",
+      "decision": "exclude",
+      "reason": "Covers replacement airbag modules and systems. ACPE has no airbag function.",
+      "quote": "1.1. to airbag modules for replacement airbag systems intended to be installed on motor vehicles;"
+    },
+    {
+      "regulation": "UN R116",
+      "decision": "exclude",
+      "reason": "Covers anti-theft devices, alarms and immobilizers. ACPE is not an anti-theft function.",
+      "quote": "Approval of a vehicle of category M1 and N1 1/ with regard to its devices to prevent unauthorized"
+    },
+    {
+      "regulation": "UN R123",
+      "decision": "exclude",
+      "reason": "Covers adaptive front-lighting systems. ACPE has no lighting function.",
+      "quote": "This Regulation applies to adaptive front-lighting systems (AFS) for motor vehicles of categories M and N1."
+    },
+    {
+      "regulation": "UN R127",
+      "decision": "exclude",
+      "reason": "Covers vehicle-level pedestrian protection of the front structure. ACPE is a function, not a front-structure design. Sensor or camera placement as passive items is not an ACPE-derived obligation.",
+      "quote": "This Regulation applies to motor vehicles of categories M1 and N1."
+    },
+    {
+      "regulation": "UN R128",
+      "decision": "exclude",
+      "reason": "Covers LED light sources for lamps. ACPE has no lamp or light source.",
+      "quote": "This Regulation applies to LED light sources shown in Annex 1 and intended for use in approved lamps of power-"
+    },
+    {
+      "regulation": "UN R131",
+      "decision": "exclude",
+      "reason": "Applies only to M2, M3, N2 and N3 AEBS. The product is M1/N1 and is not an AEBS.",
+      "quote": "This Regulation applies to the approval* of vehicles of Category M2, M3, N2 and N3"
+    },
+    {
+      "regulation": "UN R132",
+      "decision": "exclude",
+      "reason": "Covers retrofit emission control for CI engines. Not applicable to ACPE.",
+      "quote": "This Regulation applies to Retrofit Emission Control devices (REC) to be installed:"
+    },
+    {
+      "regulation": "UN R137",
+      "decision": "exclude",
+      "reason": "Covers occupant protection in a frontal collision. ACPE is not a protective system.",
+      "quote": "This Regulation applies to vehicles of category M11 with a maximum permissible mass not exceeding 3,500 kg"
+    },
+    {
+      "regulation": "UN R13H",
+      "decision": "exclude",
+      "reason": "Covers braking of M1/N1 vehicles. ACPE limits propulsion torque and does not command or modify the braking system.",
+      "quote": "1.1. This Regulation applies to the braking of vehicles of categories M1 and N1."
+    },
+    {
+      "regulation": "UN R148",
+      "decision": "exclude",
+      "reason": "Covers light-signalling devices. ACPE has none, and its warning is a cluster tell-tale and buzzer, not an exterior lamp.",
+      "quote": "This Regulation applies to the following light-signalling devices (lamps):"
+    },
+    {
+      "regulation": "UN R149",
+      "decision": "exclude",
+      "reason": "Covers road illumination devices. ACPE has none.",
+      "quote": "This Regulation applies to the following road illumination devices (lamps):"
+    },
+    {
+      "regulation": "UN R150",
+      "decision": "exclude",
+      "reason": "Covers retro-reflective devices. ACPE has none.",
+      "quote": "This Regulation applies to retro-reflective devices as:"
+    },
+    {
+      "regulation": "UN R152",
+      "decision": "exclude",
+      "reason": "R152 approves AEBS braking systems for forward collision. ACPE limits propulsion torque and is not an AEBS. Any interaction with a fitted AEBS is handled in R175. The spec does not state that AEBS is fitted.",
+      "quote": "This Regulation applies to the approval of vehicles of Category M1 and N11 * with regard to an on-board system"
+    },
+    {
+      "regulation": "UN R155",
+      "decision": "include",
+      "reason": "Applies to M and N vehicles with regard to cyber security. ACPE software and sensor-fed control functions in the powertrain control unit are part of the vehicle's electronic architecture and fall within the vehicle's cyber security risk assessment and management. The supplied profile contains only scope text, so detailed requirements and the exact approval route are unresolved.",
+      "quote": "1.1. This Regulation applies to vehicles, with regard to cyber security, of the Categories M and N."
+    },
+    {
+      "regulation": "UN R156",
+      "decision": "uncertain",
+      "reason": "Applies only to vehicles that permit software updates. The spec says ACPE is a software function but does not state whether the software can be updated (e.g. OTA or workshop updates).",
+      "quote": "1.1. This Regulation applies to vehicles of Categories1 M, N, O, R, S and T that permit software updates."
+    },
+    {
+      "regulation": "UN R157",
+      "decision": "exclude",
+      "reason": "Covers ALKS lateral and longitudinal control. ACPE does not perform lane keeping.",
+      "quote": "1.1. This Regulation applies to the type approval of vehicles of Category M and N1 with regards to their"
+    },
+    {
+      "regulation": "UN R161",
+      "decision": "exclude",
+      "reason": "Covers devices to prevent unauthorized use. Not an ACPE function.",
+      "quote": "1.1. Approval of a vehicle of category M1 and N11 with regard to its devices to prevent unauthorized use."
+    },
+    {
+      "regulation": "UN R162",
+      "decision": "exclude",
+      "reason": "Covers immobilizers. ACPE has no immobilizer function.",
+      "quote": "1.1. Approval of immobilizers which are intended to be permanently fitted to vehicles of any category."
+    },
+    {
+      "regulation": "UN R163",
+      "decision": "exclude",
+      "reason": "Covers vehicle alarm systems. ACPE has none.",
+      "quote": "1.1. Approval of Vehicle Alarm Systems (VAS) which are intended to be permanently fitted to vehicles of any"
+    },
+    {
+      "regulation": "UN R164",
+      "decision": "exclude",
+      "reason": "Covers studded tyres. Not related to ACPE.",
+      "quote": "1.1. This Regulation applies to new studded pneumatic tyres1 of Classes C1, C2 and C3 with regard to their snow"
+    },
+    {
+      "regulation": "UN R171",
+      "decision": "exclude",
+      "reason": "Covers DCAS providing sustained lateral and longitudinal control support. ACPE is a pedal-error torque limiter and gives no such sustained control.",
+      "quote": "1.1 This UN Regulation applies to the type approval of vehicles of Categories M and N2 with regard to their"
+    },
+    {
+      "regulation": "UN R174",
+      "decision": "exclude",
+      "reason": "Covers safety-belt reminders. ACPE is unrelated.",
+      "quote": "means a system dedicated to alert the driver when any of the occupants do not use the"
+    },
+    {
+      "regulation": "UN R175",
+      "decision": "include",
+      "reason": "This is the ACPE regulation, and the product is an ACPE system on an automatic-transmission M1 vehicle. N1 variants can be approved only at the manufacturer's request under 1.2. Vehicles that cannot fit forward or rear detection may be exempted in that direction by the Type Approval Authority, which does not apply to this product as described. The supplied profile has only the introduction and scope, so detailed technical requirements, the deactivation, warning and fault provisions, and the test procedures are unresolved. The introduction indicates the current phase focuses on a stationary vehicle with an obstruction.",
+      "quote": "1.1. This UN Regulation applies to the type approval of vehicles of Category M11 equipped with automatic"
+    },
+    {
+      "regulation": "UN R19",
+      "decision": "exclude",
+      "reason": "Covers front fog lamps. ACPE has none.",
+      "quote": "This Regulation applies to front fog lamps for vehicles of categories L3, L4, L5, L7, M, N, and T2."
+    },
+    {
+      "regulation": "UN R23",
+      "decision": "exclude",
+      "reason": "Covers reversing and manoeuvring lamps. ACPE has none.",
+      "quote": "Reversing lamps for vehicles of categories M, N, O, and T"
+    },
+    {
+      "regulation": "UN R26",
+      "decision": "exclude",
+      "reason": "Covers external projections of bodywork. ACPE housings are not a body projection requirement in the supplied text.",
+      "quote": "1.1. This Regulation applies to external projections of category M1 vehicles."
+    },
+    {
+      "regulation": "UN R32",
+      "decision": "exclude",
+      "reason": "Covers rear-end collision behaviour of the passenger compartment structure. Not ACPE.",
+      "quote": "This Regulation applies to vehicles of category M1 1/ with regard to their behaviour in a rear-end collision."
+    },
+    {
+      "regulation": "UN R37",
+      "decision": "exclude",
+      "reason": "Covers filament and LED replacement light sources. ACPE has none.",
+      "quote": "This Regulation applies to filament light sources and their LED replacement light sources shown in Annex 1 and"
+    },
+    {
+      "regulation": "UN R38",
+      "decision": "exclude",
+      "reason": "Covers rear fog lamps. ACPE has none.",
+      "quote": "This Regulation applies to rear fog lamps for vehicles of categories L3, L4, L5, L7, M, N, O, and T1."
+    },
+    {
+      "regulation": "UN R39",
+      "decision": "exclude",
+      "reason": "Covers speedometer and odometer. ACPE is unrelated.",
+      "quote": "This Regulation applies to the approval of vehicles of categories L, M and N."
+    },
+    {
+      "regulation": "UN R3",
+      "decision": "exclude",
+      "reason": "Covers retro-reflecting devices. ACPE has none.",
+      "quote": "This Regulation applies to retro-reflecting devices 1/ for vehicles of categories L, M, N, O, and T 2/."
+    },
+    {
+      "regulation": "UN R40",
+      "decision": "exclude",
+      "reason": "Covers motorcycle (L3-L5) engine emissions. The product is M1/N1.",
+      "quote": "This Regulation applies to the emission of gaseous pollutants from positive-ignition engines of vehicles of"
+    },
+    {
+      "regulation": "UN R42",
+      "decision": "exclude",
+      "reason": "Covers bumper protective devices in low-speed collisions. ACPE is not a protective device.",
+      "quote": "This Regulation applies to vehicles of category M1 1/ with regard to the behaviour of their front and rear"
+    },
+    {
+      "regulation": "UN R43",
+      "decision": "exclude",
+      "reason": "Covers safety glazing. The spec does not state glazing is part of ACPE. The camera's lens or housing is not a safety glazing pane.",
+      "quote": "Safety glazing materials intended for installation as windscreens or other panes, or as partitioning, on vehicles of"
+    },
+    {
+      "regulation": "UN R48",
+      "decision": "exclude",
+      "reason": "Covers installation of lighting and light-signalling devices. ACPE has none.",
+      "quote": "This Regulation applies to vehicles of categories M, N, and to their trailers (category O)1 with regard to the"
+    },
+    {
+      "regulation": "UN R49",
+      "decision": "exclude",
+      "reason": "Covers engine emissions of heavy-duty engines. ACPE is unrelated to emissions approval.",
+      "quote": "This Regulation shall apply to motor vehicles of categories M1, M2, N1 and N2 with a reference mass exceeding 2,610 kg and to all"
+    },
+    {
+      "regulation": "UN R51",
+      "decision": "exclude",
+      "reason": "Covers exterior sound emission of the vehicle. The ACPE buzzer is an in-cabin warning and ACPE is not a sound emission item.",
+      "quote": "This Regulation contains provisions on the sound emitted by motor vehicles and applies to vehicles of categories M and N."
+    },
+    {
+      "regulation": "UN R53",
+      "decision": "exclude",
+      "reason": "Applies to L3 vehicles' lighting installation.",
+      "quote": "This Regulation applies to vehicles of category L31 with regard to the installation of lighting and light-signalling"
+    },
+    {
+      "regulation": "UN R62",
+      "decision": "exclude",
+      "reason": "Applies to L1-L7 vehicles with handlebars.",
+      "quote": "This Regulation applies to vehicles of categories L1 to L7, 1/ if fitted with handlebars."
+    },
+    {
+      "regulation": "UN R64",
+      "decision": "exclude",
+      "reason": "Covers temporary-use spare wheels and run-flat systems. The product does not include these.",
+      "quote": "This Regulation applies to the approval of vehicles of category M1 and N1 when equipped with:"
+    },
+    {
+      "regulation": "UN R67",
+      "decision": "exclude",
+      "reason": "Covers LPG equipment. The product has petrol, hybrid and BEV variants only.",
+      "quote": "Part I Approval of specific equipment of vehicles of category M and N1 using liquefied petroleum gases in"
+    },
+    {
+      "regulation": "UN R6",
+      "decision": "exclude",
+      "reason": "Covers direction indicator lamps. ACPE has none.",
+      "quote": "This Regulation applies to direction indicators for vehicles of categories L, M, N, O, and T."
+    },
+    {
+      "regulation": "UN R79",
+      "decision": "exclude",
+      "reason": "Covers steering equipment. ACPE does not control steering and only limits propulsion torque.",
+      "quote": "1.1. This Regulation applies to the steering equipment of vehicles of Categories M, N and O."
+    },
+    {
+      "regulation": "UN R7",
+      "decision": "exclude",
+      "reason": "Covers position, stop and end-outline marker lamps. ACPE has none.",
+      "quote": "Front and rear position lamps and stop lamps for vehicles of categories L, M, N, O and T"
+    },
+    {
+      "regulation": "UN R83",
+      "decision": "exclude",
+      "reason": "Covers pollutant emission type approval. ACPE does not alter emissions test conditions and is not an emissions-related function.",
+      "quote": "This Regulation shall apply to vehicles of categories M1 and N1."
+    },
+    {
+      "regulation": "UN R89",
+      "decision": "exclude",
+      "reason": "Covers speed limitation devices and adjustable speed limiters. ACPE limits torque on a detected pedal error and does not limit road speed to a set value.",
+      "quote": "When fitted, the adjustable speed limitation device (ASLD) or function (ASLF) shall limit the speed of"
+    },
+    {
+      "regulation": "UN R92",
+      "decision": "exclude",
+      "reason": "Covers replacement exhaust silencing systems for L1-L5 vehicles.",
+      "quote": "This UN Regulation applies to non-original replacement exhaust silencing systems for vehicles of categories L1,"
+    },
+    {
+      "regulation": "UN R94",
+      "decision": "exclude",
+      "reason": "Covers occupant protection in frontal collision. ACPE is not a protective system.",
+      "quote": "This Regulation applies to vehicles of category M11 of a total permissible mass not exceeding 3,500 kg"
+    }
+  ]
+}

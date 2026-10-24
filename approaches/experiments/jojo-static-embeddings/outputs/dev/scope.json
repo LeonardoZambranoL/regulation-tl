@@ -1,0 +1,340 @@
+{
+  "decisions": [
+    {
+      "regulation": "UN GTR 9",
+      "decision": "exclude",
+      "reason": "Pedestrian-protection test procedures for the front of vehicles (legform and headform). A rear lamp is not covered.",
+      "quote": "to bring about an improvement in the construction of certain\nparts of the front of vehicles"
+    },
+    {
+      "regulation": "UN R100",
+      "decision": "exclude",
+      "reason": "Concerns the electric power train and REESS safety. The rear lamp is not part of it.",
+      "quote": "1.1. Part I: Safety requirements with respect to the electric power train of road vehicles"
+    },
+    {
+      "regulation": "UN R101",
+      "decision": "exclude",
+      "reason": "Concerns CO2, fuel and energy consumption measurement of the vehicle. Not relevant to a lamp module.",
+      "quote": "This Regulation applies to vehicles of categories M1 and N1 1/ with regard to:"
+    },
+    {
+      "regulation": "UN R102",
+      "decision": "exclude",
+      "reason": "Applies to N2, N3, O3 and O4 vehicles only. The product is M1.",
+      "quote": "1.1. This Regulation applies to vehicles of categories N2, N3, O3 and O4."
+    },
+    {
+      "regulation": "UN R103",
+      "decision": "exclude",
+      "reason": "Replacement pollution control devices. Not related to a lamp.",
+      "quote": "This Regulation applies to the type-approval, as separate technical units, of pollution control device"
+    },
+    {
+      "regulation": "UN R104",
+      "decision": "exclude",
+      "reason": "Covers retro-reflective markings for M2, M3, N, O2, O3 and O4, not M1. The retro-reflector function is covered by UN R150, which the supplied source says consolidates earlier regulations, so the older route is not imposed in addition.",
+      "quote": "This Regulation applies to retro-reflective markings for vehicles of category M2, M3, N, O2, O3 and O4."
+    },
+    {
+      "regulation": "UN R107",
+      "decision": "exclude",
+      "reason": "Applies to M2/M3 buses only. The product is M1.",
+      "quote": "1.1. This Regulation applies to every single-deck, double-deck, rigid or articulated vehicle of category M2 or M3."
+    },
+    {
+      "regulation": "UN R10",
+      "decision": "uncertain",
+      "reason": "EMC applies to vehicles and to components or separate technical units (ESAs). The product has LED modules on a PCB, but no facts are given on drivers, control electronics or whether the lamp is an electrical/electronic sub-assembly. Applicability depends on missing facts.",
+      "quote": "1.2. Components and separate technical units intended to be fitted in these vehicles with the limitation given in\nparagraph 3.2.1. with regard to electromagnetic compatibility."
+    },
+    {
+      "regulation": "UN R114",
+      "decision": "exclude",
+      "reason": "Replacement airbag systems and steering wheels. Not related.",
+      "quote": "This Regulation applies to the following aftermarket equipment:"
+    },
+    {
+      "regulation": "UN R116",
+      "decision": "exclude",
+      "reason": "Anti-theft, alarm and immobilizer devices. Not a stated function of the rear lamp.",
+      "quote": "1.1. PART I - Approval of a vehicle of category M1 and N1 1/ with regard to its devices to prevent unauthorized\nuse."
+    },
+    {
+      "regulation": "UN R123",
+      "decision": "exclude",
+      "reason": "Adaptive front-lighting systems. The product is a rear lamp. The text is also consolidated into UN R149, which is a front-lighting regulation.",
+      "quote": "This Regulation applies to adaptive front-lighting systems (AFS) for motor vehicles of categories M and N1."
+    },
+    {
+      "regulation": "UN R127",
+      "decision": "exclude",
+      "reason": "Pedestrian safety of the vehicle front structure. Not relevant to a rear lamp.",
+      "quote": "This Regulation applies to motor vehicles of categories M1 and N1.1"
+    },
+    {
+      "regulation": "UN R128",
+      "decision": "uncertain",
+      "reason": "Applies to standardised LED light sources in Annex 1 used in approved lamps. The product uses 'LED modules on PCB', and it is not stated whether these are standardised replaceable Annex 1 categories or lamp-integrated non-replaceable modules.",
+      "quote": "This Regulation applies to LED light sources shown in Annex 1 and intended for use in approved lamps of power-\ndriven vehicles and of their trailers."
+    },
+    {
+      "regulation": "UN R131",
+      "decision": "exclude",
+      "reason": "AEBS for M2, M3, N2 and N3. Not relevant to the rear lamp or to M1.",
+      "quote": "This Regulation applies to the approval* of vehicles of Category M2, M3, N2 and N31 with regard to an on-board"
+    },
+    {
+      "regulation": "UN R132",
+      "decision": "exclude",
+      "reason": "Retrofit emission control devices. Not related.",
+      "quote": "This Regulation applies to Retrofit Emission Control devices (REC) to be installed:"
+    },
+    {
+      "regulation": "UN R137",
+      "decision": "exclude",
+      "reason": "Frontal impact occupant protection. Not related.",
+      "quote": "This Regulation applies to vehicles of category M11 with a maximum permissible mass not exceeding 3,500 kg"
+    },
+    {
+      "regulation": "UN R13H",
+      "decision": "exclude",
+      "reason": "Vehicle braking performance. The stop lamp only signals braking and is covered by the lighting regulations.",
+      "quote": "1.1. This Regulation applies to the braking of vehicles of categories M1 and N1.1"
+    },
+    {
+      "regulation": "UN R148",
+      "decision": "include",
+      "reason": "Applies to the stated functions: position lamps, stop lamps and reversing lamps for the M1 rear lamp. It is the consolidated route for the earlier individual light-signalling regulations (4, 6, 7, 23, 38, 50, 77, 87, 91), so it is applied instead of those regulations. Detailed photometric, colour and marking requirements are not in the supplied excerpt.",
+      "quote": "This Regulation applies to the following light-signalling devices (lamps):"
+    },
+    {
+      "regulation": "UN R149",
+      "decision": "exclude",
+      "reason": "Road illumination devices (headlamps, AFS, front fog and cornering lamps). The rear lamp has none of these functions.",
+      "quote": "This Regulation applies to the following road illumination devices (lamps):"
+    },
+    {
+      "regulation": "UN R150",
+      "decision": "include",
+      "reason": "Retro-reflectors (the rear lamp has an integrated retro-reflector) are covered. It is the consolidated route for earlier retro-reflective regulations (3, 27, 69, 70, 104), so those are not imposed in addition. The class required for an M1 rear retro-reflector is not stated in the excerpt.",
+      "quote": "This Regulation applies to retro-reflective devices as:"
+    },
+    {
+      "regulation": "UN R152",
+      "decision": "exclude",
+      "reason": "AEBS for M1/N1. Not related to the lamp module.",
+      "quote": "This Regulation applies to the approval of vehicles of Category M1 and N11 * with regard to an on-board system"
+    },
+    {
+      "regulation": "UN R155",
+      "decision": "exclude",
+      "reason": "Vehicle-level cyber security management. The rear lamp component is not itself approved to it, and there are no facts about connected or ECU functions.",
+      "quote": "1.1. This Regulation applies to vehicles, with regard to cyber security, of the Categories M and N."
+    },
+    {
+      "regulation": "UN R156",
+      "decision": "exclude",
+      "reason": "Software update management at vehicle level. No software update function is stated for the lamp.",
+      "quote": "1.1. This Regulation applies to vehicles of Categories1 M, N, O, R, S and T that permit software updates."
+    },
+    {
+      "regulation": "UN R157",
+      "decision": "exclude",
+      "reason": "Automated Lane Keeping System. Unrelated to the stated lamp functions.",
+      "quote": "1.1. This Regulation applies to the type approval of vehicles of Category M and N1 with regards to their"
+    },
+    {
+      "regulation": "UN R161",
+      "decision": "exclude",
+      "reason": "Devices to prevent unauthorized use. Not related.",
+      "quote": "1.1. Approval of a vehicle of category M1 and N11 with regard to its devices to prevent unauthorized use."
+    },
+    {
+      "regulation": "UN R162",
+      "decision": "exclude",
+      "reason": "Immobilizers. Not related.",
+      "quote": "1.1. Approval of immobilizers which are intended to be permanently fitted to vehicles of any category. 1, 2"
+    },
+    {
+      "regulation": "UN R163",
+      "decision": "exclude",
+      "reason": "Vehicle alarm systems. Not related.",
+      "quote": "1.1. Approval of Vehicle Alarm Systems (VAS) which are intended to be permanently fitted to vehicles of any category. 1, 2"
+    },
+    {
+      "regulation": "UN R164",
+      "decision": "exclude",
+      "reason": "Studded tyres. Not related.",
+      "quote": "1.1. This Regulation applies to new studded pneumatic tyres1 of Classes C1, C2 and C3 with regard to their snow\nperformance."
+    },
+    {
+      "regulation": "UN R171",
+      "decision": "exclude",
+      "reason": "Driver control assistance systems. Not related.",
+      "quote": "1.1 This UN Regulation applies to the type approval of vehicles of Categories M and N2 with regard to their"
+    },
+    {
+      "regulation": "UN R174",
+      "decision": "exclude",
+      "reason": "Safety-belt reminders. Not related.",
+      "quote": "This Regulation applies to all seating positions in vehicles of"
+    },
+    {
+      "regulation": "UN R175",
+      "decision": "exclude",
+      "reason": "Accelerator control for pedal error. Not related.",
+      "quote": "1.1. This UN Regulation applies to the type approval of vehicles of Category M11 equipped with automatic"
+    },
+    {
+      "regulation": "UN R19",
+      "decision": "exclude",
+      "reason": "Front fog lamps. The product is a rear lamp with no front fog function.",
+      "quote": "This Regulation applies to front fog lamps for vehicles of categories L3, L4, L5, L7, M, N, and T2."
+    },
+    {
+      "regulation": "UN R23",
+      "decision": "exclude",
+      "reason": "Reversing lamps are within scope, but the supplied UN R148 states that it consolidates this regulation's provisions and covers reversing lamps. R148 is applied as the single route, so this regulation is not imposed as an alternative.",
+      "quote": "(a) Reversing lamps for vehicles of categories M, N, O, and T;1"
+    },
+    {
+      "regulation": "UN R26",
+      "decision": "uncertain",
+      "reason": "Applies to external projections of M1 vehicles. A rear lamp is an exterior part, but no geometry, projection or protrusion data are given, so applicability to the module's shape cannot be determined.",
+      "quote": "1.1. This Regulation applies to external projections of category M1 vehicles.1"
+    },
+    {
+      "regulation": "UN R32",
+      "decision": "exclude",
+      "reason": "Structural behaviour of the vehicle in a rear-end collision. Not a component requirement for the lamp.",
+      "quote": "This Regulation applies to vehicles of category M1 1/ with regard to their behaviour in a rear-end collision."
+    },
+    {
+      "regulation": "UN R37",
+      "decision": "exclude",
+      "reason": "Covers filament light sources and LED replacement light sources. The product uses LED modules on a PCB, and no standardised filament or replacement source is stated.",
+      "quote": "This Regulation applies to filament light sources and their LED replacement light sources shown in Annex 1 and"
+    },
+    {
+      "regulation": "UN R38",
+      "decision": "exclude",
+      "reason": "Rear fog lamps. This function is not part of the product.",
+      "quote": "This Regulation applies to rear fog lamps for vehicles of categories L3, L4, L5, L7, M, N, O, and T1."
+    },
+    {
+      "regulation": "UN R39",
+      "decision": "exclude",
+      "reason": "Speedometer and odometer. Not related.",
+      "quote": "2.1. \"Approval of a vehicle\" means the approval of a vehicle type with regard to the speedometer and odometer"
+    },
+    {
+      "regulation": "UN R3",
+      "decision": "exclude",
+      "reason": "Retro-reflecting devices are within scope, but the supplied UN R150 states that it consolidates the individual regulations including this one. R150 is applied as the single route, so this regulation is not imposed as an alternative.",
+      "quote": "This Regulation applies to retro-reflecting devices 1/ for vehicles of categories L, M, N, O, and T 2/."
+    },
+    {
+      "regulation": "UN R40",
+      "decision": "exclude",
+      "reason": "Emissions of L3, L4 and L5 motorcycles. Not related.",
+      "quote": "This Regulation applies to the emission of gaseous pollutants from positive-ignition engines of vehicles of"
+    },
+    {
+      "regulation": "UN R42",
+      "decision": "exclude",
+      "reason": "Front and rear bumper protective devices at low-speed collisions. The lamp is not a protective device.",
+      "quote": "with regard to the behaviour of their front and rear\nprotective devices when involved in a collision at low speed."
+    },
+    {
+      "regulation": "UN R43",
+      "decision": "exclude",
+      "reason": "Safety glazing. Glazing for lighting and light-signalling devices is explicitly excluded, so the PMMA lens is not covered.",
+      "quote": "(i) Glazing for lighting and light-signalling devices, instrument panels, special bullet-proof glazing and double-"
+    },
+    {
+      "regulation": "UN R48",
+      "decision": "include",
+      "reason": "Installation of lighting and light-signalling devices on M-category vehicles. It governs how the rear lamp functions (rear position, stop, reversing, retro-reflector) are installed on the M1 vehicle, and it supplies the definitions used by UN R148 and UN R150. The detailed installation clauses are not in the supplied excerpt.",
+      "quote": "This Regulation applies to vehicles of categories M, N, and to their trailers (category O)1 with regard to the\ninstallation of lighting and light-signalling devices."
+    },
+    {
+      "regulation": "UN R49",
+      "decision": "exclude",
+      "reason": "Engine exhaust emissions of heavy-duty engines. Not related.",
+      "quote": "1.1. This Regulation shall apply to motor vehicles of categories M1, M2, N1 and N2 with a reference mass exceeding 2,610 kg and to all"
+    },
+    {
+      "regulation": "UN R51",
+      "decision": "exclude",
+      "reason": "Vehicle sound emission. Not related to a lamp.",
+      "quote": "This Regulation contains provisions on the sound emitted by motor vehicles and applies to vehicles of categories M and N.1"
+    },
+    {
+      "regulation": "UN R53",
+      "decision": "exclude",
+      "reason": "Installation of lighting on L3 vehicles (motorcycles). The product is M1.",
+      "quote": "This Regulation applies to vehicles of category L31 with regard to the installation of lighting and light-signalling"
+    },
+    {
+      "regulation": "UN R62",
+      "decision": "exclude",
+      "reason": "Protection of vehicles with handlebars against unauthorized use. Not related.",
+      "quote": "This Regulation applies to vehicles of categories L1 to L7, 1/ if fitted with handlebars."
+    },
+    {
+      "regulation": "UN R64",
+      "decision": "exclude",
+      "reason": "Temporary-use spare wheels and run-flat tyres. Not related.",
+      "quote": "This Regulation applies to the approval of vehicles of category M1 and N1 when equipped with:"
+    },
+    {
+      "regulation": "UN R67",
+      "decision": "exclude",
+      "reason": "LPG propulsion equipment. Not related.",
+      "quote": "1.1. Part I Approval of specific equipment of vehicles of category M and N1 using liquefied petroleum gases in"
+    },
+    {
+      "regulation": "UN R6",
+      "decision": "exclude",
+      "reason": "Direction indicators. The product has no direction indicator function, and the regulation is consolidated into UN R148.",
+      "quote": "This Regulation applies to direction indicators for vehicles of categories L, M, N, O, and T.1"
+    },
+    {
+      "regulation": "UN R79",
+      "decision": "exclude",
+      "reason": "Steering equipment. Not related.",
+      "quote": "1.1. This Regulation applies to the steering equipment of vehicles of Categories M, N and O.1"
+    },
+    {
+      "regulation": "UN R7",
+      "decision": "exclude",
+      "reason": "Covers rear position and stop lamps, but the supplied UN R148 states that it combines this regulation's provisions with no change to the technical requirements. R148 is applied as the single route, so this regulation is not imposed as an alternative.",
+      "quote": "Front and rear position lamps and stop lamps for vehicles of categories L, M, N, O and T;1 and,"
+    },
+    {
+      "regulation": "UN R83",
+      "decision": "exclude",
+      "reason": "Vehicle pollutant emissions. Not related.",
+      "quote": "This Regulation shall apply to vehicles of categories M1 and N1.1"
+    },
+    {
+      "regulation": "UN R89",
+      "decision": "exclude",
+      "reason": "Speed limitation devices. Not related.",
+      "quote": "The purpose of this Regulation is to limit the road speed of vehicles by means of a vehicle system"
+    },
+    {
+      "regulation": "UN R92",
+      "decision": "exclude",
+      "reason": "Replacement exhaust silencers for L-category vehicles. Not related.",
+      "quote": "This UN Regulation applies to non-original replacement exhaust silencing systems for vehicles of categories L1,"
+    },
+    {
+      "regulation": "UN R94",
+      "decision": "exclude",
+      "reason": "Frontal collision occupant protection. Not related.",
+      "quote": "This Regulation applies to vehicles of category M11 of a total permissible mass not exceeding 3,500 kg"
+    }
+  ]
+}
