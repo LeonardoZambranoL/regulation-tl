@@ -1,0 +1,7 @@
+{
+  "api_responses": 0,
+  "local_cache_hits": 0,
+  "failed_attempts": 1,
+  "estimated_usd": null,
+  "note": "Gemini query embedding charges are not included in the Claude cost estimate."
+}

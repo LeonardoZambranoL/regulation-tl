@@ -1,68 +1,89 @@
-"""Generate, verify, and save shareable Gemini Embedding vectors for all clauses in `data-ingestion/clauses`.
-
-Usage:
-    .venv/bin/python data-ingestion/embed_clauses.py
-"""
-
-from __future__ import annotations
+"""Generate clause vectors with the same shared Gemini call used by retrieval."""
 
 import argparse
-import sys
+import json
+import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import numpy as np
+from dotenv import load_dotenv
+from tqdm import tqdm
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO_ROOT))
+from gemini_embedding import embed_text
 
-from retrieval.corpus import load_corpus
-from retrieval.retrievers.neural import Gemini
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument(
-        "--model",
-        default="gemini-embedding-2-preview",
-        help="Embedding model name (default: gemini-embedding-2-preview)",
+def load_rows(folder, index_path):
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    titles = {item["regulation"]: item.get("title", "") for item in index}
+    rows = []
+    for path in sorted(folder.glob("*.json")):
+        document = json.loads(path.read_text(encoding="utf-8"))
+        for clause in document["clauses"]:
+            paragraph = " ".join(str(clause.get("paragraph") or "").replace("/", " ").split())
+            rows.append({
+                "regulation": document["regulation"],
+                "version": document["version"],
+                "page": clause["pages"][0],
+                "paragraph": paragraph,
+                "embedding_text": (
+                    f"{document['regulation']} {titles.get(document['regulation'], '')}. {paragraph}\n"
+                    f"{clause['text'].replace(chr(13) + chr(10), chr(10))}"
+                ),
+            })
+    if not rows:
+        raise ValueError("No clause records found")
+    return rows
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--model", default="gemini-embedding-2-preview")
+    parser.add_argument("--dim", type=int, default=768)
+    parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--clauses", type=Path, default=HERE / "clauses")
+    parser.add_argument("--index", type=Path, default=ROOT.parent / "industrial-ai-hackathon/regulations/index.json")
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    if args.dim < 1 or args.workers < 1:
+        parser.error("dim and workers must be positive")
+
+    load_dotenv(ROOT / ".env")
+    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        parser.error("Set GEMINI_API_KEY in the repository .env")
+    rows = load_rows(args.clauses, args.index)
+    output = args.output or HERE / "embeddings" / f"{args.model}_d{args.dim}_n{len(rows)}.npz"
+
+    vectors = np.empty((len(rows), args.dim), dtype=np.float32)
+    with ThreadPoolExecutor(max_workers=args.workers) as pool, tqdm(total=len(rows), unit="clause") as progress:
+        futures = {
+            pool.submit(embed_text, row["embedding_text"], model=args.model,
+                        dimensions=args.dim, api_key=key): i
+            for i, row in enumerate(rows)
+        }
+        for future in as_completed(futures):
+            vectors[futures[future]] = future.result()
+            progress.update(1)
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    np.savez_compressed(
+        output,
+        embeddings=vectors.astype(np.float16),
+        regulations=np.asarray([row["regulation"] for row in rows]),
+        versions=np.asarray([row["version"] for row in rows]),
+        pages=np.asarray([row["page"] for row in rows], dtype=np.int32),
+        paragraphs=np.asarray([row["paragraph"] for row in rows]),
     )
-    ap.add_argument("--dim", type=int, default=768, help="Matryoshka output dimensionality (default: 768)")
-    ap.add_argument("--batch-size", type=int, default=50, help="Clauses per batch step (default: 50)")
-    ap.add_argument("--workers", type=int, default=16, help="Concurrent threads for single-item API (default: 16)")
-    args = ap.parse_args()
-
-    chunks = load_corpus(granularity="paragraph", source="clauses")
-    print(f"Loaded {len(chunks)} clauses from data-ingestion/clauses/")
-
-    retriever = Gemini(
-        model=args.model,
-        output_dimensionality=args.dim,
-        batch_size=args.batch_size,
-        max_workers=args.workers,
-        delay=0.0,
-    )
-    retriever.fit(chunks)
-    shared_path = retriever._shared_path(len(chunks)).relative_to(REPO_ROOT)
-
-    emb = retriever.emb
-    unique_rows = len(np.unique(emb, axis=0))
-    norms = np.linalg.norm(emb, axis=1)
-    print("\n=== Verification ===")
-    print(f"  File:        {shared_path} ({(REPO_ROOT / shared_path).stat().st_size / (1024 * 1024):.1f} MB)")
-    print(f"  Shape:       {emb.shape}")
-    print(f"  Unique rows: {unique_rows}/{len(emb)} ({unique_rows * 100 / len(emb):.1f}%)")
-    print(f"  L2 norms:    min={norms.min():.4f}, max={norms.max():.4f}")
-
-    test_query = "stop lamp luminous intensity requirements"
-    hits = retriever.search(test_query, k=3)
-    print(f"\n  Sanity search: {test_query!r}")
-    for rank, h in enumerate(hits, 1):
-        c = chunks[h.chunk_id]
-        snippet = " ".join(c.text.split())[:100]
-        print(f"    {rank}. [{h.score:.4f}] {c.regulation} p.{c.page} ({c.paragraph}): {snippet}...")
-
-    return 0
+    query = embed_text("stop lamp luminous intensity requirements", model=args.model,
+                       dimensions=args.dim, api_key=key)
+    best = np.argsort(vectors @ query)[-3:][::-1]
+    print(f"Wrote {output} with shape {vectors.shape}")
+    print("Sanity-search rows:", ", ".join(str(int(i)) for i in best))
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()

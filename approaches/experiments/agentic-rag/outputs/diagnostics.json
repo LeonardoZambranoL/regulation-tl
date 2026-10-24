@@ -1,0 +1,23 @@
+{
+  "complete": false,
+  "stage": "planning",
+  "error": "Failed after 3 attempts: Gemini HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Requests to this API generativelanguage.googleapis.com method google.ai.generativelanguage.v1beta.GenerativeService.EmbedContent are blocked.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_SERVICE_BLOCKED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/402285289369\",\n          \"service\": \"generativelangu",
+  "searches": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "failed",
+      "error": "Gemini HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Requests to this API generativelanguage.googleapis.com method google.ai.generativelanguage.v1beta.GenerativeService.EmbedContent are blocked.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_SERVICE_BLOCKED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\",\n          \"consumer\": \"pro"
+    },
+    {
+      "attempt": 2,
+      "status": "failed",
+      "error": "Gemini HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Requests to this API generativelanguage.googleapis.com method google.ai.generativelanguage.v1beta.GenerativeService.EmbedContent are blocked.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_SERVICE_BLOCKED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/402285289369\",\n          \"methodName\": \"google.ai.ge"
+    },
+    {
+      "attempt": 3,
+      "status": "failed",
+      "error": "Gemini HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Requests to this API generativelanguage.googleapis.com method google.ai.generativelanguage.v1beta.GenerativeService.EmbedContent are blocked.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_SERVICE_BLOCKED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/402285289369\",\n          \"service\": \"generativelangu"
+    }
+  ]
+}

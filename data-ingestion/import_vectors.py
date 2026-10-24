@@ -19,10 +19,17 @@ def paragraph_key(value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--embeddings", type=Path, default=ROOT / "data-ingestion/embeddings/gemini-embedding-2-preview_d768_n26769.npz")
+    parser.add_argument("--model", default="gemini-embedding-2-preview", help="Model that created the supplied vectors")
     parser.add_argument("--clauses", type=Path, default=ROOT / "data-ingestion/clauses")
     parser.add_argument("--db", type=Path, default=HERE / ".cache/lancedb")
     parser.add_argument("--replace", action="store_true", help="Replace an existing clauses table instead of refusing to overwrite it")
     args = parser.parse_args()
+
+    expected_prefix = f"{args.model}_d"
+    if not args.embeddings.stem.startswith(expected_prefix):
+        raise ValueError(
+            f"Embedding filename must start with {expected_prefix!r}; refusing to label vectors from another model as {args.model!r}"
+        )
 
     with np.load(args.embeddings, allow_pickle=False) as archive:
         vectors = archive["embeddings"].astype(np.float32)
@@ -79,6 +86,15 @@ def main():
     hits = table.search(vectors[0]).distance_type("cosine").select(["clause_id", "_distance"]).limit(1).to_list()
     if not hits or abs(hits[0]["_distance"]) > 0.0001:
         raise RuntimeError("Vector-search sanity check failed")
+    manifest = {
+        "embedding_model": args.model,
+        "dimensions": vectors.shape[1],
+        "rows": len(rows),
+        "source_file": args.embeddings.name,
+    }
+    (args.db / "manifest.json").write_text(
+        json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
+    )
     print(f"Stored {table.count_rows():,} vectors ({vectors.shape[1]} dimensions) in {args.db.resolve()}")
     print("Table: clauses. Vector-search sanity check passed. No API calls made.")
 

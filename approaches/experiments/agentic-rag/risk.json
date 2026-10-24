@@ -1,0 +1,8 @@
+{
+  "level": "medium",
+  "uses_gold": false,
+  "tuned_on_dev": [],
+  "uses_llm": true,
+  "deterministic": false,
+  "notes": "Generic product-driven agent searches. No case-specific filters or gold access. Retrieval can miss whole regulations; assessment and verification can reject applicable clauses. Not benchmarked yet."
+}

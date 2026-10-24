@@ -1,0 +1,4 @@
+-r ../../../data-ingestion/requirements-vectors.txt
+jsonschema==4.26.0
+python-dotenv==1.2.4
+tqdm==4.70.1
