@@ -1,0 +1,51 @@
+{
+  "run_id": "40065a7b03534198856e15dd6aba48c5",
+  "approach": "devansh-profile-faithful",
+  "status": "completed",
+  "completed_at": "2026-10-24T22:08:32.434594+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful\\outputs\\predictions.json",
+  "prediction_sha256": "7f3827b0a07c72bf2e72119c8e19f774362fd4fba81ff3b092facf58df3164cb",
+  "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.5952380952380952,
+      "recall": 0.9433962264150944,
+      "f1": 0.7299270072992702,
+      "n_submitted": 84,
+      "n_expected": 53,
+      "n_matched": 50,
+      "f2": 0.8445945945945946
+    },
+    "clause_level": {
+      "precision": 0.4649122807017544,
+      "recall": 0.8760330578512396,
+      "f1": 0.6074498567335244,
+      "n_submitted": 228,
+      "n_expected": 121,
+      "n_matched": 106,
+      "f2": 0.7443820224719101
+    }
+  }
+}

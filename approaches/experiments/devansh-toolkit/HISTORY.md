@@ -43,6 +43,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 26 | `devansh-agreement-combo` | keep paragraphs both selectors picked; one-selector ones only if ranker >= 4 | | | | | | agreed paragraphs 80% right, but req F2 dev 0.646, holdout 0.378: not adopted |
 | 27 | `devansh-faithful-plus-deliberate` | faithful list + deliberate agent's extra paragraphs (recall-first) | | | | | | req dev P 0.412 / R 0.842 / F1 0.554 / F2 0.697, holdout F2 0.393: not the final |
 | 28 | **FINAL = `devansh-writer-faithful-ranked`** | clean submission file + `final.sh <case>` for the held-out case | | | | | | req dev P 0.505 / R 0.768 / F1 0.610 / F2 0.696; holdout 0.407 |
+| 29 | **FINAL = `devansh-profile-faithful`** | product profile from spec + exploded-view image used by every step; implicit-obligation candidates (108/121 expert paragraphs reachable vs 98); faithful writer; ranker | | | | | | req dev P 0.457 / R 0.863 / F2 **0.733** (164 TP vs 146), holdout F2 **0.409** (50 TP vs 43); F1 slightly lower |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.

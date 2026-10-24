@@ -20,7 +20,7 @@ repo root. Results: `results.json`, `approaches/req_scores.json`, dashboards, de
 
 Clause F2 on dev 0.619 -> 0.708. Upload file: `outputs/predictions.json` (validate first).
 
-## FINAL submission (2026-10-24)
+## Former final (2026-10-24), superseded by [devansh-profile-faithful](../devansh-profile-faithful/)
 
 This is the team's final pipeline. Clean, validated file for the dev case:
 `outputs/submission-dev-rear-lamp.json` (289 requirements, team-11, every requirement with page and paragraph;

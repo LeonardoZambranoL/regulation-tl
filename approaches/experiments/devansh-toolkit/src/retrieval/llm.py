@@ -23,19 +23,29 @@ def load_env() -> None:
                     os.environ[key.strip()] = value.strip().strip('"').strip("'")
 
 
-def structured(prompt: str, schema: dict, model: str = MODEL, effort: str = "high", max_tokens: int = 16000) -> dict:
-    """One Claude call whose answer is JSON matching `schema` (structured outputs)."""
+def structured(prompt: str, schema: dict, model: str = MODEL, effort: str = "high", max_tokens: int = 16000,
+               images: list | None = None) -> dict:
+    """One Claude call whose answer is JSON matching `schema` (structured outputs). `images`: paths of PNG / JPEG
+    files shown to the model before the prompt (e.g. a product's exploded view)."""
+    import base64
+
     import anthropic
 
     load_env()
     client = anthropic.Anthropic()
+    content: list[dict] = []
+    for path in images or []:
+        data = base64.standard_b64encode(open(path, "rb").read()).decode("utf-8")
+        media = "image/png" if str(path).lower().endswith(".png") else "image/jpeg"
+        content.append({"type": "image", "source": {"type": "base64", "media_type": media, "data": data}})
+    content.append({"type": "text", "text": prompt})
     params = dict(
         model=model,
         max_tokens=max_tokens,
         betas=["server-side-fallback-2026-07-01"],
         fallbacks="default",  # re-run on a fallback model if the request is declined
         output_config={"effort": effort, "format": {"type": "json_schema", "schema": schema}},
-        messages=[{"role": "user", "content": prompt}],
+        messages=[{"role": "user", "content": content}],
     )
     if max_tokens > 16000:
         # long outputs (deep thinking) must stream, or the SDK refuses the request

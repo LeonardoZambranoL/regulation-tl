@@ -20,6 +20,13 @@ from pathlib import Path
 from .corpus import CACHE_DIR, DEFAULT_CHALLENGE_DIR, Chunk, load_corpus
 
 SHALL = re.compile(r"\b(shall|must)\b", re.IGNORECASE)
+IMPLICIT = re.compile(
+    r"\b(not (less|more|lower|higher|greater) than|at (least|most)|minimum|maximum|is not permitted|are not permitted|"
+    r"(is|are) prohibited|(is|are) required|may (only|be [a-z]+ed) .{0,80}provided|provided that|"
+    r"apply the|is (exposed|subjected|tested|measured)|are (exposed|subjected|tested|measured))\b"
+    r"|^\S+\s+[A-Z][a-z]+( [a-z]+){0,4}:\s"            # "6.14.2. Number: Two ...", "6.4.4.2. In height: ..."
+    r"|\d\s?(mm|cm|cd|lx|°|º|V|W|Hz|MHz|kHz|ms|s|%)\b",  # a value with a unit
+    re.IGNORECASE | re.MULTILINE)
 
 INSTRUCTIONS = """You are a UNECE type-approval engineer. A supplier builds the product in <spec> and needs every engineering
 requirement it must fulfil under the selected UN Regulations. For each numbered clause below decide whether it states a
@@ -84,7 +91,13 @@ def candidates(regulations: set[str], mode: str = "shall") -> list[Chunk]:
     """Clauses the reviewers judge. "shall": only clauses containing shall / must (misses implicit obligations);
     "all": every clause of the selected regulations."""
     chunks = [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and c.text.strip()]
-    return chunks if mode == "all" else [c for c in chunks if SHALL.search(c.text)]
+    if mode == "all":
+        return chunks
+    if mode == "shall+implicit":
+        # obligations written without shall / must: spec-style lines with values, prohibitions, conditional
+        # permissions, test instructions (about a third of the dev experts' no-shall paragraphs look like this)
+        return [c for c in chunks if SHALL.search(c.text) or IMPLICIT.search(c.text)]
+    return [c for c in chunks if SHALL.search(c.text)]
 
 
 def _batch_prompt(spec: str, batch: list[Chunk], instructions: str = INSTRUCTIONS, notes: dict[int, str] | None = None) -> str:
