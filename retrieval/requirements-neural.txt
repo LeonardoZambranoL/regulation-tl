@@ -1,0 +1,5 @@
+# Optional: dense / hnsw / splade / rerank retrievers. The lexical ones (bm25, tfidf) need only pymupdf + numpy.
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+transformers>=4.40
+scipy>=1.11

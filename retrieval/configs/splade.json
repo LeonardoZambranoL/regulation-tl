@@ -1,0 +1,1 @@
+{"name": "splade cocondenser", "granularity": "paragraph", "retriever": {"type": "splade", "model": "naver/splade-cocondenser-ensembledistil"}}

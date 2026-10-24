@@ -1,0 +1,1 @@
+{"name": "bm25", "granularity": "paragraph", "retriever": {"type": "bm25", "k1": 1.2, "b": 0.75}}
