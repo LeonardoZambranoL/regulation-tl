@@ -156,39 +156,7 @@ def run_stage2_gate(
     config: dict[str, Any],
     run_dir: Path | None = None,
 ) -> tuple[list[str], dict[str, Any]]:
-    """Skip finding/searching regulations and use the exact exhaustive list of 7 regulations."""
-    if corpus.case_id == "heldout-front-bumper":
-        selected_list = ["UN GTR 9", "UN R10", "UN R26", "UN R42", "UN R48", "UN R127", "UN R148"]
-        all_gate_records = []
-        for reg in sorted(corpus.regulations.keys()):
-            kept = reg in selected_list
-            all_gate_records.append({
-                "regulation": reg,
-                "title": corpus.regulations[reg].title,
-                "base_version": corpus.regulations[reg].base_version,
-                "kept": kept,
-                "applicable_llm": kept,
-                "confidence": 1.0 if kept else 0.0,
-                "reason": "Exhaustive regulation list specified for front bumper" if kept else "Not in exhaustive list",
-                "matched_parts": [p.name for p in product.parts] if kept else [],
-                "supporting_paragraphs": [],
-                "retrieval_stats": {},
-            })
-        gate_report = {
-            "case_id": corpus.case_id,
-            "selected_regulations": selected_list,
-            "queries_used": [],
-            "candidate_regulations_evaluated": selected_list,
-            "decisions": all_gate_records,
-        }
-        if run_dir is not None:
-            run_dir.mkdir(parents=True, exist_ok=True)
-            (run_dir / "gate.json").write_text(
-                json.dumps(gate_report, indent=2, ensure_ascii=False) + "\n",
-                encoding="utf-8",
-            )
-        return selected_list, gate_report
-
+    """Select the governing regulations: hybrid retrieval, domain rules, supersession / category filters, LLM gate."""
     k_per_q = config["retrieval"].get("top_k_per_query", 30)
     queries = build_queries(corpus, product)
 
