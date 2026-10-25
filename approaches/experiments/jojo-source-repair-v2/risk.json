@@ -1,0 +1,14 @@
+{
+  "level": "high",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Inherits certi-pipeline/v7 predictions and saved-band calibration.",
+    "Manual source audit examines dev predictions but no gold; decisions are frozen before new benchmark measurement."
+  ],
+  "not_tuned": [
+    "No numerical threshold fitting, size cap, semantic pruning, or gold-driven text edits."
+  ],
+  "notes": "Astra/high analysis selects 12 source-backed repair rules; run.py is deterministic replay. Experimental wording changes can alter semantic matching adversely. No fresh paid semantic judge or platform result."
+}

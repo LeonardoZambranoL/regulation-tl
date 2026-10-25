@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 approaches/experiments/jojo-source-repair-v2/check_commit.py

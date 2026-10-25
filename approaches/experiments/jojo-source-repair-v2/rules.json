@@ -1,0 +1,194 @@
+[
+  {
+    "name": "esa-marking-exemption",
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "match": "approval mark",
+    "operation": "append",
+    "text": "; no marking is required for electrical/electronic systems built into vehicles which are approved as units.",
+    "reason": "Restore the explicit built-in-system marking exemption; no marking obligation is removed.",
+    "evidence": [
+      {
+        "paragraph": "5.2.2",
+        "page": 8
+      }
+    ],
+    "exclude": "no marking|unless|except"
+  },
+  {
+    "name": "separable-lens-trigger",
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.3",
+    "match": "approval marking",
+    "operation": "prefix",
+    "text": "If the outer lens is designed to be separated from the main body, ",
+    "reason": "Restore the explicit separable-lens condition.",
+    "evidence": [
+      {
+        "paragraph": "3.3.4.3",
+        "page": 8
+      }
+    ],
+    "exclude": "where|if"
+  },
+  {
+    "name": "un-approved-replaceable-source-trigger",
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.2",
+    "match": "light source",
+    "operation": "prefix",
+    "text": "In the case of replaceable UN approved light sources, ",
+    "reason": "The positioning/holder provisions apply to replaceable UN approved sources, not every light source.",
+    "evidence": [
+      {
+        "paragraph": "4.7.2.2",
+        "page": 12
+      }
+    ],
+    "exclude": "UN approved"
+  },
+  {
+    "name": "photometric-default-exception",
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "match": "intensity",
+    "operation": "prefix",
+    "text": "Unless otherwise specified, ",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "paragraph": "4.8.3.1",
+        "page": 14
+      }
+    ],
+    "exclude": "local variations|otherwise specified"
+  },
+  {
+    "name": "module-code-multiple-module-condition",
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.5",
+    "match": "followed by additional symbols or characters",
+    "operation": "replace",
+    "text": "Replaceable light source modules shall bear a specific identification code comprising the starting letters \"MD\" followed by the approval mark without the circle; additional symbols or characters shall follow if several non-identical light source modules are used.",
+    "reason": "Additional identification symbols are conditional on several non-identical modules; the input made them unconditional.",
+    "evidence": [
+      {
+        "paragraph": "3.3.3.5",
+        "page": 8
+      },
+      {
+        "paragraph": "3.3.2.1.1",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "name": "multiple-source-alternative-test-context",
+    "regulation": "UN R148",
+    "paragraph": "4.8.2.3.2",
+    "match": "^Alternatively, such lamps",
+    "operation": "replace",
+    "text": "Alternatively, lamps equipped with multiple replaceable UN approved light sources may be tested using one light source in each individual lamp holder position at the reference/objective luminous flux, summing the measured luminous intensities for each direction.",
+    "reason": "Replace the orphaned subject such lamps with the explicit parent-clause scope.",
+    "evidence": [
+      {
+        "paragraph": "4.8.2.3",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "name": "front-position-reference-axis-minimum",
+    "regulation": "UN R148",
+    "paragraph": "5.1.1",
+    "match": "at least 4 cd.*standard light distribution",
+    "operation": "replace",
+    "text": "The front position lamp (category A or MA) shall emit a luminous intensity of at least 4 cd on the reference axis (HV).",
+    "reason": "Table 3 assigns 4 cd to paragraph 4.8.3.1(a), the reference-axis minimum; Figure A3-I governs other directions under (c), not a uniform 4 cd minimum.",
+    "evidence": [
+      {
+        "paragraph": "Table 3",
+        "page": 16
+      },
+      {
+        "paragraph": "4.8.3.1",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "name": "combined-test-static-permission-context",
+    "regulation": "UN GTR 9",
+    "paragraph": "Annex 1 4.3",
+    "match": "^the remaining section may be tested statically\\.$",
+    "operation": "replace",
+    "text": "Under the combined static and dynamic test option, the remaining section of the headform test area, outside the region required to be tested dynamically where HIT_d < TRT, may be tested statically.",
+    "reason": "Restore the missing subject and condition of an isolated sentence fragment; preserve the permission and its dynamic-test sibling.",
+    "evidence": [
+      {
+        "paragraph": "Annex 1 / 4.3",
+        "page": 123
+      }
+    ]
+  },
+  {
+    "name": "carriage-impactor-trigger",
+    "regulation": "UN R42",
+    "paragraph": "Annex 3 2.5.1",
+    "match": "^The carriage shall",
+    "operation": "prefix",
+    "text": "If the impactor is secured to a carriage by a restraining element, ",
+    "reason": "Restore the explicit carriage-mounted-impactor trigger; keep its separate restraining-element requirement.",
+    "evidence": [
+      {
+        "paragraph": "Annex 3 / 2.5.1",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "name": "acpe-not-ready-six-second-trigger",
+    "regulation": "UN R175",
+    "paragraph": "5.1.4.1",
+    "match": "^The not-ready status information",
+    "operation": "prefix",
+    "text": "If ACPE is not ready to intervene 6 seconds after initiation of the vehicle powertrain, ",
+    "reason": "Preserve the six-second trigger when the persistence obligation is listed separately from the warning trigger.",
+    "evidence": [
+      {
+        "paragraph": "5.1.4.1",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "acpe-collision-trigger",
+    "regulation": "UN R175",
+    "paragraph": "5.1.6",
+    "match": "^The collision speed",
+    "operation": "prefix",
+    "text": "If a collision is not prevented, ",
+    "reason": "Restore the shared collision-not-prevented condition on the separately listed 70 percent constraint.",
+    "evidence": [
+      {
+        "paragraph": "5.1.6",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "name": "acpe-backup-design-trigger",
+    "regulation": "UN R175",
+    "paragraph": "Annex 3 3.4.3.2",
+    "match": "^The change-over mechanism",
+    "operation": "prefix",
+    "text": "If the chosen provision selects a second back-up means to realise the vehicle control system objective, ",
+    "reason": "Backup design documentation applies when that safety architecture is selected, not unconditionally.",
+    "evidence": [
+      {
+        "paragraph": "Annex 3 / 3.4.3.2",
+        "page": 15
+      }
+    ]
+  }
+]
