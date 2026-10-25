@@ -3,5 +3,6 @@
   "regulation": "UN R171",
   "old_version": "1.1.0",
   "new_version": "2.0.0",
-  "model": "claude-sonnet-5-5"
+  "model": "claude-sonnet-5-5",
+  "recovery_model": "claude-sonnet-5-5"
 }

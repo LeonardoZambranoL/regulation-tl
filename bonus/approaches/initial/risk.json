@@ -2,6 +2,7 @@
   "level": "high",
   "uses_gold": false,
   "tuned_on_dev": [
+    "Added an optional generic recovery workflow after dev bundling errors and held-out aggregate leaderboard feedback; no hidden answer is available. Recovery uses ID handoff reconciliation and broader retrieval without case-specific paragraph rules.",
     "Changed candidate discovery after reviewing the initial development run's aggregate recall report; exhaustive coverage is intended to address the observed coverage weakness.",
     "Added generic sentence-level evidence recovery and explicit word-edit review after diagnosing a development miss involving a qualifier and a parser boundary.",
     "Added parent scope context and required continuity evidence for cross-paragraph obligation matching after development diagnostics found repeated procedure steps suppressed as existing; retaining uncertain additions may increase false positives.",

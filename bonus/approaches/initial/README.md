@@ -43,6 +43,23 @@ Addition deduplication now requires both normalized text and the same paragraph/
 
 ## Run
 
+### Focused recovery from a completed run
+
+Recovery constrains `existing_id` in the model schema to the supplied requirement IDs or null. Clause identifiers (`o...`/`n...`) are not accepted as requirement handoffs. Handoff/disposition consistency and source citations are checked inside the request's correction-retry loop before caching a successful response. This correction changes recovery clause prompt/schema hashes, so earlier recovery clause responses require new reviews; original exhaustive caches remain untouched.
+
+```powershell
+python bonus\approaches\initial\recover.py --case heldout --estimate-only
+python bonus\approaches\initial\recover.py --case heldout
+```
+
+Recovery uses **claude-sonnet-5-5**, independently of the original generation. It reads the saved submission, assessment and parsed documents. It reviews all clauses with submitted additions, all `modified_existing` extractions, and changed clauses containing obligations previously classified `existing`. Each task includes the base requirement inventory and current decisions/submission, plus ten lexical matches from each full corpus, explicit references, parent clauses and neighboring blocks. It checks rejected novelty decisions, scope, bundled actions/cases and overlap with modifications.
+
+Every `modified_existing` handoff must identify a supplied requirement ID. A second phase reviews those IDs plus every old requirement previously sent to Claude; it requires an explicit resolution of each handoff and agreement between classification, explanation and source. Automatically unchanged IDs are re-reviewed when a handoff reaches them. This is bounded review, not an autonomous search agent or guaranteed exhaustive dependency analysis.
+
+The original submission remains intact. The candidate is `outputs/heldout/recovery/subgoal-heldout.json`; `report.json` records every added/revised and removed/replaced entry, handoff and review rationale. `baseline.json` preserves the starting submission. The candidate passes official schema and local citation/ID checks before writing. No expected answer is used. Per-case, input-identified model caches support resuming, and `usage.jsonl` reports tokens, estimated spend and elapsed time. Pricing uses the existing configured Sonnet rates, including when a provider fallback model is reported, so actual billing may differ. Requests are sequential; recoverable errors use the existing bounded retries.
+
+Run `--estimate-only` first: this pass includes the requirement inventory and current submission in each clause review, so it can be costly. The printed estimate is approximate, excludes extra retries and is a cold-cache estimate. A recovery can revise or remove existing flags as well as add them; it is not guaranteed to improve the score. No recovery calls, tests or evaluation were run during implementation.
+
 Deterministic alignment, candidate discovery and exhaustive review worklists are cached under `.cache/preparation/<case>/`. Keys include the actual parsed documents, requirement inventory and relevant source files; changed inputs/code cause recomputation. Writes are atomic, and unreadable caches are rebuilt. Startup prints progress and cache-hit messages. The first run after this change creates these caches; subsequent runs reuse them. Execution also reuses the preflight worklist instead of computing it a second time. Model response cache keys are unchanged. This change has not been run during implementation.
 
 ### Held-out regulation-change case
