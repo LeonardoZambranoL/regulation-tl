@@ -557,5 +557,31 @@
     "matched": 45,
     "submitted": 177,
     "expected": 94
+  },
+  {
+    "approach": "devansh-profile-faithful-v3",
+    "prediction_sha256": "0de6f095a49867f66d0d65d50efdd49181eb699088f3025b84c63f0f17bb9102",
+    "case": "dev-rear-lamp",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.4820359281437126,
+    "recall": 0.8473684210526315,
+    "f1": 0.6145038167938932,
+    "f2": 0.7358318098720292,
+    "matched": 161,
+    "submitted": 334,
+    "expected": 190
+  },
+  {
+    "approach": "devansh-profile-faithful-v3",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "case": "holdout-acpe",
+    "judge": "req_judge claude-opus-5-5 medium",
+    "precision": 0.2542372881355932,
+    "recall": 0.4787234042553192,
+    "f1": 0.3321033210332103,
+    "f2": 0.40687160940325495,
+    "matched": 45,
+    "submitted": 177,
+    "expected": 94
   }
 ]

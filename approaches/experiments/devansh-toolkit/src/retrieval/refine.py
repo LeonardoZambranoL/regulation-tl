@@ -235,9 +235,10 @@ def merge_restatements(reqs: list[dict], max_items: int = 150, workers: int = 6,
     with ThreadPoolExecutor(max_workers=workers) as pool:
         groups = [g for part in pool.map(run, batches) for g in part]
     by_id = {r["id"]: r for r in reqs}
+    order = {r["id"]: n for n, r in enumerate(reqs)}  # ties (same kind, same page): the earlier item in the list
     drop: set[str] = set()
     for g in groups:
-        copies = sorted((by_id[i] for i in set(g["ids"])), key=_body_first)
+        copies = sorted((by_id[i] for i in dict.fromkeys(g["ids"])), key=lambda r: (*_body_first(r), order[r["id"]]))
         drop |= {r["id"] for r in copies[1:]}
         g["kept"] = copies[0]["id"]
     return [r for r in reqs if r["id"] not in drop], groups

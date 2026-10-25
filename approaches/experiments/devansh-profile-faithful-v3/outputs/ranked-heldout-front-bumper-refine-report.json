@@ -1,0 +1,55 @@
+{
+  "input": 562,
+  "after_dedupe": 557,
+  "kept": 460,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 92,
+    "2": 187,
+    "3": 155,
+    "4": 94,
+    "5": 29
+  },
+  "kept_if_cutoff": {
+    "0": 557,
+    "1": 465,
+    "2": 278,
+    "3": 123
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0002",
+        "R-0010",
+        "R-0019"
+      ],
+      "reason": "Vehicles with a lower bumper height below 425 mm shall be tested with the lower legform.",
+      "kept": "R-0002"
+    },
+    {
+      "ids": [
+        "R-0003",
+        "R-0011"
+      ],
+      "reason": "Vehicles with a lower bumper height above 500 mm shall be tested with the upper legform.",
+      "kept": "R-0003"
+    },
+    {
+      "ids": [
+        "R-0004",
+        "R-0012"
+      ],
+      "reason": "For a lower bumper height between 425 and 500 mm, the manufacturer chooses the lower or upper legform test.",
+      "kept": "R-0004"
+    },
+    {
+      "ids": [
+        "R-0001",
+        "R-0009"
+      ],
+      "reason": "The legform-to-bumper impact speed is 40 km/h.",
+      "kept": "R-0001"
+    }
+  ],
+  "dropped_as_restatements": 5
+}

@@ -158,7 +158,16 @@ def rank_retrieval(spec: str, pipe: Pipeline) -> list[tuple[str, float]]:
     return sorted(score.items(), key=lambda x: -x[1])
 
 
-def llm_prompt(spec: str, profiles: dict[str, Profile]) -> str:
+COMPONENT_SCOPE = (
+    " Only list a regulation when it sets requirements on this product itself: its approval as a component, device or "
+    "separate technical unit, its construction, markings or performance, or its installation and behaviour on the "
+    "vehicle. Do NOT list whole-vehicle approvals that assess the complete vehicle or a vehicle-level system the "
+    "product only contributes to or is mounted near (e.g. full-vehicle crash tests, cyber security or software update "
+    "management systems, emissions, anti-theft or alarm systems, electric power train safety), unless the product IS "
+    "that system.")
+
+
+def llm_prompt(spec: str, profiles: dict[str, Profile], extra: str = "") -> str:
     lines = [f"- {p.regulation}: {p.title}. Scope: {p.scope[:400]}"
              + (f" (Supersedes: {', '.join(sorted(p.supersedes))})" if p.supersedes else "") for p in profiles.values()]
     return (
@@ -166,11 +175,11 @@ def llm_prompt(spec: str, profiles: dict[str, Profile]) -> str:
         "catalogue whose requirements the product (the component itself, its installation on the vehicle, and its "
         "electrical/electronic parts) must fulfil. Prefer the consolidated regulations over the ones they supersede. "
         "Exclude regulations for other vehicle categories or other systems. Be precise: every extra regulation costs "
-        "precision.\n\n<spec>\n" + spec + "\n</spec>\n\n<catalogue>\n" + "\n".join(lines) + "\n</catalogue>"
+        "precision." + extra + "\n\n<spec>\n" + spec + "\n</spec>\n\n<catalogue>\n" + "\n".join(lines) + "\n</catalogue>"
     )
 
 
-def select_llm(spec: str, profiles: dict[str, Profile]) -> dict[str, list[str]]:
+def select_llm(spec: str, profiles: dict[str, Profile], extra: str = "") -> dict[str, list[str]]:
     from .llm import structured
 
     schema = {
@@ -181,7 +190,7 @@ def select_llm(spec: str, profiles: dict[str, Profile]) -> dict[str, list[str]]:
             "required": ["regulation", "reason"], "additionalProperties": False}}},
         "required": ["regulations"], "additionalProperties": False,
     }
-    data = structured(llm_prompt(spec, profiles), schema)
+    data = structured(llm_prompt(spec, profiles, extra), schema)
     out: dict[str, list[str]] = defaultdict(list)
     for item in data["regulations"]:
         out[item["regulation"]].append(item["reason"])
@@ -268,16 +277,25 @@ def select(spec: str, method: str = "combined", k: int = 4, pipe: Pipeline | Non
         return dict(list(kept.items())[:k])
     elif method == "combined":
         chosen = select_rules(spec, profiles) or select(spec, "scope", k, profiles=profiles)
-    elif method == "llm":
-        # cached per (spec, prompt) so benchmarks do not pay for the same call twice
-        prompt_key = hashlib.sha1(llm_prompt(spec, profiles).encode()).hexdigest()[:12]
+    elif method in ("llm", "llm_component"):
+        # cached per (spec, prompt) so benchmarks do not pay for the same call twice; llm_component asks only for
+        # regulations on the product itself (component approval, construction, installation), not whole-vehicle ones
+        extra = COMPONENT_SCOPE if method == "llm_component" else ""
+        prompt_key = hashlib.sha1(llm_prompt(spec, profiles, extra).encode()).hexdigest()[:12]
         cache = LLM_CACHE_DIR / f"regselect_llm_{prompt_key}.json"
         if cache.is_file():
             chosen = json.loads(cache.read_text(encoding="utf-8"))
         else:
-            chosen = select_llm(spec, profiles)
+            chosen = select_llm(spec, profiles, extra)
             LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
             cache.write_text(json.dumps(chosen, indent=2), encoding="utf-8")
+    elif method in ("union", "union_component"):
+        # keyword rules (precise, but written on the dev case) + Claude's picks from the catalogue (covers products the
+        # rules never saw); both lists are then filtered for supersession and vehicle category below
+        chosen = dict(select_rules(spec, profiles) or select(spec, "scope", k, profiles=profiles))
+        llm_method = "llm_component" if method == "union_component" else "llm"
+        for reg, why in select(spec, llm_method, profiles=profiles).items():
+            chosen.setdefault(reg, []).extend(why)
     elif method == "llm_regex":
         chosen = select_llm_regex(spec, profiles)
     else:
