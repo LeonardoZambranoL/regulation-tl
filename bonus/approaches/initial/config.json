@@ -1,0 +1,15 @@
+{
+  "name": "Exhaustive two-track subgoal change impact",
+  "team_id": "team-11",
+  "case_id": "subgoal-dev",
+  "regulation": "UN R175",
+  "old_version": "0.1.0",
+  "new_version": "1.0.0",
+  "model": "claude-sonnet-5-5",
+  "old_pdf": "data/subgoal/dev/old.pdf",
+  "new_pdf": "data/subgoal/dev/new.pdf",
+  "requirements_old": "C:/Users/user/Desktop/industrial-ai-hackathon/subgoal/dev/requirements_old.json",
+  "expected": "C:/Users/user/Desktop/industrial-ai-hackathon/subgoal/dev/expected.json",
+  "schema": "C:/Users/user/Desktop/industrial-ai-hackathon/schemas/submission_subgoal.schema.json",
+  "validator": "C:/Users/user/Desktop/industrial-ai-hackathon/tools/validate.py"
+}

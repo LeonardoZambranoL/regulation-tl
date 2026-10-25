@@ -1,0 +1,13 @@
+{"phase": "smoke", "model": "claude-sonnet-5-5", "input_tokens": 4307, "output_tokens": 125, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 1, "model": "claude-sonnet-5-5", "input_tokens": 17042, "output_tokens": 70, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 2, "model": "claude-sonnet-5-5", "input_tokens": 27037, "output_tokens": 397, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 3, "model": "claude-sonnet-5-5", "input_tokens": 29185, "output_tokens": 178, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 4, "model": "claude-sonnet-5-5", "input_tokens": 30131, "output_tokens": 2773, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 5, "model": "claude-sonnet-5-5", "input_tokens": 33015, "output_tokens": 2044, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 6, "model": "claude-sonnet-5-5", "input_tokens": 35201, "output_tokens": 900, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 7, "model": "claude-sonnet-5-5", "input_tokens": 36209, "output_tokens": 3063, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 8, "model": "claude-sonnet-5-5", "input_tokens": 39686, "output_tokens": 262, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 1, "model": "claude-sonnet-5-5", "input_tokens": 20391, "output_tokens": 101, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 2, "model": "claude-sonnet-5-5", "input_tokens": 30417, "output_tokens": 523, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 3, "model": "claude-sonnet-5-5", "input_tokens": 33343, "output_tokens": 1274, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"call": 4, "model": "claude-sonnet-5-5", "input_tokens": 34691, "output_tokens": 704, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}

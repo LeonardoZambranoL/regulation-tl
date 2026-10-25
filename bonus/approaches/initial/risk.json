@@ -1,0 +1,17 @@
+{
+  "level": "high",
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "Changed candidate discovery after reviewing the initial development run's aggregate recall report; exhaustive coverage is intended to address the observed coverage weakness.",
+    "Added generic sentence-level evidence recovery and explicit word-edit review after diagnosing a development miss involving a qualifier and a parser boundary.",
+    "Added parent scope context and required continuity evidence for cross-paragraph obligation matching after development diagnostics found repeated procedure steps suppressed as existing; retaining uncertain additions may increase false positives.",
+    "Added generic atomic-unit inventory and one-to-one coverage validation after dev diagnostics found independent steps, operating cases and permissions bundled into single entries. No dev-specific paragraph rules were added.",
+    "No expected requirement text, expected citations, or answer-key labels are embedded in prompts or source code."
+  ],
+  "generalization_risks": [
+    "Only one labelled regulation-change case is available locally.",
+    "The supplied product and regulation context may influence how Claude splits atomic obligations.",
+    "Fuzzy text alignment can fail on heavily rewritten or renumbered clauses.",
+    "Automatic unchanged decisions check resolved references, parent clauses and definition terms, but implicit dependencies or applicability changes elsewhere may be missed."
+  ]
+}

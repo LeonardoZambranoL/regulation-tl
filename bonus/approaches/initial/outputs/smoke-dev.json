@@ -1,0 +1,17 @@
+{
+  "result": {
+    "candidate_id": "old:R-015",
+    "decision": "modified",
+    "reason": "Paragraph 5.1.2 remains on page 4 with the same thresholds (400%/s velocity, 70% travel distance, 90% max position). The new text adds the condition 'resulting in continuous acceleration', which narrows what counts as an accelerator control misapplication.",
+    "source_page": 4
+  },
+  "usage": {
+    "tokens": {
+      "input_tokens": 4307,
+      "output_tokens": 125,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "estimated_cost_usd": 0.009864
+  }
+}

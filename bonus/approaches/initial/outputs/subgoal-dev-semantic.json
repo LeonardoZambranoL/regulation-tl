@@ -1,0 +1,241 @@
+{
+  "team_id": "team-11",
+  "case_id": "subgoal-dev",
+  "changes": [
+    {
+      "requirement_id": "R-015",
+      "change": "modified",
+      "new_text": "5.1.2. An accelerator control application resulting in continuous acceleration and having a velocity of at least 400\r\nper cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator\r\ncontrol, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall\r\nbe regarded as an accelerator control misapplication in the context of the paragraph 5.1.1.",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.2.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-018",
+      "change": "modified",
+      "new_text": "5.1.4. The ACPE shall control acceleration when the vehicle is accelerated both from standstill and, as relevant,\r\nwhile creeping.",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.4.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "requirement_id": "R-019",
+      "change": "modified",
+      "new_text": "5.1.4.1 An ACPE intervention is not required when:\r\n(a) there is an AEBS warning or intervention occurring; or\r\n(b) the vehicle speed is greater than 10 km/h.",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.4.1.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-020",
+      "change": "modified",
+      "new_text": "5.1.4.1 An ACPE intervention is not required when:\r\n(a) there is an AEBS warning or intervention occurring; or\r\n(b) the vehicle speed is greater than 10 km/h.",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.4.1.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-021",
+      "change": "modified",
+      "new_text": "5.1.5. The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located\r\nnot more than 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the triggering conditions (as\r\noutlined in paragraph 5.1.2.) are achieved, provided:\r\n(a) Vehicle external influences allow for the required acceleration inhibition, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C);\r\n(b) The vehicle state itself allows for the required acceleration inhibition, e.g.:\r\n(i) The tyres are in an appropriate state and properly inflated;\r\n(ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(v) The vehicle’s powertrain management system is properly operational\r\n(vi) If the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal\r\nconditions of vehicle operation.\r\n(c) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly radar-reflective environment);\r\n(ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g.\r\nbelow fifth percentile of RCS of all M1 vehicles)\r\n\r\n(iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iv) There are no overhead obstructions close to the vehicle;\r\n(d) The situation is unambiguous, i.e.:\r\n(i) The obstacle is stationary, unobstructed, clearly separated from other obje",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.5.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": "R-022",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 5.1.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-023",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 5.1.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-024",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 5.1.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-025",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 5.1.6 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-026",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 5.1.6 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-027",
+      "change": "modified",
+      "new_text": "5.1.6.1. Acceleration from standstill\r\nIn the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the\r\nvehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.\r\nIn addition, the collision speed shall not be greater than 70 per cent of that speed the vehicle would have had in\r\nthe same position and under the same circumstances but without any ACPE intervention.",
+      "reason": "Textual comparison found a provision change near paragraph 5.1.6.1.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "requirement_id": "R-084",
+      "change": "modified",
+      "new_text": "6.5. Offset of vehicle and target",
+      "reason": "Textual comparison found a provision change near paragraph 6.5.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "requirement_id": "R-085",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-086",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-087",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-088",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-089",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": "R-090",
+      "change": "removed",
+      "reason": "Old obligation from paragraph 6.5 could not be located in the new version."
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "5.1.2. An accelerator control application resulting in continuous acceleration and having a velocity of at least 400\r\nper cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator\r\ncontrol, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall\r\nbe regarded as an accelerator control misapplication in the context of the paragraph 5.1.1.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 5.1.2.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "5.1.4. The ACPE shall control acceleration when the vehicle is accelerated both from standstill and, as relevant,\r\nwhile creeping.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 5.1.4.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "5.1.5. The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located\r\nnot more than 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the triggering conditions (as\r\noutlined in paragraph 5.1.2.) are achieved, provided:\r\n(a) Vehicle external influences allow for the required acceleration inhibition, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C);\r\n(b) The vehicle state itself allows for the required acceleration inhibition, e.g.:\r\n(i) The tyres are in an appropriate state and properly inflated;\r\n(ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(v) The vehicle’s powertrain management system is properly operational\r\n(vi) If the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal\r\nconditions of vehicle operation.\r\n(c) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly radar-reflective environment);\r\n(ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g.\r\nbelow fifth percentile of RCS of all M1 vehicles)\r\n\r\n(iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iv) There are no overhead obstructions close to the vehicle;\r\n(d) The situation is unambiguous, i.e.:\r\n(i) The obstacle is stationary, unobstructed, clearly separated from other obje",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 5.1.5.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "5.1.6.1. Acceleration from standstill\r\nIn the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the\r\nvehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.\r\nIn addition, the collision speed shall not be greater than 70 per cent of that speed the vehicle would have had in\r\nthe same position and under the same circumstances but without any ACPE intervention.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 5.1.6.1.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "5.1.12. The performance requirements shall be verified using the test procedure as described in section 6.6.1. and\r\n6.6.2.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 5.1.12.",
+      "source": {
+        "page": 7,
+        "paragraph": "5.1.12"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "6.3.2. Prior to any testing, it shall be ensured that the ACPE is switched on and ready to function.\r\nDuring the conduct of the test the technical service need to ensure that the boundary conditions of the ACPE - as\r\ndefined by the manufacturer - with regard to the detection of the test target are taken into account (e.g. avoid\r\nblocking of a sonar system used, ensure that a vision system used can properly identify the pedestrian test target\r\nused as a human by making it fully visible to the camera system before testing, etc.)",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 6.3.2.",
+      "source": {
+        "page": 9,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "6.6. Test procedures\r\nThe test procedures shall be performed both in a forward and rearward direction and at least with the ACPE\r\ninterventions triggered at 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) distance from the target position\r\n(as detailed in Table 1).",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 6.6.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "11. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat4 the names and addresses of the Technical Services responsible for conducting approval tests and of\r\nthe Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval are to be sent.\r\n\r\n4 The UNECE secretariats provides the online platform (\"/343 Application\") for exchange of such information with the secretariat:\r\nhttps://www.unece.org/trans/main/wp29/datasharing.html",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 11.",
+      "source": {
+        "page": 12,
+        "paragraph": "11"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "12.1.2. As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals to the original version of this Regulation, first issued after 1 September 2029.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 12.1.2.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "12.1.3. Until 1 September 2031, Contracting Parties applying this Regulation shall accept type approvals to the\r\noriginal version of this Regulation, first issued before 1 September 2029.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 12.1.3.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "12.1.8. Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any\r\npreceding series of amendments to this Regulation.",
+      "reason": "Textual diff identifies a potentially new obligation in paragraph 12.1.8.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.8"
+      }
+    }
+  ]
+}
