@@ -1,0 +1,5 @@
+numpy
+PyYAML
+pydantic>=2
+jsonschema
+certifi
