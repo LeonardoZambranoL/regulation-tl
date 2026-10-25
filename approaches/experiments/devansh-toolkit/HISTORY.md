@@ -62,6 +62,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 45 | re-add rated-1 items (test) | ranker's 'certainly not' items back | | | | | | dev +29 / +3 matches F2 0.736 -> 0.730; ACPE +15 / +3, 0.407 -> 0.423; ~14% hit rate = neutral at bumper F2; not used |
 | 46 | same-page completion | write unwritten candidate clauses on already-cited pages | | | | | | dev +70 / +1, F2 0.696 (worse); ACPE +20 / +5, **0.436** (better). Bumper second file v6-samepage-core (508). Insight: F2 = 5M / (4E + N); adding helps iff hit rate > F2/5 |
 | 47 | bumper platform: v6-samepage 572 / v6 429 | | | | | | | 572: P 29.0 / R 79.8 / F2 59.1 (166 matches); **v6: P 35.9 / R 74.0 / F2 61.1 (154) = FINAL**. Same-page additions 12/143 correct (8.4% < 12% break-even). Pruning not pursued: every other pool's hit rate is above F2/5 |
+| 48 | `devansh-profile-faithful-v7` (not adopted) | pre-declared structural pruning: A administrative sections, B within-regulation near-repeats (Jaccard >= 0.85), C definitions; adopt only if removed hit rate < 12% on dev and ACPE | | | | | | A 30/51 dev (59%), 4/5 ACPE (80%): the experts list approval-mark / CoP obligations; B 1/6 (17%), 1/13 (8%); C none. Nothing passes; zero API. **Bumper stays v6 (61.1%)** |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.
