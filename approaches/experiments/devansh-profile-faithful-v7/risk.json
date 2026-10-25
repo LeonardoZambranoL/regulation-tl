@@ -1,0 +1,12 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": true,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-profile-faithful-v3's predictions (see that folder's risk.json)",
+    "the three pruning tests and the adoption rule were written down before any measurement; hit rates of the removed items were then read from the local judge's cached matches on dev-rear-lamp and holdout-acpe (validation only). No component passed, so the outputs equal v3's"
+  ],
+  "not_tuned": ["no threshold was swept; the 0.85 Jaccard and 12% break-even (= bumper F2 / 5) were fixed in advance"],
+  "notes": "Zero API calls. Bumper: no new file; v6 (devansh-profile-faithful-v5/outputs/submission-heldout-front-bumper-v6.json) stays the upload."
+}
