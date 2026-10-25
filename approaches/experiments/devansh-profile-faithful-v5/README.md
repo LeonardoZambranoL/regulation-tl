@@ -63,3 +63,16 @@ Bumper: 313 clauses -> 159 requirements (588), near-duplicates of existing items
 - `submission-heldout-front-bumper-v6-samepage-core.json` (508): v6 + additions from R10, GTR 9, R127, R148, R26, R42
   (R48 lamp additions left out: the lamp ambiguity). Needs >= ~10 of the 79 additions to match to beat v6.
 - `submission-heldout-front-bumper-v6-samepage.json` (572): all additions (not recommended).
+
+## Platform scores (bumper, 2026-10-25)
+
+| file | items | P | R | F2 | matches (P x N) |
+|---|---|---|---|---|---|
+| v3 (reference) | 460 | 33.9 | 75.0 | 60.4 | 156 |
+| v6-samepage (all additions) | 572 | 29.0 | 79.8 | 59.1 | 166 |
+| **v6 (FINAL)** | 429 | 35.9 | 74.0 | **61.1** | 154 |
+
+Derived: the 143 same-page additions held 12 matches (8.4%, below the ~12% = F2/5 break-even, so leaving them out
+is right); the 42 front-position / daytime-running lamp items held 2 more matches than the 11 mirrored items added.
+Measured hit rates of every pool are above the pruning break-even except the same-page additions (v4 removals 28%,
+ranker rating-1 items 14%), so further pruning is expected to lower F2. **Final bumper upload: v6 (61.1%).**
