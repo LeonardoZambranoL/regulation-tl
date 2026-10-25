@@ -1,4 +1,4 @@
-# devansh-profile-faithful-v4
+# devansh-profile-faithful-v4 (not adopted: bumper platform F2 58.1% < v3 60.4%)
 
 Owner: Devansh. **v3 plus three generic removal steps after the ranker (rationale part, duplicate obligations, items
 about things the product lacks) and a regulation override.** Aim: precision on the front bumper (v3 platform: P 33.9% /
@@ -6,6 +6,15 @@ R 75.0% / F2 60.4%, regulations 100%) without losing recall. Method: [EXPLAIN.md
 
 Run: `bash approaches/experiments/devansh-profile-faithful-v4/run.sh` (dev + holdout-acpe, scored).
 Bumper: `REGULATIONS="UN GTR 9,UN R10,UN R26,UN R42,UN R48,UN R127,UN R148" bash approaches/experiments/devansh-profile-faithful-v4/final.sh heldout-front-bumper`.
+
+## Platform score (uploaded 2026-10-25 09:48 CET, bumper): WORSE than v3, not adopted
+
+Requirements P 34.4% / R 70.2% / F1 46.2% / F2 **58.1%** (v3: P 33.9 / R 75.0 / F2 60.4); pages P 52.7 / R 92.5 (v3 51.0 /
+94.3); regulations 100%. About 146 matches vs 156: **10 of the 36 removed items were correct.** Exactly one expert page
+was lost; the 5 pages only v3 cites are GTR 9 pp. 4, 15, 17, 18 (rationale skip) and R127 p. 36 (pair merge). Most
+likely cause: the experts list the same obligation under both GTR 9 and R127, so merging cross-regulation duplicates
+deletes matches (the dev observation, one copy for R48 / R148 lamp colours, did not carry over). Lesson: on a new
+product, removal steps that dev cannot test cost recall; v3's bumper file (60.4%) stays the final held-out upload.
 
 ## What each change does (ablation on v3's output, local requirement judge)
 
