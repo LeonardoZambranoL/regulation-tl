@@ -1,0 +1,18 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-profile-faithful: regulation rules, writer style rules, ranker criteria, implicit-obligation patterns and the profile prompt were written while looking at the dev case",
+    "NEW: excluding clauses cited at 'Table' / 'Figure' / 'Appendix' labels was decided from an error analysis of devansh-profile-faithful's dev output (42 table / figure / appendix-cited requirements, 1 matched; the dev experts cite no table, figure or appendix label). During the same analysis the citation-label counts of the holdout answer key and of the previous holdout predictions were also printed (0 of 94 expected table citations; 2 of 71 table/figure/appendix predictions matched across both cases), so holdout-acpe is not fully unseen for this one rule",
+    "NEW: the restatement-merge prompt was written once, after reading dev false positives that repeat one limit in the main text, a table and an appendix; it was not iterated against any score",
+    "NEW (v3): adding Claude's regulation picks was decided after the platform showed the keyword rules missed 2 of 7 regulations on heldout-front-bumper (regulation recall 71.4%; no answer key seen). The 'product itself, no whole-vehicle approvals' instruction was written after seeing Claude's unrestricted picks on the three specs (it added cyber security / software update / crash-test regulations on ACPE and the bumper); it names categories of regulations, not products, and was run once",
+    "NEW (v5): the mirror step comes from the bumper's platform scores: v4, which removed one copy of 13 GTR 9 / R127 duplicate obligations, lost ~10 matches (F2 60.4 -> 58.1), so the experts list both copies. The link threshold (5 confirmed shared obligations) is a round number fixed before the run; the prompt names no product or regulation. Run once; dev and holdout-acpe have no linked pair, so their outputs equal v3's"
+  ],
+  "not_tuned": [
+    "no threshold or size was swept; the ranker cut-off (drop rating 1) is inherited and fixed",
+    "LLM answers are shared with v2's cache (identical prompts reuse v2's answers); the regulation-pick answers and the bumper's new batches were generated fresh for v3"
+  ],
+  "notes": "v5 = v3 + retrieval.mirror. Bumper: GTR 9 <-> R127 linked (13 shared), 11 counterparts added (460 -> 471). Choosing between v3 / v5 by platform score tunes on the held-out case (allowed: last upload counts)."
+}
