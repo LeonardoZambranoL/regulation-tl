@@ -1,0 +1,434 @@
+{
+  "dev-rear-lamp": {
+    "product": "Rear lamp (combined rear position lamp, stop lamp, reversing lamp and retro-reflector in a single housing)",
+    "vehicle_categories": [
+      "M1"
+    ],
+    "has_electronics": true,
+    "parts": [
+      {
+        "name": "Rear position lamp",
+        "function": "Rear position signalling indicating vehicle presence and width from the rear; red light, on-axis intensity 4 to 17 cd",
+        "category": "lighting/signalling function",
+        "interfaces": [
+          "Reflector",
+          "LED modules on PCB",
+          "Outer lens",
+          "Vehicle wiring harness"
+        ],
+        "safety_relevance": [
+          "photometric intensity",
+          "red chromaticity",
+          "geometric visibility",
+          "installation position"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Stop lamp",
+        "function": "Braking indication to following road users; red light, on-axis intensity 60 to 185 cd",
+        "category": "lighting/signalling function",
+        "interfaces": [
+          "LED modules on PCB",
+          "Outer lens",
+          "Brake switch circuit"
+        ],
+        "safety_relevance": [
+          "photometric intensity",
+          "red chromaticity",
+          "intensity ratio to rear position lamp in combined/reciprocally incorporated function",
+          "geometric visibility"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Reversing lamp",
+        "function": "Illuminates road to the rear and warns other road users when reversing; white light, visible to 45\u00b0 outboard",
+        "category": "lighting/signalling function",
+        "interfaces": [
+          "Housing",
+          "LED modules on PCB",
+          "Outer lens",
+          "Reverse gear switch circuit"
+        ],
+        "safety_relevance": [
+          "photometric intensity",
+          "white chromaticity",
+          "geometric visibility",
+          "glare limitation"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Retro-reflector",
+        "function": "Passive conspicuity by returning incident light toward source; molded PMMA prism optics, reflectivity checked at 5\u00b0 angle of incidence",
+        "category": "passive reflex device",
+        "interfaces": [
+          "Outer lens",
+          "Housing"
+        ],
+        "safety_relevance": [
+          "coefficient of luminous intensity (CIL)",
+          "red colour",
+          "non-triangular shape",
+          "angles of incidence and observation",
+          "installation height and position"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Outer lens",
+        "function": "Light transmission and colour definition; red-tinted UV-stabilised PMMA within chromaticity limits",
+        "category": "optical component/lens",
+        "interfaces": [
+          "Housing",
+          "Seal / gasket",
+          "Retro-reflector"
+        ],
+        "safety_relevance": [
+          "chromaticity limits",
+          "UV and weathering resistance of plastic lens materials",
+          "approval marking location",
+          "external projections"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Reflector",
+        "function": "Optical reflector (PC with aluminium vacuum-metallised coating) shaping light distribution for the rear position lamp",
+        "category": "optical component",
+        "interfaces": [
+          "LED modules on PCB",
+          "Housing",
+          "Outer lens"
+        ],
+        "safety_relevance": [
+          "photometric distribution",
+          "heat resistance"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "LED modules on PCB",
+        "function": "Light source for lamp functions; electronic sub-assembly on printed circuit board",
+        "category": "electronics/light source",
+        "interfaces": [
+          "Reflector",
+          "Housing",
+          "Vehicle electrical connector/wiring harness"
+        ],
+        "safety_relevance": [
+          "electromagnetic compatibility (ESA)",
+          "light source failure behaviour",
+          "photometric stability",
+          "voltage and thermal stability"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Housing",
+        "function": "Structural enclosure (PP or ASA/PC) carrying optics, electronics and mounting points",
+        "category": "housing/structure",
+        "interfaces": [
+          "Outer lens",
+          "Seal / gasket",
+          "LED modules on PCB",
+          "Fasteners / clips",
+          "Vehicle body"
+        ],
+        "safety_relevance": [
+          "mounting stability",
+          "heat resistance",
+          "water and dust ingress protection"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Seal / gasket",
+        "function": "Sealing between lens and housing (TPE or silicone); no water ingress after spray test",
+        "category": "seal",
+        "interfaces": [
+          "Outer lens",
+          "Housing"
+        ],
+        "safety_relevance": [
+          "water ingress resistance",
+          "dust resistance",
+          "photometric durability"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Fasteners / clips",
+        "function": "Attach lamp to vehicle body (PA, POM or steel); keep lamp aimed under vibration",
+        "category": "fastener/bracket",
+        "interfaces": [
+          "Housing",
+          "Vehicle body"
+        ],
+        "safety_relevance": [
+          "aim stability under vibration",
+          "installation orientation"
+        ],
+        "evidence": "both"
+      },
+      {
+        "name": "Approval marking",
+        "function": "Identification of approved device and functions on lens/housing",
+        "category": "marking",
+        "interfaces": [
+          "Outer lens",
+          "Housing"
+        ],
+        "safety_relevance": [
+          "type-approval marking legibility and durability"
+        ],
+        "evidence": "spec"
+      }
+    ],
+    "search_queries": [
+      "rear position lamp stop lamp photometric intensity requirements M1",
+      "reversing lamp light distribution geometric visibility 45 degrees outboard",
+      "retro-reflecting device class IA coefficient of luminous intensity angle of incidence",
+      "red colour chromaticity coordinates signalling lamps plastic lens",
+      "LED light source signalling device failure and electronic light source control gear",
+      "electromagnetic compatibility electrical/electronic sub-assembly vehicle lamp",
+      "installation of lighting and light-signalling devices rear position stop reversing lamp",
+      "plastic outer lens resistance to UV radiation weathering and temperature test",
+      "lamp water and dust ingress spray test sealing",
+      "grouped combined reciprocally incorporated lamps marking type approval"
+    ],
+    "assumptions": [
+      "Outer lens is predominantly red; reversing lamp section assumed to emit white light through a clear/uncoloured lens area as shown in drawing.",
+      "LED modules on PCB assumed to drive all lamp functions, making the lamp an ESA requiring EMC assessment.",
+      "Materials are representative per spec and require confirmation against the bill of materials.",
+      "Approval marking inferred as required for type-approved signalling devices; not shown explicitly in drawing.",
+      "Retro-reflector assumed to be non-triangular rear class for M1."
+    ]
+  },
+  "holdout-acpe": {
+    "product": "Acceleration Control for Pedal Error (ACPE) system",
+    "vehicle_categories": [
+      "M1",
+      "N1"
+    ],
+    "has_electronics": true,
+    "parts": [
+      {
+        "name": "Front ultrasonic sensors",
+        "function": "Detect obstacles ahead of the vehicle at parking and manoeuvring speeds",
+        "category": "sensor / electronics",
+        "interfaces": [
+          "front bumper fascia",
+          "wiring harness",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "obstacle detection for ACPE intervention",
+          "EMC",
+          "false activation / non-activation risk"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Rear ultrasonic sensors",
+        "function": "Detect obstacles behind the vehicle at parking and manoeuvring speeds (reverse)",
+        "category": "sensor / electronics",
+        "interfaces": [
+          "rear bumper fascia",
+          "wiring harness",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "obstacle detection for ACPE intervention in reverse",
+          "EMC"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Ultrasonic sensor housing",
+        "function": "Encloses and protects ultrasonic transducer; PBT-GF30",
+        "category": "housing / material",
+        "interfaces": [
+          "bumper mounting bracket",
+          "ultrasonic sensor"
+        ],
+        "safety_relevance": [
+          "environmental durability",
+          "external projections in bumper"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Front camera",
+        "function": "Detects obstacles ahead of the vehicle to support pedal-error intervention",
+        "category": "sensor / electronics",
+        "interfaces": [
+          "windscreen / vehicle front mounting",
+          "wiring harness",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "obstacle detection",
+          "EMC",
+          "field of view / driver vision interference"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Camera housing and lens",
+        "function": "Aluminium die-cast housing with PC lens protecting camera",
+        "category": "housing / optics / material",
+        "interfaces": [
+          "front camera",
+          "vehicle mounting bracket"
+        ],
+        "safety_relevance": [
+          "sensor performance under environmental conditions"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Powertrain control unit with ACPE software function",
+        "function": "Fuses obstacle and pedal input data, detects pedal error and limits or suppresses propulsion torque",
+        "category": "ECU / software",
+        "interfaces": [
+          "ultrasonic sensors",
+          "front camera",
+          "accelerator pedal position sensor",
+          "instrument cluster",
+          "infotainment system",
+          "propulsion system (engine / electric motor)",
+          "vehicle network"
+        ],
+        "safety_relevance": [
+          "propulsion torque control",
+          "functional safety",
+          "software update / cyber security",
+          "EMC",
+          "fault detection"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Control unit hardware (PCB with microcontroller, aluminium housing)",
+        "function": "Hosts ACPE software and processing electronics",
+        "category": "electronics / housing",
+        "interfaces": [
+          "wiring harness",
+          "vehicle power supply"
+        ],
+        "safety_relevance": [
+          "EMC",
+          "electrical safety"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Accelerator pedal position sensor",
+        "function": "Detects sudden, strong accelerator pedal input indicative of pedal error",
+        "category": "sensor / electronics",
+        "interfaces": [
+          "accelerator pedal",
+          "powertrain control unit",
+          "wiring harness"
+        ],
+        "safety_relevance": [
+          "pedal misapplication detection",
+          "driver control of acceleration",
+          "EMC"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Instrument cluster tell-tale",
+        "function": "Visual warning on intervention, deactivation status and system fault",
+        "category": "HMI / electronics",
+        "interfaces": [
+          "instrument cluster",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "driver warning",
+          "malfunction indication",
+          "tell-tale identification symbols"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Buzzer",
+        "function": "Acoustic warning when the system intervenes",
+        "category": "HMI / electronics",
+        "interfaces": [
+          "instrument cluster",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "driver warning"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Deactivation switch in infotainment menu",
+        "function": "Allows driver deactivation; system reactivates at next engine start",
+        "category": "HMI / software control",
+        "interfaces": [
+          "infotainment system",
+          "powertrain control unit"
+        ],
+        "safety_relevance": [
+          "manual deactivation and default reactivation",
+          "driver control"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Wiring harness",
+        "function": "Power and signal connection between sensors, control unit and HMI; copper with PVC/XLPE insulation",
+        "category": "wiring / electrical",
+        "interfaces": [
+          "sensors",
+          "control unit",
+          "instrument cluster",
+          "vehicle electrical system"
+        ],
+        "safety_relevance": [
+          "EMC",
+          "electrical safety"
+        ],
+        "evidence": "spec"
+      },
+      {
+        "name": "Fault reporting function",
+        "function": "Detects and reports system faults to the driver",
+        "category": "software function",
+        "interfaces": [
+          "powertrain control unit",
+          "instrument cluster"
+        ],
+        "safety_relevance": [
+          "failure warning",
+          "functional safety"
+        ],
+        "evidence": "spec"
+      }
+    ],
+    "search_queries": [
+      "acceleration control for pedal error ACPE approval requirements M1 N1",
+      "pedal misapplication unintended acceleration suppression test obstacle stationary vehicle",
+      "ACPE test procedure obstacle detection forward reverse low speed acceleration limit",
+      "driver warning tell-tale acoustic signal acceleration control intervention requirements",
+      "manual deactivation automatic reactivation at engine start driver assistance system",
+      "complex electronic vehicle control systems safety documentation audit",
+      "electromagnetic compatibility electronic sub-assembly ultrasonic sensor camera approval",
+      "software update management and cyber security type approval vehicle control unit",
+      "ultrasonic parking sensor bumper external projection installation"
+    ],
+    "assumptions": [
+      "No exploded-view drawing provided; inventory based solely on spec.",
+      "Propulsion torque limitation is executed via the powertrain control unit for petrol, hybrid and battery-electric variants.",
+      "Material values are representative per spec and require confirmation against actual BOM.",
+      "Brackets/fasteners for sensors and camera are not specified and are therefore not listed separately."
+    ]
+  }
+}

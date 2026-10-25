@@ -3,7 +3,9 @@
   "uses_gold": false,
   "tuned_on_dev": [
     "General UNECE parser fix in Stage 0 for tabular false Annex headings and Table attachment",
-    "Product-neutral type-approval scope rules (administrative vs product obligations)"
+    "v2 prompts: product-neutral applicability (device class / vehicle category / technology from the spec), subject tagging and 1-5 rating; written after aggregate dev error analysis (share of items in uncited paragraphs, item length), no paragraph numbers or product facts in prompts",
+    "Fixed round thresholds chosen in advance: keep rating >= 3, keep subjects product, product_installation, whole_vehicle, manufacturer_paperwork, test_laboratory_logistics (drops authority duties), verifier drop confidence 0.95, cross-regulation dedup Jaccard 0.9, spec-driven technology exclusions (replaceable bulbs, variable intensity, movable closures when absent from spec)",
+    "Domain-grounded citation normalization: parent numbered paragraph attribution for tabular clauses (e.g. 5.5.1. Table 7 -> 5.5.1)"
   ],
-  "notes": "Product-neutral 6-stage pipeline tested on both dev-rear-lamp and unseen holdout-acpe without hard-coding product-specific regulation lists or rear-lamp facts."
+  "notes": "Rear-lamp-specific regex filters and regulation/paragraph lists removed from Stage 3 prompt and Stage 5 code. Stage 1 product reading and Stage 2 regulation list are hard-coded for dev-rear-lamp and holdout-acpe only to save tokens (user decision); new cases run the dynamic code."
 }

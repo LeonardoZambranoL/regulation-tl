@@ -1,0 +1,51 @@
+{
+  "run_id": "dbe1c7767512499bbacead242bba72e2",
+  "approach": "certi-pipeline",
+  "status": "completed",
+  "completed_at": "2026-10-25T01:23:15.854319+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/regulations/index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
+  "prediction_sha256": "83646db420c5562069406ea81ccd55f63b0a2d4a5f2f4f7313ed55f5f633c97f",
+  "gold_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/cases/dev-rear-lamp/expected.json",
+  "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.7794117647058824,
+      "recall": 1.0,
+      "f1": 0.8760330578512397,
+      "n_submitted": 68,
+      "n_expected": 53,
+      "n_matched": 53,
+      "f2": 0.9464285714285715
+    },
+    "clause_level": {
+      "precision": 0.5405405405405406,
+      "recall": 0.9917355371900827,
+      "f1": 0.6997084548104957,
+      "n_submitted": 222,
+      "n_expected": 121,
+      "n_matched": 120,
+      "f2": 0.8498583569405098
+    }
+  }
+}

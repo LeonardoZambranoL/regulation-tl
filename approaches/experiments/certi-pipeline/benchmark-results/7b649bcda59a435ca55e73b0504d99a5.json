@@ -1,0 +1,51 @@
+{
+  "run_id": "7b649bcda59a435ca55e73b0504d99a5",
+  "approach": "certi-pipeline",
+  "status": "completed",
+  "completed_at": "2026-10-24T23:25:17.486589+00:00",
+  "evaluator": "official-local-f2-v1-6de0fe1e0763",
+  "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+  "validation": {
+    "prediction": "passed",
+    "gold": "passed",
+    "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+    "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+    "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
+    "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+    "regulation_versions_checked": true
+  },
+  "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
+  "prediction_sha256": "fcba77bc3d1a4518c71cdb071082b3a6b3ccccf05069620f825da7ee6256ea72",
+  "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
+  "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+  "ranking_metric": "page_level.f2",
+  "metrics": {
+    "regulation_level": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.8333333333333334
+    },
+    "page_level": {
+      "precision": 0.15,
+      "recall": 0.75,
+      "f1": 0.24999999999999997,
+      "n_submitted": 40,
+      "n_expected": 8,
+      "n_matched": 6,
+      "f2": 0.41666666666666663
+    },
+    "clause_level": {
+      "precision": 0.2608695652173913,
+      "recall": 0.631578947368421,
+      "f1": 0.3692307692307692,
+      "n_submitted": 138,
+      "n_expected": 57,
+      "n_matched": 36,
+      "f2": 0.49180327868852464
+    }
+  }
+}

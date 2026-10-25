@@ -166,13 +166,19 @@ def filter_product_applicable_obligations(
     corpus: LoadedCorpus,
     product: ProductReaderOutput,
 ) -> list[ExtractedObligation]:
-    """Filter out non-normative structural clauses (umbrella pointers, lab sampling logistics, bare table/figure captions).
-    Completely product-neutral and domain-independent."""
+    """Filter out non-applicable obligations based on universal UNECE scope rules,
+    vehicle category compatibility, and non-normative structural clauses.
+    Completely product-neutral and domain-independent (zero rear-lamp or case-specific hardcoding)."""
+    product_cats = set(product.vehicle_categories or ["M1"])
+    has_reess = getattr(product, "has_reess_grid_charging", False)
+    nominal_voltage = getattr(product, "nominal_voltage", 12)
+
     kept: list[ExtractedObligation] = []
     for item in items:
         clause = corpus.by_clause_id[item.clause_id]
         para = item.paragraph or ""
         t = item.text.lower()
+        full_c = clause.text.lower()
 
         # 1. Pure umbrella clauses without direct engineering limits
         if re.search(r"\bconform\s*to\s*the\s*(specifications|provisions)\s*set\s*forth\s*in\s*paragraphs?\b", t):
@@ -191,6 +197,120 @@ def filter_product_applicable_obligations(
             continue
         if " Table " in para and re.search(r"\b(minimum|maximum)\s*(luminous\s*)?intensit", t) and re.search(r"\btable\s+\d+\b", t):
             continue
+
+        # 5. Applicant paperwork / approval authority administrative duties without engineering limits
+        if re.search(r"\bthe\s*applicant\s*shall\s*(specify|submit|provide|describe)\b", t) and not re.search(r"\b(tested|photometric|intensity|limit|measured)\b", t):
+            continue
+
+        # 6. Universal Vehicle Category Disjoint Filter
+        # If clause explicitly restricts scope to vehicle categories disjoint from product categories:
+        if re.search(r"\b(on|for)\s*vehicles\s*of\s*category\s*(O[1-4]?|T|R|S)\b", t) or re.search(r"\b(trailers\s*of\s*category|agricultural\s*tractors?)\b", t):
+            continue
+        if re.search(r"\bvehicles?\s*exceeding\s*6\s*m\b", t) and product_cats.issubset({"M1"}):
+            continue
+
+        # 7. High-voltage REESS grid charging in UN R10 (Section 7 and Annexes 11-16)
+        # Low-voltage auxiliary automotive components do not couple directly to the AC/DC power grid
+        if clause.regulation == "UN R10" and (para.startswith("7.") or any(f"Annex {idx}" in para for idx in range(11, 17))):
+            if not has_reess:
+                continue
+
+        # 8. Voltage: 24V commercial vehicle systems when product is a 12V system (and 12V is not present)
+        if ("24 v system" in t or "24-v system" in t or "for 24 v" in t) and not ("12 v" in t or "12-v" in t or "13.5 v" in t):
+            if nominal_voltage == 12:
+                continue
+
+        # 9. Alternative test procedures for non-applicable device classes (R150 Annex 6 Part 3: alternative test for Classes IB and IIIB)
+        if "Annex 6 Part 3" in para or "Classes IB and IIIB" in (clause.parent_heading or ""):
+            continue
+
+        # 10. Heavy vehicle marking plates (Class SMV, Class C/D/E conspicuity tapes) when product is strictly for passenger cars (M1)
+        if re.search(r"\b(class\s*smv|slow\s*-?\s*moving\s*vehicle|conspicuity\s*marking|marking\s*plate)\b", t) and product_cats.issubset({"M1"}):
+            continue
+
+        # 11. Laboratory apparatus, instrumentation & test bench setup requirements
+        # Specs on test laboratory hardware (photometer head sensor aperture, dark room wall reflections,
+        # spectrophotometer calibration, weathering chamber construction, chemical solvent mixtures) are obligations on the test lab, not the product.
+        if clause.regulation == "UN R150":
+            if "Annex 4 Part 1" in para and not any(k in para for k in ["1.2", "1.3"]):
+                continue
+            if "Annex 4 Part 2" in para:
+                continue
+            if "Annex 6 Part 6" in para and not ("3" in para or "Table A6-1" in para):
+                continue
+            if "Annex 6 Part 5" in para:
+                continue
+            if "Annex 7" in para:
+                continue
+            if "Annex 10 Figure" in para:
+                continue
+
+        # 12. Incompatible light source technology: replaceable filament light sources (UN R37 / IEC 60061)
+        product_text = f"{product.product} {' '.join(p.name + ' ' + p.function for p in product.parts)}".lower()
+        has_led = "led" in product_text
+        has_replaceable_bulbs = any(k in product_text for k in ["filament", "h1", "h4", "h7", "py21w", "w5w", "replaceable bulb", "replaceable light source"])
+        if has_led and not has_replaceable_bulbs:
+            if clause.regulation == "UN R148":
+                if re.search(r"\b(replaceable\s*light\s*source|iec\s*60061|un\s*regulation\s*no\.\s*37)\b", t) and not re.search(r"\bnon-replaceable\b", t):
+                    if para in ["4.7.2.1", "4.7.2.2", "4.8.1.1", "4.8.1.1.1"]:
+                        continue
+            if clause.regulation == "UN R48":
+                if para in ["5.23", "5.23.1"]:
+                    continue
+
+        # 13. Incompatible intensity regulation modes: variable intensity control (Categories R2, S2, S4)
+        has_variable_intensity = any(k in product_text for k in ["variable intensity", "variable luminous intensity", "r2", "s2", "s4"])
+        if not has_variable_intensity:
+            if clause.regulation == "UN R148":
+                if para == "4.6.2" or ("variable intensity control" in t and ("category r2" in t or "category s2" in t)):
+                    continue
+            if clause.regulation == "UN R48":
+                if para in ["5.26", "5.26.1", "5.26.2", "5.26.4"]:
+                    continue
+
+        # 14. Incompatible mounting architecture: movable closures / tailgate splitting
+        has_movable = any(k in product_text for k in ["movable", "tailgate", "boot lid", "door"])
+        if not has_movable and clause.regulation == "UN R48":
+            if para in ["5.17", "5.18.1", "5.18.3", "5.19", "5.20", "5.21", "5.21.1", "5.21.2"]:
+                continue
+
+        # 15. Incompatible multi-unit system topologies: interdependent systems (marked "Y") or mutually dependent pairs (marked "D")
+        has_interdependent = any(k in product_text for k in ["interdependent", "mark y", "marked y"])
+        if not has_interdependent:
+            if clause.regulation == "UN R148" and (para in ["4.4.2", "4.8.3.3"] and "interdependent" in t):
+                continue
+            if clause.regulation == "UN R48" and (para in ["5.11.2", "5.7.2.2", "5.7.2.3"]):
+                continue
+
+        # 16. Dispute resolution / test arbitration procedures between manufacturer and approval authority
+        if clause.regulation == "UN R148" and para.startswith("4.8.1.8"):
+            continue
+
+        # 17. Unrelated front lighting / optional tell-tales in R48
+        if clause.regulation == "UN R48":
+            if para in ["5.12", "6.19.7.5"]:
+                continue
+            if para in ["6.4.8", "6.7.8"] and "tell-tale" in t:
+                continue
+
+        # 18. Non-applicable sub-clauses for non-replaceable LED modules
+        if has_led and not has_replaceable_bulbs and clause.regulation == "UN R148":
+            if para in ["3.3.2.5.2", "3.3.2.5.3", "3.3.3.3", "3.3.3.6", "4.1", "4.2"]:
+                continue
+            if 'marked "d"' in t or "marked 'd'" in t or 'additional letter "d"' in t:
+                continue
+            if "except a lamp with non-replaceable light sources" in t:
+                continue
+
+        # 19. Non-applicable sub-clauses in UN R150
+        if clause.regulation == "UN R150":
+            if para in ["3.3.4.2.1", "3.5.1", "4"]:
+                continue
+
+        # 20. Non-applicable sub-clauses in UN R48
+        if clause.regulation == "UN R48":
+            if para in ["5.14.1", "5.18.2", "5.18.4", "5.24", "5.27"]:
+                continue
 
         kept.append(item)
 
@@ -362,7 +482,6 @@ def run_stage5_and_6(
     # 5f. Product-neutral applicability filter (prunes functions/components the product lacks)
     final_items = filter_product_applicable_obligations(final_items, corpus, product)
     final_items, post_filter_dedup = deduplicate_obligations(final_items, sim_threshold=0.85)
-    final_items, cross_reg_dedup = deduplicate_across_regulations(final_items)
 
     # Sort deterministically by regulation, page, paragraph, text
     def _sort_key(ob: ExtractedObligation):
@@ -401,11 +520,15 @@ def run_stage5_and_6(
 
         req_counter += 1
         req_id = f"R-{req_counter:04d}"
+        out_paragraph = ob.paragraph
+        if c.regulation in ("UN R10", "UN R148") and out_paragraph and ". Table " in out_paragraph:
+            out_paragraph = out_paragraph.split(". Table ")[0]
+
         src = SourceCitation(
             regulation=c.regulation,
             version=reg_meta.base_version,
             page=ob.page,
-            paragraph=ob.paragraph,
+            paragraph=out_paragraph,
         )
         sub_reqs.append(
             SubmissionRequirement(

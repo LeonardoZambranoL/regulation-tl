@@ -156,18 +156,6 @@ STAGE3_EXTRACTOR_JSON_SCHEMA = obj(
                     condition=STRING,
                     measurable=BOOL,
                     quote_anchor=STRING,
-                    subject={
-                        "type": "string",
-                        "enum": [
-                            "product",
-                            "product_installation",
-                            "whole_vehicle",
-                            "manufacturer_paperwork",
-                            "authority",
-                            "test_laboratory_logistics",
-                        ],
-                    },
-                    rating={"type": "integer", "enum": [1, 2, 3, 4, 5]},
                 )
             ),
         )
