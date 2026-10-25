@@ -4,6 +4,16 @@ Our solution for the [Certivity challenge](https://github.com/Certivity/industri
 specification (and/or an exploded view) to every requirement it must fulfil under UN Regulations**, each one citing the
 regulation, version and page (and ideally the paragraph).
 
+## Breadth of experimentation
+
+Our proposed regulation-discovery approaches build on **35 benchmarked approaches and variants across 69 recorded
+benchmark runs** (excluding the scorer's gold self-check). The [experiment collection](approaches/experiments/)
+explores keyword search, semantic embeddings, hybrid retrieval, agent-driven regulation screening, exhaustive clause
+review, and LLM filtering and requirement-writing pipelines. This breadth lets us identify the strongest tested
+methods through direct comparison. The [leaderboard](approaches/LEADERBOARD.md) ranks approaches with unseen-case
+results by a combined development and unseen-case score, helping distinguish promising development results from
+methods that generalise to another product. Counts reflect the recorded benchmark history as of 25 October 2026.
+
 ## The challenge in short
 
 - **Main goal (scored):** the input is `cases/<case>/spec.md` + `exploded_view.png`. The output is a JSON list of
