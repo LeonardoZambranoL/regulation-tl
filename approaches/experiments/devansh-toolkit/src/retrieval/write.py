@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from concurrent.futures import ThreadPoolExecutor
 
 from .corpus import LLM_CACHE_DIR, Chunk, load_corpus
@@ -61,6 +62,16 @@ PROMPTS = {"default": INSTRUCTIONS, "strict": INSTRUCTIONS.replace(
 PROMPTS["faithful"] = PROMPTS["strict"].replace(
     " Within a clause, keep only the parts that apply to\n   this product.", "").replace(
     "\n\nReturn for every clause id", FAITHFUL_EXTRA + "\n\nReturn for every clause id")
+
+
+MARKING = re.compile(r"\b(bears?|marked|markings?|labelled|inscriptions?)\b", re.IGNORECASE)
+MARKING_EXTRA = """
+9. Marking clauses: when a clause lists several markings, or several objects that must bear a marking (e.g. the
+   device and a separate module or component), write one requirement per marking item AND per object that must bear
+   it, each repeating the clause's condition ("in case ...", "where ..."). Do not merge two markings or two objects
+   into one requirement."""
+for _name in list(PROMPTS):
+    PROMPTS[_name + "_marking"] = PROMPTS[_name].replace("\n\nReturn for every clause id", MARKING_EXTRA + "\n\nReturn for every clause id")
 
 
 def _parents(chunks: list[Chunk]) -> dict[int, Chunk]:

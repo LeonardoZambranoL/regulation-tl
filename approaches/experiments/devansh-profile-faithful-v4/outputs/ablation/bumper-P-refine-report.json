@@ -1,0 +1,709 @@
+{
+  "input": 562,
+  "after_dedupe": 557,
+  "kept": 444,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 92,
+    "2": 187,
+    "3": 155,
+    "4": 94,
+    "5": 29
+  },
+  "kept_if_cutoff": {
+    "0": 557,
+    "1": 465,
+    "2": 278,
+    "3": 123
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0002",
+        "R-0010",
+        "R-0019"
+      ],
+      "reason": "Vehicles with a lower bumper height below 425 mm shall be tested with the lower legform.",
+      "kept": "R-0002"
+    },
+    {
+      "ids": [
+        "R-0003",
+        "R-0011"
+      ],
+      "reason": "Vehicles with a lower bumper height above 500 mm shall be tested with the upper legform.",
+      "kept": "R-0003"
+    },
+    {
+      "ids": [
+        "R-0004",
+        "R-0012"
+      ],
+      "reason": "For a lower bumper height between 425 and 500 mm, the manufacturer chooses the lower or upper legform test.",
+      "kept": "R-0004"
+    },
+    {
+      "ids": [
+        "R-0001",
+        "R-0009"
+      ],
+      "reason": "The legform-to-bumper impact speed is 40 km/h.",
+      "kept": "R-0001"
+    }
+  ],
+  "dropped_as_restatements": 5,
+  "pair_decisions": [
+    {
+      "a": "R-0020",
+      "b": "R-0022",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0020",
+      "b": "R-0023",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0020",
+      "b": "R-0139",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0020",
+      "b": "R-0140",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0021",
+      "b": "R-0022",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0021",
+      "b": "R-0023",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0021",
+      "b": "R-0139",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0021",
+      "b": "R-0140",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0024",
+      "b": "R-0141",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0025",
+      "b": "R-0142",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0026",
+      "b": "R-0143",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0027",
+      "b": "R-0144",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0028",
+      "b": "R-0145",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0029",
+      "b": "R-0146",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0033",
+      "b": "R-0159",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0034",
+      "b": "R-0160",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0035",
+      "b": "R-0161",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "B"
+    },
+    {
+      "a": "R-0041",
+      "b": "R-0164",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0041",
+      "b": "R-0165",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0042",
+      "b": "R-0164",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0042",
+      "b": "R-0165",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0044",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0045",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0046",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0047",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0048",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0043",
+      "b": "R-0049",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0047",
+      "b": "R-0048",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0060",
+      "b": "R-0061",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0141",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0142",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0143",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0144",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0145",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0138",
+      "b": "R-0146",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0141",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0142",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0143",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0144",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0145",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0139",
+      "b": "R-0146",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0141",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0142",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0143",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0144",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0145",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0140",
+      "b": "R-0146",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0168",
+      "b": "R-0169",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0237",
+      "b": "R-0239",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0237",
+      "b": "R-0240",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0237",
+      "b": "R-0243",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0244",
+      "b": "R-0249",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0245",
+      "b": "R-0249",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0246",
+      "b": "R-0249",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0247",
+      "b": "R-0249",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0248",
+      "b": "R-0249",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0252",
+      "b": "R-0421",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0256",
+      "b": "R-0258",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0257",
+      "b": "R-0258",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0262",
+      "b": "R-0400",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0393",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0394",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0395",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0397",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0401",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0404",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0269",
+      "b": "R-0408",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0393",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0394",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0395",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0397",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0401",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0404",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0283",
+      "b": "R-0408",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0288",
+      "b": "R-0399",
+      "kind": "cross",
+      "verdict": "same",
+      "keep": "A"
+    },
+    {
+      "a": "R-0288",
+      "b": "R-0403",
+      "kind": "cross",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0302",
+      "b": "R-0305",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0303",
+      "b": "R-0305",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0304",
+      "b": "R-0305",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0341",
+      "b": "R-0342",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0364",
+      "b": "R-0365",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0364",
+      "b": "R-0366",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0377",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0378",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0379",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0380",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0381",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0382",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0383",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0376",
+      "b": "R-0384",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0388",
+      "b": "R-0389",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0411",
+      "b": "R-0412",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    },
+    {
+      "a": "R-0422",
+      "b": "R-0423",
+      "kind": "parent",
+      "verdict": "different",
+      "keep": "A"
+    }
+  ],
+  "dropped_by_pairs": 16
+}

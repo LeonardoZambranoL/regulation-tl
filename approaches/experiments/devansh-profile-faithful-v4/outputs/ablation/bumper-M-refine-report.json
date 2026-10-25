@@ -1,0 +1,55 @@
+{
+  "input": 581,
+  "after_dedupe": 575,
+  "kept": 471,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 99,
+    "2": 200,
+    "3": 155,
+    "4": 90,
+    "5": 31
+  },
+  "kept_if_cutoff": {
+    "0": 575,
+    "1": 476,
+    "2": 276,
+    "3": 121
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0002",
+        "R-0010",
+        "R-0019"
+      ],
+      "reason": "All three require vehicles with a lower bumper height below 425 mm to be tested with the lower legform.",
+      "kept": "R-0002"
+    },
+    {
+      "ids": [
+        "R-0003",
+        "R-0011"
+      ],
+      "reason": "Both require the upper legform test when the lower bumper height is more than 500 mm. R-0021 is left out because its condition is 'greater than or equal to' 500 mm.",
+      "kept": "R-0003"
+    },
+    {
+      "ids": [
+        "R-0004",
+        "R-0012"
+      ],
+      "reason": "Both state that for a lower bumper height between 425 and 500 mm, the manufacturer chooses either the lower or the upper legform test. R-0020 is left out because its boundaries are worded differently (\u2265425 and <500).",
+      "kept": "R-0004"
+    },
+    {
+      "ids": [
+        "R-0001",
+        "R-0009"
+      ],
+      "reason": "Both require the bumper legform impact to be performed at 40 km/h.",
+      "kept": "R-0001"
+    }
+  ],
+  "dropped_as_restatements": 5
+}

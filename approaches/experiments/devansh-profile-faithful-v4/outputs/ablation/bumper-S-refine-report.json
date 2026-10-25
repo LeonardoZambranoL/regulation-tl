@@ -1,0 +1,132 @@
+{
+  "input": 562,
+  "after_dedupe": 557,
+  "kept": 450,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 92,
+    "2": 187,
+    "3": 155,
+    "4": 94,
+    "5": 29
+  },
+  "kept_if_cutoff": {
+    "0": 557,
+    "1": 465,
+    "2": 278,
+    "3": 123
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0002",
+        "R-0010",
+        "R-0019"
+      ],
+      "reason": "Vehicles with a lower bumper height below 425 mm shall be tested with the lower legform.",
+      "kept": "R-0002"
+    },
+    {
+      "ids": [
+        "R-0003",
+        "R-0011"
+      ],
+      "reason": "Vehicles with a lower bumper height above 500 mm shall be tested with the upper legform.",
+      "kept": "R-0003"
+    },
+    {
+      "ids": [
+        "R-0004",
+        "R-0012"
+      ],
+      "reason": "For a lower bumper height between 425 and 500 mm, the manufacturer chooses the lower or upper legform test.",
+      "kept": "R-0004"
+    },
+    {
+      "ids": [
+        "R-0001",
+        "R-0009"
+      ],
+      "reason": "The legform-to-bumper impact speed is 40 km/h.",
+      "kept": "R-0001"
+    }
+  ],
+  "dropped_as_restatements": 5,
+  "subject_absent": [
+    {
+      "id": "R-0147",
+      "regulation": "UN R127",
+      "paragraph": "5.2.1",
+      "subject": "Bonnet top and windscreen headform HIC",
+      "text": "When tested with the child and adult headforms in accordance with Annex 5, paragraphs 3, 4 and 5, the HIC recorded shall not exceed 1,000 over two thirds of the combined bonnet top test area and the w"
+    },
+    {
+      "id": "R-0148",
+      "regulation": "UN R127",
+      "paragraph": "5.2.1",
+      "subject": "Bonnet top headform HIC",
+      "text": "When tested with the child and adult headforms in accordance with Annex 5, paragraphs 3, 4 and 5, the HIC recorded shall not exceed 1,000 over two-thirds of the bonnet top test area."
+    },
+    {
+      "id": "R-0149",
+      "regulation": "UN R127",
+      "paragraph": "5.2.1",
+      "subject": "Bonnet/windscreen remaining test areas headform HIC",
+      "text": "When tested with the child and adult headforms in accordance with Annex 5, paragraphs 3, 4 and 5, the HIC for the remaining test areas shall not exceed 1,700 for both headforms."
+    },
+    {
+      "id": "R-0150",
+      "regulation": "UN R127",
+      "paragraph": "5.2.1",
+      "subject": "Child headform test area HIC",
+      "text": "In case there is only a child headform test area, the HIC recorded shall not exceed 1,000 over two thirds of the test area."
+    },
+    {
+      "id": "R-0151",
+      "regulation": "UN R127",
+      "paragraph": "5.2.1",
+      "subject": "Child headform remaining area HIC",
+      "text": "In case there is only a child headform test area, the HIC for the remaining area shall not exceed 1,700."
+    },
+    {
+      "id": "R-0152",
+      "regulation": "UN R127",
+      "paragraph": "5.2.2",
+      "subject": "Child headform test area HIC (one half)",
+      "text": "When tested with the child headform in accordance with Annex 5, paragraphs 3 and 4, the HIC recorded shall not exceed 1,000 over a minimum of one half of the child headform test area."
+    },
+    {
+      "id": "R-0153",
+      "regulation": "UN R127",
+      "paragraph": "5.2.2",
+      "subject": "Child headform remaining areas HIC",
+      "text": "When tested with the child headform in accordance with Annex 5, paragraphs 3 and 4, the HIC for the remaining areas shall not exceed 1,700."
+    },
+    {
+      "id": "R-0400",
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "subject": "end-outline marker lamp",
+      "text": "The colour of the light emitted by the end-outline marker lamp shall be white in front and red at the rear."
+    },
+    {
+      "id": "R-0407",
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "subject": "exterior courtesy lamp",
+      "text": "The colour of the light emitted by the exterior courtesy lamp shall be white and, in addition, in accordance with the individual specifications applicable to the specific lamp used for the exterior co"
+    },
+    {
+      "id": "R-0408",
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "subject": "manoeuvring lamp",
+      "text": "The colour of the light emitted by the manoeuvring lamp shall be white."
+    }
+  ],
+  "subject_status": {
+    "has": 150,
+    "possible": 300,
+    "absent": 10
+  }
+}

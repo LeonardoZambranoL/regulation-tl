@@ -1,0 +1,44 @@
+{
+  "input": 198,
+  "after_dedupe": 194,
+  "kept": 177,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 15,
+    "2": 16,
+    "3": 26,
+    "4": 75,
+    "5": 62
+  },
+  "kept_if_cutoff": {
+    "0": 194,
+    "1": 179,
+    "2": 163,
+    "3": 137
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0002",
+        "R-0004"
+      ],
+      "reason": "Both require an approval mark to be affixed to every vehicle conforming to a type approved under UN R10. R-0002 cites paragraph 5.3, which is the R-0004 clause; R-0004 adds only where the mark goes.",
+      "kept": "R-0002"
+    },
+    {
+      "ids": [
+        "R-0037",
+        "R-0109"
+      ],
+      "reason": "Both require the emission of transient conducted disturbances from the ESA on 12/24 V supply lines to be tested or measured according to ISO 7637-2 (Annex 10).",
+      "kept": "R-0037"
+    }
+  ],
+  "dropped_as_restatements": 2,
+  "subject_absent": [],
+  "subject_status": {
+    "has": 155,
+    "possible": 22,
+    "absent": 0
+  }
+}

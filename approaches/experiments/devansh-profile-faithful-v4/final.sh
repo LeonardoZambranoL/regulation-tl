@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Produce the submission file for any case with profile-faithful v4 (profile from spec + image, implicit obligations without
+# table / figure / appendix clauses, faithful writer, ranker, restatement merge), clean and validated.
+#   bash approaches/experiments/devansh-profile-faithful-v4/final.sh <case-id>      (default dev-rear-lamp)
+#   REGULATIONS="UN GTR 9,UN R10,UN R26,UN R42,UN R48,UN R127,UN R148" bash .../final.sh heldout-front-bumper
+# The case's spec.md is taken from ../industrial-ai-hackathon/cases/<case-id>/ (git pull there first on Sunday) or
+# approaches/benchmarking/cases/<case-id>/. Output: approaches/experiments/devansh-profile-faithful-v4/outputs/
+# submission-<case-id>.json. Spends your own Anthropic credits (ANTHROPIC_API_KEY or .env); answers are cached in devansh-profile-faithful-v2/.cache (shared with v2).
+set -euo pipefail
+CASE=${1:-dev-rear-lamp}
+# optional: REGULATIONS="UN R10,UN R48,..." forces the regulation list (cite only these) when it is known
+REGULATIONS=${REGULATIONS:-}
+cd "$(git rev-parse --show-toplevel)"
+export PYTHONUTF8=1
+PY=$( [ -x .venv/Scripts/python ] && echo "$PWD/.venv/Scripts/python" || echo "$PWD/.venv/bin/python" )
+CH=$PWD/../industrial-ai-hackathon
+SPEC=$CH/cases/$CASE/spec.md; [ -f "$SPEC" ] || SPEC=$PWD/approaches/benchmarking/cases/$CASE/spec.md
+O=$PWD/approaches/experiments/devansh-profile-faithful-v4/outputs
+export LLM_CACHE_DIR=$PWD/approaches/experiments/devansh-profile-faithful-v2/.cache
+cd approaches/experiments/devansh-toolkit/src
+"$PY" -m retrieval.export --config ../../devansh-profile-faithful-v4/config.json --case "$CASE" --team-id team-11 --out "$O/raw-$CASE.json" ${REGULATIONS:+--regulations "$REGULATIONS"}
+"$PY" -m retrieval.refine "$O/raw-$CASE.json" --spec "$O/spec-with-profile-$CASE.md" --out "$O/ranked-$CASE.json" --mode rank --drop-at-or-below 1 --merge-restatements --skip-rationale --merge-pairs --subject-check
+cd ../../../..
+"$PY" - "$O/ranked-$CASE.json" "$O/submission-$CASE.json" <<'PYEOF'
+import json, sys
+doc = json.load(open(sys.argv[1], encoding="utf-8"))
+reqs = []
+for i, r in enumerate(doc["requirements"], 1):
+    src = {k: r["source"][k] for k in ("regulation", "version", "page", "paragraph") if r["source"].get(k) not in (None, "")}
+    reqs.append({"id": f"R-{i:04d}", "text": r["text"][:2000], "source": src})
+json.dump({"team_id": "team-11", "case_id": doc["case_id"], "requirements": reqs},
+          open(sys.argv[2], "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+print(f"{len(reqs)} requirements -> {sys.argv[2]}")
+PYEOF
+"$PY" "$CH/tools/validate.py" "$O/submission-$CASE.json" --index "$CH/regulations/index.json" --strict

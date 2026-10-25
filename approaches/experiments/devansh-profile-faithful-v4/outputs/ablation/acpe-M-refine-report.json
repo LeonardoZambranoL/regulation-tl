@@ -1,0 +1,30 @@
+{
+  "input": 201,
+  "after_dedupe": 197,
+  "kept": 177,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 19,
+    "2": 12,
+    "3": 31,
+    "4": 74,
+    "5": 61
+  },
+  "kept_if_cutoff": {
+    "0": 197,
+    "1": 178,
+    "2": 166,
+    "3": 135
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0003",
+        "R-0005"
+      ],
+      "reason": "Both require an approval mark to be affixed to every vehicle conforming to a type approved under UN R10; para 5.3 repeats the obligation of para 5.2.1 and adds only where the mark is placed.",
+      "kept": "R-0003"
+    }
+  ],
+  "dropped_as_restatements": 1
+}

@@ -25,6 +25,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--team-id", default="regulation-tl")
     ap.add_argument("-n", type=int, help="number of requirements (default: config 'n', else 190)")
     ap.add_argument("--out", default=str(APPROACH_DIR / "outputs" / "predictions.json"))
+    ap.add_argument("--regulations", help="comma-separated regulation list that replaces automatic selection "
+                    "(e.g. when the applicable regulations are known); default: config 'regulations', else 'select'")
     ap.add_argument("--sweep", help="comma-separated sizes: print official page/regulation scores + F2 for each, write nothing")
     args = ap.parse_args(argv)
 
@@ -48,6 +50,13 @@ def main(argv: list[str] | None = None) -> int:
         # regulations are picked from the ORIGINAL spec: the profile's wording ("no filament lamps", "LED light
         # sources") would trigger keyword rules for regulations the product does not need
         regs = set(select(raw_spec, **cfg["select"]))
+    forced = args.regulations.split(",") if args.regulations else cfg.get("regulations")
+    forced = {r.strip() for r in forced if r.strip()} if forced else None
+    if forced:
+        # known regulation list: requirements are cited only from these. Candidates stay the automatic picks plus any
+        # forced regulation they lack, so the classifier sees the same batches (and reuses its answers) whenever the
+        # automatic picks already cover the list
+        regs = (regs or set()) | forced
     sizes = [int(x) for x in args.sweep.split(",")] if args.sweep else [n]
     if cfg.get("filter", {}).get("method") == "deliberate":
         # an agent reads each section whole, thinks, and picks the exact clauses (see deliberate.py)
@@ -84,6 +93,10 @@ def main(argv: list[str] | None = None) -> int:
         else:
             decisions = classify(spec, cands, effort=effort, instructions=PROMPTS[cfg["filter"].get("prompt", "default")])
         ranked = [c for c in cands if decisions.get(c.id)]
+        if cfg["filter"].get("skip_rationale"):
+            from .classify import rationale_pages
+            start = rationale_pages()
+            ranked = [c for c in ranked if c.page >= start.get(c.regulation, 0)]
         sizes = [len(ranked) if s <= 0 else s for s in sizes]
         n = len(ranked) if n <= 0 else n
     else:
@@ -104,11 +117,25 @@ def main(argv: list[str] | None = None) -> int:
             pl = r["page_level"]
             print(f"{size:>5}  {pl['precision']:.3f}   {pl['recall']:.3f}   {pl['f1']:.3f}    {f2(pl):.3f}    {f2(r['regulation_level']):.3f}")
         return 0
+    if forced:
+        ranked = [c for c in ranked if c.regulation in forced]
     chosen = ranked[:n]
     if cfg.get("write"):
         # one requirement per obligation (the platform matches requirements one to one), not one per clause
         from .write import write
         pairs = write(spec, chosen, effort=cfg["write"].get("effort", "medium"), prompt=cfg["write"].get("prompt", "default"))
+        if cfg["write"].get("marking_split"):
+            # marking clauses written again with an extra rule: one requirement per marking item and per object that
+            # must bear it; every other clause keeps its first answer (a clause the second pass empties keeps it too)
+            from .write import MARKING
+            mk = [c for c in chosen if MARKING.search(c.text)]
+            redo: dict[int, list[str]] = {}
+            for c, t in write(spec, mk, effort=cfg["write"].get("effort", "medium"), prompt=cfg["write"]["prompt"] + "_marking"):
+                redo.setdefault(c.id, []).append(t)
+            base: dict[int, list[str]] = {}
+            for c, t in pairs:
+                base.setdefault(c.id, []).append(t)
+            pairs = [(c, t) for c in chosen for t in (redo.get(c.id) or base.get(c.id, []))]
     else:
         pairs = [(c, " ".join(c.text.split())[:2000]) for c in chosen]
     doc = {"team_id": args.team_id, "case_id": args.case, "requirements": [
@@ -116,7 +143,7 @@ def main(argv: list[str] | None = None) -> int:
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {len(pairs)} requirements ({len(chosen)} clauses) from {sorted(regs) if regs else 'all regulations'} -> {out}")
+    print(f"wrote {len(pairs)} requirements ({len(chosen)} clauses) from {sorted(forced or regs) if regs else 'all regulations'} -> {out}")
     return 0
 
 
