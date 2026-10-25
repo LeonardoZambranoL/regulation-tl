@@ -41,3 +41,12 @@ ranker rated 1 (563); 3-6 v5 minus one lamp-function block (direction indicator 
 daytime running 19; items about several functions stay). Each upload's P x N gives the matched count, so the difference
 to probe 1 is how many of that block the experts list. **This tunes on the held-out case's answer key through the
 leaderboard** (allowed by the platform: unlimited uploads, last one counts); it must be stated in any write-up.
+
+## v6 (recommended single upload): `outputs/submission-heldout-front-bumper-v6.json`
+
+v5 minus the front-position-lamp (23) and daytime-running-lamp (19) blocks: 471 -> 429 requirements (validate --strict
+OK). Reason: the spec and drawing describe only a "(Side) Lighting - signalling" and a decorative lighting; a side
+signal is a side marker lamp or a side direction indicator (both blocks kept), not a front position or daytime running
+lamp (headlamp functions). Product-specific reading of the spec, chosen without leaderboard feedback; zero API.
+Expected platform F2 about 62-63% (v3 60.4%) if the mirrored items add a few matches and the two dropped blocks hold
+few; not enough for 1st place (73.6%).

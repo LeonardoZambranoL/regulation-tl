@@ -58,6 +58,7 @@ or paragraph we cite, a ceiling for the platform's requirement-level recall.
 | 41 | **`devansh-profile-faithful-v4`** | v3 + override + rationale + pairs + subject | | | | | | dev F2 0.742 (v3 0.736), ACPE 0.407 (same); bumper 460 -> 424; expected platform F2 ~62 if the removals were unmatched, ~57 if the 13 GTR 9 / R127 duplicates were expected twice |
 | 42 | v4 bumper upload (platform) | 424 requirements | | | | | | req P 34.4 / R 70.2 / F1 46.2 / F2 **58.1** (v3 60.4): ~10 of 36 removals were correct; one expert page lost (GTR 9 rationale pp. 4-18 or R127 p. 36). Experts likely list GTR 9 and R127 copies of the same obligation. **v3 stays the final bumper upload**; no v5 (zero-cost options carry more downside than upside) |
 | 43 | `devansh-profile-faithful-v5` | v3 + mirror: regulations restating each other (>= 5 confirmed shared obligations) get each obligation under both; 2 Claude calls | | | | | | dev / ACPE identical to v3 (no linked pair). Bumper: GTR 9 <-> R127 linked, +11 counterparts (460 -> 471); alt file without GTR 9 rationale items (457). Awaiting platform |
+| 44 | v6 bumper file (recommended) | v5 minus front-position and daytime-running lamp blocks (spec only describes a side signalling lamp); probe files for leaderboard measurement also built | | | | | | 429 requirements; expected ~62-63% F2; zero API |
 
 Not run yet: dense / HNSW / hybrid-with-dense (waiting for shared embeddings; CPU encoding takes 75-100 min), SPLADE,
 cross-encoder rerank.
