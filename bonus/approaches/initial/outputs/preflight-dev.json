@@ -1,0 +1,74 @@
+{
+  "case": "dev",
+  "model": "claude-sonnet-5-5",
+  "old_pdf_sha256": "c0bdbf009ca2818a30bdc12b40b882fd525cb25690b321a335de87fbb2294ae2",
+  "new_pdf_sha256": "063165ac04d3d94f62c4fbbe267073396484daf57b2f2fbf68987886a6bb4e7b",
+  "parse_counts": {
+    "old_pages": 17,
+    "new_pages": 19,
+    "old_provisions": 189,
+    "new_provisions": 223
+  },
+  "alignment": {
+    "old_provisions": 189,
+    "new_provisions": 223,
+    "unmatched_new": 32
+  },
+  "candidate_counts": {
+    "old_requirements": 20,
+    "new_provisions": 24,
+    "total_items": 44
+  },
+  "exhaustive_coverage": {
+    "existing_requirement_reviews": 94,
+    "existing_requirement_llm_reviews": 36,
+    "existing_requirement_automatic_unchanged": 58,
+    "new_clause_reviews": 223,
+    "requests_uncached": 42,
+    "estimated_input_tokens": 349886,
+    "estimated_output_tokens": 61220,
+    "estimated_cost_usd_low": 1.312,
+    "estimated_cost_usd_high": 2.65,
+    "estimated_runtime_minutes": [
+      6.3,
+      21.0
+    ]
+  },
+  "diff_lines": 836,
+  "diff_chars": 42691,
+  "new_text_cache_sha256": "063165ac04d3d94f62c4fbbe267073396484daf57b2f2fbf68987886a6bb4e7b",
+  "estimate": {
+    "exhaustive": {
+      "existing_requirement_reviews": 94,
+      "existing_requirement_llm_reviews": 36,
+      "existing_requirement_automatic_unchanged": 58,
+      "new_clause_reviews": 223,
+      "requests_uncached": 42,
+      "estimated_input_tokens": 349886,
+      "estimated_output_tokens": 61220,
+      "estimated_cost_usd_low": 1.312,
+      "estimated_cost_usd_high": 2.65,
+      "estimated_runtime_minutes": [
+        6.3,
+        21.0
+      ]
+    },
+    "legacy_agent": {
+      "expected_model_turns": "12-30, depending on tool exploration",
+      "estimated_input_tokens_range": [
+        23637,
+        133637
+      ],
+      "estimated_output_tokens_range": [
+        5000,
+        60000
+      ],
+      "estimated_cost_usd_low": 0.0973,
+      "estimated_cost_usd_high": 0.8673,
+      "estimated_runtime_minutes_range": [
+        2,
+        20
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "official_metric_available": false,
+  "old_requirement_impact": {
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "matched": 6,
+    "submitted": 8,
+    "expected": 7
+  },
+  "change_type_accuracy_on_matched_ids": 1.0,
+  "citation_accuracy_on_matched_old_ids": 1.0,
+  "correct_type_ids": [
+    "R-015",
+    "R-018",
+    "R-021",
+    "R-084",
+    "R-085",
+    "R-090"
+  ],
+  "added_obligation_proxy": {
+    "precision": 0.5333333333333333,
+    "recall": 0.47058823529411764,
+    "matches": 8,
+    "submitted": 15,
+    "expected": 17,
+    "matched_text_token_f1_mean": 0.7821996989872209,
+    "citation_and_text_threshold": 0.45
+  },
+  "errors": {
+    "false_positive_requirement_ids": [
+      "R-025",
+      "R-026"
+    ],
+    "false_negative_requirement_ids": [
+      "R-086"
+    ],
+    "wrong_change_type": [],
+    "wrong_citation": [],
+    "unmatched_added": [
+      {
+        "text": "The orientation of the pedestrian target shall be determined by the technical service, and the orientation of the vehicle target shall be 0° or 180° as defined in ISO 19206-3:2021, chosen by the technical service.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.4"
+        }
+      },
+      {
+        "text": "During the test, the technical service shall ensure that the boundary conditions of the ACPE, as defined by the manufacturer, with regard to detection of the test target are taken into account (e.g. avoid blocking a sonar system used, ensure a vision system can identify the pedestrian target as a human by making it fully visible to the camera before testing).",
+        "source": {
+          "page": 9,
+          "paragraph": "6.3.2"
+        }
+      },
+      {
+        "text": "This UN Regulation shall apply to the type approval of vehicles of Category M1 and N1 equipped with automatic transmission with regard to their ACPE.",
+        "source": {
+          "page": 2,
+          "paragraph": "1.1"
+        }
+      },
+      {
+        "text": "Completed vehicles built on a base vehicle that did not have the necessary structure to allow installation of means of forward and/or rear detection may be exempted from the relevant requirements (forward and/or rear direction), subject to the decision of the Type Approval Authority.",
+        "source": {
+          "page": 2,
+          "paragraph": "1.4"
+        }
+      },
+      {
+        "text": "From 1 September 2029, Contracting Parties are not obliged to accept type approvals to the original version first issued after that date; until 1 September 2031 they shall accept original-version approvals first issued before 1 September 2029; from 1 September 2031 they are not obliged to accept original-version approvals, but shall continue to accept them for vehicles not affected by the 01 series changes.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.2"
+        }
+      },
+      {
+        "text": "Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any preceding series of amendments.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.8"
+        }
+      },
+      {
+        "text": "If deemed justified, the Technical Service may additionally test in any test condition within the conditions specified in paragraph 5.1.5. or test alternative accelerator control application profiles.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.7"
+        }
+      }
+    ],
+    "missed_added": [
+      {
+        "text": "The orientation of the vehicle target shall be 0° or 180° respectively as defined in ISO 19206-3:2021, chosen by the technical service.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.5"
+        }
+      },
+      {
+        "text": "When tests are performed without a target, the ACPE shall be deactivated if necessary.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.1"
+        }
+      },
+      {
+        "text": "Tests without a target may be combined where feasible.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.1"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to position the vehicle at the selected starting point as determined by paragraph 6.6.2.1.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to hold the vehicle stationary and select the corresponding driving direction.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to release the braking system so that the vehicle starts creeping.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "When a collision is not prevented during the procedure for each test with a creeping vehicle, the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The Technical Service shall test each test condition according to Table 1 once with a starting point and a profile of the accelerator control application selected at its discretion.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.1"
+        }
+      },
+      {
+        "text": "The starting point and the accelerator control application profile shall be selected such that the triggering condition (as outlined in paragraph 5.1.2.) is achieved as close to 4km/h in the rearward direction as reasonably practical whilst remaining at or below that speed and avoiding any AEBS warning or intervention which results in an ACPE intervention not occurring.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.1"
+        }
+      }
+    ]
+  }
+}

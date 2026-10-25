@@ -1,0 +1,1206 @@
+{
+  "manifest": [
+    {
+      "file": "1-v5.json",
+      "requirements": 471,
+      "change": "baseline (v3 + 11 mirrored)"
+    },
+    {
+      "file": "2-v5-plus-rated1.json",
+      "requirements": 563,
+      "change": "+92 items the ranker rated 1 ('certainly not')"
+    },
+    {
+      "file": "3-v5-minus-direction-indicator.json",
+      "requirements": 395,
+      "change": "-76 direction-indicator items"
+    },
+    {
+      "file": "4-v5-minus-front-position.json",
+      "requirements": 448,
+      "change": "-23 front-position items"
+    },
+    {
+      "file": "5-v5-minus-side-marker.json",
+      "requirements": 449,
+      "change": "-22 side-marker items"
+    },
+    {
+      "file": "6-v5-minus-daytime-running.json",
+      "requirements": 452,
+      "change": "-19 daytime-running items"
+    }
+  ],
+  "blocks": {
+    "direction-indicator": [
+      {
+        "regulation": "UN R148",
+        "paragraph": "3.3.2.5.1.1",
+        "text": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, the horizontal arrow showing the mounting position shall be directed outwards f"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "3.3.2.5.1.2",
+        "text": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, the horizontal arrow showing the mounting position shall be directed towards th"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "3.3.2.5.1.3",
+        "text": "For direction indicators of category 6, an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "4.5.5",
+        "text": "Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "4.6.1.4",
+        "text": "For direction-indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12 containing more than one light source, a signal for activation of the te"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.1",
+        "text": "The light emitted by each of the two samples of the direction indicator lamp supplied shall meet the requirements in Table 8."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.1",
+        "text": "For direction indicators of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12, the minimum luminous intensities of Table 8 shall be fulfilled in the refere"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.1",
+        "text": "For direction indicators of categories 5 and 6, the minimum luminous intensities of Table 8 shall be fulfilled in direction A according to Annex 2."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.2",
+        "text": "The direction indicator lamp shall meet the minimum luminous intensity within the angles of geometric visibility specified in Table 8."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp of category 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c or 12 is produced by sequential activation of its light sources, "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp of category 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c or 12 is produced by sequential activation of its light sources, "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp of category 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c or 12 is produced by sequential activation of its light sources, "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "For a sequential direction indicator, the distance between two adjacent/tangential distinct parts of the light emitting surface shall not exceed 50 mm, when mea"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "For a sequential direction indicator, the interruptions of the signal between distinct parts of the light emitting surface shall not create any overlap in the v"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "For a sequential direction indicator, the interruptions of the signal between distinct parts of the light emitting surface shall not be used for any other light"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp of category 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c or 12 is produced by sequential activation of its light sources, "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp of category 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c or 12 is produced by sequential activation of its light sources, "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.5",
+        "text": "Where the flash of a direction indicator lamp is produced by sequential activation of its light sources, compliance with the sequential activation conditions sh"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.6.7",
+        "text": "The colour of light emitted by the direction indicator lamp shall be amber."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "Annex 3 2.4",
+        "text": "Direction indicator lamps of category 6 shall meet, for the various directions of measurement, the minimum intensities of the standard light distribution given "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "Annex 8 1.2.2",
+        "text": "For lamps (functions) using light source technologies other than incandescent technology, other than those covered by the specific provisions for particular lam"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.1",
+        "text": "Direction-indicator lamps shall be flashing lamps."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.1",
+        "text": "The vehicle-hazard warning signal shall be a flashing signal."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.1",
+        "text": "The emergency stop signal shall be a flashing signal."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.3",
+        "text": "Where the photometric characteristics of a direction indicator lamp of categories 1, 1a, 1b, 2a or 2b are varied during a flash, the variation shall be by seque"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.3",
+        "text": "Sequential activation of light sources shall not be applied when direction indicator lamps of categories 2a and 2b are operated as emergency stop signal accordi"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the direction-indicator lamp shall be amber."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the hazard warning signal shall be amber."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the emergency stop signal shall be amber or red."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.1",
+        "text": "The presence of direction-indicator lamps shall be mandatory."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.1",
+        "text": "Arrangement \"A\" of direction-indicator lamps (categories 1, 1a, 1b, 2a, 2b, 5 and 6) shall apply to all motor vehicles."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.2",
+        "text": "The number of direction-indicator lamps shall be according to the arrangement."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.2",
+        "text": "Direction-indicator lamps shall be type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 6, or to the 00 or subsequent serie"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "For arrangement A, the two front direction-indicator lamps shall be of category 1 or 1a or 1b if the distance between the edge of the apparent surface in the di"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "For arrangement A, the two front direction-indicator lamps shall be of category 1a or 1b if the distance between the edge of the apparent surface in the directi"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "For arrangement A, the two front direction-indicator lamps shall be of category 1b if the distance between the edge of the apparent surface in the direction of "
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "For arrangement A, two side direction-indicator lamps of category 5 (minimum requirement) shall be fitted for all M1 vehicles and for N1, M2 and M3 vehicles not"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "Where lamps combining the functions of front direction-indicator lamps (categories 1, 1a, 1b) and side direction-indicator lamps (categories 5 or 6) are fitted,"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.3",
+        "text": "Where an AFS is fitted, the distance to be considered for the choice of the front direction-indicator lamp category shall be the distance between the front dire"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.1",
+        "text": "The edge of the apparent surface of the direction-indicator lamp in the direction of the reference axis farthest from the median longitudinal plane of the vehic"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.1",
+        "text": "The distance between the inner edges of the two apparent surfaces of the direction-indicator lamps in the direction of the reference axes shall not be less than"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.2.1",
+        "text": "The height above the ground of the light-emitting surface of the side direction-indicator lamps of categories 5 or 6 shall not be less than 350 mm for M1 and N1"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.2.1",
+        "text": "The height above the ground of the light-emitting surface of the side direction-indicator lamps of categories 5 or 6 shall not be more than 1,500 mm, measured f"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.2.2",
+        "text": "The height above the ground of the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b, measured in accordance with paragraph 5.8., shall not be less t"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.2.3",
+        "text": "If the structure of the vehicle does not permit the upper height limits to be respected and if the optional rear lamps are not installed, the upper height limit"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.2.3",
+        "text": "If the structure of the vehicle does not permit the upper height limits to be respected and if the optional rear lamps are not installed, the upper height limit"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.3",
+        "text": "The distance between the light-emitting surface of the side direction-indicator lamp (categories 5 and 6) and the transverse plane which marks the forward bound"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.4.3",
+        "text": "For M1 and N1 category vehicles, the distance between the light-emitting surface of the side direction-indicator lamp (categories 5 and 6) and the transverse pl"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.5.1",
+        "text": "The direction indicator lamps of categories 1, 1a, 1b, 2a, 2b and 5 shall have vertical angles of geometric visibility of 15° above and below the horizontal, ex"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.5.1",
+        "text": "The direction indicator lamps shall comply with the horizontal angles of geometric visibility shown in the figure of paragraph 6.5.5.1, with the value of 5° for"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.5.1",
+        "text": "For the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the inward "
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.5.2",
+        "text": "Under the alternative of paragraph 6.5.5.2 for M1 and N1 category vehicles, for the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 7"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.5.2",
+        "text": "Under the alternative of paragraph 6.5.5.2 for M1 and N1 category vehicles, to be considered visible the lamp shall provide an unobstructed view of the apparent"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.7",
+        "text": "Direction-indicator lamps shall switch ON independently of the other lamps."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.7",
+        "text": "All direction-indicator lamps on one side of a vehicle shall be switched ON and OFF automatically as defined by applicable UN Regulations and/or by means of one"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.7",
+        "text": "All direction-indicator lamps on one side of a vehicle shall flash in phase."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.7",
+        "text": "A direction indicator capable of being activated in different modes (static or sequential) shall not switch between both modes once activated."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.8",
+        "text": "An operating tell-tale, visual or auditory or both, shall be provided for direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.8",
+        "text": "If the direction-indicator operating tell-tale is visual, it shall be a flashing light which, at least in the event of the malfunction of any of the direction-i"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.8",
+        "text": "If the direction-indicator operating tell-tale is entirely auditory, it shall be clearly audible and shall show a marked change of frequency, at least in the ev"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.8",
+        "text": "The direction-indicator operating tell-tale shall be activated by the signal produced according to paragraph 6.2.2. of UN Regulation No. 6, or paragraph 5.6.3. "
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.9",
+        "text": "The direction-indicator lamp light shall be a flashing light flashing 90 ± 30 times per minute."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.9",
+        "text": "Operation of the direction-indicator light-signal control shall be followed within not more than one second by the emission of light and within not more than on"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.5.9",
+        "text": "In the event of failure, other than short-circuit, of one direction-indicator lamp, the other direction-indicator lamps shall continue to flash, but the frequen"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.1",
+        "text": "The hazard warning signal shall be mandatory."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.1",
+        "text": "The hazard warning signal shall be given by simultaneous operation of the direction-indicator lamps in accordance with the requirements of paragraph 6.5."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.1",
+        "text": "All direction indicators of the category 1 (1, 1a, 1b) activated simultaneously for the hazard warning signal shall operate in the same mode, i.e. static or seq"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.4.1",
+        "text": "The position in width of the hazard warning signal lamps shall be as specified in paragraph 6.5.4.1."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.4.2",
+        "text": "The position in height of the hazard warning signal lamps shall be as specified in paragraph 6.5.4.2."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.4.3",
+        "text": "The position in length of the hazard warning signal lamps shall be as specified in paragraph 6.5.4.3."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.7.2",
+        "text": "Where the hazard warning signal is switched ON automatically to indicate to other road-users the risk of imminent danger as defined by Regulations, the signal s"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.6.9",
+        "text": "The hazard warning signal shall be able to function even if the device which starts or stops the propulsion system is in a position which makes it impossible to"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.23.1",
+        "text": "The emergency stop signal shall be given by the simultaneous operation of all the stop or direction-indicator lamps fitted as described in paragraph 6.23.7."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.23.7.1",
+        "text": "All the lamps of the emergency stop signal shall flash in phase at a frequency of 4.0 ± 1.0 Hz."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.23.7.2",
+        "text": "The emergency stop signal shall operate independently of other lamps."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.25.1",
+        "text": "Where a rear-end collision alert signal is fitted (optional), the rear-end collision alert signal shall be given by the simultaneous operation of all the direct"
+      }
+    ],
+    "front-position": [
+      {
+        "regulation": "UN R148",
+        "paragraph": "4.5.4",
+        "text": "If a front position lamp incorporates one or more infrared radiation generators, the photometric and colour requirements for this front position lamp shall be m"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.1.1",
+        "text": "The light emitted by each of the two samples of front position lamps (A, MA) and front end-outline marker lamps (AM) supplied shall meet the luminous intensity "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.1.2",
+        "text": "The minimum luminous intensity of the front position lamp (A, MA) and front end-outline marker lamp (AM) within the angles of geometric visibility shall comply "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.1.6",
+        "text": "The front position lamp (A, MA) and front end-outline marker lamp (AM) shall comply with the failure provisions of paragraph 4.6."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.1.7",
+        "text": "The colour of the light emitted by the front position lamp and front end-outline marker lamp shall be white, except that the lamp identified by symbol MA may be"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.7.1.1",
+        "text": "When a front or rear position lamp is reciprocally incorporated with one or more other function(s) which can be switched ON together with them, the requirements"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the front position lamp shall be white."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.1",
+        "text": "The front position lamp shall be mandatory on all motor vehicles."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.4.1",
+        "text": "For the front position lamp, the point on the apparent surface in the direction of the reference axis which is farthest from the vehicle's median longitudinal p"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.4.2",
+        "text": "The front position lamp shall be mounted in height above the ground not less than 250 mm nor more than 1,500 mm (2,100 mm for O1 and O2 categories of vehicles, "
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.4.4",
+        "text": "Where the front position lamp and another lamp are reciprocally incorporated, the apparent surface in the direction of the reference axis of the other lamp shal"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.1",
+        "text": "The horizontal angle of geometric visibility of the front position lamp shall be 45° inwards and 80° outwards."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.1",
+        "text": "Where the front position lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the inward horizontal angle of geometric visib"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.1",
+        "text": "The vertical angle of geometric visibility of the front position lamp shall be 15° above and below the horizontal."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.1",
+        "text": "Where the front position lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the downward vertical angle of geometric visib"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.2",
+        "text": "For M1 and N1 category vehicles applying this alternative, where the front position lamp is mounted below 750 mm (measured according to the provisions of paragr"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.2",
+        "text": "For M1 and N1 category vehicles applying this alternative, the vertical angle of geometric visibility of the front position lamp shall be 15° above and below th"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.2",
+        "text": "For M1 and N1 category vehicles applying this alternative, where the front position lamp is mounted below 750 mm (measured according to the provisions of paragr"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.2",
+        "text": "For M1 and N1 category vehicles applying this alternative, to be considered visible the front position lamp shall provide an unobstructed view of the apparent s"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.5.2",
+        "text": "For M1 and N1 category vehicles applying this alternative, the illuminating surface area of any retro-reflector that does not transmit light shall be excluded f"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.8",
+        "text": "A closed-circuit tell-tale for the front position lamps shall be mandatory."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.8",
+        "text": "The front position lamp tell-tale shall be non-flashing."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.9.8",
+        "text": "A tell-tale indicating failure of the front position lamps shall be mandatory if required by the component regulation."
+      }
+    ],
+    "daytime-running": [
+      {
+        "regulation": "UN R148",
+        "paragraph": "4.6.1.3",
+        "text": "For daytime running lamps, in case of failure of any one light source in a single lamp containing more than one light source, either the light intensity at the "
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.1.1",
+        "text": "In case the luminous intensity of the daytime running lamp is intended to be reduced according to the relevant requirements of paragraph 6.19.7. of the 08 or an"
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.2",
+        "text": "The minimum luminous intensity of the daytime running lamp (RL) within the angles of geometric visibility shall comply with Table 6."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.3",
+        "text": "The area of the apparent surface in the direction of the axis of reference of the daytime running lamp shall be not less than 25 cm2 and not more than 200 cm2."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.3",
+        "text": "When a daytime running lamp is to be type approved as a lamp marked \"D\", the apparent surface of such a lamp shall not be more than 100 cm2."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.5",
+        "text": "The daytime running lamp shall be subjected to, and meet, the heat resistance test specified in Annex 6."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.6",
+        "text": "The daytime running lamp (RL) shall comply with the failure provisions of paragraph 4.6."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.4.7",
+        "text": "The colour of the light emitted by the daytime running lamp shall be white."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "Annex 3 2.2",
+        "text": "Daytime running lamps shall meet, for the various directions of measurement, the minimum intensities of the standard light distribution given as a percentage of"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the daytime running lamp shall be white."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.4.1",
+        "text": "The distance in width between the inner edges of the apparent surfaces of the daytime running lamps in the direction of the reference axes shall not be less tha"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.4.2",
+        "text": "The daytime running lamps shall be positioned in height not less than 250 mm nor more than 1,500 mm above the ground."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.4.3",
+        "text": "The daytime running lamps shall be positioned in length at the front of the vehicle, this requirement being deemed satisfied if the light emitted does not cause"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.1",
+        "text": "The daytime running lamps shall be switched ON automatically when the device which starts and/or stops the propulsion system is set in a position which makes it"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.3",
+        "text": "The automatic operation of the daytime running lamps shall be resumed as soon as the conditions described in paragraph 6.19.7.2. (automatic transmission control"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.4",
+        "text": "The daytime running lamp shall switch OFF automatically when the device which starts and/or stops the propulsion system is set in a position which makes it impo"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.4",
+        "text": "The daytime running lamp shall switch OFF automatically when the front fog lamps are switched ON."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.4",
+        "text": "The daytime running lamp shall switch OFF automatically when the headlamps are manually switched ON, except when they are used to give intermittent luminous war"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.19.7.4",
+        "text": "The daytime running lamp shall switch OFF automatically when the conditions of Annex 13 for automatic switching ON of dipped-beam headlamps exist."
+      }
+    ],
+    "side-marker": [
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.7.1",
+        "text": "The light emitted by each of the two samples of the side marker lamp (SM1, SM2) supplied shall meet the requirements in Table 9."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.7.2",
+        "text": "The side marker lamp (SM1, SM2) shall meet the minimum luminous intensity within the angles of geometric visibility specified in Table 9."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.7.6",
+        "text": "The SM1 and SM2 category side marker lamps shall comply with the failure provisions of paragraph 4.6."
+      },
+      {
+        "regulation": "UN R148",
+        "paragraph": "5.7.7",
+        "text": "The colour of the light emitted by the SM1 and SM2 category side marker lamps shall be amber, except that it can be red if the rearmost side marker lamp is grou"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.3",
+        "text": "For side retro-reflectors and side-marker lamps, the reference axis of the lamp when fitted to the vehicle shall be perpendicular to the median longitudinal pla"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.3",
+        "text": "For all light-signalling devices other than side retro-reflectors and side-marker lamps, the reference axis of the lamp when fitted to the vehicle shall be para"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.9.1",
+        "text": "Amber side-marker lamps complying with paragraph 6.18.7. shall be flashing lamps."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the light emitted by the side-marker lamp shall be amber; however the rearmost side-marker lamp can be red if it is grouped or combined or recipro"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "5.15",
+        "text": "The colour of the side retro-reflector, non-triangular, shall be amber; however the rearmost side retro-reflector can be red if it is grouped or has part of the"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.1",
+        "text": "Side-marker lamps shall be mandatory on all vehicles the length of which exceeds 6 m, except for chassis-cabs."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.1",
+        "text": "The SM1 type of side-marker lamp shall be used on all categories of vehicles, however the SM2 type of side-marker lamp may be used on M1 category vehicles."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.2",
+        "text": "The minimum number of side-marker lamps per side shall be such that the rules for longitudinal positioning are complied with."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.2",
+        "text": "The side-marker lamps shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 91, or to the 00 or subsequent series o"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.2",
+        "text": "The side-marker lamps shall be positioned in height above the ground not less than 250 mm nor more than 1,500 mm (2,100 mm if the shape of the bodywork makes it"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.3",
+        "text": "At least one side-marker lamp shall be fitted to the middle third of the vehicle."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.3",
+        "text": "The foremost side-marker lamp shall be not further than 3 m (4 m for semi-trailers) from the front of the vehicle."
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.3",
+        "text": "The distance between two adjacent side-marker lamps shall not exceed 3 m, or 4 m if the structure, design or the operational use of the vehicle makes it impossi"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.3",
+        "text": "For vehicles the length of which does not exceed 6 m and for chassis-cabs, it shall be sufficient to have one side-marker lamp fitted within the first third and"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.4.3",
+        "text": "For M1 vehicles the length of which exceeds 6 m but does not exceed 7 m, it shall be sufficient to have one side-marker lamp fitted not further than 3 m from th"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.5",
+        "text": "The horizontal angle of geometric visibility of the side-marker lamps shall be 45° to the front and to the rear, except that for vehicles on which the installat"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.5",
+        "text": "The vertical angle of geometric visibility of the side-marker lamps shall be 10° above and below the horizontal, except that where a lamp is mounted below 750 m"
+      },
+      {
+        "regulation": "UN R48",
+        "paragraph": "6.18.8",
+        "text": "A tell-tale indicating failure of the side-marker lamps shall be provided if required by the component regulation."
+      }
+    ]
+  },
+  "rated1": [
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "6.2.1.2",
+      "text": "Where a cut-body is used for the test, the cut-body shall include all parts of the vehicle front structure, all under-bonnet components and all components behin"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "6.2.1.2",
+      "text": "Where a cut-body is used for the test, the cut-body shall be securely mounted in the normal vehicle ride attitude."
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.1",
+      "text": "For the flexible lower legform impactor to bumper test, the selected target points shall be in the bumper test area."
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.2",
+      "text": "For the flexible lower legform impactor to bumper test, the direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitu"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.2",
+      "text": "For the flexible lower legform impactor to bumper test, the axis of the impactor shall be perpendicular to the horizontal plane, with a roll and pitch angle tol"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.3",
+      "text": "For the flexible lower legform impactor to bumper test, the bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall "
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "Annex 1 1.7.4",
+      "text": "If the DPPS is not activated during any of the sensing system verification tests, all headform tests shall be conducted in undeployed position according to para"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "Annex 1 2.2.1",
+      "text": "If the measured sensing time (ST) of the DPPS is within a tolerance of -5ms/+3ms of the value specified by the manufacturer, the value specified by the manufact"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "Annex 1 2.2.1",
+      "text": "If the measured sensing time (ST) of the DPPS is not within a tolerance of -5ms/+3ms of the value specified by the manufacturer, the measured value shall be use"
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "Annex 1 2.2.1",
+      "text": "For dynamic testing of the DPPS, only the sensing time (ST) shall be verified."
+    },
+    {
+      "regulation": "UN GTR 9",
+      "paragraph": "Annex 1 4.3",
+      "text": "Where the combined static and dynamic test option is chosen by the manufacturer and the headform test area consists of sections where the HIT_d at the correspon"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 4 4.2",
+      "text": "The vehicle shall comply with the radiated emission limits given in paragraphs 6.2. and 7.2. of the Regulation for quasi-peak detectors, with a correction facto"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 5 2.1",
+      "text": "During the narrowband emission test, the vehicle ignition switch shall be switched on."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 5 2.1",
+      "text": "During the narrowband emission test, the vehicle engine shall not be operating."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 5 2.2",
+      "text": "During the narrowband emission test, the vehicle's electronic systems shall all be in normal operating mode with the vehicle stationary."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 5 2.3",
+      "text": "During the narrowband emission test, all equipment which can be switched on permanently by the driver or passenger with internal oscillators > 9 kHz or repetiti"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with vehicle speed 50 km/h (respectively 25 km/h for L1, L2 vehicles) ±20 per cent, the vehicle shall not exhibit a"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with dipped beams ON (manual mode), the vehicle shall not exhibit lighting OFF (front light and rear light)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with specific warning (e.g. rotating/flashing light, signalling bar, siren) OFF, the vehicle shall not exhibit spec"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the cluster operating in normal mode, the vehicle shall not exhibit an unexpected warning or an inconsistent v"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, the rear view system shall not exhibit unexpected movement of the rear view mirror or loss or freezing of the displ"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the front wiper ON (manual mode) at maximum speed, the vehicle shall not exhibit a complete stop of the front "
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with adjustable suspension in normal position, the vehicle shall not exhibit an unexpected significant variation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the driver's seat and steering wheel in medium position, the vehicle shall not exhibit an unexpected variation"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the horn OFF, the vehicle shall not exhibit an unexpected activation of the horn."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with automatic doors closed, the vehicle shall not exhibit an unexpected opening."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the adjustable endurance brake lever in normal position, the vehicle shall not exhibit an unexpected activatio"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with the brake pedal not depressed, the vehicle shall not exhibit an unexpected activation of brake or an unexpecte"
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "text": "In the \"50 km/h mode\" vehicle immunity test, with ADS operational, the ADS shall not remain in a failure safe mode or expected failure operational mode."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 2.2",
+      "text": "The ESA under test shall be arranged as defined in Annex 9 unless individual test methods dictate otherwise."
+    },
+    {
+      "regulation": "UN R127",
+      "paragraph": "5.3.4",
+      "text": "In the case of a vehicle fitted with an ARHSS which could change the vehicle height at the front axle more than 20 mm from the nominal for any vehicle speed bet"
+    },
+    {
+      "regulation": "UN R127",
+      "paragraph": "Annex 3 3.1.1",
+      "text": "The vehicle used for the pedestrian protection test shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at rest on "
+    },
+    {
+      "regulation": "UN R127",
+      "paragraph": "Annex 3 3.1.2",
+      "text": "Where a cut-body is used for the pedestrian protection test, the cut-body shall include all parts of the vehicle front structure, all under-bonnet components an"
+    },
+    {
+      "regulation": "UN R127",
+      "paragraph": "Annex 3 3.1.2",
+      "text": "Where a cut-body is used for the pedestrian protection test, the cut-body shall be securely mounted in the normal vehicle ride attitude."
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "3.3.2.5.1.1",
+      "text": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, the horizontal arrow showing the mounting position shall be directed outwards f"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.5.5",
+      "text": "Where a lamp incorporates a logo, notwithstanding the requirements of paragraph 5.5.2. of UN Regulation No. 48, the logo light emitting surface (incorporating t"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.1.1",
+      "text": "In a single lamp containing more than one light source, a group of light sources, wired so that the failure of any one of them causes all of them to stop emitti"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a direction indicator of category 2b emitting more than the maximum value of category 2a, the requiremen"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a rear position lamp category R2 emitting more than the maximum value of category R1, the requirements o"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a rear end-outline marker lamp category RM2 emitting more than the maximum value of category RM1, the re"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a stop lamp category S2 emitting more than the maximum value of category S1, the requirements of steady "
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a stop lamp category S4 emitting more than the maximum value of category S3, the requirements of steady "
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.6.2",
+      "text": "In case of failure of the variable intensity control of a rear fog lamp of category F2 emitting more than the maximum value of category F1, the requirements of "
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.1.3",
+      "text": "In case of a lamp (function) using light sources which are subject to more than one of the conditions prescribed in paragraph 4.8., the photometric measurements"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.1.6",
+      "text": "Where the lamp, at the discretion of the applicant, also has to be approved with LED substitute light source(s), all measurements, photometric and colorimetric,"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.1.7",
+      "text": "If not otherwise specified, the luminous intensities of the lamp shall be measured with the light source continuously lit."
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.1.8.3",
+      "text": "Where the results of measurements are challenged, the intensity requirement for a particular direction of observation of the lamp shall be deemed to be satisfie"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.2",
+      "text": "Unless otherwise specified, the voltage supplied at the lamp for testing shall be 6.75 V for 6 Volt-Systems."
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.2",
+      "text": "Unless otherwise specified, the voltage supplied at the lamp for testing shall be 28 V for 24 Volt-Systems."
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.2.2",
+      "text": "In case of a lamp not controlled by an electronic light source control gear or a variable intensity control and equipped with replaceable UN approved light sour"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "4.8.2.3",
+      "text": "In case of lamps equipped with multiple replaceable UN approved light sources, the lamp shall be operated for testing at a voltage or electrical current setting"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "5.7.1",
+      "text": "For a red side marker lamp, the maximum intensity in the angular field from 60° to 90° in horizontal direction and ±20° in vertical direction towards the front "
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "Annex 5 1.2",
+      "text": "In the case of a lamp equipped with a replaceable light source, if the photometric test results do not meet the requirements, the tests on the lamps shall be re"
+    },
+    {
+      "regulation": "UN R148",
+      "paragraph": "Annex 5 1.4",
+      "text": "The chromaticity coordinates of the lamp shall be complied with when tested under the conditions of paragraph 4.9. of this Regulation."
+    },
+    {
+      "regulation": "UN R26",
+      "paragraph": "5.6",
+      "text": "The provisions of paragraphs 5.1. to 5.5. shall apply to the vehicle exterior in addition to the particular specifications of paragraph 6., except where these p"
+    },
+    {
+      "regulation": "UN R26",
+      "paragraph": "6.1.1",
+      "text": "Where an added ornament is mounted on a base, the base shall be regarded as belonging to the ornament and not to the supporting surface."
+    },
+    {
+      "regulation": "UN R26",
+      "paragraph": "6.3.1",
+      "text": "The distance between two consecutive elements of grilles and gaps shall be determined according to the method described in paragraph 4. of Annex 3."
+    },
+    {
+      "regulation": "UN R26",
+      "paragraph": "6.6.1",
+      "text": "The projection of handles, hinges and push-buttons of doors, luggage compartments and bonnets and of fuel tank filler caps and covers shall not exceed 40 mm in "
+    },
+    {
+      "regulation": "UN R42",
+      "paragraph": "6.1.4",
+      "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3, the vehicle's exhaust system shall not suffer any damage or di"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.8.1",
+      "text": "For the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the ground shall be measured from the H plane."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "text": "The colour of the light emitted by the main-beam headlamp shall be white."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "text": "The colour of the light emitted by the dipped-beam headlamp shall be white."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "text": "The colour of conspicuity marking shall be white to the front, white or yellow to the side, and red or yellow to the rear, without precluding Contracting Partie"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.15",
+      "text": "The colour of the light emitted by adaptive front-lighting systems (AFS) shall be white."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "5.27.3",
+      "text": "The terminal voltage limits for the electric power supply of lighting and light-signalling devices shall not apply to devices which include an electronic light "
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.4.3",
+      "text": "For all other categories of vehicles, if the structure of the vehicle makes it impossible to comply with the minimum angles of visibility, the distance between "
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.4.3",
+      "text": "Optional category 5 side direction indicator lamps shall be fitted, spaced evenly, along the length of the vehicle."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.5.1",
+      "text": "Where an optional rear direction indicator lamp is mounted above 2,100 mm (measured according to the provisions of paragraph 5.8.1), the upward angle of 15° may"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.7",
+      "text": "If two optional lamps (category 2a or 2b) are installed on vehicles in categories M2, M3, N2, N3, they shall be operated in the same mode as the other mandatory"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.8",
+      "text": "If a motor vehicle is equipped to draw a trailer, it shall be fitted with a special visual operational tell-tale for the direction-indicator lamps on the traile"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.5.9",
+      "text": "If a motor vehicle is equipped to draw a trailer, the control of the direction-indicator lamps on the drawing vehicle shall also operate the indicator lamps of "
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.6.1",
+      "text": "All direction indicators of the category 2 (2a, 2b) activated simultaneously for the hazard warning signal shall operate in the same mode, i.e. static or sequen"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.6.7.1",
+      "text": "The hazard warning signal shall be operated by means of a separate manual control enabling all the direction-indicator lamps to flash in phase."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.6.9",
+      "text": "The hazard warning signal shall comply with the other requirements as specified in paragraph 6.5.9."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.6.9",
+      "text": "If a power-driven vehicle is equipped to draw a trailer, the hazard warning signal control shall also be capable of bringing the direction-indicator lamps on th"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.9.8",
+      "text": "The front position lamp tell-tale shall not be required if the instrument panel lighting can only switch ON simultaneously with the front position lamps."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.9.8",
+      "text": "The front position lamp tell-tale requirement shall not apply while the daytime running lamps are switched ON."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.18.1",
+      "text": "On all other vehicles, side-marker lamps of SM1 or SM2 type may be used optionally."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.18.4.3",
+      "text": "The distance between the rearmost side-marker lamp and the rear of the vehicle shall not exceed 1 m."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.18.9",
+      "text": "Rear side-marker lamps shall be amber if they flash with the rear direction-indicator lamp."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.19.7.2",
+      "text": "Irrespective of the requirements of paragraphs 6.19.7.1. and 6.19.7.5., under conditions requiring the daytime running lamps to be switched ON, the daytime runn"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.19.7.5",
+      "text": "When daytime running lamps are switched ON, the rear position lamps shall be switched ON, except that the rear position lamps and the other lamp(s) mentioned in"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.23.1",
+      "text": "The emergency stop signal shall be mandatory on motor vehicles."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.23.7.3",
+      "text": "The emergency stop signal shall be switched ON and OFF automatically."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.23.7.3.1",
+      "text": "The emergency stop signal shall be switched ON only when the vehicle speed is above 50 km/h and the braking system is providing the emergency braking logic sign"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.23.7.3.2",
+      "text": "The emergency stop signal shall be automatically switched OFF if the emergency braking logic signal as defined in UN Regulations Nos. 13 and 13-H is no longer p"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.23.7.3.2",
+      "text": "The emergency stop signal shall be automatically switched OFF if the hazard warning signal is activated."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.25.7.1",
+      "text": "All the lamps of the rear-end collision alert signal shall flash in phase at a frequency of 4.0 +/- 1.0 Hz."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.25.7.2",
+      "text": "The rear-end collision alert signal shall operate independently of other lamps."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.25.7.3",
+      "text": "The rear-end collision alert signal shall be switched ON and OFF automatically."
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.25.7.4",
+      "text": "The rear-end collision alert signal shall not be switched ON if the direction indicator lamps, the hazard warning signal or the emergency stop signal is activat"
+    },
+    {
+      "regulation": "UN R48",
+      "paragraph": "6.25.7.6",
+      "text": "The switch ON period of the rear-end collision alert signal shall be not more than 3 seconds."
+    }
+  ]
+}

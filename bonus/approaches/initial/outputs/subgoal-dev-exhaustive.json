@@ -1,0 +1,431 @@
+{
+  "team_id": "team-11",
+  "case_id": "subgoal-dev",
+  "changes": [
+    {
+      "requirement_id": "R-015",
+      "change": "modified",
+      "reason": "New 5.1.2 inserts the qualifier 'resulting in continuous acceleration and'. This narrows which applications count as misapplication. The numeric thresholds are unchanged.",
+      "new_text": "An accelerator control application resulting in continuous acceleration and having a velocity of at least 400 per cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator control, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall be regarded as an accelerator control misapplication in the context of paragraph 5.1.1.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-018",
+      "change": "modified",
+      "reason": "New 5.1.4 adds 'both ... and, as relevant, while creeping'. This extends the obligation to the creeping condition in addition to standstill.",
+      "new_text": "The ACPE shall control acceleration when the vehicle is accelerated both from standstill and, as relevant, while creeping.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "requirement_id": "R-021",
+      "change": "modified",
+      "reason": "The obstacle range changed from 1.0-1.5 m to not more than 1.5 m. The trigger is now the 5.1.2 triggering conditions rather than accelerator application. A closed/latched rear hatch condition was added. The 0.2 m lateral offset was replaced by obstacle-type-specific criteria. Pedestrian obstacles were added. A speed condition (creeping speed forward, 4 km/h rearward) was added. These change the conditions of the obligation.",
+      "new_text": "When the triggering conditions of paragraph 5.1.2. are achieved, the ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located not more than 1.5 m in front of or behind the vehicle, in the vehicle path, provided the conditions in paragraph 5.1.5. (a) to (d) are met. These include: road flat, horizontal and dry; weather not affecting performance; tyres, brakes, load, powertrain in proper state; no trailer; rear hatches, trunk lids or tailgates closed and latched; no sensing impairment (at least 1000 Lux, non-extreme target RCS/shape, no significant weather, no overhead obstructions); a stationary, unobstructed obstacle clearly separated from other objects; lateral alignment by obstacle type (vehicle centre line between the vehicle's outer-edge planes, wall overlap at least 1.0 m, pedestrian centre line within 25 per cent of vehicle width); straight travel in lane; obstacle an M1 vehicle, wall-like structure (at least 2.0 m wide, 1.0 m high) or pedestrian silhouette; obstacle at least 1.0 m away at the trigger; vehicle at or below maximum creeping speed forward and at or below 4 km/h rearward.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": "R-084",
+      "change": "modified",
+      "reason": "The old limit of 0.0 m to 0.2 m is replaced in new 6.5.2 by 0.0 m to the distance to the extreme outer edge of the vehicle. This is a substantive change to the offset range. The new text also names the 'vehicle target'. New 6.5.3 sets a separate limit for a pedestrian obstacle, and that belongs in Track B.",
+      "new_text": "For the accelerator control misapplication test, the lateral offset between the centreline of the vehicle target and the centreline of the vehicle shall be between 0.0 m and the distance to the extreme outer edge of the vehicle.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-085",
+      "change": "modified",
+      "reason": "New 6.6 drops the requirement to perform the test with and without an expected ACPE intervention. It also changes the reference point from the vehicle's position at the start of the test to the distance from the target at which the ACPE interventions are triggered. The forward/rearward directions and the 1.0 m and 1.5 m distances with their tolerances are retained.",
+      "new_text": "The test procedures shall be performed both in a forward and rearward direction and at least with the ACPE interventions triggered at 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) distance from the target position (as detailed in Table 1).",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6"
+      }
+    },
+    {
+      "requirement_id": "R-090",
+      "change": "removed",
+      "reason": "The old sentence allowed, at the manufacturer's request, driving up to 20 m to the start position and/or switching the engine off and on before a test. The new 6.6.1.2 and 6.6.2.2 and the new Table 1 contain no such provision. The candidate clauses (6.4.2, 5.2.3.1.1, 5.4.2) cover unrelated subjects. The permission is therefore dropped."
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Completed vehicles built on a base vehicle which did not have the necessary structure to allow installation of means of forward and/or rear detection may be exempted from the relevant requirements (forward and/or rear direction) of this Regulation, subject to the decision of the Type Approval Authority.",
+      "reason": "Paragraph 1.4 is new. Candidate o005 (1.3) covers a different applicability case (vehicles where installation is incompatible with on-road use), whereas this covers completed vehicles built on a base vehicle lacking the necessary structure. No positive evidence that it replaces o005, so it is a separate scoped exemption.",
+      "source": {
+        "page": 2,
+        "paragraph": "1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "\"Extreme outer edge\" on either side of the vehicle means the plane parallel to the median longitudinal plane of the vehicle and touching its lateral outer edge, disregarding the projection of: (a) tyres near their ground contact point and tyre-pressure gauge connections; (b) anti-skid devices mounted on the wheels; (c) devices for indirect vision; (d) side direction-indicator lamps, end-outline marker lamps, front and rear position lamps, parking lamps, retro-reflectors and side-marker lamps.",
+      "reason": "New definition with no equivalent among candidates; o011, o163 and o147 are unrelated in scope, and paragraph 2.10 is not a renumbering of any of them.",
+      "source": {
+        "page": 3,
+        "paragraph": "2.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The ACPE shall control acceleration, as relevant, when the vehicle is accelerated while creeping.",
+      "reason": "The creeping case was not in old 5.1.4 (o036), which covered standstill only. It is a separately applicable operating case.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "An ACPE intervention is not required when there is an AEBS warning or intervention occurring.",
+      "reason": "New exemption. Old 5.1.4.1 (o037) concerned the ACPE readiness indication, not an intervention exemption. Old 5.3.2 (o062) concerned failure warning suppression.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "An ACPE intervention is not required when the vehicle speed is greater than 10 km/h.",
+      "reason": "New exemption from intervention above 10 km/h. The old 10 km/h wording (o062) applied to failure-warning suppression, which is a different scope.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, if the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal conditions of vehicle operation.",
+      "reason": "Condition (b)(vi) is absent from old 5.1.5(b) (o038), which ends at (b)(v).",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, for a wall obstacle, the overlap between wall and vehicle is at least 1.0 m.",
+      "reason": "The wall overlap criterion has no counterpart in old 5.1.5 (o038).",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, for a pedestrian obstacle, the distance between the centre line of the pedestrian obstacle and the centre line of the vehicle is not more than 25 per cent of the vehicle width.",
+      "reason": "The pedestrian obstacle case is new and absent from old 5.1.5 (o038).",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided the vehicle is travelling at or below its maximum creeping speed in the forward direction and at or below 4 km/h in the rearward direction.",
+      "reason": "The speed condition is not present in old 5.1.5 (o038).",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the acceleration-while-creeping case, if a collision is not prevented, the ACPE shall reduce the effective demand of the accelerator control to zero at or before the point of collision.",
+      "reason": "No candidate has this requirement; old 5.1.11.2 concerns driver interruption and 5.1.6 concerns collision speed limits. The creeping-case demand-to-zero requirement is a separate obligation.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During the conduct of the test, the technical service shall ensure that the boundary conditions of the ACPE, as defined by the manufacturer, with regard to detection of the test target are taken into account (e.g. avoid blocking a sonar system used; ensure a vision system can properly identify the pedestrian test target as a human by making it fully visible to the camera before testing).",
+      "reason": "New sentence added to 6.3.2; o090 only contains the first sentence, and no candidate has a boundary-condition requirement for the technical service.",
+      "source": {
+        "page": 9,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The targets used for the pedestrian detection tests shall be a child articulated \"soft target\" in its resting position with the articulation switched off, representative of the human attributes applicable to the sensor system of the ACPE under test according to ISO 19206-2:2018.",
+      "reason": "New paragraph; candidate old 6.4.1 covers only vehicle detection targets, no pedestrian target requirement found in old text.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the offset of vehicle and target test setup, the reference point for the location of the vehicle shall be the most rearward point on the centreline of the vehicle when going rearwards, and the most forward point of the vehicle when going forwards.",
+      "reason": "New paragraph; no candidate old clause defines the vehicle reference point (old 6.5 gives offset and distances only, not a reference point).",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the test procedure, the lateral offset between the centreline of the vehicle target and the centreline of the vehicle shall be between 0.0 m and the distance to the extreme outer edge of the vehicle.",
+      "reason": "Old o094 set a 0.0-0.2 m offset for a generic target; the new clause is a separately scoped offset limit for the vehicle target (0.0 m to the outer edge of the vehicle). It is a different limit and scope, not a relocation of the old one.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the test procedure, the lateral offset between the centre line of the pedestrian obstacle and the centre line of the vehicle shall be not more than 25 per cent of the vehicle width.",
+      "reason": "No old clause has a pedestrian-target offset limit relative to vehicle width. Candidates o048, o143 and o055 are unrelated.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The orientation of the pedestrian target shall be determined by the technical service.",
+      "reason": "No old clause covers pedestrian target orientation. Candidates o078, o020 and o079 address other topics.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The orientation of the vehicle target shall be 0° or 180° respectively as defined in ISO 19206-3:2021, as chosen by the technical service.",
+      "reason": "No old clause specifies vehicle target orientation or refers to ISO 19206-3. Candidates o020, o017 and o077 are unrelated.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the stationary-vehicle test procedure, each test condition according to Table 1 shall be tested both with and without the presence of the target.",
+      "reason": "New scoped requirement under 6.6.1 stationary-vehicle procedure. Old Table 1 had a presence-of-target column and 6.5 required tests with and without ACPE intervention, but no candidate establishes continuity of this specific scoped obligation; candidates o055/o017/o078 are unrelated.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For stationary-vehicle tests without a target, the ACPE shall be deactivated if necessary; such tests may be combined where feasible.",
+      "reason": "New provision for no-target tests in the stationary procedure; o055 concerns manufacturer-provided automatic deactivation criteria, a different obligation. Insufficient evidence of equivalence.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the creeping-vehicle procedure, each test condition according to Table 1 shall be tested once, with a starting point and accelerator control application profile selected at the discretion of the Technical Service.",
+      "reason": "New creeping-vehicle test; no old clause covers creeping tests (o094/o039 address different scope).",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In forward creeping tests, the starting point and accelerator control application profile shall be selected such that the triggering condition (paragraph 5.1.2) is achieved as close as reasonably practical to the maximum creeping speed, while remaining at or below that speed and avoiding any AEBS warning or intervention that results in an ACPE intervention not occurring.",
+      "reason": "New speed-targeting condition for forward creeping tests; no equivalent in candidates.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In rearward creeping tests, the starting point and accelerator control application profile shall be selected such that the triggering condition (paragraph 5.1.2) is achieved as close as reasonably practical to 4 km/h, while remaining at or below that speed and avoiding any AEBS warning or intervention that results in an ACPE intervention not occurring.",
+      "reason": "New speed-targeting condition for rearward creeping tests; no equivalent in candidates.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For each creeping-vehicle test, position the vehicle at the starting point selected per paragraph 6.6.2.1.",
+      "reason": "New creeping procedure step; old Table 1 procedure positioned vehicle at the Table 1 distance, a different step for stationary starts.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For each creeping-vehicle test, hold the vehicle stationary and select the corresponding driving direction.",
+      "reason": "Repeats an action from the old stationary procedure (o095 step b) but under a separately introduced creeping procedure; scoped as new.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For each creeping-vehicle test, release the braking system so that the vehicle starts creeping.",
+      "reason": "New creeping-specific step with no old equivalent.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For each creeping-vehicle test, operate the accelerator control to achieve the relevant triggering conditions (paragraph 5.1.2) at the point the vehicle has reached the distance to target according to Table 1.",
+      "reason": "New creeping-specific triggering step, differing from the old stationary accelerate-before-0.5 km/h step.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In a creeping-vehicle test where a collision is not prevented, the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
+      "reason": "New manufacturer demonstration obligation for creeping tests referencing 5.1.6.2; old 5.1.6 is a performance limit, not this demonstration duty.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If deemed justified, the Technical Service may additionally test in any test condition within the conditions specified in paragraph 5.1.5.",
+      "reason": "Candidate o096 (6.6) permits testing within conditions of paragraph 5.1 during tests of 6.5; the new clause refers to a different scope (5.1.5) and is additional to the prescribed tests, so equivalence of the same scoped obligation is not established.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If deemed justified, the Technical Service may additionally test alternative accelerator control application profiles.",
+      "reason": "No candidate old clause permits testing alternative accelerator control application profiles.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from the official date of entry into force of the 01 series of amendments, no Contracting Party applying this Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 01 series of amendments.",
+      "reason": "New transitional compliance obligation for Contracting Parties tied to the 01 series. Candidate old clauses (5.1.8, Annex 3/3.11, 7.3) concern different actors and subjects and are not equivalent.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept type approvals to the original version of this Regulation first issued after 1 September 2029.",
+      "reason": "New transitional provision (permission to refuse) with a specific date and scope. No old clause is a relocation or replacement of it (8.2, 9.2, 7.3 differ in scope).",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Until 1 September 2031, Contracting Parties applying this Regulation shall accept type approvals to the original version of this Regulation first issued before 1 September 2029.",
+      "reason": "New transitional acceptance obligation with its own dates. Candidates (9.2, 7.3, Annex 3/3.3.5.1) cover unrelated notification and identification matters.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from 1 September 2031, Contracting Parties applying this Regulation shall not be obliged to accept type approvals issued to the original version of this Regulation.",
+      "reason": "New transitional cut-off permission. Candidates 7.2, 7.3 and 4.1 concern communication and granting of approvals and are not the same scoped obligation.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Notwithstanding paragraph 12.1.4., Contracting Parties applying this Regulation shall continue to accept type approvals issued according to the original version of this Regulation for vehicles which are not affected by the changes introduced by the 01 series of amendments.",
+      "reason": "New exception to the 12.1.4 cut-off with its own applicability condition. No old clause covers it (7.2, 4.1, 5.1.8 differ in scope).",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Notwithstanding the transitional provisions above, Contracting Parties who start to apply this Regulation after the date of entry into force of the most recent series of amendments are not obliged to accept type approvals granted in accordance with any of the preceding series of amendments to this Regulation.",
+      "reason": "New transitional provision for new Contracting Parties. Candidates (10, 4.2, 7.2) address production discontinuation, approval numbering and communication, so equivalence is not established.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.6"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Contracting Parties applying this Regulation may grant type approvals according to any preceding series of amendments to this Regulation (transitional provision for the 01 series of amendments).",
+      "reason": "New transitional permission for the 01 series. Candidates o109, o102 and o101 concern withdrawal notification and extension communication, which differ in actor, action and scope, so there is no evidence of equivalence.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.7"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any preceding series of amendments to this Regulation (transitional provision for the 01 series of amendments).",
+      "reason": "New transitional obligation. Candidates o109, o102 and o105 cover withdrawal notification, extension communication and conformity of production, which are different scopes. No evidence of equivalence.",
+      "source": {
+        "page": 12,
+        "paragraph": "12.1.8"
+      }
+    }
+  ]
+}

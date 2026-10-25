@@ -87,6 +87,20 @@ electronic behaviour, tests) given its actual functions and vehicle category; fa
 PROMPTS = {"default": INSTRUCTIONS, "neutral": NEUTRAL_INSTRUCTIONS}
 
 
+OPERATIVE_HEADING = re.compile(r"\bII\.\s*Text of the Regulation\b", re.IGNORECASE)
+
+
+def rationale_pages() -> dict[str, int]:
+    """regulation -> first page of its operative text, for regulations that open with a statement of technical rationale
+    (GTR layout: "I. Statement of technical rationale and justification" ... "II. Text of the Regulation"). Clauses on
+    earlier pages explain the regulation's history and options; they are not its requirements."""
+    first: dict[str, int] = {}
+    for c in load_corpus("paragraph", "clauses"):
+        if c.regulation not in first and OPERATIVE_HEADING.search(" ".join(c.text.split())):
+            first[c.regulation] = c.page
+    return first
+
+
 def candidates(regulations: set[str], mode: str = "shall", exclude_labels: tuple[str, ...] = ()) -> list[Chunk]:
     """Clauses the reviewers judge. "shall": only clauses containing shall / must (misses implicit obligations);
     "all": every clause of the selected regulations. `exclude_labels`: skip clauses cited at a paragraph label starting

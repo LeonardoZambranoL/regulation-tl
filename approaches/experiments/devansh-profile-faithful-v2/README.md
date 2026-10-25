@@ -62,6 +62,14 @@ before, so its gap is not constant and small local differences should not decide
 `outputs/submission-dev-rear-lamp.json`. Held-out case: `bash approaches/experiments/devansh-profile-faithful-v2/final.sh <case-id>`.
 Caveat: on holdout-acpe the local judge shows no F2 gain (0.407 vs 0.409), with higher precision and lower recall.
 
+## Held-out case: heldout-front-bumper (2026-10-25)
+
+`bash approaches/experiments/devansh-profile-faithful-v2/final.sh heldout-front-bumper` -> **upload
+`outputs/submission-heldout-front-bumper.json`** (301 requirements, team-11, validate --strict OK). Regulations
+selected: UN R48 (166 requirements), R10 (62), GTR 9 (39), R127 (25), R42 (9); R13H was selected but kept no
+requirement. The ranker was less sure than on dev (ratings 1/2/3/4/5: 64/151/83/57/15), with 5 restatements merged.
+No answer key, so no score.
+
 ## Limitations
 
 - One labelled case plus one holdout; differences of ±0.005 F2 cannot be told apart from LLM sampling noise.

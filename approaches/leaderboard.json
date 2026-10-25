@@ -2988,10 +2988,10 @@
     }
   },
   {
-    "run_id": "f2cb6883c04c4f7d9f9a6f474eaad0a1",
-    "approach": "certi-pipeline",
+    "run_id": "36b5f76b2e834408a3ec8a8e12009610",
+    "approach": "devansh-profile-faithful-v3",
     "status": "completed",
-    "completed_at": "2026-10-24T21:21:03.445065+00:00",
+    "completed_at": "2026-10-25T07:54:52.903585+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -2999,829 +2999,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "d7221929625b1ce4519c6383cfa914380e0b98e17361406ebbeb2f9f9ac4cfb6",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.8,
-        "recall": 0.9811320754716981,
-        "f1": 0.8813559322033898,
-        "n_submitted": 65,
-        "n_expected": 53,
-        "n_matched": 52,
-        "f2": 0.9386281588447654
-      },
-      "clause_level": {
-        "precision": 0.468503937007874,
-        "recall": 0.9834710743801653,
-        "f1": 0.6346666666666667,
-        "n_submitted": 254,
-        "n_expected": 121,
-        "n_matched": 119,
-        "f2": 0.8062330623306233
-      }
-    }
-  },
-  {
-    "run_id": "40d96d07758640dfb5cc17a25aa3e567",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T21:21:08.325436+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "fbb77f992c4efc14d1428ad623afd01e1620330b0104798737ad62ec2d752cf2",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.38095238095238093,
-        "recall": 1.0,
-        "f1": 0.5517241379310345,
-        "n_submitted": 21,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7547169811320754
-      },
-      "clause_level": {
-        "precision": 0.5145631067961165,
-        "recall": 0.9298245614035088,
-        "f1": 0.6625,
-        "n_submitted": 103,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.800604229607251
-      }
-    }
-  },
-  {
-    "run_id": "febb9ba62cd1443bbd178b17baed53ae",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T21:31:15.782035+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "c3fe41c7e59657ca439c1c5040f8cb4193b128491db36a65d59d1ed07bf81e56",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.7536231884057971,
-        "recall": 0.9811320754716981,
-        "f1": 0.8524590163934427,
-        "n_submitted": 69,
-        "n_expected": 53,
-        "n_matched": 52,
-        "f2": 0.9252669039145908
-      },
-      "clause_level": {
-        "precision": 0.4306569343065693,
-        "recall": 0.9752066115702479,
-        "f1": 0.5974683544303797,
-        "n_submitted": 274,
-        "n_expected": 121,
-        "n_matched": 118,
-        "f2": 0.7783641160949867
-      }
-    }
-  },
-  {
-    "run_id": "158d7422f75840c09b481f03bf31e6cb",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T21:31:21.097837+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "13f2c31b9674416a94ac71392e20bd39cc9bf59ce7e8e95d4013cce1c2f84209",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
-      },
-      "clause_level": {
-        "precision": 0.5,
-        "recall": 0.9298245614035088,
-        "f1": 0.6503067484662577,
-        "n_submitted": 106,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.7934131736526946
-      }
-    }
-  },
-  {
-    "run_id": "cf59317c7ec34a0da0c8d9c8f78dc97f",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T22:08:46.395899+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "c3fe41c7e59657ca439c1c5040f8cb4193b128491db36a65d59d1ed07bf81e56",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.7536231884057971,
-        "recall": 0.9811320754716981,
-        "f1": 0.8524590163934427,
-        "n_submitted": 69,
-        "n_expected": 53,
-        "n_matched": 52,
-        "f2": 0.9252669039145908
-      },
-      "clause_level": {
-        "precision": 0.4306569343065693,
-        "recall": 0.9752066115702479,
-        "f1": 0.5974683544303797,
-        "n_submitted": 274,
-        "n_expected": 121,
-        "n_matched": 118,
-        "f2": 0.7783641160949867
-      }
-    }
-  },
-  {
-    "run_id": "b5d4cce0325c48e2b4a81f6dac67b466",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T22:08:50.878545+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "13f2c31b9674416a94ac71392e20bd39cc9bf59ce7e8e95d4013cce1c2f84209",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
-      },
-      "clause_level": {
-        "precision": 0.5,
-        "recall": 0.9298245614035088,
-        "f1": 0.6503067484662577,
-        "n_submitted": 106,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.7934131736526946
-      }
-    }
-  },
-  {
-    "run_id": "b192fed704194ccfb2212172dc97e6dc",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T22:52:48.423172+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "acd3edc225eeeb9288081e26a41806d6a1d40d6866f7c60a7081ea04c9f7ae22",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.726027397260274,
-        "recall": 1.0,
-        "f1": 0.8412698412698413,
-        "n_submitted": 73,
-        "n_expected": 53,
-        "n_matched": 53,
-        "f2": 0.9298245614035087
-      },
-      "clause_level": {
-        "precision": 0.4219858156028369,
-        "recall": 0.9834710743801653,
-        "f1": 0.5905707196029777,
-        "n_submitted": 282,
-        "n_expected": 121,
-        "n_matched": 119,
-        "f2": 0.7767624020887729
-      }
-    }
-  },
-  {
-    "run_id": "16c9cf2fffbd4206b62d951b440ac84b",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T22:52:57.757834+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "13f2c31b9674416a94ac71392e20bd39cc9bf59ce7e8e95d4013cce1c2f84209",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
-      },
-      "clause_level": {
-        "precision": 0.5,
-        "recall": 0.9298245614035088,
-        "f1": 0.6503067484662577,
-        "n_submitted": 106,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.7934131736526946
-      }
-    }
-  },
-  {
-    "run_id": "3611675d846b4968aed61a08dcee8e7d",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:05:02.702037+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "b8db10cf34170d8ac822119966eb659bcf46606837595cc41271e5a0bc90ed09",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.6883116883116883,
-        "recall": 1.0,
-        "f1": 0.8153846153846155,
-        "n_submitted": 77,
-        "n_expected": 53,
-        "n_matched": 53,
-        "f2": 0.916955017301038
-      },
-      "clause_level": {
-        "precision": 0.37735849056603776,
-        "recall": 0.9917355371900827,
-        "f1": 0.5466970387243736,
-        "n_submitted": 318,
-        "n_expected": 121,
-        "n_matched": 120,
-        "f2": 0.7481296758104738
-      }
-    }
-  },
-  {
-    "run_id": "4f4b597fba8e449a97ee3980f65ec455",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:05:32.761024+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "b8db10cf34170d8ac822119966eb659bcf46606837595cc41271e5a0bc90ed09",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.6883116883116883,
-        "recall": 1.0,
-        "f1": 0.8153846153846155,
-        "n_submitted": 77,
-        "n_expected": 53,
-        "n_matched": 53,
-        "f2": 0.916955017301038
-      },
-      "clause_level": {
-        "precision": 0.37735849056603776,
-        "recall": 0.9917355371900827,
-        "f1": 0.5466970387243736,
-        "n_submitted": 318,
-        "n_expected": 121,
-        "n_matched": 120,
-        "f2": 0.7481296758104738
-      }
-    }
-  },
-  {
-    "run_id": "8a70058948924251a93a17bcdae5b0e9",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:05:32.838386+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "13f2c31b9674416a94ac71392e20bd39cc9bf59ce7e8e95d4013cce1c2f84209",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
-      },
-      "clause_level": {
-        "precision": 0.5,
-        "recall": 0.9298245614035088,
-        "f1": 0.6503067484662577,
-        "n_submitted": 106,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.7934131736526946
-      }
-    }
-  },
-  {
-    "run_id": "24b297d061324d8e886ec2e69642a09f",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:22:55.460025+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "4ded6723d91ab0085aaf7ebc830bdc5e3af040a3b89a377142c7fb8e43ac571d",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.6282051282051282,
-        "recall": 0.9245283018867925,
-        "f1": 0.7480916030534351,
-        "n_submitted": 78,
-        "n_expected": 53,
-        "n_matched": 49,
-        "f2": 0.8448275862068966
-      },
-      "clause_level": {
-        "precision": 0.4474885844748858,
-        "recall": 0.8099173553719008,
-        "f1": 0.5764705882352942,
-        "n_submitted": 219,
-        "n_expected": 121,
-        "n_matched": 98,
-        "f2": 0.6970128022759601
-      }
-    }
-  },
-  {
-    "run_id": "6a093cbb4ce549cd8e42f5459f3bdd48",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:22:55.532173+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "137efd8f7cf04f646e3fd4087f6d7c1bb492502d2ceed5ce86bb3e7d9190ec5f",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.2,
-        "recall": 0.75,
-        "f1": 0.31578947368421056,
-        "n_submitted": 30,
-        "n_expected": 8,
-        "n_matched": 6,
-        "f2": 0.48387096774193544
-      },
-      "clause_level": {
-        "precision": 0.2948717948717949,
-        "recall": 0.40350877192982454,
-        "f1": 0.34074074074074073,
-        "n_submitted": 78,
-        "n_expected": 57,
-        "n_matched": 23,
-        "f2": 0.3758169934640523
-      }
-    }
-  },
-  {
-    "run_id": "37795df0745d4d3c88350a05e5bd45a8",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:25:17.404715+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "1a9aab20ee51641a7af4ac97059e312bdebffe83907661afe1bd753ac68a03ac",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.5813953488372093,
-        "recall": 0.9433962264150944,
-        "f1": 0.7194244604316548,
-        "n_submitted": 86,
-        "n_expected": 53,
-        "n_matched": 50,
-        "f2": 0.8389261744966444
-      },
-      "clause_level": {
-        "precision": 0.38783269961977185,
-        "recall": 0.8429752066115702,
-        "f1": 0.5312500000000001,
-        "n_submitted": 263,
-        "n_expected": 121,
-        "n_matched": 102,
-        "f2": 0.6827309236947791
-      }
-    }
-  },
-  {
-    "run_id": "7b649bcda59a435ca55e73b0504d99a5",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-24T23:25:17.486589+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "fcba77bc3d1a4518c71cdb071082b3a6b3ccccf05069620f825da7ee6256ea72",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.15,
-        "recall": 0.75,
-        "f1": 0.24999999999999997,
-        "n_submitted": 40,
-        "n_expected": 8,
-        "n_matched": 6,
-        "f2": 0.41666666666666663
-      },
-      "clause_level": {
-        "precision": 0.2608695652173913,
-        "recall": 0.631578947368421,
-        "f1": 0.3692307692307692,
-        "n_submitted": 138,
-        "n_expected": 57,
-        "n_matched": 36,
-        "f2": 0.49180327868852464
-      }
-    }
-  },
-  {
-    "run_id": "f574c83c798e456280616f0738f2dff9",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-25T00:42:39.101432+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "d1a1f9234db8a4a4b85bff0178cd11597e980648d14d45974e8d0856b21eda17",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.42276422764227645,
-        "recall": 0.9811320754716981,
-        "f1": 0.5909090909090909,
-        "n_submitted": 123,
-        "n_expected": 53,
-        "n_matched": 52,
-        "f2": 0.7761194029850746
-      },
-      "clause_level": {
-        "precision": 0.22851153039832284,
-        "recall": 0.9008264462809917,
-        "f1": 0.36454849498327757,
-        "n_submitted": 477,
-        "n_expected": 121,
-        "n_matched": 109,
-        "f2": 0.5671175858480749
-      }
-    }
-  },
-  {
-    "run_id": "bb7d20549d744624b9706eb392c026e7",
-    "approach": "test-inspect",
-    "status": "completed",
-    "completed_at": "2026-10-25T01:08:20.875416+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/devansh-profile-faithful-v2/outputs/predictions.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v3\\outputs\\predictions.json",
     "prediction_sha256": "0de6f095a49867f66d0d65d50efdd49181eb699088f3025b84c63f0f17bb9102",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
     "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -3855,10 +3039,10 @@
     }
   },
   {
-    "run_id": "581241c7395a4646b108f428e94c0c98",
-    "approach": "test-inspect",
+    "run_id": "6214ea6ae28044d5999aa0ba1dba5fec",
+    "approach": "devansh-profile-faithful-v3",
     "status": "completed",
-    "completed_at": "2026-10-25T01:08:24.257019+00:00",
+    "completed_at": "2026-10-25T07:54:53.202026+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -3866,13 +3050,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/devansh-profile-faithful-v2/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "bf3762800d34975df0c53716860d160ac5399ffe1a27ba84abf187b6b9b8a477",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v3\\outputs\\predictions-holdout-acpe.json",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
     "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -3906,10 +3090,10 @@
     }
   },
   {
-    "run_id": "8b82b18d146546b6984976c661b2dab8",
-    "approach": "certi-pipeline",
+    "run_id": "800ee5e5ba5c407197d1b31238c9ffeb",
+    "approach": "devansh-profile-faithful-v4",
     "status": "completed",
-    "completed_at": "2026-10-25T01:09:53.351924+00:00",
+    "completed_at": "2026-10-25T08:45:25.696757+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -3917,13 +3101,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "763bd18e082d6fae1b2f549f676f0a7b97fbcea1722761cebdd0b23372c7b5c8",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/cases/dev-rear-lamp/expected.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v4\\outputs\\predictions.json",
+    "prediction_sha256": "42608e2e06895e6f4fa97d82fa5791a9080a8fd0337cc059b05944fe24951807",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
     "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -3937,30 +3121,30 @@
         "f2": 1.0
       },
       "page_level": {
-        "precision": 0.7323943661971831,
-        "recall": 0.9811320754716981,
-        "f1": 0.8387096774193548,
-        "n_submitted": 71,
+        "precision": 0.6172839506172839,
+        "recall": 0.9433962264150944,
+        "f1": 0.746268656716418,
+        "n_submitted": 81,
         "n_expected": 53,
-        "n_matched": 52,
-        "f2": 0.9187279151943463
+        "n_matched": 50,
+        "f2": 0.8532423208191128
       },
       "clause_level": {
-        "precision": 0.4142857142857143,
-        "recall": 0.9586776859504132,
-        "f1": 0.5785536159600998,
-        "n_submitted": 280,
+        "precision": 0.4666666666666667,
+        "recall": 0.8677685950413223,
+        "f1": 0.6069364161849711,
+        "n_submitted": 225,
         "n_expected": 121,
-        "n_matched": 116,
-        "f2": 0.7591623036649214
+        "n_matched": 105,
+        "f2": 0.7404795486600847
       }
     }
   },
   {
-    "run_id": "a6ec4fa9063d48c49ec2f7482056f562",
-    "approach": "certi-pipeline",
+    "run_id": "40965618c77b4f6eb8485fd0aeb53025",
+    "approach": "devansh-profile-faithful-v4",
     "status": "completed",
-    "completed_at": "2026-10-25T01:10:02.625685+00:00",
+    "completed_at": "2026-10-25T08:45:26.004367+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -3968,13 +3152,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/.cache/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "dffe3cc6c15ebc338aae8bdd9246a4542a38d07c7a2499d5b7e0a47bc3dd5781",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v4\\outputs\\predictions-holdout-acpe.json",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
     "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -3988,30 +3172,30 @@
         "f2": 0.8333333333333334
       },
       "page_level": {
-        "precision": 0.3181818181818182,
-        "recall": 0.875,
-        "f1": 0.4666666666666667,
-        "n_submitted": 22,
+        "precision": 0.1935483870967742,
+        "recall": 0.75,
+        "f1": 0.30769230769230765,
+        "n_submitted": 31,
         "n_expected": 8,
-        "n_matched": 7,
-        "f2": 0.6481481481481483
+        "n_matched": 6,
+        "f2": 0.4761904761904762
       },
       "clause_level": {
-        "precision": 0.49514563106796117,
-        "recall": 0.8947368421052632,
-        "f1": 0.6375000000000001,
-        "n_submitted": 103,
+        "precision": 0.3055555555555556,
+        "recall": 0.5789473684210527,
+        "f1": 0.4000000000000001,
+        "n_submitted": 108,
         "n_expected": 57,
-        "n_matched": 51,
-        "f2": 0.7703927492447131
+        "n_matched": 33,
+        "f2": 0.4910714285714286
       }
     }
   },
   {
-    "run_id": "dbe1c7767512499bbacead242bba72e2",
-    "approach": "certi-pipeline",
+    "run_id": "ea35c1c779af41ca91e138e30a386def",
+    "approach": "devansh-profile-faithful-v5",
     "status": "completed",
-    "completed_at": "2026-10-25T01:23:15.854319+00:00",
+    "completed_at": "2026-10-25T09:18:52.640344+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -4019,13 +3203,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "83646db420c5562069406ea81ccd55f63b0a2d4a5f2f4f7313ed55f5f633c97f",
-    "gold_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/cases/dev-rear-lamp/expected.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v5\\outputs\\predictions.json",
+    "prediction_sha256": "0de6f095a49867f66d0d65d50efdd49181eb699088f3025b84c63f0f17bb9102",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
     "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -4039,30 +3223,30 @@
         "f2": 1.0
       },
       "page_level": {
-        "precision": 0.7794117647058824,
-        "recall": 1.0,
-        "f1": 0.8760330578512397,
-        "n_submitted": 68,
+        "precision": 0.6172839506172839,
+        "recall": 0.9433962264150944,
+        "f1": 0.746268656716418,
+        "n_submitted": 81,
         "n_expected": 53,
-        "n_matched": 53,
-        "f2": 0.9464285714285715
+        "n_matched": 50,
+        "f2": 0.8532423208191128
       },
       "clause_level": {
-        "precision": 0.5405405405405406,
-        "recall": 0.9917355371900827,
-        "f1": 0.6997084548104957,
-        "n_submitted": 222,
+        "precision": 0.4666666666666667,
+        "recall": 0.8677685950413223,
+        "f1": 0.6069364161849711,
+        "n_submitted": 225,
         "n_expected": 121,
-        "n_matched": 120,
-        "f2": 0.8498583569405098
+        "n_matched": 105,
+        "f2": 0.7404795486600847
       }
     }
   },
   {
-    "run_id": "961b4cb5f6194c9dbeea890f9d4c925e",
-    "approach": "certi-pipeline",
+    "run_id": "91e56381b35e463eba79d4cd57ae41a9",
+    "approach": "devansh-profile-faithful-v5",
     "status": "completed",
-    "completed_at": "2026-10-25T01:24:30.181648+00:00",
+    "completed_at": "2026-10-25T09:18:53.079710+00:00",
     "evaluator": "official-local-f2-v1-6de0fe1e0763",
     "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
     "validation": {
@@ -4070,13 +3254,13 @@
       "gold": "passed",
       "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
       "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/regulations/index.json",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
       "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
       "regulation_versions_checked": true
     },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "e65ce55992de16fec4944925f61a4aef699c7411e23dfb4f80c2e5fb0f692eb4",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v5\\outputs\\predictions-holdout-acpe.json",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
     "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
     "ranking_metric": "page_level.f2",
     "metrics": {
@@ -4090,124 +3274,22 @@
         "f2": 0.8333333333333334
       },
       "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
+        "precision": 0.1935483870967742,
+        "recall": 0.75,
+        "f1": 0.30769230769230765,
+        "n_submitted": 31,
         "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
+        "n_matched": 6,
+        "f2": 0.4761904761904762
       },
       "clause_level": {
-        "precision": 0.5047619047619047,
-        "recall": 0.9298245614035088,
-        "f1": 0.6543209876543209,
-        "n_submitted": 105,
+        "precision": 0.3055555555555556,
+        "recall": 0.5789473684210527,
+        "f1": 0.4000000000000001,
+        "n_submitted": 108,
         "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.795795795795796
-      }
-    }
-  },
-  {
-    "run_id": "3c085b5337d141a28ef83ee1a3d310cb",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-25T01:35:46.033335+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions.json",
-    "prediction_sha256": "ddd0c3bf106bae5d3a05430dd20ffc278e2f8170627a7aabcb66777f8c4a31b2",
-    "gold_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/cases/dev-rear-lamp/expected.json",
-    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "n_submitted": 4,
-        "n_expected": 4,
-        "n_matched": 4,
-        "f2": 1.0
-      },
-      "page_level": {
-        "precision": 0.7794117647058824,
-        "recall": 1.0,
-        "f1": 0.8760330578512397,
-        "n_submitted": 68,
-        "n_expected": 53,
-        "n_matched": 53,
-        "f2": 0.9464285714285715
-      },
-      "clause_level": {
-        "precision": 0.5504587155963303,
-        "recall": 0.9917355371900827,
-        "f1": 0.7079646017699116,
-        "n_submitted": 218,
-        "n_expected": 121,
-        "n_matched": 120,
-        "f2": 0.8547008547008548
-      }
-    }
-  },
-  {
-    "run_id": "ce546594be084afe95871fb050831c20",
-    "approach": "certi-pipeline",
-    "status": "completed",
-    "completed_at": "2026-10-25T01:35:56.487719+00:00",
-    "evaluator": "official-local-f2-v1-6de0fe1e0763",
-    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
-    "validation": {
-      "prediction": "passed",
-      "gold": "passed",
-      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
-      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
-      "index_path": "/Users/aanjneya/Programming/Projects/industrial-ai-hackathon/regulations/index.json",
-      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
-      "regulation_versions_checked": true
-    },
-    "prediction_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/experiments/certi-pipeline/outputs/predictions-holdout-acpe.json",
-    "prediction_sha256": "a09b8e5374c722d165c3056132b3c52d459c2b80e36038640edbef79546a39f2",
-    "gold_path": "/Users/aanjneya/Programming/Projects/regulation-tl/approaches/benchmarking/cases/holdout-acpe/expected.json",
-    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
-    "ranking_metric": "page_level.f2",
-    "metrics": {
-      "regulation_level": {
-        "precision": 0.5,
-        "recall": 1.0,
-        "f1": 0.6666666666666666,
-        "n_submitted": 2,
-        "n_expected": 1,
-        "n_matched": 1,
-        "f2": 0.8333333333333334
-      },
-      "page_level": {
-        "precision": 0.34782608695652173,
-        "recall": 1.0,
-        "f1": 0.5161290322580645,
-        "n_submitted": 23,
-        "n_expected": 8,
-        "n_matched": 8,
-        "f2": 0.7272727272727273
-      },
-      "clause_level": {
-        "precision": 0.5047619047619047,
-        "recall": 0.9298245614035088,
-        "f1": 0.6543209876543209,
-        "n_submitted": 105,
-        "n_expected": 57,
-        "n_matched": 53,
-        "f2": 0.795795795795796
+        "n_matched": 33,
+        "f2": 0.4910714285714286
       }
     }
   }

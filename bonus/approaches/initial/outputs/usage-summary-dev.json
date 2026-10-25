@@ -1,0 +1,38 @@
+{
+  "api_calls": 4,
+  "tokens": {
+    "input_tokens": 118842,
+    "output_tokens": 2602,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "elapsed_seconds": 22.81,
+  "estimated_cost_usd": 0.263704,
+  "review_summary": "I staged changes for the 0.1.0 to 1.0.0 diff. That covers the earlier staged entries plus two more: a modification of R-021 and a new addition for 6.7.\n\n- **Earlier staged entries:** I kept the existing entries as staged, without re-checking their text against the source.\n- **R-021 (5.1.5):** I rewrote it to match the new operating envelope. The obstacle range is now up to 1.5 m, measured when the triggering conditions are reached. Pedestrians are added as obstacles. The lateral criteria now cover vehicle, wall and pedestrian obstacles. New conditions cover latched tailgates, a 1.0 m minimum distance, and creeping speed limits (maximum creeping speed forward, 4 km/h rearward).\n- **New requirement (6.7):** I added the Technical Service's discretion to test other conditions within 5.1.5 and alternative accelerator application profiles. The old paragraph 6.6 had no existing requirement.\n- **No change needed:** R-019/R-020 (6 s initialisation notice), R-022 to R-024 (deviating conditions), R-027 (low power-to-weight reduction) and R-086 to R-089 (stationary test steps) only moved to new paragraph numbers. Their obligations are the same.\n- **Possible bad ID:** In the 6.7 `stage_change` call I passed the string \"null\" as the requirement ID instead of a true null. The tool accepted it, but I couldn't check how it was stored.\n\n",
+  "smoke": {
+    "tokens": {
+      "input_tokens": 4307,
+      "output_tokens": 125,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "estimated_cost_usd": 0.009864
+  },
+  "estimate": {
+    "expected_model_turns": "12-30, depending on tool exploration",
+    "estimated_input_tokens_range": [
+      23637,
+      133637
+    ],
+    "estimated_output_tokens_range": [
+      5000,
+      60000
+    ],
+    "estimated_cost_usd_low": 0.0973,
+    "estimated_cost_usd_high": 0.8673,
+    "estimated_runtime_minutes_range": [
+      2,
+      20
+    ]
+  }
+}

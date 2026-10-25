@@ -1,0 +1,5242 @@
+{
+  "old_to_new": {
+    "main|preamble": [
+      {
+        "new_key": "main|preamble",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.1",
+        "score": 0.3497,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.2",
+        "score": 0.3371,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|12.1.5",
+        "score": 0.3364,
+        "same_paragraph": false
+      }
+    ],
+    "main|0": [
+      {
+        "new_key": "main|0",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.5",
+        "score": 0.4324,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 0.3592,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.3568,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.3131,
+        "same_paragraph": false
+      }
+    ],
+    "main|1": [
+      {
+        "new_key": "main|1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1.2",
+        "score": 0.205,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 2",
+        "score": 0.1976,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.3",
+        "score": 0.1911,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 1",
+        "score": 0.1709,
+        "same_paragraph": false
+      }
+    ],
+    "main|1.1": [
+      {
+        "new_key": "main|1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.4.1",
+        "score": 0.6388,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 2",
+        "score": 0.4376,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1",
+        "score": 0.3993,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.2",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|1.2": [
+      {
+        "new_key": "main|1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.4",
+        "score": 0.4473,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.4,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.3982,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.3982,
+        "same_paragraph": false
+      }
+    ],
+    "main|1.3": [
+      {
+        "new_key": "main|1.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|1.4",
+        "score": 0.8016,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 6",
+        "score": 0.5278,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.8",
+        "score": 0.4094,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.4088,
+        "same_paragraph": false
+      }
+    ],
+    "main|2": [
+      {
+        "new_key": "main|2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.955,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.6",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.2",
+        "score": 0.4,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.1": [
+      {
+        "new_key": "main|2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.8",
+        "score": 0.463,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.1",
+        "score": 0.4209,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.2",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 0.3958,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.2": [
+      {
+        "new_key": "main|2.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.3",
+        "score": 0.4918,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.4185,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.4043,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.3": [
+      {
+        "new_key": "main|2.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.7",
+        "score": 0.2767,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.8",
+        "score": 0.2735,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.4",
+        "score": 0.2642,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.7",
+        "score": 0.2539,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.4": [
+      {
+        "new_key": "main|2.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|2.5",
+        "score": 0.3751,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.1",
+        "score": 0.3423,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.2",
+        "score": 0.3388,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.1",
+        "score": 0.334,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.5": [
+      {
+        "new_key": "main|2.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 2",
+        "score": 0.3863,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.4",
+        "score": 0.3751,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.1",
+        "score": 0.3467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.1.2",
+        "score": 0.3423,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.6": [
+      {
+        "new_key": "main|2.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.3717,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.10",
+        "score": 0.3559,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.4",
+        "score": 0.3086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1.1",
+        "score": 0.3022,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.7": [
+      {
+        "new_key": "main|2.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.1",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.2974,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.13",
+        "score": 0.266,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.8": [
+      {
+        "new_key": "main|2.8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.8",
+        "score": 0.3703,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.1",
+        "score": 0.3569,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.2",
+        "score": 0.3332,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 0.33,
+        "same_paragraph": false
+      }
+    ],
+    "main|2.9": [
+      {
+        "new_key": "main|2.9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.6.1.1",
+        "score": 0.3572,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.2",
+        "score": 0.3559,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.3",
+        "score": 0.3417,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.2",
+        "score": 0.3239,
+        "same_paragraph": false
+      }
+    ],
+    "main|3": [
+      {
+        "new_key": "main|3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.28,
+        "same_paragraph": false
+      }
+    ],
+    "main|3.1": [
+      {
+        "new_key": "main|3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.6633,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.5328,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4863,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.4702,
+        "same_paragraph": false
+      }
+    ],
+    "main|3.2": [
+      {
+        "new_key": "main|3.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.2",
+        "score": 0.3925,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.3741,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.12",
+        "score": 0.3467,
+        "same_paragraph": false
+      }
+    ],
+    "main|3.3": [
+      {
+        "new_key": "main|3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|2.2",
+        "score": 0.4918,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.5",
+        "score": 0.483,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.1",
+        "score": 0.4641,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.462,
+        "same_paragraph": false
+      }
+    ],
+    "main|3.4": [
+      {
+        "new_key": "main|3.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.6633,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.5467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.529,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.529,
+        "same_paragraph": false
+      }
+    ],
+    "main|4": [
+      {
+        "new_key": "main|4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 8",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.28,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.1": [
+      {
+        "new_key": "main|4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.6063,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.5985,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.5328,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.529,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.2": [
+      {
+        "new_key": "main|4.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 2",
+        "score": 0.505,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.4716,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.4666,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|12.1.6",
+        "score": 0.4451,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.3": [
+      {
+        "new_key": "main|4.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.5438,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4",
+        "score": 0.4871,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.476,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.4": [
+      {
+        "new_key": "main|4.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.4871,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.4764,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.4.1": [
+      {
+        "new_key": "main|4.4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|1.1",
+        "score": 0.6268,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.4473,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.5",
+        "score": 0.4062,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.4.2": [
+      {
+        "new_key": "main|4.4.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.5244,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.5207,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.4593,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.1",
+        "score": 0.4473,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.5": [
+      {
+        "new_key": "main|4.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.5117,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.3",
+        "score": 0.483,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4",
+        "score": 0.466,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.4436,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.6": [
+      {
+        "new_key": "main|4.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.4646,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.3",
+        "score": 0.4,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.12",
+        "score": 0.3559,
+        "same_paragraph": false
+      }
+    ],
+    "main|4.7": [
+      {
+        "new_key": "main|4.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.4702,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.6",
+        "score": 0.4646,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.4584,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|5": [
+      {
+        "new_key": "main|5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.149,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.149,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 5",
+        "score": 0.1038,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1": [
+      {
+        "new_key": "main|5.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.4229,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.3",
+        "score": 0.383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.13",
+        "score": 0.3487,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.13.1",
+        "score": 0.3381,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.1": [
+      {
+        "new_key": "main|5.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.7",
+        "score": 0.4837,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.1",
+        "score": 0.4638,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.3",
+        "score": 0.4451,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3.1",
+        "score": 0.44,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.2": [
+      {
+        "new_key": "main|5.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.3",
+        "score": 0.4421,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.1",
+        "score": 0.4114,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.3965,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.14",
+        "score": 0.3888,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.3": [
+      {
+        "new_key": "main|5.1.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.4751,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.2",
+        "score": 0.43,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4288,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.4278,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.4": [
+      {
+        "new_key": "main|5.1.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1.5",
+        "score": 0.4248,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.2",
+        "score": 0.3911,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.2",
+        "score": 0.383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.3717,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.4.1": [
+      {
+        "new_key": "main|5.1.4.2",
+        "score": 1.0,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.4.1",
+        "score": 0.5953,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 0.4411,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.439,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.7",
+        "score": 0.4288,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.5": [
+      {
+        "new_key": "main|5.1.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|0",
+        "score": 0.4367,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 0.3953,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.3652,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.3581,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.6": [
+      {
+        "new_key": "main|5.1.6.1",
+        "score": 1.0,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.2",
+        "score": 0.4996,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.1",
+        "score": 0.4962,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.1.2",
+        "score": 0.4599,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4584,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.6.1": [
+      {
+        "new_key": "main|5.1.6.1.1",
+        "score": 1.0,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.1",
+        "score": 0.7446,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.2.1",
+        "score": 0.4047,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3946,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.2",
+        "score": 0.3865,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.7": [
+      {
+        "new_key": "main|5.1.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.1",
+        "score": 0.4837,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.3",
+        "score": 0.4618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.461,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3.1",
+        "score": 0.4409,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.8": [
+      {
+        "new_key": "main|5.1.8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.4533,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|12.1.5",
+        "score": 0.4459,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.439,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.4379,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.9": [
+      {
+        "new_key": "main|5.1.9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3",
+        "score": 0.7086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.4951,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.48,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.10": [
+      {
+        "new_key": "main|5.1.10",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.4043,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.1",
+        "score": 0.4026,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3937,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.11": [
+      {
+        "new_key": "main|5.1.11",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.10",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 10",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.1",
+        "score": 0.3381,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.11.1": [
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4624,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.4.2",
+        "score": 0.4411,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.7",
+        "score": 0.439,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.4248,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.11.2": [
+      {
+        "new_key": "main|5.1.11.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.2",
+        "score": 0.4646,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.4229,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.5",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.11.3": [
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.3.1",
+        "score": 0.5633,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.4956,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.4951,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.2",
+        "score": 0.48,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.1.12": [
+      {
+        "new_key": "main|5.1.12",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1.4",
+        "score": 0.4026,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.2",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2": [
+      {
+        "new_key": "main|5.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 0.1633,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.1569,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.3",
+        "score": 0.13,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.1": [
+      {
+        "new_key": "main|5.2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.4.1.2",
+        "score": 0.56,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.4883,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.4584,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5.2",
+        "score": 0.4394,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.2": [
+      {
+        "new_key": "main|5.2.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.1",
+        "score": 0.4883,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.4483,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1.1",
+        "score": 0.4424,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 0.4211,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3": [
+      {
+        "new_key": "main|5.2.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 0.24,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.1541,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.3",
+        "score": 0.1288,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3.1": [
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.1",
+        "score": 0.4584,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.4407,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 0.4309,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1",
+        "score": 0.4229,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3.1.1": [
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.5467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.4863,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.1.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5.2",
+        "score": 0.48,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3.1.2": [
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.4309,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.4",
+        "score": 0.4043,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.3982,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3903,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3.1.3": [
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.3",
+        "score": 0.6929,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.5133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.5",
+        "score": 0.4584,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.2.3.1.3.1": [
+      {
+        "new_key": "main|5.2.3.1.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.5633,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.2",
+        "score": 0.4778,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.2",
+        "score": 0.4733,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.4596,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.3": [
+      {
+        "new_key": "main|5.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|2.6",
+        "score": 0.2869,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.1752,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.2",
+        "score": 0.1589,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.149,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.3.1": [
+      {
+        "new_key": "main|5.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.3",
+        "score": 0.5665,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.5133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4.1",
+        "score": 0.4851,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.4681,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.3.1.1": [
+      {
+        "new_key": "main|5.3.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.1",
+        "score": 0.3709,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 0.3703,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1",
+        "score": 0.3569,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.3.2": [
+      {
+        "new_key": "main|5.3.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.6.1",
+        "score": 0.4854,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.2",
+        "score": 0.4627,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4538,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.4.1",
+        "score": 0.4436,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.3.3": [
+      {
+        "new_key": "main|5.3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.6929,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.5665,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4.1",
+        "score": 0.401,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4": [
+      {
+        "new_key": "main|5.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.4.1.1",
+        "score": 0.209,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.1853,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.1541,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.4.1",
+        "score": 0.1445,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4.1": [
+      {
+        "new_key": "main|5.4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 1.7",
+        "score": 0.0959,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1",
+        "score": 0.0938,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|preamble",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|0",
+        "score": 0.08,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4.1.1": [
+      {
+        "new_key": "main|5.4.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3925,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.4",
+        "score": 0.38,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.1",
+        "score": 0.3763,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.3751,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4.1.2": [
+      {
+        "new_key": "main|5.4.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.1",
+        "score": 0.56,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5.1",
+        "score": 0.455,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4255,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.4051,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4.2": [
+      {
+        "new_key": "main|5.4.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.5.1",
+        "score": 0.5049,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.3.1",
+        "score": 0.4733,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.2",
+        "score": 0.4627,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.1",
+        "score": 0.4599,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.4.3": [
+      {
+        "new_key": "main|5.4.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4646,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.2",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.5": [
+      {
+        "new_key": "main|5.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.7859,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 8",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.3467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.3467,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.5.1": [
+      {
+        "new_key": "main|5.5.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.4.2",
+        "score": 0.5049,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.1.2",
+        "score": 0.455,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.4436,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.2",
+        "score": 0.4384,
+        "same_paragraph": false
+      }
+    ],
+    "main|5.5.2": [
+      {
+        "new_key": "main|5.5.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.1",
+        "score": 0.4394,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.4329,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4209,
+        "same_paragraph": false
+      }
+    ],
+    "main|6": [
+      {
+        "new_key": "main|6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.4",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1": [
+      {
+        "new_key": "main|6.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.2",
+        "score": 0.38,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3",
+        "score": 0.3022,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.1": [
+      {
+        "new_key": "main|6.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.3925,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.4",
+        "score": 0.334,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.4",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.3",
+        "score": 0.3224,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.2": [
+      {
+        "new_key": "main|6.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1",
+        "score": 0.38,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.3",
+        "score": 0.3073,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.3",
+        "score": 0.2943,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.3": [
+      {
+        "new_key": "main|6.1.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.6",
+        "score": 0.4,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.5",
+        "score": 0.3727,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.12",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.1",
+        "score": 0.3224,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.4": [
+      {
+        "new_key": "main|6.1.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.4043,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 0.4043,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.5": [
+      {
+        "new_key": "main|6.1.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.4026,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.4",
+        "score": 0.4026,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.4026,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.6": [
+      {
+        "new_key": "main|6.1.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1.7",
+        "score": 0.3624,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.6.1.1",
+        "score": 0.3508,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3503,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.3432,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.1.7": [
+      {
+        "new_key": "main|6.1.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4565,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.4377,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.4.2",
+        "score": 0.4342,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.3",
+        "score": 0.4223,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2": [
+      {
+        "new_key": "main|6.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|preamble",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|0",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.1",
+        "score": 0.08,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2.1": [
+      {
+        "new_key": "main|6.2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.7897,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.3",
+        "score": 0.58,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.4",
+        "score": 0.5383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.4689,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2.2": [
+      {
+        "new_key": "main|6.2.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.1",
+        "score": 0.7897,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.3",
+        "score": 0.5961,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.4",
+        "score": 0.5906,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.48,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2.3": [
+      {
+        "new_key": "main|6.2.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.5961,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.1",
+        "score": 0.58,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.4",
+        "score": 0.4967,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2.4": [
+      {
+        "new_key": "main|6.2.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.5906,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.1",
+        "score": 0.5383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.3",
+        "score": 0.4967,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.2",
+        "score": 0.4473,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.2.5": [
+      {
+        "new_key": "main|6.2.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.3",
+        "score": 0.4584,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.1",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.3086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.2.2",
+        "score": 0.2943,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.3": [
+      {
+        "new_key": "main|6.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.4",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.3.1": [
+      {
+        "new_key": "main|6.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.3.2",
+        "score": 0.4866,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.3",
+        "score": 0.4641,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.2",
+        "score": 0.4599,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4482,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.3.2": [
+      {
+        "new_key": "main|6.3.2",
+        "score": 0.6963,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.3741,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.2",
+        "score": 0.3727,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1.1",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.3.3": [
+      {
+        "new_key": "main|6.3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.7",
+        "score": 0.4618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.1",
+        "score": 0.4353,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4329,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.4229,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.4": [
+      {
+        "new_key": "main|6.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.4.1": [
+      {
+        "new_key": "main|6.4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.4.2",
+        "score": 0.6317,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.2",
+        "score": 0.4039,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4038,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.2",
+        "score": 0.4032,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.5": [
+      {
+        "new_key": "main|6.6",
+        "score": 0.677,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.2",
+        "score": 0.4967,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.4877,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.2.1",
+        "score": 0.4715,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4681,
+        "same_paragraph": false
+      }
+    ],
+    "main|Table 1": [
+      {
+        "new_key": "main|6.6.1.2",
+        "score": 0.6645,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Table 1",
+        "score": 0.6305,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.5363,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.1",
+        "score": 0.4415,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|6.6": [
+      {
+        "new_key": "main|6.7",
+        "score": 0.7467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6",
+        "score": 0.5968,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.3.3",
+        "score": 0.4204,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.383,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.3819,
+        "same_paragraph": false
+      }
+    ],
+    "main|7": [
+      {
+        "new_key": "main|7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.6682,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 0.48,
+        "same_paragraph": false
+      }
+    ],
+    "main|7.1": [
+      {
+        "new_key": "main|7.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.5164,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.5133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.4863,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.3",
+        "score": 0.4858,
+        "same_paragraph": false
+      }
+    ],
+    "main|7.1.1": [
+      {
+        "new_key": "main|7.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.1.2",
+        "score": 0.7345,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.3",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2.1",
+        "score": 0.3851,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.38,
+        "same_paragraph": false
+      }
+    ],
+    "main|7.1.2": [
+      {
+        "new_key": "main|7.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.1.1",
+        "score": 0.7345,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.3751,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.5",
+        "score": 0.3591,
+        "same_paragraph": false
+      }
+    ],
+    "main|7.2": [
+      {
+        "new_key": "main|7.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.5333,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.5207,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.4938,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.1",
+        "score": 0.4863,
+        "same_paragraph": false
+      }
+    ],
+    "main|7.3": [
+      {
+        "new_key": "main|7.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.6157,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.5333,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.2",
+        "score": 0.5324,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.5244,
+        "same_paragraph": false
+      }
+    ],
+    "main|8": [
+      {
+        "new_key": "main|8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|9",
+        "score": 0.6255,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.4",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11",
+        "score": 0.28,
+        "same_paragraph": false
+      }
+    ],
+    "main|8.1": [
+      {
+        "new_key": "main|8.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.4065,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.3545,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.10",
+        "score": 0.3527,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.12",
+        "score": 0.3353,
+        "same_paragraph": false
+      }
+    ],
+    "main|8.2": [
+      {
+        "new_key": "main|8.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.5985,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.5712,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.529,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.4938,
+        "same_paragraph": false
+      }
+    ],
+    "main|8.3": [
+      {
+        "new_key": "main|8.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.1",
+        "score": 0.4858,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.4292,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.405,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4043,
+        "same_paragraph": false
+      }
+    ],
+    "main|9": [
+      {
+        "new_key": "main|9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|8",
+        "score": 0.6255,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.3467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.3467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.3467,
+        "same_paragraph": false
+      }
+    ],
+    "main|9.1": [
+      {
+        "new_key": "main|9.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.6063,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8.2",
+        "score": 0.5712,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.1",
+        "score": 0.461,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.4593,
+        "same_paragraph": false
+      }
+    ],
+    "main|9.2": [
+      {
+        "new_key": "main|9.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.5985,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.5324,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4",
+        "score": 0.4655,
+        "same_paragraph": false
+      }
+    ],
+    "main|10": [
+      {
+        "new_key": "main|10",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.6157,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.2",
+        "score": 0.5985,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.5438,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 2",
+        "score": 0.5244,
+        "same_paragraph": false
+      }
+    ],
+    "main|11": [
+      {
+        "new_key": "main|11",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.4192,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.4153,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.2",
+        "score": 0.4058,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.1",
+        "score": 0.3921,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1": [
+      {
+        "new_key": "main|Annex 1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 2",
+        "score": 0.5583,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.4436,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.1",
+        "score": 0.4079,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.4052,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 1": [
+      {
+        "new_key": "main|Annex 1 / 1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.4,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.3779,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 11",
+        "score": 0.3741,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.3717,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 2": [
+      {
+        "new_key": "main|Annex 1 / 2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 11",
+        "score": 0.6317,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.5",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 0.32,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 0.32,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 3": [
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 1.5",
+        "score": 0.7467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 4": [
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 0.98,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.5",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 5": [
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 0.4329,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 6": [
+      {
+        "new_key": "main|Annex 1 / 6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|1.3",
+        "score": 0.5345,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.4",
+        "score": 0.4903,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.11",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.4",
+        "score": 0.4056,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 6.1": [
+      {
+        "new_key": "main|Annex 1 / 6.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1",
+        "score": 0.28,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 0.2229,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 0.2229,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 0.2133,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 7": [
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7",
+        "score": 0.6682,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 0.3958,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 8": [
+      {
+        "new_key": "main|Annex 1 / 8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3.4",
+        "score": 0.4248,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.3527,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.3153,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 9": [
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 10",
+        "score": 0.83,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.4",
+        "score": 0.3877,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 10": [
+      {
+        "new_key": "main|Annex 1 / 10",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.83,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.4",
+        "score": 0.3877,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.3409,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 11": [
+      {
+        "new_key": "main|Annex 1 / 11",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 2",
+        "score": 0.6317,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 1",
+        "score": 0.3741,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.2618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1",
+        "score": 0.2591,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 12": [
+      {
+        "new_key": "main|Annex 1 / 12",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|12",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.6",
+        "score": 0.2467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4",
+        "score": 0.1244,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4.2",
+        "score": 0.1235,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 13": [
+      {
+        "new_key": "main|Annex 1 / 13",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.28,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.28,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.11",
+        "score": 0.1425,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 14": [
+      {
+        "new_key": "main|Annex 1 / 14",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|preamble",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|0",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.1",
+        "score": 0.08,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 15": [
+      {
+        "new_key": "main|Annex 1 / 15",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|4.4.2",
+        "score": 0.4056,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|9.1",
+        "score": 0.3911,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.7",
+        "score": 0.3467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.2",
+        "score": 0.3409,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 1 / 16": [
+      {
+        "new_key": "main|Annex 1 / 16",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|12.1.7",
+        "score": 0.167,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|12.1.8",
+        "score": 0.1569,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.7",
+        "score": 0.1406,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.1",
+        "score": 0.1371,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 2": [
+      {
+        "new_key": "main|Annex 2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1",
+        "score": 0.5583,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.5244,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.2",
+        "score": 0.505,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.4",
+        "score": 0.455,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3": [
+      {
+        "new_key": "main|Annex 3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.7086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.455,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.8",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1": [
+      {
+        "new_key": "main|Annex 3 / 1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.5768,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4238,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.4182,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.1",
+        "score": 0.4164,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2": [
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.955,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.6",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.1": [
+      {
+        "new_key": "main|Annex 3 / 2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.6893,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.4346,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.5",
+        "score": 0.4243,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1",
+        "score": 0.4164,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.2": [
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.5079,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.4484,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2",
+        "score": 0.4363,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.4297,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.3": [
+      {
+        "new_key": "main|Annex 3 / 2.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.4772,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.3",
+        "score": 0.4043,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.4": [
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.1",
+        "score": 0.6893,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.4774,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.3",
+        "score": 0.4772,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.5",
+        "score": 0.4769,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.5": [
+      {
+        "new_key": "main|Annex 3 / 2.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.4769,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.1",
+        "score": 0.4243,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.4032,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.3",
+        "score": 0.4014,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.6": [
+      {
+        "new_key": "main|Annex 3 / 2.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.3559,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.3483,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.7",
+        "score": 0.3266,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.7": [
+      {
+        "new_key": "main|Annex 3 / 2.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.4",
+        "score": 0.3893,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.3",
+        "score": 0.38,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.3",
+        "score": 0.3497,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.3323,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.8": [
+      {
+        "new_key": "main|Annex 3 / 2.8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.9",
+        "score": 0.4891,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.1",
+        "score": 0.463,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2.8",
+        "score": 0.3703,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.9": [
+      {
+        "new_key": "main|Annex 3 / 2.9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.3",
+        "score": 0.53,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.8",
+        "score": 0.4891,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.4043,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.3982,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 2.10": [
+      {
+        "new_key": "main|Annex 3 / 2.10",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.5.3",
+        "score": 0.4238,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.4008,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.1",
+        "score": 0.3859,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3": [
+      {
+        "new_key": "main|Annex 3 / 3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3",
+        "score": 0.1976,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.9",
+        "score": 0.1709,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.1": [
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 1",
+        "score": 0.5768,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 0.5129,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1.1",
+        "score": 0.4684,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.1.1": [
+      {
+        "new_key": "main|Annex 3 / 3.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 0.5239,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.4684,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.4424,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4354,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.2": [
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.4774,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4671,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.4497,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.2.1": [
+      {
+        "new_key": "main|Annex 3 / 3.2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.4681,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 0.455,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.3958,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.2.2": [
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.8",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.1",
+        "score": 0.4681,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.4562,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.2.3": [
+      {
+        "new_key": "main|Annex 3 / 3.2.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.9",
+        "score": 0.53,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 0.4204,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.3467,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3": [
+      {
+        "new_key": "main|Annex 3 / 3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1",
+        "score": 0.2618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.2618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.2618,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.1": [
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.2",
+        "score": 0.4958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.4951,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.4671,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.2",
+        "score": 0.4525,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.2": [
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4951,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.3",
+        "score": 0.4878,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|3.3",
+        "score": 0.4593,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.5",
+        "score": 0.4576,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.3": [
+      {
+        "new_key": "main|Annex 3 / 3.3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.4878,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4101,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.5",
+        "score": 0.4086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.3",
+        "score": 0.4043,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.4": [
+      {
+        "new_key": "main|Annex 3 / 3.3.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.7",
+        "score": 0.3893,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.3683,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.5.1",
+        "score": 0.3566,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.3353,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.5": [
+      {
+        "new_key": "main|Annex 3 / 3.3.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.2",
+        "score": 0.4576,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.3",
+        "score": 0.4086,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.405,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2",
+        "score": 0.4029,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.3.5.1": [
+      {
+        "new_key": "main|Annex 3 / 3.3.5.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.3",
+        "score": 0.4636,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4314,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.2",
+        "score": 0.4035,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4": [
+      {
+        "new_key": "main|Annex 3 / 3.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.1": [
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4278,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.1",
+        "score": 0.4215,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.2": [
+      {
+        "new_key": "main|Annex 3 / 3.4.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.2",
+        "score": 0.46,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4525,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.4459,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.3": [
+      {
+        "new_key": "main|Annex 3 / 3.4.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.5079,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3.2",
+        "score": 0.4657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4602,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.3.1": [
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.2",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.1",
+        "score": 0.455,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.3",
+        "score": 0.4204,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.3.2": [
+      {
+        "new_key": "main|Annex 3 / 3.4.3.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.3",
+        "score": 0.4891,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.2",
+        "score": 0.46,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.2",
+        "score": 0.4414,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.3.3": [
+      {
+        "new_key": "main|Annex 3 / 3.4.3.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.2",
+        "score": 0.4891,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.5.1",
+        "score": 0.4636,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2.1",
+        "score": 0.4568,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.3.1",
+        "score": 0.4356,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.4": [
+      {
+        "new_key": "main|Annex 3 / 3.4.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1.1",
+        "score": 0.5239,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.5129,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.2",
+        "score": 0.4211,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1",
+        "score": 0.4125,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.4.1": [
+      {
+        "new_key": "main|Annex 3 / 3.4.4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4851,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.2.3.1.1",
+        "score": 0.4751,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.3",
+        "score": 0.4708,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.4329,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.4.4.2": [
+      {
+        "new_key": "main|Annex 3 / 3.4.4.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5.2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.1.7",
+        "score": 0.4097,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.4076,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 4": [
+      {
+        "new_key": "main|Annex 3 / 4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.1",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.3",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 4.1": [
+      {
+        "new_key": "main|Annex 3 / 4.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.5",
+        "score": 0.4473,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4248,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7.1",
+        "score": 0.4073,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 4.1.1": [
+      {
+        "new_key": "main|Annex 3 / 4.1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.458,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.4",
+        "score": 0.4464,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.4215,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 0.4215,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 4.1.2": [
+      {
+        "new_key": "main|Annex 3 / 4.1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.4363,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.5.1",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.1",
+        "score": 0.4068,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.2.2",
+        "score": 0.4056,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 4.1.2.1": [
+      {
+        "new_key": "main|Annex 3 / 4.1.2.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.3",
+        "score": 0.4568,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.3.1",
+        "score": 0.4329,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.9",
+        "score": 0.3877,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 5": [
+      {
+        "new_key": "main|Annex 3 / 5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|10",
+        "score": 0.44,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.4.2",
+        "score": 0.4384,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.3",
+        "score": 0.4353,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.5.1",
+        "score": 0.4344,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.1": [
+      {
+        "new_key": "main|Annex 3 / 1.1",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|6.3",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.6.1",
+        "score": 0.28,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.2": [
+      {
+        "new_key": "main|Annex 3 / 1.2",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 0.33,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|7",
+        "score": 0.2618,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 0.2338,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 2",
+        "score": 0.1976,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.3": [
+      {
+        "new_key": "main|Annex 3 / 1.3",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|7",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 5",
+        "score": 0.4329,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|4.1",
+        "score": 0.3958,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.3958,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.4": [
+      {
+        "new_key": "main|Annex 3 / 1.4",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.3877,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 10",
+        "score": 0.3877,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|8",
+        "score": 0.3022,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 0.3022,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.5": [
+      {
+        "new_key": "main|Annex 3 / 1.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.7467,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 2",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.6": [
+      {
+        "new_key": "main|Annex 3 / 1.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 4",
+        "score": 0.98,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 3",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 1.5",
+        "score": 0.705,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5",
+        "score": 0.33,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 1.7": [
+      {
+        "new_key": "main|Annex 3 / 1.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.2",
+        "score": 0.4492,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.1",
+        "score": 0.4258,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2.2",
+        "score": 0.4065,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 0.3897,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.5": [
+      {
+        "new_key": "main|Annex 3 / 3.5",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.4,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.3.1",
+        "score": 0.3982,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.2",
+        "score": 0.3925,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.1",
+        "score": 0.3843,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.6": [
+      {
+        "new_key": "main|Annex 3 / 3.6",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 0.38,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.4.4.2",
+        "score": 0.3393,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.7": [
+      {
+        "new_key": "main|Annex 3 / 3.7",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|5.5",
+        "score": 0.7859,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 2",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6.5.4",
+        "score": 0.4,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.8": [
+      {
+        "new_key": "main|Annex 3 / 3.8",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.9",
+        "score": 0.88,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.11",
+        "score": 0.52,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3",
+        "score": 0.3657,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2.1",
+        "score": 0.3492,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.9": [
+      {
+        "new_key": "main|Annex 3 / 3.9",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.8",
+        "score": 0.88,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.11",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 4.1.2.1",
+        "score": 0.3877,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.11.3",
+        "score": 0.3819,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.10": [
+      {
+        "new_key": "main|Annex 3 / 3.10",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 1 / 7",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 9",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 1 / 13",
+        "score": 0.4133,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|6",
+        "score": 0.3657,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.11": [
+      {
+        "new_key": "main|Annex 3 / 3.11",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|Annex 3 / 3.8",
+        "score": 0.52,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|Annex 3 / 3.9",
+        "score": 0.48,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|12.1.1",
+        "score": 0.4362,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|5.1.8",
+        "score": 0.4133,
+        "same_paragraph": false
+      }
+    ],
+    "main|Annex 3 / 3.13": [
+      {
+        "new_key": "main|Annex 3 / 3.13",
+        "score": 1.0,
+        "same_paragraph": true
+      },
+      {
+        "new_key": "main|preamble",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|0",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1",
+        "score": 0.08,
+        "same_paragraph": false
+      },
+      {
+        "new_key": "main|1.1",
+        "score": 0.08,
+        "same_paragraph": false
+      }
+    ]
+  },
+  "unmatched_new": [
+    {
+      "key": "main|1.4",
+      "best_old_similarity": 0.7216
+    },
+    {
+      "key": "main|2.10",
+      "best_old_similarity": 0.2489
+    },
+    {
+      "key": "main|2.11",
+      "best_old_similarity": 0.2667
+    },
+    {
+      "key": "main|2.12",
+      "best_old_similarity": 0.25
+    },
+    {
+      "key": "main|2.13",
+      "best_old_similarity": 0.2687
+    },
+    {
+      "key": "main|2.13.1",
+      "best_old_similarity": 0.2857
+    },
+    {
+      "key": "main|2.14",
+      "best_old_similarity": 0.3226
+    },
+    {
+      "key": "main|5.1.5.1",
+      "best_old_similarity": 0.378
+    },
+    {
+      "key": "main|5.1.6.2",
+      "best_old_similarity": 0.3846
+    },
+    {
+      "key": "main|6.4.2",
+      "best_old_similarity": 0.5517
+    },
+    {
+      "key": "main|6.5.1",
+      "best_old_similarity": 0.3838
+    },
+    {
+      "key": "main|6.5.2",
+      "best_old_similarity": 0.4167
+    },
+    {
+      "key": "main|6.5.3",
+      "best_old_similarity": 0.3438
+    },
+    {
+      "key": "main|6.5.4",
+      "best_old_similarity": 0.4324
+    },
+    {
+      "key": "main|6.5.5",
+      "best_old_similarity": 0.3673
+    },
+    {
+      "key": "main|6.6.1",
+      "best_old_similarity": 0.4
+    },
+    {
+      "key": "main|6.6.1.1",
+      "best_old_similarity": 0.4
+    },
+    {
+      "key": "main|6.6.1.2",
+      "best_old_similarity": 0.5845
+    },
+    {
+      "key": "main|6.6.2",
+      "best_old_similarity": 0.4
+    },
+    {
+      "key": "main|6.6.2.1",
+      "best_old_similarity": 0.4162
+    },
+    {
+      "key": "main|6.6.2.2",
+      "best_old_similarity": 0.4563
+    },
+    {
+      "key": "main|6.7",
+      "best_old_similarity": 0.6667
+    },
+    {
+      "key": "main|12",
+      "best_old_similarity": 0.4
+    },
+    {
+      "key": "main|12.1",
+      "best_old_similarity": 0.3
+    },
+    {
+      "key": "main|12.1.1",
+      "best_old_similarity": 0.3562
+    },
+    {
+      "key": "main|12.1.2",
+      "best_old_similarity": 0.3421
+    },
+    {
+      "key": "main|12.1.3",
+      "best_old_similarity": 0.3284
+    },
+    {
+      "key": "main|12.1.4",
+      "best_old_similarity": 0.3704
+    },
+    {
+      "key": "main|12.1.5",
+      "best_old_similarity": 0.3944
+    },
+    {
+      "key": "main|12.1.6",
+      "best_old_similarity": 0.3697
+    },
+    {
+      "key": "main|12.1.7",
+      "best_old_similarity": 0.3
+    },
+    {
+      "key": "main|12.1.8",
+      "best_old_similarity": 0.3175
+    }
+  ],
+  "counts": {
+    "old_provisions": 189,
+    "new_provisions": 223,
+    "unmatched_new": 32
+  }
+}

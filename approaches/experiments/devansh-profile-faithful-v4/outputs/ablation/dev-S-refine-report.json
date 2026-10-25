@@ -1,0 +1,27 @@
+{
+  "input": 367,
+  "after_dedupe": 363,
+  "kept": 334,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 29,
+    "2": 116,
+    "3": 52,
+    "4": 107,
+    "5": 59
+  },
+  "kept_if_cutoff": {
+    "0": 363,
+    "1": 334,
+    "2": 218,
+    "3": 166
+  },
+  "restatement_groups": [],
+  "dropped_as_restatements": 0,
+  "subject_absent": [],
+  "subject_status": {
+    "has": 222,
+    "possible": 112,
+    "absent": 0
+  }
+}

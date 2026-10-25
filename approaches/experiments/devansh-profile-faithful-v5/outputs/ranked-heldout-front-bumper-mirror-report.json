@@ -1,0 +1,98 @@
+{
+  "links": {
+    "UN GTR 9 <-> UN R127": 13
+  },
+  "directions": [
+    {
+      "from": "UN GTR 9",
+      "to": "UN R127",
+      "asked": 12,
+      "added": 3
+    },
+    {
+      "from": "UN R127",
+      "to": "UN GTR 9",
+      "asked": 11,
+      "added": 8
+    }
+  ],
+  "added": [
+    {
+      "id": "R-0563",
+      "from": "R-0022",
+      "regulation": "UN R127",
+      "paragraph": "5.1.1",
+      "text": "When tested in accordance with Annex 5, paragraph 1 (Flexible lower legform impactor), the absolute value of the maximum dynamic medial collateral ligament elongation at the knee shall not exceed 22 m"
+    },
+    {
+      "id": "R-0564",
+      "from": "R-0023",
+      "regulation": "UN R127",
+      "paragraph": "5.1.2",
+      "text": "When tested in accordance with Annex 5, paragraph 2 (upper legform to bumper), the instantaneous sum of the impact forces with respect to time shall not exceed 7.5 kN and the bending moment on the tes"
+    },
+    {
+      "id": "R-0565",
+      "from": "R-0043",
+      "regulation": "UN R127",
+      "paragraph": "Annex 3 3.2",
+      "text": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test, and it shall be the responsibility of "
+    },
+    {
+      "id": "R-0566",
+      "from": "R-0138",
+      "regulation": "UN GTR 9",
+      "paragraph": "4.1",
+      "text": "For vehicles with a lower bumper height of less than 425 mm, the lower legform to bumper requirements of paragraph 4.1.1. shall be applied."
+    },
+    {
+      "id": "R-0567",
+      "from": "R-0148",
+      "regulation": "UN GTR 9",
+      "paragraph": "5.2.3",
+      "text": "The HIC recorded shall not exceed 1,000 over two thirds of the combined child and adult headform test areas."
+    },
+    {
+      "id": "R-0568",
+      "from": "R-0149",
+      "regulation": "UN GTR 9",
+      "paragraph": "5.2.3",
+      "text": "The HIC for the remaining areas shall not exceed 1,700 for both headforms."
+    },
+    {
+      "id": "R-0569",
+      "from": "R-0150",
+      "regulation": "UN GTR 9",
+      "paragraph": "5.2.3",
+      "text": "In case there is only a child headform test area, the HIC recorded shall not exceed 1,000 over two thirds of the test area."
+    },
+    {
+      "id": "R-0570",
+      "from": "R-0151",
+      "regulation": "UN GTR 9",
+      "paragraph": "5.2.3",
+      "text": "In case there is only a child headform test area, the HIC for the remaining area shall not exceed 1,700."
+    },
+    {
+      "id": "R-0571",
+      "from": "R-0152",
+      "regulation": "UN GTR 9",
+      "paragraph": "5.2.3",
+      "text": "The HIC recorded shall not exceed 1,000 over a minimum of one half of the child headform test area."
+    },
+    {
+      "id": "R-0572",
+      "from": "R-0162",
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.2",
+      "text": "In the flexible lower legform to bumper test, the direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle with a toleran"
+    },
+    {
+      "id": "R-0573",
+      "from": "R-0163",
+      "regulation": "UN GTR 9",
+      "paragraph": "7.1.1.3",
+      "text": "In the flexible lower legform to bumper test, the bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be 75 mm above the ground reference plane at the t"
+    }
+  ]
+}

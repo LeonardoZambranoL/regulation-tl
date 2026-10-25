@@ -1,0 +1,38 @@
+{
+  "input": 384,
+  "after_dedupe": 381,
+  "kept": 348,
+  "drop_at_or_below": 1,
+  "ratings": {
+    "1": 31,
+    "2": 123,
+    "3": 52,
+    "4": 114,
+    "5": 61
+  },
+  "kept_if_cutoff": {
+    "0": 381,
+    "1": 350,
+    "2": 227,
+    "3": 175
+  },
+  "restatement_groups": [
+    {
+      "ids": [
+        "R-0080",
+        "R-0106"
+      ],
+      "reason": "Both require the approval marking to be borne on / affixed to the lamp; the general marking requirement is repeated in the marking-location paragraph.",
+      "kept": "R-0080"
+    },
+    {
+      "ids": [
+        "R-0222",
+        "R-0238"
+      ],
+      "reason": "Both require the trichromatic coordinates of light retro-reflected by red, amber or white retro-reflective devices to fall within the UN R48 night-time colour limits. R-0222 is the general requirement (para 4.2.1.2); R-0238 repeats it in the Class IA/IB section (para 5.1.5.2).",
+      "kept": "R-0222"
+    }
+  ],
+  "dropped_as_restatements": 2
+}

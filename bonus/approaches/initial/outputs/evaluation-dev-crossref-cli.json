@@ -1,0 +1,280 @@
+{
+  "official_metric_available": false,
+  "old_requirement_impact": {
+    "precision": 0.35,
+    "recall": 1.0,
+    "matched": 7,
+    "submitted": 20,
+    "expected": 7
+  },
+  "change_type_accuracy_on_matched_ids": 0.7142857142857143,
+  "citation_accuracy_on_matched_old_ids": 0.5714285714285714,
+  "correct_type_ids": [
+    "R-015",
+    "R-018",
+    "R-021",
+    "R-084",
+    "R-090"
+  ],
+  "added_obligation_proxy": {
+    "precision": 0.2916666666666667,
+    "recall": 0.4117647058823529,
+    "matches": 7,
+    "submitted": 24,
+    "expected": 17,
+    "matched_text_token_f1_mean": 0.7800345512779918,
+    "citation_and_text_threshold": 0.45
+  },
+  "errors": {
+    "false_positive_requirement_ids": [
+      "R-016",
+      "R-017",
+      "R-019",
+      "R-020",
+      "R-022",
+      "R-023",
+      "R-024",
+      "R-025",
+      "R-026",
+      "R-027",
+      "R-087",
+      "R-088",
+      "R-089"
+    ],
+    "false_negative_requirement_ids": [],
+    "wrong_change_type": [
+      {
+        "requirement_id": "R-085",
+        "predicted": "removed",
+        "expected": "modified"
+      },
+      {
+        "requirement_id": "R-086",
+        "predicted": "removed",
+        "expected": "modified"
+      }
+    ],
+    "wrong_citation": [
+      {
+        "requirement_id": "R-084",
+        "predicted": {
+          "page": 10,
+          "paragraph": "6.5"
+        },
+        "expected": {
+          "page": 10,
+          "paragraph": "6.5.2"
+        }
+      },
+      {
+        "requirement_id": "R-085",
+        "predicted": null,
+        "expected": {
+          "page": 10,
+          "paragraph": "6.6"
+        }
+      },
+      {
+        "requirement_id": "R-086",
+        "predicted": null,
+        "expected": {
+          "page": 10,
+          "paragraph": "6.6.1.2"
+        }
+      }
+    ],
+    "unmatched_added": [
+      {
+        "text": "5.1.2. An accelerator control application resulting in continuous acceleration and having a velocity of at least 400\r\nper cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator\r\ncontrol, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall\r\nbe regarded as an accelerator control misapplication in the context of the paragraph 5.1.1.",
+        "source": {
+          "page": 4,
+          "paragraph": "5.1.2"
+        }
+      },
+      {
+        "text": "5.1.4. The ACPE shall control acceleration when the vehicle is accelerated both from standstill and, as relevant,\r\nwhile creeping.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.4"
+        }
+      },
+      {
+        "text": "5.1.5. The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located\r\nnot more than 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the triggering conditions (as\r\noutlined in paragraph 5.1.2.) are achieved, provided:\r\n(a) Vehicle external influences allow for the required acceleration inhibition, i.e.:\r\n(i) The road is flat, horizontal and dry affording good adhesion;\r\n(ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C);\r\n(b) The vehicle state itself allows for the required acceleration inhibition, e.g.:\r\n(i) The tyres are in an appropriate state and properly inflated;\r\n(ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.);\r\n(iii) There is no severe uneven load distribution;\r\n(iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and\r\nmass in running order conditions;\r\n(v) The vehicle’s powertrain management system is properly operational\r\n(vi) If the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal\r\nconditions of vehicle operation.\r\n(c) There are no external influences affecting the physical sensing capabilities, i.e.:\r\n(i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g.\r\ndirect blinding sunlight, highly radar-reflective environment);\r\n(ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g.\r\nbelow fifth percentile of RCS of all M1 vehicles)\r\n\r\n(iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain,\r\ndense fog, snow, dirt);\r\n(iv) There are no overhead obstructions close to the vehicle;\r\n(d) The situation is unambiguous, i.e.:\r\n(i) The obstacle is stationary, unobstructed, clearly separated from other obje",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.5"
+        }
+      },
+      {
+        "text": "5.1.5.1 When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch\r\nthe control strategy. This shall be demonstrated by the manufacturer in accordance with Annex 3 of this\r\nRegulation and, if deemed justified, may be followed by testing by the Technical Service in conditions deviating\r\nfrom those listed above or those in paragraph 6. The rationale for and the results of this verification testing shall\r\nbe appended to the test report.",
+        "source": {
+          "page": 6,
+          "paragraph": "5.1.5.1"
+        }
+      },
+      {
+        "text": "5.1.6.1. Acceleration from standstill\r\nIn the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than the\r\nvehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.\r\nIn addition, the collision speed shall not be greater than 70 per cent of that speed the vehicle would have had in\r\nthe same position and under the same circumstances but without any ACPE intervention.",
+        "source": {
+          "page": 6,
+          "paragraph": "5.1.6.1"
+        }
+      },
+      {
+        "text": "5.1.12. The performance requirements shall be verified using the test procedure as described in section 6.6.1. and\r\n6.6.2.",
+        "source": {
+          "page": 7,
+          "paragraph": "5.1.12"
+        }
+      },
+      {
+        "text": "6.3.2. Prior to any testing, it shall be ensured that the ACPE is switched on and ready to function.\r\nDuring the conduct of the test the technical service need to ensure that the boundary conditions of the ACPE - as\r\ndefined by the manufacturer - with regard to the detection of the test target are taken into account (e.g. avoid\r\nblocking of a sonar system used, ensure that a vision system used can properly identify the pedestrian test target\r\nused as a human by making it fully visible to the camera system before testing, etc.)",
+        "source": {
+          "page": 9,
+          "paragraph": "6.3.2"
+        }
+      },
+      {
+        "text": "6.5.2. The lateral offset between the centreline of the vehicle target and the centreline of the vehicle shall be\r\nbetween 0.0 m and the distance to extreme outer edge of the vehicle.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.2"
+        }
+      },
+      {
+        "text": "6.6. Test procedures\r\nThe test procedures shall be performed both in a forward and rearward direction and at least with the ACPE\r\ninterventions triggered at 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) distance from the target position\r\n(as detailed in Table 1).",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6"
+        }
+      },
+      {
+        "text": "6.6.1.2. The procedure for each test with a stationary (non-creeping) vehicle shall be as follows:\r\n(a) Position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1.\r\n(b) Hold the vehicle stationary and select the corresponding driving direction.\r\n(c) Accelerate the vehicle, whilst maintaining the steering control in the neutral position, by operating the\r\naccelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) before\r\nthe vehicle reaches a speed of 0.5 km/h.\r\n(d) Record the speed at the collision point (if applicable) or the speed at the respective speed measurement point.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.2"
+        }
+      },
+      {
+        "text": "11. Names and addresses of the Technical Services responsible for\r\nconducting approval tests and of Type Approval Authorities\r\nThe Contracting Parties to the Agreement applying this Regulation shall communicate to the United Nations\r\nSecretariat4 the names and addresses of the Technical Services responsible for conducting approval tests and of\r\nthe Type Approval Authorities which grant approval and to which forms certifying approval or extension or\r\nrefusal or withdrawal of approval are to be sent.\r\n\r\n4 The UNECE secretariats provides the online platform (\"/343 Application\") for exchange of such information with the secretariat:\r\nhttps://www.unece.org/trans/main/wp29/datasharing.html",
+        "source": {
+          "page": 12,
+          "paragraph": "11"
+        }
+      },
+      {
+        "text": "12.1.1. As from the official date of entry into force of the 01 series of amendments, no Contracting Party applying\r\nthis Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 01\r\nseries of amendments.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.1"
+        }
+      },
+      {
+        "text": "12.1.2. As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals to the original version of this Regulation, first issued after 1 September 2029.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.2"
+        }
+      },
+      {
+        "text": "12.1.3. Until 1 September 2031, Contracting Parties applying this Regulation shall accept type approvals to the\r\noriginal version of this Regulation, first issued before 1 September 2029.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.3"
+        }
+      },
+      {
+        "text": "12.1.4. As from 1 September 2031, Contracting Parties applying this Regulation shall not be obliged to accept\r\ntype approvals issued to the original version of this Regulation.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.4"
+        }
+      },
+      {
+        "text": "12.1.5. Notwithstanding paragraph 12.1.4., Contracting Parties applying this Regulation shall continue to accept\r\ntype approvals issued according to the original version of this Regulation, for vehicles which are not affected by\r\nthe changes introduced by the 01 Series of amendments.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.5"
+        }
+      },
+      {
+        "text": "12.1.8. Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any\r\npreceding series of amendments to this Regulation.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.8"
+        }
+      }
+    ],
+    "missed_added": [
+      {
+        "text": "When tests are performed without a target, the ACPE shall be deactivated if necessary.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.1"
+        }
+      },
+      {
+        "text": "Tests without a target may be combined where feasible.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.1"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to position the vehicle at the selected starting point as determined by paragraph 6.6.2.1.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to hold the vehicle stationary and select the corresponding driving direction.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The procedure for each test with a creeping vehicle shall be to release the braking system so that the vehicle starts creeping.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "When a collision is not prevented during the procedure for each test with a creeping vehicle, the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.2"
+        }
+      },
+      {
+        "text": "The Technical Service shall test each test condition according to Table 1 once with a starting point and a profile of the accelerator control application selected at its discretion.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.1"
+        }
+      },
+      {
+        "text": "The starting point and the accelerator control application profile shall be selected such that the triggering condition (as outlined in paragraph 5.1.2.) is achieved as close to 4km/h in the rearward direction as reasonably practical whilst remaining at or below that speed and avoiding any AEBS warning or intervention which results in an ACPE intervention not occurring.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.6.2.1"
+        }
+      },
+      {
+        "text": "An ACPE intervention is not required when: (a) there is an AEBS warning or intervention occurring; or (b) the vehicle speed is greater than 10 km/h.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.4.1"
+        }
+      },
+      {
+        "text": "The lateral offset between the centre line of the pedestrian obstacle and the centre line of the vehicle is not more than 25 per cent of the vehicle width.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.3"
+        }
+      }
+    ]
+  }
+}

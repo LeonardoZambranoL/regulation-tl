@@ -1,0 +1,234 @@
+{
+  "official_metric_available": false,
+  "expected_change_count": 24,
+  "matched_by_change_type": {
+    "modified": {
+      "expected": 6,
+      "submitted": 5,
+      "matched_correctly": 5,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "missed": 1
+    },
+    "removed": {
+      "expected": 1,
+      "submitted": 1,
+      "matched_correctly": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "missed": 0
+    },
+    "added": {
+      "expected": 17,
+      "submitted": 37,
+      "matched_correctly": 16,
+      "precision": 0.43243243243243246,
+      "recall": 0.9411764705882353,
+      "missed": 1
+    }
+  },
+  "old_requirement_impact": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "matched": 6,
+    "submitted": 6,
+    "expected": 7
+  },
+  "change_type_accuracy_on_matched_ids": 1.0,
+  "citation_accuracy_on_matched_old_ids": 1.0,
+  "correct_type_ids": [
+    "R-015",
+    "R-018",
+    "R-021",
+    "R-084",
+    "R-085",
+    "R-090"
+  ],
+  "added_obligation_proxy": {
+    "precision": 0.43243243243243246,
+    "recall": 0.9411764705882353,
+    "matches": 16,
+    "submitted": 37,
+    "expected": 17,
+    "matched_text_token_f1_mean": 0.7952976926524149,
+    "citation_and_text_threshold": 0.45
+  },
+  "errors": {
+    "false_positive_requirement_ids": [],
+    "false_negative_requirement_ids": [
+      "R-086"
+    ],
+    "missed_existing_requirement_diagnosis": [
+      {
+        "requirement_id": "R-086",
+        "diagnosis": "classified_unchanged",
+        "model_evidence": "Old Table 1 step (a) is carried into new 6.6.1.2(a) for stationary vehicles. The only word edit is the insertion of 'relevant' before 'target', which clarifies which target applies and does not change the obligation. Table 1 still defines the distances. The creeping-vehicle procedure in 6.6.2 is a new separate situation and does not alter this obligation."
+      }
+    ],
+    "wrong_change_type": [],
+    "wrong_citation": [],
+    "unmatched_added": [
+      {
+        "text": "Completed vehicles built on a base vehicle which did not have the necessary structure to allow installation of means of forward and/or rear detection may be exempted from the relevant requirements (forward and/or rear direction) of this Regulation, subject to the decision of the Type Approval Authority.",
+        "source": {
+          "page": 2,
+          "paragraph": "1.4"
+        }
+      },
+      {
+        "text": "\"Extreme outer edge\" on either side of the vehicle means the plane parallel to the median longitudinal plane of the vehicle and touching its lateral outer edge, disregarding the projection of: (a) tyres near their ground contact point and tyre-pressure gauge connections; (b) anti-skid devices mounted on the wheels; (c) devices for indirect vision; (d) side direction-indicator lamps, end-outline marker lamps, front and rear position lamps, parking lamps, retro-reflectors and side-marker lamps.",
+        "source": {
+          "page": 3,
+          "paragraph": "2.10"
+        }
+      },
+      {
+        "text": "The ACPE shall control acceleration, as relevant, when the vehicle is accelerated while creeping.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.4"
+        }
+      },
+      {
+        "text": "An ACPE intervention is not required when there is an AEBS warning or intervention occurring.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.4.1"
+        }
+      },
+      {
+        "text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, if the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal conditions of vehicle operation.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.5"
+        }
+      },
+      {
+        "text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, for a wall obstacle, the overlap between wall and vehicle is at least 1.0 m.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.5"
+        }
+      },
+      {
+        "text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided that, for a pedestrian obstacle, the distance between the centre line of the pedestrian obstacle and the centre line of the vehicle is not more than 25 per cent of the vehicle width.",
+        "source": {
+          "page": 5,
+          "paragraph": "5.1.5"
+        }
+      },
+      {
+        "text": "The ACPE shall limit acceleration for an obstacle not more than 1.5 m in front of or behind the vehicle, provided the vehicle is travelling at or below its maximum creeping speed in the forward direction and at or below 4 km/h in the rearward direction.",
+        "source": {
+          "page": 6,
+          "paragraph": "5.1.5"
+        }
+      },
+      {
+        "text": "During the conduct of the test, the technical service shall ensure that the boundary conditions of the ACPE, as defined by the manufacturer, with regard to detection of the test target are taken into account (e.g. avoid blocking a sonar system used; ensure a vision system can properly identify the pedestrian test target as a human by making it fully visible to the camera before testing).",
+        "source": {
+          "page": 9,
+          "paragraph": "6.3.2"
+        }
+      },
+      {
+        "text": "In the test procedure, the lateral offset between the centreline of the vehicle target and the centreline of the vehicle shall be between 0.0 m and the distance to the extreme outer edge of the vehicle.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.2"
+        }
+      },
+      {
+        "text": "The orientation of the pedestrian target shall be determined by the technical service.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.5.4"
+        }
+      },
+      {
+        "text": "If deemed justified, the Technical Service may additionally test in any test condition within the conditions specified in paragraph 5.1.5.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.7"
+        }
+      },
+      {
+        "text": "If deemed justified, the Technical Service may additionally test alternative accelerator control application profiles.",
+        "source": {
+          "page": 11,
+          "paragraph": "6.7"
+        }
+      },
+      {
+        "text": "As from the official date of entry into force of the 01 series of amendments, no Contracting Party applying this Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 01 series of amendments.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.1"
+        }
+      },
+      {
+        "text": "As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept type approvals to the original version of this Regulation first issued after 1 September 2029.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.2"
+        }
+      },
+      {
+        "text": "Until 1 September 2031, Contracting Parties applying this Regulation shall accept type approvals to the original version of this Regulation first issued before 1 September 2029.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.3"
+        }
+      },
+      {
+        "text": "As from 1 September 2031, Contracting Parties applying this Regulation shall not be obliged to accept type approvals issued to the original version of this Regulation.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.4"
+        }
+      },
+      {
+        "text": "Notwithstanding paragraph 12.1.4., Contracting Parties applying this Regulation shall continue to accept type approvals issued according to the original version of this Regulation for vehicles which are not affected by the changes introduced by the 01 series of amendments.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.5"
+        }
+      },
+      {
+        "text": "Notwithstanding the transitional provisions above, Contracting Parties who start to apply this Regulation after the date of entry into force of the most recent series of amendments are not obliged to accept type approvals granted in accordance with any of the preceding series of amendments to this Regulation.",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.6"
+        }
+      },
+      {
+        "text": "Contracting Parties applying this Regulation may grant type approvals according to any preceding series of amendments to this Regulation (transitional provision for the 01 series of amendments).",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.7"
+        }
+      },
+      {
+        "text": "Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any preceding series of amendments to this Regulation (transitional provision for the 01 series of amendments).",
+        "source": {
+          "page": 12,
+          "paragraph": "12.1.8"
+        }
+      }
+    ],
+    "missed_added": [
+      {
+        "expected_text": "When tests are performed without a target, the ACPE shall be deactivated if necessary.",
+        "source": {
+          "page": 10,
+          "paragraph": "6.6.1.1"
+        },
+        "diagnosis": "matching_output_entry_already_used_for_another_expected_obligation",
+        "model_evidence": "Possible bundled obligations or overlapping expected entries; inspect the matching submitted text. This is not evidence that Claude omitted or rejected the obligation.",
+        "competing_submitted_texts": [
+          "For stationary-vehicle tests without a target, the ACPE shall be deactivated if necessary; such tests may be combined where feasible."
+        ]
+      }
+    ]
+  }
+}
