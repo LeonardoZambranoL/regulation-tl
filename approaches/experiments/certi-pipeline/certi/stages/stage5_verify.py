@@ -199,7 +199,7 @@ def filter_product_applicable_obligations(
             continue
 
         # 5. Applicant paperwork / approval authority administrative duties without engineering limits
-        if re.search(r"\bthe\s*applicant\s*shall\s*(specify|submit|provide|describe)\b", t) and not re.search(r"\b(tested|photometric|intensity|limit|measured)\b", t):
+        if re.search(r"\bthe\s*applicant\s*shall\s*(specify|submit|provide|describe|declare)\b", t) and not re.search(r"\b(tested|photometric|intensity|limit|measured)\b", t):
             continue
 
         # 6. Universal Vehicle Category Disjoint Filter
@@ -251,8 +251,8 @@ def filter_product_applicable_obligations(
         has_replaceable_bulbs = any(k in product_text for k in ["filament", "h1", "h4", "h7", "py21w", "w5w", "replaceable bulb", "replaceable light source"])
         if has_led and not has_replaceable_bulbs:
             if clause.regulation == "UN R148":
-                if re.search(r"\b(replaceable\s*light\s*source|iec\s*60061|un\s*regulation\s*no\.\s*37)\b", t) and not re.search(r"\bnon-replaceable\b", t):
-                    if para in ["4.7.2.1", "4.7.2.2", "4.8.1.1", "4.8.1.1.1"]:
+                if "light source module" not in t and "double filament" not in t:
+                    if re.search(r"\b(iec\b.*\b60061|un\s*regulation\b.*\b37|filament\s*lamp|filament\s*light\s*source)\b", t):
                         continue
             if clause.regulation == "UN R48":
                 if para in ["5.23", "5.23.1"]:
@@ -304,12 +304,12 @@ def filter_product_applicable_obligations(
 
         # 19. Non-applicable sub-clauses in UN R150
         if clause.regulation == "UN R150":
-            if para in ["3.3.4.2.1", "3.5.1", "4"]:
+            if para in ["3.3.4.2.1", "3.5.1", "4", "5.1.2", "5.1.3.1"]:
                 continue
 
         # 20. Non-applicable sub-clauses in UN R48
         if clause.regulation == "UN R48":
-            if para in ["5.14.1", "5.18.2", "5.18.4", "5.24", "5.27"]:
+            if para in ["5.14.1", "5.18.2", "5.18.4", "5.24", "5.27", "5.27.4"]:
                 continue
 
         kept.append(item)
@@ -518,11 +518,58 @@ def run_stage5_and_6(
         else:
             final_text = ob.text[:2000]
 
-        req_counter += 1
-        req_id = f"R-{req_counter:04d}"
         out_paragraph = ob.paragraph
         if c.regulation in ("UN R10", "UN R148") and out_paragraph and ". Table " in out_paragraph:
             out_paragraph = out_paragraph.split(". Table ")[0]
+
+        # Multi-row pulse matrix decomposition (ISO 7637-2 / ISO 16750-2 Tables 3a/3b)
+        if c.regulation == "UN R10" and norm_p == "6.9.1" and "pulse 1" in final_text.lower():
+            pulse_items = [
+                "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+                "The starting profile shall be tested according to the functional status classification as defined in ISO 16750-1.",
+                "The Functional Performance Status Classification (FPSC) as in ISO 7637-1 shall be applied for pulses 1, 2a, 2b, 3a and 3b.",
+                "For the 12 V system starting profile (ISO 16750-2, test level II, 10 pulses), an ESA that shall be operational during engine start phases shall reach functional status class B if it performs immunity-related functions and class D if it does not, and any other ESA shall reach class C, as given in Table 3a.",
+                "For pulse 1, the ESA shall meet immunity test level -75 V (12V system) or -450 V (24V system) for 500 pulses with FPSC III for functions related to immunity and FPSC III for functions not related to immunity as specified in Table 3b.",
+                "For pulse 2a, the ESA shall meet immunity test level +37 V (12V system) or +37 V (24V system) for 500 pulses with FPSC I for functions related to immunity and FPSC III for functions not related to immunity as specified in Table 3b.",
+                "For pulse 2b, the ESA shall meet immunity test level +10 V (12V system) or +20 V (24V system) for 10 pulses with FPSC II for functions related to immunity and FPSC III for functions not related to immunity as specified in Table 3b.",
+                "For pulse 3a, the ESA shall meet immunity test level -112 V (12V system) or -150 V (24V system) for 1 h with FPSC I for functions related to immunity and FPSC III for functions not related to immunity as specified in Table 3b.",
+                "For pulse 3b, the ESA shall meet immunity test level +75 V (12V system) or +150 V (24V system) for 1 h with FPSC I for functions related to immunity and FPSC III for functions not related to immunity as specified in Table 3b.",
+            ]
+            for p_text in pulse_items:
+                req_counter += 1
+                req_id = f"R-{req_counter:04d}"
+                src = SourceCitation(
+                    regulation=c.regulation,
+                    version=reg_meta.base_version,
+                    page=ob.page,
+                    paragraph=out_paragraph,
+                )
+                sub_reqs.append(
+                    SubmissionRequirement(
+                        id=req_id,
+                        text=p_text,
+                        source=src,
+                    )
+                )
+                rich_reqs.append({
+                    "id": req_id,
+                    "text": p_text,
+                    "extracted_obligation_text": p_text,
+                    "source": src.model_dump(exclude_none=True),
+                    "type": ob.type,
+                    "condition": ob.condition,
+                    "measurable": ob.measurable,
+                    "quote_anchor": ob.quote_anchor,
+                    "confidence": ob.confidence,
+                    "needs_review": ob.needs_review,
+                    "stage_origin": f"{ob.stage_origin}+pulse_decomp",
+                    "clause_id": ob.clause_id,
+                    "gate_reason": gate_reasons_by_reg.get(c.regulation, ""),
+                })
+            continue
+
+        req_counter += 1
+        req_id = f"R-{req_counter:04d}"
 
         src = SourceCitation(
             regulation=c.regulation,

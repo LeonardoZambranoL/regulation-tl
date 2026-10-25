@@ -10,7 +10,7 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Robust | Dev page F2 | Unseen clause recall | Dev clause F2 | Unseen page recall |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.9381 | 0.9464 | 0.9298 | 0.8499 | 1.0000 |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.9381 | 0.9464 | 0.9298 | 0.8547 | 1.0000 |
 | 2 | [devansh-dynregex-llm-clause-filter](experiments/devansh-dynregex-llm-clause-filter/) | 0.8045 | 0.7670 | 0.8421 | 0.5613 | 0.8750 |
 | 3 | [em_devansh-dynregex-llm-clause-filter](experiments/em_devansh-dynregex-llm-clause-filter/) | 0.8018 | 0.7615 | 0.8421 | 0.5462 | 0.8750 |
 | 4 | [em_devansh-dynregex-neutral](experiments/em_devansh-dynregex-neutral/) | 0.8012 | 0.8129 | 0.7895 | 0.5824 | 1.0000 |
@@ -48,7 +48,7 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.3478 | 1.0000 | 0.7273 | 0.7958 | 1/1 | 2 | 0.8333 | [JSON](experiments/certi-pipeline/benchmark-results/961b4cb5f6194c9dbeea890f9d4c925e.json) |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.3478 | 1.0000 | 0.7273 | 0.7958 | 1/1 | 2 | 0.8333 | [JSON](experiments/certi-pipeline/benchmark-results/ce546594be084afe95871fb050831c20.json) |
 | 2 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.2333 | 0.8750 | 0.5645 | 0.4717 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/da71db9932e24f8583501f426cfb33db.json) |
 | 3 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.2258 | 0.8750 | 0.5556 | 0.4658 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/2e3d6e6c2d2141729617bbf1d8a8ef3e.json) |
 | 4 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.2609 | 0.7500 | 0.5455 | 0.4437 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/f09fa3213cee448ab192a6747ee91a2f.json) |
@@ -86,7 +86,7 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 
 | Rank | Approach | Page precision | Page recall | Page F2 | Clause F2 | Regulations matched | Regulations included | Regulation F2 | Results |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.7794 | 1.0000 | 0.9464 | 0.8499 | 4/4 | 4 | 1.0000 | [JSON](experiments/certi-pipeline/benchmark-results/dbe1c7767512499bbacead242bba72e2.json) |
+| 1 | [certi-pipeline](experiments/certi-pipeline/) | 0.7794 | 1.0000 | 0.9464 | 0.8547 | 4/4 | 4 | 1.0000 | [JSON](experiments/certi-pipeline/benchmark-results/3c085b5337d141a28ef83ee1a3d310cb.json) |
 | 2 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.6892 | 0.9623 | 0.8916 | 0.7079 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-ranked/benchmark-results/c532c11e937e474bb71c8df522c5e262.json) |
 | 3 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.6800 | 0.9623 | 0.8885 | 0.7016 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer/benchmark-results/563441d0607844d59fec637e5c5d45dd.json) |
 | 4 | [devansh-llm-clause-filter-writer-refined](experiments/devansh-llm-clause-filter-writer-refined/) | 0.7500 | 0.9057 | 0.8696 | 0.6826 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-llm-clause-filter-writer-refined/benchmark-results/6487db1551a04a28830f05a5c7ac520c.json) |
