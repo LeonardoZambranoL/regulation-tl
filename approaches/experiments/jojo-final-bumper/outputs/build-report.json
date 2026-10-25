@@ -1,0 +1,21 @@
+{
+  "source_sha256": "52be4906a0c6a6a5a62d270a6e3cc0311cfac8ec90fbdd4cce136caee1f11dfe",
+  "final_requirements": 546,
+  "further_cuts_adopted": false,
+  "cases": {
+    "dev-rear-lamp": {
+      "input": 209,
+      "kept": 206,
+      "removed_ids": [
+        "R-0172",
+        "R-0184",
+        "R-0196"
+      ]
+    },
+    "holdout-acpe": {
+      "input": 163,
+      "kept": 163,
+      "removed_ids": []
+    }
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Preserve the user's explicit folder-only commit while retaining validation checks.
+exec python3 approaches/experiments/jojo-final-bumper/verify_commit.py

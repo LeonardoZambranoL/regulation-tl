@@ -1,0 +1,9 @@
+{
+  "hard_budget_usd": 0,
+  "requests": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "recorded_spend_usd": 0,
+  "responses": [],
+  "reason": "Deterministic reuse of explicitly requested existing artifacts; no own configured API key was available and no paid calls were attempted."
+}

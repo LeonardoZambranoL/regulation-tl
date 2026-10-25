@@ -1,0 +1,17 @@
+{
+  "name": "Preserve the validated 546-item bumper final with band-1-only postprocessing and offline block probes",
+  "owner": "jojo",
+  "team_id": "team-11",
+  "case_id": "heldout-front-bumper",
+  "source_commit": "d7c94fb",
+  "algorithm": "retain-saved-ratings-above-1; preserve-v7-bumper-exactly",
+  "runtime_model_calls": 0,
+  "api_budget_usd": 0,
+  "further_bumper_pruning": false,
+  "cap_diagnostic": 3,
+  "cap_adopted": false,
+  "probe_base": {"submitted": 546, "matched_inferred": 174, "expected_assumed": 208},
+  "submission": "outputs/submission-heldout-front-bumper.json",
+  "fallback": "outputs/fallback-heldout-front-bumper.json",
+  "platform_uploads_per_rolling_hour_observed": 5
+}

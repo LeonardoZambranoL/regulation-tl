@@ -1,0 +1,20 @@
+{
+  "level": "high",
+  "uses_llm": false,
+  "deterministic": true,
+  "uses_gold": false,
+  "inherits_llm_outputs": true,
+  "tuned_on_dev": [
+    "Reuses certi-pipeline predictions, whose development was tuned on dev.",
+    "Inherits Devansh v7 rating-band calibration on dev and ACPE; this experiment does not re-fit it.",
+    "Benchmark-only paragraph count measurement uses answer keys as explicitly allowed; no count-derived change is adopted."
+  ],
+  "target_case_feedback": "Preserves an existing 546-item candidate associated with the observed current platform F2 63.1%; no new score-driven probe decisions.",
+  "not_tuned": ["No new threshold sweep, prompt, semantic cut, merge, or regulation selection."],
+  "limitations": [
+    "No fresh requirement judge: own API credentials and per-item cached judge pairs are unavailable; budget is zero.",
+    "Bumper platform record exposes item count and scores but no content hash for comparison.",
+    "Only 3 dev items and zero ACPE items support inherited certi band-1 calibration.",
+    "Offline probe partition is product-specific and must not be presented as a general extraction algorithm."
+  ]
+}

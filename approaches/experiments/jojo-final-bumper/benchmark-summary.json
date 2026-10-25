@@ -1,0 +1,261 @@
+{
+  "unseen_status": "up to date",
+  "runs": [
+    {
+      "run_id": "b6ffbe4811d74a6299ecad26a40e2945",
+      "approach": "jojo-final-bumper",
+      "status": "completed",
+      "completed_at": "2026-10-25T10:34:22.807829+00:00",
+      "evaluator": "official-local-f2-v1-6de0fe1e0763",
+      "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+      "validation": {
+        "prediction": "passed",
+        "gold": "passed",
+        "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+        "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+        "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+        "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+        "regulation_versions_checked": true
+      },
+      "prediction_path": "/Users/jojo/Documents/ChatGPT/certivity/regulation-tl-final-bumper/approaches/experiments/jojo-final-bumper/outputs/predictions.json",
+      "prediction_sha256": "c5a065bf2442ded30e5301e6693e9551b01a617d18c48cf0b3b2dfb0aaa7d02c",
+      "gold_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/cases/dev-rear-lamp/expected.json",
+      "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+      "ranking_metric": "page_level.f2",
+      "metrics": {
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_submitted": 4,
+          "n_expected": 4,
+          "n_matched": 4,
+          "f2": 1.0
+        },
+        "page_level": {
+          "precision": 0.9814814814814815,
+          "recall": 1.0,
+          "f1": 0.9906542056074767,
+          "n_submitted": 54,
+          "n_expected": 53,
+          "n_matched": 53,
+          "f2": 0.9962406015037595
+        },
+        "clause_level": {
+          "precision": 0.9236641221374046,
+          "recall": 1.0,
+          "f1": 0.9603174603174602,
+          "n_submitted": 131,
+          "n_expected": 121,
+          "n_matched": 121,
+          "f2": 0.9837398373983738
+        }
+      }
+    },
+    {
+      "run_id": "7d594e82b45d4ef384ea7d540b6fca9f",
+      "approach": "jojo-final-bumper",
+      "status": "completed",
+      "completed_at": "2026-10-25T10:34:22.824041+00:00",
+      "evaluator": "official-local-f2-v1-6de0fe1e0763",
+      "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+      "validation": {
+        "prediction": "passed",
+        "gold": "passed",
+        "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+        "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+        "index_path": "/Users/jojo/Documents/ChatGPT/certivity/industrial-ai-hackathon/regulations/index.json",
+        "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+        "regulation_versions_checked": true
+      },
+      "prediction_path": "/Users/jojo/Documents/ChatGPT/certivity/regulation-tl-final-bumper/approaches/experiments/jojo-final-bumper/outputs/predictions-holdout-acpe.json",
+      "prediction_sha256": "a09b8e5374c722d165c3056132b3c52d459c2b80e36038640edbef79546a39f2",
+      "gold_path": "/Users/jojo/Documents/ChatGPT/certivity/regulation-tl-final-bumper/approaches/benchmarking/cases/holdout-acpe/expected.json",
+      "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+      "ranking_metric": "page_level.f2",
+      "metrics": {
+        "regulation_level": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "n_submitted": 2,
+          "n_expected": 1,
+          "n_matched": 1,
+          "f2": 0.8333333333333334
+        },
+        "page_level": {
+          "precision": 0.34782608695652173,
+          "recall": 1.0,
+          "f1": 0.5161290322580645,
+          "n_submitted": 23,
+          "n_expected": 8,
+          "n_matched": 8,
+          "f2": 0.7272727272727273
+        },
+        "clause_level": {
+          "precision": 0.5047619047619047,
+          "recall": 0.9298245614035088,
+          "f1": 0.6543209876543209,
+          "n_submitted": 105,
+          "n_expected": 57,
+          "n_matched": 53,
+          "f2": 0.795795795795796
+        }
+      }
+    }
+  ],
+  "comparison_to_source": {
+    "dev-rear-lamp": {
+      "original": {
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_submitted": 4,
+          "n_expected": 4,
+          "n_matched": 4,
+          "f2": 1.0
+        },
+        "page_level": {
+          "precision": 0.9814814814814815,
+          "recall": 1.0,
+          "f1": 0.9906542056074767,
+          "n_submitted": 54,
+          "n_expected": 53,
+          "n_matched": 53,
+          "f2": 0.9962406015037595
+        },
+        "clause_level": {
+          "precision": 0.9236641221374046,
+          "recall": 1.0,
+          "f1": 0.9603174603174602,
+          "n_submitted": 131,
+          "n_expected": 121,
+          "n_matched": 121,
+          "f2": 0.9837398373983738
+        }
+      },
+      "final": {
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "n_submitted": 4,
+          "n_expected": 4,
+          "n_matched": 4,
+          "f2": 1.0
+        },
+        "page_level": {
+          "precision": 0.9814814814814815,
+          "recall": 1.0,
+          "f1": 0.9906542056074767,
+          "n_submitted": 54,
+          "n_expected": 53,
+          "n_matched": 53,
+          "f2": 0.9962406015037595
+        },
+        "clause_level": {
+          "precision": 0.9236641221374046,
+          "recall": 1.0,
+          "f1": 0.9603174603174602,
+          "n_submitted": 131,
+          "n_expected": 121,
+          "n_matched": 121,
+          "f2": 0.9837398373983738
+        }
+      }
+    },
+    "holdout-acpe": {
+      "original": {
+        "regulation_level": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "n_submitted": 2,
+          "n_expected": 1,
+          "n_matched": 1,
+          "f2": 0.8333333333333334
+        },
+        "page_level": {
+          "precision": 0.34782608695652173,
+          "recall": 1.0,
+          "f1": 0.5161290322580645,
+          "n_submitted": 23,
+          "n_expected": 8,
+          "n_matched": 8,
+          "f2": 0.7272727272727273
+        },
+        "clause_level": {
+          "precision": 0.5047619047619047,
+          "recall": 0.9298245614035088,
+          "f1": 0.6543209876543209,
+          "n_submitted": 105,
+          "n_expected": 57,
+          "n_matched": 53,
+          "f2": 0.795795795795796
+        }
+      },
+      "final": {
+        "regulation_level": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "n_submitted": 2,
+          "n_expected": 1,
+          "n_matched": 1,
+          "f2": 0.8333333333333334
+        },
+        "page_level": {
+          "precision": 0.34782608695652173,
+          "recall": 1.0,
+          "f1": 0.5161290322580645,
+          "n_submitted": 23,
+          "n_expected": 8,
+          "n_matched": 8,
+          "f2": 0.7272727272727273
+        },
+        "clause_level": {
+          "precision": 0.5047619047619047,
+          "recall": 0.9298245614035088,
+          "f1": 0.6543209876543209,
+          "n_submitted": 105,
+          "n_expected": 57,
+          "n_matched": 53,
+          "f2": 0.795795795795796
+        }
+      }
+    }
+  },
+  "over_splitting_diagnostics": {
+    "dev-rear-lamp": {
+      "purpose": "Aggregate over-splitting measurement only; not an item-level correctness judgement or adopted cut",
+      "submitted_items": 209,
+      "expected_items": 190,
+      "submitted_paragraphs": 131,
+      "expected_paragraphs": 121,
+      "common_paragraphs": 121,
+      "submitted_items_at_common_paragraphs": 199,
+      "expected_items_at_common_paragraphs": 190,
+      "fixed_cap_3_items_removed": 22,
+      "fixed_cap_3_same_paragraph_expected_count_capped_by_removals": 22,
+      "decision": "Do not adopt a cap: paragraph counts cannot establish <12% semantic match rate; fresh judge unavailable with zero API budget."
+    },
+    "holdout-acpe": {
+      "purpose": "Aggregate over-splitting measurement only; not an item-level correctness judgement or adopted cut",
+      "submitted_items": 163,
+      "expected_items": 94,
+      "submitted_paragraphs": 105,
+      "expected_paragraphs": 57,
+      "common_paragraphs": 53,
+      "submitted_items_at_common_paragraphs": 70,
+      "expected_items_at_common_paragraphs": 85,
+      "fixed_cap_3_items_removed": 15,
+      "fixed_cap_3_same_paragraph_expected_count_capped_by_removals": 0,
+      "decision": "Do not adopt a cap: paragraph counts cannot establish <12% semantic match rate; fresh judge unavailable with zero API budget."
+    }
+  },
+  "requirement_judge": {
+    "executed": false,
+    "reason": "No own configured API key or cached per-item judge matches; no newly claimed requirement score."
+  }
+}
