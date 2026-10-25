@@ -1,0 +1,74 @@
+{
+  "case": "heldout",
+  "model": "claude-sonnet-5-5",
+  "old_pdf_sha256": "6d245c806a63c4654e3026c2070bababca2be0066000dbb97146c36dc2b972b4",
+  "new_pdf_sha256": "5ba88306b26eddb0a7453cdefe947d55cb18cfb26ee9d6c6ffe994c8089222be",
+  "parse_counts": {
+    "old_pages": 85,
+    "new_pages": 94,
+    "old_provisions": 851,
+    "new_provisions": 930
+  },
+  "alignment": {
+    "old_provisions": 851,
+    "new_provisions": 930,
+    "unmatched_new": 58
+  },
+  "candidate_counts": {
+    "old_requirements": 55,
+    "new_provisions": 69,
+    "total_items": 124
+  },
+  "exhaustive_coverage": {
+    "existing_requirement_reviews": 117,
+    "existing_requirement_llm_reviews": 82,
+    "existing_requirement_automatic_unchanged": 35,
+    "new_clause_reviews": 930,
+    "requests_uncached": 164,
+    "estimated_input_tokens": 1663392,
+    "estimated_output_tokens": 249180,
+    "estimated_cost_usd_low": 5.819,
+    "estimated_cost_usd_high": 11.552,
+    "estimated_runtime_minutes": [
+      24.6,
+      82.0
+    ]
+  },
+  "diff_lines": 4495,
+  "diff_chars": 228368,
+  "new_text_cache_sha256": "5ba88306b26eddb0a7453cdefe947d55cb18cfb26ee9d6c6ffe994c8089222be",
+  "estimate": {
+    "exhaustive": {
+      "existing_requirement_reviews": 117,
+      "existing_requirement_llm_reviews": 82,
+      "existing_requirement_automatic_unchanged": 35,
+      "new_clause_reviews": 930,
+      "requests_uncached": 164,
+      "estimated_input_tokens": 1663392,
+      "estimated_output_tokens": 249180,
+      "estimated_cost_usd_low": 5.819,
+      "estimated_cost_usd_high": 11.552,
+      "estimated_runtime_minutes": [
+        24.6,
+        82.0
+      ]
+    },
+    "legacy_agent": {
+      "expected_model_turns": "12-30, depending on tool exploration",
+      "estimated_input_tokens_range": [
+        82950,
+        192950
+      ],
+      "estimated_output_tokens_range": [
+        5000,
+        60000
+      ],
+      "estimated_cost_usd_low": 0.2159,
+      "estimated_cost_usd_high": 0.9859,
+      "estimated_runtime_minutes_range": [
+        2,
+        20
+      ]
+    }
+  }
+}

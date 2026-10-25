@@ -31,11 +31,19 @@ Citation recovery also accepts list-item ranges such as `6.6.1.2 (a)-(b)` (inclu
 
 ## Scope-aware addition matching
 
+Omitted annex prefixes are also resolved for list-item, range and table-row citations by applying the existing suffix checks to the local paragraph number, then restoring the unique full source label. Item markers must still exist in the source and the cited page must belong to that clause.
+
+For annex citations that omit their enclosing labels (for example, a bare paragraph number), assembly restores the full annex/appendix path only when the provided source clauses and cited page identify exactly one matching paragraph. Ambiguous or unsupported citations remain errors. Original citations are retained in the normalization audit. This assembly-only correction leaves model caches valid.
+
+Assembly accepts table-row citations such as `7.2.3.1 Table 1 item 10` and dotted subitems. It requires the cited page to belong to the source clause, the named table to appear there, and the numbered row to occur after the table label. The submission uses the parent paragraph and retains the original detailed citation in the audit. This does not change prompt hashes; completed model responses remain reusable. Page checking is at parsed-clause granularity for tables spanning several pages.
+
 Track B now includes numbered parent provisions for each new clause and its old candidates, plus whether the new paragraph number existed before. Repeated actions in a separately introduced procedure or applicability context must remain separate additions. Matching wording alone cannot justify `existing` or `modified_existing`: Claude must identify an old clause and explain continuity of scope. Genuine relocations and renumbering can still match old obligations. Uncertain equivalence is retained as an addition with the uncertainty explained, which may increase false positives.
 
 Addition deduplication now requires both normalized text and the same paragraph/page citation; equal text in different clauses is preserved. This supersedes the text-only deduplication described above. The change was motivated by dev diagnostics, uses no hard-coded answer clauses, and has not been run or benchmarked. It changes Track B prompt hashes, so a normal run redoes those batches while reusing unchanged Track A caches. Use the normal run command, not `--assemble-only`, to obtain the new classifications.
 
 ## Run
+
+Deterministic alignment, candidate discovery and exhaustive review worklists are cached under `.cache/preparation/<case>/`. Keys include the actual parsed documents, requirement inventory and relevant source files; changed inputs/code cause recomputation. Writes are atomic, and unreadable caches are rebuilt. Startup prints progress and cache-hit messages. The first run after this change creates these caches; subsequent runs reuse them. Execution also reuses the preflight worklist instead of computing it a second time. Model response cache keys are unchanged. This change has not been run during implementation.
 
 ### Held-out regulation-change case
 
