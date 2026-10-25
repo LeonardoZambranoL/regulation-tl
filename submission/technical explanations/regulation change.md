@@ -1,6 +1,6 @@
 # Technical explanation: regulation change impact
 
-Our regulation change approach identifies how a new version of a regulation affects an existing set of requirements. It takes the old regulation, the new regulation, and the requirements extracted from the old version, then produces a traceable list of **modified, removed, and added requirements**. The implementation is in [`bonus/approaches/initial`](bonus/approaches/initial).
+Our regulation change approach identifies how a new version of a regulation affects an existing set of requirements. It takes the old regulation, the new regulation, and the requirements extracted from the old version, then produces a traceable list of **modified, removed, and added requirements**. The implementation is in [`bonus/approaches/initial`](../../bonus/approaches/initial).
 
 The central design is to examine the change from both directions: **check every existing requirement, and separately inspect every clause in the new regulation for new obligations**. This helps catch additions inside existing paragraphs as well as changes to requirements we already know about.
 
@@ -57,3 +57,4 @@ Deterministic checks verify requirement IDs, complete review coverage, and citat
 We explored a subsequent recovery step that revisits selected decisions with broader document context and the existing requirement inventory. The idea is to recover missed additions, separate bundled obligations, and reconcile new-clause findings with changes to existing requirements. It preserves the original submission and produces a separate candidate with an auditable change report.
 
 In our experiments, this additional review was quite expensive and did not improve the scores. Future work could make recovery more selective, focusing on decisions with conflicting evidence or unresolved links between the two passes to reduce the cost of additional review.
+
