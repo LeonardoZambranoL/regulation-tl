@@ -1,0 +1,606 @@
+[
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0001",
+    "rule": "esa-marking-exemption",
+    "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 8,
+      "paragraph": "5.2.2"
+    },
+    "before": "An approval mark shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "after": "An approval mark shall be affixed to every ESA conforming to a type approved under this Regulation; no marking is required for electrical/electronic systems built into vehicles which are approved as units.",
+    "reason": "Restore the explicit built-in-system marking exemption; no marking obligation is removed.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R10_base.json",
+        "file_sha256": "532def876bb1732abb33351b7965029221284d0e078b532ca2feb47b0331432d",
+        "regulation": "UN R10",
+        "paragraph": "5.2.2",
+        "pages": [
+          8
+        ],
+        "text": "5.2.2. Electrical/electronic sub-assembly (ESA)\r\nAn approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved\r\nunder this Regulation.\r\nNo marking is required for electrical/electronic systems built into vehicles which are approved as units."
+      }
+    ]
+  },
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0071",
+    "rule": "un-approved-replaceable-source-trigger",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 12,
+      "paragraph": "4.7.2.2"
+    },
+    "before": "The lamp shall be designed such that replaceable light source(s) can be fixed in no other position but the correct one.",
+    "after": "In the case of replaceable UN approved light sources, the lamp shall be designed such that replaceable light source(s) can be fixed in no other position but the correct one.",
+    "reason": "The positioning/holder provisions apply to replaceable UN approved sources, not every light source.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.7.2.2",
+        "pages": [
+          12,
+          13
+        ],
+        "text": "4.7.2.2. In case of replaceable UN approved light source(s),\r\n(a) The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct\r\none;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) The light source(s) holder shall conform to the characteristics given in IEC Publication 60061. The holder data\r\nsheet relevant to the category of light source(s) prescribed, applies. In addition, where a category of LED\r\nsubstitute light source(s) is also prescribed, the holder data sheet relevant to the category of LED substitute light\r\nsource(s) applies."
+      }
+    ]
+  },
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0080",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "In no direction where the lamp is visible shall the intensity of light emitted by each of the two samples exceed the maximum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, in no direction where the lamp is visible shall the intensity of light emitted by each of the two samples exceed the maximum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0081",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "On the reference axis (HV), the intensity of light emitted by each of the two samples supplied shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, on the reference axis (HV), the intensity of light emitted by each of the two samples supplied shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0082",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "Outside the reference axis, the intensity shall be not less than the product of the minimum in the pertinent function table of paragraph 5 and the percentage in the pertinent light distribution figure of Annex 3, or not less than the intensity value specified in that figure for each direction.",
+    "after": "Unless otherwise specified, outside the reference axis, the intensity shall be not less than the product of the minimum in the pertinent function table of paragraph 5 and the percentage in the pertinent light distribution figure of Annex 3, or not less than the intensity value specified in that figure for each direction.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "dev-rear-lamp",
+    "id": "R-0084",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "Within the angles of geometric visibility defined in the tables in Annex 2, the intensity shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, within the angles of geometric visibility defined in the tables in Annex 2, the intensity shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "holdout-acpe",
+    "id": "R-0001",
+    "rule": "esa-marking-exemption",
+    "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 8,
+      "paragraph": "5.2.2"
+    },
+    "before": "An approval mark shall be affixed to every ESA conforming to a type approved under UN R10.",
+    "after": "An approval mark shall be affixed to every ESA conforming to a type approved under UN R10; no marking is required for electrical/electronic systems built into vehicles which are approved as units.",
+    "reason": "Restore the explicit built-in-system marking exemption; no marking obligation is removed.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R10_base.json",
+        "file_sha256": "532def876bb1732abb33351b7965029221284d0e078b532ca2feb47b0331432d",
+        "regulation": "UN R10",
+        "paragraph": "5.2.2",
+        "pages": [
+          8
+        ],
+        "text": "5.2.2. Electrical/electronic sub-assembly (ESA)\r\nAn approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved\r\nunder this Regulation.\r\nNo marking is required for electrical/electronic systems built into vehicles which are approved as units."
+      }
+    ]
+  },
+  {
+    "case_id": "holdout-acpe",
+    "id": "R-0057",
+    "rule": "acpe-not-ready-six-second-trigger",
+    "source": {
+      "regulation": "UN R175",
+      "version": "0.1.0",
+      "page": 4,
+      "paragraph": "5.1.4.1"
+    },
+    "before": "The not-ready status information shall be indicated to the driver until the system has been successfully initialised.",
+    "after": "If ACPE is not ready to intervene 6 seconds after initiation of the vehicle powertrain, the not-ready status information shall be indicated to the driver until the system has been successfully initialised.",
+    "reason": "Preserve the six-second trigger when the persistence obligation is listed separately from the warning trigger.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R175_base.json",
+        "file_sha256": "189ad9293dcf3c9e6f7943e52312c30df4093d8e0c5b93f182ec28fec4cac8f6",
+        "regulation": "UN R175",
+        "paragraph": "5.1.4.1",
+        "pages": [
+          4
+        ],
+        "text": "5.1.4.1. If ACPE is not ready to perform an intervention 6 seconds after the initiation of the vehicle powertrain,\r\ninformation of this status shall be indicated to the driver. This information shall exist until the system has been\r\nsuccessfully initialised."
+      }
+    ]
+  },
+  {
+    "case_id": "holdout-acpe",
+    "id": "R-0067",
+    "rule": "acpe-collision-trigger",
+    "source": {
+      "regulation": "UN R175",
+      "version": "0.1.0",
+      "page": 5,
+      "paragraph": "5.1.6"
+    },
+    "before": "The collision speed shall not be greater than 70% of the speed the vehicle would have had in the same position and circumstances without any ACPE intervention.",
+    "after": "If a collision is not prevented, the collision speed shall not be greater than 70% of the speed the vehicle would have had in the same position and circumstances without any ACPE intervention.",
+    "reason": "Restore the shared collision-not-prevented condition on the separately listed 70 percent constraint.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R175_base.json",
+        "file_sha256": "189ad9293dcf3c9e6f7943e52312c30df4093d8e0c5b93f182ec28fec4cac8f6",
+        "regulation": "UN R175",
+        "paragraph": "5.1.6",
+        "pages": [
+          5
+        ],
+        "text": "5.1.6. In the case that a collision is not prevented, the collision speed shall be no greater than 8 km/h higher than\r\nthe vehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.\r\nIn addition, the collision speed shall not be greater than 70% of that speed the vehicle would have had in the same\r\nposition and under the same circumstances but without any ACPE intervention."
+      }
+    ]
+  },
+  {
+    "case_id": "holdout-acpe",
+    "id": "R-0150",
+    "rule": "acpe-backup-design-trigger",
+    "source": {
+      "regulation": "UN R175",
+      "version": "0.1.0",
+      "page": 15,
+      "paragraph": "Annex 3 3.4.3.2"
+    },
+    "before": "The change-over mechanism principles, logic and level of redundancy, built-in back-up checking features shall be explained and the resulting limits of back-up effectiveness defined.",
+    "after": "If the chosen provision selects a second back-up means to realise the vehicle control system objective, the change-over mechanism principles, logic and level of redundancy, built-in back-up checking features shall be explained and the resulting limits of back-up effectiveness defined.",
+    "reason": "Backup design documentation applies when that safety architecture is selected, not unconditionally.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R175_base.json",
+        "file_sha256": "189ad9293dcf3c9e6f7943e52312c30df4093d8e0c5b93f182ec28fec4cac8f6",
+        "regulation": "UN R175",
+        "paragraph": "Annex 3 / 3.4.3.2",
+        "pages": [
+          15
+        ],
+        "text": "3.4.3.2. If the chosen provision selects a second (back-up) means to realise the vehicle control system objective,\r\nthe principles of the change-over mechanism, the logic and level of redundancy and any built in back-up checking\r\nfeatures shall be explained and the resulting limits of back-up effectiveness defined."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0082",
+    "rule": "combined-test-static-permission-context",
+    "source": {
+      "regulation": "UN GTR 9",
+      "version": "0.3.0",
+      "page": 123,
+      "paragraph": "Annex 1 4.3"
+    },
+    "before": "the remaining section may be tested statically.",
+    "after": "Under the combined static and dynamic test option, the remaining section of the headform test area, outside the region required to be tested dynamically where HIT_d < TRT, may be tested statically.",
+    "reason": "Restore the missing subject and condition of an isolated sentence fragment; preserve the permission and its dynamic-test sibling.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_GTR_9_base.json",
+        "file_sha256": "1489bf3fe445c9e350c159f188a3c3af8b3f82199cd6ef17c941bdd08f2f8f57",
+        "regulation": "UN GTR 9",
+        "paragraph": "Annex 1 / 4.3",
+        "pages": [
+          123
+        ],
+        "text": "4.3. \"Combined\" test option:\r\nCombined static and dynamic tests may apply, at manufacturer’s choice.\r\nIf the headform test area consists of sections where the HIT_d at the corresponding impact point is less than TRT\r\n(HIT_d <TRT) , as in the A section in Figure 1-1, and sections where the HIT_d at the corresponding impact point\r\nis greater than or equal to TRT (HIT_d ≥TRT, as in the B section in Figure 1-1, then all test points forward of the\r\ncorresponding WAD (HIT_d < TRT) shall be tested dynamically. The remaining section of the headform test area\r\nmay be tested statically (see Figure 1-5 below, obtained from Annex 2, Figure 2-2)."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0195",
+    "rule": "module-code-multiple-module-condition",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 8,
+      "paragraph": "3.3.3.5"
+    },
+    "before": "Replaceable light source module(s) shall bear a specific identification code comprising the starting letters \"MD\" followed by the approval mark without the circle, followed by additional symbols or characters.",
+    "after": "Replaceable light source modules shall bear a specific identification code comprising the starting letters \"MD\" followed by the approval mark without the circle; additional symbols or characters shall follow if several non-identical light source modules are used.",
+    "reason": "Additional identification symbols are conditional on several non-identical modules; the input made them unconditional.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "3.3.3.5",
+        "pages": [
+          8
+        ],
+        "text": "3.3.3.5. In case replaceable light source module(s) is/are used, bear the following markings.\r\n(a) On the light source module(s):\r\n(i) The trade name or mark of the applicant;\r\n(ii) The specific identification code of the module; This specific identification code shall comprise the starting\r\nletters “MD” for “MODULE” followed by the approval mark without the circle as prescribed in paragraph"
+      },
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "3.3.2.1.1",
+        "pages": [
+          8
+        ],
+        "text": "3.3.2.1.1. In case several non-identical light source modules are used, followed by additional symbols or\r\ncharacters; The approval mark does not have to be the same as the one on the lamp in which the module is used,\r\nbut both marks shall be from the same applicant;\r\n(iii) The rated voltage(s) or the range of voltage.\r\n(b) On the lamp:\r\n(i) The specific identification code of the module as prescribed in paragraph 3.3.3.5. (a), (ii);\r\n(ii) The rated voltage(s) or the range of voltage."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0200",
+    "rule": "separable-lens-trigger",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 8,
+      "paragraph": "3.3.4.3"
+    },
+    "before": "The approval marking shall be placed on both the detachable outer lens and the main body of the device.",
+    "after": "If the outer lens is designed to be separated from the main body, the approval marking shall be placed on both the detachable outer lens and the main body of the device.",
+    "reason": "Restore the explicit separable-lens condition.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "3.3.4.3",
+        "pages": [
+          8
+        ],
+        "text": "3.3.4.3. If the outer lens of a device is designed to be separated from the main body, the approval marking shall be\r\nplaced on both, the detachable lens and the main body."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0221",
+    "rule": "un-approved-replaceable-source-trigger",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 12,
+      "paragraph": "4.7.2.2"
+    },
+    "before": "The lamp design shall be such that the replaceable light source(s) can be fixed in no other position but the correct one.",
+    "after": "In the case of replaceable UN approved light sources, the lamp design shall be such that the replaceable light source(s) can be fixed in no other position but the correct one.",
+    "reason": "The positioning/holder provisions apply to replaceable UN approved sources, not every light source.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.7.2.2",
+        "pages": [
+          12,
+          13
+        ],
+        "text": "4.7.2.2. In case of replaceable UN approved light source(s),\r\n(a) The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct\r\none;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) The light source(s) holder shall conform to the characteristics given in IEC Publication 60061. The holder data\r\nsheet relevant to the category of light source(s) prescribed, applies. In addition, where a category of LED\r\nsubstitute light source(s) is also prescribed, the holder data sheet relevant to the category of LED substitute light\r\nsource(s) applies."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0222",
+    "rule": "un-approved-replaceable-source-trigger",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 12,
+      "paragraph": "4.7.2.2"
+    },
+    "before": "The light source holder shall conform to the characteristics in IEC Publication 60061, using the holder data sheet relevant to the prescribed light source category (and to the LED substitute category where prescribed).",
+    "after": "In the case of replaceable UN approved light sources, the light source holder shall conform to the characteristics in IEC Publication 60061, using the holder data sheet relevant to the prescribed light source category (and to the LED substitute category where prescribed).",
+    "reason": "The positioning/holder provisions apply to replaceable UN approved sources, not every light source.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.7.2.2",
+        "pages": [
+          12,
+          13
+        ],
+        "text": "4.7.2.2. In case of replaceable UN approved light source(s),\r\n(a) The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct\r\none;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(b) The light source(s) holder shall conform to the characteristics given in IEC Publication 60061. The holder data\r\nsheet relevant to the category of light source(s) prescribed, applies. In addition, where a category of LED\r\nsubstitute light source(s) is also prescribed, the holder data sheet relevant to the category of LED substitute light\r\nsource(s) applies."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0243",
+    "rule": "multiple-source-alternative-test-context",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.2.3.2"
+    },
+    "before": "Alternatively, such lamps may be tested using one light source in each lamp holder position operating at the reference/objective luminous flux, summing the measured luminous intensities for each direction.",
+    "after": "Alternatively, lamps equipped with multiple replaceable UN approved light sources may be tested using one light source in each individual lamp holder position at the reference/objective luminous flux, summing the measured luminous intensities for each direction.",
+    "reason": "Replace the orphaned subject such lamps with the explicit parent-clause scope.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.2.3",
+        "pages": [
+          14
+        ],
+        "text": "4.8.2.3. In case of lamps equipped with multiple replaceable UN approved light sources:\r\n4.8.2.3.1. shall be operated at a voltage or electrical current setting such that the actual luminous fluxes of the\r\nlight sources do not deviate by more than 5 per cent from the average luminous flux of the light sources. The\r\nmeasured luminous intensities shall be corrected proportionally for the difference between the average luminous\r\nflux and the applicable reference/objective luminous flux.\r\n4.8.2.3.2. alternatively, may be tested by using one light source in each of the individual lamp holder positions\r\noperating at the reference/objective luminous flux and application of the sum of the measured luminous intensities\r\nfor each direction."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0245",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "In no direction where the lamp is visible shall the luminous intensity exceed the maximum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, in no direction where the lamp is visible shall the luminous intensity exceed the maximum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0246",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "On the reference axis (HV), the luminous intensity of each of the two samples shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, on the reference axis (HV), the luminous intensity of each of the two samples shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0247",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "Outside the reference axis, the luminous intensity shall be not less than the minimum specified in the function table multiplied by the percentage given in the pertinent light distribution figure in Annex 3, or not less than the intensity value specified in that figure, for each direction.",
+    "after": "Unless otherwise specified, outside the reference axis, the luminous intensity shall be not less than the minimum specified in the function table multiplied by the percentage given in the pertinent light distribution figure in Annex 3, or not less than the intensity value specified in that figure, for each direction.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0249",
+    "rule": "photometric-default-exception",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 14,
+      "paragraph": "4.8.3.1"
+    },
+    "before": "Within the angles of geometric visibility defined in the tables in Annex 2, the luminous intensity shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "after": "Unless otherwise specified, within the angles of geometric visibility defined in the tables in Annex 2, the luminous intensity shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "reason": "The source makes the four intensity subrules defaults; restore that exception while leaving the separate local-variations sentence unchanged.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0262",
+    "rule": "front-position-reference-axis-minimum",
+    "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 16,
+      "paragraph": "5.1.1"
+    },
+    "before": "The front position lamp (category A, MA) shall emit a luminous intensity of at least 4 cd (4.0E0 cd) in the standard light distribution of Figure A3-I.",
+    "after": "The front position lamp (category A or MA) shall emit a luminous intensity of at least 4 cd on the reference axis (HV).",
+    "reason": "Table 3 assigns 4 cd to paragraph 4.8.3.1(a), the reference-axis minimum; Figure A3-I governs other directions under (c), not a uniform 4 cd minimum.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "Table 3",
+        "pages": [
+          16
+        ],
+        "text": "Table 3 Luminous intensities for front position and front end-outline marker lamps\r\n\r\n Front position             Minimum                Maximum luminous                     Standard light          Angles of geometric\r\n lamps, front end-          luminous               intensity in cd when used as         distribution (Par.      visibility (Par. 4.8.3.1. (d))\r\n outline marker             intensity in cd        (Par. 4.8.3.1. (b))                  4.8.3.1. (c))\r\n lamp of categories         (Par. 4.8.3.1. (a))    A single       A lamp marked                                 Definition     Minimum\r\n\r\n                                                   lamp           \"D\" (Par.                                                    luminous\r\n                                                                  3.3.2.5.2.)                                                  intensity in cd\r\n\r\n A, MA or AM                4∙100                  1.40∙102       7.0∙101               Figure A3-I             Table A2-      5∙10-2\r\n                                                                                                                1"
+      },
+      {
+        "file": "data-ingestion/clauses/UN_R148_base.json",
+        "file_sha256": "da28ffc3d12f9d16d35a2d5d5872e9b1975771bf22c640c7cb79d000303bee12",
+        "regulation": "UN R148",
+        "paragraph": "4.8.3.1",
+        "pages": [
+          14,
+          15
+        ],
+        "text": "4.8.3.1. If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(a) On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in\r\nparagraph 5.;\r\n(b) In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function\r\nin paragraph 5.;\r\n(c) Outside the reference axis,\r\n- be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by\r\nthe percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in\r\nquestion, or\r\n- be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3\r\nfor each direction in question;\r\n(d) Within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum\r\nspecified in the table of the pertinent function in paragraph 5.\r\nThe provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed."
+      }
+    ]
+  },
+  {
+    "case_id": "heldout-front-bumper",
+    "id": "R-0393",
+    "rule": "carriage-impactor-trigger",
+    "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.5.1"
+    },
+    "before": "The carriage shall at the moment of impact be capable of moving freely and no longer be subject to the action of the propelling device.",
+    "after": "If the impactor is secured to a carriage by a restraining element, the carriage shall at the moment of impact be capable of moving freely and no longer be subject to the action of the propelling device.",
+    "reason": "Restore the explicit carriage-mounted-impactor trigger; keep its separate restraining-element requirement.",
+    "evidence": [
+      {
+        "file": "data-ingestion/clauses/UN_R42_base.json",
+        "file_sha256": "b6569b7429da8c268751065553688bb6c9c53e09297ad68eba212ec6f679470c",
+        "regulation": "UN R42",
+        "paragraph": "Annex 3 / 2.5.1",
+        "pages": [
+          7
+        ],
+        "text": "2.5.1. If the impactor is secured to a carriage (moving barrier) by a restraining element, the latter must be rigid\r\nand be incapable of being deformed by the impact; the carriage shall at the moment of impact be capable of\r\nmoving freely and no longer be subject to the action of the propelling device."
+      }
+    ]
+  }
+]

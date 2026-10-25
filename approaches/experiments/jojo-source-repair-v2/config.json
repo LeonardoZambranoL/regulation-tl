@@ -2,12 +2,14 @@
   "name": "Source-faithfulness repair of unsupported scope and orphaned conditions, with exact-clause evidence",
   "owner": "jojo",
   "strategy": "source-repair-v2",
-  "phase": "frozen-before-run",
+  "phase": "executed-and-validated",
   "runtime_model_calls": 0,
   "hard_api_budget_usd": 0,
   "rules": 12,
   "deletions_allowed": false,
   "id_or_citation_changes_allowed": false,
   "baseline_bumper_requirements": 546,
-  "fallback": "../jojo-final-bumper/outputs/fallback-heldout-front-bumper.json"
+  "fallback": "../jojo-final-bumper/outputs/fallback-heldout-front-bumper.json",
+  "strategy_pushed_before_first_run": "22c7f3f",
+  "predicate_correction": "Skip module-code items already conditional on several non-identical modules; found in manual output review, not score selection."
 }

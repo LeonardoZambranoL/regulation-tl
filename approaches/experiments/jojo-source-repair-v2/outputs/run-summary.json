@@ -1,0 +1,48 @@
+{
+  "dev-rear-lamp": {
+    "input_items": 206,
+    "output_items": 206,
+    "changed_text_count": 6,
+    "changed_ids": [
+      "R-0001",
+      "R-0071",
+      "R-0080",
+      "R-0081",
+      "R-0082",
+      "R-0084"
+    ],
+    "output_sha256": "aff8fef627f4549269a97a466df45be5224e32b9c23ac1cdf25f00c8448a2fea"
+  },
+  "holdout-acpe": {
+    "input_items": 163,
+    "output_items": 163,
+    "changed_text_count": 4,
+    "changed_ids": [
+      "R-0001",
+      "R-0057",
+      "R-0067",
+      "R-0150"
+    ],
+    "output_sha256": "bdf85574b7e346e2067d995c5ea12e20555b33e2ebed9b38214413bf5c474245"
+  },
+  "heldout-front-bumper": {
+    "input_items": 546,
+    "output_items": 546,
+    "changed_text_count": 12,
+    "changed_ids": [
+      "R-0082",
+      "R-0195",
+      "R-0200",
+      "R-0221",
+      "R-0222",
+      "R-0243",
+      "R-0245",
+      "R-0246",
+      "R-0247",
+      "R-0249",
+      "R-0262",
+      "R-0393"
+    ],
+    "output_sha256": "cef6a1ee3a8a8fe68793c85d6bf3ac15d10ed411aed58cf1a6fe8f141f62fc94"
+  }
+}
