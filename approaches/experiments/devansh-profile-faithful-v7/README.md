@@ -1,6 +1,6 @@
 # devansh-profile-faithful-v7
 
-Owner: Devansh. Last precision attempts for the held-out bumper: remove only items very unlikely to match an expert
+Owner: Devansh. **Final bumper file: `outputs/submission-heldout-front-bumper.json` (546, round 4).** Last precision attempts for the held-out bumper: remove only items very unlikely to match an expert
 requirement, without losing recall. Both methods and their decision rules were fixed before measuring.
 Explanation: [EXPLAIN.md](EXPLAIN.md).
 
@@ -37,7 +37,7 @@ Only c = 1 passes (c = 2 removes 21% / 33% matched items). Result: dev 334 -> 32
 (estimated from cached matches: 161 / 190 expected); holdout-acpe unchanged (177, F2 0.407). The bands are well
 ordered (the old ranker's rating 2 still matched 28% / 14%), but only the lowest band is safe to cut.
 
-Bumper: v6 429 -> **415** (`outputs/submission-heldout-front-bumper.json`, validate --strict OK).
+Bumper: v6 429 -> 415 (`outputs/submission-heldout-front-bumper-v6-band1.json`, validate --strict OK; superseded by round 4).
 **Caution:** 8 of the 14 dropped bumper items are GTR 9 rationale-part paragraphs (20, 97, 113-116; incl. the lower
 legform limits 19 deg / 6 mm / 170 g) and 4 are R127 5.2.1 / 5.2.2 child-headform HIC limits: the same kinds of items
 whose removal in v4 cost about 10 platform matches. Expected platform F2: 61.7% if none of the 14 match, 61.4% if 1,
@@ -45,6 +45,40 @@ whose removal in v4 cost about 10 platform matches. Expected platform F2: 61.7% 
 (`devansh-profile-faithful-v5/outputs/submission-heldout-front-bumper-v6.json`); only the last upload counts.
 
 Cost: 55 Claude calls, about $3.46 (dev $1.08, ACPE $0.61, bumper $1.77; $5 / $25 per M tokens assumed).
+
+## Round 3: union with Anjaney's certi-pipeline (`combine.py`): rejected
+
+certi-pipeline's bumper file (`predictions_front_bumper_scope.json`, 561 items) scored platform P 31.2 / R 84.1 /
+F2 **62.8%** (~175 matches; v6 154). Test: his file + our items at (regulation, paragraph) pairs he does not cite
+(bumper +111). On the cases with answer keys (his committed outputs + our v3 outputs, union judged once, my key; only
+the union was judged, so the added rate is an upper bound):
+
+| case | his items | our added | added matched |
+|---|---|---|---|
+| dev-rear-lamp | 209 | 146 | 2 (1.4%) |
+| holdout-acpe | 163 | 54 | 0 (0%) |
+
+Far below the 12.6% break-even (his F2 / 5): his pipeline already finds what ours finds (ACPE: 70 of 94 expected
+matched in the union, all by his items; ours alone 45). Cost $0.45.
+
+## Round 4: sureness rater on his file: band 1 dropped -> FINAL bumper file
+
+Same `rate.py` prompt, same rule. Labels for his dev / ACPE items from the round-3 judge runs (no new judge calls).
+
+| band | his dev matched / items | his ACPE matched / items | his bumper items |
+|---|---|---|---|
+| 1 | 0 / 3 | 0 / 0 | 15 |
+| 2 | 24 / 30 | 1 / 4 | 88 |
+| 3 | 49 / 62 | 12 / 30 | 213 |
+| 4 | 80 / 89 | 23 / 84 | 196 |
+| 5 | 23 / 25 | 34 / 45 | 49 |
+
+Only band 1 passes. **`outputs/submission-heldout-front-bumper.json` = his 561 minus 15 band-1 items = 546**
+(validate --strict OK). The 15: stop-lamp / red side-marker / rear-position-lamp clauses, an aerial behind the driver's
+R point, the rearmost side-marker distance, band-lamp construction, a sentence fragment, a communication-form remark.
+Expected platform F2: 63.5% if none of the 15 match, 63.1% if 1, 62.8% (= his) if 2. Leaderboard top: 73.6%.
+If it scores below 62.8%, re-upload his `predictions_front_bumper_scope.json`; only the last upload counts.
+Cost: $2.02 (bumper) + $1.18 (his dev / ACPE). Total v7 spend about $7.1 (about 6.5 EUR).
 
 ## Run
 
