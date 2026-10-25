@@ -1,22 +1,22 @@
 # In plain words
 
-This is the last attempt to make the bumper submission more precise without losing correct answers. It takes the
-best earlier list of requirements and checks three kinds of items that looked like they could never be on the
-experts' list: paperwork rules (approval marks, production checks), near-copies of another item in the same
-regulation, and definitions. Before applying anything, it checked on the two cases with an answer key how many of
-those items the experts actually listed. Too many were right (the paperwork rules were right more often than
-anything else), so nothing is removed and the earlier bumper file (v6, 61.1%) stays the one to upload.
+This takes the best earlier requirement list and tries to remove only the items that are almost surely wrong. First
+it tried simple rules (paperwork sections, near-copies, definitions): on the two cases with an answer key those items
+were right too often, so the rules were dropped. Then Claude read each item next to the regulation text it came from
+and the product description, and gave it a 1-5 score for how likely the experts list it. Only the lowest score was
+right rarely enough (0 of 6) to remove, so 6 items go on the test case and 14 on the bumper. Weakness: that lowest
+group is tiny on the test cases, and on the bumper it contains pedestrian-protection limits that may well be correct.
 
 # Technical
 
-1. Input: devansh-profile-faithful-v3 predictions (dev 334, holdout-acpe 177; files in
-   devansh-profile-faithful-v4/outputs/ablation/*-base.json) and the bumper v6 file (429).
-2. Section of each item: the heading clause (team-parsed clauses, data-ingestion/clauses) of the item's top-level
-   paragraph number or annex at or before its page.
-3. Tests, written down before measuring: A administrative section titles (regex in prune.py), B token Jaccard >= 0.85
-   with an earlier item of the same regulation, C "Definitions" sections.
-4. Validation: hit rate of each test's removed items from the local requirement judge's cached matches
-   (approaches/benchmarking/req_judge.py, claude-opus-5-5, medium; zero new calls). Adoption rule: < 12% (bumper F2 / 5)
-   on both cases.
-5. Measured: A 30/51 dev, 4/5 ACPE; B 1/6 dev, 1/13 ACPE; C none. Nothing adopted; outputs = v3 (dev req F2 0.736,
-   ACPE 0.407). Overfit risk: medium (inherited); no parameter tuned. API cost 0.
+1. Input: devansh-profile-faithful-v3 predictions (dev 334, holdout-acpe 177; devansh-profile-faithful-v4/outputs/
+   ablation/*-base.json) and the bumper v6 file (429).
+2. Round 1 (prune.py, zero API): structural tests A administrative sections, B token Jaccard >= 0.85 within a
+   regulation, C definitions. Removed-item hit rates (cached req_judge matches): A 59% / 80%, B 17% / 8%, C none.
+   Rejected (rule: < 12% on both cases).
+3. Round 2 (rate.py): claude-opus-5-5, effort medium, batches of <= 20 items of one regulation; context = spec +
+   profile, regulation title, full cited clause text (team-parsed clauses, <= 2500 chars). Output: probability band 1-5.
+4. calibrate.py: largest cut-off c with removed hit rate < 12% on dev and holdout-acpe. Result c = 1
+   (dev 0/6, ACPE 0/0; c = 2 would be 21% / 33%).
+5. Output: dev 328 (req F2 0.736 -> 0.740, estimated from cached matches), ACPE 177 (0.407), bumper 415.
+   Overfit risk medium: cut-off rule fixed in advance; band 1 is calibrated on only 6 dev items. Cost about $3.5.

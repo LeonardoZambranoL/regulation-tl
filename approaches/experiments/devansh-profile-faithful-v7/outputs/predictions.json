@@ -2478,17 +2478,6 @@
       "confidence": 5
     },
     {
-      "id": "R-0241",
-      "text": "The coefficient of retro-reflection RA of the retro-reflective areas, when measured after the corrosion test and a recovery period of 48 hours as specified in Part 2 of Annex 6, at an entrance angle of β2 = 5° and an observation angle of α = 20', shall be not less than the value in Table 9 or more than the value in Table 10 respectively.",
-      "source": {
-        "regulation": "UN R150",
-        "version": "1.2.1",
-        "page": 45,
-        "paragraph": "Annex 6 Part 4 4.2"
-      },
-      "confidence": 2
-    },
-    {
       "id": "R-0242",
       "text": "Retro-reflective devices shall withstand exposure in accordance with EN ISO 4892-2:2013 using the parameters given in Table A6-1 for a period of 500 hours.",
       "source": {
@@ -2848,50 +2837,6 @@
         "version": "9.3.0",
         "page": 25,
         "paragraph": "5.18.3"
-      },
-      "confidence": 2
-    },
-    {
-      "id": "R-0280",
-      "text": "Where the rear position lamp, rear direction-indicator or rear retro-reflector functions are obtained by an interdependent lamp system and the complete interdependent lamp system is mounted on the moving component(s), the requirements of paragraph 5.18.1. of UN R48 shall be satisfied.",
-      "source": {
-        "regulation": "UN R48",
-        "version": "9.3.0",
-        "page": 25,
-        "paragraph": "5.18.4"
-      },
-      "confidence": 2
-    },
-    {
-      "id": "R-0281",
-      "text": "Where the complete interdependent lamp system is mounted on the moving component(s) and additional lamps for the above functions are switched ON when the movable component is in any fixed open position, these additional lamps shall satisfy all the position, geometric visibility, colorimetric and photometric requirements applicable to the lamps installed on the movable component.",
-      "source": {
-        "regulation": "UN R48",
-        "version": "9.3.0",
-        "page": 25,
-        "paragraph": "5.18.4"
-      },
-      "confidence": 2
-    },
-    {
-      "id": "R-0282",
-      "text": "Where the interdependent lamp system is partly mounted on the fixed component and partly mounted on a movable component, with the exception of direction indicator lamps, the interdependent lamp(s) specified by the Applicant during the device approval procedure shall meet all the position, outwards geometric visibility, colorimetric and photometric requirements for those lamps, at all fixed positions of the movable component(s).",
-      "source": {
-        "regulation": "UN R48",
-        "version": "9.3.0",
-        "page": 25,
-        "paragraph": "5.18.4"
-      },
-      "confidence": 2
-    },
-    {
-      "id": "R-0283",
-      "text": "Where the interdependent lamp system is partly mounted on the fixed component and partly mounted on a movable component, the inwards geometric visibility requirement(s) shall be deemed satisfied if the interdependent lamp(s) still conform(s) to the photometric values prescribed in the field of light distribution for the approval of the device, at all fixed positions of the movable component(s).",
-      "source": {
-        "regulation": "UN R48",
-        "version": "9.3.0",
-        "page": 25,
-        "paragraph": "5.18.4"
       },
       "confidence": 2
     },
@@ -3576,17 +3521,6 @@
         "paragraph": "6.23.7.3.2"
       },
       "confidence": 2
-    },
-    {
-      "id": "R-0359",
-      "text": "In the case where the non-textured outer lens is excluded and \"7b\" is the apparent surface according to paragraph 2.10.2., function F1 shall not be transparent to function F2 for the reciprocal incorporation of two functions.",
-      "source": {
-        "regulation": "UN R48",
-        "version": "9.3.0",
-        "page": 102,
-        "paragraph": "Part 7"
-      },
-      "confidence": 3
     },
     {
       "id": "R-0360",

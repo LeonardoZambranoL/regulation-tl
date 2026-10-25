@@ -18,11 +18,11 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 | 6 | [devansh-dynregex-allclauses-neutral](experiments/devansh-dynregex-allclauses-neutral/) | 0.7767 | 0.6937 | 0.8596 | 0.4964 | 1.0000 |
 | 7 | [jojo-static-embeddings](experiments/jojo-static-embeddings/) | 0.7722 | 0.8426 | 0.7018 | 0.6290 | 1.0000 |
 | 8 | [devansh-profile-faithful](experiments/devansh-profile-faithful/) | 0.7205 | 0.8446 | 0.5965 | 0.7444 | 0.8750 |
-| 9 | [devansh-profile-faithful-v2](experiments/devansh-profile-faithful-v2/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
-| 10 | [devansh-profile-faithful-v3](experiments/devansh-profile-faithful-v3/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
-| 11 | [devansh-profile-faithful-v4](experiments/devansh-profile-faithful-v4/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
-| 12 | [devansh-profile-faithful-v5](experiments/devansh-profile-faithful-v5/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
-| 13 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
+| 9 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.7176 | 0.8562 | 0.5789 | 0.7436 | 0.7500 |
+| 10 | [devansh-profile-faithful-v2](experiments/devansh-profile-faithful-v2/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
+| 11 | [devansh-profile-faithful-v3](experiments/devansh-profile-faithful-v3/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
+| 12 | [devansh-profile-faithful-v4](experiments/devansh-profile-faithful-v4/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
+| 13 | [devansh-profile-faithful-v5](experiments/devansh-profile-faithful-v5/) | 0.7161 | 0.8532 | 0.5789 | 0.7405 | 0.7500 |
 | 14 | [devansh-llm-clause-filter-writer-ranked](experiments/devansh-llm-clause-filter-writer-ranked/) | 0.7090 | 0.8916 | 0.5263 | 0.7079 | 0.8750 |
 | 15 | [devansh-llm-clause-filter-writer](experiments/devansh-llm-clause-filter-writer/) | 0.7074 | 0.8885 | 0.5263 | 0.7016 | 0.8750 |
 | 16 | [devansh-writer-faithful-ranked](experiments/devansh-writer-faithful-ranked/) | 0.6972 | 0.8681 | 0.5263 | 0.7079 | 0.7500 |
@@ -61,7 +61,7 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 | 8 | [devansh-profile-faithful-v3](experiments/devansh-profile-faithful-v3/) | 0.1935 | 0.7500 | 0.4762 | 0.4911 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful-v3/benchmark-results/6214ea6ae28044d5999aa0ba1dba5fec.json) |
 | 8 | [devansh-profile-faithful-v4](experiments/devansh-profile-faithful-v4/) | 0.1935 | 0.7500 | 0.4762 | 0.4911 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful-v4/benchmark-results/40965618c77b4f6eb8485fd0aeb53025.json) |
 | 8 | [devansh-profile-faithful-v5](experiments/devansh-profile-faithful-v5/) | 0.1935 | 0.7500 | 0.4762 | 0.4911 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful-v5/benchmark-results/91e56381b35e463eba79d4cd57ae41a9.json) |
-| 8 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.1935 | 0.7500 | 0.4762 | 0.4911 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful-v7/benchmark-results/3b4bc021b003423a978c916cb757d34c.json) |
+| 8 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.1935 | 0.7500 | 0.4762 | 0.4911 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful-v7/benchmark-results/4fb293ee904145c6ae0e985d78a73d9a.json) |
 | 13 | [devansh-writer-faithful-ranked](experiments/devansh-writer-faithful-ranked/) | 0.1875 | 0.7500 | 0.4688 | 0.4688 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-writer-faithful-ranked/benchmark-results/d4a392389532422ab4bf8103741ffc7b.json) |
 | 14 | [devansh-profile-faithful](experiments/devansh-profile-faithful/) | 0.1556 | 0.8750 | 0.4545 | 0.4775 | 1/1 | 2 | 0.8333 | [JSON](experiments/devansh-profile-faithful/benchmark-results/9cbee4874d3543518ba66211b71b713f.json) |
 | 15 | [em_devansh-llm-clause-filter](experiments/em_devansh-llm-clause-filter/) | 0.1429 | 1.0000 | 0.4545 | 0.4343 | 1/1 | 2 | 0.8333 | [JSON](experiments/em_devansh-llm-clause-filter/benchmark-results/097309f60c5c40d4a4731a5bf6b401f7.json) |
@@ -96,12 +96,12 @@ Robust score = (dev page F2 + unseen-case clause recall) / 2. The unseen case (`
 | 4 | [devansh-writer-faithful-ranked](experiments/devansh-writer-faithful-ranked/) | 0.6579 | 0.9434 | 0.8681 | 0.7079 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-writer-faithful-ranked/benchmark-results/4b41611eab97422ca4d4a6c0fbb6907a.json) |
 | 5 | [devansh-writer-ranked-scope](experiments/devansh-writer-ranked-scope/) | 0.7966 | 0.8868 | 0.8672 | 0.6799 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-writer-ranked-scope/benchmark-results/72d00926576e4fdfa69b47bea268514f.json) |
 | 6 | [devansh-faithful-plus-deliberate](experiments/devansh-faithful-plus-deliberate/) | 0.6071 | 0.9623 | 0.8615 | 0.7162 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-faithful-plus-deliberate/benchmark-results/a834098c96774a4f86314bf5fcaa4020.json) |
-| 7 | [devansh-agreement-combo](experiments/devansh-agreement-combo/) | 0.6957 | 0.9057 | 0.8541 | 0.7132 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-agreement-combo/benchmark-results/ad0dcd7525484f83adfcccf749fb5bef.json) |
-| 8 | [devansh-profile-faithful-v2](experiments/devansh-profile-faithful-v2/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v2/benchmark-results/8c1e82cc0ee842bc806baf19b7e93f90.json) |
-| 8 | [devansh-profile-faithful-v3](experiments/devansh-profile-faithful-v3/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v3/benchmark-results/36b5f76b2e834408a3ec8a8e12009610.json) |
-| 8 | [devansh-profile-faithful-v4](experiments/devansh-profile-faithful-v4/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v4/benchmark-results/800ee5e5ba5c407197d1b31238c9ffeb.json) |
-| 8 | [devansh-profile-faithful-v5](experiments/devansh-profile-faithful-v5/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v5/benchmark-results/ea35c1c779af41ca91e138e30a386def.json) |
-| 8 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v7/benchmark-results/d9ef342b8f8648c4ad44e706d3397baa.json) |
+| 7 | [devansh-profile-faithful-v7](experiments/devansh-profile-faithful-v7/) | 0.6250 | 0.9434 | 0.8562 | 0.7436 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v7/benchmark-results/3a341778a341420fae0e775bc75bf6c1.json) |
+| 8 | [devansh-agreement-combo](experiments/devansh-agreement-combo/) | 0.6957 | 0.9057 | 0.8541 | 0.7132 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-agreement-combo/benchmark-results/ad0dcd7525484f83adfcccf749fb5bef.json) |
+| 9 | [devansh-profile-faithful-v2](experiments/devansh-profile-faithful-v2/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v2/benchmark-results/8c1e82cc0ee842bc806baf19b7e93f90.json) |
+| 9 | [devansh-profile-faithful-v3](experiments/devansh-profile-faithful-v3/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v3/benchmark-results/36b5f76b2e834408a3ec8a8e12009610.json) |
+| 9 | [devansh-profile-faithful-v4](experiments/devansh-profile-faithful-v4/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v4/benchmark-results/800ee5e5ba5c407197d1b31238c9ffeb.json) |
+| 9 | [devansh-profile-faithful-v5](experiments/devansh-profile-faithful-v5/) | 0.6173 | 0.9434 | 0.8532 | 0.7405 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful-v5/benchmark-results/ea35c1c779af41ca91e138e30a386def.json) |
 | 13 | [devansh-deliberate-faithful-ranked](experiments/devansh-deliberate-faithful-ranked/) | 0.7344 | 0.8868 | 0.8514 | 0.6899 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-deliberate-faithful-ranked/benchmark-results/1809b7f902524e32a8fbf8628cc9c95b.json) |
 | 14 | [devansh-allclauses-writer-scope](experiments/devansh-allclauses-writer-scope/) | 0.6667 | 0.9057 | 0.8451 | 0.6662 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-allclauses-writer-scope/benchmark-results/47e7860fba7a430b94047fc9a02688a3.json) |
 | 15 | [devansh-profile-faithful](experiments/devansh-profile-faithful/) | 0.5952 | 0.9434 | 0.8446 | 0.7444 | 4/4 | 4 | 1.0000 | [JSON](experiments/devansh-profile-faithful/benchmark-results/40065a7b03534198856e15dd6aba48c5.json) |
