@@ -8,10 +8,12 @@ from __future__ import annotations
 
 import json
 import os
+from typing import Callable
 
 from .corpus import APPROACH_DIR, REPO_ROOT
 
-MODEL = "claude-opus-5-5"
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-opus-5-5")
+USAGE_CALLBACK: Callable[[dict], None] | None = None
 
 
 def load_env() -> None:
@@ -55,4 +57,13 @@ def structured(prompt: str, schema: dict, model: str = MODEL, effort: str = "hig
         response = client.beta.messages.create(**params)
     if response.stop_reason == "refusal":
         raise RuntimeError(f"model declined: {response.stop_details}")
+    if USAGE_CALLBACK is not None:
+        usage = response.usage
+        USAGE_CALLBACK({
+            "model": response.model,
+            "input_tokens": getattr(usage, "input_tokens", 0),
+            "output_tokens": getattr(usage, "output_tokens", 0),
+            "cache_read_input_tokens": getattr(usage, "cache_read_input_tokens", 0),
+            "cache_creation_input_tokens": getattr(usage, "cache_creation_input_tokens", 0),
+        })
     return json.loads(next(b.text for b in response.content if b.type == "text"))

@@ -1,0 +1,38 @@
+{
+  "currency": "USD",
+  "scope": "this variant's inference; local cache hits cost zero; evaluation judge excluded",
+  "started_at": "2026-10-24T20:56:46.059834+00:00",
+  "estimated_total_usd": 1.677908,
+  "pricing": {
+    "input": 2.0,
+    "output": 10.0,
+    "cache_write": 2.5,
+    "cache_read": 0.1,
+    "source": "https://www.anthropic.com/claude-sonnet-5-5",
+    "verified": "2026-10-24"
+  },
+  "stages": {
+    "product": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 0,
+      "local_cache_hits": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 0.0
+    },
+    "classification": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 33,
+      "local_cache_hits": 0,
+      "input_tokens": 571564,
+      "output_tokens": 53478,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 1.677908
+    }
+  },
+  "note": "Estimate from API token usage and configured public list prices; not an invoice.",
+  "updated_at": "2026-10-24T20:58:09.904549+00:00"
+}

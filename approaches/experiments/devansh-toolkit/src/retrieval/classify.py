@@ -17,7 +17,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .corpus import CACHE_DIR, DEFAULT_CHALLENGE_DIR, Chunk, load_corpus
+from .corpus import LLM_CACHE_DIR, DEFAULT_CHALLENGE_DIR, Chunk, load_corpus
 
 SHALL = re.compile(r"\b(shall|must)\b", re.IGNORECASE)
 IMPLICIT = re.compile(
@@ -87,10 +87,13 @@ electronic behaviour, tests) given its actual functions and vehicle category; fa
 PROMPTS = {"default": INSTRUCTIONS, "neutral": NEUTRAL_INSTRUCTIONS}
 
 
-def candidates(regulations: set[str], mode: str = "shall") -> list[Chunk]:
+def candidates(regulations: set[str], mode: str = "shall", exclude_labels: tuple[str, ...] = ()) -> list[Chunk]:
     """Clauses the reviewers judge. "shall": only clauses containing shall / must (misses implicit obligations);
-    "all": every clause of the selected regulations."""
-    chunks = [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and c.text.strip()]
+    "all": every clause of the selected regulations. `exclude_labels`: skip clauses cited at a paragraph label starting
+    with one of these words (e.g. "Table", "Figure", "Appendix": value tables whose obligation is imposed, and cited,
+    by the numbered clause that refers to them)."""
+    chunks = [c for c in load_corpus("paragraph", "clauses") if c.regulation in regulations and c.text.strip()
+              and not (exclude_labels and (c.paragraph or "").startswith(tuple(exclude_labels)))]
     if mode == "all":
         return chunks
     if mode == "shall+implicit":
@@ -121,13 +124,13 @@ def classify(spec: str, chunks: list[Chunk], batch_size: int = 40, workers: int 
 
     def run(batch: list[Chunk]) -> dict[int, bool]:
         prompt = _batch_prompt(spec, batch, instructions, notes)
-        cache = CACHE_DIR / f"classify_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
+        cache = LLM_CACHE_DIR / f"classify_{hashlib.sha1((effort + prompt).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return {int(k): v for k, v in json.loads(cache.read_text(encoding="utf-8")).items()}
         data = structured(prompt, schema, effort=effort)
         wanted = {c.id for c in batch}
         out = {d["id"]: d["applies"] for d in data["decisions"] if d["id"] in wanted}
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(out), encoding="utf-8")
         return out
 

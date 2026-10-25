@@ -1,0 +1,11 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-profile-faithful-v2: regulation rules, writer style rules, ranker criteria, implicit-obligation patterns and product-profile prompt were developed after dev-case analysis",
+    "inherits v2's Table / Figure / Appendix candidate exclusion, chosen from a dev error analysis that also examined holdout citation counts"
+  ],
+  "notes": "The relevant-page expansion and exactly-one-output-per-clause rule were specified before benchmarking this variant. The v2 label exclusion affects page selection; every clause on a selected page is still included to preserve the requested one-output-per-clause behavior. V2's rank/drop and restatement merge are omitted because they would remove entries. This variant uses Sonnet 5.5 rather than v2's Opus model and has not yet been benchmarked; output quality may differ. It inherits v2's disclosed holdout exposure."
+}

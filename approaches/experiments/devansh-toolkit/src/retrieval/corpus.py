@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import pickle
 import re
 from dataclasses import dataclass, field
@@ -25,6 +26,9 @@ REPO_ROOT = next(p for p in Path(__file__).resolve().parents if (p / "regulation
 PDF_DIR = REPO_ROOT / "regulations"
 CLAUSE_DIR = REPO_ROOT / "data-ingestion" / "clauses"
 CACHE_DIR = APPROACH_DIR / ".cache"
+# LLM answers (profile, classifier, writer, ranker ...): LLM_CACHE_DIR=<dir> gives an experiment its own cache, so every
+# decision is generated fresh instead of reusing another experiment's answers; the parsed corpus stays in CACHE_DIR
+LLM_CACHE_DIR = Path(os.environ["LLM_CACHE_DIR"]) if os.environ.get("LLM_CACHE_DIR") else CACHE_DIR
 DEFAULT_CHALLENGE_DIR = REPO_ROOT.parent / "industrial-ai-hackathon"
 
 _HEADER = re.compile(r"^UN [^|]+, version [\d.]+ \| page \d+ of \d+\s*$")

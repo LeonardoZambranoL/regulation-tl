@@ -1,0 +1,58 @@
+{
+  "currency": "USD",
+  "scope": "this variant's inference; local cache hits cost zero; evaluation judge excluded",
+  "started_at": "2026-10-24T20:49:47.193457+00:00",
+  "estimated_total_usd": 10.62962,
+  "pricing": {
+    "input": 2.0,
+    "output": 10.0,
+    "cache_write": 2.5,
+    "cache_read": 0.1,
+    "source": "https://www.anthropic.com/claude-sonnet-5-5",
+    "verified": "2026-10-24"
+  },
+  "stages": {
+    "product": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 1,
+      "local_cache_hits": 0,
+      "input_tokens": 6382,
+      "output_tokens": 2266,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 0.035424
+    },
+    "classification": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 207,
+      "local_cache_hits": 0,
+      "input_tokens": 3211095,
+      "output_tokens": 333290,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 9.75509
+    },
+    "strict_writer": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 65,
+      "local_cache_hits": 0,
+      "input_tokens": 197019,
+      "output_tokens": 30311,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 0.697148
+    },
+    "soft_ranker": {
+      "model": "claude-sonnet-5-5",
+      "api_responses": 12,
+      "local_cache_hits": 0,
+      "input_tokens": 43759,
+      "output_tokens": 5444,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "estimated_usd": 0.141958
+    }
+  },
+  "note": "Estimate from API token usage and configured public list prices; not an invoice.",
+  "updated_at": "2026-10-24T20:56:45.996077+00:00"
+}

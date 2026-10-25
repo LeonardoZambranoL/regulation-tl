@@ -13,7 +13,7 @@ import hashlib
 import json
 from concurrent.futures import ThreadPoolExecutor
 
-from .corpus import CACHE_DIR, Chunk, load_corpus
+from .corpus import LLM_CACHE_DIR, Chunk, load_corpus
 
 INSTRUCTIONS = """You are a UNECE type-approval engineer writing the requirements list for the product in <spec>. Each
 numbered clause below was already judged relevant to this product. Rewrite each clause as the individual engineering
@@ -105,13 +105,13 @@ def write(spec: str, chunks: list[Chunk], batch_size: int = 8, workers: int = 6,
 
     def run(batch: list[Chunk]) -> dict[int, list[str]]:
         text = _prompt(spec, batch, parents, PROMPTS[prompt])
-        cache = CACHE_DIR / f"write_{hashlib.sha1((effort + text).encode()).hexdigest()[:16]}.json"
+        cache = LLM_CACHE_DIR / f"write_{hashlib.sha1((effort + text).encode()).hexdigest()[:16]}.json"
         if cache.is_file():
             return {int(k): v for k, v in json.loads(cache.read_text(encoding="utf-8")).items()}
         data = structured(text, schema, effort=effort)
         wanted = {c.id for c in batch}
         out = {d["id"]: [t.strip() for t in d["requirements"] if t.strip()] for d in data["clauses"] if d["id"] in wanted}
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(out), encoding="utf-8")
         return out
 

@@ -1,0 +1,4 @@
+anthropic==2.3.0
+jsonschema>=4.23
+numpy>=1.26
+tqdm>=4.70

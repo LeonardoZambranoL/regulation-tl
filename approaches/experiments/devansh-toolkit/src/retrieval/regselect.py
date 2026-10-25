@@ -31,7 +31,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .corpus import CACHE_DIR, CLAUSE_DIR, DEFAULT_CHALLENGE_DIR, Chunk, load_index
+from .corpus import LLM_CACHE_DIR, CLAUSE_DIR, DEFAULT_CHALLENGE_DIR, Chunk, load_index
 from .pipeline import Pipeline, spec_queries
 from .retrievers.lexical import BM25
 
@@ -207,7 +207,7 @@ def regex_patterns(spec: str) -> list[dict]:
     """Claude writes regexes from the spec alone (cached per spec); invalid patterns are dropped."""
     from .llm import structured
     key = hashlib.sha1(REGEX_PROMPT.format(spec=spec).encode()).hexdigest()[:12]
-    cache = CACHE_DIR / f"regselect_llmregex_{key}.json"
+    cache = LLM_CACHE_DIR / f"regselect_llmregex_{key}.json"
     if cache.is_file():
         patterns = json.loads(cache.read_text(encoding="utf-8"))
     else:
@@ -216,7 +216,7 @@ def regex_patterns(spec: str) -> list[dict]:
             "required": ["regex", "meaning"], "additionalProperties": False}}},
             "required": ["patterns"], "additionalProperties": False}
         patterns = structured(REGEX_PROMPT.format(spec=spec), schema)["patterns"]
-        CACHE_DIR.mkdir(exist_ok=True)
+        LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(patterns, indent=2), encoding="utf-8")
     valid = []
     for p in patterns:
@@ -271,12 +271,12 @@ def select(spec: str, method: str = "combined", k: int = 4, pipe: Pipeline | Non
     elif method == "llm":
         # cached per (spec, prompt) so benchmarks do not pay for the same call twice
         prompt_key = hashlib.sha1(llm_prompt(spec, profiles).encode()).hexdigest()[:12]
-        cache = CACHE_DIR / f"regselect_llm_{prompt_key}.json"
+        cache = LLM_CACHE_DIR / f"regselect_llm_{prompt_key}.json"
         if cache.is_file():
             chosen = json.loads(cache.read_text(encoding="utf-8"))
         else:
             chosen = select_llm(spec, profiles)
-            CACHE_DIR.mkdir(exist_ok=True)
+            LLM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
             cache.write_text(json.dumps(chosen, indent=2), encoding="utf-8")
     elif method == "llm_regex":
         chosen = select_llm_regex(spec, profiles)
