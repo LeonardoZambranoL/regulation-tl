@@ -131,7 +131,7 @@ class CachedLLMClient:
             except Exception:
                 pass
 
-        if os.environ.get("CERTI_OFFLINE", "1") == "1":
+        if os.environ.get("CERTI_OFFLINE", "0") == "1":
             raise RuntimeError(
                 f"CERTI_OFFLINE: cache miss for stage={stage!r}, model={model!r}. "
                 "External API calls are disabled."
@@ -233,7 +233,7 @@ class CachedLLMClient:
                 self.stats["emb_cache_hits"] += 1
             return np.load(cache_path)
 
-        if os.environ.get("CERTI_OFFLINE", "1") == "1":
+        if os.environ.get("CERTI_OFFLINE", "0") == "1":
             raise RuntimeError(
                 f"CERTI_OFFLINE: cache miss for embed_query ({model}). "
                 "External API calls are disabled."
