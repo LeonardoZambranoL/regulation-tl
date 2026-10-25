@@ -72,6 +72,8 @@ class ExtractedObligation(BaseModel):
     measurable: bool = False
     quote_anchor: str = ""
     confidence: float = 0.9
+    subject: str = "product"
+    rating: int = 5
     needs_review: bool = False
     stage_origin: str = "stage3_pass1"
 
@@ -154,6 +156,18 @@ STAGE3_EXTRACTOR_JSON_SCHEMA = obj(
                     condition=STRING,
                     measurable=BOOL,
                     quote_anchor=STRING,
+                    subject={
+                        "type": "string",
+                        "enum": [
+                            "product",
+                            "product_installation",
+                            "whole_vehicle",
+                            "manufacturer_paperwork",
+                            "authority",
+                            "test_laboratory_logistics",
+                        ],
+                    },
+                    rating={"type": "integer", "enum": [1, 2, 3, 4, 5]},
                 )
             ),
         )

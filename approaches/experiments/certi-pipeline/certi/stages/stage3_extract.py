@@ -258,6 +258,8 @@ def run_stage3_and_4(
                             condition=ob.get("condition") or None,
                             measurable=bool(ob.get("measurable", False)),
                             quote_anchor=ob.get("quote_anchor", ""),
+                            subject=ob.get("subject", "product"),
+                            rating=int(ob.get("rating", 5)),
                             stage_origin="stage3_pass1",
                         )
                     )
@@ -323,9 +325,19 @@ def run_stage3_and_4(
                                     condition=ob.get("condition") or None,
                                     measurable=bool(ob.get("measurable", False)),
                                     quote_anchor=ob.get("quote_anchor", ""),
+                                    subject=ob.get("subject", "product"),
+                                    rating=int(ob.get("rating", 5)),
                                     stage_origin="stage4_pass2",
                                 )
                             )
+
+    # Product-neutral subject + confidence gate (fixed in advance, not swept on dev):
+    # keep obligations on the product itself or its installation, rated 3+ ("likely applies") on a 1-5 scale.
+    min_rating = ext_cfg.get("min_rating", 3)
+    keep_subjects = set(ext_cfg.get("keep_subjects", ["product", "product_installation"]))
+    extracted_items = [
+        ob for ob in extracted_items if ob.subject in keep_subjects and ob.rating >= min_rating
+    ]
 
     # Sort extracted items deterministically by (clause_id, paragraph, text)
     extracted_items.sort(key=lambda x: (x.clause_id, x.paragraph, x.text))
