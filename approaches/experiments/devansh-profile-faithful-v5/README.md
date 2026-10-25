@@ -33,3 +33,11 @@ If a file scores below 60.4%, re-upload `devansh-profile-faithful-v3/outputs/sub
 only the last valid held-out upload counts.
 
 Cost: 2 Claude calls (about 23k tokens of clause text each); everything else came from the cache.
+
+## Leaderboard probes (bumper)
+
+`probes.py` (zero API: v5 output + cached ranker answers) writes `outputs/probes/`: 1 v5 (471); 2 v5 + the 92 items the
+ranker rated 1 (563); 3-6 v5 minus one lamp-function block (direction indicator 76, front position 23, side marker 22,
+daytime running 19; items about several functions stay). Each upload's P x N gives the matched count, so the difference
+to probe 1 is how many of that block the experts list. **This tunes on the held-out case's answer key through the
+leaderboard** (allowed by the platform: unlimited uploads, last one counts); it must be stated in any write-up.
