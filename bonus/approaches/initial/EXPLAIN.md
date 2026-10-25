@@ -6,6 +6,8 @@ Repeated actions in a different test procedure or applicability context are kept
 
 # Technical
 
+Deterministic alignment, candidate selection and exhaustive worklists use per-case JSON caches keyed by parsed inputs, requirements and relevant source bytes. Atomic writes protect interrupted preparation; progress messages distinguish recomputation from reuse. The prepared worklist is passed directly to execution, avoiding a second build. Model response caching and classification behavior are unchanged.
+
 Case selection supports `dev` (R175 0.1.0 to 1.0.0) and `heldout` (R171 1.1.0 to 2.0.0). Held-out submissions, audits and logs are isolated in `outputs/heldout/`, with separate model caches and PDF-hash ingestion caches. Shared base ingestion is selected by configured regulation and checked against its version. Held-out configuration has not been run or scored.
 
 1. Reuse the shared `data-ingestion/text/UN_R175_base.txt` and `data-ingestion/clauses/UN_R175_base.json`; process each new PDF once through `data-ingestion/pdf_to_txt.py` and `data-ingestion/txt_to_clauses.py`, cached by SHA-256.

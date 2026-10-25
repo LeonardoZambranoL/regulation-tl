@@ -510,11 +510,44 @@ def _resolve_citation(page: int, paragraph: str | None, clauses: list[dict]) -> 
     for clause in candidates:
         if _label(clause.get("paragraph")) == cited:
             return {"page": page, **({"paragraph": clause["paragraph"]} if clause.get("paragraph") else {})}
+    # Printed annex paragraphs often omit their enclosing annex/appendix labels.
+    # Restore the qualified label only when the source and page identify it uniquely.
+    if re.match(r"^\d", cited):
+        scoped = []
+        for clause in candidates:
+            qualified = str(clause.get("paragraph") or "")
+            if "/" not in qualified:
+                continue
+            local = qualified.rsplit("/", 1)[-1].strip()
+            # Reuse the same suffix checks for annex list items, ranges and tables.
+            # The local alias contains no slash, so this cannot recurse again.
+            try:
+                _resolve_citation(page, paragraph, [{**clause, "paragraph": local}])
+            except ValueError:
+                continue
+            scoped.append(clause)
+        if len(scoped) == 1:
+            return {"page": page, "paragraph": scoped[0]["paragraph"]}
+        if len(scoped) > 1:
+            raise ValueError(f"Ambiguous unqualified annex citation {paragraph!r} on page {page}")
     for clause in sorted(candidates, key=lambda c: len(_label(c.get("paragraph"))), reverse=True):
         parent = _label(clause.get("paragraph"))
         if not parent or not cited.startswith(parent):
             continue
         suffix = cited[len(parent):].strip()
+        table_item = re.fullmatch(
+            r"\.?\s*table\s+(\d+)\s*(?:[,;:]\s*)?(?:item|row)\s+(\d+(?:\.[a-z])?)\.?",
+            suffix,
+        )
+        if table_item:
+            table_number, item = table_item.groups()
+            text = clause.get("text", "").casefold()
+            table_heading = re.search(r"\btable\s+" + re.escape(table_number) + r"\b", text)
+            # A number in prose is not evidence of a numbered table row.
+            row = re.search(r"(?m)^\s*" + re.escape(item) + r"\.\s+\S", text)
+            if table_heading and row and row.start() > table_heading.start():
+                return {"page": page, "paragraph": clause["paragraph"]}
+            continue
         item_range = re.fullmatch(
             r"\.?\s*\(\s*([a-z]|[0-9]+)\s*\)\s*(?:[-–—]|to)\s*\(\s*([a-z]|[0-9]+)\s*\)",
             suffix,
@@ -546,10 +579,10 @@ def _resolve_citation(page: int, paragraph: str | None, clauses: list[dict]) -> 
 
 def run_exhaustive(requirements: list[dict],old_doc: dict,new_doc: dict,regulation: str,old_version: str,new_version: str,
                    model: str,cache_dir: Path,output_dir: Path,team_id: str,case_id: str,
-                   old_batch=10,new_batch=6,assemble_only=False) -> tuple[dict,dict]:
+                   old_batch=10,new_batch=6,assemble_only=False,prepared_work=None) -> tuple[dict,dict]:
     from retrieval import llm
     from threading import Lock
-    old_work,new_work,align=build_work(requirements,old_doc,new_doc)
+    old_work,new_work,align=prepared_work if prepared_work is not None else build_work(requirements,old_doc,new_doc)
     plan=estimate(old_work,new_work,old_batch,new_batch)
     automatic = [x for x in old_work if x["unchanged_gate"]["automatic_unchanged"]]
     automatic_ids = {x["requirement"]["id"] for x in automatic}

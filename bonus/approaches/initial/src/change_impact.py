@@ -743,6 +743,7 @@ def _validate_submission(submission: dict, old: list[dict], schema_path: Path) -
 
 
 def run_case(args, root: Path) -> int:
+    print(f"[prepare] Loading {args.case} inputs and cached regulation text", flush=True)
     challenge = Path(os.environ.get("INDUSTRIAL_AI_HACKATHON", root.parents[2].parent / "industrial-ai-hackathon"))
     case_dir = challenge / "subgoal" / args.case
     config = json.loads((root / "config.json").read_text(encoding="utf-8"))
@@ -776,8 +777,16 @@ def run_case(args, root: Path) -> int:
         for key,current in (("old_pdf_sha256",old_doc["sha256"]),("new_pdf_sha256",new_doc["sha256"]),("model",config.get("model",DEFAULT_MODEL))):
             if saved_preflight.get(key)!=current:
                 raise ValueError(f"Assembly-only inputs differ from the cached run: {key}. No API calls were made.")
-    alignment = align_provisions(old_doc, new_doc)
-    candidate_data = candidate_set(old_doc, new_doc, requirements, alignment)
+    from preparation_cache import cached_prepare
+    preparation_dir = cache_dir / "preparation" / args.case
+    preparation_sources = [Path(__file__), root / "src" / "tool_agent.py",
+                           root / "src" / "preparation_cache.py"]
+    preparation_inputs = {"old_doc": old_doc, "new_doc": new_doc, "requirements": requirements}
+    alignment = cached_prepare(preparation_dir, "alignment", preparation_inputs,
+                               preparation_sources, lambda: align_provisions(old_doc, new_doc))
+    candidate_data = cached_prepare(preparation_dir, "candidates", preparation_inputs,
+                                   preparation_sources,
+                                   lambda: candidate_set(old_doc, new_doc, requirements, alignment))
 
     benchmark_path = root / "benchmarking" / f"ablation-{args.case}.json"
     benchmark_path.parent.mkdir(parents=True, exist_ok=True)
@@ -789,8 +798,12 @@ def run_case(args, root: Path) -> int:
     exhaustive_plan = None
     if exhaustive_requested:
         from exhaustive import build_work as build_exhaustive_work, estimate as estimate_exhaustive
-        exhaustive_old, exhaustive_new, exhaustive_alignment = build_exhaustive_work(
-            requirements, ingested["old_doc"], ingested["new_doc"])
+        exhaustive_old, exhaustive_new, exhaustive_alignment = cached_prepare(
+            preparation_dir, "exhaustive-work",
+            {"old_doc": ingested["old_doc"], "new_doc": ingested["new_doc"],
+             "requirements": requirements},
+            preparation_sources + [root / "src" / "exhaustive.py"],
+            lambda: build_exhaustive_work(requirements, ingested["old_doc"], ingested["new_doc"]))
         exhaustive_work = (exhaustive_old, exhaustive_new)
         exhaustive_plan = estimate_exhaustive(exhaustive_old, exhaustive_new)
     for level in ablations:
@@ -872,7 +885,8 @@ def run_case(args, root: Path) -> int:
         exhaustive_submission,audit=run_exhaustive(
             requirements,ingested["old_doc"],ingested["new_doc"],config["regulation"],config["old_version"],
             config["new_version"],model,cache_dir/"exhaustive"/args.case,output_dir,args.team_id,config["case_id"],
-            assemble_only=args.assemble_only)
+            assemble_only=args.assemble_only,
+            prepared_work=(*exhaustive_work, exhaustive_alignment))
         problems=_validate_submission(exhaustive_submission,requirements,schema_path)
         if problems:raise RuntimeError("Exhaustive submission validation failed:\n"+"\n".join(problems))
         results["exhaustive"]=exhaustive_submission

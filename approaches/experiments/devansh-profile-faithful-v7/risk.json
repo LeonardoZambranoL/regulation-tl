@@ -1,0 +1,15 @@
+{
+  "level": "medium",
+  "uses_llm": true,
+  "deterministic": false,
+  "uses_gold": false,
+  "tuned_on_dev": [
+    "inherits devansh-profile-faithful-v3's predictions (see that folder's risk.json)",
+    "the three pruning tests and the adoption rule were written down before any measurement; hit rates of the removed items were then read from the local judge's cached matches on dev-rear-lamp and holdout-acpe (validation only). No component passed, so the outputs equal v3's",
+    "round 2: the cut-off (drop band 1) was chosen by a rule fixed in advance from hit rates on dev and holdout-acpe (cached judge matches); band 1 rests on 6 dev items, 0 ACPE items. The rater prompt says experts are inclusive about marking / approval / CoP obligations because round 1 measured those at 59-80% matched"
+  ],
+  "not_tuned": [
+    "no threshold was swept; the 0.85 Jaccard and 12% break-even (= bumper F2 / 5) were fixed in advance"
+  ],
+  "notes": "Bumper test file 415 (v6 minus 14 band-1 items, 12 of them GTR 9 rationale / R127 headform limits). If it scores below v6's 61.1%, re-upload v6."
+}

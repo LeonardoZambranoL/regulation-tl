@@ -3292,5 +3292,209 @@
         "f2": 0.4910714285714286
       }
     }
+  },
+  {
+    "run_id": "d9ef342b8f8648c4ad44e706d3397baa",
+    "approach": "devansh-profile-faithful-v7",
+    "status": "completed",
+    "completed_at": "2026-10-25T09:55:34.870977+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v7\\outputs\\predictions.json",
+    "prediction_sha256": "0de6f095a49867f66d0d65d50efdd49181eb699088f3025b84c63f0f17bb9102",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n_submitted": 4,
+        "n_expected": 4,
+        "n_matched": 4,
+        "f2": 1.0
+      },
+      "page_level": {
+        "precision": 0.6172839506172839,
+        "recall": 0.9433962264150944,
+        "f1": 0.746268656716418,
+        "n_submitted": 81,
+        "n_expected": 53,
+        "n_matched": 50,
+        "f2": 0.8532423208191128
+      },
+      "clause_level": {
+        "precision": 0.4666666666666667,
+        "recall": 0.8677685950413223,
+        "f1": 0.6069364161849711,
+        "n_submitted": 225,
+        "n_expected": 121,
+        "n_matched": 105,
+        "f2": 0.7404795486600847
+      }
+    }
+  },
+  {
+    "run_id": "3b4bc021b003423a978c916cb757d34c",
+    "approach": "devansh-profile-faithful-v7",
+    "status": "completed",
+    "completed_at": "2026-10-25T09:55:35.154480+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v7\\outputs\\predictions-holdout-acpe.json",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
+    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "n_submitted": 2,
+        "n_expected": 1,
+        "n_matched": 1,
+        "f2": 0.8333333333333334
+      },
+      "page_level": {
+        "precision": 0.1935483870967742,
+        "recall": 0.75,
+        "f1": 0.30769230769230765,
+        "n_submitted": 31,
+        "n_expected": 8,
+        "n_matched": 6,
+        "f2": 0.4761904761904762
+      },
+      "clause_level": {
+        "precision": 0.3055555555555556,
+        "recall": 0.5789473684210527,
+        "f1": 0.4000000000000001,
+        "n_submitted": 108,
+        "n_expected": 57,
+        "n_matched": 33,
+        "f2": 0.4910714285714286
+      }
+    }
+  },
+  {
+    "run_id": "3a341778a341420fae0e775bc75bf6c1",
+    "approach": "devansh-profile-faithful-v7",
+    "status": "completed",
+    "completed_at": "2026-10-25T10:03:00.628367+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v7\\outputs\\predictions.json",
+    "prediction_sha256": "3dece6a1061d95039ecfd08c18bbc49c2f5f4650665d0c36fe5efb81b6c2656a",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\expected.json",
+    "gold_sha256": "dc4bf7baae68cb39d0ad2abff36c82e26eff6ef1c4c86151955915148002e02b",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n_submitted": 4,
+        "n_expected": 4,
+        "n_matched": 4,
+        "f2": 1.0
+      },
+      "page_level": {
+        "precision": 0.625,
+        "recall": 0.9433962264150944,
+        "f1": 0.7518796992481204,
+        "n_submitted": 80,
+        "n_expected": 53,
+        "n_matched": 50,
+        "f2": 0.8561643835616438
+      },
+      "clause_level": {
+        "precision": 0.47297297297297297,
+        "recall": 0.8677685950413223,
+        "f1": 0.6122448979591836,
+        "n_submitted": 222,
+        "n_expected": 121,
+        "n_matched": 105,
+        "f2": 0.7436260623229463
+      }
+    }
+  },
+  {
+    "run_id": "4fb293ee904145c6ae0e985d78a73d9a",
+    "approach": "devansh-profile-faithful-v7",
+    "status": "completed",
+    "completed_at": "2026-10-25T10:03:01.121531+00:00",
+    "evaluator": "official-local-f2-v1-6de0fe1e0763",
+    "scorer_sha256": "6de0fe1e07632bb7ec85c877a761c6fab800188b181bdae1d666d91ffad2b148",
+    "validation": {
+      "prediction": "passed",
+      "gold": "passed",
+      "validator_sha256": "f6f59b86b91221a22d6a4f5d20ce66f8dc383bbc62871b68b85c4391acb671b2",
+      "schema_sha256": "500391f4b4f940e1f896784e3ecf373b4d14e31520ba4076af47ed5c920bcab7",
+      "index_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\industrial-ai-hackathon\\regulations\\index.json",
+      "index_sha256": "2db9f52b8032c65df1b25b14753473d50da62caa218a02d26a6b3826adb177a4",
+      "regulation_versions_checked": true
+    },
+    "prediction_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\experiments\\devansh-profile-faithful-v7\\outputs\\predictions-holdout-acpe.json",
+    "prediction_sha256": "bdc784158c39f376743d79fc3717b1c0df31de92dc94118ef87c41ebba131309",
+    "gold_path": "C:\\Users\\devan\\Desktop\\Competitions\\Hackathon- Certify\\regulation-tl\\approaches\\benchmarking\\cases\\holdout-acpe\\expected.json",
+    "gold_sha256": "8b3002792505a7667b81d2673c4117fa810173692793086508006ed12d60acaf",
+    "ranking_metric": "page_level.f2",
+    "metrics": {
+      "regulation_level": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "n_submitted": 2,
+        "n_expected": 1,
+        "n_matched": 1,
+        "f2": 0.8333333333333334
+      },
+      "page_level": {
+        "precision": 0.1935483870967742,
+        "recall": 0.75,
+        "f1": 0.30769230769230765,
+        "n_submitted": 31,
+        "n_expected": 8,
+        "n_matched": 6,
+        "f2": 0.4761904761904762
+      },
+      "clause_level": {
+        "precision": 0.3055555555555556,
+        "recall": 0.5789473684210527,
+        "f1": 0.4000000000000001,
+        "n_submitted": 108,
+        "n_expected": 57,
+        "n_matched": 33,
+        "f2": 0.4910714285714286
+      }
+    }
   }
 ]
