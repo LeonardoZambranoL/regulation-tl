@@ -6,6 +6,8 @@ Repeated actions in a different test procedure or applicability context are kept
 
 # Technical
 
+Optional `recover.py` uses Sonnet and the completed run to reassess clauses with additions, modified-existing handoffs, and rejected existing obligations in textually changed clauses. It supplies the requirement inventory, prior decisions/output, full-corpus top-ten lexical matches, references and neighboring context. Handoffs explicitly name old IDs, which are re-reviewed alongside all non-automatic old decisions. It checks atomicity and source scope, then writes a separate candidate and entry-by-entry difference report under `outputs/<case>/recovery/`. Responses are cached, cost is estimated before requests, and the baseline submission is not overwritten. Recovery has not been run or benchmarked; better recall is not established.
+
 Deterministic alignment, candidate selection and exhaustive worklists use per-case JSON caches keyed by parsed inputs, requirements and relevant source bytes. Atomic writes protect interrupted preparation; progress messages distinguish recomputation from reuse. The prepared worklist is passed directly to execution, avoiding a second build. Model response caching and classification behavior are unchanged.
 
 Case selection supports `dev` (R175 0.1.0 to 1.0.0) and `heldout` (R171 1.1.0 to 2.0.0). Held-out submissions, audits and logs are isolated in `outputs/heldout/`, with separate model caches and PDF-hash ingestion caches. Shared base ingestion is selected by configured regulation and checked against its version. Held-out configuration has not been run or scored.

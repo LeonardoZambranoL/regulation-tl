@@ -1,0 +1,1656 @@
+{
+  "team_id": "team-11",
+  "case_id": "subgoal-heldout",
+  "changes": [
+    {
+      "requirement_id": "R-013",
+      "change": "modified",
+      "reason": "Track B handoff (R-013, modified_existing) resolved as modified. The old 5.3.5.1 required the system to transition into 'stand-by' mode when a boundary was exceeded. The new 5.3.5.1 (page 9) requires the system or applicable feature to leave 'active' mode, with an exception for the driver unavailability response. This changes the target mode and adds the exception, so the old obligation is replaced rather than unchanged. Evidence: the new clause applies when DCAS or a feature is in 'on' mode, and the old text was a direct counterpart of the same sentence. Neighboring 5.3.5.1.1 and 5.5.3.3.3 still reference 'stand-by' transitions, but they are separate obligations and do not restore the old rule. The new clause's additional rules on disengaged-driver behaviour, the 10 s driver unavailability response and assistance termination are separate obligations. They are not folded into R-013; only the boundary-exceeded mode-exit obligation is carried here. The 'stand-by' wording is no longer mandated for this trigger, so the change is substantive.",
+      "new_text": "If the system identifies that the system or feature boundary is exceeded while DCAS or a DCAS feature is in 'on' mode, the system or the applicable feature shall leave the 'active' mode, with the exception of the driver unavailability response, and shall immediately notify the driver in accordance with the manufacturer's strategies (paragraph 5.3.5.2) and the HMI requirements of paragraph 5.5.4.1.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-014",
+      "change": "modified",
+      "reason": "No Track B handoffs were supplied, so there is nothing to resolve. The old requirement was the immediate driver notification when a boundary is exceeded, with references to 5.3.5.2 and 5.5.4.1. The new 5.3.5.1 (p.9) keeps this obligation and both references, so the obligation is not removed. The previous 'unchanged' decision is not fully accurate, because the trigger and condition wording changed. The old text had no 'leave active mode' wording. The new text says that the system or feature shall leave 'active' mode, except for the driver unavailability response, and then notify the driver. The old text in this ID did not include the mode transition, which was old 'transition into stand-by'. The new text changes the applicability of the notification, so the requirement is modified to carry the new exception wording. The newly added driver-disengaged continued assistance and the 10-second driver unavailability response are separate obligations and are not folded into R-014. The dependencies 5.3.5.2 and 5.5.4.1 are text-identical in the new context. 5.5.4.1.1(d) still has the boundary-reached notification. A full review of the retrieved context found no other clause that removes the notification.",
+      "new_text": "If the DCAS identifies that the system or feature boundary is exceeded while DCAS or a DCAS feature is in 'on' mode, then the system or the applicable feature shall leave the 'active' mode, with the exception of the driver unavailability response, and shall immediately notify the driver in accordance with the strategies described by the manufacturer as outlined in paragraph 5.3.5.2. and according to the HMI requirements defined in paragraph 5.5.4.1.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-021",
+      "change": "modified",
+      "reason": "Handoff resolved as modified (modified_existing, R-021). The same obligation, paragraph 5.3.7.2.1.1, is in both versions (old p.10, new p.11), so it is not a new procedure and not removed. The old gate was 'driver is not detected to be disengaged'. The new text uses 'not deemed to be disengaged (as specified in paragraphs 5.5.4.2.4. and 5.5.4.2.5.) for more than 2 seconds immediately prior to its start'. That adds a 2-second time qualifier and a changed criterion with cross-references to the deeming rules. Conditions (a)-(c) by manoeuvre type are unchanged. The final sentence, that motoric disengagement may not be considered when HORs are withheld, is retained in the new clause, and the previous decision's new_text kept it as well. The handoff obligation text omitted this sentence, but the clause text includes it, so it is retained here as an applicability condition. Neighbouring clauses 5.3.7.2.1.2 (detection range) and 5.5.4.2.5.x (visual disengagement) are different obligations and are not substituted. 5.5.4.2.4 does not appear in the supplied new context. This is not evidence of removal, since the clause itself still cites it.",
+      "new_text": "A manoeuvre shall only be initiated if the driver is not deemed to be disengaged (as specified in paragraphs 5.5.4.2.4. and 5.5.4.2.5.) for more than 2 seconds immediately prior to its start, and the driver: (a) has commanded the system to perform the manoeuvre for a driver-initiated manoeuvre; or (b) has acknowledged the system's intention as needed for a driver-confirmed manoeuvre; or (c) is given sufficient notice to react for a system-initiated manoeuvre. Motoric disengagement may not be considered when HORs are being withheld by the system.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.3.7.2.1.1"
+      }
+    },
+    {
+      "requirement_id": "R-023",
+      "change": "removed",
+      "reason": "Old 5.3.7.2.3.1 (p.10) stated that the requirements in 5.5.4.1.8 and subparagraphs shall apply, in addition to a driver-confirmation-time obligation. New 5.3.7.2.3.1 (p.12) retains only the sentence that the system shall be designed to ensure the driver has sufficient time to confirm that the system may proceed with the manoeuvre. The explicit reference to 5.5.4.1.8 is deleted. The 5.3.7.2.3 chapeau (new p.12) only says that paragraph and its subparagraphs apply to features capable of driver-confirmed manoeuvres. It does not mention 5.5.4.1.8. The sibling 5.3.7.2.3.2 only requires a specific signal per 5.5.4.1, which is a different and broader reference and not an application of 5.5.4.1.8. 5.5.4.1.9.1 (new p.19) says 5.5.4.1.8 applies equally to system-initiated manoeuvres, which is a different context and a different obligation. Annex 3 Appendix 2 item 2.1.7 only requires documentation of timings and strategy, not application of 5.5.4.1.8. The 5.5.4.1.8 text itself is unchanged, and its heading is for driver-confirmed manoeuvres, but it is only a standalone clause and no longer cross-referenced from 5.3.7.2.3.1. No handoffs were supplied, so there were none to resolve. The retrieved candidates show no clause in the new version that carries the old obligation, so the requirement is removed. Any residual applicability of 5.5.4.1.8 rests on its own heading and not on this requirement."
+    },
+    {
+      "requirement_id": "R-025",
+      "change": "removed",
+      "reason": "Old R-025 (old 5.3.7.2.4.2, p.11) prohibited initiating a manoeuvre if the system had presented an EOR in the 7 seconds before initiation. No handoffs were supplied, so there is nothing further to resolve. In the new corpus, 5.3.7.2.4.2 (p.12) reads only 'The strategies shall be implemented to ensure appropriate driver engagement prior to the initiation of the manoeuvre, which shall be documented and explained.' This corresponds to old 5.3.7.2.4.2.1, a separate documentation/strategy obligation, and it must not replace the old lockout. The neighbouring new clauses give no equivalent: 5.3.7.2.4.1 covers driver rejection of a manoeuvre, 5.3.7.2.4.3 covers justifiable reason, 5.3.7.2.4.9 covers the driver acknowledgement of information material, and 5.3.7.2.4.10 covers collision-mitigation manoeuvres. 5.5.4.2.6.3.1 (DCA within 5 seconds after EOR escalation) is a different obligation. Table 1 reporting (7.2.3.1) mentions EORs only for reporting. The 7-second EOR figure and any link between EOR presentation and blocking manoeuvre initiation do not appear in the supplied new context. This conclusion rests on that context covering the manoeuvre clauses and neighbouring HMI and reporting clauses, not on absence from retrieved candidates alone. The previous removal decision is confirmed."
+    },
+    {
+      "requirement_id": "R-026",
+      "change": "modified",
+      "reason": "Handoff (R-026, modified_existing, new 5.3.7.2.4.2): resolved as modified. Old 5.3.7.2.4.2.1 required 'further strategies' in addition to the 7-second EOR lockout in old 5.3.7.2.4.2. New 5.3.7.2.4.2 (page 12) reads 'The strategies shall be implemented to ensure appropriate driver engagement prior to the initiation of the manoeuvre, which shall be documented and explained.' The core obligation (driver engagement strategies before initiation, documented and explained) is retained, but the 'In addition, further' framing is dropped. Applicability is carried over from 5.3.7.2.4, which limits its subparagraphs to features capable of system-initiated manoeuvres (new context, page 12). The 7-second EOR lockout is not in the supplied new context. The retrieved new neighbouring clauses (5.3.7.2.1.1, 5.5.4.2.7.2, 5.5.4.2.8) address different obligations: a 2-second disengagement condition, additional driver-state monitoring, and disablement. These are not substituted for the old obligation. Absence of the lockout from the retrieved candidates is not proof of its removal, and I do not rely on it. The old ID R-026 concerned only the further-strategies obligation, so it remains and is modified rather than removed. The 'documented and explained' element is made explicit in new_text because the old clause had it and the new clause keeps it.",
+      "new_text": "For features capable of performing system-initiated manoeuvres, the strategies shall be implemented to ensure appropriate driver engagement prior to the initiation of the manoeuvre, and these strategies shall be documented and explained.",
+      "source": {
+        "page": 12,
+        "paragraph": "5.3.7.2.4.2"
+      }
+    },
+    {
+      "requirement_id": "R-027",
+      "change": "modified",
+      "reason": "The previous 'unchanged' decision is revised. The documentation and explanation obligation is retained in new 5.3.7.2.4.2 (page 12, within 5.3.7.2.4, which applies to system-initiated manoeuvres). However, the old text was framed as 'further' strategies, 'in addition' to the 7-second EOR (emergency-or-override request) prohibition in old 5.3.7.2.4.2. The new 5.3.7.2.4.2 no longer contains that prohibition and no longer says 'further'. Neighbouring clauses 5.3.7.2.4.1 and 5.3.7.2.4.3 do not restate it. The new text therefore refers to 'the strategies', with no stated baseline, and the new paragraph states the obligation on its own. The documentation obligation itself is not lost, so this is not a removal, and the 7-second rule is a separate obligation that is not folded into R-027. No Track B handoffs were supplied (handoffs is empty), so none need resolving. The lexical search of the supplied new context found no replacement for the 7-second EOR rule. That absence only covers the retrieved excerpts, so I do not treat it as proof of removal for any other requirement. The related new clause Annex 3 Appendix 2 5.1.3 (driver engagement influencing manoeuvre execution) is a different obligation and is not substituted for R-027.",
+      "new_text": "The strategies implemented to ensure appropriate driver engagement prior to the initiation of a manoeuvre shall be documented and explained. This applies to features capable of performing system-initiated manoeuvres.",
+      "source": {
+        "page": 12,
+        "paragraph": "5.3.7.2.4.2"
+      }
+    },
+    {
+      "requirement_id": "R-028",
+      "change": "modified",
+      "reason": "Track B handoff resolved as modified (modified_existing, R-028). The supplied clause 5.3.7.2.1.13 (page 11) restates the old 5.3.7.2.4.3 duty almost verbatim: describe in the safety concept the system behaviour when the driver is detected disengaged during a manoeuvre. The clause sits under 5.3.7.2.1 General Requirements, so its scope is wider than the old duty, which sat under 5.3.7.2.4 (system-initiated manoeuvres). The word 'also' is dropped. The examples change from risk mitigation function, full execution and stop the vehicle to aborting, fully executing and safe stop. The duty is the same and is not replaced by a different obligation, so it is modified, not removed. The new 5.3.7.2.4.x numbering contains no counterpart, which is consistent with relocation. Related provisions are different obligations and do not substitute for R-028: 5.3.5.1 covers disengagement beyond a system boundary, 5.5.3.4.1.5 and 5.3.6.2 cover controllability. The new_text preserves the carried-over duty and adds the wider applicability.",
+      "new_text": "The manufacturer shall describe in the safety concept the system behaviour in case the driver is detected to be disengaged during a manoeuvre (e.g., aborting the manoeuvre, fully executing a manoeuvre, bringing the vehicle to a safe stop). This applies to all manoeuvres covered by the General Requirements for manoeuvres, not only system-initiated ones.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.3.7.2.1.13"
+      }
+    },
+    {
+      "requirement_id": "R-036",
+      "change": "removed",
+      "reason": "Old R-036 (5.3.7.2.4.10) restricted initiating a manoeuvre to when the vehicle is on a highway (including slip roads) and the system is not withholding HORs. The supplied new context has no counterpart. New 5.3.7.2.4.10 is a different obligation: a system-initiated manoeuvre may be initiated, notwithstanding 5.3.7.2.1.1, to mitigate an imminent collision, followed by a DCA and disabling per 5.5.4.2.8. It does not carry the old road-type/HOR gate and must not be substituted for it. Neighbouring clauses 5.3.7.2.4.1, .4, .5, .6 and .9 cover driver rejection, conditions, other road users, signage and the acknowledgement request. 5.3.7.2.1.1 only keeps the driver-disengagement and motoric-disengagement conditions. None restates a highway or highway-slip-road restriction or a not-withholding-HORs condition on manoeuvre initiation. Annex 1 items 6.4 and 6.4.1 only declare whether the system can withhold HORs, and on highway-like roads. They are declarations, not manoeuvre-initiation restrictions. The previous decision's 5.5.4.2.6.5 text and the 'highway-like road' wording were not found in the supplied new context. 5.5.4.2.6.5 would govern withholding HORs, which is a different obligation from restricting manoeuvre initiation, so it cannot support a modification. The previous 'modified' text added highway-like roads and a speed limit that the old text did not contain, so it is unsupported. Retrieval is limited to the supplied excerpts, so absence is not proof of removal in the full regulation, but nothing supplied supports a replacement obligation. No Track B handoffs were supplied (handoffs is empty), so none need resolving. Decision: removed."
+    },
+    {
+      "requirement_id": "R-041",
+      "change": "modified",
+      "reason": "Track B handoff (existing_id R-041, disposition modified_existing) resolved as modified. Evidence: old 5.3.7.2.5.3.1 (page 12) read 'For highway operation, the system shall aim to respond to work zones, lane reductions, lane closures, toll stations and end of highways (e.g., ...)'. New 5.3.7.2.5.3.1 (page 13) reads 'For highway or highway-like road operation, ...' with the same actor, 'aim to respond' action, listed situations and example responses. The only change is the wider applicability condition, so this is the same obligation with a changed scope and not a new one. Neighboring clauses checked: new 5.3.7.2.5.3.2 (non-highway operation, system-initiated manoeuvres) is a different obligation and was not substituted. New 5.3.7.2.5.3.3 (lane marking recognition) is separate. New 5.5.4.2.6.5 (HOR withholding on highway-like roads, HOR timing at end of a highway-like road) covers a different obligation and does not replace or remove R-041. Dependency or neighbor changes elsewhere, such as 5.3.5.1 on system boundary response, do not alter R-041 and need no change. The previous modified decision is confirmed. Because the new clause is present verbatim in the supplied new context, the decision rests on direct evidence and not on absence from retrieval results.",
+      "new_text": "For highway or highway-like road operation, the system shall aim to respond to work zones, lane reductions, lane closures, toll stations and end of highways (e.g., by notifying the driver, issuing a DCA, or continuing operation if capable).",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.5.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-043",
+      "change": "modified",
+      "reason": "Track B handoff resolved as modified. The old R-043 required that 'the system' comply with the R79 04 series RMF requirements and transitional provisions. Supplied new paragraph 5.3.7.3.1 (page 14) still carries the same obligation and the same R79 04 or later series reference. However, its subject is now 'The system's driver unavailability response', which narrows what must comply. The handoff text matches the clause text. The clause's second sentence (safe stop in accordance with RMF requirements after driver unavailability following the 5.5.4.2.6 escalation sequence) restates the trigger and is a related obligation that is not added to this ID. Neighboring clauses 5.3.7.3.2, 5.3.7.3.3 and 5.3.7.3.4 are separate obligations (target stop area selection, lane-change capability, system-initiated manoeuvres) and are not folded into R-043. The corpus evidence is limited to the supplied new_context: the paragraph is present with the same number in the new text, so the requirement is not removed, and the wording change means it is not unchanged. The previous decision is confirmed.",
+      "new_text": "The system's driver unavailability response shall comply with the technical requirements and transitional provisions of the 04 or later series of amendments to UN Regulation No. 79 with respect to the Risk Mitigation Function (RMF).",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-044",
+      "change": "modified",
+      "reason": "Track B handoff (R-044, modified_existing, 5.3.7.3.1, p.14): resolved as modified. The supplied new clause 5.3.7.3.1 (p.14) keeps the same trigger: the driver determined unavailable following the 5.5.4.2.6 warning escalation sequence. The obligation changes from 'appropriately activate the Risk Mitigation Function in order to come to a safe stop' to 'come to a safe stop in accordance with the RMF requirements'. The clause now also says the system's driver unavailability response shall comply with UN R79 04 series RMF requirements. That sentence only continues the existing compliance wording, which is not part of the old R-044 text, so I did not fold it in. Neighbouring clauses were checked and do not replace this obligation. 5.3.7.3.2 (target stop area) is unchanged and is a different obligation. 5.3.7.3.3 (lane changes during the response) and 5.3.7.3.4 (system-initiated manoeuvre) are newly introduced separate procedures, so they stay outside R-044. 5.5.4.2.6.4.1 (initiate the response within 10 s) and 5.3.5.1 (response within 10 s beyond a boundary) are timing or trigger obligations, not the stopping obligation. The old clause is still present in a revised form, so this is a modification, not a removal.",
+      "new_text": "In the event that the driver has been determined to be unavailable following a driver disengagement warning escalation sequence as defined in paragraph 5.5.4.2.6., the system shall come to a safe stop in accordance with the RMF requirements.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-045",
+      "change": "modified",
+      "reason": "Handoff resolved as modified_existing: new 5.3.7.3.3 (page 14) is the direct successor of old 5.3.7.3.3 (R-045). Same paragraph number, same trigger (driver-confirmed or system-initiated lane change feature fitted), same highway scope, same target (slower or emergency lane) and same UN R79 04 series reference. Changes: the actor is now 'the system' rather than 'the RMF'; the capability is expressly limited to 'during the driver unavailability response'; and the R79 wording changes from 'systems with the purpose of' to 'RMF capable of'. Neighbouring clauses 5.3.7.3.1 (RMF compliance), 5.3.7.3.2 (target stop area) and the new 5.3.7.3.4 (system-initiated manoeuvre) are separate obligations and do not replace the lane-change capability; they are not folded into R-045. The prior modified decision is confirmed; the text matches the new clause, so this is not a removal or a new obligation.",
+      "new_text": "Where the system is equipped with a driver-confirmed or system-initiated lane change feature, the system shall be capable of performing lane changes during the driver unavailability response, in compliance with the technical requirements for RMF capable of bringing the vehicle to a safe stop outside its own lane of travel of the 04 or later series of amendments to UN Regulation No. 79, during an intervention on a highway to bring the vehicle towards a target stop area in a slower or emergency lane.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.3"
+      }
+    },
+    {
+      "requirement_id": "R-064",
+      "change": "modified",
+      "reason": "Handoff (modified_existing, R-064, 5.5.4.1.9.2) resolved as modified. Evidence: old 5.5.4.1.9.2 (p.18) required information ahead of a relevant intended manoeuvre with sufficient notice. New 5.5.4.1.9.2 (p.20) is the same paragraph and obligation, now specifying the information as visual and adding an 'at least 3 seconds ahead' target as an alternative to sufficient notice. It adds a condition: where notice is under 3 seconds, the manufacturer must give the Type Approval Authority evidence of appropriate driver response and timely noticing. The reduced-time exception for imminent collision or conflict with ongoing-manoeuvre information is retained. The old sentence requiring another modality for lane-change announcement is absent from the new 5.5.4.1.9.2 text. It is a separate obligation, not the R-064 timing obligation, so it is not folded into R-064. Full-corpus context showed no other clause replacing the timing obligation; neighbouring 5.5.4.1.9.1 and 5.5.4.1.9.3 are unchanged and cover different obligations. Annex 3 defines 'shall aim to' as a non-absolute obligation, so the aim wording is kept. 6.2.7 (3 seconds of indication to other road users) is a different obligation and was not substituted. The previous modified decision is confirmed.",
+      "new_text": "The system shall aim to provide the visual information at least 3 seconds ahead of the initiation of a relevant intended manoeuvre, or with sufficient notice to allow the driver to comprehend the manoeuvre and the traffic situation, taking into account the complexity of the manoeuvre and the amount of other road users present. If there is a risk of imminent collision or the information would conflict with information about an ongoing manoeuvre, the time may be reduced and the system shall visually inform the driver as far in advance as possible. Where the notice is less than 3 seconds ahead of initiation, the manufacturer shall provide evidence to the satisfaction of the Type Approval Authority that the timing ensures an appropriate driver response and that the strategies employed ensure the driver notices the information without undue delay.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.2"
+      }
+    },
+    {
+      "requirement_id": "R-066",
+      "change": "removed",
+      "reason": "Old 5.5.4.1.9.2 (p.18) ended with: 'In addition, the initiation of a lane change procedure shall be announced by another modality unless the system has assessed that the driver has observed the visual information.' New 5.5.4.1.9.2 (p.20) replaces this: it requires visual information at least 3 seconds ahead (or sufficient notice), allows reduced time for imminent collision or conflict, and requires manufacturer evidence if notice is under 3 seconds. The sentence on a lane-change announcement by another modality is no longer there. The retrieval covered neighbouring clauses 5.5.4.1.1, 5.5.4.1.8.3, 5.5.4.1.9, 5.5.4.1.9.1, 5.5.4.1.9.3, 6.2.7, 6.2.8, 6.2.9, 6.3.9.3, 6.3.9.4 and Annex 4 lane-change tests. None of them imposes the same obligation. 5.5.4.1.1(b),(g) only require informing the driver, without a different modality or the observed-visual-information exception. 6.2.7 concerns indicating the lane change to other road users, not the driver. 6.2.8 covers an optical plus acoustic or haptic signal only when the lane change is suppressed, which is a different trigger. 6.2.9 appears only as a heading, with no text supplied. The 3-second evidence provision in new 5.5.4.1.9.2 is a related but different obligation (visual timing, not a second modality), so it does not replace R-066. There are no Track B handoffs (handoffs is empty), so none need resolving. The removal rests on the supplied text being absent, not on a missing retrieval hit. This holds only for the supplied new context, in which 6.2.9 has no body text. The earlier removal decision is confirmed."
+    },
+    {
+      "requirement_id": "R-072",
+      "change": "modified",
+      "reason": "Track B handoff (modified_existing, R-072, para 5.5.4.2.5.2, p.21): resolved as modified. The old text (p.19) said the dashboard and instrument panel shall not be considered a driving task relevant area. The supplied new para 5.5.4.2.5.2 (p.21) reverses this to a limited permission: they may be considered relevant only while manoeuvre relevant information (per 5.5.4.1.8.1 or 5.5.4.1.9.4) is displayed, for at most 3 seconds. The same paragraph adds that the EOR warning time shall not be extended by gaze time on the dashboard or instrument panel. This sentence is part of the same clause and limits the same permission, so it is kept in the updated obligation. The references 5.5.4.1.8.1 (visual information on a proposed manoeuvre) and 5.5.4.1.9.4 (visualization of the intended manoeuvre) still exist in the new context, so the dependency is intact. Neighbouring clause 5.5.4.2.5.2.1 (reengagement, which excludes the dashboard and instrument panel) is a separate obligation and is not folded into R-072. The old requirement is therefore not unchanged or removed.",
+      "new_text": "For the purpose of the assessment of visual disengagement, the dashboard and instrument panel may be considered as a driving task relevant area only while manoeuvre relevant information (as detailed in paragraph 5.5.4.1.8.1. or 5.5.4.1.9.4.) is displayed, for a maximum duration of 3 seconds. The EOR warning time shall not be extended with the time the driver's gaze is directed towards the dashboard or instrument panel.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-073",
+      "change": "modified",
+      "reason": "Handoff resolved as modified (modified_existing, R-073). Evidence: old 5.5.4.2.5.2.1 (p.19) covered 'visually engaged or reengaged' and counted any currently driving task relevant area. New 5.5.4.2.5.2.1 (p.21) says only 'visually reengaged following an aversion', so 'engaged or' is dropped. It also excludes the dashboard and instrument panel as re-direction targets. The same obligation is retained at the same ID, so this is not removed or unchanged. The 200 ms minimum was already in the old clause and is not part of R-073's old text, so it is not added here. Neighbouring clauses were checked and do not replace this obligation. New 5.5.4.2.5.2 (p.21) lets the dashboard and instrument panel count as relevant areas for disengagement only while manoeuvre information is shown, for up to 3 s. That is a separate disengagement-assessment obligation, not a substitute for the reengagement exception, and it is not folded into R-073. 5.5.4.2.5.2.2 on the sufficient duration is unchanged.",
+      "new_text": "The driver shall be deemed to be visually reengaged following an aversion of eye gaze or head posture if either is re-directed towards any currently driving task relevant area, with the exception of the dashboard and the instrument panel, for a sufficient duration depending on the situation.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2.1"
+      }
+    },
+    {
+      "requirement_id": "R-074",
+      "change": "modified",
+      "reason": "Track B handoff (R-074, modified_existing) resolved as modified. In the new text, paragraph 5.5.4.2.5.2.1 (page 21) keeps the 200 ms minimum, but the clause now covers reengagement only. The old wording 'engaged or reengaged' is gone, and the target area now excludes the dashboard and instrument panel. The old clause (page 19) had no such exclusion. Neighbouring clauses are consistent. New 5.5.4.2.5.2 allows the dashboard and instrument panel as a relevant area only for the visual disengagement assessment, and only while manoeuvre information is displayed for up to 3 seconds. Under 5.5.4.2.5.2.1 they still cannot count for reengagement. 5.5.4.2.5.2.2 (sufficient duration specified by the manufacturer) is a separate obligation and is unchanged. The 200 ms obligation is retained, not removed, and the modification stays within the same obligation. This agrees with the previous decision.",
+      "new_text": "The duration for which the driver's eye gaze or head posture must be re-directed towards any currently driving task relevant area, with the exception of the dashboard and the instrument panel, for the driver to be deemed visually reengaged following an aversion of eye gaze or head posture shall be at least 200 milliseconds.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2.1"
+      }
+    },
+    {
+      "requirement_id": "R-077",
+      "change": "modified",
+      "reason": "Track B handoff resolved as modified: new paragraph 5.5.4.2.6.5 (pages 22-23) keeps the documentation duty, cross-referenced to 5.3.5.2 and section 9, and the old text is not removed. The withholding scope widens from \"Highway\" only to \"Highway\" or \"Highway-like\" road at up to 130 km/h. Paragraph 2.28.1 defines \"Highway-like road\" as a non-highway section with at least two lanes per direction, a speed limit of at least 80 km/h, no prohibition of pedestrians and cyclists, a physical separation and no at-grade crossings or intersections. The retrieved 5.3.5.2 is unchanged in substance, so the cross-reference still holds. The new clause's extra duties are separate obligations and are not folded into R-077: the 500 m / 30 s road-ahead verification and the documentation of equivalent strategies, the cyclist demonstration, and the 7-second HOR before the end of a highway-like road. The old paragraph's page-20 text is superseded, and the updated source is page 22, paragraph 5.5.4.2.6.5.",
+      "new_text": "The manufacturer shall describe in detail, as part of the documentation required for section 9 and as outlined in paragraph 5.3.5.2., the boundary conditions under which HORs can be withheld when the vehicle is located on a \"Highway\" or a \"Highway-like\" road (as defined in paragraph 2.28.1.) and is operated at a speed up to 130 km/h.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": "R-078",
+      "change": "modified",
+      "reason": "The old R-078 (5.5.4.2.6.5.3) is retained in the new text at 5.5.4.2.6.5.3, page 23, with identical wording, so the core obligation is unchanged. The previous decision treated the clause in isolation. Neighbouring context shows the parent paragraph 5.5.4.2.6.5 changed. Old text: HOR withholding on a \"Highway\" only. New text: \"Highway\" or \"Highway-like\" road, up to 130 km/h, and the lead-in now says the subparagraphs apply \"regardless if operated on a highway or a highway-like road\". The subparagraph's applicability scope therefore widened through its parent. This is a dependency change that was reviewed and not modified automatically. The obligation itself (driver override of accelerator suppression) is unchanged, but its applicability condition is now broader, so the requirement is restated with the updated scope. No handoffs were supplied, so none needed resolving. The related 5.5.3.4.1.3 (accelerator override of longitudinal assistance) is a different obligation and was not substituted. I found no evidence of removal.",
+      "new_text": "While the system is in the mode of operation in which HORs are withheld (on a \"Highway\" or a \"Highway-like\" road at speeds up to 130 km/h), if the system has the ability to suppress accelerator input in order to avoid exceeding the system boundaries, the driver shall be able to override this suppression of accelerator input.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.3"
+      }
+    },
+    {
+      "requirement_id": "R-082",
+      "change": "modified",
+      "reason": "Old 5.5.4.2.7 (p.21) required countermeasures when no driver input is determined over prolonged periods, with drowsiness as the example. New 5.5.4.2.7.1 (p.24) keeps that obligation: 'and implement appropriate countermeasures' under the same condition. The only change is that the example list now includes 'assessment of changes in gaze direction', a modest widening of the illustrative scope. The handoff disposition is modified_existing for R-082, and I agree with it. The countermeasure obligation is kept separate from the assessment-strategies obligation, which the prior decision folded into the same text; this text is limited to the countermeasure duty. Neighboring 5.5.4.2.7.2 (system-initiated manoeuvres, drowsiness and gaze-change assessment, countermeasures per the safety concept) and 5.5.4.2.8 (disablement after insufficient engagement) are different obligations with different conditions, so they do not replace R-082 and are not folded into it. The reference paragraph numbers and the dependencies in 5.3.5.1 are unaffected by this requirement. The retrieved clause evidence confirms that the obligation is retained, so removal is not warranted.",
+      "new_text": "The driver state monitoring system shall implement appropriate countermeasures in the event that no driver input has been determined over prolonged periods (e.g. through a negative determination of driver drowsiness or assessment of changes in gaze direction).",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.1"
+      }
+    },
+    {
+      "requirement_id": "R-083",
+      "change": "modified",
+      "reason": "Track B handoff (modified_existing, R-083, new 5.5.4.2.8.1, page 24) resolved as modified. Old 5.5.4.2.8.1 (page 21) required the system to be disabled for at least 30 minutes whilst the powertrain is active when the driver is detected to have insufficient engagement. The new 5.5.4.2.8.1 (page 24) keeps that obligation with the same applicability conditions (powertrain active, insufficient engagement detected, at least 30 minutes), so it is the same obligation and not a separate addition or a new ID. It adds the sentence: 'The disablement shall happen once the driver has resumed control of the vehicle, or the vehicle has become stationary.' This changes when the disablement takes effect. Neighboring clauses 5.5.4.2.8.2 (page 24) and 5.5.4.2.8.3 only define what counts as insufficient engagement (new items (d) and (e) were added to the criteria). They are related but different obligations, so they are not substituted for R-083 and are not folded into it. The 5.5.4.2.8.4 and 5.5.4.1.1(h) information obligations are likewise separate. The dependency change in 5.5.4.2.8.2 needs its own review and does not by itself modify R-083. The new text is found in the supplied new source, so there is no ground for removal or for leaving the requirement unchanged.",
+      "new_text": "While the powertrain is active, when the driver is detected to have insufficient engagement, the system shall be disabled for a period of at least 30 minutes. The disablement shall happen once the driver has resumed control of the vehicle, or the vehicle has become stationary.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.1"
+      }
+    },
+    {
+      "requirement_id": "R-084",
+      "change": "modified",
+      "reason": "Track B handoff (modified_existing, R-084, 5.5.4.2.8.4, page 24) resolved as modified. Evidence: the old 5.5.4.2.8.4 (page 21) required the system, at the latest upon powertrain deactivation, to request that the driver read the paragraph 5.6 driver information material when disabled for insufficient engagement. The supplied new clause 5.5.4.2.8.4 (page 24) has the same trigger (system disabled due to insufficient engagement) but a different obligation: re-enablement is permitted only after the driver confirms by a deliberate action their understanding of their responsibilities and appropriate use. The powertrain-deactivation timing and the request to read 5.6 material are not in the new clause. Neighbouring clauses 5.5.4.2.8.1 (disablement of at least 30 minutes, now with timing after the driver resumes control or the vehicle is stationary) and 5.5.4.2.8.3 (repeated EOR/HOR) set the disablement trigger and definition, not this obligation. New 5.6 still lists information content, but contains no request-to-read obligation, so it cannot substitute for the old one. The same-ID modification is the only candidate, and the old obligation does not survive unchanged elsewhere. Annex 3 / 3.5.7 (old context), a documented information strategy encouraging review of materials, is a separate documentation obligation and is not the old requirement. The handoff is therefore confirmed as modified, not unchanged or removed.",
+      "new_text": "When the system is disabled due to insufficient engagement by the driver, the system shall only be re-enabled after the driver has confirmed by a deliberate action their understanding of their responsibilities and appropriate use of the system.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.4"
+      }
+    },
+    {
+      "requirement_id": "R-089",
+      "change": "modified",
+      "reason": "The previous 'unchanged' decision is not supported. The 3.0 m/s² and 1-second-distance sentence in 6.2.4.1 is verbatim identical in old and new text. However, the new 6.2.4.1 (pages 26-27) adds a sentence: 'At speeds up to 60 km/h the system may deviate from this assessment', with manufacturer explanation and evidence obligations. This sentence sits inside the same paragraph and directly modifies how the old obligation is assessed and applied, so it is a change to the applicability and conditions of R-089, not a separate procedure. The old text states the obligation without exception, and the new text introduces an exception for speeds up to 60 km/h with documentation duties. The neighbouring clauses 6.2.4, 6.2.4.2, 6.2.4.3 and 6.2.4.4 are textually unchanged. They still refer to 6.2.4.1, so they need no separate modification. No Track B handoffs were supplied (handoffs list is empty), so none needed resolution. The new_text keeps the original obligation and adds the 60 km/h deviation condition, citing new paragraph 6.2.4.1.",
+      "new_text": "When there is an approaching vehicle during a lane change, the DCAS system shall be designed to not make the approaching vehicle decelerate at a higher level than 3.0 m/s² in order to ensure that the distance between the two vehicles is never less than that which the DCAS vehicle travels in 1 second, assessed assuming the approaching vehicle begins its deceleration 1.4 s after the system starts the lateral movement of the lane change and either 0.4 s after the lane change manoeuvre starts (if the approaching vehicle was detected for at least 1.0 s immediately before the manoeuvre starts) or 1.4 s after the manoeuvre starts. At speeds up to 60 km/h the system may deviate from this assessment; in that case the manufacturer shall explain to the Type Approval Authority the distances and timings for an approaching vehicle under which a lane change can be started, and provide evidence that those situations are deemed controllable for other road users.",
+      "source": {
+        "page": 26,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-090",
+      "change": "modified",
+      "reason": "No Track B handoffs were supplied, so none need resolving. Old and new 6.2.4.1(a) are verbatim identical: 1.4 s after the start of lateral movement. However, the new 6.2.4.1 adds a closing paragraph, absent in the old text, that lets the system deviate from this assessment at speeds up to 60 km/h. It is conditional on the manufacturer explaining distances and timings to the Type Approval Authority and providing controllability evidence. That paragraph qualifies the assessment this requirement mandates, so the old unconditional wording is no longer accurate, and the previous 'unchanged' decision is overturned. The 1.4 s assumption itself is retained and is not replaced by the neighbouring 6.2.4.1(b) timings. The neighbouring clauses 6.2.4.2 to 6.2.4.4 are textually unchanged and refer to 6.2.4.1, so they do not alter the obligation. The new text is cited from the supplied new 6.2.4.1, spanning pages 26-27.",
+      "new_text": "The DCAS shall perform the assessment of the approaching vehicle's deceleration with the assumption that the approaching vehicle begins its deceleration 1.4 seconds after the system starts the lateral movement of the lane change procedure. At speeds up to 60 km/h the system may deviate from this assessment; in these cases the manufacturer shall explain to the Type Approval Authority the distances and timings for an approaching vehicle under which a lane change manoeuvre can be started, and provide evidence that those situations are deemed controllable for other road users.",
+      "source": {
+        "page": 26,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-091",
+      "change": "modified",
+      "reason": "Reassessed against the new 6.2.4.1 (new pages 26-27), with neighboring clauses 6.2.4, 6.2.4.2 to 6.2.4.4 and 6.2.5 checked. There are no Track B handoffs to resolve. The previous 'unchanged' decision treated the 60 km/h deviation sentence as separate, but it is an exception that qualifies this very assessment. The 0.4 s and 1.4 s timing assumptions and the 1.0 s detection condition are verbatim identical to the old text. The new text adds a speed-based applicability condition: at speeds up to 60 km/h the system may deviate from the assessment. When it does, the manufacturer must explain to the Type Approval Authority the distances and timings under which a lane change can start, and provide evidence that those situations are controllable for other road users. Leaving the old text unchanged would state the assessment as unconditional, which no longer matches the source, so the requirement is modified. The 6.2.4.2 assessment refers back to 6.2.4.1 and so inherits the same assumptions, and 6.2.5 requires demonstration of the 6.2.4 implementation. Neither neighboring clause replaces this obligation. The Annex 4 lane-change tests are unchanged in substance, with only page shifts. The old requirement was not removed, because the new 6.2.4.1(b) still carries it.",
+      "new_text": "The assessment of the approaching vehicle's deceleration shall be performed with the assumptions that the approaching vehicle begins its deceleration either: (i) 0.4 seconds after the system starts the lane change manoeuvre, provided that the approaching vehicle was detected by the DCAS vehicle for a duration of at least 1.0 seconds immediately before the lane change manoeuvre starts; or (ii) 1.4 seconds after the system starts the lane change manoeuvre. At speeds up to 60 km/h the system may deviate from this assessment; in these cases the manufacturer shall explain to the Type Approval Authority the distances and timings for an approaching vehicle under which a lane change manoeuvre can be started, and provide evidence of those situations being deemed controllable for other road users.",
+      "source": {
+        "page": 26,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "This UN Regulation does not apply to vehicles of Categories X and Y (vehicles without the ability to be controlled by a driver, as defined in R.E.3).",
+      "reason": "New paragraph 1.2.2 adds a scope exclusion for Categories X and Y, vehicles without the ability to be controlled by a driver. The old scope (1.1) limited applicability to Categories M and N2 and had no such exclusion. The old 1.2 was a single paragraph excluding only ACSF/RMF approved under UN R79. It has now been split into 1.2.1, with the same R79 wording, and this new 1.2.2.",
+      "source": {
+        "page": 4,
+        "paragraph": "1.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "DCAS shall be switched to 'OFF' mode upon activation of an ADS feature.",
+      "reason": "New paragraph 5.2.3 adds DCAS/ADS interaction. No old clause forces DCAS off when an ADS feature activates. Old 5.5.2.2 covers only driver-initiated off with no automatic transition, and R-054 covers sustained control by other systems, not ADS activation.",
+      "source": {
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "DCAS shall not be able to be switched to 'ON' mode whilst an ADS feature is active.",
+      "reason": "Separate prohibition on switching DCAS on while an ADS feature is active. Old 5.5.3.2.2 requires only a deliberate driver action for off-to-on and does not block activation during ADS operation, so this is a distinct new obligation.",
+      "source": {
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the driver is detected to be disengaged while the system or feature boundary is detected to be exceeded, the system shall continue providing lateral and longitudinal assistance to the extent possible or terminate assistance gradually in a controllable way, as outlined in the safety concept of the vehicle manufacturer.",
+      "reason": "New disengaged-driver case with no equivalent in old 5.3.5.1.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The driver state monitoring system shall continue to monitor driver disengagement until the driver is motorically and visually reengaged.",
+      "reason": "New monitoring obligation not in old clause.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the driver remains disengaged, the system shall initiate a driver unavailability response at the latest 10 seconds after it has detected to be beyond a system boundary.",
+      "reason": "New 10-second timing obligation not in old clause.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall consider the time required for the driver to direct their gaze to appropriate driving task relevant area(s) after the DCA is given in order to control the vehicle in the current situation when responding to this DCA.",
+      "reason": "New 5.3.6.1.2 adds a gaze-direction time consideration for a DCA given during a system-initiated manoeuvre. Old 5.3.6.1.1 covers only reaction time to respond to a DCA and hold the steering control while HORs are withheld, so this scope is new.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the DCA is given whilst withholding HORs, the time for the driver to direct their gaze to appropriate driving task relevant area(s) shall be considered in addition to the time required by paragraph 5.3.6.1.1.",
+      "reason": "This is a separate, additive-time obligation for the case where HORs are withheld. It builds on 5.3.6.1.1 (R-?) without changing it, and applies to a DCA given while performing a system-initiated manoeuvre, which is inherited from the parent sentence.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall explain to the Type Approval Authority the strategies and the timing with which the assistance is to be provided to the driver until the DCA is confirmed.",
+      "reason": "This is a new documentation obligation. No base requirement covers explaining assistance strategies and timing until a DCA is confirmed. R-016 concerns the termination strategy at system boundaries, and R-085 concerns 6.1.1.1.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Notwithstanding paragraph 5.3.7.2.1.1, a system-initiated manoeuvre may be initiated when it is considered to mitigate the risk of an imminent collision.",
+      "reason": "New permission that overrides the manoeuvre-initiation conditions of 5.3.7.2.1.1 (driver not disengaged, sufficient notice) for imminent-collision mitigation. Old 5.3.7.2.4.10 (R-036) was a different highway/HOR gate and has no matching permission.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following completion of a system-initiated manoeuvre performed to mitigate the risk of an imminent collision, and once the situation is controllable for the driver, a DCA shall be given.",
+      "reason": "New mandatory action: a DCA after an imminent-collision mitigation manoeuvre, once the situation is controllable. No old provision contained this.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following a system-initiated manoeuvre performed to mitigate the risk of an imminent collision, the system shall be disabled according to paragraph 5.5.4.2.8.",
+      "reason": "New mandatory action: the system must be disabled per 5.5.4.2.8 after the collision-mitigation manoeuvre. It is separate from the general 30-minute disablement (R-083), which is triggered by insufficient engagement.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where a system-initiated manoeuvre is performed according to paragraph 5.3.7.2.4.10 (to mitigate the risk of an imminent collision), the manufacturer shall describe and justify to the Type Approval Authority the circumstances as to when this happens.",
+      "reason": "New documentation and justification duty scoped to the collision-mitigation manoeuvre of 5.3.7.2.4.10. The old 5.3.7.2.4.11 was the driver acknowledgement request (R-037 to R-040), which is a different actor, action and scope and was renumbered to 5.3.7.2.4.9. No old requirement covers this.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.11"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where a system-initiated manoeuvre is performed according to paragraph 5.3.7.2.4.10, the circumstances as to when this happens shall be assessed according to Annex 3.",
+      "reason": "Separate obligation: the circumstances of the collision-mitigation manoeuvre are assessed under Annex 3. It is distinct from the describe-and-justify duty. No old equivalent exists; the Annex 3 assessment wording in R-016 and R-053 concerns different subjects.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.11"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres in non-highway environments or during phases of withholding of HORs, where extended testing in Annex 4 includes different vehicle under test (VUT) speeds, this shall cover the maximum operating speed in the applicable test scenarios.",
+      "reason": "The clause sets a new test-procedure scope. Extended Annex 4 tests that vary VUT speed must cover the maximum operating speed. The obligation applies to systems capable of system-initiated manoeuvres in non-highway environments or while withholding HORs, which is inherited from the parent heading 5.3.7.2.6. The old text has speed-range and speed-limit requirements (5.3.7.4.3 to 5.3.7.4.6) and Annex 4 extended-test lists. None requires extended tests to include the maximum operating speed, and none carries this applicability condition.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.2.6.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "A system-initiated manoeuvre may be performed at any time as part of the driver unavailability response in order to mitigate risk, irrespective of the disengagement of the driver or warnings given.",
+      "reason": "New permission scoped to the driver unavailability response. Old 5.3.7.3 had no equivalent; old R-021 and 5.3.7.2.4.1 govern initiation and rejection of announced manoeuvres, which is a different scope.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "A system-initiated manoeuvre as part of the driver unavailability response shall only be performed after driver reengagement strategies have failed or if there is an imminent risk of collision.",
+      "reason": "New restrictive condition on system-initiated manoeuvres within the driver unavailability response. No old provision imposed this gating.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall describe and justify to the Type Approval Authority the circumstances in which a system-initiated manoeuvre is performed as part of the driver unavailability response.",
+      "reason": "New documentation and justification duty for this scope. Existing documentation duties such as R-028 and R-030 concern different manoeuvre situations.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall inform or warn the driver about the basis for the system being disabled due to insufficient engagement.",
+      "reason": "Item (h) is new; the old paragraph ended at (g) and no base requirement covers it.",
+      "source": {
+        "page": 19,
+        "paragraph": "5.5.4.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall inform or warn the driver about the basis for why a DCA has been issued, if not addressed by the points above or if it follows an engagement request escalation.",
+      "reason": "Item (i) is new; the old paragraph ended at (g) and no base requirement covers it.",
+      "source": {
+        "page": 19,
+        "paragraph": "5.5.4.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where the notice is less than 3 seconds ahead of initiation, the manufacturer shall provide evidence to the satisfaction of the Type Approval Authority that the timing at which this information is provided ensures an appropriate driver response and that the strategies employed ensure the drivers notice the information without undue delay.",
+      "reason": "Old 5.5.4.1.9.2 had no manufacturer evidence duty for short notice, and no base requirement covers it. The duty is triggered by notice under 3 seconds, which is the new threshold, so it is a new obligation.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall offer the driver the possibility to visualize at least a representation of the intended manoeuvre (system messages and signals for system-initiated manoeuvres).",
+      "reason": "New paragraph 5.5.4.1.9.4 under System Messages and Signals for System-Initiated Manoeuvres. Old 5.5.4.1.9.1 only applied 5.5.4.1.8 (visual information about a proposed manoeuvre), which has no equivalent offer-to-visualize obligation. Old 5.5.4.1.9.3 (indication of manoeuvre initiation mode) is also different. The old context contained no 5.5.4.1.9.4.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The visualization of the intended manoeuvre shall aim to not cause unnecessary distraction to the driver.",
+      "reason": "Separate design constraint (aim-level) on the visualization of the intended manoeuvre in system-initiated manoeuvres; there is no old counterpart. Old 5.5.4.1.8.3 (avoid overreliance or misuse) differs in subject and purpose.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The EOR warning time shall not be extended with the time the driver's gaze is directed towards the dashboard or instrument panel.",
+      "reason": "New sentence with no counterpart in the old 5.5.4.2.5.2; it adds a separate constraint on EOR warning timing.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system may withhold HORs when the vehicle is located on a \"Highway\" or a \"Highway-like\" road and is operated at a speed up to 130 km/h.",
+      "reason": "Old 5.5.4.2.6.5 permitted withholding HORs only on a \"Highway\"; scope is now widened to \"Highway-like\" roads. This is a changed permission with no matching base requirement (R-077 covers only the documentation duty).",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When the system is capable of withholding HORs on highway-like roads, it shall aim to avoid frequent fluctuations between being able and not able to withhold HORs (e.g., not operating on discontinuous sections of highway-like roads).",
+      "reason": "New requirement for the highway-like road scope; no old equivalent.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When the system is capable of withholding HORs on highway-like roads, the system shall aim to ensure a reasonable duration of being able to withhold HORs by verifying one or more of the following before initiating withholding of HORs: (i) the road ahead is deemed to have the necessary characteristics (as per paragraph 2.28.1.) for at least 500 m, or (ii) the road ahead is deemed to have the necessary characteristics (as per paragraph 2.28.1.) for at least 30 seconds at the vehicle's current speed.",
+      "reason": "New road-ahead duration verification; alternatives (i) and (ii) are conditions of one obligation and are kept together.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As an alternative to the 500 m / 30 s road-ahead verification, the system may implement other strategies which can reasonably be expected to result in at least an equivalent duration; the manufacturer shall document such strategies and demonstrate them to the satisfaction of the Type Approval Authority.",
+      "reason": "New permission for alternative strategies, coupled with a documentation and demonstration duty.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall demonstrate the system's ability to safely operate in the presence of cyclists, by avoidance of a collision with a longitudinally travelling cyclist ahead in lane as outlined in Annex 4, paragraph 4.2.5.2.16., taking into account the robustness criteria outlined in Appendix 4 of Annex 3 (applies where the system is capable of withholding HORs on highway-like roads).",
+      "reason": "New demonstration obligation; no old equivalent.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When the end of a highway-like road is expected to require a manoeuvre controlled by the driver, an HOR shall aim to be given at least 7 seconds prior to the time the necessary manoeuvre needs to start (where the system is capable of withholding HORs on highway-like roads).",
+      "reason": "New timing requirement for highway-like road ends; absent in old text.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres whilst withholding HORs (while operating in the HOR-withholding mode on a Highway or Highway-like road), the system shall aim to determine whether or not the driver is in an appropriate position to operate the vehicle controls.",
+      "reason": "New sub-paragraph 5.5.4.2.6.5.7.1 under the additional monitoring requirements for system-initiated manoeuvres whilst withholding HORs. No old counterpart exists in the old context or base requirements; the old withholding clauses did not address driver position.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall document the strategy employed for classification and detection of the driver's positions (appropriate position to operate the vehicle controls) for systems capable of performing system-initiated manoeuvres whilst withholding HORs.",
+      "reason": "Separate manufacturer documentation duty, split from the assessment duty. New in this scope; no old equivalent.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The Type Approval Authority shall assess the strategy documented by the manufacturer for classification and detection of the driver's positions (appropriate position to operate the vehicle controls) for systems capable of performing system-initiated manoeuvres whilst withholding HORs.",
+      "reason": "Separate Type Approval Authority assessment action, split from the manufacturer's documentation obligation. New in this scope; no old equivalent.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres whilst withholding HORs, if the driver is deemed, as per the strategy, not to be in an appropriate position to operate the vehicle controls for 10 seconds, an HOR shall be given.",
+      "reason": "New trigger (driver not in an appropriate position for 10 s) producing an HOR, within the HOR-withholding mode with system-initiated manoeuvres. The old HOR rules are tied to motoric disengagement (5.5.4.2.6.1.1) and to boundary conditions (5.5.4.2.6.5.1/.2). None of them covers this trigger, so it is not a restatement.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres whilst withholding HORs: following an HOR given because the driver was deemed not to be in an appropriate position to operate the vehicle controls for 10 seconds, the system may continue to perform system-initiated manoeuvres.",
+      "reason": "New permission in the post-HOR context of the new 5.5.4.2.6.5.7 sub-procedure. No old requirement grants it; R-021 and R-036 address manoeuvre initiation conditions, not continuation after this HOR.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.6.5.7.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres whilst withholding HORs: following such an HOR, the system shall only resume operating while withholding HORs once the driver has been deemed, as per the strategy, to be in an appropriate position to operate the vehicle controls and not to be motorically disengaged for at least 30 seconds.",
+      "reason": "New resumption condition with a 30-second requirement for withholding HORs. No old requirement states it; the old withholding clause 5.5.4.2.6.5 only set road and speed scope and boundary documentation.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.6.5.7.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres whilst withholding HORs: following such an HOR, the driver shall be informed of the basis for why the system will not resume withholding HORs.",
+      "reason": "New driver-information obligation tied to non-resumption of HOR withholding. No old requirement covers it; the old R-057 to R-063 status items do not include it.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.6.5.7.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, the driver state monitoring system shall have additional strategies to assess behaviours which indicate that the driver is consistently engaged with the driving task, including determination of drowsiness.",
+      "reason": "New 5.5.4.2.7.2(a) applies to phases where the system can perform system-initiated manoeuvres. The old 5.5.4.2.7 and the new 5.5.4.2.7.1 only require general strategies to assess disengagement when no driver input is determined over prolonged periods (R-081), which is a different trigger and scope.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, the driver state monitoring system shall have additional strategies to assess that the driver performs changes in eye gaze with a frequency and/or direction appropriate to the current vehicle traffic environment and upcoming manoeuvres, and that these behaviours do not degrade over time.",
+      "reason": "New eye-gaze behaviour assessment strategy scoped to system-initiated manoeuvres; no old equivalent.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, if the driver's behaviours do not indicate consistent engagement with the driving task, system-initiated manoeuvres other than those in situation of imminent collision risk shall not be initiated.",
+      "reason": "New prohibition on initiating system-initiated manoeuvres when consistent engagement is not indicated, with an exception for imminent collision risk. Separated from the countermeasure obligation as an independent mandatory action.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, if the driver's behaviours do not indicate consistent engagement with the driving task, appropriate countermeasures shall be applied as described in the safety concept.",
+      "reason": "Independent countermeasure obligation, tied to the safety concept. The old 5.5.4.2.7 countermeasures (R-082) are triggered by a lack of driver input over prolonged periods, not by this condition.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall document the strategies implemented to assess behaviours which indicate that the driver is consistently engaged with the driving task.",
+      "reason": "New manufacturer documentation duty scoped to the new consistent-engagement strategies. Separated from the Type Approval Authority assessment as a different actor.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The Type Approval Authority shall assess the strategies implemented to assess behaviours which indicate that the driver is consistently engaged with the driving task.",
+      "reason": "Separate TAA assessment obligation for the new strategies; different actor from the manufacturer documentation duty.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The driver shall be deemed to have insufficient engagement when this leads to one DCA following a system-initiated manoeuvre performed when the driver is deemed to be disengaged (as per paragraph 5.3.7.2.4.10.). Counting is reset when the system is no longer disabled.",
+      "reason": "Criterion (d) is new. It is tied to the new collision-mitigation manoeuvre provision in 5.3.7.2.4.10 and has no old counterpart. The reset rule that applies to it is repeated here.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The driver shall be deemed to have insufficient engagement when this leads to at most two DCAs which were not preceded by an escalation and not responded to in less than 5 seconds. Counting is reset when the system is no longer disabled.",
+      "reason": "Criterion (e) is new and has no old counterpart. The reset rule that applies to it is repeated here.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "At speeds up to 60 km/h the system may deviate from the 6.2.4.1 assessment of the approaching vehicle's deceleration.",
+      "reason": "New permission absent from old 6.2.4.1, which had no speed-based deviation.",
+      "source": {
+        "page": 27,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where the system deviates from the 6.2.4.1 assessment at speeds up to 60 km/h, the manufacturer shall explain to the Type Approval Authority the distances and timings for an approaching vehicle under which a lane change manoeuvre can be started, and provide evidence of those situations being deemed controllable for other road users.",
+      "reason": "New manufacturer explanation and evidence duty tied to the deviation; not in old text.",
+      "source": {
+        "page": 27,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing a system-initiated left or right turn at an intersection, the provisions of paragraphs 6.3.2. to 6.3.8. shall equally apply when going straight across that intersection (in non-highway environments where the system is able to perform system-initiated manoeuvres).",
+      "reason": "New 6.4.1 under 6.4 (additional requirements for system-initiated manoeuvres in non-highway environments) extends 6.3.2-6.3.8 to the straight-across-intersection case for systems capable of system-initiated turns. No old paragraph has this scoped extension. The old 6.3.7 and 6.3.8 (R-035-type right-of-way) apply generally, but the new procedure scope creates a new obligation.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In non-highway environments, the system shall only make the vehicle automatically accelerate from standstill if, at the moment of drive off, the driver is not deemed to be visually disengaged as per paragraph 5.5.4.2.5 for more than 2 seconds immediately prior to the drive off.",
+      "reason": "New drive-off condition for automatic acceleration from standstill in non-highway environments (6.4 applies to system-initiated manoeuvres in non-highway environments). No old requirement covers automatic drive-off. R-021 covers manoeuvre initiation with a 2 s disengagement qualifier but not drive-off from standstill, so this is added.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In non-highway environments, the system shall only make the vehicle automatically accelerate from standstill if, at the moment of drive off, the system has confirmed there is no risk of collision detected along the drive-off path.",
+      "reason": "Separate cumulative drive-off condition (both conditions must be fulfilled) concerning collision risk along the drive-off path in non-highway environments. No old requirement covers it. R-022 only aims to avoid collision during manoeuvres and is a different scope.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The reported information is not intended to be shared publicly.",
+      "reason": "New sentence with no equivalent in old 7.2.3.1. It adds a confidentiality constraint on the information reported.",
+      "source": {
+        "page": 30,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Table 1 item 1: report the total number of safety-critical occurrences known to the manufacturer (with related hours of operation and distance travelled), differentiated by the DCAS capability at the time (lane keeping; driver-initiated manoeuvres; driver-confirmed manoeuvres; system-initiated manoeuvres), and in each case whether the system was withholding HOR.",
+      "reason": "The old item 1 required only the total of safety-critical occurrences. The new text adds differentiation by capability and by HOR withholding. Old table content has no base requirement ID; it is the old Table 1 item 1.",
+      "source": {
+        "page": 31,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Table 1 item 2: report the number of vehicles equipped with the system (total, with related hours of operation and distance travelled unless specified); 2.a vehicles in which the system was available to be switched ON at any point in the period (if different from 2); 2.b vehicles in which the system was switched ON during the period; 2.c vehicles (of those in 2.a) from which no data was received; 2.d aggregated distance driven by the 2.a vehicles with the system in 'passive' mode; 2.e aggregated distance driven by the 2.a vehicles in 'active' mode.",
+      "reason": "The old item 2 covered the number of vehicles and the aggregated distance in passive and active mode. The new text expands this into sub-items 2.a-2.e, adding availability, switched-ON and no-data counts, and restricting distances to the 2.a vehicles.",
+      "source": {
+        "page": 31,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Table 1 item 4: report the number of system-initiated deactivations of the system or its features due to 4.a detected system failures; 4.b exceeding system boundaries; 4.c exceeding system or feature boundaries while the driver is detected to be disengaged according to paragraph 5.3.5.1; 4.d other (if applicable).",
+      "reason": "The old item 4 had 4.a failures, 4.b boundaries and 4.c other. New category 4.c covers boundary exceedance while the driver is disengaged, and 'Other' is renumbered 4.d.",
+      "source": {
+        "page": 31,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Table 1 item 9 (if applicable): report the number of started System-Initiated Manoeuvres in the highway environment, with 9.a percentage of driver-aborted System-Initiated Manoeuvres, 9.b percentage of system-aborted System-Initiated Manoeuvres, and 9.c percentage of System-Initiated Manoeuvres as per 5.3.7.2.4.10.",
+      "reason": "The old item 9 required only the number of aborted System-Initiated Manoeuvres. The new item reports started manoeuvres in the highway environment, with abort percentages split by driver and system and a new 9.c percentage.",
+      "source": {
+        "page": 32,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Table 1 item 10 (if applicable): report the number of started System-Initiated Manoeuvres in the non-highway environment, with 10.a percentage of driver-aborted manoeuvres, 10.b percentage of system-aborted manoeuvres, and 10.c percentage of system-initiated manoeuvres as per 5.3.7.2.4.10.",
+      "reason": "Separate non-highway reporting item with no equivalent in the old table.",
+      "source": {
+        "page": 32,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from the official date of entry into force of the 02 series of amendments, no Contracting Party applying this Regulation shall refuse to grant or refuse to accept type approvals under this Regulation as amended by the 02 series of amendments.",
+      "reason": "Same actor (Contracting Parties) and action (not refusing to grant or accept type approvals) as old 16.1 for the 01 series, but now applies to type approvals under the 02 series. This is a new series-scoped transitional obligation. No base requirement (R-001 to R-117) represents old 16.1, so it is added.",
+      "source": {
+        "page": 37,
+        "paragraph": "16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from 1 September 2032, Contracting Parties applying this Regulation shall not be obliged to accept type approvals issued to the preceding series of amendments of this Regulation.",
+      "reason": "New cut-off date (1 September 2032) for acceptance of type approvals issued to the preceding series under the 02 series transitional provisions. Old 16.4 covers only the 00 series with a 2030 date, so this is a separately scoped permission.",
+      "source": {
+        "page": 37,
+        "paragraph": "16.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "As from 1 September 2029, Contracting Parties applying this Regulation shall not be obliged to accept type approvals issued to the preceding series of amendments of this Regulation for systems capable of withholding HORs (as per paragraph 5.5.4.2.6.5.) on highway-like roads (as defined in paragraph 2.28.1).",
+      "reason": "New transitional cut-off scoped only to systems capable of withholding HORs on highway-like roads, with a 1 September 2029 date. It sits in the new 16.2 (02 series) context. The old transitional provisions (16.2, 16.4) only concerned the 00 series, with 2027 and 2030 dates, and had no highway-like-road scope.",
+      "source": {
+        "page": 37,
+        "paragraph": "16.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Contracting Parties applying this Regulation may grant type approvals according to any preceding series of amendments to this Regulation.",
+      "reason": "Permission for Contracting Parties to grant type approvals to earlier versions of the Regulation. The old permission covered only the original 00 series; the new text extends it to any preceding series, in a general transitional provision (16.3 General Transitional Provisions) that applies across the 01 and 02 series.",
+      "source": {
+        "page": 37,
+        "paragraph": "16.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Contracting Parties applying this Regulation shall continue to grant extensions of existing approvals to any preceding series of amendments to this Regulation.",
+      "reason": "Old 16.7 required continuing to grant extensions of existing approvals to the original version (00 series) only. New 16.3.2 applies the same obligation to any preceding series of amendments, which widens the scope. No base requirement R-ID represents old 16.7, so existing_id is null.",
+      "source": {
+        "page": 38,
+        "paragraph": "16.3.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the approval communication form, the manufacturer/applicant shall declare, by striking out what does not apply, whether the system is or is not capable of withholding HORs on highway-like roads.",
+      "reason": "New sub-item 6.4.1 adds a separate declaration limited to highway-like roads. Old 6.4 only covered the general capability to withhold HORs, and the highway-like-roads scope did not exist before, so this is a distinct declaration.",
+      "source": {
+        "page": 39,
+        "paragraph": "Annex 1 / 6.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall demonstrate to the Type Approval Authority at least every three years that the safety management system continues to comply with the requirements of paragraph 3.5.1.",
+      "reason": "The new second sentence adds a recurring three-year re-demonstration duty. It is absent from old 3.5.1, which required a one-off demonstration. It is a separate periodic obligation, so it is added.",
+      "source": {
+        "page": 45,
+        "paragraph": "Annex 3 / 3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall establish processes to manage safety during the operation phase of the product lifecycle, including carrying out monitoring of DCAS operation and taking remedial actions when necessary.",
+      "reason": "New Annex 3 / 3.5.5 sets a process-establishment duty for operation-phase safety management. It covers monitoring of DCAS operation and remedial actions. Old 3.5.1 only required the manufacturer to demonstrate effective processes across the lifecycle, including operation. Old 7.1.1 (R-098) covers only monitoring of safety-critical occurrences. Neither old provision requires processes to manage operation-phase safety with remedial actions. Old 3.5.5 (periodic audits) moved to new 3.5.6.",
+      "source": {
+        "page": 46,
+        "paragraph": "Annex 3 / 3.5.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall demonstrate that periodic independent internal process audits are carried out to ensure that the processes established in accordance with paragraphs 3.5.1 to 3.5.5 are implemented consistently.",
+      "reason": "Old Annex 3 / 3.5.5 imposed the same periodic independent internal audit duty over paragraphs 3.5.1 to 3.5.4. It is renumbered to 3.5.6 and its scope now also covers the new 3.5.5 operation-phase safety process. No base requirement (R-001 to R-117) represents the old audit obligation, so this cannot be a modified_existing and is recorded as an addition. The actor, action and audit conditions are unchanged; only the audited scope is extended.",
+      "source": {
+        "page": 46,
+        "paragraph": "Annex 3 / 3.5.6"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide, as part of the Annex 3 Appendix 2 information, the strategies implemented to determine whether or not the driver is in an appropriate position to operate the vehicle controls, where an HOR shall be issued after the driver has not been in an appropriate position for 10 seconds (paragraph 5.5.4.2.6.5.7.).",
+      "reason": "New Annex 3 Appendix 2 item 2.1.1.9 requires information on the driver-position determination strategies tied to the 10-second HOR in the new 5.5.4.2.6.5.7 (withholding HORs with system-initiated manoeuvres). The old Appendix 2 list stopped at 2.1.1.8 and the old text had no driver-position strategy or 10 s HOR, so no old obligation covers this item.",
+      "source": {
+        "page": 50,
+        "paragraph": "Annex 3 / Appendix 2 / 2.1.1.9"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide, in the information document, the strategies to assess behaviours that can indicate whether or not the driver is consistently engaged with the driving task (paragraph 5.5.4.2.7.2.).",
+      "reason": "New Annex 3 Appendix 2 information item that documents the strategies introduced by new paragraph 5.5.4.2.7.2 (consistent-engagement assessment during system-initiated manoeuvres). No old Appendix 2 item or base requirement covers it. Related old items 2.1.1 and 2.1.1.1 are general or concern 5.5.4.2.7, and R-081/R-082 concern the old 5.5.4.2.7 prolonged no-input strategies, so they are not equivalent.",
+      "source": {
+        "page": 50,
+        "paragraph": "Annex 3 / Appendix 2 / 2.1.1.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the manufacturer shall provide evidence of the system's ability to recognize/interpret its surroundings, as evidence of sufficient system performance.",
+      "reason": "The clause sits in new Annex 3 Appendix 2 paragraph 5 (additional aspects for systems capable of system-initiated manoeuvres), under 5.1 (Evidence of Sufficient System Performance). It sets a manufacturer evidence duty on perception of the surroundings. The old context has no equivalent: 2.2.1 (system's ability to assess and respond to its surroundings) is a general information item that is unchanged and unscoped to system-initiated manoeuvres. Base requirements R-115 (capability evidence) and R-012 (boundary detection) concern different objects. Applicability inherited from the parent heading is retained.",
+      "source": {
+        "page": 51,
+        "paragraph": "Annex 3 / Appendix 2 / 5.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer's evidence of sufficient system performance, provided for systems capable of performing system-initiated manoeuvres, shall include a set of system-capability relevant driving scenarios, environmental conditions and a variety of different types of relevant traffic participants.",
+      "reason": "New 5.1.2 sets the required content of the manufacturer's evidence of the system's ability to recognize and interpret its surroundings (5.1.1). It applies only to systems capable of system-initiated manoeuvres. The old clauses cover general design, function descriptions, and Annex 4 test scenarios run by the approval authority. None of them impose this evidence-content duty on the manufacturer.",
+      "source": {
+        "page": 51,
+        "paragraph": "Annex 3 / Appendix 2 / 5.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the manufacturer shall explain if and how the system's understanding of the situation and driver engagement influences the execution of manoeuvres.",
+      "reason": "New documentation/explanation obligation under the new Annex 3 Appendix 2 section 5 ('Additional aspects to be assessed for systems capable of performing system-initiated manoeuvres'), inheriting its applicability from the parent heading 5 and 5.1. The actor (manufacturer) and action (explain) are new in this scope. Old context covers misuse safeguards, HMI messages and test tolerances, which have different objects. No base requirement covers it.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the manufacturer shall provide evidence of the driver's ability to control system operation.",
+      "reason": "New controllability evidence obligation in Annex 3 Appendix 2, within the section on additional aspects for systems capable of system-initiated manoeuvres (parent heading 5 and 5.2 'Evidence of controllability'). No old Annex 3 Appendix 2 clause or base requirement requires this evidence. R-001 and R-003 are general design requirements, and R-115 covers capability evidence only. The scope is therefore new.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the manufacturer's evidence of controllability of system operation (Annex 3, Appendix 2, paragraphs 5.2.1 and 5.2.2) shall include situations where the driver is cancelling a manoeuvre before it is started.",
+      "reason": "Parent 5.2 and 5.2.1 require evidence of the driver's ability to control system operation for systems capable of system-initiated manoeuvres. 5.2.2 sets the minimum scope of that evidence, and this bullet covers driver cancellation before the manoeuvre starts. No old base requirement imposes controllability evidence for driver cancellation. R-024 and R-025 concern confirmation time and the EOR lockout, which have a different actor and object.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manouvres, the manufacturer's evidence of controllability of system operation (Annex 3, Appendix 2, paragraphs 5.2.1 and 5.2.2) shall include situations where the driver is aborting an ongoing manouvre.",
+      "reason": "This is a separate operating case from cancelling before the start. It is a distinct evidence scenario under the same inherited scope of system-initiated manoeuvres. No old base requirement covers evidence of controllability when the driver aborts an ongoing manoeuvre.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the manufacturer shall provide evidence of its system validation, including the overall validation strategy and the results of its execution.",
+      "reason": "New Annex 3 Appendix 2 para 5 is scoped to systems capable of system-initiated manoeuvres, and 5.3.1 sits under that scope. It requires validation evidence consisting of the validation strategy and the results of its execution. No old provision requires validation evidence. Old Annex 3 Appendix 1 4.1 only covers verification of function and the list of tests, and the old R-115 capability evidence is a different scope. This is therefore a new obligation.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems capable of performing system-initiated manoeuvres, the system validation evidence provided by the manufacturer (including the overall validation strategy and results of its execution) shall include at least relevant real world driving test results.",
+      "reason": "New content requirement for the validation evidence in the Annex 3 Appendix 2 additional assessment for systems capable of system-initiated manoeuvres (parent 5 and 5.3.1). No old provision requires real world driving test results as part of validation evidence.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 3 / Appendix 2 / 5.3.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where not indicated as 'Not Applicable', the manufacturer shall declare whether the system will be able to avoid a collision, and the preconditions under which it will, for the scenario 'Longitudinally moving bicycle target ahead in lane' (Annex 4, par. 4.2.5.2.16), without driver intervention in non-highway environments.",
+      "reason": "This scenario row is new and was not in the old Appendix 4 paragraph 4 table.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 3 / Appendix 4 / 4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where not indicated as 'Not Applicable', the manufacturer shall declare whether the system will be able to avoid a collision, and the preconditions under which it will, for the scenario 'Cut-out of lead vehicle with an interfering vehicle' (Annex 4, par. 4.2.5.2.17), without driver intervention in non-highway environments.",
+      "reason": "This scenario row is new and was not in the old Appendix 4 paragraph 4 table.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 3 / Appendix 4 / 4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where not indicated as 'Not Applicable', the manufacturer shall declare whether the system will be able to avoid a collision, and the preconditions under which it will, for the scenario 'Pedestrian target crossing into the path of the VUT during drive around manoeuvre' (Annex 4, par. 4.2.5.2.18), without driver intervention in non-highway environments.",
+      "reason": "This scenario row is new and was not in the old Appendix 4 paragraph 4 table.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 3 / Appendix 4 / 4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where not indicated as 'Not Applicable', the manufacturer shall declare whether the system will be able to avoid a collision, and the preconditions under which it will, for the scenario 'VUT crosses the straight path of the vehicle target in a partially obstructed intersection' (Annex 4, par. 4.2.5.2.19), without driver intervention in non-highway environments.",
+      "reason": "This scenario row is new and was not in the old Appendix 4 paragraph 4 table.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 3 / Appendix 4 / 4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where not indicated as 'Not Applicable', the manufacturer shall declare whether the system will be able to avoid a collision, and the preconditions under which it will, for the scenario 'VUT turns across a path of an oncoming vehicle and cyclist' (Annex 4, par. 4.2.5.2.20), without driver intervention in non-highway environments.",
+      "reason": "This scenario row is new and was not in the old Appendix 4 paragraph 4 table.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 3 / Appendix 4 / 4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "At least one extended test associated with each applicable base test shall be performed or witnessed during the approval process.",
+      "reason": "Extended tests are new. The old Annex 4 / 1 had no equivalent obligation.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Further extended tests shall be performed or witnessed during the approval process at the request of the Type Approval Authority.",
+      "reason": "New TAA-request provision for further extended tests.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For those extended tests that are not performed during the approval process, the manufacturer shall provide evidence of the required system behaviour in those scenarios.",
+      "reason": "New manufacturer evidence obligation for extended tests not performed.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During the assessment according to Annex 3, the Type Approval Authority may identify scenarios of particular relevance with regard to safety risk.",
+      "reason": "New TAA permission.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "An identified scenario with particular safety relevance may replace a base or extended test scenario only if the manufacturer provides satisfactory evidence of test performance of the replaced scenario.",
+      "reason": "New conditional replacement permission.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The rationale for replacing a base or extended test and a detailed description of the identified scenario applied shall be documented in the test report.",
+      "reason": "New documentation obligation tied to scenario replacement.",
+      "source": {
+        "page": 58,
+        "paragraph": "Annex 4 / 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems where identical initial conditions (e.g., path or positioning) of the vehicle in a given scenario may not always result in a repeatable outcome (e.g. using non-rule-based algorithms), the manufacturer shall explain this deviation to the Type Approval Authority.",
+      "reason": "New paragraph imposing a manufacturer explanation duty for non-repeatable systems. No old requirement in the provided base or old context covers it. Annex 4 3.1.6.2 repeat-test rules and 3.1.6.1 TAA-defined parameter combinations address different matters.",
+      "source": {
+        "page": 64,
+        "paragraph": "Annex 4 / 4.2.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems where identical initial conditions (e.g., path or positioning) of the vehicle in a given scenario may not always result in a repeatable outcome (e.g. using non-rule-based algorithms), the manufacturer shall agree with the Type Approval Authority on the ranges of different test parameterization that do not modify the objective of the test scenario and diverge from other requirements of this regulation.",
+      "reason": "Separate mandatory action: agreement with the TAA on parameterization ranges. It is distinct from the explanation step, and old 3.1.6.1 gives the TAA unilateral definition of test parameter combinations, so this is not an equivalent.",
+      "source": {
+        "page": 64,
+        "paragraph": "Annex 4 / 4.2.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle in an intersection (4.2.5.2.13.1), the target vehicle (passenger car or motorcycle) shall approach at a speed of up to 60 km/h, depending on the declared system boundaries.",
+      "reason": "The old text has an identical sentence only at 4.2.5.2.14.1.2, which is the separate scenario where the VUT crosses the straight path of a vehicle target. It is flagged missing_parent_clause. In the new text the sentence sits under 4.2.5.2.13.1 for the turning scenario. The speed limit for the target is therefore a separately scoped test-procedure obligation for the turning base test. There is no base requirement equivalent, so it is added.",
+      "source": {
+        "page": 76,
+        "paragraph": "Annex 4 / 4.2.5.2.13.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for a longitudinally moving bicycle target ahead in lane, the test shall confirm the declared response capability of the system for a longitudinally moving target and any lateral movement navigating around the target, if applicable.",
+      "reason": "New base test scenario (longitudinally moving bicycle target ahead in lane, 4.2.5.2.16). The old 4.2.5.2.8.1 covers a stationary bicycle target, which is a different test scope, so this is a separately scoped test obligation. The wording is repeated but the procedure scope is new. The Type Approval Authority conducts or witnesses it under 4.2.5 for the declared operating domains.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 / 4.2.5.2.16.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for the longitudinally moving bicycle target ahead in lane, the bicycle target shall be positioned within the driving path of the VUT facing away from the subject vehicle.",
+      "reason": "New test scenario 4.2.5.2.16 (longitudinally moving bicycle target ahead in lane) introduces its own positioning requirement for the target. Wording repeats the stationary bicycle test in 4.2.5.2.8.1.1, but that is a separate procedure with a different scope, so this is a distinct obligation scoped to the new moving-bicycle base test.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 / 4.2.5.2.16.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for the longitudinally moving bicycle target ahead in lane, the VUT shall approach the impact point with the cyclist target in a straight line for at least two seconds prior to the functional part of the test.",
+      "reason": "Repeated wording from the stationary bicycle test (4.2.5.2.8.1.2) now applies to the newly introduced longitudinally moving bicycle target scenario (4.2.5.2.16). The new procedure scope creates a separately applicable obligation, so it is not a modification or duplicate of an old requirement.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 / 4.2.5.2.16.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for a longitudinally moving bicycle target ahead in lane (Annex 4, 4.2.5.2.16.1), the bicycle target shall travel with a constant speed of 20 (+1/-1) km/h.",
+      "reason": "The clause sets a specific bicycle target speed and tolerance for the newly introduced longitudinally moving bicycle base test. The old context has no equivalent: the 15 km/h crossing bicycle speeds in 4.2.5.2.10.1.1 and 4.2.5.2.12.1.1 apply to different scenarios and have different tolerances.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 / 4.2.5.2.16.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Annex 4 / 4.2.5 / 4.2.5.2 / 4.2.5.2.16 / 4.2.5.2.16.2 Extended testing for the longitudinally moving bicycle target ahead in lane: the test shall demonstrate that the system is not unreasonably changing the control strategy for a bicycle.",
+      "reason": "The clause is a new extended-test obligation for the new scenario 4.2.5.2.16 (longitudinally moving bicycle target ahead in lane). The old context has similar extended-test wording only for other scenarios (stationary pedestrian, stationary bicycle, crossing bicycle). The scenario scope differs, so this is not a relocation of any old obligation. The old requirements R-116 and R-117 are generic Appendix 4 control-strategy provisions and are not scenario-specific Annex 4 extended tests, so they are not modified by this clause.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.16.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for a longitudinally moving bicycle target ahead in lane, the test shall be executed at least with a bicycle target positioned with different offsets, up to the target being outside of the driving path of the VUT.",
+      "reason": "The offset variation resembles stationary bicycle 4.2.5.2.8.2.1(a). This clause belongs to the new longitudinally moving bicycle scenario (4.2.5.2.16), which has no old counterpart, so it is a separately scoped procedure.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for a longitudinally moving bicycle target ahead in lane, the test shall be executed at least with a different speed of the VUT.",
+      "reason": "The VUT speed variation exists in the old stationary bicycle test, but the moving bicycle scenario is new. This is a separately scoped test variation.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for a longitudinally moving bicycle target ahead in lane, the test shall be executed at least with a different speed of the bicycle target within the range of 10-25 km/h.",
+      "reason": "The bicycle target speed range of 10-25 km/h has no counterpart in the old text. It applies only to the new moving bicycle scenario.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Base Test: the test shall confirm the declared response capability of the system for a cut-out of the lead M1 category vehicle when other vehicles are fully or partially blocking the lane.",
+      "reason": "New scenario 4.2.5.2.17 'Cut-out of lead vehicle with an interfering vehicle'. The old 4.2.5.2.5.1 base test covers cut-out of the lead M1 vehicle without blocking vehicles. The blocking-vehicle condition extends the test scope, so this is a separate, newly scoped test obligation and not a renumbering.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for cut-out of the lead vehicle with an interfering vehicle (other vehicles fully or partially blocking the lane), the vehicle cutting out shall perform a full lane change (e.g., 3.5 m lateral displacement) into the adjacent lane to avoid the stationary vehicle target, with the measurement behind the stationary vehicle target indicating the start of the lane change and the measurement in front of the stationary vehicle target indicating the end of the lane change.",
+      "reason": "The wording repeats 4.2.5.2.5.1.1 (cut-out base test). It now applies to the new scenario 4.2.5.2.17 (cut-out with an interfering/blocking vehicle), a separately scoped test procedure under the new base test 4.2.5.2.17.1. The old procedure remains for its own scenario, so this is a new obligation, not a relocation.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for cut-out of the lead vehicle with an interfering vehicle, the indicated TTC is defined as the TTC of the lead vehicle to the target at the moment the lead vehicle starts the lane change.",
+      "reason": "The wording is identical to old 4.2.5.2.5.1.2 (cut-out without interfering vehicle). It now sits under the new scenario 4.2.5.2.17 (cut-out with an interfering vehicle), so it applies to a new procedure scope. It is a separately scoped obligation, not a relocation. No base requirement (R-...) covers it.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for cut-out of the lead vehicle with an interfering vehicle, the lead vehicle shall not use indicators during the lane change manoeuvre.",
+      "reason": "This is a separate test-procedure restriction (second sentence). It has the same wording as old 4.2.5.2.5.1.2, but it applies to the new interfering-vehicle scenario 4.2.5.2.17. No base requirement covers it.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the cut-out of lead vehicle with an interfering vehicle base test (4.2.5.2.17.1), the cutting out vehicle shall not deviate from its defined path by more than ±0.2 m.",
+      "reason": "The wording matches old 4.2.5.2.5.1.3, but it now sits under the new interfering-vehicle scenario 4.2.5.2.17. That is a new test procedure scope, so it creates a separately scoped obligation. The old cut-out test continues in its own scenario.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the cut-out of lead vehicle with an interfering vehicle base test (4.2.5.2.17.1), the cut-out at TTC = 3 s shall be run with VUT set speed 70 km/h, lead vehicle (M1 category) speed 50 km/h, lane change lateral acceleration of the SOV 1.5 m/s2, lane change length 44 m and radius of turning segment 130 m.",
+      "reason": "The parameter table is repeated from old 4.2.5.2.5.1.3, but it now applies to the new interfering-vehicle scenario. It is a separate test-parameter obligation.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the base test for cut-out of the lead vehicle with an interfering vehicle, the blocking vehicle in the adjacent lane shall drive under conditions where the VUT is prevented from changing lanes, specifically where the conditions of paragraph 6.2.4.1. are not met.",
+      "reason": "New blocking-vehicle set-up in the new scenario 4.2.5.2.17. The old context has no equivalent. The old cut-out test 4.2.5.2.5.1 and the 6.2.4.1 lane-change conditions are not the same obligation.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During the cut-out of the lead vehicle in the interfering vehicle base test, the blocking vehicle in the adjacent lane shall, as one trajectory case, continue with the same constant speed. The shared condition is that the blocking vehicle drives so that the VUT is prevented from changing lanes (conditions of paragraph 6.2.4.1. not met).",
+      "reason": "Independent blocking trajectory (a). The shared blocking condition is repeated because the trajectories are split into separate cases.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During the cut-out of the lead vehicle in the interfering vehicle base test, the blocking vehicle in the adjacent lane shall, as another trajectory case, brake with the same deceleration as the VUT, blocking the way of the lane change, until the VUT stops or passes the static target. The shared condition is that the blocking vehicle drives so that the VUT is prevented from changing lanes (conditions of paragraph 6.2.4.1. not met).",
+      "reason": "Independent blocking trajectory (b). The shared blocking condition is repeated because the trajectories are split into separate cases.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 / 4.2.5.2.17.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Extended Testing for cut-out of the lead vehicle with an interfering vehicle: the test shall demonstrate that the system is not unreasonably changing the control strategy for a cut-out of the lead vehicle.",
+      "reason": "Clause 4.2.5.2.17.2 sits under the new scenario 4.2.5.2.17 (cut-out of lead vehicle with an interfering vehicle, p.80). It repeats the wording of old 4.2.5.2.5.2, but that clause applies to the separate cut-out scenario 4.2.5.2.5. The new test scope is therefore a separate, independently applicable test obligation. It is not shown to be a renumbering, and the old clause remains in the new text.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for cut-out of the lead vehicle with an interfering vehicle (blocking vehicles fully or partially blocking the lane), the test shall be executed at least with a stationary vehicle target of a different type or category, including cyclist and pedestrian (if the system is designed to drive in non-highway roads).",
+      "reason": "Applies to the new interfering-vehicle scenario 4.2.5.2.17.2. The similar old 4.2.5.2.5.2.1(a) covers cut-out without an interfering vehicle and had no cyclist/pedestrian target or non-highway condition. This is a separate scoped obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for cut-out of the lead vehicle with an interfering vehicle, the test shall be executed at least with the cut-out occurring at less than 3 seconds TTC of the lead vehicle.",
+      "reason": "The old 4.2.5.2.5.2.1(b) wording is repeated, but under the new interfering-vehicle procedure scope, so it is a separate obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for cut-out of the lead vehicle with an interfering vehicle, the test shall be executed at least with different speeds of the VUT and lead vehicle.",
+      "reason": "The old 4.2.5.2.5.2.1(c) wording is repeated, but under the new interfering-vehicle procedure scope, so it is a separate obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for cut-out of the lead vehicle with an interfering vehicle, the test shall be executed at least with different lateral acceleration of the lead vehicle.",
+      "reason": "The old 4.2.5.2.5.2.1(d) wording is repeated, but under the new interfering-vehicle procedure scope, so it is a separate obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for cut-out of the lead vehicle with an interfering vehicle, the test shall be executed at least with impassable objects.",
+      "reason": "This test condition has no counterpart in the old cut-out extended test list.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Base Test for pedestrian target crossing into the path of the VUT during drive around manoeuvre: the test shall confirm the declared response capability of the system for a crossing pedestrian target, while another vehicle obstructs the lane of travel and the perception of the pedestrian target.",
+      "reason": "New scenario 4.2.5.2.18 (drive around manoeuvre) with an obstructing vehicle and obstructed perception. The old crossing-pedestrian base test (4.2.5.2.9.1) covers a plain crossing pedestrian without obstruction, so its scope differs. No old R-xxx requirement represents it, and the changed scope makes this a distinct obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for a pedestrian target crossing into the path of the VUT during drive around manoeuvre (Annex 4, 4.2.5.2.18.1), a static target shall be placed in front of the VUT with 50% overlap towards the edge of the road.",
+      "reason": "Test set-up for the new 4.2.5.2.18 scenario. The old 4.2.5.2.15.1.2 has the same static target placement, but it sits in a different scenario (adjacent-lane moving vehicle target, synchronised arrival). The scoped obligation is therefore new.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for a pedestrian target crossing into the path of the VUT during drive around manoeuvre (Annex 4, 4.2.5.2.18.1), the VUT shall travel at least 30 km/h toward the static target with system-initiated manoeuvring activated.",
+      "reason": "Speed and activation condition for the new scenario. It is a separate procedural step from the target placement. The old 4.2.5.2.15.1.2 and 4.2.5.2.15.1.3 conditions apply to a different scenario with a moving vehicle target.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for a pedestrian target crossing into the path of the VUT during drive around manoeuvre (Annex 4, 4.2.5.2.18.1), the VUT shall avoid collision with the target if performing a drive around manoeuvre.",
+      "reason": "Pass criterion for the new scenario. It is conditional on a drive around manoeuvre being performed. The old 4.2.5.2.15.1.3 requires avoiding collision with the targets in a different scenario, so equivalence is not established.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the pedestrian-crossing during drive around Base Test (Annex 4, 4.2.5.2.18.1.2), the pedestrian target shall travel in a straight line perpendicular to the VUT's direction of travel at a constant speed of 5 km/h +0/-0.4 km/h from a maximum of 1 m from the front of the static target.",
+      "reason": "New drive-around scenario (4.2.5.2.18). The pedestrian starts within 1 m of the static target's front, and the old 4.2.5.2.9.1.3 'starting not before the functional part of the test' wording and its separate scenario scope are absent. It is a separately scoped test-procedure obligation, not a continuation of the old crossing-pedestrian clause.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the pedestrian-crossing during drive around Base Test (Annex 4, 4.2.5.2.18.1.2), the pedestrian target's positioning shall be coordinated with the VUT so that the impact point of the pedestrian target on the front of the VUT is on the longitudinal centreline of the VUT if the VUT would remain at the speed it has when reaching the rear of the static target and does not brake.",
+      "reason": "The reference speed is the VUT speed on reaching the rear of the static target, rather than the prescribed test speed. No 0.2 m tolerance is stated, unlike old 4.2.5.2.9.1.3. This is a separate coordination obligation for the new scenario.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Extended testing for the pedestrian target crossing into the path of the VUT during drive around manoeuvre (Annex 4, 4.2.5.2.18): the test shall demonstrate that the system is not unreasonably changing the control strategy for a crossing pedestrian target.",
+      "reason": "Same wording as old 4.2.5.2.9.2 (plain crossing pedestrian), but the new clause applies to a separately introduced scenario, 4.2.5.2.18 (drive around manoeuvre with an obstructing static target). The new procedure scope creates a new extended-test obligation rather than a relocation. R-116/R-117 are the general control-strategy and demonstration duties in Appendix 4 and do not cover this scenario-specific test.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for the pedestrian target crossing into the path of the VUT during drive around manoeuvre (4.2.5.2.18.2), the test shall be executed at least with a static and pedestrian target of a different type and/or size.",
+      "reason": "Old 4.2.5.2.9.2.1(a) only varied pedestrian size, in a plain crossing scenario. This variation covers both the static target and the pedestrian target, and applies to the newly introduced drive around scenario 4.2.5.2.18.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for the pedestrian target crossing into the path of the VUT during drive around manoeuvre (4.2.5.2.18.2), the test shall be executed at least with a pedestrian target moving at a different, but constant speed.",
+      "reason": "The wording repeats old 4.2.5.2.9.2.1(b), but the scope is the newly introduced drive around scenario 4.2.5.2.18, so it is a separate obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended test for the pedestrian target crossing into the path of the VUT during drive around manoeuvre (4.2.5.2.18.2), the test shall be executed at least with a different angle of the pedestrian target path to the VUT path.",
+      "reason": "The wording repeats old 4.2.5.2.9.2.1(c), but the scope is the newly introduced drive around scenario 4.2.5.2.18, so it is a separate obligation.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the partially obstructed intersection scenario (VUT crossing the straight path of the vehicle target, Annex 4 / 4.2.5.2.19), the Base Test shall confirm the declared response capability of the system to recognize and offer right of way for a crossing vehicle target driving straight in an intersection.",
+      "reason": "The wording repeats old 4.2.5.2.14.1 (the unobstructed intersection Base Test), but the new paragraph sits under the newly introduced partially obstructed intersection scenario 4.2.5.2.19. It is therefore a separately applicable test obligation, not a renumbering of the old one. No base requirement (R-001 to R-117) covers it, so it is added.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 / 4.2.5.2.19.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the partially obstructed intersection (VUT crossing the straight path of a vehicle target), the VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target in an initial straight line in an intersection from the near side direction only, to collide the side of the target vehicle at 25 per cent along the length of the target with the centre front of the VUT.",
+      "reason": "The paragraph sits under the new partially obstructed intersection scenario 4.2.5.2.19. It restricts the approach direction to the near side, whereas the old 4.2.5.2.14.1.1 (unobstructed crossing) allows either near side or far side. This is a separately scoped test setup obligation, not a renumbering. No base requirement R-### corresponds to it.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the partially obstructed intersection (VUT crossing the straight path of the vehicle target), the target shall approach at a speed of up to 60 km/h, depending on the declared system boundaries.",
+      "reason": "The parameter is the same as in the unobstructed intersection test (4.2.5.2.14.1.2). It is repeated here under the new partially obstructed intersection procedure (4.2.5.2.19), so it is a separately applicable test parameter.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the partially obstructed intersection (VUT crossing the straight path of the vehicle target), the VUT is expected to give right of way to the crossing target.",
+      "reason": "The expected outcome is the same as in the unobstructed intersection test (4.2.5.2.14.1.2). It is repeated here as a separate pass expectation under the new partially obstructed scenario (4.2.5.2.19).",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT crossing the straight path of a vehicle target in a partially obstructed intersection (Annex 4 / 4.2.5.2.19.1), a static target shall be placed in the opposite direction of travel at the same side of the intersection, such that it obstructs the view of the coming moving target but does not interfere with the path of the VUT.",
+      "reason": "The view-obstructing static target set-up is new and applies only to the newly introduced partially obstructed intersection scenario (4.2.5.2.19). No old clause sets up a static target that obstructs the view of a moving target in an intersection test, so the prior addition is supported.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the partially obstructed intersection scenario (VUT crossing the straight path of the vehicle target), the extended test shall demonstrate that the system is not unreasonably changing the control strategy for a crossing vehicle target driving straight in an intersection.",
+      "reason": "The wording repeats old 4.2.5.2.14.2, but that clause is scoped to the unobstructed intersection scenario. This one sits under new scenario 4.2.5.2.19 (partially obstructed intersection), so it is a separately scoped extended-test obligation and not a relocation. No old requirement in the base inventory covers it. R-116 and R-117 are general Appendix 4 control-strategy statements, not this scenario-specific test.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended testing for the partially obstructed intersection (VUT crossing the straight path of a vehicle target), the test shall be executed at least with different target vehicle types or categories.",
+      "reason": "Separately scoped extended-test variation for the new partially obstructed intersection scenario (4.2.5.2.19.2). The old 4.2.5.2.14.2.1(a) applies to the unobstructed intersection scenario only.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended testing for the partially obstructed intersection (VUT crossing the straight path of a vehicle target), the test shall be executed at least with different overlaps.",
+      "reason": "Independent variation item for the new partially obstructed intersection scenario. The old 4.2.5.2.14.2.1(b) is scoped to the unobstructed scenario.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended testing for the partially obstructed intersection (VUT crossing the straight path of a vehicle target), the test shall be executed at least with different lane positions of the VUT and the moving target vehicle.",
+      "reason": "Independent variation item for the new partially obstructed intersection scenario. The old 4.2.5.2.14.2.1(c) is scoped to the unobstructed scenario.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the extended testing for the partially obstructed intersection (VUT crossing the straight path of a vehicle target), the test shall be executed at least with different positions of the static target.",
+      "reason": "New variation item with no counterpart in the old unobstructed-intersection list. It relates to the static view-obstructing target introduced in 4.2.5.2.19.1.3.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle and cyclist, the test shall confirm the declared response capability of the system for an oncoming vehicle target while the VUT is turning in an intersection with multiple targets.",
+      "reason": "Paragraph 4.2.5.2.20.1 is a new test scenario (4.2.5.2.20, oncoming vehicle plus cyclist). The old 4.2.5.2.13.1 base test covered a single oncoming vehicle target with no cyclist. The multiple-target scope is a separate procedure obligation, even though the wording is largely repeated.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.20.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle and cyclist (multiple targets), the VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target in an initial straight line followed by a turn in an intersection to cross the front edges of the target vehicle, with a lateral position giving a 50 per cent overlap of the width of the VUT.",
+      "reason": "The wording repeats the old oncoming-vehicle turning test (4.2.5.2.13.1.1), but it sits under the newly introduced multiple-target oncoming vehicle and cyclist test (4.2.5.2.20.1). That new procedure scope creates a separately applicable test obligation, and no base requirement represents it.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.20.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle and cyclist (multiple targets), the first target (the oncoming vehicle target) shall approach at a speed of up to 60 km/h.",
+      "reason": "The clause sits in a newly introduced multi-target scenario (4.2.5.2.20) and sets a speed limit for the first target. Similar wording in 4.2.5.2.14.1.2 / R-series Annex 4 clauses applies to different scenarios, and the new clause has no declared-system-boundaries qualifier. It is therefore a separately scoped new obligation.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.20.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle and cyclist (multiple targets), the cyclist target shall approach at 20 km/h +0/-0.4 km/h from a maximum of 1 m from the road edge.",
+      "reason": "New cyclist target speed, tolerance and start-position parameters for the multi-target turning scenario; no old clause has a cyclist target in this scenario.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.20.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Base Test for the VUT turning across the path of an oncoming vehicle and cyclist (multiple targets), the cyclist target's positioning shall be coordinated with the moving target so that the cyclist target reaches the centreline of the road two seconds after the rear of the moving target passes the same virtual centreline.",
+      "reason": "Separate timing-coordination obligation between the cyclist and the moving vehicle target; no old counterpart exists in any scenario.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 / 4.2.5.2.20.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the Extended testing for the scenario in which the VUT turns across the path of an oncoming vehicle and cyclist (Annex 4, 4.2.5.2.20), the test shall demonstrate that the system is not unreasonably changing the control strategy for an oncoming vehicle target while the VUT is turning in an intersection.",
+      "reason": "Identical wording exists under the separate scenario 4.2.5.2.13.2 (oncoming vehicle turn, no cyclist). The new clause sits under the new 4.2.5.2.20 scenario (oncoming vehicle and cyclist, multiple targets), so it is a separately applicable extended-test obligation. It is not a relocation of the old one, and the old 4.2.5.2.13.2 remains in the new text. No equivalent R-ID exists, because R-116 and R-117 are general control-strategy requirements in Appendix 4 of Annex 3 and not scenario-specific extended test procedures.",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 / 4.2.5.2.20.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the extended test in Annex 4, 4.2.5.2.20.2 (VUT turns across the path of an oncoming vehicle and cyclist; demonstrating that the system does not unreasonably change its control strategy for an oncoming vehicle target while the VUT is turning in an intersection), the test shall be executed at least with different target vehicle types or categories.",
+      "reason": "New scenario 4.2.5.2.20 (oncoming vehicle and cyclist). The same wording in the old 4.2.5.2.13.2.1(a) applies to a different scenario without a cyclist, so this is a separately scoped obligation.",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 / 4.2.5.2.20.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the extended test in Annex 4, 4.2.5.2.20.2 (VUT turns across the path of an oncoming vehicle and cyclist), the test shall be executed at least with different overlaps.",
+      "reason": "Separately scoped test variation for the new oncoming vehicle and cyclist scenario. The old 'different overlaps' items belong to other scenarios (4.2.5.2.13 and 4.2.5.2.14).",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 / 4.2.5.2.20.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For the extended test in Annex 4, 4.2.5.2.20.2 (VUT turns across the path of an oncoming vehicle and cyclist), the test shall be executed at least with different lane positions of the vehicles and target.",
+      "reason": "Separately scoped test variation for the new scenario. The old lane-position items apply to other scenarios (4.2.5.2.13 and 4.2.5.2.14).",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 / 4.2.5.2.20.2.1"
+      }
+    }
+  ]
+}

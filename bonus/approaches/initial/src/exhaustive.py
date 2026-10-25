@@ -434,7 +434,7 @@ def _validate_atomic_coverage(response: dict) -> None:
 
 
 def _call_cached(prompt: str,schema: dict,model: str,cache_dir: Path,usage: dict,usage_log: Path,phase: str,
-                 id_field: str,expected_ids: set[str]) -> dict:
+                 id_field: str,expected_ids: set[str],validate_response=None) -> dict:
     from jsonschema import Draft202012Validator
     from retrieval import llm
     validator = Draft202012Validator(schema)
@@ -446,6 +446,8 @@ def _call_cached(prompt: str,schema: dict,model: str,cache_dir: Path,usage: dict
         if validator.is_valid(cached) and _ids_match(cached,id_field,expected_ids):
             try:
                 _validate_atomic_coverage(cached)
+                if validate_response is not None:
+                    validate_response(cached)
                 return cached
             except ValueError:
                 pass
@@ -459,6 +461,8 @@ def _call_cached(prompt: str,schema: dict,model: str,cache_dir: Path,usage: dict
             if errors:raise ValueError("; ".join(e.message for e in errors[:4]))
             if not _ids_match(response,id_field,expected_ids):raise ValueError(f"Response must contain exactly one result for every assigned {id_field}")
             _validate_atomic_coverage(response)
+            if validate_response is not None:
+                validate_response(response)
             path.parent.mkdir(parents=True,exist_ok=True)
             path.write_text(json.dumps(response,ensure_ascii=False),encoding="utf-8")
             return response

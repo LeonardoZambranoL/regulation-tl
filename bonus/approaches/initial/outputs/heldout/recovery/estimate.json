@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-5-5",
+  "clause_reviews": 131,
+  "initial_old_reviews": 82,
+  "maximum_old_reviews": 117,
+  "clause_input_tokens_approx": 8395925,
+  "note": "One request per item before retries; cached requests cost nothing. Old-review count may grow through handoffs.",
+  "estimated_cost_usd_range": [
+    21.05,
+    38.69
+  ]
+}
