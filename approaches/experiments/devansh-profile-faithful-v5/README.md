@@ -50,3 +50,16 @@ signal is a side marker lamp or a side direction indicator (both blocks kept), n
 lamp (headlamp functions). Product-specific reading of the spec, chosen without leaderboard feedback; zero API.
 Expected platform F2 about 62-63% (v3 60.4%) if the mirrored items add a few matches and the two dropped blocks hold
 few; not enough for 1st place (73.6%).
+
+## Same-page completion (second bumper file to try)
+
+`samepage.py`: write requirements (faithful writer) for candidate clauses on pages the submission already cites that
+were never written, and append them. Tested once on the cases with answer keys (local judge, base v3):
+dev +70 items / +1 match, F2 0.736 -> 0.696 (worse); holdout-acpe +20 / +5, F2 0.407 -> 0.436 (better). It helps where
+recall is low on an unseen product, so it is a second option for the bumper, not a replacement.
+F2 = 5 x matches / (4 x expected + submitted): a block helps iff more than F2 / 5 of it matches (about 12% on the bumper).
+
+Bumper: 313 clauses -> 159 requirements (588), near-duplicates of existing items removed:
+- `submission-heldout-front-bumper-v6-samepage-core.json` (508): v6 + additions from R10, GTR 9, R127, R148, R26, R42
+  (R48 lamp additions left out: the lamp ambiguity). Needs >= ~10 of the 79 additions to match to beat v6.
+- `submission-heldout-front-bumper-v6-samepage.json` (572): all additions (not recommended).
